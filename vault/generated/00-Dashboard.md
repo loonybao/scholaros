@@ -15,7 +15,7 @@ _Generated 2026-07-17 — run `python -m compass export` to refresh._
 
 ## Needs manual review
 
-- [[opp_tampere_project_researcher_hti_2026]] — allowed_countries not set in constraints.yaml (null); nationality/export-control assessment not done (null)
+- [[opp_tampere_project_researcher_hti_2026]] — allowed_countries not set in constraints.yaml (null); posting mentions possible nationality/export-control restrictions — verify which roles are affected
 
 ## Target map
 

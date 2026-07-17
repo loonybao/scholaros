@@ -98,10 +98,34 @@ def eligibility_gate(
             reasons.append("funding/salary not confirmed on the posting")
             uncertain = True
 
-    # Nationality / export-control assessment.
-    if constraints.get("nationality_restrictions_assessment") is None:
-        reasons.append("nationality/export-control assessment not done (null)")
+    # Nationality / export-control restrictions: opportunity-specific fact.
+    # A position with NO stated restriction is never made uncertain by this
+    # dimension, regardless of the user's constraint value. The user's
+    # nationality/visa/clearance standing is never assumed or invented.
+    r_status = opp.official.nationality_restrictions_status
+    if r_status == "ambiguous":
+        reasons.append(
+            "posting mentions possible nationality/export-control restrictions "
+            "— verify which roles are affected"
+        )
         uncertain = True
+    elif r_status == "stated":
+        standing = constraints.get("restricted_position_eligibility")
+        if standing == "ineligible":
+            return (
+                "fail",
+                ["position states nationality/export-control restrictions and "
+                 "your confirmed standing is 'ineligible'"],
+                False,
+            )
+        if standing == "eligible":
+            pass  # confirmed eligible for restricted positions; no flag
+        else:  # null / unknown — never guess
+            reasons.append(
+                "position states nationality/export-control restrictions; your "
+                "eligibility standing is not confirmed (null)"
+            )
+            uncertain = True
 
     if uncertain:
         return "uncertain", reasons, True

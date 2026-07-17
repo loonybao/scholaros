@@ -23,6 +23,8 @@ expected_completion: null
 # Funding requirement: position must be salaried or fully funded.
 requires_funding: true
 
-# Visa/nationality notes affecting eligibility (null = not yet assessed;
-# e.g. some defence-related projects restrict by nationality/export control).
-nationality_restrictions_assessment: null
+# Confirmed standing for positions that EXPLICITLY STATE nationality or
+# export-control restrictions: "eligible" | "ineligible" | null (unknown —
+# such positions go to manual review). Positions with no stated restriction
+# are unaffected by this value. Never guessed.
+restricted_position_eligibility: null

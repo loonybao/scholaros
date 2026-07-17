@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research Compass</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-name">ScholarOS</div>
+      <div class="brand-sub">Research Compass</div>
+    </div>
+    <nav>
+      <a class="nav-item active" href="/">Dashboard</a>
+      <span class="nav-item disabled" title="Arrives in a later slice">Opportunities</span>
+      <span class="nav-item disabled" title="Arrives in a later slice">Labs &amp; Researchers</span>
+      <span class="nav-item disabled" title="Arrives in a later slice">Signals</span>
+      <span class="nav-item disabled" title="Arrives in a later slice">Skills Radar</span>
+      <span class="nav-item disabled" title="Arrives in a later slice">Applications</span>
+    </nav>
+    <div class="sidebar-note">Read-only (S2).<br>Writes arrive in S4/S6.</div>
+  </aside>
+
+  <main class="main">
+    <header class="page-header">
+      <h1>Research Compass — Dashboard</h1>
+      <div id="header-meta" class="header-meta"></div>
+    </header>
+
+    <section class="panel" id="panel-action-required">
+      <h2>Action required</h2>
+      <div id="action-cards" class="cards"></div>
+    </section>
+
+    <div class="two-col">
+      <section class="panel" id="panel-open">
+        <h2>Open opportunities</h2>
+        <div class="table-wrap"><table id="open-table"></table></div>
+      </section>
+
+      <div class="col-stack">
+        <section class="panel" id="panel-deadlines">
+          <h2>Upcoming deadlines (45 days)</h2>
+          <ul id="deadline-list" class="plain-list"></ul>
+        </section>
+
+        <section class="panel" id="panel-review">
+          <h2>Manual review queue</h2>
+          <div id="review-list"></div>
+        </section>
+      </div>
+    </div>
+
+    <section class="panel" id="panel-health">
+      <h2>System &amp; collector health</h2>
+      <div id="health" class="health-row"></div>
+    </section>
+
+    <footer class="page-footer" id="footer"></footer>
+  </main>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

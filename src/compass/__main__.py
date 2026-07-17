@@ -127,6 +127,25 @@ def cmd_new(cfg: Config, args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_rebuild_index(cfg: Config, args: argparse.Namespace) -> int:
+    from .index import rebuild_index
+
+    store = _make_store(cfg)
+    rows = rebuild_index(cfg, store)
+    print(f"rebuild-index: {rows} row(s) indexed at {cfg.paths.index / 'compass.sqlite'}")
+    return 0
+
+
+def cmd_serve(cfg: Config, args: argparse.Namespace) -> int:
+    from .web import serve
+
+    # Refresh derived layer so the dashboard shows current urgency/gates.
+    _recompute_all_derived(cfg, _make_store(cfg))
+    print(f"Research Compass dashboard: http://127.0.0.1:{args.port}/  (Ctrl+C to stop)")
+    serve(cfg, port=args.port)
+    return 0
+
+
 def cmd_status(cfg: Config, args: argparse.Namespace) -> int:
     store = _make_store(cfg)
     print("Research Compass status")
@@ -202,6 +221,10 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("migrate", help="apply schema migrations to canonical files")
     sub.add_parser("export", help="regenerate vault/generated/")
     sub.add_parser("status", help="record counts, review queue, collector health")
+    sub.add_parser("rebuild-index", help="rebuild the SQLite query index from canonical")
+
+    p_serve = sub.add_parser("serve", help="run the read-only web dashboard (127.0.0.1)")
+    p_serve.add_argument("--port", type=int, default=8000)
 
     p_new = sub.add_parser("new", help="create an entity from a YAML stub file")
     p_new.add_argument("type", help=f"one of {list(ENTITY_MODELS)}")
@@ -217,6 +240,8 @@ def main(argv: list[str] | None = None) -> int:
         "export": cmd_export,
         "new": cmd_new,
         "status": cmd_status,
+        "rebuild-index": cmd_rebuild_index,
+        "serve": cmd_serve,
     }
     return commands[args.command](cfg, args)
 

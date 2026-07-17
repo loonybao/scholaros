@@ -15,7 +15,7 @@ FULL_CONSTRAINTS = {
     "languages": ["English"],
     "excluded_language_requirements": [],
     "requires_funding": True,
-    "nationality_restrictions_assessment": "done",
+    "restricted_position_eligibility": None,
 }
 
 
@@ -42,7 +42,7 @@ def test_gate_never_guesses_null_as_pass():
         "languages": ["English"],
         "excluded_language_requirements": None,
         "requires_funding": True,
-        "nationality_restrictions_assessment": None,
+        "restricted_position_eligibility": None,
     }
     gate, _, review = eligibility_gate(opp, all_null, TODAY)
     assert gate == "uncertain" and review is True
@@ -96,6 +96,55 @@ def test_gate_fail_excluded_language():
     constraints = dict(FULL_CONSTRAINTS, excluded_language_requirements=["German"])
     gate, _, _ = eligibility_gate(opp, constraints, TODAY)
     assert gate == "fail"
+
+
+# --- nationality/export-control: opportunity-level fact, never a global gate ---
+
+def test_no_stated_restriction_not_uncertain_despite_null_standing():
+    """A position with no stated restriction must NOT become uncertain solely
+    because restricted_position_eligibility is null."""
+    opp = make_opportunity()  # default: nationality_restrictions_status=none_stated
+    constraints = dict(FULL_CONSTRAINTS, restricted_position_eligibility=None)
+    gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "pass"
+    assert review is False
+    assert not any("nationality" in r or "export-control" in r for r in reasons)
+
+
+def test_stated_restriction_with_null_standing_needs_review():
+    opp = make_opportunity(nationality_restrictions_status="stated")
+    constraints = dict(FULL_CONSTRAINTS, restricted_position_eligibility=None)
+    gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "uncertain"
+    assert review is True
+    assert any("not confirmed" in r for r in reasons)
+
+
+def test_stated_restriction_with_confirmed_eligible_passes():
+    opp = make_opportunity(nationality_restrictions_status="stated")
+    constraints = dict(FULL_CONSTRAINTS, restricted_position_eligibility="eligible")
+    gate, _, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "pass"
+    assert review is False
+
+
+def test_stated_restriction_with_confirmed_ineligible_fails():
+    opp = make_opportunity(nationality_restrictions_status="stated")
+    constraints = dict(FULL_CONSTRAINTS, restricted_position_eligibility="ineligible")
+    gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "fail"
+    assert review is False
+
+
+def test_ambiguous_restriction_needs_review_even_when_eligible():
+    """An ambiguous mention must be verified on the posting itself; a confirmed
+    standing cannot resolve it automatically."""
+    opp = make_opportunity(nationality_restrictions_status="ambiguous")
+    constraints = dict(FULL_CONSTRAINTS, restricted_position_eligibility="eligible")
+    gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "uncertain"
+    assert review is True
+    assert any("verify" in r for r in reasons)
 
 
 @pytest.mark.parametrize(

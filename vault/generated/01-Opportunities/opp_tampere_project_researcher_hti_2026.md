@@ -27,7 +27,7 @@ needs_review: true
 Gate: **uncertain** (days to deadline: 17)
 
 - allowed_countries not set in constraints.yaml (null)
-- nationality/export-control assessment not done (null)
+- posting mentions possible nationality/export-control restrictions — verify which roles are affected
 
 ## Description
 

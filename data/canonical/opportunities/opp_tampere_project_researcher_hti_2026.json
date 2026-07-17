@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 1,
   "created_at": "2026-07-17T13:08:13.135307Z",
-  "updated_at": "2026-07-17T13:08:18.546011Z",
+  "updated_at": "2026-07-17T13:29:42.541242Z",
   "change_history": [
     {
       "ts": "2026-07-17T13:08:13.136310Z",
@@ -21,6 +21,23 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-17T13:29:08.863297Z",
+      "actor": "manual",
+      "fields_changed": [
+        "official.nationality_restrictions_status",
+        "official.nationality_restrictions_text"
+      ],
+      "note": "nationality restrictions recorded as opportunity-level fact"
+    },
+    {
+      "ts": "2026-07-17T13:29:42.541242Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
     }
@@ -49,6 +66,8 @@
     "language_requirements": [
       "English"
     ],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Official posting: some projects may be subject to legal, sanctions or export-control restrictions affecting candidate eligibility.",
     "status": "open",
     "description_text": "Project Researcher positions in the Pervasive Interaction Research Group\n(TAUCHI Research Center), associated with the Tampere Accessibility Unit.\nResearch areas: Human-Technology Interaction, XR, accessibility, multimodal\ninteraction, inclusive digital technology for work and society. Potential\nproject assignments include: human-centred simulation and training in\nnetworked defence environments; human-AI collaboration in industrial\nsettings; human-centred AI for meaningful and efficient work; conversational\nand accessible interaction with industrial digital twins; novel interactive\napplications for inclusive work environments; human augmentation in\nindustrial and defence contexts. Work may involve software development,\nVR/AR/XR, experimental design, user evaluations, and collection/analysis of\nobjective and subjective data. Some selected candidates are expected to\npursue doctoral studies; after obtaining doctoral study rights the title can\nchange to Doctoral Researcher.\n\nApplication materials: motivation letter (max 1 page, independently\nwritten); CV including a 1-2 minute video self-introduction link; a clear\nlist of relevant skills; portfolio of software, research outputs or design\nprojects; degree certificates; transcript of completed Master's degree.\n\nNote: some projects may be subject to legal, sanctions or export-control\nrestrictions affecting candidate eligibility.\n"
   },
@@ -57,7 +76,7 @@
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "allowed_countries not set in constraints.yaml (null)",
-      "nationality/export-control assessment not done (null)"
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected"
     ],
     "fit_overall": null,
     "urgency": "high",

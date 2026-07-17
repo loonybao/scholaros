@@ -106,6 +106,15 @@ class OpportunityOfficial(BaseModel):
     duration_text: Optional[str] = None
     location: Optional[str] = None
     language_requirements: list[str] = Field(default_factory=list)
+    # Nationality/export-control restrictions are an OPPORTUNITY-level official
+    # fact, not a global assumption:
+    #   none_stated — the posting states no such restriction
+    #   stated      — the posting explicitly states a restriction
+    #   ambiguous   — the posting hints at possible restrictions unclearly
+    nationality_restrictions_status: Literal[
+        "none_stated", "stated", "ambiguous"
+    ] = "none_stated"
+    nationality_restrictions_text: Optional[str] = None
     status: Literal["open", "closed", "expired", "unknown"] = "unknown"
     description_text: str = ""
 

@@ -43,7 +43,7 @@ def cfg(tmp_paths: Paths) -> Config:
             "languages": ["English"],
             "excluded_language_requirements": [],
             "requires_funding": True,
-            "nationality_restrictions_assessment": "done 2026-07",
+            "restricted_position_eligibility": None,
         },
     )
 
