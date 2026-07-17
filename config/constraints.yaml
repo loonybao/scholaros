@@ -1,0 +1,28 @@
+# Hard eligibility constraints. UNKNOWN VALUES STAY null — never invent defaults.
+# Any null constraint that a check depends on yields eligibility_gate=uncertain
+# and needs_review=true (manual review), never a guess.
+
+# Countries I can/will work in. null = not yet decided (any European country
+# triggers uncertain until this is filled).
+allowed_countries: null
+
+# Earliest realistic start date (ISO date). null = unknown.
+earliest_start: null
+
+# Languages I can work in professionally.
+languages:
+  - English
+# Languages I explicitly cannot meet if required (null = unknown).
+excluded_language_requirements: null
+
+# Degree I will hold at application time.
+degree_held: "MSc by Research"
+# Expected thesis completion date (ISO date). null = unknown.
+expected_completion: null
+
+# Funding requirement: position must be salaried or fully funded.
+requires_funding: true
+
+# Visa/nationality notes affecting eligibility (null = not yet assessed;
+# e.g. some defence-related projects restrict by nationality/export control).
+nationality_restrictions_assessment: null

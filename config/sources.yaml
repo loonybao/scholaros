@@ -1,0 +1,36 @@
+# Official data sources. Collectors are implemented per source (S3+).
+# enabled: false until the collector exists and is tested.
+
+sources:
+  - id: aalto
+    organisation: Aalto University
+    type: university-vacancies
+    url: https://www.aalto.fi/en/open-positions
+    priority: 1
+    enabled: false          # S3
+    rate_limit_seconds: 5
+
+  - id: tampere
+    organisation: Tampere University
+    type: university-vacancies
+    url: https://www.tuni.fi/en/tau/work-with-us/open-positions
+    priority: 2
+    enabled: false          # S3
+    rate_limit_seconds: 5
+    notes: English page lists only positions published in English; Finnish-only roles are on the Finnish page.
+
+  - id: tudelft
+    organisation: TU Delft
+    type: university-vacancies
+    url: https://careers.tudelft.nl/go/All-jobs/9021002/
+    priority: 1
+    enabled: false          # S5 — SAP SuccessFactors; probe JSON endpoints first, cookie fallback (TUDELFT_COOKIE in .env)
+    rate_limit_seconds: 10
+
+  - id: euraxess
+    organisation: EURAXESS
+    type: aggregator
+    url: https://euraxess.ec.europa.eu/jobs/search
+    priority: 3
+    enabled: false          # S5 — use filtered search URLs only; merge duplicates INTO university-source records
+    rate_limit_seconds: 10

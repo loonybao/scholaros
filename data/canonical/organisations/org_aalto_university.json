@@ -1,0 +1,34 @@
+{
+  "id": "org_aalto_university",
+  "entity_type": "organisation",
+  "schema_version": 1,
+  "created_at": "2026-07-17T13:08:11.824953Z",
+  "updated_at": "2026-07-17T13:08:11.825953Z",
+  "change_history": [
+    {
+      "ts": "2026-07-17T13:08:11.825953Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "created from org_aalto.yaml"
+    }
+  ],
+  "official": {
+    "name": "Aalto University",
+    "org_type": "university",
+    "parent_org_id": null,
+    "country": "Finland",
+    "city": "Espoo",
+    "website": "https://www.aalto.fi/en",
+    "careers_url": "https://www.aalto.fi/en/open-positions",
+    "retrieved_at": null,
+    "evidence_ids": []
+  },
+  "ai": null,
+  "manual": {
+    "priority": "high",
+    "target": true,
+    "notes": "Priority-1 target institution."
+  }
+}

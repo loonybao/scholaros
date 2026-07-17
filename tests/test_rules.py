@@ -1,0 +1,139 @@
+from datetime import date
+
+import pytest
+
+from compass.rules import (
+    eligibility_gate,
+    expire_stale,
+    propose_decision,
+    urgency,
+)
+from conftest import TODAY, make_opportunity
+
+FULL_CONSTRAINTS = {
+    "allowed_countries": ["Finland", "Netherlands"],
+    "languages": ["English"],
+    "excluded_language_requirements": [],
+    "requires_funding": True,
+    "nationality_restrictions_assessment": "done",
+}
+
+
+def test_gate_pass_when_everything_known():
+    opp = make_opportunity()
+    gate, reasons, review = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
+    assert gate == "pass"
+    assert review is False
+
+
+def test_gate_uncertain_on_null_constraint():
+    opp = make_opportunity()
+    constraints = dict(FULL_CONSTRAINTS, allowed_countries=None)
+    gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "uncertain"
+    assert review is True
+    assert any("allowed_countries" in r for r in reasons)
+
+
+def test_gate_never_guesses_null_as_pass():
+    opp = make_opportunity()
+    all_null = {
+        "allowed_countries": None,
+        "languages": ["English"],
+        "excluded_language_requirements": None,
+        "requires_funding": True,
+        "nationality_restrictions_assessment": None,
+    }
+    gate, _, review = eligibility_gate(opp, all_null, TODAY)
+    assert gate == "uncertain" and review is True
+
+
+def test_gate_uncertain_on_unknown_status():
+    opp = make_opportunity(status="unknown")
+    gate, reasons, review = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
+    assert gate == "uncertain" and review is True
+    assert any("status unknown" in r for r in reasons)
+
+
+def test_gate_uncertain_on_null_requires_funding():
+    opp = make_opportunity()
+    constraints = dict(FULL_CONSTRAINTS, requires_funding=None)
+    gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "uncertain" and review is True
+    assert any("requires_funding" in r for r in reasons)
+
+
+def test_gate_fail_deadline_passed():
+    opp = make_opportunity(deadline=date(2026, 7, 1))
+    gate, reasons, review = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
+    assert gate == "fail"
+    assert review is False
+
+
+def test_gate_fail_closed_status():
+    opp = make_opportunity()
+    opp.official.status = "closed"
+    gate, _, _ = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
+    assert gate == "fail"
+
+
+def test_gate_fail_country_not_allowed():
+    opp = make_opportunity(location="Berlin, Germany")
+    gate, reasons, _ = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
+    assert gate == "fail"
+    assert any("Germany" in r for r in reasons)
+
+
+def test_gate_uncertain_unknown_language():
+    opp = make_opportunity(language_requirements=["English", "Finnish"])
+    gate, reasons, review = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
+    assert gate == "uncertain"
+    assert any("Finnish" in r for r in reasons)
+
+
+def test_gate_fail_excluded_language():
+    opp = make_opportunity(language_requirements=["German"])
+    constraints = dict(FULL_CONSTRAINTS, excluded_language_requirements=["German"])
+    gate, _, _ = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "fail"
+
+
+@pytest.mark.parametrize(
+    "deadline,expected",
+    [
+        (None, "none"),
+        (date(2026, 7, 20), "urgent"),   # 3 days
+        (date(2026, 8, 3), "high"),      # 17 days
+        (date(2026, 8, 25), "medium"),   # 39 days
+        (date(2026, 12, 1), "low"),
+    ],
+)
+def test_urgency(deadline, expected):
+    urg, _ = urgency(deadline, TODAY)
+    assert urg == expected
+
+
+@pytest.mark.parametrize(
+    "gate,fit,conf,expected_decision,expected_auto",
+    [
+        ("fail", 90, 0.9, "reject", True),
+        ("pass", 80, 0.9, "apply", False),      # apply NEVER auto-finalizes
+        ("pass", 65, 0.9, "consider", False),
+        ("pass", 50, 0.9, "monitor", True),
+        ("pass", 20, 0.9, "reject", True),
+        ("uncertain", 50, 0.9, "monitor", False),  # uncertain gate blocks auto
+        ("pass", 50, 0.5, "monitor", False),       # low confidence blocks auto
+        ("pass", None, None, "monitor", False),
+    ],
+)
+def test_propose_decision(gate, fit, conf, expected_decision, expected_auto):
+    decision, auto = propose_decision(gate, fit, conf, confidence_threshold=0.75)
+    assert decision == expected_decision
+    assert auto is expected_auto
+
+
+def test_expire_stale():
+    fresh = make_opportunity(deadline=date(2026, 8, 3))
+    stale = make_opportunity(deadline=date(2026, 7, 1))
+    assert expire_stale(fresh, TODAY) is False
+    assert expire_stale(stale, TODAY) is True

@@ -1,0 +1,34 @@
+{
+  "id": "per_markku_turunen",
+  "entity_type": "person",
+  "schema_version": 1,
+  "created_at": "2026-07-17T13:08:12.696743Z",
+  "updated_at": "2026-07-17T13:08:12.697743Z",
+  "change_history": [
+    {
+      "ts": "2026-07-17T13:08:12.697743Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "created from per_turunen.yaml"
+    }
+  ],
+  "official": {
+    "name": "Markku Turunen",
+    "org_id": "org_tampere_pervasive_interaction",
+    "title": "Professor",
+    "profile_url": "https://www.tuni.fi/en/markku-turunen",
+    "scholar_url": null,
+    "email": null,
+    "retrieved_at": null,
+    "evidence_ids": []
+  },
+  "ai": null,
+  "manual": {
+    "contact_status": "not_contacted",
+    "priority": "high",
+    "last_check": null,
+    "notes": "PI of the Tampere Project Researcher (HTI) call, deadline 2026-08-03."
+  }
+}

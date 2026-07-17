@@ -1,0 +1,37 @@
+# Target research identity: what kind of researcher I want to become.
+# Fit analysis asks "does this opportunity move me toward this identity?",
+# not merely "does the posting mention XR?".
+
+statement: >
+  Design and evaluate human-centred immersive systems that enhance spatial
+  understanding, learning and collaboration — a human-centred XR/HCI
+  researcher, not a purely technical XR engineer.
+
+core_themes:
+  - human-centred-xr
+  - collaborative-immersive-systems
+  - immersive-learning
+  - spatial-cognition
+  - wayfinding
+  - real-world-spatial-transfer
+  - social-and-multiplayer-interaction
+
+target_position_types:
+  - doctoral-researcher
+  - phd-candidate
+  - project-researcher
+  - research-assistant-with-phd-pathway
+
+target_institutions:
+  priority_1: [Aalto University, TU Delft]
+  priority_2: [Tampere University, other European groups with >=70% methodological fit]
+
+excluded_directions:
+  # A position whose CORE is one of these is a poor fit even if it mentions XR.
+  - pure-computer-vision
+  - slam
+  - robotics-control
+  - graphics-rendering
+  - gpu-optimisation
+  - embedded-systems
+  - pure-machine-learning-algorithms

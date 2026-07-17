@@ -1,0 +1,77 @@
+# Controlled skill vocabulary. Collectors/AI must map free-text skill mentions
+# to these ids via aliases. Never create uncontrolled spelling variants.
+
+programming:
+  - id: unity
+    label: Unity
+    aliases: [unity3d, "unity 3d", "unity engine"]
+  - id: csharp
+    label: "C#"
+    aliases: ["c#", "c sharp", "c-sharp", "csharp", "unity c#"]
+  - id: python
+    label: Python
+    aliases: [python3]
+  - id: r
+    label: R
+    aliases: ["r language", "r statistics"]
+  - id: cpp
+    label: "C++"
+    aliases: ["c++", "cplusplus"]
+  - id: unreal-engine
+    label: Unreal Engine
+    aliases: [unreal, ue4, ue5]
+
+research_methods:
+  - id: experimental-design
+    label: Experimental design
+    aliases: [experiment design, controlled experiments, "between-subjects design", "within-subjects design"]
+  - id: user-studies
+    label: User studies
+    aliases: [user study, user evaluation, usability testing, user research]
+  - id: quantitative-research
+    label: Quantitative research
+    aliases: [quantitative methods, quantitative analysis]
+  - id: qualitative-research
+    label: Qualitative research
+    aliases: [qualitative methods, interviews, thematic analysis]
+  - id: mixed-methods
+    label: Mixed methods
+    aliases: [mixed-method research]
+  - id: statistics
+    label: Statistics
+    aliases: [statistical analysis, inferential statistics]
+  - id: mixed-effects-modelling
+    label: Mixed-effects modelling
+    aliases: [mixed effects models, multilevel modelling, hierarchical models, "linear mixed models", lmm]
+  - id: behavioural-logging
+    label: Behavioural logging
+    aliases: [behavioral logging, interaction logging, telemetry analysis, "behavioural data"]
+  - id: academic-writing
+    label: Academic writing
+    aliases: [scientific writing, publication writing]
+
+xr_lab:
+  - id: virtual-reality
+    label: Virtual Reality
+    aliases: [vr, "virtual environments"]
+  - id: augmented-reality
+    label: Augmented Reality
+    aliases: [ar]
+  - id: mixed-reality
+    label: Mixed Reality
+    aliases: [mr, xr, "extended reality"]
+  - id: eye-tracking
+    label: Eye tracking
+    aliases: [eyetracking, gaze tracking, "eye-tracking"]
+  - id: motion-capture
+    label: Motion capture
+    aliases: [mocap]
+  - id: physiological-sensing
+    label: Physiological sensing
+    aliases: [psychophysiology, biosignals, eda, ecg, "physiological measures"]
+  - id: three-dimensional-interaction
+    label: 3D interaction
+    aliases: ["3d interaction", "3d user interfaces", 3dui, "spatial interaction"]
+  - id: multiplayer-networking
+    label: Multiplayer networking
+    aliases: [photon, netcode, "networked vr", "multi-user vr", "social vr development"]

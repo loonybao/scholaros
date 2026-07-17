@@ -1,0 +1,32 @@
+# LLM configuration. Credentials live in .env (COMPASS_API_KEY / COMPASS_API_BASE_URL).
+
+api:
+  provider: openai-compatible
+  model: null               # fill in when the cheap API details are known (S4)
+  temperature: 0.2
+  max_input_characters: 30000
+
+limits:
+  daily_cost_limit_usd: 1.00
+  max_ai_items_per_run: 20
+
+thresholds:
+  # Below this confidence a proposal is never auto-finalized; it goes to manual review.
+  confidence_autodecide: 0.75
+  # decision=apply is NEVER auto-finalized regardless of confidence (enforced in rules.py).
+
+# LLM context whitelist (enforced in llm.py). ONLY these content classes may be
+# sent to the API. Anything not listed is refused at the call site.
+context_whitelist:
+  - opportunity_official_text
+  - signal_official_text
+  - organisation_official_text
+  - person_official_text
+  - taxonomy
+  - profile_skill_summary
+  - profile_domain_summary
+  - target_identity_statement
+
+# Never sent, under any circumstances (tested):
+#   vault/notes/*, full private CV, recommendation letters,
+#   private correspondence, unpublished manuscript full text.

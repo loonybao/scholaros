@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Derived / disposable data
+data/raw/
+data/index/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+
+# Obsidian workspace state (vault content itself IS versioned)
+vault/.obsidian/workspace*

@@ -1,0 +1,79 @@
+{
+  "id": "opp_tampere_project_researcher_hti_2026",
+  "entity_type": "opportunity",
+  "schema_version": 1,
+  "created_at": "2026-07-17T13:08:13.135307Z",
+  "updated_at": "2026-07-17T13:08:18.546011Z",
+  "change_history": [
+    {
+      "ts": "2026-07-17T13:08:13.136310Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "created from opp_tampere.yaml"
+    },
+    {
+      "ts": "2026-07-17T13:08:18.546011Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Project Researcher (Human-Technology Interaction), 2-5 positions",
+    "org_id": "org_tampere_university",
+    "lab_org_id": "org_tampere_pervasive_interaction",
+    "source": "manual",
+    "source_native_id": null,
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?jgid=3&jid=3110&o=A_RJ",
+    "apply_url": null,
+    "evidence_ids": [],
+    "retrieved_at": "2026-07-17T00:00:00Z",
+    "raw_snapshot_hash": null,
+    "extracted_content_hash": null,
+    "deadline": "2026-08-03",
+    "deadline_note": "23:59 Finland time",
+    "start_date": "September 2026 (negotiable)",
+    "posted_date": null,
+    "position_type": "project_researcher",
+    "funding": "salaried, fixed-term",
+    "salary_text": "starting approx. EUR 2500/month gross (Finnish university salary system)",
+    "duration_text": "1-3 years depending on qualifications, project and role",
+    "location": "Tampere, Finland",
+    "language_requirements": [
+      "English"
+    ],
+    "status": "open",
+    "description_text": "Project Researcher positions in the Pervasive Interaction Research Group\n(TAUCHI Research Center), associated with the Tampere Accessibility Unit.\nResearch areas: Human-Technology Interaction, XR, accessibility, multimodal\ninteraction, inclusive digital technology for work and society. Potential\nproject assignments include: human-centred simulation and training in\nnetworked defence environments; human-AI collaboration in industrial\nsettings; human-centred AI for meaningful and efficient work; conversational\nand accessible interaction with industrial digital twins; novel interactive\napplications for inclusive work environments; human augmentation in\nindustrial and defence contexts. Work may involve software development,\nVR/AR/XR, experimental design, user evaluations, and collection/analysis of\nobjective and subjective data. Some selected candidates are expected to\npursue doctoral studies; after obtaining doctoral study rights the title can\nchange to Doctoral Researcher.\n\nApplication materials: motivation letter (max 1 page, independently\nwritten); CV including a 1-2 minute video self-introduction link; a clear\nlist of relevant skills; portfolio of software, research outputs or design\nprojects; degree certificates; transcript of completed Master's degree.\n\nNote: some projects may be subject to legal, sanctions or export-control\nrestrictions affecting candidate eligibility.\n"
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "allowed_countries not set in constraints.yaml (null)",
+      "nationality/export-control assessment not done (null)"
+    ],
+    "fit_overall": null,
+    "urgency": "high",
+    "days_to_deadline": 17,
+    "needs_review": true
+  },
+  "manual": {
+    "notes": "First end-to-end test case for Research Compass. Source facts recorded from the official posting as reported on 2026-07-17; re-verify deadline and salary on the official page before applying.\n",
+    "tags": [
+      "tampere",
+      "hti",
+      "xr",
+      "first-e2e-test-case"
+    ],
+    "eligibility_override": null,
+    "priority_override": null,
+    "hidden": false
+  }
+}

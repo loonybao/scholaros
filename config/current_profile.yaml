@@ -1,0 +1,104 @@
+# Current research profile. Skills reference taxonomy.yaml ids.
+# Levels: none | beginner | intermediate | advanced. Confidence: low | medium | high.
+
+education:
+  degree: MSc by Research (in progress, thesis stage)
+  institution: Multimedia University (MMU), Faculty of Creative Multimedia
+  country: Malaysia
+  conventional_cgpa: false
+
+research_summary: >
+  Master's research on faculty-level university orientation through a
+  human-centred XR application: digital twin of the campus, metaverse
+  orientation, gamification. Core mechanism is structured role-dependent
+  multiplayer collaboration (information asymmetry, positive interdependence,
+  communication, mutual confirmation, role switching). Primary outcomes:
+  spatial familiarity and real-world wayfinding performance.
+
+domains:
+  - human-computer-interaction
+  - human-centred-xr
+  - collaborative-immersive-systems
+  - immersive-learning
+  - spatial-cognition
+  - spatial-learning
+  - wayfinding
+  - real-world-spatial-transfer
+  - multiplayer-social-immersive-interaction
+  - design-science-research
+  - usability-and-technology-acceptance
+  - digital-twin
+  - metaverse-orientation
+  - gamification
+
+publications:
+  first_author_journal_articles: 1
+  systematic_mapping_review: in-progress
+  thesis: in-progress
+
+skills:
+  - id: unity
+    level: advanced
+    evidence: "Master's XR orientation application; full development ownership"
+    recency: 2026
+    confidence: high
+  - id: csharp
+    level: advanced
+    evidence: "All Unity gameplay/system code for the Master's project"
+    recency: 2026
+    confidence: high
+  - id: multiplayer-networking
+    level: intermediate
+    evidence: "Photon multiplayer role-based collaboration system; Spatial.io"
+    recency: 2026
+    confidence: high
+  - id: user-studies
+    level: intermediate
+    evidence: "Planned and ran user studies for the Master's project"
+    recency: 2026
+    confidence: high
+  - id: experimental-design
+    level: intermediate
+    evidence: "Experimental evaluation of spatial familiarity and wayfinding transfer"
+    recency: 2026
+    confidence: medium
+  - id: quantitative-research
+    level: intermediate
+    evidence: "Questionnaires and task-performance measures"
+    recency: 2026
+    confidence: medium
+  - id: academic-writing
+    level: intermediate
+    evidence: "First-author journal article; systematic mapping review in progress"
+    recency: 2026
+    confidence: medium
+  - id: virtual-reality
+    level: advanced
+    evidence: "Immersive XR orientation system design and development"
+    recency: 2026
+    confidence: high
+  - id: python
+    level: beginner
+    evidence: "No substantial project experience yet"
+    recency: null
+    confidence: medium
+  - id: statistics
+    level: beginner
+    evidence: "Basic analysis for user studies; no mixed-effects modelling yet"
+    recency: 2026
+    confidence: medium
+  - id: eye-tracking
+    level: none
+    evidence: null
+    recency: null
+    confidence: high
+  - id: physiological-sensing
+    level: none
+    evidence: null
+    recency: null
+    confidence: high
+  - id: mixed-effects-modelling
+    level: none
+    evidence: null
+    recency: null
+    confidence: high

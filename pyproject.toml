@@ -1,0 +1,29 @@
+[project]
+name = "scholaros-research-compass"
+version = "0.1.0"
+description = "ScholarOS Research Compass - personal research career intelligence system"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.111",
+    "uvicorn>=0.30",
+    "pydantic>=2.7",
+    "requests>=2.32",
+    "beautifulsoup4>=4.12",
+    "pyyaml>=6.0",
+    "openai>=1.30",
+    "python-dotenv>=1.0",
+    "filelock>=3.13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
