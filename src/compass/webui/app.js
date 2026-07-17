@@ -24,6 +24,11 @@ const fitText = (row) =>
     ? "not analyzed"
     : `fit ${row.fit_overall}`;
 
+const emptyState = (message, hint) =>
+  `<div class="empty">${esc(message)}` +
+  (hint ? `<span class="empty-hint">${esc(hint)}</span>` : "") +
+  `</div>`;
+
 function nextAction(row) {
   if (row.needs_review) return "Resolve manual review (see queue below)";
   if (row.urgency === "urgent" || row.urgency === "high")
@@ -42,7 +47,10 @@ function renderActionRequired(dash) {
   const el = document.getElementById("action-cards");
   const rows = dash.action_required;
   if (!rows.length) {
-    el.innerHTML = '<div class="empty">Nothing needs action right now.</div>';
+    el.innerHTML = emptyState(
+      "Nothing needs action right now.",
+      "Urgent deadlines and records waiting for review will appear here."
+    );
     return;
   }
   el.innerHTML = rows
@@ -57,7 +65,9 @@ function renderActionRequired(dash) {
           ${r.needs_review ? badge("needs review", "review") : ""}
         </div>
         <div class="card-row">Deadline: ${esc(r.deadline || "unknown")} · ${esc(fitText(r))}</div>
-        <div class="card-action">Next: ${esc(nextAction(r))}</div>
+        <div class="card-action">
+          <span class="card-action-label">Next action</span>${esc(nextAction(r))}
+        </div>
       </div>`
     )
     .join("");
@@ -67,7 +77,11 @@ function renderOpenTable(dash) {
   const el = document.getElementById("open-table");
   const rows = dash.open_opportunities;
   if (!rows.length) {
-    el.innerHTML = '<tr><td class="empty">No open opportunities.</td></tr>';
+    el.innerHTML =
+      `<tr><td>${emptyState(
+        "No open opportunities.",
+        "Run collectors (S3) or add one with: python -m compass new opportunity"
+      )}</td></tr>`;
     return;
   }
   const header =
@@ -94,7 +108,10 @@ function renderDeadlines(dash) {
   const el = document.getElementById("deadline-list");
   const rows = dash.upcoming_deadlines;
   if (!rows.length) {
-    el.innerHTML = '<li class="empty">No deadlines within 45 days.</li>';
+    el.innerHTML = `<li>${emptyState(
+      "No deadlines within 45 days.",
+      "Deadlines of open opportunities show up here automatically."
+    )}</li>`;
     return;
   }
   el.innerHTML = rows
@@ -112,7 +129,10 @@ function renderReviewQueue(dash) {
   const el = document.getElementById("review-list");
   const rows = dash.review_queue;
   if (!rows.length) {
-    el.innerHTML = '<div class="empty">Queue is empty.</div>';
+    el.innerHTML = emptyState(
+      "Queue is empty.",
+      "Records with unresolved eligibility or low confidence land here."
+    );
     return;
   }
   el.innerHTML = rows

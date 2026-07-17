@@ -63,7 +63,33 @@ nav { display: flex; flex-direction: column; gap: 2px; }
   font-size: 13px;
 }
 .nav-item.active { background: var(--surface); color: var(--ink); font-weight: 600; border: 1px solid var(--border); }
-.nav-item.disabled { color: var(--muted); cursor: default; }
+.nav-group-label {
+  margin: 14px 0 4px;
+  padding: 0 10px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.nav-item.future {
+  color: var(--muted);
+  cursor: default;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+.nav-tag {
+  font-size: 9px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 999px;
+  border: 1px solid var(--hairline);
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
 .sidebar-note { margin-top: auto; color: var(--muted); font-size: 11px; }
 
 /* ---------- main ---------- */
@@ -80,13 +106,18 @@ h2 { font-size: 13px; margin: 0 0 10px; text-transform: uppercase; letter-spacin
   padding: 14px 16px;
   margin-top: 16px;
 }
-.two-col { display: grid; grid-template-columns: 1.5fr 1fr; gap: 16px; align-items: start; }
+/* Open Opportunities ~2/3, right column ~1/3 but never squeezed unreadable. */
+.two-col { display: grid; grid-template-columns: minmax(0, 2fr) minmax(300px, 1fr); gap: 16px; align-items: start; }
 .col-stack { display: flex; flex-direction: column; }
-@media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+@media (max-width: 980px) { .two-col { grid-template-columns: 1fr; } }
 
-/* ---------- cards ---------- */
-.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+/* ---------- cards ----------
+   Flex wrap: cards grow from 320px up to 420px and the section collapses
+   to content height — a single card never stretches the panel. */
+.cards { display: flex; flex-wrap: wrap; gap: 12px; }
 .card {
+  flex: 1 1 320px;
+  max-width: 420px;
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 12px;
@@ -97,7 +128,24 @@ h2 { font-size: 13px; margin: 0 0 10px; text-transform: uppercase; letter-spacin
 .card-title { font-weight: 600; }
 .card-org { color: var(--ink-2); font-size: 12px; }
 .card-row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; font-size: 12px; }
-.card-action { color: var(--ink-2); font-size: 12px; border-top: 1px solid var(--hairline); padding-top: 6px; }
+.card-action {
+  margin-top: 4px;
+  padding: 7px 9px;
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+  color: var(--ink);
+  font-size: 12px;
+}
+.card-action .card-action-label {
+  display: block;
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 2px;
+}
 
 /* ---------- badges (color never alone: text always present) ---------- */
 .badge {
@@ -132,7 +180,16 @@ a:hover { text-decoration: underline; }
 .review-item { padding: 8px 0; border-bottom: 1px solid var(--hairline); font-size: 13px; }
 .review-item:last-child { border-bottom: none; }
 .review-reasons { color: var(--ink-2); font-size: 12px; margin: 4px 0 0; padding-left: 18px; }
-.empty { color: var(--muted); font-size: 13px; }
+/* Intentional empty state: a visible placeholder, not a blank gap. */
+.empty {
+  color: var(--muted);
+  font-size: 13px;
+  border: 1px dashed var(--hairline);
+  border-radius: 8px;
+  padding: 14px 16px;
+  text-align: center;
+}
+.empty .empty-hint { display: block; font-size: 11px; margin-top: 3px; }
 
 /* ---------- health ---------- */
 .health-row { display: flex; gap: 22px; flex-wrap: wrap; font-size: 13px; }
