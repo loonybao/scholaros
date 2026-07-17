@@ -26,7 +26,6 @@ needs_review: true
 
 Gate: **uncertain** (days to deadline: 30)
 
-- allowed_countries not set in constraints.yaml (null)
 - funding/salary not confirmed on the posting
 
 ## Description

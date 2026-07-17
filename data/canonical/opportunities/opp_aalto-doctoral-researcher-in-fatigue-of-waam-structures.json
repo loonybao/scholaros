@@ -1,0 +1,75 @@
+{
+  "id": "opp_aalto-doctoral-researcher-in-fatigue-of-waam-structures",
+  "entity_type": "opportunity",
+  "schema_version": 1,
+  "created_at": "2026-07-17T15:34:31.711875Z",
+  "updated_at": "2026-07-17T15:36:13.291208Z",
+  "change_history": [
+    {
+      "ts": "2026-07-17T15:34:31.711875Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-17T15:36:13.291208Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher in Fatigue of WAAM Structures",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-in-fatigue-of-waam-structures",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-fatigue-of-waam-structures",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-Researcher-in-Fatigue-of-WAAM-Structures_R47034/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-in-fatigue-of-waam-structures"
+    ],
+    "retrieved_at": "2026-07-17T15:34:31.711875Z",
+    "raw_snapshot_hash": "b400ed54e30f9fca09bd0dfdc67d599304efa1d8725f852a96286aa0ebabd2b5",
+    "extracted_content_hash": "29d271311d4477dc1e5b2b1cc7398946170ea7e3542dcb4850a3d9c76b8cbc40",
+    "deadline": "2026-07-31",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "posted_date": "2026-06-04",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges.\nOur community is made up of\n16\n000 students\nand 5 200 employees, including 446\nprofessors\n. Our\ncampus\nis\nin Espoo, Greater Helsinki, Finland.\nDiversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe School of Engineering drives science and innovation in industrial and built environment technologies. We are committed to educating a new generation of experts who combine technical excellence with a deep understanding of sustainable development in shaping societies. Our research focuses on sustainable built environment, mechanics and materials, multidisciplinary energy technology, and design and implementation of technical systems. The strength of our school lies in close collaboration with stakeholders across research and education. About 50 doctoral candidates and 400 master’s students graduate from the school every year. The school is home to 700 staff members, including 70 professors. To learn more, please visit eng.aalto.fi.\nThe Department of Energy and Mechanical Engineering at the Aalto University School of Engineering invites applications for\nDoctoral Researcher Position in Fatigue of WAAM Structures\nAalto University\nDepartment of Energy and Mechanical Engineering\nis a community of around 300 staff members – including 30 tenure-track professors – assembled to research, teach, create, and develop solutions to society’s needs. Key research areas include marine and arctic technology; energy technologies and systems; mechanical systems and mechatronics; and materials, manufacturing, and product development. We have strong links to industry, creating lasting impact in both business and society.\nAre you a passionate developer of the new era in fatigue design of sustainable structures?\nWe are now looking for a fully funded Doctoral Researcher position focused on fatigue modelling of Wire Arc Additive Manufacturing (WAAM) components and structures. The position is embedded in the EU-funded FATDED project (\nhttps://fatded.projectsites.aalto.fi/\n). The doctoral researcher position is in the Advanced Marine Structures group, led by Professors Heikki Remes and Jani Romanoff, which is well known for its research on the fatigue of advanced welded structures and the interaction of materials and structures under practical design and production constraints. The position will also be supported by the FATDED Consortium, which includes leading European experts and companies in the field.\nYour role and goals\nIn this position, your doctoral research will focus on how WAAM-induced geometric and material imperfections affect fatigue strength. You will identify repeating surface features in WAAM builds and investigate suitable geometry and material properties to quantify their effects on fatigue life. Theoretical and numerical modelling will be validated with fatigue experiments. The key feature of the investigation is the role of local geometry imperfections, such as undercuts, in explaining their link to local stress–strain fields and fatigue crack initiation. Your research work will contribute to the development of international guidelines for fatigue design of WAAM components and structures.\nThis doctoral project integrates detailed geometry and microstructure with physics-based simulation to understand fatigue in WAAM components. The work involves characterizing as-built surfaces and reconstructing them into high-fidelity finite element models that preserve key geometric features. Simulations will estimate local stress concentrations and cyclic strain to assess fatigue life, guided by measurements of spatially varying material properties and microstructural features such as grain size. The simulation results will be validated with full-field deformation data and fatigue experiments, culminating in a predictive framework that links WAAM surface and microstructural heterogeneity to fatigue initiation and life.\nYour experience and ambitions\nCandidates must hold a Master’s degree in mechanical or materials engineering, applied mechanics, naval architecture, or a related field. A strong background in fatigue, solid and structural mechanics, materials behavior, or additive manufacturing is appreciated. Finite element analysis, meshing complex geometries, and experimental data interpretation for validation are considered necessary for the work. A strong command of English and the ability to work primarily on campus are essential. In addition, the following skills are considered assets, but they can also be learnt during doctoral studies: experience with surface scanning and point-cloud processing, hardness-to-property correlations, constitutive modelling, microstructural analysis via SEM/EBSD, and scripting in Python or MATLAB.\nWhat we offer\nThe position offers a meaningful research topic with high industrial relevance and impact through the EU FATDED consortium, strong supervision and mentoring, and access to state-of-the-art experimental facilities and numerical modelling resources. You will have ample professional development opportunities through courses, workshops, and project collaborations, as well as a competitive doctoral-researcher salary of 3,143–3,742 €/month. We at Aalto University promote a healthy work–life balance with a hybrid work model; your primary workplace will be Aalto University’s Otaniemi campus (Espoo), which offers excellent services and transport links. You will join an inclusive community guided by Aalto’s values of responsibility, courage, and collaboration.\nHow to apply\nTo apply, please submit your application by\nJuly 31, 2026 (23:59 EET)\nthrough our recruiting system by using the\n\"Apply now\n!\" link. Please include the following documents in English as one PDF file:\nMotivation letter\nCurriculum vitae\nStudy records\nAny research outputs (e.g., thesis, journal or conference papers)\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) using their existing Workday user account (not via the external open positions webpage). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\n.\nFor more information\nIf you would like to learn more about the position, please contact Associate Professor Heikki Remes, heikki.remes(at)aalto.fi. For questions related to the application process, please contact hr-eng@aalto.fi.\nWe will review applications, and we may invite suitable candidates to interview during the application period.\nWant to know more about your future colleagues and us\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand c\nheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report 2025\nFor more information about living in Finland:\nAalto Careers for International Staff\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting"
+    ],
+    "fit_overall": null,
+    "urgency": "high",
+    "days_to_deadline": 14,
+    "needs_review": true
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "hidden": false
+  }
+}

@@ -10,8 +10,8 @@ from __future__ import annotations
 from .base import CollectStats, update_health
 
 SOURCE_MODULES = {
+    "aalto": "compass.collect.aalto",
     "tampere": "compass.collect.tampere",
-    # "aalto": "compass.collect.aalto",        # S3b
     # "tudelft": "compass.collect.tudelft",    # S5
     # "euraxess": "compass.collect.euraxess",  # S5
 }

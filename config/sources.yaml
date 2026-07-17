@@ -7,7 +7,7 @@ sources:
     type: university-vacancies
     url: https://www.aalto.fi/en/open-positions
     priority: 1
-    enabled: false          # S3
+    enabled: true           # collector implemented in S3b
     rate_limit_seconds: 5
 
   - id: tampere

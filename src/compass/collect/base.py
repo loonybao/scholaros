@@ -48,6 +48,7 @@ class RawPosting:
     canonical_url: str
     title: str
     org_id: str
+    lab_org_id: Optional[str] = None  # sub-organisation (school/lab/group)
     deadline: Optional[date] = None
     deadline_note: Optional[str] = None
     posted_date: Optional[date] = None
@@ -259,6 +260,7 @@ def upsert_opportunity(store: Store, posting: RawPosting) -> str:
             official = OpportunityOfficial(
                 title=posting.title,
                 org_id=posting.org_id,
+                lab_org_id=posting.lab_org_id,
                 source=posting.source,
                 source_native_id=posting.source_native_id,
                 canonical_url=posting.canonical_url,
@@ -292,6 +294,7 @@ def upsert_opportunity(store: Store, posting: RawPosting) -> str:
 
         o = existing.official
         o.title = posting.title
+        o.lab_org_id = posting.lab_org_id or o.lab_org_id
         o.source = posting.source
         o.source_native_id = posting.source_native_id
         o.canonical_url = posting.canonical_url
@@ -315,6 +318,33 @@ def upsert_opportunity(store: Store, posting: RawPosting) -> str:
         saved = store.save(existing, actor=actor, note="official facts refreshed")
         changed = saved.change_history[-1].actor == actor if saved.change_history else False
         return "updated" if changed else "unchanged"
+
+
+def ensure_organisation(
+    store: Store,
+    org_id: str,
+    name: str,
+    org_type: str,
+    parent_org_id: Optional[str],
+    source: str,
+) -> str:
+    """Create a sub-organisation record (e.g. a school/faculty) if missing.
+    Never modifies an existing record's manual layer."""
+    from ..models import Organisation, OrganisationOfficial
+
+    if store.exists("organisation", org_id):
+        return org_id
+    org = Organisation(
+        id=org_id,
+        official=OrganisationOfficial(
+            name=name,
+            org_type=org_type,
+            parent_org_id=parent_org_id,
+            retrieved_at=utcnow(),
+        ),
+    )
+    store.save(org, actor=f"collector:{source}", note="sub-organisation discovered")
+    return org_id
 
 
 # -------------------------------------------------------------------- health #

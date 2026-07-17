@@ -179,7 +179,7 @@ class OrganisationOfficial(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     name: str
-    org_type: Literal["university", "lab", "group", "funder", "other"]
+    org_type: Literal["university", "faculty", "lab", "group", "funder", "other"]
     parent_org_id: Optional[str] = None
     country: Optional[str] = None
     city: Optional[str] = None
