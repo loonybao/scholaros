@@ -127,6 +127,30 @@ def cmd_new(cfg: Config, args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_collect(cfg: Config, args: argparse.Namespace) -> int:
+    from .collect import run_collectors
+
+    store = _make_store(cfg)
+    results = run_collectors(cfg, store, only_source=args.source)
+    if not results:
+        print("collect: no sources ran (enable them in config/sources.yaml "
+              "or pass --source)")
+        return 1
+    failed = False
+    for source, stats in results.items():
+        if stats.error:
+            failed = True
+            print(f"{source}: FAILED — {stats.error}")
+        else:
+            print(f"{source}: {stats.fetched} listed, {stats.relevant} relevant, "
+                  f"{stats.created} created, {stats.updated} updated, "
+                  f"{stats.unchanged} unchanged, "
+                  f"{stats.skipped_irrelevant} skipped (non-research titles)")
+    _recompute_all_derived(cfg, store)
+    print("derived layer recomputed; run `compass export` / `compass serve` to view")
+    return 1 if failed else 0
+
+
 def cmd_rebuild_index(cfg: Config, args: argparse.Namespace) -> int:
     from .index import rebuild_index
 
@@ -223,6 +247,9 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("status", help="record counts, review queue, collector health")
     sub.add_parser("rebuild-index", help="rebuild the SQLite query index from canonical")
 
+    p_collect = sub.add_parser("collect", help="run collectors against official sources")
+    p_collect.add_argument("--source", help="run a single source regardless of enabled flag")
+
     p_serve = sub.add_parser("serve", help="run the read-only web dashboard (127.0.0.1)")
     p_serve.add_argument("--port", type=int, default=8000)
 
@@ -242,6 +269,7 @@ def main(argv: list[str] | None = None) -> int:
         "status": cmd_status,
         "rebuild-index": cmd_rebuild_index,
         "serve": cmd_serve,
+        "collect": cmd_collect,
     }
     return commands[args.command](cfg, args)
 

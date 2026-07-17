@@ -1,0 +1,76 @@
+{
+  "id": "opp_tampere-doctoral-researcher-signal-processing",
+  "entity_type": "opportunity",
+  "schema_version": 1,
+  "created_at": "2026-07-17T15:12:17.351847Z",
+  "updated_at": "2026-07-17T15:12:29.669262Z",
+  "change_history": [
+    {
+      "ts": "2026-07-17T15:12:17.351847Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-17T15:12:29.669262Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher (Signal Processing)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3111",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3111",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3111#login_form",
+    "evidence_ids": [
+      "tampere/3111"
+    ],
+    "retrieved_at": "2026-07-17T15:12:17.350853Z",
+    "raw_snapshot_hash": "f5211cccaddce21fd1bece0b7b26e0a23ea56b4fa88fb86e96992e7a47f0e517",
+    "extracted_content_hash": "c041eff2291033d5899c3c0ce663ce4605ce8ed1d19e1204acdbb234d792b0e0",
+    "deadline": "2026-08-27",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "posted_date": "2026-06-18",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "status": "open",
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our universities community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nWe are inviting applications for\na Doctoral Researcher\n(PhD student) position\nin Signal Processing. The research topic will lie in the intersection of statistical signal processing and optimization, with an emphasis on theory and algorithms. Key focus applications include array signal processing for sensing (e.g., radar, RF imaging, sonar) and wireless communications, where multisensor (MIMO) systems are, and will continue to be, a core technology.\nIn this position, the candidate is expected to:\ncarry out high-quality research on mutually agreed topics, as well as publish / present results in top international signal processing and machine learning journals / conferences\ncomplete a doctoral degree, including mandatory study credits required,\nassist in teaching tasks and undergraduate supervision (up to 5% of total working time).\nThe work will be supervised by Assistant Professor Robin Rajamäki. For a flavor of the type of research to be expected, see:\nGoogle Scholar:\nhttps://scholar.google.com/citations?hl=en&user=_ubr3QoAAAAJ&view_op=list_works&sortby=pubdate\nExample project description:\nhttps://research.fi/en/results/funding/88732\nPersonal website:\nhttps://rmrajama.github.io\nThe position is located in the\nFaculty of Information Technology and Communication Sciences\n, in the\nUnit of Computing Sciences\n. The work will be conducted on site, by default, as we encourage active participation in the local and vibrant research community\n. Partial remote work (e.g., 1–2 days a week) is possible, as separately negotiated.\nRequirements and further details\nTo qualify for this position, the candidate should have a master’s degree (or equivalent eligibility for doctoral studies) from electrical engineering, physics, mathematics, computer science, or another applicable field by the start of employment (January 1st, 2027 at the latest). A\nmathematical maturity and interest in theory-driven research grounded in mathematical modeling of physical systems is expected. Furthermore, the candidate should possess a solid foundation in signal processing; basic knowledge of statistics; a proficiency in MATLAB, Python, or an equivalent programming language; and strong oral and written communication skills in English (including satisfaction of the language skill requirements of the doctoral program of the discipline; see below).\nPrior research experience is not mandatory but may be considered an advantage. The candidate should clearly state their motivation for pursuing a doctoral degree in the cover letter.\nThe successful candidate needs to apply for and be granted a study right for a doctoral degree in the doctoral program of the discipline at Tampere University. Please visit\nthe admissions webpage\nfor more information on eligibility requirements.\nAbout the research environment\nThe research will be conducted at the Signal Processing Research Centre (SPRC) at Tampere University, Finland (\nhttps://www.tuni.fi/en/research/signal-processing-research-centre\n). SPRC houses several internationally respected research groups working on topics such as audio and speech processing, imaging, computer vision, and 3D-media.\nFinland is among the most stable, free and safe countries in the world, based on prominent ratings by various agencies. It is also ranked as one of the top countries as far as social progress is concerned. Tampere is counted among the major academic hubs in the Nordic countries and offers a dynamic living environment. The Tampere region is one of the most rapidly growing urban areas in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. Despite its growth, living in Tampere is highly affordable. In addition, the excellent public transport network enables quick, easy and cheap transportation around the city of Tampere and university campuses. Overall, working and living at Tampere provides a unique combination of international and ambitious academic environment, easy access to city, culture, and the surrounding nature with large forests and lakes, and an environment that supports developing a healthy work-life balance.\nRead more about Finland and Tampere:\nhttps://www.visitfinland.com\nhttps://finland.fi/\nhttps://visittampere.fi/en/\nWe offer\nThe expected starting date is October 1st, 2026, or as soon as possible. A later starting date is possible provided a good reason, such as an expected graduation date.\nThe latest possible starting date is January 1st, 2027. A trial period of 6 months is applied to all new employees. The duration of employment is 4 years, corresponding to the target completion time of doctoral studies.\nThe salary will be based on both the job requirements and the employee's personal performance in accordance with the\nFinnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of doctoral researcher is placed on level 2-4 of the job requirements scale. The starting salary for a Doctoral Researcher is 2,774 € / month, and it will increase during the studies based on the progress towards a completed doctoral degree. In addition, the position comes with extensive benefits such as occupational healthcare, excellent sports facilities, flexible working hours, and several restaurants and cafés on the campus with staff discounts. Traveling costs and daily allowances related to presenting peer-reviewed research outcomes in major international conferences is also covered.\nLocation of the work is Tampere, Finland — the largest inland city in the Nordic countries.\nHow to apply\nPlease submit your application through our online recruitment system (link below).\nWe will accept applications until the 27th of August, 2026 at 23:59 (EEST / UTC +3).\nThe application should contain the following documents (all in .pdf format):\nA free-form letter of motivation (cover letter) for the position in question (max. 1 page)\nComplete CV with contact information + a list of referees (if any) and publications (if any)\nA copy of a master’s degree certificate\nA transcript of records\nPlease name all the documents as surname_CV.pdf, surname_list_of_publications.pdf etc. Only the applications sent through the university application portal and containing the requested attachments in the instructed format will be considered in the recruitment process.\nThe most promising candidates will be interviewed in person or via remote meeting before the final decision.\nMore information\nFor more information about the position, please contact Assistant Professor Robin Rajamäki by email (firstname.surname@tuni.fi; no umlauts).\n-----------------------------------\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTampereen yliopistossa on haettavana Väitöskirjatutkijan tehtävä (signaalinkäsittely ja koneoppiminen).\nHAKUOHJEET\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta). Hakuaika tehtävään päättyy\n27.8.2026, klo 23:59."
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "allowed_countries not set in constraints.yaml (null)",
+      "funding/salary not confirmed on the posting"
+    ],
+    "fit_overall": null,
+    "urgency": "medium",
+    "days_to_deadline": 41,
+    "needs_review": true
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "hidden": false
+  }
+}

@@ -15,7 +15,7 @@ sources:
     type: university-vacancies
     url: https://www.tuni.fi/en/tau/work-with-us/open-positions
     priority: 2
-    enabled: false          # S3
+    enabled: true           # collector implemented in S3a
     rate_limit_seconds: 5
     notes: English page lists only positions published in English; Finnish-only roles are on the Finnish page.
 

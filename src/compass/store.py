@@ -17,6 +17,7 @@ import re
 import unicodedata
 from pathlib import Path
 from typing import Iterator, Optional
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 from filelock import FileLock
 
@@ -40,7 +41,30 @@ def slugify(text: str, max_len: int = 60) -> str:
 
 
 def normalize_title(title: str) -> str:
+    title = title.replace("–", "-").replace("—", "-")  # en/em dash
     return re.sub(r"\s+", " ", title.strip().lower())
+
+
+# Query params that never contribute to identity (session/tracking/language).
+_IGNORED_QUERY_PARAMS = {"rspvt", "lang", "utm_source", "utm_medium", "utm_campaign"}
+
+
+def normalize_url(url: str) -> str:
+    """Canonicalize a URL for identity comparison: lowercase host, sorted
+    query params, tracking/session params dropped, no fragment."""
+    parts = urlparse(url.strip())
+    query = sorted(
+        (k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+        if k not in _IGNORED_QUERY_PARAMS
+    )
+    return urlunparse((
+        parts.scheme.lower(),
+        parts.netloc.lower(),
+        parts.path.rstrip("/") or "/",
+        "",
+        urlencode(query),
+        "",
+    ))
 
 
 class Store:
@@ -154,13 +178,24 @@ class Store:
                 if opp.official.source_native_id == source_native_id:
                     return opp
         if canonical_url:
+            target = normalize_url(canonical_url)
             for opp in candidates:
-                if opp.official.canonical_url == canonical_url:
+                if normalize_url(opp.official.canonical_url) == target:
                     return opp
         if org_id and title:
             fp = (org_id, normalize_title(title), location or "", posted_date or "")
             for opp in candidates:
                 o = opp.official
+                # A candidate whose native id is known and DIFFERENT can never
+                # be the same posting, even if the fingerprint collides (two
+                # generic titles like "Postdoctoral Research Fellow" posted the
+                # same day are distinct positions).
+                if (
+                    source_native_id
+                    and o.source_native_id
+                    and o.source_native_id != source_native_id
+                ):
+                    continue
                 cand_fp = (
                     o.org_id,
                     normalize_title(o.title),

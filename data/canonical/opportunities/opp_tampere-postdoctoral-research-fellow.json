@@ -1,0 +1,92 @@
+{
+  "id": "opp_tampere-postdoctoral-research-fellow",
+  "entity_type": "opportunity",
+  "schema_version": 1,
+  "created_at": "2026-07-17T15:11:03.592105Z",
+  "updated_at": "2026-07-17T15:12:29.684273Z",
+  "change_history": [
+    {
+      "ts": "2026-07-17T15:11:03.592105Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-17T15:11:09.716482Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "official.apply_url",
+        "official.canonical_url",
+        "official.description_text",
+        "official.evidence_ids",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at",
+        "official.source_native_id"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-17T15:12:29.684273Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Research Fellow",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3134",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3134",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3134#login_form",
+    "evidence_ids": [
+      "tampere/3125",
+      "tampere/3134"
+    ],
+    "retrieved_at": "2026-07-17T15:11:09.715976Z",
+    "raw_snapshot_hash": "752f8436ab458d1b15bc754c810e9be764769aa2d2f3a35115052632da3f66a6",
+    "extracted_content_hash": "e5bdff640607815555ab07e73404c43df806d839e072fcac3a0ce04b8e38998e",
+    "deadline": "2026-08-03",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "posted_date": "2026-07-03",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "status": "open",
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our universities community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nThe research group of Wireless Systems\nat the\nElectrical Engineering Unit\nat the\nFaculty of Information Technology and Communication Sciences\nat Tampere University focuses on next-generation wireless communication systems and standards. Our research spans fundamental theory, algorithm design, system-level analysis, and practical implementations for 6G and beyond wireless technologies. We work on a broad range of topics, including advanced physical layer design, multiple-antenna systems, reconfigurable intelligent surfaces, integrated sensing and communications, non-terrestrial and UAV networks, physical layer security, quantum-enabled communications, semantic and AI-native wireless systems, and energy-efficient/low-power communication. Our vision is to develop disruptive wireless technologies that enable secure, intelligent, sustainable, and highly connected future networks for terrestrial, aerial, space, industrial, and defense applications.\nIn Autumn 2026, we will start a 3-year NSF-Research Council of Finland collaborative project “FORMULA3: Framework for Optimal Resource Management Using Generalizable AI in FR3 Dynamic Programmable Wireless Environments”. FORMULA3 targets the FR3 upper mid-band (7-24 GHz), which is being explored for 6G to support high-throughput and low-latency indoor and outdoor-to-indoor wireless connectivity. The project develops AI-native and ISAC-enhanced resource management methods for programmable wireless environments, including reconfigurable intelligent surfaces, metallic reflector arrays, and stacked intelligent metasurfaces.\nJOB DESCRIPTION\nWe are now looking for a postdoctoral researcher to join our team and contribute to the project FORMULA3, which develops generalizable AI-based resource management methods for dynamic FR3 programmable wireless environments. The work will focus on theoretical modeling, algorithm design, simulations, experimental validation, and testbed-oriented research for 6G wireless systems. Depending on the applicant's expertise and interests, the work may include:\nDeveloping models and methods for FR3 programmable wireless environments and RIS-aided communications.\nWorking on channel characterization, measurement-based modeling, and dataset generation for dynamic indoor and outdoor-to-indoor scenarios.\nInvestigating ISAC-derived context awareness and generalizable learning for robust wireless optimization.\nPerforming analytical work, simulations, and performance comparisons using suitable wireless and AI tools.\nContributing to testbed development, measurement campaigns, and validation of FR3 RIS-based communication concepts when relevant.\nPreparing high-quality scientific publications and contributing to project reporting and dissemination.\nParticipation in project management, mentoring of Ph.D. students, and supervision of thesis projects is expected. The job requires occasional travel to international conferences to disseminate research results. International research visits to other universities or research institutes are also possible.\nREQUIREMENTS\nSuccessful candidates hold a Ph.D. degree in\nelectrical engineering, wireless communications,\nor similar, and are familiar with physical layer wireless communications. They possess strong theoretical, practical, and/or programming skills and can demonstrate previous experience relevant to the tasks they are applying for.\nThe position also requires:\nAt least three publications in top IEEE ComSoc journals (IEEE TCOM, IEEE TWC, IEEE CL, IEEE WCL, IEEE TVT etc.) as the main contributing author\nStrong background in at least one of the following areas: physical-layer wireless communications, RIS or programmable wireless environments, FR3/upper-mid-band or mmWave channel modeling or measurements, AI/ML for wireless communications.\nGood English language skills\nAbility to independently conduct systematic scientific research\nAbility to work in a team and communicate clearly in a multidisciplinary and international environment\nWE OFFER\nThe position will be filled for a fixed-term period of 24 months with the possibility of extension. The starting date will be mutually agreed upon but can be as early as October 1st, 2026. A trial period of six months applies to all our new employees.\nThe salary will be based on both the job requirements and the employee's personal performance in accordance with\nthe Finnish University Salary System\n.\nThe salary of a postdoctoral researcher is at levels 5-6. A typical starting salary for a Postdoctoral Research Fellow is 4000 EUR per month.\nAs a member of staff at Tampere University, you will enjoy a range of competitive benefits, such as occupational health care services, flexible work schedule, versatile research infrastructure, modern teaching facilities and a safe and inviting campus area as well as a personal fund to spend on sports and cultural activities in your free time. Please read more about\nworking at Tampere University\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\n.\nInternational HR services offer their help with e.g. official issues in settling in Finland and Tampere.\nTampere region is one of the fastest growing city areas in Finland. Tampere is the largest inland city in the Nordic countries and a traditional centre of the Finnish industry. Today, the city is best known for its high-tech expertise and extensive knowhow in various fields. Tampere is also one of the most popular city in Finland for higher education studies.\nHOW TO APPLY\nPlease submit your application through our online recruitment system (link below).\nThe closing date for applications is 3.8.2026 (UTC +3 / EEST)\nApplications and all accompanying documentation must be in English.\nThe following documents should accompany your application:\na CV (with a list of publications)\na free-form application letter including names of two referees (max. 1 page)\ndegree certificates\nother relevant documents that support your application (e.g. D.Sc. thesis, the most relevant publications regarding the call (max. 3), etc.)\nFor questions and more information\n, please contact:\nProfessor Ertugrul Basar, ertugrul.basar@tuni.fi\n****\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTIIVISTELMÄ\nTampereen yliopiston informaatioteknologian ja viestinnän tiedekunnan sähkötekniikan yksikössä toimiva Wireless Systems -tutkimusryhmä keskittyy seuraavan sukupolven langattomiin viestintäjärjestelmiin ja -standardeihin. Tutkimuksemme kattaa muun muassa 6G- ja tulevaisuuden langattomat teknologiat, fyysisen kerroksen ratkaisut, moniantennijärjestelmät, uudelleenkonfiguroitavat älykkäät pinnat, integroidun havainnoinnin ja viestinnän, ei-maanpäälliset ja UAV-verkot, fyysisen kerroksen turvallisuuden, kvanttiteknologioita hyödyntävät viestintäratkaisut sekä energia- ja tehotehokkaan viestinnän.\nVuonna 2026 käynnistämme kolmivuotisen Suomen Akatemian ja Yhdysvaltain National Science Foundationin yhteistyöhankkeen “FORMULA3: Framework for Optimal Resource Management Using Generalizable AI in FR3 Dynamic Programmable Wireless Environments”. Hankkeessa kehitetään yleistyviä tekoälypohjaisia resurssienhallintamenetelmiä FR3-taajuusalueen dynaamisiin ohjelmoitaviin langattomiin ympäristöihin. Tutkimus liittyy 6G-verkkoihin, uudelleenkonfiguroitaviin älykkäisiin pintoihin, integroituun havainnointiin ja viestintään, kanavamallinnukseen sekä kokeelliseen validointiin.\nHaemme nyt tutkijatohtoria työskentelemään FORMULA3-hankkeessa FR3-taajuusalueen langattomien järjestelmien, tekoälypohjaisen resurssienhallinnan, RIS-teknologioiden, kanavamallinnuksen ja 6G-verkkojen parissa. Tarkemmat tiedot tehtävästä ja hakuohjeet löytyvät yllä olevasta englanninkielisestä ilmoituksesta.\nHakuaika tehtävään päättyy\n3.8.2026 (UTC +3 / EEST)."
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "allowed_countries not set in constraints.yaml (null)",
+      "funding/salary not confirmed on the posting"
+    ],
+    "fit_overall": null,
+    "urgency": "high",
+    "days_to_deadline": 17,
+    "needs_review": true
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "hidden": false
+  }
+}
