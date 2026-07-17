@@ -2,9 +2,18 @@
 # Any null constraint that a check depends on yields eligibility_gate=uncertain
 # and needs_review=true (manual review), never a guess.
 
-# Countries I can/will work in. null = not yet decided (any European country
-# triggers uncertain until this is filled).
-allowed_countries: null
+# Geographic scope. Confirmed scope: salaried/funded research positions across
+# Europe; Finland and the Netherlands are PREFERRED because Aalto and TU Delft
+# are primary targets. Preference affects strategic value only — it never
+# narrows the eligibility gate. A confirmed European location passes the
+# geography check without an exhaustive country whitelist.
+geography:
+  allowed_regions:
+    - Europe
+  preferred_countries:
+    - Finland
+    - Netherlands
+  excluded_countries: []
 
 # Earliest realistic start date (ISO date). null = unknown.
 earliest_start: null

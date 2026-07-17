@@ -39,7 +39,11 @@ def cfg(tmp_paths: Paths) -> Config:
     return Config(
         paths=tmp_paths,
         constraints={
-            "allowed_countries": ["Finland", "Netherlands"],
+            "geography": {
+                "allowed_regions": ["Europe"],
+                "preferred_countries": ["Finland", "Netherlands"],
+                "excluded_countries": [],
+            },
             "languages": ["English"],
             "excluded_language_requirements": [],
             "requires_funding": True,

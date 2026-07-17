@@ -52,10 +52,50 @@ def test_position_type_prefilter_is_field_agnostic():
     assert classify_position_type(
         "Doctoral Researcher (Computational Physics)"
     ) == "phd"
-    # Engineer role is skipped:
-    assert classify_position_type(
-        "Design, Simulation and Modelling Engineer for Advanced Semiconductor Packaging"
-    ) is None
+
+
+def test_classify_listing_three_way():
+    from compass.collect.base import classify_listing
+
+    cat, ptype, _ = classify_listing("Doctoral Researcher (Antenna Engineering)")
+    assert cat == "accepted" and ptype == "phd"
+
+    # Research-adjacent engineer titles must NOT be rejected by title alone:
+    for title in [
+        "Research Engineer",
+        "Research Software Engineer",
+        "XR Engineer",
+        "HCI Engineer",
+        "VR Software Developer",
+    ]:
+        cat, _, reason = classify_listing(title)
+        assert cat == "candidate", (title, reason)
+
+    # Confidently irrelevant:
+    for title in [
+        "Design, Simulation and Modelling Engineer for Advanced Semiconductor Packaging",
+        "Financial Administrator",
+        "Campus Facilities Manager",
+    ]:
+        cat, _, _ = classify_listing(title)
+        assert cat == "irrelevant", title
+
+
+def test_audit_log_written(cfg):
+    from compass.collect.base import PREFILTER_RULE_VERSION, audit_discovery
+    import json
+
+    audit_discovery(
+        cfg, "tampere", "9999", "XR Engineer", "https://example.org/x",
+        "candidate", "research-adjacent role keyword",
+    )
+    path = cfg.paths.status / "discovery_audit.jsonl"
+    lines = path.read_text(encoding="utf-8").strip().splitlines()
+    entry = json.loads(lines[-1])
+    assert entry["title"] == "XR Engineer"
+    assert entry["category"] == "candidate"
+    assert entry["rule_version"] == PREFILTER_RULE_VERSION
+    assert entry["url"] and entry["retrieved_at"] and entry["reason"]
 
 
 def test_detect_restrictions_never_yields_stated():

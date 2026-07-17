@@ -24,6 +24,27 @@ FIT_WEIGHTS = {
     "strategic": 0.15,
 }
 
+# Mechanical region membership for the geography gate. Council-of-Europe-style
+# wide definition; being here says nothing about visas or eligibility.
+EUROPE_COUNTRIES = {
+    "Albania", "Andorra", "Austria", "Belgium", "Bosnia and Herzegovina",
+    "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Czechia", "Denmark",
+    "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Iceland",
+    "Ireland", "Italy", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg",
+    "Malta", "Moldova", "Monaco", "Montenegro", "Netherlands",
+    "North Macedonia", "Norway", "Poland", "Portugal", "Romania", "San Marino",
+    "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland",
+    "Ukraine", "United Kingdom", "UK",
+}
+
+REGION_MEMBERS = {"Europe": EUROPE_COUNTRIES}
+
+
+def is_preferred_country(country: Optional[str], constraints: dict[str, Any]) -> bool:
+    """Preference feeds strategic value (S4+); it NEVER affects the gate."""
+    geo = constraints.get("geography") or {}
+    return bool(country) and country in (geo.get("preferred_countries") or [])
+
 
 def urgency(deadline: Optional[date], today: date) -> tuple[str, Optional[int]]:
     if deadline is None:
@@ -65,17 +86,29 @@ def eligibility_gate(
         reasons.append("deadline unknown — verify on the official page")
         uncertain = True
 
-    # Country constraint.
-    allowed_countries = constraints.get("allowed_countries")
+    # Geography. Regions gate; preferred countries do NOT (strategic only).
+    geo = constraints.get("geography")
     country = _country_of(opp)
-    if allowed_countries is None:
-        reasons.append("allowed_countries not set in constraints.yaml (null)")
+    if not geo or geo.get("allowed_regions") is None:
+        reasons.append("geography.allowed_regions not set in constraints.yaml")
         uncertain = True
     elif country is None:
         reasons.append("position country unknown")
         uncertain = True
-    elif country not in allowed_countries:
-        return "fail", [f"country '{country}' not in allowed_countries"], False
+    elif country in (geo.get("excluded_countries") or []):
+        return "fail", [f"country '{country}' is in excluded_countries"], False
+    else:
+        in_region = any(
+            country in REGION_MEMBERS.get(region, set())
+            for region in geo["allowed_regions"]
+        )
+        if not in_region:
+            return (
+                "fail",
+                [f"country '{country}' is outside allowed regions "
+                 f"{geo['allowed_regions']}"],
+                False,
+            )
 
     # Language requirements.
     languages = constraints.get("languages") or []

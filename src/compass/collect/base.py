@@ -34,6 +34,7 @@ class CollectStats:
     created: int = 0
     updated: int = 0
     unchanged: int = 0
+    candidates: int = 0
     skipped_irrelevant: int = 0
     error: Optional[str] = None
 
@@ -116,24 +117,86 @@ def save_evidence(
 
 # ------------------------------------------------------- relevance prefilter #
 
+PREFILTER_RULE_VERSION = "prefilter-v2"
+
 # Position-type detection (field-agnostic; domain fit is the LLM's job in S4).
 _POSITION_PATTERNS: list[tuple[str, str]] = [
     (r"doctoral\s+researcher|doctoral\s+student|phd\s+(student|position|candidate|researcher)|väitöskirjatutkija", "phd"),
     (r"postdoc|post-doctoral|postdoctoral", "postdoc"),
     (r"project\s+researcher|projektitutkija", "project_researcher"),
     (r"research\s+assistant|tutkimusapulainen", "research_assistant"),
-    (r"\bresearcher\b|\btutkija\b", "other"),
+    (r"\bresearcher\b|\btutkija\b|research\s+fellow", "other"),
 ]
+
+# Research-adjacent signals: an engineer/scientist/specialist title with any of
+# these is a CANDIDATE, never confidently irrelevant by title alone.
+_ADJACENT_ROLE = re.compile(r"engineer|scientist|specialist|developer", re.IGNORECASE)
+_ADJACENT_DOMAIN = re.compile(
+    r"\bresearch\b|\bxr\b|\bhci\b|\bvr\b|\bar\b|virtual\s+reality|"
+    r"augmented\s+reality|mixed\s+reality|interaction|user\s+experience|"
+    r"\bux\b|human.(centered|centred|computer|technology)|software",
+    re.IGNORECASE,
+)
 
 
 def classify_position_type(title: str) -> Optional[str]:
-    """Return position_type if the title looks like a research position we
-    track, else None (skip). Purely mechanical — no domain judgment."""
+    """Return position_type when the title is an accepted research position."""
     t = title.lower()
     for pattern, ptype in _POSITION_PATTERNS:
         if re.search(pattern, t):
             return ptype
     return None
+
+
+def classify_listing(title: str) -> tuple[str, Optional[str], str]:
+    """Classify a discovered listing title.
+
+    Returns (category, position_type, reason) where category is one of:
+      'accepted'   — research opportunity, ingest into canonical
+      'candidate'  — possible research-adjacent role (e.g. Research Engineer);
+                     NOT rejected by title alone, logged for review
+      'irrelevant' — confidently not a research opportunity
+
+    Mechanical title rules only (rule version PREFILTER_RULE_VERSION);
+    domain fit is judged later by reviewed AI (S4), never here.
+    """
+    ptype = classify_position_type(title)
+    if ptype is not None:
+        return "accepted", ptype, f"matched research-position pattern -> {ptype}"
+    if _ADJACENT_ROLE.search(title) and _ADJACENT_DOMAIN.search(title):
+        return (
+            "candidate",
+            None,
+            "research-adjacent role keyword + research/XR/HCI domain keyword",
+        )
+    return "irrelevant", None, "no research-position or research-adjacent signals"
+
+
+def audit_discovery(
+    cfg: Config,
+    source: str,
+    native_id: Optional[str],
+    title: str,
+    url: str,
+    category: str,
+    reason: str,
+) -> None:
+    """Append a non-accepted discovery to the auditable JSONL log so filtering
+    decisions can always be reviewed after the fact."""
+    path = cfg.paths.status / "discovery_audit.jsonl"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    entry = {
+        "retrieved_at": datetime.now(timezone.utc).isoformat(),
+        "source": source,
+        "native_id": native_id,
+        "title": title,
+        "url": url,
+        "category": category,
+        "reason": reason,
+        "rule_version": PREFILTER_RULE_VERSION,
+    }
+    with open(path, "a", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 
 _RESTRICTION_HINTS = re.compile(
@@ -284,6 +347,7 @@ def update_health(
                 "created": stats.created,
                 "updated": stats.updated,
                 "unchanged": stats.unchanged,
+                "candidates": stats.candidates,
                 "skipped_irrelevant": stats.skipped_irrelevant,
             }
     else:

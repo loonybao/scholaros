@@ -24,7 +24,8 @@ from ..store import Store
 from .base import (
     CollectStats,
     RawPosting,
-    classify_position_type,
+    audit_discovery,
+    classify_listing,
     detect_restrictions,
     fetch,
     save_evidence,
@@ -158,8 +159,16 @@ def collect(cfg: Config, store: Store) -> CollectStats:
     stats.fetched = len(entries)
 
     for entry in entries:
-        if classify_position_type(entry["title"]) is None:
-            stats.skipped_irrelevant += 1
+        category, _ptype, reason = classify_listing(entry["title"])
+        if category != "accepted":
+            audit_discovery(
+                cfg, SOURCE_ID, entry["native_id"], entry["title"],
+                canonical_url_for(entry["native_id"]), category, reason,
+            )
+            if category == "candidate":
+                stats.candidates += 1
+            else:
+                stats.skipped_irrelevant += 1
             continue
         stats.relevant += 1
 

@@ -142,10 +142,11 @@ def cmd_collect(cfg: Config, args: argparse.Namespace) -> int:
             failed = True
             print(f"{source}: FAILED — {stats.error}")
         else:
-            print(f"{source}: {stats.fetched} listed, {stats.relevant} relevant, "
+            print(f"{source}: {stats.fetched} listed, {stats.relevant} accepted, "
                   f"{stats.created} created, {stats.updated} updated, "
                   f"{stats.unchanged} unchanged, "
-                  f"{stats.skipped_irrelevant} skipped (non-research titles)")
+                  f"{stats.candidates} candidates (audited), "
+                  f"{stats.skipped_irrelevant} irrelevant (audited)")
     _recompute_all_derived(cfg, store)
     print("derived layer recomputed; run `compass export` / `compass serve` to view")
     return 1 if failed else 0

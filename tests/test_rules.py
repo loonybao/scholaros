@@ -11,7 +11,11 @@ from compass.rules import (
 from conftest import TODAY, make_opportunity
 
 FULL_CONSTRAINTS = {
-    "allowed_countries": ["Finland", "Netherlands"],
+    "geography": {
+        "allowed_regions": ["Europe"],
+        "preferred_countries": ["Finland", "Netherlands"],
+        "excluded_countries": [],
+    },
     "languages": ["English"],
     "excluded_language_requirements": [],
     "requires_funding": True,
@@ -28,17 +32,17 @@ def test_gate_pass_when_everything_known():
 
 def test_gate_uncertain_on_null_constraint():
     opp = make_opportunity()
-    constraints = dict(FULL_CONSTRAINTS, allowed_countries=None)
+    constraints = dict(FULL_CONSTRAINTS, geography=None)
     gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
     assert gate == "uncertain"
     assert review is True
-    assert any("allowed_countries" in r for r in reasons)
+    assert any("allowed_regions" in r for r in reasons)
 
 
 def test_gate_never_guesses_null_as_pass():
     opp = make_opportunity()
     all_null = {
-        "allowed_countries": None,
+        "geography": None,
         "languages": ["English"],
         "excluded_language_requirements": None,
         "requires_funding": True,
@@ -77,11 +81,51 @@ def test_gate_fail_closed_status():
     assert gate == "fail"
 
 
-def test_gate_fail_country_not_allowed():
+def test_gate_pass_any_european_country_without_whitelist():
+    """Germany is not a preferred country, but it IS Europe — the gate must
+    pass; preference only affects strategic value."""
     opp = make_opportunity(location="Berlin, Germany")
+    gate, reasons, review = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
+    assert gate == "pass"
+    assert review is False
+
+
+def test_gate_fail_outside_allowed_regions():
+    opp = make_opportunity(location="Boston, United States")
     gate, reasons, _ = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
     assert gate == "fail"
-    assert any("Germany" in r for r in reasons)
+    assert any("outside allowed regions" in r for r in reasons)
+
+
+def test_gate_fail_excluded_country():
+    opp = make_opportunity(location="Berlin, Germany")
+    constraints = dict(
+        FULL_CONSTRAINTS,
+        geography={
+            "allowed_regions": ["Europe"],
+            "preferred_countries": [],
+            "excluded_countries": ["Germany"],
+        },
+    )
+    gate, reasons, _ = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "fail"
+    assert any("excluded_countries" in r for r in reasons)
+
+
+def test_gate_uncertain_unknown_country():
+    opp = make_opportunity(location=None)
+    gate, reasons, review = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
+    assert gate == "uncertain"
+    assert review is True
+    assert any("country unknown" in r for r in reasons)
+
+
+def test_preferred_country_helper_never_gates():
+    from compass.rules import is_preferred_country
+
+    assert is_preferred_country("Finland", FULL_CONSTRAINTS) is True
+    assert is_preferred_country("Germany", FULL_CONSTRAINTS) is False
+    assert is_preferred_country(None, FULL_CONSTRAINTS) is False
 
 
 def test_gate_uncertain_unknown_language():
