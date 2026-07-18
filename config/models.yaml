@@ -2,9 +2,11 @@
 
 api:
   provider: openai-compatible
-  model: null               # fill in when the cheap API details are known (S4)
+  model: null               # e.g. "gpt-4o-mini" — set this + COMPASS_API_KEY /
+                            # COMPASS_API_BASE_URL in .env to turn on live analysis
   temperature: 0.2
   max_input_characters: 30000
+  price_per_1k_tokens: null # optional: set (e.g. 0.0002) to enforce the daily $ cap
 
 limits:
   daily_cost_limit_usd: 1.00

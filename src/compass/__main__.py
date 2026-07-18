@@ -186,6 +186,58 @@ def cmd_import_analysis(cfg: Config, args: argparse.Namespace) -> int:
     return 1 if report["rejected"] else 0
 
 
+def cmd_analyze(cfg: Config, args: argparse.Namespace) -> int:
+    from .analyze import analyze
+
+    store = _make_store(cfg)
+    report = analyze(cfg, store, limit=args.limit, skip_llm=args.skip_llm)
+    print(f"analyze: {report['pending']} pending, {report['selected']} selected")
+    if report.get("error"):
+        print(f"  not run: {report['error']}")
+    for opp_id in report["imported"]:
+        print(f"  analyzed: {opp_id}")
+    for msg in report["rejected"]:
+        print(f"  REJECTED: {msg}")
+    if report["imported"]:
+        _recompute_all_derived(cfg, store)
+        print(f"analyze: {len(report['imported'])} analyzed, "
+              f"{len(report['rejected'])} rejected; derived recomputed "
+              f"(run `compass export` / `serve` to view)")
+    return 1 if report["rejected"] else 0
+
+
+def cmd_run(cfg: Config, args: argparse.Namespace) -> int:
+    """Full production pipeline: collect -> analyze -> derived + index + vault.
+    --skip-llm collects and refreshes without spending tokens (fallback)."""
+    from .analyze import analyze
+    from .collect import run_collectors
+    from .views import refresh_all
+
+    store = _make_store(cfg)
+    failed = False
+
+    results = run_collectors(cfg, store, only_source=args.source)
+    if not results:
+        print("run: no collectors ran (enable sources in config/sources.yaml)")
+    for source, stats in results.items():
+        if stats.error:
+            failed = True
+            print(f"collect {source}: FAILED — {stats.error}")
+        else:
+            print(f"collect {source}: {stats.created} created, {stats.updated} "
+                  f"updated, {stats.unchanged} unchanged")
+
+    report = analyze(cfg, store, limit=args.limit, skip_llm=args.skip_llm)
+    note = f" (not run: {report['error']})" if report.get("error") else ""
+    print(f"analyze: {report['selected']} selected, "
+          f"{len(report['imported'])} analyzed, "
+          f"{len(report['rejected'])} rejected{note}")
+
+    refresh_all(cfg, store)
+    print("run: derived recomputed, index rebuilt, vault regenerated")
+    return 1 if failed or report["rejected"] else 0
+
+
 def cmd_rebuild_index(cfg: Config, args: argparse.Namespace) -> int:
     from .index import rebuild_index
 
@@ -300,7 +352,21 @@ def main(argv: list[str] | None = None) -> int:
     p_imp.add_argument("--model", default="claude-fable-5",
                        help="model identifier recorded as provenance")
 
-    p_serve = sub.add_parser("serve", help="run the read-only web dashboard (127.0.0.1)")
+    p_analyze = sub.add_parser(
+        "analyze", help="analyze new/changed opportunities via the configured LLM")
+    p_analyze.add_argument("--limit", type=int, default=None,
+                           help="max items this run (capped by config max_ai_items_per_run)")
+    p_analyze.add_argument("--skip-llm", action="store_true",
+                           help="report what would be analysed without calling the API")
+
+    p_run = sub.add_parser(
+        "run", help="full pipeline: collect -> analyze -> derived + index + vault")
+    p_run.add_argument("--source", help="collect a single source")
+    p_run.add_argument("--limit", type=int, default=None, help="max items to analyse")
+    p_run.add_argument("--skip-llm", action="store_true",
+                       help="collect + refresh only, no LLM spend (fallback)")
+
+    p_serve = sub.add_parser("serve", help="run the local web app (127.0.0.1)")
     p_serve.add_argument("--port", type=int, default=8000)
 
     p_new = sub.add_parser("new", help="create an entity from a YAML stub file")
@@ -320,6 +386,8 @@ def main(argv: list[str] | None = None) -> int:
         "rebuild-index": cmd_rebuild_index,
         "serve": cmd_serve,
         "collect": cmd_collect,
+        "analyze": cmd_analyze,
+        "run": cmd_run,
         "prepare-analysis": cmd_prepare_analysis,
         "import-analysis": cmd_import_analysis,
     }

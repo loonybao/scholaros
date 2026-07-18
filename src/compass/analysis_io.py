@@ -33,6 +33,16 @@ REQUIRED_PROVENANCE = {
 }
 
 
+def live_provenance(model: str) -> dict[str, str]:
+    """Provenance for the automated (live-API) analyze stage. Still provisional —
+    a proposal is never auto-finalized regardless of source."""
+    return {
+        "analysis_provider": model or "api",
+        "analysis_mode": "automated",
+        "analysis_status": "provisional",
+    }
+
+
 def _profile_summary(cfg: Config) -> dict[str, Any]:
     """Whitelisted profile subset: skills + domains + publications summary.
     Never the full private CV."""
@@ -149,12 +159,23 @@ def prepare_packet(cfg: Config, store: Store, ids: list[str]) -> dict[str, Any]:
 
 
 def import_results(
-    cfg: Config, store: Store, result_path: Path, model: str
+    cfg: Config, store: Store, result_path: Path, model: str,
+    provenance: dict[str, str] = REQUIRED_PROVENANCE,
 ) -> dict[str, list[str]]:
-    """Validate and write analysis results. Returns {imported, rejected}."""
+    """Validate and write analysis results from a file. Returns {imported,
+    rejected}."""
     with open(result_path, encoding="utf-8") as f:
         data = json.load(f)
+    return import_results_data(cfg, store, data, model, provenance)
 
+
+def import_results_data(
+    cfg: Config, store: Store, data: dict, model: str,
+    provenance: dict[str, str] = REQUIRED_PROVENANCE,
+) -> dict[str, list[str]]:
+    """Validate and write analysis results (ai layer only) from an in-memory
+    result object. Shared by the interactive import and the live analyze stage;
+    the only difference is `provenance`."""
     imported: list[str] = []
     rejected: list[str] = []
 
@@ -167,7 +188,7 @@ def import_results(
 
         if item.get("entity") == "signal":
             _import_signal(cfg, store, opp_id, analysis, model,
-                           imported, rejected)
+                           imported, rejected, provenance)
             continue
 
         if not store.exists("opportunity", opp_id):
@@ -193,9 +214,9 @@ def import_results(
             )
             continue
 
-        # Enforce provenance for the interactive workflow.
+        # Stamp provenance (interactive vs live-automated).
         payload = dict(analysis)
-        payload.update(REQUIRED_PROVENANCE)
+        payload.update(provenance)
         payload["model"] = model
         payload["prompt_version"] = PROMPT_VERSION
         payload.setdefault("analyzed_at", utcnow().isoformat())
@@ -216,6 +237,7 @@ def import_results(
 def _import_signal(
     cfg: Config, store: Store, sig_id: str, analysis: dict, model: str,
     imported: list[str], rejected: list[str],
+    provenance: dict[str, str] = REQUIRED_PROVENANCE,
 ) -> None:
     """Signal triage import: SignalAI layer only, same guarantees as
     opportunity imports (staleness, no fact fields, provenance)."""
@@ -235,7 +257,7 @@ def _import_signal(
         return
 
     payload = dict(analysis)
-    payload.update(REQUIRED_PROVENANCE)
+    payload.update(provenance)
     payload["model"] = model
     payload["prompt_version"] = SIGNAL_PROMPT_VERSION
     payload.setdefault("analyzed_at", utcnow().isoformat())
