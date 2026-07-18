@@ -1,9 +1,9 @@
 {
   "id": "sig_aalto_society_networks_recruitment_potential",
   "entity_type": "signal",
-  "schema_version": 6,
+  "schema_version": 7,
   "created_at": "2026-07-18T03:21:35.200814Z",
-  "updated_at": "2026-07-18T04:44:32.509409+00:00",
+  "updated_at": "2026-07-18T05:14:54.745011Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:21:35.201815Z",
@@ -14,7 +14,7 @@
       "note": "created from sig_society_networks.yaml"
     },
     {
-      "ts": "2026-07-18T04:18:19.696865+00:00",
+      "ts": "2026-07-18T04:18:19.696865Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -22,7 +22,7 @@
       "note": "migrated to v4"
     },
     {
-      "ts": "2026-07-18T04:30:54.614613+00:00",
+      "ts": "2026-07-18T04:30:54.614613Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -30,12 +30,43 @@
       "note": "migrated to v5"
     },
     {
-      "ts": "2026-07-18T04:44:32.509409+00:00",
+      "ts": "2026-07-18T04:44:32.509409Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T05:14:54.301454Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v7"
+    },
+    {
+      "ts": "2026-07-18T05:14:54.745011Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.implications",
+        "ai.model",
+        "ai.possible_future_recruitment",
+        "ai.prompt_version",
+        "ai.recruitment_likelihood",
+        "ai.recruitment_rationale",
+        "ai.related_opportunity_ids",
+        "ai.relevance_score",
+        "ai.risks",
+        "ai.strength"
+      ],
+      "note": "interactive signal triage (claude-fable-5)"
     }
   ],
   "official": {
@@ -53,7 +84,29 @@
       "aalto/postdoctoral-researcher-in-computational-social-science"
     ]
   },
-  "ai": null,
+  "ai": {
+    "relevance_score": 60,
+    "strength": "medium",
+    "implications": "The Society & Networks area runs AI-agent + human-participant experimental research - the same methodological family as the applicant's controlled multi-user experiments - and is funded (RCF project) with an active postdoc call.",
+    "possible_future_recruitment": true,
+    "recruitment_likelihood": "moderate",
+    "recruitment_rationale": "Current call is postdoc-level only; a doctoral opening is plausible (PI already supervises three PhD students, area has ~30 students/postdocs) but not evidenced. Alignment is methodological (online human experiments), not thematic (no XR/immersive component) - hence moderate, not high.",
+    "risks": [
+      "No direct evidence of an upcoming doctoral call",
+      "Thematic distance (social networks, not immersive systems) would make a future position adjacent rather than exact fit"
+    ],
+    "related_opportunity_ids": [
+      "opp_aalto-postdoctoral-researcher-in-computational-social-scienc"
+    ],
+    "confidence": 0.7,
+    "model": "claude-fable-5",
+    "prompt_version": "signal_triage_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T05:14:54.744014Z",
+    "analysis_input_hash": "dc93d109057445add25ba839b1ceec5f2ec1b8a4d0a091a21656983840b70039"
+  },
   "manual": {
     "dismissed": false,
     "notes": "TAG: future-recruitment-monitoring. Methodological family matches the applicant (controlled multi-user human experiments). A future doctoral opening in this area would likely be adjacent-to-strong fit. Monitor via Aalto collector runs; no action unless a doctoral call appears.\n"

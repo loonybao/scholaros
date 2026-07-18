@@ -20,10 +20,11 @@ from typing import Any
 from pydantic import ValidationError
 
 from .config import Config
-from .models import Opportunity, OpportunityAI, utcnow
+from .models import Opportunity, OpportunityAI, Signal, SignalAI, utcnow
 from .store import Store
 
 PROMPT_VERSION = "fit_analysis_v1"
+SIGNAL_PROMPT_VERSION = "signal_triage_v1"
 
 REQUIRED_PROVENANCE = {
     "analysis_provider": "interactive_claude",
@@ -70,6 +71,20 @@ def analysis_input_hash(cfg: Config, opp: Opportunity) -> str:
         "profile": _profile_summary(cfg),
         "target_identity": cfg.target_identity.get("statement"),
         "taxonomy_ids": sorted(cfg.taxonomy_ids()),
+    }
+    return hashlib.sha256(
+        json.dumps(payload, sort_keys=True, ensure_ascii=False, default=str).encode("utf-8")
+    ).hexdigest()
+
+
+def signal_input_hash(cfg: Config, sig: Signal) -> str:
+    payload = {
+        "signal_id": sig.id,
+        "prompt_version": SIGNAL_PROMPT_VERSION,
+        "title": sig.official.title,
+        "excerpt": sig.official.excerpt,
+        "signal_type": sig.official.signal_type,
+        "target_identity": cfg.target_identity.get("statement"),
     }
     return hashlib.sha256(
         json.dumps(payload, sort_keys=True, ensure_ascii=False, default=str).encode("utf-8")
@@ -149,6 +164,12 @@ def import_results(
         if not isinstance(analysis, dict):
             rejected.append(f"{opp_id}: no analysis object")
             continue
+
+        if item.get("entity") == "signal":
+            _import_signal(cfg, store, opp_id, analysis, model,
+                           imported, rejected)
+            continue
+
         if not store.exists("opportunity", opp_id):
             rejected.append(f"{opp_id}: unknown opportunity")
             continue
@@ -190,3 +211,39 @@ def import_results(
         imported.append(opp_id)
 
     return {"imported": imported, "rejected": rejected}
+
+
+def _import_signal(
+    cfg: Config, store: Store, sig_id: str, analysis: dict, model: str,
+    imported: list[str], rejected: list[str],
+) -> None:
+    """Signal triage import: SignalAI layer only, same guarantees as
+    opportunity imports (staleness, no fact fields, provenance)."""
+    if not store.exists("signal", sig_id):
+        rejected.append(f"{sig_id}: unknown signal")
+        return
+    sig = store.load("signal", sig_id)
+
+    forbidden = {"official", "manual", "url", "published_at", "org_id"} & set(analysis)
+    if forbidden:
+        rejected.append(f"{sig_id}: forbidden fields in analysis: {forbidden}")
+        return
+
+    current_hash = signal_input_hash(cfg, sig)
+    if analysis.get("analysis_input_hash") != current_hash:
+        rejected.append(f"{sig_id}: stale analysis_input_hash")
+        return
+
+    payload = dict(analysis)
+    payload.update(REQUIRED_PROVENANCE)
+    payload["model"] = model
+    payload["prompt_version"] = SIGNAL_PROMPT_VERSION
+    payload.setdefault("analyzed_at", utcnow().isoformat())
+    try:
+        ai = SignalAI.model_validate(payload)
+    except ValidationError as e:
+        rejected.append(f"{sig_id}: schema validation failed: {e.errors()[:3]}")
+        return
+    sig.ai = ai
+    store.save(sig, actor="ai", note=f"interactive signal triage ({model})")
+    imported.append(sig_id)

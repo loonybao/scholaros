@@ -41,6 +41,15 @@ CREATE TABLE signals (
     signal_type TEXT NOT NULL,
     org_id TEXT,
     url TEXT,
+    published_at TEXT,
+    retrieved_at TEXT,
+    excerpt TEXT,
+    person_ids TEXT NOT NULL DEFAULT '[]',
+    related_opportunity_ids TEXT NOT NULL DEFAULT '[]',
+    recruitment_likelihood TEXT,
+    recruitment_rationale TEXT,
+    risks TEXT NOT NULL DEFAULT '[]',
+    confidence REAL,
     dismissed INTEGER NOT NULL DEFAULT 0
 );
 
@@ -93,7 +102,8 @@ CREATE TABLE opportunities (
     needs_review INTEGER NOT NULL DEFAULT 0,
     hidden INTEGER NOT NULL DEFAULT 0,
     analyzed INTEGER NOT NULL DEFAULT 0,
-    analysis_stale INTEGER NOT NULL DEFAULT 0
+    analysis_stale INTEGER NOT NULL DEFAULT 0,
+    retrieved_at TEXT
 );
 
 CREATE TABLE people (
@@ -157,7 +167,7 @@ def rebuild_index(cfg: Config, store: Store) -> int:
             )
             conn.execute(
                 "INSERT INTO opportunities VALUES "
-                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     opp.id,
                     o.title,
@@ -189,6 +199,7 @@ def rebuild_index(cfg: Config, store: Store) -> int:
                     int(opp.manual.hidden),
                     int(opp.ai is not None),
                     int(stale),
+                    o.retrieved_at.isoformat() if o.retrieved_at else None,
                 ),
             )
             rows += 1
@@ -210,13 +221,24 @@ def rebuild_index(cfg: Config, store: Store) -> int:
 
         for sig in store.load_all("signal"):
             conn.execute(
-                "INSERT INTO signals VALUES (?,?,?,?,?,?)",
+                "INSERT INTO signals VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     sig.id,
                     sig.official.title,
                     sig.official.signal_type,
                     sig.official.org_id,
                     sig.official.url,
+                    sig.official.published_at.isoformat()
+                    if sig.official.published_at else None,
+                    sig.official.retrieved_at.isoformat()
+                    if sig.official.retrieved_at else None,
+                    sig.official.excerpt,
+                    json.dumps(sig.official.person_ids),
+                    json.dumps(sig.ai.related_opportunity_ids if sig.ai else []),
+                    sig.ai.recruitment_likelihood if sig.ai else None,
+                    sig.ai.recruitment_rationale if sig.ai else None,
+                    json.dumps(sig.ai.risks if sig.ai else [], ensure_ascii=False),
+                    sig.ai.confidence if sig.ai else None,
                     int(sig.manual.dismissed),
                 ),
             )
@@ -336,6 +358,15 @@ def dashboard_data(cfg: Config, today: date) -> dict:
     finally:
         conn.close()
 
+    # Signals intelligence panels. Signals NEVER enter action_required —
+    # only their concrete time-sensitive user actions (Action records) do.
+    feed = signals_feed(cfg)
+    watchlist = watchlist_data(cfg)
+    prep_actions = [
+        {"target": t["name"], "item": i}
+        for t in watchlist for i in t["preparation_items"][:3]
+    ]
+
     return {
         "generated_at": today.isoformat(),
         "action_required": action_required,
@@ -344,6 +375,14 @@ def dashboard_data(cfg: Config, today: date) -> dict:
         "open_opportunities": open_opps,
         "upcoming_deadlines": upcoming,
         "review_queue": review_queue,
+        "recent_signals": feed[:5],
+        "watchlist": [
+            {k: t[k] for k in ("id", "name", "future_group_value",
+                               "recruitment_likelihood", "last_checked",
+                               "next_preparation_action")}
+            for t in watchlist
+        ],
+        "preparation_actions": prep_actions[:8],
         "meta": meta,
     }
 
@@ -466,6 +505,11 @@ def skills_radar(cfg: Config) -> dict:
             "preferred_skills, rejection_reasons FROM opportunities "
             "WHERE hidden = 0"
         )]
+        org_names = {
+            r["id"]: r["name"] for r in conn.execute(
+                "SELECT id, name FROM organisations"
+            )
+        }
     finally:
         conn.close()
 
@@ -521,7 +565,10 @@ def skills_radar(cfg: Config) -> dict:
     return {
         "scopes": {k: finalize(v, scope_totals[k]) for k, v in scopes.items()},
         "institutions": {
-            org: finalize(bucket, inst_totals.get(org, 0))
+            org: {
+                "name": org_names.get(org, org),
+                **finalize(bucket, inst_totals.get(org, 0)),
+            }
             for org, bucket in institution.items()
         },
     }
@@ -653,6 +700,136 @@ def targets_data(cfg: Config) -> list[dict]:
             )[:8],
         })
     targets.sort(key=lambda t: (-_VALUE_ORDER[t["future_group_value"]], t["name"]))
+    return targets
+
+
+def signals_feed(cfg: Config) -> list[dict]:
+    """Verified signals with linked organisation, people and opportunities."""
+    conn = connect(cfg)
+    try:
+        sigs = [dict(r) for r in conn.execute(
+            "SELECT s.*, g.name AS org_name FROM signals s "
+            "LEFT JOIN organisations g ON g.id = s.org_id "
+            "WHERE s.dismissed = 0 "
+            "ORDER BY COALESCE(s.published_at, s.retrieved_at) DESC"
+        )]
+        people = {r["id"]: dict(r) for r in conn.execute("SELECT * FROM people")}
+        opps = {r["id"]: dict(r) for r in conn.execute(
+            "SELECT id, title, deadline, recommendation FROM opportunities"
+        )}
+    finally:
+        conn.close()
+
+    for s in sigs:
+        s["person_ids"] = json.loads(s["person_ids"] or "[]")
+        s["risks"] = json.loads(s["risks"] or "[]")
+        s["related_opportunity_ids"] = json.loads(s["related_opportunity_ids"] or "[]")
+        s["people"] = [people[p] for p in s["person_ids"] if p in people]
+        s["opportunities"] = [
+            opps[o] for o in s["related_opportunity_ids"] if o in opps
+        ]
+    return sigs
+
+
+# Skill groups considered "methods" for preparation suggestions.
+def _taxonomy_groups(cfg: Config) -> dict[str, str]:
+    groups: dict[str, str] = {}
+    for group_name, entries in cfg.taxonomy.items():
+        if isinstance(entries, list):
+            for e in entries:
+                if isinstance(e, dict) and "id" in e:
+                    groups[e["id"]] = group_name
+    return groups
+
+
+def preparation_items(cfg: Config, target: dict) -> list[dict]:
+    """Deterministic prepare-before-vacancy suggestions for a target group,
+    derived from its recurring required skills vs the user's profile, its
+    people and its signals. Never creates records; purely a derived view."""
+    profile = {s["id"]: s for s in (cfg.profile.get("skills") or [])
+               if isinstance(s, dict) and s.get("id")}
+    groups = _taxonomy_groups(cfg)
+    items: list[dict] = []
+
+    for skill, count in target.get("recurring_skills", []):
+        level = (profile.get(skill) or {}).get("level")
+        if level in ("advanced",):
+            items.append({
+                "kind": "portfolio",
+                "text": f"Prepare portfolio evidence for {skill} "
+                        f"(required in {count} vacancy(ies) at this target; "
+                        f"your level: advanced)",
+            })
+        elif level in (None, "none", "beginner"):
+            kind = "method" if groups.get(skill) == "research_methods" else "skill"
+            items.append({
+                "kind": kind,
+                "text": f"{'Learn' if level in (None, 'none') else 'Strengthen'} "
+                        f"{skill} (required in {count} vacancy(ies) at this target)",
+            })
+    for p in target.get("people", [])[:3]:
+        items.append({
+            "kind": "monitor",
+            "text": f"Monitor {p['name']}'s page/publications"
+                    + (f" ({p['title']})" if p.get("title") else ""),
+        })
+    for s in target.get("signals", [])[:2]:
+        if s.get("url"):
+            items.append({
+                "kind": "monitor",
+                "text": f"Watch the source behind: {s['title']}",
+            })
+    return items[:8]
+
+
+def watchlist_data(cfg: Config) -> list[dict]:
+    """Watchlist = target map + latest signals + derived last_checked +
+    deterministic preparation items + a next recommended preparation action."""
+    targets = targets_data(cfg)
+    conn = connect(cfg)
+    try:
+        sig_rows = [dict(r) for r in conn.execute(
+            "SELECT * FROM signals WHERE dismissed = 0"
+        )]
+        checked = {
+            r["org_id"]: r["last"] for r in conn.execute(
+                "SELECT org_id, MAX(retrieved_at) AS last FROM opportunities "
+                "GROUP BY org_id"
+            )
+        }
+        lab_checked = {
+            r["lab_org_id"]: r["last"] for r in conn.execute(
+                "SELECT lab_org_id, MAX(retrieved_at) AS last FROM opportunities "
+                "WHERE lab_org_id IS NOT NULL GROUP BY lab_org_id"
+            )
+        }
+    finally:
+        conn.close()
+
+    for t in targets:
+        t["latest_signals"] = [
+            {k: s[k] for k in ("id", "title", "signal_type",
+                               "recruitment_likelihood", "published_at")}
+            for s in sig_rows if (s["org_id"] or "") == t["id"]
+        ]
+        likelihoods = [s["recruitment_likelihood"] for s in t["latest_signals"]
+                       if s["recruitment_likelihood"]]
+        order = {"high": 3, "moderate": 2, "low": 1}
+        t["recruitment_likelihood"] = max(
+            likelihoods, key=lambda x: order[x], default=None
+        )
+        candidates = [c for c in (
+            checked.get(t["id"]), lab_checked.get(t["id"]),
+            *(s["retrieved_at"] for s in sig_rows if (s["org_id"] or "") == t["id"]),
+        ) if c]
+        t["last_checked"] = max(candidates) if candidates else None
+        if _VALUE_ORDER[t["future_group_value"]] >= 2:  # high or medium
+            t["preparation_items"] = preparation_items(cfg, t)
+        else:
+            t["preparation_items"] = []
+        t["next_preparation_action"] = (
+            t["preparation_items"][0]["text"] if t["preparation_items"] else None
+        )
     return targets
 
 

@@ -21,8 +21,9 @@ from .index import (
     dashboard_data,
     health_data,
     rebuild_index,
+    signals_feed,
     skills_radar,
-    targets_data,
+    watchlist_data,
 )
 from .store import Store
 
@@ -61,7 +62,11 @@ def create_app(cfg: Config) -> FastAPI:
 
     @app.get("/api/targets")
     def api_targets() -> dict:
-        return {"targets": targets_data(cfg)}
+        return {"targets": watchlist_data(cfg)}
+
+    @app.get("/api/signals")
+    def api_signals() -> dict:
+        return {"signals": signals_feed(cfg)}
 
     @app.get("/api/applications")
     def api_applications() -> dict:

@@ -34,7 +34,7 @@ function scopeBar() {
   const institutions = Object.keys(data.institutions).sort();
   const instOptions = institutions.map((org) =>
     `<option value="${esc(org)}" ${state.institution === org ? "selected" : ""}>
-       ${esc(org.replace("org_", "").replace(/_/g, " "))}</option>`).join("");
+       ${esc(data.institutions[org].name || org)}</option>`).join("");
   return `<div class="filter-bar">
     ${buttons}
     <label><input type="radio" name="scope" value="institution"

@@ -13,5 +13,11 @@ signal_type: vacancy_change
 Verified official posting (RCF project "Social networking in the era of artificially intelligent agents"): the group designs AI-supported experimental/observational methods, runs advanced online experiments and surveys with human participants (Empirica-like platforms) and AI-agent social simulations. Society & Networks research area: 8 faculty, ~30 students and postdocs; PI has a group of three PhD students. Current call is postdoc-level only.
 
 
+## Triage (AI)
+
+Relevance 60 · strength medium
+
+The Society & Networks area runs AI-agent + human-participant experimental research - the same methodological family as the applicant's controlled multi-user experiments - and is funded (RCF project) with an active postdoc call.
+
 ---
 _Generated file — do not edit._

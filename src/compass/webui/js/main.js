@@ -3,6 +3,7 @@
 import renderApplications from "./pages/applications.js";
 import renderBrowser from "./pages/browser.js";
 import renderDashboard from "./pages/dashboard.js";
+import renderSignals from "./pages/signals.js";
 import renderSkills from "./pages/skills.js";
 import renderTargets from "./pages/targets.js";
 
@@ -11,6 +12,7 @@ const ROUTES = {
   skills: (root) => renderSkills(root),
   opportunities: (root) => renderBrowser(root, { archive: false }),
   targets: (root) => renderTargets(root),
+  signals: (root) => renderSignals(root),
   applications: (root) => renderApplications(root),
   archive: (root) => renderBrowser(root, { archive: true }),
 };

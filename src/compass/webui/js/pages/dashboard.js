@@ -131,6 +131,42 @@ function healthRow(health) {
     Read-only intelligence UI — decisions and applications are edited via CLI.</footer>`;
 }
 
+function recentSignals(signals) {
+  if (!signals.length)
+    return emptyState("No verified signals yet.");
+  return signals.map((s) => `
+    <div class="review-item">
+      <a href="#/signals"><strong>${esc(s.title)}</strong></a>
+      ${s.recruitment_likelihood
+        ? badge(`likelihood: ${s.recruitment_likelihood}`,
+                s.recruitment_likelihood === "high" ? "pass" : "uncertain")
+        : ""}
+      <span class="card-org">${esc(s.org_name || "")} · ${esc(s.signal_type)}</span>
+    </div>`).join("");
+}
+
+function watchlistPanel(rows) {
+  if (!rows.length) return emptyState("No watchlist targets marked.");
+  const body = rows.map((t) => `
+    <tr>
+      <td><a href="#/targets">${esc(t.name)}</a></td>
+      <td>${t.future_group_value ? badge(t.future_group_value, t.future_group_value === "high" ? "pass" : "none") : "—"}</td>
+      <td>${t.recruitment_likelihood ? badge(t.recruitment_likelihood, t.recruitment_likelihood === "high" ? "pass" : "uncertain") : "—"}</td>
+      <td class="num">${esc((t.last_checked || "never").slice(0, 10))}</td>
+      <td>${esc(t.next_preparation_action || "—")}</td>
+    </tr>`).join("");
+  return `<div class="table-wrap"><table>
+    <tr><th>Target</th><th>Future value</th><th>Recruitment likelihood</th>
+    <th>Last checked</th><th>Next preparation action</th></tr>${body}</table></div>`;
+}
+
+function preparationPanel(items) {
+  if (!items.length) return emptyState("No preparation suggestions yet.");
+  return `<ul class="plain-list">` + items.map((p) => `
+    <li><span>${badge(p.item.kind, "none")} ${esc(p.item.text)}</span>
+    <span class="card-org">${esc(p.target)}</span></li>`).join("") + `</ul>`;
+}
+
 export default async function render(root) {
   const [dash, health] = await Promise.all([
     fetchJSON("/api/dashboard"), fetchJSON("/api/health"),
@@ -146,9 +182,14 @@ export default async function render(root) {
       ${panel("Open opportunities", openTable(dash.open_opportunities))}
       <div class="col-stack">
         ${panel("Upcoming deadlines (45 days)", deadlines(dash.upcoming_deadlines))}
+        ${panel("Recent signals", recentSignals(dash.recent_signals || []))}
         ${panel("Manual review queue", reviewQueue(dash.review_queue))}
       </div>
     </div>
+    ${panel("Recruitment watchlist & future recruitment likelihood",
+            watchlistPanel(dash.watchlist || []))}
+    ${panel("Preparation actions (prepare before vacancy)",
+            preparationPanel(dash.preparation_actions || []))}
     ${panel("System & collector health", healthRow(health))}
   `;
 }

@@ -15,7 +15,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-SCHEMA_VERSION = 6
+SCHEMA_VERSION = 7
 
 # Structured rejection reasons. A reject decision NEVER deletes opportunity
 # intelligence — records stay browsable for history and skill analytics; the
@@ -339,16 +339,26 @@ class SignalOfficial(BaseModel):
 
 
 class SignalAI(BaseModel):
+    """Interpretation layer for signals. Generic XR activity is never a
+    strong signal by itself — recruitment_likelihood must be justified by
+    methodological alignment with the target identity (rationale)."""
+
     model_config = ConfigDict(extra="forbid")
 
     relevance_score: int = Field(ge=0, le=100)
     strength: Literal["high", "medium", "low"]
     implications: str = ""
     possible_future_recruitment: Optional[bool] = None
+    recruitment_likelihood: Optional[Literal["low", "moderate", "high"]] = None
+    recruitment_rationale: str = ""
+    risks: list[str] = Field(default_factory=list)
     related_opportunity_ids: list[str] = Field(default_factory=list)
     confidence: float = Field(ge=0.0, le=1.0)
     model: str
     prompt_version: str
+    analysis_provider: str = "api"
+    analysis_mode: Literal["automated", "manual_assisted"] = "automated"
+    analysis_status: Literal["provisional", "reviewed", "final"] = "provisional"
     analyzed_at: datetime
     analysis_input_hash: str
 
