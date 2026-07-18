@@ -9,24 +9,19 @@ import {
   timingLabel, timingTone, likelihoodLabel, likelihoodTone,
   valueLabel, valueTone,
 } from "../labels.js";
+import { graduationTimeline } from "../timeline.js";
 import { badge, emptyState, esc, fetchJSON, panel } from "../ui.js";
 
 /* ----- 1. personal status hero ----- */
 function hero(h) {
   if (!h) return "";
   const phase = phaseLabel(h.current_phase);
-  const dates = [
-    ["dash.hero.expected", fmtMonthYear(h.expected_graduation)],
-    ["dash.hero.prep_begins", fmtMonthYear(h.preparation_window.from)],
-    ["dash.hero.active_period",
-      `${fmtMonthYear(h.active_application_window.from)} – ${fmtMonthYear(h.active_application_window.to)}`],
-  ].map(([k, v]) => `<div class="hero-date"><div class="k">${t(k)}</div><div class="v">${esc(v)}</div></div>`).join("");
   return `<div class="hero">
     <div class="hero-phase"><h1>${esc(phase)}</h1>
       ${badge(t("dash.hero.months_short", { n: Math.round(h.months_to_graduation) }), "info")}</div>
     <p class="hero-lede">${t("dash.hero.building")}</p>
     <div class="hero-noaction"><span aria-hidden="true">✓</span>${t("dash.hero.no_action")}</div>
-    <div class="hero-dates">${dates}</div>
+    <div class="hero-timeline">${graduationTimeline(h, { compact: true })}</div>
     <a class="btn secondary" href="#/roadmap">${t("dash.hero.view_roadmap")} →</a>
   </div>`;
 }
@@ -164,6 +159,20 @@ function actionRequired(dash) {
   return panel("Action required", taskRows + oppRows);
 }
 
+/* ----- plain-language glossary (S9) ----- */
+function glossary() {
+  const terms = ["phase", "fit", "eligibility", "timing", "learn_next", "signal"];
+  const items = terms.map((k) => {
+    const s = t(`glossary.${k}`);
+    const i = s.search(/——|—/);
+    const term = i > 0 ? s.slice(0, i).trim() : "";
+    const rest = i > 0 ? s.slice(i) : s;
+    return `<li>${term ? `<strong>${esc(term)}</strong> ` : ""}${esc(rest)}</li>`;
+  }).join("");
+  return `<details class="glossary"><summary>${t("glossary.title")}</summary>
+    <ul class="glossary-list">${items}</ul></details>`;
+}
+
 export default async function render(root) {
   const [dash, health, skills, targetsResp] = await Promise.all([
     fetchJSON("/api/dashboard"), fetchJSON("/api/health"),
@@ -179,5 +188,6 @@ export default async function render(root) {
     ${skillsSnapshot(skills)}
     ${futureEvidence(dash.future_target_intel || [])}
     ${systemStatus(health, (dash.meaningful_changes || []).length)}
+    ${glossary()}
   `;
 }

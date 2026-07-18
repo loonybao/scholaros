@@ -3,6 +3,7 @@
 import { fmtDate, fmtMonthYear } from "../format.js";
 import { t } from "../i18n.js";
 import { phaseLabel } from "../labels.js";
+import { graduationTimeline } from "../timeline.js";
 import { badge, emptyState, esc, fetchJSON, pageHeader, panel } from "../ui.js";
 
 export default async function render(root) {
@@ -17,6 +18,7 @@ export default async function render(root) {
     `<li><span>${esc(milestoneText(m))}</span><span class="m-date">${esc(fmtDate(m.date))}</span></li>`).join("");
 
   root.innerHTML = pageHeader(t("roadmap.title"), t("roadmap.subtitle")) +
+    panel(t("roadmap.timeline"), graduationTimeline(h)) +
     panel("", `<div class="card-row" style="margin-bottom:10px">
         ${badge(`${t("roadmap.phase")}: ${phaseLabel(h.current_phase)}`, "info")}
         ${badge(t("roadmap.months", { n: Math.round(h.months_to_graduation) }), "neutral")}
