@@ -10,15 +10,29 @@ from __future__ import annotations
 from datetime import date
 from pathlib import Path
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
 from .config import Config
-from .index import dashboard_data, health_data, rebuild_index
+from .index import (
+    applications_data,
+    browse_opportunities,
+    dashboard_data,
+    health_data,
+    rebuild_index,
+    skills_radar,
+    targets_data,
+)
 from .store import Store
 
 WEBUI_DIR = Path(__file__).parent / "webui"
+
+BROWSE_FILTERS = (
+    "org_id", "lab_org_id", "fit_type", "recommendation", "eligibility_gate",
+    "future_group_value", "position_type", "status", "q",
+    "rejection_reason", "skill", "deadline_status",
+)
 
 
 def create_app(cfg: Config) -> FastAPI:
@@ -31,6 +45,27 @@ def create_app(cfg: Config) -> FastAPI:
     @app.get("/api/health")
     def api_health() -> dict:
         return health_data(cfg)
+
+    @app.get("/api/skills")
+    def api_skills() -> dict:
+        return skills_radar(cfg)
+
+    @app.get("/api/opportunities")
+    def api_opportunities(request: Request) -> dict:
+        filters = {
+            k: request.query_params.get(k)
+            for k in BROWSE_FILTERS if request.query_params.get(k)
+        }
+        rows = browse_opportunities(cfg, filters)
+        return {"count": len(rows), "filters": filters, "opportunities": rows}
+
+    @app.get("/api/targets")
+    def api_targets() -> dict:
+        return {"targets": targets_data(cfg)}
+
+    @app.get("/api/applications")
+    def api_applications() -> dict:
+        return applications_data(cfg)
 
     @app.get("/")
     def root() -> FileResponse:

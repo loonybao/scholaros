@@ -13,62 +13,23 @@
       <div class="brand-name">ScholarOS</div>
       <div class="brand-sub">Research Compass</div>
     </div>
-    <nav aria-label="Main navigation">
-      <a class="nav-item active" href="/">Dashboard</a>
+    <nav aria-label="Main navigation" id="nav">
+      <a class="nav-item" href="#/" data-route="dashboard">Dashboard</a>
+      <a class="nav-item" href="#/skills" data-route="skills">Skills Radar</a>
+      <a class="nav-item" href="#/opportunities" data-route="opportunities">Opportunities</a>
+      <a class="nav-item" href="#/targets" data-route="targets">Target Map</a>
+      <a class="nav-item" href="#/applications" data-route="applications">Applications</a>
+      <a class="nav-item" href="#/archive" data-route="archive">Archive / Audit</a>
       <div class="nav-group-label">Future modules</div>
-      <span class="nav-item future" aria-disabled="true">Opportunities <span class="nav-tag">S4</span></span>
-      <span class="nav-item future" aria-disabled="true">Labs &amp; Researchers <span class="nav-tag">S6</span></span>
-      <span class="nav-item future" aria-disabled="true">Signals <span class="nav-tag">S6</span></span>
-      <span class="nav-item future" aria-disabled="true">Skills Radar <span class="nav-tag">S6</span></span>
-      <span class="nav-item future" aria-disabled="true">Applications <span class="nav-tag">S6</span></span>
+      <span class="nav-item future" aria-disabled="true">Signals feed <span class="nav-tag">S6b</span></span>
     </nav>
-    <div class="sidebar-note">Read-only (S2).<br>Writes arrive in S4/S6.</div>
+    <div class="sidebar-note">Read-only intelligence UI.<br>Edits go through the CLI.</div>
   </aside>
 
-  <main class="main">
-    <header class="page-header">
-      <h1>Research Compass — Dashboard</h1>
-      <div id="header-meta" class="header-meta"></div>
-    </header>
-
-    <section class="panel" id="panel-action-required">
-      <h2>Action required</h2>
-      <div id="manual-tasks"></div>
-      <div id="action-cards" class="cards"></div>
-    </section>
-
-    <section class="panel" id="panel-analysis-queue">
-      <h2>Analysis queue (not yet analysed)</h2>
-      <div id="analysis-queue"></div>
-    </section>
-
-    <div class="two-col">
-      <section class="panel" id="panel-open">
-        <h2>Open opportunities</h2>
-        <div class="table-wrap"><table id="open-table"></table></div>
-      </section>
-
-      <div class="col-stack">
-        <section class="panel" id="panel-deadlines">
-          <h2>Upcoming deadlines (45 days)</h2>
-          <ul id="deadline-list" class="plain-list"></ul>
-        </section>
-
-        <section class="panel" id="panel-review">
-          <h2>Manual review queue</h2>
-          <div id="review-list"></div>
-        </section>
-      </div>
-    </div>
-
-    <section class="panel" id="panel-health">
-      <h2>System &amp; collector health</h2>
-      <div id="health" class="health-row"></div>
-    </section>
-
-    <footer class="page-footer" id="footer"></footer>
+  <main class="main" id="app" aria-live="polite">
+    <div class="empty">Loading…</div>
   </main>
 </div>
-<script src="/static/app.js"></script>
+<script type="module" src="/static/js/main.js"></script>
 </body>
 </html>

@@ -40,7 +40,7 @@ def test_root_serves_html(cfg, store):
     resp = client.get("/")
     assert resp.status_code == 200
     assert "Research Compass" in resp.text
-    assert "app.js" in resp.text
+    assert "js/main.js" in resp.text
 
 
 def test_dashboard_is_read_only(cfg, store):

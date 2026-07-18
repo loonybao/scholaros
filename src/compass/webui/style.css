@@ -197,3 +197,60 @@ a:hover { text-decoration: underline; }
 .health-item .v { font-weight: 600; font-variant-numeric: tabular-nums; }
 
 .page-footer { color: var(--muted); font-size: 11px; margin-top: 18px; }
+
+/* ---------- filters ---------- */
+.filter-bar {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  margin-bottom: 12px;
+}
+.filter-bar select, .filter-bar input[type="text"] {
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--border); border-radius: 6px;
+  padding: 5px 8px; font: inherit; font-size: 12px;
+}
+.filter-bar label { font-size: 11px; color: var(--muted); }
+.result-count { font-size: 12px; color: var(--ink-2); margin-left: auto; }
+
+/* ---------- skills radar ---------- */
+.status-strength { border-color: var(--good); color: var(--good-text); }
+.status-maintain { border-color: var(--accent); }
+.status-learn_next { background: var(--warning); color: #0b0b0b; border-color: transparent; }
+.status-optional { color: var(--ink-2); }
+.status-not_relevant { color: var(--muted); }
+.skill-detail {
+  background: color-mix(in srgb, var(--accent) 6%, var(--surface));
+  border-left: 3px solid var(--accent);
+  border-radius: 4px; padding: 8px 10px; margin: 4px 0 10px; font-size: 12px;
+}
+tr.clickable { cursor: pointer; }
+tr.clickable:hover td { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+
+/* ---------- kanban ---------- */
+.kanban { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.kanban-col h3 {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--muted); margin: 0 0 8px;
+}
+.kanban-card {
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 10px; margin-bottom: 10px; font-size: 12px;
+  background: var(--surface);
+}
+.kanban-card .k-title { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+.kanban-card ul { margin: 6px 0 0; padding-left: 16px; color: var(--ink-2); }
+
+/* ---------- target map ---------- */
+.target-card {
+  border: 1px solid var(--border); border-radius: 10px;
+  padding: 14px 16px; margin-bottom: 14px;
+}
+.target-card h3 { margin: 0 0 4px; font-size: 15px; }
+.target-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-top: 10px; }
+.target-grid h4 {
+  font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--muted); margin: 0 0 5px;
+}
+.target-grid ul { margin: 0; padding-left: 16px; font-size: 12px; }
+.target-grid li { margin-bottom: 3px; }
+
+.pill-row { display: flex; flex-wrap: wrap; gap: 6px; }

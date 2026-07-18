@@ -11,6 +11,7 @@ import json
 import sqlite3
 from datetime import date, datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 from .config import Config
 from .store import Store
@@ -20,6 +21,8 @@ DROP TABLE IF EXISTS opportunities;
 DROP TABLE IF EXISTS organisations;
 DROP TABLE IF EXISTS people;
 DROP TABLE IF EXISTS actions;
+DROP TABLE IF EXISTS signals;
+DROP TABLE IF EXISTS applications;
 DROP TABLE IF EXISTS meta;
 
 CREATE TABLE actions (
@@ -28,7 +31,28 @@ CREATE TABLE actions (
     status TEXT NOT NULL,
     priority TEXT NOT NULL,
     due_date TEXT,
-    opportunity_id TEXT
+    opportunity_id TEXT,
+    person_id TEXT
+);
+
+CREATE TABLE signals (
+    id TEXT PRIMARY KEY,
+    title TEXT NOT NULL,
+    signal_type TEXT NOT NULL,
+    org_id TEXT,
+    url TEXT,
+    dismissed INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE applications (
+    id TEXT PRIMARY KEY,
+    opportunity_id TEXT NOT NULL,
+    stage TEXT NOT NULL,
+    next_step TEXT,
+    next_step_due TEXT,
+    internal_due_date TEXT,
+    blockers TEXT NOT NULL DEFAULT '[]',
+    notes TEXT
 );
 
 CREATE TABLE organisations (
@@ -36,8 +60,10 @@ CREATE TABLE organisations (
     name TEXT NOT NULL,
     org_type TEXT NOT NULL,
     country TEXT,
+    parent_org_id TEXT,
     target INTEGER NOT NULL DEFAULT 0,
-    priority TEXT
+    priority TEXT,
+    notes TEXT
 );
 
 CREATE TABLE opportunities (
@@ -106,14 +132,16 @@ def rebuild_index(cfg: Config, store: Store) -> int:
 
         for org in store.load_all("organisation"):
             conn.execute(
-                "INSERT INTO organisations VALUES (?,?,?,?,?,?)",
+                "INSERT INTO organisations VALUES (?,?,?,?,?,?,?,?)",
                 (
                     org.id,
                     org.official.name,
                     org.official.org_type,
                     org.official.country,
+                    org.official.parent_org_id,
                     int(org.manual.target),
                     org.manual.priority,
+                    org.manual.notes,
                 ),
             )
             rows += 1
@@ -167,7 +195,7 @@ def rebuild_index(cfg: Config, store: Store) -> int:
 
         for act in store.load_all("action"):
             conn.execute(
-                "INSERT INTO actions VALUES (?,?,?,?,?,?)",
+                "INSERT INTO actions VALUES (?,?,?,?,?,?,?)",
                 (
                     act.id,
                     act.manual.title,
@@ -175,6 +203,39 @@ def rebuild_index(cfg: Config, store: Store) -> int:
                     act.system.priority,
                     act.system.due_date.isoformat() if act.system.due_date else None,
                     act.system.related.opportunity_id,
+                    act.system.related.person_id,
+                ),
+            )
+            rows += 1
+
+        for sig in store.load_all("signal"):
+            conn.execute(
+                "INSERT INTO signals VALUES (?,?,?,?,?,?)",
+                (
+                    sig.id,
+                    sig.official.title,
+                    sig.official.signal_type,
+                    sig.official.org_id,
+                    sig.official.url,
+                    int(sig.manual.dismissed),
+                ),
+            )
+            rows += 1
+
+        for app in store.load_all("application"):
+            conn.execute(
+                "INSERT INTO applications VALUES (?,?,?,?,?,?,?,?)",
+                (
+                    app.id,
+                    app.system.opportunity_id,
+                    app.manual.stage,
+                    app.manual.next_step,
+                    app.manual.next_step_due.isoformat()
+                    if app.manual.next_step_due else None,
+                    app.manual.internal_due_date.isoformat()
+                    if app.manual.internal_due_date else None,
+                    json.dumps(app.manual.blockers, ensure_ascii=False),
+                    app.manual.notes,
                 ),
             )
             rows += 1
@@ -363,6 +424,272 @@ def skills_analytics(cfg: Config) -> dict:
             for s in pref:
                 b["preferred"][s] = b["preferred"].get(s, 0) + 1
     return out
+
+
+def suggest_skill_status(level: Optional[str], required_count: int,
+                         preferred_count: int) -> str:
+    """Deterministic suggestion combining market demand and the user's level."""
+    if required_count == 0 and preferred_count == 0:
+        return "not_relevant"
+    if level == "advanced":
+        return "strength" if required_count >= 2 else "maintain"
+    if level == "intermediate":
+        return "maintain" if required_count >= 2 else "optional"
+    # beginner / none / unrecorded
+    if required_count >= 3:
+        return "learn_next"
+    return "optional"
+
+
+def skills_radar(cfg: Config) -> dict:
+    """Skills Radar payload: per scope, one row per canonical skill with
+    demand counts, supporting opportunities, the user's level/evidence and a
+    deterministic suggested status. The primary radar scope is target_market —
+    poor-fit vacancies never contribute to it (they remain in the audit)."""
+    labels: dict[str, str] = {}
+    for group in cfg.taxonomy.values():
+        if isinstance(group, list):
+            for entry in group:
+                if isinstance(entry, dict) and "id" in entry:
+                    labels[entry["id"]] = entry.get("label", entry["id"])
+
+    profile: dict[str, dict] = {}
+    for s in (cfg.profile.get("skills") or []):
+        if isinstance(s, dict) and s.get("id"):
+            profile[s["id"]] = s
+
+    conn = connect(cfg)
+    try:
+        rows = [dict(r) for r in conn.execute(
+            "SELECT id, title, org_id, fit_type, recommendation, "
+            "eligibility_gate, methodological_fit, required_skills, "
+            "preferred_skills, rejection_reasons FROM opportunities "
+            "WHERE hidden = 0"
+        )]
+    finally:
+        conn.close()
+
+    scopes: dict[str, dict] = {
+        "target_market": {}, "actionable": {}, "future_target": {},
+    }
+    institution: dict[str, dict] = {}
+
+    def bump(bucket: dict, skill: str, kind: str, row: dict) -> None:
+        entry = bucket.setdefault(skill, {
+            "skill": skill,
+            "label": labels.get(skill, skill),
+            "required_count": 0,
+            "preferred_count": 0,
+            "supporting": [],
+        })
+        entry[f"{kind}_count"] += 1
+        if not any(s["id"] == row["id"] for s in entry["supporting"]):
+            entry["supporting"].append({"id": row["id"], "title": row["title"]})
+
+    scope_totals = {k: 0 for k in scopes}
+    inst_totals: dict[str, int] = {}
+    for row in rows:
+        req = json.loads(row["required_skills"] or "[]")
+        pref = json.loads(row["preferred_skills"] or "[]")
+        members = [s for s in analytics_scopes(row) if s in scopes]
+        for m in members:
+            scope_totals[m] += 1
+        inst_bucket = institution.setdefault(row["org_id"], {})
+        inst_totals[row["org_id"]] = inst_totals.get(row["org_id"], 0) + 1
+        for skill in req:
+            for m in members:
+                bump(scopes[m], skill, "required", row)
+            bump(inst_bucket, skill, "required", row)
+        for skill in pref:
+            for m in members:
+                bump(scopes[m], skill, "preferred", row)
+            bump(inst_bucket, skill, "preferred", row)
+
+    def finalize(bucket: dict, total: int) -> dict:
+        skills = []
+        for entry in bucket.values():
+            p = profile.get(entry["skill"], {})
+            entry["user_level"] = p.get("level")
+            entry["user_evidence"] = p.get("evidence")
+            entry["suggested_status"] = suggest_skill_status(
+                p.get("level"), entry["required_count"], entry["preferred_count"]
+            )
+            skills.append(entry)
+        skills.sort(key=lambda e: (-e["required_count"], -e["preferred_count"], e["skill"]))
+        return {"total_opportunities": total, "skills": skills}
+
+    return {
+        "scopes": {k: finalize(v, scope_totals[k]) for k, v in scopes.items()},
+        "institutions": {
+            org: finalize(bucket, inst_totals.get(org, 0))
+            for org, bucket in institution.items()
+        },
+    }
+
+
+def browse_opportunities(cfg: Config, filters: dict) -> list[dict]:
+    """Full-audit opportunity browser. Includes rejected and poor-fit records
+    by design — nothing is hidden from this view (manual.hidden only)."""
+    where = ["1=1"]
+    params: list = []
+    for column in ("org_id", "lab_org_id", "fit_type", "recommendation",
+                   "eligibility_gate", "future_group_value", "position_type",
+                   "status"):
+        value = filters.get(column)
+        if value:
+            where.append(f"o.{column} = ?")
+            params.append(value)
+    if filters.get("q"):
+        where.append("o.title LIKE ?")
+        params.append(f"%{filters['q']}%")
+
+    conn = connect(cfg)
+    try:
+        rows = [dict(r) for r in conn.execute(
+            f"SELECT o.*, g.name AS org_name, l.name AS lab_name "
+            f"FROM opportunities o "
+            f"LEFT JOIN organisations g ON g.id = o.org_id "
+            f"LEFT JOIN organisations l ON l.id = o.lab_org_id "
+            f"WHERE {' AND '.join(where)} "
+            f"ORDER BY o.deadline IS NULL, o.deadline",
+            params,
+        )]
+    finally:
+        conn.close()
+
+    today_iso = date.today().isoformat()
+    out = []
+    for r in rows:
+        r["rejection_reasons"] = json.loads(r["rejection_reasons"] or "[]")
+        r["required_skills"] = json.loads(r["required_skills"] or "[]")
+        r["preferred_skills"] = json.loads(r["preferred_skills"] or "[]")
+        r["eligibility_reasons"] = json.loads(r["eligibility_reasons"] or "[]")
+        r["deadline_status"] = (
+            "none" if not r["deadline"]
+            else ("upcoming" if r["deadline"] >= today_iso else "past")
+        )
+        if filters.get("rejection_reason") and \
+                filters["rejection_reason"] not in r["rejection_reasons"]:
+            continue
+        if filters.get("skill") and filters["skill"] not in r["required_skills"] \
+                and filters["skill"] not in r["preferred_skills"]:
+            continue
+        if filters.get("deadline_status") and \
+                r["deadline_status"] != filters["deadline_status"]:
+            continue
+        out.append(r)
+    return out
+
+
+_VALUE_ORDER = {"high": 3, "medium": 2, "low": 1, None: 0}
+
+
+def targets_data(cfg: Config) -> list[dict]:
+    """Target Map: monitored organisations with linked people, opportunities,
+    signals, actions and recurring required skills."""
+    conn = connect(cfg)
+    try:
+        orgs = [dict(r) for r in conn.execute("SELECT * FROM organisations")]
+        people = [dict(r) for r in conn.execute("SELECT * FROM people")]
+        opps = [dict(r) for r in conn.execute(
+            "SELECT id, title, org_id, lab_org_id, deadline, status, fit_type, "
+            "recommendation, future_group_value, required_skills, "
+            "eligibility_gate FROM opportunities WHERE hidden = 0"
+        )]
+        signals = [dict(r) for r in conn.execute(
+            "SELECT * FROM signals WHERE dismissed = 0"
+        )]
+        actions = [dict(r) for r in conn.execute(
+            "SELECT * FROM actions WHERE status IN ('todo','doing')"
+        )]
+    finally:
+        conn.close()
+
+    children: dict[str, list[str]] = {}
+    for o in orgs:
+        if o["parent_org_id"]:
+            children.setdefault(o["parent_org_id"], []).append(o["id"])
+
+    targets = []
+    for org in orgs:
+        if not org["target"]:
+            continue
+        family = {org["id"], *children.get(org["id"], [])}
+        linked_opps = [
+            o for o in opps
+            if o["org_id"] in family or (o["lab_org_id"] or "") in family
+        ]
+        linked_ids = {o["id"] for o in linked_opps}
+        linked_people = [p for p in people if (p["org_id"] or "") in family]
+        person_ids = {p["id"] for p in linked_people}
+        linked_signals = [s for s in signals if (s["org_id"] or "") in family]
+        linked_actions = [
+            a for a in actions
+            if (a["opportunity_id"] or "") in linked_ids
+            or (a["person_id"] or "") in person_ids
+        ]
+        skill_counts: dict[str, int] = {}
+        best_value = None
+        for o in linked_opps:
+            for s in json.loads(o["required_skills"] or "[]"):
+                skill_counts[s] = skill_counts.get(s, 0) + 1
+            if _VALUE_ORDER[o["future_group_value"]] > _VALUE_ORDER[best_value]:
+                best_value = o["future_group_value"]
+        targets.append({
+            "id": org["id"],
+            "name": org["name"],
+            "org_type": org["org_type"],
+            "priority": org["priority"],
+            "research_direction": org["notes"] or "",
+            "future_group_value": best_value,
+            "people": linked_people,
+            "opportunities": sorted(
+                linked_opps, key=lambda o: (o["deadline"] is None, o["deadline"] or "")
+            ),
+            "signals": linked_signals,
+            "actions": linked_actions,
+            "recurring_skills": sorted(
+                skill_counts.items(), key=lambda kv: -kv[1]
+            )[:8],
+        })
+    targets.sort(key=lambda t: (-_VALUE_ORDER[t["future_group_value"]], t["name"]))
+    return targets
+
+
+APPLICATION_STAGES = [
+    "identified", "preparing", "submitted", "monitoring",
+    "awaiting_response", "interview", "offered", "rejected", "withdrawn",
+]
+
+
+def applications_data(cfg: Config) -> dict:
+    """Application Pipeline grouped by stage, enriched from the linked
+    vacancy (deadline/title always inherited, never duplicated)."""
+    conn = connect(cfg)
+    try:
+        apps = [dict(r) for r in conn.execute("SELECT * FROM applications")]
+        opp_map = {
+            r["id"]: dict(r) for r in conn.execute(
+                "SELECT id, title, deadline, status, canonical_url "
+                "FROM opportunities"
+            )
+        }
+    finally:
+        conn.close()
+
+    stages: dict[str, list] = {s: [] for s in APPLICATION_STAGES}
+    for a in apps:
+        a["blockers"] = json.loads(a["blockers"] or "[]")
+        opp = opp_map.get(a["opportunity_id"])
+        a["opportunity_title"] = opp["title"] if opp else a["opportunity_id"]
+        a["official_deadline"] = opp["deadline"] if opp else None
+        a["opportunity_status"] = opp["status"] if opp else None
+        a["official_url"] = opp["canonical_url"] if opp else None
+        stages.setdefault(a["stage"], []).append(a)
+    for bucket in stages.values():
+        bucket.sort(key=lambda a: (a["official_deadline"] is None,
+                                   a["official_deadline"] or ""))
+    return {"stages": stages, "total": len(apps)}
 
 
 def health_data(cfg: Config) -> dict:
