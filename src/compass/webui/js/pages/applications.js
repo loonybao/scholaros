@@ -1,42 +1,32 @@
-/* Application Pipeline — kanban by stage, data inherited from the linked
-   vacancy records. Read-only; edits go through the CLI. */
+/* Application Pipeline — kanban by stage; data inherited from the vacancy. */
 
-import { badge, emptyState, esc, fetchJSON, panel } from "../ui.js";
+import { fmtDate } from "../format.js";
+import { t } from "../i18n.js";
+import { stageLabel } from "../labels.js";
+import { emptyState, esc, fetchJSON, pageHeader, panel, sourceLink } from "../ui.js";
 
-const STAGE_ORDER = [
-  "identified", "preparing", "submitted", "monitoring", "awaiting_response",
-  "interview", "offered", "rejected", "withdrawn",
-];
+const STAGES = ["identified", "preparing", "submitted", "monitoring",
+  "awaiting_response", "interview", "offered", "rejected", "withdrawn"];
 
 function card(a) {
-  const blockers = a.blockers.length
-    ? `<ul>${a.blockers.map((b) => `<li>${esc(b)}</li>`).join("")}</ul>` : "";
+  const blockers = a.blockers.length ? `<ul>${a.blockers.map((b) => `<li>${esc(b)}</li>`).join("")}</ul>` : "";
   return `<div class="kanban-card">
     <div class="k-title">${esc(a.opportunity_title)}</div>
-    <div>${a.official_deadline
-      ? `Official deadline: <strong>${esc(a.official_deadline)}</strong>` : "No official deadline"}
-      ${a.internal_due_date ? ` · internal: ${esc(a.internal_due_date)}` : ""}</div>
-    ${a.next_step ? `<div>Next: ${esc(a.next_step)}${a.next_step_due ? ` (due ${esc(a.next_step_due)})` : ""}</div>` : ""}
+    <div>${a.official_deadline ? `${t("app.deadline")}: <strong>${esc(fmtDate(a.official_deadline))}</strong>` : t("common.none")}
+      ${a.internal_due_date ? ` · ${t("app.internal")}: ${esc(fmtDate(a.internal_due_date))}` : ""}</div>
+    ${a.next_step ? `<div>${t("app.next")}: ${esc(a.next_step)}${a.next_step_due ? ` (${esc(fmtDate(a.next_step_due))})` : ""}</div>` : ""}
     ${blockers}
-    ${a.official_url ? `<div><a href="${esc(a.official_url)}" target="_blank" rel="noopener">official page</a></div>` : ""}
+    ${a.official_url ? `<div>${sourceLink(a.official_url, "app.official_page")}</div>` : ""}
   </div>`;
 }
 
 export default async function render(root) {
   const data = await fetchJSON("/api/applications");
-  const columns = STAGE_ORDER
-    .filter((s) => (data.stages[s] || []).length || ["identified", "preparing", "submitted"].includes(s))
-    .map((s) => `<div class="kanban-col">
-      <h3>${esc(s)} (${(data.stages[s] || []).length})</h3>
-      ${(data.stages[s] || []).map(card).join("") ||
-        `<div class="empty">—</div>`}
-    </div>`).join("");
-  root.innerHTML = `
-    <header class="page-header">
-      <h1>Application Pipeline</h1>
-      <div class="header-meta">${data.total} application record(s) — deadlines and links inherited live from the vacancy records.</div>
-    </header>
-    ${data.total ? `<section class="panel"><div class="kanban">${columns}</div></section>`
-      : panel("Pipeline", emptyState("No application records yet."))}
-  `;
+  const cols = STAGES.filter((s) => (data.stages[s] || []).length ||
+      ["identified", "preparing", "submitted"].includes(s))
+    .map((s) => `<div class="kanban-col"><h3>${stageLabel(s)} (${(data.stages[s] || []).length})</h3>
+      ${(data.stages[s] || []).map(card).join("") || `<div class="empty">${t("common.none")}</div>`}</div>`).join("");
+  root.innerHTML = pageHeader(t("app.title"), t("app.subtitle", { n: data.total })) +
+    (data.total ? `<section class="panel"><div class="kanban">${cols}</div></section>`
+      : panel("", emptyState(t("app.none"))));
 }

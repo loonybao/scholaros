@@ -376,6 +376,28 @@ def dashboard_data(cfg: Config, today: date) -> dict:
         for t in watchlist for i in t["preparation_items"][:3]
     ]
 
+    # Meaningful changes: intelligence worth surfacing (collector failures and
+    # verified signals). Heuristic feed, not a per-run diff — kept deliberately
+    # small so the homepage shows what changed, not every collected vacancy.
+    changes: list[dict] = []
+    health_path = cfg.paths.status / "collector_health.json"
+    if health_path.is_file():
+        with open(health_path, encoding="utf-8") as f:
+            collectors = json.load(f)
+        for name, info in collectors.items():
+            if info.get("consecutive_errors"):
+                changes.append({
+                    "kind": "collector_issue", "severity": "danger",
+                    "source": name, "detail": info.get("last_error"),
+                })
+    for s in feed[:4]:
+        changes.append({
+            "kind": "signal", "severity": "info", "title": s["title"],
+            "org_name": s.get("org_name"),
+            "recruitment_likelihood": s.get("recruitment_likelihood"),
+        })
+    meaningful_changes = changes[:5]
+
     # High-fit vacancies that are not actionable now because of the graduation
     # horizon are surfaced separately as market intelligence / future-target
     # evidence — never dropped, never pushed as an action.
@@ -403,8 +425,23 @@ def dashboard_data(cfg: Config, today: date) -> dict:
             for t in watchlist
         ],
         "preparation_actions": prep_actions[:8],
+        "meaningful_changes": meaningful_changes,
         "meta": meta,
     }
+
+
+def people_list(cfg: Config) -> list[dict]:
+    """Researchers with their organisation name and contact status."""
+    conn = connect(cfg)
+    try:
+        rows = [dict(r) for r in conn.execute(
+            "SELECT p.*, g.name AS org_name FROM people p "
+            "LEFT JOIN organisations g ON g.id = p.org_id "
+            "ORDER BY p.priority IS NULL, p.priority, p.name"
+        )]
+    finally:
+        conn.close()
+    return rows
 
 
 # Rejection reasons that mark a vacancy as timing/stage-limited rather than

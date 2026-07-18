@@ -20,6 +20,7 @@ from .index import (
     browse_opportunities,
     dashboard_data,
     health_data,
+    people_list,
     rebuild_index,
     signals_feed,
     skills_radar,
@@ -67,6 +68,10 @@ def create_app(cfg: Config) -> FastAPI:
     @app.get("/api/signals")
     def api_signals() -> dict:
         return {"signals": signals_feed(cfg)}
+
+    @app.get("/api/researchers")
+    def api_researchers() -> dict:
+        return {"researchers": people_list(cfg)}
 
     @app.get("/api/applications")
     def api_applications() -> dict:

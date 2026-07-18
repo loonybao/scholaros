@@ -4,30 +4,52 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research Compass</title>
+<script>
+  // Optional deep-link overrides (?theme=&lang=) persist to localStorage once;
+  // then set the theme before first paint to avoid a flash of the wrong palette.
+  (function () {
+    var p = new URLSearchParams(location.search);
+    if (p.get("theme")) localStorage.setItem("theme", p.get("theme"));
+    if (p.get("lang")) localStorage.setItem("locale", p.get("lang"));
+    document.documentElement.setAttribute(
+      "data-theme", localStorage.getItem("theme") || "system");
+  })();
+</script>
 <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 <div class="layout">
-  <aside class="sidebar">
+  <aside class="sidebar" id="sidebar" aria-label="Sidebar">
     <div class="brand">
-      <div class="brand-name">ScholarOS</div>
-      <div class="brand-sub">Research Compass</div>
+      <div class="brand-name" id="brand-name">ScholarOS</div>
+      <div class="brand-sub" id="brand-sub">Research Compass</div>
     </div>
-    <nav aria-label="Main navigation" id="nav">
-      <a class="nav-item" href="#/" data-route="dashboard">Dashboard</a>
-      <a class="nav-item" href="#/skills" data-route="skills">Skills Radar</a>
-      <a class="nav-item" href="#/opportunities" data-route="opportunities">Opportunities</a>
-      <a class="nav-item" href="#/targets" data-route="targets">Watchlist</a>
-      <a class="nav-item" href="#/signals" data-route="signals">Signals</a>
-      <a class="nav-item" href="#/applications" data-route="applications">Applications</a>
-      <a class="nav-item" href="#/archive" data-route="archive">Archive / Audit</a>
-    </nav>
-    <div class="sidebar-note">Read-only intelligence UI.<br>Edits go through the CLI.</div>
+    <nav id="nav" aria-label="Primary navigation"></nav>
+    <div class="sidebar-note" id="sidebar-note"></div>
   </aside>
 
-  <main class="main" id="app" aria-live="polite">
-    <div class="empty">Loading…</div>
-  </main>
+  <div class="content">
+    <header class="topbar">
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+        <span class="visually-hidden" id="menu-label">Menu</span>
+      </button>
+      <div class="topbar-spacer"></div>
+      <div class="topbar-controls">
+        <label class="control">
+          <span class="control-label" id="lbl-theme">Theme</span>
+          <select id="theme-select" aria-labelledby="lbl-theme"></select>
+        </label>
+        <label class="control">
+          <span class="control-label" id="lbl-lang">Language</span>
+          <select id="lang-select" aria-labelledby="lbl-lang"></select>
+        </label>
+      </div>
+    </header>
+    <main class="main" id="app" aria-live="polite" tabindex="-1">
+      <div class="empty">Loading…</div>
+    </main>
+  </div>
 </div>
 <script type="module" src="/static/js/main.js"></script>
 </body>

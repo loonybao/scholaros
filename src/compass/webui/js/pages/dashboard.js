@@ -1,238 +1,183 @@
-/* Dashboard page — ported from the S2 implementation unchanged in
-   behaviour: action required, manual tasks, analysis queue, open table,
-   deadlines, review queue, health. */
+/* Dashboard — personal research-career homepage. Seven focused sections;
+   engineering detail (analysis queue, index internals) lives under System.
+   Raw enum values are never shown — labels come from labels.js. */
 
+import { fmtDateTime, fmtMonthYear } from "../format.js";
+import { t } from "../i18n.js";
 import {
-  badge, emptyState, esc, fetchJSON, fitText, gateBadge, panel,
-  recommendationBadge, urgencyBadge,
-} from "../ui.js";
+  fitLabel, phaseLabel, skillStatusLabel, skillTone,
+  timingLabel, timingTone, likelihoodLabel, likelihoodTone,
+  valueLabel, valueTone,
+} from "../labels.js";
+import { badge, emptyState, esc, fetchJSON, panel } from "../ui.js";
 
-function nextAction(row) {
-  if (row.needs_review) return "Resolve manual review (see queue below)";
-  if (row.urgency === "urgent" || row.urgency === "high")
-    return "Verify posting and start application preparation";
-  return "Monitor";
-}
-
-function actionCards(rows) {
-  if (!rows.length)
-    return emptyState("Nothing needs action right now.",
-      "Apply/consider proposals and stale analyses will appear here.");
-  return `<div class="cards">` + rows.map((r) => `
-    <div class="card">
-      <div class="card-title">${esc(r.title)}</div>
-      <div class="card-org">${esc(r.org_name || r.org_id)} · ${esc(r.location || "location unknown")}</div>
-      <div class="card-row">
-        ${urgencyBadge(r.urgency, r.days_to_deadline)}
-        ${gateBadge(r.eligibility_gate)}
-        ${r.needs_review ? badge("needs review", "review") : ""}
-        ${r.analysis_stale ? badge("analysis stale — renew", "uncertain") : ""}
-      </div>
-      <div class="card-row">Deadline: ${esc(r.deadline || "unknown")} · ${esc(fitText(r))}</div>
-      ${r.recommendation ? `<div class="card-row">${recommendationBadge(r)}</div>` : ""}
-      <div class="card-action">
-        <span class="card-action-label">Next action</span>${esc(nextAction(r))}
-      </div>
-    </div>`).join("") + `</div>`;
-}
-
-function manualTasks(tasks) {
-  if (!tasks.length) return "";
-  return tasks.map((t) => `
-    <div class="review-item">
-      ${badge(t.priority, t.priority === "high" ? "urgent" : "none")}
-      <strong>${esc(t.title)}</strong>
-      ${t.due_date ? `<span class="card-org"> · due ${esc(t.due_date)}</span>` : ""}
-    </div>`).join("") + "<br>";
-}
-
-function analysisQueue(rows) {
-  if (!rows.length) return emptyState("Everything discovered has been analysed.");
-  const shown = rows.slice(0, 12);
-  return shown.map((r) => `
-    <div class="review-item">
-      ${esc(r.deadline || "no deadline")} · ${esc(r.title)}
-      <span class="card-org">(${esc(r.org_name || r.org_id)})</span>
-    </div>`).join("") +
-    (rows.length > shown.length
-      ? `<div class="empty">…and ${rows.length - shown.length} more awaiting analysis</div>`
-      : "");
-}
-
-function openTable(rows) {
-  if (!rows.length)
-    return emptyState("No open opportunities.",
-      "Run collectors or add one with: python -m compass new opportunity");
-  const body = rows.map((r) => `
-    <tr>
-      <td><a href="${esc(r.canonical_url)}" target="_blank" rel="noopener">${esc(r.title)}</a></td>
-      <td>${esc(r.org_name || r.org_id)}</td>
-      <td class="num">${esc(r.deadline || "—")}</td>
-      <td class="num">${r.days_to_deadline ?? "—"}</td>
-      <td>${gateBadge(r.eligibility_gate)}</td>
-      <td class="num">${r.fit_overall ?? "—"}</td>
-      <td>${recommendationBadge(r) || "—"}</td>
-      <td>${esc(r.status)}</td>
-    </tr>`).join("");
-  return `<div class="table-wrap"><table>
-    <tr><th>Opportunity</th><th>Organisation</th><th>Deadline</th><th>Days</th>
-    <th>Eligibility</th><th>Research fit</th><th>Proposal</th><th>Status</th></tr>
-    ${body}</table></div>`;
-}
-
-function deadlines(rows) {
-  if (!rows.length)
-    return `<ul class="plain-list"><li>${emptyState("No deadlines within 45 days.")}</li></ul>`;
-  return `<ul class="plain-list">` + rows.map((r) => `
-    <li><span>${esc(r.title)}</span>
-    <span>${esc(r.deadline)} ${urgencyBadge(r.urgency, r.days_to_deadline)}</span></li>`)
-    .join("") + `</ul>`;
-}
-
-function reviewQueue(rows) {
-  if (!rows.length)
-    return emptyState("Queue is empty.",
-      "Records with unresolved eligibility or low confidence land here.");
-  return rows.slice(0, 15).map((r) => `
-    <div class="review-item">
-      <strong>${esc(r.title)}</strong> ${gateBadge(r.eligibility_gate)}
-      <ul class="review-reasons">
-        ${r.eligibility_reasons.map((x) => `<li>${esc(x)}</li>`).join("")}
-      </ul>
-    </div>`).join("") +
-    (rows.length > 15 ? `<div class="empty">…and ${rows.length - 15} more</div>` : "");
-}
-
-function healthRow(health) {
-  const counts = health.entity_counts || {};
-  const items = [
-    ["Opportunities", counts.opportunity ?? 0],
-    ["Organisations", counts.organisation ?? 0],
-    ["People", counts.person ?? 0],
-    ["Signals", counts.signal ?? 0],
-    ["Applications", counts.application ?? 0],
-  ].map(([k, v]) =>
-    `<div class="health-item"><div class="k">${esc(k)}</div><div class="v">${esc(v)}</div></div>`
-  ).join("");
-  const names = Object.keys(health.collectors || {});
-  const collectors = names.length
-    ? names.map((name) => {
-        const c = health.collectors[name];
-        const ok = (c.consecutive_errors || 0) === 0 && c.last_success;
-        return `<div class="health-item"><div class="k">${esc(name)}</div>
-          <div class="v">${badge(ok ? `ok · ${c.last_success}` : `errors: ${c.consecutive_errors || "never ran"}`, ok ? "pass" : "fail")}</div></div>`;
-      }).join("")
-    : `<div class="health-item"><div class="k">Collectors</div>
-       <div class="v">${badge("none yet", "none")}</div></div>`;
-  const llm = `<div class="health-item"><div class="k">LLM analysis</div>
-    <div class="v">${badge(health.llm_configured ? "configured" : "interactive workflow", "none")}</div></div>`;
-  return `<div class="health-row">${items}${collectors}${llm}</div>
-    <footer class="page-footer">Index rebuilt: ${esc(health.index_rebuilt_at || "never")} ·
-    Read-only intelligence UI — decisions and applications are edited via CLI.</footer>`;
-}
-
-function horizonSection(h) {
+/* ----- 1. personal status hero ----- */
+function hero(h) {
   if (!h) return "";
-  const win = (w) => w ? `${esc(w.from)} → ${esc(w.to)}` : "—";
-  const milestones = h.milestones.map((m) =>
-    `<li><span>${esc(m.text)}</span><span class="card-org">${esc(m.date)}</span></li>`).join("");
-  return `<div class="target-card">
-    <div class="card-row">
-      ${badge(`current phase: ${h.phase_label}`, "pass")}
-      ${badge(`~${h.months_to_graduation} months to graduation`, "none")}
-      ${badge(`expected MSc: ${h.expected_graduation} (${h.certainty})`, "none")}
-    </div>
-    <div class="skill-detail"><strong>Guidance:</strong> ${esc(h.phase_guidance)}</div>
-    <div class="target-grid">
-      <div><h4>Recommended preparation window</h4><div>${win(h.preparation_window)}</div></div>
-      <div><h4>Recommended outreach window</h4><div>${win(h.outreach_window)}</div></div>
-      <div><h4>Recommended active application window</h4><div>${win(h.active_application_window)}</div></div>
-    </div>
-    <div style="margin-top:10px"><h4 style="font-size:10px;text-transform:uppercase;color:var(--muted)">Next major preparation milestones</h4>
-      <ul class="plain-list">${milestones}</ul></div>
+  const phase = phaseLabel(h.current_phase);
+  const dates = [
+    ["dash.hero.expected", fmtMonthYear(h.expected_graduation)],
+    ["dash.hero.prep_begins", fmtMonthYear(h.preparation_window.from)],
+    ["dash.hero.active_period",
+      `${fmtMonthYear(h.active_application_window.from)} – ${fmtMonthYear(h.active_application_window.to)}`],
+  ].map(([k, v]) => `<div class="hero-date"><div class="k">${t(k)}</div><div class="v">${esc(v)}</div></div>`).join("");
+  return `<div class="hero">
+    <div class="hero-phase"><h1>${esc(phase)}</h1>
+      ${badge(t("dash.hero.months_short", { n: Math.round(h.months_to_graduation) }), "info")}</div>
+    <p class="hero-lede">${t("dash.hero.building")}</p>
+    <div class="hero-noaction"><span aria-hidden="true">✓</span>${t("dash.hero.no_action")}</div>
+    <div class="hero-dates">${dates}</div>
+    <a class="btn secondary" href="#/roadmap">${t("dash.hero.view_roadmap")} →</a>
   </div>`;
 }
 
-function futureTargetIntel(rows) {
+/* ----- 2. current focus (max three cards) ----- */
+function focus(skills) {
+  const tm = (skills && skills.scopes && skills.scopes.target_market) || { skills: [] };
+  const learn = tm.skills.filter((s) => s.suggested_status === "learn_next")
+    .sort((a, b) => b.required_count - a.required_count).slice(0, 2);
+  const cards = [`
+    <div class="card">
+      <h3>${t("dash.focus.thesis.title")}</h3>
+      <div class="card-why">${t("dash.focus.thesis.body")}</div>
+      <div class="card-foot">${t("dash.focus.thesis.milestone")}</div>
+    </div>`];
+  for (const s of learn) {
+    const milestoneKey = s.skill === "statistics" ? "dash.focus.milestone_stat" : "dash.focus.milestone_py";
+    const demand = s.preferred_count > 0
+      ? t("dash.focus.required_pref_by", { n: s.required_count + s.preferred_count })
+      : t("dash.focus.required_by", { n: s.required_count });
+    cards.push(`
+      <div class="card">
+        <h3>${esc(s.label)}</h3>
+        <div class="card-why">${esc(demand)}</div>
+        <div class="card-row">${badge(t("dash.focus.status", { status: skillStatusLabel(s.suggested_status) }), skillTone(s.suggested_status))}</div>
+        <div class="card-foot">${t(milestoneKey)} · <a href="#/skills">${t("dash.focus.open_skill")} →</a></div>
+      </div>`);
+  }
+  return panel(t("dash.focus.title"), `<div class="card-grid">${cards.join("")}</div>`);
+}
+
+/* ----- 3. meaningful changes ----- */
+function changes(items) {
+  if (!items.length) return panel(t("dash.changes.title"), emptyState(t("dash.changes.none")));
+  const rows = items.map((c) => {
+    if (c.kind === "collector_issue")
+      return `<div class="item-row">${badge(t("dash.changes.collector_issue", { source: c.source }), "danger")}</div>`;
+    return `<div class="item-row">
+      ${badge(t("dash.changes.signal"), "info")}
+      ${c.recruitment_likelihood ? badge(likelihoodLabel(c.recruitment_likelihood), likelihoodTone(c.recruitment_likelihood)) : ""}
+      <strong>${esc(c.title)}</strong>
+      <span class="muted"> ${esc(c.org_name || "")}</span></div>`;
+  }).join("");
+  return panel(t("dash.changes.title"), rows);
+}
+
+/* ----- 4. target labs snapshot ----- */
+function targetLabs(targets) {
+  const labs = targets.filter((tg) => tg.org_type === "lab" || tg.org_type === "group").slice(0, 3);
+  if (!labs.length) return "";
+  const cards = labs.map((tg) => {
+    const sig = (tg.latest_signals || [])[0];
+    const prep = (tg.preparation_items || [])[0];
+    const person = (tg.people || [])[0];
+    return `<div class="card">
+      <h3>${esc(tg.name)}</h3>
+      <div class="card-row">
+        ${tg.future_group_value ? badge(`${t("dash.labs.future_value")}: ${valueLabel(tg.future_group_value)}`, valueTone(tg.future_group_value)) : ""}
+        ${tg.recruitment_likelihood ? badge(`${t("dash.labs.recruitment")}: ${likelihoodLabel(tg.recruitment_likelihood)}`, likelihoodTone(tg.recruitment_likelihood)) : ""}
+      </div>
+      <div class="card-meta"><strong>${t("dash.labs.latest_signal")}:</strong> ${sig ? esc(sig.title) : t("dash.labs.none_signal")}</div>
+      <div class="card-meta"><strong>${t("dash.labs.prepare")}:</strong> ${prep ? esc(prep.text) : t("dash.labs.none_prep")}</div>
+      ${person ? `<div class="card-meta"><strong>${t("dash.labs.researcher")}:</strong> ${esc(person.name)}</div>` : ""}
+    </div>`;
+  }).join("");
+  return panel(t("dash.labs.title"),
+    `<div class="card-grid">${cards}</div><div class="card-foot"><a href="#/targets">${t("common.view_all")} →</a></div>`);
+}
+
+/* ----- 5. skills snapshot ----- */
+function skillsSnapshot(skills) {
+  const tm = (skills && skills.scopes && skills.scopes.target_market) || { skills: [] };
+  const pick = (pred, n) => tm.skills.filter(pred).slice(0, n).map((s) => s.label);
+  const strengths = pick((s) => s.suggested_status === "strength", 4);
+  const learn = pick((s) => s.suggested_status === "learn_next", 4);
+  const emerging = pick((s) => s.suggested_status === "optional" &&
+    (s.preferred_count > 0 || !s.user_level || s.user_level === "none"), 3);
+  if (!strengths.length && !learn.length && !emerging.length)
+    return panel(t("dash.skills.title"), emptyState(t("dash.skills.none")));
+  const col = (titleKey, list, tone) => `
+    <div><h4>${t(titleKey)}</h4><div class="pill-row">
+      ${list.length ? list.map((l) => badge(l, tone)).join("") : `<span class="empty-hint">${t("common.none")}</span>`}
+    </div></div>`;
+  return panel(t("dash.skills.title"), `
+    <div class="detail-grid">
+      ${col("dash.skills.strengths", strengths, "good")}
+      ${col("dash.skills.learn_next", learn, "warn")}
+      ${col("dash.skills.emerging", emerging, "info")}
+    </div>
+    <div class="card-foot"><a href="#/skills">${t("dash.skills.open")} →</a></div>`);
+}
+
+/* ----- 6. future-target evidence (compact cards) ----- */
+function futureEvidence(rows) {
   if (!rows.length) return "";
-  const body = rows.map((r) => `
-    <tr>
-      <td><a href="${esc(r.canonical_url)}" target="_blank" rel="noopener">${esc(r.title)}</a></td>
-      <td>${esc(r.org_name || r.org_id)}</td>
-      <td class="num">${r.fit_overall ?? "—"}</td>
-      <td>${badge(`timing: ${r.timing_assessment}`, "uncertain")}</td>
-      <td class="num">${esc(r.deadline || "—")}</td>
-    </tr>`).join("");
-  return panel(
-    "High-fit vacancies — market intelligence / future-target evidence (not actionable now)",
-    `<div class="table-wrap"><table>
-      <tr><th>Vacancy</th><th>Organisation</th><th>Research fit</th>
-      <th>Timing</th><th>Deadline</th></tr>${body}</table></div>`);
-}
-
-function recentSignals(signals) {
-  if (!signals.length)
-    return emptyState("No verified signals yet.");
-  return signals.map((s) => `
-    <div class="review-item">
-      <a href="#/signals"><strong>${esc(s.title)}</strong></a>
-      ${s.recruitment_likelihood
-        ? badge(`likelihood: ${s.recruitment_likelihood}`,
-                s.recruitment_likelihood === "high" ? "pass" : "uncertain")
-        : ""}
-      <span class="card-org">${esc(s.org_name || "")} · ${esc(s.signal_type)}</span>
+  const cards = rows.slice(0, 4).map((r) => `
+    <div class="card">
+      <h3>${esc(r.title)}</h3>
+      <div class="card-meta">${esc(r.org_name || r.org_id)}</div>
+      <div class="card-row">
+        ${r.fit_overall != null ? badge(`${t("dash.evidence.fit")}: ${r.fit_overall} (${fitLabel(r.fit_type)})`, "info") : ""}
+        ${badge(`${t("dash.evidence.timing")}: ${timingLabel(r.timing_assessment)}`, timingTone(r.timing_assessment))}
+      </div>
+      <div class="card-foot">${t("dash.evidence.benchmark")}</div>
     </div>`).join("");
+  return panel(t("dash.evidence.title"), `<div class="card-grid">${cards}</div>`);
 }
 
-function watchlistPanel(rows) {
-  if (!rows.length) return emptyState("No watchlist targets marked.");
-  const body = rows.map((t) => `
-    <tr>
-      <td><a href="#/targets">${esc(t.name)}</a></td>
-      <td>${t.future_group_value ? badge(t.future_group_value, t.future_group_value === "high" ? "pass" : "none") : "—"}</td>
-      <td>${t.recruitment_likelihood ? badge(t.recruitment_likelihood, t.recruitment_likelihood === "high" ? "pass" : "uncertain") : "—"}</td>
-      <td class="num">${esc((t.last_checked || "never").slice(0, 10))}</td>
-      <td>${esc(t.next_preparation_action || "—")}</td>
-    </tr>`).join("");
-  return `<div class="table-wrap"><table>
-    <tr><th>Target</th><th>Future value</th><th>Recruitment likelihood</th>
-    <th>Last checked</th><th>Next preparation action</th></tr>${body}</table></div>`;
+/* ----- 7. compact system status ----- */
+function systemStatus(health, changeCount) {
+  const collectors = health.collectors || {};
+  const issues = Object.values(collectors).filter((c) => c.consecutive_errors).length;
+  const healthLine = issues
+    ? badge(t("dash.status.issues", { n: issues }), "danger")
+    : badge(t("dash.status.healthy"), "good");
+  return panel("", `<div class="status-line">
+    ${healthLine}
+    <span><span class="k">${t("dash.status.last_update")}</span>${esc(fmtDateTime(health.index_rebuilt_at) || t("common.none"))}</span>
+    <span><span class="k">${t("dash.status.new_items")}</span>${changeCount}</span>
+    <a href="#/data-health" class="muted">${t("nav.data_health")} →</a>
+  </div>`);
 }
 
-function preparationPanel(items) {
-  if (!items.length) return emptyState("No preparation suggestions yet.");
-  return `<ul class="plain-list">` + items.map((p) => `
-    <li><span>${badge(p.item.kind, "none")} ${esc(p.item.text)}</span>
-    <span class="card-org">${esc(p.target)}</span></li>`).join("") + `</ul>`;
+/* ----- optional action-required (only when there is something) ----- */
+function actionRequired(dash) {
+  const tasks = dash.manual_tasks || [];
+  const opps = dash.action_required || [];
+  if (!tasks.length && !opps.length) return "";
+  const taskRows = tasks.map((tk) => `
+    <div class="item-row">${badge(t("dash.action.pending"), "warn")} <strong>${esc(tk.title)}</strong>
+      ${tk.due_date ? `<span class="muted"> · ${esc(tk.due_date)}</span>` : ""}</div>`).join("");
+  const oppRows = opps.map((r) => `
+    <div class="item-row"><strong>${esc(r.title)}</strong>
+      <span class="muted"> ${esc(r.org_name || r.org_id)} · ${esc(r.deadline || "")}</span></div>`).join("");
+  return panel("Action required", taskRows + oppRows);
 }
 
 export default async function render(root) {
-  const [dash, health] = await Promise.all([
+  const [dash, health, skills, targetsResp] = await Promise.all([
     fetchJSON("/api/dashboard"), fetchJSON("/api/health"),
+    fetchJSON("/api/skills"), fetchJSON("/api/targets"),
   ]);
   root.innerHTML = `
-    <header class="page-header">
-      <h1>Research Compass — Dashboard</h1>
-      <div class="header-meta">Generated ${esc(dash.generated_at)} · canonical → SQLite index → this page</div>
-    </header>
-    ${dash.graduation_horizon
-      ? panel("Graduation horizon", horizonSection(dash.graduation_horizon))
-      : ""}
-    ${panel("Action required", manualTasks(dash.manual_tasks || []) + actionCards(dash.action_required))}
-    ${futureTargetIntel(dash.future_target_intel || [])}
-    ${panel("Analysis queue (not yet analysed)", analysisQueue(dash.analysis_queue || []))}
-    <div class="two-col">
-      ${panel("Open opportunities", openTable(dash.open_opportunities))}
-      <div class="col-stack">
-        ${panel("Upcoming deadlines (45 days)", deadlines(dash.upcoming_deadlines))}
-        ${panel("Recent signals", recentSignals(dash.recent_signals || []))}
-        ${panel("Manual review queue", reviewQueue(dash.review_queue))}
-      </div>
-    </div>
-    ${panel("Recruitment watchlist & future recruitment likelihood",
-            watchlistPanel(dash.watchlist || []))}
-    ${panel("Preparation actions (prepare before vacancy)",
-            preparationPanel(dash.preparation_actions || []))}
-    ${panel("System & collector health", healthRow(health))}
+    <header class="page-header"><h1>${t("dash.title")}</h1></header>
+    ${hero(dash.graduation_horizon)}
+    ${actionRequired(dash)}
+    ${focus(skills)}
+    ${changes(dash.meaningful_changes || [])}
+    ${targetLabs(targetsResp.targets || [])}
+    ${skillsSnapshot(skills)}
+    ${futureEvidence(dash.future_target_intel || [])}
+    ${systemStatus(health, (dash.meaningful_changes || []).length)}
   `;
 }
