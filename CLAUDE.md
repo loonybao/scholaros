@@ -48,6 +48,24 @@ Opportunity identity excludes deadline. Priority: `source_native_id` →
 `canonical_url` → fingerprint `(org_id, normalized_title, location, posted_date)`.
 A deadline change updates the existing record and appends to `change_history`.
 
+## Web write layer (S8a+)
+
+The web UI may write ONLY manual-layer fields, Application records, Action
+records, and user notes — through narrowly-scoped endpoints that go via
+`compass.store` (actor="user", field-level change_history, atomic + locked).
+Requests use Pydantic models with `extra="forbid"`; official/ai/derived fields
+can never be smuggled in. Writes reject stale updates (optimistic concurrency
+on `updated_at`), avoid no-op history, refresh the SQLite index and
+`vault/generated/`, and never touch `vault/notes/`. Incorrect official data is
+reported via a data-issue action for review, never edited in place.
+
+Deferred decision (S8b): skill progress will become a canonical `SkillProgress`
+(a.k.a. ProfileState) entity holding only the changing per-skill fields
+(current_level, learning_status, confidence, target, evidence, notes). The
+stable baseline stays in `config/current_profile.yaml`; the effective profile
+is baseline + audited SkillProgress. Do NOT let the web edit
+`current_profile.yaml` directly, and do NOT add editable skills in S8a.
+
 ## Conventions
 
 - Every file open uses `encoding="utf-8"`; paths via `pathlib`.

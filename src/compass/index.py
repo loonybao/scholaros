@@ -61,7 +61,12 @@ CREATE TABLE applications (
     next_step_due TEXT,
     internal_due_date TEXT,
     blockers TEXT NOT NULL DEFAULT '[]',
-    notes TEXT
+    notes TEXT,
+    materials TEXT NOT NULL DEFAULT '[]',
+    submitted_at TEXT,
+    portal_reference TEXT,
+    documents_used TEXT NOT NULL DEFAULT '[]',
+    updated_at TEXT
 );
 
 CREATE TABLE organisations (
@@ -104,7 +109,9 @@ CREATE TABLE opportunities (
     analyzed INTEGER NOT NULL DEFAULT 0,
     analysis_stale INTEGER NOT NULL DEFAULT 0,
     retrieved_at TEXT,
-    timing_assessment TEXT NOT NULL DEFAULT 'timing_unknown'
+    timing_assessment TEXT NOT NULL DEFAULT 'timing_unknown',
+    user_status TEXT,
+    updated_at TEXT
 );
 
 CREATE TABLE people (
@@ -168,7 +175,7 @@ def rebuild_index(cfg: Config, store: Store) -> int:
             )
             conn.execute(
                 "INSERT INTO opportunities VALUES "
-                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     opp.id,
                     o.title,
@@ -202,6 +209,8 @@ def rebuild_index(cfg: Config, store: Store) -> int:
                     int(stale),
                     o.retrieved_at.isoformat() if o.retrieved_at else None,
                     d.timing_assessment,
+                    opp.manual.user_status,
+                    opp.updated_at.isoformat() if opp.updated_at else None,
                 ),
             )
             rows += 1
@@ -247,19 +256,24 @@ def rebuild_index(cfg: Config, store: Store) -> int:
             rows += 1
 
         for app in store.load_all("application"):
+            m = app.manual
             conn.execute(
-                "INSERT INTO applications VALUES (?,?,?,?,?,?,?,?)",
+                "INSERT INTO applications VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     app.id,
                     app.system.opportunity_id,
-                    app.manual.stage,
-                    app.manual.next_step,
-                    app.manual.next_step_due.isoformat()
-                    if app.manual.next_step_due else None,
-                    app.manual.internal_due_date.isoformat()
-                    if app.manual.internal_due_date else None,
-                    json.dumps(app.manual.blockers, ensure_ascii=False),
-                    app.manual.notes,
+                    m.stage,
+                    m.next_step,
+                    m.next_step_due.isoformat() if m.next_step_due else None,
+                    m.internal_due_date.isoformat() if m.internal_due_date else None,
+                    json.dumps(m.blockers, ensure_ascii=False),
+                    m.notes,
+                    json.dumps([mat.model_dump(mode="json") for mat in m.materials],
+                               ensure_ascii=False),
+                    m.submitted_at.isoformat() if m.submitted_at else None,
+                    m.portal_reference,
+                    json.dumps(m.documents_used, ensure_ascii=False),
+                    app.updated_at.isoformat() if app.updated_at else None,
                 ),
             )
             rows += 1
@@ -421,7 +435,7 @@ def dashboard_data(cfg: Config, today: date) -> dict:
         "watchlist": [
             {k: t[k] for k in ("id", "name", "future_group_value",
                                "recruitment_likelihood", "last_checked",
-                               "next_preparation_action")}
+                               "next_preparation")}
             for t in watchlist
         ],
         "preparation_actions": prep_actions[:8],
@@ -682,6 +696,16 @@ def browse_opportunities(cfg: Config, filters: dict) -> list[dict]:
                 r["deadline_status"] != filters["deadline_status"]:
             continue
         out.append(r)
+
+    # 'relevant' scope (the default Opportunities page, distinct from Archive):
+    # exact/adjacent fit, or an apply/consider proposal, or a user-set status.
+    if filters.get("scope") == "relevant":
+        out = [
+            r for r in out
+            if r["fit_type"] in ("exact-fit", "adjacent-methodological-fit")
+            or r["recommendation"] in ("apply", "consider")
+            or r["user_status"]
+        ]
     return out
 
 
@@ -800,42 +824,26 @@ def _taxonomy_groups(cfg: Config) -> dict[str, str]:
 
 
 def preparation_items(cfg: Config, target: dict) -> list[dict]:
-    """Deterministic prepare-before-vacancy suggestions for a target group,
-    derived from its recurring required skills vs the user's profile, its
-    people and its signals. Never creates records; purely a derived view."""
+    """Deterministic prepare-before-vacancy suggestions for a target group.
+    Returns STRUCTURED items (no baked-in English) so the frontend can localise
+    via t() templates. Purely derived; never creates records."""
     profile = {s["id"]: s for s in (cfg.profile.get("skills") or [])
                if isinstance(s, dict) and s.get("id")}
-    groups = _taxonomy_groups(cfg)
     items: list[dict] = []
 
     for skill, count in target.get("recurring_skills", []):
         level = (profile.get(skill) or {}).get("level")
-        if level in ("advanced",):
-            items.append({
-                "kind": "portfolio",
-                "text": f"Prepare portfolio evidence for {skill} "
-                        f"(required in {count} vacancy(ies) at this target; "
-                        f"your level: advanced)",
-            })
-        elif level in (None, "none", "beginner"):
-            kind = "method" if groups.get(skill) == "research_methods" else "skill"
-            items.append({
-                "kind": kind,
-                "text": f"{'Learn' if level in (None, 'none') else 'Strengthen'} "
-                        f"{skill} (required in {count} vacancy(ies) at this target)",
-            })
+        if level == "advanced":
+            items.append({"kind": "portfolio", "skill": skill, "count": count})
+        elif level in (None, "none"):
+            items.append({"kind": "learn", "skill": skill, "count": count})
+        elif level == "beginner":
+            items.append({"kind": "strengthen", "skill": skill, "count": count})
     for p in target.get("people", [])[:3]:
-        items.append({
-            "kind": "monitor",
-            "text": f"Monitor {p['name']}'s page/publications"
-                    + (f" ({p['title']})" if p.get("title") else ""),
-        })
+        items.append({"kind": "monitor_person", "person": p["name"]})
     for s in target.get("signals", [])[:2]:
         if s.get("url"):
-            items.append({
-                "kind": "monitor",
-                "text": f"Watch the source behind: {s['title']}",
-            })
+            items.append({"kind": "monitor_signal", "source_title": s["title"]})
     return items[:8]
 
 
@@ -884,8 +892,9 @@ def watchlist_data(cfg: Config) -> list[dict]:
             t["preparation_items"] = preparation_items(cfg, t)
         else:
             t["preparation_items"] = []
-        t["next_preparation_action"] = (
-            t["preparation_items"][0]["text"] if t["preparation_items"] else None
+        # Structured next action (frontend localises); None if nothing to do.
+        t["next_preparation"] = (
+            t["preparation_items"][0] if t["preparation_items"] else None
         )
     return targets
 
@@ -914,6 +923,8 @@ def applications_data(cfg: Config) -> dict:
     stages: dict[str, list] = {s: [] for s in APPLICATION_STAGES}
     for a in apps:
         a["blockers"] = json.loads(a["blockers"] or "[]")
+        a["materials"] = json.loads(a["materials"] or "[]")
+        a["documents_used"] = json.loads(a["documents_used"] or "[]")
         opp = opp_map.get(a["opportunity_id"])
         a["opportunity_title"] = opp["title"] if opp else a["opportunity_id"]
         a["official_deadline"] = opp["deadline"] if opp else None
@@ -924,6 +935,68 @@ def applications_data(cfg: Config) -> dict:
         bucket.sort(key=lambda a: (a["official_deadline"] is None,
                                    a["official_deadline"] or ""))
     return {"stages": stages, "total": len(apps)}
+
+
+def opportunity_detail(cfg: Config, store: Store, opp_id: str) -> Optional[dict]:
+    """Full detail for the Opportunity workspace: official/ai/derived/manual
+    plus organisation names and any linked application. Read from canonical so
+    the AI rationales and full text are available. Returns None if missing."""
+    if not store.exists("opportunity", opp_id):
+        return None
+    opp = store.load("opportunity", opp_id)
+    o, d, m = opp.official, opp.derived, opp.manual
+
+    def org_name(oid):
+        return store.load("organisation", oid).official.name if oid and store.exists(
+            "organisation", oid) else oid
+
+    linked = None
+    for app in store.load_all("application"):
+        if app.system.opportunity_id == opp_id:
+            linked = {"id": app.id, "stage": app.manual.stage}
+            break
+
+    from .rules import effective_recommendation
+    return {
+        "id": opp.id,
+        "updated_at": opp.updated_at.isoformat() if opp.updated_at else None,
+        "official": {
+            "title": o.title, "org_id": o.org_id, "org_name": org_name(o.org_id),
+            "lab_org_id": o.lab_org_id, "lab_name": org_name(o.lab_org_id),
+            "canonical_url": o.canonical_url, "apply_url": o.apply_url,
+            "deadline": o.deadline.isoformat() if o.deadline else None,
+            "deadline_note": o.deadline_note, "location": o.location,
+            "position_type": o.position_type, "salary_text": o.salary_text,
+            "funding": o.funding, "status": o.status,
+            "description_text": o.description_text,
+        },
+        "ai": None if opp.ai is None else {
+            "summary": opp.ai.summary, "fit_type": opp.ai.fit_type,
+            "thematic_fit": opp.ai.thematic_fit.model_dump(),
+            "methodological_fit": opp.ai.methodological_fit.model_dump(),
+            "growth_value": opp.ai.growth_value.model_dump(),
+            "strategic_value": opp.ai.strategic_value.model_dump(),
+            "required_skills": opp.ai.required_skills,
+            "preferred_skills": opp.ai.preferred_skills,
+            "matched_skills": opp.ai.matched_skills,
+            "missing_skills": opp.ai.missing_skills,
+            "transferable_strengths": opp.ai.transferable_strengths,
+            "risks": opp.ai.risks, "recommendation": opp.ai.recommendation,
+        },
+        "derived": {
+            "eligibility_gate": d.eligibility_gate,
+            "eligibility_reasons": d.eligibility_reasons,
+            "fit_overall": d.fit_overall, "timing_assessment": d.timing_assessment,
+            "effective_recommendation": effective_recommendation(
+                d.eligibility_gate, opp.ai.recommendation if opp.ai else None),
+        },
+        "manual": {"user_status": m.user_status, "notes": m.notes, "tags": m.tags},
+        "profile_levels": {
+            s["id"]: s.get("level") for s in (cfg.profile.get("skills") or [])
+            if isinstance(s, dict) and s.get("id")
+        },
+        "application": linked,
+    }
 
 
 def health_data(cfg: Config) -> dict:

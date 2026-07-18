@@ -154,20 +154,15 @@ def graduation_horizon(
     active_from = _minus_months(exp_grad, 6)
     final_push = _minus_months(exp_grad, 3)
 
+    # Structured milestones: the frontend localises via t(key). No English text
+    # is baked in here (dynamic-content localisation).
     milestones = [
-        {"date": today.isoformat(),
-         "text": "Now — finish thesis and publications; strengthen priority "
-                 "learn-next skills; monitor target groups (see Watchlist)."},
-        {"date": prep_from.isoformat(),
-         "text": "Begin application preparation and target-lab research."},
-        {"date": outreach_from.isoformat(),
-         "text": "Recruiter/supervisor outreach becomes appropriate for "
-                 "compatible live vacancies."},
-        {"date": final_push.isoformat(),
-         "text": "Active applications — prioritise roles with a start date "
-                 "compatible with graduation."},
-        {"date": exp_grad.isoformat(),
-         "text": f"Expected MSc completion ({certainty})."},
+        {"date": today.isoformat(), "key": "milestone.now"},
+        {"date": prep_from.isoformat(), "key": "milestone.prepare"},
+        {"date": outreach_from.isoformat(), "key": "milestone.outreach"},
+        {"date": final_push.isoformat(), "key": "milestone.active"},
+        {"date": exp_grad.isoformat(), "key": "milestone.graduation",
+         "certainty": certainty},
     ]
 
     return {
@@ -417,6 +412,27 @@ def propose_decision(
         and confidence >= confidence_threshold
     )
     return proposed, may_auto
+
+
+# Application stage machine. Forward transitions only; withdrawal is always
+# allowed. A same-stage set is a no-op. Anything else needs an explicit
+# correction (recorded as an audited user change), never a silent overwrite.
+APPLICATION_TRANSITIONS: dict[str, set[str]] = {
+    "identified": {"preparing", "monitoring", "withdrawn"},
+    "preparing": {"submitted", "monitoring", "withdrawn"},
+    "monitoring": {"preparing", "submitted", "withdrawn"},
+    "submitted": {"interview", "offered", "rejected", "awaiting_response", "withdrawn"},
+    "awaiting_response": {"interview", "offered", "rejected", "withdrawn"},
+    "interview": {"offered", "rejected", "withdrawn"},
+    "offered": {"withdrawn"},
+    "rejected": set(),
+    "withdrawn": set(),
+}
+
+
+def valid_application_transition(frm: str, to: str) -> bool:
+    """True if `to` is a permitted forward transition from `frm` (or a no-op)."""
+    return to == frm or to in APPLICATION_TRANSITIONS.get(frm, set())
 
 
 def effective_recommendation(gate: str, ai_recommendation: Optional[str]) -> Optional[str]:

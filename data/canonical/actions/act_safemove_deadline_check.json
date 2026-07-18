@@ -1,9 +1,9 @@
 {
   "id": "act_safemove_deadline_check",
   "entity_type": "action",
-  "schema_version": 8,
+  "schema_version": 9,
   "created_at": "2026-07-18T04:11:50.144268Z",
-  "updated_at": "2026-07-18T07:52:06.689424+00:00",
+  "updated_at": "2026-07-18T11:22:53.300642+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:11:50.145266Z",
@@ -63,6 +63,14 @@
         "schema_version"
       ],
       "note": "migrated to v8"
+    },
+    {
+      "ts": "2026-07-18T11:22:53.300642+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v9"
     }
   ],
   "system": {

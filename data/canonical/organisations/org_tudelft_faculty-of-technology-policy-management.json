@@ -1,9 +1,9 @@
 {
   "id": "org_tudelft_faculty-of-technology-policy-management",
   "entity_type": "organisation",
-  "schema_version": 8,
+  "schema_version": 9,
   "created_at": "2026-07-18T03:29:45.827522Z",
-  "updated_at": "2026-07-18T07:52:06.668780+00:00",
+  "updated_at": "2026-07-18T11:22:53.272578+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:29:45.828526Z",
@@ -52,6 +52,14 @@
         "schema_version"
       ],
       "note": "migrated to v8"
+    },
+    {
+      "ts": "2026-07-18T11:22:53.272578+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v9"
     }
   ],
   "official": {

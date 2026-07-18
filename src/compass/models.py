@@ -15,7 +15,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-SCHEMA_VERSION = 8
+SCHEMA_VERSION = 9
 
 # Structured rejection reasons. A reject decision NEVER deletes opportunity
 # intelligence — records stay browsable for history and skill analytics; the
@@ -224,6 +224,11 @@ class OpportunityManual(BaseModel):
     tags: list[str] = Field(default_factory=list)
     eligibility_override: Optional[Literal["pass", "uncertain", "fail"]] = None
     priority_override: Optional[Literal["high", "medium", "low"]] = None
+    # User's own disposition toward this vacancy (web-editable). The
+    # preparing/submitted states come from the linked Application, not here.
+    user_status: Optional[
+        Literal["saved", "future_target", "considering", "not_applying"]
+    ] = None
     hidden: bool = False
 
 
@@ -558,6 +563,8 @@ class ApplicationManual(BaseModel):
         "withdrawn",
     ] = "identified"
     submitted_at: Optional[date] = None
+    portal_reference: Optional[str] = None  # optional confirmation/reference id
+    documents_used: list[str] = Field(default_factory=list)  # versions at submission
     materials: list[ApplicationMaterial] = Field(default_factory=list)
     contact_person_ids: list[str] = Field(default_factory=list)
     events: list[ApplicationEvent] = Field(default_factory=list)

@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-advanced-adaptive-optics-for-laser-sate",
   "entity_type": "opportunity",
-  "schema_version": 8,
+  "schema_version": 9,
   "created_at": "2026-07-18T03:28:15.925099Z",
-  "updated_at": "2026-07-18T07:52:06.475894+00:00",
+  "updated_at": "2026-07-18T11:22:53.037803+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:28:15.926621Z",
@@ -72,6 +72,14 @@
         "schema_version"
       ],
       "note": "migrated to v8"
+    },
+    {
+      "ts": "2026-07-18T11:22:53.037803+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v9"
     }
   ],
   "official": {

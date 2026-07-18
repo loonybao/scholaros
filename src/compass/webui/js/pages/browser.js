@@ -1,5 +1,9 @@
-/* Opportunity Browser + Archive/Audit. Read-only, server-filtered. Rejected
-   and poor-fit records stay reachable — nothing is hidden from the audit. */
+/* Opportunity Browser + Archive/Audit.
+   - Opportunities (default): a card view scoped to roles relevant to you, each
+     card opening the detail workspace. This is the working surface.
+   - Archive: the full server-filtered audit table — rejected and poor-fit
+     records included. Nothing is ever hidden from the audit.
+   Both are read-only here; edits happen in the opportunity detail workspace. */
 
 import { fmtDate } from "../format.js";
 import { t } from "../i18n.js";
@@ -8,6 +12,8 @@ import {
   timingLabel, timingTone, valueLabel, valueTone,
 } from "../labels.js";
 import { badge, emptyState, esc, fetchJSON, pageHeader, panel } from "../ui.js";
+
+const statusLabel = (v) => (v ? t(`label.status.${v}`) : "");
 
 const ENUM_FILTERS = {
   fit_type: ["exact-fit", "adjacent-methodological-fit", "poor-fit"],
@@ -34,6 +40,32 @@ const OPT_LABEL = {
 
 function qs() { return Object.fromEntries(new URLSearchParams(window.location.hash.split("?")[1] || "").entries()); }
 
+// Relevant-scope working view: one card per role, opening the detail workspace.
+function cards(rows) {
+  if (!rows.length) return emptyState(t("opp.none"), t("opp.none_hint"));
+  const body = rows.map((r) => {
+    const org = (r.org_name || r.org_id || "").replace(/ \(.*\)$/, "");
+    return `<a class="opp-card" href="#/opportunities/${encodeURIComponent(r.id)}">
+      <div class="opp-card-head">
+        <h3>${esc(r.title)}</h3>
+        ${r.user_status ? badge(statusLabel(r.user_status), "info") : ""}
+      </div>
+      <div class="opp-card-org">${esc(org)}${r.position_type ? ` · ${esc(r.position_type)}` : ""}</div>
+      <div class="opp-card-badges">
+        ${badge(gateLabel(r.eligibility_gate), gateTone(r.eligibility_gate))}
+        ${r.recommendation ? badge(recLabel(r.recommendation), recTone(r.recommendation)) : ""}
+        ${r.timing_assessment ? badge(timingLabel(r.timing_assessment), timingTone(r.timing_assessment)) : ""}
+        ${r.fit_overall != null ? badge(`${t("opp.col.fit")}: ${r.fit_overall}`, "info") : ""}
+      </div>
+      <div class="opp-card-foot">
+        <span>${esc(r.deadline ? fmtDate(r.deadline) : t("common.none"))} <span class="muted">(${t("opp.deadline." + r.deadline_status)})</span></span>
+        <span class="opp-card-open">${t("opp.open_detail")} →</span>
+      </div>
+    </a>`;
+  }).join("");
+  return `<div class="opp-cards">${body}</div>`;
+}
+
 function table(rows) {
   if (!rows.length) return emptyState(t("opp.none"), t("opp.none_hint"));
   const body = rows.map((r) => `
@@ -58,7 +90,11 @@ function table(rows) {
 
 async function load(root, archive) {
   const active = qs();
-  const data = await fetchJSON("/api/opportunities" + (Object.keys(active).length ? `?${new URLSearchParams(active)}` : ""));
+  // The default Opportunities page is scoped to relevant roles; Archive is the
+  // full audit. Scope is applied at fetch time and kept out of the filter chips.
+  const params = new URLSearchParams(active);
+  if (!archive) params.set("scope", "relevant");
+  const data = await fetchJSON("/api/opportunities" + (params.toString() ? `?${params}` : ""));
   const rows = data.opportunities;
   const orgs = [...new Map(rows.map((r) => [r.org_id, r.org_name || r.org_id])).entries()];
   const labs = [...new Map(rows.filter((r) => r.lab_org_id).map((r) => [r.lab_org_id, r.lab_name || r.lab_org_id])).entries()];
@@ -67,8 +103,9 @@ async function load(root, archive) {
   root.innerHTML = pageHeader(
     archive ? t("opp.archive_title") : t("opp.title"),
     archive ? t("opp.archive_subtitle") : t("opp.subtitle")) +
+    (archive ? "" : `<div class="scope-hint">${t("opp.scope.hint")} <a href="#/archive">${t("opp.view_archive")} →</a></div>`) +
     panel(t("opp.filter.q"), filterBarSafe(active, orgs, labs, skills)) +
-    panel("", table(rows));
+    panel("", archive ? table(rows) : cards(rows));
   root.querySelector("#cnt").textContent = t("opp.count", { n: data.count });
 
   root.querySelectorAll("[data-filter]").forEach((el) => {

@@ -16,6 +16,25 @@ export const contactLabel = (v) => (v ? t(`label.contact.${v}`) : "");
 export const reasonLabel = (v) => (v ? t(`label.reason.${v}`) : "");
 export const stageLabel = (v) => (v ? t(`app.stage.${v}`) : "");
 export const phaseLabel = (v) => (v ? t(`phase.${v}`) : "");
+export const statusLabel = (v) => (v ? t(`label.status.${v}`) : "");
+
+// Structured preparation items are localised here (no baked-in English is ever
+// stored server-side). See index.preparation_items for the item shapes.
+export function prepText(i) {
+  switch (i.kind) {
+    case "strengthen": return t("prep.strengthen", { skill: i.skill, count: i.count });
+    case "learn": return t("prep.learn", { skill: i.skill, count: i.count });
+    case "portfolio": return t("prep.portfolio", { skill: i.skill, count: i.count });
+    case "monitor_person": return t("prep.monitor_person", { person: i.person });
+    case "monitor_signal": return t("prep.monitor_signal");
+    default: return "";
+  }
+}
+export function prepCat(i) {
+  if (i.kind === "monitor_person" || i.kind === "monitor_signal") return t("prep.cat.monitor");
+  if (i.kind === "portfolio") return t("prep.cat.portfolio");
+  return t("prep.cat.skill");
+}
 
 // Colour semantics: good(green)=actionable/done, info(blue)=future/info,
 // warn(amber)=needs confirmation, danger(red)=urgent/failure, neutral(grey)=

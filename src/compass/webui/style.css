@@ -265,6 +265,135 @@ tr.clickable:hover td { background: var(--accent-soft); }
 .status-line { display: flex; gap: 22px; flex-wrap: wrap; align-items: center; font-size: 13px; }
 .status-line .k { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.03em; margin-right: 6px; }
 
+/* ---------- buttons (S8a interactive controls) ---------- */
+.btn.primary { background: var(--accent); color: #fff; border: none; }
+.btn.ghost {
+  background: transparent; color: var(--ink-2);
+  border: 1px solid var(--border);
+}
+.btn.ghost:hover { background: var(--surface-2); filter: none; }
+.btn.sm { padding: 5px 10px; font-size: 12px; border-radius: 7px; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ---------- toast ---------- */
+.toast-host {
+  position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+  z-index: 60; pointer-events: none;
+}
+.toast {
+  min-width: 220px; max-width: 92vw; text-align: center;
+  padding: 11px 18px; border-radius: 10px; font-size: 13.5px; font-weight: 600;
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--border); box-shadow: var(--shadow);
+  animation: toast-in 0.16s ease;
+}
+.toast.tone-good { border-left: 4px solid var(--good); }
+.toast.tone-warn { border-left: 4px solid var(--warn); }
+.toast.tone-danger { border-left: 4px solid var(--danger); }
+.toast.tone-info { border-left: 4px solid var(--accent); }
+@keyframes toast-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* ---------- modal ---------- */
+.modal-host { position: fixed; inset: 0; z-index: 50; }
+.modal-backdrop {
+  position: absolute; inset: 0; display: flex; align-items: center;
+  justify-content: center; padding: 20px;
+  background: rgba(10, 14, 22, 0.44);
+}
+.modal {
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--border); border-radius: 14px;
+  box-shadow: var(--shadow); padding: 20px 22px;
+  width: 100%; max-width: 440px; display: flex; flex-direction: column; gap: 12px;
+}
+.modal h2 { margin: 0 0 2px; }
+.modal-field { display: flex; flex-direction: column; gap: 5px; font-size: 12.5px; color: var(--ink-2); }
+.modal-field input, .modal-field select, .modal-field textarea,
+.notes-area, .app-editor input, .app-editor textarea {
+  background: var(--surface-2); color: var(--ink);
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 8px 10px; font: inherit; font-size: 13.5px; width: 100%;
+}
+.modal-field textarea, .notes-area { resize: vertical; }
+.modal-check { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.modal-check input { width: 16px; height: 16px; }
+.modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 4px; }
+
+/* ---------- opportunity cards (relevant view) ---------- */
+.scope-hint { color: var(--ink-2); font-size: 12.5px; margin: 6px 0 2px; }
+.opp-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.opp-card {
+  display: flex; flex-direction: column; gap: 7px;
+  border: 1px solid var(--border); border-radius: 12px;
+  padding: 14px 16px; background: var(--surface); color: var(--ink);
+  box-shadow: var(--shadow); text-decoration: none;
+}
+.opp-card:hover { text-decoration: none; border-color: var(--accent); }
+.opp-card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.opp-card-head h3 { font-size: 14px; margin: 0; }
+.opp-card-org { color: var(--ink-2); font-size: 12.5px; }
+.opp-card-badges { display: flex; flex-wrap: wrap; gap: 5px; }
+.opp-card-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 2px; font-size: 12px; color: var(--ink-2); }
+.opp-card-open { color: var(--accent); font-weight: 600; }
+
+/* ---------- opportunity detail workspace ---------- */
+.back-link { display: inline-block; font-size: 13px; margin-bottom: 6px; }
+.detail-hero { padding-top: 18px; }
+.detail-eyebrow { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+.detail-hero h1 { margin: 4px 0 10px; }
+.detail-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.kv-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+.kv .k { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; }
+.kv .v { font-size: 13.5px; font-weight: 600; }
+.detail-source { margin-top: 12px; font-size: 13px; }
+.detail-summary { color: var(--ink-2); font-size: 13.5px; margin: 0 0 12px; max-width: 72ch; }
+
+.score-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin: 8px 0 12px; }
+.score-head { display: flex; justify-content: space-between; font-size: 12.5px; font-weight: 600; }
+.score-num { font-variant-numeric: tabular-nums; color: var(--accent); }
+.score-bar { height: 6px; border-radius: 999px; background: var(--surface-2); margin: 5px 0; overflow: hidden; }
+.score-bar span { display: block; height: 100%; background: var(--accent); border-radius: 999px; }
+.score-why { color: var(--ink-2); font-size: 12px; }
+
+.mini-block { margin-top: 10px; }
+.skill-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.skill-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--surface-2); border: 1px solid var(--border);
+  border-radius: 999px; padding: 3px 10px; font-size: 12.5px;
+}
+
+.status-current { font-size: 13.5px; margin-bottom: 10px; }
+.status-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px; }
+.status-app { display: flex; align-items: center; gap: 8px; }
+.notes-area { min-height: 84px; margin-bottom: 4px; }
+
+details.evidence { margin-top: 16px; }
+details.evidence summary { cursor: pointer; font-weight: 600; color: var(--ink-2); }
+.evidence-body { white-space: pre-wrap; font-size: 13px; color: var(--ink-2); margin-top: 10px; max-height: 340px; overflow: auto; }
+
+/* institution-wide vacancy disclosure on target cards */
+.inst-vacancies { margin-top: 6px; }
+.inst-vacancies summary { cursor: pointer; font-size: 12.5px; color: var(--accent); }
+.inst-vacancies ul { margin-top: 6px; }
+
+/* ---------- editable application cards ---------- */
+.kanban-card .k-meta, .kanban-card .k-next { color: var(--ink-2); margin-bottom: 3px; }
+.kanban-card .blockers { color: var(--danger); }
+.app-checklist { margin: 8px 0; }
+.checklist { list-style: none; margin: 0; padding: 0; }
+.checklist li { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; padding-left: 0 !important; }
+.check {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: none; border: none; color: var(--ink); cursor: pointer;
+  font: inherit; font-size: 12.5px; padding: 0; text-align: left;
+}
+.check.done span { text-decoration: line-through; color: var(--muted); }
+.app-submitted { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0; }
+.k-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
+.app-editor { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--hairline); }
+.app-editor[hidden] { display: none; }   /* explicit display beats the [hidden] UA rule, so restore it */
+
 /* ---------- responsive ---------- */
 @media (max-width: 820px) {
   .menu-toggle { display: inline-flex; }

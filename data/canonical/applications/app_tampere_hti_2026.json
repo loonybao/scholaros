@@ -1,9 +1,9 @@
 {
   "id": "app_tampere_hti_2026",
   "entity_type": "application",
-  "schema_version": 8,
+  "schema_version": 9,
   "created_at": "2026-07-18T04:18:20.777125Z",
-  "updated_at": "2026-07-18T07:52:07.174396Z",
+  "updated_at": "2026-07-18T11:22:53.308153+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.778126Z",
@@ -67,6 +67,14 @@
         "manual.stage"
       ],
       "note": "deferred: graduation horizon"
+    },
+    {
+      "ts": "2026-07-18T11:22:53.308153+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v9"
     }
   ],
   "system": {

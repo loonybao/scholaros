@@ -11,8 +11,10 @@ export default async function render(root) {
   if (!h) { root.innerHTML = pageHeader(t("roadmap.title"), t("roadmap.subtitle")) + panel("", emptyState(t("roadmap.none"))); return; }
 
   const win = (labelKey, w) => `<div><h4>${t(labelKey)}</h4><div class="v">${esc(fmtMonthYear(w.from))} – ${esc(fmtMonthYear(w.to))}</div></div>`;
+  // Milestones are structured {date, key, certainty?}; localise via t(key).
+  const milestoneText = (m) => t(m.key, m.certainty ? { certainty: t(`label.certainty.${m.certainty}`) } : undefined);
   const milestones = h.milestones.map((m) =>
-    `<li><span>${esc(m.text)}</span><span class="m-date">${esc(fmtDate(m.date))}</span></li>`).join("");
+    `<li><span>${esc(milestoneText(m))}</span><span class="m-date">${esc(fmtDate(m.date))}</span></li>`).join("");
 
   root.innerHTML = pageHeader(t("roadmap.title"), t("roadmap.subtitle")) +
     panel("", `<div class="card-row" style="margin-bottom:10px">

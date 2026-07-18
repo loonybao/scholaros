@@ -5,7 +5,7 @@
 import { fmtDateTime, fmtMonthYear } from "../format.js";
 import { t } from "../i18n.js";
 import {
-  fitLabel, phaseLabel, skillStatusLabel, skillTone,
+  fitLabel, phaseLabel, prepText, skillStatusLabel, skillTone,
   timingLabel, timingTone, likelihoodLabel, likelihoodTone,
   valueLabel, valueTone,
 } from "../labels.js";
@@ -88,7 +88,7 @@ function targetLabs(targets) {
         ${tg.recruitment_likelihood ? badge(`${t("dash.labs.recruitment")}: ${likelihoodLabel(tg.recruitment_likelihood)}`, likelihoodTone(tg.recruitment_likelihood)) : ""}
       </div>
       <div class="card-meta"><strong>${t("dash.labs.latest_signal")}:</strong> ${sig ? esc(sig.title) : t("dash.labs.none_signal")}</div>
-      <div class="card-meta"><strong>${t("dash.labs.prepare")}:</strong> ${prep ? esc(prep.text) : t("dash.labs.none_prep")}</div>
+      <div class="card-meta"><strong>${t("dash.labs.prepare")}:</strong> ${prep ? esc(prepText(prep)) : t("dash.labs.none_prep")}</div>
       ${person ? `<div class="card-meta"><strong>${t("dash.labs.researcher")}:</strong> ${esc(person.name)}</div>` : ""}
     </div>`;
   }).join("");

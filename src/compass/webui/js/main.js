@@ -7,6 +7,7 @@ import { getLocale, initI18n, LOCALES, LOCALE_LABELS, setLocale, t } from "./i18
 import { getTheme, initTheme, setTheme, THEMES } from "./theme.js";
 import renderApplications from "./pages/applications.js";
 import renderBrowser from "./pages/browser.js";
+import renderOpportunityDetail from "./pages/opportunity_detail.js";
 import renderDashboard from "./pages/dashboard.js";
 import renderDataHealth from "./pages/data_health.js";
 import renderQueue from "./pages/analysis_queue.js";
@@ -21,6 +22,7 @@ import renderTargets from "./pages/targets.js";
 const ROUTES = {
   dashboard: { render: (r) => renderDashboard(r), navKey: "nav.dashboard" },
   opportunities: { render: (r) => renderBrowser(r, { archive: false }), navKey: "nav.opportunities" },
+  "opportunity-detail": { render: (r) => renderOpportunityDetail(r), navKey: "nav.opportunities", navActive: "opportunities" },
   targets: { render: (r) => renderTargets(r), navKey: "nav.target_labs" },
   researchers: { render: (r) => renderResearchers(r), navKey: "nav.researchers" },
   signals: { render: (r) => renderSignals(r), navKey: "nav.signals" },
@@ -50,11 +52,12 @@ const NAV_GROUPS = [
 
 function currentRoute() {
   const path = window.location.hash.replace(/^#\/?/, "").split("?")[0];
+  if (path.startsWith("opportunities/")) return "opportunity-detail";
   return ROUTES[path] ? path : "dashboard";
 }
 
 function renderNav() {
-  const active = currentRoute();
+  const active = ROUTES[currentRoute()].navActive || currentRoute();
   document.getElementById("nav").innerHTML = NAV_GROUPS.map((g) => `
     <div class="nav-group-label">${t(g.label)}</div>
     ${g.items.map(([route, ico]) => `

@@ -131,11 +131,13 @@ def test_feed_watchlist_and_dashboard_panels(cfg, store):
     t = next(t for t in wl if t["id"] == "org_test_lab")
     assert t["recruitment_likelihood"] == "high"
     assert t["last_checked"] is not None
-    texts = " ".join(i["text"] for i in t["preparation_items"])
-    assert "statistics" in texts       # beginner + required -> strengthen/learn
-    assert "portfolio" in texts.lower() or "unity" in texts  # advanced -> portfolio
-    assert any(i["kind"] == "monitor" for i in t["preparation_items"])
-    assert t["next_preparation_action"]
+    # Structured, localisable preparation items (no baked-in English).
+    kinds = {i["kind"] for i in t["preparation_items"]}
+    skills = {i.get("skill") for i in t["preparation_items"]}
+    assert "statistics" in skills       # beginner + required -> strengthen
+    assert "portfolio" in kinds or "unity" in skills  # advanced -> portfolio
+    assert "monitor_person" in kinds
+    assert t["next_preparation"]
 
     dash = dashboard_data(cfg, TODAY)
     assert [s["id"] for s in dash["recent_signals"]] == [sig.id]

@@ -10,7 +10,7 @@ from __future__ import annotations
 from datetime import date
 from pathlib import Path
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -20,6 +20,7 @@ from .index import (
     browse_opportunities,
     dashboard_data,
     health_data,
+    opportunity_detail,
     people_list,
     rebuild_index,
     signals_feed,
@@ -27,18 +28,26 @@ from .index import (
     watchlist_data,
 )
 from .store import Store
+from . import webwrite as w
 
 WEBUI_DIR = Path(__file__).parent / "webui"
 
 BROWSE_FILTERS = (
     "org_id", "lab_org_id", "fit_type", "recommendation", "eligibility_gate",
     "future_group_value", "position_type", "status", "timing_assessment", "q",
-    "rejection_reason", "skill", "deadline_status",
+    "rejection_reason", "skill", "deadline_status", "scope",
 )
 
 
 def create_app(cfg: Config) -> FastAPI:
     app = FastAPI(title="Research Compass", docs_url=None, redoc_url=None)
+    store = Store(cfg.paths.canonical, cfg.paths.lock_file)
+
+    def _write(fn, *args):
+        try:
+            return fn(cfg, store, *args)
+        except w.WriteError as e:
+            raise HTTPException(status_code=e.status, detail=str(e))
 
     @app.get("/api/dashboard")
     def api_dashboard() -> dict:
@@ -72,6 +81,35 @@ def create_app(cfg: Config) -> FastAPI:
     @app.get("/api/researchers")
     def api_researchers() -> dict:
         return {"researchers": people_list(cfg)}
+
+    @app.get("/api/opportunities/{opp_id}")
+    def api_opportunity_detail(opp_id: str) -> dict:
+        detail = opportunity_detail(cfg, store, opp_id)
+        if detail is None:
+            raise HTTPException(status_code=404, detail="unknown opportunity")
+        return detail
+
+    # ---- write endpoints (manual-layer / Application / Action only) ----
+
+    @app.post("/api/opportunities/{opp_id}/applications")
+    def api_create_application(opp_id: str) -> dict:
+        return _write(w.create_application, opp_id)
+
+    @app.patch("/api/opportunities/{opp_id}/manual")
+    def api_patch_opp_manual(opp_id: str, patch: w.OppManualPatch) -> dict:
+        return _write(w.patch_opportunity_manual, opp_id, patch)
+
+    @app.patch("/api/applications/{app_id}")
+    def api_patch_application(app_id: str, patch: w.AppPatch) -> dict:
+        return _write(w.patch_application, app_id, patch)
+
+    @app.post("/api/actions")
+    def api_create_action(req: w.ActionCreate) -> dict:
+        return _write(w.create_action, req)
+
+    @app.post("/api/data-issues")
+    def api_data_issue(req: w.DataIssue) -> dict:
+        return _write(w.report_data_issue, req)
 
     @app.get("/api/applications")
     def api_applications() -> dict:
