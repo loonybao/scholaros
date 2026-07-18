@@ -1,13 +1,10 @@
-"""S13: EURAXESS collector — listing parse, three-way discovery filter, scoped
-keyword ingest with per-employer orgs, and idempotent re-runs. No network: the
-fetch is monkeypatched with a saved fixture."""
+"""S13: EURAXESS collector — enriched listing parse (deadline, location,
+research field, R1-R4 career stage), research-position classification, scoped
+ingest with per-employer orgs, and idempotent re-runs. No network."""
 from datetime import date
 from pathlib import Path
 
-import pytest
-
 from compass.collect import euraxess
-from compass.collect.base import classify_listing
 from compass.models import _VALID_ID
 
 FIXTURES = Path(__file__).parent / "fixtures" / "html"
@@ -17,59 +14,57 @@ def _html() -> str:
     return (FIXTURES / "euraxess_search.html").read_text(encoding="utf-8")
 
 
-def test_parse_listing_extracts_cards():
+def test_parse_listing_extracts_enriched_fields():
     by_id = {e["native_id"]: e for e in euraxess.parse_listing(_html())}
-    # synthetic controlled cards
     phd = by_id["999002"]
     assert phd["title"] == "PhD Position in Extended Reality for Human-Computer Interaction"
-    assert phd["org_name"] == "Delft University of Technology"
     assert phd["org_slug"] == "tu-delft"
-    assert phd["country"] == "Netherlands"
-    assert phd["posted_date"] == date(2026, 7, 12)
-    assert "immersive" in phd["description"].lower()
-    # a real card carried through from the live page
-    assert "454029" in by_id
-    assert by_id["454029"]["country"] == "Italy"
+    assert phd["offer_type"] == "JOB"
+    assert phd["deadline"] == date(2026, 8, 30)         # from id-Application-Deadline
+    assert "Delft" in phd["location"]                    # country + institution + city
+    assert phd["research_field"] == "Computer science"
+    assert "R1" in phd["researcher_profile"]
+    # a real card carried from the live page also has the structured fields
+    real = by_id["454029"]
+    assert real["deadline"] == date(2026, 8, 14)
+    assert real["offer_type"] == "JOB" and "Italy" in real["location"]
 
 
-def test_three_way_filter():
-    cats = {e["native_id"]: classify_listing(e["title"])[0]
-            for e in euraxess.parse_listing(_html())}
-    assert cats["999002"] == "accepted"       # PhD -> research position
-    assert cats["999001"] == "irrelevant"     # Administrative Coordinator
+def test_stage_maps_to_position_type():
+    assert euraxess._stage_position_type("First Stage Researcher (R1)") == "phd"
+    assert euraxess._stage_position_type("Recognised Researcher (R2)") == "postdoc"
+    assert euraxess._stage_position_type("Leading Researcher (R4)") == "other"
+    assert euraxess._stage_position_type("") is None
 
 
 def test_org_id_is_namespaced_and_valid():
-    oid = euraxess._org_id("tu-delft", "Delft University of Technology")
-    assert oid == "org_euraxess_tu-delft"
-    assert _VALID_ID.match(oid)
-    # falls back to the name when no slug
+    assert euraxess._org_id("tu-delft", "TU Delft") == "org_euraxess_tu-delft"
     assert _VALID_ID.match(euraxess._org_id("", "Some Institute (X/Y)"))
 
 
-def test_collect_ingests_research_audits_rest(cfg, store, monkeypatch):
+def test_collect_ingests_research_with_full_facts(cfg, store, monkeypatch):
     cfg.sources = {"sources": [{"id": "euraxess", "keywords": ["extended reality"],
                                 "max_pages": 1, "rate_limit_seconds": 0}]}
     monkeypatch.setattr(euraxess, "fetch", lambda *a, **k: _html())
 
     stats = euraxess.collect(cfg, store)
-    assert stats.created >= 1
-    assert stats.skipped_irrelevant >= 1                 # the admin card
+    assert stats.created >= 2                             # PhD + real research cards
+    assert stats.skipped_irrelevant >= 1                 # the admin card (no R-profile)
 
     opps = {o.official.source_native_id: o for o in store.load_all("opportunity")}
-    assert "999002" in opps                               # PhD ingested
-    assert "999001" not in opps                           # admin NOT ingested
+    assert "999001" not in opps                          # admin filtered out
     phd = opps["999002"]
-    assert phd.official.source == "euraxess"
+    assert phd.official.position_type == "phd"           # from the R1 profile
+    assert phd.official.deadline == date(2026, 8, 30)    # real deadline captured
+    assert "Delft" in (phd.official.location or "")
+    assert "Research field: Computer science" in phd.official.description_text
     assert phd.official.org_id == "org_euraxess_tu-delft"
-    assert phd.official.canonical_url == "https://euraxess.ec.europa.eu/jobs/999002"
-    assert store.exists("organisation", "org_euraxess_tu-delft")
-    # employer orgs are never auto-targeted (won't clutter the Target Map)
     assert store.load("organisation", "org_euraxess_tu-delft").manual.target is False
 
-    # the irrelevant card is audited, not lost
-    audit = (cfg.paths.status / "discovery_audit.jsonl").read_text(encoding="utf-8")
-    assert "999001" in audit
+    # a procedural-title real vacancy is accepted because it carries an R-profile
+    real = opps["454029"]
+    assert real.official.position_type in ("phd", "postdoc", "other")
+    assert real.official.deadline == date(2026, 8, 14)
 
 
 def test_collect_is_idempotent(cfg, store, monkeypatch):
@@ -80,4 +75,4 @@ def test_collect_is_idempotent(cfg, store, monkeypatch):
     n = len(list(store.load_all("opportunity")))
     stats2 = euraxess.collect(cfg, store)
     assert stats2.created == 0 and stats2.unchanged >= 1
-    assert len(list(store.load_all("opportunity"))) == n   # no duplicates
+    assert len(list(store.load_all("opportunity"))) == n

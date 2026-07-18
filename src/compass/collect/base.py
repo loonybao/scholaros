@@ -49,6 +49,7 @@ class RawPosting:
     title: str
     org_id: str
     lab_org_id: Optional[str] = None  # sub-organisation (school/lab/group)
+    position_type: Optional[str] = None  # collector-supplied; else derived from title
     deadline: Optional[date] = None
     deadline_note: Optional[str] = None
     posted_date: Optional[date] = None
@@ -300,7 +301,8 @@ def upsert_opportunity(store: Store, posting: RawPosting) -> str:
                 deadline=posting.deadline,
                 deadline_note=posting.deadline_note,
                 posted_date=posting.posted_date,
-                position_type=classify_position_type(posting.title) or "other",
+                position_type=posting.position_type
+                or classify_position_type(posting.title) or "other",
                 location=posting.location,
                 salary_text=posting.salary_text,
                 funding=posting.funding,

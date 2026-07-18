@@ -2,21 +2,28 @@
 
 EURAXESS lists ~9,000 vacancies, so this collector is scoped by KEYWORD (the
 user's core research terms in config/sources.yaml) rather than crawling
-everything — a keyword search returns a small, relevant set instead of flooding
-the database. It is disabled by default; enable + tune the keywords after
-reviewing the scope.
+everything — a keyword search returns a small, relevant set. Disabled by
+default; enable + tune the keywords after reviewing the scope.
 
-Listing: server-rendered ECL HTML (euraxess.ec.europa.eu/jobs/search). Each card
-(`article.ecl-content-item`) gives title, the /jobs/<id> link (native id), the
-employer + its stable profile slug, the posted date, the country label and a
-description snippet. This is a monitoring feed: v1 is listing-only (no per-job
-detail fetch); the deadline/full text live one click away at the canonical URL.
+There is no plain-GET detail page (/jobs/<id> redirects to the search app), but
+the server-rendered search cards are rich: each `article.ecl-content-item`
+carries the title + /jobs/<id> native id, the employer + its stable profile
+slug, posted date, the offer type (JOB / FUNDING / HOSTING), and a set of
+`div.id-<Field>` blocks — Work Locations (country + institution + city),
+Research Field, Researcher Profile (R1–R4 career stage), Funding Programme and
+the Application Deadline. That is comparable to the university sources, so no
+detail fetch is needed. The full posting text stays one click away at the
+canonical URL.
 
-Every employer becomes a namespaced `org_euraxess_<slug>` (org_type "other").
-Cross-source merge into an existing university org (e.g. TU Delft) is a
-deliberate future pass — these orgs are never auto-marked as targets, so they do
-not clutter the Target Map. Only the official layer is written; the three-way
-discovery filter keeps non-research listings out of canonical (audited).
+Classification: EURAXESS tags every real vacancy with an R-profile, so a JOB
+with an R-level is accepted as a research position (its career stage sets
+position_type) — this avoids wrongly rejecting legitimate roles whose titles are
+procedural or non-English. FUNDING/HOSTING offers and JOBs with neither an
+R-level nor a research title are audited out. Domain fit (is it HCI/XR?) is left
+to the analysis stage, not decided here.
+
+Each employer becomes a namespaced `org_euraxess_<slug>` (org_type "other"),
+never auto-marked target, so the Target Map stays clean. Official layer only.
 """
 
 from __future__ import annotations
@@ -32,8 +39,8 @@ from ..config import Config
 from ..store import Store
 from .base import (
     CollectStats, RawPosting, audit_discovery, classify_listing,
-    detect_mobility, detect_restrictions, ensure_organisation, fetch,
-    save_evidence, save_snapshot, upsert_opportunity,
+    classify_position_type, detect_mobility, detect_restrictions,
+    ensure_organisation, fetch, save_evidence, save_snapshot, upsert_opportunity,
 )
 
 SOURCE_ID = "euraxess"
@@ -51,8 +58,8 @@ def canonical_url_for(native_id: str) -> str:
     return f"{BASE}/jobs/{native_id}"
 
 
-def _parse_posted(text: str) -> Optional[date]:
-    text = text.strip()
+def _parse_date(text: str) -> Optional[date]:
+    text = (text or "").strip()
     for fmt in ("%d %B %Y", "%d %b %Y"):
         try:
             return datetime.strptime(text, fmt).date()
@@ -61,14 +68,53 @@ def _parse_posted(text: str) -> Optional[date]:
     return None
 
 
+def _parse_deadline(text: Optional[str]) -> tuple[Optional[date], Optional[str]]:
+    """'14 Aug 2026 - 23:59 (UTC)' -> (date(2026,8,14), '23:59 (UTC)')."""
+    if not text:
+        return None, None
+    m = re.match(r"(\d{1,2}\s+\w+\s+\d{4})\s*(?:-\s*(.+))?$", text.strip())
+    if not m:
+        return None, None
+    return _parse_date(m.group(1)), (m.group(2).strip() if m.group(2) else None)
+
+
+def _stage_position_type(profile_text: Optional[str]) -> Optional[str]:
+    """Lowest EURAXESS researcher profile -> position_type. R1 First Stage ~ PhD,
+    R2 Recognised ~ postdoc, R3/R4 established/leading ~ senior (other)."""
+    if not profile_text:
+        return None
+    levels = set(re.findall(r"R([1-4])", profile_text))
+    if not levels:
+        return None
+    return {"1": "phd", "2": "postdoc", "3": "other", "4": "other"}[min(levels)]
+
+
 def _org_id(slug: str, name: str) -> str:
     base = slug or re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
     safe = re.sub(r"[^a-z0-9-]+", "-", base.lower()).strip("-")[:60] or "unknown"
     return f"org_euraxess_{safe}".rstrip("-")
 
 
+def _field(art, id_class: str) -> Optional[str]:
+    """Read a `div.id-<Field>` block, stripping its 'Label: ' prefix."""
+    el = art.select_one(f"div.{id_class}")
+    if el is None:
+        return None
+    txt = " ".join(el.get_text(" ", strip=True).split())
+    txt = re.sub(r"^[^:]{0,40}:\s*", "", txt).strip()   # drop the leading label
+    return txt or None
+
+
+def _clean_location(work_locations: Optional[str], country: Optional[str]) -> Optional[str]:
+    if work_locations:
+        loc = re.sub(r"Number of offers:\s*\d+\s*,?\s*", "", work_locations).strip(" ,")
+        if loc:
+            return loc
+    return country
+
+
 def parse_listing(html: str) -> list[dict]:
-    """Extract one entry per result card. Robust to missing optional fields."""
+    """One entry per result card, with the full structured fields."""
     soup = BeautifulSoup(html, "html.parser")
     entries: list[dict] = []
     seen: set[str] = set()
@@ -77,11 +123,9 @@ def parse_listing(html: str) -> list[dict]:
         if not title_a:
             continue
         m = re.search(r"/jobs/(\d+)", title_a.get("href", ""))
-        if not m:
+        if not m or m.group(1) in seen:
             continue
         native_id = m.group(1)
-        if native_id in seen:
-            continue
         seen.add(native_id)
 
         title = " ".join(title_a.get_text(" ", strip=True).split())
@@ -95,24 +139,34 @@ def parse_listing(html: str) -> list[dict]:
         for li in art.select(".ecl-content-block__primary-meta-item"):
             pm = re.search(r"Posted on:\s*(.+)", li.get_text(" ", strip=True))
             if pm:
-                posted = _parse_posted(pm.group(1))
+                posted = _parse_date(pm.group(1))
 
         desc_el = art.select_one(".ecl-content-block__description")
         description = " ".join(desc_el.get_text(" ", strip=True).split()) if desc_el else ""
 
-        country = None
+        offer_type, country = None, None
         parent = art.parent
         if parent is not None:
             for lab in parent.select(".ecl-content-block__label-item .ecl-label"):
                 txt = lab.get_text(strip=True)
-                if txt and txt.upper() not in _OFFER_LABELS:
+                if not txt:
+                    continue
+                if txt.upper() in _OFFER_LABELS:
+                    offer_type = txt.upper()
+                elif country is None:
                     country = txt
-                    break
 
+        deadline, deadline_note = _parse_deadline(_field(art, "id-Application-Deadline"))
         entries.append({
             "native_id": native_id, "title": title,
             "org_name": org_name, "org_slug": org_slug,
-            "posted_date": posted, "country": country, "description": description,
+            "posted_date": posted, "description": description,
+            "offer_type": offer_type,
+            "location": _clean_location(_field(art, "id-Work-Locations"), country),
+            "research_field": _field(art, "id-Research-Field"),
+            "researcher_profile": _field(art, "id-Researcher-Profile"),
+            "funding_programme": _field(art, "id-Funding-Programme"),
+            "deadline": deadline, "deadline_note": deadline_note,
         })
     return entries
 
@@ -132,7 +186,7 @@ def collect(cfg: Config, store: Store) -> CollectStats:
             save_snapshot(cfg, SOURCE_ID, f"search_{keyword}_{page}", html)
             entries = [e for e in parse_listing(html) if e["native_id"] not in seen_ids]
             if not entries:
-                break                       # no new results on this page -> stop paging
+                break
             for entry in entries:
                 seen_ids.add(entry["native_id"])
                 stats.fetched += 1
@@ -142,26 +196,49 @@ def collect(cfg: Config, store: Store) -> CollectStats:
 
 def _ingest(cfg: Config, store: Store, entry: dict, stats: CollectStats) -> None:
     url = canonical_url_for(entry["native_id"])
-    category, _ptype, reason = classify_listing(entry["title"])
-    if category != "accepted":
-        audit_discovery(cfg, SOURCE_ID, entry["native_id"], entry["title"],
-                        url, category, reason)
-        if category == "candidate":
+
+    # FUNDING / HOSTING offers are not vacancies -> audited out.
+    if (entry["offer_type"] or "JOB") != "JOB":
+        audit_discovery(cfg, SOURCE_ID, entry["native_id"], entry["title"], url,
+                        "irrelevant", f"offer type {entry['offer_type']} (not a job)")
+        stats.skipped_irrelevant += 1
+        return
+
+    stage_ptype = _stage_position_type(entry["researcher_profile"])
+    title_cat, title_ptype, title_reason = classify_listing(entry["title"])
+    # A JOB with an R-profile IS a research position; else fall back to the title.
+    if stage_ptype is None and title_cat != "accepted":
+        audit_discovery(cfg, SOURCE_ID, entry["native_id"], entry["title"], url,
+                        title_cat if title_cat == "candidate" else "irrelevant",
+                        f"no researcher profile; {title_reason}")
+        if title_cat == "candidate":
             stats.candidates += 1
         else:
             stats.skipped_irrelevant += 1
         return
     stats.relevant += 1
+    position_type = title_ptype or stage_ptype or classify_position_type(entry["title"]) or "other"
 
     org_id = _org_id(entry["org_slug"], entry["org_name"])
     ensure_organisation(store, org_id, entry["org_name"], "other", None, SOURCE_ID)
 
+    # Rich description: the snippet plus the structured card facts, so the
+    # analysis stage has real context even without the full posting page.
+    parts = [entry["description"]]
+    if entry["research_field"]:
+        parts.append(f"Research field: {entry['research_field']}")
+    if entry["researcher_profile"]:
+        parts.append(f"Researcher profile: {entry['researcher_profile']}")
+    if entry["funding_programme"]:
+        parts.append(f"Funding programme: {entry['funding_programme']}")
+    description_text = "\n\n".join(p for p in parts if p)
+
     _, snapshot_hash = save_snapshot(
-        cfg, SOURCE_ID, f"job_{entry['native_id']}", entry["description"] or entry["title"])
+        cfg, SOURCE_ID, f"job_{entry['native_id']}", description_text or entry["title"])
     evidence_id = save_evidence(cfg, SOURCE_ID, entry["native_id"], url,
-                                entry["description"] or entry["title"])
-    restriction_status, restriction_text = detect_restrictions(entry["description"])
-    mobility_status, mobility_text = detect_mobility(entry["description"])
+                                description_text or entry["title"])
+    restriction_status, restriction_text = detect_restrictions(description_text)
+    mobility_status, mobility_text = detect_mobility(description_text)
 
     posting = RawPosting(
         source=SOURCE_ID,
@@ -169,9 +246,12 @@ def _ingest(cfg: Config, store: Store, entry: dict, stats: CollectStats) -> None
         canonical_url=url,
         title=entry["title"],
         org_id=org_id,
+        position_type=position_type,
+        deadline=entry["deadline"],
+        deadline_note=entry["deadline_note"],
         posted_date=entry["posted_date"],
-        location=entry["country"],
-        description_text=entry["description"],
+        location=entry["location"],
+        description_text=description_text,
         nationality_restrictions_status=restriction_status,
         nationality_restrictions_text=restriction_text,
         mobility_requirement_status=mobility_status,
