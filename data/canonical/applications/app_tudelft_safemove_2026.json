@@ -1,9 +1,9 @@
 {
   "id": "app_tudelft_safemove_2026",
   "entity_type": "application",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T04:18:20.779126Z",
-  "updated_at": "2026-07-18T04:18:20.780126Z",
+  "updated_at": "2026-07-18T04:31:52.267688Z",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.780126Z",
@@ -12,6 +12,23 @@
         "*created*"
       ],
       "note": "S5.5 sprint: pre-decision, go/no-go pending"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.629618Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:31:52.267688Z",
+      "actor": "manual",
+      "fields_changed": [
+        "manual.blockers",
+        "manual.next_step"
+      ],
+      "note": "deadline check result recorded"
     }
   ],
   "system": {
@@ -24,10 +41,9 @@
     "contact_person_ids": [],
     "events": [],
     "blockers": [
-      "Awaiting user's go/no-go decision",
-      "Stated deadline 2026-07-19 - verify extension on the official page (act_safemove_deadline_check)"
+      "USER GO/NO-GO required before 2026-07-19 (official page confirmed open on 2026-07-18, no extension) - act_safemove_go_nogo"
     ],
-    "next_step": "User decides go/no-go after the deadline check",
+    "next_step": "User decides Go or No-go",
     "next_step_due": "2026-07-19",
     "internal_due_date": null,
     "notes": "No application decision made. Preserved as part of the MXR Lab recruitment signal (sig_tudelft_mxr_lab_expansion) even if not applied."

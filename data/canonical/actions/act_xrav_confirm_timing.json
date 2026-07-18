@@ -1,0 +1,41 @@
+{
+  "id": "act_xrav_confirm_timing",
+  "entity_type": "action",
+  "schema_version": 5,
+  "created_at": "2026-07-18T04:31:52.239659Z",
+  "updated_at": "2026-07-18T04:31:52.240660Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:31:52.240660Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "degree-timing uncertain -> recruiter confirmation"
+    }
+  ],
+  "system": {
+    "action_type": "outreach",
+    "related": {
+      "opportunity_id": "opp_tudelft-phd-position-extended-reality-for-inclusive-automate",
+      "person_id": "per_yan_feng",
+      "application_id": null
+    },
+    "created_by": "human",
+    "due_date": "2026-08-05",
+    "priority": "high",
+    "recommended_reason": null,
+    "model": null,
+    "prompt_version": null
+  },
+  "manual": {
+    "title": "Confirm with Dr. Yan Feng whether a July-2027 (estimated) MSc completion and a matching start date are acceptable for the XR-AV PhD",
+    "status": "todo",
+    "notes": "One concise question; do not draft or send automatically. Can be combined with the planned introduction contact."
+  },
+  "outcome": {
+    "result": null,
+    "completed_at": null,
+    "note": ""
+  }
+}

@@ -142,6 +142,106 @@ def test_gate_fail_excluded_language():
     assert gate == "fail"
 
 
+# --- degree/start timing vs expected MSc completion (estimated) ---
+
+EST_COMPLETION = {
+    "expected_msc_completion": {
+        "value": "2027-07", "precision": "month",
+        "certainty": "estimated", "source": "user_confirmed",
+    }
+}
+
+
+def test_expected_completion_after_fixed_required_start_fails():
+    """Completed degree required before a FIXED start that precedes the
+    expected MSc completion -> hard eligibility failure."""
+    opp = make_opportunity(
+        completed_degree_required_before_start=True,
+        start_date_value=date(2026, 9, 1),
+        start_date_negotiable=False,
+    )
+    constraints = dict(FULL_CONSTRAINTS, **EST_COMPLETION)
+    gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "fail"
+    assert review is False
+    assert any("2027-07-31" in r and "2026-09-01" in r for r in reasons)
+
+
+def test_high_fit_with_timing_failure_still_rejects_but_preserves_fit():
+    """High research fit can never override a degree-timing eligibility
+    failure — and the failure must not erase the research-fit analysis (the
+    group remains a future target; only this vacancy's viability fails)."""
+    from datetime import datetime, timezone
+
+    from compass.models import OpportunityAI, ScoreWithRationale
+    from compass.rules import effective_recommendation, recompute_derived
+
+    opp = make_opportunity(
+        completed_degree_required_before_start=True,
+        start_date_value=date(2026, 9, 1),
+        start_date_negotiable=False,
+    )
+    opp.ai = OpportunityAI(
+        summary="s",
+        fit_type="exact-fit",
+        thematic_fit=ScoreWithRationale(score=85, rationale="r"),
+        methodological_fit=ScoreWithRationale(score=88, rationale="r"),
+        growth_value=ScoreWithRationale(score=75, rationale="r"),
+        strategic_value=ScoreWithRationale(score=82, rationale="r"),
+        recommendation="apply",
+        confidence=0.85,
+        model="m",
+        prompt_version="fit_analysis_v1",
+        analyzed_at=datetime(2026, 7, 17, tzinfo=timezone.utc),
+        analysis_input_hash="h",
+    )
+    constraints = dict(FULL_CONSTRAINTS, **EST_COMPLETION)
+    derived = recompute_derived(opp, constraints, TODAY)
+    assert derived.eligibility_gate == "fail"
+    assert derived.fit_overall == 84            # research fit preserved
+    assert opp.ai.thematic_fit.score == 85      # analysis untouched
+    assert effective_recommendation("fail", "apply") == "reject"
+
+
+def test_estimated_completion_before_start_is_never_confirmed():
+    """Even when the estimate lands BEFORE the start date, an estimated date
+    never passes the gate as a confirmed graduation."""
+    opp = make_opportunity(
+        completed_degree_required_before_start=True,
+        start_date_value=date(2028, 9, 1),  # well after the 2027-07 estimate
+        start_date_negotiable=False,
+    )
+    constraints = dict(FULL_CONSTRAINTS, **EST_COMPLETION)
+    gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "uncertain"
+    assert review is True
+    assert any("estimated" in r and "not a confirmed" in r for r in reasons)
+
+
+def test_negotiable_start_with_late_completion_needs_recruiter():
+    """The real Tampere HTI shape: completed degree required, start stated
+    but negotiable, completion after it -> uncertain + recruiter question,
+    never an automatic pass or fail."""
+    opp = make_opportunity(
+        completed_degree_required_before_start=True,
+        start_date_value=date(2026, 9, 1),
+        start_date_negotiable=True,
+    )
+    constraints = dict(FULL_CONSTRAINTS, **EST_COMPLETION)
+    gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "uncertain"
+    assert review is True
+    assert any("recruiter confirmation" in r for r in reasons)
+
+
+def test_timing_requirement_not_stated_flags_verification():
+    opp = make_opportunity()  # completed_degree_required_before_start=None
+    constraints = dict(FULL_CONSTRAINTS, **EST_COMPLETION)
+    gate, reasons, review = eligibility_gate(opp, constraints, TODAY)
+    assert gate == "uncertain"
+    assert any("still in progress" in r for r in reasons)
+
+
 # --- nationality/export-control: opportunity-level fact, never a global gate ---
 
 def test_no_stated_restriction_not_uncertain_despite_null_standing():

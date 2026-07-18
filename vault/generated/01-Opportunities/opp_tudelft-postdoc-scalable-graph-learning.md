@@ -5,10 +5,10 @@ title: "Postdoc Scalable Graph Learning"
 organisation: "TU Delft"
 deadline: 2026-07-28
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: 5
 urgency: high
-needs_review: false
+needs_review: true
 ---
 
 # Postdoc Scalable Graph Learning
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 10)
+Gate: **uncertain** (days to deadline: 10)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

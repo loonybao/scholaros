@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-postdoc-scalable-graph-learning",
   "entity_type": "opportunity",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T03:31:16.185872Z",
-  "updated_at": "2026-07-18T04:18:19.638233+00:00",
+  "updated_at": "2026-07-18T04:32:25.187557Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:31:16.185872Z",
@@ -62,12 +62,30 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T04:18:19.638233+00:00",
+      "ts": "2026-07-18T04:18:19.638233Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.552919Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:32:25.187557Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.needs_review"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -87,6 +105,9 @@
     "deadline": "2026-07-28",
     "deadline_note": null,
     "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
     "posted_date": null,
     "position_type": "postdoc",
     "funding": null,
@@ -145,12 +166,14 @@
     "analysis_input_hash": "5515554382d54d0ab99cd5886001d77a0b6f1ecf3bcbecbfe13f9be11ea65676"
   },
   "derived": {
-    "eligibility_gate": "pass",
-    "eligibility_reasons": [],
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
     "fit_overall": 5,
     "urgency": "high",
     "days_to_deadline": 10,
-    "needs_review": false
+    "needs_review": true
   },
   "manual": {
     "notes": "",

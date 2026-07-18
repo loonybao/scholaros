@@ -5,10 +5,10 @@ title: "PhD Position in Mobile Computing for Intra-Oral Sensing"
 organisation: "TU Delft"
 deadline: 2026-07-31
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: 19
 urgency: high
-needs_review: false
+needs_review: true
 ---
 
 # PhD Position in Mobile Computing for Intra-Oral Sensing
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 13)
+Gate: **uncertain** (days to deadline: 13)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

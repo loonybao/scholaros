@@ -5,10 +5,10 @@ title: "Postdoc in Application of eXtended Reality for Inclusive Automated Vehic
 organisation: "TU Delft"
 deadline: 2026-08-30
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: 67
 urgency: medium
-needs_review: false
+needs_review: true
 ---
 
 # Postdoc in Application of eXtended Reality for Inclusive Automated Vehicle and Road User Interaction
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 43)
+Gate: **uncertain** (days to deadline: 43)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

@@ -1,9 +1,9 @@
 {
   "id": "org_tudelft_faculty-of-mechanical-engineering",
   "entity_type": "organisation",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T03:28:15.890432Z",
-  "updated_at": "2026-07-18T04:18:19.687799+00:00",
+  "updated_at": "2026-07-18T04:30:54.602609+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:28:15.891952Z",
@@ -20,6 +20,14 @@
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.602609+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
     }
   ],
   "official": {

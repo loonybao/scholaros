@@ -1,0 +1,41 @@
+{
+  "id": "act_safemove_go_nogo",
+  "entity_type": "action",
+  "schema_version": 5,
+  "created_at": "2026-07-18T04:31:52.254172Z",
+  "updated_at": "2026-07-18T04:31:52.254172Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:31:52.254172Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "official page confirmed open; go/no-go required"
+    }
+  ],
+  "system": {
+    "action_type": "application",
+    "related": {
+      "opportunity_id": "opp_tudelft-phd-position-in-extended-reality-for-safe-and-active",
+      "person_id": null,
+      "application_id": "app_tudelft_safemove_2026"
+    },
+    "created_by": "human",
+    "due_date": "2026-07-19",
+    "priority": "high",
+    "recommended_reason": null,
+    "model": null,
+    "prompt_version": null
+  },
+  "manual": {
+    "title": "USER DECISION: Go or No-go on the SAFE-MOVE XR PhD - application closes 2026-07-19 (confirmed open, no extension)",
+    "status": "todo",
+    "notes": "No materials are prepared automatically. If No-go, the vacancy stays part of the MXR Lab expansion signal."
+  },
+  "outcome": {
+    "result": null,
+    "completed_at": null,
+    "note": ""
+  }
+}

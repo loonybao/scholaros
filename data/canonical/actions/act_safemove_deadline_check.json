@@ -1,9 +1,9 @@
 {
   "id": "act_safemove_deadline_check",
   "entity_type": "action",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T04:11:50.144268Z",
-  "updated_at": "2026-07-18T04:18:20.370347+00:00",
+  "updated_at": "2026-07-18T04:31:52.253176Z",
   "change_history": [
     {
       "ts": "2026-07-18T04:11:50.145266Z",
@@ -14,12 +14,31 @@
       "note": "S5a closure"
     },
     {
-      "ts": "2026-07-18T04:18:20.370347+00:00",
+      "ts": "2026-07-18T04:18:20.370347Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.622610Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:31:52.253176Z",
+      "actor": "manual",
+      "fields_changed": [
+        "manual.status",
+        "outcome.completed_at",
+        "outcome.note",
+        "outcome.result"
+      ],
+      "note": "deadline check completed: still open"
     }
   ],
   "system": {
@@ -38,12 +57,12 @@
   },
   "manual": {
     "title": "URGENT: check the SAFE-MOVE XR PhD official page for a deadline extension (stated deadline 2026-07-19)",
-    "status": "todo",
+    "status": "done",
     "notes": "If extended, reuse the XR-AV application materials. If not, the posting still evidences MXR Lab growth."
   },
   "outcome": {
-    "result": null,
-    "completed_at": null,
-    "note": ""
+    "result": "completed",
+    "completed_at": "2026-07-18T04:31:52.252167Z",
+    "note": "Live check 2026-07-18: official page open, closing date still 19 Jul 2026, no extension, no closed-marker."
   }
 }

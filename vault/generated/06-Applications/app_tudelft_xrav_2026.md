@@ -5,7 +5,7 @@ stage: preparing
 opportunity: opp_tudelft-phd-position-extended-reality-for-inclusive-automate
 official_deadline: 2026-08-30
 internal_due_date: 2026-08-10
-blockers: 0
+blockers: 1
 ---
 
 # Application — [[opp_tudelft-phd-position-extended-reality-for-inclusive-automate]]
@@ -19,18 +19,19 @@ blockers: 0
 
 ## Blockers
 
-_None._
+- [ ] DEGREE TIMING: uncertain - posting requires an MSc in a relevant field but does not state whether it must be completed at application or before start, and no start date is stated; expected completion 2027-07 (estimated) -> recruiter confirmation required (act_xrav_confirm_timing)
 
 ## Required documents
 
-- [todo] CV (tailored to the five Need-to-Haves)
-- [todo] Motivation letter
-- [todo] Intro email to Dr. Yan Feng (wayfinding-transfer -> AV-VRU bridge)
-- [todo] Verify full document list on the official application portal
+- [todo] Motivation letter (max 2 pages)
+- [todo] CV (max 2 pages)
+- [todo] Writing sample (Master's thesis chapter, article, or presented conference paper)
+- [todo] BSc transcript incl. list of courses and marks
+- [todo] MSc transcript incl. list of courses and marks
 
 ## Notes (from record)
 
-PRIORITY: primary. Official deadline 2026-08-30 per verified record; internal preparation target 2026-08-10 (after the Tampere submission).
+PRIORITY: primary. Verified against the active official vacancy: requisition 1366984057 (page ad code 3625), deadline 2026-08-30, apply online only (no email applications). Document list verified verbatim from the official application procedure. Recommendation stays: apply, pending eligibility/user finalisation. TIMING STATUS: uncertain and requires recruiter confirmation. Note: TU Delft runs a knowledge-security risk assessment at the final selection stage.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/app_tudelft_xrav_2026.md` and link [[app_tudelft_xrav_2026]]._

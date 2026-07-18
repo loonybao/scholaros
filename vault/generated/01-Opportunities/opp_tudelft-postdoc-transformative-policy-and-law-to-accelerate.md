@@ -5,10 +5,10 @@ title: "Postdoc Transformative Policy and Law to Accelerate Sustainability Trans
 organisation: "TU Delft"
 deadline: 2026-08-17
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: not-analyzed
 urgency: medium
-needs_review: false
+needs_review: true
 ---
 
 # Postdoc Transformative Policy and Law to Accelerate Sustainability Transitions
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 30)
+Gate: **uncertain** (days to deadline: 30)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

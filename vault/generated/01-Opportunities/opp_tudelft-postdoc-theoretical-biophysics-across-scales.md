@@ -5,10 +5,10 @@ title: "Postdoc Theoretical Biophysics Across Scales"
 organisation: "TU Delft"
 deadline: 2026-07-20
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: not-analyzed
 urgency: urgent
-needs_review: false
+needs_review: true
 ---
 
 # Postdoc Theoretical Biophysics Across Scales
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 2)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

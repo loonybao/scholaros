@@ -1,9 +1,9 @@
 {
   "id": "org_tudelft_mxr_lab",
   "entity_type": "organisation",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T04:11:50.139746Z",
-  "updated_at": "2026-07-18T04:18:19.691859+00:00",
+  "updated_at": "2026-07-18T04:30:54.606610+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:11:50.141259Z",
@@ -20,6 +20,14 @@
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.606610+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
     }
   ],
   "official": {

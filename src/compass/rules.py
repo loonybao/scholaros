@@ -8,6 +8,7 @@ needs_review — it can never produce 'pass' on its own.
 
 from __future__ import annotations
 
+import calendar
 from datetime import date
 from typing import Any, Optional
 
@@ -44,6 +45,26 @@ def is_preferred_country(country: Optional[str], constraints: dict[str, Any]) ->
     """Preference feeds strategic value (S4+); it NEVER affects the gate."""
     geo = constraints.get("geography") or {}
     return bool(country) and country in (geo.get("preferred_countries") or [])
+
+
+def expected_completion(constraints: dict[str, Any]) -> tuple[Optional[date], Optional[str]]:
+    """Parse constraints.expected_msc_completion -> (date, certainty).
+
+    Month precision resolves to the LAST day of the month (conservative).
+    The certainty tag is carried so an 'estimated' date is never treated as a
+    confirmed graduation."""
+    raw = constraints.get("expected_msc_completion")
+    if not isinstance(raw, dict) or not raw.get("value"):
+        return None, None
+    value = str(raw["value"])
+    certainty = raw.get("certainty") or "estimated"
+    try:
+        if raw.get("precision") == "month" or len(value) == 7:
+            year, month = int(value[:4]), int(value[5:7])
+            return date(year, month, calendar.monthrange(year, month)[1]), certainty
+        return date.fromisoformat(value), certainty
+    except (ValueError, IndexError):
+        return None, None
 
 
 def urgency(deadline: Optional[date], today: date) -> tuple[str, Optional[int]]:
@@ -159,6 +180,59 @@ def eligibility_gate(
                 "eligibility standing is not confirmed (null)"
             )
             uncertain = True
+
+    # Degree/start timing: deterministic check of the user's expected MSc
+    # completion against the position's stated requirements. An ESTIMATED
+    # completion date is never treated as a confirmed graduation; the date is
+    # never adjusted to make a vacancy appear eligible.
+    exp_date, certainty = expected_completion(constraints)
+    req = opp.official.completed_degree_required_before_start
+    start = opp.official.start_date_value
+    negotiable = opp.official.start_date_negotiable
+    if req is True:
+        if exp_date is None:
+            reasons.append(
+                "completed degree required before start; your expected MSc "
+                "completion is not recorded"
+            )
+            uncertain = True
+        elif start is not None and exp_date > start:
+            if negotiable is True:
+                reasons.append(
+                    f"completed degree required and expected MSc completion "
+                    f"({exp_date.isoformat()}, {certainty}) is after the "
+                    f"stated-but-negotiable start {start.isoformat()} — "
+                    f"recruiter confirmation required"
+                )
+                uncertain = True
+            else:
+                return (
+                    "fail",
+                    [f"completed degree required before the start date "
+                     f"{start.isoformat()} (not stated as negotiable); expected "
+                     f"MSc completion ({exp_date.isoformat()}, {certainty}) is "
+                     f"after it"],
+                    False,
+                )
+        elif start is not None:
+            reasons.append(
+                f"expected MSc completion ({exp_date.isoformat()}) is before "
+                f"the start, but it is {certainty} — not a confirmed "
+                f"graduation; verify before relying on it"
+            )
+            uncertain = True
+        else:
+            reasons.append(
+                "completed degree required before start, but the start date "
+                "is not stated — verify timing"
+            )
+            uncertain = True
+    elif req is None and exp_date is not None:
+        reasons.append(
+            "whether a completed degree is required before employment is not "
+            "stated; your MSc is still in progress — verify with the source"
+        )
+        uncertain = True
 
     # Mobility/residence-history rules: separate from nationality/export
     # control. The applicant's residence history is not held in constraints,

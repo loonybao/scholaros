@@ -5,10 +5,10 @@ title: "PhD Position for Identification of Structure-function Relationships in M
 organisation: "TU Delft"
 deadline: 2026-08-16
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: not-analyzed
 urgency: medium
-needs_review: false
+needs_review: true
 ---
 
 # PhD Position for Identification of Structure-function Relationships in Methanogenic Microbiomes
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 29)
+Gate: **uncertain** (days to deadline: 29)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

@@ -5,10 +5,10 @@ title: "PhD Position eXtended Reality for Inclusive Automated Vehicle Interactio
 organisation: "TU Delft"
 deadline: 2026-08-30
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: 84
 urgency: medium
-needs_review: false
+needs_review: true
 ---
 
 # PhD Position eXtended Reality for Inclusive Automated Vehicle Interaction
@@ -24,8 +24,10 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 43)
+Gate: **uncertain** (days to deadline: 43)
 
+- posting mentions possible nationality/export-control restrictions — verify which roles are affected
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

@@ -5,10 +5,10 @@ title: "PhD Position Realising Business Impact from Construction Software"
 organisation: "TU Delft"
 deadline: 2026-09-08
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: not-analyzed
 urgency: low
-needs_review: false
+needs_review: true
 ---
 
 # PhD Position Realising Business Impact from Construction Software
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 52)
+Gate: **uncertain** (days to deadline: 52)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

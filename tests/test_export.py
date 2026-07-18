@@ -36,6 +36,41 @@ def test_path_guard_raises_on_escape(cfg, store):
         exporter._safe_path("..", "notes", "evil.md")
 
 
+def test_application_inherits_from_linked_active_vacancy(cfg, store):
+    """The application page must take deadline and submission URL from the
+    vacancy record it links to — never from a stale copy of its own."""
+    from compass.models import Application, ApplicationManual, ApplicationSystem
+
+    store.save(make_organisation(), actor="manual")
+    opp = make_opportunity()  # deadline 2026-08-03, url https://example.org/jobs/1
+    store.save(opp, actor="manual")
+    app = Application(
+        id="app_test",
+        system=ApplicationSystem(opportunity_id=opp.id),
+        manual=ApplicationManual(stage="preparing"),
+    )
+    store.save(app, actor="manual")
+
+    VaultExporter(cfg, store).export_all(TODAY)
+    page = (cfg.paths.vault_generated / "06-Applications" / "app_test.md").read_text(
+        encoding="utf-8"
+    )
+    assert "official_deadline: 2026-08-03" in page
+    assert "https://example.org/jobs/1" in page
+
+    # Deadline change on the vacancy propagates on the next export.
+    from datetime import date as _date
+
+    opp = store.load("opportunity", opp.id)
+    opp.official.deadline = _date(2026, 9, 15)
+    store.save(opp, actor="collector:test")
+    VaultExporter(cfg, store).export_all(TODAY)
+    page = (cfg.paths.vault_generated / "06-Applications" / "app_test.md").read_text(
+        encoding="utf-8"
+    )
+    assert "official_deadline: 2026-09-15" in page
+
+
 def test_export_regenerates_cleanly(cfg, store):
     store.save(make_opportunity(), actor="manual")
     exporter = VaultExporter(cfg, store)

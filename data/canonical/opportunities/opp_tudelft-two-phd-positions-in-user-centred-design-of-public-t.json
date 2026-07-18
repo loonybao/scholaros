@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-two-phd-positions-in-user-centred-design-of-public-t",
   "entity_type": "opportunity",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T03:35:01.092467Z",
-  "updated_at": "2026-07-18T04:18:19.653598+00:00",
+  "updated_at": "2026-07-18T04:32:25.203560Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:35:01.092467Z",
@@ -62,12 +62,30 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T04:18:19.653598+00:00",
+      "ts": "2026-07-18T04:18:19.653598Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.568962Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:32:25.203560Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.needs_review"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -87,6 +105,9 @@
     "deadline": "2026-08-17",
     "deadline_note": null,
     "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
     "posted_date": null,
     "position_type": "phd",
     "funding": null,
@@ -161,12 +182,14 @@
     "analysis_input_hash": "4abf995eacc3c4e3ea92b0b5f518c94b627e37f752099d71e89d7ddd012862ce"
   },
   "derived": {
-    "eligibility_gate": "pass",
-    "eligibility_reasons": [],
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
     "fit_overall": 58,
     "urgency": "medium",
     "days_to_deadline": 30,
-    "needs_review": false
+    "needs_review": true
   },
   "manual": {
     "notes": "",

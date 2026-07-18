@@ -25,9 +25,15 @@ languages:
 excluded_language_requirements: null
 
 # Degree I will hold at application time.
-degree_held: "MSc by Research"
-# Expected thesis completion date (ISO date). null = unknown.
-expected_completion: null
+degree_held: "MSc by Research (in progress)"
+# Expected MSc completion. ESTIMATE, not a confirmed graduation date — the
+# rules engine must never treat it as confirmed, and must never adjust it to
+# make a vacancy appear eligible. NOT in the LLM context whitelist.
+expected_msc_completion:
+  value: 2027-07
+  precision: month
+  certainty: estimated
+  source: user_confirmed
 
 # Funding requirement: position must be salaried or fully funded.
 requires_funding: true

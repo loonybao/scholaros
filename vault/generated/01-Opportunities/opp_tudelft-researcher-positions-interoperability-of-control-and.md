@@ -5,10 +5,10 @@ title: "Researcher Positions: Interoperability of Control and Protection in the 
 organisation: "TU Delft"
 deadline: 2026-07-19
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: not-analyzed
 urgency: urgent
-needs_review: false
+needs_review: true
 ---
 
 # Researcher Positions: Interoperability of Control and Protection in the High Voltage Direct Current
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 1)
+Gate: **uncertain** (days to deadline: 1)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

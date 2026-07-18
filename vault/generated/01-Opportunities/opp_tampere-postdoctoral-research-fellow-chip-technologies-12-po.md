@@ -28,6 +28,7 @@ Gate: **uncertain** (days to deadline: 44)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - posting states a mobility/residence-history rule — verify you satisfy it
 
 ## Description

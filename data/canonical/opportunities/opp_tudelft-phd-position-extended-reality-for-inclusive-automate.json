@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-extended-reality-for-inclusive-automate",
   "entity_type": "opportunity",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T03:28:27.196453Z",
-  "updated_at": "2026-07-18T04:18:19.525110+00:00",
+  "updated_at": "2026-07-18T04:32:25.065947Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:28:27.196453Z",
@@ -71,12 +71,50 @@
       "note": "S5a closure: primary application target"
     },
     {
-      "ts": "2026-07-18T04:18:19.524110+00:00",
+      "ts": "2026-07-18T04:18:19.524110Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.435956Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:31:52.225153Z",
+      "actor": "manual",
+      "fields_changed": [
+        "official.nationality_restrictions_status",
+        "official.nationality_restrictions_text"
+      ],
+      "note": "knowledge-security clause recorded from evidence tudelft/1366984057"
+    },
+    {
+      "ts": "2026-07-18T04:32:21.223626Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.next_action"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T04:32:25.065947Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.needs_review"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -96,6 +134,9 @@
     "deadline": "2026-08-30",
     "deadline_note": null,
     "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
     "posted_date": null,
     "position_type": "phd",
     "funding": null,
@@ -103,8 +144,8 @@
     "duration_text": null,
     "location": "Delft, Netherlands",
     "language_requirements": [],
-    "nationality_restrictions_status": "none_stated",
-    "nationality_restrictions_text": null,
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Official page: TU Delft conducts a knowledge-security risk assessment during recruitment (based on candidate-provided information, at the final selection stage) to prevent unwanted transfer of sensitive knowledge/technology. A screening step, not a stated nationality bar.",
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
@@ -160,8 +201,8 @@
       "End-to-end Unity/C# system building plus experimental evaluation matches the build-and-test PhD structure"
     ],
     "eligibility_flags": [
-      "Requires a completed relevant Master's (HCI explicitly listed) - MSc by Research completion timing vs start date must be confirmed",
-      "Statistics proficiency is a stated need-to-have; the applicant's statistics level is basic and should be addressed in the application"
+      "DEGREE TIMING: uncertain - requires an MSc in a relevant field (HCI listed) but states no completion deadline and no start date; user's expected completion 2027-07 (estimated) -> recruiter confirmation required (act_xrav_confirm_timing)",
+      "TU Delft conducts a knowledge-security risk assessment at the final selection stage (stated on the official page)"
     ],
     "risks": [
       "Domain knowledge in transportation/AV research is absent and other candidates may bring it",
@@ -169,23 +210,26 @@
     ],
     "funding_assessment": "Posting states a 4-year CLA-salaried doctoral appointment with an explicit salary range - fully consistent with the funding requirement.",
     "recommendation": "apply",
-    "next_action": "Verify posting; email Dr. Yan Feng with a short, specific note linking the campus-wayfinding VR transfer study to AV-VRU interaction; prepare CV + motivation mapped to the five Need-to-Haves; deadline 2026-08-30 allows time after the Tampere HTI submission.",
+    "next_action": "Verify timing with Dr. Yan Feng (act_xrav_confirm_timing, due 2026-08-05) alongside the planned introduction; document checklist is verified - begin CV/writing-sample selection after the Tampere recruiter answer clarifies scheduling.",
     "confidence": 0.88,
     "model": "claude-fable-5",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:43:47.138605Z",
-    "analysis_input_hash": "55bcc72056f0f41193b23d6d8ca6645adc7bd624a78cccbc05850e74ad5137a9"
+    "analyzed_at": "2026-07-18T04:32:21.222117Z",
+    "analysis_input_hash": "cef997af327efa5bee4b76f11f2bd737758d651434c0f32a453394f4031a20a3"
   },
   "derived": {
-    "eligibility_gate": "pass",
-    "eligibility_reasons": [],
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
     "fit_overall": 84,
     "urgency": "medium",
     "days_to_deadline": 43,
-    "needs_review": false
+    "needs_review": true
   },
   "manual": {
     "notes": "",

@@ -1,9 +1,9 @@
 {
   "id": "app_tudelft_xrav_2026",
   "entity_type": "application",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T04:18:20.776124Z",
-  "updated_at": "2026-07-18T04:18:20.776124Z",
+  "updated_at": "2026-07-18T04:31:52.238659Z",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.776124Z",
@@ -12,6 +12,24 @@
         "*created*"
       ],
       "note": "S5.5 sprint: primary application target"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.632616Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:31:52.238659Z",
+      "actor": "manual",
+      "fields_changed": [
+        "manual.blockers",
+        "manual.materials",
+        "manual.notes"
+      ],
+      "note": "document checklist verified from official evidence"
     }
   ],
   "system": {
@@ -22,22 +40,27 @@
     "submitted_at": null,
     "materials": [
       {
-        "name": "CV (tailored to the five Need-to-Haves)",
+        "name": "Motivation letter (max 2 pages)",
         "status": "todo",
         "path": null
       },
       {
-        "name": "Motivation letter",
+        "name": "CV (max 2 pages)",
         "status": "todo",
         "path": null
       },
       {
-        "name": "Intro email to Dr. Yan Feng (wayfinding-transfer -> AV-VRU bridge)",
+        "name": "Writing sample (Master's thesis chapter, article, or presented conference paper)",
         "status": "todo",
         "path": null
       },
       {
-        "name": "Verify full document list on the official application portal",
+        "name": "BSc transcript incl. list of courses and marks",
+        "status": "todo",
+        "path": null
+      },
+      {
+        "name": "MSc transcript incl. list of courses and marks",
         "status": "todo",
         "path": null
       }
@@ -46,11 +69,13 @@
       "per_yan_feng"
     ],
     "events": [],
-    "blockers": [],
+    "blockers": [
+      "DEGREE TIMING: uncertain - posting requires an MSc in a relevant field but does not state whether it must be completed at application or before start, and no start date is stated; expected completion 2027-07 (estimated) -> recruiter confirmation required (act_xrav_confirm_timing)"
+    ],
     "next_step": "Verify the official document list, then draft the intro email to Dr. Yan Feng",
     "next_step_due": "2026-08-05",
     "internal_due_date": "2026-08-10",
-    "notes": "PRIORITY: primary. Official deadline 2026-08-30 per verified record; internal preparation target 2026-08-10 (after the Tampere submission)."
+    "notes": "PRIORITY: primary. Verified against the active official vacancy: requisition 1366984057 (page ad code 3625), deadline 2026-08-30, apply online only (no email applications). Document list verified verbatim from the official application procedure. Recommendation stays: apply, pending eligibility/user finalisation. TIMING STATUS: uncertain and requires recruiter confirmation. Note: TU Delft runs a knowledge-security risk assessment at the final selection stage."
   },
   "outcome": {
     "result": null,

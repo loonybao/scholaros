@@ -1,9 +1,9 @@
 {
   "id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
   "entity_type": "organisation",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T03:27:42.198234Z",
-  "updated_at": "2026-07-18T04:18:19.681603+00:00",
+  "updated_at": "2026-07-18T04:30:54.597613+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:27:42.199239Z",
@@ -20,6 +20,14 @@
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.597613+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
     }
   ],
   "official": {

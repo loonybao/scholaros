@@ -5,10 +5,10 @@ title: "PhD Positions in Theoretical Chemistry and Physics (ERC-Funded)"
 organisation: "TU Delft"
 deadline: 2026-08-24
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: not-analyzed
 urgency: medium
-needs_review: false
+needs_review: true
 ---
 
 # PhD Positions in Theoretical Chemistry and Physics (ERC-Funded)
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 37)
+Gate: **uncertain** (days to deadline: 37)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

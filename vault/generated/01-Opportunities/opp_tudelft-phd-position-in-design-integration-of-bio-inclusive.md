@@ -5,10 +5,10 @@ title: "PhD position in Design Integration of Bio-Inclusive Façade Intervention
 organisation: "TU Delft"
 deadline: 2026-08-03
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: 35
 urgency: high
-needs_review: false
+needs_review: true
 ---
 
 # PhD position in Design Integration of Bio-Inclusive Façade Interventions
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 16)
+Gate: **uncertain** (days to deadline: 16)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

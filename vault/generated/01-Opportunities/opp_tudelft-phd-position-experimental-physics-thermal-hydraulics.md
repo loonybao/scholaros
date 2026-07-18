@@ -5,10 +5,10 @@ title: "PhD Position Experimental Physics Thermal-Hydraulics in Advanced Nuclear
 organisation: "TU Delft"
 deadline: 2026-08-03
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: not-analyzed
 urgency: high
-needs_review: false
+needs_review: true
 ---
 
 # PhD Position Experimental Physics Thermal-Hydraulics in Advanced Nuclear Reactor Technology
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 16)
+Gate: **uncertain** (days to deadline: 16)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

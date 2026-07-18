@@ -1,9 +1,9 @@
 {
   "id": "act_hti_verify_msc_timing",
   "entity_type": "action",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T03:21:34.020066Z",
-  "updated_at": "2026-07-18T04:18:20.368347+00:00",
+  "updated_at": "2026-07-18T04:31:52.193638Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:21:34.034485Z",
@@ -14,12 +14,31 @@
       "note": "created from act_hti_msc.yaml"
     },
     {
-      "ts": "2026-07-18T04:18:20.368347+00:00",
+      "ts": "2026-07-18T04:18:20.368347Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.620609Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:31:52.193638Z",
+      "actor": "manual",
+      "fields_changed": [
+        "manual.status",
+        "outcome.completed_at",
+        "outcome.note",
+        "outcome.result"
+      ],
+      "note": "eligibility conclusion recorded"
     }
   ],
   "system": {
@@ -38,12 +57,12 @@
   },
   "manual": {
     "title": "Verify MSc completion date vs Tampere HTI start (Sept 2026, negotiable) and confirm degree/transcript requirements can be met",
-    "status": "todo",
+    "status": "done",
     "notes": "Posting requires a completed relevant Master's degree with transcript. Confirm expected MMU MSc completion date, and whether a negotiated later start or conditional offer is possible. Blocks the apply decision.\n"
   },
   "outcome": {
-    "result": null,
-    "completed_at": null,
-    "note": ""
+    "result": "completed",
+    "completed_at": "2026-07-18T04:31:52.192636Z",
+    "note": "CONCLUSION (evidence tampere/3110): the posting expects applicants to hold an applicable Master's degree and lists 'a transcript of records from completed Master's degree studies' among required application materials; start is 'preferably September 2026' but explicitly negotiable. User's expected MSc completion is 2027-07 (ESTIMATED, user-confirmed). Because the start is negotiable, this is not a clear fixed-start failure -> eligibility_gate stays uncertain and a recruiter question is required (act_hti_ask_recruiter_timing). The provisional 'apply' recommendation is NOT preserved; downgraded to consider pending the recruiter's answer."
   }
 }

@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-in-extended-reality-for-safe-and-active",
   "entity_type": "opportunity",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T03:31:38.723202Z",
-  "updated_at": "2026-07-18T04:18:19.546397+00:00",
+  "updated_at": "2026-07-18T04:32:25.087948Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:31:38.723202Z",
@@ -70,12 +70,30 @@
       "note": "S5a closure: preserved as urgent opportunity"
     },
     {
-      "ts": "2026-07-18T04:18:19.546397+00:00",
+      "ts": "2026-07-18T04:18:19.546397Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.460284Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:32:25.087948Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.needs_review"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -95,6 +113,9 @@
     "deadline": "2026-07-19",
     "deadline_note": null,
     "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
     "posted_date": null,
     "position_type": "phd",
     "funding": null,
@@ -183,12 +204,14 @@
     "analysis_input_hash": "3359d5ae1ac9904aeffdd3e12cb520f6d82f7d87cc400dfadaec43d8dbbdb66f"
   },
   "derived": {
-    "eligibility_gate": "pass",
-    "eligibility_reasons": [],
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
     "fit_overall": 86,
     "urgency": "urgent",
     "days_to_deadline": 1,
-    "needs_review": false
+    "needs_review": true
   },
   "manual": {
     "notes": "",

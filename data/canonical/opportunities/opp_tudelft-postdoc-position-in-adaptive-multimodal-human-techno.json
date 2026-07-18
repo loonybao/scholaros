@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-postdoc-position-in-adaptive-multimodal-human-techno",
   "entity_type": "opportunity",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T03:35:12.302683Z",
-  "updated_at": "2026-07-18T04:18:19.632236+00:00",
+  "updated_at": "2026-07-18T04:32:25.180556Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:35:12.302683Z",
@@ -62,12 +62,30 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T04:18:19.632236+00:00",
+      "ts": "2026-07-18T04:18:19.632236Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.546919Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:32:25.180556Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.needs_review"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -87,6 +105,9 @@
     "deadline": "2026-08-23",
     "deadline_note": null,
     "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
     "posted_date": null,
     "position_type": "postdoc",
     "funding": null,
@@ -150,12 +171,14 @@
     "analysis_input_hash": "73cc48d39048ebc37a3d94ade370f0b7ad53f8276e43098a1671dfe2987bf7fb"
   },
   "derived": {
-    "eligibility_gate": "pass",
-    "eligibility_reasons": [],
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
     "fit_overall": 54,
     "urgency": "medium",
     "days_to_deadline": 36,
-    "needs_review": false
+    "needs_review": true
   },
   "manual": {
     "notes": "",

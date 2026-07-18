@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-doctoral-researcher-in-structural-health-monitoring-an",
   "entity_type": "opportunity",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-17T15:35:55.786949Z",
-  "updated_at": "2026-07-18T04:18:19.439246+00:00",
+  "updated_at": "2026-07-18T04:32:24.969035Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:55.786949Z",
@@ -87,12 +87,28 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T04:18:19.439246+00:00",
+      "ts": "2026-07-18T04:18:19.439246Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.342491Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:32:24.969035Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_reasons"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -112,6 +128,9 @@
     "deadline": "2026-08-31",
     "deadline_note": "12:00 UTC",
     "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
     "posted_date": "2026-06-23",
     "position_type": "phd",
     "funding": null,
@@ -174,7 +193,8 @@
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
-      "funding/salary not confirmed on the posting"
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
     "fit_overall": 8,
     "urgency": "medium",

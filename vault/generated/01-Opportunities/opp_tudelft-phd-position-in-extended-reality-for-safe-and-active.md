@@ -5,10 +5,10 @@ title: "PhD Position in Extended Reality for Safe and Active Mobility"
 organisation: "TU Delft"
 deadline: 2026-07-19
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: 86
 urgency: urgent
-needs_review: false
+needs_review: true
 ---
 
 # PhD Position in Extended Reality for Safe and Active Mobility
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 1)
+Gate: **uncertain** (days to deadline: 1)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

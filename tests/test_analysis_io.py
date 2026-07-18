@@ -60,11 +60,22 @@ def _analysis(hash_value: str) -> dict:
 
 def test_packet_contains_only_whitelisted_content(cfg, store):
     cfg = _cfg(cfg)
+    cfg.constraints = {
+        "geography": {"allowed_regions": ["Europe"]},
+        "expected_msc_completion": {
+            "value": "2027-07", "precision": "month",
+            "certainty": "estimated", "source": "user_confirmed",
+        },
+    }
     opp = make_opportunity()
     store.save(opp, actor="manual")
     packet = prepare_packet(cfg, store, [opp.id])
     dumped = json.dumps(packet)
     assert "SHOULD NEVER LEAVE THE MACHINE" not in dumped
+    # expected_msc_completion is NOT in the approved context whitelist and
+    # must never reach an external LLM packet:
+    assert "expected_msc_completion" not in dumped
+    assert "2027-07" not in dumped
     assert packet["opportunities"][0]["id"] == opp.id
     assert packet["opportunities"][0]["analysis_input_hash"]
     assert packet["prompt_version"] == "fit_analysis_v1"

@@ -5,10 +5,10 @@ title: "Post-Doctoral Researcher in Computational Geomechanics of Gas Migration 
 organisation: "TU Delft"
 deadline: 2026-07-29
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: not-analyzed
 urgency: high
-needs_review: false
+needs_review: true
 ---
 
 # Post-Doctoral Researcher in Computational Geomechanics of Gas Migration in Clays
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 11)
+Gate: **uncertain** (days to deadline: 11)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

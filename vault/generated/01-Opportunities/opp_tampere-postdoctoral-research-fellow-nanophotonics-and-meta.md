@@ -27,6 +27,7 @@ needs_review: true
 Gate: **uncertain** (days to deadline: 29)
 
 - funding/salary not confirmed on the posting
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

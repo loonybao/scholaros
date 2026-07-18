@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-co-creating-circular-business-models-an",
   "entity_type": "opportunity",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T03:34:49.880599Z",
-  "updated_at": "2026-07-18T04:18:19.514043+00:00",
+  "updated_at": "2026-07-18T04:32:25.053947Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:34:49.881608Z",
@@ -62,12 +62,30 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T04:18:19.514043+00:00",
+      "ts": "2026-07-18T04:18:19.514043Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.424955Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:32:25.053947Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.needs_review"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -87,6 +105,9 @@
     "deadline": "2026-08-23",
     "deadline_note": null,
     "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
     "posted_date": null,
     "position_type": "phd",
     "funding": null,
@@ -154,12 +175,14 @@
     "analysis_input_hash": "52fb1997193dba68e2470131b91bd4354b3244cb7f0875892217e51852d78b9b"
   },
   "derived": {
-    "eligibility_gate": "pass",
-    "eligibility_reasons": [],
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
     "fit_overall": 44,
     "urgency": "medium",
     "days_to_deadline": 36,
-    "needs_review": false
+    "needs_review": true
   },
   "manual": {
     "notes": "",

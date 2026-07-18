@@ -5,10 +5,10 @@ title: "PhD Position Electrical Engineering: Cryo-CMOS Circuit Design for Temper
 organisation: "TU Delft"
 deadline: 2026-09-06
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: 5
 urgency: low
-needs_review: false
+needs_review: true
 ---
 
 # PhD Position Electrical Engineering: Cryo-CMOS Circuit Design for Temperature Sensors in Quantum
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 50)
+Gate: **uncertain** (days to deadline: 50)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

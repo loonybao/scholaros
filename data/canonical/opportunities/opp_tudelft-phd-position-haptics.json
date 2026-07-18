@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-haptics",
   "entity_type": "opportunity",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T03:34:38.670727Z",
-  "updated_at": "2026-07-18T04:18:19.533113+00:00",
+  "updated_at": "2026-07-18T04:32:25.074951Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:34:38.670727Z",
@@ -62,12 +62,30 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T04:18:19.533113+00:00",
+      "ts": "2026-07-18T04:18:19.533113Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.446469Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:32:25.074951Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.needs_review"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -87,6 +105,9 @@
     "deadline": "2026-07-30",
     "deadline_note": null,
     "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
     "posted_date": null,
     "position_type": "phd",
     "funding": null,
@@ -156,12 +177,14 @@
     "analysis_input_hash": "4aba71a9ce1d6ee0fdda825333c0ff5c826127c9b3f2d2983f8034c25933400b"
   },
   "derived": {
-    "eligibility_gate": "pass",
-    "eligibility_reasons": [],
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
     "fit_overall": 58,
     "urgency": "high",
     "days_to_deadline": 12,
-    "needs_review": false
+    "needs_review": true
   },
   "manual": {
     "notes": "",

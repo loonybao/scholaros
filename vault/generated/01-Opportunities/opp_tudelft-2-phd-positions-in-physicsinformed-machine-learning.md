@@ -5,10 +5,10 @@ title: "2 PhD positions in Physics‑Informed Machine Learning for Traffic Model
 organisation: "TU Delft"
 deadline: 2026-08-02
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: 18
 urgency: high
-needs_review: false
+needs_review: true
 ---
 
 # 2 PhD positions in Physics‑Informed Machine Learning for Traffic Modelling & Prediction
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 15)
+Gate: **uncertain** (days to deadline: 15)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

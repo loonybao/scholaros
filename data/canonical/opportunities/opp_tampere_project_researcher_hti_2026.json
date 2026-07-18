@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere_project_researcher_hti_2026",
   "entity_type": "opportunity",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-17T13:08:13.135307Z",
-  "updated_at": "2026-07-18T04:18:19.500528+00:00",
+  "updated_at": "2026-07-18T04:32:25.037438Z",
   "change_history": [
     {
       "ts": "2026-07-17T13:08:13.136310Z",
@@ -132,12 +132,50 @@
       "note": "interactive analysis (claude-fable-5)"
     },
     {
-      "ts": "2026-07-18T04:18:19.500528+00:00",
+      "ts": "2026-07-18T04:18:19.500528Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v4"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.408949Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:31:52.178613Z",
+      "actor": "manual",
+      "fields_changed": [
+        "official.completed_degree_required_before_start",
+        "official.start_date_negotiable",
+        "official.start_date_value"
+      ],
+      "note": "degree/start timing facts recorded from evidence tampere/3110"
+    },
+    {
+      "ts": "2026-07-18T04:32:21.220117Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.next_action",
+        "ai.recommendation",
+        "ai.risks"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T04:32:25.037438Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_reasons"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -157,6 +195,9 @@
     "deadline": "2026-08-03",
     "deadline_note": "23:59 local time",
     "start_date": "September 2026 (negotiable)",
+    "start_date_value": "2026-09-01",
+    "start_date_negotiable": true,
+    "completed_degree_required_before_start": true,
     "posted_date": "2026-06-25",
     "position_type": "project_researcher",
     "funding": "salaried, fixed-term",
@@ -226,31 +267,33 @@
       "End-to-end ownership of an XR system plus its experimental evaluation matches the group's build-and-evaluate workflow"
     ],
     "eligibility_flags": [
-      "Requires a relevant completed Master's degree with transcript; applicant's MSc by Research is still in progress - completion timing versus the September 2026 start must be confirmed",
+      "DEGREE TIMING (evidence tampere/3110): posting expects an applicable Master's degree and requires 'a transcript of records from completed Master's degree studies' among application materials; start 'preferably September 2026' but explicitly negotiable. User's expected MSc completion is 2027-07 (ESTIMATED). Not a clear fixed-start failure -> recruiter confirmation required before any apply decision",
       "Posting states some projects may be subject to legal/sanctions/export-control restrictions; which of the 2-5 roles are affected is not stated",
       "Doctoral pathway applies only to some selected candidates, not all"
     ],
     "risks": [
       "Multi-project call: final assignment may land on human-AI/accessibility topics rather than spatial learning",
       "Doctoral study right is a separate later application, not guaranteed by employment",
-      "Defence-related projects may exclude some nationalities; unresolved for this applicant"
+      "Defence-related projects may exclude some nationalities; unresolved for this applicant",
+      "Formal timing eligibility may fail despite high research alignment - research-method fit remains high (84) regardless of the outcome"
     ],
     "funding_assessment": "Posting text describes salaried fixed-term employment (1-3 years) under the Finnish university salary system; consistent with the applicant's salaried/funded requirement. Doctoral funding beyond the project term is not described.",
-    "recommendation": "apply",
-    "next_action": "Verify the posting on the official page, confirm expected MSc completion date against the negotiable start, then draft the 1-page motivation letter and 1-2 minute video mapped to the three closest project lines (networked training, digital twins, inclusive applications).",
+    "recommendation": "consider",
+    "next_action": "Ask the recruiter the degree-timing question (act_hti_ask_recruiter_timing, due 2026-07-21); resume application preparation only if a 2027 completion/start is acceptable.",
     "confidence": 0.85,
     "model": "claude-fable-5",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T04:13:23.990370Z",
+    "analyzed_at": "2026-07-18T04:32:21.218117Z",
     "analysis_input_hash": "f0d32812c41ee6bfd15b4c73bb40e94af685aa60ffb459032b41f6303d3be097"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
-      "posting mentions possible nationality/export-control restrictions — verify which roles are affected"
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "completed degree required and expected MSc completion (2027-07-31, estimated) is after the stated-but-negotiable start 2026-09-01 — recruiter confirmation required"
     ],
     "fit_overall": 84,
     "urgency": "high",

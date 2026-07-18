@@ -15,7 +15,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-SCHEMA_VERSION = 4
+SCHEMA_VERSION = 5
 
 ID_PREFIXES = {
     "opportunity": "opp_",
@@ -96,7 +96,12 @@ class OpportunityOfficial(BaseModel):
     extracted_content_hash: Optional[str] = None
     deadline: Optional[date] = None  # NOT part of identity
     deadline_note: Optional[str] = None  # e.g. "23:59 Finland time"
-    start_date: Optional[str] = None
+    start_date: Optional[str] = None  # free text as stated on the page
+    # Structured start/degree-timing facts, set only when the official text
+    # supports them (None = not stated/unknown, never guessed):
+    start_date_value: Optional[date] = None
+    start_date_negotiable: Optional[bool] = None
+    completed_degree_required_before_start: Optional[bool] = None
     posted_date: Optional[date] = None  # part of fallback fingerprint
     position_type: Literal[
         "phd", "postdoc", "project_researcher", "research_assistant", "other"

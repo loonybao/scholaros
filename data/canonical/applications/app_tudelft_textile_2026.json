@@ -1,9 +1,9 @@
 {
   "id": "app_tudelft_textile_2026",
   "entity_type": "application",
-  "schema_version": 4,
+  "schema_version": 5,
   "created_at": "2026-07-18T04:18:20.781635Z",
-  "updated_at": "2026-07-18T04:18:20.781635Z",
+  "updated_at": "2026-07-18T04:31:52.281196Z",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.781635Z",
@@ -12,6 +12,23 @@
         "*created*"
       ],
       "note": "S5.5 sprint: consider, below XR-AV priority"
+    },
+    {
+      "ts": "2026-07-18T04:30:54.631615Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:31:52.281196Z",
+      "actor": "manual",
+      "fields_changed": [
+        "manual.blockers",
+        "manual.notes"
+      ],
+      "note": "timing re-evaluated: uncertain, not stated"
     }
   ],
   "system": {
@@ -24,12 +41,13 @@
     "contact_person_ids": [],
     "events": [],
     "blockers": [
-      "Decision pending: read the full posting and decide whether to pursue"
+      "Decision pending: read the full posting and decide whether to pursue",
+      "DEGREE TIMING: posting requires an MSc (Design/HCI/CS...) but states no completion deadline or start date; expected completion 2027-07 (estimated) -> would need recruiter confirmation IF pursued"
     ],
     "next_step": "Read the full official posting; decide by 2026-07-26 whether to prepare an application",
     "next_step_due": "2026-07-26",
     "internal_due_date": null,
-    "notes": "STATUS: consider. Official deadline 2026-08-02 per verified record. Explicitly LOWER priority than the XR-AV application; do not let it displace XR-AV or Tampere preparation time."
+    "notes": "STATUS: consider. Official deadline 2026-08-02 per verified record. Explicitly LOWER priority than the XR-AV application. TIMING: uncertain (not stated in the posting); resolve only after a go decision - no content generation."
   },
   "outcome": {
     "result": null,

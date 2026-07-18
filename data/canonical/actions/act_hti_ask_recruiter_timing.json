@@ -1,0 +1,41 @@
+{
+  "id": "act_hti_ask_recruiter_timing",
+  "entity_type": "action",
+  "schema_version": 5,
+  "created_at": "2026-07-18T04:31:52.195637Z",
+  "updated_at": "2026-07-18T04:31:52.196638Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:31:52.196638Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "ambiguous degree-timing -> recruiter question"
+    }
+  ],
+  "system": {
+    "action_type": "outreach",
+    "related": {
+      "opportunity_id": "opp_tampere_project_researcher_hti_2026",
+      "person_id": "per_markku_turunen",
+      "application_id": null
+    },
+    "created_by": "human",
+    "due_date": "2026-07-21",
+    "priority": "high",
+    "recommended_reason": null,
+    "model": null,
+    "prompt_version": null
+  },
+  "manual": {
+    "title": "Ask the Tampere HTI recruiter whether a July-2027 (estimated) MSc completion with a negotiated later start can be accepted",
+    "status": "todo",
+    "notes": "Official posting requires a transcript of completed Master's studies among application materials but states the start date is negotiable. Do not draft/send automatically - the user asks. Answer determines apply/withdraw before the 2026-08-03 deadline."
+  },
+  "outcome": {
+    "result": null,
+    "completed_at": null,
+    "note": ""
+  }
+}

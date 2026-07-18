@@ -5,10 +5,10 @@ title: "PhD Position to Help Shape the Future of Reliable, Sustainable Power Ele
 organisation: "TU Delft"
 deadline: 2026-08-16
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: not-analyzed
 urgency: medium
-needs_review: false
+needs_review: true
 ---
 
 # PhD Position to Help Shape the Future of Reliable, Sustainable Power Electronics
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 29)
+Gate: **uncertain** (days to deadline: 29)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

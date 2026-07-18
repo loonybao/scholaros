@@ -5,10 +5,10 @@ title: "Postdoc Human-Centred Thermal Comfort and Machine Learning for Electric 
 organisation: "TU Delft"
 deadline: 2026-07-22
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: 52
 urgency: urgent
-needs_review: false
+needs_review: true
 ---
 
 # Postdoc Human-Centred Thermal Comfort and Machine Learning for Electric Vehicles
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 4)
+Gate: **uncertain** (days to deadline: 4)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

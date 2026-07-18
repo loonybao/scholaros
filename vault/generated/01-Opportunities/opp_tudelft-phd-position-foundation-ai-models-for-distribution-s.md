@@ -5,10 +5,10 @@ title: "PhD Position Foundation AI Models for Distribution Systems Decision-Maki
 organisation: "TU Delft"
 deadline: 2026-08-01
 status: open
-eligibility_gate: pass
+eligibility_gate: uncertain
 fit_overall: not-analyzed
 urgency: high
-needs_review: false
+needs_review: true
 ---
 
 # PhD Position Foundation AI Models for Distribution Systems Decision-Making
@@ -24,8 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **pass** (days to deadline: 14)
+Gate: **uncertain** (days to deadline: 14)
 
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

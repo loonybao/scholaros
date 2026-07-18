@@ -27,6 +27,7 @@ needs_review: true
 Gate: **uncertain** (days to deadline: 16)
 
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
+- completed degree required and expected MSc completion (2027-07-31, estimated) is after the stated-but-negotiable start 2026-09-01 — recruiter confirmation required
 
 ## Description
 
@@ -138,6 +139,7 @@ _claude-fable-5 · fit_analysis_v1 · confidence 0.85_
 - Multi-project call: final assignment may land on human-AI/accessibility topics rather than spatial learning
 - Doctoral study right is a separate later application, not guaranteed by employment
 - Defence-related projects may exclude some nationalities; unresolved for this applicant
+- Formal timing eligibility may fail despite high research alignment - research-method fit remains high (84) regardless of the outcome
 
 ## Manual annotations (from record)
 
