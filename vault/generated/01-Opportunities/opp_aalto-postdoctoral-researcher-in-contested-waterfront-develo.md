@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 26
 urgency: high
 needs_review: true
 ---
@@ -106,7 +106,21 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.85_
+
+12-month postdoc in the Department of Architecture (ConWa project): how housing and land policy shape social inclusion in European waterfront developments; qualitative policy analysis across Nordic/Belgian case studies.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 30 |
+| Methodological fit | 25 |
+| Growth value | 20 |
+| Strategic value | 25 |
+| **Overall** | **26** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** qualitative-research
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-postdoctoral-researcher-in-contested-waterfront-develo.md` and link [[opp_aalto-postdoctoral-researcher-in-contested-waterfront-develo]]._

@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -136,7 +136,21 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+Fully funded doctoral position (SiGMA project) on AI-based and quantum-inspired optimization for green maritime energy systems (ship/port energy, hydrogen, storage).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 12 |
+| Strategic value | 18 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-in-ai-and-quantum-inspired-optimiz.md` and link [[opp_aalto-doctoral-researcher-in-ai-and-quantum-inspired-optimiz]]._

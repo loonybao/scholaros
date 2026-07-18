@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-17T15:11:58.956715Z",
-  "updated_at": "2026-07-18T03:01:11.829462+00:00",
+  "updated_at": "2026-07-18T03:04:29.748755Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:11:58.956715Z",
@@ -78,12 +78,50 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T03:01:11.829462+00:00",
+      "ts": "2026-07-18T03:01:11.829462Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:04:29.516151Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:04:29.748755Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -112,16 +150,56 @@
     "language_requirements": [],
     "nationality_restrictions_status": "none_stated",
     "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
     "status": "open",
     "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our\nuniversity\ncommunity has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nResearch group of Plastics and Elastomers (\nPlastics and Elastomer Technology | Tampere University\n) is an active, international team of assistants, M.Sc. thesis workers, doctoral students, and post-doctoral researchers. The team is led by two professors and the focus areas are polymer-composites, natural and sustainable polymeric materials, characterization, adhesive joints, and finite element simulations. We appreciate individuals interested in common work manners and active participation in group development.\nJob description\nWe are looking for a Research Assistant or preferably M.Sc. thesis student to work related to a newly launched research project SUSHY (Sustainable Hybrid Structures). The project seeks for new material, smart-structural, and sustainable design alternatives to the industrial fields of marine (ship and yacht design and construction) and lifting systems (hoists). The project includes intensive collaboration with the companies of the field, and it targets to a high academic impact.\nThe overall goal of the job is to improve current micro-test systems of fibres and fibre-matrix systems. This requires laboratory work with materials testing electronics and codes. Alongside, high-fidelity numerical analysis is needed to understand new characterization techniques. The research needs to be connected and communicated within the project and length-scale bridging modelling tasks are included. Part of the project collaboration happens internationally and a visit to a foreign research organization can be necessary.\nIt is preferred that the work entity related to this position will be finalized as a M.Sc. thesis.\nRequirements\nWe appreciate the following:\nCourses taken and background in some of the following areas: Advanced composites, Adhesion and surface modifications, Finite element methods, Materials modelling, Micro-test methods, Electronics, Measuring techniques\nPrior knowledge and good understanding of mechanics of materials\nSome programming experience, and interest to develop material testing systems on micro-scale and numerically analyze these systems\nPlease be prepared to provide proof of your merits when requested.\nTampere University is a unique, multidisciplinary and boldly forward-looking, evolving community. Our values are openness, diversity, responsibility, courage, critical thinking, erudition/ Bildung, and learner-centredness. We hope that you can embrace these values and promote them in your work.\nWe offer\nThe position will be full-time and fixed-term (6 months). The expected starting date is 1st September 2026. A trial period of six months applies to all our new employees.\nThe salary will be based on both the job demands and the employee's personal performance in accordance with the University Salary System. The position of Research Assistant is placed on the job demand level 1 (the demand level chart for the teaching and research staff). In addition, employees will receive performance-based salary.\nWe offer a wide range of staff benefits, such as occupational health care, flexible working hours, excellent sports facilities on campus and several restaurants and cafés on campus with staff discounts. Please read more about\nworking at Tampere University\n.\nWe are inviting you to be a part of a vibrant, active and truly international research community. Interdisciplinarity is highly encouraged, as it allows you to expand your research network and exposes you to new perspectives and ideas to solve complex research problems and pursue novel research findings. We have a strong commitment to the highest level of scientific research and the provision of high-quality doctoral education.\nHow to apply\nPlease submit your application through our online recruitment system. Applications and all accompanying documentation should be written in English or Finnish, and uploaded in PDF format. The closing date for applications is\n20 August 2026 (at 23.59 EEST / UTC +3).\nPlease note that applicants may be invited to participate to an interview throughout the application time and therefore we encourage to apply as soon as possible.\nApplications should include the following documents:\nCurriculum Vitae with details\nTranscript of studies\nMotivation letter\nFor more information, please contact: Professor Mikko Kanerva, email: mikko.kanerva (at) tuni.fi\n----\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nMuovi- ja Elastomeeritekniikan tutkimusryhmä (\nMuovi- ja elastomeeritekniikka | Tampereen yliopisto\n) etsii tutkimusapulaista tai diplomityöntekijää. Tutkimusryhmämme on aktiivinen ja kansainvälinen tiimi eri koulutuksen tasoilla työskenteleviä henkilöitä. Ryhmämme professorit johtavat tutkimusta erityisesti painopistealueilla komposiitit, polymeerimateriaalien prosessointi luonnon- ja kestävän kehityksen mukaisilla polymeereillä, karakterisointi, liimaliitokset, elementtimenetelmän soveltaminen simulointeihin. Arvostamme ryhmässämme aktiivista osallistumista yhteisön kehittämiseen, yhteisiin toimintatapoihin ja tapahtumiin.\nTehtävänkuvaus\nTehtävä on osa laajaa juuri alkavaa tutkimuskokonaisuutta projektissa SUSHY (Sustainable Hybrid Structures). Etsimme lähtökohtaisesti tekijää diplomityöhön tähtäävään tehtävään. Hankkeessa työskentely edellyttää kommunikointia meriteollisuuden ja konepajateollisuuden yritysten kanssa ja tulosten ja saavutusten tavoitteellista, akateemista julkaisemista.\nTehtävän erityinen tavoite on kehittää komposiitti- ja kuitumateriaaleihin liittyviä mittaus- ja analyysitekniikoita. Tämä tarkoittaa mikromittauslaitteiden käyttämistä ja kehittämistä. Mittakaavaerot edellyttävät numeerista simulaatiota niin mittaustekniikkaan kuin projektin teollisiin sovelluksiin liittyen. Työn edistymistä ja eteenpäin viemistä tulee kommunikoida projektin tilaisuuksissa. Osa tutkimuksen yhteistyötahoista on ulkomaisia tutkimusorganisaatioita, joten ulkomaankomennus saattaa kuulua työnkuvaan.\nHakuohjeet\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta). Hakuaika tehtävään päättyy\n20\n.08.2026 klo 23.59."
   },
-  "ai": null,
+  "ai": {
+    "summary": "6-month Research Assistant / M.Sc. thesis position in the SUSHY project on sustainable hybrid structures for marine and lifting-system industries (materials and structural design).",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Materials/structural engineering for ships and hoists; no human-centred component."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Materials testing and structural design methods do not overlap the applicant's profile."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "No capability relevant to the target identity."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "6-month junior role aimed at M.Sc thesis students; the applicant already has a thesis in progress elsewhere."
+    },
+    "required_skills": [],
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Intended for students finalising an M.Sc. thesis at Tampere - the applicant's thesis is registered at MMU"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried short fixed-term assistant role per posting text; not a doctoral pathway.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.95,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:04:29.516151Z",
+    "analysis_input_hash": "8361d37f6709ca8d5a89a4a6f0839ac8b8ac1a71051a179f2e2f9a1991c8c6bd"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 8,
     "urgency": "medium",
     "days_to_deadline": 33,
     "needs_review": true

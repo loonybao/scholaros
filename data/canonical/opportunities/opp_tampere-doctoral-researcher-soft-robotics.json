@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-17T15:12:05.062615Z",
-  "updated_at": "2026-07-18T03:01:11.816310+00:00",
+  "updated_at": "2026-07-18T03:04:29.736694Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:12:05.063145Z",
@@ -49,12 +49,50 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T03:01:11.816310+00:00",
+      "ts": "2026-07-18T03:01:11.816310Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:04:29.528186Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:04:29.736694Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -83,16 +121,56 @@
     "language_requirements": [],
     "nationality_restrictions_status": "none_stated",
     "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
     "status": "open",
     "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our university community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\n.\nWe are looking for a\nDoctoral Researcher\nin the field of soft robotics. The position is full-time and will be filled for a fixed-term period of 3 years. The workplace is located at Hervanta Campus, Tampere University.\nThe Faculty of Medicine and Health Technology (MET)\nis dedicated to pursuing world-class research ranging from clinical medicine and translational medicine, through molecular biology, biotechnology and cell biology, to biomedical engineering, biomicrosystems, biomaterials, and biorobotics. We conduct internationally acclaimed basic and applied research.\nWe are seeking a talented and motivated researcher to join\nBioinspired Materials and Robotics group\n, a highly interdisciplinary group working at the forefront of soft robotics, microfluidics, and intelligent microsystems. Our team develops next-generation multimaterial and multifunctional microdevices, combining microfabrication, rapid prototyping, mechatronics, and advanced computational methods. You will contribute to pioneering work in soft robotic systems with embedded sensing. This position offers a unique opportunity to work on impactful technologies at the intersection of engineering, biology, and robotics in a collaborative and innovation-driven environment.\nJob description\nWe are looking for a motivated Doctoral Researcher to join an upcoming Horizon Europe project focused on developing microfluidic sensor technologies for soft robotics. In this role, you will design and model microfluidic channel networks, create computer-aided design tools for these systems, and take part in building and testing the devices. This is a hands-on position combining design, simulation, fabrication, and experimental work in an international research project.\nThe selected candidate will be able to focus on their doctoral research full-time, get supervision, and implement new ideas as a part of a research team in the positive and multidisciplinary environment of the MET faculty.\nIn addition to the doctoral dissertation, the duties of a doctoral researcher may include participation in faculty tasks that support your doctoral studies.\nRequirements:\nMaster’s degree in engineering, from a relevant field such as biomedical engineering, microtechnology, electrical engineering, physics, mechatronics or other related discipline\nExpertise in microfabrication and 3D printing, especially in the fabrication of microfluidic devices\nExpertise in fluid dynamics and modelling of microfluidic flow phenomena, including using finite element method tools\nProgramming skills\nFluency in English\nAbility and motivation to pursue and complete a doctoral degree as demonstrated during prior studies or otherwise\nWillingness to supervise undergraduate and graduate students\nYou need to have completed a relevant Master’s degree before the starting date of employment.\nSuccessful candidates must be pursuing or should be accepted to study towards a doctoral degree in the Doctoral Programme in Medicine, Biosciences and Biomedical Engineering. Please visit\nthe admissions webpage\nfor more information on eligibility requirements.\nTampere University is a unique, multidisciplinary, and boldly forward-looking community. Our values are openness, diversity, responsibility, courage, critical thinking, and learner-centeredness. We hope that you can embrace these values and promote them in your work.\nWe offer\nThe planned starting date is in\nSeptember 1, 2026\n, or as mutually agreed by both parties, but no later than November 1, 2026. The position is full-time, and it will be filled for a fixed-term period of 3 years from the starting date of the employment. A trial period of 6 months applies to all our new employees.\nThe salary will be based on both the job requirements and the employee's personal performance in accordance with the\nFinnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of a Doctoral Researcher is placed on level 2-4 of the job requirements scale. A typical starting salary for a Doctoral Researcher is approximately 2750-2900 EUR per month. The salary increases based on experience and the progress of doctoral studies.\nWe are inviting you to be a part of a vibrant, active, and truly multidisciplinary research community. We value interdisciplinarity, as it allows you to expand your research network and exposes you to new perspectives and ideas to solve complex research problems and pursue novel research findings. We are strongly committed to the highest level of scientific research and the provision of high-quality education.\nAt the Faculty of Medicine and Health Technology, you will have access to state-of-the-art research facilities and resources. We offer a collaborative and interdisciplinary research environment, supported by mentoring and structured training opportunities. You will also be enrolled in a doctoral program, providing a comprehensive and supportive framework for completing your PhD.\nAs a member of staff at Tampere University, you will enjoy a range of competitive benefits, such as occupational health care services, flexible work schedule, versatile research infrastructure, modern teaching facilities and a safe and inviting campus area as well as a personal fund to spend on sports and cultural activities in your free time. Please read more about\nworking at Tampere University\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\n.\nFinland is among the most stable, free and safe countries in the world, based on prominent ratings by various agencies. Tampere is the largest inland city of Finland, and the city is counted among the major academic hubs in the Nordic countries. Tampere region is the most rapidly growing urban area in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. Tampere is also surrounded by vivid nature with forests and lakes, providing countless opportunities for easy-to-access outdoor adventures and refreshment throughout the year.\nRead more about Finland and Tampere:\nVisit Finland\nThis is Finland\nMinistry of Economic Affairs and Employment: Welcome to Finland\nVisit Tampere\nHow to apply\nPlease submit your application through our online recruitment system (link below). The closing date for applications is\nAugust 3,\n2026 (at 23.59 EEST / UTC+3).\nPlease write your application and all accompanying documentation in English and attach them in PDF format only.\nPlease attach only the following documents to your application:\nCV (according to\nTENK guidelines\n)\nA motivational letter (max 1 page) that briefly outlines motivation to apply, background and skills related to the position, earliest starting date, and any other miscellaneous remarks that the candidate wishes to make.\nPDF copies of your Master’s and Bachelor’s degree certificates, including transcripts of all university records in original language. If original language is other than Finnish, Swedish or English, please provide an official translation in one of those languages.\nOther relevant documents that support your application, e.g. your Master’s thesis, the most relevant publications regarding the call (max. 2), or a list of referees.\nFor more information, please contact:\nVeikko Sariola\nProfessor, Faculty of Medicine and Health Technology, Tampere University\nveikko.sariola@tuni.fi\n***\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nLääketieteen ja terveysteknologian tiedekunnan bioinspiroitujen materiaalien ja robotiikan tutkimusryhmä etsii väitöskirjatutkijaa pehmeän robotiikan alalta.\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta). Tehtävän hakuaika päättyy\n3.8.2026\nklo 23:59."
   },
-  "ai": null,
+  "ai": {
+    "summary": "3-year doctoral position in soft robotics, microfluidics and intelligent microsystems (microfabrication, mechatronics, embedded sensing).",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "Robotics/microsystems engineering - an excluded core direction; interdisciplinarity is with biology, not with human-centred research."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Microfabrication and mechatronics methods absent from the profile."
+    },
+    "growth_value": {
+      "score": 12,
+      "rationale": "Not aligned with the target identity."
+    },
+    "strategic_value": {
+      "score": 18,
+      "rationale": "Funded doctoral track, wrong field."
+    },
+    "required_skills": [],
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Engineering/microsystems background expected"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried 3-year fixed term per posting text.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.9,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:04:29.528186Z",
+    "analysis_input_hash": "4607adfe997a9c34ea8d187f73cc151cda8357b209c7f2f0508edfd914cdc58b"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 11,
     "urgency": "high",
     "days_to_deadline": 16,
     "needs_review": true

@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-16
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -114,7 +114,21 @@ Hakuaika tehtävään päättyy
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+3-year doctoral position in the MetaPhotonics group: metasurfaces, nonlinear nanophotonics and quantum light-matter interaction.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 10 |
+| Strategic value | 20 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-nanophotonics-and-meta-optics.md` and link [[opp_tampere-doctoral-researcher-nanophotonics-and-meta-optics]]._

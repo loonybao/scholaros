@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-17T15:12:23.465820Z",
-  "updated_at": "2026-07-18T03:01:11.809796+00:00",
+  "updated_at": "2026-07-18T03:04:29.730618Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:12:23.465820Z",
@@ -49,12 +49,50 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T03:01:11.809796+00:00",
+      "ts": "2026-07-18T03:01:11.809796Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:04:29.518151Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:04:29.730618Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -83,16 +121,56 @@
     "language_requirements": [],
     "nationality_restrictions_status": "none_stated",
     "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
     "status": "open",
     "description_text": "Tampere University\nand Tampere University of Applied Sciences\ncreate\na unique environment for multidisciplinary,\ninspirational\nand high-impact research and education. Our\nuniversity\ncommunity\nhas competitive edges in technology, health\nand society.\nwww.tuni.fi/en\nJoining\nTampere University\nmeans becoming part of one of Europe's most dynamic photonics ecosystems. At the heart of this environment is the\nPhotonics Laboratory\n, which coordinates the national\nPhotonics Research and Innovation (PREIN)\nflagship and contributes to Finland's\nFuture Chips\ninitiative, accelerating the development of next-generation integrated photonics. Researchers benefit from access to a unique infrastructure that spans advanced optical laboratories, together with state-of-the-art nanofabrication facilities including the\nSiPFAB\npilot line established within the broader\nChips for Europe Initiative\n.\nWithin this vibrant setting, the rapidly expanding MetaPhotonics Group at Tampere University explores how light can be controlled at the nanometre scale – smaller than the wavelength of light itself. We are seeking a motivated doctoral researcher to join our team in developing next-generation photonic technologies through metasurfaces, nonlinear nanophotonics, and quantum light–matter interactions. Depending on your interests and background, your doctoral thesis will advance one or more of the following research directions:\nMetasurfaces and meta-optics\n— ultra-thin optical components replacing conventional lenses and other optical elements and systems.\nStrong-field nanophotonics\n— generating new colours of light, including extreme-ultraviolet radiation, from nanostructured solids.\nNanoscale optical isolators\n— enabling chip-scale photonic logic and traffic control of light.\nQuantum nanophotonics\n— creating next-generation single-photon sources for quantum communications and harnessing quantum states of light to control chemical and biological processes.\nAs a Doctoral Researcher, you will receive training and mentorship while developing expertise in one or more of the following areas:\nComputational design\n— modelling and optimising nanophotonic devices using advanced simulation software and high-performance computing clusters.\nNanofabrication\n— creating devices with nanometre precision in a modern cleanroom facility for advanced semiconductor manufacturing.\nExperimental optics\n— characterising devices using advanced optical instrumentation, ranging from high-power ultrafast lasers to single-photon-sensitive detectors.\nThe exact balance between theory, nanofabrication, and optical experiments can be tailored to your interests and career goals.\nAbout you\nWe are looking for a curious and highly motivated student who enjoys solving challenging problems and learning new skills. A successful candidate will have:\nA degree (or near completion of a degree) that qualifies the applicant for doctoral studies at Tampere University in Physics, Photonics, Engineering, or a related field. This may include a Master's degree, an Honours degree, or an equivalent qualification with a substantial research component.\nStrong academic performance.\nInterest in optics, photonics, nanotechnology, or quantum technologies.\nGood communication skills and ability to work both independently and as part of a team.\nWe offer\nThe full-time position will be filled for a fixed-term period of three (3) years, starting upon mutual agreement. A trial period of six (6) months applies to all our new employees.\nThe salary will be based on both the job requirements and the employee’s personal performance in accordance\nwith the Finnish University Salary System\n. A starting salary for Doctoral Researchers is typically around EUR 3000 EUR per month.\nThe University offers a wide range of staff benefits, such as occupational health care, flexible working hours, excellent sports facilities on campus, and several on-campus restaurants and cafés with staff discounts.\nPlease read more about working at Tampere University\n.\nTampere region is one of the fastest-growing urban areas in Finland. Tampere is a traditional center of the Finnish industry. Today, the city is best known for its high-tech expertise and extensive know-how in various fields including electronics and photonics.\nRead more about Finland and Tampere:\nVisit Finland\nThis is Finland\nMinistry of Economic Affairs and Employment: Welcome to Finland\nVisit Tampere\nHow to apply\nPlease submit your application through our online recruitment system.\nThe closing date for applications is August 16, 2026 at 23.59 EEST (UTC+3).\nInterested candidates should submit a single PDF in English that includes:\nMotivation letter describing your background and research interests. Please indicate which research direction interests you most and why.\nCurriculum Vitae.\nAcademic transcripts.\nContact details of two referees.\nFor further\ninformation\n, please contact:\nAssistant Professor Sergey Kruk sergey.kruk@tuni.fi\n********\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nEtsimme motivoitunutta väitöskirjatutkijaa, jolla on soveltuva tutkinto, hyvä opintomenestys ja kiinnostusta optiikkaan, fotoniikkaan tai nanoteknologiaan. Aiempi kokemus laboratorio‑ tai mallinnustyöstä katsotaan eduksi. Tehtävä edellyttää hyviä viestintätaitoja sekä kykyä työskennellä itsenäisesti ja osana ryhmää.\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).\nHakuaika tehtävään päättyy\n16.8.2026, klo 23:59."
   },
-  "ai": null,
+  "ai": {
+    "summary": "3-year doctoral position in the MetaPhotonics group: metasurfaces, nonlinear nanophotonics and quantum light-matter interaction.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Fundamental photonics; no human-facing research."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Optics lab and simulation methods, absent from the applicant's profile."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Not aligned with the target identity."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Funded doctoral track in a preferred country, wrong field."
+    },
+    "required_skills": [],
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a degree qualifying for doctoral studies in Physics, Photonics or Engineering"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried 3-year fixed term per posting text.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.95,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:04:29.518151Z",
+    "analysis_input_hash": "481eb5c2b8d4545d814ad72c7b14c07ec8c8543437bcdd4272145fdf0bdac58b"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 9,
     "urgency": "medium",
     "days_to_deadline": 29,
     "needs_review": true

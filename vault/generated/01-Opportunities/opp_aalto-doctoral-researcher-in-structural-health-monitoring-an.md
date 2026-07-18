@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 8
 urgency: medium
 needs_review: true
 ---
@@ -115,7 +115,21 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.90_
+
+Doctoral position on structural health monitoring and condition assessment of bridges: sensing technologies and data-driven methods at the intersection of civil engineering and AI.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 10 |
+| Strategic value | 15 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-in-structural-health-monitoring-an.md` and link [[opp_aalto-doctoral-researcher-in-structural-health-monitoring-an]]._

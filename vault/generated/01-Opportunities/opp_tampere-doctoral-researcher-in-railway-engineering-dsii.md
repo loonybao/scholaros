@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-14
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -119,7 +119,21 @@ Hakuaika tehtävään päättyy
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+Industry-partnered (Vossloh) doctoral position in railway switch/turnout engineering within the DSII doctoral school.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 10 |
+| Strategic value | 18 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-in-railway-engineering-dsii.md` and link [[opp_tampere-doctoral-researcher-in-railway-engineering-dsii]]._

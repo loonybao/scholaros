@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-17T15:35:32.901936Z",
-  "updated_at": "2026-07-18T03:01:11.794545+00:00",
+  "updated_at": "2026-07-18T03:05:54.126040Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:32.901936Z",
@@ -41,12 +41,50 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T03:01:11.794545+00:00",
+      "ts": "2026-07-18T03:01:11.794545Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:05:53.805069Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:05:54.126040Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -75,16 +113,56 @@
     "language_requirements": [],
     "nationality_restrictions_status": "none_stated",
     "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
     "status": "open",
     "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges.\nOur community is made up of\n16\n000 students\nand 5 200 employees, including 446\nprofessors\n. Our\ncampus\nis\nin Espoo, Greater Helsinki, Finland.\nDiversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nWe are looking for Master’s Thesis Student for\nResearch Assistant (master thesis worker) position\nin Simulation for Optoelectronics Devices\nWe are seeking a highly motivated candidate with strong simulation skills and a background in nanoelectronics and optoelectronic devices. The position is ideal for master’s students who are interested in writing a master's thesis emphasizing simulation, theory, and validation of experimental electrical and optical results in semiconductor devices. The selected candidate will work on the project led by Prof. Zhipei Sun and Dr. Fida Ali, Department of Nanoelectronics and Engineering, Aalto University.\nWhat will you do\n?\nPerform simulations in COMSOL Multiphysics to design MOSFET device structures.\nModel and analyze electrical transport and optoelectronic behavior.\nCompare and validate simulations against experimental data.\nWork with an experimental team.\nWhat we offer\n?\nA 6-month contract with salary of 2622,00 € / month.\nStart date: September 2026 or as soon as possible\nThe opportunity to work with an experienced research team and dedicated mentors\nSupport for your master’s thesis\nSupervision, research guidance and sparring to support your progress as an independent researcher\nWhat we value?\nEducation in semiconductor and solid-state physics\nExperience with COMSOL Multiphysics\nAbility to work with people from different backgrounds\nExcellent teamwork, negotiation and communication skills\nFluency in English\nReady to apply?\nIf you are interested, please submit your application through our recruitment system Workday.\nThe deadline for applications is August 30, 2026\n. The position will be filled as soon as suitable candidate has been identified.\nTo apply, please submit the following documents in PDF files:\nA motivation letter describing your interests, relevant background, and fit with the position.\nA curriculum vitae, including your education and prior experience in simulation theory\nDegree certificates and transcripts of records for bachelor’s and master’s studies\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\nWant to know more?\nPlease contact Prof. Zhipei Sun (zhipei.sun@aalto.fi) or Dr. Fida Ali (fida.ali@aalto.fi). For additional information in recruitment process related questions, please contact HR Advisor Johanna Haapalainen (hr-elec@aalto.fi).\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Master's-thesis-worker research assistant position on simulation of optoelectronic/semiconductor devices (Dept. of Nanoelectronics).",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "Semiconductor device simulation."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Device physics simulation; no overlap."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Not aligned."
+    },
+    "strategic_value": {
+      "score": 8,
+      "rationale": "Aimed at students writing their M.Sc. thesis at Aalto; not a doctoral pathway."
+    },
+    "required_skills": [],
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Intended for current master's students doing their thesis in this group - the applicant's thesis is registered at MMU"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried assistant role per posting text; not a research career position.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.95,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:05:53.805069Z",
+    "analysis_input_hash": "0e84ddba9c33b697bc1c71a874ed1fc63c2472f59f136738ee7e6480bfdc0dce"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 5,
     "urgency": "medium",
     "days_to_deadline": 43,
     "needs_review": true

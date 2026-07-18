@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-02
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: high
 needs_review: true
 ---
@@ -122,7 +122,21 @@ https://www.smartphotonicmaterials.fi
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+Doctoral position on low-energy-light-activated photochemical systems for hydrogel crosslinking (3D bioprinting, drug release) in the Smart Photonic Materials group.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 5 |
+| Strategic value | 15 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-novel-photochemistry-systems-for.md` and link [[opp_tampere-doctoral-researcher-novel-photochemistry-systems-for]]._

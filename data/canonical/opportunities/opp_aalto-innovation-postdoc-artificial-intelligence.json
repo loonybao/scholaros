@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-17T15:35:14.724979Z",
-  "updated_at": "2026-07-18T03:01:11.775836+00:00",
+  "updated_at": "2026-07-18T03:07:20.426396Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:14.724979Z",
@@ -41,12 +41,50 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T03:01:11.775836+00:00",
+      "ts": "2026-07-18T03:01:11.775836Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:07:20.159591Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:07:20.426396Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -75,16 +113,56 @@
     "language_requirements": [],
     "nationality_restrictions_status": "none_stated",
     "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
     "status": "open",
     "description_text": "Aalto University is home to researchers working at the frontier of artificial intelligence. Some of that work has the potential to become more than research — to address real problems, create new industries, and contribute to Finland's deep tech future. The Innovation Postdoc exists to support that transition.\nThis is a 12-month funded position for doctoral researchers and postdocs who have a concrete result, technology, or invention with commercial potential, and who are ready to dedicate their full focus to exploring it. You will work on validating your technology with real users and partners, developing a business model, and preparing for the next step — whether that is external investment, a spinout, or another commercialisation pathway — supported by Aalto's innovation infrastructure, coaching network, and peer community.\nNo prior business experience is required. What we are looking for is research with genuine differentiation, and a researcher with the drive to find out what it can become.\nWhat you will do\nAs an ‘Innovation Postdoc’, your work is 100% focused on increasing the\ninnovation readiness level\nof your research. Your responsibilities include:\nConducting structured problem and market validation through customer discovery interviews and stakeholder engagement\nDeveloping technology if needed – with ‘product’ in mind.\nTesting and iterating your technology with real-world users and partners\nDeveloping a compelling business model and go-to-market strategy\nPreparing for external investment, spinout formation, or other commercialization pathways\nParticipating in the Innovation Postdoc program activities, coaching sessions, and peer community (eg trade fair, Business Generator workshops, some events at The Founder House Helsinki etc.)\nWho we are looking for\nYou do not need a business background, but you must be ready to adapt. We are looking for researchers with the mindset of a founder.\nRequired:\nDoctoral degree (PhD) completed or submitted the thesis, from Aalto University\nYou have a doctoral degree in other universities, but working at Aalto University as a postdoctoral researcher\nA concrete research result, technology, or invention with a clear differentiation and commercial potential in the corresponding field\nDemonstrated ability to work independently and drive projects forward under uncertainty\nWe value attitudes like:\nObsession with a real-world problem, not just the technology – you are driven by the desire to solve something that matters\nCoachability and open-mindedness – you are ready to step outside the academic bubble, actively seek feedback from customers and mentors, and change course when the evidence demands it\nAdaptability and resilience – you understand that building a deep-tech spinout is a journey of uncertainty, and you treat setbacks as data, not failure\nBusiness curiosity – you do not need a degree, but you are genuinely interested in how value is created and captured. You think about markets, customers, and competition, not just technical performance.\nEagerness for impact – you have a technology with strong differentiation and are motivated to see it applied and scaled in the real world.\n‘can-do’ attitude – you are ready to figure out what you don't know, roll up your sleeves, and get things done even without a clear roadmap\nWhat we offer\nWe provide an environment for innovation, removing the friction so you can focus on building.\nFunded Runway\n: A 12-month salaried contract at the postdoctoral researcher level, focused 100% on increasing the innovation readiness of your work\nMilestone-based funding top-ups\nto support validation activities, prototyping, or external engagement\nStructured milestone framework\n: clear deliverables and check-ins throughout the program to keep your validation on track\nScientific mentorship\n: continued access to and support from Aalto professors and domain experts to ensure your technology development stays rigorous\nAccess to Aalto's research infrastructures\n– depending on the field, such as BioEconomy facilities, computing clusters, LUMI Supercomputer, OtaNano, and more.\nDedicated Innovation Space\n: A physical environment designed for commercialization, separated from daily academic duties, based in A-Grid\nStreamlined IP Suppor\nt: Professional guidance on IP transfer and standardized spinout terms designed to attract top-tier investors\nAalto Inventors community\n– peer cohort of fellow deep-tech researchers across fields, building alongside you\nAccess to Aalto Inventors and Business Generator accelerator workshops\n: hands-on sessions covering the full journey from lab to market\nExtensive Network\n: Personalized coaching from a curated network of deep-tech investors, serial entrepreneurs and industry leaders – including founding partners of top Nordic VC funds and executives with successful exits.\nAccess to The Founders House Helsinki\n- events, community, and co-working space at the heart of Helsinki's startup scene\nPathway into the Nordic startup ecosystem\n– including access to the Slush Spinout track\nComprehensive toolkit\nto build up your business knowledge\nThe position includes occupational health care and retirement benefits in accordance with Finnish employment law and the collective agreement for Finnish universities.\nApplication instructions\nBefore applying, please read this instruction carefully. The applications must be submitted through Aalto University’s recruitment system.\nThe steps required for submission are outlined here.\nThe application portal closes on August 13th, 2026, 23:59. We recommend you submit your application a couple of days prior to the deadline to ensure proper processing.\nDocuments and naming conventions\nThe documents mentioned below must be submitted as part of the Innovation Postdoc application. All documents must be submitted as PDF files (max. 5 MB in total) unless otherwise stated. Please use the following naming conventions for your documents and add your full name on each page of documents.\nFamilyName_Firstname-degree transcript\nFamilyName_First name-Innovation Statement: Tell us why you are obsessed with this problem/opportunity, a time you failed and recovered, and what non-technical skills you want to master (1 page)\nFamilyName_Firstname-Path to Pilot: Your roadmap for problem validation (1 page)\nFamilyName_Firstname-CV\nAny other materials you want to present, Familyname_Firstname-FILENAME\nVideo presentation upload\nPlease upload your video presentation as MP4 to a plafrom of your choice. The video should not exceed 90 seconds. Generate a link to the video and paste it into the respective field in the application form.\nPlease submit all materials in English.\nFor further information and questions, contact Myungji Suh\nmyungji.suh@aalto.fi\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "12-month funded innovation position for Aalto doctoral researchers/postdocs to commercialise an existing AI research result (customer discovery, business model, spinout preparation).",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 30,
+      "rationale": "Commercialisation of AI research, not research itself; the applicant's XR system could in principle be such an asset, but that is not this call."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "Customer discovery and business development, not research methods."
+    },
+    "growth_value": {
+      "score": 30,
+      "rationale": "Entrepreneurial skills are valuable but orthogonal to the PhD goal."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Restricted to Aalto-affiliated doctoral degree holders."
+    },
+    "required_skills": [],
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a completed/submitted PhD from Aalto, or employment at Aalto as a postdoc - hard ineligibility"
+    ],
+    "risks": [],
+    "funding_assessment": "Funded 12-month position per posting text; eligibility is the blocker.",
+    "recommendation": "reject",
+    "next_action": "None now; conceptually relevant years later if the applicant does an Aalto PhD and wants to commercialise the XR platform.",
+    "confidence": 0.9,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:07:20.158578Z",
+    "analysis_input_hash": "e92c02859533ec0334878d4bb13e672ca181d06a4c50b8ff8a1decaeaa580fa5"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 25,
     "urgency": "medium",
     "days_to_deadline": 26,
     "needs_review": true

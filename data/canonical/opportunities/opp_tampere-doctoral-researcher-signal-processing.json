@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-17T15:12:17.351847Z",
-  "updated_at": "2026-07-18T03:01:11.814311+00:00",
+  "updated_at": "2026-07-18T03:04:29.734693Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:12:17.351847Z",
@@ -49,12 +49,50 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T03:01:11.814311+00:00",
+      "ts": "2026-07-18T03:01:11.814311Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:04:29.523673Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:04:29.734693Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -83,16 +121,62 @@
     "language_requirements": [],
     "nationality_restrictions_status": "none_stated",
     "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
     "status": "open",
     "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our universities community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nWe are inviting applications for\na Doctoral Researcher\n(PhD student) position\nin Signal Processing. The research topic will lie in the intersection of statistical signal processing and optimization, with an emphasis on theory and algorithms. Key focus applications include array signal processing for sensing (e.g., radar, RF imaging, sonar) and wireless communications, where multisensor (MIMO) systems are, and will continue to be, a core technology.\nIn this position, the candidate is expected to:\ncarry out high-quality research on mutually agreed topics, as well as publish / present results in top international signal processing and machine learning journals / conferences\ncomplete a doctoral degree, including mandatory study credits required,\nassist in teaching tasks and undergraduate supervision (up to 5% of total working time).\nThe work will be supervised by Assistant Professor Robin Rajamäki. For a flavor of the type of research to be expected, see:\nGoogle Scholar:\nhttps://scholar.google.com/citations?hl=en&user=_ubr3QoAAAAJ&view_op=list_works&sortby=pubdate\nExample project description:\nhttps://research.fi/en/results/funding/88732\nPersonal website:\nhttps://rmrajama.github.io\nThe position is located in the\nFaculty of Information Technology and Communication Sciences\n, in the\nUnit of Computing Sciences\n. The work will be conducted on site, by default, as we encourage active participation in the local and vibrant research community\n. Partial remote work (e.g., 1–2 days a week) is possible, as separately negotiated.\nRequirements and further details\nTo qualify for this position, the candidate should have a master’s degree (or equivalent eligibility for doctoral studies) from electrical engineering, physics, mathematics, computer science, or another applicable field by the start of employment (January 1st, 2027 at the latest). A\nmathematical maturity and interest in theory-driven research grounded in mathematical modeling of physical systems is expected. Furthermore, the candidate should possess a solid foundation in signal processing; basic knowledge of statistics; a proficiency in MATLAB, Python, or an equivalent programming language; and strong oral and written communication skills in English (including satisfaction of the language skill requirements of the doctoral program of the discipline; see below).\nPrior research experience is not mandatory but may be considered an advantage. The candidate should clearly state their motivation for pursuing a doctoral degree in the cover letter.\nThe successful candidate needs to apply for and be granted a study right for a doctoral degree in the doctoral program of the discipline at Tampere University. Please visit\nthe admissions webpage\nfor more information on eligibility requirements.\nAbout the research environment\nThe research will be conducted at the Signal Processing Research Centre (SPRC) at Tampere University, Finland (\nhttps://www.tuni.fi/en/research/signal-processing-research-centre\n). SPRC houses several internationally respected research groups working on topics such as audio and speech processing, imaging, computer vision, and 3D-media.\nFinland is among the most stable, free and safe countries in the world, based on prominent ratings by various agencies. It is also ranked as one of the top countries as far as social progress is concerned. Tampere is counted among the major academic hubs in the Nordic countries and offers a dynamic living environment. The Tampere region is one of the most rapidly growing urban areas in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. Despite its growth, living in Tampere is highly affordable. In addition, the excellent public transport network enables quick, easy and cheap transportation around the city of Tampere and university campuses. Overall, working and living at Tampere provides a unique combination of international and ambitious academic environment, easy access to city, culture, and the surrounding nature with large forests and lakes, and an environment that supports developing a healthy work-life balance.\nRead more about Finland and Tampere:\nhttps://www.visitfinland.com\nhttps://finland.fi/\nhttps://visittampere.fi/en/\nWe offer\nThe expected starting date is October 1st, 2026, or as soon as possible. A later starting date is possible provided a good reason, such as an expected graduation date.\nThe latest possible starting date is January 1st, 2027. A trial period of 6 months is applied to all new employees. The duration of employment is 4 years, corresponding to the target completion time of doctoral studies.\nThe salary will be based on both the job requirements and the employee's personal performance in accordance with the\nFinnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of doctoral researcher is placed on level 2-4 of the job requirements scale. The starting salary for a Doctoral Researcher is 2,774 € / month, and it will increase during the studies based on the progress towards a completed doctoral degree. In addition, the position comes with extensive benefits such as occupational healthcare, excellent sports facilities, flexible working hours, and several restaurants and cafés on the campus with staff discounts. Traveling costs and daily allowances related to presenting peer-reviewed research outcomes in major international conferences is also covered.\nLocation of the work is Tampere, Finland — the largest inland city in the Nordic countries.\nHow to apply\nPlease submit your application through our online recruitment system (link below).\nWe will accept applications until the 27th of August, 2026 at 23:59 (EEST / UTC +3).\nThe application should contain the following documents (all in .pdf format):\nA free-form letter of motivation (cover letter) for the position in question (max. 1 page)\nComplete CV with contact information + a list of referees (if any) and publications (if any)\nA copy of a master’s degree certificate\nA transcript of records\nPlease name all the documents as surname_CV.pdf, surname_list_of_publications.pdf etc. Only the applications sent through the university application portal and containing the requested attachments in the instructed format will be considered in the recruitment process.\nThe most promising candidates will be interviewed in person or via remote meeting before the final decision.\nMore information\nFor more information about the position, please contact Assistant Professor Robin Rajamäki by email (firstname.surname@tuni.fi; no umlauts).\n-----------------------------------\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTampereen yliopistossa on haettavana Väitöskirjatutkijan tehtävä (signaalinkäsittely ja koneoppiminen).\nHAKUOHJEET\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta). Hakuaika tehtävään päättyy\n27.8.2026, klo 23:59."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Doctoral Researcher (PhD student) in Signal Processing at the Electrical Engineering unit.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "Algorithmic signal processing; no human-centred questions."
+    },
+    "methodological_fit": {
+      "score": 12,
+      "rationale": "Mathematical/algorithmic methods outside the applicant's profile."
+    },
+    "growth_value": {
+      "score": 15,
+      "rationale": "Signal-processing depth does not serve the XR/HCI identity."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Funded doctoral track, wrong discipline."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "matched_skills": [],
+    "missing_skills": [
+      "python",
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires an electrical-engineering-adjacent Master's background"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried fixed-term doctoral position per posting text.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.9,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:04:29.522673Z",
+    "analysis_input_hash": "570c9934b2adbad4edc3a26ec4bf6ea4f934a849d5d02314325ed8836e7216d3"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 12,
     "urgency": "medium",
     "days_to_deadline": 40,
     "needs_review": true

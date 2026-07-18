@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-17
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 50
 urgency: medium
 needs_review: true
 ---
@@ -75,7 +75,21 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.85_
+
+2-year postdoc on 'Social networking in the era of artificially intelligent agents' (Society & Networks area): AI-supported experimental/observational methods for the microfoundations of social networking, using online experiments with human participants and AI-agent simulations.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 45 |
+| Methodological fit | 60 |
+| Growth value | 50 |
+| Strategic value | 40 |
+| **Overall** | **50** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** python, statistics, mixed-effects-modelling
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-postdoctoral-researcher-in-computational-social-scienc.md` and link [[opp_aalto-postdoctoral-researcher-in-computational-social-scienc]]._

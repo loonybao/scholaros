@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-27
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -99,7 +99,21 @@ Jätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löyty
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.90_
+
+Doctoral Researcher (PhD student) in Signal Processing at the Electrical Engineering unit.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 12 |
+| Growth value | 15 |
+| Strategic value | 20 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-signal-processing.md` and link [[opp_tampere-doctoral-researcher-signal-processing]]._

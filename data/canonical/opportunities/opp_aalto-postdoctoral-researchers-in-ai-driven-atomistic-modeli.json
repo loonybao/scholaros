@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-17T15:35:08.218005Z",
-  "updated_at": "2026-07-18T03:01:11.789372+00:00",
+  "updated_at": "2026-07-18T03:07:20.439718Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:08.218005Z",
@@ -41,12 +41,50 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T03:01:11.789372+00:00",
+      "ts": "2026-07-18T03:01:11.789372Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:07:20.170508Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:07:20.439718Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -75,16 +113,60 @@
     "language_requirements": [],
     "nationality_restrictions_status": "none_stated",
     "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
     "status": "open",
     "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 450 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe School of Chemical Engineering\nis one of the six schools of Aalto University. It combines natural sciences and engineering in a unique way.\nWe are looking for several\nPostdoctoral Researchers in AI-driven atomistic modeling and AI-accelerated cheminformatics\nto join the Otaniemi Center for Atomic-scale Materials Modeling (OCAMM), hosted by the\nDepartment of Chemistry and Materials Science\n(CMAT).\nThe positions to be filled are part of a new project funded by Business Finland, “\nMaterials AI for accelerated industrial R&D\n”, carried out in collaboration with leading companies in the chemistry and materials fields, as well as the Finnish national supercomputing center, CSC. In-house collaborations with experimentalists are also included in the project. The project is led by Prof. Miguel Caro (PI), Prof. Antti Karttunen, and Prof. Kari Laasonen, who will supervise the postdoc positions advertised here.\nWe are seeking candidates with expertise in one or more of these areas:\nMachine-learning interatomic potentials;\nHigh-throughput automated workflows for atomistic simulations;\nAtomistic modeling of the structure of materials;\nSimulation of molecular diffusion and molecular interactions with surfaces and/or nanoporous media;\nAtomistic simulation of chemical reactions and/or thin-film growth;\nData-driven cheminformatics for molecular modeling and/or design;\nMolecular dynamics simulations.\nYour background and expertise\nWe are looking for candidates with a doctoral degree in computational chemistry, physics or materials science (including engineering doctoral degrees in these areas). Candidates with a doctoral degree in computational biology, applied mathematics, or applied computer science with applications in the areas of interest of the project (as listed above) will also be considered.\nOpen positions have different specific requirements, but we are generally interested in candidates with following merits:\nTrack record of scientific publications;\nPrior experience with high-performance computing (HPC) systems;\nAbility to interact with data and software programmatically (for example, familiarity with Python scripting)\nStrong command of written and spoken English, including the ability to effectively communicate and discuss ideas.\nYou have previous practical experience in one or more of the following more specific topics:\nMachine learning interatomic potentials (GAP, NNP, MTP, ACE, MACE, etc.);\nDensity functional theory studies of nanoparticles, surfaces, or bulk materials;\nChemical reaction modeling and/or enhanced sampling (NEB, metadynamics, microkinetic modeling, etc.);\nMolecular dynamics simulations (LAMMPS, Gromacs, etc.);\nML-based techniques applied to cheminformatics (e.g., high-throughput molecular data processing with SMILES).\nExpertise in the following areas is considered beneficial: scripting (Python, bash, etc.), high-performance programming (Fortran/C/C++, CUDA, etc.), ML libraries (sklearn, Pytorch, etc.). In your CV or motivation letter, you can also list other expertise that you may think is relevant for the advertised positions.\nWhat we offer\nOCAMM is a new initiative created within a well-established research environment specializing in computational chemistry and materials science. Adding to our strong expertise in traditional atomistic modeling, we have been early adopters of atomistic machine learning and other data-driven techniques that have recently emerged in the field. The OCAMM community of more than 10 researchers working on this project will benefit from strong internal interaction as well as networking with the participating companies and other companies embedded with their research ecosystems. The OCAMM community will be integrated within the existing atomic-scale modeling community at the CMAT Department (four research groups and about 40 researchers overall). OCAMM researchers will have access to the world-class supercomputing facilities offered by CSC, the Finnish supercomputing center. This includes the EuroHPC LUMI supercomputer and upcoming upgrades (LUMI-AI).\nAalto campus is in Espoo, Finland, in the capital Helsinki region. Helsinki is the lively, dynamic capital of Finland with active international social scene, good opportunities for culture or outdoor activities, and reputedly high quality of living in general.\nThe expected starting salary for a Postdoctoral Researcher is approximately 4148–4305 €/month depending on previous research experience. The contract includes occupational health care benefits and Finland has a comprehensive social security system.\nHow to apply\nTo apply, please submit your application at your earliest convenience but no later than\n9.8.2026\nthrough our online recruitment system by using the \"Apply now\" link.\nPlease note: Aalto University’s employees and visitors should apply for the position via our internal system Workday -> Internal Jobs by using their existing Workday user account.\nTo apply, please submit the following application materials in English (all documents must be PDF files and the maximum size of each document is 5 MB).\nA letter of motivation (maximum one page).\nA complete curriculum vitae describing education and employment history.\nList of scientific publications.\nContact details of at least two possible reference letter writers.\nApplications sent via email will not be considered; only submissions through the online recruitment system are accepted.\nFor more information about the role, please contact Prof. Miguel Caro (firstname.lastname@aalto.fi).  For questions related to the application process, please contact HR partner Eeva Käki (available until 10th July) (firstname.lastname@aalto.fi). All the applications received through the official portal will be reviewed in August after the application deadline. Please do not send application materials (CV, etc.) via email. You also do not need to send an email announcing that you have applied, all applications are immediately visible to the PIs through the application platform\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdocs in AI-driven atomistic modelling and AI-accelerated cheminformatics (School of Chemical Engineering).",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "Computational chemistry."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "No overlap."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Not aligned."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "Wrong stage and field."
+    },
+    "required_skills": [
+      "python"
+    ],
+    "matched_skills": [],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a PhD - hard ineligibility"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried postdoc per posting text.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.95,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:07:20.170508Z",
+    "analysis_input_hash": "c44f0d4094108220906c3dd904ae9d59ba71c0d33ca06e6f7fc63e4e4ce6dfa5"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 5,
     "urgency": "medium",
     "days_to_deadline": 22,
     "needs_review": true

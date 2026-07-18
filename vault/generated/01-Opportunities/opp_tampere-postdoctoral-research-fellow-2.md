@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: high
 needs_review: true
 ---
@@ -95,7 +95,21 @@ Haemme nyt tutkijatohtoria työskentelemään NOISY-hankkeessa melupohjaisen vie
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+22-month postdoctoral position in the Wireless Systems group on the NOISY project: noise-driven communication for secure, energy-efficient 6G/IoT systems (theory, algorithms, SDR validation).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 5 |
+| Growth value | 8 |
+| Strategic value | 10 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-postdoctoral-research-fellow-2.md` and link [[opp_tampere-postdoctoral-research-fellow-2]]._

@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-13
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 25
 urgency: medium
 needs_review: true
 ---
@@ -117,7 +117,21 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.90_
+
+12-month funded innovation position for Aalto doctoral researchers/postdocs to commercialise an existing AI research result (customer discovery, business model, spinout preparation).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 30 |
+| Methodological fit | 20 |
+| Growth value | 30 |
+| Strategic value | 20 |
+| **Overall** | **25** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-innovation-postdoc-artificial-intelligence.md` and link [[opp_aalto-innovation-postdoc-artificial-intelligence]]._

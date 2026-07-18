@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-16
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: medium
 needs_review: true
 ---
@@ -104,7 +104,21 @@ Jätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löyty
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+2-year postdoctoral position in the MetaPhotonics group (nanophotonics/meta-optics).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 5 |
+| Growth value | 5 |
+| Strategic value | 10 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-postdoctoral-research-fellow-nanophotonics-and-meta.md` and link [[opp_tampere-postdoctoral-research-fellow-nanophotonics-and-meta]]._

@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-07-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: high
 needs_review: true
 ---
@@ -106,7 +106,21 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+Doctoral position on fatigue behaviour of wire-arc additively manufactured steel structures (School of Engineering).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 5 |
+| Strategic value | 15 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-in-fatigue-of-waam-structures.md` and link [[opp_aalto-doctoral-researcher-in-fatigue-of-waam-structures]]._

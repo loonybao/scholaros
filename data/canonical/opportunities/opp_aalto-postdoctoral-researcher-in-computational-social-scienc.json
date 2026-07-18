@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-17T15:35:26.427285Z",
-  "updated_at": "2026-07-18T03:01:11.781344+00:00",
+  "updated_at": "2026-07-18T03:07:20.430583Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:26.427285Z",
@@ -41,12 +41,50 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T03:01:11.781344+00:00",
+      "ts": "2026-07-18T03:01:11.781344Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:07:20.151954Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:07:20.430583Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -75,16 +113,71 @@
     "language_requirements": [],
     "nationality_restrictions_status": "none_stated",
     "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
     "status": "open",
     "description_text": "We are seeking a postdoctoral researcher to support the project \"Social networking in the era of artificially intelligent agents” funded by the Research Council of Finland. The direction is to\ndesign new AI-supported experimental or observational research methods to understand the foundations of social life\n. In particular, we will focus on the microfoundations of social networking—why do we actually know the people we know? How and to what extent do we choose our acquaintances? And decision-making—why do we decide what we do in a given context?\nYour role and goals\nYour primary goal in this position will be to do excellent research at the borderland of behavioral, social, and computer science, both in collaboration with the Aalto team and within your existing professional network. We aim to continue publishing in top international interdisciplinary or social science venues. In addition to research work, persons hired are expected to participate in teaching in accordance with the department’s standard practices.\nYour network and collaborators\nYou will work closely together with the PI, his group of three Ph.D. students, and his international colleagues. You will also be embedded in\nthe vibrant Society & Networks research area\n, with 8 faculty members and around 30 students and postdocs.\nYour experience and background\nRequirements for postdoc applicants:\nPh.D. in behavioral, cognitive, or social science, or a Ph.D. with a computational profile (computer science, engineering, applied mathematics, or natural science) and active experience with interdisciplinary collaborations with the previous fields.\nThe Ph.D. should be no more than three years old at the date of application (disregarding parental leaves and similar career breaks). Current Ph.D. students expected to obtain a Ph.D. before the end of 2026 are also welcome to apply.\nPrioritized research experience (at least two of these points):\nDesigning and running advanced online experiments and surveys with human participants using platforms like Empirica or similar.\nRunning social simulations with AI agents using platforms like Concordia or similar.\nCoding in Python or a similar language for simulation, visualization, and advanced statistical analysis (causal inference, etc.).\nWhat we offer\nThe starting salary for the position is 4230 EUR per month. In addition to the salary, the contract includes occupational health benefits, and Finland has a comprehensive social security system. The annual total workload of research and teaching staff at Aalto University is 1612 hours. The position is located at the Aalto University’s Otaniemi campus. A typical contract will be for two years with an option for extension. The starting date is negotiable, but the fall 2026 or January 2027 would be preferable.\nThere is generous travel support for various conferences and workshops, and we also have incoming international visitors at regular intervals. You will have opportunities to establish new collaborations and expand your professional network.\nReady to apply?\nTo apply for the position, please submit your application, including the attachments listed below, as a single PDF document in English through our online recruitment system using the link on Aalto University’s web page (\"Apply Now”).\nLetter of motivation (including information on the above-listed requirements and desired skills for the position).\nCV including a list of publications.\nDegree certificates and academic transcripts.\nContact details of at least two references.\nThe deadline for applications is August 17, 2026. Aalto University reserves the right, for justified reasons, to leave the position open, extend the application period, reopen the application process, and consider candidates who have not submitted applications during the application period.\nPlease note: Aalto University’s employees and visitors should apply for the position via our internal system, Workday -> find jobs (not the external aalto.fi webpage for open positions), using their existing Workday user account.\nFurther information\nPetter Holme, e-mail \"petter.holme@aalto.fi\" (research related information)\nHR Advisor, e-mail \"hr-cs@aalto.fi\" (recruitment process). (Not available July 3–23.)\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "2-year postdoc on 'Social networking in the era of artificially intelligent agents' (Society & Networks area): AI-supported experimental/observational methods for the microfoundations of social networking, using online experiments with human participants and AI-agent simulations.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 45,
+      "rationale": "Social behaviour with AI agents neighbours the applicant's multiplayer/social immersive interaction interests, though the object is social networks, not immersive systems."
+    },
+    "methodological_fit": {
+      "score": 60,
+      "rationale": "Designing and running advanced online experiments and surveys with human participants is squarely the applicant's methodological family; Python-based simulation and causal inference are not."
+    },
+    "growth_value": {
+      "score": 50,
+      "rationale": "Advanced statistics, causal inference and Python would close real gaps."
+    },
+    "strategic_value": {
+      "score": 40,
+      "rationale": "Methodologically interesting Aalto group, but this is a postdoc the applicant cannot hold."
+    },
+    "required_skills": [
+      "experimental-design",
+      "python",
+      "statistics",
+      "quantitative-research"
+    ],
+    "matched_skills": [
+      "experimental-design",
+      "user-studies",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [
+      "Designing controlled multi-user experiments transfers directly to online social experiments"
+    ],
+    "eligibility_flags": [
+      "Requires a PhD (no more than 3 years old) - hard ineligibility for a current MSc candidate"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried 2-year postdoc (4230 EUR/month stated in posting text); eligibility is the blocker, not funding.",
+    "recommendation": "reject",
+    "next_action": "Track this PI and the Society & Networks area as a future-signal source: a group running AI-agent + human-participant experiments may open doctoral positions that would fit well.",
+    "confidence": 0.85,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:07:20.151954Z",
+    "analysis_input_hash": "304c9ec7389d658244fdeec6c8440fd59284d62f37761459c2a3a44aa8096586"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 50,
     "urgency": "medium",
     "days_to_deadline": 30,
     "needs_review": true

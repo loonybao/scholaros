@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-17T15:34:56.190636Z",
-  "updated_at": "2026-07-18T03:01:11.783859+00:00",
+  "updated_at": "2026-07-18T03:07:20.432105Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:34:56.190636Z",
@@ -41,12 +41,50 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T03:01:11.783859+00:00",
+      "ts": "2026-07-18T03:01:11.783859Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:07:20.157055Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:07:20.432105Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -75,17 +113,65 @@
     "language_requirements": [],
     "nationality_restrictions_status": "none_stated",
     "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
     "status": "open",
     "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe Department of Architecture at Aalto University is an internationally renowned education and research unit (within app. top 2% in the world of architecture). With Finland’s esteemed architectural heritage, we search for new solutions to the challenges of sustainable development. To us, architecture is an art form that requires practical skills and individual artistic development, as well as knowledge on sustainability relevant to design and planning. We educate critical thinkers who accept their responsibility to research and design a socially, culturally, and ecologically sustainable built environment. The Department of Architecture offers degree programs in architecture, landscape architecture, and interior architecture. For more information, please see\nhttp://architecture.aalto.fi/en/\n.\nWe are now looking for a\nPostdoctoral Researcher (ConWa Project, 12 months)\nAre you an academically driven researcher who wants to publish high-quality work on how housing and land policy shape social inclision in cities?\nWe are now looking for a Postdoctoral Researcher to join the Research Council of Finland funded Contested Waterfront Developments (ConWa)-project at Aalto University’s Department of Architecture, led by Senior Scientist Johanna Lilius. In this position, you will investigate how social inclusion is negotiated and transformed in European waterfront developments amid the financialization of land and real estate.\nYour role and goals\n·         Design and conduct research on housing and land policy across ConWa case studies (Finland, Sweden, Denmark, Belgium)\n·         Lead and co-author peer-reviewed articles and policy-relevant outputs\n·         Analyze negotiations among policymakers, developers, and other growth coalition actors regarding social inclusion targets\n·         Support project dissemination (briefs, presentations, blog posts) and good research data management\nYour network and team\n·         Your supervisor will be Senior Scientist Johanna Lilius and through the ConWa-project, you will collaborate with scholars in planning, geography and social sciences and interact with city officials and developers\nYour experience and ambitions\n·         PhD in a relevant field (e.g., planning, urban studies, economics)\n·         Demonstrated expertise in housing policy and/or land policy\n·          Strong academic writing skills and a clear track record or potential to publish in leading journals\n·         Experience with qualitative research (policy analysis, interviews, comparative case studies); quantitative/spatial skills are an advantage\n·         Ability to work independently and collaboratively in an international, interdisciplinary team\n·         Language requirements:\n·         EN: Excellent skills in English\nWhat we offer\n·         Meaningful, agenda-setting research. You will publish on timely questions at the intersection of housing/land policy, financialization, and social inclusion and contribute to evidence that can shape real planning and policy decisions in Nordic and European cities.\n·         Tangible impact and visibility. Beyond academic outlets, you’ll contribute to policy briefs, and multimedia outputs (blog, videos), increasing the societal relevance and reach of your work.\n·         Interdisciplinary consortium and advisory strength. Collaborate closely with scholars in planning, geography, and social policy, and benefit from guidance by internationally recognized experts in housing financialization, segregation, and public space.\nOur vast array of professional development opportunities means you will grow and learn, having the chance to participate actively in staff trainings and development projects based on your interests and needs. The starting salary for an entry-level postdoc is approximately 4150€ per month (fulltime).   We value work-life balance and well-being in all aspects of life. We work in a hybrid model, with the primary workplace located at the Otaniemi Campus in Espoo, Finland. Life on the revitalized campus is vibrant, featuring stunning architecture, tranquil nature, and a variety of cafes, restaurants, and services, all complemented by excellent public transportation connections.\nJoin us!\nTo apply, please share uour CV and a motivation letter outlining what you would like to explore within the ConWa project and how you would approach it.with us through our\nrecruitment site\nlatest at 23.59pm (EET) 3. August 2026.\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\n.\nFor more information about the role, please contact Senior Scientist Johanna Lilius  (johanna.lilius@aalto.fi).\nFor questions related to the application process, please contact\nhr-arch@aalto.fi\n.\nFor more information about ConWa, please visit the project webpage:\nhttps://www.aalto.fi/en/department-of-architecture/conwa-contested-waterfront-transformation\nYou will hear from us the latest in the second week of August.\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand c\nheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report 2025\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "12-month postdoc in the Department of Architecture (ConWa project): how housing and land policy shape social inclusion in European waterfront developments; qualitative policy analysis across Nordic/Belgian case studies.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 30,
+      "rationale": "Urban built environment is loosely adjacent, but the research object is housing/land policy and financialization - no interactive systems or user research."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Qualitative policy analysis, interviews and comparative case studies; outside the applicant's methods."
+    },
+    "growth_value": {
+      "score": 20,
+      "rationale": "Policy expertise does not serve the target identity."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "12-month postdoc at Aalto Architecture; not a doctoral pathway."
+    },
+    "required_skills": [
+      "qualitative-research",
+      "academic-writing"
+    ],
+    "matched_skills": [
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "qualitative-research"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a PhD in planning/urban studies/economics - hard ineligibility",
+      "Record is incomplete: no location was extractable from the source (verify on the official page)"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried 12-month project postdoc per posting text.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.85,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:07:20.155538Z",
+    "analysis_input_hash": "49d728d5c6c4b4e3c9487f736efecac87b866d7a7bee03d524537fdcd2938d80"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "position country unknown",
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 26,
     "urgency": "high",
     "days_to_deadline": 16,
     "needs_review": true

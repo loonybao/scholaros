@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-17
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: medium
 needs_review: true
 ---
@@ -124,7 +124,21 @@ Jätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löyty
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+4-year doctoral position in the MAT group (Dr Alexandra Schaffert) on animal-testing-free chemical safety: molecular biology, proteomics and computational toxicology for endocrine disruption and women's reproductive health.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 5 |
+| Strategic value | 15 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-environmental-chemicals-and-endo.md` and link [[opp_tampere-doctoral-researcher-environmental-chemicals-and-endo]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-17T15:11:40.548289Z",
-  "updated_at": "2026-07-18T03:01:11.812301+00:00",
+  "updated_at": "2026-07-18T03:04:29.732618Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:11:40.548289Z",
@@ -49,12 +49,50 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T03:01:11.812301+00:00",
+      "ts": "2026-07-18T03:01:11.812301Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:04:29.531705Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:04:29.732618Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -83,16 +121,56 @@
     "language_requirements": [],
     "nationality_restrictions_status": "none_stated",
     "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
     "status": "open",
     "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our university community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nThe Smart Photonic Materials (SPM\n) research group is seeking a doctoral researcher for PhD studies on developing novel photochemistry systems for light-triggered hydrogel systems within the framework of the Research council of Finland project. The SPM group focuses on the development of functional and responsive soft materials and their applications in photonics, biosciences,3D bioprinting, and soft robotics. The group is part of\nthe Chemistry & Advanced Materials (CAM\n) research cluster,\nthe PREIN Flagship\non Photonics Research and Innovation, and\nthe LIBER Centre of Excellence\n, offering a vivid and international research environment.\nJob description\nThe PhD project will focus on the design, optimization, synthesis, and characterization of novel low-energy-light-activated photochemical systems for hydrogel crosslinking. Recent works from the group demonstrate the potential of low-energy light for 3D printing/bioprinting and light-triggered drug release (e.g.\nAdv. Mater. 2025\n;\nAnalyst 2025\n;\nChemRxiv 2026\n;\nAdv. Opt. Mater.\n). A central goal of the PhD project is to develop these materials and expand their application potential in light-based 3D bioprinting, drug-eluting implants, and on-demand drug release. While the overall research direction is guided by the project objectives, both the scientific focus and specific responsibilities can be tailored to align with the candidate’s skills, experience, and research interests. The doctoral researcher will collaborate closely within a multidisciplinary team, publish results in leading peer-reviewed journals, and present findings at international conferences. The position also includes a possibility for international research mobility to the laboratories of our collaboration partners.\nApplicants are expected to meet the following criteria:\nEducational Qualification:\nA master’s degree in (photo)chemistry, materials science, polymer chemistry or a closely related field by the start of employment.\nTechnical Proficiency:\nBackground in experimental materials research. Experience with hydrogels, photocrosslinking, photopolymerization, 3D printing, light based 3D printing, drug delivery, rheology, mechanical characterization, or cell-material interactions will be considered an advantage.\nLanguage Skills:\nGood proficiency in written and spoken English is required for scientific communication and publishing. Knowledge of Finnish is not required.\nWorking Style:\nAbility to work independently and as part of a multidisciplinary, international research team. Motivation for doctoral studies and a proactive research attitude are expected.\nPlease note that, the selected candidate must apply for a study right within the doctoral program at Tampere University, unless they already have one. Please visit the admissions webpage\nhttps://www.tuni.fi/en/study-with-us/programmes/doctoral-programmes\nfor more information on eligibility requirements.\nTampere University is a unique, multidisciplinary, forward-thinking, and evolving community. Our values are openness, critical thinking, diversity, learner-centeredness, courage, erudition, and responsibility. We hope you can embrace these values and promote them in your role.\nWe offer\nThe position will be filled for a fixed-term period of four years, the planned starting date is 1\nst\nof\nSeptember  2026\nor as mutually agreed by both parties.  A trial period of six (6) months applies to all our new employees.\nThe salary will be based on both the job requirements and the employee’s personal performance in accordance\nwith the Finnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of a Doctoral Researcher is placed on level 2-4 of the job requirements scale. A starting salary for Doctoral Researchers is typically ca. 3000 EUR/month. The salary increases based on experience and the progress of doctoral studies.\nAs a member of staff at Tampere University, you will enjoy a range of competitive benefits, such as occupational health care services, flexible work schedule, versatile research infrastructure, modern teaching facilities and a safe and inviting campus area as well as a personal fund to spend on sports and cultural activities in your free time. Please read more about\nworking at Tampere University\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\n.\nTampere is one of the major academic hubs in the Nordic countries and offers a dynamic living environment. Tampere region is one of Finland´s three most rapidly growing urban areas and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society.\nRead more about Finland and Tampere:\nVisit Finland\nThis is Finland\nMinistry of Economic Affairs and Employment: Welcome to Finland\nVisit Tampere\nHow to apply\nPlease submit your application through our online recruitment system (link below).\nThe closing date for applications is 2nd August 2026 (at 23:59 EEST / UTC +3).\nPlease write your application and all accompanying documentation (listed below) in English and combine them into a single PDF file named “LastnameFirstname.pdf”. Please note that other file formats will not be accepted. Applications will be reviewed as they are received, and suitable candidates will be invited for an interview before the application deadline.\nA cover letter (maximum length 2 pages) explaining your background, motivation for pursuing a research career, rationale for applying for the position, and reasons you are particularly suited for this role.\nCurriculum vitae, including:\nPersonal details and the date of the CV.\nDegrees (including all degrees you have, along with their dates (month/year)).\nOther education and expertise.\nLanguage skills.\nPrevious work experience.\nResearch output (list of publications, patents, etc.), if any.\nOther key academic and non-academic merits.\nThe contact details of up to two referees.\nDegree certificates and supplements:\nBachelor’s and master's degrees and any other relevant diplomas in their original language. Provide an official translation if the original language is not English.\nTranscripts of records for bachelor’s, master’s, and other completed programs in their original language. Provide an official translation if the original language is not English.\nA certificate of English language proficiency or other means to prove your English language skills.\nOther relevant documents that support your application (optional).\nPlease follow the above instructions carefully. Incomplete or non-compliant applications will not be accepted for evaluation.\nFor more information, please contact:\nDr.  Ali Eftekhari, ali.eftekhari(at)tuni.fi\nFaculty of Engineering and Natural Sciences | Chemistry & Advanced Materials\nhttps://www.smartphotonicmaterials.fi\n*******\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat korkeakouluyhteisön, joka uskoo ihmiseen ja tieteeseen. Tekniikan, terveyden ja yhteiskunnan huippuosaajat muuttavat maailmaa Suomen toiseksi suurimmassa monitieteisessä ja innostavassa tutkimus- ja oppimisympäristössä.\nwww.tuni.fi\nSPM-tutkimusryhmä keskittyy toiminnallisten ja ärsykkeisiin reagoivien pehmeiden materiaalien kehittämiseen sekä niiden sovelluksiin fotoniikassa, biotieteissä, 3D-biotulostuksessa ja pehmeässä robotiikassa. Ryhmä on osa Chemistry & Advanced Materials (CAM) -tutkimusklusteria, PREIN-fotoniikan tutkimuksen ja innovaatioiden lippulaivaa sekä LIBER-huippuyksikköä. Tämä tarjoaa tutkijalle aktiivisen, korkeatasoisen ja kansainvälisen tutkimusympäristön.\nTyönkuvaus ja hakuohjeet\nTarkemmat tehtävänkuvaukset ja tehtävään liittyvät tutkimusprojektit ovat esitelty ilmoituksen englanninkielisessä osassa.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).\nHakuaika tehtävään päättyy 02.08.2026 klo 23.59.\nLisätiedot:\nDr. Ali Eftekhari, ali.eftekhari(at)tuni.fi\nTekniikan ja luonnontieteiden tiedekunta | Kemia ja uudet materiaalit\nhttps://www.smartphotonicmaterials.fi"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Doctoral position on low-energy-light-activated photochemical systems for hydrogel crosslinking (3D bioprinting, drug release) in the Smart Photonic Materials group.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "Polymer/photochemistry materials science."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Synthesis and characterisation chemistry; no overlap."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Not aligned."
+    },
+    "strategic_value": {
+      "score": 15,
+      "rationale": "Funded doctoral track, wrong field."
+    },
+    "required_skills": [],
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a Master's in (photo)chemistry, materials science or polymer chemistry"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried doctoral position per posting text.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.95,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:04:29.530706Z",
+    "analysis_input_hash": "f16a262a9c0d24449bbf2be9a967db7a614a1a7e6a24e6a8b83dee299995394f"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 6,
     "urgency": "high",
     "days_to_deadline": 15,
     "needs_review": true

@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 51
 urgency: high
 needs_review: true
 ---
@@ -94,7 +94,25 @@ Hakuaika tehtävään päättyy 3.8.2026 klo: 23:59.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.75_
+
+4-year funded Doctoral Researcher in Psychology (PSYMORY project, PI Samuli Kangaslampi, Faculty of Social Sciences): effects of psychedelics on autobiographical memory via controlled human trials, lab studies, and surveys, with Maastricht and Johns Hopkins collaborations.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 40 |
+| Methodological fit | 62 |
+| Growth value | 58 |
+| Strategic value | 45 |
+| **Overall** | **51** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** r, statistics, mixed-effects-modelling
+
+**Risks:**
+- Discipline mismatch makes competitiveness doubtful despite methodological overlap
+- Sensitive research domain (psychedelics) requires commitment unrelated to the target identity
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher.md` and link [[opp_tampere-doctoral-researcher]]._

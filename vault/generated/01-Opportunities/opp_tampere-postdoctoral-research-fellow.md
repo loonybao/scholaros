@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: high
 needs_review: true
 ---
@@ -95,7 +95,21 @@ Hakuaika tehtävään päättyy
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+24-month postdoctoral position in the Wireless Systems group on FORMULA3: AI-based resource management for FR3 programmable wireless environments (RIS, ISAC, 6G testbeds).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 5 |
+| Growth value | 8 |
+| Strategic value | 10 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-postdoctoral-research-fellow.md` and link [[opp_tampere-postdoctoral-research-fellow]]._

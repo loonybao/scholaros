@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-20
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 8
 urgency: medium
 needs_review: true
 ---
@@ -81,7 +81,21 @@ Jätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löyty
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+6-month Research Assistant / M.Sc. thesis position in the SUSHY project on sustainable hybrid structures for marine and lifting-system industries (materials and structural design).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 8 |
+| Strategic value | 10 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-research-assistant.md` and link [[opp_tampere-research-assistant]]._

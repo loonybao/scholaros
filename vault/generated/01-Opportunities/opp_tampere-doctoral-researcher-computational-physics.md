@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-16
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: medium
 needs_review: true
 ---
@@ -98,7 +98,21 @@ Hakuaika tehtävään päättyy 16.08.2026 klo 23.59.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+3-year doctoral position in the Many-Body Theory group on computational study of quantum nuclear effects in solids (supercomputing, in-house code development).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 8 |
+| Strategic value | 15 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-computational-physics.md` and link [[opp_tampere-doctoral-researcher-computational-physics]]._

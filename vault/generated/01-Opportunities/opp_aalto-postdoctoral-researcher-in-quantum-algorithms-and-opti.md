@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 5
 urgency: medium
 needs_review: true
 ---
@@ -107,7 +107,21 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+Postdoc in quantum algorithms and optimization (School of Electrical Engineering).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 5 |
+| Strategic value | 10 |
+| **Overall** | **5** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-postdoctoral-researcher-in-quantum-algorithms-and-opti.md` and link [[opp_aalto-postdoctoral-researcher-in-quantum-algorithms-and-opti]]._

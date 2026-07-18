@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 5
 urgency: medium
 needs_review: true
 ---
@@ -90,7 +90,21 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+Master's-thesis-worker research assistant position on simulation of optoelectronic/semiconductor devices (Dept. of Nanoelectronics).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 5 |
+| Strategic value | 8 |
+| **Overall** | **5** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-research-assistant-master-thesis-worker-in-simulation.md` and link [[opp_aalto-research-assistant-master-thesis-worker-in-simulation]]._

@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 7
 urgency: medium
 needs_review: true
 ---
@@ -98,7 +98,21 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+Doctoral position (ELPH-ML project, Dept. of Chemistry and Materials Science): machine-learning workflows for electron-phonon interactions in 2D materials using DFT codes and supercomputing.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 10 |
+| Strategic value | 18 |
+| **Overall** | **7** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-a-doctoral-researcher-phd-student-in-machine-learning.md` and link [[opp_aalto-a-doctoral-researcher-phd-student-in-machine-learning]]._

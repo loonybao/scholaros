@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 11
 urgency: high
 needs_review: true
 ---
@@ -105,7 +105,21 @@ klo 23:59.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.90_
+
+3-year doctoral position in soft robotics, microfluidics and intelligent microsystems (microfabrication, mechatronics, embedded sensing).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 10 |
+| Growth value | 12 |
+| Strategic value | 18 |
+| **Overall** | **11** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-soft-robotics.md` and link [[opp_tampere-doctoral-researcher-soft-robotics]]._
