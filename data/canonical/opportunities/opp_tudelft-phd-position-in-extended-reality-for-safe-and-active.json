@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-18T03:31:38.723202Z",
-  "updated_at": "2026-07-18T03:43:47.248998Z",
+  "updated_at": "2026-07-18T04:11:50.150265Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:31:38.723202Z",
@@ -60,6 +60,14 @@
         "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:11:50.150265Z",
+      "actor": "manual",
+      "fields_changed": [
+        "manual.tags"
+      ],
+      "note": "S5a closure: preserved as urgent opportunity"
     }
   ],
   "official": {
@@ -176,7 +184,9 @@
   },
   "manual": {
     "notes": "",
-    "tags": [],
+    "tags": [
+      "urgent-deadline-check"
+    ],
     "eligibility_override": null,
     "priority_override": null,
     "hidden": false

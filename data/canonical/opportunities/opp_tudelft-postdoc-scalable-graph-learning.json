@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-18T03:31:16.185872Z",
-  "updated_at": "2026-07-18T03:41:25.050072Z",
+  "updated_at": "2026-07-18T04:10:35.232768Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:31:16.185872Z",
@@ -20,6 +20,44 @@
         "derived.days_to_deadline",
         "derived.eligibility_gate",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:10:34.999094Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T04:10:35.232768Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -55,11 +93,53 @@
     "status": "open",
     "description_text": "Job description\nDelft University of Technology (TU Delft) is seeking applications for a postdoctoral researcher in the area of Scalable Graph Learning, within the Department of Software Technology in the Faculty of Electrical Engineering, Mathematics, and Computer Science.\nGraph machine learning (Graph ML) is a rapidly growing area of artificial intelligence (AI), driven by the widespread presence of graph-structured data across many real-world domains. Graph neural networks (GNNs) lie at the core of this field and have proven effective in a wide range of applications, including recommender systems, financial crime detection, cybersecurity, and network analysis. This project focuses on scalable, parallel, distributed, federated, and hardware-accelerated training and inference of GNNs and graph transformers, with applications in the financial domain. In particular, it targets the analysis of financial transaction networks for the detection and prevention of financial crime. Robustness and resilience under data heterogeneity and adversarial conditions will also be investigated.\nAbout the Research Group\nThe Scalable Graph Learning Group (\nhttps://atasu-kubilay.github.io\n), led by Associate Professor Kubilay Atasu, is part of the Data-Intensive Systems Section (\nhttp://www.ds.ewi.tudelft.nl\n). The group focuses on both theoretical and practical aspects of Graph Machine Learning, including:\nAlgorithmic efficiency\nExpressiveness\nScalability\neal-world applications\nThe Department Software Technology\nThe Department of Software Technology (ST) is one of the leading Dutch departments in research and academic education in computer science, employing over 150 people. The department ST is responsible for a large part of the curriculum of the bachelor’s and master’s programmes in Computer Science as well as the master’s programme in Embedded Systems. The inspiration for its research topics is largely derived from technical ICT problems in industry and society related to large-scale distributed processing, embedded systems, programming productivity, and web-based information analysis.\nJob requirements\nWe are looking for a candidate who satisfies the following requirements:\na PhD degree in Computer Science, Mathematics, Electrical Engineering or a related discipline with a PhD thesis conducted in the field of machine learning, deep learning, or parallel & distributed computing,\nexperience in the field of graph machine learning, federated learning, differential privacy, or adversarial robustness,\nhands-on experience with Deep Neural Networks using PyTorch or TensorFlow, and preferably with GNNs using Pytorch Geometric or Deep Graph Library.\nfirst-author publications at leading conferences in artificial intelligence, machine learning, security and privacy, or data management.\nTU Delft (Delft University of Technology)\nDelft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.\nAt TU Delft we embrace diversity as one of our core\nvalues\nand we actively\nengage\nto be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.\nChallenge. Change. Impact!\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDuration of contract is 1 year Temporarily with a posibility for extension\nA job of 38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Kubilay Atasu, via\nKubilay.Atasu@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n28 July 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Kubilay Atasu.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoc on scalable/distributed training of graph neural networks for financial-crime detection (Software Technology dept.).",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Systems/ML engineering; triage keyword false positive."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "No overlap."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Not aligned."
+    },
+    "strategic_value": {
+      "score": 8,
+      "rationale": "Wrong stage and field."
+    },
+    "required_skills": [
+      "python"
+    ],
+    "matched_skills": [],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a PhD - hard ineligibility"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried postdoc per posting.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.95,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T04:10:34.998095Z",
+    "analysis_input_hash": "5515554382d54d0ab99cd5886001d77a0b6f1ecf3bcbecbfe13f9be11ea65676"
+  },
   "derived": {
     "eligibility_gate": "pass",
     "eligibility_reasons": [],
-    "fit_overall": null,
+    "fit_overall": 5,
     "urgency": "high",
     "days_to_deadline": 10,
     "needs_review": false

@@ -1,0 +1,40 @@
+{
+  "id": "sig_tudelft_mxr_lab_expansion",
+  "entity_type": "signal",
+  "schema_version": 3,
+  "created_at": "2026-07-18T04:11:50.142266Z",
+  "updated_at": "2026-07-18T04:11:50.143269Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:11:50.143269Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "S5a closure: lab expansion signal"
+    }
+  ],
+  "official": {
+    "signal_type": "vacancy_change",
+    "title": "TU Delft MXR Lab is recruiting at PhD and postdoc level simultaneously (4 concurrent openings)",
+    "url": "https://careers.tudelft.nl/go/All-jobs/9021002/",
+    "published_at": null,
+    "source": "manual",
+    "org_id": "org_tudelft_mxr_lab",
+    "person_ids": [],
+    "excerpt": "Verified from four concurrent official postings (July 2026): PhD XR for Inclusive AV Interaction (req 1366984057, deadline 2026-08-30); PhD XR for Safe & Active Mobility / SAFE MOVE (req 1363878257, deadline 2026-07-19); Postdoc XR Inclusive AV Interaction (req 1366984557, deadline 2026-08-30); PhD Data & AI Micromobility Safety / SAFE MOVE (req 1363882157, deadline 2026-07-19). All in the Mobility in eXtended Reality Lab, Dept. of Transport & Planning, CEG.",
+    "retrieved_at": "2026-07-18T04:11:50.142266Z",
+    "extracted_content_hash": null,
+    "evidence_ids": [
+      "tudelft/1366984057",
+      "tudelft/1363878257",
+      "tudelft/1366984557",
+      "tudelft/1363882157"
+    ]
+  },
+  "ai": null,
+  "manual": {
+    "dismissed": false,
+    "notes": "TAG: lab-expansion / future-recruitment-monitoring. A funded, growing XR-behaviour lab at a priority-1 target. One contact (Dr. Yan Feng) covers both XR PhD openings."
+  }
+}

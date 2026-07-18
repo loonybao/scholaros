@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-23
 status: open
 eligibility_gate: pass
-fit_overall: not-analyzed
+fit_overall: 44
 urgency: medium
 needs_review: false
 ---
@@ -91,7 +91,24 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.75_
+
+PhD co-creating circular business models and product-service systems for behaviour change (e-bikes and white goods), with co-design involving firms and users.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 35 |
+| Methodological fit | 55 |
+| Growth value | 45 |
+| Strategic value | 40 |
+| **Overall** | **44** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** qualitative-research, mixed-methods
+
+**Risks:**
+- Fieldwork with Dutch firms may implicitly favour Dutch speakers
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-co-creating-circular-business-models-an.md` and link [[opp_tudelft-phd-position-co-creating-circular-business-models-an]]._

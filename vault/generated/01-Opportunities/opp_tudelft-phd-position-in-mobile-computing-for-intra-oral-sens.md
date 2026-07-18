@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-31
 status: open
 eligibility_gate: pass
-fit_overall: not-analyzed
+fit_overall: 19
 urgency: high
 needs_review: false
 ---
@@ -101,7 +101,21 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.90_
+
+PhD on battery-powered intra-oral sensing platforms for sleep studies (Embedded Systems group, EEMCS; NWO SMILE project): embedded AI, low-power electronics, signal processing.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 20 |
+| Methodological fit | 15 |
+| Growth value | 20 |
+| Strategic value | 25 |
+| **Overall** | **19** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cpp, python
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-mobile-computing-for-intra-oral-sens.md` and link [[opp_tudelft-phd-position-in-mobile-computing-for-intra-oral-sens]]._

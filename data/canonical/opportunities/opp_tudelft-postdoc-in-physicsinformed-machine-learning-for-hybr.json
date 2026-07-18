@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-18T03:34:27.432605Z",
-  "updated_at": "2026-07-18T03:41:25.023404Z",
+  "updated_at": "2026-07-18T04:10:35.227261Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:34:27.433609Z",
@@ -20,6 +20,44 @@
         "derived.days_to_deadline",
         "derived.eligibility_gate",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:10:35.007093Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T04:10:35.227261Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -55,11 +93,55 @@
     "status": "open",
     "description_text": "Hey machine learning enthusiast with a love for physics and complex systems, will you help us develop a new generation of road traffic prediction methods?\nJob description\nRoad traffic is a highly complex dynamic system. Minor disruptions can lead to major delays with traffic jams spreading like oil spills over entire networks. We believe traffic management based on reliable predictions is therefore crucial to ensure accessibility and safety, especially during major events, accidents and extreme weather. In a new project called\ndeepTraffic\n(funded by the Dutch science foundation NWO), we aim to develop a new generation of traffic prediction methods, combining traffic flow theory with machine learning, and with that, the best of both worlds: theory and logic where necessary, data-driven where possible. This innovative new approach enables more efficient and robust management of large traffic networks under all conditions.\nYou have the most important role in this ambitious project as one of the young talents in our team. We have 2 PhD and one postdoc positions, all of whom will be supervised by a highly experienced team of four (top) researchers in this field supported by a technician. PhD1 focuses on hybrid traffic flow modelling such as Physics inspired Neural Nets (PiNNs) or “ML inspired” traffic models. PhD2 focuses on data assimilation and estimating start and boundary conditions such as path-flows, and other key parameters and inputs.\nIn your role as a postdoctoral researcher, you will:\nIntegrate hybrid traffic models and data assimilation methods into a coherent prediction framework.\nDevelop uncertainty quantification methods  and explainable and trustworthy AI approaches.\nDesign visualisation to support decision-making by traffic operators and strategic advisors.\nCollaborate closely with road authorities, traffic management centres, and industry partners to test and validate methods in real-world use cases.\nMentor the PhD candidates while shaping the scientific direction and integration of the project.\nThe connection with practice is super important. This project is not just an academic exercise. We will work closely together with road authorities, traffic management centers, and industry to implement these prediction methods and test them against real constraints, with real data in real use cases on the Dutch freeway net\nwork. Herein, explainability and trustworthiness are key: traffic management using predictions may render those very same predictions invalid. Predictions need to come with confidence bounds and a narrative that make them usable in decision-support systems for operators and strategic advisors.\nJob requirements\nWe look for highly motivated, collaborative and creative candidates. Do you recognize yourself in (many of) these requirements?\nNeed to have:\nYou hold a PhD in Transport Engineering, Civil Engineering, Computer Science, Data Science, Applied Mathematics, or a closely related quantitative field.\nYou love physics and complex systems and are either familiar with, or very eager to learn about, (road) network traffic flow theory and simulation.\nYou are interested in mentoring and supporting MSc and PhD students.\nYou are a machine learning enthusiast (and realist).\nYou love coding and have proven experience in e.g. Python, Matlab, JAVA, C#.\nYou can present and communicate your ideas with AND without LLMs.\nNice to Have\n:\nYou get excited about implementing your ideas.\nYou are a team-player: you enjoy sharing ideas and solving puzzles together.\nYou also enjoy digging in and solving puzzles independently.\nYou believe in, and want to contribute to, an inclusive, open and safe workspace.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 4 years. Temporary.\nA job of 36 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Hans van Lint\nJ.W.C.vanLint@tudelft.nl\nor Serge Hoogendoorn\nS.P.Hoogendoorn@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n2 August 2026\nvia the application button and upload the following documents:\nA motivation letter.\nCurriculum Vitae.\nYou can address your application to Hans van Lint.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoc for the same physics-informed traffic modelling team.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 12,
+      "rationale": "As the sibling PhDs; postdoc level."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "No overlap."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Not aligned."
+    },
+    "strategic_value": {
+      "score": 15,
+      "rationale": "Wrong stage and family."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "matched_skills": [],
+    "missing_skills": [
+      "python",
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a PhD - hard ineligibility"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried postdoc per posting.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.95,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T04:10:35.006090Z",
+    "analysis_input_hash": "035174948594a999ed5f9bec90de601dfdcc33d3fa0fd2d803727718676cd20d"
+  },
   "derived": {
     "eligibility_gate": "pass",
     "eligibility_reasons": [],
-    "fit_overall": null,
+    "fit_overall": 11,
     "urgency": "high",
     "days_to_deadline": 15,
     "needs_review": false

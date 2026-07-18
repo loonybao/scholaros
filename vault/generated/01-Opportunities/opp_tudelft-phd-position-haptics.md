@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-30
 status: open
 eligibility_gate: pass
-fit_overall: not-analyzed
+fit_overall: 58
 urgency: high
 needs_review: false
 ---
@@ -114,7 +114,24 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.72_
+
+PhD in multimodal haptics at the Haptic Interface Technology Lab (Dr. Yasemin Vardar, Human-Robot Interaction section, Cognitive Robotics): render and evaluate tactile feedback, including human-participant perception experiments.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 60 |
+| Methodological fit | 55 |
+| Growth value | 60 |
+| Strategic value | 55 |
+| **Overall** | **58** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** statistics, physiological-sensing
+
+**Risks:**
+- Encouraged skills (signal processing, mechatronics, hardware) all absent - likely uncompetitive against engineering candidates
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-haptics.md` and link [[opp_tudelft-phd-position-haptics]]._

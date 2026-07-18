@@ -19,7 +19,17 @@ SCHEMA = """
 DROP TABLE IF EXISTS opportunities;
 DROP TABLE IF EXISTS organisations;
 DROP TABLE IF EXISTS people;
+DROP TABLE IF EXISTS actions;
 DROP TABLE IF EXISTS meta;
+
+CREATE TABLE actions (
+    id TEXT PRIMARY KEY,
+    title TEXT NOT NULL,
+    status TEXT NOT NULL,
+    priority TEXT NOT NULL,
+    due_date TEXT,
+    opportunity_id TEXT
+);
 
 CREATE TABLE organisations (
     id TEXT PRIMARY KEY,
@@ -51,7 +61,8 @@ CREATE TABLE opportunities (
     salary_text TEXT,
     needs_review INTEGER NOT NULL DEFAULT 0,
     hidden INTEGER NOT NULL DEFAULT 0,
-    analyzed INTEGER NOT NULL DEFAULT 0
+    analyzed INTEGER NOT NULL DEFAULT 0,
+    analysis_stale INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE TABLE people (
@@ -102,13 +113,18 @@ def rebuild_index(cfg: Config, store: Store) -> int:
             )
             rows += 1
 
+        from .analysis_io import analysis_input_hash
         from .rules import effective_recommendation
 
         for opp in store.load_all("opportunity"):
             o, d = opp.official, opp.derived
+            stale = bool(
+                opp.ai is not None
+                and opp.ai.analysis_input_hash != analysis_input_hash(cfg, opp)
+            )
             conn.execute(
                 "INSERT INTO opportunities VALUES "
-                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     opp.id,
                     o.title,
@@ -134,6 +150,21 @@ def rebuild_index(cfg: Config, store: Store) -> int:
                     int(d.needs_review),
                     int(opp.manual.hidden),
                     int(opp.ai is not None),
+                    int(stale),
+                ),
+            )
+            rows += 1
+
+        for act in store.load_all("action"):
+            conn.execute(
+                "INSERT INTO actions VALUES (?,?,?,?,?,?)",
+                (
+                    act.id,
+                    act.manual.title,
+                    act.manual.status,
+                    act.system.priority,
+                    act.system.due_date.isoformat() if act.system.due_date else None,
+                    act.system.related.opportunity_id,
                 ),
             )
             rows += 1
@@ -194,13 +225,31 @@ def dashboard_data(cfg: Config, today: date) -> dict:
         ]
         open_opps.sort(key=lambda r: (r["deadline"] is None, r["deadline"] or ""))
 
-        # Action Required excludes records already dispositioned as
-        # monitor/reject: they only return here when their analysis is
-        # invalidated (a material change resets ai -> recommendation null).
+        # Action Required contains ONLY genuinely actionable items:
+        #   - provisional apply/consider recommendations (incl. their imminent
+        #     deadlines; if stale, they stay here flagged for renewed attention),
+        #   - explicit manual-verification tasks (open Action records, added
+        #     to the payload below).
+        # Unanalysed records — and stale monitor/reject dispositions, which
+        # need re-analysis rather than attention — go to the Analysis Queue.
+        for r in all_opps:
+            r["analysis_stale"] = bool(r["analysis_stale"])
         action_required = [
+            r for r in open_opps if r["recommendation"] in ("apply", "consider")
+        ]
+
+        analysis_queue = [
             r for r in open_opps
-            if (r["urgency"] in ("urgent", "high") or r["needs_review"])
-            and r["recommendation"] not in ("monitor", "reject")
+            if not r["analyzed"]
+            or (r["analysis_stale"] and r["recommendation"] not in ("apply", "consider"))
+        ]
+
+        open_tasks = [
+            dict(row)
+            for row in conn.execute(
+                "SELECT * FROM actions WHERE status IN ('todo','doing') "
+                "ORDER BY due_date IS NULL, due_date"
+            )
         ]
         upcoming = [
             r for r in open_opps
@@ -219,6 +268,8 @@ def dashboard_data(cfg: Config, today: date) -> dict:
     return {
         "generated_at": today.isoformat(),
         "action_required": action_required,
+        "manual_tasks": open_tasks,
+        "analysis_queue": analysis_queue,
         "open_opportunities": open_opps,
         "upcoming_deadlines": upcoming,
         "review_queue": review_queue,

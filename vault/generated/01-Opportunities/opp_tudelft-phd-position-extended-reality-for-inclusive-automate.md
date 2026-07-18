@@ -117,5 +117,9 @@ _claude-fable-5 · fit_analysis_v1 · confidence 0.88_
 - Domain knowledge in transportation/AV research is absent and other candidates may bring it
 - go/no-go assessment at 15 months per TU Delft PhD contract structure
 
+## Manual annotations (from record)
+
+Tags: primary-application-target
+
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-extended-reality-for-inclusive-automate.md` and link [[opp_tudelft-phd-position-extended-reality-for-inclusive-automate]]._

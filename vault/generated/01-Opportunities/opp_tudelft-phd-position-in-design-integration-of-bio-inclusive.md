@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-03
 status: open
 eligibility_gate: pass
-fit_overall: not-analyzed
+fit_overall: 35
 urgency: high
 needs_review: false
 ---
@@ -94,7 +94,21 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.80_
+
+PhD on translating ecological/material/stakeholder requirements into bio-inclusive facade design principles and a reusable toolkit (Architecture, Living Lab).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 30 |
+| Methodological fit | 45 |
+| Growth value | 30 |
+| Strategic value | 30 |
+| **Overall** | **35** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** qualitative-research
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-design-integration-of-bio-inclusive.md` and link [[opp_tudelft-phd-position-in-design-integration-of-bio-inclusive]]._

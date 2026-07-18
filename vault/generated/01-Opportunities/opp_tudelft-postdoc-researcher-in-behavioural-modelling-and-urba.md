@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-16
 status: open
 eligibility_gate: pass
-fit_overall: not-analyzed
+fit_overall: 24
 urgency: medium
 needs_review: false
 ---
@@ -106,7 +106,21 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.90_
+
+Postdoc building agent-based mobility models and discrete choice experiments for urban sustainability policy (Barcelona case).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 25 |
+| Methodological fit | 25 |
+| Growth value | 20 |
+| Strategic value | 20 |
+| **Overall** | **24** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-researcher-in-behavioural-modelling-and-urba.md` and link [[opp_tudelft-postdoc-researcher-in-behavioural-modelling-and-urba]]._

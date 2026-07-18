@@ -1,0 +1,41 @@
+{
+  "id": "act_safemove_deadline_check",
+  "entity_type": "action",
+  "schema_version": 3,
+  "created_at": "2026-07-18T04:11:50.144268Z",
+  "updated_at": "2026-07-18T04:11:50.145266Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:11:50.145266Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "S5a closure"
+    }
+  ],
+  "system": {
+    "action_type": "application",
+    "related": {
+      "opportunity_id": "opp_tudelft-phd-position-in-extended-reality-for-safe-and-active",
+      "person_id": null,
+      "application_id": null
+    },
+    "created_by": "human",
+    "due_date": "2026-07-19",
+    "priority": "high",
+    "recommended_reason": null,
+    "model": null,
+    "prompt_version": null
+  },
+  "manual": {
+    "title": "URGENT: check the SAFE-MOVE XR PhD official page for a deadline extension (stated deadline 2026-07-19)",
+    "status": "todo",
+    "notes": "If extended, reuse the XR-AV application materials. If not, the posting still evidences MXR Lab growth."
+  },
+  "outcome": {
+    "result": null,
+    "completed_at": null,
+    "note": ""
+  }
+}

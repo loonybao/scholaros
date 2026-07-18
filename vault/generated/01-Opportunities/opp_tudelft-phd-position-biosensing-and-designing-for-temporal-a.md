@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-02
 status: open
 eligibility_gate: pass
-fit_overall: not-analyzed
+fit_overall: 65
 urgency: high
 needs_review: false
 ---
@@ -93,7 +93,25 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.75_
+
+PhD in the Materialising Futures section (Faculty of Industrial Design Engineering, Horizon Europe INTERWeuVEN with 16 partners incl. lululemon): how people experience temporal/biofabricated textiles, developing a biosensing methodology + toolkit and running user studies of embodied human-material interaction.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 55 |
+| Methodological fit | 72 |
+| Growth value | 70 |
+| Strategic value | 65 |
+| **Overall** | **65** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** physiological-sensing, qualitative-research
+
+**Risks:**
+- Competing candidates from design schools may bring materials-experience portfolios
+- Choosing this would trade XR depth for materials/somatic design breadth
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a.md` and link [[opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a]]._

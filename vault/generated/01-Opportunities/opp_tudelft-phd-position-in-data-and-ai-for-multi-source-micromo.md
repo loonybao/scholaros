@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-19
 status: open
 eligibility_gate: pass
-fit_overall: not-analyzed
+fit_overall: 32
 urgency: urgent
 needs_review: false
 ---
@@ -94,7 +94,21 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.85_
+
+PhD in the SAFE MOVE project (MXR + UMO labs, Transport & Planning): explainable AI and data fusion over crash records, micromobility traces, sensors and camera data for safety analytics; XR appears only as a validation partner for the models.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 30 |
+| Methodological fit | 25 |
+| Growth value | 40 |
+| Strategic value | 45 |
+| **Overall** | **32** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics, behavioural-logging
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-data-and-ai-for-multi-source-micromo.md` and link [[opp_tudelft-phd-position-in-data-and-ai-for-multi-source-micromo]]._

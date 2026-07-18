@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-22
 status: open
 eligibility_gate: pass
-fit_overall: not-analyzed
+fit_overall: 52
 urgency: urgent
 needs_review: false
 ---
@@ -116,7 +116,21 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.85_
+
+Postdoc in the Intelligent Vehicles group (AETHER project): human-centred thermal comfort for battery-electric vehicles - physiological measurement, simulator-based human-subject studies, ML comfort prediction.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 55 |
+| Methodological fit | 60 |
+| Growth value | 35 |
+| Strategic value | 40 |
+| **Overall** | **52** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** physiological-sensing, statistics, python
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-human-centred-thermal-comfort-and-machine-le.md` and link [[opp_tudelft-postdoc-human-centred-thermal-comfort-and-machine-le]]._

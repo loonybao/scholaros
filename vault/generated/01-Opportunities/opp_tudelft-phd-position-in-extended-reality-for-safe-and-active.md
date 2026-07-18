@@ -125,5 +125,9 @@ PhD in the SAFE MOVE project (MXR Lab + Urban Mobility Observatory, Dept. of Tra
 - Effectively out of reach due to the deadline; treat primarily as evidence that the MXR Lab is actively growing
 - Wearable/physiological sensing experience is absent
 
+## Manual annotations (from record)
+
+Tags: urgent-deadline-check
+
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-extended-reality-for-safe-and-active.md` and link [[opp_tudelft-phd-position-in-extended-reality-for-safe-and-active]]._

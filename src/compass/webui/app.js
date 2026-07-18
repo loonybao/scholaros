@@ -58,6 +58,49 @@ function renderHeader(dash) {
     `Generated ${dash.generated_at} · canonical → SQLite index → this page`;
 }
 
+function renderManualTasks(dash) {
+  const el = document.getElementById("manual-tasks");
+  const tasks = dash.manual_tasks || [];
+  if (!tasks.length) {
+    el.innerHTML = "";
+    return;
+  }
+  el.innerHTML =
+    tasks
+      .map(
+        (t) => `
+      <div class="review-item">
+        ${badge(t.priority, t.priority === "high" ? "urgent" : "none")}
+        <strong>${esc(t.title)}</strong>
+        ${t.due_date ? `<span class="card-org"> · due ${esc(t.due_date)}</span>` : ""}
+      </div>`
+      )
+      .join("") + "<br>";
+}
+
+function renderAnalysisQueue(dash) {
+  const el = document.getElementById("analysis-queue");
+  const rows = dash.analysis_queue || [];
+  if (!rows.length) {
+    el.innerHTML = emptyState("Everything discovered has been analysed.");
+    return;
+  }
+  const shown = rows.slice(0, 12);
+  el.innerHTML =
+    shown
+      .map(
+        (r) => `
+      <div class="review-item">
+        ${esc(r.deadline || "no deadline")} · ${esc(r.title)}
+        <span class="card-org">(${esc(r.org_name || r.org_id)})</span>
+      </div>`
+      )
+      .join("") +
+    (rows.length > shown.length
+      ? `<div class="empty">…and ${rows.length - shown.length} more awaiting analysis</div>`
+      : "");
+}
+
 function renderActionRequired(dash) {
   const el = document.getElementById("action-cards");
   const rows = dash.action_required;
@@ -213,6 +256,8 @@ async function boot() {
     fetch("/api/health").then((r) => r.json()),
   ]);
   renderHeader(dash);
+  renderManualTasks(dash);
+  renderAnalysisQueue(dash);
   renderActionRequired(dash);
   renderOpenTable(dash);
   renderDeadlines(dash);

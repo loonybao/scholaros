@@ -39,18 +39,20 @@ def test_rebuild_is_idempotent(cfg, store):
     assert len(dash["open_opportunities"]) == 1
 
 
-def test_review_queue_and_action_required(cfg, store):
+def test_unanalyzed_goes_to_analysis_queue_not_action_required(cfg, store):
+    """Queue semantics: unanalysed opportunities live in the Analysis Queue
+    and never automatically occupy Action Required."""
     org = make_organisation()
     store.save(org, actor="manual")
-    # Uncertain: stated restrictions with null standing -> needs_review.
-    opp = make_opportunity(nationality_restrictions_status="stated")
+    opp = make_opportunity(nationality_restrictions_status="stated")  # review-worthy
     opp.derived = recompute_derived(opp, cfg.constraints, TODAY)
     store.save(opp, actor="manual")
     rebuild_index(cfg, store)
 
     dash = dashboard_data(cfg, TODAY)
+    assert dash["action_required"] == []                    # not analysed yet
+    assert [r["id"] for r in dash["analysis_queue"]] == [opp.id]
     assert [r["id"] for r in dash["review_queue"]] == [opp.id]
-    assert any(r["id"] == opp.id for r in dash["action_required"])
     assert any("not confirmed" in reason
                for reason in dash["review_queue"][0]["eligibility_reasons"])
 
@@ -64,7 +66,8 @@ def test_monitor_and_reject_stay_out_of_action_required(cfg, store):
     from compass.models import OpportunityAI, ScoreWithRationale
 
     store.save(make_organisation(), actor="manual")
-    opp = make_opportunity()  # urgency high (17d), gate pass but needs_review off
+    from compass.analysis_io import analysis_input_hash
+
     opp = make_opportunity(nationality_restrictions_status="stated")  # needs_review
     opp.ai = OpportunityAI(
         summary="s",
@@ -78,7 +81,7 @@ def test_monitor_and_reject_stay_out_of_action_required(cfg, store):
         model="m",
         prompt_version="fit_analysis_v1",
         analyzed_at=datetime(2026, 7, 17, tzinfo=timezone.utc),
-        analysis_input_hash="h",
+        analysis_input_hash=analysis_input_hash(cfg, opp),  # current, not stale
     )
     opp.derived = recompute_derived(opp, cfg.constraints, TODAY)
     store.save(opp, actor="manual")
@@ -95,6 +98,8 @@ def test_apply_recommendation_stays_in_action_required(cfg, store):
 
     from compass.models import OpportunityAI, ScoreWithRationale
 
+    from compass.analysis_io import analysis_input_hash
+
     store.save(make_organisation(), actor="manual")
     opp = make_opportunity(nationality_restrictions_status="ambiguous")
     opp.ai = OpportunityAI(
@@ -109,7 +114,7 @@ def test_apply_recommendation_stays_in_action_required(cfg, store):
         model="m",
         prompt_version="fit_analysis_v1",
         analyzed_at=datetime(2026, 7, 17, tzinfo=timezone.utc),
-        analysis_input_hash="h",
+        analysis_input_hash=analysis_input_hash(cfg, opp),
     )
     opp.derived = recompute_derived(opp, cfg.constraints, TODAY)
     store.save(opp, actor="manual")
@@ -117,6 +122,75 @@ def test_apply_recommendation_stays_in_action_required(cfg, store):
 
     dash = dashboard_data(cfg, TODAY)
     assert [r["id"] for r in dash["action_required"]] == [opp.id]
+    assert dash["analysis_queue"] == []  # analysed record is out of the queue
+
+
+def test_open_manual_tasks_in_dashboard(cfg, store):
+    from compass.models import Action, ActionManual, ActionRelated, ActionSystem
+
+    store.save(make_organisation(), actor="manual")
+    act = Action(
+        id="act_verify_something",
+        system=ActionSystem(
+            action_type="application",
+            related=ActionRelated(opportunity_id="opp_x"),
+            created_by="human",
+            priority="high",
+        ),
+        manual=ActionManual(title="Verify the official clause", status="todo"),
+    )
+    store.save(act, actor="manual")
+    rebuild_index(cfg, store)
+
+    dash = dashboard_data(cfg, TODAY)
+    assert [t["id"] for t in dash["manual_tasks"]] == ["act_verify_something"]
+
+    act.manual.status = "done"
+    store.save(act, actor="manual")
+    rebuild_index(cfg, store)
+    assert dashboard_data(cfg, TODAY)["manual_tasks"] == []
+
+
+def test_stale_analysis_routing(cfg, store):
+    """Materially changed records: a stale REJECT goes back to the Analysis
+    Queue (needs re-analysis, not attention); a stale APPLY stays in Action
+    Required flagged for renewed attention."""
+    from datetime import datetime, timezone
+
+    from compass.models import OpportunityAI, ScoreWithRationale
+
+    def ai(rec, score):
+        return OpportunityAI(
+            summary="s",
+            fit_type="poor-fit" if rec == "reject" else "exact-fit",
+            thematic_fit=ScoreWithRationale(score=score, rationale="r"),
+            methodological_fit=ScoreWithRationale(score=score, rationale="r"),
+            growth_value=ScoreWithRationale(score=score, rationale="r"),
+            strategic_value=ScoreWithRationale(score=score, rationale="r"),
+            recommendation=rec,
+            confidence=0.9,
+            model="m",
+            prompt_version="fit_analysis_v1",
+            analyzed_at=datetime(2026, 7, 17, tzinfo=timezone.utc),
+            analysis_input_hash="hash-of-an-older-description",  # stale
+        )
+
+    store.save(make_organisation(), actor="manual")
+    rej = make_opportunity(opp_id="opp_stale_reject", url="https://example.org/1")
+    rej.ai = ai("reject", 10)
+    rej.derived = recompute_derived(rej, cfg.constraints, TODAY)
+    store.save(rej, actor="manual")
+
+    app = make_opportunity(opp_id="opp_stale_apply", url="https://example.org/2")
+    app.ai = ai("apply", 85)
+    app.derived = recompute_derived(app, cfg.constraints, TODAY)
+    store.save(app, actor="manual")
+
+    rebuild_index(cfg, store)
+    dash = dashboard_data(cfg, TODAY)
+    assert [r["id"] for r in dash["action_required"]] == ["opp_stale_apply"]
+    assert dash["action_required"][0]["analysis_stale"] is True
+    assert [r["id"] for r in dash["analysis_queue"]] == ["opp_stale_reject"]
 
 
 def test_failed_gate_excluded_from_open(cfg, store):

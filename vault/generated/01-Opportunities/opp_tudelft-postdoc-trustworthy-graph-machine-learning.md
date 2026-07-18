@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-26
 status: open
 eligibility_gate: pass
-fit_overall: not-analyzed
+fit_overall: 7
 urgency: high
 needs_review: false
 ---
@@ -95,7 +95,21 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+Postdoc on explainable and privacy-preserving graph ML for population-scale networks (Macroscope project).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 5 |
+| Growth value | 8 |
+| Strategic value | 10 |
+| **Overall** | **7** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-trustworthy-graph-machine-learning.md` and link [[opp_tudelft-postdoc-trustworthy-graph-machine-learning]]._

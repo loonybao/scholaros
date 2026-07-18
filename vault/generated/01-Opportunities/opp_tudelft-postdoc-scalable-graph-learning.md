@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-28
 status: open
 eligibility_gate: pass
-fit_overall: not-analyzed
+fit_overall: 5
 urgency: high
 needs_review: false
 ---
@@ -99,7 +99,21 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+Postdoc on scalable/distributed training of graph neural networks for financial-crime detection (Software Technology dept.).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 5 |
+| Growth value | 5 |
+| Strategic value | 8 |
+| **Overall** | **5** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-scalable-graph-learning.md` and link [[opp_tudelft-postdoc-scalable-graph-learning]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 3,
   "created_at": "2026-07-18T03:39:09.733247Z",
-  "updated_at": "2026-07-18T03:41:25.044410Z",
+  "updated_at": "2026-07-18T04:10:35.230258Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:39:09.733247Z",
@@ -20,6 +20,44 @@
         "derived.days_to_deadline",
         "derived.eligibility_gate",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:10:35.013094Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T04:10:35.230258Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -55,11 +93,58 @@
     "status": "open",
     "description_text": "Are you interested in developing innovative behavioural models to understand how urban mobility policies shape human behaviour, exposure, and environmental outcomes?\nJob description\nWe are seeking a highly motivated Postdoctoral Researcher to join the European UrbanAIR project, an interdisciplinary initiative that aims to support healthier and more sustainable cities by integrating environmental modelling, decision analysis, and behavioural simulation within a digital twin infrastructure.\nUrbanAIR develops innovative methods to assess how policy interventions influence urban mobility patterns, air pollution exposure, and population vulnerability.\nThe postdoctoral researcher will play a central role in connecting behavioural decision-making with environmental exposure assessment through the development of an Agent-Based Model (ABM) of mobility behaviour in Barcelona.\nResearch Responsibilities\nThe successful candidate will lead the development of a behavioural model that simulates how individuals make mobility decisions in urban environments and how these decisions evolve in response to policy interventions.\nKey responsibilities include:\nDesigning and implementing a mobility-focused Agent-Based Model for selected neighbourhoods in Barcelona.\nDeveloping and conducting a discrete choice experiment (or related choice modelling approach) to identify behavioural preferences and mobility decision-making processes.\nSimulating the effects of policy interventions such as public transport incentives, active mobility measures, pricing schemes, or other behavioural interventions developed in collaboration with decision analysis experts.\nCollaborating closely with environmental modelling partners to translate simulated mobility patterns into estimates of population exposure and vulnerability.\nJob requirements\nWe are looking for candidates with:\nA PhD in Transportation, Environmental Psychology, Behavioural Economics, Computational Social Science, Industrial Ecology, Geography, Urban Studies, or a related field.\nDemonstrated expertise in choice modelling, such as discrete choice experiments, stated preference methods, or travel behaviour analysis.\nStrong quantitative and statistical skills.\nExperience in Agent-Based Modelling (e.g., NetLogo, Mesa, Repast, GAMA, AnyLogic, or similar platforms).\nExcellent communication skills and ability to work in interdisciplinary teams.\nFluency in English.\nThe following are considered strong assets:\nExperience with urban mobility research.\nExperience working with spatial data and GIS.\nKnowledge of air quality, environmental exposure, or sustainability transitions.\nExperience interacting with policymakers or stakeholders.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Technology, Policy & Management\nThe Faculty of TPM provides an important contribution to solving complex technical-social issues, such as energy transition, mobility, digitalisation, water management and (cyber) security. TPM does this with its excellent education and research at the intersection of technology, society and policy. We combine insights from both engineering and social sciences as well as the humanities. TPM develops robust models and designs, is internationally oriented and has an extensive network of knowledge institutions, companies, social organisations and governments.\nClick\nhere\nto go to the website of the Faculty of Technology, Policy and Management.\nConditions of employment\nDuration of contract is 2 years full time. Temporary external finance.\nA job of 32-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor additional information about this project feel free to contact dr. Amineh Ghorbani, email:\na.ghorbani@tudelft.nl\n.\nFor information about the application procedure, contact the HR Advisor Martine van de Vorst, email:\nrecruitment-tbm@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n16 August 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nA copy of your PhD thesis or publications which you are most proud of.\nYou can address your application to dr. Amineh Ghorbani.\nThis is an EU funded project, named UrbanAIR with project number 101188131 within the horizon Europe programme.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoc building agent-based mobility models and discrete choice experiments for urban sustainability policy (Barcelona case).",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 25,
+      "rationale": "Behavioural, but computational-modelling behavioural, not experimental human-subject research."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "ABM and choice modelling are absent from the applicant's toolkit."
+    },
+    "growth_value": {
+      "score": 20,
+      "rationale": "Not accessible at this stage."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Wrong stage."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "quantitative-research"
+    ],
+    "matched_skills": [
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python",
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a PhD - hard ineligibility"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried postdoc per posting.",
+    "recommendation": "reject",
+    "next_action": "None.",
+    "confidence": 0.9,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T04:10:35.013094Z",
+    "analysis_input_hash": "382f1c49419c9cebfac56db3041a43ec7aaf05e869c6fad1e73aef82e6607e7d"
+  },
   "derived": {
     "eligibility_gate": "pass",
     "eligibility_reasons": [],
-    "fit_overall": null,
+    "fit_overall": 24,
     "urgency": "medium",
     "days_to_deadline": 29,
     "needs_review": false

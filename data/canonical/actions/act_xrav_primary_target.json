@@ -1,0 +1,41 @@
+{
+  "id": "act_xrav_primary_target",
+  "entity_type": "action",
+  "schema_version": 3,
+  "created_at": "2026-07-18T04:11:50.146266Z",
+  "updated_at": "2026-07-18T04:11:50.147270Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:11:50.147270Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "S5a closure"
+    }
+  ],
+  "system": {
+    "action_type": "application",
+    "related": {
+      "opportunity_id": "opp_tudelft-phd-position-extended-reality-for-inclusive-automate",
+      "person_id": null,
+      "application_id": null
+    },
+    "created_by": "human",
+    "due_date": "2026-08-10",
+    "priority": "high",
+    "recommended_reason": null,
+    "model": null,
+    "prompt_version": null
+  },
+  "manual": {
+    "title": "Prepare the XR-AV Interaction PhD application (primary TU Delft target, deadline 2026-08-30) and contact Dr. Yan Feng",
+    "status": "todo",
+    "notes": "After the Tampere HTI submission (2026-08-03). Short intro email linking campus-wayfinding VR transfer to AV-VRU interaction; CV + motivation mapped to the Need-to-Haves."
+  },
+  "outcome": {
+    "result": null,
+    "completed_at": null,
+    "note": ""
+  }
+}
