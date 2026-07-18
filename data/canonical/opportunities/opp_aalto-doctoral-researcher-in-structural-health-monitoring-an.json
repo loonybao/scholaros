@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-doctoral-researcher-in-structural-health-monitoring-an",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:35:55.786949Z",
-  "updated_at": "2026-07-18T04:32:24.969035Z",
+  "updated_at": "2026-07-18T04:44:34.376327Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:55.786949Z",
@@ -109,6 +109,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.240208Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.376327Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -168,6 +187,8 @@
       "python",
       "statistics"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [
       "python",
@@ -178,6 +199,12 @@
       "Civil/structural engineering background expected"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit",
+      "eligibility_mismatch"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Funded doctoral position per posting text.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -187,7 +214,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:05:53.795509Z",
+    "analyzed_at": "2026-07-18T04:44:34.375327Z",
     "analysis_input_hash": "a1287aaa98fd937f454456f1d02e1cbcaad4c1a4896d41bfd2802b605036ac1c"
   },
   "derived": {

@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-postdoc-position-in-adaptive-multimodal-human-techno",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:35:12.302683Z",
-  "updated_at": "2026-07-18T04:32:25.180556Z",
+  "updated_at": "2026-07-18T04:44:34.493889Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:35:12.302683Z",
@@ -86,6 +86,25 @@
         "derived.needs_review"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.438856Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.493889Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -146,6 +165,8 @@
       "user-studies",
       "statistics"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [
       "experimental-design",
       "user-studies"
@@ -158,6 +179,11 @@
       "Requires a PhD - hard ineligibility"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "career_stage_mismatch"
+    ],
+    "future_group_value": "medium",
+    "future_group_rationale": "Adjacent methodological family - group worth watching if it opens closer-fitting positions",
     "funding_assessment": "Salaried postdoc with stated range per posting; eligibility is the blocker.",
     "recommendation": "reject",
     "next_action": "Note the group on the target map as a second TU Delft HTI cluster.",
@@ -167,7 +193,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:43:47.149723Z",
+    "analyzed_at": "2026-07-18T04:44:34.492890Z",
     "analysis_input_hash": "73cc48d39048ebc37a3d94ade370f0b7ad53f8276e43098a1671dfe2987bf7fb"
   },
   "derived": {

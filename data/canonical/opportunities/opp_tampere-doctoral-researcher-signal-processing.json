@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-doctoral-researcher-signal-processing",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:12:17.351847Z",
-  "updated_at": "2026-07-18T04:32:25.019916Z",
+  "updated_at": "2026-07-18T04:44:34.434367Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:12:17.351847Z",
@@ -117,6 +117,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.286360Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.434367Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -176,6 +195,8 @@
       "python",
       "statistics"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [
       "python",
@@ -186,6 +207,11 @@
       "Requires an electrical-engineering-adjacent Master's background"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Salaried fixed-term doctoral position per posting text.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -195,7 +221,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:04:29.522673Z",
+    "analyzed_at": "2026-07-18T04:44:34.433371Z",
     "analysis_input_hash": "570c9934b2adbad4edc3a26ec4bf6ea4f934a849d5d02314325ed8836e7216d3"
   },
   "derived": {

@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-postdoctoral-research-fellow",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:11:03.592105Z",
-  "updated_at": "2026-07-18T04:32:25.033436Z",
+  "updated_at": "2026-07-18T04:44:34.449367Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:11:03.592105Z",
@@ -132,6 +132,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.298364Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.449367Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -189,6 +208,8 @@
       "rationale": "Wrong career stage and field."
     },
     "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [],
     "transferable_strengths": [],
@@ -196,6 +217,12 @@
       "Requires a PhD in electrical engineering/wireless communications plus at least three first-author IEEE ComSoc journal publications - hard ineligibility"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "career_stage_mismatch",
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Salaried fixed-term postdoc per posting text; eligibility is the blocker.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -205,7 +232,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:04:29.541742Z",
+    "analyzed_at": "2026-07-18T04:44:34.448368Z",
     "analysis_input_hash": "5936ceb923cee257eed4d3185bb5dc37bc5c16075fab1aac0b883403a527844b"
   },
   "derived": {

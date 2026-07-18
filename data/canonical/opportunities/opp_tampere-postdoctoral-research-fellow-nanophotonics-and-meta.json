@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-postdoctoral-research-fellow-nanophotonics-and-meta",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:12:29.621478Z",
-  "updated_at": "2026-07-18T04:32:25.031437Z",
+  "updated_at": "2026-07-18T04:44:34.446367Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:12:29.621478Z",
@@ -117,6 +117,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.296364Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.446367Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -173,6 +192,8 @@
       "rationale": "Wrong career stage and field."
     },
     "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [],
     "transferable_strengths": [],
@@ -180,6 +201,12 @@
       "Requires a PhD in Physics/Optics/Photonics/Engineering - hard ineligibility, the applicant holds no doctorate"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "career_stage_mismatch",
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Salaried 2-year fixed term per posting text; eligibility is the blocker.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -189,7 +216,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:04:29.520673Z",
+    "analyzed_at": "2026-07-18T04:44:34.445371Z",
     "analysis_input_hash": "1a6793a4ccd141eed770667205b2faf1d410b71b019d265118f3d5192faf7849"
   },
   "derived": {

@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-doctoral-researcher-antenna-engineering",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:11:46.672788Z",
-  "updated_at": "2026-07-18T04:32:25.003043Z",
+  "updated_at": "2026-07-18T04:44:34.414332Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:11:46.672788Z",
@@ -119,6 +119,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.271324Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.414332Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -175,6 +194,8 @@
       "rationale": "Funded doctoral position in a preferred country, but in the wrong discipline; would derail rather than advance the target identity."
     },
     "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [],
     "transferable_strengths": [],
@@ -182,6 +203,12 @@
       "Requires a Master's in electrical engineering, microwave engineering or an applicable field - the applicant's degree does not satisfy this"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit",
+      "eligibility_mismatch"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Posting text describes salaried employment until 2029 under the Finnish university salary system; funding is not the issue - fit is.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -191,7 +218,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T04:13:23.999368Z",
+    "analyzed_at": "2026-07-18T04:44:34.413330Z",
     "analysis_input_hash": "af9b607a75c072e9dbb4a62f01c1aa3edf7dec28937fcfe8a6ffd507461dfa52"
   },
   "derived": {

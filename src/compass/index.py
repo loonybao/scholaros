@@ -55,6 +55,11 @@ CREATE TABLE opportunities (
     fit_type TEXT,
     recommendation TEXT,
     analysis_status TEXT,
+    methodological_fit INTEGER,
+    required_skills TEXT NOT NULL DEFAULT '[]',   -- JSON array of taxonomy ids
+    preferred_skills TEXT NOT NULL DEFAULT '[]',  -- JSON array of taxonomy ids
+    rejection_reasons TEXT NOT NULL DEFAULT '[]', -- JSON array (enum)
+    future_group_value TEXT,
     status TEXT NOT NULL,
     position_type TEXT NOT NULL,
     location TEXT,
@@ -124,7 +129,7 @@ def rebuild_index(cfg: Config, store: Store) -> int:
             )
             conn.execute(
                 "INSERT INTO opportunities VALUES "
-                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     opp.id,
                     o.title,
@@ -143,6 +148,11 @@ def rebuild_index(cfg: Config, store: Store) -> int:
                         opp.ai.recommendation if opp.ai else None,
                     ),
                     opp.ai.analysis_status if opp.ai else None,
+                    opp.ai.methodological_fit.score if opp.ai else None,
+                    json.dumps(opp.ai.required_skills if opp.ai else []),
+                    json.dumps(opp.ai.preferred_skills if opp.ai else []),
+                    json.dumps(opp.ai.rejection_reasons if opp.ai else []),
+                    opp.ai.future_group_value if opp.ai else None,
                     o.status,
                     o.position_type,
                     o.location,
@@ -275,6 +285,84 @@ def dashboard_data(cfg: Config, today: date) -> dict:
         "review_queue": review_queue,
         "meta": meta,
     }
+
+
+# Rejection reasons that mark a vacancy as timing/stage-limited rather than
+# research-mismatched: such rejects with high methodological fit remain
+# FUTURE TARGETS for monitoring.
+_TIMING_REASONS = {"degree_timing_mismatch", "career_stage_mismatch", "deadline_passed"}
+
+
+def analytics_scopes(row: dict) -> list[str]:
+    """Deterministic analytics-scope membership for one opportunity row.
+
+    Poor-fit vacancies are excluded from every personal scope but remain in
+    the full audit database (they are never deleted)."""
+    scopes: list[str] = []
+    fit_type = row.get("fit_type")
+    rec = row.get("recommendation")
+    reasons = row.get("rejection_reasons") or []
+    if isinstance(reasons, str):
+        reasons = json.loads(reasons)
+
+    if fit_type in ("exact-fit", "adjacent-methodological-fit"):
+        scopes.append("target_market")
+    if rec in ("apply", "consider") or (
+        rec == "monitor" and row.get("eligibility_gate") != "fail"
+    ):
+        scopes.append("actionable")
+    if (
+        rec == "reject"
+        and reasons
+        and set(reasons) <= _TIMING_REASONS
+        and (row.get("methodological_fit") or 0) >= 60
+        and fit_type != "poor-fit"
+    ):
+        scopes.append("future_target")
+    return scopes
+
+
+def skills_analytics(cfg: Config) -> dict:
+    """Per-scope skill statistics with required and preferred counted
+    separately. The main personal Skills Radar reads the 'target_market'
+    scope — never the full corpus — so poor-fit engineering/science vacancies
+    cannot distort it while still being preserved for audit."""
+    conn = connect(cfg)
+    try:
+        rows = [dict(r) for r in conn.execute(
+            "SELECT id, org_id, fit_type, recommendation, eligibility_gate, "
+            "methodological_fit, required_skills, preferred_skills, "
+            "rejection_reasons FROM opportunities WHERE hidden = 0"
+        )]
+    finally:
+        conn.close()
+
+    def empty() -> dict:
+        return {"opportunities": 0, "required": {}, "preferred": {}}
+
+    out: dict = {
+        "target_market": empty(),
+        "actionable": empty(),
+        "future_target": empty(),
+        "institution_specific": {},
+        "full_audit_count": len(rows),
+    }
+
+    for row in rows:
+        req = json.loads(row["required_skills"] or "[]")
+        pref = json.loads(row["preferred_skills"] or "[]")
+        scopes = analytics_scopes(row)
+        buckets = [out[s] for s in scopes]
+        # Institution scope is separate and always populated (per org).
+        inst = out["institution_specific"].setdefault(row["org_id"], empty())
+        buckets.append(inst)
+        for b in buckets:
+            b["opportunities"] += 1
+            for s in req:
+                b["required"][s] = b["required"].get(s, 0) + 1
+            for s in pref:
+                b["preferred"][s] = b["preferred"].get(s, 0) + 1
+    return out
 
 
 def health_data(cfg: Config) -> dict:

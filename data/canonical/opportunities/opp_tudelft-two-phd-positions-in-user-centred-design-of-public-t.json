@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-two-phd-positions-in-user-centred-design-of-public-t",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:35:01.092467Z",
-  "updated_at": "2026-07-18T04:32:25.203560Z",
+  "updated_at": "2026-07-18T04:44:34.504406Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:35:01.092467Z",
@@ -86,6 +86,24 @@
         "derived.needs_review"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.460860Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.504406Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -148,6 +166,8 @@
       "mixed-methods",
       "academic-writing"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [
       "user-studies",
       "quantitative-research",
@@ -169,6 +189,9 @@
       "Language requirement likely decisive regardless of fit",
       "Would move the research identity toward service design and away from XR"
     ],
+    "rejection_reasons": [],
+    "future_group_value": "medium",
+    "future_group_rationale": "Adjacent methodological family - group worth watching if it opens closer-fitting positions",
     "funding_assessment": "Posting states both positions are fully funded for four years.",
     "recommendation": "monitor",
     "next_action": "No investment unless the Dutch requirement turns out to be soft; the IDE Seamless Personal Mobility Lab is still worth noting on the target map.",
@@ -178,7 +201,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:43:47.143606Z",
+    "analyzed_at": "2026-07-18T04:44:34.503406Z",
     "analysis_input_hash": "4abf995eacc3c4e3ea92b0b5f518c94b627e37f752099d71e89d7ddd012862ce"
   },
   "derived": {

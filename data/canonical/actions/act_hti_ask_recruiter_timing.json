@@ -1,9 +1,9 @@
 {
   "id": "act_hti_ask_recruiter_timing",
   "entity_type": "action",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T04:31:52.195637Z",
-  "updated_at": "2026-07-18T04:31:52.196638Z",
+  "updated_at": "2026-07-18T04:44:32.513406+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:31:52.196638Z",
@@ -12,6 +12,14 @@
         "*created*"
       ],
       "note": "ambiguous degree-timing -> recruiter question"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.513406+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
     }
   ],
   "system": {

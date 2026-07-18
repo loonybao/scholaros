@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-doctoral-researcher-in-ai-and-quantum-inspired-optimiz",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:35:38.366813Z",
-  "updated_at": "2026-07-18T04:32:24.958035Z",
+  "updated_at": "2026-07-18T04:44:34.361812Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:38.366813Z",
@@ -109,6 +109,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.229686Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.361812Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -167,6 +186,8 @@
     "required_skills": [
       "python"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [
       "python"
@@ -176,6 +197,12 @@
       "Energy/electrical engineering background expected"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit",
+      "eligibility_mismatch"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Fully funded per posting text (Research Council of Finland).",
     "recommendation": "reject",
     "next_action": "None.",
@@ -185,7 +212,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:05:53.781537Z",
+    "analyzed_at": "2026-07-18T04:44:34.361812Z",
     "analysis_input_hash": "6a60f98e8a0dbac02d5076ac591c6f6d8873165782a091893ee0659c3773fc00"
   },
   "derived": {

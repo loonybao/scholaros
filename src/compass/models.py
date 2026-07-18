@@ -15,7 +15,23 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-SCHEMA_VERSION = 5
+SCHEMA_VERSION = 6
+
+# Structured rejection reasons. A reject decision NEVER deletes opportunity
+# intelligence — records stay browsable for history and skill analytics; the
+# reasons make the rejection auditable and let timing/career-stage rejects be
+# distinguished from research-fit rejects.
+RejectionReason = Literal[
+    "poor_research_fit",
+    "eligibility_mismatch",
+    "degree_timing_mismatch",
+    "career_stage_mismatch",
+    "unpaid_or_self_funded",
+    "language_requirement",
+    "mobility_or_location_constraint",
+    "deadline_passed",
+    "user_not_interested",
+]
 
 ID_PREFIXES = {
     "opportunity": "opp_",
@@ -149,11 +165,22 @@ class OpportunityAI(BaseModel):
     growth_value: ScoreWithRationale
     strategic_value: ScoreWithRationale
     required_skills: list[str] = Field(default_factory=list)  # taxonomy ids
+    preferred_skills: list[str] = Field(default_factory=list)  # taxonomy ids
+    # taxonomy id -> short verbatim quote from the official text that
+    # evidences the skill extraction (required or preferred).
+    skill_evidence: dict[str, str] = Field(default_factory=dict)
     matched_skills: list[str] = Field(default_factory=list)
     missing_skills: list[str] = Field(default_factory=list)
     transferable_strengths: list[str] = Field(default_factory=list)
     eligibility_flags: list[str] = Field(default_factory=list)
     risks: list[str] = Field(default_factory=list)
+    # THREE SEPARATE JUDGMENTS: the vacancy decision (recommendation), the
+    # research alignment (fit scores/fit_type), and the future value of the
+    # lab/group (below). A vacancy can be rejected for timing while the group
+    # remains a high-value future target.
+    rejection_reasons: list[RejectionReason] = Field(default_factory=list)
+    future_group_value: Optional[Literal["high", "medium", "low"]] = None
+    future_group_rationale: Optional[str] = None
     funding_assessment: Optional[str] = None  # interpretation, never a fact
     recommendation: Optional[
         Literal["apply", "consider", "monitor", "reject"]
@@ -394,6 +421,7 @@ class DecisionManual(BaseModel):
     final: Optional[DecisionValue] = None
     decided_at: Optional[datetime] = None
     rationale: str = ""
+    rejection_reasons: list[RejectionReason] = Field(default_factory=list)
     superseded_by: Optional[str] = None
 
 

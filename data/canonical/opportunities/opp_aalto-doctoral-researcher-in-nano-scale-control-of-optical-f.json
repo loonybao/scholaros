@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-doctoral-researcher-in-nano-scale-control-of-optical-f",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:35:02.111044Z",
-  "updated_at": "2026-07-18T04:32:24.962036Z",
+  "updated_at": "2026-07-18T04:44:34.368815Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:02.111044Z",
@@ -109,6 +109,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.233194Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.368815Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -165,6 +184,8 @@
       "rationale": "Aalto funded PhD, wrong field."
     },
     "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [],
     "transferable_strengths": [],
@@ -172,6 +193,12 @@
       "Physics/photonics background expected"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit",
+      "eligibility_mismatch"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Funded doctoral position per posting text.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -181,7 +208,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:05:53.786980Z",
+    "analyzed_at": "2026-07-18T04:44:34.367817Z",
     "analysis_input_hash": "77c1446ac85766e531e782f08c4e8df7725e48ba6d07e7f6a3eccbe5db7ec714"
   },
   "derived": {

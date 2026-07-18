@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:33:42.430502Z",
-  "updated_at": "2026-07-18T04:32:25.050947Z",
+  "updated_at": "2026-07-18T04:44:34.460373Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:33:42.430502Z",
@@ -86,6 +86,26 @@
         "derived.needs_review"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.315366Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.460373Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.preferred_skills",
+        "ai.skill_evidence"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -148,6 +168,15 @@
       "quantitative-research",
       "academic-writing"
     ],
+    "preferred_skills": [
+      "physiological-sensing"
+    ],
+    "skill_evidence": {
+      "physiological-sensing": "Proven experience with, or a strong interest in, sensor-based system development, biosensing technologies, physiological measurement, and data collection",
+      "user-studies": "proven experience in prototyping and/or user research",
+      "qualitative-research": "a strong design research sensibility",
+      "academic-writing": "A strong motivation to conduct academic research and publish in peer-reviewed venues"
+    },
     "matched_skills": [
       "user-studies",
       "quantitative-research",
@@ -170,6 +199,9 @@
       "Competing candidates from design schools may bring materials-experience portfolios",
       "Choosing this would trade XR depth for materials/somatic design breadth"
     ],
+    "rejection_reasons": [],
+    "future_group_value": "medium",
+    "future_group_rationale": "Adjacent methodological family - group worth watching if it opens closer-fitting positions",
     "funding_assessment": "TU Delft doctoral appointment with stated salary range per posting; Horizon Europe project funding.",
     "recommendation": "consider",
     "next_action": "Read the full posting; if appealing, prepare a short motivation connecting embodied spatial experience in XR to material experience; deadline 2026-08-02 sits between the Tampere (08-03) and XR-AV (08-30) deadlines - prioritise accordingly.",
@@ -179,7 +211,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T04:10:34.984092Z",
+    "analyzed_at": "2026-07-18T04:44:34.459373Z",
     "analysis_input_hash": "1cd92c07f90f43a03caa5f2b2ff78318fd78d6284aa7eb1c848896bde7d8a0be"
   },
   "derived": {

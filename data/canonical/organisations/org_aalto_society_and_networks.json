@@ -1,9 +1,9 @@
 {
   "id": "org_aalto_society_and_networks",
   "entity_type": "organisation",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:21:34.830986Z",
-  "updated_at": "2026-07-18T04:30:54.580962+00:00",
+  "updated_at": "2026-07-18T04:44:32.472862+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:21:34.831987Z",
@@ -28,6 +28,14 @@
         "schema_version"
       ],
       "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.472862+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
     }
   ],
   "official": {

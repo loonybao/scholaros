@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-2-phd-positions-in-physicsinformed-machine-learning",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:34:04.848818Z",
-  "updated_at": "2026-07-18T04:32:25.039436Z",
+  "updated_at": "2026-07-18T04:44:34.457375Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:34:04.848818Z",
@@ -86,6 +86,25 @@
         "derived.needs_review"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.305368Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.457375Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -145,6 +164,8 @@
       "python",
       "statistics"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [
       "python",
@@ -155,6 +176,12 @@
       "Quantitative engineering/math background expected"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit",
+      "eligibility_mismatch"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "TU Delft doctoral appointments per posting.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -164,7 +191,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T04:10:35.003093Z",
+    "analyzed_at": "2026-07-18T04:44:34.456373Z",
     "analysis_input_hash": "de2f8ccdf71635fa072acdc73ca563bd510708a7399fe38147fe0070b676fa1e"
   },
   "derived": {

@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere_project_researcher_hti_2026",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T13:08:13.135307Z",
-  "updated_at": "2026-07-18T04:32:25.037438Z",
+  "updated_at": "2026-07-18T04:44:34.454368Z",
   "change_history": [
     {
       "ts": "2026-07-17T13:08:13.136310Z",
@@ -176,6 +176,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.303365Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.454368Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.skill_evidence"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -246,6 +265,18 @@
       "python",
       "statistics"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {
+      "unity": "software development in a broad sense, encompassing various programming languages, platforms, and technologies",
+      "csharp": "software development in a broad sense, encompassing various programming languages, platforms, and technologies",
+      "virtual-reality": "Virtual, Augmented, and eXtended Reality (VR/AR/XR)",
+      "augmented-reality": "Virtual, Augmented, and eXtended Reality (VR/AR/XR)",
+      "mixed-reality": "Virtual, Augmented, and eXtended Reality (VR/AR/XR)",
+      "user-studies": "planning, conducting, and analyzing user evaluations / experimental research",
+      "experimental-design": "planning, conducting, and analyzing user evaluations / experimental research (with a variety of objective and subjective data collection methods)",
+      "quantitative-research": "collection/analysis of objective and subjective data",
+      "multiplayer-networking": "human-centered simulation and training in networked defense environments"
+    },
     "matched_skills": [
       "unity",
       "csharp",
@@ -277,6 +308,9 @@
       "Defence-related projects may exclude some nationalities; unresolved for this applicant",
       "Formal timing eligibility may fail despite high research alignment - research-method fit remains high (84) regardless of the outcome"
     ],
+    "rejection_reasons": [],
+    "future_group_value": "high",
+    "future_group_rationale": "TAUCHI/PIRG: dedicated human-technology interaction centre with doctoral pathway",
     "funding_assessment": "Posting text describes salaried fixed-term employment (1-3 years) under the Finnish university salary system; consistent with the applicant's salaried/funded requirement. Doctoral funding beyond the project term is not described.",
     "recommendation": "consider",
     "next_action": "Ask the recruiter the degree-timing question (act_hti_ask_recruiter_timing, due 2026-07-21); resume application preparation only if a 2027 completion/start is acceptable.",
@@ -286,7 +320,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T04:32:21.218117Z",
+    "analyzed_at": "2026-07-18T04:44:34.453367Z",
     "analysis_input_hash": "f0d32812c41ee6bfd15b4c73bb40e94af685aa60ffb459032b41f6303d3be097"
   },
   "derived": {

@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-in-data-and-ai-for-multi-source-micromo",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:31:27.410131Z",
-  "updated_at": "2026-07-18T04:32:25.080947Z",
+  "updated_at": "2026-07-18T04:44:34.472884Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:31:27.410131Z",
@@ -86,6 +86,25 @@
         "derived.needs_review"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.345118Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.472884Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -146,6 +165,8 @@
       "statistics",
       "behavioural-logging"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [
       "python",
@@ -157,6 +178,11 @@
       "Deadline 2026-07-19 (imminent) - academic; the data-science requirements are not the applicant's profile"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit"
+    ],
+    "future_group_value": "high",
+    "future_group_rationale": "MXR/UMO cluster: wrong sub-profile for the user, but the lab is a high-value target",
     "funding_assessment": "TU Delft doctoral appointment with stated salary range per posting.",
     "recommendation": "reject",
     "next_action": "Fold into the MXR Lab expansion signal (third concurrent SAFE MOVE / MXR-cluster opening) - do not apply.",
@@ -166,7 +192,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T04:10:34.990091Z",
+    "analyzed_at": "2026-07-18T04:44:34.472884Z",
     "analysis_input_hash": "ac66bd52c8015034a5218952d9116e4c93358fce7b02ac3e3594ea2e066e277a"
   },
   "derived": {

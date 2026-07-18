@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-postdoc-in-application-of-extended-reality-for-inclu",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:28:38.448182Z",
-  "updated_at": "2026-07-18T04:32:25.161556Z",
+  "updated_at": "2026-07-18T04:44:34.487890Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:28:38.448182Z",
@@ -86,6 +86,25 @@
         "derived.needs_review"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.419764Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.487890Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -149,6 +168,8 @@
       "statistics",
       "python"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [
       "unity",
       "virtual-reality",
@@ -164,6 +185,11 @@
       "Requires a PhD - hard ineligibility at the applicant's career stage"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "career_stage_mismatch"
+    ],
+    "future_group_value": "high",
+    "future_group_rationale": "MXR Lab: same programme at postdoc level - future doctoral openings likely",
     "funding_assessment": "Salaried postdoc with stated range per posting; eligibility is the blocker.",
     "recommendation": "reject",
     "next_action": "Fold into the MXR Lab future-recruitment signal: the lab is hiring at PhD AND postdoc level simultaneously - contact with Dr. Yan Feng serves both XR openings.",
@@ -173,7 +199,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:43:47.146723Z",
+    "analyzed_at": "2026-07-18T04:44:34.486890Z",
     "analysis_input_hash": "14a2747b7fe7af2bde8ddb03415e559d08c241bd877a84de963e0e325f4372eb"
   },
   "derived": {

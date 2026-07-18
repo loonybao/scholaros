@@ -1,9 +1,9 @@
 {
   "id": "act_safemove_deadline_check",
   "entity_type": "action",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T04:11:50.144268Z",
-  "updated_at": "2026-07-18T04:31:52.253176Z",
+  "updated_at": "2026-07-18T04:44:32.519924+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:11:50.145266Z",
@@ -39,6 +39,14 @@
         "outcome.result"
       ],
       "note": "deadline check completed: still open"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.519924+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
     }
   ],
   "system": {

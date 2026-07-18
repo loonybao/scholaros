@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-in-extended-reality-for-safe-and-active",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:31:38.723202Z",
-  "updated_at": "2026-07-18T04:32:25.087948Z",
+  "updated_at": "2026-07-18T04:44:34.478884Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:31:38.723202Z",
@@ -94,6 +94,25 @@
         "derived.needs_review"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.351119Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.478884Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.skill_evidence"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -164,6 +183,22 @@
       "physiological-sensing",
       "behavioural-logging"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {
+      "unity": "skills in developing XR applications using Unity/Unreal game engine",
+      "unreal-engine": "skills in developing XR applications using Unity/Unreal game engine",
+      "virtual-reality": "employing immersive eXtended Reality (XR) and wearable sensing technologies",
+      "mixed-reality": "Validate XR findings through mixed-reality and real-world experiments",
+      "physiological-sensing": "behavioral, cognitive, psychological, and physiological responses",
+      "behavioural-logging": "explainable behavioral and safety models using behavioural data",
+      "experimental-design": "Strong and demonstrable experimental skills, including experimental design, experimental setup, conducting experiments, and data collection",
+      "user-studies": "Conduct XR experiments to investigate behavioral, cognitive, psychological, and physiological responses",
+      "python": "Strong analytic and programming skills (e.g., Python, C#) with proficiency in statistics",
+      "csharp": "Strong analytic and programming skills (e.g., Python, C#) with proficiency in statistics",
+      "statistics": "Strong analytic and programming skills (e.g., Python, C#) with proficiency in statistics",
+      "qualitative-research": "Strong skills in qualitative and quantitative analysis",
+      "quantitative-research": "Strong skills in qualitative and quantitative analysis"
+    },
     "matched_skills": [
       "unity",
       "csharp",
@@ -191,6 +226,9 @@
       "Effectively out of reach due to the deadline; treat primarily as evidence that the MXR Lab is actively growing",
       "Wearable/physiological sensing experience is absent"
     ],
+    "rejection_reasons": [],
+    "future_group_value": "high",
+    "future_group_rationale": "MXR Lab (see sig_tudelft_mxr_lab_expansion)",
     "funding_assessment": "Posting describes a salaried TU Delft doctoral appointment with stated salary range.",
     "recommendation": "consider",
     "next_action": "Check the official page TODAY for a deadline extension; if extended, apply with the XR-AV materials; regardless, note that the MXR Lab has posted two XR PhDs and one XR postdoc this cycle - a strong future-recruitment signal around Dr. Yan Feng's group.",
@@ -200,7 +238,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:43:47.141606Z",
+    "analyzed_at": "2026-07-18T04:44:34.477884Z",
     "analysis_input_hash": "3359d5ae1ac9904aeffdd3e12cb520f6d82f7d87cc400dfadaec43d8dbbdb66f"
   },
   "derived": {

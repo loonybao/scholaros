@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-a-doctoral-researcher-phd-student-in-machine-learning",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:35:49.268479Z",
-  "updated_at": "2026-07-18T04:32:24.955036Z",
+  "updated_at": "2026-07-18T04:44:34.359812Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:49.268479Z",
@@ -109,6 +109,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.227175Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.359812Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -167,6 +186,8 @@
     "required_skills": [
       "python"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [
       "python"
@@ -176,6 +197,11 @@
       "Requires a Master's in chemistry, physics, materials science, mathematics or CS"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Funded doctoral position per posting text.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -185,7 +211,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:05:53.778531Z",
+    "analyzed_at": "2026-07-18T04:44:34.358814Z",
     "analysis_input_hash": "1e75cf54d866dfa4ad655ef196ac0a99780cbf19a5c8ba288f4f9794a5c5f1cc"
   },
   "derived": {

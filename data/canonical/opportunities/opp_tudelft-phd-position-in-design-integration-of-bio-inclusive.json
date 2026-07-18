@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-in-design-integration-of-bio-inclusive",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:32:23.933019Z",
-  "updated_at": "2026-07-18T04:32:25.083947Z",
+  "updated_at": "2026-07-18T04:44:34.475888Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:32:23.933019Z",
@@ -86,6 +86,25 @@
         "derived.needs_review"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.347118Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.475888Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -145,6 +164,8 @@
       "qualitative-research",
       "user-studies"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [
       "user-studies"
     ],
@@ -158,6 +179,11 @@
       "Architecture/ecology background likely expected"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "eligibility_mismatch"
+    ],
+    "future_group_value": "medium",
+    "future_group_rationale": "Adjacent methodological family - group worth watching if it opens closer-fitting positions",
     "funding_assessment": "TU Delft doctoral appointment per posting.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -167,7 +193,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T04:10:35.010094Z",
+    "analyzed_at": "2026-07-18T04:44:34.474884Z",
     "analysis_input_hash": "4b937eeb7fd62189f349d88f8822deba0067cee5c7d988b79fa4137ef500b418"
   },
   "derived": {

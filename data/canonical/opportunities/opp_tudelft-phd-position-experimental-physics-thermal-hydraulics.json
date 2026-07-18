@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-experimental-physics-thermal-hydraulics",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:38:58.508648Z",
-  "updated_at": "2026-07-18T04:32:25.062946Z",
+  "updated_at": "2026-07-18T04:44:32.327232+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:38:58.508648Z",
@@ -48,6 +48,14 @@
         "derived.needs_review"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.327232+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
     }
   ],
   "official": {

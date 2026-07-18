@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-postdoctoral-research-fellow-chip-technologies-12-po",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:11:28.211046Z",
-  "updated_at": "2026-07-18T04:32:25.029431Z",
+  "updated_at": "2026-07-18T04:44:34.444367Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:11:28.212044Z",
@@ -138,6 +138,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.294364Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.444367Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -194,6 +213,8 @@
       "rationale": "Well-funded programme in a preferred country, but wrong career stage and wrong field."
     },
     "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [],
     "transferable_strengths": [],
@@ -203,6 +224,12 @@
       "Separate stated condition: appointment contingent on a Finnish security-clearance vetting procedure - a vetting step, not an export-control clause; scope should be confirmed by a human on the official page"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "career_stage_mismatch",
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Posting text describes a salaried 3-year postdoctoral programme; funding is clear at AI level - eligibility (doctoral degree) is the blocker, not funding.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -212,7 +239,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:02:10.294850Z",
+    "analyzed_at": "2026-07-18T04:44:34.443369Z",
     "analysis_input_hash": "4b61045039bd294c18c5571859bbaa51efefe26fc6276265c93caad5b1aa6a74"
   },
   "derived": {

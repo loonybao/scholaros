@@ -1,9 +1,9 @@
 {
   "id": "org_tudelft_faculty-of-applied-sciences",
   "entity_type": "organisation",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:27:53.413965Z",
-  "updated_at": "2026-07-18T04:30:54.594613+00:00",
+  "updated_at": "2026-07-18T04:44:32.485372+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:27:53.413965Z",
@@ -28,6 +28,14 @@
         "schema_version"
       ],
       "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.485372+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
     }
   ],
   "official": {

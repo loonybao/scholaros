@@ -1,9 +1,9 @@
 {
   "id": "app_tudelft_safemove_2026",
   "entity_type": "application",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T04:18:20.779126Z",
-  "updated_at": "2026-07-18T04:31:52.267688Z",
+  "updated_at": "2026-07-18T04:44:32.528949+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.780126Z",
@@ -29,6 +29,14 @@
         "manual.next_step"
       ],
       "note": "deadline check result recorded"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.528949+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
     }
   ],
   "system": {

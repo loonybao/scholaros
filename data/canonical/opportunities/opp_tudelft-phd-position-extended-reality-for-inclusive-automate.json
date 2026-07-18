@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-extended-reality-for-inclusive-automate",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T03:28:27.196453Z",
-  "updated_at": "2026-07-18T04:32:25.065947Z",
+  "updated_at": "2026-07-18T04:44:34.467373Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:28:27.196453Z",
@@ -115,6 +115,25 @@
         "derived.needs_review"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.329602Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.467373Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.skill_evidence"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -182,6 +201,19 @@
       "csharp",
       "statistics"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {
+      "unity": "skills in developing XR applications using Unity/Unreal game engine",
+      "unreal-engine": "skills in developing XR applications using Unity/Unreal game engine",
+      "virtual-reality": "A solid background and strong interest in VR technologies",
+      "experimental-design": "Strong and demonstrable experimental skills, including experiment design, experiment setup, conducting experiments, and data collection",
+      "user-studies": "Conduct VR experiments to collect data and model decision-making processes",
+      "python": "Strong analytic and programming skills (e.g., Python, C#) with proficiency in statistics",
+      "csharp": "Strong analytic and programming skills (e.g., Python, C#) with proficiency in statistics",
+      "statistics": "Strong analytic and programming skills (e.g., Python, C#) with proficiency in statistics",
+      "qualitative-research": "Strong skills in qualitative and quantitative analysis",
+      "quantitative-research": "Strong skills in qualitative and quantitative analysis"
+    },
     "matched_skills": [
       "unity",
       "csharp",
@@ -208,6 +240,9 @@
       "Domain knowledge in transportation/AV research is absent and other candidates may bring it",
       "go/no-go assessment at 15 months per TU Delft PhD contract structure"
     ],
+    "rejection_reasons": [],
+    "future_group_value": "high",
+    "future_group_rationale": "MXR Lab: dedicated XR-behaviour lab, 4 concurrent openings (sig_tudelft_mxr_lab_expansion)",
     "funding_assessment": "Posting states a 4-year CLA-salaried doctoral appointment with an explicit salary range - fully consistent with the funding requirement.",
     "recommendation": "apply",
     "next_action": "Verify timing with Dr. Yan Feng (act_xrav_confirm_timing, due 2026-08-05) alongside the planned introduction; document checklist is verified - begin CV/writing-sample selection after the Tampere recruiter answer clarifies scheduling.",
@@ -217,7 +252,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T04:32:21.222117Z",
+    "analyzed_at": "2026-07-18T04:44:34.467373Z",
     "analysis_input_hash": "cef997af327efa5bee4b76f11f2bd737758d651434c0f32a453394f4031a20a3"
   },
   "derived": {

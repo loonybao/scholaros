@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-doctoral-researcher-soft-robotics",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:12:05.062615Z",
-  "updated_at": "2026-07-18T04:32:25.022914Z",
+  "updated_at": "2026-07-18T04:44:34.436371Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:12:05.063145Z",
@@ -117,6 +117,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.288359Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.436371Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -173,6 +192,8 @@
       "rationale": "Funded doctoral track, wrong field."
     },
     "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [],
     "transferable_strengths": [],
@@ -180,6 +201,12 @@
       "Engineering/microsystems background expected"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit",
+      "eligibility_mismatch"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Salaried 3-year fixed term per posting text.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -189,7 +216,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:04:29.528186Z",
+    "analyzed_at": "2026-07-18T04:44:34.435370Z",
     "analysis_input_hash": "4607adfe997a9c34ea8d187f73cc151cda8357b209c7f2f0508edfd914cdc58b"
   },
   "derived": {

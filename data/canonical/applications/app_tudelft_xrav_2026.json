@@ -1,9 +1,9 @@
 {
   "id": "app_tudelft_xrav_2026",
   "entity_type": "application",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-18T04:18:20.776124Z",
-  "updated_at": "2026-07-18T04:31:52.238659Z",
+  "updated_at": "2026-07-18T04:44:32.532455+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.776124Z",
@@ -30,6 +30,14 @@
         "manual.notes"
       ],
       "note": "document checklist verified from official evidence"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.532455+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
     }
   ],
   "system": {

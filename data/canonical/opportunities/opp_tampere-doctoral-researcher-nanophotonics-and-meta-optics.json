@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-doctoral-researcher-nanophotonics-and-meta-optics",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:12:23.465820Z",
-  "updated_at": "2026-07-18T04:32:25.015566Z",
+  "updated_at": "2026-07-18T04:44:34.428369Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:12:23.465820Z",
@@ -117,6 +117,25 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.282361Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.428369Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.rejection_reasons"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -173,6 +192,8 @@
       "rationale": "Funded doctoral track in a preferred country, wrong field."
     },
     "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [],
     "missing_skills": [],
     "transferable_strengths": [],
@@ -180,6 +201,11 @@
       "Requires a degree qualifying for doctoral studies in Physics, Photonics or Engineering"
     ],
     "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": "No methodological neighbourhood to the target identity",
     "funding_assessment": "Salaried 3-year fixed term per posting text.",
     "recommendation": "reject",
     "next_action": "None.",
@@ -189,7 +215,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T03:04:29.518151Z",
+    "analyzed_at": "2026-07-18T04:44:34.427369Z",
     "analysis_input_hash": "481eb5c2b8d4545d814ad72c7b14c07ec8c8543437bcdd4272145fdf0bdac58b"
   },
   "derived": {

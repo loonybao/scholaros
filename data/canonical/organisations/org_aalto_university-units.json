@@ -1,9 +1,9 @@
 {
   "id": "org_aalto_university-units",
   "entity_type": "organisation",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:35:14.694068Z",
-  "updated_at": "2026-07-18T04:30:54.583091+00:00",
+  "updated_at": "2026-07-18T04:44:32.474861+00:00",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:14.695064Z",
@@ -44,6 +44,14 @@
         "schema_version"
       ],
       "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.474861+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
     }
   ],
   "official": {

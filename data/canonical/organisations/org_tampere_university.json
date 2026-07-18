@@ -1,9 +1,9 @@
 {
   "id": "org_tampere_university",
   "entity_type": "organisation",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T13:08:10.961264Z",
-  "updated_at": "2026-07-18T04:30:54.588097+00:00",
+  "updated_at": "2026-07-18T04:44:32.480373+00:00",
   "change_history": [
     {
       "ts": "2026-07-17T13:08:10.962267Z",
@@ -44,6 +44,14 @@
         "schema_version"
       ],
       "note": "migrated to v5"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.480373+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
     }
   ],
   "official": {

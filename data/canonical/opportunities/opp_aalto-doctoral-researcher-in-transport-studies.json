@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-doctoral-researcher-in-transport-studies",
   "entity_type": "opportunity",
-  "schema_version": 5,
+  "schema_version": 6,
   "created_at": "2026-07-17T15:36:06.722580Z",
-  "updated_at": "2026-07-18T04:32:24.971031Z",
+  "updated_at": "2026-07-18T04:44:34.378327Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:36:06.722580Z",
@@ -112,6 +112,24 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:44:32.242206Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v6"
+    },
+    {
+      "ts": "2026-07-18T04:44:34.378327Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.future_group_rationale",
+        "ai.future_group_value"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
     }
   ],
   "official": {
@@ -173,6 +191,8 @@
       "quantitative-research",
       "academic-writing"
     ],
+    "preferred_skills": [],
+    "skill_evidence": {},
     "matched_skills": [
       "quantitative-research",
       "academic-writing",
@@ -196,6 +216,9 @@
       "Degree-field mismatch could make the application non-competitive regardless of quality",
       "Accepting would move the research identity away from human-centred XR"
     ],
+    "rejection_reasons": [],
+    "future_group_value": "medium",
+    "future_group_rationale": "Adjacent methodological family - group worth watching if it opens closer-fitting positions",
     "funding_assessment": "Posting text states the position is fully funded for four years under the Finnish university collective agreement - consistent with the funding requirement.",
     "recommendation": "monitor",
     "next_action": "No action unless the applicant wants an Aalto foothold badly enough to build a governance-flavoured proposal; revisit if no closer HCI/XR openings appear at Aalto before the September deadline.",
@@ -205,7 +228,7 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T04:13:23.993371Z",
+    "analyzed_at": "2026-07-18T04:44:34.377325Z",
     "analysis_input_hash": "9b8566b69f092ef5cbc2bc04c06aaa3c6cbc95f75e5bff7a58ff6c5898ea18d2"
   },
   "derived": {
