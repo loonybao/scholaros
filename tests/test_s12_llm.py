@@ -58,6 +58,16 @@ def _fake_completion(valid=True, capture=None):
     return fn
 
 
+def test_cli_analyze_and_run_registered():
+    from pathlib import Path
+
+    from compass import __main__ as m
+    assert callable(m.cmd_analyze) and callable(m.cmd_run)
+    src = Path(m.__file__).read_text(encoding="utf-8")
+    assert '"analyze"' in src and '"run"' in src        # subcommands wired
+    assert '"analyze": cmd_analyze' in src and '"run": cmd_run' in src
+
+
 def test_assert_whitelisted_blocks_private_keys():
     with pytest.raises(LLMError):
         assert_whitelisted({"packet_type": "compass-analysis-packet",
