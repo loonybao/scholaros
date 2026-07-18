@@ -98,9 +98,11 @@ class VaultExporter:
         for sig in signals:
             self._write([SUBDIRS["signal"], f"{sig.id}.md"], self._render_signal(sig))
             count += 1
+        opportunities_by_id = {o.id: o for o in opportunities}
         for app in applications:
             self._write(
-                [SUBDIRS["application"], f"{app.id}.md"], self._render_application(app)
+                [SUBDIRS["application"], f"{app.id}.md"],
+                self._render_application(app, opportunities_by_id),
             )
             count += 1
 
@@ -299,33 +301,60 @@ class VaultExporter:
         lines += ["---", "_Generated file — do not edit._", ""]
         return "\n".join(lines)
 
-    def _render_application(self, app: Application) -> str:
+    def _render_application(
+        self, app: Application, opportunities: dict[str, Opportunity]
+    ) -> str:
         m = app.manual
+        opp = opportunities.get(app.system.opportunity_id)
+        deadline = opp.official.deadline if opp else None
+        submit_url = (opp.official.apply_url or opp.official.canonical_url) if opp else None
         lines = [
             "---",
             f"id: {app.id}",
             "type: application",
             f"stage: {m.stage}",
             f"opportunity: {app.system.opportunity_id}",
+            f"official_deadline: {deadline or 'unknown'}",
+            f"internal_due_date: {m.internal_due_date or 'not set'}",
+            f"blockers: {len(m.blockers)}",
             "---",
             "",
             f"# Application — [[{app.system.opportunity_id}]]",
             "",
             f"**Stage:** {m.stage}",
-            f"**Next step:** {m.next_step or 'none'}"
+            f"**Official deadline:** {deadline or 'unknown'}"
+            + (f" ({opp.official.deadline_note})" if opp and opp.official.deadline_note else ""),
+            f"**Internal preparation date:** {m.internal_due_date or 'not set'}",
+            f"**Official submission URL:** {submit_url or 'unknown'}",
+            f"**Contacts:** "
+            + (", ".join(f"[[{pid}]]" for pid in m.contact_person_ids) or "none recorded"),
+            f"**Next action:** {m.next_step or 'none'}"
             + (f" (due {m.next_step_due})" if m.next_step_due else ""),
             "",
-            "## Materials",
+            "## Blockers",
             "",
         ]
+        if m.blockers:
+            lines += [f"- [ ] {b}" for b in m.blockers]
+        else:
+            lines.append("_None._")
+        lines += ["", "## Required documents", ""]
         if m.materials:
             lines += [f"- [{mat.status}] {mat.name}" for mat in m.materials]
         else:
-            lines.append("_None yet._")
+            lines.append("_Not yet enumerated — verify on the official page._")
+        if m.notes:
+            lines += ["", "## Notes (from record)", "", m.notes]
         if m.events:
             lines += ["", "## Events", ""]
             lines += [f"- {e.ts.date()}: {e.event} {('— ' + e.note) if e.note else ''}" for e in m.events]
-        lines += ["", "---", "_Generated file — do not edit._", ""]
+        lines += [
+            "",
+            "---",
+            f"_Generated file — do not edit. Personal notes: create "
+            f"`vault/notes/{app.id}.md` and link [[{app.id}]]._",
+            "",
+        ]
         return "\n".join(lines)
 
     def _render_dashboard(

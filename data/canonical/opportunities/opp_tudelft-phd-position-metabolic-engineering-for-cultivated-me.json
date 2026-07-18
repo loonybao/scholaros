@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-metabolic-engineering-for-cultivated-me",
   "entity_type": "opportunity",
-  "schema_version": 3,
+  "schema_version": 4,
   "created_at": "2026-07-18T03:40:28.468326Z",
-  "updated_at": "2026-07-18T03:41:24.947209Z",
+  "updated_at": "2026-07-18T04:18:19.558394+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:40:28.468326Z",
@@ -22,6 +22,14 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:18:19.558394+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v4"
     }
   ],
   "official": {

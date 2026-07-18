@@ -1,0 +1,60 @@
+{
+  "id": "app_tudelft_xrav_2026",
+  "entity_type": "application",
+  "schema_version": 4,
+  "created_at": "2026-07-18T04:18:20.776124Z",
+  "updated_at": "2026-07-18T04:18:20.776124Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:18:20.776124Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "S5.5 sprint: primary application target"
+    }
+  ],
+  "system": {
+    "opportunity_id": "opp_tudelft-phd-position-extended-reality-for-inclusive-automate"
+  },
+  "manual": {
+    "stage": "preparing",
+    "submitted_at": null,
+    "materials": [
+      {
+        "name": "CV (tailored to the five Need-to-Haves)",
+        "status": "todo",
+        "path": null
+      },
+      {
+        "name": "Motivation letter",
+        "status": "todo",
+        "path": null
+      },
+      {
+        "name": "Intro email to Dr. Yan Feng (wayfinding-transfer -> AV-VRU bridge)",
+        "status": "todo",
+        "path": null
+      },
+      {
+        "name": "Verify full document list on the official application portal",
+        "status": "todo",
+        "path": null
+      }
+    ],
+    "contact_person_ids": [
+      "per_yan_feng"
+    ],
+    "events": [],
+    "blockers": [],
+    "next_step": "Verify the official document list, then draft the intro email to Dr. Yan Feng",
+    "next_step_due": "2026-08-05",
+    "internal_due_date": "2026-08-10",
+    "notes": "PRIORITY: primary. Official deadline 2026-08-30 per verified record; internal preparation target 2026-08-10 (after the Tampere submission)."
+  },
+  "outcome": {
+    "result": null,
+    "decided_at": null,
+    "feedback_note": ""
+  }
+}

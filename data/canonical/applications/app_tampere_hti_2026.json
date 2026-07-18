@@ -1,0 +1,78 @@
+{
+  "id": "app_tampere_hti_2026",
+  "entity_type": "application",
+  "schema_version": 4,
+  "created_at": "2026-07-18T04:18:20.777125Z",
+  "updated_at": "2026-07-18T04:18:20.778126Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:18:20.778126Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "S5.5 sprint: pending eligibility verification"
+    }
+  ],
+  "system": {
+    "opportunity_id": "opp_tampere_project_researcher_hti_2026"
+  },
+  "manual": {
+    "stage": "preparing",
+    "submitted_at": null,
+    "materials": [
+      {
+        "name": "Motivation letter (max 1 page, independently written)",
+        "status": "todo",
+        "path": null
+      },
+      {
+        "name": "CV incl. 1-2 minute video self-introduction link",
+        "status": "todo",
+        "path": null
+      },
+      {
+        "name": "Video self-introduction (1-2 min)",
+        "status": "todo",
+        "path": null
+      },
+      {
+        "name": "Relevant skills list",
+        "status": "todo",
+        "path": null
+      },
+      {
+        "name": "Portfolio (software / research outputs / design projects)",
+        "status": "todo",
+        "path": null
+      },
+      {
+        "name": "Degree certificates",
+        "status": "todo",
+        "path": null
+      },
+      {
+        "name": "Transcript of completed Master's degree",
+        "status": "todo",
+        "path": null
+      }
+    ],
+    "contact_person_ids": [
+      "per_markku_turunen"
+    ],
+    "events": [],
+    "blockers": [
+      "MSc completion/start-date compatibility unverified (act_hti_verify_msc_timing)",
+      "Security-screening clause not yet reviewed (act_hti_review_security_clause)"
+    ],
+    "next_step": "Resolve both eligibility blockers (due 2026-07-24), then start the motivation letter",
+    "next_step_due": "2026-07-24",
+    "internal_due_date": "2026-08-01",
+    "notes": "STATUS: pending eligibility verification. Official deadline 2026-08-03 23:59 Finland time per verified record. Document list from the official posting."
+  },
+  "outcome": {
+    "result": null,
+    "decided_at": null,
+    "feedback_note": ""
+  }
+}

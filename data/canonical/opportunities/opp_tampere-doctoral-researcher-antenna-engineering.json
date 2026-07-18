@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-doctoral-researcher-antenna-engineering",
   "entity_type": "opportunity",
-  "schema_version": 3,
+  "schema_version": 4,
   "created_at": "2026-07-17T15:11:46.672788Z",
-  "updated_at": "2026-07-18T04:13:24.000371Z",
+  "updated_at": "2026-07-18T04:18:19.468246+00:00",
   "change_history": [
     {
       "ts": "2026-07-17T15:11:46.672788Z",
@@ -95,6 +95,14 @@
         "ai.analyzed_at"
       ],
       "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T04:18:19.468246+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v4"
     }
   ],
   "official": {

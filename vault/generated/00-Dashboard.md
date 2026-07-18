@@ -174,3 +174,4 @@ _Generated 2026-07-18 — run `python -m compass export` to refresh._
 ## People
 
 - [[per_markku_turunen]] — Markku Turunen (not_contacted)
+- [[per_yan_feng]] — Yan Feng (not_contacted)

@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-doctoral-researcher-soft-robotics",
   "entity_type": "opportunity",
-  "schema_version": 3,
+  "schema_version": 4,
   "created_at": "2026-07-17T15:12:05.062615Z",
-  "updated_at": "2026-07-18T03:04:29.736694Z",
+  "updated_at": "2026-07-18T04:18:19.485251+00:00",
   "change_history": [
     {
       "ts": "2026-07-17T15:12:05.063145Z",
@@ -93,6 +93,14 @@
         "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:18:19.485251+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v4"
     }
   ],
   "official": {

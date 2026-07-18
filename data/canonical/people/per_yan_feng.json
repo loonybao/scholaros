@@ -1,0 +1,36 @@
+{
+  "id": "per_yan_feng",
+  "entity_type": "person",
+  "schema_version": 4,
+  "created_at": "2026-07-18T04:18:20.774125Z",
+  "updated_at": "2026-07-18T04:18:20.774125Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:18:20.774125Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "S5.5 sprint: contact from official posting"
+    }
+  ],
+  "official": {
+    "name": "Yan Feng",
+    "org_id": "org_tudelft_mxr_lab",
+    "title": "Dr. (contact for the XR-AV Interaction PhD posting)",
+    "profile_url": null,
+    "scholar_url": null,
+    "email": "y.feng@tudelft.nl",
+    "retrieved_at": null,
+    "evidence_ids": [
+      "tudelft/1366984057"
+    ]
+  },
+  "ai": null,
+  "manual": {
+    "contact_status": "not_contacted",
+    "priority": "high",
+    "last_check": null,
+    "notes": "Contact once for both MXR XR openings."
+  }
+}

@@ -1,9 +1,9 @@
 {
   "id": "org_tudelft_mxr_lab",
   "entity_type": "organisation",
-  "schema_version": 3,
+  "schema_version": 4,
   "created_at": "2026-07-18T04:11:50.139746Z",
-  "updated_at": "2026-07-18T04:11:50.141259Z",
+  "updated_at": "2026-07-18T04:18:19.691859+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:11:50.141259Z",
@@ -12,6 +12,14 @@
         "*created*"
       ],
       "note": "S5a closure: lab identified from official postings"
+    },
+    {
+      "ts": "2026-07-18T04:18:19.691859+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v4"
     }
   ],
   "official": {

@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-postdoc-human-centred-thermal-comfort-and-machine-le",
   "entity_type": "opportunity",
-  "schema_version": 3,
+  "schema_version": 4,
   "created_at": "2026-07-18T03:40:17.266786Z",
-  "updated_at": "2026-07-18T04:10:35.225259Z",
+  "updated_at": "2026-07-18T04:18:19.610811+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:40:17.266786Z",
@@ -60,6 +60,14 @@
         "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:18:19.610811+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v4"
     }
   ],
   "official": {

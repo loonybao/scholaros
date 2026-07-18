@@ -1,9 +1,9 @@
 {
   "id": "act_safemove_deadline_check",
   "entity_type": "action",
-  "schema_version": 3,
+  "schema_version": 4,
   "created_at": "2026-07-18T04:11:50.144268Z",
-  "updated_at": "2026-07-18T04:11:50.145266Z",
+  "updated_at": "2026-07-18T04:18:20.370347+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:11:50.145266Z",
@@ -12,6 +12,14 @@
         "*created*"
       ],
       "note": "S5a closure"
+    },
+    {
+      "ts": "2026-07-18T04:18:20.370347+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v4"
     }
   ],
   "system": {

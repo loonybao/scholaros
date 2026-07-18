@@ -1,0 +1,40 @@
+{
+  "id": "app_tudelft_safemove_2026",
+  "entity_type": "application",
+  "schema_version": 4,
+  "created_at": "2026-07-18T04:18:20.779126Z",
+  "updated_at": "2026-07-18T04:18:20.780126Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:18:20.780126Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "S5.5 sprint: pre-decision, go/no-go pending"
+    }
+  ],
+  "system": {
+    "opportunity_id": "opp_tudelft-phd-position-in-extended-reality-for-safe-and-active"
+  },
+  "manual": {
+    "stage": "identified",
+    "submitted_at": null,
+    "materials": [],
+    "contact_person_ids": [],
+    "events": [],
+    "blockers": [
+      "Awaiting user's go/no-go decision",
+      "Stated deadline 2026-07-19 - verify extension on the official page (act_safemove_deadline_check)"
+    ],
+    "next_step": "User decides go/no-go after the deadline check",
+    "next_step_due": "2026-07-19",
+    "internal_due_date": null,
+    "notes": "No application decision made. Preserved as part of the MXR Lab recruitment signal (sig_tudelft_mxr_lab_expansion) even if not applied."
+  },
+  "outcome": {
+    "result": null,
+    "decided_at": null,
+    "feedback_note": ""
+  }
+}

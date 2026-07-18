@@ -15,7 +15,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-SCHEMA_VERSION = 3
+SCHEMA_VERSION = 4
 
 ID_PREFIXES = {
     "opportunity": "opp_",
@@ -486,11 +486,15 @@ class ApplicationOutcome(BaseModel):
 
 
 class ApplicationManual(BaseModel):
-    """Applications are human-driven by design."""
+    """Applications are human-driven by design.
+
+    'identified' is the pre-decision tracking state: the record exists so the
+    opportunity is tracked, but no application decision has been made."""
 
     model_config = ConfigDict(extra="forbid")
 
     stage: Literal[
+        "identified",
         "preparing",
         "submitted",
         "monitoring",
@@ -499,13 +503,16 @@ class ApplicationManual(BaseModel):
         "offered",
         "rejected",
         "withdrawn",
-    ] = "preparing"
+    ] = "identified"
     submitted_at: Optional[date] = None
     materials: list[ApplicationMaterial] = Field(default_factory=list)
     contact_person_ids: list[str] = Field(default_factory=list)
     events: list[ApplicationEvent] = Field(default_factory=list)
+    blockers: list[str] = Field(default_factory=list)
     next_step: str = ""
     next_step_due: Optional[date] = None
+    internal_due_date: Optional[date] = None  # self-imposed prep deadline
+    notes: str = ""
 
 
 class ApplicationSystem(BaseModel):

@@ -1,0 +1,39 @@
+{
+  "id": "app_tudelft_textile_2026",
+  "entity_type": "application",
+  "schema_version": 4,
+  "created_at": "2026-07-18T04:18:20.781635Z",
+  "updated_at": "2026-07-18T04:18:20.781635Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T04:18:20.781635Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "S5.5 sprint: consider, below XR-AV priority"
+    }
+  ],
+  "system": {
+    "opportunity_id": "opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a"
+  },
+  "manual": {
+    "stage": "identified",
+    "submitted_at": null,
+    "materials": [],
+    "contact_person_ids": [],
+    "events": [],
+    "blockers": [
+      "Decision pending: read the full posting and decide whether to pursue"
+    ],
+    "next_step": "Read the full official posting; decide by 2026-07-26 whether to prepare an application",
+    "next_step_due": "2026-07-26",
+    "internal_due_date": null,
+    "notes": "STATUS: consider. Official deadline 2026-08-02 per verified record. Explicitly LOWER priority than the XR-AV application; do not let it displace XR-AV or Tampere preparation time."
+  },
+  "outcome": {
+    "result": null,
+    "decided_at": null,
+    "feedback_note": ""
+  }
+}

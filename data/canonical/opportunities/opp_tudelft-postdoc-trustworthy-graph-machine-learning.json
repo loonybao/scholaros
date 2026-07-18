@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-postdoc-trustworthy-graph-machine-learning",
   "entity_type": "opportunity",
-  "schema_version": 3,
+  "schema_version": 4,
   "created_at": "2026-07-18T03:38:02.339937Z",
-  "updated_at": "2026-07-18T04:10:35.234769Z",
+  "updated_at": "2026-07-18T04:18:19.645598+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:38:02.339937Z",
@@ -60,6 +60,14 @@
         "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T04:18:19.645598+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v4"
     }
   ],
   "official": {
