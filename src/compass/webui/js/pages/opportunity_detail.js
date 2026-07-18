@@ -12,6 +12,7 @@ import {
   timingLabel, timingTone, valueLabel,
 } from "../labels.js";
 import { badge, esc, fetchJSON, sourceLink } from "../ui.js";
+import { bottomLineHtml } from "../verdict.js";
 import { busy, guard, modalForm, patch, post } from "../write.js";
 
 const LEVEL_TONE = { advanced: "good", intermediate: "info", beginner: "warn", none: "neutral" };
@@ -151,6 +152,7 @@ async function load(root) {
   root.innerHTML = `
     <a class="back-link" href="#/opportunities">← ${t("detail.back")}</a>
     ${overview(d)}
+    ${bottomLineHtml(d)}
     ${statusPanel(d)}
     ${relevance(d)}
     ${skills(d)}

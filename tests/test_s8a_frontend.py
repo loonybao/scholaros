@@ -36,6 +36,8 @@ S8A_FAMILIES = {
     "prep.cat": ["skill", "method", "portfolio", "monitor"],
     "milestone": ["now", "prepare", "outreach", "active", "graduation"],
     "app.event": ["created", "preparing", "submitted", "corrected", "checklist", "stage"],
+    "verdict": ["not_eligible", "timing_early", "future_target", "apply",
+                "consider", "uncertain", "monitor"],
 }
 
 
@@ -91,6 +93,15 @@ def test_opportunity_detail_actions_present():
                   'data-act="not-applying"', 'data-act="report-issue"',
                   "user_status"):
         assert token in d, f"missing detail action: {token}"
+
+
+def test_opportunity_detail_has_plain_language_bottom_line():
+    assert "bottomLineHtml" in _read("pages/opportunity_detail.js")
+    v = _read("verdict.js")
+    # the verdict covers each deterministic branch
+    for k in ("not_eligible", "timing_early", "future_target", "apply",
+              "consider", "uncertain", "monitor"):
+        assert f"verdict.{k}" in v
 
 
 # The complete set of write endpoints the browser is allowed to call. Anything
