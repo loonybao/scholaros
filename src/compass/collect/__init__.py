@@ -13,7 +13,7 @@ SOURCE_MODULES = {
     "aalto": "compass.collect.aalto",
     "tampere": "compass.collect.tampere",
     "tudelft": "compass.collect.tudelft",
-    # "euraxess": "compass.collect.euraxess",  # S5b
+    "euraxess": "compass.collect.euraxess",
 }
 
 

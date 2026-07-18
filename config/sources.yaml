@@ -32,5 +32,13 @@ sources:
     type: aggregator
     url: https://euraxess.ec.europa.eu/jobs/search
     priority: 3
-    enabled: false          # S5 — use filtered search URLs only; merge duplicates INTO university-source records
+    enabled: false          # S13 collector ready; keep disabled until you review the scope, then set true
     rate_limit_seconds: 10
+    # Keyword-scoped so a search returns a small relevant set, never the ~9,000
+    # full listing. Tune these to your interests; each is one search. The
+    # three-way discovery filter still keeps non-research listings out.
+    keywords:
+      - extended reality
+      - human-computer interaction
+      - immersive
+    max_pages: 2            # pages per keyword (10 results/page)
