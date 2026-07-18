@@ -20,7 +20,16 @@ export default async function render(root) {
         : badge(`${t("sys.health.errors")}: ${c.consecutive_errors || 0}`, "danger")}</td></tr>`;
   }).join("") : `<tr><td colspan="2" class="muted">${t("sys.health.never_run")}</td></tr>`;
 
+  const reconcile = h.reconcile || [];
+  const reconcileBanner = reconcile.length
+    ? `<section class="panel attention"><h2>${t("sys.health.reconcile_title")}</h2>
+        <p>${t("sys.health.reconcile", { n: reconcile.length })}</p>
+        <ul>${reconcile.slice(-5).map((r) => `<li>${badge(esc(r.kind), "warn")} ${esc(r.id)} <span class="muted">${esc((r.at || "").slice(0, 16).replace("T", " "))}</span></li>`).join("")}</ul>
+        <code>python -m compass rebuild-index &amp;&amp; python -m compass export</code></section>`
+    : "";
+
   root.innerHTML = pageHeader(t("sys.health.title"), t("sys.health.subtitle")) +
+    reconcileBanner +
     panel(t("sys.health.collectors"), `<div class="table-wrap"><table>${collectors}</table></div>`) +
     panel(t("sys.health.entities"), `<div class="table-wrap"><table>${entityRows}</table></div>`) +
     panel("", `<div class="status-line">

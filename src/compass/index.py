@@ -1155,10 +1155,22 @@ def health_data(cfg: Config) -> dict:
     llm_configured = bool(
         cfg.api_key and cfg.api_base_url and (cfg.models.get("api") or {}).get("model")
     )
+
+    # Entities whose derived views failed to refresh after a save (see
+    # views.try_refresh). Surfaced so a partial failure is visible, not silent.
+    reconcile_path = cfg.paths.status / "needs_reconcile.json"
+    reconcile: list = []
+    if reconcile_path.is_file():
+        try:
+            reconcile = json.loads(reconcile_path.read_text(encoding="utf-8"))
+        except (ValueError, OSError):
+            reconcile = []
+
     return {
         "index_rebuilt_at": meta.get("rebuilt_at"),
         "entity_counts": json.loads(meta["entity_counts"])
         if "entity_counts" in meta else {},
         "collectors": collectors,
         "llm_configured": llm_configured,
+        "reconcile": reconcile,
     }

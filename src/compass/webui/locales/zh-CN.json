@@ -97,6 +97,7 @@
   "dash.evidence.none": "当前没有未来目标参考。",
 
   "dash.status.healthy": "所有监测来源均正常",
+  "dash.status.reconcile": "{n} 项待同步",
   "dash.status.issues": "有 {n} 个数据来源需要关注",
   "dash.status.last_update": "上次成功更新",
   "dash.status.new_items": "重要新增项",
@@ -328,6 +329,8 @@
   "sys.health.entities": "实体",
   "sys.health.rebuilt": "索引重建于",
   "sys.health.pipeline": "数据管线：canonical JSON → SQLite 索引 → API → 本页面。",
+  "sys.health.reconcile_title": "需要同步",
+  "sys.health.reconcile": "{n} 条记录已保存,但其派生视图(索引 / Obsidian)需要手动刷新:",
   "sys.health.llm": "分析引擎",
   "sys.health.llm_interactive": "交互式工作流",
   "sys.health.llm_configured": "已配置",

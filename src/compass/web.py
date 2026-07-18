@@ -1,8 +1,10 @@
-"""Read-only web dashboard (S2).
+"""Local web app.
 
-Binds 127.0.0.1 only. No write endpoints in S2 — decision finalization and
-application editing arrive in S4/S6. All data flows canonical JSON -> SQLite
-index -> API; nothing is hard-coded in the frontend.
+Binds 127.0.0.1 only. Reads flow canonical JSON -> SQLite index -> API; the
+safe write layer (webwrite.py) writes only manual/Application/Action/skill
+records. Static assets are served with `Cache-Control: no-cache` so a browser
+refresh always revalidates (fast 304 when unchanged, fresh when changed) — the
+zero-build ES-module frontend never serves stale code.
 """
 
 from __future__ import annotations
@@ -31,6 +33,18 @@ from .store import Store
 from . import webwrite as w
 
 WEBUI_DIR = Path(__file__).parent / "webui"
+
+_NO_CACHE = {"Cache-Control": "no-cache"}
+
+
+class NoCacheStatic(StaticFiles):
+    """StaticFiles that asks the browser to revalidate every time. Localhost
+    revalidation is ~instant (304), and the frontend never runs stale modules."""
+
+    async def get_response(self, path, scope):
+        resp = await super().get_response(path, scope)
+        resp.headers["Cache-Control"] = "no-cache"
+        return resp
 
 BROWSE_FILTERS = (
     "org_id", "lab_org_id", "fit_type", "recommendation", "eligibility_gate",
@@ -125,16 +139,20 @@ def create_app(cfg: Config) -> FastAPI:
 
     @app.get("/")
     def root() -> FileResponse:
-        return FileResponse(WEBUI_DIR / "index.html")
+        return FileResponse(WEBUI_DIR / "index.html", headers=_NO_CACHE)
 
-    app.mount("/static", StaticFiles(directory=WEBUI_DIR), name="static")
+    app.mount("/static", NoCacheStatic(directory=WEBUI_DIR), name="static")
     return app
 
 
 def serve(cfg: Config, port: int = 8000, host: str = "127.0.0.1") -> None:
     import uvicorn
 
-    # Rebuild the index at startup so the dashboard always reflects canonical.
+    from .views import refresh_all
+
+    # Recompute derived (so deadline/timing reflect *today*), rebuild the index
+    # and regenerate the vault at startup, so the dashboard is fresh for the
+    # current day even if the last collect/analyze ran on an earlier date.
     store = Store(cfg.paths.canonical, cfg.paths.lock_file)
-    rebuild_index(cfg, store)
+    refresh_all(cfg, store)
     uvicorn.run(create_app(cfg), host=host, port=port, log_level="warning")

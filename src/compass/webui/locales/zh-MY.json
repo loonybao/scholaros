@@ -97,6 +97,7 @@
   "dash.evidence.none": "现在没有 future-target reference。",
 
   "dash.status.healthy": "所有 monitored sources 都正常",
+  "dash.status.reconcile": "{n} 项要 sync",
   "dash.status.issues": "有 {n} 个 data source 需要注意",
   "dash.status.last_update": "上次成功 update",
   "dash.status.new_items": "重要的新项目",
@@ -328,6 +329,8 @@
   "sys.health.entities": "Entities",
   "sys.health.rebuilt": "Index 重建于",
   "sys.health.pipeline": "Data pipeline：canonical JSON → SQLite index → API → 这个页面。",
+  "sys.health.reconcile_title": "需要 sync",
+  "sys.health.reconcile": "{n} 条记录已 save,但 derived view(index / Obsidian)要手动 refresh:",
   "sys.health.llm": "Analysis engine",
   "sys.health.llm_interactive": "Interactive workflow",
   "sys.health.llm_configured": "已配置",

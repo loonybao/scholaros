@@ -137,8 +137,10 @@ function systemStatus(health, changeCount) {
   const healthLine = issues
     ? badge(t("dash.status.issues", { n: issues }), "danger")
     : badge(t("dash.status.healthy"), "good");
+  const reconcile = (health.reconcile || []).length
+    ? badge(t("dash.status.reconcile", { n: health.reconcile.length }), "warn") : "";
   return panel("", `<div class="status-line">
-    ${healthLine}
+    ${healthLine}${reconcile}
     <span><span class="k">${t("dash.status.last_update")}</span>${esc(fmtDateTime(health.index_rebuilt_at) || t("common.none"))}</span>
     <span><span class="k">${t("dash.status.new_items")}</span>${changeCount}</span>
     <a href="#/data-health" class="muted">${t("nav.data_health")} →</a>

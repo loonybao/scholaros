@@ -97,6 +97,7 @@
   "dash.evidence.none": "No future-target evidence right now.",
 
   "dash.status.healthy": "All monitored sources are healthy",
+  "dash.status.reconcile": "{n} need reconcile",
   "dash.status.issues": "{n} data source(s) need attention",
   "dash.status.last_update": "Last successful update",
   "dash.status.new_items": "Meaningful new items",
@@ -328,6 +329,8 @@
   "sys.health.entities": "Entities",
   "sys.health.rebuilt": "Index rebuilt",
   "sys.health.pipeline": "Data pipeline: canonical JSON → SQLite index → API → this page.",
+  "sys.health.reconcile_title": "Needs reconciliation",
+  "sys.health.reconcile": "{n} record(s) saved, but their derived views (index / Obsidian) need a manual refresh:",
   "sys.health.llm": "Analysis engine",
   "sys.health.llm_interactive": "Interactive workflow",
   "sys.health.llm_configured": "Configured",
