@@ -1,0 +1,74 @@
+{
+  "id": "opp_tudelft-phd-position-electrical-engineering-cryo-cmos-circui",
+  "entity_type": "opportunity",
+  "schema_version": 3,
+  "created_at": "2026-07-18T03:32:35.181919Z",
+  "updated_at": "2026-07-18T03:41:24.899712Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T03:32:35.181919Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-18T03:41:24.899712Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Electrical Engineering: Cryo-CMOS Circuit Design for Temperature Sensors in Quantum",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1366427057",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Electrical-Engineering-Cryo-CMOS-Circuit-Design-for-Temperature-Sensors-in-Quantum-2628-CD/1366427057/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Electrical-Engineering-Cryo-CMOS-Circuit-Design-for-Temperature-Sensors-in-Quantum-2628-CD/1366427057/",
+    "evidence_ids": [
+      "tudelft/1366427057"
+    ],
+    "retrieved_at": "2026-07-18T03:32:35.180919Z",
+    "raw_snapshot_hash": "f383be01b63fb36ae017d809f0e82510ee44e792409f97b3870015020d96a034",
+    "extracted_content_hash": "8e5399459d1d8f6a16ee2cb05769b415c9c20187cc8cedc0d8555d4afc65f00b",
+    "deadline": "2026-09-06",
+    "deadline_note": null,
+    "start_date": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3059 - €3881 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Contribute to quantum technologies by developing integrated cryogenic temperature sensors. Join our vibrant team in demonstrating cryo-CMOS integrated circuits enabling the next quantum technologies!\nJob Description\nQuantum computers and quantum sensors require electronic interfaces that can operate reliably at cryogenic temperatures. However, conventional room-temperature electronics rely on extensive wiring, creating significant challenges for scalability, system integration, and performance. In this PhD project, you will contribute to the development of cryogenic electronic interfaces that support future quantum technologies.\nYou will join a leading research group at TU Delft that pioneers cryo-CMOS integrated circuits: CMOS circuits operating at temperatures as low as 4 K. These technologies enable highly integrated electronic systems for quantum computing and sensing applications and offer unique opportunities for innovation in analog and mixed-signal circuit design.\nYour research will focus on the development of integrated cryogenic temperature sensors. Accurate temperature monitoring is essential for thermal management in complex quantum systems, where temperature variations can affect performance and reliability. Existing cryogenic sensors are often bulky, costly, and difficult to integrate. Although smart temperature sensors in CMOS technology have been developed for decades over the standard temperature range around room temperature, those standard techniques cannot be readily applied at cryogenic temperatures, thus requiring innovations in terms of sensing elements, readout circuitry, and power efficiency. You will then investigate new sensing principles and develop energy-efficient sensor architectures specifically designed for operation at cryogenic temperatures.\nThroughout your PhD, you will design, simulate, fabricate, and characterize multiple cryo-CMOS prototypes using advanced CMOS technologies. You will perform measurements in TU Delft’s dedicated cryogenic characterization facilities and gain experience with the complete integrated circuit design cycle, from concept development to experimental validation.\nYou will work closely with researchers, PhD candidates, and industrial partners active in cryogenic electronics and quantum technologies. Your results will contribute to international research projects and will lead to presentations at leading conferences and publications in high-impact journals.\nThis position offers the opportunity to develop expertise in analog integrated circuit design, cryogenic electronics, and semiconductor technologies while growing into an independent researcher. The knowledge and skills acquired during the project provide a strong foundation for careers in academia, research institutes, and the semiconductor and high-tech industries.\nAre you interested in knowing more about our section or department? Please visit our webpages:\nAbout Quantum Circuits, Architecture, and Technology (QCAT) section\nAbout Quantum and Computer Engineering (QCE) department\nJob requirements\nYou hold an MSc degree in Electrical Engineering (must-have).\nYou have a strong interest and demonstarted interest in analog integrated circuit design\nHands-on experience in circuit design, gained thorugh academic research, industry projects, or internships, is considered an advantage.\nYou demonsrated strong analytical, creative, and problem-solving abilities.\nYou have excellent written and verbal communication skills in English.\nAbility and eagerness to work in an international collaborative environment.\nTo thrive as a PhD candidate, it is crucial to have a strong research mindset driven by curiosity and passion for your topic. Reflecting on your motivation for pursuing a PhD trajectory is essential, as this path involves unique challenges and uncertainties inherent to scientific exploration. Success requires dedication, adaptability, the ability to analyze complex problems, manage your time effectively, innovate and stay resilient under pressure. Combined with the ability and willingness to work independently and collaborate well, these qualities are indispensable for a fulfilling PhD journey. These experiences will build you as an independent researcher, expand your professional network, and pave the way for diverse career pave the way for diverse career paths, inside or outside academia.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact dr. Fabio Sebastiano via\nf.sebastiano@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n6 September 2026\nvia the application button.\nApplicants are requested to submit the required application documents before the closing date stated on the vacancy page. Please upload your CV, motivation letter, academic transcripts, and any additional documents requested during the application process. Reference checks may be part of the selection procedure. In your motivation letter (max. 1 page),  please elaborate on 1) why you think you are the suitable candidate for this position; 2) your motivation to pursue a PhD, and, more specifically, why at TU Delft, in the research group of Dr. Sebastiano, and on this specifc topic; 3) your knowledge and prior hands-on experience in analog and/or mixed-signal circuit design; 4) any additional information that you deem relevant.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "pass",
+    "eligibility_reasons": [],
+    "fit_overall": null,
+    "urgency": "low",
+    "days_to_deadline": 50,
+    "needs_review": false
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "hidden": false
+  }
+}

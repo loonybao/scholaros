@@ -1,0 +1,74 @@
+{
+  "id": "opp_tudelft-postdoc-validating-a-digital-twin-for-evaluating-emi",
+  "entity_type": "opportunity",
+  "schema_version": 3,
+  "created_at": "2026-07-18T03:32:01.188196Z",
+  "updated_at": "2026-07-18T03:41:25.059077Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T03:32:01.188196Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-18T03:41:25.059077Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc: Validating a Digital Twin for Evaluating Emission Reduction Strategies for Inland Shipping",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1366582157",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Validating-a-Digital-Twin-for-Evaluating-Emission-Reduction-Strategies-for-Inland-Shipping-2628-CD/1366582157/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Validating-a-Digital-Twin-for-Evaluating-Emission-Reduction-Strategies-for-Inland-Shipping-2628-CD/1366582157/",
+    "evidence_ids": [
+      "tudelft/1366582157"
+    ],
+    "retrieved_at": "2026-07-18T03:32:01.188196Z",
+    "raw_snapshot_hash": "fde574746aa1e8b6dc2f1e5012057fc3b7266c09821271dec5cb55f999051023",
+    "extracted_content_hash": "e94df39423d552e69a37808088d0154bf1b4db32db5247558839fbc8fb8a5f61",
+    "deadline": "2026-08-17",
+    "deadline_note": null,
+    "start_date": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3546 - €5538 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Use real-world vessel data, agent-based modelling and digital twin technology to accelerate the transition toward zero-emission inland shipping.\nJ\nob description\nThe postdoctoral research is part of the NWO project “PAving THe way towards Zero-Emission and RObust inland shipping (PATH2ZERO)”, which aims to develop breakthrough action perspectives and sustainable business models for all parties in the inland shipping chain, contributing to the transition to emission-free inland shipping. The main objective of the project is the evaluation of zero-emission strategies, the effectiveness of policies and technologies, and the assessment of the consequences of their implementation on the inland shipping system.\nOne aim of the PATH2ZERO project is to translate research outcomes into practice, so that end users can make better-informed decisions. For this purpose, PATH2ZERO aims to develop a digital twin. The main goal of this data-driven virtual representation of the inland waterway transport system is to assess the efficiency of proposed solutions for emissions reduction in inland waterway transport. Three main aspects are regarded as vital components of the digital twin: the individual vessels, fleet and its operations, and the infrastructure.\nAs these components require a detailed representation within a large-scale transport system, a meso-scale agent-based approach has been selected as a suitable basis for the digital twin. This enables the assessment of potential interventions, ranging from the application of new technologies to individual vessels to policy measures that are implemented for an entire shipping corridor, or various bunker infrastructure strategies in the network. In addition, the impact of the feasible interventions can be evaluated, ranging from the individual ship level and its emissions to the network level and the aggregated emissions in an entire area, or the impact on the logistics chain.\nFor validating the digital twin, real-world data sources (AIS data, hydrodynamic data, infrastructure data, etc.) will be used in combination with already existing tools for maritime traffic simulation (e.g., OpenTNSim, which is being developed at TU Delft), energy consumption estimates, and emission algorithms. The relevant processes at the individual vessel level can be modelled in detail, and their performance can be tracked in time and space. Corridor scale effects will be simulated by aggregating the results of multiple vessels that together represent the corridor's traffic.\nThree regions will be modelled as areas of interest: the Rotterdam – Basel corridor (an open waterway, that is vulnerable to high and low discharge events), the Rotterdam – Antwerp / Gent corridor (a closed waterway that includes various locks and short-sea shipping), and the larger Port of Rotterdam region (a region that includes both sea-going and inland vessels in an area subject to currents and tides).\nWhile the scope of this research focuses on validating a digital twin using operational data from inland vessels, it is expected to involve close collaboration with project stakeholders and researchers within the project. This collaboration will contribute to the quantitative assessment of emission reduction strategies, paving the way toward zero-emission inland shipping.\nJob requirements\nWe are looking for a candidate with an interdisciplinary track record who is able to integrate engineering, environmental, and social science knowledge into a new framework for zero-emission inland shipping. This position requires outstanding skills in modelling and working with big datasets. In addition, the applicants should have:\nPhD diploma in Transportation, Logistics, Civil Engineering, Mechanical Engineering, Maritime Engineering, or any other related field.\nExperience with agent-based modelling is essential.\nExperience with big data analytics, Python, and an affinity for acquiring new skills in this area.\nAbility to collaborate with both scientific and industrial partners.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick here to go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 2 years. Temporary external finance.\nA job of 38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nThe supervisory team consists of Prof. Mark van Koningsveld and  Dr. Alex Kirichek.\nFor more information about this vacancy, please contact Dr. Alex Kirichek (Associate Professor at the Faculty of Civil Engineering and Geoscience, at TU Delft)\nokirichek@tudelft.nl\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n17 August 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Alex Kirichek.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "pass",
+    "eligibility_reasons": [],
+    "fit_overall": null,
+    "urgency": "medium",
+    "days_to_deadline": 30,
+    "needs_review": false
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "hidden": false
+  }
+}

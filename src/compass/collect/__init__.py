@@ -12,8 +12,8 @@ from .base import CollectStats, update_health
 SOURCE_MODULES = {
     "aalto": "compass.collect.aalto",
     "tampere": "compass.collect.tampere",
-    # "tudelft": "compass.collect.tudelft",    # S5
-    # "euraxess": "compass.collect.euraxess",  # S5
+    "tudelft": "compass.collect.tudelft",
+    # "euraxess": "compass.collect.euraxess",  # S5b
 }
 
 

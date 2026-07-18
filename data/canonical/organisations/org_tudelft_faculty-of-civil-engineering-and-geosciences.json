@@ -1,0 +1,34 @@
+{
+  "id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+  "entity_type": "organisation",
+  "schema_version": 3,
+  "created_at": "2026-07-18T03:27:42.198234Z",
+  "updated_at": "2026-07-18T03:27:42.199239Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T03:27:42.199239Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "sub-organisation discovered"
+    }
+  ],
+  "official": {
+    "name": "Faculty of Civil Engineering and Geosciences (TU Delft)",
+    "org_type": "faculty",
+    "parent_org_id": "org_tu_delft",
+    "country": null,
+    "city": null,
+    "website": null,
+    "careers_url": null,
+    "retrieved_at": "2026-07-18T03:27:42.198234Z",
+    "evidence_ids": []
+  },
+  "ai": null,
+  "manual": {
+    "priority": null,
+    "target": false,
+    "notes": ""
+  }
+}

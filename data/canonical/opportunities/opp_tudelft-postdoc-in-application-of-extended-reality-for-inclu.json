@@ -1,0 +1,165 @@
+{
+  "id": "opp_tudelft-postdoc-in-application-of-extended-reality-for-inclu",
+  "entity_type": "opportunity",
+  "schema_version": 3,
+  "created_at": "2026-07-18T03:28:38.448182Z",
+  "updated_at": "2026-07-18T03:43:47.252000Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T03:28:38.448182Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-18T03:41:25.017403Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T03:43:47.147722Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:43:47.252000Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in Application of eXtended Reality for Inclusive Automated Vehicle and Road User Interaction",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1366984557",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Application-of-eXtended-Reality-for-Inclusive-Automated-Vehicle-and-Road-User-Interaction-2628-CD/1366984557/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Application-of-eXtended-Reality-for-Inclusive-Automated-Vehicle-and-Road-User-Interaction-2628-CD/1366984557/",
+    "evidence_ids": [
+      "tudelft/1366984557"
+    ],
+    "retrieved_at": "2026-07-18T03:28:38.448182Z",
+    "raw_snapshot_hash": "bc792e15915a9fe4271fd0d7da3eac51b64100a161d43f5a6165bf1ffe8ffc67",
+    "extracted_content_hash": "f580e4e1bb704440c44f395f27b38e42294467bb6b1805c88367fc8178ef6fb1",
+    "deadline": "2026-08-30",
+    "deadline_note": null,
+    "start_date": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3546 - €5538 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Design the next generation of inclusive interactions between automated vehicles and vulnerable road users using Virtual Reality and eXtended Reality.\nJob description\nAutomated Vehicles (AVs) are set to transform road travel, promising significant improvements in road safety, accessibility, and transportation equity. However, as autonomous vehicles move closer to widespread deployment a critical question remains largely unanswered: how can AVs interact safely and effectively with vulnerable road users (VRUs), including people with disabilities?  Such interactions involve complex human decision-making processes that span behavioral, cognitive, psychological, and physiological dimensions. To date, these dimensions have largely been studied in isolation, leaving their interconnections and their role in real-world AV–VRU interactions poorly understood.\nIn this Postdoc position you will focus on employing Virtual Reality technologies to better understand this complex interaction process and explore how external Human-Machine Interfaces (eHMIs) can enable safer and more inclusive interactions. You will:\nDevelop a theoretical framework for identifying key characteristics of AV–VRU interactions and define design criteria for inclusive eHMIs.\nDevelop accessible VR simulators for people with disabilities.\nConduct VR experiments to collect data and model decision-making processes in AV–VRU interactions.\nConduct real-world testing to evaluate the effectiveness of inclusive eHMI design.\nCollaborate with fellow researchers, mentor PhD students, and contribute to ongoing projects and the development of the lab.\nPublish in high-impact scientific journals and disseminating findings through conferences and stakeholder workshops.\nYour home base will be the\nMobility in eXtended Reality Lab\nin the Department of Transport & Planning within the Faculty of Civil Engineering and Geosciences. Our diverse team of researchers, project managers, and professors shares the ambition to create smart, sustainable, and equitable mobility systems. In our 12 collaborative labs we apply advanced technologies such as sensing, data analytics, modelling, and AI to turn scientific research into real-world impact. You’ll join an open, supportive environment that fosters learning and professional growth.\nJob requirements\nHold a PhD degree in a relevant field (e.g., Transportation, Human-Computer Interaction, Computer Science, or a closely related discipline).\nSolid background in XR technologies and skills in developing XR applications using Unity/Unreal game engine.\nStrong and demonstrable experimental skills, including experiment design, setup, execution, and data collection.\nStrong skills in quantitative and qualitative data analysis.\nStrong analytic and programming skills (e.g., Python, C#) with proficiency in statistics.\nAbility to work independently while actively contributing to a collaborative, interdisciplinary research environment.\nExcellent writing and communication skills in English.\nStrong publication record in relevant scientific journals.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 3 years. Temporary.\nA job of 40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information, please contact Dr.Yan Feng (\ny.feng@tudelft.nl\n).\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 August 2026\nvia the application button and upload the following documents:\nA motivation letter (max 2 pages) explaining your interest in this position and your qualifications for the position.\nCurriculum Vitae (max 2 pages).\nPublication list incl. a one-page summary of your PhD thesis.\nTranscripts of academic qualifications (BSc and MSc), including list of courses and marks;\nA 3-slide presentation (PDF) with your initial research ideas and directions for this project.\nYou can address your application to Yan Feng, Assistant Professor.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoc in the MXR Lab applying XR to inclusive automated-vehicle and road-user interaction - the senior sibling of the XR-AV PhD posting.",
+    "fit_type": "exact-fit",
+    "thematic_fit": {
+      "score": 80,
+      "rationale": "Same research programme as the XR-AV PhD; thematically the applicant's field."
+    },
+    "methodological_fit": {
+      "score": 80,
+      "rationale": "Same XR + experimental toolset at postdoc seniority."
+    },
+    "growth_value": {
+      "score": 40,
+      "rationale": "Not accessible at the applicant's career stage."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "Ineligible now, but strong evidence of a funded, growing XR research programme at a priority-1 target."
+    },
+    "required_skills": [
+      "unity",
+      "virtual-reality",
+      "experimental-design",
+      "user-studies",
+      "statistics",
+      "python"
+    ],
+    "matched_skills": [
+      "unity",
+      "virtual-reality",
+      "experimental-design",
+      "user-studies"
+    ],
+    "missing_skills": [
+      "python",
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a PhD - hard ineligibility at the applicant's career stage"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried postdoc with stated range per posting; eligibility is the blocker.",
+    "recommendation": "reject",
+    "next_action": "Fold into the MXR Lab future-recruitment signal: the lab is hiring at PhD AND postdoc level simultaneously - contact with Dr. Yan Feng serves both XR openings.",
+    "confidence": 0.9,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:43:47.146723Z",
+    "analysis_input_hash": "14a2747b7fe7af2bde8ddb03415e559d08c241bd877a84de963e0e325f4372eb"
+  },
+  "derived": {
+    "eligibility_gate": "pass",
+    "eligibility_reasons": [],
+    "fit_overall": 67,
+    "urgency": "medium",
+    "days_to_deadline": 43,
+    "needs_review": false
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "hidden": false
+  }
+}

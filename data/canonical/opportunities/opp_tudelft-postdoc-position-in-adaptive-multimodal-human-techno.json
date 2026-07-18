@@ -1,0 +1,159 @@
+{
+  "id": "opp_tudelft-postdoc-position-in-adaptive-multimodal-human-techno",
+  "entity_type": "opportunity",
+  "schema_version": 3,
+  "created_at": "2026-07-18T03:35:12.302683Z",
+  "updated_at": "2026-07-18T03:43:47.254519Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T03:35:12.302683Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-18T03:41:25.042409Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T03:43:47.150719Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:43:47.254519Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Position in Adaptive Multimodal Human-Technology Interaction for Automated Driving",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-industrial-design-engineering",
+    "source": "tudelft",
+    "source_native_id": "1365862657",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Position-in-Adaptive-Multimodal-Human-Technology-Interaction-for-Automated-Driving-2628-CD/1365862657/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Position-in-Adaptive-Multimodal-Human-Technology-Interaction-for-Automated-Driving-2628-CD/1365862657/",
+    "evidence_ids": [
+      "tudelft/1365862657"
+    ],
+    "retrieved_at": "2026-07-18T03:35:12.301684Z",
+    "raw_snapshot_hash": "8a5151901dbd52f6afb78268e56039283ce6897ad87b477df78afdd614f73e45",
+    "extracted_content_hash": "8a02ce140aa4a98515f9d22adccf5a5ac5055a8e46c3c0ee7d11cd36e622021a",
+    "deadline": "2026-08-23",
+    "deadline_note": null,
+    "start_date": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3546 - €5538 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Join TU Delft’s Human-Centered Design Department as a Postdoctoral Researcher in the EU project AutHUMate and shape the future of adaptive human-technology interaction for automated driving systems.\nJob description\nThe Human-Centered Design Department at the Faculty of Industrial Design Engineering of TU Delft is looking for a highly motivated postdoctoral researcher to join the European Horizon Europe project AutHUMate (Adaptive User Training & Human-Technology Interaction Strategy for Enhanced Traffic Safety).\nAutHUMate investigates how automated driving systems (SAE Level 2–3) can interact with drivers in ways that are safe, adaptive, understandable, and trustworthy. As vehicles become increasingly automated, new challenges emerge around human-technology interaction, such as trust in automation, transitions of control, driver awareness, and the communication of system capabilities and limitations. The project brings together expertise from human-computer interaction, AI, human factors, cognitive science, and mobility research to develop adaptive interaction and training strategies for automated driving.\nAt TU Delft, the postdoctoral researcher will contribute primarily to the design exploration and prototype implementation of adaptive human-machine interaction concepts that integrate technical innovation with human-centred design principles and societal readiness considerations.\nYou will work at the intersection of:\nHuman-computer interaction and human-centred AI\nAdaptive and multimodal interface design\nDriver state monitoring and contextual interaction\nHuman factors and cognitive/perceptual ergonomics\nDesign research and participatory design methods\nPrototyping and evaluation of intelligent interactive systems\nThe research will contribute to the development of adaptive interaction strategies that dynamically support drivers based on cognitive state, workload, attention, and situational context. This includes designing and evaluating multimodal interaction concepts using visual, auditory, and haptic communication modalities, as well as supporting prototype development and integration within simulation and real-world testing environments.\nA key aspect of the role is bridging technical implementation with design-driven and societal perspectives. You will collaborate closely with interdisciplinary project partners from academia and industry across Europe, including experts in AI, automated driving, cognitive science, driver monitoring, and societal readiness assessment. The project explicitly integrates inclusive and participatory design approaches to ensure that adaptive automated driving systems are trustworthy, understandable, and accessible for diverse user groups.\nYou will be part of an interdisciplinary research environment within TU Delft and contribute to scientific publications, project deliverables, workshops, demonstrators, and international collaboration activities within the AutHUMate consortium.\nJob requirements\nEssential:\nPhD in Human-Computer Interaction, Human Factors, Interaction Design or a related field\nStrong interest in human-centred intelligent systems and adaptive interaction\nExperience with prototyping and implementing interactive systems\nExperience with Virtual Reality / Augmented Reality and/or physiological sensing\nProgramming skills for research prototypes and data-driven systems (e.g., Python, Unity, web technologies, or similar)\nExperience with user studies and experimental design\nAbility to work independently in an interdisciplinary and international research team\nExcellent communication and academic writing skills in English\nNice to have:\nKnowledge of human factors, cognitive ergonomics, or usability engineering\nExperience with participatory design, co-creation, or societal aspects of technology design\nDutch language proficiency is considered a plus, as this role involves conducting user research with participants in the Netherlands\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Industrial Design Engineering\nMatching the evolution of people with the speed of the revolution of technology. This is the focus of the Faculty of Industrial Design Engineering (IDE). Delft designers act as a bridge between advances in technology and the needs of people, organisations and society to create products, services and systems with purpose.\nIDE is a leader in design research across the application areas of mobility, sustainability and health, as well as its development of design tools and methods. A 350-strong research team and over 2,000 students work together in our inspiring hall, labs and studios.\nIn close cooperation with industry, the public sector and NGOs we rehearse possible futures in research and education to design for a complex future.\nClick\nhere\nto go to the website of the Faculty of Industrial Design Engineering.\nConditions of employment\nDuration of contract is 20-25 months. Temporary.\nA job of 30,4-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Christina Schneegass (\nc.schneegass@tudelft.nl\n)\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n23 August 2026\nvia the application button and upload the following documents:\nCV\nCover letter\nYou can address your application to Christina Schneegass.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoc on adaptive multimodal human-technology interaction for automated driving (TU Delft).",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 65,
+      "rationale": "Multimodal human-technology interaction is close to the applicant's field, in an automated-driving context."
+    },
+    "methodological_fit": {
+      "score": 60,
+      "rationale": "HTI experimentation at postdoc seniority."
+    },
+    "growth_value": {
+      "score": 35,
+      "rationale": "Not accessible at the applicant's career stage."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "Ineligible; useful as evidence of TU Delft's human-technology interaction activity outside the MXR Lab."
+    },
+    "required_skills": [
+      "experimental-design",
+      "user-studies",
+      "statistics"
+    ],
+    "matched_skills": [
+      "experimental-design",
+      "user-studies"
+    ],
+    "missing_skills": [
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a PhD - hard ineligibility"
+    ],
+    "risks": [],
+    "funding_assessment": "Salaried postdoc with stated range per posting; eligibility is the blocker.",
+    "recommendation": "reject",
+    "next_action": "Note the group on the target map as a second TU Delft HTI cluster.",
+    "confidence": 0.85,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T03:43:47.149723Z",
+    "analysis_input_hash": "73cc48d39048ebc37a3d94ade370f0b7ad53f8276e43098a1671dfe2987bf7fb"
+  },
+  "derived": {
+    "eligibility_gate": "pass",
+    "eligibility_reasons": [],
+    "fit_overall": 54,
+    "urgency": "medium",
+    "days_to_deadline": 36,
+    "needs_review": false
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "hidden": false
+  }
+}

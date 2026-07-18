@@ -1,0 +1,74 @@
+{
+  "id": "opp_tudelft-phd-position-in-developing-a-digital-health-passport",
+  "entity_type": "opportunity",
+  "schema_version": 3,
+  "created_at": "2026-07-18T03:30:30.936080Z",
+  "updated_at": "2026-07-18T03:41:24.927199Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T03:30:30.936080Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-18T03:41:24.927199Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position in Developing a Digital Health Passport for Railway Tracks on Bridges",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1366820057",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Developing-a-Digital-Health-Passport-for-Railway-Tracks-on-Bridges-2628-CD/1366820057/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Developing-a-Digital-Health-Passport-for-Railway-Tracks-on-Bridges-2628-CD/1366820057/",
+    "evidence_ids": [
+      "tudelft/1366820057"
+    ],
+    "retrieved_at": "2026-07-18T03:30:30.936080Z",
+    "raw_snapshot_hash": "47a6e560aa7108855a0550aeb5442661bd4c1b5178deeaf785595c636a559036",
+    "extracted_content_hash": "7f2a1c60b2eaa394865b605c871428312c1637ebf26d08a5f153b7ef23e99437",
+    "deadline": "2026-09-01",
+    "deadline_note": null,
+    "start_date": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3059 - €3881 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Build the next generation of railway track health assessment.\nJob description\nRailway bridges and the tracks they support are critical components of the railway network, directly affecting safety, reliability, and operational performance. As railway infrastructure ages and traffic demands increase, there is a growing need for innovative methods to continuously assess track condition and predict deterioration. This PhD project addresses this challenge by developing a novel “Health Passport” system for railway tracks on bridges, enabling data-driven condition assessment and supporting more efficient maintenance and asset management strategies.\nThe project aims to develop a comprehensive “Health Passport” framework that integrates monitoring data and physics-based modelling for the health assessment of railway tracks on bridges, using Dutch railway infrastructure as a primary case study. The research will begin with the analysis of baseline and historical data collected from wayside sensors installed on selected instrumented railway bridges. Building on these insights, an on-board measurement system (e.g., based on Axle Box Acceleration (ABA) or Laser Doppler Vibrometry (LDV)) will be designed and implemented to collect additional data for incorporation into the Health Passport.\nAdvanced data analysis techniques, including synchronisation, correlation analysis, feature extraction, and signal processing, will be employed to identify indicators of track and bridge condition. In parallel, physics-based numerical models will be developed to simulate train–track–bridge dynamic interactions and their resulting structural responses. The health condition of railway tracks on bridges will then be characterised through the analysis of vibration responses generated during train passages.\nWith every train passage, a comprehensive set of dynamic response data will be collected, creating a continuously evolving record of how the railway track–bridge system behaves over time. This living database will form the foundation of the Health Passport, enabling long-term condition monitoring, performance assessment, and early detection of potential deterioration.\nAs part of the project, you will collaborate closely with railway industry partners, participate in discussions, and receive feedback on the development and implementation of your research. Limited teaching responsibilities are also included in the position.\nAs a PhD candidate, you will join the Railway Engineering Section within the Department of Engineering Structures at the Faculty of Civil Engineering and Geosciences of TU Delft. You will work closely with ProRail, the Dutch railway infrastructure manager, supporting the testing, validation, and practical implementation of your research outcomes. The supervisory team consists of Prof. Rolf Dollevoet (promotor) and Dr. Zhen Yang (co-promotor).\nThe Department of Engineering Structures focuses on the development of resilient, smart and sustainable structures and infrastructures. Our aim is to meet societal demands in transportation, the energy transition and sustainable reuse. Research themes include dynamics of structures, mechanics of materials related to e.g. climate change, modelling and design of railway systems, multi-scale modelling of pavement materials and structures, reuse of materials, structures and parts of structures, assessment methods for structures, smart monitoring techniques, design methods, replacement and renovation of civil infrastructure and development of new materials and maintenance techniques. Our unique Macro Mechanics Laboratory facilities support full-scale testing, monitoring and modelling of structures to facilitate implementation of innovations. The department delivers both groundbreaking research and world-class education for undergraduate and graduate students. As a team, we represent different backgrounds, skills and views. We foster an inclusive culture, as our combined identities, attitudes and ambitions widen our perspective and make up our strengths.\nJob requirements\nWe are looking for an excellent candidate with the following qualifications, knowledge and skills:\nA master's degree in Civil, Mechanical, Aerospace Engineering, Applied Mathematics/Mechanics, Computer Science or related areas.\nDemonstrated competencies in one or more of these categories: railway/bridge engineering, structural dynamics, vibration analysis, structural health monitoring, data science or related fields.\nProgramming skills in one or more scientific computing environments, such as Python, MATLAB, or similar.\nAbility to collaborate effectively with academic researchers and industry partners.\nExcellent command of English, both verbal and in writing.\nIf your native language is not English and you do not hold a degree from an institution in which English is the language of instruction, you must submit proof of English proficiency from either TOEFL (minimum total score of 100) or IELTS (minimum total score of 7.0).\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Zhen Yang, email:\nz.yang-1@tudelft.nl\n#EUfunded This is an EU funded project, named Europe’s Rail Flagship Project 3 - Holistic and Integrated Asset Management for Europe’s RAIL System (Phase 2), with project number 101324772, within program HORIZON-JU-ER.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n1 September 2026\nvia the application button and upload the following documents:\nA detailed Curriculum Vitae.\nOne-page motivation letter.\nOne-page abstract of your MSc thesis written in English.\nCopies of BSc and MSc degrees and transcripts, and/or publications.\nProof of English language level.\nIf your MSc diploma and transcript are not in Dutch, English, French or German and you will be the selected candidate, the TU Delft will ask you to deliver a certified translation.\nFor information about the application procedure, please contact Ms. Jacqueline Barnhoorn, email:\nA.P.M.Barnhoorn@tudelft.nl\n, or Ms. Claudia Baltussen, email:\nC.Y.Baltussen@tudelft.nl\n.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "pass",
+    "eligibility_reasons": [],
+    "fit_overall": null,
+    "urgency": "medium",
+    "days_to_deadline": 45,
+    "needs_review": false
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "hidden": false
+  }
+}

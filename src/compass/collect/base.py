@@ -54,6 +54,8 @@ class RawPosting:
     posted_date: Optional[date] = None
     apply_url: Optional[str] = None
     location: Optional[str] = None
+    salary_text: Optional[str] = None  # only when STATED on the page
+    funding: Optional[str] = None      # only when STATED on the page
     description_text: str = ""
     language_requirements: list[str] = field(default_factory=list)
     nationality_restrictions_status: str = "none_stated"
@@ -252,8 +254,10 @@ def extracted_content_hash(posting: RawPosting) -> str:
         "deadline": posting.deadline.isoformat() if posting.deadline else None,
         "posted_date": posting.posted_date.isoformat() if posting.posted_date else None,
         "location": posting.location,
+        "salary_text": posting.salary_text,
         "description_text": posting.description_text,
         "nationality_restrictions_status": posting.nationality_restrictions_status,
+        "mobility_requirement_status": posting.mobility_requirement_status,
     }
     return sha256_text(json.dumps(payload, sort_keys=True, ensure_ascii=False))
 
@@ -298,6 +302,8 @@ def upsert_opportunity(store: Store, posting: RawPosting) -> str:
                 posted_date=posting.posted_date,
                 position_type=classify_position_type(posting.title) or "other",
                 location=posting.location,
+                salary_text=posting.salary_text,
+                funding=posting.funding,
                 language_requirements=posting.language_requirements,
                 nationality_restrictions_status=posting.nationality_restrictions_status,
                 nationality_restrictions_text=posting.nationality_restrictions_text,
@@ -332,6 +338,8 @@ def upsert_opportunity(store: Store, posting: RawPosting) -> str:
         o.deadline_note = posting.deadline_note or o.deadline_note
         o.posted_date = posting.posted_date or o.posted_date
         o.location = posting.location or o.location
+        o.salary_text = posting.salary_text or o.salary_text
+        o.funding = posting.funding or o.funding
         o.description_text = posting.description_text or o.description_text
         o.status = "open"
         if posting.evidence_id and posting.evidence_id not in o.evidence_ids:
