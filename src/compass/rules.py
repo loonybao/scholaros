@@ -67,6 +67,126 @@ def expected_completion(constraints: dict[str, Any]) -> tuple[Optional[date], Op
         return None, None
 
 
+def months_between(start: date, end: date) -> float:
+    """Approximate whole-plus-fractional months from start to end."""
+    months = (end.year - start.year) * 12 + (end.month - start.month)
+    return months + (end.day - start.day) / 30.0
+
+
+def _minus_months(d: date, n: int) -> date:
+    total = d.year * 12 + (d.month - 1) - n
+    year, month = divmod(total, 12)
+    month += 1
+    last = calendar.monthrange(year, month)[1]
+    return date(year, month, min(d.day, last))
+
+
+def timing_assessment(
+    opp: Opportunity, constraints: dict[str, Any], today: date
+) -> str:
+    """Deterministic timing/readiness of THIS vacancy given the user's
+    expected MSc completion. Never guesses a start date; an estimated
+    completion is used for planning but is not treated as confirmed.
+
+    Returns one of: actionable_now, prepare_for_current_cycle, future_target,
+    timing_mismatch, timing_unknown.
+    """
+    exp_grad, _certainty = expected_completion(constraints)
+    if exp_grad is None:
+        return "timing_unknown"  # no horizon to assess against
+    start = opp.official.start_date_value
+    if start is None:
+        return "timing_unknown"  # start not stated on the posting
+    if start < exp_grad:
+        # The position begins before the user can start. A ~months-long gap is
+        # not something 'negotiable' realistically bridges; treat as a mismatch.
+        return "timing_mismatch"
+    months = months_between(today, exp_grad)
+    if months > 9:
+        return "future_target"           # compatible start, but too early to act
+    if months > 6:
+        return "prepare_for_current_cycle"
+    return "actionable_now"
+
+
+# Planning phase thresholds in months-to-graduation.
+def graduation_horizon(
+    constraints: dict[str, Any], today: date
+) -> Optional[dict[str, Any]]:
+    """Deterministic career-timing plan from the expected MSc completion.
+    Returns None when no expected completion is recorded (no horizon)."""
+    exp_grad, certainty = expected_completion(constraints)
+    if exp_grad is None:
+        return None
+    months = months_between(today, exp_grad)
+
+    if months > 9:
+        phase, label, guidance = (
+            "monitor_and_build",
+            "Monitor & capability building",
+            "Monitor target groups, build skills, and finish thesis and "
+            "publications. Do not initiate recruiter outreach for ordinary "
+            "live vacancies this far from graduation.",
+        )
+    elif months > 6:
+        phase, label, guidance = (
+            "prepare",
+            "Application preparation",
+            "Begin application preparation and target-lab research.",
+        )
+    elif months > 3:
+        phase, label, guidance = (
+            "outreach_window",
+            "Recruiter/supervisor outreach",
+            "Recruiter or supervisor outreach may become appropriate for "
+            "relevant live vacancies with a compatible start date.",
+        )
+    else:
+        phase, label, guidance = (
+            "active_application",
+            "Active applications",
+            "Actively apply, prioritising roles whose start date is compatible "
+            "with your MSc completion.",
+        )
+
+    prep_from = _minus_months(exp_grad, 9)
+    outreach_from = _minus_months(exp_grad, 6)
+    active_from = _minus_months(exp_grad, 6)
+    final_push = _minus_months(exp_grad, 3)
+
+    milestones = [
+        {"date": today.isoformat(),
+         "text": "Now — finish thesis and publications; strengthen priority "
+                 "learn-next skills; monitor target groups (see Watchlist)."},
+        {"date": prep_from.isoformat(),
+         "text": "Begin application preparation and target-lab research."},
+        {"date": outreach_from.isoformat(),
+         "text": "Recruiter/supervisor outreach becomes appropriate for "
+                 "compatible live vacancies."},
+        {"date": final_push.isoformat(),
+         "text": "Active applications — prioritise roles with a start date "
+                 "compatible with graduation."},
+        {"date": exp_grad.isoformat(),
+         "text": f"Expected MSc completion ({certainty})."},
+    ]
+
+    return {
+        "expected_graduation": exp_grad.isoformat(),
+        "certainty": certainty,
+        "months_to_graduation": round(months, 1),
+        "current_phase": phase,
+        "phase_label": label,
+        "phase_guidance": guidance,
+        "outreach_window": {"from": outreach_from.isoformat(),
+                            "to": final_push.isoformat()},
+        "active_application_window": {"from": active_from.isoformat(),
+                                     "to": exp_grad.isoformat()},
+        "preparation_window": {"from": prep_from.isoformat(),
+                              "to": outreach_from.isoformat()},
+        "milestones": milestones,
+    }
+
+
 def urgency(deadline: Optional[date], today: date) -> tuple[str, Optional[int]]:
     if deadline is None:
         return "none", None
@@ -324,6 +444,7 @@ def recompute_derived(
         urgency=urg,
         days_to_deadline=days,
         needs_review=needs_review,
+        timing_assessment=timing_assessment(opp, constraints, today),
     )
 
 

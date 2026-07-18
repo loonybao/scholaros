@@ -1,9 +1,9 @@
 {
   "id": "app_tudelft_safemove_2026",
   "entity_type": "application",
-  "schema_version": 7,
+  "schema_version": 8,
   "created_at": "2026-07-18T04:18:20.779126Z",
-  "updated_at": "2026-07-18T05:14:54.319968+00:00",
+  "updated_at": "2026-07-18T07:52:07.202473Z",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.780126Z",
@@ -31,7 +31,7 @@
       "note": "deadline check result recorded"
     },
     {
-      "ts": "2026-07-18T04:44:32.528949+00:00",
+      "ts": "2026-07-18T04:44:32.528949Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -39,34 +39,55 @@
       "note": "migrated to v6"
     },
     {
-      "ts": "2026-07-18T05:14:54.319968+00:00",
+      "ts": "2026-07-18T05:14:54.319968Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v7"
+    },
+    {
+      "ts": "2026-07-18T07:52:06.699454Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v8"
+    },
+    {
+      "ts": "2026-07-18T07:52:07.202473Z",
+      "actor": "human",
+      "fields_changed": [
+        "manual.blockers",
+        "manual.next_step",
+        "manual.next_step_due",
+        "manual.notes",
+        "manual.stage",
+        "outcome.decided_at",
+        "outcome.feedback_note",
+        "outcome.result"
+      ],
+      "note": "SAFE-MOVE No-go: withdrawn for this cycle"
     }
   ],
   "system": {
     "opportunity_id": "opp_tudelft-phd-position-in-extended-reality-for-safe-and-active"
   },
   "manual": {
-    "stage": "identified",
+    "stage": "withdrawn",
     "submitted_at": null,
     "materials": [],
     "contact_person_ids": [],
     "events": [],
-    "blockers": [
-      "USER GO/NO-GO required before 2026-07-19 (official page confirmed open on 2026-07-18, no extension) - act_safemove_go_nogo"
-    ],
-    "next_step": "User decides Go or No-go",
-    "next_step_due": "2026-07-19",
+    "blockers": [],
+    "next_step": "",
+    "next_step_due": null,
     "internal_due_date": null,
-    "notes": "No application decision made. Preserved as part of the MXR Lab recruitment signal (sig_tudelft_mxr_lab_expansion) even if not applied."
+    "notes": "NO-GO for the current cycle (closes 2026-07-19; incompatible with July-2027 graduation and preparation window). All opportunity, skill and MXR lab-expansion intelligence retained."
   },
   "outcome": {
-    "result": null,
-    "decided_at": null,
-    "feedback_note": ""
+    "result": "withdrawn",
+    "decided_at": "2026-07-18T07:52:07.200969Z",
+    "feedback_note": "No-go decided due to graduation timeline, not fit."
   }
 }

@@ -1,9 +1,9 @@
 {
   "id": "app_tudelft_textile_2026",
   "entity_type": "application",
-  "schema_version": 7,
+  "schema_version": 8,
   "created_at": "2026-07-18T04:18:20.781635Z",
-  "updated_at": "2026-07-18T05:14:54.321970+00:00",
+  "updated_at": "2026-07-18T07:52:07.215492Z",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.781635Z",
@@ -31,7 +31,7 @@
       "note": "timing re-evaluated: uncertain, not stated"
     },
     {
-      "ts": "2026-07-18T04:44:32.530950+00:00",
+      "ts": "2026-07-18T04:44:32.530950Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -39,12 +39,31 @@
       "note": "migrated to v6"
     },
     {
-      "ts": "2026-07-18T05:14:54.321970+00:00",
+      "ts": "2026-07-18T05:14:54.321970Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v7"
+    },
+    {
+      "ts": "2026-07-18T07:52:06.701964Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v8"
+    },
+    {
+      "ts": "2026-07-18T07:52:07.215492Z",
+      "actor": "human",
+      "fields_changed": [
+        "manual.blockers",
+        "manual.next_step",
+        "manual.next_step_due",
+        "manual.notes"
+      ],
+      "note": "retained as adjacent market intelligence"
     }
   ],
   "system": {
@@ -57,13 +76,12 @@
     "contact_person_ids": [],
     "events": [],
     "blockers": [
-      "Decision pending: read the full posting and decide whether to pursue",
-      "DEGREE TIMING: posting requires an MSc (Design/HCI/CS...) but states no completion deadline or start date; expected completion 2027-07 (estimated) -> would need recruiter confirmation IF pursued"
+      "GRADUATION HORIZON: not actionable this cycle (expected MSc July 2027, estimated). Retained as adjacent market intelligence."
     ],
-    "next_step": "Read the full official posting; decide by 2026-07-26 whether to prepare an application",
-    "next_step_due": "2026-07-26",
+    "next_step": "No action now; revisit if a compatible future IDE vacancy appears",
+    "next_step_due": null,
     "internal_due_date": null,
-    "notes": "STATUS: consider. Official deadline 2026-08-02 per verified record. Explicitly LOWER priority than the XR-AV application. TIMING: uncertain (not stated in the posting); resolve only after a go decision - no content generation."
+    "notes": "STATUS: consider (adjacent market intelligence), below XR-AV. Not actionable now due to graduation horizon; no recruiter contact this cycle."
   },
   "outcome": {
     "result": null,

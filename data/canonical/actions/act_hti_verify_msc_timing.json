@@ -1,9 +1,9 @@
 {
   "id": "act_hti_verify_msc_timing",
   "entity_type": "action",
-  "schema_version": 7,
+  "schema_version": 8,
   "created_at": "2026-07-18T03:21:34.020066Z",
-  "updated_at": "2026-07-18T05:14:54.308459+00:00",
+  "updated_at": "2026-07-18T07:52:06.686981+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:21:34.034485Z",
@@ -55,6 +55,14 @@
         "schema_version"
       ],
       "note": "migrated to v7"
+    },
+    {
+      "ts": "2026-07-18T07:52:06.686981+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v8"
     }
   ],
   "system": {

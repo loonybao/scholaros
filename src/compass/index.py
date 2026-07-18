@@ -103,7 +103,8 @@ CREATE TABLE opportunities (
     hidden INTEGER NOT NULL DEFAULT 0,
     analyzed INTEGER NOT NULL DEFAULT 0,
     analysis_stale INTEGER NOT NULL DEFAULT 0,
-    retrieved_at TEXT
+    retrieved_at TEXT,
+    timing_assessment TEXT NOT NULL DEFAULT 'timing_unknown'
 );
 
 CREATE TABLE people (
@@ -167,7 +168,7 @@ def rebuild_index(cfg: Config, store: Store) -> int:
             )
             conn.execute(
                 "INSERT INTO opportunities VALUES "
-                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     opp.id,
                     o.title,
@@ -200,6 +201,7 @@ def rebuild_index(cfg: Config, store: Store) -> int:
                     int(opp.ai is not None),
                     int(stale),
                     o.retrieved_at.isoformat() if o.retrieved_at else None,
+                    d.timing_assessment,
                 ),
             )
             rows += 1
@@ -319,16 +321,23 @@ def dashboard_data(cfg: Config, today: date) -> dict:
         open_opps.sort(key=lambda r: (r["deadline"] is None, r["deadline"] or ""))
 
         # Action Required contains ONLY genuinely actionable items:
-        #   - provisional apply/consider recommendations (incl. their imminent
-        #     deadlines; if stale, they stay here flagged for renewed attention),
+        #   - apply/consider recommendations whose TIMING is actionable now
+        #     (actionable_now / prepare_for_current_cycle), so a high-fit
+        #     vacancy that starts before graduation does not push outreach,
         #   - explicit manual-verification tasks (open Action records, added
         #     to the payload below).
-        # Unanalysed records — and stale monitor/reject dispositions, which
-        # need re-analysis rather than attention — go to the Analysis Queue.
+        # When no graduation horizon is recorded, the timing gate is not
+        # applied (fall back to fit-only). Unanalysed records and stale
+        # monitor/reject dispositions go to the Analysis Queue.
         for r in all_opps:
             r["analysis_stale"] = bool(r["analysis_stale"])
+        from .rules import graduation_horizon
+        horizon = graduation_horizon(cfg.constraints, today)
+        actionable_timing = {"actionable_now", "prepare_for_current_cycle"}
         action_required = [
-            r for r in open_opps if r["recommendation"] in ("apply", "consider")
+            r for r in open_opps
+            if r["recommendation"] in ("apply", "consider")
+            and (horizon is None or r["timing_assessment"] in actionable_timing)
         ]
 
         analysis_queue = [
@@ -367,9 +376,20 @@ def dashboard_data(cfg: Config, today: date) -> dict:
         for t in watchlist for i in t["preparation_items"][:3]
     ]
 
+    # High-fit vacancies that are not actionable now because of the graduation
+    # horizon are surfaced separately as market intelligence / future-target
+    # evidence — never dropped, never pushed as an action.
+    future_target_intel = [
+        r for r in open_opps
+        if r["recommendation"] in ("apply", "consider")
+        and r["timing_assessment"] not in actionable_timing
+    ] if horizon else []
+
     return {
         "generated_at": today.isoformat(),
+        "graduation_horizon": horizon,
         "action_required": action_required,
+        "future_target_intel": future_target_intel,
         "manual_tasks": open_tasks,
         "analysis_queue": analysis_queue,
         "open_opportunities": open_opps,
@@ -581,7 +601,7 @@ def browse_opportunities(cfg: Config, filters: dict) -> list[dict]:
     params: list = []
     for column in ("org_id", "lab_org_id", "fit_type", "recommendation",
                    "eligibility_gate", "future_group_value", "position_type",
-                   "status"):
+                   "status", "timing_assessment"):
         value = filters.get(column)
         if value:
             where.append(f"o.{column} = ?")

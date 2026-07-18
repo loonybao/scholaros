@@ -18,6 +18,10 @@ const FILTERS = [
     "mobility_or_location_constraint", "deadline_passed", "user_not_interested",
   ]],
   ["future_group_value", "Group value", ["high", "medium", "low"]],
+  ["timing_assessment", "Timing", [
+    "actionable_now", "prepare_for_current_cycle", "future_target",
+    "timing_mismatch", "timing_unknown",
+  ]],
   ["position_type", "Career stage", [
     "phd", "postdoc", "project_researcher", "research_assistant", "other",
   ]],
@@ -62,12 +66,15 @@ function resultTable(rows) {
       <td>${gateBadge(r.eligibility_gate)}</td>
       <td class="num">${r.fit_overall ?? "—"}</td>
       <td>${recommendationBadge(r) || "—"}</td>
+      <td>${r.timing_assessment ? badge(r.timing_assessment,
+        r.timing_assessment === "actionable_now" ? "pass"
+        : r.timing_assessment.startsWith("timing_") ? "uncertain" : "none") : "—"}</td>
       <td>${r.rejection_reasons.map((x) => badge(x, "none")).join(" ") || "—"}</td>
       <td>${r.future_group_value ? badge(`group: ${r.future_group_value}`, r.future_group_value === "high" ? "pass" : "none") : "—"}</td>
     </tr>`).join("");
   return `<div class="table-wrap"><table>
     <tr><th>Opportunity</th><th>Organisation</th><th>Stage</th><th>Deadline</th>
-    <th>Gate</th><th>Fit</th><th>Proposal</th><th>Rejection reasons</th><th>Group value</th></tr>
+    <th>Gate</th><th>Fit</th><th>Proposal</th><th>Timing</th><th>Rejection reasons</th><th>Group value</th></tr>
     ${body}</table></div>`;
 }
 

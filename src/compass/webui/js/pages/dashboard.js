@@ -131,6 +131,45 @@ function healthRow(health) {
     Read-only intelligence UI — decisions and applications are edited via CLI.</footer>`;
 }
 
+function horizonSection(h) {
+  if (!h) return "";
+  const win = (w) => w ? `${esc(w.from)} → ${esc(w.to)}` : "—";
+  const milestones = h.milestones.map((m) =>
+    `<li><span>${esc(m.text)}</span><span class="card-org">${esc(m.date)}</span></li>`).join("");
+  return `<div class="target-card">
+    <div class="card-row">
+      ${badge(`current phase: ${h.phase_label}`, "pass")}
+      ${badge(`~${h.months_to_graduation} months to graduation`, "none")}
+      ${badge(`expected MSc: ${h.expected_graduation} (${h.certainty})`, "none")}
+    </div>
+    <div class="skill-detail"><strong>Guidance:</strong> ${esc(h.phase_guidance)}</div>
+    <div class="target-grid">
+      <div><h4>Recommended preparation window</h4><div>${win(h.preparation_window)}</div></div>
+      <div><h4>Recommended outreach window</h4><div>${win(h.outreach_window)}</div></div>
+      <div><h4>Recommended active application window</h4><div>${win(h.active_application_window)}</div></div>
+    </div>
+    <div style="margin-top:10px"><h4 style="font-size:10px;text-transform:uppercase;color:var(--muted)">Next major preparation milestones</h4>
+      <ul class="plain-list">${milestones}</ul></div>
+  </div>`;
+}
+
+function futureTargetIntel(rows) {
+  if (!rows.length) return "";
+  const body = rows.map((r) => `
+    <tr>
+      <td><a href="${esc(r.canonical_url)}" target="_blank" rel="noopener">${esc(r.title)}</a></td>
+      <td>${esc(r.org_name || r.org_id)}</td>
+      <td class="num">${r.fit_overall ?? "—"}</td>
+      <td>${badge(`timing: ${r.timing_assessment}`, "uncertain")}</td>
+      <td class="num">${esc(r.deadline || "—")}</td>
+    </tr>`).join("");
+  return panel(
+    "High-fit vacancies — market intelligence / future-target evidence (not actionable now)",
+    `<div class="table-wrap"><table>
+      <tr><th>Vacancy</th><th>Organisation</th><th>Research fit</th>
+      <th>Timing</th><th>Deadline</th></tr>${body}</table></div>`);
+}
+
 function recentSignals(signals) {
   if (!signals.length)
     return emptyState("No verified signals yet.");
@@ -176,7 +215,11 @@ export default async function render(root) {
       <h1>Research Compass — Dashboard</h1>
       <div class="header-meta">Generated ${esc(dash.generated_at)} · canonical → SQLite index → this page</div>
     </header>
+    ${dash.graduation_horizon
+      ? panel("Graduation horizon", horizonSection(dash.graduation_horizon))
+      : ""}
     ${panel("Action required", manualTasks(dash.manual_tasks || []) + actionCards(dash.action_required))}
+    ${futureTargetIntel(dash.future_target_intel || [])}
     ${panel("Analysis queue (not yet analysed)", analysisQueue(dash.analysis_queue || []))}
     <div class="two-col">
       ${panel("Open opportunities", openTable(dash.open_opportunities))}

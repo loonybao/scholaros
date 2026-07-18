@@ -5,7 +5,7 @@ stage: identified
 opportunity: opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a
 official_deadline: 2026-08-02
 internal_due_date: not set
-blockers: 2
+blockers: 1
 ---
 
 # Application — [[opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a]]
@@ -15,12 +15,11 @@ blockers: 2
 **Internal preparation date:** not set
 **Official submission URL:** https://careers.tudelft.nl/job/Delft-PhD-Position-Biosensing-and-Designing-for-Temporal-and-Biofabricated-Textile-Experiences-2628-CD/1366133057/
 **Contacts:** none recorded
-**Next action:** Read the full official posting; decide by 2026-07-26 whether to prepare an application (due 2026-07-26)
+**Next action:** No action now; revisit if a compatible future IDE vacancy appears
 
 ## Blockers
 
-- [ ] Decision pending: read the full posting and decide whether to pursue
-- [ ] DEGREE TIMING: posting requires an MSc (Design/HCI/CS...) but states no completion deadline or start date; expected completion 2027-07 (estimated) -> would need recruiter confirmation IF pursued
+- [ ] GRADUATION HORIZON: not actionable this cycle (expected MSc July 2027, estimated). Retained as adjacent market intelligence.
 
 ## Required documents
 
@@ -28,7 +27,7 @@ _Not yet enumerated — verify on the official page._
 
 ## Notes (from record)
 
-STATUS: consider. Official deadline 2026-08-02 per verified record. Explicitly LOWER priority than the XR-AV application. TIMING: uncertain (not stated in the posting); resolve only after a go decision - no content generation.
+STATUS: consider (adjacent market intelligence), below XR-AV. Not actionable now due to graduation horizon; no recruiter contact this cycle.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/app_tudelft_textile_2026.md` and link [[app_tudelft_textile_2026]]._

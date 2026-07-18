@@ -15,7 +15,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-SCHEMA_VERSION = 7
+SCHEMA_VERSION = 8
 
 # Structured rejection reasons. A reject decision NEVER deletes opportunity
 # intelligence — records stay browsable for history and skill analytics; the
@@ -205,6 +205,16 @@ class OpportunityDerived(BaseModel):
     urgency: Literal["urgent", "high", "medium", "low", "none"] = "none"
     days_to_deadline: Optional[int] = None
     needs_review: bool = False
+    # Timing/readiness of THIS vacancy relative to the user's expected MSc
+    # completion. Separate axis from research fit and eligibility: a high-fit
+    # vacancy whose start precedes graduation is still not actionable now.
+    timing_assessment: Literal[
+        "actionable_now",
+        "prepare_for_current_cycle",
+        "future_target",
+        "timing_mismatch",
+        "timing_unknown",
+    ] = "timing_unknown"
 
 
 class OpportunityManual(BaseModel):

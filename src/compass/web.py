@@ -31,7 +31,7 @@ WEBUI_DIR = Path(__file__).parent / "webui"
 
 BROWSE_FILTERS = (
     "org_id", "lab_org_id", "fit_type", "recommendation", "eligibility_gate",
-    "future_group_value", "position_type", "status", "q",
+    "future_group_value", "position_type", "status", "timing_assessment", "q",
     "rejection_reason", "skill", "deadline_status",
 )
 
