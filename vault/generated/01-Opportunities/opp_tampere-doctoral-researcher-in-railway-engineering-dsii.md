@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 28)
+Gate: **uncertain** (days to deadline: 27)
 
 - funding/salary not confirmed on the posting
 

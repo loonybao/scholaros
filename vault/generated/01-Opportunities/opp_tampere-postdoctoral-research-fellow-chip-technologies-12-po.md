@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 8
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 45)
+Gate: **uncertain** (days to deadline: 44)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -152,7 +152,21 @@ Hakuaika tehtävään päättyy
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.90_
+
+12 postdoctoral fellowships in the FutureChips programme on next-generation semiconductor technologies (compound materials, novel architectures, chip design, advanced packaging), 3-year fixed term across two faculties.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 10 |
+| Strategic value | 15 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-postdoctoral-research-fellow-chip-technologies-12-po.md` and link [[opp_tampere-postdoctoral-research-fellow-chip-technologies-12-po]]._

@@ -6,8 +6,8 @@ organisation: "Aalto University"
 deadline: 2026-09-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
-urgency: low
+fit_overall: 51
+urgency: medium
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 46)
+Gate: **uncertain** (days to deadline: 45)
 
 - funding/salary not confirmed on the posting
 
@@ -117,7 +117,25 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.75_
+
+Fully funded 4-year doctoral position in the Spatial Planning and Transportation group (School of Engineering) on the CO-SPACES project: assessing benefits/burdens of urban street-space distribution with a focus on governance - understanding diverse actors' views and co-developing governance processes. Mentor: Assoc. Prof. Milos N. Mladenovic.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 45 |
+| Methodological fit | 48 |
+| Growth value | 55 |
+| Strategic value | 68 |
+| **Overall** | **51** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** qualitative-research, mixed-methods, statistics
+
+**Risks:**
+- Degree-field mismatch could make the application non-competitive regardless of quality
+- Accepting would move the research identity away from human-centred XR
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-in-transport-studies.md` and link [[opp_aalto-doctoral-researcher-in-transport-studies]]._

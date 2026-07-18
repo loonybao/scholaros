@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-07-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 23
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 14)
+Gate: **uncertain** (days to deadline: 13)
 
 - funding/salary not confirmed on the posting
 
@@ -123,7 +123,24 @@ Apulaisprofessori,  tutkimusryhmänjohtaja Hamed Badihi, hamed.badihi(at)tuni.f
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.85_
+
+Three doctoral positions in the DARES group (Faculty of Engineering and Natural Sciences) on dependable automation, trustworthy/federated AI, resilient control and cybersecurity of cyber-physical systems, applied to wind energy, process industries and microgrids. Fully funded 3 years.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 15 |
+| Methodological fit | 20 |
+| Growth value | 35 |
+| Strategic value | 35 |
+| **Overall** | **23** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, cpp, statistics, mixed-effects-modelling
+
+**Risks:**
+- Even the most human-adjacent position (explainable AI) is evaluated by engineering criteria the applicant cannot currently meet
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-in-dependable-automation-artific.md` and link [[opp_tampere-doctoral-researcher-in-dependable-automation-artific]]._

@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-doctoral-researcher-in-fatigue-of-waam-structures",
   "entity_type": "opportunity",
-  "schema_version": 1,
+  "schema_version": 2,
   "created_at": "2026-07-17T15:34:31.711875Z",
-  "updated_at": "2026-07-17T15:36:13.291208Z",
+  "updated_at": "2026-07-18T02:53:20.807359Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:34:31.711875Z",
@@ -21,6 +21,22 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T02:49:34.968123Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v2"
+    },
+    {
+      "ts": "2026-07-18T02:53:20.807359Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
     }
@@ -62,7 +78,7 @@
     ],
     "fit_overall": null,
     "urgency": "high",
-    "days_to_deadline": 14,
+    "days_to_deadline": 13,
     "needs_review": true
   },
   "manual": {

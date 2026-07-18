@@ -15,7 +15,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 ID_PREFIXES = {
     "opportunity": "opp_",
@@ -120,7 +120,13 @@ class OpportunityOfficial(BaseModel):
 
 
 class OpportunityAI(BaseModel):
-    """AI analysis layer. NO fact fields (deadline/salary/status) by design."""
+    """AI analysis layer. NO fact fields (deadline/salary/status) by design.
+
+    `funding_assessment` and `recommendation` are AI-level interpretation and
+    advice only — official funding/status facts live in official.* and a
+    recommendation here never finalizes a Decision (apply is never
+    auto-finalized).
+    """
 
     model_config = ConfigDict(extra="forbid")
 
@@ -133,11 +139,20 @@ class OpportunityAI(BaseModel):
     required_skills: list[str] = Field(default_factory=list)  # taxonomy ids
     matched_skills: list[str] = Field(default_factory=list)
     missing_skills: list[str] = Field(default_factory=list)
+    transferable_strengths: list[str] = Field(default_factory=list)
     eligibility_flags: list[str] = Field(default_factory=list)
     risks: list[str] = Field(default_factory=list)
+    funding_assessment: Optional[str] = None  # interpretation, never a fact
+    recommendation: Optional[
+        Literal["apply", "consider", "monitor", "reject"]
+    ] = None
+    next_action: Optional[str] = None
     confidence: float = Field(ge=0.0, le=1.0)
     model: str
     prompt_version: str
+    analysis_provider: str = "api"  # e.g. "interactive_claude"
+    analysis_mode: Literal["automated", "manual_assisted"] = "automated"
+    analysis_status: Literal["provisional", "reviewed", "final"] = "provisional"
     analyzed_at: datetime
     analysis_input_hash: str
 

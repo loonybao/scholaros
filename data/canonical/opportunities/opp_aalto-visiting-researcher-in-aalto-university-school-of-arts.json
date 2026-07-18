@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-visiting-researcher-in-aalto-university-school-of-arts",
   "entity_type": "opportunity",
-  "schema_version": 1,
+  "schema_version": 2,
   "created_at": "2026-07-17T15:36:13.236936Z",
-  "updated_at": "2026-07-17T15:36:13.346269Z",
+  "updated_at": "2026-07-18T02:53:20.841857Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:36:13.237945Z",
@@ -21,6 +21,53 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T02:49:35.048397Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v2"
+    },
+    {
+      "ts": "2026-07-18T02:53:20.302454Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T02:53:20.841857Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -54,16 +101,60 @@
     "status": "open",
     "description_text": "The School of Arts, Design and Architecture (ARTS) is an institution of higher education for design, media, architecture, motion picture, art education and art. The current key areas of research are design, digital media, audiovisual representation, art, visual culture, welfare architecture and emerging technologies as well as urban planning and design. The school produces specialists and innovators of art, design and architecture with strong artistic and technical skills.\nVISITING RESEARCHER/SCHOLAR IN AALTO UNIVERSITY SCHOOL OF ARTS, DESIGN AND ARCHITECTURE\n(unfunded position, researcher shall organise funding by him/herself)\nFruitful interaction between science, art, design and architecture makes research carried out at the Aalto University School of Arts, Design and Architecture highly versatile. The topics of research relate to the fields of art, design, media and architecture with sustainable development as an all-encompassing theme.\nDepartments\nDepartment of Architecture\nDepartment of Art\nand media\nDepartment of Design\nDepartment of Film\nGeneral information\nThe Aalto School of Arts, Design and Architecture offers a Visiting Researcher in ARTS positions for postdoctoral Researchers and Doctoral Candidates. Please note that master level students are not accepted. The position is UNFUNDED and open to Researchers from all countries. Visiting Reseracher should have preferably secured funding for the duration of the visit before applying for this position. Visiting Researcher in ARTS is for a full semester position or a full academic year. The applicant may indicate a particular time period of the visit and the starting date of the visit.\nAcademic calendar\nAutumn term 1.8. – 31.12.\nSpring term 1.1. – 31.7.\nSummer break (summer schools/classes) in June-August\nChristmas break mid December – mid January\nPlease see detailed information:\nhttps://into.aalto.fi/display/enopinnot/Academic+calendar+2022-2024\nThe Visiting Researcher in ARTS will be provided working space, IT services, access to the library services, opportunity to participate in the Department’s and School of Arts, Design and Architecture's events, and interact with staff and other Researchers within the School of Arts, Design and Architecture. Additionally s/he will be part of a larger research community of Aalto University. The school will help to arrange housing for the Visiting Researcher in ARTS.\nVisiting Researcher in ARTS is expected to undertake research and publication in collaboration with Department's personnel and independent research. S/he is expected to prepare a lecture about the research topic within two weeks of arrival and may be asked to contribute to the teaching of the Department. Visiting Researcher is also expected to participate in departmental meetings. The Visiting Researcher will have to sign an Academic Visitor contract with the School of Arts, Design and Architecture immediately after arrival in Finland.\nThe applicants are expected to start within a year from the application time. Please indicate the period of your stay in the application form and the starting date of your visit.\nHow to apply\nBefore applying for this position please get in contact with the professor whose research is related to your plans within the specific department. Please name the professor with whom you have been in contact with.Links to departments can be found here:\nhttp://arts.aalto.fi/en/departments/\n.\nThe applications for the Visiting Researcher/Scholar in ARTS position are to be submitted through the eRecruitment system (link 'Apply').\n(If you are already working at Aalto or have a visitor profile, please apply via our internal system Workday -> Find Jobs.)\nThe application for the position should contain (in pdf format):\nCV\nPlan for research and activities at Aalto University\nList of publications\nAll material should be submitted in English. The application materials will not be returned. By filling in the application you declare that the information provided is complete, true and correct to the best of your knowledge.\nFamiliarize yourself with Aalto University's privacy notice:\nPrivacy notice for researchers, professionals and visiting scholars | Aalto University\nThe decision will be announced within approximately two months via email to the applicant.\nFurther information about the application procedure of Visiting Researcher in ARTS, please contact:\nhr-visitors-arts@aalto.fi\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Rolling visiting researcher/scholar position at Aalto ARTS (design, media, architecture, emerging technologies) for postdoctoral researchers and doctoral candidates. Explicitly UNFUNDED - visitors must bring their own funding; offers workspace, community access and collaboration for a semester or academic year.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 60,
+      "rationale": "ARTS covers design, digital media and emerging technologies, which genuinely neighbours human-centred XR; a design-department visit could fit the applicant's profile thematically."
+    },
+    "methodological_fit": {
+      "score": 50,
+      "rationale": "Open-ended research visit; methods are whatever the visitor brings. No stated requirements to match or miss."
+    },
+    "growth_value": {
+      "score": 40,
+      "rationale": "Network and community exposure at a priority-1 institution, but no structured training, supervision commitment or doctoral progression."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "An Aalto affiliation and personal contact with ARTS professors could seed a later funded application, but the position itself is unfunded and therefore does not advance the salaried-PhD goal."
+    },
+    "required_skills": [],
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [
+      "The applicant's XR orientation system is a presentable, self-contained research artifact for a visiting lecture and collaboration pitch"
+    ],
+    "eligibility_flags": [
+      "Position is for postdoctoral researchers and doctoral candidates; master-level students are not accepted - the applicant is not yet a doctoral candidate, so currently ineligible",
+      "Unfunded by explicit statement, conflicting with the applicant's confirmed requirement for salaried/funded positions",
+      "Record is incomplete: no application deadline (rolling) and no stated location in the captured data"
+    ],
+    "risks": [
+      "Even with external funding secured later, this is an affiliation, not employment - no salary, no doctoral study right"
+    ],
+    "funding_assessment": "Posting text explicitly states the position is unfunded and the researcher must organise their own funding - directly conflicts with the requires-funding constraint.",
+    "recommendation": "reject",
+    "next_action": "None now. Optionally reconsider after doctoral-candidate status exists AND external mobility funding is available, as a networking route into Aalto.",
+    "confidence": 0.8,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T02:53:20.301452Z",
+    "analysis_input_hash": "04f2b900f0f83a1f13cbb5039aa425da4bf4c16ddf0930558263622e4edaf920"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "position country unknown",
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
+    "fit_overall": 49,
     "urgency": "low",
-    "days_to_deadline": 531,
+    "days_to_deadline": 530,
     "needs_review": true
   },
   "manual": {

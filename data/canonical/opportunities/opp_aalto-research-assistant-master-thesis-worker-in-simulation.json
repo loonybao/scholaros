@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-research-assistant-master-thesis-worker-in-simulation",
   "entity_type": "opportunity",
-  "schema_version": 1,
+  "schema_version": 2,
   "created_at": "2026-07-17T15:35:32.901936Z",
-  "updated_at": "2026-07-17T15:36:13.343001Z",
+  "updated_at": "2026-07-18T02:53:20.840744Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:32.901936Z",
@@ -21,6 +21,22 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T02:49:35.045659Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v2"
+    },
+    {
+      "ts": "2026-07-18T02:53:20.840744Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
     }
@@ -62,7 +78,7 @@
     ],
     "fit_overall": null,
     "urgency": "medium",
-    "days_to_deadline": 44,
+    "days_to_deadline": 43,
     "needs_review": true
   },
   "manual": {

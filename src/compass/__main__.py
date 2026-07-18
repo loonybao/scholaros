@@ -152,6 +152,40 @@ def cmd_collect(cfg: Config, args: argparse.Namespace) -> int:
     return 1 if failed else 0
 
 
+def cmd_prepare_analysis(cfg: Config, args: argparse.Namespace) -> int:
+    from .analysis_io import prepare_packet
+
+    store = _make_store(cfg)
+    ids = [i.strip() for i in args.ids.split(",") if i.strip()]
+    packet = prepare_packet(cfg, store, ids)
+    out = Path(args.out) if args.out else (
+        cfg.paths.root / "data" / "analysis"
+        / f"packet-{utcnow().strftime('%Y%m%dT%H%M%SZ')}.json"
+    )
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with open(out, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(packet, f, indent=2, ensure_ascii=False)
+    print(f"prepare-analysis: {len(ids)} opportunity(ies) -> {out}")
+    return 0
+
+
+def cmd_import_analysis(cfg: Config, args: argparse.Namespace) -> int:
+    from .analysis_io import import_results
+
+    store = _make_store(cfg)
+    report = import_results(cfg, store, Path(args.result_file), model=args.model)
+    for opp_id in report["imported"]:
+        print(f"imported: {opp_id}")
+    for msg in report["rejected"]:
+        print(f"REJECTED: {msg}")
+    if report["imported"]:
+        _recompute_all_derived(cfg, store)
+        print("derived layer recomputed")
+    print(f"import-analysis: {len(report['imported'])} imported, "
+          f"{len(report['rejected'])} rejected")
+    return 1 if report["rejected"] else 0
+
+
 def cmd_rebuild_index(cfg: Config, args: argparse.Namespace) -> int:
     from .index import rebuild_index
 
@@ -251,6 +285,21 @@ def main(argv: list[str] | None = None) -> int:
     p_collect = sub.add_parser("collect", help="run collectors against official sources")
     p_collect.add_argument("--source", help="run a single source regardless of enabled flag")
 
+    p_prep = sub.add_parser(
+        "prepare-analysis",
+        help="export a whitelisted analysis packet for selected opportunities",
+    )
+    p_prep.add_argument("--ids", required=True, help="comma-separated opportunity ids")
+    p_prep.add_argument("--out", help="output path (default data/analysis/packet-<ts>.json)")
+
+    p_imp = sub.add_parser(
+        "import-analysis",
+        help="validate and import structured analysis results (ai layer only)",
+    )
+    p_imp.add_argument("result_file", help="JSON result file")
+    p_imp.add_argument("--model", default="claude-fable-5",
+                       help="model identifier recorded as provenance")
+
     p_serve = sub.add_parser("serve", help="run the read-only web dashboard (127.0.0.1)")
     p_serve.add_argument("--port", type=int, default=8000)
 
@@ -271,6 +320,8 @@ def main(argv: list[str] | None = None) -> int:
         "rebuild-index": cmd_rebuild_index,
         "serve": cmd_serve,
         "collect": cmd_collect,
+        "prepare-analysis": cmd_prepare_analysis,
+        "import-analysis": cmd_import_analysis,
     }
     return commands[args.command](cfg, args)
 

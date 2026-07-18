@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-13
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 27)
+Gate: **uncertain** (days to deadline: 26)
 
 - funding/salary not confirmed on the posting
 
@@ -101,7 +101,21 @@ Jätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löyty
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+
+Doctoral Researcher position in Antenna Engineering at the Electrical Engineering Unit (ITC faculty): mobile phone antenna design, electromagnetic simulation, RF circuit design and extensive RF/antenna measurements, supervised by an Academy Research Fellow.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 12 |
+| Growth value | 15 |
+| Strategic value | 25 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-antenna-engineering.md` and link [[opp_tampere-doctoral-researcher-antenna-engineering]]._

@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2027-12-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 49
 urgency: low
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 531)
+Gate: **uncertain** (days to deadline: 530)
 
 - position country unknown
 - funding/salary not confirmed on the posting
@@ -83,7 +83,24 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.80_
+
+Rolling visiting researcher/scholar position at Aalto ARTS (design, media, architecture, emerging technologies) for postdoctoral researchers and doctoral candidates. Explicitly UNFUNDED - visitors must bring their own funding; offers workspace, community access and collaboration for a semester or academic year.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 60 |
+| Methodological fit | 50 |
+| Growth value | 40 |
+| Strategic value | 30 |
+| **Overall** | **49** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Even with external funding secured later, this is an affiliation, not employment - no salary, no doctoral study right
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-visiting-researcher-in-aalto-university-school-of-arts.md` and link [[opp_aalto-visiting-researcher-in-aalto-university-school-of-arts]]._

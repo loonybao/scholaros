@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-doctoral-researcher-in-transport-studies",
   "entity_type": "opportunity",
-  "schema_version": 1,
+  "schema_version": 2,
   "created_at": "2026-07-17T15:36:06.722580Z",
-  "updated_at": "2026-07-17T15:36:13.307719Z",
+  "updated_at": "2026-07-18T02:53:20.816921Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:36:06.722580Z",
@@ -20,6 +20,54 @@
         "derived.days_to_deadline",
         "derived.eligibility_reasons",
         "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T02:49:34.995685Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v2"
+    },
+    {
+      "ts": "2026-07-18T02:53:20.272518Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T02:53:20.816921Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
@@ -54,15 +102,74 @@
     "status": "open",
     "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges.\nOur community is made up of\n16\n000 students\nand 5 200 employees, including 446\nprofessors\n. Our\ncampus\nis\nin Espoo, Greater Helsinki, Finland.\nDiversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe School of Engineering drives science and innovation in industrial and built environment technologies. We are committed to educating a new generation of experts who combine technical excellence with a deep understanding of sustainable development in shaping societies. Our research focuses on sustainable built environment, mechanics and materials, multidisciplinary energy technology, and design and implementation of technical systems. The strength of our school lies in close collaboration with stakeholders across research and education. About 45 doctoral candidates and 350 master’s students graduate from the school every year. The school is home to 700 staff members, including 70 professors. To learn more, please visit eng.aalto.fi.\nWe are now looking for a\nDoctoral Researcher in Transport Studies\nThe doctoral researcher will be embedded in the Spatial Planning and Transportation (SPT) research group and contribute to the CO-SPACES research project funded by the Research Council of Finland. The aim of CO-SPACES is to assess the benefits and burdens created by current and possible future urban street space distribution in Finnish cities, with a focus on both the aggregate societal impacts and equity implications affecting different groups of people, as well as on how to integrate this assessment into existing local governance processes. The PhD project should focus on the last part, especially around the questions of governance – by both understanding the diverse actors’ views and assumptions and working with them to reimagine governance processes.\nYour experience and ambitions\nWe are looking for a highly motivated candidate with strong analytical skills and a clear interest in urban transport systems and their governance. The successful applicant should enjoy working in an international and interdisciplinary research environment and be willing to engage with both mixed-methodological and applied research questions. Applicants should hold a master’s degree in transport studies, urban planning, policy studies, sociology, or any governance related field relevant for the PhD. Fluent written and verbal communication skills in English are essential. Knowledge of Finnish is not required.\nThe successful applicant should be able to work both independently and collaboratively as part of a research team. Previous knowledge of and experience in the field of transport planning and street design will be considered an advantage. Applicants must fulfil the eligibility and admission criteria for Aalto’s Doctoral Programme in Engineering as specified at\nAalto Doctoral Programme in Engineering | Aalto University\n.\nYour network and team\nThe doctoral researcher will join a team of world-class researchers at Aalto University, a public research university that was established in 2010 after a merger of three major Finnish universities. It is consistently highly ranked in the areas of science, art, technology, and business. The University’s main campus is located in Otaniemi, approximately 15 minutes by metro from the centre of Helsinki. Helsinki is a safe, clean, green capital city with a very high quality of life. Most of the country’s population speaks English fluently. More information about living and working in Finland can be found at\nFor international staff | Aalto University\n.\nThe doctoral researcher will receive extensive individual academic training and support, and be given wide opportunities to participate in scientific conferences and meetings. The doctoral researcher will work as a mentee of Associate Professor Miloš N. Mladenović in the SPT research group:\nSpatial Planning and Transportation Engineering | Aalto University\n, at the\nDepartment of Built Environment\n.\nWhat we offer\nThe position is\nfully funded\nfor\nfour years\n, with a preferred starting date in\nautumn 2026\n(negotiable). The doctoral degree is granted after successfully completing a set of advanced taught courses (30 ECTS), writing a doctoral thesis (usually based on several peer reviewed journal publications), and defending the thesis in a public examination. During the PhD, the doctoral researcher will be expected to present at high-level scientific conferences, publish in leading academic journals, actively participate in the SPT research group activities, assist in the preparation of new research proposals, and help to advise master’s students during the preparation of their thesis.\nThe salary range, terms, and conditions are based on a collective bargaining agreement among Finnish universities. The starting salary for doctoral students at the School of Engineering is currently 3143€ per month (gross), which is gradually increased over time depending on performance. All doctoral students at Aalto University are first granted a two-year contract, evaluated by a compulsory midterm review during the second year, with the possibility of extension for the remaining period (a further two years) if satisfactory progress has been made.\nJoin us!\nPlease submit your application through our recruitment system by\n1 September 2026\n. The link to the recruitment system can be found at the end of this job advertisement (“Apply now!”).\nAll applications must include the following materials:\nMotivation letter with the applicant’s contact information and an indication of the preferred starting date (max 1 page)\nCV including details of all academic outputs and email information for 2 persons who may be contacted to provide a character reference (max 2 pages)\nOutline of the applicant’s proposed PhD research project, including an overview of related research in the field, important academic theories/debates, research hypotheses/questions, research methods, work plan, data sources, and analytical approaches (max 3 pages)\nSummary of the applicant’s master’s thesis (max 1 page)\nCopy of the applicant’s master’s degree certificate and transcript of studies (with a clear explanation of the grading scale). Students in the final year of their master’s are welcome to apply, but the expected graduation date must be clearly stated in the application. Candidates must have completed the master’s degree before the PhD contract begins.\nAll materials should be submitted in English in a single PDF file (compiled in the order specified above). Applications submitted by email will not be accepted. Aalto University reserves the right to leave the position open, extend the application period, and consider candidates who have not applied during the application period.\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\n.\nContent-related questions about the vacancy may be directed via email to Miloš N. Mladenović (PhD mentor),\nmilos.mladenovic@aalto.fi\n. For questions related to the application process, please contact Sanni Sievänen (HR Advisor),\nsanni.h.sievanen@aalto.fi\n.\nWe will go through applications, and we may invite suitable candidates to interview already during the application period. We aim to have a transparent and equal recruitment process, so feel free to ask us for feedback.\nWant to know more about us and your future colleagues? You can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand check out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report 2025\nFor more information about living in Finland:\nAalto Careers for International Staff\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Fully funded 4-year doctoral position in the Spatial Planning and Transportation group (School of Engineering) on the CO-SPACES project: assessing benefits/burdens of urban street-space distribution with a focus on governance - understanding diverse actors' views and co-developing governance processes. Mentor: Assoc. Prof. Milos N. Mladenovic.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 45,
+      "rationale": "Shared interest in urban space and how people understand/use it, but the core research object is governance and equity of street-space allocation, not immersive systems, spatial cognition or learning. XR plays no stated role."
+    },
+    "methodological_fit": {
+      "score": 48,
+      "rationale": "Calls for mixed-methodological, applied, stakeholder-engaged research. The applicant's participatory/design-science orientation and quantitative evaluation experience partially transfer, but the centre of gravity is qualitative governance research the applicant has not demonstrated."
+    },
+    "growth_value": {
+      "score": 55,
+      "rationale": "Would build qualitative and policy-facing methods and deepen mixed methods - genuine gaps - but not the XR/behavioural-measurement capabilities central to the target identity."
+    },
+    "strategic_value": {
+      "score": 68,
+      "rationale": "Aalto is a priority-1 target institution and the position is fully funded for four years in a preferred country; however it would reposition the applicant toward transport governance rather than human-centred XR."
+    },
+    "required_skills": [
+      "mixed-methods",
+      "qualitative-research",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "matched_skills": [
+      "quantitative-research",
+      "academic-writing",
+      "user-studies"
+    ],
+    "missing_skills": [
+      "qualitative-research",
+      "mixed-methods",
+      "statistics"
+    ],
+    "transferable_strengths": [
+      "Design Science Research and participatory evaluation experience transfers to co-designing governance processes with stakeholders",
+      "Spatial framing of the Master's work (how people read and navigate real environments) gives a credible entry point to street-space research"
+    ],
+    "eligibility_flags": [
+      "Requires a Master's in transport studies, urban planning, policy studies, sociology or a governance-related field - a Creative Multimedia/HCI degree may not satisfy this disciplinary requirement without a strong bridge argument",
+      "Master's must be completed before the PhD contract begins; applicant's thesis is in progress",
+      "Requires a 3-page PhD research proposal in the governance domain, which the applicant would need to build from scratch"
+    ],
+    "risks": [
+      "Degree-field mismatch could make the application non-competitive regardless of quality",
+      "Accepting would move the research identity away from human-centred XR"
+    ],
+    "funding_assessment": "Posting text states the position is fully funded for four years under the Finnish university collective agreement - consistent with the funding requirement.",
+    "recommendation": "monitor",
+    "next_action": "No action unless the applicant wants an Aalto foothold badly enough to build a governance-flavoured proposal; revisit if no closer HCI/XR openings appear at Aalto before the September deadline.",
+    "confidence": 0.75,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T02:53:20.270498Z",
+    "analysis_input_hash": "ccc7456502d6904176b9ad0b20c7e5b2950f80d4753762ab4fc4cf6ea78cbfe3"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting"
     ],
-    "fit_overall": null,
-    "urgency": "low",
-    "days_to_deadline": 46,
+    "fit_overall": 51,
+    "urgency": "medium",
+    "days_to_deadline": 45,
     "needs_review": true
   },
   "manual": {

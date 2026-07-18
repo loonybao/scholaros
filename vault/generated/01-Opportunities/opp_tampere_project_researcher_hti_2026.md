@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 84
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 17)
+Gate: **uncertain** (days to deadline: 16)
 
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
 
@@ -118,7 +118,26 @@ Lue tarkemmat tiedot ja hakuohjeet yllä olevasta englanninkielisestä osuudesta
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-fable-5 · fit_analysis_v1 · confidence 0.85_
+
+2-5 Project Researcher positions in the Pervasive Interaction Research Group (TAUCHI/TACCU) working on human-technology interaction, XR, accessibility and multimodal interaction across several projects (networked simulation training, human-AI collaboration, industrial digital twins, inclusive work-life, human augmentation). Some selected candidates are expected to pursue a doctoral degree, with a title change to Doctoral Researcher once study rights are obtained.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 85 |
+| Methodological fit | 88 |
+| Growth value | 75 |
+| Strategic value | 82 |
+| **Overall** | **84** |
+
+**Fit type:** exact-fit
+
+**Missing skills:** python, statistics, physiological-sensing, eye-tracking
+
+**Risks:**
+- Multi-project call: final assignment may land on human-AI/accessibility topics rather than spatial learning
+- Doctoral study right is a separate later application, not guaranteed by employment
+- Defence-related projects may exclude some nationalities; unresolved for this applicant
 
 ## Manual annotations (from record)
 

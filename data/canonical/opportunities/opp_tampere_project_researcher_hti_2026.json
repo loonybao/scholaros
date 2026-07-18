@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere_project_researcher_hti_2026",
   "entity_type": "opportunity",
-  "schema_version": 1,
+  "schema_version": 2,
   "created_at": "2026-07-17T13:08:13.135307Z",
-  "updated_at": "2026-07-17T15:36:13.399305Z",
+  "updated_at": "2026-07-18T02:53:20.880213Z",
   "change_history": [
     {
       "ts": "2026-07-17T13:08:13.136310Z",
@@ -66,6 +66,53 @@
         "derived.eligibility_reasons"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T02:49:35.084619Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v2"
+    },
+    {
+      "ts": "2026-07-18T02:53:20.256808Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.funding_assessment",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.next_action",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T02:53:20.880213Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -99,15 +146,88 @@
     "status": "open",
     "description_text": "Picture: Marko Kallio, Skyfox\nTampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our universities community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nJoin our team to work on diverse, meaningful, and practical research projects!\nThe positions are hosted by the\nPervasive Interaction Research Group\n(PIRG) and are affiliated with the\nTAUCHI Research Center\nand\nTampere Accessibility Unit\n(TACCU) within the\nFaculty of Information Technology and Communication Sciences\n(ITC) at\nTampere University\n. Our research focuses on human-technology interaction, AI, XR, accessibility, multimodal interaction, and inclusive digital technologies for work and society.\nJob Description\nWe are seeking researchers for several research projects in the field of human-technology interaction.\nThe exact roles, tasks, and project assignments will be defined based on the selected researchers’ backgrounds, skills, and interests. The selected researchers will likely contribute across multiple tasks and may be involved in more than one project simultaneously, depending on their profile and the needs of the research group.\nPossible tasks may be related to, e.g.:\nsoftware development in a broad sense, encompassing various programming languages, platforms, and technologies,\nartificial intelligence (AI) and data-driven methods,\nVirtual, Augmented, and eXtended Reality (VR/AR/XR),\nplanning, conducting, and analyzing user evaluations / experimental research (with a variety of objective and subjective data collection methods), and\ndigital accessibility and inclusive design.\nPotential projects focus on topics such as:\nhuman-centered simulation and training in networked defense environments\nhuman–AI collaboration in industrial fieldwork\nhuman-centered AI for meaningful and productive work\nconversational and accessible interaction with industrial digital twins\nnovel interactive applications for accessible work-life\nhuman augmentation solutions for industrial and defense use cases\nThe goal is that some of the candidates will pursue a doctoral degree related to the field of the position. In such a case, the title can be changed to Doctoral Researcher once the candidate has an official study right and other\nqualification requirements\nare met.\nRequirements\nApplicants for the Project Researcher positions are expected to hold an applicable Master’s degree and demonstrate the ability and motivation to conduct research as part of collaborative research projects.\nCandidates are expected to have knowledge of human-technology interaction, along with a suitable combination of relevant technical and methodological skills related to the tasks described in the Job Description.\nAs the working language of the research group (and most of our projects) is English, a good command of spoken and written English is required. Proficiency in Finnish is considered an advantage.\nExperience or knowledge related to digital accessibility is also considered an asset.\nPlease note that, due to the nature of some of our projects, legal restrictions arising from international sanctions and export control regulations may affect eligibility for certain positions (\nmore information provided by the Ministry for Foreign Affairs of Finland\n).\nTampere University is a unique, multidisciplinary, forward-thinking and evolving community. Our values are openness, critical thinking, diversity, learner-centredness, courage, erudition and responsibility. We hope you can embrace these values and promote them in your role.\nWe offer\nPositions will be filled for a fixed-term period of 1–3 years (depending on qualifications, experience, and project requirements), starting preferably in September 2026; however, the starting date is negotiable and can be agreed upon with the selected candidate. Positions will be full-time (100%) or as agreed, and a trial period of four to six (4-6) months is applied.\nThe salary will be based on both the job requirements and the employee's personal performance in accordance with\nthe Finnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of a Project Researcher is placed on level 2-4 of the job requirements scale: The salary for a Project Researcher starts at around 2,500 EUR per month.\nTampere University offers a wide range of staff benefits, such as occupational health care, flexible working hours, sports facilities on campus, and several on-campus restaurants and cafés with staff discounts. More information on\nTampere University as an employer\n.\nHow to apply\nPlease submit your application through our online recruitment system (link below). The application deadline is\nAugust 3, 2026, at 23:59 (EEST, UTC+3)\n.\nPlease submit your application and all accompanying documents in English and in PDF format.\nPlease attach only the following documents:\nA motivation letter\n(max. 1 page),\nwritten independently by the applicant\n, outlining your research interests, motivation for applying, and how your background relates to the position.\nA\nCurriculum Vitae\n, including a link to a short (1–2 minute) video introduction and a clearly structured list of skills relevant to the tasks described in the Job Description.\nA portfolio of relevant work\n(e.g., software projects, research outputs, design work, or other demonstrable contributions).\nThe portfolio may be attached as a PDF or provided as a link in the CV.\nCopies of relevant degree certificates\n.\nA transcript of records from completed Master’s degree studies.\nOnly the applications sent through the online recruitment system and containing the requested attachments as instructed will be considered in the recruitment process.\nMore information\nFor more information about the positions, please contact\nProfessor Markku Turunen\nby email (firstname.surname@tuni.fi).\n***\nHaemme projektitutkijoita ihmisen ja teknologian vuorovaikutuksen tutkimushankkeisiin.\nTehtävät voivat liittyä esimerkiksi ohjelmistokehitykseen, tekoälyyn, XR-teknologioihin, käyttäjätutkimukseen sekä digitaaliseen saavutettavuuteen. Hankkeet käsittelevät muun muassa ihmisten ja tekoälyn yhteistyötä, teollisuuden digitaalisia kaksosia, saavutettavia työelämäratkaisuja sekä puolustus- ja teollisuussovelluksia.\nEdellytämme soveltuvaa ylempää korkeakoulututkintoa, kiinnostusta tutkimustyöhön sekä hyvää englannin kielen taitoa. Suomen kielen osaaminen ja saavutettavuuteen liittyvä kokemus katsotaan eduksi.\nTyösuhde on määräaikainen (1–3 vuotta), kokoaikainen (tai sovitusti). Tehtäviin sovelletaan 4-6 kuukauden koeaikaa. Tavoitteena on, että osa valituista suorittaa tehtävän alaan liittyvän tohtorintutkinnon.\nHakuaika päättyy\n3\n.8.2026, klo 23:59\n.\nLue tarkemmat tiedot ja hakuohjeet yllä olevasta englanninkielisestä osuudesta."
   },
-  "ai": null,
+  "ai": {
+    "summary": "2-5 Project Researcher positions in the Pervasive Interaction Research Group (TAUCHI/TACCU) working on human-technology interaction, XR, accessibility and multimodal interaction across several projects (networked simulation training, human-AI collaboration, industrial digital twins, inclusive work-life, human augmentation). Some selected candidates are expected to pursue a doctoral degree, with a title change to Doctoral Researcher once study rights are obtained.",
+    "fit_type": "exact-fit",
+    "thematic_fit": {
+      "score": 85,
+      "rationale": "Core discipline is human-centred XR/HCI, the applicant's exact field. Spatial cognition/wayfinding is not named, but immersive training, digital-twin interaction and collaborative XR are directly continuous with the applicant's campus digital-twin orientation research. Application domains (industry/defence) differ from higher education."
+    },
+    "methodological_fit": {
+      "score": 88,
+      "rationale": "The posting explicitly asks for XR software development plus planning, conducting and analysing user evaluations and experimental research with objective and subjective data - precisely the applicant's system-plus-user-study profile (Unity/C#/Photon build skills combined with experimental evaluation)."
+    },
+    "growth_value": {
+      "score": 75,
+      "rationale": "Would close stated gaps: objective/behavioural data collection methods, accessibility and inclusive design, human-AI interaction, and industrial digital-twin contexts; likely exposure to Python and richer statistics."
+    },
+    "strategic_value": {
+      "score": 82,
+      "rationale": "Finland is a preferred country; TAUCHI is an established HCI centre; explicit doctoral pathway converts a project role into the target Doctoral Researcher track; builds a Finnish network relevant to the Aalto priority target."
+    },
+    "required_skills": [
+      "unity",
+      "csharp",
+      "virtual-reality",
+      "augmented-reality",
+      "mixed-reality",
+      "user-studies",
+      "experimental-design",
+      "quantitative-research",
+      "multiplayer-networking",
+      "python",
+      "statistics"
+    ],
+    "matched_skills": [
+      "unity",
+      "csharp",
+      "virtual-reality",
+      "user-studies",
+      "experimental-design",
+      "quantitative-research",
+      "multiplayer-networking"
+    ],
+    "missing_skills": [
+      "python",
+      "statistics",
+      "physiological-sensing",
+      "eye-tracking"
+    ],
+    "transferable_strengths": [
+      "Role-dependent multiplayer collaboration design (information asymmetry, positive interdependence, role switching) transfers to networked simulation training and human-AI teaming",
+      "Campus digital twin for orientation transfers to conversational/accessible interaction with industrial digital twins",
+      "End-to-end ownership of an XR system plus its experimental evaluation matches the group's build-and-evaluate workflow"
+    ],
+    "eligibility_flags": [
+      "Requires a relevant completed Master's degree with transcript; applicant's MSc by Research is still in progress - completion timing versus the September 2026 start must be confirmed",
+      "Posting states some projects may be subject to legal/sanctions/export-control restrictions; which of the 2-5 roles are affected is not stated",
+      "Doctoral pathway applies only to some selected candidates, not all"
+    ],
+    "risks": [
+      "Multi-project call: final assignment may land on human-AI/accessibility topics rather than spatial learning",
+      "Doctoral study right is a separate later application, not guaranteed by employment",
+      "Defence-related projects may exclude some nationalities; unresolved for this applicant"
+    ],
+    "funding_assessment": "Posting text describes salaried fixed-term employment (1-3 years) under the Finnish university salary system; consistent with the applicant's salaried/funded requirement. Doctoral funding beyond the project term is not described.",
+    "recommendation": "apply",
+    "next_action": "Verify the posting on the official page, confirm expected MSc completion date against the negotiable start, then draft the 1-page motivation letter and 1-2 minute video mapped to the three closest project lines (networked training, digital twins, inclusive applications).",
+    "confidence": 0.85,
+    "model": "claude-fable-5",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-18T02:53:20.083064Z",
+    "analysis_input_hash": "513ac4a37987338065834fbed7d6c5c5c03b98701d018c58a821482d96990e97"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected"
     ],
-    "fit_overall": null,
+    "fit_overall": 84,
     "urgency": "high",
-    "days_to_deadline": 17,
+    "days_to_deadline": 16,
     "needs_review": true
   },
   "manual": {

@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-postdoctoral-researcher-advanced-life-cycle-assessment",
   "entity_type": "opportunity",
-  "schema_version": 1,
+  "schema_version": 2,
   "created_at": "2026-07-17T15:34:20.621077Z",
-  "updated_at": "2026-07-17T15:36:13.319726Z",
+  "updated_at": "2026-07-18T02:53:20.825499Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:34:20.621077Z",
@@ -20,6 +20,23 @@
         "derived.days_to_deadline",
         "derived.eligibility_reasons",
         "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T02:49:35.010553Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v2"
+    },
+    {
+      "ts": "2026-07-18T02:53:20.825499Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
@@ -61,8 +78,8 @@
       "funding/salary not confirmed on the posting"
     ],
     "fit_overall": null,
-    "urgency": "high",
-    "days_to_deadline": 8,
+    "urgency": "urgent",
+    "days_to_deadline": 7,
     "needs_review": true
   },
   "manual": {
