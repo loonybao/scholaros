@@ -103,6 +103,15 @@ class AppPatch(BaseModel):
     documents_used: Optional[list[str]] = None
 
 
+class OutcomePatch(BaseModel):
+    """Record how an application resolved + a reflection note (the learning
+    loop). decided_at is stamped server-side when a result is set."""
+    model_config = ConfigDict(extra="forbid")
+    expected_updated_at: Optional[str] = None
+    result: Optional[str] = None       # offer/interview_then_reject/rejected/withdrawn/no_response
+    feedback_note: Optional[str] = None
+
+
 class SubmissionCorrection(BaseModel):
     """Dedicated, audited reopen of a submitted application. Not a generic
     stage change — the normal PATCH route cannot perform submitted -> preparing."""
@@ -286,6 +295,26 @@ def correct_submission(cfg: Config, store: Store, app_id: str,
     warning = try_refresh(cfg, store, "application", app_id, tm)
     tm.report()
     return {"id": saved.id, "stage": saved.manual.stage,
+            "updated_at": saved.updated_at.isoformat(), "warning": warning}
+
+
+def record_outcome(cfg: Config, store: Store, app_id: str, patch: OutcomePatch) -> dict:
+    """Record an application's result + feedback (human-owned outcome layer)."""
+    tm = Timings("record_outcome")
+    if not store.exists("application", app_id):
+        raise NotFound(f"unknown application {app_id}")
+    app = store.load("application", app_id)
+    _check_version(app, patch.expected_updated_at)
+    if patch.result is not None:
+        app.outcome.result = patch.result
+        app.outcome.decided_at = datetime.now(timezone.utc)
+    if patch.feedback_note is not None:
+        app.outcome.feedback_note = patch.feedback_note
+    with tm.measure("save"):
+        saved = store.save(app, actor="user", note="outcome recorded")
+    warning = try_refresh(cfg, store, "application", app_id, tm)
+    tm.report()
+    return {"id": saved.id, "result": saved.outcome.result,
             "updated_at": saved.updated_at.isoformat(), "warning": warning}
 
 

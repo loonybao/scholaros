@@ -9,13 +9,15 @@
 
 import { fmtDate, fmtDateTime } from "../format.js";
 import { t } from "../i18n.js";
-import { stageLabel } from "../labels.js";
+import { outcomeLabel, outcomeTone, stageLabel } from "../labels.js";
 import { badge, emptyState, esc, fetchJSON, pageHeader, panel, sourceLink } from "../ui.js";
 import { ApiError, busy, guard, modalForm, patch, post, toast } from "../write.js";
 
 const STAGES = ["identified", "preparing", "submitted", "monitoring",
   "awaiting_response", "interview", "offered", "rejected", "withdrawn"];
 const ALWAYS_SHOWN = ["identified", "preparing", "submitted"];
+const OUTCOME_STAGES = ["submitted", "awaiting_response", "interview", "offered", "rejected", "withdrawn"];
+const OUTCOMES = ["offer", "interview_then_reject", "rejected", "withdrawn", "no_response"];
 
 let _byId = {};      // id -> app row (current server state)
 let _root = null;
@@ -107,6 +109,10 @@ function card(a) {
     ? `<div class="app-submitted">${badge(t("app.submitted_on", { date: fmtDate(a.submitted_at) }), "good")}
         ${a.portal_reference ? `<span class="muted">${t("app.portal_ref", { ref: a.portal_reference })}</span>` : ""}</div>`
     : "";
+  const outcome = a.outcome_result
+    ? `<div class="app-outcome">${badge(`${t("app.outcome.recorded")}: ${outcomeLabel(a.outcome_result)}`, outcomeTone(a.outcome_result))}
+        ${a.outcome_feedback ? `<div class="muted">${esc(a.outcome_feedback)}</div>` : ""}</div>`
+    : "";
   const acts = [];
   if (a.stage === "identified")
     acts.push(`<button class="btn primary sm" data-act="start" data-id="${esc(a.id)}">${t("act.start_preparing")}</button>`);
@@ -117,6 +123,8 @@ function card(a) {
   }
   if (a.stage === "submitted")
     acts.push(`<button class="btn secondary sm" data-act="correct" data-id="${esc(a.id)}">${t("act.correct_submission")}</button>`);
+  if (OUTCOME_STAGES.includes(a.stage))
+    acts.push(`<button class="btn ghost sm" data-act="outcome" data-id="${esc(a.id)}">${t("act.record_outcome")}</button>`);
   acts.push(`<button class="btn ghost sm" data-act="edit" data-id="${esc(a.id)}" title="${t("act.save")}">✎</button>`);
 
   return `<div class="kanban-card" data-id="${esc(a.id)}">
@@ -127,6 +135,7 @@ function card(a) {
     ${blockers}
     ${checklist}
     ${submitted}
+    ${outcome}
     ${a.official_url ? `<div>${sourceLink(a.official_url, "app.official_page")}</div>` : ""}
     <div class="k-actions">${acts.join("")}</div>
     ${history(a)}
@@ -188,6 +197,23 @@ async function correctSubmission(el, id) {
     { expected_updated_at: a.updated_at, correction_reason: vals.correction_reason, confirm: true }),
     { onDone: reload, success: t("act.saved") }));
 }
+async function recordOutcome(el, id) {
+  const a = _byId[id];
+  const vals = await modalForm({
+    title: t("app.outcome.title"), submitLabel: t("act.record_outcome"),
+    fields: [
+      { name: "result", label: t("app.outcome.result"), type: "select",
+        value: a.outcome_result || "",
+        options: OUTCOMES.map((v) => ({ value: v, label: outcomeLabel(v) })) },
+      { name: "feedback_note", label: t("app.outcome.feedback"), type: "textarea",
+        value: a.outcome_feedback || "" },
+    ],
+  });
+  if (!vals || !vals.result) return;
+  await busy(el, () => guard(() => patch(`${url(id)}/outcome`,
+    { expected_updated_at: a.updated_at, result: vals.result, feedback_note: vals.feedback_note }),
+    { onDone: reload, success: t("act.saved") }));
+}
 function toggleEditor(id, show) {
   const form = _root.querySelector(`form.app-editor[data-id="${CSS.escape(id)}"]`);
   if (form) form.hidden = show === undefined ? !form.hidden : !show;
@@ -212,6 +238,7 @@ function wire(root) {
     if (act === "add-doc") return addDoc(el, id);
     if (act === "submit") return markSubmitted(el, id);
     if (act === "correct") return correctSubmission(el, id);
+    if (act === "outcome") return recordOutcome(el, id);
     if (act === "edit") return toggleEditor(id);
     if (act === "cancel-edit") return toggleEditor(id, false);
   };

@@ -100,15 +100,17 @@ ALLOWED_WRITE_PATTERNS = [
     r"/api/opportunities/\$\{[^}]+\}/manual",        # manual annotation (PATCH)
     r"/api/applications/\$\{[^}]+\}",                # application patch (PATCH)
     r"\$\{url\(id\)\}/correct-submission",           # audited submission correction (POST)
+    r"\$\{url\(id\)\}/outcome",                      # record outcome (PATCH)
+    r"/api/skills/\$\{[^}]+\}/progress",             # skill progress (PUT)
     r"/api/data-issues",                             # report issue -> action (POST)
     r"/api/actions",                                 # create action (POST)
 ]
 
 
 def test_all_browser_writes_use_safe_endpoints():
-    """Collect every post()/patch()/api('POST'|'PATCH', ...) target across the
-    UI and assert each matches an allowed safe endpoint."""
-    call = re.compile(r"""\b(?:post|patch)\(\s*[`"']([^`"']+)[`"']""")
+    """Collect every post()/patch()/put() target across the UI and assert each
+    matches an allowed safe endpoint (manual / Application / Action / skill)."""
+    call = re.compile(r"""\b(?:post|patch|put)\(\s*[`"']([^`"']+)[`"']""")
     allowed = [re.compile(p) for p in ALLOWED_WRITE_PATTERNS]
     offenders = []
     for f in JS.rglob("*.js"):

@@ -18,6 +18,11 @@ export const stageLabel = (v) => (v ? t(`app.stage.${v}`) : "");
 export const phaseLabel = (v) => (v ? t(`phase.${v}`) : "");
 export const statusLabel = (v) => (v ? t(`label.status.${v}`) : "");
 export const levelLabel = (v) => (v ? t(`label.level.${v}`) : "");
+export const outcomeLabel = (v) => (v ? t(`label.outcome.${v}`) : "");
+export const outcomeTone = (v) => ({
+  offer: "good", interview_then_reject: "warn", rejected: "neutral",
+  withdrawn: "neutral", no_response: "neutral",
+}[v] || "neutral");
 export const learningLabel = (v) => (v ? t(`label.learning.${v}`) : "");
 export const confidenceLabel = (v) => (v ? t(`label.confidence.${v}`) : "");
 

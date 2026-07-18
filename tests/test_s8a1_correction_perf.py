@@ -117,6 +117,26 @@ def test_correction_preserves_audit_history(cfg, store):
 
 # ------------------------------------------------------ B: activity history #
 
+def test_record_outcome_and_surface(cfg, store):
+    client, opp_id = _client(cfg, store)
+    app_id, _ = _submit(client, opp_id)
+    r = client.patch(f"/api/applications/{app_id}/outcome", json={
+        "result": "offer", "feedback_note": "Strong methods match."})
+    assert r.status_code == 200
+    o = store.load("application", app_id).outcome
+    assert o.result == "offer" and o.decided_at is not None
+    assert o.feedback_note == "Strong methods match."
+    app = next(a for a in applications_data(cfg)["stages"]["submitted"] if a["id"] == app_id)
+    assert app["outcome_result"] == "offer"
+
+
+def test_outcome_rejects_extra_fields(cfg, store):
+    client, opp_id = _client(cfg, store)
+    app_id, _ = _submit(client, opp_id)
+    assert client.patch(f"/api/applications/{app_id}/outcome",
+                        json={"stage": "offered"}).status_code == 422
+
+
 def test_activity_history_surfaced_in_pipeline(cfg, store):
     client, opp_id = _client(cfg, store)
     app_id, _ = _submit(client, opp_id)

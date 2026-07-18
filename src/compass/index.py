@@ -68,6 +68,9 @@ CREATE TABLE applications (
     portal_reference TEXT,
     documents_used TEXT NOT NULL DEFAULT '[]',
     events TEXT NOT NULL DEFAULT '[]',
+    outcome_result TEXT,
+    outcome_decided_at TEXT,
+    outcome_feedback TEXT,
     updated_at TEXT
 );
 
@@ -304,6 +307,9 @@ def _application_values(app) -> tuple:
         m.portal_reference, json.dumps(m.documents_used, ensure_ascii=False),
         json.dumps([e.model_dump(mode="json") for e in m.events],
                    ensure_ascii=False),
+        app.outcome.result,
+        app.outcome.decided_at.isoformat() if app.outcome.decided_at else None,
+        app.outcome.feedback_note or None,
         app.updated_at.isoformat() if app.updated_at else None,
     )
 

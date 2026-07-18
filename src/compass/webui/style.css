@@ -390,6 +390,7 @@ details.evidence summary { cursor: pointer; font-weight: 600; color: var(--ink-2
 }
 .check.done .check-name { text-decoration: line-through; color: var(--muted); }
 .app-submitted { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0; }
+.app-outcome { display: flex; flex-direction: column; gap: 4px; margin: 6px 0; }
 .k-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
 .app-editor { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--hairline); }
 .app-editor[hidden] { display: none; }   /* explicit display beats the [hidden] UA rule, so restore it */
