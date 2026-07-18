@@ -194,9 +194,13 @@ def dashboard_data(cfg: Config, today: date) -> dict:
         ]
         open_opps.sort(key=lambda r: (r["deadline"] is None, r["deadline"] or ""))
 
+        # Action Required excludes records already dispositioned as
+        # monitor/reject: they only return here when their analysis is
+        # invalidated (a material change resets ai -> recommendation null).
         action_required = [
             r for r in open_opps
-            if r["urgency"] in ("urgent", "high") or r["needs_review"]
+            if (r["urgency"] in ("urgent", "high") or r["needs_review"])
+            and r["recommendation"] not in ("monitor", "reject")
         ]
         upcoming = [
             r for r in open_opps

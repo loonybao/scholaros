@@ -1,0 +1,41 @@
+{
+  "id": "act_hti_review_security_clause",
+  "entity_type": "action",
+  "schema_version": 3,
+  "created_at": "2026-07-18T03:21:34.467471Z",
+  "updated_at": "2026-07-18T03:21:34.468363Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T03:21:34.468363Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "created from act_hti_screening.yaml"
+    }
+  ],
+  "system": {
+    "action_type": "application",
+    "related": {
+      "opportunity_id": "opp_tampere_project_researcher_hti_2026",
+      "person_id": null,
+      "application_id": null
+    },
+    "created_by": "human",
+    "due_date": "2026-07-24",
+    "priority": "high",
+    "recommended_reason": null,
+    "model": null,
+    "prompt_version": null
+  },
+  "manual": {
+    "title": "Read the official Tampere HTI posting's security/export-control clause and determine which of the 2-5 roles are affected",
+    "status": "todo",
+    "notes": "Official source: https://tuni.rekrytointi.com/paikat/?jgid=3&jid=3110&o=A_RJ The posting states some projects may be subject to legal, sanctions or export-control restrictions. Determine scope and whether the applicant's nationality is affected; update restricted_position_eligibility in constraints.yaml afterwards. Blocks the apply decision.\n"
+  },
+  "outcome": {
+    "result": null,
+    "completed_at": null,
+    "note": ""
+  }
+}

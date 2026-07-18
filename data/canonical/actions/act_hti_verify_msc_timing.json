@@ -1,0 +1,41 @@
+{
+  "id": "act_hti_verify_msc_timing",
+  "entity_type": "action",
+  "schema_version": 3,
+  "created_at": "2026-07-18T03:21:34.020066Z",
+  "updated_at": "2026-07-18T03:21:34.034485Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T03:21:34.034485Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "created from act_hti_msc.yaml"
+    }
+  ],
+  "system": {
+    "action_type": "application",
+    "related": {
+      "opportunity_id": "opp_tampere_project_researcher_hti_2026",
+      "person_id": null,
+      "application_id": null
+    },
+    "created_by": "human",
+    "due_date": "2026-07-24",
+    "priority": "high",
+    "recommended_reason": null,
+    "model": null,
+    "prompt_version": null
+  },
+  "manual": {
+    "title": "Verify MSc completion date vs Tampere HTI start (Sept 2026, negotiable) and confirm degree/transcript requirements can be met",
+    "status": "todo",
+    "notes": "Posting requires a completed relevant Master's degree with transcript. Confirm expected MMU MSc completion date, and whether a negotiated later start or conditional offer is possible. Blocks the apply decision.\n"
+  },
+  "outcome": {
+    "result": null,
+    "completed_at": null,
+    "note": ""
+  }
+}

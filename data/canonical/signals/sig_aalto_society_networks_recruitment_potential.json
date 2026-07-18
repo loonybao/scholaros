@@ -1,0 +1,37 @@
+{
+  "id": "sig_aalto_society_networks_recruitment_potential",
+  "entity_type": "signal",
+  "schema_version": 3,
+  "created_at": "2026-07-18T03:21:35.200814Z",
+  "updated_at": "2026-07-18T03:21:35.201815Z",
+  "change_history": [
+    {
+      "ts": "2026-07-18T03:21:35.201815Z",
+      "actor": "manual",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "created from sig_society_networks.yaml"
+    }
+  ],
+  "official": {
+    "signal_type": "vacancy_change",
+    "title": "Aalto Society & Networks area is hiring for AI-agent + human-participant experimental research",
+    "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-computational-social-science",
+    "published_at": null,
+    "source": "manual",
+    "org_id": "org_aalto_society_and_networks",
+    "person_ids": [],
+    "excerpt": "Verified official posting (RCF project \"Social networking in the era of artificially intelligent agents\"): the group designs AI-supported experimental/observational methods, runs advanced online experiments and surveys with human participants (Empirica-like platforms) and AI-agent social simulations. Society & Networks research area: 8 faculty, ~30 students and postdocs; PI has a group of three PhD students. Current call is postdoc-level only.\n",
+    "retrieved_at": "2026-07-17T00:00:00Z",
+    "extracted_content_hash": null,
+    "evidence_ids": [
+      "aalto/postdoctoral-researcher-in-computational-social-science"
+    ]
+  },
+  "ai": null,
+  "manual": {
+    "dismissed": false,
+    "notes": "TAG: future-recruitment-monitoring. Methodological family matches the applicant (controlled multi-user human experiments). A future doctoral opening in this area would likely be adjacent-to-strong fit. Monitor via Aalto collector runs; no action unless a doctoral call appears.\n"
+  }
+}

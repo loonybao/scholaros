@@ -89,6 +89,7 @@ _Generated 2026-07-18 — run `python -m compass export` to refresh._
 
 ## Target map
 
+- [[org_aalto_society_and_networks]] — Society & Networks research area (Aalto University)
 - [[org_aalto_university]] — Aalto University
 - [[org_tampere_pervasive_interaction]] — Pervasive Interaction Research Group (TAUCHI)
 - [[org_tampere_university]] — Tampere University
