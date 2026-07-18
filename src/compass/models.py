@@ -15,7 +15,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 ID_PREFIXES = {
     "opportunity": "opp_",
@@ -115,6 +115,13 @@ class OpportunityOfficial(BaseModel):
         "none_stated", "stated", "ambiguous"
     ] = "none_stated"
     nationality_restrictions_text: Optional[str] = None
+    # Mobility/residence-history rules (e.g. MSCA-style "must not have resided
+    # in X for more than N months") are a SEPARATE condition from
+    # nationality/export-control restrictions and are recorded separately.
+    mobility_requirement_status: Literal[
+        "none_stated", "stated", "ambiguous"
+    ] = "none_stated"
+    mobility_requirement_text: Optional[str] = None
     status: Literal["open", "closed", "expired", "unknown"] = "unknown"
     description_text: str = ""
 

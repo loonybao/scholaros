@@ -160,6 +160,21 @@ def eligibility_gate(
             )
             uncertain = True
 
+    # Mobility/residence-history rules: separate from nationality/export
+    # control. The applicant's residence history is not held in constraints,
+    # so a stated/ambiguous rule always needs human verification.
+    m_status = opp.official.mobility_requirement_status
+    if m_status == "ambiguous":
+        reasons.append(
+            "posting hints at a mobility/residence-history rule — verify the exact condition"
+        )
+        uncertain = True
+    elif m_status == "stated":
+        reasons.append(
+            "posting states a mobility/residence-history rule — verify you satisfy it"
+        )
+        uncertain = True
+
     if uncertain:
         return "uncertain", reasons, True
     return "pass", reasons, False
@@ -208,6 +223,16 @@ def propose_decision(
         and confidence >= confidence_threshold
     )
     return proposed, may_auto
+
+
+def effective_recommendation(gate: str, ai_recommendation: Optional[str]) -> Optional[str]:
+    """Eligibility overrides aggregate fit: a hard gate failure clamps any
+    AI recommendation to reject — apply/consider can never survive it."""
+    if ai_recommendation is None:
+        return None
+    if gate == "fail" and ai_recommendation in ("apply", "consider"):
+        return "reject"
+    return ai_recommendation
 
 
 def recompute_derived(

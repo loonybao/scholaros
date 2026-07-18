@@ -19,10 +19,25 @@ const urgencyBadge = (urgency, days) => {
     : `${days}d left — ${urgency}`;
   return badge(label, urgency);
 };
+/* Research fit and eligibility are SEPARATE judgments: a fit score is never
+   application viability. A recommendation only counts as actionable once the
+   eligibility gate passes; on uncertain gates it is displayed as pending. */
 const fitText = (row) =>
   row.fit_overall === null || row.fit_overall === undefined
     ? "not analyzed"
-    : `fit ${row.fit_overall}`;
+    : `research fit ${row.fit_overall}` +
+      (row.fit_type ? ` (${row.fit_type})` : "");
+
+const recommendationBadge = (row) => {
+  if (!row.recommendation) return "";
+  if (row.eligibility_gate === "fail")
+    return badge("reject — eligibility failed", "fail");
+  if (row.eligibility_gate === "uncertain" &&
+      (row.recommendation === "apply" || row.recommendation === "consider"))
+    return badge(
+      `${row.recommendation} — pending eligibility verification`, "uncertain");
+  return badge(row.recommendation, row.recommendation === "apply" ? "pass" : "none");
+};
 
 const emptyState = (message, hint) =>
   `<div class="empty">${esc(message)}` +
@@ -65,6 +80,7 @@ function renderActionRequired(dash) {
           ${r.needs_review ? badge("needs review", "review") : ""}
         </div>
         <div class="card-row">Deadline: ${esc(r.deadline || "unknown")} · ${esc(fitText(r))}</div>
+        ${r.recommendation ? `<div class="card-row">${recommendationBadge(r)}</div>` : ""}
         <div class="card-action">
           <span class="card-action-label">Next action</span>${esc(nextAction(r))}
         </div>
@@ -86,7 +102,8 @@ function renderOpenTable(dash) {
   }
   const header =
     "<tr><th>Opportunity</th><th>Organisation</th><th>Deadline</th>" +
-    "<th>Days</th><th>Gate</th><th>Fit</th><th>Status</th></tr>";
+    "<th>Days</th><th>Eligibility</th><th>Research fit</th>" +
+    "<th>Proposal</th><th>Status</th></tr>";
   const body = rows
     .map(
       (r) => `
@@ -97,6 +114,7 @@ function renderOpenTable(dash) {
         <td class="num">${r.days_to_deadline ?? "—"}</td>
         <td>${gateBadge(r.eligibility_gate)}</td>
         <td class="num">${r.fit_overall ?? "—"}</td>
+        <td>${recommendationBadge(r) || "—"}</td>
         <td>${esc(r.status)}</td>
       </tr>`
     )

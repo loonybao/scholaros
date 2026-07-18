@@ -26,6 +26,7 @@ from .base import (
     RawPosting,
     audit_discovery,
     classify_listing,
+    detect_mobility,
     detect_restrictions,
     fetch,
     save_evidence,
@@ -182,6 +183,7 @@ def collect(cfg: Config, store: Store) -> CollectStats:
         restriction_status, restriction_text = detect_restrictions(
             detail["description_text"]
         )
+        mobility_status, mobility_text = detect_mobility(detail["description_text"])
         evidence_id = save_evidence(
             cfg,
             SOURCE_ID,
@@ -205,6 +207,8 @@ def collect(cfg: Config, store: Store) -> CollectStats:
             language_requirements=[],  # not machine-readable on this ATS
             nationality_restrictions_status=restriction_status,
             nationality_restrictions_text=restriction_text,
+            mobility_requirement_status=mobility_status,
+            mobility_requirement_text=mobility_text,
             raw_snapshot_hash=snapshot_hash,
             evidence_id=evidence_id,
         )

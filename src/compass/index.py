@@ -43,6 +43,8 @@ CREATE TABLE opportunities (
     eligibility_reasons TEXT NOT NULL,  -- JSON array
     fit_overall INTEGER,
     fit_type TEXT,
+    recommendation TEXT,
+    analysis_status TEXT,
     status TEXT NOT NULL,
     position_type TEXT NOT NULL,
     location TEXT,
@@ -100,11 +102,13 @@ def rebuild_index(cfg: Config, store: Store) -> int:
             )
             rows += 1
 
+        from .rules import effective_recommendation
+
         for opp in store.load_all("opportunity"):
             o, d = opp.official, opp.derived
             conn.execute(
                 "INSERT INTO opportunities VALUES "
-                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     opp.id,
                     o.title,
@@ -118,6 +122,11 @@ def rebuild_index(cfg: Config, store: Store) -> int:
                     json.dumps(d.eligibility_reasons, ensure_ascii=False),
                     d.fit_overall,
                     opp.ai.fit_type if opp.ai else None,
+                    effective_recommendation(
+                        d.eligibility_gate,
+                        opp.ai.recommendation if opp.ai else None,
+                    ),
+                    opp.ai.analysis_status if opp.ai else None,
                     o.status,
                     o.position_type,
                     o.location,

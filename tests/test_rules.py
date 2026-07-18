@@ -191,6 +191,20 @@ def test_ambiguous_restriction_needs_review_even_when_eligible():
     assert any("verify" in r for r in reasons)
 
 
+def test_stated_mobility_rule_needs_review():
+    opp = make_opportunity(mobility_requirement_status="stated")
+    gate, reasons, review = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
+    assert gate == "uncertain" and review is True
+    assert any("mobility" in r for r in reasons)
+
+
+def test_no_mobility_rule_no_flag():
+    opp = make_opportunity()  # default none_stated
+    gate, reasons, _ = eligibility_gate(opp, FULL_CONSTRAINTS, TODAY)
+    assert gate == "pass"
+    assert not any("mobility" in r for r in reasons)
+
+
 @pytest.mark.parametrize(
     "deadline,expected",
     [
@@ -223,6 +237,26 @@ def test_propose_decision(gate, fit, conf, expected_decision, expected_auto):
     decision, auto = propose_decision(gate, fit, conf, confidence_threshold=0.75)
     assert decision == expected_decision
     assert auto is expected_auto
+
+
+@pytest.mark.parametrize("fit", [80, 90, 100])
+@pytest.mark.parametrize("conf", [0.9, 1.0])
+def test_gate_fail_never_yields_apply_or_consider(fit, conf):
+    """Eligibility overrides aggregate fit: no score/confidence combination
+    may turn a hard eligibility failure into apply or consider."""
+    decision, _ = propose_decision("fail", fit, conf, confidence_threshold=0.75)
+    assert decision == "reject"
+
+
+def test_effective_recommendation_clamps_on_fail():
+    from compass.rules import effective_recommendation
+
+    assert effective_recommendation("fail", "apply") == "reject"
+    assert effective_recommendation("fail", "consider") == "reject"
+    assert effective_recommendation("fail", "monitor") == "monitor"
+    assert effective_recommendation("uncertain", "apply") == "apply"  # pending, not clamped
+    assert effective_recommendation("pass", "apply") == "apply"
+    assert effective_recommendation("pass", None) is None
 
 
 def test_expire_stale():

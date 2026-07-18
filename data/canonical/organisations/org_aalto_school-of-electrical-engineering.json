@@ -1,9 +1,9 @@
 {
   "id": "org_aalto_school-of-electrical-engineering",
   "entity_type": "organisation",
-  "schema_version": 2,
+  "schema_version": 3,
   "created_at": "2026-07-17T15:35:32.866863Z",
-  "updated_at": "2026-07-18T02:49:35.090385+00:00",
+  "updated_at": "2026-07-18T03:01:11.837495+00:00",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:32.867863Z",
@@ -20,6 +20,14 @@
         "schema_version"
       ],
       "note": "migrated to v2"
+    },
+    {
+      "ts": "2026-07-18T03:01:11.837495+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v3"
     }
   ],
   "official": {

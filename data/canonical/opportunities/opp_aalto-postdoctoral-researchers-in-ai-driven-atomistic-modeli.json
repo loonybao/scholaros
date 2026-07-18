@@ -1,9 +1,9 @@
 {
   "id": "opp_aalto-postdoctoral-researchers-in-ai-driven-atomistic-modeli",
   "entity_type": "opportunity",
-  "schema_version": 2,
+  "schema_version": 3,
   "created_at": "2026-07-17T15:35:08.218005Z",
-  "updated_at": "2026-07-18T02:53:20.836229Z",
+  "updated_at": "2026-07-18T03:01:11.789372+00:00",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:08.218005Z",
@@ -39,6 +39,14 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T03:01:11.789372+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v3"
     }
   ],
   "official": {

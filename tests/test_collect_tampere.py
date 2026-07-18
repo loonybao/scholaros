@@ -107,6 +107,43 @@ def test_detect_restrictions_never_yields_stated():
     assert detect_restrictions("A normal HCI position.") == ("none_stated", None)
 
 
+MSCA_SENTENCE = (
+    "Applicants must have not resided or carried out their main activity "
+    "(e.g. work, studies) in Finland for more than 12 months in the 36 months "
+    "immediately preceding the application deadline."
+)
+
+
+def test_msca_mobility_language_is_not_a_nationality_restriction():
+    """Regression: MSCA-style residence rules must never be classified as
+    nationality/export-control restrictions."""
+    from compass.collect.base import detect_mobility
+
+    assert detect_restrictions(MSCA_SENTENCE) == ("none_stated", None)
+    status, text = detect_mobility(MSCA_SENTENCE)
+    assert status == "ambiguous"
+    assert "resided" in text
+
+
+def test_security_clearance_still_flags_restrictions():
+    """The FutureChips security-vetting clause IS restriction-relevant and
+    must keep flagging, independent of mobility language in the same text."""
+    text = (
+        MSCA_SENTENCE
+        + " The appointment decision is contingent on the completion of the "
+        "security clearance vetting procedure."
+    )
+    status, excerpt = detect_restrictions(text)
+    assert status == "ambiguous"
+    assert "security clearance" in excerpt
+
+
+def test_mobility_none_stated_on_plain_posting():
+    from compass.collect.base import detect_mobility
+
+    assert detect_mobility("A normal HCI position in Finland.") == ("none_stated", None)
+
+
 def test_normalize_url_ignores_param_order_and_session():
     a = normalize_url("https://tuni.rekrytointi.com/paikat/?jgid=3&jid=3110&o=A_RJ")
     b = normalize_url(

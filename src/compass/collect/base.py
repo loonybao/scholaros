@@ -58,6 +58,8 @@ class RawPosting:
     language_requirements: list[str] = field(default_factory=list)
     nationality_restrictions_status: str = "none_stated"
     nationality_restrictions_text: Optional[str] = None
+    mobility_requirement_status: str = "none_stated"
+    mobility_requirement_text: Optional[str] = None
     raw_snapshot_hash: Optional[str] = None
     evidence_id: Optional[str] = None
 
@@ -206,12 +208,34 @@ _RESTRICTION_HINTS = re.compile(
     re.IGNORECASE,
 )
 
+# MSCA-style mobility/residence-history rules — a SEPARATE condition that must
+# never be classified as a nationality/export-control restriction.
+_MOBILITY_HINTS = re.compile(
+    r"(must\s+not|may\s+not|have\s+not)\s+(have\s+)?resided|"
+    r"resided\s+or\s+carried\s+out\s+(their|his|her)?\s*main\s+activity|"
+    r"mobility\s+rule|msca\s+mobility|residence\s+requirement|"
+    r"\d+\s+months?\s+in\s+the\s+\d+\s+months?\s+(immediately\s+)?preceding",
+    re.IGNORECASE,
+)
+
 
 def detect_restrictions(text: str) -> tuple[str, Optional[str]]:
-    """Mechanical detection of restriction MENTIONS. Returns (status, excerpt).
-    Only ever yields 'none_stated' or 'ambiguous' — a definitive 'stated'
-    classification requires human (or S4 reviewed-AI) confirmation."""
+    """Mechanical detection of nationality/export-control restriction MENTIONS.
+    Returns (status, excerpt). Only ever yields 'none_stated' or 'ambiguous' —
+    a definitive 'stated' classification requires human confirmation.
+    Mobility/residence language alone never triggers this detector."""
     m = _RESTRICTION_HINTS.search(text)
+    if not m:
+        return "none_stated", None
+    start = max(0, m.start() - 120)
+    excerpt = re.sub(r"\s+", " ", text[start : m.end() + 200]).strip()
+    return "ambiguous", f"Posting mentions: …{excerpt}…"
+
+
+def detect_mobility(text: str) -> tuple[str, Optional[str]]:
+    """Mechanical detection of mobility/residence-history requirements.
+    Same contract as detect_restrictions: none_stated or ambiguous only."""
+    m = _MOBILITY_HINTS.search(text)
     if not m:
         return "none_stated", None
     start = max(0, m.start() - 120)
@@ -277,6 +301,8 @@ def upsert_opportunity(store: Store, posting: RawPosting) -> str:
                 language_requirements=posting.language_requirements,
                 nationality_restrictions_status=posting.nationality_restrictions_status,
                 nationality_restrictions_text=posting.nationality_restrictions_text,
+                mobility_requirement_status=posting.mobility_requirement_status,
+                mobility_requirement_text=posting.mobility_requirement_text,
                 status="open",
                 description_text=posting.description_text,
             )
@@ -310,11 +336,14 @@ def upsert_opportunity(store: Store, posting: RawPosting) -> str:
         o.status = "open"
         if posting.evidence_id and posting.evidence_id not in o.evidence_ids:
             o.evidence_ids.append(posting.evidence_id)
-        # Restrictions: a collector may raise none_stated -> ambiguous but
-        # never overwrite a human-confirmed 'stated'.
+        # Restrictions/mobility: a collector may raise none_stated -> ambiguous
+        # but never overwrite a human-confirmed 'stated'.
         if o.nationality_restrictions_status == "none_stated":
             o.nationality_restrictions_status = posting.nationality_restrictions_status
             o.nationality_restrictions_text = posting.nationality_restrictions_text
+        if o.mobility_requirement_status == "none_stated":
+            o.mobility_requirement_status = posting.mobility_requirement_status
+            o.mobility_requirement_text = posting.mobility_requirement_text
         saved = store.save(existing, actor=actor, note="official facts refreshed")
         changed = saved.change_history[-1].actor == actor if saved.change_history else False
         return "updated" if changed else "unchanged"

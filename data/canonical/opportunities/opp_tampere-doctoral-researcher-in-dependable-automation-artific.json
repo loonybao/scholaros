@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-doctoral-researcher-in-dependable-automation-artific",
   "entity_type": "opportunity",
-  "schema_version": 2,
+  "schema_version": 3,
   "created_at": "2026-07-17T15:11:15.869590Z",
-  "updated_at": "2026-07-18T02:53:20.851145Z",
+  "updated_at": "2026-07-18T03:01:11.805342+00:00",
   "change_history": [
     {
       "ts": "2026-07-17T15:11:15.869590Z",
@@ -78,6 +78,14 @@
         "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T03:01:11.805342+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v3"
     }
   ],
   "official": {

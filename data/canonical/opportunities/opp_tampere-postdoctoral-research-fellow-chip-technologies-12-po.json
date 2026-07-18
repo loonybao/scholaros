@@ -1,9 +1,9 @@
 {
   "id": "opp_tampere-postdoctoral-research-fellow-chip-technologies-12-po",
   "entity_type": "opportunity",
-  "schema_version": 2,
+  "schema_version": 3,
   "created_at": "2026-07-17T15:11:28.211046Z",
-  "updated_at": "2026-07-18T02:53:20.870475Z",
+  "updated_at": "2026-07-18T03:02:10.320586Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:11:28.212044Z",
@@ -78,6 +78,42 @@
         "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-18T03:01:11.823341Z",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v3"
+    },
+    {
+      "ts": "2026-07-18T03:01:42.613028Z",
+      "actor": "manual",
+      "fields_changed": [
+        "official.mobility_requirement_status",
+        "official.mobility_requirement_text",
+        "official.nationality_restrictions_text"
+      ],
+      "note": "evidence-verified: mobility rule separated from security-vetting clause"
+    },
+    {
+      "ts": "2026-07-18T03:02:10.295851Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags"
+      ],
+      "note": "interactive analysis (claude-fable-5)"
+    },
+    {
+      "ts": "2026-07-18T03:02:10.320586Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.eligibility_reasons"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -105,7 +141,9 @@
     "location": "Tampere, Finland",
     "language_requirements": [],
     "nationality_restrictions_status": "ambiguous",
-    "nationality_restrictions_text": "Posting mentions: …h will be held between 1 November and 30 November 2026. The appointment decision is contingent on the completion of the security clearance vetting procedure to ensure the employee’s integrity and reliability. With the appointee’s consent, Finnish Security and Intelligence Services will conduct a security clearance vetting in accordance…",
+    "nationality_restrictions_text": "Verified in evidence: appointment is contingent on completion of a security clearance vetting procedure (Finnish Security and Intelligence Services, with appointee's consent). Not an export-control clause, but a stated vetting condition - kept ambiguous pending human reading of scope.",
+    "mobility_requirement_status": "stated",
+    "mobility_requirement_text": "Applicants must not have resided or carried out their main activity (e.g. work, studies) in Finland for more than 12 months in the 36 months immediately preceding the application deadline (31 August 2026).",
     "status": "open",
     "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our university community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nWe are looking for\n12 Postdoctoral Research Fellows\nin the field of next-generation semiconductor technologies. The full-time positions will be filled for a fixed-term period of 3 years and are connected to Tampere University’s FutureChips Postdoctoral Programme and focus on fundamental technology and methods development for next-generation semiconductor technologies.\nThe programme’s four interconnected semiconductor research areas are:\nAdvanced compound materials and heterostructures\nNovel architectures\nChip design\nAdvanced packaging\nThe positions will be located in the\nFaculty of Engineering and Natural Sciences\nor in the\nFaculty of Information Technology and Communication Sciences\n.\nJob description\nThe successful candidate will design, coordinate and implement their own research and publish results in high-impact venues.\nResearch scope\nThe postdoctoral research fellow will develop semiconductor technologies and the relevant knowledge base.\nResearch environment and infrastructure\nTampere University offers an excellent environment for semiconductor integration research, including strong capabilities spanning photonics, chip-level fabrication, advanced packaging, and system-level demonstrators. Tampere University has excellent micro- and nanofabrication facilities available for research and industrial R&D work. Researchers will have access to the System-in-Package Fabrication SiPFAB as a key infrastructure platform for heterogeneous System-in-Package-oriented research and packaging process development, complemented by Tampere University’s broader semiconductor fabrication and characterization infrastructure.\nMore information on research infrastructure:\nhttps://projects.tuni.fi/futurechips/research-infrastructure/\nRequirements\nApplicants must:\nhave a doctoral degree in a relevant field (e.g. future electronics, electrical engineering, photonics, micro- and nanotechnology, semiconductor physics, advanced materials, or chip design) by the application deadline of 31 August 2026. Applicants who have successfully defended their doctoral thesis by 31 August 2026, but who have not yet formally been awarded the degree are also eligible to apply. In such cases, the applicant must provide confirmation that the doctoral degree will be awarded at the latest upon starting the employment.\nhave the ability to pursue independent scholarly activity.\nhave not\nresided or carried out their main activity (e.g. work, studies) in Finland for more than 12 months in the 36 months immediately preceding the application deadline (31 August 2026).\nhave fluent spoken and written English skills.\nThe applicant will be evaluated based on:\nthe applicant’s academic merits and demonstrated excellence,\nthe quality and scientific excellence of the research proposal,\nthe feasibility, impact, and implementation of the research proposal,\nthe scientific relevance and significance of the proposed research topic,\ncommunication and dissemination skills.\nTampere University is a unique, multidisciplinary and boldly forward-looking, evolving community. Our values are openness, diversity, responsibility, courage, critical thinking, erudition, and learner-centeredness. We hope that you can embrace these values and promote them in your work.\nWe offer\nA 3-year funded postdoctoral position in a rapidly growing research area of strategic importance. The starting date will be as agreed by both parties (but by July 1st, 2027 at the latest). A trial period of six (6) months applies to all our new employees.\nAccess to excellent research infrastructure for semiconductor fabrication, integration, and characterization at Tampere University:\nhttps://projects.tuni.fi/futurechips/research-infrastructure/\nA collaborative environment with opportunities to build international networks and shape a long-term research agenda.\nExtensive professional career development opportunities. Expansion of your professional network and industrial secondments.\nAccording to the criteria applied to teaching and research staff under the\nFinnish University Salary System,\nthe position of Postdoctoral Research Fellow is placed on level 5-6 of the job requirements scale. The salary will be 4500 euros (€) before taxation.\nWe offer a wide range of staff benefits, such as occupational health care services, flexible working hours, versatile research infrastructure, modern teaching facilities, excellent sports facilities on campus and several restaurants and cafés on campus with staff discounts. Please read more about\nTampere University as an employer | Tampere University\nand\nWorking in Tampere, Finland\n.\nCity of Tampere and Finland\nTampere and its surroundings are, after the Helsinki metropolitan area, Finland's second most significant concentration of education, science, economy and culture. Getting to and around Tampere is effortless, no matter where you come from. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. Among people living in Finland, Tampere has repeatedly ranked as #1 in the list of desired cities to live in. Tampere is also surrounded by vivid nature with forests and lakes, providing countless opportunities for easy-to-access outdoor adventures and refreshment throughout the year.\nFor more information on the City of Tampere, please check\nVisit Tampere\n.\nFinland is among the most stable, free and safe countries in the world, based on prominent ratings by various agencies. Finland offers one of the most advanced and comprehensive social security systems in the world, including personal and family health care and a variety of family benefits. The Finnish educational system is renowned worldwide.\nFor more information on Finland, please check\nInfoFinland\nand\nThis is Finland\n.\nHow to apply\nPlease submit your application through our online recruitment system.\nThe closing date for applications is\n31st August, 2026 (23:59 EEST / UTC +3)\n.\nApplications and all accompanying documentation should be written in English and in PDF format only.\nPlease attach only the following documents to your application:\nDoctoral degree certificate\n(if unavailable, a copy of official confirmation of the successful completion of the doctoral studies and doctoral defence). Please provide the certificate in the original language and also with the official translation in English (if original language is other than Finnish or English) (max 5 MB)\nAttach the following content mentioned below combined as only one (1) PDF file\nusing the Application template with more detailed instructions provided on the\nFutureChips website\n. (max 10 MB):\nResearch Plan Abstract\n(maximum 2,500 characters excluding spaces using the provided template, no listing of references)\nResearch Plan\nwithin any of the four research areas of FutureChips, including considerations of ethical issues and references (maximum 25,000 characters excluding spaces using the provided template).\nCurriculum Vitae\naccording to\nTENK guidelines\n(maximum 2 pages).\nList of publications\naccording to\nResearch Council of Finland guidelines\n. Please indicate your five most important publications and add a link to those. Non-English titles must be translated into English.\nEthics self-assessment\nMotivation letter\naddressing career plans and consideration of the benefits of international and inter-sectorial mobility (secondments / research visits) (maximum 1 page).\nPlease follow the above instructions and the\nGuide for Applicants\navailable on the FutureChips website carefully. Incomplete or non-compliant applications will not be accepted for evaluation.\nPlease note that eligible applicants will be referred to external evaluators for review. Shortlisted applicants will be invited to participate in an individual online interview, which will be held between 1 November and 30 November 2026.\nThe appointment decision is contingent on the completion of the security clearance vetting procedure to ensure the employee’s integrity and reliability. With the appointee’s consent, Finnish Security and Intelligence Services will conduct a security clearance vetting in accordance with the Security Clearance Act (726/2014). More information on the security vetting procedure and the rights of people being vetted is available on the website of\nFinnish Security and Intelligence Service\n.\nTampere University supports equality, diversity and inclusion and encourages applications from individuals of all backgrounds.\nIf any questions arise, please contact us at futurechips@tuni.fi\n***\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää: www.tuni.fi\nHaemme nyt 12 tutkijatohtoria kolmen vuoden kokoaikaisiin ja määräaikaisiin työsuhteisiin Tampereen yliopiston FutureChips postdoc-ohjelmaan\n, joka keskittyy seuraavan sukupolven puolijohdeteknologioihin neljällä tutkimusalalla:\nEdistyneet materiaalit\nUudet arkkitehtuurit\nPiirisuunnittelu\nEdistynyt pakkaaminen\nTehtävät sijoittuvat Tekniikan ja luonnontieteiden (ENS) sekä Informaatioteknologian ja viestinnän (ITC) tiedekuntiin.\nTehtävänkuvaus\nTutkijatohtorit suunnittelevat, koordinoivat ja toteuttavat omaa tutkimustaan sekä julkaisevat tuloksiaan korkeatasoisissa kansainvälisissä julkaisukanavissa. Tutkijatohtorit kehittävät puolijohdeteknologioita sekä kartuttavat alaan liittyvää osaamista.\nTampereen yliopisto tarjoaa erinomaisen ympäristön puolijohteiden integrointiin liittyvälle tutkimukselle. Lisätietoja tutkimusinfrastruktuurista:\nFutureChips research infrastructure\nHakuohjeet\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).\nHakuaika tehtävään päättyy\n31.8.2026 klo 23:59\n."
   },
@@ -134,8 +172,8 @@
     "transferable_strengths": [],
     "eligibility_flags": [
       "Requires a completed doctoral degree by the application deadline - the applicant holds no PhD, so this is a hard ineligibility",
-      "Mobility rule: applicants must not have resided/worked in Finland more than 12 of the preceding 36 months - satisfied by the applicant but irrelevant given the degree requirement",
-      "The record's ambiguous nationality/export-control flag comes from mechanical keyword detection; the visible text's restriction-like language is the residence/mobility rule, not an export-control clause - a human should confirm on the official page"
+      "Stated MSCA-style mobility rule (max 12 of the preceding 36 months in Finland) - likely satisfied by the applicant's residence in Malaysia, but must be verified against their actual history",
+      "Separate stated condition: appointment contingent on a Finnish security-clearance vetting procedure - a vetting step, not an export-control clause; scope should be confirmed by a human on the official page"
     ],
     "risks": [],
     "funding_assessment": "Posting text describes a salaried 3-year postdoctoral programme; funding is clear at AI level - eligibility (doctoral degree) is the blocker, not funding.",
@@ -147,14 +185,15 @@
     "analysis_provider": "interactive_claude",
     "analysis_mode": "manual_assisted",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T02:53:20.317024Z",
-    "analysis_input_hash": "516946745ce0b46b4cee5848692d1347614af74d2ea9e1943d77cf9a70d56868"
+    "analyzed_at": "2026-07-18T03:02:10.294850Z",
+    "analysis_input_hash": "4b61045039bd294c18c5571859bbaa51efefe26fc6276265c93caad5b1aa6a74"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting",
-      "posting mentions possible nationality/export-control restrictions — verify which roles are affected"
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "posting states a mobility/residence-history rule — verify you satisfy it"
     ],
     "fit_overall": 8,
     "urgency": "medium",

@@ -66,6 +66,7 @@ def analysis_input_hash(cfg: Config, opp: Opportunity) -> str:
         "title": opp.official.title,
         "description_text": opp.official.description_text,
         "nationality_restrictions_status": opp.official.nationality_restrictions_status,
+        "mobility_requirement_status": opp.official.mobility_requirement_status,
         "profile": _profile_summary(cfg),
         "target_identity": cfg.target_identity.get("statement"),
         "taxonomy_ids": sorted(cfg.taxonomy_ids()),
