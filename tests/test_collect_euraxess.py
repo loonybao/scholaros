@@ -6,6 +6,7 @@ from pathlib import Path
 
 from compass.collect import euraxess
 from compass.models import _VALID_ID
+from compass.rules import recompute_derived
 
 FIXTURES = Path(__file__).parent / "fixtures" / "html"
 
@@ -21,7 +22,8 @@ def test_parse_listing_extracts_enriched_fields():
     assert phd["org_slug"] == "tu-delft"
     assert phd["offer_type"] == "JOB"
     assert phd["deadline"] == date(2026, 8, 30)         # from id-Application-Deadline
-    assert "Delft" in phd["location"]                    # country + institution + city
+    assert "Delft" in phd["location"]                    # institution + city
+    assert phd["location"].endswith("Netherlands")       # country LAST (geography gate reads last segment)
     assert phd["research_field"] == "Computer science"
     assert "R1" in phd["researcher_profile"]
     # a real card carried from the live page also has the structured fields
@@ -60,6 +62,9 @@ def test_collect_ingests_research_with_full_facts(cfg, store, monkeypatch):
     assert "Research field: Computer science" in phd.official.description_text
     assert phd.official.org_id == "org_euraxess_tu-delft"
     assert store.load("organisation", "org_euraxess_tu-delft").manual.target is False
+    # geography gate must recognise a European location (country is last)
+    d = recompute_derived(phd, cfg.constraints, date(2026, 7, 19))
+    assert not any("outside allowed regions" in r for r in d.eligibility_reasons)
 
     # a procedural-title real vacancy is accepted because it carries an R-profile
     real = opps["454029"]

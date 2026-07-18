@@ -106,11 +106,19 @@ def _field(art, id_class: str) -> Optional[str]:
 
 
 def _clean_location(work_locations: Optional[str], country: Optional[str]) -> Optional[str]:
+    """Return a location string that ENDS with the country — the geography gate
+    reads the last comma-segment as the country. EURAXESS lists 'Country,
+    Institution, City', so we move the country to the end (else an Italian job
+    would be read as country='<city>' and wrongly gated as outside Europe)."""
+    segs: list[str] = []
     if work_locations:
         loc = re.sub(r"Number of offers:\s*\d+\s*,?\s*", "", work_locations).strip(" ,")
-        if loc:
-            return loc
-    return country
+        segs = [s.strip() for s in loc.split(",") if s.strip()]
+    if country and segs and segs[0].lower() == country.lower():
+        segs = segs[1:]                       # drop the leading country duplicate
+    if country:
+        segs.append(country)                  # country last, for the gate
+    return ", ".join(segs) if segs else country
 
 
 def parse_listing(html: str) -> list[dict]:
