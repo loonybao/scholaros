@@ -113,6 +113,7 @@ function card(a) {
   if (a.stage === "preparing" || a.stage === "monitoring") {
     acts.push(`<button class="btn ghost sm" data-act="add-doc" data-id="${esc(a.id)}">${t("app.add_document")}</button>`);
     acts.push(`<button class="btn secondary sm" data-act="submit" data-id="${esc(a.id)}">${t("act.mark_submitted")}</button>`);
+    acts.push(`<button class="btn ghost sm" data-act="untrack" data-id="${esc(a.id)}">${t("act.back_to_tracking")}</button>`);
   }
   if (a.stage === "submitted")
     acts.push(`<button class="btn secondary sm" data-act="correct" data-id="${esc(a.id)}">${t("act.correct_submission")}</button>`);
@@ -137,6 +138,11 @@ function card(a) {
 async function startPreparing(el, id) {
   const a = _byId[id];
   await busy(el, () => guard(() => patch(url(id), { expected_updated_at: a.updated_at, stage: "preparing" }),
+    { onDone: reload, success: t("act.saved") }));
+}
+async function backToTracking(el, id) {
+  const a = _byId[id];
+  await busy(el, () => guard(() => patch(url(id), { expected_updated_at: a.updated_at, stage: "identified" }),
     { onDone: reload, success: t("act.saved") }));
 }
 async function addDoc(el, id) {
@@ -202,6 +208,7 @@ function wire(root) {
     const { act, id } = el.dataset;
     if (act === "toggle-mat") return toggleMaterial(el, id);
     if (act === "start") return startPreparing(el, id);
+    if (act === "untrack") return backToTracking(el, id);
     if (act === "add-doc") return addDoc(el, id);
     if (act === "submit") return markSubmitted(el, id);
     if (act === "correct") return correctSubmission(el, id);

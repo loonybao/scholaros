@@ -34,6 +34,21 @@ def _submit(client, opp_id):
 
 # ---------------------------------------------------------- A: correction #
 
+def test_preparing_can_return_to_tracking(cfg, store):
+    """Pre-submission states are freely navigable: preparing -> identified
+    (Tracking) is allowed and recorded, and keeps prep data."""
+    client, opp_id = _client(cfg, store)
+    app_id = client.post(f"/api/opportunities/{opp_id}/applications").json()["id"]
+    client.patch(f"/api/applications/{app_id}", json={"stage": "preparing",
+                 "materials": [{"name": "CV", "status": "final"}]})
+    r = client.patch(f"/api/applications/{app_id}", json={"stage": "identified"})
+    assert r.status_code == 200
+    m = store.load("application", app_id).manual
+    assert m.stage == "identified"
+    assert len(m.materials) == 1                       # prep data is kept
+    assert any(e.event == "stage" and e.note == "identified" for e in m.events)
+
+
 def test_generic_patch_cannot_reopen_submitted(cfg, store):
     client, opp_id = _client(cfg, store)
     app_id, v = _submit(client, opp_id)

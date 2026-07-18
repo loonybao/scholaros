@@ -417,10 +417,15 @@ def propose_decision(
 # Application stage machine. Forward transitions only; withdrawal is always
 # allowed. A same-stage set is a no-op. Anything else needs an explicit
 # correction (recorded as an audited user change), never a silent overwrite.
+# The pre-submission states {identified, preparing, monitoring} are freely
+# navigable in BOTH directions: stepping preparing/monitoring back to
+# 'identified' (Tracking) is a harmless change of intent — no official claim is
+# reversed and nothing is cleared. Once 'submitted' (a real-world action claim),
+# reopening is only allowed via the audited correct_submission flow, never here.
 APPLICATION_TRANSITIONS: dict[str, set[str]] = {
     "identified": {"preparing", "monitoring", "withdrawn"},
-    "preparing": {"submitted", "monitoring", "withdrawn"},
-    "monitoring": {"preparing", "submitted", "withdrawn"},
+    "preparing": {"identified", "submitted", "monitoring", "withdrawn"},
+    "monitoring": {"identified", "preparing", "submitted", "withdrawn"},
     "submitted": {"interview", "offered", "rejected", "awaiting_response", "withdrawn"},
     "awaiting_response": {"interview", "offered", "rejected", "withdrawn"},
     "interview": {"offered", "rejected", "withdrawn"},

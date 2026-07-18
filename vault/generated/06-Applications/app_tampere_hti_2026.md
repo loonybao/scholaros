@@ -23,7 +23,7 @@ blockers: 1
 
 ## Required documents
 
-- [final] Motivation letter (max 1 page, independently written)
+- [todo] Motivation letter (max 1 page, independently written)
 - [todo] CV incl. 1-2 minute video self-introduction link
 - [todo] Video self-introduction (1-2 min)
 - [todo] Relevant skills list
@@ -34,6 +34,12 @@ blockers: 1
 ## Notes (from record)
 
 Deferred by graduation horizon. This specific vacancy is not actionable now; the group remains a high-priority FUTURE target. No recruiter outreach this cycle.
+
+## Events
+
+- 2026-07-18: checklist — 0/7
+- 2026-07-18: checklist — 1/7
+- 2026-07-18: checklist — 0/7
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/app_tampere_hti_2026.md` and link [[app_tampere_hti_2026]]._

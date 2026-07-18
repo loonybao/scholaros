@@ -1,7 +1,7 @@
 ---
 id: app_tudelft_textile_2026
 type: application
-stage: submitted
+stage: preparing
 opportunity: opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a
 official_deadline: 2026-08-02
 internal_due_date: 2026-07-18
@@ -10,7 +10,7 @@ blockers: 1
 
 # Application — [[opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a]]
 
-**Stage:** submitted
+**Stage:** preparing
 **Official deadline:** 2026-08-02
 **Internal preparation date:** 2026-07-18
 **Official submission URL:** https://careers.tudelft.nl/job/Delft-PhD-Position-Biosensing-and-Designing-for-Temporal-and-Biofabricated-Textile-Experiences-2628-CD/1366133057/
@@ -33,6 +33,7 @@ STATUS: consider (adjacent market intelligence), below XR-AV. Not actionable now
 
 - 2026-07-18: stage:preparing 
 - 2026-07-18: stage:submitted 
+- 2026-07-18: corrected — 错误 — (was submitted 2026-07-18)
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/app_tudelft_textile_2026.md` and link [[app_tudelft_textile_2026]]._

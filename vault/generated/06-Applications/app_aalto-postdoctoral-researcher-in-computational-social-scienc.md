@@ -1,7 +1,7 @@
 ---
 id: app_aalto-postdoctoral-researcher-in-computational-social-scienc
 type: application
-stage: identified
+stage: preparing
 opportunity: opp_aalto-postdoctoral-researcher-in-computational-social-scienc
 official_deadline: 2026-08-17
 internal_due_date: not set
@@ -10,7 +10,7 @@ blockers: 0
 
 # Application — [[opp_aalto-postdoctoral-researcher-in-computational-social-scienc]]
 
-**Stage:** identified
+**Stage:** preparing
 **Official deadline:** 2026-08-17 (12:00 UTC)
 **Internal preparation date:** not set
 **Official submission URL:** https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Postdoctoral-Researcher-in-Computational-Social-Science_R47290/apply
@@ -24,6 +24,12 @@ _None._
 ## Required documents
 
 _Not yet enumerated — verify on the official page._
+
+## Events
+
+- 2026-07-18: preparing 
+- 2026-07-18: submitted — 2026-07-18
+- 2026-07-18: corrected — 测试 — (was submitted 2026-07-18)
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/app_aalto-postdoctoral-researcher-in-computational-social-scienc.md` and link [[app_aalto-postdoctoral-researcher-in-computational-social-scienc]]._

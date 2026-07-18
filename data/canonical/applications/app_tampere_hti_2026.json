@@ -3,7 +3,7 @@
   "entity_type": "application",
   "schema_version": 9,
   "created_at": "2026-07-18T04:18:20.777125Z",
-  "updated_at": "2026-07-18T14:07:51.681174Z",
+  "updated_at": "2026-07-18T15:52:09.449352Z",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.778126Z",
@@ -115,6 +115,33 @@
         "manual.materials"
       ],
       "note": "application updated"
+    },
+    {
+      "ts": "2026-07-18T15:51:36.096457Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.materials"
+      ],
+      "note": "application updated"
+    },
+    {
+      "ts": "2026-07-18T15:52:09.001513Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.materials"
+      ],
+      "note": "application updated"
+    },
+    {
+      "ts": "2026-07-18T15:52:09.449352Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.materials"
+      ],
+      "note": "application updated"
     }
   ],
   "system": {
@@ -128,7 +155,7 @@
     "materials": [
       {
         "name": "Motivation letter (max 1 page, independently written)",
-        "status": "final",
+        "status": "todo",
         "path": null
       },
       {
@@ -165,7 +192,23 @@
     "contact_person_ids": [
       "per_markku_turunen"
     ],
-    "events": [],
+    "events": [
+      {
+        "ts": "2026-07-18T15:51:36.095460Z",
+        "event": "checklist",
+        "note": "0/7"
+      },
+      {
+        "ts": "2026-07-18T15:52:08.999333Z",
+        "event": "checklist",
+        "note": "1/7"
+      },
+      {
+        "ts": "2026-07-18T15:52:09.448349Z",
+        "event": "checklist",
+        "note": "0/7"
+      }
+    ],
     "blockers": [
       "GRADUATION HORIZON: not actionable this cycle — vacancy starts preferably Sept 2026, expected MSc completion July 2027 (estimated). Research fit 84 and TAUCHI/PIRG future value (high) are preserved."
     ],

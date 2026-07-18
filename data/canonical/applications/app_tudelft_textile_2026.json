@@ -3,7 +3,7 @@
   "entity_type": "application",
   "schema_version": 9,
   "created_at": "2026-07-18T04:18:20.781635Z",
-  "updated_at": "2026-07-18T14:06:30.046723Z",
+  "updated_at": "2026-07-18T15:53:41.817653Z",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.781635Z",
@@ -99,14 +99,24 @@
         "manual.internal_due_date"
       ],
       "note": "application updated"
+    },
+    {
+      "ts": "2026-07-18T15:53:41.817653Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.stage",
+        "manual.submitted_at"
+      ],
+      "note": "submission corrected to preparing: 错误"
     }
   ],
   "system": {
     "opportunity_id": "opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a"
   },
   "manual": {
-    "stage": "submitted",
-    "submitted_at": "2026-07-18",
+    "stage": "preparing",
+    "submitted_at": null,
     "portal_reference": null,
     "documents_used": [],
     "materials": [],
@@ -121,6 +131,11 @@
         "ts": "2026-07-18T14:06:09.923164Z",
         "event": "stage:submitted",
         "note": ""
+      },
+      {
+        "ts": "2026-07-18T15:53:41.816646Z",
+        "event": "corrected",
+        "note": "错误 — (was submitted 2026-07-18)"
       }
     ],
     "blockers": [
