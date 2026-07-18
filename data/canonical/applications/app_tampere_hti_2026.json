@@ -3,7 +3,7 @@
   "entity_type": "application",
   "schema_version": 9,
   "created_at": "2026-07-18T04:18:20.777125Z",
-  "updated_at": "2026-07-18T11:22:53.308153+00:00",
+  "updated_at": "2026-07-18T14:07:51.681174Z",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.778126Z",
@@ -69,12 +69,52 @@
       "note": "deferred: graduation horizon"
     },
     {
-      "ts": "2026-07-18T11:22:53.308153+00:00",
+      "ts": "2026-07-18T11:22:53.308153Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v9"
+    },
+    {
+      "ts": "2026-07-18T14:05:22.184764Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.materials"
+      ],
+      "note": "application updated"
+    },
+    {
+      "ts": "2026-07-18T14:05:24.317198Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.materials"
+      ],
+      "note": "application updated"
+    },
+    {
+      "ts": "2026-07-18T14:07:33.186388Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.materials"
+      ],
+      "note": "application updated"
+    },
+    {
+      "ts": "2026-07-18T14:07:43.097880Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.materials"
+      ],
+      "note": "application updated"
+    },
+    {
+      "ts": "2026-07-18T14:07:51.681174Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.materials"
+      ],
+      "note": "application updated"
     }
   ],
   "system": {
@@ -83,10 +123,12 @@
   "manual": {
     "stage": "identified",
     "submitted_at": null,
+    "portal_reference": null,
+    "documents_used": [],
     "materials": [
       {
         "name": "Motivation letter (max 1 page, independently written)",
-        "status": "todo",
+        "status": "final",
         "path": null
       },
       {

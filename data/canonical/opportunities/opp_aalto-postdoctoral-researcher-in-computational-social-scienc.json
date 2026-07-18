@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 9,
   "created_at": "2026-07-17T15:35:26.427285Z",
-  "updated_at": "2026-07-18T11:22:52.968801+00:00",
+  "updated_at": "2026-07-18T14:01:41.526971Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:26.427285Z",
@@ -130,7 +130,7 @@
       "note": "interactive analysis (claude-fable-5)"
     },
     {
-      "ts": "2026-07-18T05:14:54.045688+00:00",
+      "ts": "2026-07-18T05:14:54.045688Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -138,7 +138,7 @@
       "note": "migrated to v7"
     },
     {
-      "ts": "2026-07-18T07:52:06.366242+00:00",
+      "ts": "2026-07-18T07:52:06.366242Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -146,12 +146,60 @@
       "note": "migrated to v8"
     },
     {
-      "ts": "2026-07-18T11:22:52.968801+00:00",
+      "ts": "2026-07-18T11:22:52.968801Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v9"
+    },
+    {
+      "ts": "2026-07-18T14:00:46.703633Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.user_status"
+      ],
+      "note": "manual annotation updated"
+    },
+    {
+      "ts": "2026-07-18T14:00:49.620674Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.user_status"
+      ],
+      "note": "manual annotation updated"
+    },
+    {
+      "ts": "2026-07-18T14:00:54.129209Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.user_status"
+      ],
+      "note": "manual annotation updated"
+    },
+    {
+      "ts": "2026-07-18T14:00:56.367813Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.user_status"
+      ],
+      "note": "manual annotation updated"
+    },
+    {
+      "ts": "2026-07-18T14:01:29.611145Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.user_status"
+      ],
+      "note": "manual annotation updated"
+    },
+    {
+      "ts": "2026-07-18T14:01:41.526971Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.user_status"
+      ],
+      "note": "manual annotation updated"
     }
   ],
   "official": {
@@ -258,13 +306,15 @@
     "fit_overall": 50,
     "urgency": "medium",
     "days_to_deadline": 30,
-    "needs_review": true
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
   },
   "manual": {
     "notes": "",
     "tags": [],
     "eligibility_override": null,
     "priority_override": null,
+    "user_status": null,
     "hidden": false
   }
 }

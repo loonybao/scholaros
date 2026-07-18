@@ -3,7 +3,7 @@
   "entity_type": "application",
   "schema_version": 9,
   "created_at": "2026-07-18T04:18:20.781635Z",
-  "updated_at": "2026-07-18T11:22:53.312664+00:00",
+  "updated_at": "2026-07-18T14:06:30.046723Z",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.781635Z",
@@ -66,29 +66,69 @@
       "note": "retained as adjacent market intelligence"
     },
     {
-      "ts": "2026-07-18T11:22:53.312664+00:00",
+      "ts": "2026-07-18T11:22:53.312664Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v9"
+    },
+    {
+      "ts": "2026-07-18T14:05:37.167165Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.stage"
+      ],
+      "note": "stage identified -> preparing"
+    },
+    {
+      "ts": "2026-07-18T14:06:09.924169Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.stage",
+        "manual.submitted_at"
+      ],
+      "note": "stage preparing -> submitted"
+    },
+    {
+      "ts": "2026-07-18T14:06:30.046723Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.internal_due_date"
+      ],
+      "note": "application updated"
     }
   ],
   "system": {
     "opportunity_id": "opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a"
   },
   "manual": {
-    "stage": "identified",
-    "submitted_at": null,
+    "stage": "submitted",
+    "submitted_at": "2026-07-18",
+    "portal_reference": null,
+    "documents_used": [],
     "materials": [],
     "contact_person_ids": [],
-    "events": [],
+    "events": [
+      {
+        "ts": "2026-07-18T14:05:37.166166Z",
+        "event": "stage:preparing",
+        "note": ""
+      },
+      {
+        "ts": "2026-07-18T14:06:09.923164Z",
+        "event": "stage:submitted",
+        "note": ""
+      }
+    ],
     "blockers": [
       "GRADUATION HORIZON: not actionable this cycle (expected MSc July 2027, estimated). Retained as adjacent market intelligence."
     ],
     "next_step": "No action now; revisit if a compatible future IDE vacancy appears",
     "next_step_due": null,
-    "internal_due_date": null,
+    "internal_due_date": "2026-07-18",
     "notes": "STATUS: consider (adjacent market intelligence), below XR-AV. Not actionable now due to graduation horizon; no recruiter contact this cycle."
   },
   "outcome": {
