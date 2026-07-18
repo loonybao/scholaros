@@ -46,9 +46,7 @@ class VaultExporter:
         with open(path, "w", encoding="utf-8", newline="\n") as f:
             f.write(content)
 
-    # ------------------------------------------------------------------- main
-
-    def export_all(self, today: date) -> int:
+    def _guard_generated(self) -> None:
         # Refuse to operate through a symlink/junction: the guard's trusted
         # base must be the real vault/generated directory, never a redirect
         # (which could point delete/write operations at vault/notes).
@@ -64,6 +62,36 @@ class VaultExporter:
         if self.generated == notes or self.generated in notes.parents:
             raise RuntimeError("vault/generated resolves into vault/notes; refusing")
 
+    # -------------------------------------------------------- incremental #
+
+    def export_opportunity(self, opp_id: str) -> None:
+        """Regenerate one opportunity page. Its markdown does not reference
+        applications or the dashboard, so no other page is affected."""
+        self._guard_generated()
+        opp = self.store.load("opportunity", opp_id)
+        o = opp.official
+        orgs = {
+            oid: self.store.load("organisation", oid)
+            for oid in (o.org_id, o.lab_org_id)
+            if oid and self.store.exists("organisation", oid)
+        }
+        self._write([SUBDIRS["opportunity"], f"{opp.id}.md"],
+                    self._render_opportunity(opp, orgs))
+
+    def export_application(self, app_id: str) -> None:
+        """Regenerate one application page (loads only its linked vacancy)."""
+        self._guard_generated()
+        app = self.store.load("application", app_id)
+        oid = app.system.opportunity_id
+        opps = ({oid: self.store.load("opportunity", oid)}
+                if self.store.exists("opportunity", oid) else {})
+        self._write([SUBDIRS["application"], f"{app.id}.md"],
+                    self._render_application(app, opps))
+
+    # ------------------------------------------------------------------- main
+
+    def export_all(self, today: date) -> int:
+        self._guard_generated()
         if self.generated.exists():
             shutil.rmtree(self.generated)
         self.generated.mkdir(parents=True, exist_ok=True)

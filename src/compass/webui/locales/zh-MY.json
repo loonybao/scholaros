@@ -393,6 +393,22 @@
   "app.report_issue.field": "字段",
   "app.report_issue.desc": "哪里不对?",
 
+  "act.correct_submission": "修正 submission 状态",
+  "app.correct.title": "修正 submission 状态",
+  "app.correct.current": "现在提交于 {date}",
+  "app.correct.reason": "修正原因",
+  "app.correct.confirm": "我确认这条被 mark 错成 submitted,或需要修正。",
+  "act.saving": "Save 中……",
+  "act.reconcile": "已 save。有些 derived view 要手动 refresh(rebuild-index)。",
+
+  "app.history": "操作历史",
+  "app.event.created": "已建立申请",
+  "app.event.preparing": "开始准备",
+  "app.event.submitted": "标记为已提交",
+  "app.event.corrected": "Submission 状态改回准备中",
+  "app.event.checklist": "材料 updated",
+  "app.event.stage": "阶段改成 {stage}",
+
   "targets.relevant_roles": "相关职位",
   "targets.show_all_inst": "显示全校职位({n})",
   "targets.hide_all_inst": "收起全校职位",

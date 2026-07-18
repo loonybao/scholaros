@@ -35,6 +35,7 @@ S8A_FAMILIES = {
     "prep": ["strengthen", "learn", "portfolio", "monitor_person", "monitor_signal"],
     "prep.cat": ["skill", "method", "portfolio", "monitor"],
     "milestone": ["now", "prepare", "outreach", "active", "graduation"],
+    "app.event": ["created", "preparing", "submitted", "corrected", "checklist", "stage"],
 }
 
 
@@ -98,6 +99,7 @@ ALLOWED_WRITE_PATTERNS = [
     r"/api/opportunities/\$\{[^}]+\}/applications",  # create application (POST)
     r"/api/opportunities/\$\{[^}]+\}/manual",        # manual annotation (PATCH)
     r"/api/applications/\$\{[^}]+\}",                # application patch (PATCH)
+    r"\$\{url\(id\)\}/correct-submission",           # audited submission correction (POST)
     r"/api/data-issues",                             # report issue -> action (POST)
     r"/api/actions",                                 # create action (POST)
 ]
@@ -123,6 +125,37 @@ def test_write_helper_has_stale_and_error_handling():
     assert "ApiError" in w
     assert "act.stale" in w        # 409 stale-write feedback
     assert "modalForm" in w        # confirmation dialogs for destructive/final acts
+
+
+def test_correction_ui_present():
+    a = _read("pages/applications.js")
+    for token in ('data-act="correct"', "correct-submission",
+                  "app.correct.reason", "app.correct.confirm", "correction_reason"):
+        assert token in a, f"missing correction UI token: {token}"
+
+
+def test_activity_history_present():
+    a = _read("pages/applications.js")
+    assert "app.history" in a and "timeline" in a and "eventLabel" in a
+
+
+def test_checklist_is_optimistic_and_not_full_reload():
+    """A checklist toggle must update in place (optimistic) and must not force a
+    full-route reload on the success path — only stage changes reload."""
+    a = _read("pages/applications.js")
+    assert "setMaterialDom" in a                      # optimistic DOM update
+    assert "btn.disabled = true" in a                 # no double submit while in flight
+    fn = a[a.index("async function toggleMaterial"):a.index("activity history")]
+    success_path = fn.split("} catch")[0]
+    assert "reload()" not in success_path             # success path updates in place
+
+
+def test_writes_show_busy_state():
+    """Stage actions disable their button while saving (busy) so a slow write
+    cannot be double-submitted."""
+    a = _read("pages/applications.js")
+    assert a.count("busy(") >= 4  # start / add-doc / submit / correct / editor
+    assert "act.saving" in (WEBUI / "locales" / "en.json").read_text(encoding="utf-8")
 
 
 def test_inline_editor_collapsed_by_default():

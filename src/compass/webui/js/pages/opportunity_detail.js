@@ -12,7 +12,7 @@ import {
   timingLabel, timingTone, valueLabel,
 } from "../labels.js";
 import { badge, esc, fetchJSON, sourceLink } from "../ui.js";
-import { guard, modalForm, patch, post } from "../write.js";
+import { busy, guard, modalForm, patch, post } from "../write.js";
 
 const LEVEL_TONE = { advanced: "good", intermediate: "info", beginner: "warn", none: "neutral" };
 const USER_STATUS_TONE = {
@@ -160,17 +160,17 @@ async function load(root) {
   const reload = () => load(root);
   const ver = d.updated_at;
 
-  const setStatus = (body) => guard(
+  const setStatus = (el, body) => busy(el, () => guard(
     () => patch(`/api/opportunities/${encodeURIComponent(id)}/manual`, { expected_updated_at: ver, ...body }),
-    { onDone: reload, success: t("act.saved") });
+    { onDone: reload, success: t("act.saved") }));
 
-  root.querySelector('[data-act="create-app"]')?.addEventListener("click", () =>
-    guard(() => post(`/api/opportunities/${encodeURIComponent(id)}/applications`), { onDone: reload, success: t("act.saved") }));
-  root.querySelector('[data-act="future"]')?.addEventListener("click", () => setStatus({ user_status: "future_target" }));
-  root.querySelector('[data-act="not-applying"]')?.addEventListener("click", () => setStatus({ user_status: "not_applying" }));
-  root.querySelector('[data-act="clear"]')?.addEventListener("click", () => setStatus({ clear_user_status: true }));
-  root.querySelector('[data-act="save-note"]')?.addEventListener("click", () =>
-    setStatus({ notes: root.querySelector("#opp-notes").value }));
+  root.querySelector('[data-act="create-app"]')?.addEventListener("click", (e) =>
+    busy(e.currentTarget, () => guard(() => post(`/api/opportunities/${encodeURIComponent(id)}/applications`), { onDone: reload, success: t("act.saved") })));
+  root.querySelector('[data-act="future"]')?.addEventListener("click", (e) => setStatus(e.currentTarget, { user_status: "future_target" }));
+  root.querySelector('[data-act="not-applying"]')?.addEventListener("click", (e) => setStatus(e.currentTarget, { user_status: "not_applying" }));
+  root.querySelector('[data-act="clear"]')?.addEventListener("click", (e) => setStatus(e.currentTarget, { clear_user_status: true }));
+  root.querySelector('[data-act="save-note"]')?.addEventListener("click", (e) =>
+    setStatus(e.currentTarget, { notes: root.querySelector("#opp-notes").value }));
 
   root.querySelector('[data-act="report-issue"]')?.addEventListener("click", async () => {
     const vals = await modalForm({

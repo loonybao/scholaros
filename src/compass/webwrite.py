@@ -1,12 +1,17 @@
-"""Safe web write layer (S8a).
+"""Safe web write layer (S8a / S8a.1).
 
 The web UI may write ONLY manual-layer fields, Application records, Action
 records, and user notes. Request models forbid extra fields, so official/ai/
 derived data can never be smuggled in. Every write goes through store.py
 (actor="user", atomic + locked, field-level change_history), rejects stale
 concurrent updates (optimistic concurrency on updated_at), avoids no-op
-history, and refreshes the SQLite index + vault/generated. vault/notes is never
-touched.
+history, and then refreshes ONLY the affected entity (its SQLite row + its one
+generated page) via views.try_refresh — never a full recompute/rebuild/export.
+
+Stage handling: forward transitions follow rules.valid_application_transition;
+marking submitted requires a date + explicit confirmation; a submitted
+application can only be reopened through the dedicated, audited
+correct_submission flow (never a silent PATCH). vault/notes is never touched.
 """
 
 from __future__ import annotations
@@ -14,16 +19,18 @@ from __future__ import annotations
 from datetime import date, datetime, timezone
 from typing import Optional
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict
 
 from .config import Config
 from .models import (
     Action, ActionManual, ActionRelated, ActionSystem,
-    Application, ApplicationManual, ApplicationMaterial, ApplicationSystem,
+    Application, ApplicationEvent, ApplicationManual, ApplicationMaterial,
+    ApplicationSystem,
 )
+from .perf import Timings
 from .rules import valid_application_transition
 from .store import Store
-from .views import refresh_all
+from .views import try_refresh
 
 
 # ------------------------------------------------------------------ errors #
@@ -58,6 +65,10 @@ def _check_version(entity, expected: Optional[str]) -> None:
             "This record changed since you loaded it; reload and retry.")
 
 
+def _event(event: str, note: str = "") -> ApplicationEvent:
+    return ApplicationEvent(ts=datetime.now(timezone.utc), event=event, note=note)
+
+
 # ------------------------------------------------------------ request models #
 
 class OppManualPatch(BaseModel):
@@ -79,8 +90,6 @@ class AppPatch(BaseModel):
     model_config = ConfigDict(extra="forbid")
     expected_updated_at: Optional[str] = None
     stage: Optional[str] = None
-    correction: bool = False                    # allow a non-forward stage change
-    correction_note: Optional[str] = None
     internal_due_date: Optional[date] = None
     next_step: Optional[str] = None
     next_step_due: Optional[date] = None
@@ -92,6 +101,15 @@ class AppPatch(BaseModel):
     confirm_submitted: bool = False
     portal_reference: Optional[str] = None
     documents_used: Optional[list[str]] = None
+
+
+class SubmissionCorrection(BaseModel):
+    """Dedicated, audited reopen of a submitted application. Not a generic
+    stage change — the normal PATCH route cannot perform submitted -> preparing."""
+    model_config = ConfigDict(extra="forbid")
+    expected_updated_at: Optional[str] = None
+    correction_reason: str
+    confirm: bool = False
 
 
 class ActionCreate(BaseModel):
@@ -116,6 +134,7 @@ class DataIssue(BaseModel):
 # ------------------------------------------------------------------- writes #
 
 def create_application(cfg: Config, store: Store, opp_id: str) -> dict:
+    tm = Timings("create_application")
     if not store.exists("opportunity", opp_id):
         raise NotFound(f"unknown opportunity {opp_id}")
     for app in store.load_all("application"):
@@ -125,15 +144,18 @@ def create_application(cfg: Config, store: Store, opp_id: str) -> dict:
     app = Application(
         id=store.new_id("application", opp_id.replace("opp_", "", 1)),
         system=ApplicationSystem(opportunity_id=opp_id),
-        manual=ApplicationManual(stage="identified"),
+        manual=ApplicationManual(stage="identified", events=[_event("created")]),
     )
-    store.save(app, actor="user", note="application created from opportunity")
-    refresh_all(cfg, store)
-    return {"id": app.id, "stage": app.manual.stage}
+    with tm.measure("save"):
+        store.save(app, actor="user", note="application created from opportunity")
+    warning = try_refresh(cfg, store, "application", app.id, tm)
+    tm.report()
+    return {"id": app.id, "stage": app.manual.stage, "warning": warning}
 
 
 def patch_opportunity_manual(cfg: Config, store: Store, opp_id: str,
                              patch: OppManualPatch) -> dict:
+    tm = Timings("patch_opportunity_manual")
     if not store.exists("opportunity", opp_id):
         raise NotFound(f"unknown opportunity {opp_id}")
     opp = store.load("opportunity", opp_id)
@@ -144,13 +166,16 @@ def patch_opportunity_manual(cfg: Config, store: Store, opp_id: str,
         opp.manual.user_status = patch.user_status
     if patch.notes is not None:
         opp.manual.notes = patch.notes
-    saved = store.save(opp, actor="user", note="manual annotation updated")
-    refresh_all(cfg, store)
+    with tm.measure("save"):
+        saved = store.save(opp, actor="user", note="manual annotation updated")
+    warning = try_refresh(cfg, store, "opportunity", opp_id, tm)
+    tm.report()
     return {"id": saved.id, "user_status": saved.manual.user_status,
-            "updated_at": saved.updated_at.isoformat()}
+            "updated_at": saved.updated_at.isoformat(), "warning": warning}
 
 
 def patch_application(cfg: Config, store: Store, app_id: str, patch: AppPatch) -> dict:
+    tm = Timings("patch_application")
     if not store.exists("application", app_id):
         raise NotFound(f"unknown application {app_id}")
     app = store.load("application", app_id)
@@ -158,18 +183,24 @@ def patch_application(cfg: Config, store: Store, app_id: str, patch: AppPatch) -
     m = app.manual
 
     if patch.stage is not None and patch.stage != m.stage:
-        if not patch.correction and not valid_application_transition(m.stage, patch.stage):
+        if m.stage == "submitted" and patch.stage == "preparing":
             raise InvalidTransition(
-                f"{m.stage} -> {patch.stage} is not a permitted transition; "
-                f"use a correction to override.")
-        if patch.stage == "submitted" and not patch.correction:
+                "use the submission-correction action to reopen a submitted "
+                "application, so the correction is recorded with a reason.")
+        if not valid_application_transition(m.stage, patch.stage):
+            raise InvalidTransition(
+                f"{m.stage} -> {patch.stage} is not a permitted transition.")
+        if patch.stage == "submitted":
             if not patch.confirm_submitted or patch.submitted_at is None:
                 raise WriteError(
                     "marking submitted requires submitted_at and confirmation")
-        note = (f"correction: {patch.correction_note}" if patch.correction
-                else f"stage {m.stage} -> {patch.stage}")
+            m.events.append(_event("submitted", patch.submitted_at.isoformat()))
+        elif patch.stage == "preparing":
+            m.events.append(_event("preparing"))
+        else:
+            m.events.append(_event("stage", patch.stage))
+        note = f"stage {m.stage} -> {patch.stage}"
         m.stage = patch.stage
-        m.events.append(_event(f"stage:{patch.stage}", patch.correction_note or ""))
     else:
         note = "application updated"
 
@@ -184,8 +215,12 @@ def patch_application(cfg: Config, store: Store, app_id: str, patch: AppPatch) -
     if patch.blockers is not None:
         m.blockers = patch.blockers
     if patch.materials is not None:
-        m.materials = [ApplicationMaterial(name=x.name, status=x.status, path=x.path)
-                       for x in patch.materials]
+        new_materials = [ApplicationMaterial(name=x.name, status=x.status, path=x.path)
+                         for x in patch.materials]
+        if new_materials != m.materials:
+            done = sum(1 for x in new_materials if x.status == "final")
+            m.events.append(_event("checklist", f"{done}/{len(new_materials)}"))
+        m.materials = new_materials
     if patch.submitted_at is not None:
         m.submitted_at = patch.submitted_at
     if patch.portal_reference is not None:
@@ -193,13 +228,55 @@ def patch_application(cfg: Config, store: Store, app_id: str, patch: AppPatch) -
     if patch.documents_used is not None:
         m.documents_used = patch.documents_used
 
-    saved = store.save(app, actor="user", note=note)
-    refresh_all(cfg, store)
+    with tm.measure("save"):
+        saved = store.save(app, actor="user", note=note)
+    warning = try_refresh(cfg, store, "application", app_id, tm)
+    tm.report()
     return {"id": saved.id, "stage": saved.manual.stage,
-            "updated_at": saved.updated_at.isoformat()}
+            "updated_at": saved.updated_at.isoformat(), "warning": warning}
+
+
+def correct_submission(cfg: Config, store: Store, app_id: str,
+                       req: SubmissionCorrection) -> dict:
+    """Audited submitted -> preparing. Requires a reason and confirmation;
+    clears submission-only fields but preserves the original submission event
+    and the reason in the change history."""
+    tm = Timings("correct_submission")
+    if not store.exists("application", app_id):
+        raise NotFound(f"unknown application {app_id}")
+    app = store.load("application", app_id)
+    _check_version(app, req.expected_updated_at)
+    m = app.manual
+    if m.stage != "submitted":
+        raise InvalidTransition(
+            "only a submitted application can have its submission corrected.")
+    reason = (req.correction_reason or "").strip()
+    if not reason or not req.confirm:
+        raise WriteError(
+            "a correction requires a reason and explicit confirmation.")
+
+    prior = [f"was submitted {m.submitted_at}"]
+    if m.portal_reference:
+        prior.append(f"ref {m.portal_reference}")
+    if m.documents_used:
+        prior.append("docs: " + ", ".join(m.documents_used))
+    m.events.append(_event("corrected", f"{reason} — ({'; '.join(prior)})"))
+    m.stage = "preparing"
+    m.submitted_at = None
+    m.portal_reference = None
+    m.documents_used = []
+
+    with tm.measure("save"):
+        saved = store.save(app, actor="user",
+                           note=f"submission corrected to preparing: {reason}")
+    warning = try_refresh(cfg, store, "application", app_id, tm)
+    tm.report()
+    return {"id": saved.id, "stage": saved.manual.stage,
+            "updated_at": saved.updated_at.isoformat(), "warning": warning}
 
 
 def create_action(cfg: Config, store: Store, req: ActionCreate) -> dict:
+    tm = Timings("create_action")
     act = Action(
         id=store.new_id("action", req.title),
         system=ActionSystem(
@@ -211,14 +288,17 @@ def create_action(cfg: Config, store: Store, req: ActionCreate) -> dict:
         ),
         manual=ActionManual(title=req.title, status="todo", notes=req.notes),
     )
-    store.save(act, actor="user", note="action created via web")
-    refresh_all(cfg, store)
-    return {"id": act.id}
+    with tm.measure("save"):
+        store.save(act, actor="user", note="action created via web")
+    warning = try_refresh(cfg, store, "action", act.id, tm)
+    tm.report()
+    return {"id": act.id, "warning": warning}
 
 
 def report_data_issue(cfg: Config, store: Store, req: DataIssue) -> dict:
     """Official data errors are NEVER edited in place — they become an action
     for human review."""
+    tm = Timings("report_data_issue")
     if not store.exists("opportunity", req.opportunity_id):
         raise NotFound(f"unknown opportunity {req.opportunity_id}")
     act = Action(
@@ -234,11 +314,8 @@ def report_data_issue(cfg: Config, store: Store, req: DataIssue) -> dict:
                   f"Verify against the official source before any correction.",
         ),
     )
-    store.save(act, actor="user", note="data issue reported for review")
-    refresh_all(cfg, store)
-    return {"id": act.id}
-
-
-def _event(event: str, note: str):
-    from .models import ApplicationEvent
-    return ApplicationEvent(ts=datetime.now(timezone.utc), event=event, note=note)
+    with tm.measure("save"):
+        store.save(act, actor="user", note="data issue reported for review")
+    warning = try_refresh(cfg, store, "action", act.id, tm)
+    tm.report()
+    return {"id": act.id, "warning": warning}

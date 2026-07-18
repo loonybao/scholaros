@@ -103,6 +103,10 @@ def create_app(cfg: Config) -> FastAPI:
     def api_patch_application(app_id: str, patch: w.AppPatch) -> dict:
         return _write(w.patch_application, app_id, patch)
 
+    @app.post("/api/applications/{app_id}/correct-submission")
+    def api_correct_submission(app_id: str, req: w.SubmissionCorrection) -> dict:
+        return _write(w.correct_submission, app_id, req)
+
     @app.post("/api/actions")
     def api_create_action(req: w.ActionCreate) -> dict:
         return _write(w.create_action, req)

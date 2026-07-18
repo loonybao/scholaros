@@ -23,7 +23,7 @@ blockers: 1
 
 ## Required documents
 
-- [todo] Motivation letter (max 1 page, independently written)
+- [final] Motivation letter (max 1 page, independently written)
 - [todo] CV incl. 1-2 minute video self-introduction link
 - [todo] Video self-introduction (1-2 min)
 - [todo] Relevant skills list

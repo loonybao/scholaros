@@ -393,6 +393,22 @@
   "app.report_issue.field": "Field",
   "app.report_issue.desc": "What is wrong?",
 
+  "act.correct_submission": "Correct submission status",
+  "app.correct.title": "Correct submission status",
+  "app.correct.current": "Currently submitted on {date}",
+  "app.correct.reason": "Reason for correction",
+  "app.correct.confirm": "I confirm this was marked submitted incorrectly or needs correction.",
+  "act.saving": "Saving…",
+  "act.reconcile": "Saved. Some derived views need a manual refresh (rebuild-index).",
+
+  "app.history": "Activity history",
+  "app.event.created": "Application created",
+  "app.event.preparing": "Preparation started",
+  "app.event.submitted": "Marked as submitted",
+  "app.event.corrected": "Submission corrected to preparing",
+  "app.event.checklist": "Documents updated",
+  "app.event.stage": "Stage changed to {stage}",
+
   "targets.relevant_roles": "Relevant roles",
   "targets.show_all_inst": "Show all institution vacancies ({n})",
   "targets.hide_all_inst": "Hide institution vacancies",

@@ -45,13 +45,15 @@ export function toast(message, tone = "info") {
   _toastTimer = setTimeout(() => { host.innerHTML = ""; }, 3400);
 }
 
-/** Run an async write; toast success or a typed error. On a 409 stale write we
-    tell the user and still run onDone(null) so the caller can reload from the
-    server. Returns the result, or null on any failure. */
+/** Run an async write; toast success (or the reconcile warning the server
+    returns when canonical saved but a derived view needs a manual refresh) or a
+    typed error. On a 409 stale write we tell the user and still run onDone(null)
+    so the caller can reload from the server. Returns the result, or null. */
 export async function guard(fn, { onDone, success } = {}) {
   try {
     const r = await fn();
-    if (success) toast(success, "good");
+    if (r && r.warning) toast(t("act.reconcile"), "warn");
+    else if (success) toast(success, "good");
     if (onDone) await onDone(r);
     return r;
   } catch (e) {
@@ -65,6 +67,23 @@ export async function guard(fn, { onDone, success } = {}) {
   }
 }
 
+/** Disable a button and show a saving label while an async write runs, so a
+    slow save can't be double-submitted. Restores the button afterwards. */
+export async function busy(el, fn) {
+  if (!el) return fn();
+  const prev = el.textContent;
+  el.disabled = true;
+  el.classList.add("is-busy");
+  el.textContent = t("act.saving");
+  try {
+    return await fn();
+  } finally {
+    el.disabled = false;
+    el.classList.remove("is-busy");
+    el.textContent = prev;
+  }
+}
+
 /** Minimal modal form. `fields` describe the inputs; resolves to a values
     object on submit or null on cancel. Keyboard: Esc cancels. */
 export function modalForm({ title, fields, submitLabel }) {
@@ -73,6 +92,8 @@ export function modalForm({ title, fields, submitLabel }) {
     const inputId = (name) => `mf-${name}`;
     const rows = fields.map((f) => {
       const id = inputId(f.name);
+      if (f.type === "note")
+        return `<p class="modal-note">${esc(f.label)}</p>`;
       if (f.type === "checkbox")
         return `<label class="modal-check"><input type="checkbox" id="${id}" ${f.value ? "checked" : ""}> <span>${esc(f.label)}</span></label>`;
       if (f.type === "textarea")
@@ -106,6 +127,7 @@ export function modalForm({ title, fields, submitLabel }) {
       e.preventDefault();
       const out = {};
       for (const f of fields) {
+        if (f.type === "note") continue;
         const el = document.getElementById(inputId(f.name));
         out[f.name] = f.type === "checkbox" ? el.checked : el.value.trim();
       }

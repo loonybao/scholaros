@@ -66,6 +66,7 @@ CREATE TABLE applications (
     submitted_at TEXT,
     portal_reference TEXT,
     documents_used TEXT NOT NULL DEFAULT '[]',
+    events TEXT NOT NULL DEFAULT '[]',
     updated_at TEXT
 );
 
@@ -164,70 +165,12 @@ def rebuild_index(cfg: Config, store: Store) -> int:
             )
             rows += 1
 
-        from .analysis_io import analysis_input_hash
-        from .rules import effective_recommendation
-
         for opp in store.load_all("opportunity"):
-            o, d = opp.official, opp.derived
-            stale = bool(
-                opp.ai is not None
-                and opp.ai.analysis_input_hash != analysis_input_hash(cfg, opp)
-            )
-            conn.execute(
-                "INSERT INTO opportunities VALUES "
-                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-                (
-                    opp.id,
-                    o.title,
-                    o.org_id,
-                    o.lab_org_id,
-                    o.canonical_url,
-                    o.deadline.isoformat() if o.deadline else None,
-                    d.days_to_deadline,
-                    d.urgency,
-                    d.eligibility_gate,
-                    json.dumps(d.eligibility_reasons, ensure_ascii=False),
-                    d.fit_overall,
-                    opp.ai.fit_type if opp.ai else None,
-                    effective_recommendation(
-                        d.eligibility_gate,
-                        opp.ai.recommendation if opp.ai else None,
-                    ),
-                    opp.ai.analysis_status if opp.ai else None,
-                    opp.ai.methodological_fit.score if opp.ai else None,
-                    json.dumps(opp.ai.required_skills if opp.ai else []),
-                    json.dumps(opp.ai.preferred_skills if opp.ai else []),
-                    json.dumps(opp.ai.rejection_reasons if opp.ai else []),
-                    opp.ai.future_group_value if opp.ai else None,
-                    o.status,
-                    o.position_type,
-                    o.location,
-                    o.salary_text,
-                    int(d.needs_review),
-                    int(opp.manual.hidden),
-                    int(opp.ai is not None),
-                    int(stale),
-                    o.retrieved_at.isoformat() if o.retrieved_at else None,
-                    d.timing_assessment,
-                    opp.manual.user_status,
-                    opp.updated_at.isoformat() if opp.updated_at else None,
-                ),
-            )
+            _insert(conn, "opportunities", _opportunity_values(cfg, opp))
             rows += 1
 
         for act in store.load_all("action"):
-            conn.execute(
-                "INSERT INTO actions VALUES (?,?,?,?,?,?,?)",
-                (
-                    act.id,
-                    act.manual.title,
-                    act.manual.status,
-                    act.system.priority,
-                    act.system.due_date.isoformat() if act.system.due_date else None,
-                    act.system.related.opportunity_id,
-                    act.system.related.person_id,
-                ),
-            )
+            _insert(conn, "actions", _action_values(act))
             rows += 1
 
         for sig in store.load_all("signal"):
@@ -256,26 +199,7 @@ def rebuild_index(cfg: Config, store: Store) -> int:
             rows += 1
 
         for app in store.load_all("application"):
-            m = app.manual
-            conn.execute(
-                "INSERT INTO applications VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
-                (
-                    app.id,
-                    app.system.opportunity_id,
-                    m.stage,
-                    m.next_step,
-                    m.next_step_due.isoformat() if m.next_step_due else None,
-                    m.internal_due_date.isoformat() if m.internal_due_date else None,
-                    json.dumps(m.blockers, ensure_ascii=False),
-                    m.notes,
-                    json.dumps([mat.model_dump(mode="json") for mat in m.materials],
-                               ensure_ascii=False),
-                    m.submitted_at.isoformat() if m.submitted_at else None,
-                    m.portal_reference,
-                    json.dumps(m.documents_used, ensure_ascii=False),
-                    app.updated_at.isoformat() if app.updated_at else None,
-                ),
-            )
+            _insert(conn, "applications", _application_values(app))
             rows += 1
 
         for per in store.load_all("person"):
@@ -308,6 +232,114 @@ def rebuild_index(cfg: Config, store: Store) -> int:
     finally:
         conn.close()
     return rows
+
+
+# ---------------------------------------------------- row builders + upsert #
+# One builder per table, shared by the full rebuild and the incremental
+# upserts, so an incremental write produces byte-identical rows to a full
+# rebuild (guaranteed by test_s8a1). Ordinary user writes touch a single row
+# instead of dropping and rebuilding every table.
+
+def _insert(conn: sqlite3.Connection, table: str, values: tuple) -> None:
+    ph = "(" + ",".join(["?"] * len(values)) + ")"
+    conn.execute(f"INSERT OR REPLACE INTO {table} VALUES {ph}", values)
+
+
+def _opportunity_values(cfg: Config, opp) -> tuple:
+    from .analysis_io import analysis_input_hash
+    from .rules import effective_recommendation
+    o, d = opp.official, opp.derived
+    stale = bool(
+        opp.ai is not None
+        and opp.ai.analysis_input_hash != analysis_input_hash(cfg, opp)
+    )
+    return (
+        opp.id, o.title, o.org_id, o.lab_org_id, o.canonical_url,
+        o.deadline.isoformat() if o.deadline else None,
+        d.days_to_deadline, d.urgency, d.eligibility_gate,
+        json.dumps(d.eligibility_reasons, ensure_ascii=False), d.fit_overall,
+        opp.ai.fit_type if opp.ai else None,
+        effective_recommendation(d.eligibility_gate,
+                                 opp.ai.recommendation if opp.ai else None),
+        opp.ai.analysis_status if opp.ai else None,
+        opp.ai.methodological_fit.score if opp.ai else None,
+        json.dumps(opp.ai.required_skills if opp.ai else []),
+        json.dumps(opp.ai.preferred_skills if opp.ai else []),
+        json.dumps(opp.ai.rejection_reasons if opp.ai else []),
+        opp.ai.future_group_value if opp.ai else None,
+        o.status, o.position_type, o.location, o.salary_text,
+        int(d.needs_review), int(opp.manual.hidden), int(opp.ai is not None),
+        int(stale), o.retrieved_at.isoformat() if o.retrieved_at else None,
+        d.timing_assessment, opp.manual.user_status,
+        opp.updated_at.isoformat() if opp.updated_at else None,
+    )
+
+
+def _application_values(app) -> tuple:
+    m = app.manual
+    return (
+        app.id, app.system.opportunity_id, m.stage, m.next_step,
+        m.next_step_due.isoformat() if m.next_step_due else None,
+        m.internal_due_date.isoformat() if m.internal_due_date else None,
+        json.dumps(m.blockers, ensure_ascii=False), m.notes,
+        json.dumps([mat.model_dump(mode="json") for mat in m.materials],
+                   ensure_ascii=False),
+        m.submitted_at.isoformat() if m.submitted_at else None,
+        m.portal_reference, json.dumps(m.documents_used, ensure_ascii=False),
+        json.dumps([e.model_dump(mode="json") for e in m.events],
+                   ensure_ascii=False),
+        app.updated_at.isoformat() if app.updated_at else None,
+    )
+
+
+def _action_values(act) -> tuple:
+    return (
+        act.id, act.manual.title, act.manual.status, act.system.priority,
+        act.system.due_date.isoformat() if act.system.due_date else None,
+        act.system.related.opportunity_id, act.system.related.person_id,
+    )
+
+
+def _touch_and_count(conn, entity_type: str, table: str) -> None:
+    """Refresh rebuilt_at and the single affected entity count. Cheap: one
+    COUNT, no full reload."""
+    n = conn.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
+    row = conn.execute(
+        "SELECT value FROM meta WHERE key='entity_counts'").fetchone()
+    counts = json.loads(row[0]) if row else {}
+    counts[entity_type] = n
+    _insert(conn, "meta", ("entity_counts", json.dumps(counts)))
+    _insert(conn, "meta", ("rebuilt_at", datetime.now(timezone.utc).isoformat()))
+
+
+def upsert_opportunity(cfg: Config, opp) -> None:
+    conn = connect(cfg)
+    try:
+        _insert(conn, "opportunities", _opportunity_values(cfg, opp))
+        _touch_and_count(conn, "opportunity", "opportunities")
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def upsert_application(cfg: Config, app) -> None:
+    conn = connect(cfg)
+    try:
+        _insert(conn, "applications", _application_values(app))
+        _touch_and_count(conn, "application", "applications")
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def upsert_action(cfg: Config, act) -> None:
+    conn = connect(cfg)
+    try:
+        _insert(conn, "actions", _action_values(act))
+        _touch_and_count(conn, "action", "actions")
+        conn.commit()
+    finally:
+        conn.close()
 
 
 # ------------------------------------------------------------------ queries #
@@ -925,6 +957,7 @@ def applications_data(cfg: Config) -> dict:
         a["blockers"] = json.loads(a["blockers"] or "[]")
         a["materials"] = json.loads(a["materials"] or "[]")
         a["documents_used"] = json.loads(a["documents_used"] or "[]")
+        a["events"] = json.loads(a["events"] or "[]")
         opp = opp_map.get(a["opportunity_id"])
         a["opportunity_title"] = opp["title"] if opp else a["opportunity_id"]
         a["official_deadline"] = opp["deadline"] if opp else None
