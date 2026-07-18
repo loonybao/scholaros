@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-distribution-systems-flexible-operation",
   "entity_type": "opportunity",
-  "schema_version": 9,
+  "schema_version": 10,
   "created_at": "2026-07-18T03:39:20.979293Z",
-  "updated_at": "2026-07-18T11:22:53.048562+00:00",
+  "updated_at": "2026-07-18T16:19:55.114141+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:39:20.979293Z",
@@ -80,6 +80,14 @@
         "schema_version"
       ],
       "note": "migrated to v9"
+    },
+    {
+      "ts": "2026-07-18T16:19:55.114141+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v10"
     }
   ],
   "official": {

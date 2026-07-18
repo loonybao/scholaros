@@ -1,9 +1,9 @@
 {
   "id": "app_aalto-postdoctoral-researcher-in-computational-social-scienc",
   "entity_type": "application",
-  "schema_version": 9,
+  "schema_version": 10,
   "created_at": "2026-07-18T14:01:01.180224Z",
-  "updated_at": "2026-07-18T15:54:01.788749Z",
+  "updated_at": "2026-07-18T16:19:55.329841+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T14:01:01.181230Z",
@@ -41,13 +41,30 @@
         "manual.submitted_at"
       ],
       "note": "submission corrected to preparing: 测试"
+    },
+    {
+      "ts": "2026-07-18T15:58:44.416374Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.stage"
+      ],
+      "note": "stage preparing -> identified"
+    },
+    {
+      "ts": "2026-07-18T16:19:55.329841+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v10"
     }
   ],
   "system": {
     "opportunity_id": "opp_aalto-postdoctoral-researcher-in-computational-social-scienc"
   },
   "manual": {
-    "stage": "preparing",
+    "stage": "identified",
     "submitted_at": null,
     "portal_reference": null,
     "documents_used": [],
@@ -68,6 +85,11 @@
         "ts": "2026-07-18T15:54:01.787744Z",
         "event": "corrected",
         "note": "测试 — (was submitted 2026-07-18)"
+      },
+      {
+        "ts": "2026-07-18T15:58:44.413854Z",
+        "event": "stage",
+        "note": "identified"
       }
     ],
     "blockers": [],

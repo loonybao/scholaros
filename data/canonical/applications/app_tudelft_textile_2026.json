@@ -1,9 +1,9 @@
 {
   "id": "app_tudelft_textile_2026",
   "entity_type": "application",
-  "schema_version": 9,
+  "schema_version": 10,
   "created_at": "2026-07-18T04:18:20.781635Z",
-  "updated_at": "2026-07-18T15:53:41.817653Z",
+  "updated_at": "2026-07-18T16:19:55.335933+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.781635Z",
@@ -109,13 +109,48 @@
         "manual.submitted_at"
       ],
       "note": "submission corrected to preparing: 错误"
+    },
+    {
+      "ts": "2026-07-18T15:58:42.387391Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.stage"
+      ],
+      "note": "stage preparing -> identified"
+    },
+    {
+      "ts": "2026-07-18T15:58:54.662420Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.stage"
+      ],
+      "note": "stage identified -> preparing"
+    },
+    {
+      "ts": "2026-07-18T15:58:59.342950Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.stage"
+      ],
+      "note": "stage preparing -> identified"
+    },
+    {
+      "ts": "2026-07-18T16:19:55.335933+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v10"
     }
   ],
   "system": {
     "opportunity_id": "opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a"
   },
   "manual": {
-    "stage": "preparing",
+    "stage": "identified",
     "submitted_at": null,
     "portal_reference": null,
     "documents_used": [],
@@ -136,6 +171,21 @@
         "ts": "2026-07-18T15:53:41.816646Z",
         "event": "corrected",
         "note": "错误 — (was submitted 2026-07-18)"
+      },
+      {
+        "ts": "2026-07-18T15:58:42.386390Z",
+        "event": "stage",
+        "note": "identified"
+      },
+      {
+        "ts": "2026-07-18T15:58:54.661354Z",
+        "event": "preparing",
+        "note": ""
+      },
+      {
+        "ts": "2026-07-18T15:58:59.341950Z",
+        "event": "stage",
+        "note": "identified"
       }
     ],
     "blockers": [

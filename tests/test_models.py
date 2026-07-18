@@ -17,6 +17,8 @@ from compass.models import (
     PersonOfficial,
     Signal,
     SignalOfficial,
+    SkillProgress,
+    SkillProgressSystem,
 )
 from conftest import make_opportunity, make_organisation
 
@@ -54,6 +56,8 @@ def _sample(entity_type: str):
         )
     if entity_type == "application":
         return Application(id="app_x", system=ApplicationSystem(opportunity_id="opp_x"))
+    if entity_type == "skill_progress":
+        return SkillProgress(id="skp_unity", system=SkillProgressSystem(skill_id="unity"))
     raise AssertionError(entity_type)
 
 

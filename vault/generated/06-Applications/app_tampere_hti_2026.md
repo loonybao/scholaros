@@ -40,6 +40,8 @@ Deferred by graduation horizon. This specific vacancy is not actionable now; the
 - 2026-07-18: checklist — 0/7
 - 2026-07-18: checklist — 1/7
 - 2026-07-18: checklist — 0/7
+- 2026-07-18: preparing 
+- 2026-07-18: stage — identified
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/app_tampere_hti_2026.md` and link [[app_tampere_hti_2026]]._

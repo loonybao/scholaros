@@ -111,6 +111,10 @@ def create_app(cfg: Config) -> FastAPI:
     def api_create_action(req: w.ActionCreate) -> dict:
         return _write(w.create_action, req)
 
+    @app.put("/api/skills/{skill_id}/progress")
+    def api_set_skill_progress(skill_id: str, patch: w.SkillProgressPatch) -> dict:
+        return _write(w.set_skill_progress, skill_id, patch)
+
     @app.post("/api/data-issues")
     def api_data_issue(req: w.DataIssue) -> dict:
         return _write(w.report_data_issue, req)

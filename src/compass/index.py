@@ -23,6 +23,7 @@ DROP TABLE IF EXISTS people;
 DROP TABLE IF EXISTS actions;
 DROP TABLE IF EXISTS signals;
 DROP TABLE IF EXISTS applications;
+DROP TABLE IF EXISTS skill_progress;
 DROP TABLE IF EXISTS meta;
 
 CREATE TABLE actions (
@@ -124,6 +125,17 @@ CREATE TABLE people (
     priority TEXT
 );
 
+CREATE TABLE skill_progress (
+    skill_id TEXT PRIMARY KEY,
+    current_level TEXT,
+    learning_status TEXT,
+    confidence TEXT,
+    target_level TEXT,
+    evidence TEXT,
+    notes TEXT,
+    updated_at TEXT
+);
+
 CREATE TABLE meta (
     key TEXT PRIMARY KEY,
     value TEXT NOT NULL
@@ -216,6 +228,10 @@ def rebuild_index(cfg: Config, store: Store) -> int:
             )
             rows += 1
 
+        for sp in store.load_all("skill_progress"):
+            _insert(conn, "skill_progress", _skill_progress_values(sp))
+            rows += 1
+
         counts = {
             etype: sum(1 for _ in store.load_all(etype))
             for etype in ("opportunity", "organisation", "person", "signal",
@@ -300,6 +316,15 @@ def _action_values(act) -> tuple:
     )
 
 
+def _skill_progress_values(sp) -> tuple:
+    m = sp.manual
+    return (
+        sp.system.skill_id, m.current_level, m.learning_status, m.confidence,
+        m.target_level, m.evidence, m.notes,
+        sp.updated_at.isoformat() if sp.updated_at else None,
+    )
+
+
 def _touch_and_count(conn, entity_type: str, table: str) -> None:
     """Refresh rebuilt_at and the single affected entity count. Cheap: one
     COUNT, no full reload."""
@@ -340,6 +365,53 @@ def upsert_action(cfg: Config, act) -> None:
         conn.commit()
     finally:
         conn.close()
+
+
+def upsert_skill_progress(cfg: Config, sp) -> None:
+    conn = connect(cfg)
+    try:
+        _insert(conn, "skill_progress", _skill_progress_values(sp))
+        _touch_and_count(conn, "skill_progress", "skill_progress")
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def effective_profile_skills(cfg: Config) -> list[dict]:
+    """The effective profile = baseline (config/current_profile.yaml) overlaid
+    with audited SkillProgress (from the index). SkillProgress overrides level /
+    evidence / confidence and adds learning_status / target_level / notes; it may
+    also introduce a skill the baseline doesn't list. Read-only, deterministic."""
+    merged: dict[str, dict] = {}
+    for s in (cfg.profile.get("skills") or []):
+        if isinstance(s, dict) and s.get("id"):
+            merged[s["id"]] = dict(s)
+
+    try:
+        conn = connect(cfg)
+        try:
+            prog = [dict(r) for r in conn.execute("SELECT * FROM skill_progress")]
+        finally:
+            conn.close()
+    except sqlite3.OperationalError:
+        prog = []                      # index not built yet -> baseline only
+
+    for r in prog:
+        sid = r["skill_id"]
+        base = merged.get(sid, {"id": sid})
+        if r["current_level"]:
+            base["level"] = r["current_level"]
+        if r["evidence"]:
+            base["evidence"] = r["evidence"]
+        if r["confidence"]:
+            base["confidence"] = r["confidence"]
+        base["learning_status"] = r["learning_status"]
+        base["target_level"] = r["target_level"]
+        if r["notes"]:
+            base["notes"] = r["notes"]
+        base["tracked"] = True         # has an audited SkillProgress record
+        merged[sid] = base
+    return list(merged.values())
 
 
 # ------------------------------------------------------------------ queries #
@@ -596,8 +668,8 @@ def skills_radar(cfg: Config) -> dict:
                     labels[entry["id"]] = entry.get("label", entry["id"])
 
     profile: dict[str, dict] = {}
-    for s in (cfg.profile.get("skills") or []):
-        if isinstance(s, dict) and s.get("id"):
+    for s in effective_profile_skills(cfg):
+        if s.get("id"):
             profile[s["id"]] = s
 
     conn = connect(cfg)
@@ -658,12 +730,39 @@ def skills_radar(cfg: Config) -> dict:
             p = profile.get(entry["skill"], {})
             entry["user_level"] = p.get("level")
             entry["user_evidence"] = p.get("evidence")
+            entry["learning_status"] = p.get("learning_status")
+            entry["target_level"] = p.get("target_level")
+            entry["tracked"] = bool(p.get("tracked"))
             entry["suggested_status"] = suggest_skill_status(
                 p.get("level"), entry["required_count"], entry["preferred_count"]
             )
             skills.append(entry)
         skills.sort(key=lambda e: (-e["required_count"], -e["preferred_count"], e["skill"]))
         return {"total_opportunities": total, "skills": skills}
+
+    # A complete personal skills board: every effective-profile skill, annotated
+    # with its target-market demand (0 if no current vacancy needs it) so the UI
+    # can render an editable "my skills & learning" view, not only demand skills.
+    tm = scopes["target_market"]
+    demand = {s: (tm[s]["required_count"], tm[s]["preferred_count"]) for s in tm}
+    board = []
+    for p in effective_profile_skills(cfg):
+        sid = p.get("id")
+        if not sid:
+            continue
+        req, pref = demand.get(sid, (0, 0))
+        board.append({
+            "skill": sid, "label": labels.get(sid, sid),
+            "level": p.get("level"), "evidence": p.get("evidence", ""),
+            "confidence": p.get("confidence"),
+            "learning_status": p.get("learning_status"),
+            "target_level": p.get("target_level"), "notes": p.get("notes", ""),
+            "tracked": bool(p.get("tracked")),
+            "required_count": req, "preferred_count": pref,
+            "suggested_status": suggest_skill_status(p.get("level"), req, pref),
+        })
+    board.sort(key=lambda e: (-(e["required_count"] + e["preferred_count"]),
+                              e["label"].lower()))
 
     return {
         "scopes": {k: finalize(v, scope_totals[k]) for k, v in scopes.items()},
@@ -674,6 +773,10 @@ def skills_radar(cfg: Config) -> dict:
             }
             for org, bucket in institution.items()
         },
+        "profile_board": board,
+        "taxonomy_skills": sorted(
+            [{"id": sid, "label": lab} for sid, lab in labels.items()],
+            key=lambda e: e["label"].lower()),
     }
 
 
@@ -859,8 +962,7 @@ def preparation_items(cfg: Config, target: dict) -> list[dict]:
     """Deterministic prepare-before-vacancy suggestions for a target group.
     Returns STRUCTURED items (no baked-in English) so the frontend can localise
     via t() templates. Purely derived; never creates records."""
-    profile = {s["id"]: s for s in (cfg.profile.get("skills") or [])
-               if isinstance(s, dict) and s.get("id")}
+    profile = {s["id"]: s for s in effective_profile_skills(cfg) if s.get("id")}
     items: list[dict] = []
 
     for skill, count in target.get("recurring_skills", []):
@@ -1025,8 +1127,8 @@ def opportunity_detail(cfg: Config, store: Store, opp_id: str) -> Optional[dict]
         },
         "manual": {"user_status": m.user_status, "notes": m.notes, "tags": m.tags},
         "profile_levels": {
-            s["id"]: s.get("level") for s in (cfg.profile.get("skills") or [])
-            if isinstance(s, dict) and s.get("id")
+            s["id"]: s.get("level") for s in effective_profile_skills(cfg)
+            if s.get("id")
         },
         "application": linked,
     }

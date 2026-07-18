@@ -21,6 +21,7 @@ from .config import Config
 from .export_vault import VaultExporter
 from .index import (
     rebuild_index, upsert_action, upsert_application, upsert_opportunity,
+    upsert_skill_progress,
 )
 from .perf import Timings
 from .rules import recompute_derived
@@ -78,6 +79,14 @@ def refresh_action(cfg: Config, store: Store, act_id: str,
         upsert_action(cfg, act)               # no vault page for actions
 
 
+def refresh_skill_progress(cfg: Config, store: Store, sp_id: str,
+                           tm: Optional[Timings] = None) -> None:
+    tm = tm or Timings()
+    sp = store.load("skill_progress", sp_id)
+    with tm.measure("index"):
+        upsert_skill_progress(cfg, sp)        # no vault page for skill progress
+
+
 def _mark_reconcile(cfg: Config, kind: str, entity_id: str, error: str) -> None:
     path = cfg.paths.status / RECONCILE_MARKER
     data = []
@@ -103,6 +112,7 @@ def try_refresh(cfg: Config, store: Store, kind: str, entity_id: str,
         "application": refresh_application,
         "opportunity": refresh_opportunity,
         "action": refresh_action,
+        "skill_progress": refresh_skill_progress,
     }
     try:
         dispatch[kind](cfg, store, entity_id, tm)

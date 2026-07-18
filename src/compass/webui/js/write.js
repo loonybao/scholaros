@@ -35,6 +35,7 @@ export async function api(method, url, body) {
 
 export const post = (url, body) => api("POST", url, body);
 export const patch = (url, body) => api("PATCH", url, body);
+export const put = (url, body) => api("PUT", url, body);
 
 let _toastTimer = null;
 export function toast(message, tone = "info") {

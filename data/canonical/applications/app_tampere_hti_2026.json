@@ -1,9 +1,9 @@
 {
   "id": "app_tampere_hti_2026",
   "entity_type": "application",
-  "schema_version": 9,
+  "schema_version": 10,
   "created_at": "2026-07-18T04:18:20.777125Z",
-  "updated_at": "2026-07-18T15:52:09.449352Z",
+  "updated_at": "2026-07-18T16:19:55.331847+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T04:18:20.778126Z",
@@ -142,6 +142,32 @@
         "manual.materials"
       ],
       "note": "application updated"
+    },
+    {
+      "ts": "2026-07-18T15:58:50.538931Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.stage"
+      ],
+      "note": "stage identified -> preparing"
+    },
+    {
+      "ts": "2026-07-18T15:58:53.109872Z",
+      "actor": "user",
+      "fields_changed": [
+        "manual.events",
+        "manual.stage"
+      ],
+      "note": "stage preparing -> identified"
+    },
+    {
+      "ts": "2026-07-18T16:19:55.331847+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v10"
     }
   ],
   "system": {
@@ -207,6 +233,16 @@
         "ts": "2026-07-18T15:52:09.448349Z",
         "event": "checklist",
         "note": "0/7"
+      },
+      {
+        "ts": "2026-07-18T15:58:50.537932Z",
+        "event": "preparing",
+        "note": ""
+      },
+      {
+        "ts": "2026-07-18T15:58:53.108870Z",
+        "event": "stage",
+        "note": "identified"
       }
     ],
     "blockers": [

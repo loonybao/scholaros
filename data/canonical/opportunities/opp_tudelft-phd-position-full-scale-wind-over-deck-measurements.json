@@ -1,9 +1,9 @@
 {
   "id": "opp_tudelft-phd-position-full-scale-wind-over-deck-measurements",
   "entity_type": "opportunity",
-  "schema_version": 9,
+  "schema_version": 10,
   "created_at": "2026-07-18T03:41:24.838082Z",
-  "updated_at": "2026-07-18T11:22:53.065215+00:00",
+  "updated_at": "2026-07-18T16:19:55.130491+00:00",
   "change_history": [
     {
       "ts": "2026-07-18T03:41:24.838082Z",
@@ -80,6 +80,14 @@
         "schema_version"
       ],
       "note": "migrated to v9"
+    },
+    {
+      "ts": "2026-07-18T16:19:55.130491+00:00",
+      "actor": "migration",
+      "fields_changed": [
+        "schema_version"
+      ],
+      "note": "migrated to v10"
     }
   ],
   "official": {

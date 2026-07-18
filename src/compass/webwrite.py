@@ -25,7 +25,7 @@ from .config import Config
 from .models import (
     Action, ActionManual, ActionRelated, ActionSystem,
     Application, ApplicationEvent, ApplicationManual, ApplicationMaterial,
-    ApplicationSystem,
+    ApplicationSystem, SkillProgress, SkillProgressManual, SkillProgressSystem,
 )
 from .perf import Timings
 from .rules import valid_application_transition
@@ -129,6 +129,20 @@ class DataIssue(BaseModel):
     opportunity_id: str
     field: str
     description: str
+
+
+class SkillProgressPatch(BaseModel):
+    """Human-owned skill progress (S8b). Writes a canonical SkillProgress entity
+    (baseline current_profile.yaml is never touched). A null field leaves the
+    stored value; use clear=true to reset a field to the baseline."""
+    model_config = ConfigDict(extra="forbid")
+    expected_updated_at: Optional[str] = None
+    current_level: Optional[str] = None
+    learning_status: Optional[str] = None
+    confidence: Optional[str] = None
+    target_level: Optional[str] = None
+    evidence: Optional[str] = None
+    notes: Optional[str] = None
 
 
 # ------------------------------------------------------------------- writes #
@@ -293,6 +307,34 @@ def create_action(cfg: Config, store: Store, req: ActionCreate) -> dict:
     warning = try_refresh(cfg, store, "action", act.id, tm)
     tm.report()
     return {"id": act.id, "warning": warning}
+
+
+def set_skill_progress(cfg: Config, store: Store, skill_id: str,
+                       patch: SkillProgressPatch) -> dict:
+    """Create or update the SkillProgress for one taxonomy skill (manual only).
+    The stable baseline in current_profile.yaml is never modified."""
+    tm = Timings("set_skill_progress")
+    if skill_id not in cfg.taxonomy_ids():
+        raise WriteError(f"unknown skill '{skill_id}'")
+    sp_id = f"skp_{skill_id}"
+    if store.exists("skill_progress", sp_id):
+        sp = store.load("skill_progress", sp_id)
+    else:
+        sp = SkillProgress(id=sp_id, system=SkillProgressSystem(skill_id=skill_id),
+                           manual=SkillProgressManual())
+    _check_version(sp, patch.expected_updated_at)
+    m = sp.manual
+    for field in ("current_level", "learning_status", "confidence",
+                  "target_level", "evidence", "notes"):
+        val = getattr(patch, field)
+        if val is not None:
+            setattr(m, field, val)
+    with tm.measure("save"):
+        saved = store.save(sp, actor="user", note="skill progress updated")
+    warning = try_refresh(cfg, store, "skill_progress", sp_id, tm)
+    tm.report()
+    return {"id": saved.id, "skill_id": skill_id,
+            "updated_at": saved.updated_at.isoformat(), "warning": warning}
 
 
 def report_data_issue(cfg: Config, store: Store, req: DataIssue) -> dict:

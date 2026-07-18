@@ -17,6 +17,9 @@ export const reasonLabel = (v) => (v ? t(`label.reason.${v}`) : "");
 export const stageLabel = (v) => (v ? t(`app.stage.${v}`) : "");
 export const phaseLabel = (v) => (v ? t(`phase.${v}`) : "");
 export const statusLabel = (v) => (v ? t(`label.status.${v}`) : "");
+export const levelLabel = (v) => (v ? t(`label.level.${v}`) : "");
+export const learningLabel = (v) => (v ? t(`label.learning.${v}`) : "");
+export const confidenceLabel = (v) => (v ? t(`label.confidence.${v}`) : "");
 
 // Structured preparation items are localised here (no baked-in English is ever
 // stored server-side). See index.preparation_items for the item shapes.

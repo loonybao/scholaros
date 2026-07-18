@@ -15,7 +15,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-SCHEMA_VERSION = 9
+SCHEMA_VERSION = 10
 
 # Structured rejection reasons. A reject decision NEVER deletes opportunity
 # intelligence — records stay browsable for history and skill analytics; the
@@ -41,6 +41,7 @@ ID_PREFIXES = {
     "decision": "dec_",
     "action": "act_",
     "application": "app_",
+    "skill_progress": "skp_",
 }
 
 Actor = str  # "collector:aalto" | "manual" | "ai" | "rules" | "human" | "migration"
@@ -59,7 +60,7 @@ class ChangeEntry(BaseModel):
 
 # IDs become filenames: safe charset only, no path separators / dots / colons.
 _VALID_ID = re.compile(
-    r"^(opp_|org_|per_|sig_|dec_|act_|app_)[a-z0-9][a-z0-9_-]*$"
+    r"^(opp_|org_|per_|sig_|dec_|act_|app_|skp_)[a-z0-9][a-z0-9_-]*$"
 )
 
 
@@ -589,6 +590,39 @@ class Application(Envelope):
 
 
 # --------------------------------------------------------------------------- #
+# SkillProgress (S8b): the audited, human-owned per-skill state that changes as
+# the user learns. The stable baseline stays in config/current_profile.yaml; the
+# effective profile is baseline + SkillProgress. Web edits go here (manual only),
+# never into current_profile.yaml.
+
+SkillLevel = Literal["none", "beginner", "intermediate", "advanced"]
+LearningStatus = Literal[
+    "not_started", "learning", "practicing", "proficient", "paused"
+]
+
+
+class SkillProgressManual(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    current_level: Optional[SkillLevel] = None       # overrides the baseline level
+    learning_status: Optional[LearningStatus] = None
+    confidence: Optional[Literal["low", "medium", "high"]] = None
+    target_level: Optional[SkillLevel] = None         # where the user wants to get to
+    evidence: str = ""
+    notes: str = ""
+
+
+class SkillProgressSystem(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    skill_id: str                                     # taxonomy id this tracks
+
+
+class SkillProgress(Envelope):
+    entity_type: Literal["skill_progress"] = "skill_progress"
+    system: SkillProgressSystem
+    manual: SkillProgressManual = Field(default_factory=SkillProgressManual)
+
+
+# --------------------------------------------------------------------------- #
 
 ENTITY_MODELS: dict[str, type[Envelope]] = {
     "opportunity": Opportunity,
@@ -598,6 +632,7 @@ ENTITY_MODELS: dict[str, type[Envelope]] = {
     "decision": Decision,
     "action": Action,
     "application": Application,
+    "skill_progress": SkillProgress,
 }
 
 # Canonical subdirectory per entity type.
@@ -609,4 +644,5 @@ ENTITY_DIRS = {
     "decision": "decisions",
     "action": "actions",
     "application": "applications",
+    "skill_progress": "skill_progress",
 }
