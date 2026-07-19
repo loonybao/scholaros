@@ -1,0 +1,169 @@
+{
+  "id": "opp_euraxess-professor-assoc-prof-assist-prof-state-key-laborato",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-19T01:41:44.374570Z",
+  "updated_at": "2026-07-19T01:44:36.513986Z",
+  "change_history": [
+    {
+      "ts": "2026-07-19T01:41:44.374570Z",
+      "actor": "collector:euraxess",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.308262Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.192627Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.future_group_value",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-opus-4-8 (interactive))"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.513986Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Professor/Assoc. Prof./Assist. Prof., State Key Laboratory of Quality Research in Chinese Medicines",
+    "org_id": "org_euraxess_times-higher-education",
+    "lab_org_id": null,
+    "source": "euraxess",
+    "source_native_id": "454044",
+    "canonical_url": "https://euraxess.ec.europa.eu/jobs/454044",
+    "apply_url": null,
+    "evidence_ids": [
+      "euraxess/454044"
+    ],
+    "retrieved_at": "2026-07-19T01:41:44.374570Z",
+    "raw_snapshot_hash": "551b9ec451ab8ec9bb92dae253759ac4c5a259035a496abd8950dd767dc2c257",
+    "extracted_content_hash": "2103720951684a0c206474dc45392a63df9fdfa4f85ba6f3e5e80f7f26a58043",
+    "deadline": "2026-09-21",
+    "deadline_note": "00:00 (UTC)",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-07-18",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Macao",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Department: State Key Laboratory of Quality Research in Chinese Medicines Position: Professor/ Associate Professor/ Assistant Professor Description Macau University of Science and Technology (M.U.S.T.) is now seeking outstanding scientists for the academic posts from Assistant Professor to Chair...\n\nResearch field: Medical sciences\n\nResearcher profile: Recognised Researcher (R2) Leading Researcher (R4) Established Researcher (R3)\n\nFunding programme: Not funded by a EU programme"
+  },
+  "ai": {
+    "summary": "Professor-level role, State Key Lab of Quality Research in Chinese Medicines (Macau). Off-domain, senior, non-Europe.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "Chinese-medicine quality research — no HCI/XR overlap."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Pharmacological/analytical methods, unrelated."
+    },
+    "growth_value": {
+      "score": 22,
+      "rationale": "Limited leverage on the applicant's immersive-systems / XR strengths."
+    },
+    "strategic_value": {
+      "score": 12,
+      "rationale": "Weighed against an early-career, Europe-focused, funded research-post target."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [],
+    "risks": [
+      "Senior faculty-level appointment (professor/lecturer) — a career-stage mismatch for an early-career MSc-to-PhD candidate",
+      "Outside the applicant's European target region"
+    ],
+    "rejection_reasons": [
+      "career_stage_mismatch",
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": "reject",
+    "next_action": null,
+    "confidence": 0.8,
+    "model": "claude-opus-4-8 (interactive)",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-19T01:44:36.191626Z",
+    "analysis_input_hash": "d291f693a31f0000d9de0f15a7de4b464b62f009358ebc89131a2c13e430ad9a"
+  },
+  "derived": {
+    "eligibility_gate": "fail",
+    "eligibility_reasons": [
+      "country 'Macao' is outside allowed regions ['Europe']"
+    ],
+    "fit_overall": 14,
+    "urgency": "low",
+    "days_to_deadline": 64,
+    "needs_review": false,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

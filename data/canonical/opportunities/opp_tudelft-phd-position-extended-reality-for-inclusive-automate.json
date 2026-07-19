@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:28:27.196453Z",
-  "updated_at": "2026-07-18T16:19:55.124462+00:00",
+  "updated_at": "2026-07-19T01:42:09.415546Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:28:27.196453Z",
@@ -144,7 +144,7 @@
       "note": "lab relationship corrected: posting names the MXR Lab as home base"
     },
     {
-      "ts": "2026-07-18T05:14:54.121837+00:00",
+      "ts": "2026-07-18T05:14:54.121837Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -152,7 +152,7 @@
       "note": "migrated to v7"
     },
     {
-      "ts": "2026-07-18T07:52:06.494508+00:00",
+      "ts": "2026-07-18T07:52:06.494508Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -160,7 +160,7 @@
       "note": "migrated to v8"
     },
     {
-      "ts": "2026-07-18T11:22:53.057597+00:00",
+      "ts": "2026-07-18T11:22:53.057597Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -168,12 +168,20 @@
       "note": "migrated to v9"
     },
     {
-      "ts": "2026-07-18T16:19:55.124462+00:00",
+      "ts": "2026-07-18T16:19:55.124462Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v10"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.415546Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -303,8 +311,9 @@
     ],
     "fit_overall": 84,
     "urgency": "medium",
-    "days_to_deadline": 43,
-    "needs_review": true
+    "days_to_deadline": 42,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
   },
   "manual": {
     "notes": "",
@@ -313,6 +322,7 @@
     ],
     "eligibility_override": null,
     "priority_override": "high",
+    "user_status": null,
     "hidden": false
   }
 }

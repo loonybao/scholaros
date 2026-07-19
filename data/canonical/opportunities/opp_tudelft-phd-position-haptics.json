@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:34:38.670727Z",
-  "updated_at": "2026-07-18T16:19:55.132490+00:00",
+  "updated_at": "2026-07-19T01:42:09.427568Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:34:38.670727Z",
@@ -106,7 +106,7 @@
       "note": "interactive analysis (claude-fable-5)"
     },
     {
-      "ts": "2026-07-18T05:14:54.131833+00:00",
+      "ts": "2026-07-18T05:14:54.131833Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -114,7 +114,7 @@
       "note": "migrated to v7"
     },
     {
-      "ts": "2026-07-18T07:52:06.503531+00:00",
+      "ts": "2026-07-18T07:52:06.503531Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -122,7 +122,7 @@
       "note": "migrated to v8"
     },
     {
-      "ts": "2026-07-18T11:22:53.067218+00:00",
+      "ts": "2026-07-18T11:22:53.067218Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -130,12 +130,20 @@
       "note": "migrated to v9"
     },
     {
-      "ts": "2026-07-18T16:19:55.132490+00:00",
+      "ts": "2026-07-18T16:19:55.132490Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v10"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.427568Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -238,14 +246,16 @@
     ],
     "fit_overall": 58,
     "urgency": "high",
-    "days_to_deadline": 12,
-    "needs_review": true
+    "days_to_deadline": 11,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
   },
   "manual": {
     "notes": "",
     "tags": [],
     "eligibility_override": null,
     "priority_override": null,
+    "user_status": null,
     "hidden": false
   }
 }

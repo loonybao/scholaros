@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:32:57.728894Z",
-  "updated_at": "2026-07-18T16:19:55.099457+00:00",
+  "updated_at": "2026-07-19T01:42:09.391379Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:32:57.728894Z",
@@ -50,7 +50,7 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T04:44:32.307366+00:00",
+      "ts": "2026-07-18T04:44:32.307366Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -58,7 +58,7 @@
       "note": "migrated to v6"
     },
     {
-      "ts": "2026-07-18T05:14:54.100591+00:00",
+      "ts": "2026-07-18T05:14:54.100591Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -66,7 +66,7 @@
       "note": "migrated to v7"
     },
     {
-      "ts": "2026-07-18T07:52:06.473894+00:00",
+      "ts": "2026-07-18T07:52:06.473894Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -74,7 +74,7 @@
       "note": "migrated to v8"
     },
     {
-      "ts": "2026-07-18T11:22:53.035297+00:00",
+      "ts": "2026-07-18T11:22:53.035297Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -82,12 +82,21 @@
       "note": "migrated to v9"
     },
     {
-      "ts": "2026-07-18T16:19:55.099457+00:00",
+      "ts": "2026-07-18T16:19:55.099457Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v10"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.391379Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -131,15 +140,17 @@
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
     "fit_overall": null,
-    "urgency": "high",
-    "days_to_deadline": 8,
-    "needs_review": true
+    "urgency": "urgent",
+    "days_to_deadline": 7,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
   },
   "manual": {
     "notes": "",
     "tags": [],
     "eligibility_override": null,
     "priority_override": null,
+    "user_status": null,
     "hidden": false
   }
 }

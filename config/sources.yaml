@@ -32,7 +32,7 @@ sources:
     type: aggregator
     url: https://euraxess.ec.europa.eu/jobs/search
     priority: 3
-    enabled: false          # S13 collector ready; keep disabled until you review the scope, then set true
+    enabled: true           # enabled 2026-07-19 (user go-ahead); keyword-scoped below
     rate_limit_seconds: 10
     # Keyword-scoped so a search returns a small relevant set, never the ~9,000
     # full listing. Tune these to your interests; each is one search. The

@@ -1,0 +1,169 @@
+{
+  "id": "opp_euraxess-professor-associate-professor-assistant-professor-s",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-19T01:41:44.430422Z",
+  "updated_at": "2026-07-19T01:44:36.525016Z",
+  "change_history": [
+    {
+      "ts": "2026-07-19T01:41:44.430422Z",
+      "actor": "collector:euraxess",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.319141Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.202188Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.future_group_value",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-opus-4-8 (interactive))"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.525016Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Professor/Associate Professor/Assistant Professor, School of Pharmacy",
+    "org_id": "org_euraxess_times-higher-education",
+    "lab_org_id": null,
+    "source": "euraxess",
+    "source_native_id": "454045",
+    "canonical_url": "https://euraxess.ec.europa.eu/jobs/454045",
+    "apply_url": null,
+    "evidence_ids": [
+      "euraxess/454045"
+    ],
+    "retrieved_at": "2026-07-19T01:41:44.430422Z",
+    "raw_snapshot_hash": "81d296de35e2c5d3ade71f17aed5dca4f8ef7d3f4c3f06b71881018072f150e9",
+    "extracted_content_hash": "6ab85c00eb1b38931af7ca1de8498e1e412a5d938e9378cde05c41be91977fe1",
+    "deadline": "2026-09-21",
+    "deadline_note": "00:00 (UTC)",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-07-18",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Macao",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Department: School of Pharmacy Position: Professor/Associate Professor/Assistant Professor Description Macau University of Science and Technology established school of pharmacy at year 2016. It is the only educational institution which can offer bachelor’s degree in pharmacy with authorization from...\n\nResearch field: Medical sciences Chemistry\n\nResearcher profile: Recognised Researcher (R2) Leading Researcher (R4) Established Researcher (R3)\n\nFunding programme: Not funded by a EU programme"
+  },
+  "ai": {
+    "summary": "Professor-level role, School of Pharmacy (Macau). Off-domain, senior, non-Europe.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "Pharmacy — no HCI/XR overlap."
+    },
+    "methodological_fit": {
+      "score": 14,
+      "rationale": "Pharmaceutical methods, unrelated."
+    },
+    "growth_value": {
+      "score": 22,
+      "rationale": "Limited leverage on the applicant's immersive-systems / XR strengths."
+    },
+    "strategic_value": {
+      "score": 12,
+      "rationale": "Weighed against an early-career, Europe-focused, funded research-post target."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [],
+    "risks": [
+      "Senior faculty-level appointment (professor/lecturer) — a career-stage mismatch for an early-career MSc-to-PhD candidate",
+      "Outside the applicant's European target region"
+    ],
+    "rejection_reasons": [
+      "career_stage_mismatch",
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": "reject",
+    "next_action": null,
+    "confidence": 0.8,
+    "model": "claude-opus-4-8 (interactive)",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-19T01:44:36.202188Z",
+    "analysis_input_hash": "4993a827882a3b27eae28efdbf19c0d773838b1c6a655cad3a86ee43152f7065"
+  },
+  "derived": {
+    "eligibility_gate": "fail",
+    "eligibility_reasons": [
+      "country 'Macao' is outside allowed regions ['Europe']"
+    ],
+    "fit_overall": 14,
+    "urgency": "low",
+    "days_to_deadline": 64,
+    "needs_review": false,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

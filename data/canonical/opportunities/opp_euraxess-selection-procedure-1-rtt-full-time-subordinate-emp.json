@@ -1,0 +1,169 @@
+{
+  "id": "opp_euraxess-selection-procedure-1-rtt-full-time-subordinate-emp",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-19T01:41:31.595752Z",
+  "updated_at": "2026-07-19T01:44:36.533041Z",
+  "change_history": [
+    {
+      "ts": "2026-07-19T01:41:31.595752Z",
+      "actor": "collector:euraxess",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.327895Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.215327Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.future_group_value",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-opus-4-8 (interactive))"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.533041Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Selection procedure 1 RTT, full-time, subordinate employment contract, 6 years, non-renewable, pursuant to art. 24 co. 2, L. 240/2010, G.S.D. 12/GIUR-14 “Criminal Law”, S.S.D. GIUR-14/A (formerly IUS/17) Jurisprudence",
+    "org_id": "org_euraxess_italian-ministry-education-university-and-research",
+    "lab_org_id": null,
+    "source": "euraxess",
+    "source_native_id": "454029",
+    "canonical_url": "https://euraxess.ec.europa.eu/jobs/454029",
+    "apply_url": null,
+    "evidence_ids": [
+      "euraxess/454029"
+    ],
+    "retrieved_at": "2026-07-19T01:41:31.595752Z",
+    "raw_snapshot_hash": "1ca471aa529c5f05b8c64203ad10777d3adc833da584facac43c70747841c46f",
+    "extracted_content_hash": "b55025d0da3995fb7103f2f37bc6d05b25da05eb8d846f1a18a452a252913d2d",
+    "deadline": "2026-08-14",
+    "deadline_note": "23:59 (UTC)",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-07-18",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Università di Foggia, Foggia, Italy",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "This sector encompasses the scientific and educational activities of studies relating to punitive power, including from the perspective of European and international law, with a focus on comparative aspects and new technologies...\n\nResearch field: Juridical sciences » Criminal law\n\nResearcher profile: Recognised Researcher (R2) Leading Researcher (R4) First Stage Researcher (R1) Established Researcher (R3)\n\nFunding programme: Not funded by a EU programme"
+  },
+  "ai": {
+    "summary": "Italian tenure-track researcher in criminal law at Foggia. Off-domain; faculty-level.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 12,
+      "rationale": "Criminal law — no overlap with HCI/XR (the 'new technologies' mention is legal, not technical)."
+    },
+    "methodological_fit": {
+      "score": 16,
+      "rationale": "Legal scholarship methods, unrelated."
+    },
+    "growth_value": {
+      "score": 22,
+      "rationale": "Limited leverage on the applicant's immersive-systems / XR strengths."
+    },
+    "strategic_value": {
+      "score": 22,
+      "rationale": "Weighed against an early-career, Europe-focused, funded research-post target."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [],
+    "risks": [
+      "Senior faculty-level appointment (professor/lecturer) — a career-stage mismatch for an early-career MSc-to-PhD candidate"
+    ],
+    "rejection_reasons": [
+      "career_stage_mismatch",
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": "reject",
+    "next_action": null,
+    "confidence": 0.8,
+    "model": "claude-opus-4-8 (interactive)",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-19T01:44:36.214327Z",
+    "analysis_input_hash": "715ebb03b2259feeb4032565945a449267d554fffcb480d1e3a52b07e4150ba3"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 16,
+    "urgency": "medium",
+    "days_to_deadline": 26,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

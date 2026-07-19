@@ -1,0 +1,175 @@
+{
+  "id": "opp_euraxess-selection-n-1-rtd-in-tenure-track-rtt-ex-art-24-co",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-19T01:41:31.687783Z",
+  "updated_at": "2026-07-19T01:44:36.529528Z",
+  "change_history": [
+    {
+      "ts": "2026-07-19T01:41:31.688783Z",
+      "actor": "collector:euraxess",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.323379Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.210817Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.future_group_value",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-opus-4-8 (interactive))"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.529528Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Selection n.1 RTD in tenure track (RTT), ex art.24 co.2 L. 240/2010, reserved ex D.M. 193/2026 to RTD a), GSD 11/PSIC-01 “General psychology, neuropsychology and cognitive neuroscience, psychometrics” SSD PSIC-01/A (M-PSI/01) DISS",
+    "org_id": "org_euraxess_italian-ministry-education-university-and-research",
+    "lab_org_id": null,
+    "source": "euraxess",
+    "source_native_id": "454031",
+    "canonical_url": "https://euraxess.ec.europa.eu/jobs/454031",
+    "apply_url": null,
+    "evidence_ids": [
+      "euraxess/454031"
+    ],
+    "retrieved_at": "2026-07-19T01:41:31.687783Z",
+    "raw_snapshot_hash": "7d9cbd8c66cc68e36950e5ff5aa96064716d0b946606015bc2e67972e577ffab",
+    "extracted_content_hash": "941a020c12a73daf05654b101bbd99f258c231d48abe218fd76dbd1e3d7850c0",
+    "deadline": "2026-09-01",
+    "deadline_note": "23:59 (UTC)",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-07-18",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Università di Foggia, Foggia, Italy",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "The scientific-disciplinary sector encompasses the scientific-disciplinary expertise for the study of behavior and the functional organization of mental processes: cognitive functions (such as sensation, attention, perception, learning, memory and imagery, action, thought, language and communication...\n\nResearch field: Psychological sciences\n\nResearcher profile: Recognised Researcher (R2) Leading Researcher (R4) First Stage Researcher (R1) Established Researcher (R3)\n\nFunding programme: Not funded by a EU programme"
+  },
+  "ai": {
+    "summary": "Italian tenure-track researcher (RTT) in cognitive psychology at Universita di Foggia. Real methodological adjacency to spatial cognition, but a faculty appointment (career-stage + likely Italian-language mismatch), not a funded PhD.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 48,
+      "rationale": "Cognitive psychology (perception, attention, spatial learning, memory) overlaps the applicant's spatial-cognition and wayfinding research."
+    },
+    "methodological_fit": {
+      "score": 55,
+      "rationale": "Experimental behavioural methods align well with the applicant's user studies and experimental design."
+    },
+    "growth_value": {
+      "score": 45,
+      "rationale": "Limited leverage on the applicant's immersive-systems / XR strengths."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "Weighed against an early-career, Europe-focused, funded research-post target."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "statistics"
+    ],
+    "transferable_strengths": [
+      "spatial-cognition",
+      "user-studies"
+    ],
+    "eligibility_flags": [],
+    "risks": [
+      "Tenure-track faculty seniority vs early-career stage",
+      "Likely Italian-language requirement",
+      "Not a funded PhD"
+    ],
+    "rejection_reasons": [
+      "career_stage_mismatch"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": "reject",
+    "next_action": null,
+    "confidence": 0.7,
+    "model": "claude-opus-4-8 (interactive)",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-19T01:44:36.209816Z",
+    "analysis_input_hash": "a9f96c2d266868ff4a5d55a5bd54a6e301be81bf27a75d69dbf1b7d95a6bd3bc"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 47,
+    "urgency": "medium",
+    "days_to_deadline": 44,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

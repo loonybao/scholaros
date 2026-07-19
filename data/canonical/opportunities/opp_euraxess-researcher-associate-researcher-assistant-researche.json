@@ -1,0 +1,169 @@
+{
+  "id": "opp_euraxess-researcher-associate-researcher-assistant-researche",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-19T01:41:44.583832Z",
+  "updated_at": "2026-07-19T01:44:36.527531Z",
+  "change_history": [
+    {
+      "ts": "2026-07-19T01:41:44.583832Z",
+      "actor": "collector:euraxess",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.321379Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.207698Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.future_group_value",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-opus-4-8 (interactive))"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.527531Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Researcher / Associate Researcher / Assistant Researcher / Postdoctoral Researcher, M.I.S.T.A.",
+    "org_id": "org_euraxess_times-higher-education",
+    "lab_org_id": null,
+    "source": "euraxess",
+    "source_native_id": "454048",
+    "canonical_url": "https://euraxess.ec.europa.eu/jobs/454048",
+    "apply_url": null,
+    "evidence_ids": [
+      "euraxess/454048"
+    ],
+    "retrieved_at": "2026-07-19T01:41:44.583832Z",
+    "raw_snapshot_hash": "2c6612fd5a00582717e6e31f578e31797e863451db60e12ec9808d17868788cb",
+    "extracted_content_hash": "441466cce3a1c154ada336f37fb7d5031c25202e8dd1a3b6880a966a9c832b25",
+    "deadline": "2026-09-21",
+    "deadline_note": "00:00 (UTC)",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-07-18",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Macao",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Department: Macau Institute of Space Technology and Application (M.I.S.T.A.) Position: Researcher/Associate Researcher/Assistant Researcher/Postdoctoral Researcher Description The Macau Institute of Space Technology and Application (M.I.S.T.A.) was established on September 1, 2023. It is a new...\n\nResearch field: Computer science Physics Environmental science Geosciences\n\nResearcher profile: Recognised Researcher (R2) First Stage Researcher (R1) Established Researcher (R3)\n\nFunding programme: Not funded by a EU programme"
+  },
+  "ai": {
+    "summary": "Researcher through senior levels, Macau Institute of Space Technology. Off-domain, senior tiers, non-Europe.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 14,
+      "rationale": "Space technology & application — unrelated to HCI/XR."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "Aerospace/space methods, no overlap."
+    },
+    "growth_value": {
+      "score": 26,
+      "rationale": "Limited leverage on the applicant's immersive-systems / XR strengths."
+    },
+    "strategic_value": {
+      "score": 14,
+      "rationale": "Weighed against an early-career, Europe-focused, funded research-post target."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [],
+    "risks": [
+      "Senior faculty-level appointment (professor/lecturer) — a career-stage mismatch for an early-career MSc-to-PhD candidate",
+      "Outside the applicant's European target region"
+    ],
+    "rejection_reasons": [
+      "career_stage_mismatch",
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": "reject",
+    "next_action": null,
+    "confidence": 0.8,
+    "model": "claude-opus-4-8 (interactive)",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-19T01:44:36.206699Z",
+    "analysis_input_hash": "4dd536a0779177ed4d346a8108d789cc58dc365209627aee6678c353e391bd08"
+  },
+  "derived": {
+    "eligibility_gate": "fail",
+    "eligibility_reasons": [
+      "country 'Macao' is outside allowed regions ['Europe']"
+    ],
+    "fit_overall": 18,
+    "urgency": "low",
+    "days_to_deadline": 64,
+    "needs_review": false,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

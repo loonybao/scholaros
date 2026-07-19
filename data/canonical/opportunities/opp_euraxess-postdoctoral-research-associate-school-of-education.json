@@ -1,0 +1,194 @@
+{
+  "id": "opp_euraxess-postdoctoral-research-associate-school-of-education",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-19T01:41:31.918864Z",
+  "updated_at": "2026-07-19T01:47:08.661799Z",
+  "change_history": [
+    {
+      "ts": "2026-07-19T01:41:31.918864Z",
+      "actor": "collector:euraxess",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.306264Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.190628Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.future_group_value",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-opus-4-8 (interactive))"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.511986Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-19T01:47:06.737961Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.methodological_fit",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-opus-4-8 (interactive))"
+    },
+    {
+      "ts": "2026-07-19T01:47:08.661799Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Research Associate, School of Education",
+    "org_id": "org_euraxess_times-higher-education",
+    "lab_org_id": null,
+    "source": "euraxess",
+    "source_native_id": "454036",
+    "canonical_url": "https://euraxess.ec.europa.eu/jobs/454036",
+    "apply_url": null,
+    "evidence_ids": [
+      "euraxess/454036"
+    ],
+    "retrieved_at": "2026-07-19T01:41:31.918864Z",
+    "raw_snapshot_hash": "abd5434cfc821ed956d9795388bd0528ead81ca5af89917892432dcd114bf0e9",
+    "extracted_content_hash": "70c0cf9269a07e24d6cb99fe8171a9f0a0ce4618918aaa2d708951b25dc13142",
+    "deadline": "2026-08-08",
+    "deadline_note": "00:00 (UTC)",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-07-18",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "DURHAM UNIVERSITY, Durham, United Kingdom, United Kingdom",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "The School of Education is one of the very best UK Education departments with an outstanding reputation for excellence in teaching and research. We were ranked 2nd for Outstanding Research in Education and 1st for Impact and Outputs in the most recent Research Excellence Framework (REF 2021), ranked...\n\nResearch field: Educational sciences Psychological sciences\n\nResearcher profile: Recognised Researcher (R2) Established Researcher (R3)\n\nFunding programme: Not funded by a EU programme"
+  },
+  "ai": {
+    "summary": "Postdoc in the School of Education, Durham (UK). A general education-research post with no stated immersive-technology / XR / HCI content, so a weak thematic and methodological match despite the broad 'learning' overlap.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 24,
+      "rationale": "General education research, not the applicant's immersive-learning-technology / HCI focus."
+    },
+    "methodological_fit": {
+      "score": 30,
+      "rationale": "Education-research methods overlap only loosely with the applicant's immersive-system user studies."
+    },
+    "growth_value": {
+      "score": 35,
+      "rationale": "Limited leverage on immersive-systems / XR strengths."
+    },
+    "strategic_value": {
+      "score": 42,
+      "rationale": "UK research post, but off the applicant's core domain."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [
+      "user-studies"
+    ],
+    "eligibility_flags": [],
+    "risks": [
+      "Domain is education research broadly, not immersive-learning technology"
+    ],
+    "rejection_reasons": [
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": "reject",
+    "next_action": null,
+    "confidence": 0.75,
+    "model": "claude-opus-4-8 (interactive)",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-19T01:47:06.736963Z",
+    "analysis_input_hash": "cdc7c6ebbc9cceb64073787ac5b063195b2150a9d9731ed321ed1a531c7ff418"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 30,
+    "urgency": "high",
+    "days_to_deadline": 20,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

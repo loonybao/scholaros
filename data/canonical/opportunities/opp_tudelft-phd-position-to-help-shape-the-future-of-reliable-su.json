@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:33:31.216022Z",
-  "updated_at": "2026-07-18T16:19:55.196154+00:00",
+  "updated_at": "2026-07-19T01:42:09.506949Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:33:31.216022Z",
@@ -50,7 +50,7 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T04:44:32.399245+00:00",
+      "ts": "2026-07-18T04:44:32.399245Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -58,7 +58,7 @@
       "note": "migrated to v6"
     },
     {
-      "ts": "2026-07-18T05:14:54.194295+00:00",
+      "ts": "2026-07-18T05:14:54.194295Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -66,7 +66,7 @@
       "note": "migrated to v7"
     },
     {
-      "ts": "2026-07-18T07:52:06.567434+00:00",
+      "ts": "2026-07-18T07:52:06.567434Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -74,7 +74,7 @@
       "note": "migrated to v8"
     },
     {
-      "ts": "2026-07-18T11:22:53.135296+00:00",
+      "ts": "2026-07-18T11:22:53.135296Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -82,12 +82,20 @@
       "note": "migrated to v9"
     },
     {
-      "ts": "2026-07-18T16:19:55.196154+00:00",
+      "ts": "2026-07-18T16:19:55.196154Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v10"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.506949Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,14 +140,16 @@
     ],
     "fit_overall": null,
     "urgency": "medium",
-    "days_to_deadline": 29,
-    "needs_review": true
+    "days_to_deadline": 28,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
   },
   "manual": {
     "notes": "",
     "tags": [],
     "eligibility_override": null,
     "priority_override": null,
+    "user_status": null,
     "hidden": false
   }
 }

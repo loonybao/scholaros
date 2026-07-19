@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T13:08:13.135307Z",
-  "updated_at": "2026-07-18T16:19:55.093938+00:00",
+  "updated_at": "2026-07-19T01:42:09.386308Z",
   "change_history": [
     {
       "ts": "2026-07-17T13:08:13.136310Z",
@@ -221,7 +221,7 @@
       "note": "derived layer recomputed"
     },
     {
-      "ts": "2026-07-18T11:22:53.030789+00:00",
+      "ts": "2026-07-18T11:22:53.030789Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
@@ -229,12 +229,20 @@
       "note": "migrated to v9"
     },
     {
-      "ts": "2026-07-18T16:19:55.093938+00:00",
+      "ts": "2026-07-18T16:19:55.093938Z",
       "actor": "migration",
       "fields_changed": [
         "schema_version"
       ],
       "note": "migrated to v10"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.386308Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -371,7 +379,7 @@
     ],
     "fit_overall": 84,
     "urgency": "high",
-    "days_to_deadline": 16,
+    "days_to_deadline": 15,
     "needs_review": true,
     "timing_assessment": "timing_mismatch"
   },
@@ -385,6 +393,7 @@
     ],
     "eligibility_override": null,
     "priority_override": null,
+    "user_status": null,
     "hidden": false
   }
 }

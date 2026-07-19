@@ -1,0 +1,168 @@
+{
+  "id": "opp_euraxess-one-or-more-phd-positions-in-using-large-scale-data",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-19T01:41:31.780891Z",
+  "updated_at": "2026-07-19T01:44:36.506234Z",
+  "change_history": [
+    {
+      "ts": "2026-07-19T01:41:31.780891Z",
+      "actor": "collector:euraxess",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.300502Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.185140Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.future_group_value",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-opus-4-8 (interactive))"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.506234Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "One or more PhD positions in Using Large-Scale Data to Improve Precision Medicine in Psychiatry",
+    "org_id": "org_euraxess_aalborg-universitet-0",
+    "lab_org_id": null,
+    "source": "euraxess",
+    "source_native_id": "454033",
+    "canonical_url": "https://euraxess.ec.europa.eu/jobs/454033",
+    "apply_url": null,
+    "evidence_ids": [
+      "euraxess/454033"
+    ],
+    "retrieved_at": "2026-07-19T01:41:31.780891Z",
+    "raw_snapshot_hash": "db0a232c9f5eefa4c6afde85c112e93e7570c61e934e46360251c9a5e6f09096",
+    "extracted_content_hash": "236a28a9da3911a45ff2111c70b6deb4a10cb9623d41ebe6e4e6795894a4e0f2",
+    "deadline": "2026-08-31",
+    "deadline_note": "21:59 (UTC)",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-07-18",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Aalborg Universitet, Aalborg, Denmark",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "At the Faculty of Medicine, Department of Health Science and Technology, one PhD stipend in Precision Medicine in Psychiatry is available for appointment from October 15, 2026, or as soon as possible thereafter. The appointment is for a period of three years. The successful candidate will be...\n\nResearch field: Medical sciences\n\nResearcher profile: Established Researcher (R3)\n\nFunding programme: Not funded by a EU programme"
+  },
+  "ai": {
+    "summary": "PhD in Precision Medicine in Psychiatry at Aalborg (Denmark). A funded European PhD, but a clinical/medical domain far from HCI/XR.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 22,
+      "rationale": "PhD in precision medicine / psychiatry using large-scale health data — outside HCI/XR."
+    },
+    "methodological_fit": {
+      "score": 35,
+      "rationale": "Data-analysis methods overlap slightly, but the domain (clinical psychiatry) is unrelated to the applicant's spatial-interaction research."
+    },
+    "growth_value": {
+      "score": 38,
+      "rationale": "Limited leverage on the applicant's immersive-systems / XR strengths."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "Weighed against an early-career, Europe-focused, funded research-post target."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [],
+    "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": "reject",
+    "next_action": null,
+    "confidence": 0.8,
+    "model": "claude-opus-4-8 (interactive)",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-19T01:44:36.184134Z",
+    "analysis_input_hash": "6e0ef3ebd0953223aa25a09ac32323474770ce3f051592bd56d175fdafd3f46e"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 31,
+    "urgency": "medium",
+    "days_to_deadline": 43,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

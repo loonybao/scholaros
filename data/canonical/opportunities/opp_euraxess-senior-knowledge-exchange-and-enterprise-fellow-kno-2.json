@@ -1,0 +1,166 @@
+{
+  "id": "opp_euraxess-senior-knowledge-exchange-and-enterprise-fellow-kno-2",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-19T01:41:44.266963Z",
+  "updated_at": "2026-07-19T01:44:36.535041Z",
+  "change_history": [
+    {
+      "ts": "2026-07-19T01:41:44.266963Z",
+      "actor": "collector:euraxess",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-19T01:42:09.329893Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.220600Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.future_group_value",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.recommendation",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-opus-4-8 (interactive))"
+    },
+    {
+      "ts": "2026-07-19T01:44:36.535041Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Senior Knowledge Exchange and Enterprise Fellow: (Knowledge Mobilisation & Community Connector)",
+    "org_id": "org_euraxess_times-higher-education",
+    "lab_org_id": null,
+    "source": "euraxess",
+    "source_native_id": "454042",
+    "canonical_url": "https://euraxess.ec.europa.eu/jobs/454042",
+    "apply_url": null,
+    "evidence_ids": [
+      "euraxess/454042"
+    ],
+    "retrieved_at": "2026-07-19T01:41:44.266963Z",
+    "raw_snapshot_hash": "ba61d28f73846f11d7b3277115d6b2fe0d9def0c207e3a726cdeec7a1f68a903",
+    "extracted_content_hash": "08665ceff4015ec1f6264737ba8f8f4d85904812222baea7549e0fc23df46526",
+    "deadline": "2026-09-07",
+    "deadline_note": "00:00 (UTC)",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-07-18",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "UNIVERSITY OF SOUTHAMPTON, Southampton, United Kingdom",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Knowledge Mobilisation and Community Connector Fellow – NIHR ARC Wessex 1x0.6FTE post (0.4FTE KM/0.2FTE Community Connector). FTE flexibility may be possible depending on priorities. 18-months Fixed-Term with the possibility of extending subject to funding. The NIHR Applied Research Collaboration...\n\nResearch field: Other\n\nResearcher profile: Recognised Researcher (R2) First Stage Researcher (R1)\n\nFunding programme: Not funded by a EU programme"
+  },
+  "ai": {
+    "summary": "Knowledge Mobilisation & Community Connector Fellow, Southampton (UK). Health knowledge-exchange, off-domain.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 16,
+      "rationale": "Health knowledge-mobilisation / community connector — not HCI/XR research."
+    },
+    "methodological_fit": {
+      "score": 24,
+      "rationale": "Community-engagement focus, not empirical HCI research."
+    },
+    "growth_value": {
+      "score": 30,
+      "rationale": "Limited leverage on the applicant's immersive-systems / XR strengths."
+    },
+    "strategic_value": {
+      "score": 34,
+      "rationale": "Weighed against an early-career, Europe-focused, funded research-post target."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [],
+    "risks": [],
+    "rejection_reasons": [
+      "poor_research_fit"
+    ],
+    "future_group_value": "low",
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": "reject",
+    "next_action": null,
+    "confidence": 0.8,
+    "model": "claude-opus-4-8 (interactive)",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "interactive_claude",
+    "analysis_mode": "manual_assisted",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-19T01:44:36.219600Z",
+    "analysis_input_hash": "d153d75ed6efad1a9890bb49f9906609c5e091a7e69bb2fca97bb40d6ce93128"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 24,
+    "urgency": "low",
+    "days_to_deadline": 50,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
