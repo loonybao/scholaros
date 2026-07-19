@@ -42,3 +42,22 @@ sources:
       - human-computer interaction
       - immersive
     max_pages: 2            # pages per keyword (10 results/page)
+
+  # Varbi ATS — one collector, many Nordic universities. Add a Tier-1/2 Swedish
+  # school by appending to `institutions` (they all use <name>.varbi.com).
+  - id: varbi
+    type: multi-university-ats
+    priority: 1
+    enabled: true           # S16 collector (KTH); Chalmers/Lund/etc. addable below
+    rate_limit_seconds: 8
+    institutions:
+      - id: kth
+        name: KTH Royal Institute of Technology
+        org_id: org_kth
+        base_url: https://kth.varbi.com
+        country: Sweden
+      # - id: chalmers
+      #   name: Chalmers University of Technology
+      #   org_id: org_chalmers
+      #   base_url: https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies  # verify Varbi host
+      #   country: Sweden

@@ -14,6 +14,7 @@ SOURCE_MODULES = {
     "tampere": "compass.collect.tampere",
     "tudelft": "compass.collect.tudelft",
     "euraxess": "compass.collect.euraxess",
+    "varbi": "compass.collect.varbi",
 }
 
 
