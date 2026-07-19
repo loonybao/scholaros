@@ -3,15 +3,19 @@
 # and needs_review=true (manual review), never a guess.
 
 # Geographic scope. Confirmed scope: salaried/funded research positions across
-# Europe; Finland and the Netherlands are PREFERRED because Aalto and TU Delft
-# are primary targets. Preference affects strategic value only — it never
+# Europe. Tier-1 target countries (Nordic preferred, plus the Netherlands where
+# TU Delft sits) are PREFERRED — this affects strategic value only, it never
 # narrows the eligibility gate. A confirmed European location passes the
-# geography check without an exhaustive country whitelist.
+# geography check without an exhaustive country whitelist. See the tiered target
+# list in docs/target_regions.md.
 geography:
   allowed_regions:
     - Europe
-  preferred_countries:
+  preferred_countries:      # Tier 1: Nordic + Netherlands
     - Finland
+    - Sweden
+    - Denmark
+    - Norway
     - Netherlands
   excluded_countries: []
 
