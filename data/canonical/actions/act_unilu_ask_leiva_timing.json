@@ -1,0 +1,41 @@
+{
+  "id": "act_unilu_ask_leiva_timing",
+  "entity_type": "action",
+  "schema_version": 10,
+  "created_at": "2026-07-19T23:44:45.056626Z",
+  "updated_at": "2026-07-19T23:44:45.057623Z",
+  "change_history": [
+    {
+      "ts": "2026-07-19T23:44:45.057623Z",
+      "actor": "user",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "recruiter timing question"
+    }
+  ],
+  "system": {
+    "action_type": "outreach",
+    "related": {
+      "opportunity_id": "opp_unilu_computational_interaction_phd",
+      "person_id": "per_luis_leiva",
+      "application_id": null
+    },
+    "created_by": "human",
+    "due_date": "2026-07-21",
+    "priority": "high",
+    "recommended_reason": null,
+    "model": null,
+    "prompt_version": null
+  },
+  "manual": {
+    "title": "Email Prof. Leiva: is a delayed 2027 start / near-completion acceptable?",
+    "status": "todo",
+    "notes": "Before preparing anything (deadline 2026-07-22): ask whether the selected candidate must have COMPLETED the MSc before the Oct-2026 start, or whether a delayed 2027 start / applying with the thesis near completion is possible. My research-based MSc is expected to finish July 2027. Only prepare materials if the timing is confirmed adjustable; otherwise keep as a high-value group to track and skip this round."
+  },
+  "outcome": {
+    "result": null,
+    "completed_at": null,
+    "note": ""
+  }
+}

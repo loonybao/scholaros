@@ -25,6 +25,7 @@ _Generated 2026-07-19 — run `python -m compass export` to refresh._
 | [[opp_tudelft-phd-position-second-life-of-batteries-for-grid-suppo\|PhD Position Second Life of Batteries for Grid /Support]] | TU Delft | 2026-07-22 | 3 | uncertain | — |
 | [[opp_tudelft-postdoc-for-e2packman\|Postdoc for E2Packman]] | TU Delft | 2026-07-22 | 3 | uncertain | — |
 | [[opp_tudelft-postdoc-human-centred-thermal-comfort-and-machine-le\|Postdoc Human-Centred Thermal Comfort and Machine Learning for Electric Vehicles]] | TU Delft | 2026-07-22 | 3 | uncertain | 52 |
+| [[opp_unilu_computational_interaction_phd\|Doctoral Researcher in Computer Science — Computational Interaction]] | University of Luxembourg | 2026-07-22 | 3 | uncertain | 66 |
 | [[opp_aalto-postdoctoral-researcher-advanced-life-cycle-assessment\|Postdoctoral researcher, Advanced Life Cycle Assessment (LCA) of bio-based processes and products]] | Aalto University | 2026-07-25 | 6 | uncertain | 5 |
 | [[opp_tudelft-fully-funded-phd-position-in-quantum-photonics\|Fully Funded PhD Position in Quantum Photonics]] | TU Delft | 2026-07-26 | 7 | uncertain | — |
 | [[opp_tudelft-postdoc-trustworthy-graph-machine-learning\|Postdoc Trustworthy Graph Machine Learning]] | TU Delft | 2026-07-26 | 7 | uncertain | 7 |
@@ -158,6 +159,7 @@ _Generated 2026-07-19 — run `python -m compass export` to refresh._
 - [[opp_tudelft-phd-position-second-life-of-batteries-for-grid-suppo]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-for-e2packman]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-human-centred-thermal-comfort-and-machine-le]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- [[opp_unilu_computational_interaction_phd]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_aalto-postdoctoral-researcher-advanced-life-cycle-assessment]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-fully-funded-phd-position-in-quantum-photonics]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-trustworthy-graph-machine-learning]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -276,5 +278,6 @@ _Generated 2026-07-19 — run `python -m compass export` to refresh._
 
 ## People
 
+- [[per_luis_leiva]] — Luis A. Leiva (not_contacted)
 - [[per_markku_turunen]] — Markku Turunen (not_contacted)
 - [[per_yan_feng]] — Yan Feng (not_contacted)
