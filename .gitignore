@@ -19,3 +19,6 @@ Thumbs.db
 
 # Obsidian workspace state (vault content itself IS versioned)
 vault/.obsidian/workspace*
+
+# Local LLM cost tracking (transient)
+data/status/llm_usage.json

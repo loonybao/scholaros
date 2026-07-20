@@ -161,6 +161,13 @@ def test_split_input_output_cost_accounting(cfg, store):
     assert abs(spent - 0.0036) < 1e-9
 
 
+def test_strip_code_fence():
+    from compass.llm import _strip_code_fence
+    assert _strip_code_fence('```json\n{"a":1}\n```') == '{"a":1}'
+    assert _strip_code_fence('```\n{"a":1}\n```') == '{"a":1}'
+    assert _strip_code_fence('{"a":1}') == '{"a":1}'   # unfenced unchanged
+
+
 def test_anthropic_provider_path(cfg, store, monkeypatch):
     """provider=anthropic hits /v1/messages and parses the Anthropic response
     shape (content[].text + usage.input/output_tokens). No network."""

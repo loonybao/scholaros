@@ -59,6 +59,20 @@ def _deep_keys(obj) -> set[str]:
     return keys
 
 
+def _strip_code_fence(text: str) -> str:
+    """Models often wrap JSON in a ```json … ``` fence. Return the inner JSON so
+    json.loads succeeds. Leaves un-fenced text unchanged."""
+    s = (text or "").strip()
+    if s.startswith("```"):
+        s = s[3:]
+        if s[:4].lower() == "json":
+            s = s[4:]
+        end = s.rfind("```")
+        if end != -1:
+            s = s[:end]
+    return s.strip()
+
+
 def assert_whitelisted(packet: dict) -> None:
     if packet.get("packet_type") != "compass-analysis-packet":
         raise LLMError("refusing to send: not a compass-analysis-packet")
@@ -173,7 +187,7 @@ class LLMClient:
         usage = data.get("usage") or {}
         pin = int(usage.get("input_tokens", 0) or 0)
         pout = int(usage.get("output_tokens", 0) or 0)
-        return text, pin, pout
+        return _strip_code_fence(text), pin, pout
 
     def _cost(self, input_tokens: int, output_tokens: int) -> float:
         c = 0.0
