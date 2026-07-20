@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:29:12.137604Z",
-  "updated_at": "2026-07-19T01:42:09.463529Z",
+  "updated_at": "2026-07-20T16:50:17.709107Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:29:12.137604Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:39:12.226262Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.709107Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,65 @@
     "status": "open",
     "description_text": "Are you passionate about nanooptics, outer space and you would like to work towards advancing the monitoring of atmospheric constituents such as greenhouse gases? We seek formidable students to design detector-integrated photonic crystals for this endeavour.\nJob description\nWe are seeking a highly motivated PhD candidate to join the INTERPRETER project, an interdisciplinary research initiative focused on the development of next-generation compact hyperspectral spectropolarimetric cameras.  Hyperspectral imaging enables simultaneous acquisition of spatial and spectral information, supporting applications in earth observation, semiconductor metrology, agriculture, medical imaging, industrial inspection, and environmental monitoring. Current detector technologies face limitations in spectral coverage, imaging speed, scalability, cost, and CMOS compatibility. The INTERPRETER project aims to overcome these challenges employing photonic crystal-based spectropolarimetric filter arrays.  The project will advance novel imaging technologies capable of delivering compact, high-performance instruments for satellite-based aerosol monitoring, climate research, and industrial sensing applications.\nIdeally, the candidate should have a strong background in optics/nanoptics, both experimentally as well as theoretically. Tasks involve the design and manufacturing of photonic crystals, the detector integration as well as the optical testing. The INTERPRETER project will be in collaboration with SRON Space Research Organisation Netherlands, where as well parts of the experimental work will take place.\nJob requirements\nApplicants should have the following qualifications:\n• A strong Master's degree in Physics or Applied Physics, Photonics, Nanotechnology, Engineering or a related field.\n• Knowledge of nanooptics, photonic crystals, inverse design, photonics, imaging systems, optionally also semiconductor devices, optoelectronics.\n• Experience with optical characterization, nanofabrication, computational imaging, or detector technology is an advantage.\n• Strong analytical and problem-solving skills.\n• Excellent communication skills and proficiency in English.\n• Ability to work independently and collaboratively in an interdisciplinary research environment.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Ralf Kohlhaas\nr.kohlhaas@sron.nl\n, Dr. Fabian Maucher\nf.maucher@tudelft.nl\nor Dr. Nandini Bhattacharya\nn.bhattacharya@tudelft.nl\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 August 2026\nvia the application button and upload the following documents:\nCV\nCover letter\nAcademic transcripts\nIf the applicants are selected for an interview, they will be asked to provide contact details of 2–3 references to consult for recommendation letters with their consent\nList of publications or research outputs, otherwise writing samples (e.g., thesis or paper)\nProof of English proficiency (if not available, can be delivered later)\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in nanooptics and photonics designing detector-integrated photonic crystals for hyperspectral spectropolarimetric imaging systems; applications include satellite-based aerosol monitoring and earth observation.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "Minimal thematic connection. Position targets nanooptics, photonic engineering, and space instrumentation. Researcher's themes are spatial cognition, collaborative immersive learning, and human-centred design. While both involve sensing and measurement, the application domains and human factors are orthogonal."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Very limited methodological fit. Position requires optics/nanoptics (theoretical and experimental), photonic crystal design, nanofabrication, and optical characterization. Researcher's expertise is in software systems (Unity/C#), user-centred evaluation, and XR design. No substantial methodological overlap; researcher would need to acquire specialized physics/optics knowledge from scratch."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Nanooptics and space instrumentation expertise would not advance researcher's target capabilities in spatial learning design, collaborative immersive systems, or human-centred evaluation. Optical sensing knowledge has minimal transferability to HCI research."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "TU Delft is priority institution; collaboration with SRON (Netherlands Space Research Organisation) offers prestige and international research positioning. However, optics/space-tech research direction has no strategic value for HCI/XR career trajectory or European HCI research community positioning."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires strong Master's in Physics, Applied Physics, Photonics, Nanotechnology, or related field; researcher holds MSc by Research in multimedia/creative technology—degree discipline mismatch.",
+      "Requires knowledge of nanooptics, photonic crystals, inverse design, photonics, imaging systems; researcher profile shows no background in any of these areas.",
+      "Optimal candidates have experimental nanofabrication, optical characterization, or semiconductor device experience; researcher has none."
+    ],
+    "risks": [
+      "Major disciplinary shift from immersive systems into nanooptics and space instrumentation.",
+      "4-year physics/photonics PhD would derail progression toward HCI/XR researcher identity.",
+      "Supervisor group (nanooptics, photonics) has no HCI, human-computer interaction, or immersive systems expertise.",
+      "No pathway from photonic crystal design or earth observation to spatial learning or collaborative immersive systems research.",
+      "Researcher would require substantial physics and mathematics retraining to be effective in this role.",
+      "Career outcome (optical engineer) orthogonal to target identity (human-centred XR researcher)."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.94,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:39:12.225262Z",
+    "analysis_input_hash": "e7eaa97f5375d351613d6f209089e1ad37c7262a48b7ba658fb16937a7604884"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 17,
     "urgency": "medium",
     "days_to_deadline": 42,
     "needs_review": true,

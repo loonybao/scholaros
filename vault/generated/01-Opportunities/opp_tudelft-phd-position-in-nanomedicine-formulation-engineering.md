@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 20
 urgency: medium
 needs_review: true
 ---
@@ -101,7 +101,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+
+PhD in lipid nanoparticle formulation design and optimization for ultrasound-triggered drug delivery in cancer therapy, combining molecular dynamics simulation, experimental validation, and in vitro/in vivo testing.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 25 |
+| Growth value | 8 |
+| Strategic value | 45 |
+| **Overall** | **20** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** molecular-dynamics-simulation, chemical-engineering, pharmaceutical-formulation, nanotechnology
+
+**Risks:**
+- Severe domain mismatch: nanomedicine vs. human-centred immersive systems
+- Insufficient computational modelling background; CGMD expertise requires deep training in physical chemistry and molecular simulation
+- Research outputs (nanoparticle formulations, drug-delivery mechanisms) have zero relevance to HCI/XR hiring committees
+- Career lock-in to biomedical engineering; pivot to HCI/XR would be perceived as abandoning expertise
+- Supervisor and peer cohort are pharmaceutical/biomedical scientists; no HCI mentorship
+- PhD trajectory established in oncology/nanomedicine; difficult to build credibility in immersive systems later
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-nanomedicine-formulation-engineering.md` and link [[opp_tudelft-phd-position-in-nanomedicine-formulation-engineering]]._

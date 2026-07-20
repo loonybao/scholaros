@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:38:47.271460Z",
-  "updated_at": "2026-07-19T01:42:09.397891Z",
+  "updated_at": "2026-07-20T16:50:17.671108Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:38:47.271460Z",
@@ -95,6 +95,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:37:18.943854Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.671108Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -131,14 +169,81 @@
     "status": "open",
     "description_text": "Challenge\n: Developing, operationalizing, quantifying, and embedding complex human and legal values into alignment pipelines for AI systems, open-weights, and foundation models.\nChange\n: Advancing from static, generic benchmarks to dynamic, automated validation and red-teaming frameworks tailored for high-risk deployments.\nImpact\n: Enhancing police trustworthiness through AI alignment at the Netherlands Police and ensuring compliance with the EU AI Act by engineering measurably aligned AI systems.\nJob description\nAI alignment refers to the goal of making AI systems behave in line with human intentions and values. AI alignment ensures that advanced AI systems operate safely and strictly within the bounds of human intentions, ethical standards, and the prevalent legal frameworks. With the rapid proliferation of AI systems, frontier LLMs, multimodal models, autonomous agents and their growing capability, there are equal risks of misalignment with human, organizational, and societal values through behavioral drift, hallucination, and adversarial exploitation. Validating models is crucial before decisions can be made about implementation and is important for continuous monitoring of systems in use, and for facilitating effective human oversight of AI. This is particularly important in high-stakes environments like law enforcement. The main challenge is that validation needs to happen simultaneously along a range of different values that are important in a law enforcement context: accuracy, but also fairness, reliability, trustworthiness, and more need to be ensured. How can we translate abstract democratic, organisational, and societal values such as algorithmic fairness, transparency, explainability (XAI) into rigorous, quantifiable engineering metrics without sacrificing the general utility of said models and AI systems?\nAs a PhD student at TU Delft, you will conduct impactful research on two key aspects in advancing the responsible use of AI within the Netherlands Police force. First, you will investigate the standards and values surrounding AI usage, particularly in the context of publicly available models. This entails defining what criteria these models must meet, beyond common considerations like bias and fairness. Second, you will also design methods to systematically evaluate various models against these established standards and values. This contributes to the responsible deployment of AI within policing in the Netherlands, pushes forward our understanding of how to align AI models in practice, and maximizes the efficiency of utilizing publicly available models.\n1. Formalizing Value Taxonomies and Alignment Metrics\nYou will investigate the ethical, legal, and operational guardrails required for deploying open-weights foundation models in sensitive public-facing domains. Moving beyond superficial bias benchmarks, you will conduct deep-dive case studies within the Netherlands Police to map operational requirements to formal alignment criteria. You will define what constructs such as \"trustworthiness\" and \"fairness\" mean mathematically and procedurally when applied to complex law enforcement workflows.\n2. Engineering (Automated) and Human-in-the-Loop Evaluation and Red-Teaming Pipelines\nYou will design and implement scalable methodologies to systematically stress-test, audit, and benchmark AI models against your established criteria. This includes exploring red-teaming methods, synthetic data generation for vulnerability probing, and investigating how downstream alignment techniques (e.g., DPO, RLHF, or constitutional AI) can be customized to enforce strict adherence to organizational values.\nYour project is part of the Model-Driven Decisions Lab, a Netherlands Police - TU Delft initiative, where you will join an interdisciplinary community of four fellow PhD students who have already been hired. Together, you will share knowledge to tackle AI-assisted decision-making from different perspectives. To foster close collaboration with the stakeholders and work on practical implementation, you will spend 20% of your time at the Netherlands Police’s strategy and innovation division. Given the ethical and moral facets of your research, you will also work closely with colleagues of the Delft Digital Ethics Centre at the Faculty of Technology, Policy, and Management (TPM). Your home base will be the Web Information Systems research group at the Computer Science faculty (EEMCS). As an internationally diverse team of driven academics and students, we cultivate a welcoming and collaborative environment. We will give you all the support and training you need to evolve both personally and professionally. Learn more about\nyour project at the Model-Driven Decisions Lab\n.\nJob requirements\nYou hold an MSc in computer science, data science, or another relevant subject such as ethics of AI, with practical machine learning/artificial intelligence courses and relevant project and thesis experience.\nYou have a keen interest in AI alignment, human-AI interaction, and explainable AI, and enjoy collaborating with experts in different disciplines.\nYou thrive on conducting research geared to real-world applications in the security domain and are intrinsically motivated to collaborate with the Netherlands Police.\nYou harness your communication skills to work with different scientific and nonscientific stakeholders in different work cultures.\nYou have a good command of written and spoken English, as you will be working in an international environment. Since you will be working with the Netherlands Police, one of our pre-requisites for a suitable candidate is to have a good command of the Dutch language. This is a strong requirement due to the context of the project that will need interactions with stakeholders and data in the Dutch language.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nPending the screening result, a temporary employment contract as a researcher can be offered for up to 4 months, if requested by the candidate. This contract will be converted to a PhD contract upon a positive screening result. These are 5-year PhD positions, with the extra fifth year (compared to a standard 4-year PhD program) allowing for the additional activities of learning about the police organization and securing the results in the police organization. Doctoral candidates will be offered 5 years of employment in principle but in the form of two employment contracts. An initial 1,5-year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 3,5 years assuming everything goes well and performance requirements are met. The additional fifth year (compared to a standard 4 year PhD program) accommodates the extra activities to get to know the police organization and to secure the results in the police organization.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from € 3059 per month in the first year to € 3881 in the fourth year, based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%. In the 5th year, you will receive a temporary monthly allowance based on the gross difference between salary scale P, step 3, and salary scale 10, step 3.\nAs a PhD candidate, you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff, and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related, and research skills. The TU Delft offers a customizable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. Ujwal Gadiraju, via\nU.K.Gadiraju@tudelft.nl\n. As you will be working in the security domain, you must undergo a security screening executed by the Dutch government before starting this position. This screening will take on average 2 to 3 months and could be up to 6 months. A positive outcome of the screening is a prerequisite for the contract for these PhD positions to come into effect. At least a\nBO screening\nis needed for these PhD positions.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n10 August 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Dr. Ujwal Gadiraju.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD position in AI alignment focusing on formalizing human/legal values, developing evaluation frameworks, and red-teaming for open-weight models in law enforcement contexts. Work involves value taxonomy definition, validation pipelines, and human-AI interaction in high-stakes settings.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 35,
+      "rationale": "AI alignment and value assessment are not immersive systems or spatial learning domains. However, the position emphasizes human-AI interaction, trustworthiness, fairness evaluation, and stakeholder engagement—methodologically adjacent to HCI. Work on formalized human values and stakeholder collaboration reflects HCI principles, though applied to a different domain (law enforcement AI rather than immersive learning)."
+    },
+    "methodological_fit": {
+      "score": 52,
+      "rationale": "Strong methodological overlap: researcher has user-studies, experimental-design, and qualitative evaluation skills. The position requires value elicitation, stakeholder engagement, and human-centered evaluation of AI systems. Intersection of HCI methodology (understanding human needs/values) with AI systems is adjacent. However, missing: machine learning expertise, Python proficiency at scale, and no immersive systems component."
+    },
+    "growth_value": {
+      "score": 55,
+      "rationale": "Position would develop: (1) formal value specification and alignment methodology—useful for understanding human factors in immersive interaction; (2) stakeholder collaboration and translational research skills; (3) explainable AI, which connects to immersive system transparency. Would not directly address spatial cognition or learning science gaps, but strengthens HCI research foundation and AI literacy."
+    },
+    "strategic_value": {
+      "score": 65,
+      "rationale": "TU Delft is priority-1 institution with strong reputation. Interdisciplinary collaboration (EEMCS, TPM, external stakeholders) is valuable. However, the research domain (law enforcement AI) diverges from immersive learning and spatial systems, creating a 2-3 year detour from HCI-XR trajectory. Funding and supervision appear strong, but strategic alignment to target identity is moderate."
+    },
+    "required_skills": [
+      "user-studies",
+      "experimental-design",
+      "qualitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "user-studies",
+      "experimental-design",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "python",
+      "mixed-effects-modelling",
+      "machine-learning",
+      "red-teaming",
+      "policy-and-regulation-knowledge"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc in CS/data science or ethics-of-AI preferred; researcher has MSc in multimedia with HCI focus",
+      "Strong Dutch language requirement stated; profile does not document Dutch proficiency",
+      "Machine learning and Python proficiency expected but researcher lists Python as beginner",
+      "Security screening required (BO); Malaysia background may extend timeline"
+    ],
+    "risks": [
+      "Dutch language requirement is critical gap and could be blocker.",
+      "Machine learning and Python skills underdeveloped for stated requirements.",
+      "Domain shift away from immersive systems / spatial learning for 4-5 years.",
+      "High-stakes law enforcement context requires specific policy/regulatory knowledge researcher lacks.",
+      "Collaboration with Netherlands Police involves sensitive work; unfamiliar organizational context."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.75,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:37:18.942853Z",
+    "analysis_input_hash": "8ca7147d4d5c3171349e566b948b855873d23ccdf775c9beef60d0122e07d3bc"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 48,
     "urgency": "medium",
     "days_to_deadline": 22,
     "needs_review": true,

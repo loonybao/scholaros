@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:33:31.216022Z",
-  "updated_at": "2026-07-19T01:42:09.506949Z",
+  "updated_at": "2026-07-20T16:50:17.751152Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:33:31.216022Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:44:05.882128Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.751152Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,72 @@
     "status": "open",
     "description_text": "Join a leading research team and a cutting-edge European research project and help shape the future of reliable, sustainable power electronics.\nJob description\nThe successful candidate will conduct research within the EU-funded Moore4Power project on health monitoring and predictive reliability of advanced power electronic modules and systems. Location will be in Delft, as a team member of ECTM, in close collabrations with NL and EU industrial partners.\nJob requirements\nMSc degree in Electrical & Mechanical Engineering, Power Electronics, Materials, or a closely related discipline.\nStrong background in power electronics, electronic paakging and system integration, reliability, sensors and instrumentation.\nKnowledge of one or more of the following areas:Power electronics, Reliability and failure mechanisms, Sensors and instrumentation, Data analytics, machine learning, or AI, Digital twins or physics-based modeling, wide-bandgap semiconductor technologies.\nExcellent written and spoken English communication skills.\nAbility to work independently while contributing effectively to collaborative research teams.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact prof.dr.ir. W. van Driel or Prof.dr. G.Q.Zhang.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than 16 Aug 2026 via the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to prof.dr.ir. W. van Driel or Prof.dr. G.Q.Zhang.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services.\n#EUfunded This is an EU funded project, named Moore4Power, with project number 101252572, within program H2020."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD position in health monitoring and predictive reliability of power electronic modules within the EU-funded Moore4Power project, combining sensors, data analytics, machine learning, digital twins, and physics-based modelling.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "Core domain is power electronics reliability, sensor instrumentation, and system integration. While the posting mentions digital twins and machine learning (which have tangential adjacency to computational work), the actual research focus is hardware reliability and materials behaviour—orthogonal to human-centred immersive systems and spatial cognition."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "The position emphasizes data analytics and machine learning, areas where user has no demonstrated experience. User has design and evaluation methodology strength but not algorithmic or ML expertise. Physics-based modelling and sensors/instrumentation are outside user's toolkit."
+    },
+    "growth_value": {
+      "score": 30,
+      "rationale": "Could build machine learning and data analytics capability, which might be adjacent to future immersive systems evaluation. However, the context (power electronics) provides no transfer value to spatial understanding or collaborative HCI research. Growth would be technical, not thematic."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "TU Delft (priority-1 institution), EU-funded (Moore4Power, good funding stability and visibility). Strong industrial partnerships. However, supervisor and group focus is in electrical engineering and reliability, not HCI or immersive systems."
+    },
+    "required_skills": [
+      "quantitative-research",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires MSc in Electrical & Mechanical Engineering, Power Electronics, Materials, or closely related field. User's MSc in Creative Multimedia does not meet formal requirement.",
+      "Explicit requirement for 'strong background in power electronics, electronic packaging and system integration'—user has none.",
+      "Machine learning and data analytics listed as knowledge areas; user has no demonstrated experience in these."
+    ],
+    "risks": [
+      "Significant credential mismatch between user's multimedia background and power electronics domain.",
+      "Steep ramp-up required to become productive in machine learning, sensors, and reliability engineering.",
+      "Three-year commitment in power electronics could derail path to immersive HCI doctorate.",
+      "Limited transferability of skills back to target research direction."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:44:05.881128Z",
+    "analysis_input_hash": "7e33c3101bdfeade7537b08d55b587b584bd8fe3f769dbb2f71748b58ea4ee18"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 22,
     "urgency": "medium",
     "days_to_deadline": 28,
     "needs_review": true,

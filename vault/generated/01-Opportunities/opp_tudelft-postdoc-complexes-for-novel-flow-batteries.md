@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 10
 urgency: medium
 needs_review: true
 ---
@@ -95,7 +95,26 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Postdoctoral position in electrochemistry and materials science focused on developing redox-mediated solutions for long-duration energy storage batteries. Work involves synthesis of transition-metal complexes, materials characterization, and electrochemical cell-level demonstration within a multi-institutional European consortium.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 25 |
+| **Overall** | **10** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics, r
+
+**Risks:**
+- Domain mismatch is severe. Accepting this position would represent a pivot away from HCI/XR and into materials science, significantly damaging future competitiveness for doctoral roles in target field.
+- No research continuity. All prior expertise in multiplayer collaboration, gamification, spatial learning, and immersive systems becomes dormant.
+- Postdoc typically requires PhD completion; researcher is mid-thesis. Contract timeline (Q4 2026) creates risk if thesis completion extends.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-complexes-for-novel-flow-batteries.md` and link [[opp_tudelft-postdoc-complexes-for-novel-flow-batteries]]._

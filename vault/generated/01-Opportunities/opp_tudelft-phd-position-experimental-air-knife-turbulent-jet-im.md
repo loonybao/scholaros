@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-02
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 15
 urgency: high
 needs_review: true
 ---
@@ -88,7 +88,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+PhD position in experimental physics studying turbulent multi-phase flows in steel galvanizing processes. Focus on designing experimental facilities, PIV-based measurement techniques, and industrial optimization with Tata Steel collaboration.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 25 |
+| Growth value | 5 |
+| Strategic value | 35 |
+| **Overall** | **15** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** piv-measurement, fluid-dynamics, multi-phase-flow-physics
+
+**Risks:**
+- Substantial domain expertise gap: PIV, fluid dynamics, and multi-phase flows require specialist training researcher lacks.
+- No immersive systems, HCI, or learning research component.
+- Industrial steel process optimization is far removed from human-centred research.
+- Career trajectory risk: 4-year industrial physics project diverges entirely from human-centred XR identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-experimental-air-knife-turbulent-jet-im.md` and link [[opp_tudelft-phd-position-experimental-air-knife-turbulent-jet-im]]._

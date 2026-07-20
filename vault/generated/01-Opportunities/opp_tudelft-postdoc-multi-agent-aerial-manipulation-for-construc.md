@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-02
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 17
 urgency: high
 needs_review: true
 ---
@@ -104,7 +104,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Postdoctoral position developing task-level planning and coordination methods for heterogeneous aerial robotic teams to autonomously assemble prefabricated building modules, with emphasis on multi-agent planning under dynamic constraints and contact-rich interactions.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 15 |
+| Strategic value | 65 |
+| **Overall** | **17** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cpp, advanced control theory, real-time simulation (RSCAD/RTDS), multi-agent planning algorithms
+
+**Risks:**
+- Core research domain (robotics control, autonomous systems) is explicitly listed as excluded direction.
+- Specialization in aerial manipulation and hardware-in-loop testing would create strong lock-in away from human-centred XR.
+- No HCI or user-facing research component; unlikely to build methodological foundations needed for target identity.
+- Postdoc role typically occupies 2 years—significant time away from human-centred research trajectory.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-multi-agent-aerial-manipulation-for-construc.md` and link [[opp_tudelft-postdoc-multi-agent-aerial-manipulation-for-construc]]._

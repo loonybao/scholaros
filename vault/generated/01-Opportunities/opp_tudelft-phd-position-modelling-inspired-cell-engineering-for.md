@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-02
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 18
 urgency: high
 needs_review: true
 ---
@@ -92,7 +92,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+PhD in cell engineering and computational modelling for cultivated meat bioprocesses. Research combines CFD simulations and compartment models of bioreactor environments with genetic engineering of bovine cell lines to improve scalability and metabolic performance.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 20 |
+| Growth value | 8 |
+| Strategic value | 55 |
+| **Overall** | **18** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
+
+**Risks:**
+- Severe prerequisite gap: the researcher lacks fundamental background in cell biology, molecular cloning, and aseptic technique required on day one of wet-lab work
+- Selection barrier: Dr. Flack and the hiring committee would likely screen out an HCI/XR graduate as unqualified, regardless of methodological strengths
+- Thesis completion risk: mastering synthetic biology at PhD level while building foundational knowledge simultaneously is extremely challenging; attrition risk is high
+- Career misalignment: successful completion would not advance toward the researcher's stated target (human-centred immersive systems research in Europe); it would create a CV that confuses future employers about research identity
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-modelling-inspired-cell-engineering-for.md` and link [[opp_tudelft-phd-position-modelling-inspired-cell-engineering-for]]._

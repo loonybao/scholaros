@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-16
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -79,7 +79,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+
+PhD position in anaerobic microbiome research focusing on structure-function relationships in microbial communities via bioreactor phenotyping, genomics, and bioprocess modelling. Combines laboratory experiments, data processing, and computational biology.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 15 |
+| Growth value | 5 |
+| Strategic value | 35 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** microbial-ecology, genomics, bioprocess-modelling, bioreactor-operation
+
+**Risks:**
+- Substantial domain expertise gap: microbial ecology, genomics, and bioprocess modelling require life sciences training.
+- No immersive systems, HCI, or learning research component.
+- Laboratory work context (bioreactor phenotyping) requires microbiology background researcher lacks.
+- Career trajectory risk: 4-year commitment to microbiology diverges from human-centred XR research identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-for-identification-of-structure-functio.md` and link [[opp_tudelft-phd-position-for-identification-of-structure-functio]]._

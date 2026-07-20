@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:30:19.707599Z",
-  "updated_at": "2026-07-19T01:42:09.501007Z",
+  "updated_at": "2026-07-20T16:50:17.746153Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:30:19.707599Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:41:24.674700Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.746153Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,74 @@
     "status": "open",
     "description_text": "Design the simulaton models that will help airlines fly future aircraft types profitably and sustainably before they take off!\nJob description\nResearch and industry are increasingly investing in new aircraft concepts (e.g., powered by batteries, hydrogen, and other alternative energy sources) that promise to significantly reduce aviation's climate impact. These aircraft, however, come with fundamentally different performance characteristics forcing airlines to rethink their operations well before such aircraft enter service. This PhD project will help make this transition possible!\nThe primary focus of this research will be on the development of new methods and models that efficiently couple new aircraft designs with new fleet allocation and schedule decisions. Such will enable airlines to minimize fleet-wide emissions once new aircraft types are introduced. The produced methods and models will form part of a larger simulation enviroment that evaluates the airspace of the future.\nThe research should consider:\nModel development:\n+ Characterizing the key performance differences between current and future aircraft models\n+ Evaluating how these differences affect fleet assignment and network planning\n+ Optimizing airline operations (e.g., fleet composition, scheduling, routing) based on new aircraft capabilities\n+ Assessing the resulting fleet-wide economical and climate impact\nFacilitate future expansion to also include other domain models for optimization (e.g. noise) in collaboration with other departments of the faculty of aerospace engineering.\nThis PhD position is part of the Dutch Aviation Systems Analysis Lab (DASAL project, a flagship collaboration between TU Delft and Royal NLR, funded through the Dutch national growth fund under the ‘Luchtvaart in Transitie’ programme. DASAL serves as a living lab for developing integrated models and simulations to support innovation throughout the Dutch aviation sector and public policy. Within this unique ecosystem, you will join a diverse and interdisciplinary team of twelve PhD candidates and three postdocs from across the Faculty of Aerospace Engineering, collaborating closely with experts at NLR and the Ministry of Infrastructure and Water Management to analyse the complex interactions between sustainability, economics, and societal impact in aviation.\nThe PhD candidate will be based at the Operations & Enviroment section of the Faculty of Aerospace Engineering, and will actively collaborate with a multidisciplinary team of researchers and PhD candidates from the same Faculty, as well as researchers from the Dutch Aerospace Laboratory (NLR), towards the creation of the Dutch Aviation System Analysis Laboratory.\nJob requirements\nThe candidate has a MSc degree in Aerospace Engineering, Industrial Engineering, Operations Research, Applied Mathematics, or a related field. Aditionally, the following is a plus:\nStrong programming skills in Pyhon, and experience in building simulation environments.\nExperience with fleet planning, airline network schedulling, and/or optimization methods.\nGenuine interest in sustainable aviation.\nThe candidate is proactive and has problem solving attitude, is strong in communication and academic writing in english, and enjoys team work.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. M. J. Ribeiro, via\nm.j.ribeiro@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 August 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nMSc Diploma\nSupplement (list of courses)\nYou can address your application to Dr. M. J. Ribeiro.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in fleet optimisation and network planning for future sustainable aircraft. Work involves developing simulation models, optimisation methods, and decision-support tools for airline operations under new aircraft performance constraints, embedded in a multi-PhD research consortium (DASAL project).",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "No alignment with human-centred design, immersive systems, spatial cognition, learning, wayfinding, or collaborative interaction. This is operations research and aviation systems engineering."
+    },
+    "methodological_fit": {
+      "score": 18,
+      "rationale": "Position requires Python programming, simulation environments, and optimisation methods. Researcher has Python (beginner level) and systems thinking. However, the methodological core—fleet optimisation, network scheduling algorithms, operations research—is distinct from HCI evaluation and user-centred research."
+    },
+    "growth_value": {
+      "score": 12,
+      "rationale": "Could develop Python skills (stated gap), simulation thinking, and systems modelling. However, would not advance human-centred evaluation capabilities or target competencies. Simulation focus is technical optimisation, not user interaction or spatial cognition."
+    },
+    "strategic_value": {
+      "score": 42,
+      "rationale": "TU Delft priority-2; Faculty of Aerospace Engineering well-regarded; large interdisciplinary consortium (DASAL) provides collaborative environment. Funding via Dutch national growth fund ('Luchtvaart in Transitie') is secure. However, research trajectory is in operations research, not human-centred systems. No pathway from aviation optimisation back to immersive learning research."
+    },
+    "required_skills": [
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "fleet-planning",
+      "airline-scheduling",
+      "optimisation-algorithms",
+      "operations-research",
+      "simulation-design",
+      "cpp"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc in Aerospace Engineering, Industrial Engineering, Operations Research, Applied Mathematics, or related field required. Applicant has MSc in Creative Multimedia—non-traditional for operations research PhD.",
+      "Strong Python programming skills and simulation environment building experience required. Applicant has beginner Python; primary skill is Unity (C#), not simulation or optimisation frameworks.",
+      "Fleet planning and airline scheduling experience listed as 'a plus' but not required. Applicant has none."
+    ],
+    "risks": [
+      "Degree qualification mismatch: creative multimedia MSc not aligned with aerospace/operations research expectations.",
+      "Skill gap: while Python beginner-level, researcher lacks optimisation, fleet planning, and simulation modelling backgrounds.",
+      "Methodological mismatch: this is operations research and systems optimisation, not human-centred design or HCI.",
+      "Career diversion: moving into aviation optimisation would create significant distance from human-centred XR trajectory."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:41:24.673699Z",
+    "analysis_input_hash": "b5fd10089b8e745479596d4f59498e6bc0eacf1e642d6c6e2b56df22bc2df728"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 17,
     "urgency": "medium",
     "days_to_deadline": 42,
     "needs_review": true,

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:32:01.188196Z",
-  "updated_at": "2026-07-19T01:42:09.574823Z",
+  "updated_at": "2026-07-20T16:50:17.799155Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:32:01.188196Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:47:12.580234Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.799155Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,76 @@
     "status": "open",
     "description_text": "Use real-world vessel data, agent-based modelling and digital twin technology to accelerate the transition toward zero-emission inland shipping.\nJ\nob description\nThe postdoctoral research is part of the NWO project “PAving THe way towards Zero-Emission and RObust inland shipping (PATH2ZERO)”, which aims to develop breakthrough action perspectives and sustainable business models for all parties in the inland shipping chain, contributing to the transition to emission-free inland shipping. The main objective of the project is the evaluation of zero-emission strategies, the effectiveness of policies and technologies, and the assessment of the consequences of their implementation on the inland shipping system.\nOne aim of the PATH2ZERO project is to translate research outcomes into practice, so that end users can make better-informed decisions. For this purpose, PATH2ZERO aims to develop a digital twin. The main goal of this data-driven virtual representation of the inland waterway transport system is to assess the efficiency of proposed solutions for emissions reduction in inland waterway transport. Three main aspects are regarded as vital components of the digital twin: the individual vessels, fleet and its operations, and the infrastructure.\nAs these components require a detailed representation within a large-scale transport system, a meso-scale agent-based approach has been selected as a suitable basis for the digital twin. This enables the assessment of potential interventions, ranging from the application of new technologies to individual vessels to policy measures that are implemented for an entire shipping corridor, or various bunker infrastructure strategies in the network. In addition, the impact of the feasible interventions can be evaluated, ranging from the individual ship level and its emissions to the network level and the aggregated emissions in an entire area, or the impact on the logistics chain.\nFor validating the digital twin, real-world data sources (AIS data, hydrodynamic data, infrastructure data, etc.) will be used in combination with already existing tools for maritime traffic simulation (e.g., OpenTNSim, which is being developed at TU Delft), energy consumption estimates, and emission algorithms. The relevant processes at the individual vessel level can be modelled in detail, and their performance can be tracked in time and space. Corridor scale effects will be simulated by aggregating the results of multiple vessels that together represent the corridor's traffic.\nThree regions will be modelled as areas of interest: the Rotterdam – Basel corridor (an open waterway, that is vulnerable to high and low discharge events), the Rotterdam – Antwerp / Gent corridor (a closed waterway that includes various locks and short-sea shipping), and the larger Port of Rotterdam region (a region that includes both sea-going and inland vessels in an area subject to currents and tides).\nWhile the scope of this research focuses on validating a digital twin using operational data from inland vessels, it is expected to involve close collaboration with project stakeholders and researchers within the project. This collaboration will contribute to the quantitative assessment of emission reduction strategies, paving the way toward zero-emission inland shipping.\nJob requirements\nWe are looking for a candidate with an interdisciplinary track record who is able to integrate engineering, environmental, and social science knowledge into a new framework for zero-emission inland shipping. This position requires outstanding skills in modelling and working with big datasets. In addition, the applicants should have:\nPhD diploma in Transportation, Logistics, Civil Engineering, Mechanical Engineering, Maritime Engineering, or any other related field.\nExperience with agent-based modelling is essential.\nExperience with big data analytics, Python, and an affinity for acquiring new skills in this area.\nAbility to collaborate with both scientific and industrial partners.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick here to go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 2 years. Temporary external finance.\nA job of 38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nThe supervisory team consists of Prof. Mark van Koningsveld and  Dr. Alex Kirichek.\nFor more information about this vacancy, please contact Dr. Alex Kirichek (Associate Professor at the Faculty of Civil Engineering and Geoscience, at TU Delft)\nokirichek@tudelft.nl\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n17 August 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Alex Kirichek.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position developing and validating a data-driven digital twin using agent-based modelling to assess zero-emission strategies and emission reduction in inland shipping across three European corridors, combining real-world AIS and operational data with simulation.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "Position is transportation/logistics systems modelling and environmental assessment. Digital twin is instrumental (agent-based simulation for policy evaluation), not experiential or learning-focused. No human-centred interaction, collaborative learning, spatial cognition, or immersive systems component."
+    },
+    "methodological_fit": {
+      "score": 16,
+      "rationale": "Researcher has intermediate experimental design and quantitative research skills. Position requires agent-based modelling, big data analytics, and transportation systems knowledge. Methodological overlap is limited; position emphasises data engineering and systems simulation, not user-centred evaluation."
+    },
+    "growth_value": {
+      "score": 28,
+      "rationale": "Would develop Python proficiency (researcher currently beginner), agent-based modelling, big data analytics, and transportation domain knowledge. Python advancement is useful; other gains do not address spatial cognition, collaborative learning, or HCI methodology gaps."
+    },
+    "strategic_value": {
+      "score": 70,
+      "rationale": "TU Delft Priority 1, two-year NWO-funded position, collaborative with industrial stakeholders. Stable funding and interdisciplinary exposure. However, systems modelling and logistics focus diverges from target human-centred XR identity."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "agent-based-modelling",
+      "big-data-analytics",
+      "transportation-systems-knowledge",
+      "AIS-data-processing"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD in Transportation, Logistics, Civil Engineering, or related discipline. Researcher holds MSc by Research in multimedia; disciplinary background does not match.",
+      "Agent-based modelling listed as 'essential'; researcher has no documented ABM experience.",
+      "Position requires 'big data analytics' proficiency; researcher is beginner in Python and has no evidence of large-scale data processing experience."
+    ],
+    "risks": [
+      "Core research domain is transportation/environmental systems, not human-computer interaction.",
+      "Two-year specialisation in agent-based logistics modelling would create difficult-to-reverse domain shift.",
+      "Digital twin usage is predictive/evaluative, not experiential; no component addressing spatial understanding or collaborative learning.",
+      "Big data engineering focus orthogonal to user research, design science, and immersive systems evaluation."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:47:12.578728Z",
+    "analysis_input_hash": "60d84b9579ab917103617844a908e240cd55195a14a4312f04afc8b4eb72e20b"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 24,
     "urgency": "medium",
     "days_to_deadline": 29,
     "needs_review": true,

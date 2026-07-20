@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:36:30.993155Z",
-  "updated_at": "2026-07-19T01:42:09.455501Z",
+  "updated_at": "2026-07-20T16:50:17.701106Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:36:30.993155Z",
@@ -97,6 +97,44 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:39:12.217263Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.701106Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -133,13 +171,72 @@
     "status": "open",
     "description_text": "Effects of Climate Change on the Predictability of Hydrological Extremes and Seasonal Water Supply.\nJob description\nClimate change leads to shifts in the magnitudes and timing of precipitation and atmospheric water demand, i.e. potential evaporation. This will directly affect soil moisture, groundwater dynamics and eventually streamflow. In addition, these changes will have cascading effects on vegetation that adapts to new conditions. As vegetation regulates the fraction of available water that is released into the atmosphere as evapotranspiration, these adaptations will feed back and either amplify or moderate the direct effects of climate change on soil moisture, groundwater and streamflow. These feedbacks and their effects on extreme events, such as floods and droughts but also on seasonal water supply are poorly understood and not accounted for in current-generation hydrological models.\nThe PhD research project will address these issues for more reliable hydrological predictions with a focus on the Rhine-Meuse river basin, aiming (1) to quantify natural vegetation adaptation to a changing climate, (2) to further develop the wFlow-SBM hydrological model to account for these changes with a time-variable vegetation parametrization and to (3) use this model to quantify and analyze the effects of changing vegetation on predictions of soil moisture, groundwater and streamflow under a changing climate in the Rhine-Meuse system.\nIn this project you will work in close collaboration with Rijkswaterstaat RWS (Dutch Ministry of Infrastructure and Water Management) and the industry project partner Deltares. At TU Delft, you will be hosted by the Water Management Department in the Faculty of Civil Engineering and Geosciences and the supervision team at TU Delft will be led by Prof. Markus Hrachowitz.\nJob requirements\nMSc degree in Hydrology, Environmental Engineering, Civil Engineering or a related field\nExcellent computer programming and GIS skills\nProficiency in written and spoken English (Dutch language is an advantage)\nDemonstrated interest in and enthusiasm for interdisciplinary approaches, linking plant physiology, soil science and geology to hydrology.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nThe Faculty of Civil Engineering & Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about the recruitment procedure, please contact\nRecruitment-CITG@tudelft.nl\nFour days per week you will work at TU Delft in Delft and one day per week you will work on a secondement at the Rijkswaterstaat Watermanagement Center in Lelystad.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n9 August 2026\nvia the application button and upload the following documents:\nCV\nMotivation letter (1 page)\nCopies of MSc degree and transcripts\nYou can address your application to Markus Hrachowitz.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in river basin hydrology investigating climate change impacts on hydrological extremes and water supply, with focus on vegetation adaptation dynamics and model development for the Rhine-Meuse system in collaboration with Dutch water management authorities.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic overlap. Position targets hydrology, climate change, hydrological modelling, and environmental systems. Researcher's core themes are spatial cognition, collaborative immersive learning, and human-centred XR. Completely orthogonal."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Minimal methodological alignment. Position requires hydrological modelling, GIS, environmental data analysis, and computational methods. Researcher has programming skills (Python beginner, C# advanced via Unity) and quantitative research experience, but hydrology-specific methods are absent. GIS knowledge not mentioned in profile."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Hydrology and climate modelling expertise would not advance researcher's target capabilities in spatial learning, collaborative system design, or human-centred evaluation."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "TU Delft is priority institution; collaboration with Rijkswaterstaat and Deltares offers stable funding and applied-research impact. However, environmental/hydrology research has no strategic value for HCI/XR career pathway."
+    },
+    "required_skills": [
+      "python",
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position specifies MSc in Hydrology, Environmental Engineering, or Civil Engineering; researcher's MSc is in multimedia/creative technology—significant disciplinary mismatch.",
+      "GIS skills listed as 'excellent' requirement; no mention of GIS experience in researcher profile.",
+      "Requires 'demonstrated interest in interdisciplinary approaches, linking plant physiology, soil science and geology to hydrology'—no evidence of such background in researcher profile."
+    ],
+    "risks": [
+      "Major disciplinary drift from target identity into environmental science.",
+      "4-year hydrology PhD would delay progression toward HCI/XR research career.",
+      "Supervisor group (Water Management Department) has no HCI or immersive systems expertise.",
+      "No clear path from hydrology research back to spatial learning or immersive systems domain.",
+      "Researcher would need to acquire substantial new domain knowledge (hydrology, GIS) to be effective."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:39:12.216262Z",
+    "analysis_input_hash": "997193049b67dbef40422c0b96f3ba39fd6b50247c5c2905fe3708cbe1b8b4ef"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 15,
     "urgency": "high",
     "days_to_deadline": 21,
     "needs_review": true,

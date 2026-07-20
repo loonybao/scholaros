@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:33:08.939428Z",
-  "updated_at": "2026-07-19T01:42:09.541843Z",
+  "updated_at": "2026-07-20T16:50:17.776153Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:33:08.939428Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:45:11.738261Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.776153Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,75 @@
     "status": "open",
     "description_text": "Optimization of curb space allocation.\nJob description\nWe are seeking a postdoctoral researcher to lead TU Delft's contribution to the Stritvaiz project, which transforms a former inner-city Amsterdam gas station into a multifunctional mobility and energy hub combining fast-charging, energy storage, shared mobility, logistics, and neighbourhood services. The postdoc will develop optimization methods for allocating scarce physical space and time slots among these competing functions across fluctuating daily demand: building demand scenarios from stakeholder interviews, questionnaires, and travel-behaviour literature; consolidating them into a Programme of Requirements; and formulating and implementing a mathematical model that assigns spaces and time slots in response to demand patterns, pricing incentives, and policy constraints, while producing KPIs such as demand served and rejected per user group.\nWorking with partners including AMS Institute, the Municipality of Amsterdam, PON and TotalEnergies, the researcher will calibrate and validate the model using real operational data from the E-lympic \"living lab\" and translate the results into recommendations for converting urban gas stations into multimodal hubs. The ideal candidate holds a PhD in transport, operations research, civil engineering, or a related field, with strong skills in mathematical optimization and modelling (ideally in Python) and an interest in sustainable urban mobility.\nJob requirements\nPhD in OR and other related fields.\nExperience in optimization studies.\nPrevious one year experience as Postdoc.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 14 months. Temporary.\nA job of 40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Gonçalo Homem de Almeida Correia,\nG.Correia@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n2 August 2026\nvia the application button and upload the following documents:\nA motivation letter.\nCurriculum Vitae.\nYou can address your application to Gonçalo Homem de Almeida Correia.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position in urban mobility optimization focused on mathematical modelling and optimization of curb-space allocation among competing functions (charging, mobility, logistics) at a multifunctional mobility hub. Role involves stakeholder engagement, demand scenario building, and integer programming in Python.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "No thematic connection to human-centred XR, immersive learning, or spatial cognition. Position is operations research applied to urban mobility infrastructure. While it involves spatial allocation and user-behaviour analysis, the research questions (demand forecasting, resource optimization) are distinct from collaborative immersive systems or learning outcomes. No shared research identity."
+    },
+    "methodological_fit": {
+      "score": 30,
+      "rationale": "Moderate methodological overlap through mixed methods (stakeholder interviews, questionnaires, quantitative analysis) and systems thinking. Researcher has user-study and experimental-design experience. However, core technical skill required—mathematical optimization and integer programming in Python—is not present (researcher at beginner Python level). Quantitative methods align, but applied to logistics, not human-centred evaluation."
+    },
+    "growth_value": {
+      "score": 25,
+      "rationale": "Position would build Python and quantitative modeling skills, addressing stated beginner gaps. Would also advance statistical reasoning through optimization and demand analysis. However, these skills are developed in service of operations research, not HCI or immersive systems research. Growth is in adjacent methodology, not toward target identity."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "TU Delft is Priority 1 institution. Project involves municipal partnership (Amsterdam), industrial players (PON, TotalEnergies), and applied research with real-world deployment. Offers clear stakeholder engagement and systems-level thinking valuable for any researcher. However, domain is urban planning/logistics, not HCI/XR. Strategic value is organizational/professional, not disciplinary."
+    },
+    "required_skills": [
+      "operations-research (not in taxonomy)",
+      "mathematical-optimization (not in taxonomy)",
+      "integer-programming (not in taxonomy)"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "quantitative-research",
+      "experimental-design",
+      "user-studies"
+    ],
+    "missing_skills": [
+      "optimization-modelling",
+      "demand-forecasting",
+      "advanced-python-for-scientific-computing"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires 'previous one year experience as Postdoc'—researcher has no prior postdoc experience. This is likely a screening requirement and may disqualify application.",
+      "Posting specifies PhD in 'OR and other related fields'—researcher's MSc by Research is in multimedia/design with no operations research background."
+    ],
+    "risks": [
+      "Explicit postdoc-experience requirement likely disqualifies researcher at application stage.",
+      "Mismatch in disciplinary background (design/HCI vs. operations research) signals to committee researcher is not target candidate.",
+      "14-month contract is shorter than typical postdoc (2 years); compressed timeline for onboarding and contribution.",
+      "Two-year research direction (spatial optimization/logistics) does not create portfolio advantage for HCI/XR PhD applications."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:45:11.737260Z",
+    "analysis_input_hash": "f3e25bbb337ee3e82ae167266196715c9ec79da1f66d955f96bf69c35b7fbe45"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 22,
     "urgency": "high",
     "days_to_deadline": 14,
     "needs_review": true,

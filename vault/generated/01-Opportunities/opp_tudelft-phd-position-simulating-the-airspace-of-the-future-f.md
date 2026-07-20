@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 17
 urgency: medium
 needs_review: true
 ---
@@ -97,7 +97,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+
+PhD in fleet optimisation and network planning for future sustainable aircraft. Work involves developing simulation models, optimisation methods, and decision-support tools for airline operations under new aircraft performance constraints, embedded in a multi-PhD research consortium (DASAL project).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 18 |
+| Growth value | 12 |
+| Strategic value | 42 |
+| **Overall** | **17** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** fleet-planning, airline-scheduling, optimisation-algorithms, operations-research, simulation-design, cpp
+
+**Risks:**
+- Degree qualification mismatch: creative multimedia MSc not aligned with aerospace/operations research expectations.
+- Skill gap: while Python beginner-level, researcher lacks optimisation, fleet planning, and simulation modelling backgrounds.
+- Methodological mismatch: this is operations research and systems optimisation, not human-centred design or HCI.
+- Career diversion: moving into aviation optimisation would create significant distance from human-centred XR trajectory.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-simulating-the-airspace-of-the-future-f.md` and link [[opp_tudelft-phd-position-simulating-the-airspace-of-the-future-f]]._

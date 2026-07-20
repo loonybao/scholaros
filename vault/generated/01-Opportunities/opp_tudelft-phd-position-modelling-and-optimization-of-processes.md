@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 17
 urgency: medium
 needs_review: true
 ---
@@ -90,7 +90,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+PhD in chemical process modelling and optimization for valorizing low-grade biogenic waste into high-value products. Core work involves designing novel processes, modelling transition pathways, minimizing energy use, and assessing environmental impacts through computational methods and consortium data validation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 5 |
+| Strategic value | 60 |
+| **Overall** | **17** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
+
+**Risks:**
+- Complete disciplinary mismatch: researcher's degree, thesis, and all publications are in media/XR/HCI; applying to pure chemical engineering PhD would signal either desperation or fundamental confusion about research identity
+- No transferable deep knowledge: while methodological skills exist, the researcher lacks the chemical engineering fundamentals (thermodynamics, reaction kinetics, reactor design) that form the intellectual foundation of this project
+- Career trajectory risk: succeeding in this PhD would not advance the researcher toward their stated target identity (human-centred XR researcher at Aalto/TU Delft for doctoral work); it would create a CV discontinuity and delay entry to target positions
+- Supervisor mismatch: Dr. Somoza-Tornos and the PSE section expect a candidate with chemical engineering intuition and process knowledge; the researcher would require substantial remedial learning
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-modelling-and-optimization-of-processes.md` and link [[opp_tudelft-phd-position-modelling-and-optimization-of-processes]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:39:20.979293Z",
-  "updated_at": "2026-07-19T01:42:09.405910Z",
+  "updated_at": "2026-07-20T16:50:17.673108Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:39:20.979293Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:38:16.307375Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.673108Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,75 @@
     "status": "open",
     "description_text": "Job description\nThe Delft University of Technology is hiring a doctoral candidate on the subject  \"Distribution systems flexible operation under uncertain and incomplete information\". The Ph.D. position is part of the Future Network Services (FNS) Project.\nThe energy transition is transforming the way distribution systems at the low-voltage (LV) level are operated. Expectations are that the integration of distributed energy resources (DERs), also known as flexible assets, will continue to grow. DERs such as PVs, electric vehicles, and electric heat pumps, complemented by smart buildings, will unlock the required energy flexibility at the LV level to address technical issues such as voltage problems and network congestion. The way the flexibility provided by DERs and smart buildings can be exploited (e.g., via local flexibility markets) is still in development with many unresolved challenges. Two of these challenges revolve around data availability and operational uncertainty.\nThis PhD research project aims to investigate how distribution systems can exploit the flexibility of DERs and smart buildings, given limited data availability and increased operational uncertainty. Data availability is limited due to a lack of digitalization or privacy issues, while large uncertainties govern the operation of distribution systems because DERs (e.g., PV and EVs) are weather- and human behaviour-dependent. This PhD aims to address research questions such as how can AI and ML models support the coordinated operation of DERs and smart buildings in the context of limited data? How can AI and ML models increase distribution systems observability via surrogate models.\nThis is a four-year doctoral appointment. You will be jointly supervised by Dr. Pedro P. Vergara (Associate Professor) and Prof. Peter Palensky (Chair IEPG). You will be a member of the section Intelligent Electrical Power Grids in the Faculty of Electrical Engineering, Mathematics, and Computer Science. The project will offer opportunities to collaborate with industrial partners but also with academics from other disciplines, as required (mathematics, operations research). Within the team, we strive to develop methods that are mathematically rigorous and have near-term application potential. We are strong supporters of open science (publishing, source code, data). You will also be expected to assist in teaching activities (student supervision, labs) related to your subject area.\nAbout the Future Network Services (FNS) Project\nThis PhD research is part of the Future Network Services (FNS) 6G Project, led by TNO. The FNS Project aims, among others, to deliver the innovations needed to enable real-time services for the electricity infrastructure via 6G technologies.\nAbout the ESE Department\nThe research in the Department of Electrical Sustainable Energy is inspired by the technical, scientific, and societal challenges originating from the transition towards a more sustainable society and focuses on four areas:\nDC Systems, Energy Conversion and Storage (DCE&S)\nPhotovoltaic Materials and Devices (PVMD)\nHigh Voltage Technologies (HVT)\nIntelligent Electrical Power Grids (IEPG)\nThe Electrical Sustainable Energy Department provides expertise in each of these areas throughout the entire energy system chain. The department owns a large ESP laboratory assembling High Voltage testing, DC Grids testing environment, and large RTDS that is actively used for real-time simulation of future electrical power systems, AC and DC protection and wide-area monitoring and protection.\nThe Intelligent Electrical Power Grid (IEPG) group, headed by Professor Peter Palensky, works on the future of our power system. The goal is to generate, transmit and use electrical energy in a highly reliable, efficient, stable, clean, affordable, and safe way. IEPG integrates new power technologies and smart controls, which interact with other systems and allow for more distributed and variable generation.\nJob requirements\nEssentials:\nBasic knowledge of power systems.\nCompleted an MSc degree in a highly technical related discipline (computer science, electrical engineering, etc.) and you were at the top of your class.\nExcellent analytical skills and a solid basis in machine learning and/or operational research. You can understand literature in both disciplines.\nExcellent oral and written communication skills in English proven by a minimum score of 100 in TOEFL or IELTS of 7.0 per sub-skill (writing, reading, listening, speaking). Candidates do not need to present the test results as part of their application. These results will be requested at a later stage during the selection procedure. For more information see\nhttps://www.tudelft.nl/onderwijs/opleidingen/phd/admission\nYou enjoy performing research. You are independent, self-motivated and eager to learn.\nYou are keen to work with partners to link real-world challenges to fundamental research questions.\nDesirables:\nKnowledge of electrical distribution systems, power flow, and congestion management.\nExperience with optimization methods and scheduling problems as well as optimization packages such as Pyomo.\nYou enjoy programming and have experience with Python, machine learning, command-line tools, version control.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Pedro P. Vergara, Associate Professor, via\np.p.vergarabarrios@tudelft.nl\n. For information about the selection procedure, please contact Carla Jager, Secretary, IEPG group, email:\nc.p.jager@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n1 August 2026\nvia the application button and upload the following documents:\nCV with a list of grades of your qualifying degrees (BSc, MSc)\nMotivational letter that details your motivation and fit to the job requirements. Incomplete applications will not be considered\nYou can address your application to Pedro P. Vergara, Associate Professor.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in AI/ML methods for flexible operation of low-voltage distribution systems with limited data and high uncertainty, involving grid optimization, distributed energy resources, and smart building coordination.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Core research is energy systems optimization and AI/ML for power grids. No connection to human-centred XR, immersive systems, spatial cognition, or collaborative learning. The researcher's domains are entirely orthogonal to this position."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Position requires machine learning and optimization expertise. Researcher has beginner Python and no statistical modelling background. Quantitative research experience is limited to user studies, not power systems. The methodological gap is substantial."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Would expose researcher to ML/AI and optimization, but this represents a fundamental pivot away from human-centred research. Does not close capability gaps aligned with stated target identity (spatial cognition, collaborative immersive systems, wayfinding, human-centred design)."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "TU Delft is a priority-1 institution in target geography (Netherlands). Strong supervision (Dr. Vergara, Prof. Palensky), stable EU-funded project, 4-year funded position. However, research direction diverges sharply from target identity and excludes researcher from HCI/XR community building."
+    },
+    "required_skills": [
+      "python",
+      "machine-learning",
+      "statistics",
+      "optimization-methods"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics"
+    ],
+    "missing_skills": [
+      "machine-learning",
+      "optimization-methods"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher must have completed MSc by start date; posting states 'top of your class' requirement, which is contextual",
+      "Position emphasizes 'solid basis in machine learning and/or operational research' as essential—researcher lacks both",
+      "Python requirement is desirable, not essential; researcher has only beginner level"
+    ],
+    "risks": [
+      "Fundamental domain misalignment: energy systems vs. human-centred immersive systems",
+      "Insufficient ML/optimization background would require substantial ramp-up before productive research",
+      "Trajectory lock-in: accepting this position would establish researcher as power-systems ML scholar, making later transition to HCI/XR difficult",
+      "Research outputs (grid optimization, AI for energy) do not build publication track record in target field",
+      "PhD cohort and collaborators would be energy engineers, not HCI or XR researchers"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:38:16.306376Z",
+    "analysis_input_hash": "7a3fb63c4a145361f82e9fb6781dbcb98412175acc0da4d2cd5ad3bc508d7c7e"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 14,
     "urgency": "high",
     "days_to_deadline": 13,
     "needs_review": true,

@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-24
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -93,7 +93,27 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+PhD in electron optics and transmission electron imaging instrumentation. Core work involves designing MEMS-based projection columns, electron-optical modelling, numerical simulation, microfabrication, and experimental validation integrated into scanning electron microscopes.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 30 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** electron-optics, mems-design, numerical-simulation, physics-modelling, microfabrication, cpp
+
+**Risks:**
+- Complete domain mismatch: electron microscopy instrumentation has no connection to human-centred XR research.
+- Formal degree requirement concern: creative multimedia MSc unlikely to satisfy applied physics/engineering requirement.
+- Skill foundation missing: researcher has no physics, optics, MEMS, or computational physics background.
+- Severe career trajectory deviation: this position would require years of retraining in an unrelated field.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-projection-system-for-te-imaging-in-sca.md` and link [[opp_tudelft-phd-position-projection-system-for-te-imaging-in-sca]]._

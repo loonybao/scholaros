@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 17
 urgency: medium
 needs_review: true
 ---
@@ -94,7 +94,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+
+PhD in nanooptics and photonics designing detector-integrated photonic crystals for hyperspectral spectropolarimetric imaging systems; applications include satellite-based aerosol monitoring and earth observation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 50 |
+| **Overall** | **17** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Major disciplinary shift from immersive systems into nanooptics and space instrumentation.
+- 4-year physics/photonics PhD would derail progression toward HCI/XR researcher identity.
+- Supervisor group (nanooptics, photonics) has no HCI, human-computer interaction, or immersive systems expertise.
+- No pathway from photonic crystal design or earth observation to spatial learning or collaborative immersive systems research.
+- Researcher would require substantial physics and mathematics retraining to be effective in this role.
+- Career outcome (optical engineer) orthogonal to target identity (human-centred XR researcher).
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-metaoptics-for-space-applications.md` and link [[opp_tudelft-phd-position-metaoptics-for-space-applications]]._

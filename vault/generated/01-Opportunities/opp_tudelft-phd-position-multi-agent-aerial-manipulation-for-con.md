@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-02
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 24
 urgency: high
 needs_review: true
 ---
@@ -99,7 +99,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Two PhD positions in autonomous aerial robotics for construction: one on multi-agent planning and control for cable-suspended aerial lifting systems (CAMLs), one on contact-aware planning and control for aerial robotic manipulators (ARMs) using learning-based methods. Both focus on decentralized control, hardware validation, and real-world demonstration of autonomous pavilion assembly.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 25 |
+| Growth value | 12 |
+| Strategic value | 65 |
+| **Overall** | **24** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
+
+**Risks:**
+- Disciplinary barrier: the Autonomous Multi-Robots Lab recruits from robotics, control, and aerospace backgrounds; an HCI/XR graduate would be a misfit in cohort and lab culture
+- Theory deficit: the researcher would struggle with the mathematical foundations (multi-agent coordination, contact dynamics, reinforcement learning theory) that form the intellectual core of both projects
+- Misalignment with stated exclusion: the researcher's target identity explicitly excludes 'pure technical XR engineer'; this position is pure roboticist/control engineer—the opposite direction
+- Supervisor concern: Dr. Sun and Prof. Alonso-Mora expect candidates who have already demonstrated robotics or control competency through coursework and projects; the researcher's profile would raise questions about fit and motivation
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-multi-agent-aerial-manipulation-for-con.md` and link [[opp_tudelft-phd-position-multi-agent-aerial-manipulation-for-con]]._

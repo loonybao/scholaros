@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-22
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: urgent
 needs_review: true
 ---
@@ -95,7 +95,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+
+PhD in battery reuse for grid support applications, focusing on DC charging integration, power electronics, energy management systems, and techno-economic assessment of second-life battery deployment in urban infrastructure.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 12 |
+| Growth value | 3 |
+| Strategic value | 35 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** power-electronics, battery-modelling, electrical-engineering, energy-systems, control-systems
+
+**Risks:**
+- Significant degree mismatch: creative multimedia MSc will not satisfy electrical engineering requirement.
+- Complete domain shift: no background in power electronics, batteries, DC grids, or energy systems.
+- Career misalignment: this is embedded systems and power engineering work, explicitly in researcher's excluded directions.
+- Steep learning curve with uncertain success probability given domain distance.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-second-life-of-batteries-for-grid-suppo.md` and link [[opp_tudelft-phd-position-second-life-of-batteries-for-grid-suppo]]._

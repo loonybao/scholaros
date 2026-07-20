@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-02
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 13
 urgency: high
 needs_review: true
 ---
@@ -91,7 +91,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+PhD in metabolic engineering for cultivated meat: genetic reprogramming of bovine satellite cell lines to improve in vitro culture efficiency, carbon utilization, and medium cost reduction using tools like CRISPR/Cas.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 50 |
+| **Overall** | **13** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Extreme disciplinary shift from immersive systems to molecular biology.
+- 4-year biotech PhD would derail HCI/XR career progression.
+- Supervisor group (biotech/synthetic biology) has no HCI or immersive systems expertise.
+- No pathway from cultivated meat research to spatial learning, collaborative immersive systems, or human-centred XR research.
+- Researcher would require substantial retraining in molecular lab techniques and cellular biology to be effective.
+- Career outcome (biotech engineer/researcher) orthogonal to target identity (human-centred XR researcher).
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-metabolic-engineering-for-cultivated-me.md` and link [[opp_tudelft-phd-position-metabolic-engineering-for-cultivated-me]]._

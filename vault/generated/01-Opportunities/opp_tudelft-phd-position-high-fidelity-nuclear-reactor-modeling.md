@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-20
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 8
 urgency: urgent
 needs_review: true
 ---
@@ -93,7 +93,28 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+PhD in multi-physics modelling and simulation for pebble-bed nuclear reactors, integrating neutron transport, thermo-hydraulics, CFD, and fuel performance to predict reactor behaviour and validate against experimental data.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 30 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** physics-based-modelling, computational-simulation, reactor-physics
+
+**Risks:**
+- Complete domain departure from human-centred research; nuclear physics has no overlap with XR/HCI
+- Substantial preparatory learning required; researcher would spend 1–2 years becoming productive in an unfamiliar field
+- Career path becomes locked into nuclear engineering; pivot back to HCI/XR later would require years of reestablishment
+- PhD thesis and publications would be invisible to HCI/XR hiring committees
+- Supervisor and peer cohort specialise in nuclear engineering; no mentorship in human-centred methods
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-high-fidelity-nuclear-reactor-modeling.md` and link [[opp_tudelft-phd-position-high-fidelity-nuclear-reactor-modeling]]._

@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-16
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 22
 urgency: medium
 needs_review: true
 ---
@@ -77,7 +77,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+PhD position in health monitoring and predictive reliability of power electronic modules within the EU-funded Moore4Power project, combining sensors, data analytics, machine learning, digital twins, and physics-based modelling.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 20 |
+| Growth value | 30 |
+| Strategic value | 50 |
+| **Overall** | **22** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics, mixed-effects-modelling
+
+**Risks:**
+- Significant credential mismatch between user's multimedia background and power electronics domain.
+- Steep ramp-up required to become productive in machine learning, sensors, and reliability engineering.
+- Three-year commitment in power electronics could derail path to immersive HCI doctorate.
+- Limited transferability of skills back to target research direction.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-to-help-shape-the-future-of-reliable-su.md` and link [[opp_tudelft-phd-position-to-help-shape-the-future-of-reliable-su]]._

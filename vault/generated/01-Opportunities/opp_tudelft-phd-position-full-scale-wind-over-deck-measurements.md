@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-13
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 15
 urgency: medium
 needs_review: true
 ---
@@ -90,7 +90,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+PhD project in experimental fluid dynamics focused on full-scale wind field measurements above ship helidedecks using particle/bubble tracking velocimetry to validate drone operational limits and inform numerical simulations.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 10 |
+| Strategic value | 60 |
+| **Overall** | **15** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, cpp
+
+**Risks:**
+- Severe domain mismatch: researcher's expertise in XR, spatial cognition, and collaboration has no application to fluid mechanics and maritime engineering.
+- Career risk: 4-year commitment to non-target field would delay or derail progression toward HCI/XR researcher identity.
+- Limited transferability: fluid dynamics knowledge does not support future spatial learning or immersive systems research.
+- Supervisor/group expertise is orthogonal to researcher's target trajectory.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-full-scale-wind-over-deck-measurements.md` and link [[opp_tudelft-phd-position-full-scale-wind-over-deck-measurements]]._

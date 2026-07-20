@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-02
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 14
 urgency: high
 needs_review: true
 ---
@@ -88,7 +88,27 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+Experimental PhD positions in quantum physics investigating Majorana bound states and qubits in Kitaev chains, combining low-temperature electrical transport, qubit manipulation (fusion, braiding), and entanglement studies in collaboration with materials and theory groups.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 55 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** statistics
+
+**Risks:**
+- Large knowledge and credential gap. User would enter a highly specialized field with no prior physics training documented.
+- Four-year PhD in quantum physics would likely preclude transition to immersive HCI research.
+- Supervisor and group culture are fundamentally physics-focused, not HCI or design-focused.
+- Collaborative partners (materials, theory) are also physics-oriented; no exposure to human-centred research methods.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-positions-in-experimental-physics-research-on-ma.md` and link [[opp_tudelft-phd-positions-in-experimental-physics-research-on-ma]]._

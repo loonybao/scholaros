@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: high
 needs_review: true
 ---
@@ -92,7 +92,27 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+PhD position in advanced Lattice Boltzmann methods for multiphysics simulations in nuclear reactors, emphasizing GPU-based HPC implementation, coupled fluid-flow and thermal-hydraulic modelling, and reactor physics. Pure computational and numerical methodology.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 3 |
+| Strategic value | 40 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** lattice-boltzmann-methods, computational-fluid-dynamics, gpu-optimization, multigrid-methods, neutron-transport-modelling
+
+**Risks:**
+- This position explicitly involves pure computational engineering and GPU optimization—domains researcher has excluded (gpu-optimisation is in target_identity.excluded_directions).
+- No user-facing, HCI, or learning research component.
+- Substantial skill gap: LBM, CFD, HPC optimization require years of specialist training.
+- Career trajectory risk: accepting would move away from human-centred research identity entirely.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-advanced-lattice-boltzmann-methods-for.md` and link [[opp_tudelft-phd-position-advanced-lattice-boltzmann-methods-for]]._

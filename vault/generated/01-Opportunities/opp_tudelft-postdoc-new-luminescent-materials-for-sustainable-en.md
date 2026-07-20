@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-20
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 7
 urgency: urgent
 needs_review: true
 ---
@@ -92,7 +92,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+Postdoctoral position in materials science and optical physics focused on developing narrow-bandgap sulfide luminescent coatings via magnetron sputtering for building-integrated photovoltaic windows. Role involves thin-film synthesis, spectroscopic characterization, and fundamental understanding of luminescence mechanisms and energy transfer.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 8 |
+| Growth value | 3 |
+| Strategic value | 20 |
+| **Overall** | **7** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** magnetron-sputtering, optical-spectroscopy, materials-characterization, solid-state-physics
+
+**Risks:**
+- Fundamental disciplinary mismatch (design vs. physics/chemistry) likely disqualifies at screening stage.
+- No relevant technical background. Researcher lacks both conceptual (solid-state physics) and practical (thin-film synthesis, spectroscopy) skills required.
+- Accepting position represents complete abandonment of HCI/XR research direction, making subsequent PhD applications in human-centred fields highly implausible.
+- 27-month timeline is substantial commitment to field unrelated to target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-new-luminescent-materials-for-sustainable-en.md` and link [[opp_tudelft-postdoc-new-luminescent-materials-for-sustainable-en]]._

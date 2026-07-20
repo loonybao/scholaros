@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-10
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 48
 urgency: medium
 needs_review: true
 ---
@@ -97,7 +97,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
+
+PhD position in AI alignment focusing on formalizing human/legal values, developing evaluation frameworks, and red-teaming for open-weight models in law enforcement contexts. Work involves value taxonomy definition, validation pipelines, and human-AI interaction in high-stakes settings.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 35 |
+| Methodological fit | 52 |
+| Growth value | 55 |
+| Strategic value | 65 |
+| **Overall** | **48** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** python, mixed-effects-modelling, machine-learning, red-teaming, policy-and-regulation-knowledge
+
+**Risks:**
+- Dutch language requirement is critical gap and could be blocker.
+- Machine learning and Python skills underdeveloped for stated requirements.
+- Domain shift away from immersive systems / spatial learning for 4-5 years.
+- High-stakes law enforcement context requires specific policy/regulatory knowledge researcher lacks.
+- Collaboration with Netherlands Police involves sensitive work; unfamiliar organizational context.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-ai-alignment-value-assessment-for-open.md` and link [[opp_tudelft-phd-position-ai-alignment-value-assessment-for-open]]._

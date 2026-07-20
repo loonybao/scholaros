@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:30:30.936080Z",
-  "updated_at": "2026-07-19T01:42:09.441412Z",
+  "updated_at": "2026-07-20T16:50:17.693110Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:30:30.936080Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:38:16.319376Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.693110Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,78 @@
     "status": "open",
     "description_text": "Build the next generation of railway track health assessment.\nJob description\nRailway bridges and the tracks they support are critical components of the railway network, directly affecting safety, reliability, and operational performance. As railway infrastructure ages and traffic demands increase, there is a growing need for innovative methods to continuously assess track condition and predict deterioration. This PhD project addresses this challenge by developing a novel “Health Passport” system for railway tracks on bridges, enabling data-driven condition assessment and supporting more efficient maintenance and asset management strategies.\nThe project aims to develop a comprehensive “Health Passport” framework that integrates monitoring data and physics-based modelling for the health assessment of railway tracks on bridges, using Dutch railway infrastructure as a primary case study. The research will begin with the analysis of baseline and historical data collected from wayside sensors installed on selected instrumented railway bridges. Building on these insights, an on-board measurement system (e.g., based on Axle Box Acceleration (ABA) or Laser Doppler Vibrometry (LDV)) will be designed and implemented to collect additional data for incorporation into the Health Passport.\nAdvanced data analysis techniques, including synchronisation, correlation analysis, feature extraction, and signal processing, will be employed to identify indicators of track and bridge condition. In parallel, physics-based numerical models will be developed to simulate train–track–bridge dynamic interactions and their resulting structural responses. The health condition of railway tracks on bridges will then be characterised through the analysis of vibration responses generated during train passages.\nWith every train passage, a comprehensive set of dynamic response data will be collected, creating a continuously evolving record of how the railway track–bridge system behaves over time. This living database will form the foundation of the Health Passport, enabling long-term condition monitoring, performance assessment, and early detection of potential deterioration.\nAs part of the project, you will collaborate closely with railway industry partners, participate in discussions, and receive feedback on the development and implementation of your research. Limited teaching responsibilities are also included in the position.\nAs a PhD candidate, you will join the Railway Engineering Section within the Department of Engineering Structures at the Faculty of Civil Engineering and Geosciences of TU Delft. You will work closely with ProRail, the Dutch railway infrastructure manager, supporting the testing, validation, and practical implementation of your research outcomes. The supervisory team consists of Prof. Rolf Dollevoet (promotor) and Dr. Zhen Yang (co-promotor).\nThe Department of Engineering Structures focuses on the development of resilient, smart and sustainable structures and infrastructures. Our aim is to meet societal demands in transportation, the energy transition and sustainable reuse. Research themes include dynamics of structures, mechanics of materials related to e.g. climate change, modelling and design of railway systems, multi-scale modelling of pavement materials and structures, reuse of materials, structures and parts of structures, assessment methods for structures, smart monitoring techniques, design methods, replacement and renovation of civil infrastructure and development of new materials and maintenance techniques. Our unique Macro Mechanics Laboratory facilities support full-scale testing, monitoring and modelling of structures to facilitate implementation of innovations. The department delivers both groundbreaking research and world-class education for undergraduate and graduate students. As a team, we represent different backgrounds, skills and views. We foster an inclusive culture, as our combined identities, attitudes and ambitions widen our perspective and make up our strengths.\nJob requirements\nWe are looking for an excellent candidate with the following qualifications, knowledge and skills:\nA master's degree in Civil, Mechanical, Aerospace Engineering, Applied Mathematics/Mechanics, Computer Science or related areas.\nDemonstrated competencies in one or more of these categories: railway/bridge engineering, structural dynamics, vibration analysis, structural health monitoring, data science or related fields.\nProgramming skills in one or more scientific computing environments, such as Python, MATLAB, or similar.\nAbility to collaborate effectively with academic researchers and industry partners.\nExcellent command of English, both verbal and in writing.\nIf your native language is not English and you do not hold a degree from an institution in which English is the language of instruction, you must submit proof of English proficiency from either TOEFL (minimum total score of 100) or IELTS (minimum total score of 7.0).\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Zhen Yang, email:\nz.yang-1@tudelft.nl\n#EUfunded This is an EU funded project, named Europe’s Rail Flagship Project 3 - Holistic and Integrated Asset Management for Europe’s RAIL System (Phase 2), with project number 101324772, within program HORIZON-JU-ER.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n1 September 2026\nvia the application button and upload the following documents:\nA detailed Curriculum Vitae.\nOne-page motivation letter.\nOne-page abstract of your MSc thesis written in English.\nCopies of BSc and MSc degrees and transcripts, and/or publications.\nProof of English language level.\nIf your MSc diploma and transcript are not in Dutch, English, French or German and you will be the selected candidate, the TU Delft will ask you to deliver a certified translation.\nFor information about the application procedure, please contact Ms. Jacqueline Barnhoorn, email:\nA.P.M.Barnhoorn@tudelft.nl\n, or Ms. Claudia Baltussen, email:\nC.Y.Baltussen@tudelft.nl\n.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in structural health monitoring and data-driven condition assessment for railway tracks on bridges, combining wayside/on-board sensors, signal processing, vibration analysis, and physics-based modelling.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 25,
+      "rationale": "Position is infrastructure monitoring, not human-centred immersive systems. However, the framing around 'digital twin' and continuous monitoring systems shares conceptual DNA with researcher's master's work (digital twin campus orientation). Both involve spatial data integration and real-world system representation. Thematic overlap is weak but present; primarily methodological."
+    },
+    "methodological_fit": {
+      "score": 55,
+      "rationale": "Position requires experimental design, signal processing, data analysis, Python/MATLAB, structural dynamics, and sensor integration. Researcher has intermediate experimental-design and quantitative-research skills. Beginner Python can be developed. Key gap: researcher has no background in structural dynamics, vibration analysis, or sensor systems. However, data synthesis and real-world validation approaches are methodologically adjacent to immersive systems evaluation."
+    },
+    "growth_value": {
+      "score": 40,
+      "rationale": "Would develop skills in sensor integration, signal processing, data-driven analysis, and real-world system validation. These translate partially to immersive systems research: sensor fusion for spatial understanding, data collection methodology, and validation against ground truth (real-world wayfinding). Not direct capability gap closure, but related investigative methods."
+    },
+    "strategic_value": {
+      "score": 60,
+      "rationale": "TU Delft is priority-1 institution (Netherlands). 4-year funded EU-backed position (Horizon Rail Flagship Project 3) with strong stability. Supervisor (Prof. Rolf Dollevoet) and co-supervisor (Dr. Zhen Yang) are well-regarded. Close collaboration with ProRail (Dutch railway operator) provides industrial grounding. However, research community is civil/structural engineering, not HCI/XR; limited networking benefit in target field."
+    },
+    "required_skills": [
+      "experimental-design",
+      "python",
+      "signal-processing",
+      "vibration-analysis"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "python"
+    ],
+    "missing_skills": [
+      "signal-processing",
+      "vibration-analysis",
+      "structural-dynamics",
+      "sensor-integration"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires MSc in Civil, Mechanical, Aerospace Engineering, Applied Mathematics, Computer Science, or related areas—researcher has MSc in multimedia; this is a contextual mismatch but not disqualifying if competencies align",
+      "'Demonstrated competencies in railway/bridge engineering, structural dynamics, vibration analysis, SHM, data science, or related fields' required—researcher has none in primary domains; limited data science experience",
+      "Python, MATLAB required; researcher has beginner Python",
+      "If native language is not English, must submit TOEFL/IELTS—researcher likely meets this (MSc in Malaysia, publications in English)"
+    ],
+    "risks": [
+      "Limited domain-specific foundation: researcher lacks structural engineering, vibration analysis, and sensor expertise; would require 6–12 months technical preparation",
+      "Research outputs (railway track health monitoring) are not visible in HCI/XR venues; does not build target field visibility",
+      "Supervisor and peer cohort are civil/structural engineers, not HCI researchers; limited mentorship in human-centred design or evaluation",
+      "Position emphasises real-world infrastructure validation and industry collaboration (ProRail), which is valuable but not aligned with immersive systems research culture",
+      "Career path diverges toward civil engineering; return to HCI/XR later would require deliberate repositioning"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.72,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:38:16.318376Z",
+    "analysis_input_hash": "eba01d59b83d783b7fee396e1e90d3782e02bb6148567aeffe297428b27cd82f"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 43,
     "urgency": "medium",
     "days_to_deadline": 44,
     "needs_review": true,

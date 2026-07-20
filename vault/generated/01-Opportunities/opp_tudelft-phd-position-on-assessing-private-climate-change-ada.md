@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 52
 urgency: medium
 needs_review: true
 ---
@@ -91,7 +91,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.68_
+
+PhD on private household adaptation to climate hazards combining structured household surveys (70%) with Agent-Based Modeling (30%) to assess adaptation effectiveness and limits. Research examines soft/hard barriers (behavioral, economic, social, institutional) and projects adaptation uptake under multiple climate hazards and constraints across European cases.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 22 |
+| Methodological fit | 72 |
+| Growth value | 58 |
+| Strategic value | 72 |
+| **Overall** | **52** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** python, mixed-effects-modelling
+
+**Risks:**
+- Thematic credibility: the researcher would need to convincingly articulate why a climate adaptation project fits their research identity; lack of prior publications in social-environmental systems could raise questions in interview
+- Python competency gap: while learnable, the researcher would need to rapidly advance from beginner to competent within months to contribute to ABM development on schedule
+- Domain shift: moving from immersive learning to climate adaptation behavior is substantial; future employer may view this as unfocused or opportunistic rather than strategic career building
+- Cohort mismatch: the ADELE team includes economists, social scientists, and policy researchers; an immersive systems background may feel marginal to team culture, though the multi-disciplinary nature reduces this risk
+- Supervisor expectation: Prof. Filatova may prioritize candidates with prior environmental science or economics coursework; the researcher's multimedia background could be viewed as unconventional
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-on-assessing-private-climate-change-ada.md` and link [[opp_tudelft-phd-position-on-assessing-private-climate-change-ada]]._

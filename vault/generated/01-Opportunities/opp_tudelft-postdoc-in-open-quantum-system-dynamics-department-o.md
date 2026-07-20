@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-24
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: medium
 needs_review: true
 ---
@@ -91,7 +91,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+
+ERC-funded postdoctoral position in quantum nanoscience focused on spin dynamics of molecular and atomic spins on surfaces. Research involves first-principles computational approaches to model spin-phonon couplings and relaxation times, with emphasis on theoretical methodology development.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 2 |
+| Strategic value | 20 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics
+
+**Risks:**
+- Severe domain mismatch. Researcher lacks foundational training in quantum mechanics and solid-state physics at the depth required for this role.
+- Disciplinary background (creative multimedia) may not satisfy hiring committee's doctoral training expectations.
+- Accepting this role would represent abandonment of HCI/XR research direction, creating unsurmountable credibility gap for future PhD applications in target field.
+- No publication history in quantum physics or computational chemistry. Would enter as complete novice despite postdoc seniority level.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-open-quantum-system-dynamics-department-o.md` and link [[opp_tudelft-postdoc-in-open-quantum-system-dynamics-department-o]]._

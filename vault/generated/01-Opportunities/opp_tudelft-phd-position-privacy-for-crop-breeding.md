@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-20
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 14
 urgency: urgent
 needs_review: true
 ---
@@ -93,7 +93,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+PhD in privacy-preserving machine learning for genomic sequence models in crop breeding. Research focuses on memorization risk in AI models, data privacy, and bioinformatics at the intersection of computer science and biology.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 15 |
+| Growth value | 8 |
+| Strategic value | 35 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** machine-learning-algorithms, bioinformatics, genomics, privacy-preserving-computation
+
+**Risks:**
+- Significant domain shift away from HCI and XR; requires retraining in ML, bioinformatics, and genomics.
+- Degree qualification uncertainty: creative multimedia MSc may not satisfy computer science requirement.
+- No prior exposure to bioinformatics or privacy-preserving ML; steep learning curve.
+- Career trajectory misalignment: this position does not advance human-centred XR research agenda.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-privacy-for-crop-breeding.md` and link [[opp_tudelft-phd-position-privacy-for-crop-breeding]]._

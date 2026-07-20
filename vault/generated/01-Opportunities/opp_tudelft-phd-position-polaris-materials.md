@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-16
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -74,7 +74,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+PhD in thermal management of nanomaterials for highly integrated electrical systems, based in the Microelectronics Department. Core work involves cleanroom synthesis, thermal testing, and materials characterization with no human-centred or immersive systems component.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 40 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cleanroom-processing, thermal-analysis, materials-characterization, power-electronics, cpp
+
+**Risks:**
+- Misalignment with target identity: position is hardware/materials focused, not human-centred systems research.
+- Degree mismatch: creative multimedia MSc may not satisfy department requirements.
+- Skill gap: no materials, thermal, or cleanroom background; steep learning curve.
+- Career risk: taking this role would move researcher away from human-centred XR trajectory.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-polaris-materials.md` and link [[opp_tudelft-phd-position-polaris-materials]]._

@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-20
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 13
 urgency: urgent
 needs_review: true
 ---
@@ -84,7 +84,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+
+Postdoctoral position investigating information transfer in dynamical systems across molecular to macroscopic scales, combining theoretical biophysics, stochastic dynamics, and information theory with experimental collaborations spanning cell biology to animal behaviour.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 8 |
+| Strategic value | 60 |
+| **Overall** | **13** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** theoretical-biophysics, information-theory, stochastic-dynamics, undergraduate-teaching-mentorship
+
+**Risks:**
+- Fundamental disciplinary mismatch: physics/biophysics vs. human-centred HCI.
+- Theoretical focus with limited user-facing component; unlikely to develop practical collaborative or learning systems research.
+- Two-year commitment to theoretical modelling would create strong specialization away from design-science and user research.
+- Researcher's skillset (VR development, multiplayer systems, user evaluation) has no application in theoretical biophysics.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-theoretical-biophysics-across-scales.md` and link [[opp_tudelft-postdoc-theoretical-biophysics-across-scales]]._

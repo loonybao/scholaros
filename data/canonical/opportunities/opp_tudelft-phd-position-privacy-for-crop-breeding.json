@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:41:13.584281Z",
-  "updated_at": "2026-07-19T01:42:09.489387Z",
+  "updated_at": "2026-07-20T16:50:17.736112Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:41:13.584281Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:41:24.662694Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.736112Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,72 @@
     "status": "open",
     "description_text": "Do you want to contribute to privacy-preserving models for crop breeding? Join the Pattern Recognition and Bioinformatics section and work at the interface of model design and biological applications.\nJob description\nGenome sequence models are increasingly used in plant breeding and crop improvement pipelines. But training such models on private genomic data carries a risk: rather than learning general rules of sequence-function relationships, a model may simply memorize segments of the genomes it was trained on and later reproduce these. Since training data may be commercially sensitive, we need to understand when and why sequence models reproduce their training data and how to prevent it.\nThis project aims to characterize and mitigate memorization risk in sequence models to ensure privacy of training data. The PhD student will develop methods to quantify the degree to which a trained model reproduces specific training sequences, investigate how properties specific to plant genomes shape memorization behavior, design strategies that prevent leakage, and translate these findings into practical guidance.\nThe student will be embedded in the Pattern Recognition and Bioinformatics section, INSY department, TU Delft. In this project we work together with KeyGene, a research company for the development of breakthrough technology innovation for crop improvement.\nJob requirements\nTo be considered for the position you must:\nhave a master’s degree (or equivalent) in Computer Science.\nhave proven affinity with (and preferably a degree in) Biology.\nhave strong computational skills in model design, implementation and testing.\nhave experience with courses and projects in Bioinformatics.\nhave good communication skills in English (both verbal and written).\nbe eager to push yourself to learn new skills, exchange knowledge and collaborate where possible.\nbe willing to teach and guide students. Prior teaching experience is appreciated.\nTo thrive as a PhD candidate, it’s crucial to have a strong research mindset driven by curiosity and passion for your topic. Reflecting on your motivation for pursuing a PhD trajectory is essential, as this path involves unique challenges and uncertainties inherent to scientific exploration. Success requires dedication, adaptability, the ability to analyze complex problems, manage your time effectively, innovate and stay resilient under pressure.\nCombined with the ability and willingness to work independently and collaborate well, these qualities are indispensable for a fulfilling PhD journey.\nThese experiences will build you as an independent researcher, expand your professional network, and pave the way for diverse career\npave the way for diverse career paths, inside or outside academia.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. Jasmijn Baaijens, via\nj.a.baaijens@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n20 July 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter. The letter of motivation should summarise (I) why you want to do a PhD, (II) why the project is of interest to you, (III) evidence of suitability for the job, and (IV) what you hope to gain from the position.\nAcademic transcripts (both MSc and BSc degrees)\nMSc thesis (link or PDF)\nYou can address your application to Dr. Jasmijn Baaijens.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in privacy-preserving machine learning for genomic sequence models in crop breeding. Research focuses on memorization risk in AI models, data privacy, and bioinformatics at the intersection of computer science and biology.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "No connection to human-centred design, immersive systems, spatial cognition, learning, wayfinding, or collaboration. This is computational biology and machine learning."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Both involve research and model development, but the researcher's methodological strength is in experimental HCI evaluation, user studies, and mixed-methods. This position requires deep expertise in machine learning model design, bioinformatics, and computational analysis—domains the researcher has not engaged with substantively."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "Would not develop capabilities in human-centred systems, spatial learning, or collaborative interaction design. ML/AI focus could theoretically support future work in intelligent XR systems, but only at a tangential level and not aligned with stated target identity."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "TU Delft is priority-2 institution and well-funded (EU collaboration). However, the research trajectory diverges significantly from target identity. No supervisor profile information provided; department (Pattern Recognition & Bioinformatics) is not an HCI-focused group."
+    },
+    "required_skills": [
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "machine-learning-algorithms",
+      "bioinformatics",
+      "genomics",
+      "privacy-preserving-computation"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc in Computer Science required; applicant has MSc by Research in Creative Multimedia—may not meet formal requirements.",
+      "Position requires 'proven affinity with and preferably a degree in Biology'—applicant has no biology background.",
+      "Strong background in bioinformatics courses and projects required—no evidence in profile."
+    ],
+    "risks": [
+      "Significant domain shift away from HCI and XR; requires retraining in ML, bioinformatics, and genomics.",
+      "Degree qualification uncertainty: creative multimedia MSc may not satisfy computer science requirement.",
+      "No prior exposure to bioinformatics or privacy-preserving ML; steep learning curve.",
+      "Career trajectory misalignment: this position does not advance human-centred XR research agenda."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:41:24.661695Z",
+    "analysis_input_hash": "e54604491b0181ad6bcbf379c0f2c4e26caa070f4f6b891415dbe94698683a13"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 14,
     "urgency": "urgent",
     "days_to_deadline": 1,
     "needs_review": true,

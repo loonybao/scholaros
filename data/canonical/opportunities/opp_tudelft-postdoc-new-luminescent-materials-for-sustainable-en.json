@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:37:15.937844Z",
-  "updated_at": "2026-07-19T01:42:09.549560Z",
+  "updated_at": "2026-07-20T16:50:17.784153Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:37:15.938842Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:45:11.744261Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.784153Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,73 @@
     "status": "open",
     "description_text": "Imagine windows that generate electricity. You will use reactive magnetron sputtering to develop Yb³⁺-doped narrow-bandgap sulfide luminescent coatings that turn glass into solar power.\nJob description\nIn this postdoc research project you will develop luminescent materials for building-integrated photovoltaic (BIPV) technology. You will make and study new types of strongly absorbing sulphide luminescent solar absorber materials, just a few hundred nm thick, that can convert the UV and visible part of the solar spectrum into infra-red luminescence. When applied as a coating to windows, these materials can enable a cost-effective electricity-generating PV-window following the principle of a Luminescent Solar Concentrator (LSC). An LSC harvests sunlight by absorbing, re-emitting, and subsequently guiding light, like in an optical fibre, to solar cells integrated in the window pane that convert the light into electrical power.\nIn this project you use reactive DC, RF or pulsed magnetron sputtering, the workhorse technology of the glass coating industry, to make the luminescent materials. Targeted materials are Yb³⁺-doped inorganic semiconducting sulphide materials, emitting in the infra-red spectral range, where silicon solar cells have high conversion efficiency.\nTo successfully develop new luminescent absorber materials, it is crucial that you gain a fundamental understanding of the physical processes underlying their luminescence mechanism. To give you an idea, one of the scientific challenges is to understand how generated electron-hole pairs can transfer their energy to the luminescence centres. The strongest possible absorptions in an inorganic material are so-called bandgap absorptions, in which an electron is excited from the valence band (VB) to the conduction band (CB), leaving behind a hole in the VB. Although there are many materials (hosts) with a small bandgap that absorb the entire visible part of the solar spectrum (black materials), very few show efficient luminescence of doping ions. Such host-to-doping-ion transfer is often described as a resonant process between (self-trapped) exciton emission and doping-ion absorption. The materials in this project are selected to have a small exciton binding energy, making exciton-mediated transfer inefficient. Instead, sequential transfer of first the electron and then the hole is the anticipated transfer process to the Yb³⁺ luminescence centres.\nThe fundamental insights are obtained first by time- and temperature-resolved optical and luminescence spectroscopy, combined with a variety of techniques to analyse the structure, (defect) composition and morphology of the films. Secondly, fundamental understanding involves data interpretation and model development using knowledge of solid-state physics, optics and quantum mechanics. Ideally, the obtained insights will be used to select other materials with improved properties during your project.\nThe Energy Materials group at Delft University of Technology has more than 30 years of experience in luminescent materials research and collaborates with a start-up company and the glass coating industry to facilitate a route to large-scale application of the coatings as windows. You will work in a team, led by your supervisor, alongside Phd’s, technicians, a start-up company and the glass coating industry.\nJob requirements\nYou are a skilful experimentalist with perseverance and patience, motivated to make new materials. Please show in your application that you have:\na PhD in physics, inorganic (physical) chemistry or a similar field\nexperience with magnetron sputtering\na proven interest in, and experience with, experimental (materials) research\nExperience with any of the topics mentioned in the job description is beneficial but not mandatory.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDuration of contract is 27 months. Temporary.\nA job of 40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Trudy Beentjes\nG.A.H.M.Beentjes@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n20 July 2026\nvia the application button and upload the following documents:\na\nCV\na motivation letter describing your experience with magnetron sputtering and your experimental skills in general\na short description of your PhD research work\nYou can address your application to Erik van der Kolk.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position in materials science and optical physics focused on developing narrow-bandgap sulfide luminescent coatings via magnetron sputtering for building-integrated photovoltaic windows. Role involves thin-film synthesis, spectroscopic characterization, and fundamental understanding of luminescence mechanisms and energy transfer.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "No thematic connection. Position is materials physics for photovoltaic technology. Research questions concern luminescence mechanisms, exciton dynamics, and host-dopant energy transfer at nanoscale—entirely orthogonal to human-centred XR, immersive learning, and spatial cognition. No shared research identity or application context."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Negligible methodological overlap. Position requires experimental synthesis (magnetron sputtering), spectroscopic characterization (time-resolved luminescence, absorption), structural analysis, and solid-state physics reasoning. Researcher's expertise is in XR systems design, user studies, and collaborative interaction design. No transferable methods or technical toolkit."
+    },
+    "growth_value": {
+      "score": 3,
+      "rationale": "Position offers zero value toward researcher's capability gaps or research identity. Would require PhD-level retraining in solid-state physics, optics, and materials characterization. Directly contradicts target identity (human-centred XR/HCI, not materials physics)."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "TU Delft is Priority 1 institution. 27-month position in established materials group with 30+ years experience in luminescent materials, industrial partnerships (glass coating industry, startup), and clear path-to-application. Strong research environment. However, domain is orthogonal to researcher's target field, making institutional prestige insufficient to overcome career-direction misalignment."
+    },
+    "required_skills": [
+      "magnetron-sputtering (not in taxonomy)",
+      "luminescence-spectroscopy (not in taxonomy)",
+      "solid-state-physics (not in taxonomy)"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "magnetron-sputtering",
+      "optical-spectroscopy",
+      "materials-characterization",
+      "solid-state-physics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires PhD in 'physics, inorganic (physical) chemistry or similar field'—researcher's MSc by Research is in multimedia/design. Disciplinary background does not qualify.",
+      "Posting lists 'experience with magnetron sputtering' as required; researcher has none.",
+      "Posting emphasizes 'proven interest in and experience with experimental (materials) research'—researcher has no materials-research background.",
+      "Postdoc position assumes completed PhD; researcher mid-thesis."
+    ],
+    "risks": [
+      "Fundamental disciplinary mismatch (design vs. physics/chemistry) likely disqualifies at screening stage.",
+      "No relevant technical background. Researcher lacks both conceptual (solid-state physics) and practical (thin-film synthesis, spectroscopy) skills required.",
+      "Accepting position represents complete abandonment of HCI/XR research direction, making subsequent PhD applications in human-centred fields highly implausible.",
+      "27-month timeline is substantial commitment to field unrelated to target identity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.96,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:45:11.743261Z",
+    "analysis_input_hash": "b90164a7202596de491340f9f47fe446c0fe36f01a7bda06437689eee058d3b8"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 7,
     "urgency": "urgent",
     "days_to_deadline": 1,
     "needs_review": true,

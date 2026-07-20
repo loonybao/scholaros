@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 25
 urgency: high
 needs_review: true
 ---
@@ -102,7 +102,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.91_
+
+Postdoctoral position in the WARRANT Horizon Europe project conducting functional analysis, reliability assessment, and validation of digital systems for waterborne transport, addressing AI, IoT, autonomous shipping, and cybersecurity in maritime systems.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 12 |
+| Methodological fit | 18 |
+| Growth value | 25 |
+| Strategic value | 72 |
+| **Overall** | **25** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** fault-diagnosis-methodologies, reliability-assessment, safety-critical-systems-modelling, maritime-systems-knowledge
+
+**Risks:**
+- Research domain is safety-critical systems and maritime engineering, orthogonal to human-centred XR.
+- One-year contract is shorter, but specialization risk remains: fault tolerance and dependability are niche areas.
+- No user research, collaborative learning, or immersive interaction component.
+- SAFE-NET group focus on formal dependability assessment does not build HCI or user-facing research capability.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-safe-waterborne-digital-systems.md` and link [[opp_tudelft-postdoc-safe-waterborne-digital-systems]]._

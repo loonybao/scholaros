@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:38:58.508648Z",
-  "updated_at": "2026-07-19T01:42:09.413550Z",
+  "updated_at": "2026-07-20T16:50:17.679106Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:38:58.508648Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:38:16.309377Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.679106Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,71 @@
     "status": "open",
     "description_text": "Investigating Experimental Thermal-Hydraulics in Advanced Nuclear Reactor Technology for Land-based and Maritime Applications\nPerform experimental research and develop accurate datasets that help shape the next generation of micro nuclear reactors for land-based and maritime applications. At TU Delft, you will design and operate unique thermo-hydraulic experiments that directly contribute to the safety and deployment of advanced reactor technology. You will work in an interdisciplinary consortium while collaborating closely with a second PhD researcher focused on reactor modelling and safety analysis.\nJob description\nTU Delft is part of a consortium led by Allseas that is developing a micro High-Temperature Reactor (HTR), being a pebble-bed design, for land-based and maritime applications. Within this project, you will generate experimental data that support reactor safety assessment and model validation.\nAs a PhD candidate, you will investigate passive heat removal and reactor behavior during water ingress scenarios in the MARLIN pebble-bed reactor concept. You will design, build and operate a non-nuclear experimental facility consisting of a tiltable reactor vessel with heated pebbles and advanced measurement systems.\nYou will perform experiments that vary pebble power, vessel orientation, water flow and pebble configurations to study heat transfer, natural convection, boiling phenomena and hotspot formation. Experiments will include extreme maritime conditions with vessel inclinations up to 90 degrees.\nA second research line focuses on the influence of ship motions such as roll, pitch and heave on pebble-bed behavior. You will develop dedicated experimental setups to measure pebble movement, collision dynamics and local density variations under non-stationary conditions.\nThe validated datasets you generate will directly support the adjoining PhD project on high-fidelity reactor modelling and safety analysis. Together, both positions contribute to the safe deployment of advanced microreactors.\nYou will join TU Delft’s nuclear engineering community and have access to state-of-the-art laboratory facilities, international collaborators and doctoral education programmes. The position offers opportunities to develop expertise in thermal hydraulics, experimental methods, reactor safety and nuclear energy technologies.\nJob requirements\nYou hold, or will soon obtain, a Master's degree in applied physics, mechanical engineering or a related field.\nYou have a strong interest in experimental research and laboratory work.\nYou have a proven interest/background in thermal hydraulics (fluid dynamics and heat transfer).\nYou enjoy designing, building and operating experimental facilities.\nYou can work collaboratively in multidisciplinary research teams.\nYou communicate effectively in spoken and written English.\nYou work proactively, accurately and in a structured manner.\nYou are interested in advanced nuclear energy systems and reactor safety.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. Martin Rohde, associate professor, via\nm.rohde@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n3 August 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nPlease also upload copies of your university degree, transcripts for your BSc and MSc programmes, your MSc thesis and, if applicable, scientific publications. References may be checked as part of the selection procedure.\nYou can address your application to Dr. Martin Rohde, associate professor.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nApplying for an exemption for specific research and educational areas is an obligatory part of the selection procedure for this vacancy. This exemption must be obtained from the Ministry of Education, Culture and Science (OCW) before an employment contract is agreed upon. Click\nhere\nfor more information.\nPlease do not contact us for unsolicited services"
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in experimental thermal-hydraulics for advanced pebble-bed nuclear reactor design, involving non-nuclear test facilities, heat transfer, boiling phenomena, and maritime motion effects.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Core research is experimental physics and reactor thermal-hydraulics. No overlap with human-centred XR, collaborative immersive systems, spatial learning, wayfinding, or any HCI domain. Entirely physics/engineering-focused."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Position centres on experimental design and laboratory operation. While researcher has intermediate experimental-design experience (user studies), this domain is nuclear physics and mechanical engineering, not human subjects research. Methodologies are incommensurable."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "Would develop expertise in experimental physics and reactor technology. No alignment with researcher's target capability gaps (spatial cognition measurement, immersive interaction design, collaborative system evaluation, HCI theory)."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "TU Delft is priority-1 institution and location is preferred (Netherlands). 4-year funded position with strong academic standing. However, nuclear engineering community is isolated from HCI/XR ecosystem; research has no visibility in target field."
+    },
+    "required_skills": [
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "thermal-hydraulics",
+      "nuclear-engineering"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires 'strong interest in experimental research and laboratory work'—researcher has experience but in human subjects, not physics",
+      "Background requirement is applied physics or mechanical engineering; researcher is from multimedia/HCI faculty",
+      "'Proven interest/background in thermal hydraulics' is listed as essential; researcher has none"
+    ],
+    "risks": [
+      "Complete domain departure: nuclear physics vs. human-centred XR",
+      "Experimental expertise is domain-specific; nuclear lab skills do not transfer to immersive systems research",
+      "Career trajectory would be locked into nuclear engineering; return to HCI would be difficult to justify",
+      "No publications, collaborations, or professional network benefit in target field",
+      "Supervisor and peer group have no HCI expertise or exposure"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:38:16.308376Z",
+    "analysis_input_hash": "d24a1fd8570d71e80acedd1d885a8436ee6021e3aaac0844c6b58a41c933771f"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 6,
     "urgency": "high",
     "days_to_deadline": 15,
     "needs_review": true,

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:31:49.950830Z",
-  "updated_at": "2026-07-19T01:42:09.520768Z",
+  "updated_at": "2026-07-20T16:50:17.762153Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:31:49.950830Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:44:05.897127Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.762153Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,71 @@
     "status": "open",
     "description_text": "Job description\nEnergy storage is an indispensable factor for bridging the electricity consumption with the intermittent renewable energy supply. Electricity grids face significant challenges in balancing economic growth with sustainability targets. Rapid electrification across industrial, transport, commercial, and residential sectors strains existing grid infrastructure, leading to congestion and transmission bottlenecks. These issues limit the integration of renewable energy. Long-duration energy storage (LDES), that provide 8+ hours of storage, can balance intermittent production and demand, thereby stabilizing the grid, reducing reliance on fossil fuels, and ensuring more effective use of renewable energy. TenneT expects 4.9 GW of large-scale battery storage is required in The Netherlands by 2030, while there was only 0.14 GW installed in 2023. Hence, a rapid scale-up of LDES is needed.\nIn that light, we started a collaborative project, with universities (TU Delft, UTwente, TU/Eindhoven, HAN) and companies (AQUABATTERY, Elestor, Exergy Storage, RWE, Nobian), to develop batteries for long-duration energy storage. Specifically, this postdoc position focuses on acid-base flow batteries, and more specifically the stack engineering in this system. Acid-base flow batteries are based on dissociating water into acid and base during charging, using bipolar membranes, and recombining acid and base in this membrane to retrieve electrical energy.\nWe’re looking for an excellent postdoc, with strong membrane development skills, to study development of bipolar membranes for acid-base flow batteries. In close collaboration with researchers at TU/Eindhoven and AQUABATTERY, we'll develop new bipolar membranes with high water dissociation efficiency, low resistance, and high selectivity. You'll develop new materials and new configurations to improve the membrane performance, and you'll analyze the directions for improvement. You'll also study possible other membrane-related aspects and other applications for the same materials. Part of the job is to educate students in courses related to the research.\nIn case you're interested in working with flow batteries for long-duration energy storage, and not particularly in bipolar membrane development, please feel free to also look at other vacancies posted at the same time in the framework of the REDOX BLEND project.\nJob requirements\nWe’re looking for a candidate with:\nA PhD degree, in chemical engineering or applied chemistry\nProven experience in working with bipolar membranes\nProven experience in nanostructures and catalytic membranes\nAn excellent publication record\nPro-active and creative mind-set\nFluent in English. Speaking Dutch is a plus\nStarting date October 2026\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDuration of contract is 2 year. Temporary.\nA job of 32-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact David Vermaas, via\nD.A.Vermaas@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n28 July 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to David Vermaas.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Post-doctoral position in bipolar membrane development for acid-base flow battery systems, designing and optimizing membranes with high water dissociation efficiency and selectivity for long-duration energy storage, with teaching responsibilities.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Core domain is electrochemistry, membrane materials science, and energy storage engineering. Completely disconnected from human-centred immersive systems, spatial cognition, collaborative learning, or HCI. No user-facing or human-centred component."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Methodology emphasizes materials characterization, electrochemical testing, and design optimization of synthetic membranes. User's experimental-design and user-studies skills are oriented toward HCI evaluation, not materials synthesis or electrochemistry. Fundamentally different scientific practice and lab environment."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Skill development would be in membrane chemistry, electrochemistry, and energy systems—zero relevance to immersive systems design, spatial learning, or collaborative HCI research. No capability transfer to target identity."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "TU Delft (priority-1 institution), part of large collaborative REDOX BLEND project with universities and industry partners, multi-year funding security. Faculty of Applied Sciences is well-resourced. Strong institutional standing. However, research direction (battery membranes) is entirely outside user's target domain."
+    },
+    "required_skills": [
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "statistics",
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD degree in chemical engineering or applied chemistry—user holds MSc by Research in Creative Multimedia. Does not meet baseline credential requirement.",
+      "Explicit requirement: 'proven experience in working with bipolar membranes'—user has none.",
+      "Explicit requirement: 'proven experience in nanostructures and catalytic membranes'—user has no background.",
+      "Post-doctoral level position; user is currently MSc candidate. Career-stage mismatch."
+    ],
+    "risks": [
+      "User does not currently hold a PhD; post-doctoral positions are post-PhD level roles.",
+      "Credential gap is substantial: position targets chemical engineers and applied chemists; user is multimedia-trained.",
+      "Two-year contract (temporary) offers less career continuity than doctoral track.",
+      "Substantive domain pivot away from immersive HCI research; switching back later would require new PhD in HCI."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:44:05.897127Z",
+    "analysis_input_hash": "82bb587520b56dd26c9ff17d1ec095d15474c3e8868ec7125c6743c55c92dfa3"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 14,
     "urgency": "high",
     "days_to_deadline": 9,
     "needs_review": true,

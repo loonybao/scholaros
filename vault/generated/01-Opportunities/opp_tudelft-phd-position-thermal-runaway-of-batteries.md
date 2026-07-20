@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 14
 urgency: medium
 needs_review: true
 ---
@@ -95,7 +95,26 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+PhD position in battery thermal safety for naval vessels, focused on modelling thermal runaway mechanisms, design interventions, and damage mitigation through a combination of computational and experimental work.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 5 |
+| Strategic value | 45 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** mixed-effects-modelling, statistics
+
+**Risks:**
+- User would be entering a discipline (thermal battery management) where they have no demonstrated background or publication history, despite strong general lab skills.
+- Three years into a PhD in this domain would likely preclude returning to immersive HCI research; career trajectory risk is high.
+- Supervisor and group culture are engineering-focused, not human-centred design-focused.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-thermal-runaway-of-batteries.md` and link [[opp_tudelft-phd-position-thermal-runaway-of-batteries]]._

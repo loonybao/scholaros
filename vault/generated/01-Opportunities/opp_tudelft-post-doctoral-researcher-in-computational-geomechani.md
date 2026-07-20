@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-29
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 17
 urgency: high
 needs_review: true
 ---
@@ -98,7 +98,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+
+Post-doctoral position in computational geomechanics developing stochastic hydro-mechanical modelling frameworks for gas migration in clay, integrating uncertainty quantification, deep learning for heterogeneous materials, and upscaled physics-based models for repository performance assessment.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 20 |
+| Strategic value | 45 |
+| **Overall** | **17** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics, mixed-effects-modelling
+
+**Risks:**
+- User does not currently hold a PhD; this is a post-doctoral position. Career-stage mismatch.
+- Credential gap is significant: computational geomechanics typically requires training in civil/mechanical engineering or geosciences, not multimedia.
+- If user pursued PhD elsewhere first and then applied: one-year contract (potentially renewable) offers limited tenure security compared to doctoral track.
+- Substantive domain shift would consume research momentum away from target immersive HCI trajectory.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-post-doctoral-researcher-in-computational-geomechani.md` and link [[opp_tudelft-post-doctoral-researcher-in-computational-geomechani]]._

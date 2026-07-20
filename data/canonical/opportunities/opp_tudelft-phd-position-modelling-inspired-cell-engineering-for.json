@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:40:39.712062Z",
-  "updated_at": "2026-07-19T01:42:09.472046Z",
+  "updated_at": "2026-07-20T16:50:17.718106Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:40:39.712062Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:40:28.949918Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.718106Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,75 @@
     "status": "open",
     "description_text": "Are you ready to combine innovative computational approaches with cutting-edge genetic tools to engineer the next generation of cell lines for cost-effective, scalable, delicious cruelty-free meat?!\nJob description\n‘Cultivated meat’, the production of genuine meat products from in vitro culture of animal cells, is an emerging biotechnology within the field of cellular agriculture with the potential to revolutionise food production from both an environmental and ethical perspective. Unfortunately, higher eukaryotic cells in their unmodified state have severe limitations with respect to in vitro culture, presenting major challenges for the scalability of cultivated meat bioprocesses. These include slow proliferation rates, sensitivity to shear stress and a marked preference for adherent growth, amongst others.\nCell engineering offers a potential solution to develop more scalable cell lines, but is held back by a limited understanding of the conditions that cells experience in large-scale cultures. We are hiring for a PhD student to join the group for a fully-funded project of 4 years to tackle this problem!\nWithin the Flack and Haringa groups, you will develop computational tools (such as compartment models and CFD simulations) to model large-scale animal cell culture in bioreactors, and use your models to design and develop scale-down systems for cell culture that mimic the heteregenous environment cells experience at large scale. You will then engineer bovine satellite cell lines with a variety of new and improved phenotypes, relating to (for example) shear stress resistance, metabolite gradient tolerance, and metabolic efficiency, demonstrating their performance first in your scale-down systems, and later in large bioreactors.\nWithin the scope of computational modelling and cell engineering for cultivated meat, there will be flexibility to design and direct your own research projects, and to become acquainted with new techniques and approaches. There will be opportunities to supervise MSc and BSc students in the group. Advice and discussion will be available for candidates interested in both academic and industry careers. We are a friendly, collaborative group and are looking for a highly motivated student with strong scientific communication skills. You will be joining a dynamic department with broad interests in biotechnology and synthetic biology across all domains of life.\nThe research is funded as part of the Cellular Agriculture Netherlands Open Calls Programme, and will involve collaboration and coordination with various industrial parties and external experts.\nFor more information, please refer to the\nFlack Group website\nand/or get in touch.\nJob requirements\nThe ideal candidate will be an ambitious, proactive, reflective, and results-driven researcher. We are looking for the following:\nMSc degree in a relevant field, such as cell biology, biotechnology or a related field of biological sciences (essential).\nPrior lab experience in molecular biology, cloning and genetic manipulation (essential).\nPrior experience or strong interest in computational modelling or other dry-lab techniques (highly desirable).\nPrior experience with mammalian cell culture (desirable, but not essential).\nA strong interest in cellular agriculture/cultivated meat is essential, although specific prior experience in this area is not expected or required.\nStrong collaboration, communication and writing skills.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy or our research group, please contact Dr. Joshua Flack (\nJ.E.Flack@tudelft.nl\n). PhD position is envisaged to start at the end of 2026 or January 2027.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n2 August 2026\nvia the application button and upload the following documents:\nYour CV (max. 3 pages)\nCover letter (max. 2 pages)\nPlease clearly outline your past molecular biology experience. The next step in the process, if you are selected, will involve the completion of a short task in the week of 3rd August. If you know you will not be available in that week, you should apply by 19th July and contact Josh by email to make special arrangements.\nYou can address your application to Dr. Joshua Flack.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in cell engineering and computational modelling for cultivated meat bioprocesses. Research combines CFD simulations and compartment models of bioreactor environments with genetic engineering of bovine cell lines to improve scalability and metabolic performance.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The researcher's expertise is entirely in human-centred immersive systems, spatial learning, and collaborative interaction design. This position is cell biology, synthetic biology, and bioprocess engineering—zero overlap with XR, HCI, learning, or user evaluation. The mention of 'cultivated meat' or 'cellular agriculture' does not create thematic fit; the work is pure biotechnology."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "The position requires wet-lab molecular biology (cloning, genetic manipulation, mammalian cell culture) and computational modelling (CFD, compartment models). The researcher has intermediate quantitative and experimental design skills, but no experience with molecular biology, no cleanroom or genetic engineering background, and no familiarity with bioreactor modelling. The computational overlap is superficial."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "This position would not close any of the researcher's identified capability gaps. It introduces entirely new domains (synthetic biology, bioprocess engineering) unrelated to spatial cognition, learning science, or immersive systems. The researcher would need to rebuild research identity from scratch."
+    },
+    "strategic_value": {
+      "score": 55,
+      "rationale": "TU Delft is a priority-1 institution. The PhD is fully funded, 4-year, embedded in the Cellular Agriculture Netherlands programme with industrial partners, and offers supervision from respected biotech researchers. However, institutional quality cannot offset fundamental disciplinary misalignment."
+    },
+    "required_skills": [
+      "experimental-design",
+      "python",
+      "statistics",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc in cell biology, biotechnology, or related biological sciences is essential; researcher holds MSc in Creative Multimedia with zero prior biology coursework or publications",
+      "Prior lab experience in molecular biology, cloning and genetic manipulation is essential—researcher has no such experience",
+      "Prior experience with mammalian cell culture is desirable—researcher has none",
+      "Strong interest in cellular agriculture essential—no evidence in researcher's profile or publications",
+      "Researcher would require complete retraining in molecular biology and bioprocess engineering; admission unlikely without extensive remedial coursework"
+    ],
+    "risks": [
+      "Severe prerequisite gap: the researcher lacks fundamental background in cell biology, molecular cloning, and aseptic technique required on day one of wet-lab work",
+      "Selection barrier: Dr. Flack and the hiring committee would likely screen out an HCI/XR graduate as unqualified, regardless of methodological strengths",
+      "Thesis completion risk: mastering synthetic biology at PhD level while building foundational knowledge simultaneously is extremely challenging; attrition risk is high",
+      "Career misalignment: successful completion would not advance toward the researcher's stated target (human-centred immersive systems research in Europe); it would create a CV that confuses future employers about research identity"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:40:28.948799Z",
+    "analysis_input_hash": "84b26d7adec18f2e416c23810afb89ac71a3220c0631e0ac94a4e9478bfa2959"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 18,
     "urgency": "high",
     "days_to_deadline": 14,
     "needs_review": true,

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:36:19.790658Z",
-  "updated_at": "2026-07-19T01:42:09.410034Z",
+  "updated_at": "2026-07-20T16:50:17.676108Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:36:19.790658Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:37:18.947854Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.676108Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,71 @@
     "status": "open",
     "description_text": "Provide fundamental insights into an air turbulent jet impinging on a liquid surface, using state-of-the-art experimental techniques. That’s your challenge as a PhD candidate at TU Delft. Want to help make the steel industry more sustainable? Check out the job post!\nContribute to groundbreaking research into air-knife technology as a PhD candidate at TU Delft. In this role, you will provide fundamental insights into turbulent multi-phase flows.\nAccelerating the development of air-knife technology by providing fundamental insights into turbulent multi-phase flows: are you up for the challenge? As a PhD candidate at TU Delft, you’ll conduct impactful research while growing your own skills. Interested? Apply now!\nJob description\nA 4-year PhD position is available in the research group of Prof. Dr. Sasa Kenjeres at the Department of Chemical Engineering, Delft University of Technology (TU Delft), The Netherlands.\nA common method to protect steel against corrosion is the application of a protective zinc layer. This process is called galvanizing. Tata Steel Netherlands currently produces over half a million tons of galvanized steel per year, all of which is produced via the hot-dip galvanizing process. In hot-dip galvanizing, air knives blow a high-velocity gas jet onto a steel strip to control the thickness of the zinc layer. The interaction between the turbulent air jet and the liquid zinc is a potential cause of coating irregularities (waviness) and rejection of the final product. In this project, we will apply combined experimental, theoretical, and computer simulation studies to bring detailed insight into the dynamics of the interactions between the air-jet and the solidifying liquid zinc. A better understanding of these interactions will open new ways to eliminate observed imperfections.\nYou will focus on the experimental part of the project, which involves the construction and build-up of experimental setups, as well as performing state-of-the-art measurements (PIV-based) of the multi-phase flows. This project is part of the Holland High Tech program, and you will closely collaborate with our industrial partners (M2i, Tata Steel).\nJob requirements\nYou are a recent graduate looking to use your experimental skills to provide understanding of complex multi-phase phenomena and optimize industrial processes. With your pioneering mindset and hands-on experimental experience, you will be able to tackle this challenging problem.\nYou also have:\nAn MSc in a relevant subject, such as Applied Physics, Chemical Engineering, Mechanical Engineering, Aerospace Engineering, or a related field\nProven experience with experimental techniques (previous experience with PIV is a must)\nA keen interest in interdisciplinary, curiosity-driven, and applied research\nFluency in English and enjoyment of working in an international research environment\nA team-working mentality, as well as the capability to work efficiently individually\nExcellent communication skills\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Prof. dr. Sasa Kenjeres, Dipl.Ing., via\ns.kenjeres@tudelft.nl.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n2 August 2026\nvia the application button and upload the following documents:\nCV and cover letter.\nA copy of all grades for both BSc and MSc studies.\nYou can address your application to Prof. dr. Sasa Kenjeres, Dipl.Ing..\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD position in experimental physics studying turbulent multi-phase flows in steel galvanizing processes. Focus on designing experimental facilities, PIV-based measurement techniques, and industrial optimization with Tata Steel collaboration.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "Experimental fluid dynamics, multi-phase flows, and industrial process optimization have zero thematic relevance to human-centred immersive systems, spatial learning, or HCI. This is applied physics and process engineering."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Position emphasizes experimental research and hands-on laboratory work, which researcher has practiced. However, the experimental domain is entirely different: PIV measurement, fluid dynamics, and industrial physics versus user-studies and learning outcome evaluation. No methodological transfer."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Would develop experimental facility design and PIV skills, but neither addresses target research interests (spatial cognition, immersive interaction, learning science, multiplayer collaboration)."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "TU Delft is priority-1 (institutional strength), and industrial partnership with Tata Steel offers applied relevance and stability. However, research domain is fundamentally misaligned with human-centred XR target. Minimal strategic value for HCI-XR trajectory."
+    },
+    "required_skills": [
+      "experimental-design",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "piv-measurement",
+      "fluid-dynamics",
+      "multi-phase-flow-physics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc in applied physics, mechanical/aerospace engineering, or related field required; researcher has MSc in multimedia",
+      "Proven PIV experience stated as 'a must'; researcher has no evidence of PIV or fluid dynamics background"
+    ],
+    "risks": [
+      "Substantial domain expertise gap: PIV, fluid dynamics, and multi-phase flows require specialist training researcher lacks.",
+      "No immersive systems, HCI, or learning research component.",
+      "Industrial steel process optimization is far removed from human-centred research.",
+      "Career trajectory risk: 4-year industrial physics project diverges entirely from human-centred XR identity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.96,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:37:18.946853Z",
+    "analysis_input_hash": "01011b0baddb19b32ab8a9e08191d0d2432f9083bb78789d627b2c630f78c857"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 15,
     "urgency": "high",
     "days_to_deadline": 14,
     "needs_review": true,

@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 11
 urgency: medium
 needs_review: true
 ---
@@ -94,7 +94,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+PhD position in energy storage technology development, specifically hydrogen-iodine flow battery electrochemistry and stack-level demonstration as part of a multi-institutional ultra-long-duration storage initiative.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 5 |
+| Strategic value | 55 |
+| **Overall** | **11** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Complete domain drift from target identity and research interests.
+- 4-year commitment to energy technology would significantly delay HCI/XR career development.
+- Supervisor/group has no expertise in human-computer interaction or immersive systems.
+- Industrial partner focus (Aquabattery, Elestor, Ore Energy) offers no pathway to academia-focused HCI positions.
+- Highly specialized electrochemistry knowledge has near-zero transferability to researcher's target field.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-hydrogen-based-novel-flow-battery-techn.md` and link [[opp_tudelft-phd-position-hydrogen-based-novel-flow-battery-techn]]._

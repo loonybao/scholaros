@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:32:57.728894Z",
-  "updated_at": "2026-07-19T01:42:09.391379Z",
+  "updated_at": "2026-07-20T16:50:17.663107Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:32:57.728894Z",
@@ -97,6 +97,44 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:37:18.935508Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.663107Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -133,13 +171,72 @@
     "status": "open",
     "description_text": "PhD positions on integrated quantum photonics at QuTech\nJ\nob description\nAre you motivated to discover the qubits that build the quantum information processing machines of the future? Do you want to embed qubits in scalable systems and help bring quantum technology to real-world applications?\nWe are seeking PhD's researchers to work at the interface between color center physics and integrated photonics!\nColor centers have proven to be one of the most fruitful platforms in the quantum information era, enabling breakthroughs such as memory-enhanced quantum communication, entanglement-based quantum networks, long-term quantum information storage, and complex quantum simulations. While these demonstrations point to a wide range of applications, critical challenges regarding color center physics and their large-scale integration remain untackled.\nAs a PhD student in the Errando-Herranz’s group, you will work towards addressing the main challenges in the field by working on experiments involving integrated photonics and color center qubits. You will focus on device design and characterization, delving into the complex physics of color centers, and developing technology based on integrated photonic circuits for quantum applications.\nPhD topics include:\nSuperconducting single-photon detectors on integrated photonic circuits.\nDiamond/SiC color centers on large-scale photonics.\nSilicon color center physics and applications.\nYou will be part of a team of talented PhD students and collaborate with top European and international teams. You will also have full access to the group's state-of-the-art measurement setups for magneto-optic spectroscopy at room and cryogenic temperatures down to 40 mK.\nRequirements\nMaster degree in physics, electrical or mechanical engineering, or a related field.\nTheoretical and/or experimental background in optics, integrated photonics, and/or quantum technologies.\nExcellent written and oral communication skills in English.\nHighly motivated for lab work in experimental physics and engineering.\nDemonstrated self-drive, scientific curiosity, and team worker attitude.\nWill make you stand out:\nDemonstrated experimental skills in the fields of integrated photonics, quantum emitters, superconducting detectors, or quantum integrated photonics.\nExpertise in color center or atomic physics research.\nExperience with cryogenic measurements.\nWe welcome people of all genders and social and cultural backgrounds. If you have ever felt that a place like this was not “for people like you,” we would especially like to hear from you!\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nQuTech\nQuTech\nis a mission-driven research institute of TU Delft. Together we are working on a radical new technology with world-changing potential. We are developing scalable prototypes of a quantum computer and a secure quantum internet.\nWe believe quantum technology will be a game changer in many social and economic sectors - including health, agriculture, climate, and security. To achieve our ambitious goals, we bring scientists, engineers, and industry together in an inspiring environment, with plenty of room for ambition, entrepreneurship, and innovation.\nHave a look at our\nvideo\nand get a glimpse of QuTech.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities , increasing from Promovendus gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this position, please contact Carlos Errando-Herranz at QuTech at\nC.ErrandoHerranz@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n26 July 2026\nvia the application button and upload the following documents:\nCV.\nMotivation letter consisting of 5 concise points stating why you are the right candidate for this position.\nBSc/MSc transcripts.\nContact details of at least two references will be asked at a later stage.\nPlease skip the AI-generated fluff.\nYou can address your application to Carlos Errando Herranz.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD position in integrated quantum photonics at QuTech, focusing on color center physics, superconducting single-photon detectors, and quantum applications on photonic circuits. Core work involves device design, characterization, and experimental physics.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Quantum photonics and color center physics have no thematic overlap with human-centred immersive systems, spatial learning, or collaborative XR. The domain is fundamental physics, not HCI or XR application."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Experimental physics methodology exists in both profiles, but researcher's methods are user-studies, experimental design for HCI contexts, and qualitative/quantitative learning outcome measures. Quantum photonics requires optics, cryogenic measurement, and device characterization—fundamentally different experimental paradigms."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Position would build expertise in quantum technologies and photonic device physics, but these address none of the researcher's stated capability gaps (spatial cognition modelling, multiplayer interaction design, immersive learning mechanisms)."
+    },
+    "strategic_value": {
+      "score": 45,
+      "rationale": "TU Delft is priority-1 institution (strong strategic value), and QuTech has excellent reputation and stable funding. However, the research direction moves away from HCI/XR entirely, creating a fundamental misalignment with target identity as a human-centred XR researcher."
+    },
+    "required_skills": [
+      "experimental-design",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "optics",
+      "cryogenic-measurement",
+      "quantum-emitters",
+      "superconducting-detectors"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc by Research in progress; likely meets MSc requirement but timing unclear",
+      "Physics or optics background strongly preferred; researcher has multimedia/HCI background"
+    ],
+    "risks": [
+      "Fundamental domain shift: quantum photonics is pure physics, not HCI. This contradicts stated exclusion of non-human-centred research.",
+      "No XR/immersive systems component despite institution overlap.",
+      "Skill mismatch: no evidence of optics, cryogenic work, or quantum technologies in profile.",
+      "Career trajectory risk: acceptance would signal pivot away from human-centred XR identity, jeopardizing alignment with target PhD cohorts in HCI labs."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:37:18.934506Z",
+    "analysis_input_hash": "a95e9da583c7ab878c567ff9f5581dadb104ae4a033954fbdb3952f8eadba0c9"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 13,
     "urgency": "urgent",
     "days_to_deadline": 7,
     "needs_review": true,

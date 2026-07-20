@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:33:20.147118Z",
-  "updated_at": "2026-07-19T01:42:09.527796Z",
+  "updated_at": "2026-07-20T16:50:17.768153Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:33:20.147118Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:45:11.729261Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.768153Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,69 @@
     "status": "open",
     "description_text": "Join an exciting European research initiative shaping the future of sustainable electronic systems.\nJob description\nThe successful candidate will conduct research within the EU-funded E2Packman project on advanced electronic packaging. Location will be in Delft, as a team member of ECTM, in close collabrations with NL and EU industrial partners.\nJob requirements\nStrong research background in more of the following: electronic packaging, heterogeneous integration, thermal management, reliability, multi-physics and multiscale simulation.\nDemonstrated publication record in high-quality international journals and conferences.\nExperience working in multidisciplinary and international research environments.\nExcellent analytical, communication, and scientific writing skills.\nAbility to work independently while contributing effectively to collaborative research teams.\nTrack record of supervising MSc and PhD students and participation in teaching activities.\nGood command of spoken and written English.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDuration of contract is 2 years Temporary\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Prof.dr.ir. W. van Driel or Prof.dr. G.Q.Zhang.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than 22 Jul 2026 via the application button and upload the following documents:\nCV\nMotivational letter\nPublication and IP lists are encouraged\nYou can address your application to Prof.dr.ir. W. van Driel or Prof.dr. G.Q.Zhang.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services.\n#EUfunded This is an EU funded project, named E2Packman, with project number101194187, within program H2020."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position in electronic packaging and heterogeneous integration, focusing on thermal management, reliability, and multiscale simulation within the EU-funded E2Packman project. Role involves independent research, student supervision, and collaboration with international partners.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "No thematic connection. Electronic packaging, thermal management, and heterogeneous integration in semiconductor manufacturing are orthogonal to human-centred XR, immersive learning, and spatial cognition. Posting mentions no user studies, human factors, or interactive systems."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Partial methodological overlap only through 'multidisciplinary and international research environments' and publication/communication expectations. Position requires computational multiscale simulation (FEA, thermal analysis) and materials characterization—different experimental paradigm from user-centred research. No overlap in core methods."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "Does not close researcher's capability gaps (statistics, physiological sensing, eye-tracking). Would require learning simulation tools and thermal/reliability engineering. Moves away from human-centred research toward hardware/materials engineering, which is contrary to target identity trajectory."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "TU Delft is Priority 1 institution. 2-year EU-funded position with clear industrial partnerships offers funding stability and international visibility. However, research direction misalignment undermines strategic value for PhD transition in HCI/XR domain. Institution prestige alone does not compensate for research-path divergence."
+    },
+    "required_skills": [
+      "multiscale-simulation (not in taxonomy)",
+      "thermal-management (not in taxonomy)",
+      "heterogeneous-integration (not in taxonomy)"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "python",
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting expects 'track record of supervising MSc and PhD students'—researcher has no documented supervision experience yet (thesis in progress).",
+      "Requires 'demonstrated publication record in high-quality international journals'—researcher has 1 first-author journal article, which may fall short of 'demonstrated' bar for postdoc level."
+    ],
+    "risks": [
+      "Complete domain pivot away from HCI/XR into materials/hardware engineering. Severely damages PhD competitiveness in target field.",
+      "No intellectual continuity with Master's research. All prior work becomes background noise on CV.",
+      "International collaboration expectation may be valuable, but in wrong field for researcher's career goals.",
+      "Postdoc positioning assumes PhD completion; researcher mid-thesis with unclear timeline."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:45:11.727260Z",
+    "analysis_input_hash": "fc05b072ec58dac31d9b63d334797efd79f092efc90d1971eb538296f17b247b"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 14,
     "urgency": "urgent",
     "days_to_deadline": 3,
     "needs_review": true,

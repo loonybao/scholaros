@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-10
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 20
 urgency: medium
 needs_review: true
 ---
@@ -95,7 +95,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+
+Experimental PhD in cryogenic two-phase flow of hydrogen for sustainable aviation, combining facility commissioning, experimental investigation of flow behaviour along distribution lines, and sensor development in collaboration with external partners.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 25 |
+| Growth value | 10 |
+| Strategic value | 50 |
+| **Overall** | **20** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** statistics
+
+**Risks:**
+- Domain expertise barrier is substantial. User would be competing with aerospace/mechanical engineering candidates with direct coursework in thermodynamics and fluid mechanics.
+- Four-year commitment in experimental cryogenics would significantly delay or prevent return to immersive HCI research trajectory.
+- Lab culture and skills development are orthogonal to target identity.
+- Supervisor guidance, while strong, is rooted in propulsion/thermodynamics, not human-centred design or HCI.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-two-phase-flow-of-cryogenic-hydrogen.md` and link [[opp_tudelft-phd-position-two-phase-flow-of-cryogenic-hydrogen]]._

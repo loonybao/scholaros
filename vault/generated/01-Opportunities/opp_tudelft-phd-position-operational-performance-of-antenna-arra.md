@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 18
 urgency: high
 needs_review: true
 ---
@@ -96,7 +96,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+
+PhD on electromagnetic wave propagation and antenna array performance in complex environments (surface duct conditions). Research involves inverse problem formulation to reconstruct environmental properties from signals, algorithm design for efficient computation, and experimental validation for naval radar applications.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 20 |
+| Growth value | 8 |
+| Strategic value | 55 |
+| **Overall** | **18** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
+
+**Risks:**
+- Severe theory deficit: the researcher lacks the electromagnetic theory (Maxwell's equations, wave propagation, antenna theory) and signal processing fundamentals (Fourier analysis, filter design, inversion methods) required for this work
+- Admission barrier: Prof. Yarovoy and the MS3 group would likely screen out an XR/HCI graduate as unqualified; the discipline jump is too large
+- Research isolation: PhD students in MS3 discuss EM phenomena, measurement campaigns, and signal algorithms; the researcher would struggle to contribute to lab discussions without foundational knowledge
+- Career confusion: a PhD in radar engineering following an MSc in immersive systems would create a CV that appears unfocused; future XR employers would question commitment to the field
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-operational-performance-of-antenna-arra.md` and link [[opp_tudelft-phd-position-operational-performance-of-antenna-arra]]._

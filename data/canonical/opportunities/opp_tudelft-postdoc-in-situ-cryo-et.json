@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:29:00.907247Z",
-  "updated_at": "2026-07-19T01:42:09.539326Z",
+  "updated_at": "2026-07-20T16:50:17.773153Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:29:00.907247Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:45:11.735262Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.773153Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,75 @@
     "status": "open",
     "description_text": "Job description\nWe seek a highly motivated postdoctoral researcher to develop and apply integrated workflows for in situ cryogenic electron tomography (cryo-ET). The project will focus on automating cellular targeting and lamella preparation of frozen-hydrated biological specimen on a unique instrument, with the aim of enabling efficient and reproducible structural analysis of molecular complexes in their native cellular environment.\nThe candidate will establish streamlined and AI-facilitated approaches for identifying regions of interest, guiding site-specific lamella preparation, and acquiring high-quality cryo-ET data. The candidate will apply these workflows to challenging questions in the structural cell biology of the assembly of a unique machinery involed in bacterial motility and cell-autonomous immunity. Working at the intersection of technical development and biological applications, the candidate will also contribute to the development of computational methods for the contextual interpretation of cellular tomograms. The position involves close interaction with other experimentalists and computational researchers who together work towards methodological advances that facilitate biological discovery.\nYour home base will be the Jakobi Lab (\nhttps://cryoem.tudelft.nl)\nat TU Delft | Kavli Institute of Nanoscience. We are a multidisciplinary, international and diverse team of scientists with backgrounds ranging from (bio)chemistry and physics to bioinformatics and cell biology. Our drive is to push boundaries in our aim to visualise molecular processes in their native context and at the highest possible resolution. As part of the Department of Bionanoscience and the Kavli Institute of Nanoscience, we enjoy access to state-of-the-art infrastructure for biochemistry, molecular imaging, cryoEM/ET and high-performance computing. We are also committed to world-class education, and you will have the opportunity to contribute by mentoring undergraduate and graduate students. We foster a friendly, collaborative, and non-hierarchical environment where ideas and expertise are openly shared in pursuit of ambitious scientific goals. You will receive strong support and training to further your personal and professional development.\nJob requirements\nWe seek an outstanding structural biologist or (bio)physicist with a strong affinity for working at the intersection of method/instrument development and structural cell biology. The ideal candidate has a genuine interest in advancing fundamental methodology for cryogenic electron tomography and enjoys working closely with experimental and computational researchers to advance our understanding of fundamental biological processes. We are looking for a candidate with intellectual creativity, strong problem-solving skills, and the ability to communicate and collaborate effectively across disciplines.\nRequired qualifications:\nYou hold a PhD in (bio)physics, structural biology a related field.\nYou have demonstrated experience in FIB-SEM workflows and cryogenic electron tomography, including correlative light and electron microscopy.\nYou have experience with image analysis, ideally in the context of electron microscopy.\nYou have strong computational and programming skills (e.g. Python, Julia),\nYou have an interest in, or experience with, machine learning approaches for scientific data analysis.\nYou have a strong interest in interdisciplinary research and enjoy collaborating with experimental and computational scientists.\nYou communicate clearly and effectively in English, as you will work in an international research environment.\nIdeally, you also have:\nExperience with cryo-EM or cryo-ET data analysis, including areas such as tilt series alignment, 2D/3D template matching, or subtomogram averaging.\nExperience with handling, culturing and manipulation bacterial and mammalian cells.\nFamiliarity with scientific software and instrument development.\nA track record of peer-reviewed publications demonstrating methodological or computational contributions.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDuration of contract is 2 years. Temporary external finance.\nA job of 38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Arjen Jakobi (\na.jakobi@tudelft.nl\n) clearly stating the vacany number in the subject line.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n31 July 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Arjen Jakobi.\n#EUfunded This is an EU funded project, named INFLAMMAZOOM, with project number 101230715, within program Horizon Europe | European Research Council (ERC).\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position in structural cell biology focused on developing automated in situ cryo-ET workflows for visualizing molecular complexes in their native cellular environment. Role involves technical method development, image analysis, machine learning for scientific data, and collaboration with experimental and computational researchers.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "No thematic overlap with human-centred immersive systems or spatial cognition. While position involves visualization and 3D imaging (cryo-ET), the context is structural biology at nanoscale, not human-computer interaction or immersive learning. Application domain (bacterial cell machinery) is orthogonal to researcher's domain."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Moderate methodological adjacency through image analysis, machine learning for data interpretation, and interdisciplinary collaboration. Researcher has quantitative research and experimental design skills. However, core technical requirements (FIB-SEM, cryo-ET processing, tilt-series alignment, subtomogram averaging) require specialized domain expertise not present in researcher's profile. Python programming is overlapping asset but applied to entirely different problem space."
+    },
+    "growth_value": {
+      "score": 20,
+      "rationale": "Would build Python skills and machine-learning literacy, addressing stated beginner-level gaps. However, these gains are in service of structural biology, not researcher's target domain. Does not advance toward spatial cognition, immersive systems, or HCI expertise. Represents skill acquisition in wrong direction."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "TU Delft is Priority 1 institution. Position offers 2-year EU-funded research (INFLAMMAZOOM ERC) in cutting-edge microscopy lab with strong reputation and international collaboration. Structured environment supports skill development and publication productivity. However, strategic value is undermined by domain mismatch: transitioning to PhD in HCI/XR after 2 years in structural cell biology creates narrative discontinuity and reduces competitiveness for human-centred positions."
+    },
+    "required_skills": [
+      "cryo-et (not in taxonomy)",
+      "fib-sem (not in taxonomy)",
+      "image-analysis (not in taxonomy)"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "cryo-em-data-analysis",
+      "cell-culture-and-manipulation",
+      "scientific-software-development"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting lists cryo-EM/cryo-ET experience and FIB-SEM workflows as 'demonstrated experience'—researcher has none. This is likely a hard requirement, not 'ideal'.",
+      "Requires 'strong computational and programming skills (e.g. Python, Julia)'—researcher has beginner-level Python, insufficient for this role.",
+      "Postdoc position requires completed PhD; researcher mid-thesis."
+    ],
+    "risks": [
+      "Significant technical skill gap. Position requires hands-on cryo-ET and FIB-SEM expertise; researcher would enter as complete novice in these methods despite postdoc level.",
+      "Hiring committee would likely view this as poor fit on technical grounds, even with beginner Python skills.",
+      "Two-year commitment in structural biology creates opportunity cost: time not spent building HCI/XR portfolio for PhD transition.",
+      "Career narrative becomes unclear: why move from immersive systems to structural cell biology? Reduces PhD application competitiveness in both fields."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.9,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:45:11.734261Z",
+    "analysis_input_hash": "110c64df6d27ca7f02ca64e55a1574a706209a86fb1de4edf39b61d937e7f007"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 20,
     "urgency": "high",
     "days_to_deadline": 12,
     "needs_review": true,

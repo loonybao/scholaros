@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: high
 needs_review: true
 ---
@@ -94,7 +94,28 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+PhD in experimental thermal-hydraulics for advanced pebble-bed nuclear reactor design, involving non-nuclear test facilities, heat transfer, boiling phenomena, and maritime motion effects.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 30 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** thermal-hydraulics, nuclear-engineering
+
+**Risks:**
+- Complete domain departure: nuclear physics vs. human-centred XR
+- Experimental expertise is domain-specific; nuclear lab skills do not transfer to immersive systems research
+- Career trajectory would be locked into nuclear engineering; return to HCI would be difficult to justify
+- No publications, collaborations, or professional network benefit in target field
+- Supervisor and peer group have no HCI expertise or exposure
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-experimental-physics-thermal-hydraulics.md` and link [[opp_tudelft-phd-position-experimental-physics-thermal-hydraulics]]._

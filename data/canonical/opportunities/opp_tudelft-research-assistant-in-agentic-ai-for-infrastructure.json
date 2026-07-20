@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:35:57.262996Z",
-  "updated_at": "2026-07-19T01:42:09.577830Z",
+  "updated_at": "2026-07-20T16:50:17.802155Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:35:57.263994Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:47:12.583244Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.802155Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,76 @@
     "status": "open",
     "description_text": "Job description\nThis position is part of the project Neuro-Symbolic AI for Infrastructure Management, which aims to develop explainable, adaptive, and trustworthy AI systems for infrastructure management under uncertainty. Infrastructure managers increasingly need to make reliable decisions in the context of climate change, ageing assets, fragmented data, and limited monitoring information. However, conventional AI methods often depend on large datasets and offer limited explainability, making them difficult to apply in safety-critical infrastructure decisions. This project addresses that gap by combining machine learning, structured domain knowledge, knowledge graphs, simulations, multi-agent systems, and reinforcement learning.\nThe (proposed) research assistant will support the development and testing of AI agents that can codify infrastructure management knowledge from standards, manuals, inspection reports, and other technical sources into machine-readable knowledge structures. They will also help develop and evaluate agentic AI systems that use this knowledge to reason, coordinate with simulations, and support decisions related to maintenance, inspection, resilience, and planning. The role will involve working with machine learning methods, knowledge graphs, large language or concept models, multi-agent systems, and decision-support workflows.\nThe successful candidate will work within the Integral Design and Management Section of the 3MD Department, Faculty of Civil Engineering and Geosciences, TU Delft, and will be associated with the DigiConstruct Lab. The position is suited to someone with a strong interest in machine learning and infrastructure management, and offers opportunities to contribute to prototypes, case studies, publications, and scientific papers.\nJob requirements\nA completed or ongoing MSc degree in a relevant field, such as Computer Science, Data Science, Artificial Intelligence, Civil Engineering, Construction Management, Infrastructure Management, or a closely related discipline.\nA strong interest in working at the intersection of artificial intelligence and the built environment, particularly in infrastructure and asset management, or digital twins.\nA suitable profile may include either a computer science, data science, or AI background with an interest in infrastructure systems, or a civil engineering, architecture, or construction management background with a strong interest in AI and computational methods.\nDemonstrated experience with, or clear motivation to work on, one or more of the following areas: agentic AI systems, knowledge graphs, large language or concept models, machine learning, infrastructure management datasets, simulation-based decision support, multi-agent systems, or reinforcement learning.\nGood programming skills, preferably in Python, and familiarity with tools or libraries used for machine learning, data analysis, semantic modelling, knowledge graphs, or AI system development.\nExperience with data processing, data structuring, or working with heterogeneous technical datasets, such as standards, manuals, inspection reports, infrastructure records, or simulation outputs, is desirable.\nKnowledge of infrastructure management, construction management, asset management, or decision-making processes in the built environment is desirable, but not essential.\nAwareness of FAIR research principles, including the ability or willingness to work with research data, code, models, and documentation in a way that supports findability, accessibility, interoperability, and reusability.\nA willingness to learn new algorithms, tools, and developments in AI, including neuro-symbolic AI, knowledge graph-based reasoning, agentic AI, and reinforcement learning.\nA critical, creative, and proactive approach to research, with good analytical and problem-solving skills.\nGood written and verbal communication skills in English, with the ability to document technical work clearly and contribute to academic outputs.\nDemonstrated experience in academic writing, technical reporting, literature review, or preparation of research papers is an advantage.\nAbility to work both independently and collaboratively in an interdisciplinary research environment involving AI, infrastructure management, digital twins, and decision-support systems.\nMotivation to contribute to prototypes, case studies, datasets, research publications, and the broader activities of the DigiConstruct Lab and the Integral Design and Management Section at TU Delft.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 22-24 months. Temporary.\nA job of 18-22 hours per week.\nA salary based on Scale 10 of the CAO for Dutch Universities with a salary between €3546 - €5538 gross per month based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nAdditional information\nFor more information about this vacancy, please contact Ranjith Soman at\nr.soman@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n21 July 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Research assistant position supporting development and evaluation of agentic AI systems that codify infrastructure management knowledge into machine-readable structures and support decision-making for maintenance, inspection, resilience, and planning using knowledge graphs and multi-agent reasoning.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 22,
+      "rationale": "Position combines AI/ML with domain application (infrastructure), but core focus is knowledge systems and decision support—not human-centred immersive systems or spatial cognition. AI agents and knowledge graphs are instrumental tools for automated reasoning, not for human understanding or collaborative learning. No XR/VR component, no user interaction design, no spatial learning evaluation."
+    },
+    "methodological_fit": {
+      "score": 45,
+      "rationale": "Researcher has user-studies, experimental design, and intermediate quantitative skills. Position requires Python, machine learning, knowledge graphs, and data structuring. Partial overlap in data-driven reasoning and system evaluation; however, position emphasises AI/ML technical implementation rather than human-centred evaluation. Research methodology is adjacent (systems thinking) but not core-aligned."
+    },
+    "growth_value": {
+      "score": 58,
+      "rationale": "Strong Python skill development (researcher beginner → intermediate/advanced). Exposure to knowledge graphs, agentic AI, multi-agent systems, and domain knowledge codification. These are emerging AI paradigms with some applicability to immersive systems (e.g., intelligent tutors, adaptive collaborative agents), but position does not explicitly address this application. Growth is in AI/ML, not spatial cognition or collaborative learning evaluation."
+    },
+    "strategic_value": {
+      "score": 62,
+      "rationale": "TU Delft Priority 1, 22–24 month contract with part-time hours (18–22h/week), allowing continued thesis completion or side research. DigiConstruct Lab has emerging reputation in neuro-symbolic AI. Position offers flexibility and exposure to cutting-edge AI, but infrastructure domain and decision-support focus do not directly advance toward human-centred XR research leadership."
+    },
+    "required_skills": [
+      "python",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "knowledge-graphs",
+      "agentic-ai-systems",
+      "infrastructure-management-domain",
+      "large-language-models",
+      "semantic-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position targets MSc-level or ongoing MSc; researcher has MSc by Research in thesis stage—eligible, but degree conferral status should be confirmed.",
+      "Listing is deliberately inclusive ('computer science, data science, AI, civil engineering, construction, OR infrastructure management backgrounds'). Researcher's multimedia/XR background is adjacent but not listed; suitability will depend on how hiring committee interprets 'closely related discipline'.",
+      "Stated preference for 'civil engineering, architecture, or construction management background with strong AI interest' does not describe researcher. Position is more attractive to CS/AI candidates."
+    ],
+    "risks": [
+      "Infrastructure management domain is not researcher's expertise; onboarding curve may be steep.",
+      "Part-time research assistant role may limit depth of contribution and publication visibility compared to full postdoctoral position.",
+      "AI/ML specialization (knowledge graphs, LLMs, semantic modelling) does not directly build toward human-centred XR or spatial cognition research; could create tangent specialism.",
+      "Multi-agent systems experience could be re-oriented toward collaborative immersive systems, but position itself contains no immersive or learning-focused application.",
+      "18–22 h/week may complicate simultaneous thesis completion or PhD applications; timeline unclear."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.75,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:47:12.582246Z",
+    "analysis_input_hash": "f74fa0d8eb22e7aa201733530ad4e074383f4d2fb9b81f2231ffca61ac1a3510"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 41,
     "urgency": "urgent",
     "days_to_deadline": 2,
     "needs_review": true,

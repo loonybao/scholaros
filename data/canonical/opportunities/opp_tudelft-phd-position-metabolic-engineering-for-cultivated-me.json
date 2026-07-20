@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:40:28.468326Z",
-  "updated_at": "2026-07-19T01:42:09.461015Z",
+  "updated_at": "2026-07-20T16:50:17.706108Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:40:28.468326Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:39:12.223262Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.706108Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,70 @@
     "status": "open",
     "description_text": "Are you ready to engineer metabolic pathways to develop the next generation of animal cell lines for cost-effective, scalable, delicious cruelty-free meat?!\nJob description\n‘Cultivated meat’, the production of genuine meat products from in vitro culture of animal cells, is an emerging biotechnology within the field of cellular agriculture with the potential to revolutionise food production from both an environmental and ethical perspective. Unfortunately, mammalian cells in their unmodified state have severe limitations with respect to in vitro culture, presenting major challenges for the scalability and cost-effectiveness of cultivated meat bioprocesses. These include slow proliferation, expensive medium requirements and suboptimal metabolic efficiency.\nMetabolic engineering, the controlled reprogramming of metabolism through the modification of existing pathways, and the addition of new ones, offers a potential solution! We are hiring for a PhD student to join the group for a fully-funded project of 4 years. Within the Flack group, you will develop tools and methods for metabolic engineering of bovine satellite cell lines, and use these to introduce new and improved metabolic phenotypes relating to (for example) efficiency of carbon-substrate utilization and de novo synthesis of currently essential, expensive medium components.\nWithin the broad scope of metabolic engineering for cultivated meat, there will be freedom to direct your own research projects, and to become acquainted with new techniques and approaches. There will be opportunities to supervise MSc and BSc students in the group. Advice and discussion will be available for candidates interested in both academic and industry careers. We are a friendly, collaborative group and are looking for a highly motivated student with strong scientific communication skills. You will be joining a dynamic department with broad interests in biotechnology and synthetic biology across all domains of life.\nThe research is funded as part of the Cellular Agriculture Netherlands Open Calls Programme, and will involve collaboration and coordination with various industrial parties and external experts\nFor more information, please refer to the\nFlack Group website\nand/or get in touch.\nJob requirements\nThe ideal candidate will be an ambitious, proactive, reflective, and results-driven researcher. We are looking for the following:\nMSc degree in a relevant field, such as cell biology, biotechnology or a related field of biological sciences (essential).\nPrior lab experience in molecular biology, cloning and genetic manipulation (essential).\nPrior experience with gene editing and/or cell engineering (e.g. CRISPR/Cas or related techniques - highly desirable).\nPrior experience with animal cell culture (desirable but not required).\nA strong interest in both metabolism and cellular agriculture/cultivated meat is essential, although specific prior experience in these areas is not expected or required.\nStrong collaboration, communication and writing skills.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy or our research group, please contact Dr. Joshua Flack (\nJ.E.Flack@tudelft.nl\n). PhD position is envisaged to start at the end of 2026 or January 2027.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n2 August 2026\nvia the application button and upload the following documents:\nYour CV (max. 3 pages)\nCover letter (max. 2 pages)\nPlease clearly outline your past molecular biology experience. The next step in the process, if you are selected, will involve the completion of a short task in the week of 3rd August. If you know you will not be available in that week, you should apply by 19th July and contact Josh by email to make special arrangements.\nYou can address your application to Dr. Joshua Flack.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in metabolic engineering for cultivated meat: genetic reprogramming of bovine satellite cell lines to improve in vitro culture efficiency, carbon utilization, and medium cost reduction using tools like CRISPR/Cas.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "No thematic alignment. Position is molecular biology, genetic engineering, and cellular agriculture. Researcher's identity centers on spatial cognition, collaborative immersive learning, and human-centred interaction design. Completely distinct domains."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Negligible methodological fit. Position requires molecular cloning, gene editing (CRISPR), animal cell culture, and laboratory bench skills. Researcher has software development (Unity/C#), user-study design, and XR systems experience. Limited overlap in experimental discipline, minimal shared methods."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Molecular biology and cellular agriculture expertise would not advance researcher's target capabilities in spatial learning, collaborative systems design, or human-centred evaluation."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "TU Delft is priority institution; 4-year funded position through Cellular Agriculture Netherlands programme offers funding stability and emerging-tech positioning. However, biotechnology direction offers no strategic value for HCI/XR career pathway or European HCI networking."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires MSc in cell biology, biotechnology, or biological sciences; researcher's MSc is in multimedia/creative technology—significant disciplinary mismatch.",
+      "Lists 'prior lab experience in molecular biology, cloning and genetic manipulation' as essential; researcher has no such background.",
+      "CRISPR/Cas or gene-editing experience listed as highly desirable; absent from researcher profile."
+    ],
+    "risks": [
+      "Extreme disciplinary shift from immersive systems to molecular biology.",
+      "4-year biotech PhD would derail HCI/XR career progression.",
+      "Supervisor group (biotech/synthetic biology) has no HCI or immersive systems expertise.",
+      "No pathway from cultivated meat research to spatial learning, collaborative immersive systems, or human-centred XR research.",
+      "Researcher would require substantial retraining in molecular lab techniques and cellular biology to be effective.",
+      "Career outcome (biotech engineer/researcher) orthogonal to target identity (human-centred XR researcher)."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.96,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:39:12.222262Z",
+    "analysis_input_hash": "f95833152f1fd69c0167cc436256fa5b56cccfb4668097168081d1a978aace33"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 13,
     "urgency": "high",
     "days_to_deadline": 14,
     "needs_review": true,

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:37:04.717550Z",
-  "updated_at": "2026-07-19T01:42:09.480742Z",
+  "updated_at": "2026-07-20T16:50:17.726106Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:37:04.717550Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:40:28.960919Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.726106Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,71 @@
     "status": "open",
     "description_text": "Help Shape the Future of Damp-Proofing Technology in Buildings! Join a cutting-edge PhD project tackling one of the most persistent challenges in the built environment: rising damp.\nJob description\nRising damp poses an increasing threat to buildings and their occupants worldwide. In the Netherlands alone, around 150,000 homes are vulnerable to groundwater-related moisture problems, and this number is expected to grow as climate change intensifies.\nWhile chemical damp-proofing treatments are among the most widely used solutions to tackle rising damp, their effectiveness remains inconsistent and poorly understood. Laboratory studies often report promising results, yet field performance frequently falls short.\nWhy? Because key-questions remain unanswered. How do damp-proofing products spread through porous building materials? What reactions occur within the pore network? Which factors determine whether a treatment succeeds or fails in practice?\nAs a PhD researcher in the CHEMBARIDA project, you will tackle these fundamental challenges and contribute to the development of more reliable and effective solutions for protecting buildings against rising damp.\nUsing a unique multiscale research approach, you will investigate chemical damp-proofing treatments across different scales, studying the behaviour of chemical products within building materials and validating the laboratory findings on real masonry structures. You will develop innovative methods to monitor the spreading and reaction of chemical products, identify the variables that influence products performance, and evaluate their effectiveness under realistic conditions. A central objective of your work will be the development and validation of a new laboratory testing protocol, capable of reliably assessing damp-proofing products within practical timeframes, an important step forward for both research and industry.\nYour research will combine:\nadvanced laboratory experimentation.\nmoisture transport modelling in porous materials.\nin-situ testing on masonry structures.\nvalidation across scales, from building material to full-scale constructions.\nYou will join the Architectural Engineering + Technology (AE&T) Department at the Faculty of Architecture and the Built Environment, TU Delft, under the supervision of Dr. Barbara Lubelli and Prof. Dr. Ir. Martin Tenpierik. Part of your experimental work will take place at The Green Village, TU Delft’s renowned living lab for sustainable innovation, where new technologies are tested in realistic environments. The project is carried out in close collaboration with researchers from the University of Amsterdam, Faculty of Science, providing a highly interdisciplinary research setting that bridges materials science, building physics, and building conservation.\nYou will have the opportunity to work alongside research, industry, and public-sector partners, including Buildwise, Safeguard Europe, the Central Government Real Estate Agency, the Cultural Heritage Agency of the Netherlands.\nYou will be part of an international research environment, with access to state-of-the-art research facilities, and you will get ample opportunities for academic growth, conference participation and scientific publication.\nIf you are passionate about building materials, moisture transport, experimental research, and creating innovative solutions for a more resilient built environment, this PhD position offers a unique opportunity to make a lasting impact.\nJob requirements\nWe are looking for a motivated candidate who has:\nA Master's degree in Engineering, Materials Science, Building Physics, or a related field.\nA hands-on attitude and demonstrated experience with laboratory work.\nKnowledge of moisture transport modelling in porous materials.\nExperience with experimental techniques for the characterization of building materials.\nEnthusiasm for connecting fundamental research questions with real-world applications.\nExcellent command of written and spoken English (e.g.a TOEFL score of 100 or IELTS of 7.0).\nStrong communication skills and the ability to work effectively in an international, multidisciplinary team.\nPreferred Qualifications:\nThe following qualifications are considered an advantage:\n(Basic) knowledge of organic chemistry.\nPrevious academic research experience, for example through participation in research projects, conference contributions, or scientific publications.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Barbara Lubelli, via e-mail:\nB.Lubelli@tudelft.nl\n.\nFor more information about the application procedure, please contact Paulien Stastra, via e-mail:\nrecruitment-bk@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n4 September 2026\n(local Dutch time + 2 hrs) via the application button and upload the following documents:\nA motivation letter (maximum 1 page) explaining your interests and describing how your experience and plans fit with the position.\nA detailed CV (maximum 4 pages), including any relevant publications and/or research projects.\nUndergraduate and graduate transcripts (if available).\nA digital copy of your MSc thesis.\nShortly thereafter, selected candidates will be invited for a first-round interview on 18th and 21st of September 2026.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD on chemical damp-proofing treatments for rising damp in buildings. Research combines advanced laboratory experimentation, moisture transport modelling in porous materials, and in-situ masonry testing across scales to develop and validate new testing protocols and improve reliability of chemical damp-proofing products.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "The researcher's entire expertise and target identity center on human-centred immersive systems, spatial learning, and collaboration. This position is materials science, building physics, and chemistry with no relevance to XR, HCI, learning, or human factors. The presence of 'testing' and 'validation' does not create thematic fit; the domain is building pathology, not human experience or interaction."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Both involve experimental design and validation across scales, and the researcher has intermediate experience here. However, the technical core requires materials characterization, moisture transport modelling, and chemistry knowledge—none of which the researcher possesses. The experimental methods (chromatography, moisture measurement, pore network analysis) are fundamentally different from user studies and immersive system evaluation."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Zero advancement toward stated research goals. The researcher would develop expertise in building materials, chemistry, and moisture physics—domains orthogonal to spatial cognition, immersive learning, and human-centred interaction design. The capability gap closure is nil; instead, research identity becomes incoherent."
+    },
+    "strategic_value": {
+      "score": 60,
+      "rationale": "TU Delft (priority-1 institution). The PhD is part of CHEMBARIDA project with structured funding and multi-institutional collaboration (University of Amsterdam, industry partners, heritage agency). Supervision from Dr. Barbara Lubelli and Prof. Martin Tenpierik is strong. The Green Village living lab adds credibility. However, institutional quality does not offset disciplinary misalignment."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc in Engineering, Materials Science, Building Physics, or related field is required; researcher holds MSc in Creative Multimedia—outside all listed disciplines",
+      "Hands-on laboratory experience is essential; researcher has no prior lab work in materials or chemistry",
+      "Knowledge of moisture transport modelling in porous materials is required; researcher has no background in this",
+      "Experience with material characterization techniques (e.g., chromatography, porosimetry, contact angle measurement) is expected; researcher has none",
+      "Preferred: basic organic chemistry knowledge; researcher has no chemistry background evident in profile"
+    ],
+    "risks": [
+      "Severe prerequisite deficit: the researcher lacks the foundational chemistry, materials science, and building physics knowledge required for this project; admission would be unlikely",
+      "Lab safety and technique: hands-on lab work with moisture systems, chemical treatments, and measurement equipment requires substantial training; the researcher has no prior experience",
+      "Supervisor concern: Dr. Lubelli expects candidates with materials science or civil engineering backgrounds; an HCI/XR graduate would be flagged as lacking disciplinary fit",
+      "Career narrative risk: including a materials science PhD in an otherwise XR/HCI CV would create significant coherence problems when applying to future HCI positions"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.94,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:40:28.959922Z",
+    "analysis_input_hash": "18342bb378c049a89c325a08cc3c9e8f48d137b09a44eb752e7d420f7a1d36f0"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 21,
     "urgency": "low",
     "days_to_deadline": 47,
     "needs_review": true,

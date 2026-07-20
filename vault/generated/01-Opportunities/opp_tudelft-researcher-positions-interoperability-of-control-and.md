@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-19
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 15
 urgency: urgent
 needs_review: true
 ---
@@ -95,7 +95,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+One-year researcher position in the InterOpera project investigating control and protection interaction in multi-terminal HVDC power systems using real-time simulation (RSCAD/RTDS) and offline PSCAD simulation, with industrial partners from European utilities and vendors.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 8 |
+| Growth value | 12 |
+| Strategic value | 65 |
+| **Overall** | **15** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cpp, pscad-rscad-simulation, power-electronics-knowledge, hvdc-systems-control
+
+**Risks:**
+- Power systems control is explicitly listed in researcher's excluded directions ('robotics-control', embedded systems).
+- One-year specialisation in HVDC protection and RTDS simulation would lock researcher into electrical engineering domain.
+- No user research, collaborative learning, or immersive interaction component.
+- Industrial partner exposure is to utilities/vendors, not design/HCI research communities; unlikely to build network for human-centred XR career.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-researcher-positions-interoperability-of-control-and.md` and link [[opp_tudelft-researcher-positions-interoperability-of-control-and]]._

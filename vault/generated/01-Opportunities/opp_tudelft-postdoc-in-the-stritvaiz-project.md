@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-02
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 22
 urgency: high
 needs_review: true
 ---
@@ -83,7 +83,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+
+Postdoctoral position in urban mobility optimization focused on mathematical modelling and optimization of curb-space allocation among competing functions (charging, mobility, logistics) at a multifunctional mobility hub. Role involves stakeholder engagement, demand scenario building, and integer programming in Python.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 30 |
+| Growth value | 25 |
+| Strategic value | 30 |
+| **Overall** | **22** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** optimization-modelling, demand-forecasting, advanced-python-for-scientific-computing
+
+**Risks:**
+- Explicit postdoc-experience requirement likely disqualifies researcher at application stage.
+- Mismatch in disciplinary background (design/HCI vs. operations research) signals to committee researcher is not target candidate.
+- 14-month contract is shorter than typical postdoc (2 years); compressed timeline for onboarding and contribution.
+- Two-year research direction (spatial optimization/logistics) does not create portfolio advantage for HCI/XR PhD applications.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-the-stritvaiz-project.md` and link [[opp_tudelft-postdoc-in-the-stritvaiz-project]]._

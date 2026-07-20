@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 17
 urgency: medium
 needs_review: true
 ---
@@ -100,7 +100,27 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+PhD position in adaptive optics systems for laser satellite communications, focusing on wavefront compensation, estimation algorithms, and optical communication link optimization. Work combines control algorithms, laboratory validation, and collaborative research with industrial partners.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 15 |
+| Growth value | 8 |
+| Strategic value | 50 |
+| **Overall** | **17** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** kalman-filtering, estimation-algorithms, optics, control-systems
+
+**Risks:**
+- Core domain is optical engineering and control systems, not HCI or immersive systems.
+- Substantial reskilling required: no evidence of Kalman filtering, estimation algorithms, or optics in profile.
+- No user-facing or learning-outcome research; purely technical engineering.
+- Career identity risk: acceptance would distance researcher from human-centred XR positioning.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-advanced-adaptive-optics-for-laser-sate.md` and link [[opp_tudelft-phd-position-advanced-adaptive-optics-for-laser-sate]]._

@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-17
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 24
 urgency: medium
 needs_review: true
 ---
@@ -88,7 +88,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Postdoctoral position developing and validating a data-driven digital twin using agent-based modelling to assess zero-emission strategies and emission reduction in inland shipping across three European corridors, combining real-world AIS and operational data with simulation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 16 |
+| Growth value | 28 |
+| Strategic value | 70 |
+| **Overall** | **24** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** agent-based-modelling, big-data-analytics, transportation-systems-knowledge, AIS-data-processing
+
+**Risks:**
+- Core research domain is transportation/environmental systems, not human-computer interaction.
+- Two-year specialisation in agent-based logistics modelling would create difficult-to-reverse domain shift.
+- Digital twin usage is predictive/evaluative, not experiential; no component addressing spatial understanding or collaborative learning.
+- Big data engineering focus orthogonal to user research, design science, and immersive systems evaluation.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-validating-a-digital-twin-for-evaluating-emi.md` and link [[opp_tudelft-postdoc-validating-a-digital-twin-for-evaluating-emi]]._

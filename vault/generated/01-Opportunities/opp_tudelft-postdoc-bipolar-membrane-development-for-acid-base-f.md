@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-28
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 14
 urgency: high
 needs_review: true
 ---
@@ -89,7 +89,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Post-doctoral position in bipolar membrane development for acid-base flow battery systems, designing and optimizing membranes with high water dissociation efficiency and selectivity for long-duration energy storage, with teaching responsibilities.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 50 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** statistics, python
+
+**Risks:**
+- User does not currently hold a PhD; post-doctoral positions are post-PhD level roles.
+- Credential gap is substantial: position targets chemical engineers and applied chemists; user is multimedia-trained.
+- Two-year contract (temporary) offers less career continuity than doctoral track.
+- Substantive domain pivot away from immersive HCI research; switching back later would require new PhD in HCI.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-bipolar-membrane-development-for-acid-base-f.md` and link [[opp_tudelft-postdoc-bipolar-membrane-development-for-acid-base-f]]._

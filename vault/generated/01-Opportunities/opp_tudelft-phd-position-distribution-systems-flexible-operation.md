@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 14
 urgency: high
 needs_review: true
 ---
@@ -103,7 +103,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+PhD in AI/ML methods for flexible operation of low-voltage distribution systems with limited data and high uncertainty, involving grid optimization, distributed energy resources, and smart building coordination.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 35 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** machine-learning, optimization-methods
+
+**Risks:**
+- Fundamental domain misalignment: energy systems vs. human-centred immersive systems
+- Insufficient ML/optimization background would require substantial ramp-up before productive research
+- Trajectory lock-in: accepting this position would establish researcher as power-systems ML scholar, making later transition to HCI/XR difficult
+- Research outputs (grid optimization, AI for energy) do not build publication track record in target field
+- PhD cohort and collaborators would be energy engineers, not HCI or XR researchers
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-distribution-systems-flexible-operation.md` and link [[opp_tudelft-phd-position-distribution-systems-flexible-operation]]._

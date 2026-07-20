@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -85,7 +85,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+
+Postdoctoral position in process systems engineering focused on modelling electrochemical recovery of nitrogen from wastewater, including technoeconomic and life-cycle assessments. Part of EU Water4All consortium; involves computational process modelling and sustainability evaluation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 25 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, process-simulation-software, electrochemistry
+
+**Risks:**
+- Clear disciplinary mismatch (design vs. chemical engineering) may lead to screening rejection.
+- Technical gap in process modelling and LCA methods is substantial; researcher would require significant retraining.
+- Three-year commitment to environmental engineering creates opportunity cost and narrative discontinuity for HCI/XR PhD pathway.
+- On CV, pivoting from immersive learning systems to wastewater treatment signaling creates confusion about researcher's actual research identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-modelling-of-electrochemical-recovery-of-nit.md` and link [[opp_tudelft-postdoc-modelling-of-electrochemical-recovery-of-nit]]._

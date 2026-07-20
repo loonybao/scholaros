@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-26
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 13
 urgency: urgent
 needs_review: true
 ---
@@ -98,7 +98,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+PhD position in integrated quantum photonics at QuTech, focusing on color center physics, superconducting single-photon detectors, and quantum applications on photonic circuits. Core work involves device design, characterization, and experimental physics.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 45 |
+| **Overall** | **13** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** optics, cryogenic-measurement, quantum-emitters, superconducting-detectors
+
+**Risks:**
+- Fundamental domain shift: quantum photonics is pure physics, not HCI. This contradicts stated exclusion of non-human-centred research.
+- No XR/immersive systems component despite institution overlap.
+- Skill mismatch: no evidence of optics, cryogenic work, or quantum technologies in profile.
+- Career trajectory risk: acceptance would signal pivot away from human-centred XR identity, jeopardizing alignment with target PhD cohorts in HCI labs.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-fully-funded-phd-position-in-quantum-photonics.md` and link [[opp_tudelft-fully-funded-phd-position-in-quantum-photonics]]._

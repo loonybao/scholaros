@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-24
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 14
 urgency: medium
 needs_review: true
 ---
@@ -99,7 +99,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+
+Three ERC-funded PhD positions in theoretical chemistry and physics investigating electronic structure and magnetic behaviour of molecular and atomic spins on surfaces, employing periodic quantum embedding, EOM-CC theory, and spin-phonon coupling calculations to enable optically addressable quantum devices.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 5 |
+| Strategic value | 60 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics, mixed-effects-modelling
+
+**Risks:**
+- Severe credential and domain expertise gap. User would be one of the least-qualified applicants in a highly specialized field.
+- Four-year PhD in theoretical quantum chemistry would effectively end user's pursuit of immersive HCI research.
+- Supervisor and group are entirely theory/computation focused; no exposure to human-centred or empirical HCI methods.
+- Collaboration with Goswami and Wimmer groups reinforces physics/materials science orientation; no interdisciplinary bridge to HCI.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-positions-in-theoretical-chemistry-and-physics-e.md` and link [[opp_tudelft-phd-positions-in-theoretical-chemistry-and-physics-e]]._

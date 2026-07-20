@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 18
 urgency: high
 needs_review: true
 ---
@@ -100,7 +100,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+
+PhD in foundation AI models for power distribution systems decision-making, combining multi-task learning, physics-informed neural networks, and topology-invariant architectures for grid operations.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 20 |
+| Growth value | 15 |
+| Strategic value | 40 |
+| **Overall** | **18** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** machine-learning
+
+**Risks:**
+- Fundamental domain mismatch: AI for power grids vs. human-centred immersive systems
+- Insufficient ML background for position; would require 1–2 years ramp-up before independent research contribution
+- Career lock-in to AI/energy sector; difficult to transition back to HCI/XR after PhD
+- PhD cohort and publications would be in ML/energy domain, not visible to HCI/XR hiring committees
+- No collaboration with XR or HCI researchers; research outputs irrelevant to target field
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-foundation-ai-models-for-distribution-s.md` and link [[opp_tudelft-phd-position-foundation-ai-models-for-distribution-s]]._

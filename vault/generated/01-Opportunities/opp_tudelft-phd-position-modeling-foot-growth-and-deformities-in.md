@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-27
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 45
 urgency: high
 needs_review: true
 ---
@@ -103,7 +103,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.78_
+
+PhD in computational biomechanics developing statistical shape models and finite element models of growing feet to understand normal development and growth alterations in children with cerebral palsy; collaborative clinical research.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 25 |
+| Methodological fit | 50 |
+| Growth value | 55 |
+| Strategic value | 70 |
+| **Overall** | **45** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** python
+
+**Risks:**
+- Thematic shift away from spatial cognition and immersive learning toward clinical biomechanics.
+- Career trajectory post-PhD likely biomechanical researcher rather than HCI/XR researcher.
+- Supervisor group (biomechanical engineering, rehabilitation medicine) not positioned in HCI research community.
+- No direct pathway from foot deformity modelling to spatial learning systems or immersive collaboration research.
+- 4-year commitment to biomechanics could delay or redirect progress toward target identity, though less severe than other TU Delft positions.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-modeling-foot-growth-and-deformities-in.md` and link [[opp_tudelft-phd-position-modeling-foot-growth-and-deformities-in]]._

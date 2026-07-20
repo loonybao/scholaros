@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:41:24.838082Z",
-  "updated_at": "2026-07-19T01:42:09.424568Z",
+  "updated_at": "2026-07-20T16:50:17.686107Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:41:24.838082Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:39:12.208748Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.686107Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,71 @@
     "status": "open",
     "description_text": "Full Scale Wind over Deck Measurements\nJob description\nFor the efficient and safe deployment of flying (marine) drones, Ship-Unmanned Aircraft System Operational Limitations (SHUASOL) must be determined. These SHUASOLs are strongly influenced by the wind field above the helideck and around ships. These wind fields are simulated on model scale as standard. For helicopters, the real limits are then determined by a test flight by an experienced test pilot. For small flying drones, these test flights are more challenging since gusts of wind have a greater impact on them. In addition, the goal is to allow drones to fly autonomously without interference from test pilots. That is why knowledge of the real wind fields around a ship and the validation of simulations of these wind fields is extra important.\nIn this PhD project, you will design and perform full-scale imaging measurements (particle/bubble tracking velocimetry) of the wind field at the landing deck of a marine vessel. The main goal will be to analyse the full-scale wind field, and particularly the structure and magnitude of wind gusts, relevant to flying drone operations at sea and assess how well model-scale measurements and existing numerical simulations can match these measurements. Additionally you will explore the limitations of such techniques in full-scale conditions, with respect to measurement volumes and resolution, as well as calibration, and flow seeding.\nYou will be part of a vibrant team of international researchers within the Multiphase Systems and Fluid Mechanics groups of the Process & Energy Department. Additionally, you will get to spend time at the Netherlands Defence Academy (NLDA, Den Helder Campus) where the majority of the measurement campaigs will take place. You will receive all the necessart training you need to evolve as an independent researcher and you be able to attend international conferences to present your work. Your supervisors will be Dr. Angeliki Laskari and Dr. Gerrit Elsinga from the Process & Energy Department in TU Delft and Dr. Roeland de Kat from NLDA.\nJob requirements\nYou are have a strong interest in experimental fluid dynamics and are motivated to push the boundaries of measurement techniques for full-scale measurements. You also have the following qualifications:\nMSc degree in mechanical, maritime, or aerospace engineering, or a closely related field.\nStrong background in fluid mechanics.Experimental experience of flow measurements in a wind or water tunnel will be considered an advantage.\nStrong mathematical/computational background (Matlab, Python).\nFluent communication skills in English, both in written and oral. For non-native speakers, this can be proven through IELTS or TOEFL, or by showing that you have attended a master program fully taught in English. Note that this is a hard constraint for all PhD candidates at TU Delft.\nBackground screening will be part of the hiring process.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr Angeliki Laskari (\nA.Laskari@tudelft.nl\n).\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n13 August 2026\nvia the application button and upload the following documents:\nA detailed CV\nA cover letter explaining why you are the right fit for this position\nComplete list of courses taken during BSc and MSc with grades\nIf the applicants are selected for the an interview, they will be asked to provide contact details of at least two referees with their consent.\nYou can address your application to Dr Angeliki Laskari.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD project in experimental fluid dynamics focused on full-scale wind field measurements above ship helidedecks using particle/bubble tracking velocimetry to validate drone operational limits and inform numerical simulations.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic overlap. Position targets experimental fluid mechanics, maritime engineering, and drone aerodynamics. Researcher's core identity is human-centred immersive systems, spatial learning, and collaborative XR—fundamentally distinct domains."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Minimal methodological connection. Position requires experimental measurement design and fluid dynamics analysis; researcher has user-study and immersive-system design experience. Experimental design skill (intermediate) is transferable but insufficient for this highly specialized domain."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Very limited growth value toward target identity. Researcher would acquire fluid mechanics and full-scale measurement expertise, neither of which aligns with spatial cognition, collaborative immersive systems, or human-centred XR research."
+    },
+    "strategic_value": {
+      "score": 60,
+      "rationale": "TU Delft is a tier-1 institution (target priority institution) with strong research infrastructure and funding stability. However, this specific position offers no pathway toward the researcher's target identity or future HCI/XR career trajectory."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python",
+      "cpp"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires MSc in mechanical, maritime, or aerospace engineering; researcher holds MSc by Research in multimedia/creative technology—disciplinary mismatch may affect eligibility assessment."
+    ],
+    "risks": [
+      "Severe domain mismatch: researcher's expertise in XR, spatial cognition, and collaboration has no application to fluid mechanics and maritime engineering.",
+      "Career risk: 4-year commitment to non-target field would delay or derail progression toward HCI/XR researcher identity.",
+      "Limited transferability: fluid dynamics knowledge does not support future spatial learning or immersive systems research.",
+      "Supervisor/group expertise is orthogonal to researcher's target trajectory."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:39:12.207747Z",
+    "analysis_input_hash": "d93e0c3526977935ffcc46e4cf1823c31d7e3af296dfca33408b43cefbd864ac"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 15,
     "urgency": "medium",
     "days_to_deadline": 25,
     "needs_review": true,

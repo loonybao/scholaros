@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:28:49.682163Z",
-  "updated_at": "2026-07-19T01:42:09.544359Z",
+  "updated_at": "2026-07-20T16:50:17.779153Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:28:49.682163Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:45:11.740261Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.779153Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,73 @@
     "status": "open",
     "description_text": "Job description\nThis position is part of the European project \"eLitre ─ Electrochemical recovery of nitrogen vectors from wastewater\" funded in the Water4All Partnership on “Water for Circular Economy”. The consortium includes 5 european partners, 4 knowledge institutions and one industrial partner in the water and urban services sector.\nA large fraction of European water suffers from eutrophication induced by high nitrate concentrations contained in agricultural runoff, while food production continues to heavily rely on ammonia-based fertilizers, a critical chemical with a large carbon footprint. eLitre proposes to develop integrated electrochemical and photobiological processes to address excess nitrate species in wastewater streams. The technology developed in eLitre could actively help remediate nitrate-contaminated water bodies while upgrading nutrients back into raw materials for fertilizer applications. eLitre’s direct path to impact lies in its contribution to water circularity and nutrient recovery and revalorization. With the electrochemical processing pathway, eLitre pursues the direct conversion of nitrate species dissolved in wastewater into ammonia, at high nitrogen conversion rates, selectivity, and rates. With this, eLitre could contribute to the enhancement of water circularity in both agricultural industries and urban settings, including resource recovery and valorisation and experimentally informed economic and environmental assessments.\nThe Postdoc will develop models of the eLitre technology and carry out technoeconomic and life cycle assessments to evaluate the impact of different technology configurations under different scenarios. The proposed solutions will be evaluated to see the capabilities for nitrate removal and recyclability in the context of the EU Nistrates Directive. The studies will be based on experimental observations from the tasks within the project enabling KPI-informed models. The project will offer insights on the cost and environmental impact of the technologies developed to improve performance on the path to viability.\nThe Process Systems Engineering (PSE) section at TUDelft is part of the Chemical Engineering Department and comprises a professional team dedicated to advanced computational research, with a collective focus on advancing the PSE field to bring new insights and sustainable developments.\nJob requirements\nPhD in chemical engineering or a similar field.\nExperience in proces modelling, techno-economic assessment, and life cycle assesment.\nInterest in electrochemical processes.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDuration of contract is 3 years. Temporary.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. Ana Somoza-Tornos, via\nA.SomozaTornos@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n31 Augustus 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Dr. Ana Somoza-Tornos.\nPlease note:\n#EUfunded This is an EU funded project, named eLitre, within program Water4All 2024 Joint Transnational Call - Water for Circular Economy.\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position in process systems engineering focused on modelling electrochemical recovery of nitrogen from wastewater, including technoeconomic and life-cycle assessments. Part of EU Water4All consortium; involves computational process modelling and sustainability evaluation.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic overlap. Position is applied chemical engineering (process modeling, techno-economics, LCA) for wastewater treatment and nutrient recovery. Researcher's domain is human-centred XR, immersive learning, and spatial cognition. No shared research questions, problem spaces, or application contexts."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Limited methodological connection through systems-level thinking and multi-criteria evaluation (sustainability, cost, environmental impact). Researcher has experimental design and quantitative skills. However, position requires process modelling, technoeconomic analysis, and life-cycle assessment—specialized computational methods not present in researcher's skill set. No overlap in core technical approach."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Would potentially build process-modelling skills and quantitative reasoning around sustainability metrics. However, these are in service of chemical/environmental engineering, not HCI or immersive systems. Does not address stated capability gaps (statistics at advanced level, physiological sensing, eye-tracking) relevant to target research direction."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "TU Delft is Priority 1 institution. 3-year EU-funded position (Water4All consortium) offers funding stability and international collaboration. Chemical Engineering department is strong. However, strategic value is undercut by domain divergence: accepting this position moves researcher away from HCI/XR ecosystem and toward environmental engineering, damaging PhD competitiveness in target field."
+    },
+    "required_skills": [
+      "process-modelling (not in taxonomy)",
+      "technoeconomic-assessment (not in taxonomy)",
+      "life-cycle-assessment (not in taxonomy)"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python",
+      "process-simulation-software",
+      "electrochemistry"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires PhD in 'chemical engineering or similar field'—researcher's MSc by Research is in multimedia/design. Disciplinary background does not align.",
+      "Posting emphasizes 'experience in process modelling, techno-economic assessment, and LCA'—researcher has no evidence of these.",
+      "Postdoc position assumes completed PhD; researcher mid-thesis."
+    ],
+    "risks": [
+      "Clear disciplinary mismatch (design vs. chemical engineering) may lead to screening rejection.",
+      "Technical gap in process modelling and LCA methods is substantial; researcher would require significant retraining.",
+      "Three-year commitment to environmental engineering creates opportunity cost and narrative discontinuity for HCI/XR PhD pathway.",
+      "On CV, pivoting from immersive learning systems to wastewater treatment signaling creates confusion about researcher's actual research identity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.93,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:45:11.739261Z",
+    "analysis_input_hash": "ac17f1b55bdefff66143940b77707a374c0ddafa0333da7a7f8c9f178f6a1cde"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 12,
     "urgency": "medium",
     "days_to_deadline": 43,
     "needs_review": true,

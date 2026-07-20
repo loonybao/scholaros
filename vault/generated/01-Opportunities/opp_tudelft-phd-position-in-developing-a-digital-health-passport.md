@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 43
 urgency: medium
 needs_review: true
 ---
@@ -96,7 +96,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.72_
+
+PhD in structural health monitoring and data-driven condition assessment for railway tracks on bridges, combining wayside/on-board sensors, signal processing, vibration analysis, and physics-based modelling.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 25 |
+| Methodological fit | 55 |
+| Growth value | 40 |
+| Strategic value | 60 |
+| **Overall** | **43** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** signal-processing, vibration-analysis, structural-dynamics, sensor-integration
+
+**Risks:**
+- Limited domain-specific foundation: researcher lacks structural engineering, vibration analysis, and sensor expertise; would require 6–12 months technical preparation
+- Research outputs (railway track health monitoring) are not visible in HCI/XR venues; does not build target field visibility
+- Supervisor and peer cohort are civil/structural engineers, not HCI researchers; limited mentorship in human-centred design or evaluation
+- Position emphasises real-world infrastructure validation and industry collaboration (ProRail), which is valuable but not aligned with immersive systems research culture
+- Career path diverges toward civil engineering; return to HCI/XR later would require deliberate repositioning
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-developing-a-digital-health-passport.md` and link [[opp_tudelft-phd-position-in-developing-a-digital-health-passport]]._

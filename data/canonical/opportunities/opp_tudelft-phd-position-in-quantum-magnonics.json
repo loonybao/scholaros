@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:31:04.933980Z",
-  "updated_at": "2026-07-19T01:42:09.453499Z",
+  "updated_at": "2026-07-20T16:50:17.699106Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:31:04.933980Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:39:12.214263Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.699106Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,63 @@
     "status": "open",
     "description_text": "How can spin wave show quantum properties and how are they useful for quantum information?\nJob description\nWe have an open PhD position funded by the Dutch Research Council (NWO) as part of Dutch-Japanese collaborative program on Unconventional Computing. The project is on quantum magnonics; the successful candidate will theoretically investigate quantum properties of propagating spin waves in magnetic materials and see how these can be used for quantum information. Extensive collaboration with experimental groups within the consortium is essential. The PhD candidate will be supervised by Prof. Yaroslav Blanter in Delft and Prof. Rembert Duine in Utrecht, and part-time presence in Delft and Utrecht is expected during the whole project. In Delft, the candidate will be embedded in Blanter Group which is part of the Department of Quantum Nanoscience. In addition, the candidate is required to spend 42 weeks at Tohoku University in Japan, working with Mehrdad Elyasi and  Gerrit Bauer. The tentative start date is 15 November 2026.\nJob requirements\nUniversity degree (equivalent to the Dutch Master) in physics or equivalent, already obtained or imminent;\nCV must demonstrate academic excellence.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Prof. Yaroslav Blanter, via\nY.M.Blanter@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 July 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Prof. Yaroslav Blanter.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Theoretical PhD in quantum magnonics investigating quantum properties of propagating spin waves for quantum information applications, with international collaboration between TU Delft, Utrecht University, and Tohoku University.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "No thematic connection. Position is pure theoretical physics focused on quantum phenomena and spin waves. Researcher's identity is centred on human-centred interaction design, collaborative immersive systems, and spatial learning—unrelated domains."
+    },
+    "methodological_fit": {
+      "score": 2,
+      "rationale": "No meaningful methodological fit. Position requires theoretical physics and mathematical modelling of quantum systems. Researcher's methods are experimental user studies, XR system design, and human-centred evaluation. Negligible overlap."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "Quantum magnonics expertise would contribute nothing toward researcher's target capability set (spatial cognition, collaborative immersive systems design, learning evaluation)."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "TU Delft is priority institution; international collaboration (Utrecht, Tohoku) offers prestige and networking. However, theoretical physics direction offers zero strategic value for HCI/XR career trajectory."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires physics or equivalent MSc 'already obtained or imminent'; researcher holds MSc by Research in multimedia—not equivalent to physics degree.",
+      "'CV must demonstrate academic excellence'—no indication researcher meets this threshold in physics context."
+    ],
+    "risks": [
+      "Extreme disciplinary mismatch: theoretical quantum physics vs. human-centred XR design.",
+      "4-year physics PhD would derail HCI/XR career progression.",
+      "Supervisor and research group expertise (quantum nanoscience) bears no relation to researcher's target identity.",
+      "International placement in Japan offers interesting experience but no strategic value toward HCI research positioning.",
+      "Quantum magnonics knowledge has zero transferability to immersive systems or spatial learning research."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:39:12.213263Z",
+    "analysis_input_hash": "a274e7412d2c7a5b5b66fb4d979d09d9f975935c5f9fa0d0f07189e73278409f"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 10,
     "urgency": "high",
     "days_to_deadline": 11,
     "needs_review": true,

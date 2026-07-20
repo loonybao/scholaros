@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:36:08.524042Z",
-  "updated_at": "2026-07-19T01:42:09.449987Z",
+  "updated_at": "2026-07-20T16:50:17.696106Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:36:08.524042Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:38:16.322377Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.696106Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,77 @@
     "status": "open",
     "description_text": "Help redefine cancer treatment through nanomedicine.\nWe are seeking a highly motivated PhD candidate to work at the cutting edge of lipid nanoparticle design & molecular modeling\nJob description\nSPARC (Scalable Personalized Nanotherapeutics for Cancer Treatment) is an ambitious research program dedicated to making advanced cancer therapies more effective and accessible, particularly for patients with hard-to-treat “cold tumors.” By developing personalized nanomedicines, SPARC aims to improve patient survival through innovations such as tumor-on-a-chip platforms that reduce reliance on animal testing, and novel manufacturing technologies that enhance therapeutic efficacy and product stability.\nAs part of this program, we are looking for a highly motivated PhD candidate with a strong interest in interdisciplinary research to join a collaborative project between the Precision Therapeutics group (Dr. Alina Rwei) in the Department of Chemical Engineering and the Complex Fluid Processing group (Prof. Johan Padding) in the Department of Process & Energy at Delft University of Technology. The position will be formally embedded within the Precision Therapeutics group.\nIn this PhD project, you will develop innovative formulation strategies for lipid-based drug delivery nanoparticles, with a particular focus on the design and optimization of externally triggerable lipid nanomedicines. Combining molecular modeling with experimental validation, you will investigate how formulation parameters influence nanoparticle stability, ultrasound triggerability, and biological performance, contributing to the development of precision therapeutic approaches for cancer treatment.\nThe project is embedded in a strong academic–industrial network and offers close collaboration with leading pharmaceutical partners, including Merck KGaA and Johnson & Johnson. The project also involves close interaction with other research teams within the SPARC consortium, working on molecular mechanisms of nanoparticle purification and storage, as well as engineering solutions for downstream processing.\nThis position offers a unique opportunity to work at the interface of nanomedicine, molecular modeling, and process engineering, while contributing to the future of personalized cancer therapy.\nKey Responsibilities\nLipid-based nanoparticle formulation design & stability optimization\nInvestigate the impact of lipid composition, cargo type and size, and solvent conditions on nanoparticle performance.\nDevelop formulation strategies that balance:\nMechanical robustness (required for purification and storage)\nUltrasound responsiveness for triggered drug release\nComputational simulations with Coarse-Grained Molecular Dynamics (CGMD):\nModel formulation- and environment-dependent nanoparticle properties (e.g., bending stiffness, surface tension)\nInvestigate ultrasound triggered release mechanisms\nEmpirical validation of nanoparticle properties & ultrasound-triggerability in a biologically relevant environment\nEmpirically validate the simulated nanoparticle properties\nDesign and evaluate ultrasound triggerability of lipid-based nanoparticles that can activate the tumor microenvironment\nPerform in vitro ultrasound-triggered release studies under controlled conditions and validate performance in vitro e.g. tumor-on-chip platforms and in vivo\nJob requirements\nMSc or equivalent in Chemical Engineering, Pharmaceutical Sciences, Physical Chemistry, Biomedical Engineering, Nanotechnology or related field\nAnalytical mindset with ability to work across computational and experimental domains\nHave excellent communication skills in English, and want to work in a multidisciplinary team\nExperience in lipid-based nanoparticle formulations and/or coarse-grained molecular dynamic simulations is a plus\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. Alina Rwei, via\na.y.rwei@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n31 August 2026\nvia the application button and upload the following documents:\nA detailed CV\nYour Bachelor’s and Master’s transcripts (grade reports\nA cover letter outlining your motivation and key experience\nApplicants are encouraged to apply as early as possible. The position offers a flexible start date, preferably in Fall 2026, with the latest possible start in February 2027.\nYou can address your application to Dr. Alina Rwei.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in lipid nanoparticle formulation design and optimization for ultrasound-triggered drug delivery in cancer therapy, combining molecular dynamics simulation, experimental validation, and in vitro/in vivo testing.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "Core research is nanomedicine, formulation engineering, and cancer therapeutics. No connection to human-centred XR, immersive systems, spatial learning, collaboration, or HCI. Domain is pharmaceutical/biomedical, entirely distinct from researcher's field."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Position combines computational modelling (coarse-grained molecular dynamics) and empirical validation. Researcher has quantitative research (intermediate) and experimental-design experience (intermediate). However, position requires molecular dynamics expertise, biochemistry, and nanoparticle characterisation—fields in which researcher has no background. Beginner Python is insufficient for CGMD."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "Would develop molecular modelling and drug-delivery formulation expertise. Does not address target capability gaps (spatial cognition, immersive interaction design, collaborative systems, HCI evaluation). Trajectory is biomedical engineering, not human-centred research."
+    },
+    "strategic_value": {
+      "score": 45,
+      "rationale": "TU Delft is priority-1 institution (Netherlands). 4-year funded position embedded in SPARC consortium with strong pharmaceutical partnerships (Merck, J&J). Supervisors (Dr. Alina Rwei, Prof. Johan Padding) are established researchers. EU-backed funding is stable. However, pharmaceutical research has zero visibility in HCI/XR community; no career leverage in target field."
+    },
+    "required_skills": [
+      "python",
+      "molecular-dynamics-simulation",
+      "chemical-engineering"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "molecular-dynamics-simulation",
+      "chemical-engineering",
+      "pharmaceutical-formulation",
+      "nanotechnology"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires MSc in Chemical Engineering, Pharmaceutical Sciences, Physical Chemistry, Biomedical Engineering, or Nanotechnology—researcher has MSc in multimedia; significant credential mismatch",
+      "'Analytical mindset with ability to work across computational and experimental domains' required; researcher has intermediate experimental design but no computational modelling experience",
+      "'Experience in lipid-based nanoparticle formulations and/or coarse-grained molecular dynamics' listed as plus—researcher has neither",
+      "Position emphasises multidisciplinary collaboration and strong English communication; researcher has these but in HCI context, not pharmaceutical"
+    ],
+    "risks": [
+      "Severe domain mismatch: nanomedicine vs. human-centred immersive systems",
+      "Insufficient computational modelling background; CGMD expertise requires deep training in physical chemistry and molecular simulation",
+      "Research outputs (nanoparticle formulations, drug-delivery mechanisms) have zero relevance to HCI/XR hiring committees",
+      "Career lock-in to biomedical engineering; pivot to HCI/XR would be perceived as abandoning expertise",
+      "Supervisor and peer cohort are pharmaceutical/biomedical scientists; no HCI mentorship",
+      "PhD trajectory established in oncology/nanomedicine; difficult to build credibility in immersive systems later"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.94,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:38:16.321377Z",
+    "analysis_input_hash": "594bb61f482cd3ca05fcb51ca946dacb565ed3142299532e11acd39bdd7184f2"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 20,
     "urgency": "medium",
     "days_to_deadline": 43,
     "needs_review": true,

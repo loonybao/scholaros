@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 20
 urgency: high
 needs_review: true
 ---
@@ -97,7 +97,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+
+Postdoctoral position in structural cell biology focused on developing automated in situ cryo-ET workflows for visualizing molecular complexes in their native cellular environment. Role involves technical method development, image analysis, machine learning for scientific data, and collaboration with experimental and computational researchers.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 25 |
+| Growth value | 20 |
+| Strategic value | 35 |
+| **Overall** | **20** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cryo-em-data-analysis, cell-culture-and-manipulation, scientific-software-development
+
+**Risks:**
+- Significant technical skill gap. Position requires hands-on cryo-ET and FIB-SEM expertise; researcher would enter as complete novice in these methods despite postdoc level.
+- Hiring committee would likely view this as poor fit on technical grounds, even with beginner Python skills.
+- Two-year commitment in structural biology creates opportunity cost: time not spent building HCI/XR portfolio for PhD transition.
+- Career narrative becomes unclear: why move from immersive systems to structural cell biology? Reduces PhD application competitiveness in both fields.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-situ-cryo-et.md` and link [[opp_tudelft-postdoc-in-situ-cryo-et]]._

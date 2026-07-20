@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-12
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 25
 urgency: medium
 needs_review: true
 ---
@@ -88,7 +88,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.91_
+
+PhD on discrete element method (DEM) modelling of steel scrap handling and flow in electric arc furnace (EAF) feeding systems. Research develops particle-based simulation frameworks to predict scrap behaviour across handling, transport, and furnace infeed, validated against industrial data from Tata Steel, with goal of optimizing discharge sequences and improving operational efficiency.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 30 |
+| Growth value | 10 |
+| Strategic value | 65 |
+| **Overall** | **25** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Computational method barrier: the researcher would need to master DEM theory, software implementation (EDEM, LIGGGHTS, or equivalent), and validation workflows—specialized knowledge not taught in HCI/XR programs
+- Disciplinary culture mismatch: the Machines & Materials Interactions section attracts mechanical and materials engineers; an XR/HCI candidate would be culturally and intellectually isolated
+- Industrial credibility: Tata Steel and consortium partners expect PhD candidates familiar with materials science and manufacturing; an HCI graduate would raise questions about capability and commitment
+- Career path risk: successful completion would create a CV that conflates XR/HCI (thesis, publications) with industrial particle simulation (PhD)—incoherent narrative for future employer evaluation
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-particle-based-modelling-of-scrap-handl.md` and link [[opp_tudelft-phd-position-particle-based-modelling-of-scrap-handl]]._

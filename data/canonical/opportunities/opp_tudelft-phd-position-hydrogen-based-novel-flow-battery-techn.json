@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:29:34.597005Z",
-  "updated_at": "2026-07-19T01:42:09.433379Z",
+  "updated_at": "2026-07-20T16:50:17.691107Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:29:34.597005Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:39:12.211257Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.691107Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,69 @@
     "status": "open",
     "description_text": "What will be the new generation of batteries for long-duration energy storage?\nJob description\nEnergy storage is an indispensable factor for bridging the electricity consumption with the intermittent renewable energy supply. With increasing supply of renewable electricity in our energy mix, and electrification across industrial, transport, commercial, and residential sectors strains existing grid infrastructure, electricity storage is required to prevent congestion and transmission bottlenecks. This energy storage is required at a broad range of timescales. While technology is available for the short to medium timescales, very little technology is available to store electricity efficiently to cover durations of 25+ hours.\nIn that light, we started the collaborative research project REDOX BLEND, performed at seven Dutch universities and knowledge institutes (TU Delft, RUG, UTwente, TU/Eindhoven, U Nijmegen, DIFFER, TNO) to develop next generation batteries for ultra-long-duration energy storage.\nThis project will focus on the development of inorganic, hydrogen-based flow batteries, for high power density and energy density. Among these is the hydrogen-iodine flow battery. This battery type has fast kinetics and recent work demonstrated that an electrolyte with high pH and co-solvent can achieve high iodine solubility and high open circuit voltage. However, this battery type is in early stage of development. Further analysis is required, including studying the configuration of such alkaline H2-I2 battery and longer- term stability. Results will be compared and merged with developments in other flow battery chemistries, developed at other universities and industrial partners (Aquabattery, Elestor, Ore Energy) in this project.\nWe're looking for a candidate with an excellent performance in BSc/MSc studies, with knowledge about electrochemistry and experience in performing laboratory experiments. For this vacancy, we're looking for a candidate with strong engineering skills (rather than materials science or fundamental electrochemistry), to demonstrate this technology at stack level. The candidate should also have a pro-active mindset and good skills to collaborate in with partners in the project and allow to evaluate this technology for ultra-long energy storage from multiple angles.\nJob requirements\nWe’re looking for a candidate with:\nA MSc degree, in chemical engineering, mechanical engineering, applied chemistry, applied physics or similar\nExperience in working with energy technology\nProven experimental skills\nKnowledge in engineering or process technology\nAn excellent grade list\nPro-active and creative mind-set\nFluent in English. Speaking Dutch is a plus\nStarting date in Q4 2026\nTU Delft creates equal opportunities and encourages women to apply.\nThis PhD position offers:\nChallenging job in a highly innovative technology field\nEmbedding in an enthusiastic team of engineers and researchers\nCollaboration with industrial partners\nA position with funding for 4 years\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact David Vermaas, via\nD.A.Vermaas@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 Augustus 2026\nvia the application button and upload the following documents:\nA one-page motivation letter that is specific to this vacancy\nA detailed resume (1-3 pages)\nThe position will remain open until August 30. An selection of early applicants will be made by the end of July. Starting date is flexible, but likely in Q4 2026.\nYou can address your application to David Vermaas.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD position in energy storage technology development, specifically hydrogen-iodine flow battery electrochemistry and stack-level demonstration as part of a multi-institutional ultra-long-duration storage initiative.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "No thematic alignment. Position is pure electrochemistry and energy technology. Researcher's identity centers on human-centred immersive systems, spatial learning, and collaborative interaction—entirely orthogonal domains."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Negligible methodological fit. Position emphasizes laboratory experiments, electrochemistry, and engineering validation. Researcher's methods are user-centered evaluation, XR development, and spatial cognition measurement. No substantive overlap."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Virtually no growth toward target identity. Electrochemistry and battery technology expertise would not advance researcher's capability in spatial understanding, immersive learning design, or collaborative system evaluation."
+    },
+    "strategic_value": {
+      "score": 55,
+      "rationale": "TU Delft is a priority institution; 4-year funded position with industrial partners offers funding stability and institutional prestige. However, research direction does not support target career path or long-term HCI/XR positioning."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position prefers chemical engineering, mechanical engineering, or applied chemistry MSc; researcher holds MSc in multimedia/creative technology—degree disciplinary mismatch.",
+      "Position requires 'excellent grade list'—researcher's conventional CGPA status is marked 'false'; unclear if grades meet threshold."
+    ],
+    "risks": [
+      "Complete domain drift from target identity and research interests.",
+      "4-year commitment to energy technology would significantly delay HCI/XR career development.",
+      "Supervisor/group has no expertise in human-computer interaction or immersive systems.",
+      "Industrial partner focus (Aquabattery, Elestor, Ore Energy) offers no pathway to academia-focused HCI positions.",
+      "Highly specialized electrochemistry knowledge has near-zero transferability to researcher's target field."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:39:12.211257Z",
+    "analysis_input_hash": "88554249a538fd253f484ad5174ef60aa0688a72e58f7e392ab738c6d5d29f28"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 11,
     "urgency": "medium",
     "days_to_deadline": 42,
     "needs_review": true,

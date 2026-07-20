@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:35:46.010702Z",
-  "updated_at": "2026-07-19T01:42:09.559585Z",
+  "updated_at": "2026-07-20T16:50:17.790153Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:35:46.010702Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:47:12.570726Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.790153Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,73 @@
     "status": "open",
     "description_text": "Challenge: Integrating Fault Tolerance and Dependability\nChange: \"What if\" cyber-physical ship design\nImpact: Integrating resilience, safety and security\nJob description\nThe candidate will work in the HorizonEurope Project WARRANT (\nwww.warrant-project.eu\n) with 13 partners,  pursuing innovative research to meet the following objectives: (1) The functional analysis and reliability assessment of waterborne digital systems, addressing the growing adoption of Artificial Intelligence (AI), Internet of Things (IoT), Remote & Autonomous shipping, and the increasing cybersecurity threat landscape; (2) The experimentation and validation of the WARRANT methods and platforms in Living Labs with representative stakeholders concerned with waterborne digital systems dependability innovations, and safe, secure and resilient operations of digitalized ships, (3) the scientific dissemination and communication, and industry engagement.\nThe candidate will work in the department of Maritime and Transport Engineering (MTT) of Mechanical Engineering Faculty and will be a senior researcher in the SAFE-NET group (\nhttps://www.safe-net.team/\n). He/she will enjoy interacting with the MTT Young Professionals (\nhttps://mtt-colloquium.github.io/index.html\n) and the researchers of the Transport Engineering & Logistics Section, and joining social activities.\nJob requirements\nA PhD degree (or equivalent) in a relevant subject such as Fault Diagnosis, Fault Tolerant Control, Reliability-Availability-Maintainability-Safety, Risk Assessment/Mitigation, Safe/Secure by design\nExcellent skills for quantitative/qualitatitve modelling of ship systems/operations\nAdvanced programming skills\nAn excellent command of English, as you’ll be working in an internationally diverse community and with international partners\nA problem-solving mindset and passion for interdisciplinary research working together with academic/industrial partners\nTU Delft (Delft University of Technology)\nDelft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.\nAt TU Delft we embrace diversity as one of our core\nvalues\nand we actively\nengage\nto be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.\nChallenge. Change. Impact!\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 1 year Temporary\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like additional information about this vacancy, please contact Dr. Vasso Reppa, Assistant Professor in Safe Autonomous Maritime Transport, email:\nv.reppa@tudelft.nl\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n3 August 2026\nvia the application button and upload the following documents:\nMotivation letter\nDetailed CV\nCopies of your MSc degree and transcripts, and PhD degree\nPhD thesis (if it is in English) and/or 2 relevant publications\nYou can address your application to Dr. Vasso Reppa.\nPlease note:\n#EUfunded This is an EU funded project, named WARRANT, with project number 101202581 (Horizon-CL5-2024-D6-01-10), within program HorizonEurope.\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position in the WARRANT Horizon Europe project conducting functional analysis, reliability assessment, and validation of digital systems for waterborne transport, addressing AI, IoT, autonomous shipping, and cybersecurity in maritime systems.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 12,
+      "rationale": "Position is focused on fault tolerance, dependability, risk assessment, and system reliability—domains in control engineering and safety-critical systems. No human-centred component, no collaborative immersive systems, no spatial cognition or learning evaluation. Digital systems mentioned are operational/technical, not experiential."
+    },
+    "methodological_fit": {
+      "score": 18,
+      "rationale": "Researcher has experimental design and user-studies skills, but position requires quantitative/qualitative modelling of ship systems, reliability methodologies, and fault diagnosis. These are systems engineering methodologies, distinct from HCI or human-centred evaluation."
+    },
+    "growth_value": {
+      "score": 25,
+      "rationale": "Could develop advanced systems modelling, reliability assessment, and potentially mixed-effects modelling skills. However, growth is in safety-critical systems engineering, not toward human-centred XR or collaborative immersive learning."
+    },
+    "strategic_value": {
+      "score": 72,
+      "rationale": "TU Delft Priority 1; Horizon Europe funding, strong project consortium (13 partners). Senior researcher role offers visibility and leadership development. However, domain mismatch means institutional strength does not translate to target identity progression."
+    },
+    "required_skills": [
+      "statistics",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "statistics",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "fault-diagnosis-methodologies",
+      "reliability-assessment",
+      "safety-critical-systems-modelling",
+      "maritime-systems-knowledge"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position explicitly requires PhD degree; researcher has MSc by Research in thesis stage. Eligibility contingent on degree completion.",
+      "Posting emphasises 'advanced programming skills' but does not specify language. Researcher's Python is beginner-level; C# background may not transfer directly to systems modelling contexts."
+    ],
+    "risks": [
+      "Research domain is safety-critical systems and maritime engineering, orthogonal to human-centred XR.",
+      "One-year contract is shorter, but specialization risk remains: fault tolerance and dependability are niche areas.",
+      "No user research, collaborative learning, or immersive interaction component.",
+      "SAFE-NET group focus on formal dependability assessment does not build HCI or user-facing research capability."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.91,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:47:12.570726Z",
+    "analysis_input_hash": "049ef2f2da44a95f254a6018d4e1acc8ab31f6116b59dd8da27d46f75d7bb406"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 25,
     "urgency": "high",
     "days_to_deadline": 15,
     "needs_review": true,

@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 10
 urgency: high
 needs_review: true
 ---
@@ -77,7 +77,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+Theoretical PhD in quantum magnonics investigating quantum properties of propagating spin waves for quantum information applications, with international collaboration between TU Delft, Utrecht University, and Tohoku University.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 2 |
+| Growth value | 2 |
+| Strategic value | 50 |
+| **Overall** | **10** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Extreme disciplinary mismatch: theoretical quantum physics vs. human-centred XR design.
+- 4-year physics PhD would derail HCI/XR career progression.
+- Supervisor and research group expertise (quantum nanoscience) bears no relation to researcher's target identity.
+- International placement in Japan offers interesting experience but no strategic value toward HCI research positioning.
+- Quantum magnonics knowledge has zero transferability to immersive systems or spatial learning research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-quantum-magnonics.md` and link [[opp_tudelft-phd-position-in-quantum-magnonics]]._

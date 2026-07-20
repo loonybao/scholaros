@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-19
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 20
 urgency: urgent
 needs_review: true
 ---
@@ -111,7 +111,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+
+Postdoctoral position combining 3D urban modelling, computational fluid dynamics simulations, and field measurements to predict urban airflow and Urban Air Mobility effects across European cities, with emphasis on numerical simulation validation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 12 |
+| Growth value | 20 |
+| Strategic value | 68 |
+| **Overall** | **20** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cpp, computational-fluid-dynamics, urban-modelling-for-simulation, field-measurement-analysis
+
+**Risks:**
+- Research focus is pure simulation and computational science, not human interaction or learning outcomes.
+- Three-year commitment to CFD and urban modelling would create strong specialization away from human-centred XR.
+- No user-facing or collaborative component; unlikely to develop HCI methodology or spatial learning evaluation expertise.
+- Field measurement work is engineering validation, not user research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-position-high-resolution-urban-cfd-simulatio.md` and link [[opp_tudelft-postdoc-position-high-resolution-urban-cfd-simulatio]]._

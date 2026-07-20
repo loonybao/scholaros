@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 24
 urgency: medium
 needs_review: true
 ---
@@ -97,7 +97,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+
+PhD in railway embankment structural health monitoring integrating axle-box acceleration, laser Doppler vibrometry, and track geometry data; involves physics-based finite element and multibody dynamics modelling with industry validation through ProRail.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 25 |
+| Growth value | 20 |
+| Strategic value | 55 |
+| **Overall** | **24** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
+
+**Risks:**
+- Research focus (railway infrastructure) orthogonal to spatial learning and immersive systems.
+- 4-year infrastructure engineering PhD would sideline HCI/XR trajectory.
+- Supervisor group (Engineering Structures, Railway Engineering Section) has no immersive systems or HCI expertise.
+- Career outcome (infrastructure engineer) misaligned with target identity (human-centred XR researcher).
+- Structural dynamics expertise has minimal transferability to collaborative immersive systems or spatial cognition research.
+- No pathway from this work to European HCI/XR research groups or labs.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-smart-sensing-and-monitoring-of-rail.md` and link [[opp_tudelft-phd-position-in-smart-sensing-and-monitoring-of-rail]]._

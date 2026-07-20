@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-04
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 21
 urgency: low
 needs_review: true
 ---
@@ -106,7 +106,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+
+PhD on chemical damp-proofing treatments for rising damp in buildings. Research combines advanced laboratory experimentation, moisture transport modelling in porous materials, and in-situ masonry testing across scales to develop and validate new testing protocols and improve reliability of chemical damp-proofing products.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 25 |
+| Growth value | 5 |
+| Strategic value | 60 |
+| **Overall** | **21** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Severe prerequisite deficit: the researcher lacks the foundational chemistry, materials science, and building physics knowledge required for this project; admission would be unlikely
+- Lab safety and technique: hands-on lab work with moisture systems, chemical treatments, and measurement equipment requires substantial training; the researcher has no prior experience
+- Supervisor concern: Dr. Lubelli expects candidates with materials science or civil engineering backgrounds; an HCI/XR graduate would be flagged as lacking disciplinary fit
+- Career narrative risk: including a materials science PhD in an otherwise XR/HCI CV would create significant coherence problems when applying to future HCI positions
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-on-effective-chemical-barriers-against.md` and link [[opp_tudelft-phd-position-on-effective-chemical-barriers-against]]._

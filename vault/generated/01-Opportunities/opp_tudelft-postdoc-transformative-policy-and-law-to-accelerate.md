@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-17
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 21
 urgency: medium
 needs_review: true
 ---
@@ -96,7 +96,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+
+Postdoctoral position in the EXTRA project synthesising research on regulatory innovations, policy experiments, and sustainability transitions across renewable energy, circularity, and biodiversity, with transdisciplinary action research involving living labs and policy stakeholders.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 15 |
+| Growth value | 18 |
+| Strategic value | 68 |
+| **Overall** | **21** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** public-administration-knowledge, policy-analysis, regulatory-innovation-assessment, dutch-language-c1
+
+**Risks:**
+- Disciplinary mismatch: governance/policy vs. human-centred HCI.
+- Language barrier: Dutch C1 proficiency required; researcher English-based.
+- Two-and-a-half-year commitment to policy synthesis would establish specialization far from immersive systems research.
+- No immersive, spatial, or collaborative learning component; unlikely to build relevant methodology or domain expertise.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-transformative-policy-and-law-to-accelerate.md` and link [[opp_tudelft-postdoc-transformative-policy-and-law-to-accelerate]]._

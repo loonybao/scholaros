@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-08
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 45
 urgency: low
 needs_review: true
 ---
@@ -98,7 +98,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.72_
+
+PhD in digital transformation and business value realisation in construction firms. Research uses qualitative case study methodology (interviews, observation, document analysis) to investigate how construction organisations implement software and realise measurable business outcomes, excluding BIM product modelling.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 25 |
+| Methodological fit | 62 |
+| Growth value | 45 |
+| Strategic value | 50 |
+| **Overall** | **45** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** construction-management, organisational-studies, erp-systems, digital-transformation
+
+**Risks:**
+- Degree fit uncertainty: creative multimedia MSc may be viewed as non-traditional for a construction/management PhD, despite qualitative research methodological overlap.
+- Thematic mismatch: research is in organisational change and software adoption, not human-centred design or user experience—a different intellectual tradition.
+- No domain knowledge: applicant has no construction, ERP, project management, or digital transformation background; would require substantial onboarding.
+- Career continuity risk: this position would diverge from immersive systems research; difficult to pivot back toward XR/HCI afterward.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-realising-business-impact-from-construc.md` and link [[opp_tudelft-phd-position-realising-business-impact-from-construc]]._

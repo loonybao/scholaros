@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:38:24.865465Z",
-  "updated_at": "2026-07-19T01:42:09.482877Z",
+  "updated_at": "2026-07-20T16:50:17.728112Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:38:24.865465Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:40:28.964919Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.728112Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,72 @@
     "status": "open",
     "description_text": "Antenna are eyes of any wireless system, from telecom to sensing. Join us as a PhD student to research on antennas which precisely point to a user in complex environment.\nJob description\nThe key open challenge in the current state-of-art, is to predict operational radiation patterns of antenna array including the impact of environment. As this particular PhD project is focused on operational performance of antenna arrays in case of the surface duct presence, the objective of this PhD project is to develop procedure to reconstruct the surface duct properties using external transmitters of opportunities and predict realistic radiation of ship-based antenna arrays within such environment. Both the surface duct impact on the naval radar operation and usage of the developed procedure to predict radar operation will be studied.\nFrom a methodological perspective, the above research challenges will be tackled through a mix of theory, algorithm design, and analysis of experimental data, partly collected by the applicant and partly acquired through external collaborations with top-level research partners in Europe.\nResponsibilities\nConduct in-depth research on EM wave progation in complex environmen.\nFormulate the inversion problem to reconstruct environmental properties using received signals from a variety of EM wave sourcies located in different positions.\nPropose and implement computationally efficient solution of the inverse problem.\nPredict performance of a sensing system in such environment..\nCollect experimenntal data to verify theoretical results and test algorithms on experimental data.\nContribute to the scientific community's knowledge through high-quality publications.\nCollaborate with partner academic institutions and research organizations to stay connected with the latest developments and foster collaborative opportunities.\nPrepare and defend the Ph.D. thesis, which summarizes the results of the research.\nThe Microwave Sensing, Signals and Systems (MS3) group is part of the Department of Microelectronics, within the Faculty of Electrical Engineering, Mathematics, and Computer Science (EEMCS). MS3 specializes in research and education at the cutting edge of microwave systems, focusing on both fundamental and applied research. Leveraging electromagnetics as a core foundation, MS3’s work spans applications in safety, environmental monitoring, automotive radar, and healthcare technologies. As part of MS3, you’ll collaborate within a multidisciplinary team of researchers, including highly regarded Professors in microwave and radar technology. MS3 Research Facilities include Europe-leading laboratories with sophisticated radar setups like the PARSAX and MESEWI systems, and state-of-the-art equipment for indoor and outdoor sensing experiments. This robust infrastructure enables students and researchers to pioneer solutions for real-world challenges in radar and microwave sensing.\nBeyond technical training, MS3 encourages a collaborative research environment, promoting innovation in radar applications while fostering development through access to conferences and professional networking opportunities.\nJob requirements\nMSc degree in Electrical Engineering, Applied Physics, Microwave Engineering, or a related field.\nStrong background in signal processing and wireless systems (telecom, radar)\nDeep knowledge of electromagnetics is highly appreciated.\nProgramming experience in MATLAB, Python, or similar environments.\nPrevious experience in experimental research is an advantage.\nStrong analytical, problem-solving, and communication skills.\nAbility to work independently as well as in multidisciplinary research teams.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Prof. Dr Alexander Yarovoy, Chairman of MS3, via\na.yarovoy@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n31 July 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter in which you describe your personal motivation and specific qualifications for this position (max 1 page)\nAbstract of your MSc thesis\nCopies of two journal/conference publications (if applicable)\nYou can address your application to Prof. Dr Alexander Yarovoy, Chairman of MS3.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD on electromagnetic wave propagation and antenna array performance in complex environments (surface duct conditions). Research involves inverse problem formulation to reconstruct environmental properties from signals, algorithm design for efficient computation, and experimental validation for naval radar applications.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The researcher's expertise is human-centred immersive systems, spatial learning, and collaborative interaction design. This position is pure electromagnetics, signal processing, and radar engineering—zero thematic overlap with XR, HCI, learning, or user evaluation. The electromagnetic phenomena and antenna optimization are entirely disconnected from human experience or interaction."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "The position requires signal processing, inverse problem solving, and algorithm design—methodologies the researcher has not practiced. While both involve experimental validation, the technical context (EM theory, sensor data analysis, MATLAB/Python for numerical methods) is orthogonal to the researcher's user studies and immersive systems evaluation expertise. The computational overlap is notional only."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "No closure of identified capability gaps. The researcher would develop expertise in electromagnetics, signal processing, and radar systems—entirely orthogonal to spatial cognition, learning science, or human-centred design. Research identity would fragment rather than strengthen."
+    },
+    "strategic_value": {
+      "score": 55,
+      "rationale": "TU Delft is a priority-1 institution. The PhD position is embedded in the MS3 (Microwave Sensing, Signals and Systems) group with state-of-the-art facilities (PARSAX and MESEWI systems). Supervision from established microwave/radar faculty (Prof. Alexander Yarovoy as chairman) is credible. Funding and infrastructure are strong. However, institutional quality cannot overcome fundamental research domain mismatch."
+    },
+    "required_skills": [
+      "python",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc in Electrical Engineering, Applied Physics, Microwave Engineering, or related field is required; researcher holds MSc in Creative Multimedia—outside all listed disciplines",
+      "Strong background in signal processing and wireless systems is required; researcher has no demonstrable background in either",
+      "Deep knowledge of electromagnetics is highly appreciated; researcher has none",
+      "Prior experience in experimental research is an advantage; while researcher has user study experience, no electromagnetics or RF measurement experience",
+      "Programming in MATLAB or Python: researcher has beginner Python but no MATLAB and no signal processing algorithms experience"
+    ],
+    "risks": [
+      "Severe theory deficit: the researcher lacks the electromagnetic theory (Maxwell's equations, wave propagation, antenna theory) and signal processing fundamentals (Fourier analysis, filter design, inversion methods) required for this work",
+      "Admission barrier: Prof. Yarovoy and the MS3 group would likely screen out an XR/HCI graduate as unqualified; the discipline jump is too large",
+      "Research isolation: PhD students in MS3 discuss EM phenomena, measurement campaigns, and signal algorithms; the researcher would struggle to contribute to lab discussions without foundational knowledge",
+      "Career confusion: a PhD in radar engineering following an MSc in immersive systems would create a CV that appears unfocused; future XR employers would question commitment to the field"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.93,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:40:28.963919Z",
+    "analysis_input_hash": "dcf94b58382f657a510208dbf540d16055e9037cf00e3b33febd34eec4f8b6f9"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 18,
     "urgency": "high",
     "days_to_deadline": 12,
     "needs_review": true,

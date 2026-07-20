@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-21
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 41
 urgency: urgent
 needs_review: true
 ---
@@ -88,7 +88,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
+
+Research assistant position supporting development and evaluation of agentic AI systems that codify infrastructure management knowledge into machine-readable structures and support decision-making for maintenance, inspection, resilience, and planning using knowledge graphs and multi-agent reasoning.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 22 |
+| Methodological fit | 45 |
+| Growth value | 58 |
+| Strategic value | 62 |
+| **Overall** | **41** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** knowledge-graphs, agentic-ai-systems, infrastructure-management-domain, large-language-models, semantic-modelling
+
+**Risks:**
+- Infrastructure management domain is not researcher's expertise; onboarding curve may be steep.
+- Part-time research assistant role may limit depth of contribution and publication visibility compared to full postdoctoral position.
+- AI/ML specialization (knowledge graphs, LLMs, semantic modelling) does not directly build toward human-centred XR or spatial cognition research; could create tangent specialism.
+- Multi-agent systems experience could be re-oriented toward collaborative immersive systems, but position itself contains no immersive or learning-focused application.
+- 18–22 h/week may complicate simultaneous thesis completion or PhD applications; timeline unclear.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-research-assistant-in-agentic-ai-for-infrastructure.md` and link [[opp_tudelft-research-assistant-in-agentic-ai-for-infrastructure]]._

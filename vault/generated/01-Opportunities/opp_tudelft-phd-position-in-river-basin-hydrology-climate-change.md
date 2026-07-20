@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-09
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 15
 urgency: high
 needs_review: true
 ---
@@ -82,7 +82,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+PhD in river basin hydrology investigating climate change impacts on hydrological extremes and water supply, with focus on vegetation adaptation dynamics and model development for the Rhine-Meuse system in collaboration with Dutch water management authorities.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 5 |
+| Strategic value | 50 |
+| **Overall** | **15** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
+
+**Risks:**
+- Major disciplinary drift from target identity into environmental science.
+- 4-year hydrology PhD would delay progression toward HCI/XR research career.
+- Supervisor group (Water Management Department) has no HCI or immersive systems expertise.
+- No clear path from hydrology research back to spatial learning or immersive systems domain.
+- Researcher would need to acquire substantial new domain knowledge (hydrology, GIS) to be effective.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-river-basin-hydrology-climate-change.md` and link [[opp_tudelft-phd-position-in-river-basin-hydrology-climate-change]]._

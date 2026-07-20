@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:34:16.191050Z",
-  "updated_at": "2026-07-19T01:42:09.465529Z",
+  "updated_at": "2026-07-20T16:50:17.712107Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:34:16.191050Z",
@@ -96,6 +96,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-20T16:39:12.229262Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-20T16:50:17.712107Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,13 +170,73 @@
     "status": "open",
     "description_text": "Join an interdisciplinary research team to better understand how the growing foot develops in children with cerebral palsy\nJob description\nWe are looking for a motivated PhD candidate to join a 4-year research project aimed at advancing our understanding of foot growth and deformities in children with cerebral palsy. In this project, you will develop statistical shape models and finite element models of the growing foot to investigate normal bone development, understand how growth is altered in cerebral palsy, and ultimately support the development of treatment strategies.\nYou will become part of a multidisciplinary research team and be supervised by Nazli Tümer and Amir Zadpoor at the Department of Biomechanical Engineering at TU Delft, together with Marjolein van der Krogt from the Department of Rehabilitation Medicine, Amsterdam UMC. Thoroughout the project, you will collaborate with clinicians, clinical researchers, and a postdoctoral researcher based at the Department of Rehabilitation Medicine, Amsterdam UMC, who will develop musculoskeletal models in close collaboration with Ajay Seth from the Department of Biomechanical Engineering at TU Delft.\nThis PhD position is part of the ZonMW-funded project Foot4Thought: Multimodal Modelling to Understand and Prevent Foot Deformities in Cerebral Palsy, offering a unique opportunity to contribute to computational biomechanics with direct clinical relevance.\nThere are many opportunities for you to grow your academic career through coursework, mentoring BSc/MSc Students, consortium participation, conference presentations, webinars/workshops, and teaching.\nDiversity and Inclusion:\nThe TU Delft Faculty of Mechanical Engineering is committed to advancing diversity, equity, and inclusion. If you have a unique story that motivates you or drives your curiosity we would be delighted to hear it. We especially encourage applicants from underrepresented groups in science, technology and engineering .\nTU Delft values a safe, inclusive and diverse work environment. To reinforce that, we have committed ourselves to the joint Statement Social Safety of the Association of Universities in the Netherlands and the National Action Plan for Diversity and Inclusion. We participate in a Social Safety Programme.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the Graduate Schools Admission Requirements.\nJob requirements\nYou should have:\nAn MSc degree in Biomechanical Engineering or a closely related discipline by the start date of the position (September 2026)\nExperience in scientific programming (e.g., Python, Matlab)\nExperience in finite-element analysis\nExperience in medical image analysis and data processing\nBasic knowledge of and/or experience in AI-driven models\nThe ability to manage multiple tasks effectively\nExcellent written and oral communication skills in English\nThe following aspects will help you stand out:\nBasic knowledge of and/or experience in musculoskeletal modelling\nThe ability to thrive in a multidisciplinary research environment\nA self-motivated, proactive, and self-driven working attitude\nCuriosity-driven self-learning ability\nWritten and oral communication skills in Dutch\nKeep in mind that this describes the background we imagine would best fit the role. Even if you do not meet all the requirements and feel that you are up for the task, we absolutely want to see your application! The PhD process is a learning experience.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Nazli Tümer (\nN.Tumer-1@tudelft.nl\n).\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n27 July 2026\nvia the application button and upload the following documents:\nMotivation letter and CV.\nAbstract of your MSc thesis.\nIf the applicants are selected for an interview, they will be asked to provide contact information for up to 3 references.\nYou can address your application to .\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "PhD in computational biomechanics developing statistical shape models and finite element models of growing feet to understand normal development and growth alterations in children with cerebral palsy; collaborative clinical research.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 25,
+      "rationale": "Limited thematic connection, but present. Position addresses biomechanical modelling with direct clinical impact and human health outcomes. Researcher's themes center on human-centred systems, learning, and spatial understanding. While both involve understanding human performance/development, the application context (foot biomechanics vs. spatial cognition in immersive learning) is distinct. However, shared emphasis on human-centred outcomes and real-world transfer (clinical practice vs. real-world wayfinding) provides modest thematic resonance."
+    },
+    "methodological_fit": {
+      "score": 50,
+      "rationale": "Substantial methodological adjacency. Position requires: statistical shape modelling, finite element analysis, scientific programming (Python, MATLAB), medical image analysis, basic AI/ML models. Researcher demonstrates intermediate quantitative-research and experimental-design; advanced C# and Unity (non-FE context); beginner Python. Strong overlap in computational analysis, data-driven modelling, and user-centered validation. Key gap: researcher lacks FE-specific experience and medical imaging background. However, methodological scaffolding (model development, data interpretation, cross-disciplinary collaboration) is highly transferable. Closest fit of all TU Delft positions offered."
+    },
+    "growth_value": {
+      "score": 55,
+      "rationale": "Moderate growth value. FE and statistical modelling skills would expand researcher's computational toolkit, applicable to future biomechanical aspects of spatial learning or motion-capture-based immersive systems. Multidisciplinary collaboration (clinicians, computational researchers) mirrors researcher's existing collaborative-systems focus. Clinical validation methodology has transferability to evaluating real-world impact of learning systems. AI/ML skills development supports physiological sensing and behavioral logging capabilities listed in taxonomy."
+    },
+    "strategic_value": {
+      "score": 70,
+      "rationale": "Good strategic value. TU Delft is priority institution. Collaborative structure (Department of Biomechanical Engineering + Amsterdam UMC clinical researchers) provides multidisciplinary training valuable for future human-centred XR work. ZonMW funding offers stability. However, research focus (foot deformities in CP) does not directly support pathway to HCI/XR research groups or spatial learning communities. Career outcome likely biomechanical researcher rather than immersive systems designer."
+    },
+    "required_skills": [
+      "python",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires MSc in Biomechanical Engineering or closely related discipline by September 2026; researcher's MSc by Research in multimedia/creative technology is not a traditional biomechanical engineering degree, though position emphasizes flexibility ('Even if you do not meet all the requirements...we absolutely want to see your application').",
+      "Requires FE analysis experience; not evident in researcher profile.",
+      "Medical image analysis and data processing experience not mentioned in researcher background."
+    ],
+    "risks": [
+      "Thematic shift away from spatial cognition and immersive learning toward clinical biomechanics.",
+      "Career trajectory post-PhD likely biomechanical researcher rather than HCI/XR researcher.",
+      "Supervisor group (biomechanical engineering, rehabilitation medicine) not positioned in HCI research community.",
+      "No direct pathway from foot deformity modelling to spatial learning systems or immersive collaboration research.",
+      "4-year commitment to biomechanics could delay or redirect progress toward target identity, though less severe than other TU Delft positions."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.78,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-20T16:39:12.228263Z",
+    "analysis_input_hash": "f94485bcb1eeb5e5bcca6798100b6bc64117a9269cd1965ece1b207fa922fa3f"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 45,
     "urgency": "high",
     "days_to_deadline": 8,
     "needs_review": true,
