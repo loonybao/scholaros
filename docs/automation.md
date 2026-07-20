@@ -42,11 +42,23 @@ broken source never blocks the others — and the last error surfaces there.
 Live analysis is **off until you provide a cheap OpenAI-compatible endpoint**.
 The whole pipeline is built and tested — it just needs credentials:
 
-1. In `config/models.yaml` set `api.model` (e.g. `gpt-4o-mini`) and, optionally,
-   `api.price_per_1k_tokens` to enable the daily **$ cost cap**.
-2. In `.env` set `COMPASS_API_KEY` and `COMPASS_API_BASE_URL`.
-3. Test once: `python -m compass analyze --limit 3`.
-4. Re-run the scheduler with `-Full`.
+1. `config/models.yaml` already sets `api.model` (01tree `gpt-5.4-mini`) and the
+   per-1M input/output prices that drive the daily **$ cost cap**. Change the
+   model there if you want a different one.
+2. Copy `.env.example` to `.env` and fill in `COMPASS_API_KEY` (and
+   `COMPASS_API_BASE_URL`, already pre-filled to the 01tree endpoint). `.env` is
+   gitignored — the key is never committed. Never paste the key into chat.
+3. Verify: `python -m compass check-llm` (one tiny call; prints OK + est. cost,
+   never the key).
+4. Analyse the backlog: `python -m compass analyze` (only new/changed items;
+   capped by `max_ai_items_per_run` and the daily $ cap).
+5. Re-run the scheduler with `-Full` for automatic daily analysis.
+
+For 01tree specifically: use the OpenAI-compatible endpoint
+`https://01tree.ai/codex/v1` (already in `.env.example`), not the `/claudecode`
+one — this project speaks the OpenAI Chat Completions format. Check spend at
+your 01tree USD balance page; the local estimate is in
+`data/status/llm_usage.json`.
 
 Safety rails (always on): only whitelisted content is ever sent (posting text +
 your skill/domain summary + taxonomy — never `vault/notes`, the full CV, letters

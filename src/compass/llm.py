@@ -88,8 +88,9 @@ class UsageLog:
         self.path.write_text(json.dumps(data, indent=2), encoding="utf-8")
 
 
-# A completion function takes (system, user) and returns (content, total_tokens).
-CompletionFn = Callable[[str, str], "tuple[str, int]"]
+# A completion function takes (system, user) and returns
+# (content, input_tokens, output_tokens).
+CompletionFn = Callable[[str, str], "tuple[str, int, int]"]
 
 
 class LLMClient:
@@ -99,7 +100,12 @@ class LLMClient:
         limits = cfg.models.get("limits") or {}
         self.model: Optional[str] = api.get("model")
         self.temperature = api.get("temperature", 0.2)
-        self.price_per_1k = api.get("price_per_1k_tokens")     # optional; enables $ cap
+        # Per-1M-token USD prices (01tree bills input and output separately). A
+        # single price_per_1k_tokens is still honoured as a fallback for both.
+        legacy = api.get("price_per_1k_tokens")
+        legacy_1m = legacy * 1000 if legacy else None
+        self.price_in_1m = api.get("price_per_1m_input", legacy_1m)
+        self.price_out_1m = api.get("price_per_1m_output", legacy_1m)
         self.daily_cost_limit = limits.get("daily_cost_limit_usd")
         self.max_items = int(limits.get("max_ai_items_per_run", 20))
         self._complete = completion_fn or self._openai_complete
@@ -120,11 +126,24 @@ class LLMClient:
             messages=[{"role": "system", "content": system},
                       {"role": "user", "content": user}],
         )
-        tokens = resp.usage.total_tokens if getattr(resp, "usage", None) else 0
-        return resp.choices[0].message.content or "", int(tokens)
+        u = getattr(resp, "usage", None)
+        pin = int(getattr(u, "prompt_tokens", 0) or 0) if u else 0
+        pout = int(getattr(u, "completion_tokens", 0) or 0) if u else 0
+        return resp.choices[0].message.content or "", pin, pout
+
+    def _cost(self, input_tokens: int, output_tokens: int) -> float:
+        c = 0.0
+        if self.price_in_1m:
+            c += (input_tokens / 1_000_000.0) * float(self.price_in_1m)
+        if self.price_out_1m:
+            c += (output_tokens / 1_000_000.0) * float(self.price_out_1m)
+        return c
+
+    def _priced(self) -> bool:
+        return bool(self.price_in_1m or self.price_out_1m)
 
     def _budget_ok(self, today: date) -> bool:
-        if self.daily_cost_limit is None or not self.price_per_1k:
+        if self.daily_cost_limit is None or not self._priced():
             return True                       # no $ cap configured -> item cap only
         return self.usage.spent_today(today) < float(self.daily_cost_limit)
 
@@ -144,14 +163,14 @@ class LLMClient:
         user = json.dumps({k: v for k, v in packet.items()
                            if k != "result_contract"}, ensure_ascii=False)
 
-        raw, tokens = self._complete(system, user)
+        raw, tin, tout = self._complete(system, user)
         try:
             parsed = json.loads(raw)
         except (ValueError, TypeError):
-            raw, tokens2 = self._complete(
+            raw, tin2, tout2 = self._complete(
                 system + "\n\nReturn ONLY a valid JSON object, nothing else.", user)
-            tokens += tokens2
+            tin += tin2
+            tout += tout2
             parsed = json.loads(raw)          # still bad -> raises; caller reports
-        cost = (tokens / 1000.0) * float(self.price_per_1k) if self.price_per_1k else 0.0
-        self.usage.add(today, tokens, cost)
+        self.usage.add(today, tin + tout, self._cost(tin, tout))
         return parsed

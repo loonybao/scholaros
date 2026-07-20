@@ -186,6 +186,33 @@ def cmd_import_analysis(cfg: Config, args: argparse.Namespace) -> int:
     return 1 if report["rejected"] else 0
 
 
+def cmd_check_llm(cfg: Config, args: argparse.Namespace) -> int:
+    """Verify the LLM endpoint is reachable and configured, with one tiny call.
+    Prints status only — never the key."""
+    from .llm import LLMClient
+
+    client = LLMClient(cfg)
+    base = cfg.api_base_url or "(unset)"
+    print(f"base_url : {base}")
+    print(f"model    : {client.model or '(unset in config/models.yaml)'}")
+    print(f"api_key  : {'set' if cfg.api_key else 'MISSING (set COMPASS_API_KEY in .env)'}")
+    if not client.configured():
+        print("result   : NOT configured — fill .env (COMPASS_API_KEY + "
+              "COMPASS_API_BASE_URL) and set api.model in config/models.yaml")
+        return 1
+    try:
+        content, tin, tout = client._complete(
+            "You are a connectivity check.",
+            "Reply with exactly: compass-llm-ok")
+    except Exception as e:  # noqa: BLE001 — surface any transport/auth error plainly
+        print(f"result   : FAILED — {type(e).__name__}: {e}")
+        return 1
+    print(f"reply    : {content.strip()[:60]}")
+    print(f"tokens   : in={tin} out={tout}  est_cost=${client._cost(tin, tout):.5f}")
+    print("result   : OK — live analysis is ready (run `compass analyze`)")
+    return 0
+
+
 def cmd_analyze(cfg: Config, args: argparse.Namespace) -> int:
     from .analyze import analyze
 
@@ -352,6 +379,8 @@ def main(argv: list[str] | None = None) -> int:
     p_imp.add_argument("--model", default="claude-fable-5",
                        help="model identifier recorded as provenance")
 
+    sub.add_parser("check-llm", help="verify the LLM endpoint with one tiny call")
+
     p_analyze = sub.add_parser(
         "analyze", help="analyze new/changed opportunities via the configured LLM")
     p_analyze.add_argument("--limit", type=int, default=None,
@@ -386,6 +415,7 @@ def main(argv: list[str] | None = None) -> int:
         "rebuild-index": cmd_rebuild_index,
         "serve": cmd_serve,
         "collect": cmd_collect,
+        "check-llm": cmd_check_llm,
         "analyze": cmd_analyze,
         "run": cmd_run,
         "prepare-analysis": cmd_prepare_analysis,

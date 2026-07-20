@@ -2,11 +2,14 @@
 
 api:
   provider: openai-compatible
-  model: null               # e.g. "gpt-4o-mini" — set this + COMPASS_API_KEY /
-                            # COMPASS_API_BASE_URL in .env to turn on live analysis
+  model: gpt-5.4-mini       # 01tree OpenAI-compatible model (cheap; ~$0.75/$4.50 per 1M in/out).
+                            # Set COMPASS_API_KEY + COMPASS_API_BASE_URL in .env to turn on live analysis.
   temperature: 0.2
   max_input_characters: 30000
-  price_per_1k_tokens: null # optional: set (e.g. 0.0002) to enforce the daily $ cap
+  # Per-1M-token USD prices (enables the daily $ cap). Values below are the
+  # 01tree gpt-5.4-mini list price (input / output). Update if you switch model.
+  price_per_1m_input: 0.75
+  price_per_1m_output: 4.50
 
 limits:
   daily_cost_limit_usd: 1.00

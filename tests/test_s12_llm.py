@@ -18,7 +18,7 @@ def _seed(cfg, store, n=1):
     cfg.profile = {"skills": [{"id": "unity", "level": "advanced"}], "domains": ["hci"]}
     cfg.target_identity = {"statement": "Funded European PhD in HCI/XR."}
     cfg.models = {
-        "api": {"model": "fake-model", "price_per_1k_tokens": 0.001},
+        "api": {"model": "fake-model", "price_per_1m_input": 1.0, "price_per_1m_output": 1.0},
         "limits": {"daily_cost_limit_usd": 1.0, "max_ai_items_per_run": 5},
         "context_whitelist": ["opportunity_official_text", "taxonomy",
                               "profile_skill_summary", "profile_domain_summary",
@@ -54,7 +54,7 @@ def _fake_completion(valid=True, capture=None):
                 "analysis_input_hash": o["analysis_input_hash"],
             }})
         body = json.dumps({"results": results})
-        return (body if valid else "not json{{"), 1000
+        return (body if valid else "not json{{"), 800, 200   # content, in, out
     return fn
 
 
@@ -124,7 +124,7 @@ def test_per_run_cap(cfg, store):
 
 def test_skip_llm_calls_nothing(cfg, store):
     _seed(cfg, store, 1)
-    def boom(system, user):
+    def boom(system, user):                               # returns (content, in, out)
         raise AssertionError("LLM called under skip_llm")
     client = LLMClient(cfg, completion_fn=boom)
     report = analyze(cfg, store, skip_llm=True, today=TODAY, client=client)
@@ -148,6 +148,17 @@ def test_daily_budget_cap_stops(cfg, store):
     report = analyze(cfg, store, today=TODAY, client=client)
     assert report["skipped"] and "cost limit" in report["error"]
     assert store.load("opportunity", "opp_x0").ai is None
+
+
+def test_split_input_output_cost_accounting(cfg, store):
+    _seed(cfg, store, 1)
+    # $2/1M input, $10/1M output; fake returns 800 in + 200 out
+    cfg.models["api"].update({"price_per_1m_input": 2.0, "price_per_1m_output": 10.0})
+    client = LLMClient(cfg, completion_fn=_fake_completion())
+    analyze(cfg, store, today=TODAY, client=client)
+    spent = client.usage.spent_today(TODAY)
+    # 800/1e6*2 + 200/1e6*10 = 0.0016 + 0.0020 = 0.0036
+    assert abs(spent - 0.0036) < 1e-9
 
 
 def test_bad_response_leaves_ai_untouched(cfg, store):
