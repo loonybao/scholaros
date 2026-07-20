@@ -161,6 +161,47 @@ def test_split_input_output_cost_accounting(cfg, store):
     assert abs(spent - 0.0036) < 1e-9
 
 
+def test_anthropic_provider_path(cfg, store, monkeypatch):
+    """provider=anthropic hits /v1/messages and parses the Anthropic response
+    shape (content[].text + usage.input/output_tokens). No network."""
+    _seed(cfg, store, 1)
+    cfg.models["api"]["provider"] = "anthropic"
+    cfg.api_base_url = "https://01tree.ai/claudecode"
+
+    captured = {}
+
+    class FakeResp:
+        status_code = 200
+        def json(self):
+            packet = json.loads(captured["json"]["messages"][0]["content"])
+            results = [{"id": o["id"], "analysis": {
+                "summary": "s", "fit_type": "poor-fit",
+                "thematic_fit": {"score": 10, "rationale": "r"},
+                "methodological_fit": {"score": 10, "rationale": "r"},
+                "growth_value": {"score": 10, "rationale": "r"},
+                "strategic_value": {"score": 10, "rationale": "r"},
+                "recommendation": "reject", "confidence": 0.5,
+                "analysis_input_hash": o["analysis_input_hash"]}}
+                for o in packet["opportunities"]]
+            return {"content": [{"type": "text", "text": json.dumps({"results": results})}],
+                    "usage": {"input_tokens": 900, "output_tokens": 100}}
+
+    def fake_post(url, headers=None, json=None, timeout=None):
+        captured["url"] = url; captured["headers"] = headers; captured["json"] = json
+        return FakeResp()
+
+    import requests
+    monkeypatch.setattr(requests, "post", fake_post)
+
+    client = LLMClient(cfg)                    # real anthropic path (post mocked)
+    report = analyze(cfg, store, today=TODAY, client=client)
+    assert report["imported"], report
+    assert captured["url"].endswith("/v1/messages")
+    assert captured["headers"]["x-api-key"]    # key sent as x-api-key
+    opp = store.load("opportunity", report["imported"][0])
+    assert opp.ai is not None and opp.ai.analysis_mode == "automated"
+
+
 def test_bad_response_leaves_ai_untouched(cfg, store):
     _seed(cfg, store, 1)
     client = LLMClient(cfg, completion_fn=_fake_completion(valid=False))

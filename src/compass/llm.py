@@ -1,4 +1,10 @@
-"""Live LLM analysis client (OpenAI-compatible).
+"""Live LLM analysis client (OpenAI-compatible OR Anthropic).
+
+`api.provider` in config/models.yaml selects the wire format: "openai-compatible"
+(GPT via 01tree /codex/v1, OpenAI SDK) or "anthropic" (Claude via 01tree
+/claudecode, Anthropic Messages API over plain HTTP). Same whitelist, budgeting
+and JSON-result contract either way — analysis quality depends on the model, not
+the transport.
 
 Whitelist by construction: the ONLY payload sent to the API is the packet built
 by analysis_io.prepare_packet (official posting text + the whitelisted profile
@@ -108,7 +114,14 @@ class LLMClient:
         self.price_out_1m = api.get("price_per_1m_output", legacy_1m)
         self.daily_cost_limit = limits.get("daily_cost_limit_usd")
         self.max_items = int(limits.get("max_ai_items_per_run", 20))
-        self._complete = completion_fn or self._openai_complete
+        self.provider = (api.get("provider") or "openai-compatible").lower()
+        self.max_output_tokens = int(api.get("max_output_tokens", 4096))
+        if completion_fn is not None:
+            self._complete = completion_fn
+        elif self.provider == "anthropic":
+            self._complete = self._anthropic_complete
+        else:
+            self._complete = self._openai_complete
         self.usage = UsageLog(cfg)
 
     def configured(self) -> bool:
@@ -130,6 +143,37 @@ class LLMClient:
         pin = int(getattr(u, "prompt_tokens", 0) or 0) if u else 0
         pout = int(getattr(u, "completion_tokens", 0) or 0) if u else 0
         return resp.choices[0].message.content or "", pin, pout
+
+    def _anthropic_complete(self, system: str, user: str) -> tuple[str, int, int]:
+        """Anthropic Messages API via plain HTTP (no extra SDK). Used for the
+        01tree /claudecode endpoint and any Anthropic-format gateway. The system
+        prompt asks for a bare JSON object, matching the OpenAI json_object mode."""
+        import requests  # already a project dependency
+
+        base = (self.cfg.api_base_url or "").rstrip("/")
+        url = base + "/v1/messages"
+        headers = {
+            "x-api-key": self.cfg.api_key or "",
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        }
+        body = {
+            "model": self.model,
+            "max_tokens": self.max_output_tokens,
+            "temperature": self.temperature,
+            "system": system + "\n\nRespond with ONLY a single valid JSON object.",
+            "messages": [{"role": "user", "content": user}],
+        }
+        resp = requests.post(url, headers=headers, json=body, timeout=120)
+        if resp.status_code >= 400:
+            raise LLMError(f"{resp.status_code} - {resp.text[:300]}")
+        data = resp.json()
+        parts = data.get("content") or []
+        text = "".join(p.get("text", "") for p in parts if p.get("type") == "text")
+        usage = data.get("usage") or {}
+        pin = int(usage.get("input_tokens", 0) or 0)
+        pout = int(usage.get("output_tokens", 0) or 0)
+        return text, pin, pout
 
     def _cost(self, input_tokens: int, output_tokens: int) -> float:
         c = 0.0
