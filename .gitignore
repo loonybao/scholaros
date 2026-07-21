@@ -25,3 +25,6 @@ data/status/llm_usage.json
 
 # project lock (transient)
 data/.compass.lock
+
+# Generated static dashboard (built in CI, deployed to Pages)
+site/

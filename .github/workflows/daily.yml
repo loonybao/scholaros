@@ -14,7 +14,9 @@ on:
   workflow_dispatch:          # lets you run it on demand from the Actions tab
 
 permissions:
-  contents: write             # needed to commit the refreshed data back
+  contents: write             # commit refreshed data back
+  pages: write                # deploy the read-only dashboard to GitHub Pages
+  id-token: write             # required by the Pages deploy action
 
 concurrency:
   group: daily-run            # never overlap two runs
@@ -24,6 +26,9 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -59,3 +64,15 @@ jobs:
             git commit -m "Daily run: refreshed opportunities, analysis and vault [skip ci]"
             git push
           fi
+
+      - name: Build read-only dashboard
+        run: python -m compass export-site --out site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

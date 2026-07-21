@@ -288,6 +288,15 @@ def cmd_run(cfg: Config, args: argparse.Namespace) -> int:
     return 1 if failed else 0
 
 
+def cmd_export_site(cfg: Config, args: argparse.Namespace) -> int:
+    from .export_site import export_site
+
+    out = Path(args.out) if args.out else (cfg.paths.root / "site")
+    path = export_site(cfg, out)
+    print(f"export-site: wrote {path}")
+    return 0
+
+
 def cmd_rebuild_index(cfg: Config, args: argparse.Namespace) -> int:
     from .index import rebuild_index
 
@@ -404,6 +413,10 @@ def main(argv: list[str] | None = None) -> int:
 
     sub.add_parser("check-llm", help="verify the LLM endpoint with one tiny call")
 
+    p_site = sub.add_parser("export-site",
+                            help="render a static read-only dashboard (for GitHub Pages)")
+    p_site.add_argument("--out", help="output directory (default: site/)")
+
     p_analyze = sub.add_parser(
         "analyze", help="analyze new/changed opportunities via the configured LLM")
     p_analyze.add_argument("--limit", type=int, default=None,
@@ -439,6 +452,7 @@ def main(argv: list[str] | None = None) -> int:
         "serve": cmd_serve,
         "collect": cmd_collect,
         "check-llm": cmd_check_llm,
+        "export-site": cmd_export_site,
         "analyze": cmd_analyze,
         "run": cmd_run,
         "prepare-analysis": cmd_prepare_analysis,
