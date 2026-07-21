@@ -254,15 +254,38 @@ def cmd_run(cfg: Config, args: argparse.Namespace) -> int:
             print(f"collect {source}: {stats.created} created, {stats.updated} "
                   f"updated, {stats.unchanged} unchanged")
 
-    report = analyze(cfg, store, limit=args.limit, skip_llm=args.skip_llm)
-    note = f" (not run: {report['error']})" if report.get("error") else ""
-    print(f"analyze: {report['selected']} selected, "
-          f"{len(report['imported'])} analyzed, "
-          f"{len(report['rejected'])} rejected{note}")
+    # Analyse in repeated batches until nothing is pending (or a batch makes no
+    # progress / errors). Each batch is small (max_ai_items_per_run) to keep the
+    # JSON response within max_output_tokens; looping here clears the whole
+    # backlog in one run instead of one batch per day.
+    from .analyze import pending_opportunity_ids
+
+    total_analyzed = total_rejected = rounds = 0
+    last_error = None
+    while not args.skip_llm:
+        if not pending_opportunity_ids(cfg, store):
+            break
+        rounds += 1
+        report = analyze(cfg, store, limit=args.limit, skip_llm=False)
+        total_analyzed += len(report["imported"])
+        total_rejected += len(report["rejected"])
+        last_error = report.get("error")
+        if report.get("error") or report["selected"] == 0 \
+                or (not report["imported"] and not report["rejected"]):
+            break                       # not-configured / budget / stuck -> stop
+        if rounds >= 40:
+            break                       # hard safety bound
+    if args.skip_llm:
+        report = analyze(cfg, store, skip_llm=True)
+        print(f"analyze: {report['selected']} selected (skipped: --skip-llm)")
+    else:
+        note = f" (last: {last_error})" if last_error else ""
+        print(f"analyze: {total_analyzed} analyzed, {total_rejected} rejected "
+              f"over {rounds} batch(es){note}")
 
     refresh_all(cfg, store)
     print("run: derived recomputed, index rebuilt, vault regenerated")
-    return 1 if failed or report["rejected"] else 0
+    return 1 if failed else 0
 
 
 def cmd_rebuild_index(cfg: Config, args: argparse.Namespace) -> int:

@@ -7,7 +7,7 @@ api:
   model: claude-haiku-4-5-20251001   # cheap, strong for semantic fit analysis (~$1/$5 per 1M in/out)
   temperature: 0.2
   max_input_characters: 30000
-  max_output_tokens: 4096
+  max_output_tokens: 8000     # headroom so a batch's JSON is never truncated
   # Per-1M-token USD prices (enables the daily $ cap). Values below are the
   # 01tree Claude Haiku 4.5 list price (input / output). Update if you switch model.
   price_per_1m_input: 1.00
@@ -16,8 +16,9 @@ api:
   # model gpt-5.4-mini, prices 0.75 / 4.50.
 
 limits:
-  daily_cost_limit_usd: 1.00
-  max_ai_items_per_run: 20
+  daily_cost_limit_usd: 2.00    # `run` loops batches to clear the backlog; a first
+                                # full run of ~130 opps costs well under this
+  max_ai_items_per_run: 6       # small batch = response fits max_output_tokens, no truncation
 
 thresholds:
   # Below this confidence a proposal is never auto-finalized; it goes to manual review.
