@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:11:25.220647Z",
-  "updated_at": "2026-07-21T01:18:44.938151Z",
+  "updated_at": "2026-07-21T07:46:41.376994Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:11:25.220647Z",
@@ -21,6 +21,44 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:43:13.266073Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.376994Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +97,63 @@
     "status": "open",
     "description_text": "Postdoc in data-driven structured historic energy renovations\nLogin and apply\nKTH Royal Institute of Technology, School of Architecture and Built Environment\nJob description\nDo you want to use data and modelling to make historic buildings energy efficient – without compromising their cultural value? Join the research project DASHER at KTH.\nDASHER (Data-driven Structured Historic Energy Renovations) develops and implements interdisciplinary, data-driven methods for the energy renovation of culturally valuable buildings, with an initial focus on Gamla stan (the Old Town) in Stockholm. Anchored in the revised EU Energy Performance of Buildings Directive (EPBD), the project addresses the challenge of balancing energy efficiency, heritage preservation and a healthy indoor environment.\nAs a postdoctoral researcher, you will further develop and apply urban building energy modelling tools (such as ODEN and HIBER Atlas) to automate energy simulations and identify cost-effective renovation measures at the district scale. You will work with open and physics-based building-stock data, validate models against real buildings, and translate the results into a scalable method for Swedish conditions, a portfolio of measures for Gamla stan, and guidance for national authorities on implementing the EPBD in heritage environments.\nYou will be part of a strong interdisciplinary consortium spanning academia, industry and the public sector, and collaborate closely with project partners including Uppsala University. The position is based at the Department of Sustainable Development, Environmental Science and Engineering (SEED), School of Architecture and the Built Environment (ABE), KTH, in Stockholm.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nA doctoral degree in energy systems, building/civil engineering, building physics, environmental engineering or a closely related field.\nDocumented experience of building energy simulation and/or urban building energy modelling (UBEM).\nStrong programming and data-analysis skills (e.g. MATLAB, Python or equivalent).\nVery good command of spoken and written English as it is required in the day to day work.\nAs a person, you are collaborative and able to work independently.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nExperience of energy efficiency or renovation of historic / cultural-heritage buildings.\nExperience of physics-based building-stock modelling and work with open and geospatial (GIS) data.\nExperience of hygrothermal / indoor-climate and moisture-risk assessment in buildings.\nA documented record of scientific publications.\nAbility to work in interdisciplinary teams together with industry and public-sector partners.\nKnowledge of the Swedish building stock and regulatory context; knowledge of Swedish is an asset.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nTwo reference persons (name, your relationship to them, and contact details).\nA short portfolio of up to three relevant works – academic (e.g. a paper) or practical – with a link, a brief summary, and your role for each.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nSeptember 1st, 2026\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2595\nContact\nHossein Shahrokni, hosseins@kth.se\nPublished\n08.Jul.2026\nLast application date\n12.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "KTH postdoc developing urban building energy modelling tools and data-driven methods for energy-efficient renovation of historic buildings, with emphasis on physics-based simulation, geospatial data, and regulatory implementation in Swedish heritage contexts.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Position is fundamentally about building physics, energy systems modelling, and urban simulation. The researcher's expertise is human-centred immersive systems design, spatial cognition, and collaborative learning—entirely distinct domains with no thematic overlap. XR/VR are not mentioned; heritage preservation is the application, not HCI."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Requires strong physics-based modelling (UBEM, ODEN, HIBER Atlas), MATLAB/Python programming for simulation, and geospatial/GIS data analysis. Researcher has beginner Python only and no background in building simulation, thermodynamics, or computational energy systems. User-studies methodology is inapplicable here."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "Learning UBEM and energy modelling tools would develop new technical depth, but moves away from the researcher's core trajectory toward spatial-learning evaluation and immersive design. Does not close gaps in eye-tracking, physiological sensing, or advanced statistics that align with target identity."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "KTH is a strong institution and Stockholm is in a preferred geography. However, the research group (SEED department) focuses on sustainable building and environmental engineering, not HCI or immersive systems. No clear pathway to the researcher's target identity in human-centred XR."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "python",
+      "statistics",
+      "quantitative-research"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher holds MSc by Research (in progress); position requires completed PhD by employment decision. Thesis must be submitted and approved before or by start date.",
+      "Position explicitly requests doctoral degree in energy systems, building/civil engineering, or closely related field. Creative Multimedia MSc is a significant disciplinary mismatch."
+    ],
+    "risks": [
+      "Disciplinary mismatch: Position is engineering/physics-focused; researcher's MSc is in creative multimedia and HCI.",
+      "Skill mismatch: No demonstrated experience in building physics, simulation, or energy systems. Python is beginner-level; MATLAB not mentioned.",
+      "Thematic drift: Accepting this role would move the researcher away from human-centred XR and into pure technical sustainability research.",
+      "Potential visa/clearance ambiguity flagged in posting around Swedish security requirements."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:43:13.264556Z",
+    "analysis_input_hash": "853edbb459c80b7dbe8f2e48f1ca3c33e57423e739ebc988c9b81b65e23d761f"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +161,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 10,
     "urgency": "medium",
     "days_to_deadline": 22,
     "needs_review": true,

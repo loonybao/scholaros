@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:15:32.234301Z",
-  "updated_at": "2026-07-21T01:18:44.942152Z",
+  "updated_at": "2026-07-21T07:46:41.383071Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:15:32.234301Z",
@@ -21,6 +21,62 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:42:32.791429Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:43:07.399681Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.383071Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +115,74 @@
     "status": "open",
     "description_text": "Postdoc in Digital and Sustainable Production Logistics\nLogin and apply\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nJob description\nWe are looking for a postdoctoral fellow who wants to contribute to the sustainable and digitalized production systems of the future through research in close collaboration with industry.\nThe project focuses on the development of digital activation and automation of material flows within warehouse and internal logistics in the pharmaceutical industry. The goal is to improve material visibility, traceability and information management to create more efficient, resilient and sustainable production systems.\nThe position offers a unique opportunity to work at the interface between academia and industry through close collaboration with AstraZeneca. The research includes the development of design guidelines for automation-ready production logistics, standardized information flows and future logistics solutions in real production environments. The successful candidate will conduct empirical research on site at AstraZeneca in Södertälje, publish in leading scientific journals and develop new research initiatives together with a strong research team at KTH and industrial partners.\nThis position is part of KTH's PROCEED initiative for research activities in Södertälje, which provides a unique opportunity for research collaboration with Traton/Scania and AstraZeneca. To expect close collaboration and collaboration, regular physical presence in Södertälje is included and an important part of the position. The position offers good opportunities to build a strong international network, develop your own research and contribute to the green transition of industry.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in industrial engineering, production engineering, mechanical engineering, manufacturing, logistics, or a related field. This eligibility requirement must be met no later than the time the employment decision is made.\nPublications in peer-reviewed journals relevant to the position.\nCollaborative and interpersonal skills for developing ideas jointly and working with industrial and academic partners.\nAbility to conduct work across two sites: AstraZeneca's Södertälje facility and KTH's campus in central Stockholm.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience with qualitative research and industrial collaboration.\nFamiliarity with production systems, internal logistics, or warehouse operations.\nKnowledge of MES, WMS, ERP systems, or industrial automation technologies is a strong merit.\nAbility to work collaboratively and engage in critical self-reflection.\nCommitment to and awareness of gender equality, diversity, and equal opportunities.\nSwedish language proficiency is meritorious, since the on-site collaboration with the company is strengthened by speaking Swedish.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCover letter.\nA short research statement (maximum 2 pages) outlining your fit for the project, your research interests, and how you would contribute to the project objectives.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nContact information for at least two academic references.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-11-01 or according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2452\nContact\nMagnus Wiktorsson, magwik@kth.se\nYongkuk Jeong, yongkuk@kth.se\nPublished\n26.Jun.2026\nLast application date\n23.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "KTH postdoc in digital and sustainable production logistics, focused on automation and material flow digitalization within pharmaceutical industry. Work involves empirical research at AstraZeneca (Södertälje), design of automation-ready systems, information flow standardization, and publication in leading journals.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "Production logistics, warehouse automation, and supply chain digitalization have no connection to human-centred XR, immersive systems, spatial cognition, learning, or collaboration research. Industrial engineering domain is orthogonal to the target identity."
+    },
+    "methodological_fit": {
+      "score": 28,
+      "rationale": "Position emphasizes qualitative research and industrial collaboration, which are methodologically adjacent. However, core methods (logistics systems analysis, MES/WMS/ERP evaluation, warehouse automation design) differ substantially from HCI user studies, immersive system evaluation, and spatial cognition experimentation. Empirical on-site research is aligned, but applied to wrong domain."
+    },
+    "growth_value": {
+      "score": 20,
+      "rationale": "Industrial collaboration and systems design experience could develop professional maturity and qualitative research practice. However, does not build capability in human-centred immersive systems, spatial cognition evaluation, or collaborative interaction design relevant to target identity."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "KTH Stockholm is strong institution; Sweden aligns with geographic preferences; PROCEED initiative and AstraZeneca co-location offer valuable industry network. However, production engineering group does not support transition into human-centred XR/HCI. Two-year postdoc delays PhD entry and weakens disciplinary positioning in target research community."
+    },
+    "required_skills": [
+      "experimental-design",
+      "qualitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "qualitative-research",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "production-logistics",
+      "warehouse-operations",
+      "mes-systems",
+      "wms-systems",
+      "erp-systems",
+      "industrial-automation",
+      "material-flow-design"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD in industrial/production/mechanical engineering or related field. Researcher holds MSc in Creative Multimedia—does not meet stated disciplinary requirement.",
+      "Requires PhD completion by employment decision date.",
+      "Preference for recent PhDs (within 3 years).",
+      "Swedish language proficiency is meritorious; researcher location/language background not stated."
+    ],
+    "risks": [
+      "Disciplinary mismatch: Creative Multimedia MSc does not meet stated engineering prerequisites for production/industrial systems.",
+      "Domain misalignment: production logistics is outside target research identity and excluded directions (pure engineering applications).",
+      "Career trajectory risk: 2-year industrial engineering postdoc would delay PhD entry and weaken positioning for human-centred immersive systems research.",
+      "Opportunity cost: immersive systems and multiplayer collaboration expertise would be unused in warehouse logistics context."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.91,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:43:07.398165Z",
+    "analysis_input_hash": "32348f64d3d3b9fb9f69c6c5976c49da6c41565c7881ef76fea242a2576eef12"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +190,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 22,
     "urgency": "medium",
     "days_to_deadline": 33,
     "needs_review": true,

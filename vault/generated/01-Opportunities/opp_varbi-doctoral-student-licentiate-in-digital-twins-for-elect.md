@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-14
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 42
 urgency: medium
 needs_review: true
 ---
@@ -138,7 +138,29 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.78_
+
+Two-year licentiate position in digital twins for electrified construction, focusing on GeoBIM, 3D voxel modelling, material tracking, logistics optimization, and machine-learning-based decision support. Emphasizes data science, simulation, and optimization rather than human interaction.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 35 |
+| Methodological fit | 50 |
+| Growth value | 45 |
+| Strategic value | 40 |
+| **Overall** | **42** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** machine-learning-development, simulation-software, optimization-algorithms, geospatial-database-management, reinforcement-learning
+
+**Risks:**
+- Digital twin is shared concept, but application domain (construction logistics) is distant from spatial learning and wayfinding.
+- Heavy focus on ML optimization and data science; researcher would need to ramp up quickly on unfamiliar algorithms and tools.
+- Supervisor's background (geoinformatics, optimization) is not HCI or human-centred systems research.
+- Licentiate (2 years) is shorter degree; may leave gaps for full doctoral-level research contributions.
+- PhD trajectory would shift toward data-driven optimization rather than human-centred immersive systems.
+- Sustainability/construction domain does not align with researcher's spatial learning and wayfinding focus.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-licentiate-in-digital-twins-for-elect.md` and link [[opp_varbi-doctoral-student-licentiate-in-digital-twins-for-elect]]._

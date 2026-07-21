@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-20
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 13
 urgency: medium
 needs_review: true
 ---
@@ -111,7 +111,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+
+Postdoc in AI-driven road network performance prediction and maintenance at KTH's Division of Highway and Railway Engineering. Focus is on developing machine learning tools for pavement management using extensive datasets, statistical methods, and predictive modeling in collaboration with Swedish Transport Administration.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 20 |
+| Growth value | 10 |
+| Strategic value | 20 |
+| **Overall** | **13** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, machine-learning-modeling, big-data-analytics, domain-knowledge-pavement-engineering
+
+**Risks:**
+- Domain (infrastructure/civil engineering) orthogonal to HCI and immersive systems.
+- ML/data-science focus is not aligned with researcher's human-centred methodological core.
+- Postdoc experience in pavement prediction ML would not strengthen candidacy for human-centred XR positions.
+- Beginner Python proficiency gap relative to position requirements.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-ai-driven-road-network-performance-predicti.md` and link [[opp_varbi-postdoc-in-ai-driven-road-network-performance-predicti]]._

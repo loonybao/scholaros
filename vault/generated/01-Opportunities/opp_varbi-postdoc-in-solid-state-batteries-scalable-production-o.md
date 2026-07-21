@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-15
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 2
 urgency: medium
 needs_review: true
 ---
@@ -113,7 +113,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+
+2-year postdoctoral position in scalable production of ceramic solid electrolytes for solid-state batteries at KTH's Department of Chemical Engineering. Research develops solvent-mediated processes for synthesis of sulfide and halide electrolytes, focusing on particle morphology control, solvent recovery, and process intensification.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 1 |
+| Methodological fit | 1 |
+| Growth value | 0 |
+| Strategic value | 10 |
+| **Overall** | **2** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** chemical-engineering, materials-synthesis, solvent-recovery, process-design, particle-characterization, python, experimental-laboratory-skills
+
+**Risks:**
+- Pure chemical engineering and materials science—entirely outside HCI and immersive systems research.
+- No human factors, no user interaction, no learning science, no collaboration research.
+- Acceptance would represent a fundamental pivot away from stated target identity and would be professionally isolating within HCI networks.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-solid-state-batteries-scalable-production-o.md` and link [[opp_varbi-postdoc-in-solid-state-batteries-scalable-production-o]]._

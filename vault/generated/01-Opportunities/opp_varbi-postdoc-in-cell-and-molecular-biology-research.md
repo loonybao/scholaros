@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: high
 needs_review: true
 ---
@@ -115,7 +115,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+KTH postdoc position in cell and molecular biology, combining wet-lab experimental work with AI-driven analysis tools. The role emphasizes biological expertise and hands-on experimental design, with collaboration from colleagues handling computation and automation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 20 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cell-biology-methods, microscopy, molecular-analysis, wet-lab-protocols, microbial-ecology-analysis
+
+**Risks:**
+- Fundamental domain mismatch; this is a biology postdoc, not an HCI/XR position.
+- Diversion from target identity: a 2-year biology postdoc would delay PhD entry and weaken HCI-XR positioning.
+- Skill transferability is low; immersive systems and multiplayer interaction experience would be unused.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-cell-and-molecular-biology-research.md` and link [[opp_varbi-postdoc-in-cell-and-molecular-biology-research]]._

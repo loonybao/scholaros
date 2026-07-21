@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:12:10.931716Z",
-  "updated_at": "2026-07-21T01:18:44.984670Z",
+  "updated_at": "2026-07-21T07:46:41.441266Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:12:10.931716Z",
@@ -21,6 +21,62 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:45:45.744922Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:19.611929Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.441266Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +115,65 @@
     "status": "open",
     "description_text": "Postdoc in solid-state batteries - micromechanical modelling of cells\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences\nJob description\nNext leap in the battery development is expected to be lithium solid-state batteries (SSB), allowing the replacement of the flammable organic electrolyte in Li-ion batteries with a safer and a more compact solid electrolyte. Within the framework of the Swedish governmental battery initiative COMPEL, aimed to support competence and excellence in battery research and education for the transport sector, KTH join forces with a coordinated initiative on composite SSB with seven postdoctoral positions in several disciplines, focusing on various aspects along the battery value chain, ranging from synthesis, cell assembly, characterization, modeling to scaled-up manufacturing. The 2-year postdoc project Micromechanical modelling and mechanical characterisation of contact, interfaces and fracture in solid-state battery cells is hosted by the Department of Engineering Mechanics (Division of Material and Structural Mechanics) at the School of Engineering Sciences (SCI). In a solid-state cell, mechanics decides whether the cell works: unlike a liquid electrolyte, a solid cell must build and maintain every solid-solid contact under load, while ion insertion and extraction cause swelling and shrinkage and the interfaces between active material, electrolyte and current collector must keep both adhesion and conduction at the low stack pressures of a real application. The project develops a micromechanical modelling framework that resolves the cell at the scale of particles and interfaces and links its mechanical state to its electrochemical performance, representing interface debonding, fracture and particle fragmentation as the mechanisms that reshape the network of conducting contacts. The framework is validated against experimental data from the COMPEL collaboration and delivers a design and operating map, including the safe low-pressure operating window of the cell. The postdoc also contributes mechanical and structural characterisation of materials and cells developed in the other projects.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in Solid Mechanics, Engineering Mechanics, Computational Mechanics, Materials Science, Applied Physics, or a related subject, with some experience of batteries or battery materials. This eligibility requirement must be met no later than the time the employment decision is made.\nProficiency in written and spoken English, as this will be required in day-to-day work.\nStrong computational and numerical modelling skills, including finite element or multiphysics simulation and scientific programming.\nAwareness of diversity and equal treatment issues with a particular focus on gender equality.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nExperience with solid-state or lithium-ion batteries and familiarity with the mechanics and characterisation of battery materials and cells.\nHands-on experience with coupled electro-chemo-mechanical or phase-field fracture modelling, contact and micromechanics of particulate or composite materials, mechanical testing and X-ray tomography, and programming (e.g. Python, C++ or Fortran).\nAn innovative mindset and ability to work independently.\nGood collaborative skills and abilities and interest in working in a team.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your university studies. Translations into English or Swedish if the original documents have not been issued in any West-European languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally one page long.\nContact to reference persons or recommendation letters.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-10-01 or according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2607\nContact\nArtem Kulachenko, artem@kth.se\nDan Zenkert, danz@kth.se\nMalin Åkermo, akermo@kth.se\nPublished\n08.Jul.2026\nLast application date\n15.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "2-year postdoctoral position in computational micromechanics of solid-state battery cells at KTH's Division of Material and Structural Mechanics. Research focuses on finite-element modelling of particle-scale mechanics, interface mechanics, contact stability, and fracture in solid electrolytes under electrochemical cycling.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No overlap with human-centred immersive systems, spatial cognition, collaborative learning or social interaction. This is materials mechanics applied to batteries—a domain entirely orthogonal to the researcher's HCI and XR focus."
+    },
+    "methodological_fit": {
+      "score": 3,
+      "rationale": "The position requires finite-element simulation, multiphysics modelling, and computational mechanics. The researcher has no demonstrated expertise in numerical simulation, FEM, or computational materials science. While both domains involve research methodology, the technical toolkit is fundamentally different."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "This position would require the researcher to pivot to materials science and computational engineering—a trajectory away from their core identity as a human-centred HCI researcher. No capability gaps in spatial understanding, collaboration, or learning would be addressed."
+    },
+    "strategic_value": {
+      "score": 15,
+      "rationale": "KTH is a high-quality institution and Stockholm is in a preferred geography. However, the postdoc programme is embedded in battery materials science within the COMPEL initiative, not HCI or immersive systems. Career advancement in the researcher's target identity would be severely compromised."
+    },
+    "required_skills": [
+      "python",
+      "cpp",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "python",
+      "cpp",
+      "finite-element-modelling",
+      "multiphysics-simulation",
+      "materials-characterization"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires doctoral degree by start date (2026-10-01); researcher holds MSc by Research in progress—eligibility dependent on thesis completion and conferment before employment decision.",
+      "Position requires 'some experience of batteries or battery materials'—researcher has none."
+    ],
+    "risks": [
+      "Core research domain (materials mechanics, electrochemistry, FEM) is entirely outside researcher's expertise and excluded career directions (pure ML algorithms, control systems adjacent to battery management).",
+      "No pathway back to human-centred XR/HCI research—a 2-year postdoc here would signal a career pivot away from target identity.",
+      "Supervisor network and group culture would be materials-science-focused, not HCI."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:46:19.610406Z",
+    "analysis_input_hash": "2a95d444486dfb0b93ab042dcabcf65e2007ff0ae89b1002e7ee0eaa8eb39548"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +181,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 5,
     "urgency": "medium",
     "days_to_deadline": 25,
     "needs_review": true,

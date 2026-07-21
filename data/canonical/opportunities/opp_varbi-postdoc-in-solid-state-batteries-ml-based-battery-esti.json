@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:12:29.225779Z",
-  "updated_at": "2026-07-21T01:18:44.986670Z",
+  "updated_at": "2026-07-21T07:46:41.444300Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:12:29.225779Z",
@@ -21,6 +21,63 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:45:45.748571Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:19.614961Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.444300Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +116,65 @@
     "status": "open",
     "description_text": "Postdoc in solid-state batteries – ML-Based Battery Estimation & Control\nLogin and apply\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nNext leap in the battery development is expected to be the lithium solid-state batteries (SSB), allowing the replacement of the flammable organic electrolyte in Li-ion batteries with a safer and a more compact solid electrolyte. Within the framework of the Swedish governmental battery initiative COMPEL, aimed to support competence and excellence in battery research and education for the transport sector, KTH join forces with a coordinated initiative on composite SSB with seven postdoctoral positions in several disciplines, focusing on various aspects along the battery value chain, ranging from synthesis, cell assembly, characterization, modeling to scaled-up manufacturing. The 2-year postdoctoral project\nMachine Learning-based Electro-Chemo-Mechanical Estimation and Control of Solid-State Batteries\nwill be hosted by the Department of Decision and Control Systems, EECS. The project will focus on the development of reduced-order electro-chemo-mechanical models, state estimation methods and predictive control strategies for solid-state batteries using data from parallel postdoctoral projects within the initiative. The research aims to improve the understanding of how operating conditions, including charging protocols, temperature and mechanical loading, influence battery performance, degradation and lifetime. The work combines physics-based modelling with machine learning for parameter estimation, degradation prediction, and analysis of electrochemical and structural characterization data, including X-ray CT image reconstruction, segmentation and quantitative microstructure analysis, with the long-term goal of enabling health-aware battery management and optimized charging strategies.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in Control Engineering, Electrical Engineering, Applied Mathematics, Engineering Physics, or a related field. This eligibility requirement must be met no later than the time the employment decision is made.\nProficiency in written and spoken English,\nas this will be required in day-to-day work.\nStrong theoretical background in systems modelling, estimation, optimization or machine learning.\nAwareness of diversity and equal treatment issues with a particular focus on gender equality.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nExperience in solid-state batteries, including modelling, state estimation or control of electrochemical systems, is considered a merit.\nAn innovative mindset and ability to work independently.\nGood collaborative skills and abilities and interest in working in a team.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your university studies. Translations into English or Swedish if the original documents have not been issued in any West-European languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally one page long.\nContact to reference persons or recommendation letters.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-10-01 or according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2610\nContact\nJonas Mårtensson, jonas1@kth.se\nMikael Johansson, mikaelj@kth.se\nPublished\n08.Jul.2026\nLast application date\n15.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "2-year postdoctoral position in machine-learning-based estimation and control of solid-state batteries at KTH's Department of Decision and Control Systems. Research combines physics-based modelling, state estimation, predictive control, and data-driven analysis for battery health monitoring and charging optimisation.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "Position is fundamentally an engineering control problem applied to battery systems. No connection to human-centred design, immersive systems, collaborative learning, spatial cognition, or user experience. The mention of 'data analysis' and 'machine learning' does not create thematic alignment with HCI or XR research."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "The posting emphasises systems modelling, estimation, optimisation, and machine learning—methodologies orthogonal to the researcher's human-centred empirical methods (user studies, experimental design, qualitative collaboration analysis). The researcher has beginner-level Python and no experience with control theory, optimisation, or state estimation."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Advanced machine-learning and control-systems expertise would not close gaps in the researcher's target identity. Target gaps are: advanced mixed-effects modelling, physiological sensing integration, eye-tracking, and deeper statistical rigour—none of which this position addresses."
+    },
+    "strategic_value": {
+      "score": 12,
+      "rationale": "KTH is strong and Stockholm is in preferred geography. However, the postdoc sits within control systems and decision engineering, not HCI or immersive systems research. Supervisor expertise and group culture would reinforce move away from target identity."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "python",
+      "control-systems",
+      "state-estimation",
+      "predictive-control",
+      "machine-learning-systems",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires doctoral degree by employment decision date; researcher holds MSc by Research in progress—eligibility contingent on thesis conferment.",
+      "Position requires 'strong theoretical background in systems modelling, estimation, optimization or machine learning'—researcher has minimal background in these areas."
+    ],
+    "risks": [
+      "Core research (control engineering, battery management systems, state estimation) is distant from excluded directions (pure ML algorithms) but firmly in control/optimisation space, not HCI.",
+      "No human subjects, no user research, no immersive systems—entirely divorced from target identity.",
+      "2-year commitment to battery/control domain could be professionally difficult to recover from if seeking HCI positions afterward."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.93,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:46:19.613439Z",
+    "analysis_input_hash": "c86902b3b1eeae640d25c2433924e7314d8131be6bb095f7781a5c605e4dca53"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +182,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 9,
     "urgency": "medium",
     "days_to_deadline": 25,
     "needs_review": true,

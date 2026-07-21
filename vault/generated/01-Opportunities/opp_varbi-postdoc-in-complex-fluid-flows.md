@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-25
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -114,7 +114,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+
+KTH postdoc in fluid mechanics, covering turbulence, multiphase flows, biofilms, computational fluid dynamics, and scientific machine learning. Position emphasizes independent research direction, experimentation or simulation, and collaboration within the FLOW center.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 8 |
+| Strategic value | 18 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** fluid-mechanics, computational-fluid-dynamics, numerical-simulation, turbulence-modelling, multiphase-flow-analysis
+
+**Risks:**
+- Severe disciplinary mismatch: Creative Multimedia background does not meet stated requirements in fluid mechanics/engineering.
+- Fundamental research domain misalignment: fluid dynamics is excluded by target identity exclusion list (pure technical engineering).
+- Career trajectory risk: two years in CFD/applied mathematics weakens HCI/XR positioning for future PhD applications.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-complex-fluid-flows.md` and link [[opp_varbi-postdoc-in-complex-fluid-flows]]._

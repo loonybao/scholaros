@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 5
 urgency: medium
 needs_review: true
 ---
@@ -107,7 +107,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+
+KTH postdoc in hardware design automation focused on algorithmic and application-level synthesis within the SiLago (Silicon Lego) framework, supporting industrial VLSI design for ChipsJU, IMEC, and advanced nanofabric projects.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 3 |
+| Strategic value | 12 |
+| **Overall** | **5** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Fundamental disciplinary mismatch: hardware design ≠ HCI or immersive systems.
+- No background in computer architecture, digital design, or design automation.
+- Preferred qualification for LLVM/MLIR and RTL design completely absent from researcher's profile.
+- Direct contradiction to target identity: this is pure technical engineering, not human-centred research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-hardware-design-and-design-automation.md` and link [[opp_varbi-postdoc-in-hardware-design-and-design-automation]]._

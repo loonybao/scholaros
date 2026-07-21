@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:17:12.920273Z",
-  "updated_at": "2026-07-21T01:18:44.923143Z",
+  "updated_at": "2026-07-21T07:46:41.355418Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:17:12.920273Z",
@@ -21,6 +21,62 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:41:48.011247Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:42:26.064296Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.355418Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +115,68 @@
     "status": "open",
     "description_text": "Postdoc in AI-driven road network performance prediction and maintenance.\nLogin and apply\nKTH Royal Institute of Technology, School of Architecture and Built Environment\nJob description\nThe Division of Highway and Railway Engineering is seeking a motivated and collaborative postdoctoral for a project on developing machine learning tools for pavement management. The project is conducted in collaboration with the Swedish Transport Administration and partners from the road industry.\nThe project aims to create data-driven decision support tools for predicting pavement performance and planning maintenance and reinforcement. It will build on extensive pavement performance datasets and apply advanced machine learning and statistical methods to generate predictions and assess the effectiveness of different maintenance and reinforcement strategies. The postdoc will lead work on extracting and analyzing pavement condition and traffic data, integrating them with climate and environmental datasets, and developing validated predictive models of pavement deterioration.\nThe position is research-focused, with opportunities to strengthen independence and build qualifications for future academic or industry careers. Teaching at various academic levels may also be included. The work will take place in a multidisciplinary environment combining expertise in pavement engineering, mechanics of pavement materials and structures, and machine learning. The role offers opportunities to contribute to high-impact publications and to practical decision support tools for the road engineering community.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nPhD in Civil Engineering, Mechanical Engineering, Data Science, Machine Learning, or a closely related field.\nProgramming skills in Python, R, or similar data science languages\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nStrong background in machine learning, statistical modeling, and big-data analytics.\nExperience with infrastructure or transportation data (pavement, traffic, weather, or similar)\nKnowledge of pavement engineering and pavement deterioration modeling is a merit.\nAbility to work both independently and collaboratively in a multidisciplinary setting.\nGood communicative skills in English, both spoken and written, as it is required in the daily work.\nTeaching experience is an advantage.\nAwareness of diversity and equal opportunity issues, with a focus on gender equality.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2213\nContact\nDenis Jelagin, denis.jelagin@abe.kth.se\nPublished\n09.Jun.2026\nLast application date\n20.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoc in AI-driven road network performance prediction and maintenance at KTH's Division of Highway and Railway Engineering. Focus is on developing machine learning tools for pavement management using extensive datasets, statistical methods, and predictive modeling in collaboration with Swedish Transport Administration.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Domain is civil/infrastructure engineering with machine learning applied to pavement deterioration prediction. No connection to HCI, immersive systems, spatial learning, collaboration, or user research. Pure ML/data-science application to infrastructure."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "Researcher has intermediate quantitative-research and beginner statistics skills. Position requires advanced machine learning, statistical modeling, and big-data analytics. Some overlap in data-driven methodology, but researcher lacks ML depth, Python expertise, and domain knowledge (pavement engineering). Moderate methodological distance."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Would develop Python and ML capabilities, which have marginal value to human-centred XR research. Does not advance spatial cognition, immersive learning evaluation, or human-centred design expertise. Small indirect benefit, but not strategic for target identity."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "KTH in Sweden (meets geography); well-established infrastructure collaboration with Swedish Transport Administration (funding stable). However, civil engineering + ML application does not align with Aalto/TU Delft HCI/XR research groups or target trajectory. Wrong research ecosystem."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "statistics"
+    ],
+    "missing_skills": [
+      "python",
+      "machine-learning-modeling",
+      "big-data-analytics",
+      "domain-knowledge-pavement-engineering"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher holds MSc by Research (in progress); position requires completed PhD/doctoral degree by employment decision.",
+      "Position prioritizes ML background and Python/R proficiency; researcher's Python is beginner-level."
+    ],
+    "risks": [
+      "Domain (infrastructure/civil engineering) orthogonal to HCI and immersive systems.",
+      "ML/data-science focus is not aligned with researcher's human-centred methodological core.",
+      "Postdoc experience in pavement prediction ML would not strengthen candidacy for human-centred XR positions.",
+      "Beginner Python proficiency gap relative to position requirements."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.9,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:42:26.064296Z",
+    "analysis_input_hash": "f40451b8cf2c289e42da3d501aa10878c683696872e8396e53ce4726c2eba99c"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +184,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 13,
     "urgency": "medium",
     "days_to_deadline": 30,
     "needs_review": true,

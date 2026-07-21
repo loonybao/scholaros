@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:13:05.819668Z",
-  "updated_at": "2026-07-21T01:18:44.996670Z",
+  "updated_at": "2026-07-21T07:46:41.455674Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:13:05.819668Z",
@@ -21,6 +21,62 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:45:45.761510Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:19.626719Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.455674Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +115,76 @@
     "status": "open",
     "description_text": "Postdoc in soundscape engineering and acoustic metamaterials\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences\nJob description\nKTH's Division of Vehicle Engineering and Technical Acoustics is looking for a postdoc for the Swedish Research Council-funded SMILE project (Soundscape engineering with Metamaterial Innovation and LEarning). SMILE develops acoustic design methods that combine soundscape targets, acoustic metamaterials, physical modelling, inverse design, machine learning and perceptual evaluation.\nThe postdoc will develop models and design methods for acoustic metamaterials/metasurfaces; use simulation and data-driven optimization; contribute to listening tests and VR-based soundscape evaluation; build or test prototypes; publish results; and contribute to coordination and supervision. Teaching may be included, but will not exceed 20% of working hours.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nResearch expertise in soundscape, psychoacoustics, environmental acoustics, engineering acoustics, acoustic design or a closely related field.\nDocumented experience with soundscape-related research methods, such as soundscape prediction, soundscape design or soundscape evaluation; psychoacoustic or perceptual modelling; auralization; listening tests; VR-based or other human-subject experiments; or analysis of urban, indoor or vehicle sound environments.\nVery good ability to write scientific publications and communicate in English. English is required because the project is international and results will be disseminated internationally.\nGood collaborative ability, independence, responsibility and awareness of diversity and equal opportunity issues, with specific focus on gender equality.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nA strong publication record in a field relevant to the position.\nExperience with soundscape prediction, soundscape design, soundscape evaluation, psychoacoustics, auralization or related perceptual modelling.\nExperience designing, conducting or analysing VR-based soundscape experiments, listening tests or other human-subject experiments.\nExperience with acoustic metamaterials/metasurfaces, including design, modelling, fabrication, prototyping, measurements or experimental validation.\nAdditional merits include machine learning, optimization, signal processing, numerical acoustic simulation (for example FEM/BEM/SEA), and programming or data analysis in Python, MATLAB, Julia or similar tools.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience, knowledge and publication list.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to SMILE, your previous studies and future goals. Maximally two pages long.\nContact details for two references.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2632\nContact\nZibo Liu, zibo@kth.se\nPublished\n08.Jul.2026\nLast application date\n24.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "2-year postdoctoral position in the SMILE project (soundscape engineering with metamaterial innovation and learning) at KTH's Division of Vehicle Engineering and Technical Acoustics. Research integrates acoustic design, metamaterial modelling, inverse design, machine learning, and perceptual evaluation via listening tests and VR-based soundscape assessment.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 35,
+      "rationale": "Position includes VR-based soundscape evaluation with human subjects and perceptual modelling, which shares methodological affinity with immersive learning research. However, the core thematic focus is acoustic metamaterials and soundscape engineering, not spatial cognition, wayfinding, collaborative systems or spatial learning. The VR component is instrumental (evaluation medium) rather than core to the research question."
+    },
+    "methodological_fit": {
+      "score": 52,
+      "rationale": "Strong match on human-subject research methods: listening tests, VR-based experiments, perceptual evaluation. The researcher has demonstrated capability in experimental design and user studies. However, the technical depth required (acoustic simulation, metamaterial design, inverse optimisation, machine learning for signal processing) introduces substantial skill gaps. The researcher's toolkit in XR application development does not transfer to acoustic physics and metamaterial design."
+    },
+    "growth_value": {
+      "score": 48,
+      "rationale": "This position would advance: (1) VR experiment design and execution beyond orientation/wayfinding into perceptual domains; (2) integration of machine learning into research pipelines; (3) interdisciplinary collaboration with materials/acoustic engineers. However, it does not directly develop spatial cognition research, real-world transfer validation, or multiplayer/collaborative immersive systems—core interests in target identity. Acoustic metamaterials expertise is orthogonal to target domain."
+    },
+    "strategic_value": {
+      "score": 54,
+      "rationale": "KTH is a strong institution in a preferred country. The SMILE project is Swedish Research Council–funded with published outputs and disciplinary visibility. However, the group is embedded in vehicle engineering and acoustics, not HCI or XR. Supervisor (Zibo Liu) expertise is in acoustic design and acoustic materials. Network growth would be in acoustics/engineering domains, not HCI. Pathway to HCI postdoc positions would require reframing acoustic work as HCI, which is awkward."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "user-studies",
+      "experimental-design",
+      "qualitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "user-studies",
+      "experimental-design",
+      "python"
+    ],
+    "missing_skills": [
+      "acoustic-simulation",
+      "metamaterial-design",
+      "inverse-design-optimisation",
+      "signal-processing",
+      "machine-learning-systems",
+      "psychoacoustics",
+      "auralization",
+      "numerical-simulation"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires doctoral degree by employment decision; researcher has MSc by Research in progress—contingent on thesis conferment.",
+      "Position prioritises 'research expertise in soundscape, psychoacoustics, environmental acoustics, engineering acoustics, acoustic design'—researcher has none in these domains.",
+      "Position requires 'documented experience with soundscape-related research methods…psychoacoustic or perceptual modelling'—researcher has perceptual testing experience in spatial cognition, not acoustics."
+    ],
+    "risks": [
+      "Significant technical skill gap in acoustic physics, metamaterial modelling, and signal processing. Ramp-up time would be substantial.",
+      "While VR experiments are methodologically adjacent, acoustic metamaterials are a specialised materials-science subdomain, requiring retraining.",
+      "Supervisor and group are acoustics-engineering–focused. Limited mentorship in HCI methodologies or human-centred XR research.",
+      "Publication narrative would be 'soundscape + VR', not 'spatial learning + collaboration'—creates misalignment with HCI conference networks and target identity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.72,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:46:19.626719Z",
+    "analysis_input_hash": "de7fa358d4ece612ceea15b3a728997ebf492b62203283c3eb508d182a09f82e"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +192,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 46,
     "urgency": "medium",
     "days_to_deadline": 34,
     "needs_review": true,

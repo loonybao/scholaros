@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-23
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -114,7 +114,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+KTH postdoc studying cross-company collaboration, industrial symbiosis, and circular business models in manufacturing ecosystems through empirical case studies and industrial network analysis. Requires a completed doctorate and strong analytical capability in organizational/systemic transitions.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 5 |
+| Strategic value | 25 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Researcher does not hold a PhD and will not by typical MSc completion timeline; ineligible as stated
+- Postdoc position type conflicts with researcher's target identity (seeking PhD pathway or research associate roles leading to PhD, not postdoctoral fellow)
+- Research direction represents a complete departure from HCI/XR trajectory and stated excluded areas (this is organizational/sustainability science, not immersive systems)
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-industrial-ecosystems-and-circular-transiti.md` and link [[opp_varbi-postdoc-in-industrial-ecosystems-and-circular-transiti]]._

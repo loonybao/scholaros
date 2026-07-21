@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-15
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 3
 urgency: medium
 needs_review: true
 ---
@@ -111,7 +111,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+
+Postdoc in solid-state battery electrolyte development, designing and optimizing composite materials combining inorganic particles (halides, sulfides) with polymer matrices (PEO/PEG); includes synthesis, processing optimization, and property characterization as part of Swedish governmental COMPEL battery initiative.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 10 |
+| **Overall** | **3** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Severe domain mismatch. Battery materials chemistry and polymer electrolyte optimization bear no relation to HCI, spatial cognition, or immersive systems.
+- Two years in solid-state battery development would establish research identity in materials chemistry, making doctoral transition to human-centred XR harder to justify or transition into.
+- Supervisors (Fibre & Polymer Technology, Applied Electrochemistry) have no expertise in immersive systems, HCI, or spatial learning. No pathway to target supervisors or institutions.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-solid-state-batteries-development-of-compos.md` and link [[opp_varbi-postdoc-in-solid-state-batteries-development-of-compos]]._

@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 32
 urgency: high
 needs_review: true
 ---
@@ -115,7 +115,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
+
+Postdoc in Biological Data Systems as part of AlphaCell program at KTH/SciLifeLab, focusing on developing scalable data infrastructure and computational systems for large biological datasets. Role involves data integration, annotation, standardization, and making biological data accessible to AI and computational tools.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 15 |
+| Methodological fit | 45 |
+| Growth value | 35 |
+| Strategic value | 40 |
+| **Overall** | **32** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** bioinformatics, large-scale-data-management, api-development, database-architecture, open-data-infrastructure
+
+**Risks:**
+- Biological domain entirely outside researcher's training and target identity (human-centred XR/HCI).
+- Postdoc would signal pivot away from immersive systems research, potentially weakening future competitiveness for human-centred XR doctoral or project roles.
+- No user research, HCI methodology, or immersive systems evaluation experience would be gained.
+- Significant learning curve in bioinformatics and biological data systems required.
+- Career trajectory divergence: 2-year postdoc in cell data systems may not lead to target institutions or research groups.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-biological-data-systems-alpha-cell-program.md` and link [[opp_varbi-postdoc-in-biological-data-systems-alpha-cell-program]]._

@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-11
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 2
 urgency: high
 needs_review: true
 ---
@@ -108,7 +108,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+
+Research position in power electronics at KTH focused on modelling, stability analysis, control, and hardware solutions for converter-dominated power systems. Applications include megawatt EV charging infrastructure and AI data centre power systems.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 0 |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **2** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** power-electronics, electrical-engineering, control-systems, converter-design, stability-analysis
+
+**Risks:**
+- Researcher lacks required domain expertise (power systems, control theory, electrical engineering).
+- Complete mismatch with stated HCI identity and excluded research directions (embedded systems adjacent).
+- No technical skill transfer from XR/multiplayer/spatial design to power electronics and grid control.
+- Funded by energy transition partnership—different research ecosystem, conferences, and community entirely.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-researcher-in-power-electronics.md` and link [[opp_varbi-researcher-in-power-electronics]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T00:54:02.923084Z",
-  "updated_at": "2026-07-21T01:18:44.582565Z",
+  "updated_at": "2026-07-21T07:46:41.296068Z",
   "change_history": [
     {
       "ts": "2026-07-21T00:54:02.924079Z",
@@ -21,6 +21,44 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:38:32.935943Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.296068Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,14 +97,77 @@
     "status": "open",
     "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 120 nationalities, 14 000 students, 400 professors and close to 5000 faculty and staff working on our dynamic campus in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe School of Engineering drives science and innovation in industrial and built environment technologies. We are committed to educating a new generation of experts who combine technical excellence with a deep understanding of sustainable development in shaping societies. Our research focuses on sustainable built environment, mechanics and materials, multidisciplinary energy technology, and design and implementation of technical systems. The strength of our school lies in close collaboration with stakeholders across research and education. About 45 doctoral candidates and 350 master’s students graduate from the school every year. The school is home to 700 staff members, including 70 professors. To learn more, please visit eng.aalto.fi.\nWe are looking for a\nDoctoral researcher\nin the Department of Civil Engineering\nFocus of the doctoral research\nApplications are invited for a research project to tackle the challenges in structural fire engineering of cold-formed steel roof decking system with perforations. This project is one of work packages in a large EU research project.\nThe objective of the thesis is to understand the structural behaivour of perforated steel roof deck systems exposed to different fire scenarios. The research methods include furnace fire tests, numerical simulations and analyses on the full-scale perforated steel deck system. The expected results include modelling methods and design principles of perforated steel roof system.\nThe successful candidate will work in the project with university researchers and academics as well as industrial partners from different EU countries. The primary workplace is in Otaniemi campus of Aalto University, and the role requires regular on-site presence.\nCandidate profile\nWe are seeking an open-minded, self-motivated researcher with rigorous approach to complex and interdisciplinary problem. Applicant is expected to have excellent academic merits and hold a master’s degree in structural engineering or mechanical engineering.\nWe are expecting you have the following knowledge, skills, and experiences.\nMaster-level knowledge of analysis and design methods on fire resistance of cold-formed steel structures are essential. Knowledge of fire simulations as a plus.\nSkills of performing non-linear numerical analyses using general-purpose finite element analysis software particularly Abaqus are essential.\nSkills of delivering CAD drawings are essential. Experience on preparing and performing experimental tests as a plus.\nExcellent skills in academic writing and fluent verbal communication skills in English are essential. Finnish proficiency is considered as an advantage.\nThe ability to work both independently and collaboratively within a research team is essential.\nAdmission, studies, and activities for doctoral degree\nApplicants must fulfil the eligibility and admission criteria for Aalto’s Doctoral Programme in Engineering as specified\nAalto Doctoral Programme in Engineering | Aalto University\n. Do note that the applicants are not expected to apply to the Aalto Doctoral Programme at this point – only the successful candidate will do this at the next application window.\nThe doctoral degree will be awarded upon successful completion of advanced doctoral coursework (30 ECTS), preparation of an article-based doctoral dissertation, and a successful public defence of the thesis. During the doctoral studies, it is required for the candidate to publish articles in peer-reviewed leading academic journals and high-level international scientific conferences, engage in duties related to teaching or advising of master’s theses, actively participate in the research group activities, and assist in the preparation of new research proposals.\nWe offer\nThe\nduration of the funded project is 3.5 years\n. The preferred starting date is\nSeptember 2026\n. The initial contract period is 2 years, evaluated by a compulsory midterm review during the second year. The salary range, terms, and conditions are based on a collective bargaining agreement among Finnish universities.\nYou will join a dynamic and supportive research group that values collaboration, curiosity, innovation, and academic excellence. The position provides outstanding opportunities for professional development and interdisciplinary learning at the interface of structural engineering and fire safety engineering.\nWithin Aalto’s broader community of students, researchers and other professionals, you will receive support to build your career and to reach your professional goals. Our vast array of professional development opportunities means you will grow and learn, having the chance to participate actively in staff trainings and development projects based on your interests and needs.\nJoin us!\nTo apply, please share your application with us through our recruitment site (\"\nApply now!\n”) at the latest by\nAugust 17th, 2026\n. Applications submitted by email will not be accepted.\nWe look forward to receiving your application with the following attachments:\nMotivation letter with the applicant’s contact information and an indication of preferred starting date (max 1 page)\nCV including details of all academic outputs and publications (if available)\nSummary of the applicant’s master thesis (max. 1 page)\nMaster’s degree certificate and transcript of records, including an explanation of grading scale\nContact information for two referees (with email addresses) who may be contacted to obtain a recommendation (max. 2 pages)\nNew employees at Aalto University are required to begin their work in Finland. Due to our tight project schedule, work must start\nno later than September 2026\n. Therefore, it is essential that you possess legal authorization to work in Finland, such as EU/EEA citizenship or a valid work permit.\nStudents finalizing their master’s studies in the autumn term 2026 are welcome to apply, but the expected graduation date must be clearly stated in the application. Candidates must have completed the master’s degree before the PhD contract begins.\nAalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\n.\nWe encourage early applications. Please note that the position may remain unfilled if no suitable candidate is identified.\nFor more information\nabout the role or application process, please contact:\nProfessor Simo Hostikka (\nSimo.Hostikka@aalto.fi\n) or\nSenior University Lecturer, Dr. Wei Lu (\nWei.2.Lu@aalto.fi\n)\nOn question\nrelated to the recruitment system, please contact\nhr-eng@aalto.fi\n.\nWant to know more about us and your future colleagues?\nPlease watch these videos\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Doctoral position in structural fire engineering of cold-formed steel roof decking systems, involving furnace fire tests, numerical simulations (Abaqus FEA), and design principle development. This is a core structural/mechanical engineering role within the Department of Civil Engineering at Aalto University.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic overlap with human-centred XR, collaborative immersive systems, spatial learning, or wayfinding. The research concerns material behaviour under fire conditions, not human interaction, cognition, or learning outcomes."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "The candidate has experimental design and quantitative research skills, but this position demands advanced finite element analysis (Abaqus), CAD, and fire simulation expertise—none of which the candidate demonstrates. The methodologies are engineering-focused, not human-centred or HCI-aligned."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "This position would not close capability gaps relevant to the target identity. It would redirect the candidate toward structural engineering and materials science, moving away from human-centred systems, spatial cognition, and collaborative design research."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "Aalto is a high-quality institution in a preferred geography (Finland), which is valuable; however, the Department of Civil Engineering and this specific research project are misaligned with the candidate's target identity and research direction. No path to human-centred XR research exists within this context."
+    },
+    "required_skills": [
+      "cad",
+      "abaqus",
+      "fire-simulation",
+      "non-linear-fem",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "cad",
+      "abaqus",
+      "fire-simulation",
+      "non-linear-fem"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Candidate must hold completed MSc by start date (September 2026); candidate is currently in thesis stage, completion timeline should be confirmed.",
+      "Position requires EU/EEA citizenship or valid work permit for Finland."
+    ],
+    "risks": [
+      "Fundamental disciplinary mismatch: structural/fire engineering vs. human-centred HCI research.",
+      "Significant ramp-up required in Abaqus FEA, CAD, and fire simulation—areas where candidate has no demonstrated experience.",
+      "Three-year commitment to a domain unrelated to target identity may delay or redirect career trajectory away from doctoral HCI research."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:38:32.934413Z",
+    "analysis_input_hash": "c042c3b72d30eb571543f440032642aadb0fef8341184fc8d6368525fc323d9b"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 10,
     "urgency": "medium",
     "days_to_deadline": 27,
     "needs_review": true,

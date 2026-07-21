@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-15
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -111,7 +111,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+
+2-year postdoctoral position in machine-learning-based estimation and control of solid-state batteries at KTH's Department of Decision and Control Systems. Research combines physics-based modelling, state estimation, predictive control, and data-driven analysis for battery health monitoring and charging optimisation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 12 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, control-systems, state-estimation, predictive-control, machine-learning-systems, mixed-effects-modelling
+
+**Risks:**
+- Core research (control engineering, battery management systems, state estimation) is distant from excluded directions (pure ML algorithms) but firmly in control/optimisation space, not HCI.
+- No human subjects, no user research, no immersive systems—entirely divorced from target identity.
+- 2-year commitment to battery/control domain could be professionally difficult to recover from if seeking HCI positions afterward.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-solid-state-batteries-ml-based-battery-esti.md` and link [[opp_varbi-postdoc-in-solid-state-batteries-ml-based-battery-esti]]._

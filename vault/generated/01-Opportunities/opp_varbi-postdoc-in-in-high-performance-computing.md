@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-18
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 8
 urgency: medium
 needs_review: true
 ---
@@ -111,7 +111,29 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+KTH postdoc in HPC software science focused on algorithmic innovation, mixed-precision methods, and data-centric optimization for flagship codes (GROMACS, Neko, VeloxChem) targeting post-exascale heterogeneous architectures and energy efficiency.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 5 |
+| Strategic value | 15 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Disciplinary mismatch: HPC scientific computing ≠ HCI or immersive systems.
+- No background in performance modelling, heterogeneous computing, or scientific simulation.
+- Python is beginner-level; role requires strong systems programming and optimization expertise.
+- Meets exclusion criterion (GPU optimization focus).
+- Complete departure from target identity; researcher would become an HPC engineer, not a human-centred XR researcher.
+- Potential visa/clearance ambiguity flagged in posting.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-in-high-performance-computing.md` and link [[opp_varbi-postdoc-in-in-high-performance-computing]]._

@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-04
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 59
 urgency: medium
 needs_review: true
 ---
@@ -110,7 +110,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.68_
+
+2-year Postdoctoral Researcher position at TU Delft in the ROUTES Horizon Europe project, focused on urban design evaluation, comparative data analysis, and metrics development for schoolyard and street transformations across four European pilot cities.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 52 |
+| Methodological fit | 71 |
+| Growth value | 61 |
+| Strategic value | 45 |
+| **Overall** | **59** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** statistics, mixed-effects-modelling, python, r, qualitative-research
+
+**Risks:**
+- Eligibility barrier: position is explicitly postdoctoral; researcher needs PhD first. Applying now would be premature.
+- Domain pivot risk: urban design and environmental psychology are orthogonal to human-centred XR. Extended time in this space could establish false research identity and slow PhD topic alignment.
+- Supervisor and group culture do not specialize in HCI or immersive systems; mentorship may not support target identity development.
+- Netherlands location is acceptable, but position timing (September 2026 start) may conflict with PhD application cycles if researcher aims for immediate PhD entry post-MSc.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoctoral-researcher-position-in-data-driven-desi.md` and link [[opp_tudelft-postdoctoral-researcher-position-in-data-driven-desi]]._

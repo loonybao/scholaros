@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:14:37.317117Z",
-  "updated_at": "2026-07-21T01:18:44.960670Z",
+  "updated_at": "2026-07-21T07:46:41.410764Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:14:37.317117Z",
@@ -21,6 +21,63 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:43:57.752983Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:44:32.015884Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.410764Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +116,69 @@
     "status": "open",
     "description_text": "Postdoc in Integrated Transport Emissions and Health Assessment\nLogin and apply\nKTH Royal Institute of Technology, School of Architecture and Built Environment\nJob description\nWork on EU projects to develop next‑generation transport, emission and health forecasting models by integrating deep learning, xAI, and diverse data sources such as traffic sensors, smart‑card data and behavioural surveys. You will work directly with multiple municipalities and regions to design, implement, and refine monitoring and evaluation protocols including the monitoring framework for pilot activities, ensuring that analytical insights are aligned with local needs and operational realities.\nThe role also includes contributing to project management, preparing reports, co‑supervising research engineers, and collaborating closely with other project members.\nThe two positions will contribute to complementary but distinct research directions –\nTransport, Energy and Emissions\nThis position focuses on modelling and forecasting how transport activity interacts with energy use and emissions over time.\nTransport Emissions and Health\nThis position centres on understanding and forecasting the health impacts of transport‑related emissions.\nIn both positions, the overarching ambition is to extend large‑scale transport simulation models into next generation transdisciplinary frameworks that integrate energy, emission, and health models, enabling comprehensive long‑term impact assessment.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree degree in transport science, urban planning, data science, computer programming or related field with a genuine passion for transport challenges and innovation. This eligibility requirement must be met no later than the time the employment decision is made.\nDocumented programming skills to compute data driven simulation models and AI systems.\nAbility to develop monitoring and evaluation framework and collect data.\nFluency in English, both written and spoken, as the working language of the project.\nGood time‑management skills, with the ability to prioritise tasks and meet deadlines effectively.\nAbility to formulate strong research questions and approach problem‑solving with creativity and critical thinking.\nPersonal skills\nProficient in complex analytical methods, e.g. transport/energy/health forecasting and simulation models.\nHas teaching and supervision experience.\nHas excellent communication skills.\nAware of diversity and equal opportunity issues, with specific focus on gender equality.\nCollaborative and disciplined.\nIndependently pursue their tasks.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how you fit the selection criteria. Maximum two pages long.\nOne peer‑reviewed publication that you consider your strongest work, accompanied by a short explanation of its significance. For multi‑author papers, clearly outline your individual contribution.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n2\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2545\nContact\nFariya Sharmeen, sharmeen@kth.se\nPublished\n01.Jul.2026\nLast application date\n22.Jul.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "KTH postdoc developing next-generation transport, emission, and health forecasting models using deep learning and explainable AI, integrating multiple data sources and working with municipalities on monitoring protocols. Two complementary tracks: energy/emissions and health impacts. Requires doctorate in transport science, urban planning, data science, or related field with programming expertise.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "No thematic alignment with human-centred immersive systems, spatial learning, wayfinding, or collaborative interaction design. The focus is on transport forecasting, emissions modelling, and public health—quantitative prediction tasks, not human understanding of immersive environments or learning outcomes."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "The posting emphasizes programming (C++, Python, deep learning, xAI), data-driven simulation, and large-scale modelling—substantially different from the researcher's core methods (experimental design in immersive environments, user studies, spatial cognition measurement). While both may involve data collection (surveys), the analytical approaches diverge. User-centred design and HCI methods are not mentioned."
+    },
+    "growth_value": {
+      "score": 15,
+      "rationale": "Could develop skills in data science, machine learning, and large-scale simulation. However, these capabilities do not advance the researcher's target identity in human-centred immersive systems or spatial learning. The skills are orthogonal and would represent a pivot into computational/quantitative transport science rather than HCI."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "KTH offers institutional prestige and EU project funding. However, the research direction (transport/emissions/health forecasting) does not support the target identity or institutional preferences (Aalto, TU Delft). Postdoc role conflicts with stated target position types. Position requires completed PhD; researcher is still in thesis stage."
+    },
+    "required_skills": [
+      "python",
+      "quantitative-research",
+      "academic-writing",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "quantitative-research",
+      "academic-writing",
+      "statistics"
+    ],
+    "missing_skills": [
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires completed PhD by employment date; researcher in MSc thesis stage and ineligible",
+      "Posting emphasizes 'doctoral degree in transport science, urban planning, data science or related field'—researcher's degree will be in creative multimedia/HCI, a different domain",
+      "Security clearance requirement ambiguous but flagged"
+    ],
+    "risks": [
+      "Researcher does not hold a PhD and will not by typical completion timeline; ineligible",
+      "Required PhD domain (transport science, urban planning, data science) differs from researcher's domain (HCI/multimedia); domain mismatch may disadvantage application",
+      "Postdoc role type conflicts with researcher's stated target pathway",
+      "Research core (forecasting models, AI inference, emissions/health prediction) is fundamentally orthogonal to human-centred immersive systems research"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:44:32.015884Z",
+    "analysis_input_hash": "5dfec07946d221a69498c435a699f746e10c494394b0e096edfcdad49fc3b488"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +186,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 19,
     "urgency": "urgent",
     "days_to_deadline": 1,
     "needs_review": true,

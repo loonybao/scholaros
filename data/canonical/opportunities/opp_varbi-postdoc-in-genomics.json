@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:12:47.548100Z",
-  "updated_at": "2026-07-21T01:18:44.947151Z",
+  "updated_at": "2026-07-21T07:46:41.390947Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:12:47.548100Z",
@@ -21,6 +21,44 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:43:13.270103Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.390947Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +97,60 @@
     "status": "open",
     "description_text": "Postdoc in genomics\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nThe Swedish National Genomics Infrastructure is looking for a postdoctoral researcher for a project aiming to leverage state-of-the-art genomics to study links between gene regulatory variants, chromatin organization and transcription. The project will combine hands-on genomics, technology development and computational biology.\nThe project will be conducted at the interphase between the National Genomics Infrastructure and the research groups of Professor Tuuli Lappalainen and Associate professor Robert Månsson. This bring together, state-of-the-art genomics platforms, international forefront of functional genomics, molecular biology and experimental hematology.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nResearch expertise in genomics, molecular or cell biology, genetics or an equivalent field.\nPrior expertise in genomics or molecular cell biology laboratory techniques.\nAbility to analyze large-scale genomics data.\nCollaborative abilities.\nIndependence.\nStrong publication record.\nStrong oral and written communication skills.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nTeaching abilities\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, three years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2616\nContact\nRobert Månsson Welinder, robman@kth.se\nPublished\n08.Jul.2026\nLast application date\n20.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "KTH postdoc in genomics combining state-of-the-art sequencing, functional genomics, molecular biology, and computational biology to study gene regulatory variants, chromatin organization, and transcription in collaboration with the Swedish National Genomics Infrastructure.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Molecular and cell biology, genomics, and genetics. No connection to human-computer interaction, immersive systems, learning science, spatial cognition, or user evaluation. Pure biological science with no HCI component."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Requires hands-on genomics laboratory techniques, molecular/cell biology, large-scale bioinformatics data analysis, and genetics expertise. Researcher has none of these. Quantitative research skills are beginner-level and domain-specific to education/psychology, not bioinformatics."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "Closes no capability gaps relevant to target identity. Learning genomics and molecular biology is orthogonal to spatial cognition, immersive design, or human-centred evaluation."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "KTH is well-regarded; Stockholm is geographically acceptable. However, the research sits in biochemistry and health systems, not HCI or design research. No strategic pathway to Aalto, TU Delft, or European XR/immersive systems groups."
+    },
+    "required_skills": [
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher holds MSc by Research (in progress); position requires completed PhD by employment decision.",
+      "Explicit requirement: 'Research expertise in genomics, molecular or cell biology, genetics or an equivalent field.' Creative Multimedia MSc does not meet this."
+    ],
+    "risks": [
+      "Fundamental disciplinary mismatch: molecular biology ≠ HCI or immersive systems.",
+      "No laboratory or bioinformatics background.",
+      "Researcher would be severely underqualified for the hands-on genomics components.",
+      "Complete misalignment with target identity and career goals."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:43:13.270103Z",
+    "analysis_input_hash": "35535aab85ffc05046e60ed02b815019f061ad272e0e1c0fee0fa96b8c0ab81b"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +158,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 3,
     "urgency": "medium",
     "days_to_deadline": 30,
     "needs_review": true,

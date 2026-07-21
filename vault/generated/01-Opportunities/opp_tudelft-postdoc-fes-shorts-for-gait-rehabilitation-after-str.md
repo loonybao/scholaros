@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-07
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 59
 urgency: low
 needs_review: true
 ---
@@ -111,7 +111,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
+
+Postdoctoral position (30 months, fully funded) in the BODIES group at TU Delft, focused on wearable Functional Electrical Stimulation (FES) shorts for gait rehabilitation after stroke. Core activities: IMU-based gait detection algorithm retraining, patient panel studies (fit/comfort/usability), FES control tuning with clinical partners, pilot home-testing study.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 45 |
+| Methodological fit | 70 |
+| Growth value | 60 |
+| Strategic value | 65 |
+| **Overall** | **59** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** motion-capture, physiological-sensing, imu-data-processing, clinical-assessment, real-time-algorithm-development
+
+**Risks:**
+- Postdoctoral position is advanced relative to candidate's current qualification (MSc in progress). Timeline alignment unclear.
+- Shift from educational/learning context to clinical rehabilitation context; different evaluation frameworks and stakeholder expectations.
+- Focus on motor control and sensor fusion rather than immersive systems or spatial cognition could create silos if not actively connected to XR research.
+- 36-month commitment to a domain adjacent to (but distinct from) target identity may delay return to core XR research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-fes-shorts-for-gait-rehabilitation-after-str.md` and link [[opp_tudelft-postdoc-fes-shorts-for-gait-rehabilitation-after-str]]._

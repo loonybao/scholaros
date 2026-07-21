@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-15
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 5
 urgency: medium
 needs_review: true
 ---
@@ -110,7 +110,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+2-year postdoctoral position in computational micromechanics of solid-state battery cells at KTH's Division of Material and Structural Mechanics. Research focuses on finite-element modelling of particle-scale mechanics, interface mechanics, contact stability, and fracture in solid electrolytes under electrochemical cycling.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 3 |
+| Growth value | 2 |
+| Strategic value | 15 |
+| **Overall** | **5** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, cpp, finite-element-modelling, multiphysics-simulation, materials-characterization
+
+**Risks:**
+- Core research domain (materials mechanics, electrochemistry, FEM) is entirely outside researcher's expertise and excluded career directions (pure ML algorithms, control systems adjacent to battery management).
+- No pathway back to human-centred XR/HCI research—a 2-year postdoc here would signal a career pivot away from target identity.
+- Supervisor network and group culture would be materials-science-focused, not HCI.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-solid-state-batteries-micromechanical-model.md` and link [[opp_varbi-postdoc-in-solid-state-batteries-micromechanical-model]]._

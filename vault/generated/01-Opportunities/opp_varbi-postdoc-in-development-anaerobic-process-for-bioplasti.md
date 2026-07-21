@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-14
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -111,7 +111,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+KTH postdoc in environmental biotechnology focusing on anaerobic co-fermentation of food waste and bioplastics to produce volatile fatty acids and biogas. Work spans bioreactor design, microbial ecology analysis, product separation/purification, with collaboration across academic and industrial partners.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 12 |
+| Growth value | 8 |
+| Strategic value | 15 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** bioreactor-design, bioreactor-operation, wastewater-treatment, bioplastic-analysis, microbial-ecology-tools, fermentation-processes
+
+**Risks:**
+- Critical disciplinary mismatch: Creative Multimedia MSc does not align with biotechnology prerequisites; researcher would lack foundational knowledge.
+- Fundamental domain exclusion: biotechnology and wastewater engineering are outside target research identity.
+- Career trajectory risk: 2-year postdoc in environmental biotech delays PhD entry and seriously weakens positioning for human-centred immersive systems research.
+- Severe technical gap: no overlap between researcher's skills (Unity, C#, multiplayer systems, HCI methods) and required biotechnology expertise.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-development-anaerobic-process-for-bioplasti.md` and link [[opp_varbi-postdoc-in-development-anaerobic-process-for-bioplasti]]._

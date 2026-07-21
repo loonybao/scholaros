@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-16
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -138,7 +138,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+PhD position in geodetic surveying focused on GNSS-based track position measurement methods for railway infrastructure, funded by the Swedish Transport Administration. Core work involves satellite positioning theory, reference systems, electromagnetic signal propagation, and statistical analysis.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 20 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** geodesy-and-satellite-positioning, electromagnetic-theory, reference-systems, gnss-methodology
+
+**Risks:**
+- Fundamental domain mismatch: satellite geodesy vs. human-centred XR design.
+- No prior exposure to GNSS, reference systems, or satellite positioning theory.
+- Would require 6–12 months of foundational study before contributing to research.
+- Supervisor's expertise (geodesy) and group culture (surveying/infrastructure) orthogonal to researcher's target identity.
+- Language requirement (Swedish fluency) may create friction if not native-level.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-geodetic-surveying-with-gnss.md` and link [[opp_varbi-doctoral-student-in-geodetic-surveying-with-gnss]]._

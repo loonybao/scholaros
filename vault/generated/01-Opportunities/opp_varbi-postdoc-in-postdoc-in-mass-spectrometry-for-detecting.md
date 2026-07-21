@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-09-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 3
 urgency: medium
 needs_review: true
 ---
@@ -111,7 +111,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+
+Postdoc in mass spectrometry technique development (proton transfer, time-of-flight) to detect oxygenated organic radicals in ambient air as part of an ERC Advanced project; includes instrument characterization and optimization at lab and field scales.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 10 |
+| **Overall** | **3** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Fundamental disciplinary mismatch. Analytical chemistry and atmospheric radical detection are orthogonal to HCI and immersive systems research.
+- Two years in mass spectrometry instrument development would establish an identity in chemistry, making subsequent transition to HCI PhD coherence difficult.
+- No supervisor alignment with spatial cognition, collaborative systems, or XR research. Group expertise is in gas-phase chemistry instrumentation.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-postdoc-in-mass-spectrometry-for-detecting.md` and link [[opp_varbi-postdoc-in-postdoc-in-mass-spectrometry-for-detecting]]._

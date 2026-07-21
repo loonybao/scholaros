@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-20
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 3
 urgency: medium
 needs_review: true
 ---
@@ -109,7 +109,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+KTH postdoc in genomics combining state-of-the-art sequencing, functional genomics, molecular biology, and computational biology to study gene regulatory variants, chromatin organization, and transcription in collaboration with the Swedish National Genomics Infrastructure.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 10 |
+| **Overall** | **3** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Fundamental disciplinary mismatch: molecular biology ≠ HCI or immersive systems.
+- No laboratory or bioinformatics background.
+- Researcher would be severely underqualified for the hands-on genomics components.
+- Complete misalignment with target identity and career goals.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-genomics.md` and link [[opp_varbi-postdoc-in-genomics]]._

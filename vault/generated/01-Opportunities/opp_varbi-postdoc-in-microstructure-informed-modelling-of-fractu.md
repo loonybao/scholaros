@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-24
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 8
 urgency: medium
 needs_review: true
 ---
@@ -109,7 +109,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Postdoc position in experimental and computational fracture mechanics at KTH, focused on void nucleation under stress using microCT and synchrotron facilities, with finite element modelling for ductile-to-brittle transition in HSLA steels.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 15 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Fundamental domain mismatch: materials science and mechanics engineering vs. HCI and immersive systems. Two years in this track would delay PhD application and dissertation focus.
+- No XR/immersive learning research in group; no pathway to target institutions (Aalto, TU Delft) or target identity.
+- Supervisor expertise in fracture mechanics, not HCI or immersive systems evaluation.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-microstructure-informed-modelling-of-fractu.md` and link [[opp_varbi-postdoc-in-microstructure-informed-modelling-of-fractu]]._

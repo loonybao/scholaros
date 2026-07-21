@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-17
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 2
 urgency: medium
 needs_review: true
 ---
@@ -108,7 +108,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+Postdoc in experimental methods for two-phase flow measurement at high temperature/pressure conditions, developing miniature sensors for small modular reactor thermohydraulics via the HWAT facility in collaboration with Swedish nuclear regulator.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 5 |
+| **Overall** | **2** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Severe domain misalignment. Nuclear engineering is explicitly excluded from researcher's target directions by omission and contrary to HCI focus.
+- Two years in nuclear sensor development would create a career gap from immersive systems research and make subsequent HCI PhD applications harder to justify.
+- No research group overlap with Aalto, TU Delft, or European HCI/XR communities.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-nuclear-engineering.md` and link [[opp_varbi-postdoc-in-nuclear-engineering]]._

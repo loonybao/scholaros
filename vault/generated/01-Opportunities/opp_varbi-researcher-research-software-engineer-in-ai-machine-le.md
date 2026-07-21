@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-15
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 14
 urgency: medium
 needs_review: true
 ---
@@ -114,7 +114,29 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.85_
+
+Permanent research/research software engineer position in AI/machine learning at KTH's Scientific Services Group within Mimer AI Factory and NAISS infrastructure. Focus is user support, services development, and research for autonomous systems including sensing, perception, planning, and control.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 15 |
+| Methodological fit | 10 |
+| Growth value | 15 |
+| Strategic value | 20 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** machine-learning-algorithms, autonomous-systems, deep-learning-frameworks, computer-vision, sensor-integration, perception-systems, reinforcement-learning
+
+**Risks:**
+- Researcher's ML expertise is minimal (Python beginner, no project experience); position demands several years professional AI/ML experience.
+- Pure machine learning algorithm development is explicitly excluded from researcher's target identity.
+- Role is research software engineering + user support for ML/AI, not human-centred systems research.
+- Autonomous systems focus (sensing, perception, planning, control in dynamic environments) is orthogonal to spatial learning and collaboration.
+- Career risk: accepting pure-AI-research position would move researcher away from human-centred immersive systems identity and toward algorithm development.
+- No immersive systems, spatial cognition, or collaborative interaction components despite 'user support' language.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-researcher-research-software-engineer-in-ai-machine-le.md` and link [[opp_varbi-researcher-research-software-engineer-in-ai-machine-le]]._

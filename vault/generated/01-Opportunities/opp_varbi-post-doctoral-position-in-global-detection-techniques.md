@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-09-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 8
 urgency: medium
 needs_review: true
 ---
@@ -110,7 +110,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Chemistry postdoc position at KTH focused on developing detection techniques for oxygenated radicals in air and complex systems. The work involves experimental instrument development, troubleshooting, and application in both laboratory and ambient air settings.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** chemistry-analytical-techniques, gas-phase-kinetics, instrumentation-troubleshooting
+
+**Risks:**
+- Fundamental domain mismatch: chemistry vs. HCI/XR.
+- Zero thematic connection to researcher's target identity or excluded directions.
+- Skill transfer would require retraining in new experimental domain.
+- Career trajectory divergence: postdoc in chemistry would not advance candidacy for human-centred XR positions.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-post-doctoral-position-in-global-detection-techniques.md` and link [[opp_varbi-post-doctoral-position-in-global-detection-techniques]]._

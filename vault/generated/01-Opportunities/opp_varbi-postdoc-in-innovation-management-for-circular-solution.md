@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-23
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 15
 urgency: medium
 needs_review: true
 ---
@@ -107,7 +107,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+KTH postdoc researching innovation processes and business models for circular resource flows in manufacturing, with emphasis on AI for reverse logistics and inter-company collaboration. Requires doctorate and demonstrated scientific excellence.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 20 |
+| Growth value | 8 |
+| Strategic value | 25 |
+| **Overall** | **15** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Researcher does not hold a PhD and will not by typical MSc completion; ineligible
+- Position is postdoc, not aligned with researcher's target pathway seeking PhD candidacy or research associate roles
+- Research focus on circular business models and innovation management is orthogonal to immersive HCI research
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-innovation-management-for-circular-solution.md` and link [[opp_varbi-postdoc-in-innovation-management-for-circular-solution]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:03:49.532532Z",
-  "updated_at": "2026-07-21T01:18:44.832628Z",
+  "updated_at": "2026-07-21T07:46:41.313249Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:03:49.532532Z",
@@ -21,6 +21,44 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:38:32.943784Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.313249Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,13 +97,83 @@
     "status": "open",
     "description_text": "Are you passionate about shaping the future of healthcare? Do you want to develop technology that truly matters in people’s lives? Join us in creating radical innovations that support patients at home\nJob description\nThe BODIES group, at the department of Biomechanical Engineering TU Delft seeks a motivated postdoctoral researcher for a full-time, fully funded, 30-month project on Functional Electrical Stimulation (FES) shorts to improve gait after stroke. You will work closely with Sint Maartenskliniek and Biomex, embedded in the multidisciplinary \"Care is coming home!\" program, a 5-year consortium of 2 technical universities (TU Delft, UTwente), 6 hospitals (including Sint Maartenskliniek), 13 companies (including Biomex), 1 rehabilitation centre, and 5 patient organisations (including Hersenletsel.nl and Hersenstichting).\nThe Challenge\nStroke survivors often have reduced knee flexion and propulsive push-off, impairments with a major impact on mobility and fall risk, with no effective clinical intervention currently available. Recent research showed that FES of the hamstrings during push-off can enhance gait after stroke. This position builds on those findings: you will adapt an existing FES shorts system for stroke rehabilitation, test and optimize it with patients, retrain the stimulation-control algorithm for stroke-specific gait, and evaluate usability, comfort, and fit during prolonged use. You will also initiate adaptable, IMU-based stimulation control synchronized to each patient's evolving gait dynamics as they recover.\nYou will:\n1. Retrain an IMU-based gait-detection algorithm using stroke-patient data\n2. Run patient panels with stroke survivors, with a PhD candidate, to assess fit, comfort, and usability\n3. Tune and clinically assess FES stimulation with physical therapists at Sint Maartenskliniek, followed by initial patient testing\n4. Develop adaptable FES control using onboard IMU signals\n5. Run a pilot home-testing study on continuous gait monitoring, assessing feasibility for future large-scale use\nYou will translate this into a research plan aimed at peer-reviewed publications, alongside consortium deliverables.\nOur offer\nYou will become part of the funded research program in the Netherlands named ‘Care is coming home!’, which involves  9 PhDs and 5 Postdocs. So, we offer an excellent inspiring, collaborative, and international research environment, with access to leading experts in medical technology and AI-driven healthcare solutions. Additionally, you will have access to state-of-the-art labs, clinical partners, and patient organisations, which are preconditions to make a meaningful contribution to the future of sustainable healthcare.\n• Full-time, 30-month postdoctoral position\n• Excellent mentorship and a stimulating international research environment with excellent facilities\n• Competitive salary per the Dutch CAO NU (scale 10, depending on experience), 8% holiday allowance, 8.3% year-end bonus, solid pension scheme\n• Minimum 29 holidays per year (full-time)\nJob requirements\nYou bring:\n• A PhD in Biomechanical Engineering, Biomedical Engineering, Movement Science, Robotics, or a related discipline.\n• A strong curiosity for human gait and neuromuscular control after stroke.\n• Experience with wearable-sensor (IMU) data and human motion analysis.\n• Solid programming skills (ideally, in Python) for algorithm development, control design, and data analysis.\n• Confidence and interest in testing and iterating technology together with patients, in the lab and in the clinic.\n• Excellent organizational and communication skills to coordinate studies across clinical and industry partners.\n• Affinity for working with patients, physical therapists, and clinicians in a hospital setting.\n• Ability to work independently while thriving in a collaborative, multidisciplinary consortium team.\n• Fluency in English, both written and spoken; Dutch is a plus for patient communication.\nIf you enjoy hands-on research, working with people, and bridging clinical needs with cutting-edge control engineering, this postdoc is the perfect opportunity to make a real impact in home-based stroke rehabilitation.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 2,5 years Temporary\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact\ne.vanderkruk@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n7 September 2026\nvia the application button and upload the following documents:\nCV\nCover letter\nIf the applicants are selected for an interview, they will be asked to provide contact details of two referees (at least one academic) with their consent\nYou can address your application to .\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position (30 months, fully funded) in the BODIES group at TU Delft, focused on wearable Functional Electrical Stimulation (FES) shorts for gait rehabilitation after stroke. Core activities: IMU-based gait detection algorithm retraining, patient panel studies (fit/comfort/usability), FES control tuning with clinical partners, pilot home-testing study.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 45,
+      "rationale": "Partial thematic connection: the position involves human-centred design, patient-centred evaluation, and real-world transfer of technology (clinic to home), which resonate with the candidate's interest in real-world spatial transfer and human-centred systems. However, the domain is medical rehabilitation and motor control, not spatial cognition, wayfinding, or collaborative learning. The emphasis is on individual motor recovery, not group interaction or spatial understanding."
+    },
+    "methodological_fit": {
+      "score": 70,
+      "rationale": "Strong methodological fit in several areas: (1) User/patient studies and usability evaluation align with candidate's demonstrated competence; (2) Sensor data handling (IMU) is new but related to physiological sensing, which candidate has no experience with but is an identified growth area; (3) Python programming for algorithm development and data analysis matches beginner Python skills and offers growth opportunity; (4) Iterative design with end-users/patients mirrors the candidate's multiplayer role-based design approach. However, position emphasizes clinical validation, medical device development, and motor control—different from HCI and learning science."
+    },
+    "growth_value": {
+      "score": 60,
+      "rationale": "This position would advance important capability gaps: (1) Wearable sensor integration (IMU) and physiological data processing; (2) Advanced Python skills for real-time algorithm development; (3) Clinical validation and real-world iterative testing methodologies; (4) Understanding of technology adoption in constrained (home/clinical) environments. These skills would enhance future work in immersive systems for rehabilitation, accessibility, or health contexts. However, position would not develop XR expertise, spatial learning measurement, or collaborative design methodologies."
+    },
+    "strategic_value": {
+      "score": 65,
+      "rationale": "TU Delft is a Priority 1 target institution (Netherlands). The BODIES group is well-funded, multidisciplinary, and has strong clinical partnerships—excellent research environment. However, this is a postdoctoral position (candidate's target is doctoral researcher); career timing may not align. Research domain (medical technology, rehabilitation engineering) is adjacent to human-centred design but not core to stated target identity (immersive systems, spatial learning, wayfinding). Position offers rich methodological experience but potential for career direction drift away from XR/immersive systems."
+    },
+    "required_skills": [
+      "user-studies",
+      "python",
+      "experimental-design",
+      "motion-analysis",
+      "sensor-integration",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "user-studies",
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing",
+      "python"
+    ],
+    "missing_skills": [
+      "motion-capture",
+      "physiological-sensing",
+      "imu-data-processing",
+      "clinical-assessment",
+      "real-time-algorithm-development"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD completion; candidate is pursuing MSc by Research (in progress). Postdoctoral eligibility must be confirmed after MSc completion.",
+      "Position emphasizes affinity for working with patients and clinicians; candidate's background is primarily in student-population spatial learning, not clinical populations. Cultural/methodological transition may require onboarding.",
+      "Willingness to travel regularly to Model Health (Leuven, Belgium) for prototype development is required; candidate's geographic constraints should be verified."
+    ],
+    "risks": [
+      "Postdoctoral position is advanced relative to candidate's current qualification (MSc in progress). Timeline alignment unclear.",
+      "Shift from educational/learning context to clinical rehabilitation context; different evaluation frameworks and stakeholder expectations.",
+      "Focus on motor control and sensor fusion rather than immersive systems or spatial cognition could create silos if not actively connected to XR research.",
+      "36-month commitment to a domain adjacent to (but distinct from) target identity may delay return to core XR research."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.75,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:38:32.943784Z",
+    "analysis_input_hash": "4c950788f705a66e2d116a9acd913345963dbd692b9a3394b3e469c38a76751b"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 59,
     "urgency": "low",
     "days_to_deadline": 48,
     "needs_review": true,

@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-10
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 5
 urgency: high
 needs_review: true
 ---
@@ -131,7 +131,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+
+Two-year licentiate position in engineering materials science, focusing on recycled cemented carbide (tungsten/cobalt) microstructure, characterization under load, impurity analysis, and property optimization for metal-cutting and rock-excavation tools.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 3 |
+| Strategic value | 12 |
+| **Overall** | **5** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** materials-characterization, microscopy-analysis, microstructure-property-relationships, recycling-chemistry, mechanical-testing
+
+**Risks:**
+- Fundamental domain mismatch: materials science vs. human-centred XR.
+- Researcher would need to learn materials characterization, microscopy, and metallurgy from scratch.
+- Supervisor and group culture (materials engineering) completely orthogonal to target identity.
+- PhD would entrench researcher in manufacturing/materials rather than advancing immersive systems research.
+- Licentiate duration (2 years) may insufficient for meaningful materials research contribution.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-licentiate-in-engineering-materials-s.md` and link [[opp_varbi-doctoral-student-licentiate-in-engineering-materials-s]]._

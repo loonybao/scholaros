@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-07
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: high
 needs_review: true
 ---
@@ -129,7 +129,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+
+PhD position in satellite communication networks and Space-Air-Ground Integrated Networks (SAGIN), focusing on dual-tier space-ground architecture, network optimization, and AI/ML frameworks for low-latency mesh networks. Highly theoretical and algorithmic.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 12 |
+| Growth value | 8 |
+| Strategic value | 25 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** satellite-communication-theory, network-optimization, machine-learning-algorithm-development, distributed-systems-theory, reinforcement-learning
+
+**Risks:**
+- Core focus is telecommunications theory and network optimization, not human-centred systems or XR.
+- Researcher would be learning machine learning, satellite communication, and network algorithms simultaneously—steep ramp.
+- Group culture (communications/systems) misaligned with target identity (human-centred XR/HCI).
+- Limited opportunity to develop spatial cognition, immersive learning, or user-study methodologies.
+- PhD would likely shift researcher away from HCI trajectory.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-sustainable-satellite-networks.md` and link [[opp_varbi-doctoral-student-in-sustainable-satellite-networks]]._

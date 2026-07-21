@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:16:54.609795Z",
-  "updated_at": "2026-07-21T01:18:45.010670Z",
+  "updated_at": "2026-07-21T07:47:06.237572Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:16:54.609795Z",
@@ -21,6 +21,71 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.049512Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.475161Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:47:05.979341Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:47:06.237572Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +124,74 @@
     "status": "open",
     "description_text": "Researcher/Research software engineer in AI/machine learning\nApply for position\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nMimer AI Factory (\nhttps://mimer-ai.eu/\n) aims to advance innovation, accelerate the adoption of AI, and position Europe as a global leader in AI. We provide access to AI-optimized supercomputers and services such as training and support for SMEs, startups, researchers, and government agencies.\nYou will primarily work in the Scientific Services Group at KCSC (formerly PDC). Your responsibilities will include facilitating, developing, and strengthening national AI/ML user support. In this role, you will collaborate with staff at KTH, RISE, and NAISS partner universities.\nThe applicant will also participate in research activities within the NAISS infrastructure, contributing to the advancement of AI/ML capabilities in Sweden.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in a relevant disciplin with a specialization in Artificial Intelligence (AI) and Machine Learning (ML).\nSeveral years of professional experience in AI/ML, with a focus on autonomous systems.\nStrong communication skills are essential, including the ability to effectively communicate and promote the activities of the organization.\nKnowledge of diversity and equal treatment issues, with a particular focus on gender equality, is expected.\nProficiency in English, both written and spoken, as it is required in day to day work.\nPersonal skills\nInitiative, responsibility, and collaboration skills.\nThe ability to work both independently and collaboratively as part of a team is required.\nPreferred qualifications\nBroad knowledge of various programming languages commonly used in AI and ML applications.\nIn-depth expertise in AI/ML for autonomous systems, including sensing, perception, planning, and control in dynamic environments.\nExperience in developing and leading activities or operations is considered an asset.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Max two pages long.\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid until further notice (permanent post) according to agreement.\nThe employment begins with a six-month probationary period.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nPermanent position\nContract type\nFull time\nFirst day of employment\nAs soon as possible according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2270\nContact\nHenric Zazzi, +4687906225, hzazzi@kth.se\nPublished\n18.Jun.2026\nLast application date\n15.Aug.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Permanent research/research software engineer position in AI/machine learning at KTH's Scientific Services Group within Mimer AI Factory and NAISS infrastructure. Focus is user support, services development, and research for autonomous systems including sensing, perception, planning, and control.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 15,
+      "rationale": "Position emphasizes autonomous systems with sensing and perception components, and includes user support/facilitation work. However, core focus is pure ML algorithm development and autonomous systems control—a category explicitly excluded in researcher's target identity. No human-centred design, collaboration, or learning outcomes mentioned. XR/immersive systems not in scope."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Position includes user support and communication (adjacent to HCI), but primary work is ML/AI model development and autonomous systems research. Researcher's user-study, experimental-design, and XR-development methods do not transfer to AI/ML algorithm and perception system work."
+    },
+    "growth_value": {
+      "score": 15,
+      "rationale": "Could develop programming breadth (Python, multiple ML frameworks) and infrastructure/systems thinking, but would not advance core capabilities in spatial cognition, immersive systems evaluation, collaborative interaction design, or human-centred research."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "KTH Stockholm meets geographic criteria. Permanent position in prestigious infrastructure (NAISS/Mimer AI Factory) offers job security and funding stability. However, position is in pure ML/autonomous systems—explicitly excluded from researcher's target identity. No HCI research groups, no immersive systems, no spatial learning focus. European partnerships in AI, not HCI."
+    },
+    "required_skills": [
+      "python",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "experimental-design",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "machine-learning-algorithms",
+      "autonomous-systems",
+      "deep-learning-frameworks",
+      "computer-vision",
+      "sensor-integration",
+      "perception-systems",
+      "reinforcement-learning"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD in AI/ML with specialization focus; researcher holds MSc by Research in multimedia/XR",
+      "Demands 'several years of professional experience' in AI/ML autonomous systems; researcher's Python is 'beginner' level with no project experience",
+      "Position explicitly requires 'autonomous systems' specialization (sensing, perception, planning, control)—researcher has no background here and this is adjacent to excluded 'robotics-control' and 'pure-machine-learning-algorithms'"
+    ],
+    "risks": [
+      "Researcher's ML expertise is minimal (Python beginner, no project experience); position demands several years professional AI/ML experience.",
+      "Pure machine learning algorithm development is explicitly excluded from researcher's target identity.",
+      "Role is research software engineering + user support for ML/AI, not human-centred systems research.",
+      "Autonomous systems focus (sensing, perception, planning, control in dynamic environments) is orthogonal to spatial learning and collaboration.",
+      "Career risk: accepting pure-AI-research position would move researcher away from human-centred immersive systems identity and toward algorithm development.",
+      "No immersive systems, spatial cognition, or collaborative interaction components despite 'user support' language."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.85,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:47:05.979341Z",
+    "analysis_input_hash": "8509c750789cb9b958a54ca6343155aa361b9feb286dbb3821dcf4cc195bbc94"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +199,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 14,
     "urgency": "medium",
     "days_to_deadline": 25,
     "needs_review": true,

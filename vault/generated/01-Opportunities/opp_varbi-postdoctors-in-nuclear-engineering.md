@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-17
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 3
 urgency: medium
 needs_review: true
 ---
@@ -108,7 +108,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+Postdoctoral position in thermohydraulics and safety of small modular reactors (SMRs) at KTH, involving experimental and analytical analysis of thermal-hydraulic phenomena for water and liquid-lead cooled reactor designs.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 10 |
+| **Overall** | **3** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** nuclear engineering, thermohydraulics, fluid mechanics, reactor physics
+
+**Risks:**
+- Complete domain mismatch. Researcher has no background in nuclear engineering or thermal sciences.
+- Career risk: pursuing this would move researcher away from stated HCI/XR identity.
+- No technical skills transfer from Unity/C#/multiplayer systems to nuclear safety analysis.
+- Collaboration emphasis is with European research groups in energy/nuclear, not HCI or immersive systems.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoctors-in-nuclear-engineering.md` and link [[opp_varbi-postdoctors-in-nuclear-engineering]]._

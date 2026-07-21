@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-10
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 8
 urgency: high
 needs_review: true
 ---
@@ -123,7 +123,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Laboratory manager and researcher role overseeing KTH's Hultgren materials characterization facility. Responsibilities include equipment management (XRD, SEM, thermal analysis), user support, budget oversight, and strategic infrastructure development for materials research.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 15 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** materials-characterization, XRD-expertise, SEM-expertise, thermal-analysis, laboratory-operations-management, materials-science, Swedish-language
+
+**Risks:**
+- Researcher unqualified for core materials characterization expertise (XRD, SEM, thermal analysis).
+- Role is primarily laboratory operations management, not active research in researcher's field.
+- Permanent position in materials science diverts researcher from immersive systems research identity.
+- Significant language barrier (Swedish required); researcher's profile does not confirm proficiency.
+- Career trajectory risk: accepting managerial role in unrelated domain could undermine credibility for future HCI positions.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-researcher-laboratory-manager-to-the-hultgren-laborato.md` and link [[opp_varbi-researcher-laboratory-manager-to-the-hultgren-laborato]]._

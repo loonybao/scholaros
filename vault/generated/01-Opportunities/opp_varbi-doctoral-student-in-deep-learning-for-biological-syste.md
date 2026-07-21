@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-07-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 14
 urgency: high
 needs_review: true
 ---
@@ -134,7 +134,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Doctoral student position at KTH's Department of Decision and Control Systems in machine learning applied to cancer cell biology, developing digital twins of cell-cell interactions and in silico/in vitro models to disrupt cancer-promoting equilibria.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 25 |
+| Growth value | 5 |
+| Strategic value | 12 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** statistics, mixed-effects-modelling
+
+**Risks:**
+- Disqualifying prerequisite mismatch: degree discipline and technical background do not meet stated requirements.
+- Complete domain shift with no recovery path to target identity. PhD in ML/biology does not prepare researcher for human-centred XR.
+- Supervisor group and peer cohort will have fundamentally different research values and methods; risk of cultural and intellectual isolation.
+- Potential security clearance delays due to ambiguous post-Soviet/export-control language in Swedish posting.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-deep-learning-for-biological-syste.md` and link [[opp_varbi-doctoral-student-in-deep-learning-for-biological-syste]]._

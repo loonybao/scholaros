@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-10
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 48
 urgency: high
 needs_review: true
 ---
@@ -112,7 +112,27 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.70_
+
+Postdoctoral position (12–15 months) within the NODUS research group at Aalto's Department of Design, focused on complexity theory, innovation governance, and institutional design. Emphasizes qualitative research, stakeholder engagement, workshop facilitation, and action research in innovation ecosystems.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 25 |
+| Methodological fit | 60 |
+| Growth value | 55 |
+| Strategic value | 70 |
+| **Overall** | **48** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** mixed-methods, complexity-theory, innovation-studies, systems-thinking
+
+**Risks:**
+- Postdoctoral position is advanced relative to candidate's current qualification status (MSc in progress). Career timing may not align.
+- Disciplinary shift (from XR/HCI to innovation/complexity studies) could complicate future positioning as a human-centred XR researcher.
+- Short contract duration (12–15 months) offers limited time to establish new research direction or generate substantial outputs in the innovation domain.
+- No explicit XR/immersive systems focus; candidate would need to connect complexity theory back to their target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-postdoctoral-researcher-in-complexity-aligned-innovati.md` and link [[opp_aalto-postdoctoral-researcher-in-complexity-aligned-innovati]]._

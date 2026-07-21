@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-24
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 4
 urgency: medium
 needs_review: true
 ---
@@ -107,7 +107,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+KTH postdoc in experimental and computational fracture mechanics focused on mechanical testing of sub-sized specimens, numerical modelling of crack growth, and standardization of methods for structural integrity assessment in ductile materials.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 2 |
+| Strategic value | 15 |
+| **Overall** | **4** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics, experimental-design
+
+**Risks:**
+- Fundamental disciplinary mismatch: materials science ≠ HCI.
+- No experimental mechanics or computational modelling background.
+- Complete thematic departure from target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-experimental-and-computational-fracture-mec.md` and link [[opp_varbi-postdoc-in-experimental-and-computational-fracture-mec]]._

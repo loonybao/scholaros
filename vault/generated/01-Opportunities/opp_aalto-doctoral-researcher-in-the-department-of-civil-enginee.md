@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-17
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 10
 urgency: medium
 needs_review: true
 ---
@@ -118,7 +118,26 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Doctoral position in structural fire engineering of cold-formed steel roof decking systems, involving furnace fire tests, numerical simulations (Abaqus FEA), and design principle development. This is a core structural/mechanical engineering role within the Department of Civil Engineering at Aalto University.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 25 |
+| **Overall** | **10** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cad, abaqus, fire-simulation, non-linear-fem
+
+**Risks:**
+- Fundamental disciplinary mismatch: structural/fire engineering vs. human-centred HCI research.
+- Significant ramp-up required in Abaqus FEA, CAD, and fire simulation—areas where candidate has no demonstrated experience.
+- Three-year commitment to a domain unrelated to target identity may delay or redirect career trajectory away from doctoral HCI research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-in-the-department-of-civil-enginee.md` and link [[opp_aalto-doctoral-researcher-in-the-department-of-civil-enginee]]._

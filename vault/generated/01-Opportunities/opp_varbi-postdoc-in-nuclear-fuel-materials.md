@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-10-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 4
 urgency: low
 needs_review: true
 ---
@@ -114,7 +114,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+Postdoc in nuclear fuel materials, studying fission product kinetics via ion implantation in uranium nitride with combined experimental and computational methods (mesoscale and multiphysics finite element modelling) to evaluate diffusion kinetics and high burnup structure formation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 10 |
+| Growth value | 0 |
+| Strategic value | 5 |
+| **Overall** | **4** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Complete disciplinary mismatch. Nuclear fuel materials and fission product physics lie outside HCI, social science, and immersive systems entirely.
+- Two years in this track would create a significant career discontinuity from immersive learning and spatial cognition research, complicating future HCI PhD positioning.
+- No pathway to target supervisors or research groups. Supervisor expertise is materials science and nuclear engineering, not HCI.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-nuclear-fuel-materials.md` and link [[opp_varbi-postdoc-in-nuclear-fuel-materials]]._

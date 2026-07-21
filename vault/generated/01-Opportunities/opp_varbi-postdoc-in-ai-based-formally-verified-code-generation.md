@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 13
 urgency: medium
 needs_review: true
 ---
@@ -108,7 +108,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Postdoc in AI-based formally verified code generation at KTH, part of the SAFIR (EUR 2.5M) collaborative project. Focus is on combining LLM-based code generation with formal methods to produce trustworthy software for secure and dependable AI applications.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 15 |
+| Growth value | 5 |
+| Strategic value | 25 |
+| **Overall** | **13** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** formal-verification, large-language-models, ai-systems-development, mixed-effects-modelling
+
+**Risks:**
+- Core position is pure ML algorithm development and formal systems work, explicitly in excluded direction for the researcher.
+- No human-centred or evaluation component.
+- Postdoc experience in formal verification/LLM systems would not advance candidacy for human-centred XR positions.
+- Significant skill gap in formal methods and AI systems theory.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-ai-based-formally-verified-code-generation.md` and link [[opp_varbi-postdoc-in-ai-based-formally-verified-code-generation]]._

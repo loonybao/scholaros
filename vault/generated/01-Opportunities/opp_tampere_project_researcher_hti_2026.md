@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: 84
+fit_overall: 89
 urgency: high
 needs_review: true
 ---
@@ -119,27 +119,27 @@ Lue tarkemmat tiedot ja hakuohjeet yllä olevasta englanninkielisestä osuudesta
 
 ## AI analysis
 
-_claude-fable-5 · fit_analysis_v1 · confidence 0.85_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
 
-2-5 Project Researcher positions in the Pervasive Interaction Research Group (TAUCHI/TACCU) working on human-technology interaction, XR, accessibility and multimodal interaction across several projects (networked simulation training, human-AI collaboration, industrial digital twins, inclusive work-life, human augmentation). Some selected candidates are expected to pursue a doctoral degree, with a title change to Doctoral Researcher once study rights are obtained.
+Project Researcher position at Tampere University's Pervasive Interaction Research Group, hosting 2–5 researchers across multiple human-technology interaction projects including VR/AR/XR, AI, accessibility, and multimodal interaction. Role is highly flexible, with task assignments defined post-hire based on candidate profile; doctoral pathway available.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 85 |
+| Thematic fit | 92 |
 | Methodological fit | 88 |
-| Growth value | 75 |
-| Strategic value | 82 |
-| **Overall** | **84** |
+| Growth value | 85 |
+| Strategic value | 86 |
+| **Overall** | **89** |
 
 **Fit type:** exact-fit
 
-**Missing skills:** python, statistics, physiological-sensing, eye-tracking
+**Missing skills:** mixed-effects-modelling, statistics, python, eye-tracking
 
 **Risks:**
-- Multi-project call: final assignment may land on human-AI/accessibility topics rather than spatial learning
-- Doctoral study right is a separate later application, not guaranteed by employment
-- Defence-related projects may exclude some nationalities; unresolved for this applicant
-- Formal timing eligibility may fail despite high research alignment - research-method fit remains high (84) regardless of the outcome
+- Role definition post-hire introduces uncertainty; fit depends on actual project assignment match—researcher may be assigned to defence/industrial use-case work less aligned with human-centred values if supervisors prioritize different sub-projects.
+- Multi-project environment may reduce research depth per project; researcher accustomed to single focused thesis may find portfolio management demanding.
+- Doctoral transition contingent on 'official study right and other qualification requirements'—timing and criteria not fully transparent in posting.
+- Salary level (€2,500/month) is modest for Finland; cost of living may require supplement or careful budgeting.
 
 ## Manual annotations (from record)
 

@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-23
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 15
 urgency: medium
 needs_review: true
 ---
@@ -115,7 +115,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+KTH postdoc in circular manufacturing systems and remanufacturing, focusing on component/material flows, life-cycle assessment, and reintegration into production. Work is embedded with TRATON/Scania and involves modelling, analysis, and industrial collaboration in Södertälje.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 20 |
+| Growth value | 12 |
+| Strategic value | 25 |
+| **Overall** | **15** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** life-cycle-assessment, manufacturing-modelling, remanufacturing-processes, industrial-systems-analysis, material-flow-optimization
+
+**Risks:**
+- Disciplinary mismatch: Creative Multimedia MSc does not align with stated engineering prerequisites.
+- Strategic mismatch: This is a manufacturing/sustainability trajectory, not an HCI/XR path.
+- Opportunity cost: 2-year postdoc delays entry into PhD programs in human-centred immersive systems.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-circular-manufacturing-systems.md` and link [[opp_varbi-postdoc-in-circular-manufacturing-systems]]._

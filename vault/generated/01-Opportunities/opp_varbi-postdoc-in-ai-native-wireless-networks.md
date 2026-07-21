@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-20
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -110,7 +110,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+
+Postdoc in AI-native wireless networks at KTH focused on developing AI-enhanced wireless network technologies and deploying AI models within networks. Work spans theory, algorithm development, and practical optimization, including semantic communications and LLM/reinforcement learning applications.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 8 |
+| Growth value | 5 |
+| Strategic value | 15 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** communication-information-theory, optimization-algorithms, large-language-models, reinforcement-learning, wireless-network-design
+
+**Risks:**
+- Core domain is wireless systems engineering and AI algorithms—pure ML and systems development, excluded directions.
+- Multiplayer-networking experience (Photon, Spatial.io) is not transferable to wireless network theory/optimization.
+- No human-centred research, user evaluation, or HCI methodology.
+- Postdoc in AI-native networks would not advance human-centred XR candidacy.
+- Significant theory/expertise gap (communication theory, information theory, LLMs, RL).
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-ai-native-wireless-networks.md` and link [[opp_varbi-postdoc-in-ai-native-wireless-networks]]._

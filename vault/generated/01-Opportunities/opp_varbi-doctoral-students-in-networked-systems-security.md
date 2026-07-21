@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-23
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 16
 urgency: medium
 needs_review: true
 ---
@@ -133,7 +133,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+PhD position(s) in networked systems security and privacy, with focus on design, analysis, verification, and empirical evaluation of secure systems. Primary interest in security and resilience of positioning/localization systems, including GNSS. Supervisors: Panagiotis Papadimitratos (NSS lab).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 18 |
+| Growth value | 15 |
+| Strategic value | 25 |
+| **Overall** | **16** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** computer-security, cryptography, privacy-preserving-technologies, distributed-algorithms, systems-programming
+
+**Risks:**
+- Core focus (cybersecurity, privacy, localization resilience) is orthogonal to human-centred XR and spatial learning.
+- Researcher would require 6–12 months to build foundational security, cryptography, and systems knowledge.
+- Supervisor (Papadimitratos) and group culture (security/privacy) misaligned with target identity (human-centred XR/HCI).
+- PhD trajectory would shift toward secure systems engineering rather than advancing immersive-learning or collaborative-immersive-systems research.
+- Limited synergy between security evaluation methods and spatial cognition / wayfinding transfer research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-students-in-networked-systems-security.md` and link [[opp_varbi-doctoral-students-in-networked-systems-security]]._

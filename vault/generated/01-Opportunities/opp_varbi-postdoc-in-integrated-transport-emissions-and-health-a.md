@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-07-22
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 19
 urgency: urgent
 needs_review: true
 ---
@@ -120,7 +120,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+KTH postdoc developing next-generation transport, emission, and health forecasting models using deep learning and explainable AI, integrating multiple data sources and working with municipalities on monitoring protocols. Two complementary tracks: energy/emissions and health impacts. Requires doctorate in transport science, urban planning, data science, or related field with programming expertise.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 25 |
+| Growth value | 15 |
+| Strategic value | 30 |
+| **Overall** | **19** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** mixed-effects-modelling
+
+**Risks:**
+- Researcher does not hold a PhD and will not by typical completion timeline; ineligible
+- Required PhD domain (transport science, urban planning, data science) differs from researcher's domain (HCI/multimedia); domain mismatch may disadvantage application
+- Postdoc role type conflicts with researcher's stated target pathway
+- Research core (forecasting models, AI inference, emissions/health prediction) is fundamentally orthogonal to human-centred immersive systems research
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-integrated-transport-emissions-and-health-a.md` and link [[opp_varbi-postdoc-in-integrated-transport-emissions-and-health-a]]._

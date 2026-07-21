@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-15
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 3
 urgency: medium
 needs_review: true
 ---
@@ -109,7 +109,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+2-year postdoctoral position in atomistic modelling and synthesis of ceramic electrolytes for solid-state batteries, jointly hosted by Material Science & Engineering and Chemistry at KTH. Research integrates computational materials science (DFT, atomistic simulation) with experimental inorganic synthesis and electrochemical characterisation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 1 |
+| Growth value | 0 |
+| Strategic value | 10 |
+| **Overall** | **3** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** dft-modelling, vasp, quantum-espresso, inorganic-synthesis, electrochemistry, materials-characterization, python, cpp
+
+**Risks:**
+- This is pure computational and experimental materials chemistry—a core discipline orthogonal to HCI.
+- No human factors, no user interaction, no immersive systems whatsoever.
+- Accepting this position would signal a fundamental career redirect away from stated target identity and could damage credibility in HCI communities.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-solid-state-batteries-modelling-synthesis-o.md` and link [[opp_varbi-postdoc-in-solid-state-batteries-modelling-synthesis-o]]._

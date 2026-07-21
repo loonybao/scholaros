@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-07
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 54
 urgency: low
 needs_review: true
 ---
@@ -111,7 +111,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.78_
+
+Postdoctoral position (36 months, fully funded) in the BODIES group at TU Delft, focused on single-camera markerless motion capture using computer vision and synthetic data generation for clinical assessment and home monitoring of motor impairments in stroke and Parkinson's disease patients.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 40 |
+| Methodological fit | 65 |
+| Growth value | 55 |
+| Strategic value | 60 |
+| **Overall** | **54** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** computer-vision, pose-estimation, synthetic-data-generation, machine-learning, deep-learning-frameworks
+
+**Risks:**
+- Postdoctoral position is advanced relative to candidate's current qualification status. Timeline alignment unclear.
+- Core technical focus (computer vision, pose estimation, pose tracking) represents a disciplinary pivot away from XR/immersive systems toward computer vision and AI—a significant methodological shift.
+- Three-year commitment to clinical computer vision research could delay or complicate return to core XR and spatial learning research.
+- Limited connection to collaborative immersive systems or spatial cognition; low probability of leveraging this experience in future human-centred XR research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-markerless-motion-capture-for-home-monitorin.md` and link [[opp_tudelft-postdoc-markerless-motion-capture-for-home-monitorin]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:18:16.996946Z",
-  "updated_at": "2026-07-21T01:18:44.930143Z",
+  "updated_at": "2026-07-21T07:46:41.362997Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:18:16.996946Z",
@@ -21,6 +21,64 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:41:48.019224Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:42:26.073616Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.362997Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +117,72 @@
     "status": "open",
     "description_text": "Postdoc in Biological Data Systems, Alpha Cell Program\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nAlpha Cell is a new SciLifeLab program aimed at building the first molecular-level computational model of the human cell. The program is led by Jan Ellenberg, Director of SciLifeLab and Mathias Ulhen, Director of the Human Protein Atlas, together with a collaborative, multi-institutional constellation of SciLifeLab researchers and infrastructure units.\nThe Human Protein Atlas (HPA) is a large-scale international effort to map the spatial distribution of proteins in human cells, tissues, and organs using antibody-based imaging, transcriptomics, and systems biology approaches. Since its launch, the atlas has generated one of the world’s most comprehensive open resources for spatial molecular biology, comprising millions of images and extensive molecular measurements. All data are released openly and widely used by researchers worldwide.\nThe Alpha Cell program is recruiting a postdoctoral in Biological Data Systems to develop scalable data infrastructure and computational systems for large biological datasets. The position will be embedded within the Human Protein Atlas at KTH and SciLifeLab. The successful candidate will work closely with Avlant Nilsson cancer cell modeling lab and Wei Ouyang’s AICell lab who together will develop the first foundation cell model based on HPA and other external large-scale datasets.\nThe role focuses on establishing the data foundations for the program’s initial modelling efforts by identifying, evaluating, integrating, and structuring large biological datasets into scalable, standardized, and AI-ready frameworks for computational modelling. Working in SciLifeLab’s highly interdisciplinary environment, where imaging, molecular data, and computational methods are developed in parallel, the postdoc will develop systems and services that make biological data accessible to AI and computational tools, collaborating closely with the Human Protein Atlas (HPA) team and other researchers to enhance data integration, annotation, structure, and accessibility, connect external datasets, and support open science and emerging AI-driven workflows.\nQualifications\nRequirements\nA doctoral degree in bioinformatics, computational biology, cell biology with a strong computational component, or a closely related field. This eligibility requirement must be met no later than the time the employment decision is made.\nStrong understanding of biological datasets and data modalities relevant to cell biology, such as imaging, transcriptomics, proteomics, or spatial omics\nRich experience and track record in using open databases and bioinformatic tools and services.\nStrong programming skills for developing computational tools or data workflows (Python or similar), with good software engineering practice, collaborative development experience (e.g. Git/GitHub), and ability to use AI-assisted coding tools effectively.\nStrong communication and collaboration skills, with the ability to work across experimental, computational, and infrastructure-focused teams\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience working with large heterogeneous datasets\nExperience working with biological datasets such as imaging, genomics, proteomics, or spatial omics\nExperience building scalable or automated data processing workflows\nExperience building APIs or data services for large scientific datasets\nFamiliarity with the Model Context Protocol or similar systems for exposing data to AI tools and agents\nExperience developing infrastructure for machine learning workflows\nExperience contributing to open data platforms or large scientific databases\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nNovember 1st or according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-1841\nContact\nKalle Von Feilitzen, +4687906000, kallejon@kth.se\nPublished\n01.Jun.2026\nLast application date\n03.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoc in Biological Data Systems as part of AlphaCell program at KTH/SciLifeLab, focusing on developing scalable data infrastructure and computational systems for large biological datasets. Role involves data integration, annotation, standardization, and making biological data accessible to AI and computational tools.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 15,
+      "rationale": "Position is in biological data infrastructure and AI-ready dataset frameworks, part of foundational cell modeling initiative. No direct HCI, user research, immersive systems, or spatial cognition component. However, the collaborative, interdisciplinary data infrastructure work and cross-team communication share loose methodological parallels with collaborative immersive systems design (both require systems thinking, data organization, multi-stakeholder coordination). Thematic alignment is weak but not orthogonal."
+    },
+    "methodological_fit": {
+      "score": 45,
+      "rationale": "Researcher has intermediate experimental-design and quantitative-research skills, plus advanced C# and intermediate Python. Position requires Python proficiency for building data workflows, good software engineering (Git, collaborative development), and ability to work across interdisciplinary teams—all of which align with researcher's demonstrated collaborative system-building on XR application. The data infrastructure methodology (standardization, accessibility, workflow automation) parallels the structured role-based coordination design in the Master's project. This is adjacent fit: not a thematic match, but methodologically congruent (systems integration, multi-stakeholder coordination, computational tool development)."
+    },
+    "growth_value": {
+      "score": 35,
+      "rationale": "Would strengthen Python proficiency (beginner→intermediate), data infrastructure thinking, and collaborative cross-disciplinary work. These are transferable to future human-centred XR research: understanding data ecosystems, building reproducible computational systems, and managing complex interdisciplinary collaboration are valuable for immersive learning systems evaluation and publication infrastructure. Moderate growth value—not direct, but foundation-level capability development."
+    },
+    "strategic_value": {
+      "score": 40,
+      "rationale": "SciLifeLab/KTH is internationally prestigious with strong open science commitment (aligns with researcher values evident in systematic mapping review). Sweden meets geography and funding criteria. However, cell biology domain does not connect to Aalto, TU Delft, or target HCI/XR research groups. The postdoc would not position the researcher for human-centred immersive systems roles, though it builds adjacent infrastructure and collaboration skills valuable for future academic research roles more broadly."
+    },
+    "required_skills": [
+      "python",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "bioinformatics",
+      "large-scale-data-management",
+      "api-development",
+      "database-architecture",
+      "open-data-infrastructure"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher holds MSc by Research (in progress); position requires completed PhD/doctoral degree by employment decision.",
+      "Position emphasizes bioinformatics and biological dataset experience; researcher has no biology background but does have experimental-design methodology that could transfer to data curation and integration work."
+    ],
+    "risks": [
+      "Biological domain entirely outside researcher's training and target identity (human-centred XR/HCI).",
+      "Postdoc would signal pivot away from immersive systems research, potentially weakening future competitiveness for human-centred XR doctoral or project roles.",
+      "No user research, HCI methodology, or immersive systems evaluation experience would be gained.",
+      "Significant learning curve in bioinformatics and biological data systems required.",
+      "Career trajectory divergence: 2-year postdoc in cell data systems may not lead to target institutions or research groups."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.75,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:42:26.072033Z",
+    "analysis_input_hash": "00dea3e281660217203c4208296e8eda5e6792abc2446385883a3f77824a2953"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +190,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 32,
     "urgency": "high",
     "days_to_deadline": 13,
     "needs_review": true,

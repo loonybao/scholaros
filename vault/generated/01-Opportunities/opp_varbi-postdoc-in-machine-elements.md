@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-23
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 4
 urgency: medium
 needs_review: true
 ---
@@ -109,7 +109,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+KTH postdoc in tribology and machine elements for energy-efficient transport systems, focusing on grease-lubricated wheel bearing evaluation and test rig development. Conducted in collaboration with Scania and grease manufacturers. Requires doctorate and documented knowledge in machine design and/or tribology.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **4** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Researcher does not hold a PhD and will not by typical completion; ineligible
+- Required PhD domain (machine design, tribology) is entirely outside researcher's background (multimedia/HCI); application would likely be rejected on domain grounds alone
+- Postdoc role conflicts with target position types
+- Research domain is in mechanical/automotive engineering, completely orthogonal to human-centred immersive systems
+- No HCI, user studies, immersive systems, or spatial cognition methodologies present in position description
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-machine-elements.md` and link [[opp_varbi-postdoc-in-machine-elements]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:14:46.474990Z",
-  "updated_at": "2026-07-21T01:18:44.914144Z",
+  "updated_at": "2026-07-21T07:46:41.343530Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:14:46.474990Z",
@@ -21,6 +21,63 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:41:04.699124Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:41:41.553048Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.343530Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +116,68 @@
     "status": "open",
     "description_text": "Doctoral student (Licentiate) in Engineering Materials Science\nApply for position\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nProject description\nThird-cycle subject: Engineering Materials Science\nCemented carbide tools are essential to Sweden’s manufacturing, construction, and mining industries due to their exceptional hardness and wear resistance. At the same time, the supply of virgin tungsten (W) and cobalt (Co) is uncertain, and only about 10% of today’s cemented carbide tools are produced from recycled material. Increasing recycling is therefore crucial for reducing energy use, climate impact, and dependence on critical raw materials.\nThe aim of the PhD project is to contribute to a mechanistic understanding of how recycled raw materials influence the microstructure and performance of cemented carbides in demanding applications, primarily metal cutting but also rock excavation. Recycled raw material often contains impurities which can affect the final properties of the product. The work builds on a pre-study in which real‑time characterization under simulated loading conditions showed strong potential for explaining how impurities and microstructure govern material behaviour.\nThe project will be carried out within the CHARM project funded by Vinnova and involves close collaboration with leading industrial partners (Sandvik Coromant, Seco Tools, Sandvik Mining) as well as researchers at KTH and Lund University. It is also linked to Vinnova’s competence centre NEXT and European networks such as AIM‑NEXT and RESQTOOL. The work includes development of new characterization methods, analysis of microstructure–property relationships, and knowledge‑based optimization of recycled cemented carbides.\nThe overall goal is to enable high‑performance tools based on recycled materials, thereby strengthening sustainability, competitiveness, and raw‑material security for Swedish and European industry.\nSupervision:\nPeter Hedström and Lisa Toller Nordström are\nproposed to supervise the doctoral student. Decisions are made on admission\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Licentiate degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Students`network (Students’ union on KTH Royal Institute of Technology)\nContact information for\ndoctoral section\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nApplications must include the following elements:\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2478\nContact\nPeter Hedström, pheds@kth.se\nLisa Toller-Nordström, lisatn@kth.se\nPublished\n30.Jun.2026\nLast application date\n10.Aug.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Two-year licentiate position in engineering materials science, focusing on recycled cemented carbide (tungsten/cobalt) microstructure, characterization under load, impurity analysis, and property optimization for metal-cutting and rock-excavation tools.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "Position is materials science and manufacturing—microstructure characterization, recycling chemistry, and tool performance. Researcher works on human-centred XR, collaborative immersive systems, and spatial learning. Zero thematic connection."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Position uses experimental materials characterization (microscopy, real-time loading) and microstructure–property analysis. Researcher's methods are user studies, design evaluation, and experimental HCI. No methodological bridge."
+    },
+    "growth_value": {
+      "score": 3,
+      "rationale": "Position would develop expertise in materials characterization and manufacturing—entirely outside researcher's intended trajectory. Does not close any HCI, spatial learning, or immersive systems research gaps."
+    },
+    "strategic_value": {
+      "score": 12,
+      "rationale": "KTH is excellent; CHARM project is well-funded (Vinnova) with strong industrial partners (Sandvik Coromant, Seco Tools). However, supervisor (Hedström, Toller Nordström) and group culture are materials science, not HCI or immersive systems. Position offers no strategic value toward researcher's stated target identity."
+    },
+    "required_skills": [
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "materials-characterization",
+      "microscopy-analysis",
+      "microstructure-property-relationships",
+      "recycling-chemistry",
+      "mechanical-testing"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires materials science or engineering background; researcher's background is HCI/multimedia.",
+      "Security clearance may apply; ambiguous in posting.",
+      "Licentiate (2 years) rather than full PhD; researcher's target is PhD-level trajectory."
+    ],
+    "risks": [
+      "Fundamental domain mismatch: materials science vs. human-centred XR.",
+      "Researcher would need to learn materials characterization, microscopy, and metallurgy from scratch.",
+      "Supervisor and group culture (materials engineering) completely orthogonal to target identity.",
+      "PhD would entrench researcher in manufacturing/materials rather than advancing immersive systems research.",
+      "Licentiate duration (2 years) may insufficient for meaningful materials research contribution."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.97,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:41:41.551994Z",
+    "analysis_input_hash": "16235b8effad0d6483b83f48edfd399f33b875c27d04cbac580ebe6e4bb846fa"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +185,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 5,
     "urgency": "high",
     "days_to_deadline": 20,
     "needs_review": true,

@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-15
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 3
 urgency: medium
 needs_review: true
 ---
@@ -112,7 +112,26 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+2-year postdoctoral position in precision manufacturing and metrology for scalable solid-state battery production at KTH's Department of Production Engineering. Research focuses on manufacturing variability, tolerancing, process capability, and non-destructive evaluation (X-ray CT, optical metrology, ultrasonic sensing).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 2 |
+| Growth value | 1 |
+| Strategic value | 10 |
+| **Overall** | **3** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** manufacturing-metrology, precision-engineering, process-capability-analysis, x-ray-ct-analysis, optical-metrology, statistical-process-control, finite-element-modelling, python, cpp
+
+**Risks:**
+- Core domain (production engineering, industrial metrology, manufacturing systems) is categorically different from HCI.
+- No human subjects, no user research, no immersive systems—entirely outside target identity.
+- Shared methodology (experimental design) is superficial and would not bridge disciplinary gap.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-solid-state-batteries-precision-manufacturi.md` and link [[opp_varbi-postdoc-in-solid-state-batteries-precision-manufacturi]]._

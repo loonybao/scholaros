@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:11:52.640939Z",
-  "updated_at": "2026-07-21T01:18:44.979673Z",
+  "updated_at": "2026-07-21T07:46:41.435154Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:11:52.640939Z",
@@ -21,6 +21,62 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:45:04.469089Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:45:30.923700Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.435154Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +115,60 @@
     "status": "open",
     "description_text": "Postdoc in solid-state batteries – Development of composite electrolytes\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nNext leap in the battery development is expected to be the lithium solid-state batteries (SSB), allowing the replacement of the flammable organic electrolyte in Li-ion batteries with a safer and a more compact solid electrolyte. Within the framework of the Swedish governmental battery initiative COMPEL, aimed to support competence and excellence in battery research and education for the transport sector, KTH join forces with a coordinated initiative on composite SSB with seven postdoctoral positions in several disciplines, focusing on various aspects along the battery value chain, ranging from synthesis, cell assembly, characterization, modeling to scaled-up manufacturing. The 2-year postdoc project\nDevelopment and characterization of composite electrolytes, polymer materials and optimized processes for production of composite solid state batteries\nwill be shared between Depts Fibre and Polymer Technology (Divs Polymer Technology and Coatings Technology) and Chemical Engineering (Div. Applied Electrochemistry). The aim of the project is to develop new composite electrolytes for solid state batteries. The concept is based on incorporation of highly ion conductive inorganic particles such as halides or sulfides into a polymeric matrix typically composed of PEO/PEG that is mixed with a Li salt or ionic liquid with reasonably high ion conductivity that together will allow for a good ion conductivity on a macroscale while in the solid state. The project will include development of new polymeric matrices, dispersion of inorganic particles, production processes and property assessment. The composition and procedure will be optimised for high conductivity and processability.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in polymer Technology, polymer synthesis, material science, or a related subject with experience in electrochemistry. This eligibility requirement must be met no later than the time the employment decision is made.\nProficiency in written and spoken English, as this will be required in day-to-day work.\nStrong laboratory and instrumental skills\nAwareness of diversity and equal treatment issues with a particular focus on gender equality.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nExperience in solid-state batteries and well-acquainted with electrochemical characterization techniques of batteries.\nHands-on experience in polymer synthesis, polymer chemistry, and relevant experimental techniques within the field.\nAn innovative mindset and ability to work independently.\nGood collaborative skills and abilities and interest in working in a team.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your university studies. Translations into English or Swedish if the original documents have not been issued in any West-European languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally one page long.\nContact to reference persons or recommendation letters.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-10-01 or according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2602\nContact\nMats Johansson, matskg@kth.se\nKarin Odelius, hoem@kth.se\nPublished\n08.Jul.2026\nLast application date\n15.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoc in solid-state battery electrolyte development, designing and optimizing composite materials combining inorganic particles (halides, sulfides) with polymer matrices (PEO/PEG); includes synthesis, processing optimization, and property characterization as part of Swedish governmental COMPEL battery initiative.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Solid-state battery materials and polymer electrolyte development are entirely orthogonal to human-centred XR, immersive systems, spatial learning, or collaboration. This is materials chemistry and electrochemistry, not HCI."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Researcher has experimental design and quantitative research experience, but applied to polymer synthesis and battery characterization rather than human-centred evaluation or immersive system design. Materials property assessment and process optimization do not align with UX methods or user studies."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "No capability transfer to human-centred immersive systems. Polymer technology, electrochemistry, and battery manufacturing processes lie entirely outside the trajectory toward spatial cognition and collaborative XR research."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "Position is part of Swedish governmental COMPEL battery initiative with strong national funding and collaboration across KTH departments. Excellent for battery materials research. However, completely disconnected from HCI research communities, Aalto, TU Delft, and European immersive systems groups."
+    },
+    "required_skills": [
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires completed PhD before start; researcher is MSc by Research (in progress, thesis stage).",
+      "Ambiguous security clearance requirement per Swedish Protective Security Act.",
+      "Preferred start date 2026-10-01; timeline contingent on thesis completion and conferment."
+    ],
+    "risks": [
+      "Severe domain mismatch. Battery materials chemistry and polymer electrolyte optimization bear no relation to HCI, spatial cognition, or immersive systems.",
+      "Two years in solid-state battery development would establish research identity in materials chemistry, making doctoral transition to human-centred XR harder to justify or transition into.",
+      "Supervisors (Fibre & Polymer Technology, Applied Electrochemistry) have no expertise in immersive systems, HCI, or spatial learning. No pathway to target supervisors or institutions."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.97,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:45:30.922172Z",
+    "analysis_input_hash": "4c9b27eef443536d15e32ca905dec5c3f4ea4f1f9eb1ad728b031ce7ed08d2ec"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +176,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 3,
     "urgency": "medium",
     "days_to_deadline": 25,
     "needs_review": true,

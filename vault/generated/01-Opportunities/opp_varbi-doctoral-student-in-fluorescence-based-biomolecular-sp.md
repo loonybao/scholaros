@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-07-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: high
 needs_review: true
 ---
@@ -132,7 +132,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+Doctoral student position at KTH in Experimental Biomolecular Physics, developing fluorescence-based ultrasensitive and super-resolution imaging and spectroscopy techniques for cellular and molecular studies with applications in biophysics and clinical diagnostics.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 3 |
+| Strategic value | 8 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** statistics, mixed-effects-modelling
+
+**Risks:**
+- Disqualifying prerequisite: degree discipline and experimental background do not meet baseline requirements.
+- Complete disciplinary departure with no path back to HCI. PhD in experimental biophysics actively harms candidacy for human-centred research roles.
+- Experimental laboratory research culture is incompatible with researcher's design and human-centred orientation.
+- Potential security clearance delays due to Swedish security vetting language.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-fluorescence-based-biomolecular-sp.md` and link [[opp_varbi-doctoral-student-in-fluorescence-based-biomolecular-sp]]._

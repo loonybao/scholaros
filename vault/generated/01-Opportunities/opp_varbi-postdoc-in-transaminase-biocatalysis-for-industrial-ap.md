@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-23
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 4
 urgency: medium
 needs_review: true
 ---
@@ -113,7 +113,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Postdoctoral position in biocatalysis and enzyme technology at KTH, focused on developing sustainable biocatalytic processes for fine chemicals synthesis in collaboration with AstraZeneca. Core work involves enzyme modification, characterization, and industrial process optimization.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 0 |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **4** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** biochemistry expertise, enzyme kinetics, protein production, molecular modelling
+
+**Risks:**
+- Fundamental domain mismatch. Position is pure applied chemistry with zero HCI content.
+- Career trajectory risk: accepting this would signal departure from HCI identity and make return to immersive systems research harder.
+- No transferable technical skills from researcher's XR/Unity/multiplayer systems background.
+- Collaboration with AstraZeneca is industrial but orthogonal to researcher's academic/research identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-transaminase-biocatalysis-for-industrial-ap.md` and link [[opp_varbi-postdoc-in-transaminase-biocatalysis-for-industrial-ap]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:12:56.699007Z",
-  "updated_at": "2026-07-21T01:18:44.911146Z",
+  "updated_at": "2026-07-21T07:46:41.340485Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:12:56.699007Z",
@@ -21,6 +21,63 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:41:04.695963Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:41:41.548723Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.340485Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +116,72 @@
     "status": "open",
     "description_text": "Doctoral student (licentiate) in digital twins for electrified construction\nApply for position\nKTH Royal Institute of Technology, School of Architecture and Built Environment\nProject description\nThird-cycle subject: Geodesy and Geoinformatics, with specialisation in Geoinformatics\nWe are seeking a doctoral student for a two-year licentiate position in\nDISSECT\n, which develops data-driven models and decision support for emission-free, resource-efficient and electrified construction.\nThe doctoral student will work with DISSECT’s material and logistics layers. The research may include GeoBIM and 3D voxel models of ground conditions, quantities and material flows; material tracking; volume and mass estimation; inverse geological modelling; and analysis of sensor and telematics data from machines and transports. The logistics part may include optimization of construction processes, mass transports, circular material flows and charging constraints.\nMethodologically, the work may combine geospatial data management, database technology, data science, machine learning, simulation and optimization, including model predictive control and reinforcement learning. The aim is digital-twin-based decision support for electrified groundwork construction.\nThe position is placed at the Division of Geoinformatics, KTH, and linked to ITRL and the DISSECT consortium. The initial goal is a licentiate degree after two years, but the research and doctoral studies are planned to continue toward a doctoral degree, subject to continued funding and formal decisions.\nSupervision:\nAssociate Professor Gyözö Gidofalvi is proposed to supervise the doctoral student. Professor Jonas Mårtensson is proposed as co-supervisor. Decisions are made on admission\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nPreferred qualifications are:\nExperience with simulation, optimization, or digital twin systems,\nExperience with cloud environments and containerized applications,\nExperience handling large datasets,\nInterest in energy systems and sustainability.\nExperience from research or industry projects.\nGood communication skills in both English and Swedish, as they are required in day-to-day work.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Licentiate degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-09-01 or according to the agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2624\nContact\nGyözö Gidofalvi, gyozo.gidofalvi@abe.kth.se\nPublished\n08.Jul.2026\nLast application date\n14.Aug.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Two-year licentiate position in digital twins for electrified construction, focusing on GeoBIM, 3D voxel modelling, material tracking, logistics optimization, and machine-learning-based decision support. Emphasizes data science, simulation, and optimization rather than human interaction.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 35,
+      "rationale": "Position involves digital twins—a concept present in researcher's Master's work (campus digital twin). However, the application domain (construction logistics and material flows) and outcomes (process optimization, resource efficiency) are entirely different from spatial learning and wayfinding. The XR/visualization layer is absent; focus is data-driven optimization. Thematic overlap is superficial."
+    },
+    "methodological_fit": {
+      "score": 50,
+      "rationale": "Both involve digital twin design and simulation. Researcher has experience building XR-based digital twins with collaborative, user-centred evaluation. This position emphasizes data management, ML, optimization, and simulation—methodologically adjacent but not aligned. Researcher could learn simulation and optimization methods, but the human-centred user study approach is not the primary focus here. Moderate methodological bridge exists via shared digital-twin systems thinking."
+    },
+    "growth_value": {
+      "score": 45,
+      "rationale": "Position would develop skills in simulation, optimization, data management, and machine learning—useful capabilities for future digital-twin and immersive-systems research. However, these are instrumental skills (ML, optimization) rather than core human-centred research capabilities (spatial cognition, user evaluation, collaborative interaction design). Closes some gaps (data science, simulation) but not primary ones (spatial learning outcomes, human factors)."
+    },
+    "strategic_value": {
+      "score": 40,
+      "rationale": "KTH is excellent; funding (DISSECT consortium, ITRL) is stable and substantial. However, supervisor (Gidofalvi) and group focus (geoinformatics, logistics optimization, data science) are not HCI or immersive systems. Position would develop technical skills in a domain (construction/sustainability) that does not align with researcher's stated target identity. Licentiate duration (2 years) is shorter than full PhD, which may limit depth."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics"
+    ],
+    "missing_skills": [
+      "machine-learning-development",
+      "simulation-software",
+      "optimization-algorithms",
+      "geospatial-database-management",
+      "reinforcement-learning"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting states 'preferred qualifications' for simulation, optimization, cloud environments, and large-dataset handling; researcher has none of these at advanced level.",
+      "Position is licentiate (2 years) rather than full PhD; researcher's target is PhD-level trajectory.",
+      "Swedish language strongly preferred for day-to-day work; researcher's proficiency unknown.",
+      "Security clearance may apply; ambiguous in posting."
+    ],
+    "risks": [
+      "Digital twin is shared concept, but application domain (construction logistics) is distant from spatial learning and wayfinding.",
+      "Heavy focus on ML optimization and data science; researcher would need to ramp up quickly on unfamiliar algorithms and tools.",
+      "Supervisor's background (geoinformatics, optimization) is not HCI or human-centred systems research.",
+      "Licentiate (2 years) is shorter degree; may leave gaps for full doctoral-level research contributions.",
+      "PhD trajectory would shift toward data-driven optimization rather than human-centred immersive systems.",
+      "Sustainability/construction domain does not align with researcher's spatial learning and wayfinding focus."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.78,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:41:41.548205Z",
+    "analysis_input_hash": "2da1a68a71f499c6ca05f91fdc0b87d59b7d3ca1fb59d911d11f963103d3e6d9"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +189,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 42,
     "urgency": "medium",
     "days_to_deadline": 24,
     "needs_review": true,

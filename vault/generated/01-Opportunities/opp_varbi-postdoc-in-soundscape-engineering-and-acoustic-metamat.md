@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-24
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 46
 urgency: medium
 needs_review: true
 ---
@@ -111,7 +111,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.72_
+
+2-year postdoctoral position in the SMILE project (soundscape engineering with metamaterial innovation and learning) at KTH's Division of Vehicle Engineering and Technical Acoustics. Research integrates acoustic design, metamaterial modelling, inverse design, machine learning, and perceptual evaluation via listening tests and VR-based soundscape assessment.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 35 |
+| Methodological fit | 52 |
+| Growth value | 48 |
+| Strategic value | 54 |
+| **Overall** | **46** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** acoustic-simulation, metamaterial-design, inverse-design-optimisation, signal-processing, machine-learning-systems, psychoacoustics, auralization, numerical-simulation
+
+**Risks:**
+- Significant technical skill gap in acoustic physics, metamaterial modelling, and signal processing. Ramp-up time would be substantial.
+- While VR experiments are methodologically adjacent, acoustic metamaterials are a specialised materials-science subdomain, requiring retraining.
+- Supervisor and group are acoustics-engineering–focused. Limited mentorship in HCI methodologies or human-centred XR research.
+- Publication narrative would be 'soundscape + VR', not 'spatial learning + collaboration'—creates misalignment with HCI conference networks and target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-soundscape-engineering-and-acoustic-metamat.md` and link [[opp_varbi-postdoc-in-soundscape-engineering-and-acoustic-metamat]]._

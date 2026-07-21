@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-14
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -115,7 +115,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+KTH postdoc in distributed systems and machine learning inference for reducing LLM serving costs and power consumption. Focuses on systems work, deep learning optimization, and agentic frameworks. Requires doctorate in computer science or related field with strong systems, networking, and programming skills (C++, Python).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 20 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cpp
+
+**Risks:**
+- Researcher does not hold a PhD and will not by typical MSc completion; ineligible
+- Position is pure ML/systems engineering; explicitly in researcher's excluded directions (pure machine-learning-algorithms, GPU-optimisation, embedded systems adjacent to this work)
+- Postdoc role conflicts with target position types
+- C++ expertise required but not demonstrated in profile; would require significant new skill acquisition beyond scope of brief postdoc
+- No connection to human-centred research or HCI methodology
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-large-language-model-inferencing.md` and link [[opp_varbi-postdoc-in-large-language-model-inferencing]]._

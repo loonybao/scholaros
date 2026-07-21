@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 8
 urgency: high
 needs_review: true
 ---
@@ -127,7 +127,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+PhD in autonomous underwater vehicles (AUVs) focused on SLAM-based navigation, bathymetric 3D reconstruction, multi-vehicle localization, and seafloor change detection. Core work is robotics control, sensor fusion, and autonomous navigation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 5 |
+| Strategic value | 15 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** slam-algorithms, robotics-control, autonomous-navigation, sensor-fusion, bathymetric-reconstruction
+
+**Risks:**
+- SLAM and robotics control are in researcher's explicit excluded directions.
+- Research focus (autonomous seafloor mapping, AUV control) is pure robotics engineering, not human-centred XR/HCI.
+- Would require 6–12 months of foundational robotics and SLAM study.
+- Supervisor (Folkesson) and group culture (SMaRC, robotics systems) incompatible with human-centred XR target identity.
+- PhD would likely entrench researcher in robotics rather than advancing human-centred immersive systems research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-underwater-robotics.md` and link [[opp_varbi-doctoral-student-in-underwater-robotics]]._

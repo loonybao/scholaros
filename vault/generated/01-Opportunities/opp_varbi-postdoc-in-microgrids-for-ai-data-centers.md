@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-11
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: high
 needs_review: true
 ---
@@ -107,7 +107,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+
+KTH postdoc designing and controlling microgrids for AI data centers in Arctic regions, focusing on power electronics, energy efficiency, and grid resilience. Funded by Swedish Energy Agency in partnership with Arjeplog Municipality. Requires doctorate with expertise in microgrids, power systems, or power electronics.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 20 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Researcher does not hold a PhD and will not by typical completion; ineligible
+- Required PhD domain (power electronics, microgrids, electrical engineering) is entirely outside researcher's training (multimedia/HCI); fundamental domain mismatch
+- Postdoc role conflicts with target position types
+- Research is in electrical engineering infrastructure, completely orthogonal to human-centred immersive systems
+- Required skills (power electronic hardware, real-time simulation, control systems) are not in researcher's profile or transferable from HCI background
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-microgrids-for-ai-data-centers.md` and link [[opp_varbi-postdoc-in-microgrids-for-ai-data-centers]]._

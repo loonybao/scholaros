@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 11
 urgency: high
 needs_review: true
 ---
@@ -115,7 +115,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.91_
+
+Postdoc in AI modeling for cell biology as part of the AlphaCell program at KTH/SciLifeLab, aiming to build the first molecular-level computational model of the human cell. Position focuses on deep learning frameworks, biological dataset interpretation, and interdisciplinary collaboration between computational and experimental teams.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 12 |
+| Growth value | 5 |
+| Strategic value | 20 |
+| **Overall** | **11** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, deep-learning-frameworks, biological-dataset-interpretation, machine-learning-modeling, software-engineering-practices
+
+**Risks:**
+- Pure ML algorithm development for biological modeling—explicitly in excluded directions.
+- No user research, HCI, or human-centred evaluation component.
+- Postdoc in computational cell biology would significantly weaken candidacy for human-centred XR positions.
+- Substantial skill gap in deep learning frameworks and biological domain knowledge.
+- AI focus is on foundation models for cell systems, not human understanding or spatial cognition.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-ai-modeling-for-cell-biology-alphacell-prog.md` and link [[opp_varbi-postdoc-in-ai-modeling-for-cell-biology-alphacell-prog]]._

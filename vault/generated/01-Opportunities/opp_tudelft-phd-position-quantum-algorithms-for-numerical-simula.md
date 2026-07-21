@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 10
 urgency: medium
 needs_review: true
 ---
@@ -83,7 +83,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Doctoral position (4 years, initially 1.5 years with go/no-go review) focused on quantum algorithms for computational fluid dynamics (CFD) in aerospace. Core activities: quantum algorithm design, software implementation, performance evaluation on quantum simulators and hardware, numerical analysis.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 5 |
+| Strategic value | 15 |
+| **Overall** | **10** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cpp, quantum-algorithms, numerical-methods, scientific-computing
+
+**Risks:**
+- Fundamental disciplinary and thematic mismatch: pure algorithm/quantum computing vs. human-centred research.
+- Candidate's educational background (creative multimedia, HCI-focused) is unlikely to meet the stated 'strong background in numerical methods, scientific computing' requirement.
+- Four-year commitment to a domain entirely unrelated to target identity; significant career trajectory disruption.
+- Low probability of successful admission given background mismatch and skill gaps.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-quantum-algorithms-for-numerical-simula.md` and link [[opp_tudelft-phd-position-quantum-algorithms-for-numerical-simula]]._

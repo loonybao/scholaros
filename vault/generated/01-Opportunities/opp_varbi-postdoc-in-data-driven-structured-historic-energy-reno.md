@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-12
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 10
 urgency: medium
 needs_review: true
 ---
@@ -117,7 +117,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+KTH postdoc developing urban building energy modelling tools and data-driven methods for energy-efficient renovation of historic buildings, with emphasis on physics-based simulation, geospatial data, and regulatory implementation in Swedish heritage contexts.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 8 |
+| Strategic value | 25 |
+| **Overall** | **10** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics, quantitative-research
+
+**Risks:**
+- Disciplinary mismatch: Position is engineering/physics-focused; researcher's MSc is in creative multimedia and HCI.
+- Skill mismatch: No demonstrated experience in building physics, simulation, or energy systems. Python is beginner-level; MATLAB not mentioned.
+- Thematic drift: Accepting this role would move the researcher away from human-centred XR and into pure technical sustainability research.
+- Potential visa/clearance ambiguity flagged in posting around Swedish security requirements.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-data-driven-structured-historic-energy-reno.md` and link [[opp_varbi-postdoc-in-data-driven-structured-historic-energy-reno]]._

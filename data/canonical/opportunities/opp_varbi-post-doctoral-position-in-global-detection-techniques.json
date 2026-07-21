@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:18:07.834915Z",
-  "updated_at": "2026-07-21T01:18:44.918143Z",
+  "updated_at": "2026-07-21T07:46:41.349108Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:18:07.834915Z",
@@ -21,6 +21,60 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T07:41:48.004120Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:42:26.058246Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T07:46:41.349108Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +113,64 @@
     "status": "open",
     "description_text": "Post-doctoral position in global detection techniques for radicals in air\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nOxygenated organic radicals are key drivers of the chemistry in many systems, such as the metabolism of living organisms, polymerisation, combustion systems, and the natural environment (Earth’s atmosphere). But very few techniques can detect them today, especially in complex systems. We are seeking a highly motivated candidate to develop and apply global detection techniques for oxygenated radicals in ambient air and other complex systems. The work will include both the operation and troubleshooting of existing techniques, such as chemical amplification, and the development and characterization of entirely new techniques, to be used both in laboratory and in ambient air. This position will be in the Nozière group at the Department of Chemistry of KTH Royal Institute of Technology, Stockholm, Sweden.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in Chemistry, Physics, or appropriate field. This eligibility requirement must be met no later than the time the employment decision is made.\nA documented experimental experience on gas flow systems.\nExperience in instrument development or at least troubleshooting.\nExcellent written and oral communication skills in English, as this will be required in day-to-day work.\nStrong problem-solving skills.\nSelf-motivated, detail- and goal-oriented.\nAble to work both independently and cooperatively with a team.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nSome knowledge of atmospheric chemistry or gas-phase kinetics is beneficial.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\na curriculum vitae\na copy of their PhD diploma or equivalent, translated into English or Swedish if the original document is not in these languages\nlist of publications\na brief cover letter (max 2 pages) explaining your motivations for the position, scientific interests and future goals.\nIn addition, three letters of reference should be sent directly to Prof. Nozière.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2080\nContact\nBarbara Noziere, noziere@kth.se\nPublished\n02.Jun.2026\nLast application date\n01.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Chemistry postdoc position at KTH focused on developing detection techniques for oxygenated radicals in air and complex systems. The work involves experimental instrument development, troubleshooting, and application in both laboratory and ambient air settings.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No alignment with human-centred XR, collaborative immersive systems, spatial cognition, or learning outcomes. The domain is experimental chemistry with no HCI, user research, or immersive systems component."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "The researcher has user-studies and experimental-design experience, but this position requires expertise in analytical chemistry, instrument operation, and gas-phase kinetics—orthogonal to HCI methodology. No transferable methods."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "This position would not close capability gaps relevant to the researcher's target identity. It would introduce a completely different domain (chemistry) with no advancement toward human-centred immersive systems research."
+    },
+    "strategic_value": {
+      "score": 15,
+      "rationale": "KTH is a reputable European institution (fits geography and funding criteria), but the Nozière group's focus on atmospheric chemistry and radical detection is unrelated to the researcher's career trajectory or target institutions (Aalto, TU Delft, Tampere). No strategic pathway to target identity."
+    },
+    "required_skills": [
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "chemistry-analytical-techniques",
+      "gas-phase-kinetics",
+      "instrumentation-troubleshooting"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher holds MSc by Research (in progress); position requires completed PhD/doctoral degree by employment decision. Requires PhD completion before start date.",
+      "Position emphasizes gas flow systems and atmospheric chemistry expertise; researcher has no documented background in chemistry or analytical instrumentation."
+    ],
+    "risks": [
+      "Fundamental domain mismatch: chemistry vs. HCI/XR.",
+      "Zero thematic connection to researcher's target identity or excluded directions.",
+      "Skill transfer would require retraining in new experimental domain.",
+      "Career trajectory divergence: postdoc in chemistry would not advance candidacy for human-centred XR positions."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-21T07:42:26.058246Z",
+    "analysis_input_hash": "c1a83422e30fe40ec40f8f62426d0f6f24be350c2ad6d0e2d3baed53438d5793"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,7 +178,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 8,
     "urgency": "medium",
     "days_to_deadline": 42,
     "needs_review": true,

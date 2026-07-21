@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-11
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 2
 urgency: high
 needs_review: true
 ---
@@ -108,7 +108,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+
+Research position in electrical engineering focused on design, modelling, control, and hardware development of fast charging systems for heavy-duty electric vehicles. Work includes power electronics, grid integration, and mobile energy storage coordination.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 0 |
+| Growth value | 0 |
+| Strategic value | 10 |
+| **Overall** | **2** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** power-electronics, converter-design, electrical-engineering, grid-integration, hardware-development
+
+**Risks:**
+- Researcher unqualified for core technical requirements (power electronics, converter design, grid systems).
+- Fundamental career mismatch: moving into heavy industry electrical systems vs. human-centred immersive research.
+- No transferable skills from XR/Unity/multiplayer systems to power electronics and grid control.
+- Funded by energy sector (Swedish Innovation Agency, Vattenfall, Hitachi Energy)—different research ecosystem entirely.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-researcher-in-ev-charging-infrastructure.md` and link [[opp_varbi-researcher-in-ev-charging-infrastructure]]._

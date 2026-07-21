@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 3
 urgency: medium
 needs_review: true
 ---
@@ -135,7 +135,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+
+Doctoral student position at KTH in device fabrication and characterization of Silicon Carbide bipolar transistors (BJT/IGBT) for power electronics applications, involving semiconductor process technology and clean-room laboratory work.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 1 |
+| Strategic value | 4 |
+| **Overall** | **3** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** statistics, python, mixed-effects-modelling
+
+**Risks:**
+- Disqualifying background mismatch: researcher lacks fundamental prerequisites in semiconductor physics and device engineering.
+- Complete disciplinary departure with zero recovery path to HCI. PhD in power electronics actively harms candidacy for human-centred research roles.
+- Industrial focus (renewable energy, electric vehicles, industrial automation) and manufacturing mindset are orthogonal to academic HCI and design research.
+- Potential security clearance and export-control complications given Swedish semiconductor research and EU industrial project involvement.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-sic-bipolar-devices-for-power-elec.md` and link [[opp_varbi-doctoral-student-in-sic-bipolar-devices-for-power-elec]]._

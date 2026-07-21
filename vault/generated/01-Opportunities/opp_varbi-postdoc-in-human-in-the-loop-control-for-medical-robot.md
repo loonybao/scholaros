@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-12
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 20
 urgency: medium
 needs_review: true
 ---
@@ -109,7 +109,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+
+KTH postdoc in human-in-the-loop control for medical robotics, specifically designing control systems for soft cardiovascular pumps and wearable biofeedback systems with real-time hybrid mock circulation testing and clinical stakeholder collaboration.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 15 |
+| Methodological fit | 20 |
+| Growth value | 25 |
+| Strategic value | 30 |
+| **Overall** | **20** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- While labeled 'human-in-the-loop,' this is device control and safety validation, not human-centred design or learning research.
+- No background in control theory, mechatronics, or biomedical engineering.
+- User-studies experience is insufficient without core robotics/control competence.
+- Thematic drift: medical robotics is tangential to target identity (spatial cognition, immersive learning, collaboration in VR).
+- Potential visa/clearance ambiguity flagged in posting.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-human-in-the-loop-control-for-medical-robot.md` and link [[opp_varbi-postdoc-in-human-in-the-loop-control-for-medical-robot]]._

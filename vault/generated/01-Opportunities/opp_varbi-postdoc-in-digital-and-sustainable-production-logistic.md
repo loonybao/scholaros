@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-23
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 22
 urgency: medium
 needs_review: true
 ---
@@ -115,7 +115,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.91_
+
+KTH postdoc in digital and sustainable production logistics, focused on automation and material flow digitalization within pharmaceutical industry. Work involves empirical research at AstraZeneca (Södertälje), design of automation-ready systems, information flow standardization, and publication in leading journals.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 28 |
+| Growth value | 20 |
+| Strategic value | 35 |
+| **Overall** | **22** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** production-logistics, warehouse-operations, mes-systems, wms-systems, erp-systems, industrial-automation, material-flow-design
+
+**Risks:**
+- Disciplinary mismatch: Creative Multimedia MSc does not meet stated engineering prerequisites for production/industrial systems.
+- Domain misalignment: production logistics is outside target research identity and excluded directions (pure engineering applications).
+- Career trajectory risk: 2-year industrial engineering postdoc would delay PhD entry and weaken positioning for human-centred immersive systems research.
+- Opportunity cost: immersive systems and multiplayer collaboration expertise would be unused in warehouse logistics context.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-digital-and-sustainable-production-logistic.md` and link [[opp_varbi-postdoc-in-digital-and-sustainable-production-logistic]]._
