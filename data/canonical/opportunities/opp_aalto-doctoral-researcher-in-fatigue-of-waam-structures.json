@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:34:31.711875Z",
-  "updated_at": "2026-07-19T01:42:09.248888Z",
+  "updated_at": "2026-07-21T01:18:44.571046Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:34:31.711875Z",
@@ -168,6 +168,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:53:07.180989Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.571046Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +199,9 @@
     "evidence_ids": [
       "aalto/doctoral-researcher-in-fatigue-of-waam-structures"
     ],
-    "retrieved_at": "2026-07-17T15:34:31.711875Z",
-    "raw_snapshot_hash": "b400ed54e30f9fca09bd0dfdc67d599304efa1d8725f852a96286aa0ebabd2b5",
-    "extracted_content_hash": "29d271311d4477dc1e5b2b1cc7398946170ea7e3542dcb4850a3d9c76b8cbc40",
+    "retrieved_at": "2026-07-21T00:53:07.179990Z",
+    "raw_snapshot_hash": "30aaab1b9b416dcab9238c725643334b1326b81c1c3af9291afefc7931730a0d",
+    "extracted_content_hash": "c952a2d3a41e0d8531161a8009b390efb07af01196ed2c34c9fb8128c58d202b",
     "deadline": "2026-07-31",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -259,7 +277,7 @@
     ],
     "fit_overall": 6,
     "urgency": "high",
-    "days_to_deadline": 12,
+    "days_to_deadline": 10,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:35:14.724979Z",
-  "updated_at": "2026-07-19T01:42:09.268674Z",
+  "updated_at": "2026-07-21T01:18:44.591564Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:14.724979Z",
@@ -168,6 +168,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:53:50.912730Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.591564Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +199,9 @@
     "evidence_ids": [
       "aalto/innovation-postdoc-artificial-intelligence"
     ],
-    "retrieved_at": "2026-07-17T15:35:14.724979Z",
-    "raw_snapshot_hash": "0b079787c43d5cab6f4d84c6b361fcb3fcef66233d61fc988458d451c5130c3a",
-    "extracted_content_hash": "47385c45347f7dcec38df7d4fb3dbd167b311937158c8e130d8fe984dbcfc17c",
+    "retrieved_at": "2026-07-21T00:53:50.911730Z",
+    "raw_snapshot_hash": "ef62870570177e21133fab99f24a8febc0f8ce861c297ebe7466d3fb8bf153d1",
+    "extracted_content_hash": "84f0e79295f6f3eacb55ef0575d70d4e86ec97176ce3ef300ad015fdd58f44c9",
     "deadline": "2026-08-13",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -259,7 +277,7 @@
     ],
     "fit_overall": 25,
     "urgency": "medium",
-    "days_to_deadline": 25,
+    "days_to_deadline": 23,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

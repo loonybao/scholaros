@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:11:03.592105Z",
-  "updated_at": "2026-07-19T01:42:09.380797Z",
+  "updated_at": "2026-07-21T01:18:44.696092Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:11:03.592105Z",
@@ -191,6 +191,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:55:18.297471Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.696092Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -205,9 +223,9 @@
       "tampere/3125",
       "tampere/3134"
     ],
-    "retrieved_at": "2026-07-17T15:11:09.715976Z",
-    "raw_snapshot_hash": "752f8436ab458d1b15bc754c810e9be764769aa2d2f3a35115052632da3f66a6",
-    "extracted_content_hash": "e5bdff640607815555ab07e73404c43df806d839e072fcac3a0ce04b8e38998e",
+    "retrieved_at": "2026-07-21T00:55:18.296473Z",
+    "raw_snapshot_hash": "999db76e079f618d4489f045ea77206e702183b27b25176f2178915516267d46",
+    "extracted_content_hash": "ebcb8b2a097c3348d9d4fd933de9d8ddf1ba7365ca0b42224a8ec98370b73306",
     "deadline": "2026-08-03",
     "deadline_note": "23:59 local time",
     "start_date": null,
@@ -283,7 +301,7 @@
     ],
     "fit_overall": 6,
     "urgency": "high",
-    "days_to_deadline": 15,
+    "days_to_deadline": 13,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

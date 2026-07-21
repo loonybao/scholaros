@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:35:38.366813Z",
-  "updated_at": "2026-07-19T01:42:09.246889Z",
+  "updated_at": "2026-07-21T01:18:44.569046Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:38.366813Z",
@@ -168,6 +168,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:54:19.883034Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.569046Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +199,9 @@
     "evidence_ids": [
       "aalto/doctoral-researcher-in-ai-and-quantum-inspired-optimization-for-sustainable-energy-systems"
     ],
-    "retrieved_at": "2026-07-17T15:35:38.366813Z",
-    "raw_snapshot_hash": "cfcc9f1e789a78a7c970456af076ccf9562c7e14487a5d6ab9f385aa4fe92578",
-    "extracted_content_hash": "da34129f9bda830a38102820816a969c79a069cdf13dbddfa5a1c06e818b9ee1",
+    "retrieved_at": "2026-07-21T00:54:19.882036Z",
+    "raw_snapshot_hash": "cacf966d5fe6e41076f22123fc2036bfdefd786e2648b283d69fcc894dc10e99",
+    "extracted_content_hash": "744703a9f32c47db12472f50dfc7a0ce65348e29e3ee4f4d5ca201e9c3bf74e6",
     "deadline": "2026-08-30",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -263,7 +281,7 @@
     ],
     "fit_overall": 9,
     "urgency": "medium",
-    "days_to_deadline": 42,
+    "days_to_deadline": 40,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

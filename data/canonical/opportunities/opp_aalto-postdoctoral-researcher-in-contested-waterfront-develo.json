@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:34:56.190636Z",
-  "updated_at": "2026-07-19T01:42:09.276700Z",
+  "updated_at": "2026-07-21T01:18:44.600564Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:34:56.190636Z",
@@ -168,6 +168,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:53:26.272572Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.600564Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +199,9 @@
     "evidence_ids": [
       "aalto/postdoctoral-researcher-in-contested-waterfront-developments-conwa-project"
     ],
-    "retrieved_at": "2026-07-17T15:34:56.189643Z",
-    "raw_snapshot_hash": "4799443ac748d627db477fe7d47b79a97b597b47256e894ae645feef87f49a94",
-    "extracted_content_hash": "a94bd8e06dd2158c2c59408f6932dfe1223a6a417024c4aaffc670828613a85f",
+    "retrieved_at": "2026-07-21T00:53:26.271569Z",
+    "raw_snapshot_hash": "483f40970421ec4a0fa2557dd566406bbb63723f66f709e621b9b8c0bb09de3e",
+    "extracted_content_hash": "50232308b8cd30881efe09a9ce94c9359942d58e2e78552128c5c83f17e51101",
     "deadline": "2026-08-03",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -268,7 +286,7 @@
     ],
     "fit_overall": 26,
     "urgency": "high",
-    "days_to_deadline": 15,
+    "days_to_deadline": 13,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

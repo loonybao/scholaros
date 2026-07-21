@@ -1,0 +1,84 @@
+{
+  "id": "opp_varbi-postdoc-in-ai-based-formally-verified-code-generation",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-21T01:13:33.285339Z",
+  "updated_at": "2026-07-21T01:18:44.921143Z",
+  "change_history": [
+    {
+      "ts": "2026-07-21T01:13:33.285339Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.921143Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in AI-based formally verified code generation",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-953110",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:953110/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-953110"
+    ],
+    "retrieved_at": "2026-07-21T01:13:33.285339Z",
+    "raw_snapshot_hash": "a2ef4c4fa5e4083fe91ad2294c04ee32794b23b99e4d7103124798ba67c9da78",
+    "extracted_content_hash": "19440885a53753b798ed540568173e3c28c547acd92c3bf07803b57a9a06cccd",
+    "deadline": "2026-08-31",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Postdoc in AI-based formally verified code generation\nLogin and apply\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nAI is rapidly becoming the primary author of the world's software. Today's models generate code at a speed no human can match — but how can we trust code we did not write ourselves? Formal verification offers a path to mathematically guaranteed correctness, yet combining it with AI-based code generation raises deep and largely unsolved challenges.\nAs a postdoctoral researcher, you will tackle exactly this question: how to generate code with AI and formally verify that it does what it should. Your work will combine modern AI/LLM-based code generation with formal methods to produce software that is both fast to create and provably trustworthy.\nThe position is part of SAFIR (Secure AI for Intelligent Resilience and Confidentiality in the Cloud), a EUR 2.5M collaborative project between KTH, Saab, Nvidia, Ericsson, Red Hat, CanaryBit and RISE, building next-generation secure and dependable AI for critical domains such as telecom, defence and cloud. You will join the Machine-Intelligence for Networks and Distributed Systems (MINDS) research group at the Department of Computing and Learning Systems, School of Electrical Engineering and Computer Science (EECS), in an international and dynamic environment with strong academic and industrial collaborations. You will have access to international supercomputing resources and a state-of-the-art in-house lab equipped with NVIDIA H100 and A100 GPUs and ten NVIDIA RTX Pro 6000 GPUs.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nCandidate is able to collaborate with other researchers.\nCandidate is able to carry out work to a large degree in independence\nThe candidate should be aware of diversity and equal opportunity issues, with specific focus on gender equality\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nResearch expertise in formal verification.\nResearch expertise in AI.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCover letter, stating your expected date of doctoral graduation (PhD defence).\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2576\nContact\nMarco Chiesa, mchiesa@kth.se\nPublished\n06.Jul.2026\nLast application date\n31.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": null,
+    "urgency": "medium",
+    "days_to_deadline": 41,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

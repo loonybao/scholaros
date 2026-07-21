@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:34:49.708755Z",
-  "updated_at": "2026-07-19T01:42:09.263162Z",
+  "updated_at": "2026-07-21T01:18:44.587564Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:34:49.708755Z",
@@ -168,6 +168,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:53:19.469046Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.587564Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +199,9 @@
     "evidence_ids": [
       "aalto/doctoral-researcher-phd-student-in-area-selective-atomic-layer-deposition-as-ald-simulations"
     ],
-    "retrieved_at": "2026-07-17T15:34:49.708755Z",
-    "raw_snapshot_hash": "8bf585ffdfd0b0079f54fdc9209a33faa19d72fb3e2839caad39bbcf60e05428",
-    "extracted_content_hash": "4dbce1365711bb4cf14e34c025ce8f678d8db5c5654bdf32b525b15229d5e186",
+    "retrieved_at": "2026-07-21T00:53:19.468042Z",
+    "raw_snapshot_hash": "32835426c8f7f40d2967a12d3b2b0ec30830c8d145d109ea310e7de01c1f9ad1",
+    "extracted_content_hash": "a5abab97b8bbc8a299a056617da22527f9959177bc1792b2928f161a05302aae",
     "deadline": "2026-08-02",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -263,7 +281,7 @@
     ],
     "fit_overall": 6,
     "urgency": "high",
-    "days_to_deadline": 14,
+    "days_to_deadline": 12,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

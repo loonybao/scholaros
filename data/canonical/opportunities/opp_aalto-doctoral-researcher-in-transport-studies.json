@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:36:06.722580Z",
-  "updated_at": "2026-07-19T01:42:09.260915Z",
+  "updated_at": "2026-07-21T01:18:44.585564Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:36:06.722580Z",
@@ -170,6 +170,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:54:50.472578Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.585564Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -183,9 +201,9 @@
     "evidence_ids": [
       "aalto/doctoral-researcher-in-transport-studies"
     ],
-    "retrieved_at": "2026-07-17T15:36:06.722580Z",
-    "raw_snapshot_hash": "f2246d19b50358f40813cfff6ad73b01254f9eddced5dd53f71871a138c2f906",
-    "extracted_content_hash": "9096da6e48caf09645c9d3b9e35e1463ac16b2caba994e48b5e6667b83e099ad",
+    "retrieved_at": "2026-07-21T00:54:50.472578Z",
+    "raw_snapshot_hash": "4347dd251903231d40cb7dedc10af7e2ce2137f43eac3a44502329b850ad9615",
+    "extracted_content_hash": "09430f2469918b585fe82c17d5496c46bcfbd5b215262c2100e3993c09f40c76",
     "deadline": "2026-09-01",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -279,7 +297,7 @@
     ],
     "fit_overall": 51,
     "urgency": "medium",
-    "days_to_deadline": 44,
+    "days_to_deadline": 42,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

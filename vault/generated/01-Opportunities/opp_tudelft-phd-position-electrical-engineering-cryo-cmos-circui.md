@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 49)
+Gate: **uncertain** (days to deadline: 47)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:35:32.901936Z",
-  "updated_at": "2026-07-19T01:42:09.288446Z",
+  "updated_at": "2026-07-21T01:18:44.612564Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:32.901936Z",
@@ -168,6 +168,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:54:14.437572Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.612564Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +199,9 @@
     "evidence_ids": [
       "aalto/research-assistant-master-thesis-worker-in-simulation-for-optoelectronics-devices"
     ],
-    "retrieved_at": "2026-07-17T15:35:32.901936Z",
-    "raw_snapshot_hash": "6f771ba82f4054399e435b256630d798440e36118c98b59b4a1ae7eeb102ccab",
-    "extracted_content_hash": "babdd99769b62998567c3d95f3b3d8677408d7e8103af84684db06e1b313f596",
+    "retrieved_at": "2026-07-21T00:54:14.437572Z",
+    "raw_snapshot_hash": "352aabeacc2e7df0321c72a8e080c70ba67e493d6ac73943cb9f1620737dbd9c",
+    "extracted_content_hash": "0147c7d11b238960e114ebb07075e592f17cd838b976407c77f767d3af6cf8d0",
     "deadline": "2026-08-30",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -258,7 +276,7 @@
     ],
     "fit_overall": 5,
     "urgency": "medium",
-    "days_to_deadline": 42,
+    "days_to_deadline": 40,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

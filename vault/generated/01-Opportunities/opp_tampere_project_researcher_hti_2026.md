@@ -1,7 +1,7 @@
 ---
 id: opp_tampere_project_researcher_hti_2026
 type: opportunity
-title: "Project Researcher (Human-Technology Interaction), 2-5 positions"
+title: "Project Researcher (Human-technology interaction), 2–5 positions"
 organisation: "Tampere University"
 deadline: 2026-08-03
 status: open
@@ -11,7 +11,7 @@ urgency: high
 needs_review: true
 ---
 
-# Project Researcher (Human-Technology Interaction), 2-5 positions
+# Project Researcher (Human-technology interaction), 2–5 positions
 
 **Organisation:** [[org_tampere_university]] (Tampere University)
 **Deadline:** 2026-08-03 (23:59 local time)
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 15)
+Gate: **uncertain** (days to deadline: 13)
 
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
 - completed degree required and expected MSc completion (2027-07-31, estimated) is after the stated-but-negotiable start 2026-09-01 — recruiter confirmation required

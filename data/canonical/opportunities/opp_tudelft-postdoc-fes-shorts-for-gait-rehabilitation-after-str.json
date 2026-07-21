@@ -1,0 +1,82 @@
+{
+  "id": "opp_tudelft-postdoc-fes-shorts-for-gait-rehabilitation-after-str",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-21T01:03:49.532532Z",
+  "updated_at": "2026-07-21T01:18:44.832628Z",
+  "change_history": [
+    {
+      "ts": "2026-07-21T01:03:49.532532Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.832628Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc FES Shorts for Gait Rehabilitation after Stroke",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1366162057",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-FES-Shorts-for-Gait-Rehabilitation-after-Stroke-2628-CD/1366162057/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-FES-Shorts-for-Gait-Rehabilitation-after-Stroke-2628-CD/1366162057/",
+    "evidence_ids": [
+      "tudelft/1366162057"
+    ],
+    "retrieved_at": "2026-07-21T01:03:49.532532Z",
+    "raw_snapshot_hash": "c1c2f920ffbcab1f4e9f466f110e327a582e1fc5e5d9e67077d643d48e8f8555",
+    "extracted_content_hash": "9fdf68de055a5d0da8e67ea2b3475edf8330f540fdae6704973d6884dc6ef02a",
+    "deadline": "2026-09-07",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3546 - €5538 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Are you passionate about shaping the future of healthcare? Do you want to develop technology that truly matters in people’s lives? Join us in creating radical innovations that support patients at home\nJob description\nThe BODIES group, at the department of Biomechanical Engineering TU Delft seeks a motivated postdoctoral researcher for a full-time, fully funded, 30-month project on Functional Electrical Stimulation (FES) shorts to improve gait after stroke. You will work closely with Sint Maartenskliniek and Biomex, embedded in the multidisciplinary \"Care is coming home!\" program, a 5-year consortium of 2 technical universities (TU Delft, UTwente), 6 hospitals (including Sint Maartenskliniek), 13 companies (including Biomex), 1 rehabilitation centre, and 5 patient organisations (including Hersenletsel.nl and Hersenstichting).\nThe Challenge\nStroke survivors often have reduced knee flexion and propulsive push-off, impairments with a major impact on mobility and fall risk, with no effective clinical intervention currently available. Recent research showed that FES of the hamstrings during push-off can enhance gait after stroke. This position builds on those findings: you will adapt an existing FES shorts system for stroke rehabilitation, test and optimize it with patients, retrain the stimulation-control algorithm for stroke-specific gait, and evaluate usability, comfort, and fit during prolonged use. You will also initiate adaptable, IMU-based stimulation control synchronized to each patient's evolving gait dynamics as they recover.\nYou will:\n1. Retrain an IMU-based gait-detection algorithm using stroke-patient data\n2. Run patient panels with stroke survivors, with a PhD candidate, to assess fit, comfort, and usability\n3. Tune and clinically assess FES stimulation with physical therapists at Sint Maartenskliniek, followed by initial patient testing\n4. Develop adaptable FES control using onboard IMU signals\n5. Run a pilot home-testing study on continuous gait monitoring, assessing feasibility for future large-scale use\nYou will translate this into a research plan aimed at peer-reviewed publications, alongside consortium deliverables.\nOur offer\nYou will become part of the funded research program in the Netherlands named ‘Care is coming home!’, which involves  9 PhDs and 5 Postdocs. So, we offer an excellent inspiring, collaborative, and international research environment, with access to leading experts in medical technology and AI-driven healthcare solutions. Additionally, you will have access to state-of-the-art labs, clinical partners, and patient organisations, which are preconditions to make a meaningful contribution to the future of sustainable healthcare.\n• Full-time, 30-month postdoctoral position\n• Excellent mentorship and a stimulating international research environment with excellent facilities\n• Competitive salary per the Dutch CAO NU (scale 10, depending on experience), 8% holiday allowance, 8.3% year-end bonus, solid pension scheme\n• Minimum 29 holidays per year (full-time)\nJob requirements\nYou bring:\n• A PhD in Biomechanical Engineering, Biomedical Engineering, Movement Science, Robotics, or a related discipline.\n• A strong curiosity for human gait and neuromuscular control after stroke.\n• Experience with wearable-sensor (IMU) data and human motion analysis.\n• Solid programming skills (ideally, in Python) for algorithm development, control design, and data analysis.\n• Confidence and interest in testing and iterating technology together with patients, in the lab and in the clinic.\n• Excellent organizational and communication skills to coordinate studies across clinical and industry partners.\n• Affinity for working with patients, physical therapists, and clinicians in a hospital setting.\n• Ability to work independently while thriving in a collaborative, multidisciplinary consortium team.\n• Fluency in English, both written and spoken; Dutch is a plus for patient communication.\nIf you enjoy hands-on research, working with people, and bridging clinical needs with cutting-edge control engineering, this postdoc is the perfect opportunity to make a real impact in home-based stroke rehabilitation.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 2,5 years Temporary\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact\ne.vanderkruk@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n7 September 2026\nvia the application button and upload the following documents:\nCV\nCover letter\nIf the applicants are selected for an interview, they will be asked to provide contact details of two referees (at least one academic) with their consent\nYou can address your application to .\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": null,
+    "urgency": "low",
+    "days_to_deadline": 48,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

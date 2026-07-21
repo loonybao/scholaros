@@ -1,0 +1,84 @@
+{
+  "id": "opp_varbi-researcher-in-power-electronics",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-21T01:13:14.960509Z",
+  "updated_at": "2026-07-21T01:18:45.005674Z",
+  "change_history": [
+    {
+      "ts": "2026-07-21T01:13:14.960509Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-21T01:18:45.005674Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Researcher in Power Electronics",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-952829",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:952829/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-952829"
+    ],
+    "retrieved_at": "2026-07-21T01:13:14.960509Z",
+    "raw_snapshot_hash": "9aa82247b78fcc1d75a5b959e9aa327c841acad4310e0707fecdbc29e0155553",
+    "extracted_content_hash": "07ca0c16ac1586044c4a6b298c851a8b3783711573538a217ea5d6818be4977c",
+    "deadline": "2026-08-11",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "other",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Researcher in Power Electronics\nApply for position\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nThe energy system is undergoing a fundamental transformation driven by the rapid integration of renewable energy, electric vehicles and large-scale AI data centers. Power electronic converters play a pivotal role in enabling this transition, while also introducing new challenges related to system dynamics, stability, and control.\nThis project focuses on the development of modeling, stability analysis, control, and hardware solutions for converter-dominated power systems. Application areas include next-generation megawatt charging infrastructure for heavy-duty electric vehicles and power electronic systems supporting AI data centers. The project is funded by EU Clean Energy Transition Partnership and Swedish Energy Agency. The recruited researcher will join the Division of Electric Power and Energy Systems at KTH Royal Institute of Technology, working closely with world-leading power electronic groups in University of Padova, Aalborg University, Chalmers University of Technology , and with a set of industrial partners, i.e., Hitachi Energy and Energiforsk, the system operators Svenska kraftnät, Volvo Energy.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree\nPhD degree in Electrical Power Engineering\nThis project focuses on the development of modeling, stability analysis, control strategies, and hardware solutions for converter-dominated power systems.\nKnowledge of diversity and equal opportunity issues, with specific focus on gender equality\nAbility to collaborate effectively.\nAbility to work independently\nPreferred qualifications\nStrong publication records in top IEEE Transactions.\nStrong self-motivation in research\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nResearch statement about your previous research achievement (2 pages) and\nyour research plan (2-3 pages).\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid for a limited time according to the agreement - for up to 12 months, with access according to agreement.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nSpecial fixed-term employment\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2561\nContact\nQianwen Xu, qianwenx@kth.se\nPublished\n06.Jul.2026\nLast application date\n11.Aug.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": null,
+    "urgency": "high",
+    "days_to_deadline": 21,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:35:55.786949Z",
-  "updated_at": "2026-07-19T01:42:09.257919Z",
+  "updated_at": "2026-07-21T01:18:44.580564Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:55.786949Z",
@@ -168,6 +168,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:54:38.599187Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.580564Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +199,9 @@
     "evidence_ids": [
       "aalto/doctoral-researcher-in-structural-health-monitoring-and-condition-assessment"
     ],
-    "retrieved_at": "2026-07-17T15:35:55.786949Z",
-    "raw_snapshot_hash": "92688140ae9629027a8ad68b506d4501c6047c344fe90b2fe9c161d568b9419a",
-    "extracted_content_hash": "ce77c3312c5991ed411dc2238cd85b6bc87d32750f13c8931ddca75987e7b7c8",
+    "retrieved_at": "2026-07-21T00:54:38.599187Z",
+    "raw_snapshot_hash": "68808367e66ab53b4eaab44f1f2338ddfa9a24f56b8530fcb8f13ff6c5d41d06",
+    "extracted_content_hash": "debc1c1744fca44644ea0499cc008209b0c1bb919bf8bc43dbd2b809a3af3bdc",
     "deadline": "2026-08-31",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -265,7 +283,7 @@
     ],
     "fit_overall": 8,
     "urgency": "medium",
-    "days_to_deadline": 43,
+    "days_to_deadline": 41,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

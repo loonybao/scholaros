@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:34:44.270524Z",
-  "updated_at": "2026-07-19T01:42:09.280701Z",
+  "updated_at": "2026-07-21T01:18:44.605564Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:34:44.271514Z",
@@ -168,6 +168,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:53:13.335418Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.605564Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +199,9 @@
     "evidence_ids": [
       "aalto/postdoctoral-researcher-in-quantum-optomechanics-with-polaritons-0"
     ],
-    "retrieved_at": "2026-07-17T15:34:44.270524Z",
-    "raw_snapshot_hash": "bb6d5ec5247c696e34f0facb844cc6778c75563e7fabbc8d40a7220aa49698c4",
-    "extracted_content_hash": "82d0c6a30b4d70b7f720b2e87d3a48ba23a32da8d8927a732225ff672e5b9579",
+    "retrieved_at": "2026-07-21T00:53:13.334423Z",
+    "raw_snapshot_hash": "2c68d5d53585c4e56844a8f187b2f9550217a7103caaf82512764b2f355d70f1",
+    "extracted_content_hash": "2d7f0f666d370dbc62ba9a89eafe474012e6145c3d0d55fd563416d3f6242db1",
     "deadline": "2026-08-01",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -259,7 +277,7 @@
     ],
     "fit_overall": 5,
     "urgency": "high",
-    "days_to_deadline": 13,
+    "days_to_deadline": 11,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

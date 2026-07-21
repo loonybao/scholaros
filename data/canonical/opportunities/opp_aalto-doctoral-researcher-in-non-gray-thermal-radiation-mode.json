@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:35:21.036318Z",
-  "updated_at": "2026-07-19T01:42:09.253405Z",
+  "updated_at": "2026-07-21T01:18:44.575555Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:21.036318Z",
@@ -168,6 +168,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:53:57.087992Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.575555Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +199,9 @@
     "evidence_ids": [
       "aalto/doctoral-researcher-in-non-gray-thermal-radiation-modelling"
     ],
-    "retrieved_at": "2026-07-17T15:35:21.036318Z",
-    "raw_snapshot_hash": "901a4dcc82103619130910e0d462186845a42ca90191091e91872b698f37e0ba",
-    "extracted_content_hash": "d10c84384c7ea83338543d66a7fe79e5287939af18605fbb39bed3d008463fe3",
+    "retrieved_at": "2026-07-21T00:53:57.086993Z",
+    "raw_snapshot_hash": "859dfc47f0c9df74afc2dc006c4099dbb173d4f82374204551ade9cc7f7bf4d4",
+    "extracted_content_hash": "68adf89459d0ecd3271d05c0c88a49c741e7241947f34eaf0068b2ca77672a5a",
     "deadline": "2026-08-15",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -259,7 +277,7 @@
     ],
     "fit_overall": 6,
     "urgency": "medium",
-    "days_to_deadline": 27,
+    "days_to_deadline": 25,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

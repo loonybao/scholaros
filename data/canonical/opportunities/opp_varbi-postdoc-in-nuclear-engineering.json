@@ -1,0 +1,84 @@
+{
+  "id": "opp_varbi-postdoc-in-nuclear-engineering",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-21T01:16:18.012667Z",
+  "updated_at": "2026-07-21T01:18:44.972670Z",
+  "change_history": [
+    {
+      "ts": "2026-07-21T01:16:18.012667Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.972670Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in Nuclear Engineering",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-950495",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:950495/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-950495"
+    ],
+    "retrieved_at": "2026-07-21T01:16:18.012667Z",
+    "raw_snapshot_hash": "3b2382f90aab4e36541dffd25ded77dd53f9f1359e39c91083d07bfeb43f0e8b",
+    "extracted_content_hash": "3c46b95e05cb40e42e512a023eb153e47f661fcc59d17728f532586f029fec9d",
+    "deadline": "2026-08-17",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Postdoc in Nuclear Engineering\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences\nJob description\nWe are looking for a postdoctoral fellow to work on development of experimental methods for two-phase flows. We aim to develop a probe for measurement of void fraction and velocity at prototypic reactor conditions. The work includes development of methods for manufacturing miniature sensors and using these sensors in the HWAT facility. The HWAT facility was developed to study thermohydraulic phenomena relevant to small modular reactors (SMRs). The work is a part of a collaborative project in Europe and national project supported by Swedish nuclear regulator (SSM).\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nDoctoral degree in experimental nuclear engineering, micro-mechanics, sol-gel chemistry, experimental thermohydraulics.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nKnowledge and experience of experimental investigation of two-phase flows, sol-gel coating, micro-mechanical manufacturing, high frequency signal processing.\nGood communication and collaborative skills, capability to work in a team and independently.\nMotivation and dedication to research work is a very strong merit.\nTeaching experience is an advantage.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nyour application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of your academic interests and how this project relates to your future goals, why you would be the best candidate to work on the project. Maximally two pages long.\nLetters of support, if at hand, or contact details for 2-3 reference persons.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOthers\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2482\nContact\nPavel Kudinov, pkudinov@kth.se\nJens H Bardarson, bardarson@kth.se\nPublished\n25.Jun.2026\nLast application date\n17.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": null,
+    "urgency": "medium",
+    "days_to_deadline": 27,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

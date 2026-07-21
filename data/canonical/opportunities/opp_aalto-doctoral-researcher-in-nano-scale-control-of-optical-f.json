@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:35:02.111044Z",
-  "updated_at": "2026-07-19T01:42:09.251396Z",
+  "updated_at": "2026-07-21T01:18:44.573046Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:35:02.111044Z",
@@ -168,6 +168,24 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:53:32.443516Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.573046Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +199,9 @@
     "evidence_ids": [
       "aalto/doctoral-researcher-in-nano-scale-control-of-optical-fields"
     ],
-    "retrieved_at": "2026-07-17T15:35:02.111044Z",
-    "raw_snapshot_hash": "4646947c579bac238120496dbc30c53e582f1cc60994cdaf0c3ad61cd22b758c",
-    "extracted_content_hash": "293947ac9e1e01f901594a41ef6d774a6462515884addf3f5cacfc3df374e137",
+    "retrieved_at": "2026-07-21T00:53:32.442517Z",
+    "raw_snapshot_hash": "7f703df8c220682f2edc840d3f7d15c0534392ff7102fef3f64b02368c6eedfc",
+    "extracted_content_hash": "ee65cf5697d42da43728a3ae174303857ecfdde2c86eb3c62f0a9b834290fe52",
     "deadline": "2026-08-04",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -259,7 +277,7 @@
     ],
     "fit_overall": 6,
     "urgency": "high",
-    "days_to_deadline": 16,
+    "days_to_deadline": 14,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

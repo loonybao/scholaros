@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:34:26.162460Z",
-  "updated_at": "2026-07-19T01:42:09.265667Z",
+  "updated_at": "2026-07-21T01:18:44.589564Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:34:26.162460Z",
@@ -168,6 +168,23 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T00:53:00.681395Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.589564Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -181,9 +198,9 @@
     "evidence_ids": [
       "aalto/doctoral-students-theoretical-foundations-of-distributed-quantum-computing"
     ],
-    "retrieved_at": "2026-07-17T15:34:26.161460Z",
+    "retrieved_at": "2026-07-21T00:53:00.680389Z",
     "raw_snapshot_hash": "bf8ce0f6746cdc85fb07427fa75bfddb9f211144a422175336c0b852fa6080e8",
-    "extracted_content_hash": "dbc37894f5f960b8b6d0ce64bf27a5e7dc2bdebf359dba9ba2a3adda3654fdd1",
+    "extracted_content_hash": "83c8f88984a4f88ec61a63f02a7f86649e39dd6294f16f343f4dd51c8e0a4383",
     "deadline": "2026-07-31",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -259,7 +276,7 @@
     ],
     "fit_overall": 6,
     "urgency": "high",
-    "days_to_deadline": 12,
+    "days_to_deadline": 10,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

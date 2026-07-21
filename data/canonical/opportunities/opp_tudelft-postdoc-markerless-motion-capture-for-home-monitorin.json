@@ -1,0 +1,82 @@
+{
+  "id": "opp_tudelft-postdoc-markerless-motion-capture-for-home-monitorin",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-21T01:04:56.915706Z",
+  "updated_at": "2026-07-21T01:18:44.854143Z",
+  "change_history": [
+    {
+      "ts": "2026-07-21T01:04:56.915706Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-21T01:18:44.854143Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Markerless Motion Capture for Home Monitoring in Neurological Populations",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1366017157",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Markerless-Motion-Capture-for-Home-Monitoring-in-Neurological-Populations-2628-CD/1366017157/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Markerless-Motion-Capture-for-Home-Monitoring-in-Neurological-Populations-2628-CD/1366017157/",
+    "evidence_ids": [
+      "tudelft/1366017157"
+    ],
+    "retrieved_at": "2026-07-21T01:04:56.914706Z",
+    "raw_snapshot_hash": "b1915c036c33bb15e89499fee90d82aa4c25166f33e2fd7a0331fd56063670de",
+    "extracted_content_hash": "656dcb7364e8c2e617da70143492f13a7ff02645e8da4b4c30ba7a4e3affbbc6",
+    "deadline": "2026-09-07",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3546 - €5538 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Are you passionate about shaping the future of healthcare? Do you want to develop technology that truly matters in people’s lives? Join us in creating radical innovations that support patients at home\nJob description\nThe BODIES group, at the department of Biomechanical Engineering TU Delft seeks a motivated postdoctoral researcher for a full-time, fully funded, 36-month project on privacy-preserving, single-camera markerless motion capture for clinical assessment and long-term home monitoring of motor impairments in stroke and Parkinson's disease patients. The position is based at TU Delft, with part of your time spent on-site at Model Health (Leuven, Belgium) for the development of the video-based prototype. You will work closely with Model Health and Moveshelf, embedded in the multidisciplinary \"Care is coming home!\" program, a 5-year consortium of 2 technical universities (TU Delft, UTwente), 6 hospitals, 13 companies (including Model Health and Moveshelf), 1 rehabilitation centre, and 5 patient organisations.\nThe Challenge\nReliable, long-term monitoring of motor impairments outside the clinic is essential to support home-based rehabilitation, yet existing markerless motion capture systems are rarely validated on neurological gait patterns and struggle to generalize across pathology, body morphology, camera viewpoint, and home environments. This position aims to close that gap: you will develop and validate a novel single-camera markerless motion capture system, combining biomechanical realism, synthetic data generation, and privacy-preserving visualization within a single framework, to enable both clinical assessment and secure, long-term home monitoring.\nYou will:\n• Validate the current markerless motion capture system against marker-based data in stroke patients\n• Generate biomechanically accurate synthetic video data to expand training data and enable controlled sensitivity analyses across pathology severity, body morphology, camera viewpoint, and environmental conditions\n• Develop a single-camera, home-based markerless system\n• Test the algorithm across lab and home-recorded environments to assess real-world performance\n• Design clinician-facing visualization tools ensuring privacy-by-design anonymization of patients and their home environment\nYou will translate this into a research plan aimed at peer-reviewed publications, alongside consortium deliverables.\nOur offer\nYou will become part of the funded research program in the Netherlands named 'Care is coming home!', which involves 9 PhDs and 5 Postdocs. So, we offer an excellent inspiring, collaborative, and international research environment, with access to leading experts in medical technology and AI-driven healthcare solutions. Additionally, you will have access to state-of-the-art labs, clinical partners, and patient organisations, which are preconditions to make a meaningful contribution to the future of sustainable healthcare.\n• Full-time, 36-month postdoctoral position\n• Excellent mentorship and a stimulating international research environment with excellent facilities\nJob requirements\nWe are seeking an ambitious, hands-on postdoctoral researcher who is excited to push the boundaries of markerless motion capture and its clinical application. You are eager to combine computer vision, biomechanics, and synthetic data generation to build tools that will shape the future of home-based rehabilitation monitoring.\nYou bring:\n• A PhD in Biomechanical Engineering, Biomedical Engineering, Computer Vision, Robotics, or a related discipline.\n• A strong curiosity for human movement analysis and markerless motion capture.\n• Experience with pose estimation, computer vision, and/or synthetic data generation for model training.\n• Solid programming skills (e.g., Python) for algorithm development, data analysis, and computational modeling.\n• Experience with, or affinity for, clinical/experimental gait data from neurological populations (stroke, Parkinson's disease).\n• Excellent organizational and communication skills to manage a multi-site project across academic and industry partners.\n• Willingness to travel regularly to Model Health in Leuven, Belgium.\n• Ability to work independently while thriving in a collaborative, multidisciplinary consortium team.\n• Fluency in English, both written and spoken.\n- Proficiency in Dutch is a plus for patient communication; proficiency in Moroccan Arabic or Turkish is an additional advantage.\nIf you enjoy bridging computer vision, biomechanics, and clinical tools, this postdoc is the perfect opportunity to make a real impact in home-based neurological monitoring.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 3 years Temporary\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact\ne.vanderkruk@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n7 September 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nIf the applicants are selected for an interview, they will be asked to provide contact details of two references (at least one academic) with their consent\nYou can address your application to Eline van der Kruk.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": null,
+    "urgency": "low",
+    "days_to_deadline": 48,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
