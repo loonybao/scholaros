@@ -1,7 +1,7 @@
 {
   "tampere": {
-    "last_run": "2026-07-21T08:37:04.145693+00:00",
-    "last_success": "2026-07-21T08:37:04.145693+00:00",
+    "last_run": "2026-07-21T14:02:48.121764+00:00",
+    "last_success": "2026-07-21T14:02:48.121764+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
@@ -15,31 +15,31 @@
     }
   },
   "aalto": {
-    "last_run": "2026-07-21T08:35:25.491627+00:00",
-    "last_success": "2026-07-21T08:35:25.491627+00:00",
+    "last_run": "2026-07-21T14:01:13.092805+00:00",
+    "last_success": "2026-07-21T14:01:13.092805+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
       "fetched": 49,
-      "relevant": 21,
-      "created": 0,
+      "relevant": 23,
+      "created": 1,
       "updated": 0,
-      "unchanged": 21,
+      "unchanged": 22,
       "candidates": 0,
-      "skipped_irrelevant": 28
+      "skipped_irrelevant": 26
     }
   },
   "tudelft": {
-    "last_run": "2026-07-21T08:50:52.394142+00:00",
-    "last_success": "2026-07-21T08:50:52.394142+00:00",
+    "last_run": "2026-07-21T14:16:22.349890+00:00",
+    "last_success": "2026-07-21T14:16:22.349890+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
       "fetched": 117,
       "relevant": 71,
-      "created": 1,
-      "updated": 1,
-      "unchanged": 69,
+      "created": 0,
+      "updated": 0,
+      "unchanged": 71,
       "candidates": 5,
       "skipped_irrelevant": 41
     }
@@ -60,8 +60,8 @@
     }
   },
   "varbi": {
-    "last_run": "2026-07-21T08:58:32.090706+00:00",
-    "last_success": "2026-07-21T08:58:32.090706+00:00",
+    "last_run": "2026-07-21T14:23:54.121490+00:00",
+    "last_success": "2026-07-21T14:23:54.121490+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
