@@ -9,9 +9,12 @@ name: Daily run
 # No .env is used in CI. The SQLite index is gitignored (rebuilt each run).
 
 on:
+  push:
+    branches:
+      - master
   schedule:
-    - cron: "0 6 * * *"      # 06:00 UTC daily (~08:00 CET / 14:00 Malaysia). Adjust as you like.
-  workflow_dispatch:          # lets you run it on demand from the Actions tab
+    - cron: "0 6 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write             # needed to commit the refreshed data back
