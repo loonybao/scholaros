@@ -1,0 +1,61 @@
+name: Daily run
+
+# Runs the full pipeline in the cloud so your computer never has to be on:
+# collect enabled sources -> analyse new/changed via the LLM -> recompute derived,
+# rebuild the index, regenerate the vault -> commit the updated data back.
+#
+# The API key comes from repo Secrets (Settings > Secrets and variables > Actions):
+#   COMPASS_API_KEY, COMPASS_API_BASE_URL
+# No .env is used in CI. The SQLite index is gitignored (rebuilt each run).
+
+on:
+  schedule:
+    - cron: "0 6 * * *"      # 06:00 UTC daily (~08:00 CET / 14:00 Malaysia). Adjust as you like.
+  workflow_dispatch:          # lets you run it on demand from the Actions tab
+
+permissions:
+  contents: write             # needed to commit the refreshed data back
+
+concurrency:
+  group: daily-run            # never overlap two runs
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Run pipeline (collect + analyse + refresh)
+        env:
+          COMPASS_API_KEY: ${{ secrets.COMPASS_API_KEY }}
+          COMPASS_API_BASE_URL: ${{ secrets.COMPASS_API_BASE_URL }}
+          PYTHONUTF8: "1"
+        run: python -m compass run
+
+      - name: Validate canonical
+        run: python -m compass validate
+
+      - name: Commit updated data
+        run: |
+          git config user.name "scholaros-bot"
+          git config user.email "scholaros-bot@users.noreply.github.com"
+          git add data/ vault/generated/
+          if git diff --cached --quiet; then
+            echo "No data changes today."
+          else
+            git commit -m "Daily run: refreshed opportunities, analysis and vault [skip ci]"
+            git push
+          fi
