@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:27:42.240132Z",
-  "updated_at": "2026-07-21T01:18:44.822618Z",
+  "updated_at": "2026-07-21T09:00:49.982580Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:27:42.240132Z",
@@ -142,6 +142,45 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-21T08:39:57.112545Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-21T09:00:49.916889Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-21T09:00:49.982580Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -155,9 +194,9 @@
     "evidence_ids": [
       "tudelft/1363993857"
     ],
-    "retrieved_at": "2026-07-18T03:27:42.240132Z",
-    "raw_snapshot_hash": "e3653d735ffe93dade3cf404c4605901438ebbbf988a812bad279c7bee7ac70d",
-    "extracted_content_hash": "4ac3926c6cb300b642b8db9edaebcc21c1b52619531fa16f3b3d86cbacd1ae1c",
+    "retrieved_at": "2026-07-21T08:39:57.111994Z",
+    "raw_snapshot_hash": "92d3119e7db98b9a99edec35bcd19ebab27ab5c5e15628a4d85aa118f4398a8e",
+    "extracted_content_hash": "afe362311c05072661310c1acf8265eec5458a75434226ba0903090d57104639",
     "deadline": "2026-07-29",
     "deadline_note": null,
     "start_date": null,
@@ -176,52 +215,55 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "We are seeking a post-doctoral researcher to develop advanced numerical models for gas migration in clay-based materials, with a focus on coupled hydro-mechanical processes, heterogeneity and uncertainty quantification.\nJob description\nRecent advances in the field have demonstrated that heterogeneity and hydro-mechanical processes strongly control gas transport in low-permeability clays, and that gas migration may involve the development of localised pathways. While high-fidelity models that explicitly represent such processes provide valuable insight into the underlying physics, they also highlight two key challenges.\nFirst, hydro-mechanical coupling is not yet fully integrated within stochastic modelling frameworks, limiting our ability to assess the combined effects of material variability and mechanical behaviour. Second, models that explicitly represent localised features are computationally too expensive for large-scale and long-term simulations, such as those required for repository performance assessment.\nThe central objective of this project is therefore to develop an efficient stochastic hydro-mechanical modelling framework for gas migration in clays, capable of bridging detailed process understanding and large-scale applications. Key research directions include:\nDeveloping physics-based upscaled models informed by high-fidelity simulations of gas migration processes\nExploring the use of deep learning techniques to generate realistic heterogeneous material representations and to support stochastic hydro-mechanical simulations\nExtending existing modelling approaches to include hydro-mechanical coupling in heterogeneous materials\nIncorporating uncertainty quantification (UQ) to assess the impact of spatial variability and uncertainty in material parameters on gas migration.\nThis position is part of Work Package HERMES of EURAD-2, funded by the European Commission. The project focuses on high-fidelity numerical simulations of strongly coupled processes for repository systems and design optimisation with physical models and machine learning.\nJob requirements\nNeed-to-haves:\nPhD in computational (geo)mechanics, or a related discipline\nInterest in uncertainty quantification\nSelf-motivated, curiosity-driven, and open to communicating and cooperating with others\nExcellent written and oral communication skills in English\nNice-to-haves:\nExperience in deep learning, scientific software development and code management\nKnowledge of the radioactive waste management field.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 1 year. Temporarily with a posibility for extension.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Dr. Anne-Catherine Dieudonné (\na.c.dieudonne@tudelft.nl\n).\n#EUfunded This is an EU funded project, named EURAD-2, with project number 101166718, within program Euratom Research and Training Programme (EURATOM)\nApplication procedure\nre you interested in this vacancy? Please apply no later than\n19 July 2026\nvia the application button and upload:\nA cover/motivation letter explaining your interest, qualification for the position, and approach to the research.\nA Curriculum Vitae.\nYour PhD degree.\nAn abstract of your PhD thesis in English.\nA list of publications.\nTwo selected publications.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "We are seeking a post-doctoral researcher to develop advanced numerical models for gas migration in clay-based materials, with a focus on coupled hydro-mechanical processes, heterogeneity and uncertainty quantification.\nJob description\nRecent advances in the field have demonstrated that heterogeneity and hydro-mechanical processes strongly control gas transport in low-permeability clays, and that gas migration may involve the development of localised pathways. While high-fidelity models that explicitly represent such processes provide valuable insight into the underlying physics, they also highlight two key challenges.\nFirst, hydro-mechanical coupling is not yet fully integrated within stochastic modelling frameworks, limiting our ability to assess the combined effects of material variability and mechanical behaviour. Second, models that explicitly represent localised features are computationally too expensive for large-scale and long-term simulations, such as those required for repository performance assessment.\nThe central objective of this project is therefore to develop an efficient stochastic hydro-mechanical modelling framework for gas migration in clays, capable of bridging detailed process understanding and large-scale applications. Key research directions include:\nDeveloping physics-based upscaled models informed by high-fidelity simulations of gas migration processes\nExploring the use of deep learning techniques to generate realistic heterogeneous material representations and to support stochastic hydro-mechanical simulations\nExtending existing modelling approaches to include hydro-mechanical coupling in heterogeneous materials\nIncorporating uncertainty quantification (UQ) to assess the impact of spatial variability and uncertainty in material parameters on gas migration.\nThis position is part of Work Package HERMES of EURAD-2, funded by the European Commission. The project focuses on high-fidelity numerical simulations of strongly coupled processes for repository systems and design optimisation with physical models and machine learning.\nJob requirements\nNeed-to-haves:\nPhD in computational (geo)mechanics, or a related discipline\nInterest in uncertainty quantification\nSelf-motivated, curiosity-driven, and open to communicating and cooperating with others\nExcellent written and oral communication skills in English\nNice-to-haves:\nExperience in deep learning, scientific software development and code management\nKnowledge of the radioactive waste management field.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 1 year. Temporarily with a posibility for extension.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Dr. Anne-Catherine Dieudonné (\na.c.dieudonne@tudelft.nl\n).\n#EUfunded This is an EU funded project, named EURAD-2, with project number 101166718, within program Euratom Research and Training Programme (EURATOM)\nApplication procedure\nre you interested in this vacancy? Please apply no later than 2\n9 July 2026\nvia the application button and upload:\nA cover/motivation letter explaining your interest, qualification for the position, and approach to the research.\nA Curriculum Vitae.\nYour PhD degree.\nAn abstract of your PhD thesis in English.\nA list of publications.\nTwo selected publications.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "Post-doctoral position in computational geomechanics developing stochastic hydro-mechanical modelling frameworks for gas migration in clay, integrating uncertainty quantification, deep learning for heterogeneous materials, and upscaled physics-based models for repository performance assessment.",
+    "summary": "Post-doctoral researcher position in computational geomechanics focused on developing numerical models for gas migration in clay materials, integrating hydro-mechanical coupling, heterogeneity, uncertainty quantification, and deep learning techniques.",
     "fit_type": "poor-fit",
     "thematic_fit": {
       "score": 5,
-      "rationale": "Research domain is radioactive waste repository engineering, geomechanics, and hydro-mechanical processes in geological materials. Entirely disconnected from human-centred immersive systems, spatial learning, or collaborative interaction design. No HCI or user-facing component."
+      "rationale": "No thematic overlap. Position is computational geomechanics for radioactive waste repository performance—physics-based engineering with focus on material heterogeneity, coupled processes, and long-term safety assessment. Researcher's expertise is human-centred XR, spatial learning, and collaborative immersive systems. No shared research questions or application domains."
     },
     "methodological_fit": {
-      "score": 15,
-      "rationale": "Position emphasizes computational modelling, uncertainty quantification, and deep learning. User has no background in deep learning, scientific computing, or computational geomechanics. While user has experimental-design and quantitative-research skills, they are rooted in user studies and HCI evaluation, not large-scale numerical simulation or machine learning model development."
+      "score": 20,
+      "rationale": "Limited methodological connection. Position requires computational (geo)mechanics, uncertainty quantification, deep learning, and scientific software development. Researcher has quantitative-research and experimental-design skills from HCI user studies, but no computational physics, finite-element modelling, or UQ experience. The deep learning and software development components do not align with researcher's XR application development work (which is gameplay/system engineering in Unity, not ML research or numerical methods)."
     },
     "growth_value": {
-      "score": 20,
-      "rationale": "Could develop machine learning and uncertainty quantification skills, which are methodologically valuable. However, application domain (geomechanics) has zero relevance to immersive HCI. Skill transfer to target research direction would be minimal."
+      "score": 10,
+      "rationale": "Does not address gaps aligned with target identity. Position would develop computational mechanics, deep learning, and UQ capabilities—none of which are priority gaps for a human-centred XR researcher. Target gaps (mixed-effects-modelling, eye-tracking, physiological-sensing) are behavioural/cognitive measurement tools, not computational engineering skills. This represents orthogonal capability development."
     },
     "strategic_value": {
-      "score": 45,
-      "rationale": "TU Delft (priority-1 institution), EU-funded (EURAD-2, Euratom program, stable multi-year funding). Civil Engineering & Geosciences faculty is established and well-supported. However, research direction (waste repository geomechanics) is entirely outside user's target domain."
+      "score": 25,
+      "rationale": "TU Delft is a priority-tier institution and Netherlands is preferred geography, which provides some strategic value. However, Faculty of Civil Engineering & Geosciences operates in geotechnical engineering and computational mechanics, not HCI or immersive systems. Research group and supervisor network would not advance trajectory toward target identity. EU-funded EURAD-2 project provides funding stability but in wrong domain. Post-doc role also implies prior PhD completion; researcher is still in thesis stage, creating eligibility uncertainty."
     },
     "required_skills": [
-      "quantitative-research",
-      "statistics"
+      "statistics",
+      "python",
+      "experimental-design"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "quantitative-research"
+      "statistics",
+      "experimental-design"
     ],
     "missing_skills": [
       "python",
-      "statistics",
       "mixed-effects-modelling"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position explicitly requires PhD in computational (geo)mechanics or related discipline. User holds MSc by Research (in progress, thesis stage) in Creative Multimedia—does not meet baseline doctoral requirement. Candidate must have completed PhD by hiring.",
-      "Need-to-have: interest in uncertainty quantification; user's background does not document this.",
-      "Position appears designed for post-doctoral level (PhD required); user is still completing MSc. Eligibility contingent on PhD completion before application window."
+      "Position is post-doctoral and requires completed PhD. Researcher is currently in MSc thesis stage. Eligibility depends on PhD completion timeline and degree conferment date—unclear if researcher will hold PhD by application/start date.",
+      "Position requires PhD in computational (geo)mechanics or related discipline. Researcher's MSc is in Creative Multimedia with XR focus. Disciplinary mismatch may disqualify or require strong justification.",
+      "Nice-to-haves include deep learning, scientific software development, and code management—areas where researcher has applied development (Unity/C#) experience but no research-level machine learning or numerical methods background."
     ],
     "risks": [
-      "User does not currently hold a PhD; this is a post-doctoral position. Career-stage mismatch.",
-      "Credential gap is significant: computational geomechanics typically requires training in civil/mechanical engineering or geosciences, not multimedia.",
-      "If user pursued PhD elsewhere first and then applied: one-year contract (potentially renewable) offers limited tenure security compared to doctoral track.",
-      "Substantive domain shift would consume research momentum away from target immersive HCI trajectory."
+      "Researcher does not yet hold a PhD; this is a post-doctoral role, not a pathway to PhD candidacy.",
+      "Complete domain shift from human-centred XR to computational geomechanics; no natural research continuity or thematic bridge.",
+      "Research group operates in geotechnical engineering and repository science, not HCI or immersive systems research.",
+      "No connection to researcher's target identity statement or core research themes (spatial cognition, collaborative immersive systems, learning, wayfinding).",
+      "Researcher's computational experience is in real-time game engines (Unity), not numerical methods, finite elements, or scientific computing; onboarding cost would be substantial.",
+      "Postdoc funding duration (1 year, extendable) offers less security than typical PhD funding; positions researcher at risk if extension not approved."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -229,21 +271,21 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.88,
+    "confidence": 0.9,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-20T16:44:05.893126Z",
-    "analysis_input_hash": "8730b23a0bf028940bed799160c3573fce19adf13581267ec806ae99c60a0cdb"
+    "analyzed_at": "2026-07-21T09:00:49.916328Z",
+    "analysis_input_hash": "c284af13c7c21bd3be58bcc23d203e07dae6f604d70bc076ce182fa6bd6a02a9"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 17,
+    "fit_overall": 14,
     "urgency": "high",
     "days_to_deadline": 8,
     "needs_review": true,

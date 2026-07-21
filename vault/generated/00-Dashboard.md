@@ -33,7 +33,7 @@ _Generated 2026-07-21 — run `python -m compass export` to refresh._
 | [[opp_tudelft-phd-position-modeling-foot-growth-and-deformities-in\|PhD Position Modeling Foot Growth and Deformities in Children with Cerebral Palsy]] | TU Delft | 2026-07-27 | 6 | uncertain | 45 |
 | [[opp_tudelft-postdoc-bipolar-membrane-development-for-acid-base-f\|Postdoc Bipolar Membrane Development for Acid-Base Flow Battery Systems]] | TU Delft | 2026-07-28 | 7 | uncertain | 14 |
 | [[opp_tudelft-postdoc-scalable-graph-learning\|Postdoc Scalable Graph Learning]] | TU Delft | 2026-07-28 | 7 | uncertain | 5 |
-| [[opp_tudelft-post-doctoral-researcher-in-computational-geomechani\|Post-Doctoral Researcher in Computational Geomechanics of Gas Migration in Clays]] | TU Delft | 2026-07-29 | 8 | uncertain | 17 |
+| [[opp_tudelft-post-doctoral-researcher-in-computational-geomechani\|Post-Doctoral Researcher in Computational Geomechanics of Gas Migration in Clays]] | TU Delft | 2026-07-29 | 8 | uncertain | 14 |
 | [[opp_tudelft-phd-position-haptics\|PhD Position Haptics]] | TU Delft | 2026-07-30 | 9 | uncertain | 58 |
 | [[opp_tudelft-phd-position-in-quantum-magnonics\|PhD Position in Quantum Magnonics]] | TU Delft | 2026-07-30 | 9 | uncertain | 10 |
 | [[opp_aalto-doctoral-researcher-in-fatigue-of-waam-structures\|Doctoral Researcher in Fatigue of WAAM Structures]] | Aalto University | 2026-07-31 | 10 | uncertain | 6 |
@@ -185,6 +185,7 @@ _Generated 2026-07-21 — run `python -m compass export` to refresh._
 | [[opp_tudelft-phd-position-electrical-engineering-cryo-cmos-circui\|PhD Position Electrical Engineering: Cryo-CMOS Circuit Design for Temperature Sensors in Quantum]] | TU Delft | 2026-09-06 | 47 | uncertain | 5 |
 | [[opp_euraxess-senior-knowledge-exchange-and-enterprise-fellow-kno-2\|Senior Knowledge Exchange and Enterprise Fellow: (Knowledge Mobilisation & Community Connector)]] | Times Higher Education | 2026-09-07 | 48 | uncertain | 24 |
 | [[opp_euraxess-senior-knowledge-exchange-and-enterprise-fellow-kno\|Senior Knowledge Exchange and Enterprise Fellow (Knowledge Mobilisation)]] | Times Higher Education | 2026-09-07 | 48 | uncertain | 24 |
+| [[opp_tudelft-phd-position-in-decoding-the-microbial-nitrogen-cycl\|PhD Position in Decoding the Microbial Nitrogen Cycle for Climate Resilience]] | TU Delft | 2026-09-07 | 48 | uncertain | 11 |
 | [[opp_tudelft-postdoc-fes-shorts-for-gait-rehabilitation-after-str\|Postdoc FES Shorts for Gait Rehabilitation after Stroke]] | TU Delft | 2026-09-07 | 48 | uncertain | 59 |
 | [[opp_tudelft-postdoc-markerless-motion-capture-for-home-monitorin\|Postdoc Markerless Motion Capture for Home Monitoring in Neurological Populations]] | TU Delft | 2026-09-07 | 48 | uncertain | 54 |
 | [[opp_tudelft-phd-position-realising-business-impact-from-construc\|PhD Position Realising Business Impact from Construction Software]] | TU Delft | 2026-09-08 | 49 | uncertain | 45 |
@@ -365,6 +366,7 @@ _Generated 2026-07-21 — run `python -m compass export` to refresh._
 - [[opp_tudelft-phd-position-electrical-engineering-cryo-cmos-circui]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_euraxess-senior-knowledge-exchange-and-enterprise-fellow-kno-2]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_euraxess-senior-knowledge-exchange-and-enterprise-fellow-kno]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- [[opp_tudelft-phd-position-in-decoding-the-microbial-nitrogen-cycl]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-fes-shorts-for-gait-rehabilitation-after-str]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-markerless-motion-capture-for-home-monitorin]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-phd-position-realising-business-impact-from-construc]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source

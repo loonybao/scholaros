@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-07-29
 status: open
 eligibility_gate: uncertain
-fit_overall: 17
+fit_overall: 14
 urgency: high
 needs_review: true
 ---
@@ -81,8 +81,8 @@ a.c.dieudonne@tudelft.nl
 ).
 #EUfunded This is an EU funded project, named EURAD-2, with project number 101166718, within program Euratom Research and Training Programme (EURATOM)
 Application procedure
-re you interested in this vacancy? Please apply no later than
-19 July 2026
+re you interested in this vacancy? Please apply no later than 2
+9 July 2026
 via the application button and upload:
 A cover/motivation letter explaining your interest, qualification for the position, and approach to the research.
 A Curriculum Vitae.
@@ -98,27 +98,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
 
-Post-doctoral position in computational geomechanics developing stochastic hydro-mechanical modelling frameworks for gas migration in clay, integrating uncertainty quantification, deep learning for heterogeneous materials, and upscaled physics-based models for repository performance assessment.
+Post-doctoral researcher position in computational geomechanics focused on developing numerical models for gas migration in clay materials, integrating hydro-mechanical coupling, heterogeneity, uncertainty quantification, and deep learning techniques.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 15 |
-| Growth value | 20 |
-| Strategic value | 45 |
-| **Overall** | **17** |
+| Methodological fit | 20 |
+| Growth value | 10 |
+| Strategic value | 25 |
+| **Overall** | **14** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python, statistics, mixed-effects-modelling
+**Missing skills:** python, mixed-effects-modelling
 
 **Risks:**
-- User does not currently hold a PhD; this is a post-doctoral position. Career-stage mismatch.
-- Credential gap is significant: computational geomechanics typically requires training in civil/mechanical engineering or geosciences, not multimedia.
-- If user pursued PhD elsewhere first and then applied: one-year contract (potentially renewable) offers limited tenure security compared to doctoral track.
-- Substantive domain shift would consume research momentum away from target immersive HCI trajectory.
+- Researcher does not yet hold a PhD; this is a post-doctoral role, not a pathway to PhD candidacy.
+- Complete domain shift from human-centred XR to computational geomechanics; no natural research continuity or thematic bridge.
+- Research group operates in geotechnical engineering and repository science, not HCI or immersive systems research.
+- No connection to researcher's target identity statement or core research themes (spatial cognition, collaborative immersive systems, learning, wayfinding).
+- Researcher's computational experience is in real-time game engines (Unity), not numerical methods, finite elements, or scientific computing; onboarding cost would be substantial.
+- Postdoc funding duration (1 year, extendable) offers less security than typical PhD funding; positions researcher at risk if extension not approved.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-post-doctoral-researcher-in-computational-geomechani.md` and link [[opp_tudelft-post-doctoral-researcher-in-computational-geomechani]]._
