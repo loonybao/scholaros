@@ -1,7 +1,7 @@
 {
   "tampere": {
-    "last_run": "2026-07-21T14:02:48.121764+00:00",
-    "last_success": "2026-07-21T14:02:48.121764+00:00",
+    "last_run": "2026-07-22T08:36:45.350930+00:00",
+    "last_success": "2026-07-22T08:36:45.350930+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
@@ -15,33 +15,33 @@
     }
   },
   "aalto": {
-    "last_run": "2026-07-21T14:01:13.092805+00:00",
-    "last_success": "2026-07-21T14:01:13.092805+00:00",
+    "last_run": "2026-07-22T08:35:06.886716+00:00",
+    "last_success": "2026-07-22T08:35:06.886716+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 49,
-      "relevant": 23,
-      "created": 1,
+      "fetched": 50,
+      "relevant": 22,
+      "created": 0,
       "updated": 0,
       "unchanged": 22,
       "candidates": 0,
-      "skipped_irrelevant": 26
+      "skipped_irrelevant": 28
     }
   },
   "tudelft": {
-    "last_run": "2026-07-21T14:16:22.349890+00:00",
-    "last_success": "2026-07-21T14:16:22.349890+00:00",
+    "last_run": "2026-07-22T08:50:34.665480+00:00",
+    "last_success": "2026-07-22T08:50:34.665480+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 117,
+      "fetched": 116,
       "relevant": 71,
-      "created": 0,
+      "created": 1,
       "updated": 0,
-      "unchanged": 71,
+      "unchanged": 70,
       "candidates": 5,
-      "skipped_irrelevant": 41
+      "skipped_irrelevant": 40
     }
   },
   "euraxess": {
@@ -60,8 +60,8 @@
     }
   },
   "varbi": {
-    "last_run": "2026-07-21T14:23:54.121490+00:00",
-    "last_success": "2026-07-21T14:23:54.121490+00:00",
+    "last_run": "2026-07-22T08:58:17.649204+00:00",
+    "last_success": "2026-07-22T08:58:17.649204+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
