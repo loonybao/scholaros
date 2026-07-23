@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-14
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 4
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 23)
+Gate: **uncertain** (days to deadline: 22)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -110,7 +110,27 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Postdoctoral position in 2D material nanocomposites for tunable photonics, focused on MXene-based materials synthesis, thin-film device fabrication, electrochemistry, and characterization. Part of the Multifunctional Nanocomposite group in Applied Physics.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 1 |
+| Strategic value | 10 |
+| **Overall** | **4** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** qualitative-research, mixed-methods
+
+**Risks:**
+- Career level mismatch: position is postdoctoral; researcher is not yet PhD-qualified
+- Fundamental domain mismatch: materials science vs. human-centred HCI
+- No transferable technical skills; would require retraining from scratch
+- No existing recommendation from materials science or applied physics domain
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-postdoctoral-researcher-in-2d-material-nanocomposites.md` and link [[opp_aalto-postdoctoral-researcher-in-2d-material-nanocomposites]]._

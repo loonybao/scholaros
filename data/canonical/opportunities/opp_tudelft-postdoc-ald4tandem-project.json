@@ -1,0 +1,172 @@
+{
+  "id": "opp_tudelft-postdoc-ald4tandem-project",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-23T08:39:25.360115Z",
+  "updated_at": "2026-07-23T09:00:28.759935Z",
+  "change_history": [
+    {
+      "ts": "2026-07-23T08:39:25.360255Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-23T09:00:28.586773Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-23T09:00:28.759935Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc ALD4TANDEM project",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1367456357",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-ALD4TANDEM-project-2628-CD/1367456357/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-ALD4TANDEM-project-2628-CD/1367456357/",
+    "evidence_ids": [
+      "tudelft/1367456357"
+    ],
+    "retrieved_at": "2026-07-23T08:39:25.359910Z",
+    "raw_snapshot_hash": "9e1c5e017cb8d75b4f5a6d69176feba9c747780e3eb5e72b7ca4efaad0f212a1",
+    "extracted_content_hash": "197aa6d71a08d66609cdeb2ec52464eac5368e61224589b602cd714cb4f240af",
+    "deadline": "2026-08-05",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3546 - €5538 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Within the department, the Photovoltaic Materials and Devices group develops innovative materials, devices and manufacturing technologies that enable the next generation of high-efficiency solar cells.\nJob description\nDelft University of Technology invites applications for a Postdoctoral Researcher to join the ALD4TANDEM project, an ambitious research programme developing advanced atomic layer deposition (ALD) technologies for next-generation perovskite-silicon tandem solar cells.\nThe position is embedded in the Photovoltaic Materials and Devices (PVMD) group, in close cooperation with TU Delft colleagues and industrial partners. You will work in a multidisciplinary environment, providing a unique opportunity to combine fundamental research with industrial technology development.\nWe offer an inspiring research setting at one of Europe’s leading technical universities, with access to unique deposition and test facilities and strong international collaboration networks. This position provides the opportunity to contribute directly to the energy transition and to the development of sustainable, scalable heating solutions for the built environment.\nThe research in the Department of Electrical Sustainable Energy is inspired by the technical, scientific, and societal challenges originating from the transition towards a more sustainable society and focuses on four areas:\nDC Systems, Energy Conversion and Storage (DCE&S)\nPhotovoltaic Materials and Devices (PVMD)\nIntelligent Electrical Power Grids (IEPG)\nHigh Voltage Technologies (HVT)\nWithin the department, the Photovoltaic Materials and Devices group develops innovative materials, devices and manufacturing technologies that enable the next generation of high-efficiency solar cells and photovoltaic Systems.\nYou will fabricate and characterize perovskite-silicon tandem solar cells using state-of-the-art facilities at the TU Delft PV Technology Center, including large-area cleanroom processing, advanced thin-film deposition equipment and comprehensive photovoltaic characterization laboratories. You will collaborate closely with researchers working on silicon heterojunction solar cells, perovskite photovoltaics, tandem integration and device modelling.\nJob requirements\nWe are acutely aware that we are a diverse society and not every talented applicant will have had the same opportunities to advance their careers. We therefore pledge to fully account for any particular circumstances that the applicants disclose (e.g. parental leave, caring duties, part-time jobs to support studies, disabilities etc.) to ensure an inclusive and fair recruitment process that does not rely purely on common research metrics.\nThe successful applicant will have:\nA PhD in Materials Science, Applied Physics, Electrical Engineering, Chemistry or a closely related discipline.\nStrong background in modeling and simulation of thermal/energy systems, preferably including PV/T or hybrid solar systems.\nHands-on experience with thin-film deposition techniques, preferably including ALD, CVD, PVD or thermal evaporation.\nExperience with photovoltaic devices, semiconductor materials or optoelectronic devices.\nExperience with materials characterization techniques such as XRD, XPS, SEM, AFM, ellipsometry, Hall measurements or related methods.\nExperience with solar-cell characterization (J-V, EQE, stability testing) is considered an advantage.\nExcellent communication skills and proficiency in spoken and written English.\nMotivation to work in an interdisciplinary team and collaborate closely with industrial partners.\nThis position may require a knowledge security screening in accordance with institutional policies and applicable regulations. Appointment is conditional upon a satisfactory outcome of this screening.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDuration of contract is 22 months. Temporary\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact  dr. Luana Mazzarella, +31 (0)15 27 88885, l.mazzarella@tudelft.nl\nFor information about the selection procedure, please contact Brenda Reyes, Management Assistant, email: b.reyesmunoz@tudelft.nl.\nApplication procedure\nAre you interested in this vacancy? Please apply before the\n5th of August  2026\nvia the application button and upload your:\nApplication letter addressed to dr. Luana Mazzarella that explains your personal motivation in pursuing a postdoctorate and fit to the job requirements;\nCurriculum vitae (CV) with a list of (academic and/or industry).\nQualification evidence including latest degrees and transcripts.\nYou can address your application to dr. Luna Mazzarella.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in atomic layer deposition (ALD) technologies for next-generation perovskite-silicon tandem solar cells. Embedded in the Photovoltaic Materials and Devices group; involves thin-film fabrication, device characterization, and energy system modeling.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "No thematic alignment. Position focuses on photovoltaic device physics, materials deposition, and solar cell engineering. No connection to human-centred HCI, immersive systems, spatial cognition, learning, or collaborative interaction. This is pure applied physics/materials engineering for renewable energy."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Minimal methodological overlap. The position requires hands-on thin-film deposition (ALD, CVD, PVD), materials characterization (XRD, XPS, SEM, AFM, ellipsometry), and photovoltaic measurement (J-V, EQE). The researcher has no experience in these techniques or device physics. Quantitative analysis and experimental design skills are transferable but not primary methodological drivers in this context."
+    },
+    "growth_value": {
+      "score": 1,
+      "rationale": "This position would require acquiring entirely new technical competencies in materials deposition and photovoltaic characterization. No advancement of human-centred research capabilities, spatial cognition expertise, or collaborative immersive systems knowledge. No growth vector toward target identity."
+    },
+    "strategic_value": {
+      "score": 12,
+      "rationale": "TU Delft is a strong institution with excellent PV facilities and industrial partnerships. However, joining the Photovoltaic Materials and Devices group would isolate the researcher from HCI and immersive systems research communities. Position is postdoctoral, requiring prior PhD completion (researcher is MSc in progress). No alignment with European HCI networks or target supervisors in spatial learning."
+    },
+    "required_skills": [
+      "statistics",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "statistics",
+      "quantitative-research"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Postdoctoral position; researcher is MSc by Research (in progress) and not yet PhD-qualified; ineligible",
+      "No background in applied physics, materials science, or device engineering",
+      "No thin-film deposition experience (ALD, CVD, PVD, thermal evaporation)",
+      "No materials characterization techniques (XRD, XPS, SEM, AFM, ellipsometry, Hall measurements)",
+      "No photovoltaic device measurement or solar cell characterization experience"
+    ],
+    "risks": [
+      "Career level mismatch: position is postdoctoral; researcher has not completed PhD",
+      "Fundamental domain mismatch: photovoltaic materials/devices vs. human-centred HCI research",
+      "No hands-on experience in target technical areas; would require retraining from scratch",
+      "No existing supervisor relationship or recommendation in materials science or photovoltaics",
+      "Position requirements (modeling of thermal/energy systems, PV/T hybrid systems) unrelated to researcher's skillset"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.94,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-23T09:00:28.586405Z",
+    "analysis_input_hash": "f3eb8e4dad29832921b6c3f0557990e5efe63dea0787d0b89221125e053f114a"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 5,
+    "urgency": "high",
+    "days_to_deadline": 13,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

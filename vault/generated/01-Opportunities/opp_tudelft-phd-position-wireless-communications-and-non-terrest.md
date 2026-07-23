@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 10
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 40)
+Gate: **uncertain** (days to deadline: 39)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -93,7 +93,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+
+PhD position in next-generation wireless communications and non-terrestrial networks (NTN), including satellite communications, 6G systems, and wireless sensing. Embedded within the Embedded Systems group; involves SDR platforms, RF measurement, and distributed intelligence for resilient connectivity.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 12 |
+| Growth value | 3 |
+| Strategic value | 25 |
+| **Overall** | **10** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Domain mismatch: wireless communications engineering vs. human-centred HCI research
+- Educational background (Multimedia, HCI) not aligned with program expectations (EE, Physics, Aerospace)
+- Career redirect away from target identity in spatial learning and collaborative immersive systems
+- Weak positioning competing against candidates with signal processing or RF backgrounds
+- No existing supervisor relationship or recommendation in wireless communications
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-wireless-communications-and-non-terrest.md` and link [[opp_tudelft-phd-position-wireless-communications-and-non-terrest]]._

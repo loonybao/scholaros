@@ -1,0 +1,171 @@
+{
+  "id": "opp_aalto-doctoral-researcher-in-digital-integrated-circuits",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-23T08:35:10.867824Z",
+  "updated_at": "2026-07-23T09:00:28.666232Z",
+  "change_history": [
+    {
+      "ts": "2026-07-23T08:35:10.867960Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-23T09:00:28.582401Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-23T09:00:28.666232Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher in Digital Integrated Circuits",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-in-digital-integrated-circuits",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-digital-integrated-circuits",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-Researcher-in-Digital-Integrated-Circuits_R47380/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-in-digital-integrated-circuits"
+    ],
+    "retrieved_at": "2026-07-23T08:35:10.867634Z",
+    "raw_snapshot_hash": "92a010051771631828c2480e1b2fa681e561645c3d2e2e243460a15a5a192ff9",
+    "extracted_content_hash": "9ced99a3b8c0c37d621548314a8ba3dab1d456f5bedf2fffa043f655413a783b",
+    "deadline": "2026-08-07",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-07-23",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community's diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe Department of Electronics and Nanoengineering conducts research and arranges related courses in the fields of electromagnetics, micro and nanotechnology, radio engineering, and space technology. The department research groups have active national and international collaboration with several institutes and companies. Research groups are working with world-class research facilities and instruments; the largest clean rooms in the Nordic countries are located in the Micro- and nanotechnology centre Micronova.\nDoctoral Researcher in Digital Integrated Circuits\nWe are now looking for a Doctoral Researcher (PhD student) to join the Tiny Systems and Circuits (TSirc) group at Aalto University's Department of Electronics and Nanoengineering. In this position you will design the next generation of energy-efficient digital integrated circuits, taking them from RTL to a fabricated chip and PCB that you measure in our own labs. The position is part of\nthe HolistIC project\n, which develops ultra-low-power system-on-chip designs for next-generation intelligent audio IoT sensors.\nYour Role and Goals\nAs a Doctoral Researcher, you will:\n- Design energy-efficient digital in-memory computing circuits for on-chip AI inference, spanning both full-custom design and RTL-based flows through synthesis and place-and-route to tape-out\n- Verify and characterise your designs, from simulation and FPGA to measurement of the fabricated chips in our laboratory\n- Publish and present your results at leading international venues, and complete your doctoral thesis in the Aalto Doctoral Programme in Electrical Engineering\n- Contribute to teaching duties as part of your doctoral studies\nYour Network and Team\nCurrently, our research group consists of 1 professor, 3 PhD students, and several MSc or BSc research collaborators. The group is led by Professor Kwantae Kim.\nYour Experience and Ambitions\nWe are looking for a thorough and motivated colleague who is expected to:\n- Hold a Master’s degree and excellent study records in Electrical Engineering, Electronics, Microelectronics, Computer Engineering, or a closely related field, completed by the start of the position\n- Have a solid background in digital hardware design: Verilog/SystemVerilog RTL, logic synthesis, and place-and-route\n- Be familiar with Python programming\n- Have a working proficiency in English. (Finnish language is not required.)\nThe following are considered an advantage\n- Experience with FPGA prototyping\n- Experience with the PyTorch framework\n- Experience with analog or full-custom layout\n- Prior tape-out experience in any technology\nWhat We Offer\n- We support a wide range of chip design tools required for tape-out (Cadence, Synopsys, etc.), and FPGA/PCB design.\n- We have dedicated technical staff who manage PDK NDAs and maintain the computing cluster for circuit simulation and PDK installation.\n- We provide chip measurement infrastructure covering DC to THz bandwidth at the School of Electrical Engineering.\n- We collaborate with academic partners in Europe and Asia, including research visits abroad.\nThe contract is fixed-term and follows Aalto's standard 2+2 model. It will be made initially for two (2) years, with a six (6) month probationary period, and extended by two (2) further years after a successful mid-term review, giving a total duration of four (4) years. The starting salary for doctoral researcher is approximately 3100€/Month.\nOur primary workplace is located at the Otaniemi Campus in Espoo, Finland.\nJoin Us!\nTo apply, please share the following with us through our recruitment site (\"Apply now!\") at the latest\nby 23.59 (Helsinki time) on 7 August 2026\n:\n- CV\n- Motivation letter (max. 1 page)\n- Transcript of study records for your MSc (and BSc) degree\n- Recommendation letters (max. 1, if available)\nAll materials must be submitted in PDF format. Applications submitted by email will not be accepted. We encourage you to apply early, as we will go through applications, and we may invite suitable candidates to interview already during the application period.\nPlease note: Aalto University's employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\n.\nFor more information regarding the open position, please contact professor Kwantae Kim, kwantae.kim@aalto.fi. In any question regarding the recruitment process, please contact HR Advisor, hr-elec@aalto.fi.\nLearn more about the TSirc research group:\nhttps://kwantaekim.github.io\nWant to know more about us and your future colleagues? You can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand check out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family - it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world: World Happiness Report 2025.\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "PhD position in energy-efficient digital integrated circuit design for on-chip AI inference, spanning RTL to tape-out and chip fabrication. Core work involves circuit design, verification, and characterization within the HolistIC project on ultra-low-power audio IoT sensors.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic alignment. The position focuses on hardware circuit design and microelectronics, which falls outside human-centred HCI, immersive systems, and spatial learning. The mention of 'AI' refers to on-chip inference architectures, not AI applications relevant to HCI research."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Minimal methodological overlap. The researcher has intermediate experimental design and quantitative analysis skills, but the position demands deep RTL/Verilog expertise, circuit simulation, place-and-route, and chip characterization—none of which are present in the profile. No user studies, HCI evaluation, or collaborative design methodology required."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "This position would require retraining in pure hardware engineering and would not advance the researcher's core capabilities in human-centred research, spatial cognition, or collaborative immersive systems. Moving into circuit design is a departure from, not a complement to, the target identity."
+    },
+    "strategic_value": {
+      "score": 15,
+      "rationale": "Aalto is a strong institution, and the position offers 4-year stability and structured doctoral training. However, joining the Electronics and Nanoengineering department would isolate the researcher from HCI communities and European HCI networks (Tampere, Aalborg, etc.). The research group's focus on low-power IoT hardware offers no pathway to the researcher's target role in human-centred XR and spatial learning."
+    },
+    "required_skills": [
+      "cpp",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "cpp"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc by Research (in progress, thesis stage) may not meet 'completed by start date' requirement; clarify thesis completion timeline with Aalto",
+      "No hardware design background (Verilog/SystemVerilog, RTL, synthesis, place-and-route); would require significant retraining",
+      "No FPGA prototyping or tape-out experience"
+    ],
+    "risks": [
+      "Fundamental mismatch: pure microelectronics vs. human-centred HCI research",
+      "Career redirect away from target identity into hardware engineering",
+      "No existing supervisor relationship or recommendation from electronics/circuits domain",
+      "Steep learning curve in unfamiliar technical domain; high risk of underperformance in first year"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-23T09:00:28.581779Z",
+    "analysis_input_hash": "31a22f0e705b3fa5cf2180a70cfba9068fa674973380611772ccbea24093b296"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 7,
+    "urgency": "high",
+    "days_to_deadline": 15,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

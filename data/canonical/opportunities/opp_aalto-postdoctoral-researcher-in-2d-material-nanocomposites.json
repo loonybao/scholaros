@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T14:00:15.913161Z",
-  "updated_at": "2026-07-22T08:58:20.168905Z",
+  "updated_at": "2026-07-23T09:00:28.676708Z",
   "change_history": [
     {
       "ts": "2026-07-21T14:00:15.913296Z",
@@ -29,6 +29,45 @@
       "actor": "rules",
       "fields_changed": [
         "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-23T09:00:28.583581Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-23T09:00:28.676708Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -67,16 +106,73 @@
     "status": "open",
     "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 13 000 students, 400 professors and close to 4 500 other faculty and staff working on our dynamic campus in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nAt the Department of Applied Physics, our pioneering research in physical sciences creates important industrial applications that hold great technological potential. Our research focuses on Materials physics, Quantum technology, Soft & living matter, and Advanced energy solutions. Topics extend from fundamental research to important applications. We educate future generations of research and development professionals, data specialists, technology experts, inventors, and scientists for industry and society.\nThe Multifunctional Nanocomposite group in the Department of Applied Physics is now looking for a highly motivated\nPostdoctoral researcher in 2D material nanocomposites for tunable photonics\nAre you interested in developing new materials for photonics devices? The high-performance optically active materials (OAMs) are desirable for many applications. However, the current OAMs still have some critical issues to be resolved for practical applications. This project aims to develop a new OAM platform using well-designed 2D material nanocomposites based on MXenes combined with functional organic molecules, and to demonstrate prototype devices for large modulating amplitudes or fast switching speeds. If you are a talented researcher interested in 2D material photonics and electronics and enjoy highly interdisciplinary research environment, this might be something for you!\nYour role and goals\nPlanning and executing laboratory experiments on 2D material nanocomposite synthesis\nThin film electrochemical and FET device fabrication and characterization\nWriting publications for peer-reviewed high level scientific journals\nPresenting research findings at international conferences and seminars\nResearch visits with European partner universities and research facilities\nShowing good social skills in collaborations to promote collaborations\nWhat we require\nThe candidate should have or will shortly receive a Ph.D. degree or equivalent in Chemistry, Materials Science, Electrical Engineering or Physics. Experience and knowledge in one or more of the following areas are considered as merits:\nResearch background in thin-film device fabrication (i.e. electrochromic devices, LIBs and supercapacitors, FETs) with 2D materials (preferably MXene or graphene)\nHands-on experience in wet chemistry synthesis and chemical safety\nHands on experience in additive manufacturing (printing, deposition)\nWorking experience in clean room is highly valued\nBoth hands-on and data analysis skills in classical materials characterization methods (i.e., TEM, SEM, XRD, XPS, NMR, IR, Raman, XAS, SAXS, etc)\nGood oral and written proficiency of English. Finnish language is not required\nHigh motivation and team player in interdisciplinary settings\nKnowledge in inorganic, metal-organic, or organic chemistry is a plus\nThe experience should be demonstrated by evidence of success in related studies, and also by publication record. Other merits demonstrating suitability for a postdoctoral researcher position can also be considered.\nWhat we offer\nWe offer a two-year postdoctoral position with possibility for extension. You will expand your networking capabilities which are useful for your emerging independent career plans and establish collaborations with research groups in LIBER excellent center, PREIN flagship, as well as our international partners.\nAalto University offers an excellent environment for driving and realizing your own research ideas, contribute to a sustainable future, stay at the forefront of research and networking by interacting with companies and other universities.\nThe fixed term contract is typically initially for two years and can be extended on mutual agreement. Aalto University follows the salary system of Finnish universities. The starting salary for a Postdoctoral researcher is approx.\n4130 €/month. The salary ranges from 4130 € to 4550 € per month\n, depending on previous experience. The contract includes occupational healthcare.\nThe primary workplace is Otaniemi, Espoo. The Otaniemi campus is a thriving and connected community of 100 nationalities, 13,000 students and 4,500 employees. Life at the transformed campus is vibrant and filled with amazing architecture, calming nature, and a variety of cafes, restaurants, services and good connections along the recently opened metro line.\nJoin us!\nIf you want to join our community, please submit your application including the attachments mentioned below as one single PDF document in English through our online recruitment system by using the link on Aalto University’s web page (\"Apply Now”). Please note that we only accept applications via Workday.\nMotivation letter with a short description of your research interest. Please include your contact information and an indication of the preferred starting date (max. 1 page)\nCV including details of all academic merits (including publications) and contact information of two referees (max. 3 pages). As referees, please inform the contact information of the previous supervisors.\nSummary of your Ph.D. thesis and previous work related to the project (max. 1 page)\nCopy of your Ph.D. degree certificate and a transcript of studies (with a clear explanation of the grading scale)\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via Aalto University open positions.\nThe deadline for applications is August 14, 2026.\nWe will go through applications, and we may invite suitable candidates to interview already during the application period. Please note that the position will be filled as soon as a suitable candidate is identified.\nFor additional information, kindly contact Dr. Zhongpeng Lyu,\nzhongpeng.lyu@aalto.fi\n.\nAalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.\nWant to know more about us and your future colleagues? You can watch these videos:\nAalto University – Towards a better world\n,\nAalto People\n,\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\n.\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi/\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was just listed again as the happiest country in the world:\nhttps://www.worldhappiness.report/\n.\nFor more information about living in Finland:\nhttps://www.aalto.fi/en/careers-at-aalto/living-in-finland\n&\nhttps://www.aalto.fi/en/services/welcome-to-aalto-university-and-finland-info-package\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position in 2D material nanocomposites for tunable photonics, focused on MXene-based materials synthesis, thin-film device fabrication, electrochemistry, and characterization. Part of the Multifunctional Nanocomposite group in Applied Physics.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "No thematic alignment. Materials science, photonics device physics, and electrochemistry have no connection to human-centred HCI, collaborative immersive systems, spatial cognition, or learning. The research is pure materials/device science."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Minimal methodological fit. The position requires wet chemistry synthesis, clean-room fabrication (TEM, SEM, XRD, XPS, NMR, IR, Raman characterization), and electrochemical device fabrication. The researcher has no hands-on experience in materials characterization, thin-film deposition, or chemistry synthesis. User studies, HCI evaluation, and experimental design in social systems are not applicable."
+    },
+    "growth_value": {
+      "score": 1,
+      "rationale": "This position would require acquiring entirely new technical competencies (materials characterization, electrochemistry, clean-room lab work) that do not advance capabilities in human-centred research, spatial learning, or collaborative systems. No growth vector toward target identity."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "Aalto is a strong institution with good research infrastructure. However, joining Applied Physics would separate the researcher from HCI and immersive systems communities. The position is postdoctoral, which is beyond the target role (doctoral researcher / PhD candidate). No pathway to European HCI networks or the researcher's stated target groups."
+    },
+    "required_skills": [
+      "qualitative-research",
+      "mixed-methods"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "qualitative-research",
+      "mixed-methods"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Postdoctoral position, but researcher is MSc by Research (in progress, thesis stage) and has not yet completed PhD; ineligible",
+      "No background in materials science, chemistry, physics, or materials characterization",
+      "No hands-on clean-room or thin-film fabrication experience",
+      "No wet chemistry synthesis or electrochemistry background"
+    ],
+    "risks": [
+      "Career level mismatch: position is postdoctoral; researcher is not yet PhD-qualified",
+      "Fundamental domain mismatch: materials science vs. human-centred HCI",
+      "No transferable technical skills; would require retraining from scratch",
+      "No existing recommendation from materials science or applied physics domain"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-23T09:00:28.583170Z",
+    "analysis_input_hash": "f2cc7c0a904b6d7b74951640170189749b874da984f026914bee7acc8a74ee88"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 4,
     "urgency": "medium",
-    "days_to_deadline": 23,
+    "days_to_deadline": 22,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
