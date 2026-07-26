@@ -7,7 +7,7 @@ deadline: 2026-08-16
 status: open
 eligibility_gate: fail
 fit_overall: 18
-urgency: medium
+urgency: high
 needs_review: false
 ---
 
@@ -24,7 +24,7 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **fail** (days to deadline: 22)
+Gate: **fail** (days to deadline: 21)
 
 - country 'Hong Kong' is outside allowed regions ['Europe']
 
