@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-28
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 7
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 33)
+Gate: **uncertain** (days to deadline: 32)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -98,7 +98,29 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+TU Delft 4-year PhD on ultrasonic surface-acoustic-wave sensors for non-invasive, real-time measurement of fluid viscosity and flow. Applications span food, pharmaceutical, semiconductor production and environmental monitoring. Collaboration with Twente University and industry sensor developers.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 9 |
+| Growth value | 1 |
+| Strategic value | 18 |
+| **Overall** | **7** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** ultrasonic-physics, signal-processing, sensor-design, resonance-characterization, cpp
+
+**Risks:**
+- Fundamental qualification mismatch: MSc in creative multimedia vs. required MSc in physics, mechanical engineering, or materials science.
+- Thematic distance is extreme: ultrasonic sensor physics is in core excluded domain (embedded systems, pure hardware/physics optimization).
+- Experimental focus is physics-lab based (resonance characterization, signal-to-noise optimization); researcher's experimental background is human-subjects methodology—incompatible epistemologies.
+- 4-year PhD in sensor engineering would delay doctoral work in target area (human-centred XR) with zero knowledge transfer.
+- Supervisor (Dr. G.J. Verbiest, Prof. P.G. Steeneken) and group expertise (ultrasonic physics, device optimization) do not overlap with HCI or immersive-systems research.
+- Position requires 'Applying for an exemption for specific research and educational areas' from Ministry of Education—administrative barrier; unclear if multimedia researcher would qualify.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-sensing-viscosity-with-ultrasound.md` and link [[opp_tudelft-phd-position-sensing-viscosity-with-ultrasound]]._

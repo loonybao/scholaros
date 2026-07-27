@@ -1,0 +1,127 @@
+---
+id: opp_tudelft-internal-postdoc-in-safety-assessment-and-strengthen
+type: opportunity
+title: "Internal: Postdoc in Safety Assessment and Strengthening Technology of Existing Concrete Bridges"
+organisation: "TU Delft"
+deadline: 2026-08-25
+status: open
+eligibility_gate: uncertain
+fit_overall: 8
+urgency: medium
+needs_review: true
+---
+
+# Internal: Postdoc in Safety Assessment and Strengthening Technology of Existing Concrete Bridges
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-08-25
+**Location:** Delft, Netherlands
+**Position type:** postdoc
+**Salary:** €3706 - €5760 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-Internal-Postdoc-in-Safety-Assessment-and-Strengthening-Technology-of-Existing-Concrete-Bridges-2628-CD/1367740057/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 29)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Postdoc Opportunity: Safety assessment and strengthening technology of existing concrete bridges.
+Job description
+About the Project: A large proportion of the existing concrete bridges in the Netherlands were built in the 1960s and 1970s and were not designed for today's heavy traffic demands. Significant increases in traffic loads, evolving standards, and natural degradation mean that much of this infrastructure no longer meets modern safety and structural requirements. Given the high traffic density of the Dutch highway network and the massive scale of the necessary renewal program, extending the service life of these structures is essential. Developing sustainable, cost-efficient assessment and strengthening methods is a critical alternative to conventional demolition and replacement.
+To this end, it is vital to establish accurate assessment procedures based on modern design and assessment standards. For structures that do not fulfill current safety requirements, targeted structural strengthening offers a significantly more sustainable solution.
+In this research project, you will focus on conducting desktop studies covering two main areas:
+Align the next-generation Eurocode framework to safety assessment practices with the engineering practice in the Netherlands, apply modification and/or refinements of Rijkswaterstaat guidelines based on Eurocode.
+Evaluating technical solutions for the structural strengthening of concrete bridges based on Dutch bridge design.
+Your Role as a Postdoc: Your work will involve:
+Developing modifications and refinement of guidelines based on the theoretical background of the next-generation Eurocode for Dutch concrete bridge assessment. You will integrate these modifications into updates for the RBK (Richtlijnen Beoordeling Kunstwerken), the official guideline for assessing existing civil structures developed by Rijkswaterstaat.
+Conducting comprehensive literature reviews on relevant structural strengthening techniques, including the underlying safety philosophies tailored to typical Dutch concrete bridges.
+Conducting interviews and consultations with industry and market parties to assess commercial needs and gather available practical experience regarding bridge strengthening.
+Organizing international workshops with global experts in the field of strengthening technology to evaluate strengthening technologies to the current state of art.
+Identifying future research challenges and strategic directions for strengthening technology based on your literature reviews, stakeholder consultations, and workshop findings.
+Your Profile and Environment: You will join the Concrete Structures section within the Department of Engineering Structures at TU Delft. In this role, you will work closely with key industrial partners, primarily Rijkswaterstaat and TNO. This position offers an exceptional opportunity to collaborate broadly with both the international research community and the Dutch construction industry. Through project-embedded workshops, you will gain excellent professional exposure and high-level networking opportunities.
+The Department of Engineering Structures focuses on the development of resilient, smart and sustainable structures and infrastructures. Our aim is to meet societal demands in transportation, the energy transition and sustainable reuse. Research themes include dynamics of structures, mechanics of materials related to e.g. climate change, modelling and design of railway systems, multi-scale modelling of pavement materials and structures, reuse of materials, structures and parts of structures, assessment methods for structures, smart monitoring techniques, design methods, replacement and renovation of civil infrastructure and development of new materials and maintenance techniques. Our unique Macro Mechanics Laboratory facilities support full-scale testing, monitoring and modelling of structures to facilitate implementation of innovations. The department delivers both groundbreaking research and world-class education for undergraduate and graduate students. As a team, we represent different backgrounds, skills and views. We foster an inclusive culture, as our combined identities, attitudes and ambitions widen our perspective and make up our strengths
+Job requirements
+You are a motivated researcher with a Ph.D. degree and a solid academic foundation in structural concrete, specifically focusing on the assessment of existing concrete structures. You have a keen interest in exploring and adopting new technologies, backed by a strong theoretical understanding of the field.
+A central part of your role will involve engaging with a wide variety of stakeholders—including asset owners, contractors, researchers, and technology developers. Leveraging your excellent communication skills and deep theoretical knowledge, you can translate insights gathered from these diverse parties into well-defined, actionable research plans that address real-world engineering challenges.
+Requirements:
+A Ph.D. degree in Concrete Structures, Civil Engineering, or a closely related discipline.
+A solid background and strong interest in at least one of the following areas: Assessment of existing concrete structures (with or without deterioration); Structural strengthening of existing concrete structures; Design or advanced modeling of concrete structures.
+Outstanding communication and interpersonal skills, with a proven ability to collaborate effectively in a dynamic environment alongside diverse stakeholders.
+TU Delft (Delft University of Technology)
+Working at TU Delft means contributing to solutions that really make a difference.
+For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
+At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
+Faculty of Civil Engineering and Geosciences
+The Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.
+Click here to go to the website of the Faculty of Civil Engineering & Geosciences.
+Conditions of employment
+Duration of contract is 1,5 year. Temporary.
+A job of 32-40 hours per week.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+An excellent pension scheme via the ABP.
+The possibility to compile an individual employment package every year.
+Discount with health insurers on supplemental packages.
+Flexible working week.
+Every year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.
+Plenty of opportunities for education, training and courses.
+Partially paid parental leave
+Attention for working healthy and energetically with the vitality program.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.
+Additional information
+For more information about this vacancy, please contact Yuguang Yang
+yuguang.yang@tudelft.nl
+or Sandra Barbosa Nunes
+s.c.barbosanunes@tudelft.nl
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+25 August 2026
+via the application button and upload the following documents:
+CV.
+Cover/motivation letter explaining your interest and your qualifications for this position, a proposal on how you would approach the described problem and how your skills match the requirements.
+MSc + PhD degree.
+300 words abstract of your MSc and PhD thesis.
+publication list.
+two selected publications.
+proof of English language proficiency (TOEFL, IELTS or Cambridge).
+If your MSc and PhD diploma and transcript are not in Dutch, English, French or German and you will be the selected candidate, the TU Delft will ask you to deliver a certified translation in case you will be appointed.
+Please note:
+You can apply online. We will not process applications sent by email and/or post.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+TU Delft postdoctoral position in structural assessment and strengthening of existing concrete bridges, focused on Eurocode alignment, guideline refinement, and stakeholder engagement. Desk-based and consultative research embedded in Dutch civil infrastructure policy and industry practice.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 12 |
+| Growth value | 2 |
+| Strategic value | 20 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** structural-mechanics, materials-science, concrete-durability, civil-standards-alignment
+
+**Risks:**
+- Fundamental qualification mismatch: position explicitly requires PhD in concrete structures or civil engineering. Researcher's MSc is in multimedia/creative technology.
+- Thematic distance is extreme: no pathway from immersive-learning XR to bridge engineering.
+- Role is inherently not experimental or design-focused in the way researcher practices (iterative XR prototyping, user evaluation). Desk-based guideline refinement is misaligned with hands-on research style.
+- Position is 'internal' posting; visibility and competitiveness for external candidates may be unclear.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-internal-postdoc-in-safety-assessment-and-strengthen.md` and link [[opp_tudelft-internal-postdoc-in-safety-assessment-and-strengthen]]._

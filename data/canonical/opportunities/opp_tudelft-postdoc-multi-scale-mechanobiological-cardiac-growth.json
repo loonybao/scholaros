@@ -1,0 +1,180 @@
+{
+  "id": "opp_tudelft-postdoc-multi-scale-mechanobiological-cardiac-growth",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-27T10:06:45.525792Z",
+  "updated_at": "2026-07-27T10:23:59.627776Z",
+  "change_history": [
+    {
+      "ts": "2026-07-27T10:06:45.525895Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-27T10:23:59.431952Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-27T10:23:59.627776Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Multi-Scale Mechanobiological Cardiac Growth and Remodelling",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1366959457",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Multi-Scale-Mechanobiological-Cardiac-Growth-and-Remodelling-2628-CD/1366959457/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Multi-Scale-Mechanobiological-Cardiac-Growth-and-Remodelling-2628-CD/1366959457/",
+    "evidence_ids": [
+      "tudelft/1366959457"
+    ],
+    "retrieved_at": "2026-07-27T10:06:45.525681Z",
+    "raw_snapshot_hash": "5e24cf661e77f80579f47d37cb8a1385bd77a5179259121fc9e4c7b083e15bed",
+    "extracted_content_hash": "cf151d133df0980865b5dce5c73122c99d5b7eef3966d676f9f54d6b60a09422",
+    "deadline": "2026-09-15",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3546 - €5538 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Challenge: Predict long-term cardiac growth and remodeling in cardiovascular disease.\nChange: Develop multi-scale mechanobiological models for virtual human twins.\nImpact: Advance patient-specific modeling of disease progression and treatment response.\nJob description\nCardiovascular disorders often progress over months to years through complex interactions between myocardial mechanics, tissue adaptation, systemic hemodynamic and biochemical regulation. To understand and predict these processes, virtual human twins need to move beyond acute simulations of cardiac function and incorporate long-term growth and remodeling of the heart.\nAt Delft University of Technology, we are looking for a postdoctoral researcher to develop next-generation computational models of cardiac growth and remodeling within\nVITAL: Virtual Twins as Tools for Personalized Clinical Care\n, a European Union-funded Horizon Europe project. VITAL develops clinically relevant virtual human twin technology for personalized cardiovascular care. Within the consortium, TU Delft contributes expertise in cardiac mechanics, soft tissue modeling, growth and remodeling, machine learning, and uncertainty-aware model personalization.\nAs a postdoctoral researcher, you will develop, implement, and analyze cardiac growth and remodeling models in finite element frameworks for cardiac mechanics. Your work will focus on bio-chemo-mechanical and constituent-specific remodeling laws that describe chronic changes in myocardial structure and function. You will couple tissue-level cardiac mechanics to systemic hemodynamic and neurohumoral inputs within the VITAL consortium and contribute to patient-specific or cohort-level virtual human twin simulations.\nYou will also contribute to patient-specific model calibration workflows, including sensitivity analysis, uncertainty-aware parameter estimation, surrogate modeling, and reduced-order modeling where relevant. The scientific emphasis is mechanics-first: we are looking for someone with strong foundations in nonlinear mechanics, finite element modeling, and multi-scale biomechanics who is motivated to work at the interface of cardiac mechanobiology, machine learning, and scientific software development.\nYou will be part of the lab of dr. ir. M. Peirlinck in the Department of BioMechanical Engineering at TU Delft. Our group combines nonlinear mechanics, computational modeling, experimental and clinical data, and machine learning to understand and predict the behavior of cardiovascular tissues and organs across scales. You will work closely with PhD students, MSc students, and international VITAL partners. This is a full-time, on-site postdoc position based at TU Delft in Delft. The initial appointment is for one year, with the possibility of extension, subject to progress and project conditions.\nIn this role, you will:\nDevelop bio-chemo-mechanical cardiac growth and remodeling laws for chronic changes in myocardial structure and function\nImplement these laws in finite element cardiac mechanics frameworks\nCouple tissue-level cardiac mechanics to systemic hemodynamic and neurohumoral inputs within the VITAL consortium\nContribute to patient-specific and cohort-level virtual human twin simulations\nContribute to patient-specific calibration, uncertainty-aware parameter estimation, and model reduction workflows\nDevelop robust, reusable, and well-documented scientific software in collaboration with other researchers\nPublish high-quality journal articles and present your work at international conferences\nContribute to the mentorship/support of PhD and MSc students and participate in the scientific life of the lab and consortium\nThis position is an opportunity to work at the interface of rigorous computational mechanics, mechanobiology, machine learning, and translational cardiovascular modeling. We are looking for a motivated researcher who wants to develop scientific ideas while contributing to a larger international team effort.\nJob requirements\nYou are an ambitious, independent and collaborative researcher with a strong background in computational mechanics and a clear interest in cardiovascular growth and remodeling. We are looking for a mechanics-first profile: rigorous training in nonlinear mechanics, finite element modeling, and multi-scale biomechanics is most important, while experience applying these methods to cardiovascular problems is a plus.\nRequired qualifications\nA PhD in mechanical engineering, applied mathematics, computational science, biophysics, biomedical engineering, or a closely related field.\nStrong background in nonlinear continuum mechanics, tensor algebra, and finite element modeling.\nExperience with computational solid mechanics, computational soft tissue mechanics, or a closely related mechanics field.\nWell-developed coding expertise in Python, Julia, C++, Fortran, or a similar scientific computing language.\nExperience with Git and collaborative scientific software development.\nExcellent analytical and problem-solving skills, and excellent written and spoken English.\nAbility to work independently while contributing to a multidisciplinary consortium.\nNice-to-haves\nKnowledge of cardiovascular biomechanics, growth and remodeling theory, mechanobiology, active cardiac mechanics, or adaptive soft tissue modeling.\nExperience developing or extending finite element software or research codes.\nPractical experience with Abaqus, deal.II, FEniCS, JAX-FEM, or comparable finite element frameworks.\nExperience with uncertainty quantification, Bayesian inference, inverse modelling, parameter estimation, or model calibration.\nExperience with high-performance computing, surrogate modelling, reduced-order modelling, or machine-learning-assisted computational mechanics.\nExperience with patient-specific modelling, or virtual cohort simulations.\nInterest in mentoring students, scientific writing, and future proposal development.\nTo help us assess your fit, please use your motivation letter to explain how your background connects to the required qualifications and nice-to-haves. We encourage candidates to apply even if they do not meet every nice-to-have, provided they have a strong foundation in computational mechanics and scientific software development.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 1 year Temporarily with a posibility for extension\nA job of 38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact\nrecruitment-me@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n15 September 2026\nvia the application button and upload the following documents:\nMotivation letter or research statement explaining your interest in the position and how your background connects to the project.\nDetailed CV, including a list of publications.\nCopy of your PhD degree and transcript.\nAt least two relevant publications. Additional publications are welcome.\nIf the applicants are selected for an interview, they will be asked to provide names and contact information of at least three relevant references, with their consent.\nRecruitment interviews may start before the application deadline, so we encourage interested candidates to\napply as soon as possible\n.\nPlease note:\n#EUfunded This is an EU funded project, named VITAL - Virtual Twins as Tools for Personalised Clinical Care, with project number 101136728, within program Horizon Europe (HORIZON)\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in computational cardiac biomechanics at TU Delft, developing multi-scale mechanobiological models of cardiac growth and remodeling within the EU-funded VITAL project. The role combines finite element modeling, mechanobiology, machine learning, and scientific software development for patient-specific cardiovascular simulations.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The researcher's expertise is in human-centered immersive systems, spatial cognition, and collaborative learning—domains entirely orthogonal to cardiac biomechanics and mechanobiology. No thematic overlap exists between university orientation through XR and computational cardiac remodeling. The position is domain-specific cardiology research with no immersive systems, HCI, or learning science component."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "While both involve computational work and scientific software, the methodological alignment is superficial. The researcher has intermediate quantitative research and experimental design skills applicable to user studies and spatial learning. However, the position demands rigorous nonlinear continuum mechanics, tensor algebra, finite element modeling, and multi-scale biomechanical simulation—none of which appear in the researcher's profile. The researcher's coding (C#, beginner Python) does not match the required scientific computing stack (Python, Julia, C++, Fortran for FEM frameworks). User-study methodology and gamification design transfer minimally to inverse modeling and parameter estimation workflows."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "This position would not close capability gaps aligned with the researcher's stated target identity. The researcher aims to deepen expertise in human-centered XR, spatial cognition, collaborative systems, and immersive learning design—none of which are addressed by cardiac biomechanics work. Learning computational mechanics would represent a complete domain pivot, not career progression toward the stated target."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "TU Delft is a high-quality institution in a target country (Netherlands, within Europe). The VITAL project is EU-funded and well-established, offering institutional prestige and network access. However, strategic value is heavily undermined by thematic misalignment: joining a cardiology biomechanics lab does not advance the researcher's PhD prospects in HCI/immersive systems or strengthen ties to Aalto/TU Delft's HCI/XR communities. Position type (postdoc) also does not match stated target (PhD-candidate or doctoral researcher pathway)."
+    },
+    "required_skills": [
+      "python",
+      "cpp",
+      "statistics",
+      "experimental-design",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "cpp",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD in mechanical engineering, applied mathematics, computational science, biophysics, or biomedical engineering. Researcher holds MSc by Research (in progress); eligibility depends on PhD completion timeline and field. Current degree is in Creative Multimedia/HCI, not a listed discipline.",
+      "Strong background in nonlinear continuum mechanics, tensor algebra, finite element modeling required; researcher has no documented experience in any of these areas.",
+      "Posting lists FEM frameworks (Abaqus, deal.II, FEniCS, JAX-FEM) as nice-to-haves; researcher has no experience with scientific computing frameworks beyond game engines.",
+      "Position is postdoc-level; researcher's stated target positions are doctoral researcher, PhD-candidate, project-researcher, or research-assistant-with-PhD-pathway. Career stage mismatch."
+    ],
+    "risks": [
+      "Extreme domain pivot from human-centered XR/HCI to cardiac biomechanics would delay or derail PhD entry into target field.",
+      "Skill gaps in continuum mechanics, FEM, and scientific computing are substantial and would require >6–12 months of foundational retraining.",
+      "Postdoc position does not align with stated target position types (doctoral/PhD pathway); risks positioning researcher outside target career trajectory.",
+      "No immersive systems, HCI, learning science, or spatial cognition work in this role; no opportunity to deepen core research identity or network in priority research communities.",
+      "Geographic fit (Netherlands) is positive, but institutional fit within TU Delft is weak—joining Biomechanical Engineering rather than HCI/design groups limits future collaboration with relevant faculty.",
+      "Group expertise (cardiac mechanics, machine learning, biomechanics) is orthogonal to researcher's skill set and interests; mentorship and collaboration value is low."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-27T10:23:59.431463Z",
+    "analysis_input_hash": "4a31d3fb8fb47ccb46f2aade9bd0f0a0004d4205c71d24e9e97689f5004ff02b"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 12,
+    "urgency": "low",
+    "days_to_deadline": 50,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

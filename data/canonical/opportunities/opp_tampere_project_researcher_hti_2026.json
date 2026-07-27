@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T13:08:13.135307Z",
-  "updated_at": "2026-07-26T08:54:52.905408Z",
+  "updated_at": "2026-07-27T10:23:59.562982Z",
   "change_history": [
     {
       "ts": "2026-07-17T13:08:13.136310Z",
@@ -340,6 +340,15 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-27T10:23:59.562982Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -456,8 +465,8 @@
       "completed degree required and expected MSc completion (2027-07-31, estimated) is after the stated-but-negotiable start 2026-09-01 — recruiter confirmation required"
     ],
     "fit_overall": 89,
-    "urgency": "high",
-    "days_to_deadline": 8,
+    "urgency": "urgent",
+    "days_to_deadline": 7,
     "needs_review": true,
     "timing_assessment": "timing_mismatch"
   },

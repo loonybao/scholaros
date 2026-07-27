@@ -7,7 +7,7 @@ deadline: 2026-08-03
 status: open
 eligibility_gate: uncertain
 fit_overall: 26
-urgency: high
+urgency: urgent
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 8)
+Gate: **uncertain** (days to deadline: 7)
 
 - position country unknown
 - funding/salary not confirmed on the posting
