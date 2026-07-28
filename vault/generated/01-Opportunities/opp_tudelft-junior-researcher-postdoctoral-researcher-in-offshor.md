@@ -1,0 +1,129 @@
+---
+id: opp_tudelft-junior-researcher-postdoctoral-researcher-in-offshor
+type: opportunity
+title: "Junior Researcher / Postdoctoral Researcher in Offshore Geotechnics"
+organisation: "TU Delft"
+deadline: 2026-08-23
+status: open
+eligibility_gate: uncertain
+fit_overall: 14
+urgency: medium
+needs_review: true
+---
+
+# Junior Researcher / Postdoctoral Researcher in Offshore Geotechnics
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-08-23
+**Location:** Delft, Netherlands
+**Position type:** phd
+**Salary:** €3706 - €5760 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-Junior-Researcher-Postdoctoral-Researcher-in-Offshore-Geotechnics-2628-CD/1367775157/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 26)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+TU Delft is looking for a Junior Researcher to contribute to research in offshore geotechnics, focusing on the installation, operational performance and decommissioning of offshore foundation systems.
+Job description
+Would you like to contribute to research on the foundations that support offshore wind infrastructure throughout their full life cycle?
+We are looking for a motivated Junior Researcher to support ongoing research projects in offshore geotechnics at TU Delft. The research focuses on offshore foundation systems, from their installation and operational performance to their decommissioning at the end of their service life.
+Y
+ou will contribute to research on offshore wind foundations, including monopiles, suction caissons and other foundation concepts. The work aims to improve our understanding of soil–foundation interaction under complex offshore loading conditions. Relevant topics include installation effects, cyclic and dynamic loading, long-term performance, and the removal or reuse of foundations.
+You will work closely with academic staff, PhD candidates and project partners. Depending on the needs of the projects and your background, your activities may include:
+Conducting literature reviews.
+Processing and analysing data.
+Supporting numerical modelling and analytical research.
+Supporting laboratory or centrifuge testing.
+Preparing technical documentation, research reports and presentations.
+Contributing to scientific publications.
+This position is primarily intended for a recent MSc graduate who would like to gain experience in scientific research. As a Junior Researcher, you will support the research activities of our academic staff and PhD candidates, while further developing your own expertise in offshore geotechnics.
+Candidates with a completed PhD and a strong relevant profile may be considered for appointment at postdoctoral level. At this level, the role will involve greater scientific independence and responsibility. The postdoctoral researcher will be expected to take a more substantial role in developing and conducting research activities, interpreting research results, and contributing to scientific publications and collaboration within the research projects.
+You will join the Department of Hydraulic Engineering at TU Delft’s Faculty of Civil Engineering and Geosciences. The department conducts research and education in hydraulic, coastal, river and offshore engineering. Within this international academic environment, you will contribute to research related to offshore wind energy and sustainable offshore infrastructure.
+Job requirements
+For appointment as a Junior Researcher, you have:
+A MSc degree in civil engineering, geotechnical engineering, offshore engineering or a related field.
+An interest in offshore wind foundations and offshore geotechnical engineering.
+Good analytical and problem-solving skills.
+Experience with data analysis, numerical modelling or programming, for example in MATLAB, Python or similar tools.
+Good written and verbal communication skills in English.
+The ability to work independently while contributing effectively to a research team.
+For appointment at postdoctoral level, you additionally have:
+A PhD in geotechnical engineering, offshore engineering or a related field.
+Relevant experience in scientific research.
+The ability to independently develop and carry out research activities.
+Experience with scientific writing and publications.
+The ability to take greater responsibility within collaborative research projects.
+TU Delft (Delft University of Technology)
+Working at TU Delft means contributing to solutions that really make a difference.
+For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
+At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
+Faculty of Civil Engineering and Geosciences
+The Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.
+Click here to go to the website of the Faculty of Civil Engineering & Geosciences.
+Conditions of employment
+Duration of contract is 20 months. Temporary.
+A job of 38 hours per week.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+An excellent pension scheme via the ABP.
+The possibility to compile an individual employment package every year.
+Discount with health insurers on supplemental packages.
+Flexible working week.
+Every year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.
+Plenty of opportunities for education, training and courses.
+Partially paid parental leave
+Attention for working healthy and energetically with the vitality program.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.
+Additional information
+For more information about this vacancy, please contact Dr. E. (Vagelis) Kementzetzidis (
+E.Kementzetzidis@tudelft.nl
+).
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+23 August 2026
+via the application button and upload the following documents:
+CV.
+A cover letter (max. 1 page).
+MSc transcript.
+Please note:
+You can apply online. We will not process applications sent by email and/or post.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+TU Delft seeks a Junior Researcher or Postdoctoral Researcher in offshore geotechnics to support research on foundation systems for offshore wind energy, including installation, operational performance, and decommissioning. The 20-month position involves literature reviews, data analysis, numerical modelling, and laboratory/centrifuge testing.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 20 |
+| Growth value | 5 |
+| Strategic value | 25 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** geotechnical-engineering, numerical-modelling, centrifuge-testing, soil-mechanics, finite-element-analysis
+
+**Risks:**
+- Severe domain mismatch: offshore geotechnics vs. human-centred immersive systems.
+- Career trajectory risk: junior researcher role in unrelated domain could delay PhD pathway into HCI.
+- Skill gap: numerical modelling and centrifuge testing are outside the researcher's expertise.
+- Weak institutional fit despite TU Delft's status: wrong department and research group for target identity development.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-junior-researcher-postdoctoral-researcher-in-offshor.md` and link [[opp_tudelft-junior-researcher-postdoctoral-researcher-in-offshor]]._

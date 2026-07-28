@@ -1,0 +1,178 @@
+{
+  "id": "opp_tudelft-postdoc-in-tsunami-engineering",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-28T08:44:22.085665Z",
+  "updated_at": "2026-07-28T09:07:43.125824Z",
+  "change_history": [
+    {
+      "ts": "2026-07-28T08:44:22.085783Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-28T09:07:33.765585Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-28T09:07:43.125824Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in Tsunami Engineering",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1367777357",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Tsunami-Engineering-2628-CD/1367777357/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Tsunami-Engineering-2628-CD/1367777357/",
+    "evidence_ids": [
+      "tudelft/1367777357"
+    ],
+    "retrieved_at": "2026-07-28T08:44:22.085519Z",
+    "raw_snapshot_hash": "d48608a06124b7013cc3879efaaad886a433d9be01c76a7712b479bba0129037",
+    "extracted_content_hash": "d5ff5757d0f24f1705a568cf0332116b55960a120de4c52cff0bd43c32d8def2",
+    "deadline": "2026-09-01",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Work on globally unique experimental data to shape understanding of tsunami inundation of coastlines and interaction with buildings.\nJob description\nTsunami engineering is a field that has grown rapidly over the last 22 years, spurred by a number of devastating events. In particular, the 2004 Indian Ocean Tsunami that devastated coastlines across the Indian Ocean and killed over 230,000 people across 14 countries, resulted in a significant worldwide effort towards a better characterisation of tsunami induced scour and forces on structures. The subsequent 2010 Maule earthquake and tsunami in Chile and 2011 Tohoku Earthquake and Tsunami in Japan, which damaged numerous modern engineered buildings, industrial facilities, bridges and large coastal defence infrastructure, resulted in the revision of building codes for tsunami design and the development of analytical methods for assessing buildings under tsunami loads. Despite this growth in activity, there are still many areas of tsunami interactions with the built environment that are not well understood.\nWe are looking for an enthusiastic and talented Postdoctoral Researcher to join the Hydraulic Engineering Department at TU Delft and contribute to this global effort in advancing Tsunami Engineering.\nThis role specifically aims to build insights from the extensive tsunami experimental programmes already conducted under the ERC funded URBANWAVES project and in the MAKEWAVES project. In both projects, experiments were conducted in very large flumes at HR Wallingford (UK) using a pneumatic tsunami simulator that is globally unique in its capacity to generate waves with representative tsunami wavelengths. The experiments involved the simulation of tsunami of different form and wavelengths propagating along the flume, running up a beach and interacting with engineered coastal defence structures, natural defences, single and multiple buildings with different characteristics founded on solid and mobile sediment beds. This rich dataset has only been partly published and presents a unique opportunity to develop new knowledge and insights on both the physics of these destructive waves and their interaction with the built and natural environment.\nIn this role, you will analyse data sets from the experimental programmes to develop new insights, which you will disseminate through academic publications and outreach materials aimed at influencing the development of future codes of practice. For the latter, new insights into loading on structures may also be translated into structural response impacts using the structural analysis software OpenSEES and the bespoke VDPO toolkit for tsunami analysis of structures developed by the group. For this work, beyond TU Delft, you will need to collaborate with a wider consortium of international researchers, academics and engineers that contributed to the experimental campaigns (i.e. from University College London, HR Wallingford, London Southbank University, Imperial College. University of Naples Federico II, and others).\nOur team promotes a healthy and collaborative work environment where diverse perspectives are valued, and where you will receive full support to develop your skills and expertise, including mentoring, opportunities to co-supervise students, and access to TU Delft’s training programme.\nThis vacancy is positioned within the globally recognized Department of Hydraulic Engineering (HE), known for its excellence in education, research, and career development, addressing key challenges like climate change, energy transition, and biodiversity loss. The department boasts cutting-edge facilities, a collaborative culture, and a diverse team, including 68 permanent staff, and over 100 PhD students and postdocs driving innovative research.\nJob requirements\nWe are looking for a highly motivated candidate with the following qualifications:\nA PhD in Civil (Hydraulic) Engineering, Mechanical Engineering, or a closely related discipline. n.b. PhD thesis must have been submitted by start of the appointment.\nStrong skills in data processing, signal analysis, and programming (e.g. Python/Matlab)\nDemonstrated experience in publishing scientific journal papers\nAbility to work well independently as well as in a multi-disciplinary team.\nFluent in English (oral and written).\nAvailability to start on or before January 2027.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 24 months. Temporary.\nA job of 38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Professor Tiziana Rossetto at\nt.rossetto-1@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than 1\nSeptember 2026\nvia the application button and upload the following documents:\nA detailed Curriculum Vitae, including your list of publications.\nA cover letter (max. 1 page) describing your motivation and qualifications for the position.\nApplicants selected for an interview will be asked to provide contact information of at least 3 references.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "A 24-month postdoctoral position analyzing experimental tsunami datasets to develop insights into wave physics, coastal defense interaction, and building response, with focus on data processing, signal analysis, and peer-reviewed publication dissemination.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Minimal thematic alignment. The position is civil/hydraulic engineering focused on tsunami dynamics, coastal defense, and structural loading—none of which connects to human-centred XR, immersive learning, spatial cognition, or collaborative immersive systems. The researcher's work addresses human understanding and interaction; this position addresses physical system dynamics and engineering design codes."
+    },
+    "methodological_fit": {
+      "score": 30,
+      "rationale": "Moderate methodological overlap in data analysis. Both involve processing experimental data, signal analysis, and extracting insights from measurements. The researcher has intermediate quantitative research and statistics skills suitable for tsunami dataset processing. However, the substantive context is entirely different: the researcher works with user behavior and spatial learning outcomes; this position uses geophysical/hydraulic measurement data. The research culture and disciplinary framing are orthogonal."
+    },
+    "growth_value": {
+      "score": 15,
+      "rationale": "Limited growth value. The position would develop the researcher's data processing and signal analysis skills (quantifiable gain), but only marginally. More importantly, it would not close meaningful capability gaps in the researcher's target domain. The researcher needs expertise in immersive learning design, spatial transfer evaluation, multiplayer interaction dynamics, and advanced HCI methods—none addressed by this role. The skills gained (hydraulic data analysis, structural response modeling) are domain-specific and not transferable to immersive systems research."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "TU Delft is geographically well-positioned (Netherlands, priority 2). The Faculty of Civil Engineering is research-strong. However, the research group (Hydraulic Engineering, tsunami focus) is entirely outside HCI and immersive systems. Supervisory expertise (Rossetto, hydraulic engineering) offers no mentoring in human-centred research. Publications and funding connections would be in civil engineering/hazard mitigation, not immersive systems. This positioning could obscure rather than clarify the researcher's HCI identity."
+    },
+    "required_skills": [
+      "python",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "quantitative-research",
+      "academic-writing",
+      "statistics"
+    ],
+    "missing_skills": [
+      "signal-processing",
+      "data-processing-at-scale",
+      "hydraulic-engineering",
+      "structural-mechanics",
+      "openSEES"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD in Civil Engineering, Mechanical Engineering, or closely related field. Researcher holds MSc by Research in creative multimedia—a significant disciplinary gap.",
+      "Position specifies 'strong skills in data processing, signal analysis, and programming (Python/Matlab)'. Researcher has beginner Python only; signal analysis expertise not evidenced in profile.",
+      "Researcher's experience is in HCI-focused experimental work (user studies, spatial cognition evaluation), not geotechnical/hydraulic data analysis. Ramp-up would be substantial."
+    ],
+    "risks": [
+      "Domain mismatch: Civil/hydraulic engineering and human-centred XR/HCI are distinct research communities with different conferences, journals, funding, and career pathways.",
+      "Eligibility concern: PhD requirement in Civil/Mechanical Engineering. Researcher's MSc in creative multimedia does not directly qualify. May require additional credentials or acceptance of a cross-disciplinary position.",
+      "Career clarity: A 24-month postdoc in tsunami engineering could confuse the researcher's research identity. Subsequent HCI/XR positions might question the pivot, requiring explanation and potentially weakening candidacy.",
+      "Opportunity cost: At postdoc stage, the researcher should be establishing independent research identity in immersive systems. This position delays that consolidation and creates narrative discontinuity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.9,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-28T09:07:33.765210Z",
+    "analysis_input_hash": "da9946385547dd30f3a8d6edabb05af4944d63bf72ce920b71108137d26c3aa9"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 19,
+    "urgency": "medium",
+    "days_to_deadline": 35,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

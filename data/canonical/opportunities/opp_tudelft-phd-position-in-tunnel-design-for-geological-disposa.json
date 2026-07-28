@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-27T10:01:43.795653Z",
-  "updated_at": "2026-07-27T10:23:59.590456Z",
+  "updated_at": "2026-07-28T09:07:43.089941Z",
   "change_history": [
     {
       "ts": "2026-07-27T10:01:43.795771Z",
@@ -53,6 +53,29 @@
         "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-28T08:44:00.588183Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.deadline",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-28T09:07:43.089941Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -66,10 +89,10 @@
     "evidence_ids": [
       "tudelft/1367748957"
     ],
-    "retrieved_at": "2026-07-27T10:01:43.795510Z",
-    "raw_snapshot_hash": "7d3df78d598324c72f646d4cb1f5bccdc08ee00625f6d215d0c740100a9b2d9e",
-    "extracted_content_hash": "b3bb4e644bb95de19df22d358b0e39037e0ec78efa81ad1c18128d1bd9a168bd",
-    "deadline": "2025-08-24",
+    "retrieved_at": "2026-07-28T08:44:00.587715Z",
+    "raw_snapshot_hash": "171034472e0aebe978c836a14e32d92fea9f834ca83bcbcdb439b4d41fcb1030",
+    "extracted_content_hash": "aa42f940fe53d41b888bace4f0536c8147f3dd47d86fb03da6d8400ab40b4e53",
+    "deadline": "2026-08-24",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -156,14 +179,14 @@
     "analysis_input_hash": "fb6820a30559b0e8fd078c9160fe2b82a75bbc467c925623535397866e097bc9"
   },
   "derived": {
-    "eligibility_gate": "fail",
+    "eligibility_gate": "uncertain",
     "eligibility_reasons": [
-      "application deadline has passed"
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
     "fit_overall": 9,
-    "urgency": "none",
-    "days_to_deadline": -337,
-    "needs_review": false,
+    "urgency": "medium",
+    "days_to_deadline": 27,
+    "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
   "manual": {

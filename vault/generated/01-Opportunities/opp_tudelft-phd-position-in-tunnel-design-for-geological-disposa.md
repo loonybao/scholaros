@@ -3,18 +3,18 @@ id: opp_tudelft-phd-position-in-tunnel-design-for-geological-disposa
 type: opportunity
 title: "PhD Position in Tunnel Design for Geological Disposal of Radioactive Waste"
 organisation: "TU Delft"
-deadline: 2025-08-24
+deadline: 2026-08-24
 status: open
-eligibility_gate: fail
+eligibility_gate: uncertain
 fit_overall: 9
-urgency: none
-needs_review: false
+urgency: medium
+needs_review: true
 ---
 
 # PhD Position in Tunnel Design for Geological Disposal of Radioactive Waste
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
-**Deadline:** 2025-08-24
+**Deadline:** 2026-08-24
 **Location:** Delft, Netherlands
 **Position type:** phd
 **Salary:** €3204 - 4051 per month (stated range)
@@ -24,9 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **fail** (days to deadline: -337)
+Gate: **uncertain** (days to deadline: 27)
 
-- application deadline has passed
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 

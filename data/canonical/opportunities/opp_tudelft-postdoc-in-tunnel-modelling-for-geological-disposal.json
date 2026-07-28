@@ -1,0 +1,177 @@
+{
+  "id": "opp_tudelft-postdoc-in-tunnel-modelling-for-geological-disposal",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-28T08:44:32.798953Z",
+  "updated_at": "2026-07-28T09:07:43.126606Z",
+  "change_history": [
+    {
+      "ts": "2026-07-28T08:44:32.799095Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-28T09:07:33.766576Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-28T09:07:43.126606Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in Tunnel Modelling for Geological Disposal of Radioactive Waste",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1367766757",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Tunnel-Modelling-for-Geological-Disposal-of-Radioactive-Waste-2628-CD/1367766757/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Tunnel-Modelling-for-Geological-Disposal-of-Radioactive-Waste-2628-CD/1367766757/",
+    "evidence_ids": [
+      "tudelft/1367766757"
+    ],
+    "retrieved_at": "2026-07-28T08:44:32.798797Z",
+    "raw_snapshot_hash": "bcf4b8b07139ecd8facaf47a426788170095a2917c725c3a2f96b1f7070a56eb",
+    "extracted_content_hash": "fd70b209faf25d10f08cefc3c9ba4798b358cc41f687a2f3da0a406fa03bbe88",
+    "deadline": "2026-09-07",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Join TUNED and develop the models that will enable engineers to design tunnels in deep clay formations - an essential step in the Netherlands' journey towards safe, long-term disposal of nuclear waste.\nJob description\nAs nuclear energy is set to play an increasingly important role in the Netherlands' energy transition, there is a growing responsibility to safely manage radioactive waste in the long term. Currently, deep geological disposal is recognised as the only feasible solution for the final disposal of radioactive waste. In the Netherlands, deep plastic clay formations are considered as potential host formations for the geological disposal of radioactive waste.\nDesigning tunnels in deep plastic clay formations as found in the Dutch subsurface is technically challenging since these clays deform over time and require a lining to maintain the tunnel stable. At depths of several hundred metres, validated design guidelines for this combination of challenges do not yet exist, which limits optimal decision-making.\nThis post-doctoral researcher position is part of TUNED (TUnnelontwerp en engineering voor een geologische eindberging in kleilagen in NEDerland), a 4-year research project bringing together TU Delft, COVRA, EURIDICE, Fugro, ONDRAF/NIRAS, and Tunnel Engineering Consultants. TUNED aims to deliver validated methods for tunnel design for disposal facilities in clay formations, reducing the technical and economic uncertainties that currently stand in the way of assessing this option.\nAs a postdoctoral researcher, you will develop models needed to design tunnels with concrete lining at disposal depth. You will address the following questions:\nHow can monitoring data from the HADES underground research laboratory be used to build and validate a high-fidelity reference model of tunnel-clay interaction?\nWhich parameters and mechanisms govern the response of a lined tunnel?\nHow can the complex, time-dependent behaviour of deep plastic clay and segmented concrete lining be captured in models that are simple and efficient enough for parametric design, yet reliable enough to be trusted?\nCan a coupled engineering-level model reliably reproduce the interaction between clay and lining, turning high-fidelity insight into a practical design tool?\nYou will be primarily embedded in the Geo-Engineering section of the Faculty of Civil Engineering and Geosciences, with strong links with the Concrete Structures and Materials and Environment sections. Your supervisory team consists of Anne-Catherine Dieudonné, Wout Broere, Mladena Lukovic, and Erik Schlangen. Anne-Catherine Dieudonné is an expert in clay geomechanics and will act as scientific and technical coordinator of TUNED. Wout Broere is an expert in underground construction, focusing on the geotechnical aspects of (mechanised) tunnelling. Mladena Lukovic is an expert in the structural behaviour of high-performance and durable concretes, with a focus on interfaces in hybrid and reinforced concrete elements. Erik Schlangen is an expert in construction materials, with particular expertise in the fracture mechanics of concrete and self-healing materials. Together, this team offers a rare combination of expertise spanning clay geomechanics, tunnelling, concrete structures and concrete material - and a genuinely collaborative and supportive environment in which to develop as a researcher.\nJob requirements\nNeed-to-haves:\nYou hold a PhD degree in Civil Engineering, Mechanical Engineering, or a related field.\nYou have experience in finite element and constitutive modelling applied to geotechnical engineering, structural engineering, or construction materials.\nYou have a track record of independent research, evidenced by peer-reviewed publications.\nYou have a strong interest in applied, solution-oriented research, and enjoy developing practical, implementable engineering solutions.\nYou are self-motivated, communicate well, and collaborate easily with others.\nYou have excellent written and spoken English (minimum requirement: TOEFL score of 100, or IELTS 7.0 on all sub-skills).\nNice-to-haves:\nYou have experience in the industry.\nYou have some knowledge of Dutch.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 18 months. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Dr. Anne-Catherine Dieudonné (\na.c.dieudonne@tudelft.nl)\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n7 September 2026\nvia the application button and upload the following documents:\nYour CV and a motivation letter covering your research interest and relevant experience in relation to the position.\nYour PhD degree.\nAn abstract of your PhD thesis in English.\nA list of publications.\nTwo selected publications.\nApplicants selected for an interview will be asked to provide contact information of 2 references.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "An 18-month postdoctoral position developing finite element and constitutive models for tunnel design in deep plastic clay formations for radioactive waste disposal, bridging geomechanics, structural behavior, and concrete durability through multi-disciplinary collaboration.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "No thematic alignment. The position is civil engineering/geotechnics focused on tunnel mechanics, clay behavior, concrete lining design, and geological disposal—none of which relates to human-centred XR, immersive learning, spatial cognition, or collaborative immersive systems. The researcher's core identity addresses human understanding and interaction; this position addresses underground construction physics."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "Limited methodological overlap. Both involve model development and validation, but the substance differs fundamentally. The researcher builds models of human spatial understanding and multiplayer collaboration; this position builds finite element and constitutive models of soil-structure interaction. The researcher has intermediate experimental design skills; this requires expertise in FEM, geotechnical constitutive modeling, and parameter identification from long-term monitoring data. Some transferable problem-solving exists, but disciplinary toolsets and research questions are distinct."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Minimal growth value for the researcher's target identity. The position would develop FEM and constitutive modeling skills in a geotechnical context—useful general research skills but not aligned with closing capability gaps in immersive learning design, spatial transfer mechanisms, multiplayer interaction dynamics, or human-centred evaluation methods. The skills gained are domain-specific (clay mechanics, concrete durability) and do not transfer to immersive systems research."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "TU Delft is institutionally strong and geographically aligned (Netherlands, priority 2). The supervisory team (Dieudonné, Broere, Lukovic, Schlangen) is interdisciplinary and supportive—a genuine strength for postdoc development. However, the research group (geotechnical/civil engineering) is entirely outside HCI and immersive systems. The researcher would build a network in civil engineering with minimal exposure to immersive systems communities, conferences, or funding streams. This positions the researcher as a modeler in geotechnics, not a human-centred XR researcher."
+    },
+    "required_skills": [
+      "statistics",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "statistics",
+      "python"
+    ],
+    "missing_skills": [
+      "finite-element-modelling",
+      "constitutive-modelling",
+      "geotechnical-engineering",
+      "clay-mechanics",
+      "concrete-behaviour",
+      "ABAQUS-or-similar-FEM-software"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD in Civil Engineering, Mechanical Engineering, or related field. Researcher holds MSc by Research in creative multimedia—a significant disciplinary gap. Direct eligibility is questionable.",
+      "Position specifies 'experience in finite element and constitutive modelling applied to geotechnical engineering, structural engineering, or construction materials'. Researcher has no evidence of FEM experience or geotechnical background.",
+      "Position requires 'track record of independent research, evidenced by peer-reviewed publications'. Researcher has 1 first-author journal article and one systematic mapping review in progress—modest but potentially acceptable track record."
+    ],
+    "risks": [
+      "Domain mismatch: Civil/geotechnical engineering and human-centred XR operate in entirely different research paradigms, communities, and career pathways.",
+      "Eligibility barrier: PhD requirement in civil/mechanical engineering. Researcher's MSc in creative multimedia does not directly qualify. Acceptance may depend on hiring committee's openness to cross-disciplinary postdocs.",
+      "Ramp-up burden: FEM and constitutive modeling are specialized skills requiring significant learning. The researcher would enter at a disadvantage relative to candidates with geotechnical PhDs.",
+      "Career narrative risk: A postdoc in tunnel modeling could establish the researcher as a civil engineer, complicating narrative coherence for subsequent HCI/XR positions and requiring explicit career explanation.",
+      "Opportunity cost: At postdoc stage, the researcher should be consolidating and extending expertise in immersive systems research. This position delays that critical consolidation and introduces narrative discontinuity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-28T09:07:33.766206Z",
+    "analysis_input_hash": "915e59366b40cc4a093232709b6e8662622c4471abe1a2de8a203a5b9fa4ed8f"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 12,
+    "urgency": "medium",
+    "days_to_deadline": 41,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

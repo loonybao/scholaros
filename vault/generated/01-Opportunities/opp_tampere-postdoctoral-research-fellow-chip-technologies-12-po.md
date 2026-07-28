@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 7
+fit_overall: 8
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 35)
+Gate: **uncertain** (days to deadline: 34)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -78,7 +78,7 @@ A collaborative environment with opportunities to build international networks a
 Extensive professional career development opportunities. Expansion of your professional network and industrial secondments.
 According to the criteria applied to teaching and research staff under the
 Finnish University Salary System,
-the position of Postdoctoral Research Fellow is placed on level 5-6 of the job requirements scale. The salary will be 4500 euros (€) before employee taxation.
+the position of Postdoctoral Research Fellow is placed on level 5-6 of the job requirements scale. The gross salary will be 4500 euros (€) before employee taxation.
 We offer a wide range of staff benefits, such as occupational health care services, flexible working hours, versatile research infrastructure, modern teaching facilities, excellent sports facilities on campus and several restaurants and cafés on campus with staff discounts. Please read more about
 Tampere University as an employer | Tampere University
 and
@@ -156,25 +156,25 @@ Hakuaika tehtävään päättyy
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Tampere University postdoctoral fellowship in next-generation semiconductor technologies across four interconnected areas: advanced compound materials, novel architectures, chip design, and advanced packaging. Positions are 3-year fixed-term, fully funded, embedded in FutureChips programme with access to fabrication and characterization infrastructure.
+Tampere University is recruiting 12 postdoctoral researchers in next-generation semiconductor technologies across four areas: advanced materials, novel architectures, chip design, and advanced packaging. This is a 3-year funded position in fundamental technology development with access to specialized fabrication infrastructure.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 8 |
-| Growth value | 3 |
+| Methodological fit | 10 |
+| Growth value | 5 |
 | Strategic value | 15 |
-| **Overall** | **7** |
+| **Overall** | **8** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** advanced-materials-characterization, device-physics, semiconductor-fabrication, cpp
+**Missing skills:** materials-science, semiconductor-fabrication, photonics, nanotechnology, chip-design, advanced-packaging
 
 **Risks:**
-- Thematic misalignment is fundamental: pure semiconductor technology development falls squarely in excluded directions (GPU optimisation, embedded systems, pure ML algorithms adjacent to this domain).
-- Postdoctoral position requires completed PhD; candidate is MSc by Research in thesis stage—eligibility contingent on timely defence and award.
-- Security clearance vetting introduces unknown timeline and administrative burden; no information on processing duration or potential barriers.
-- Positioning as 'alternative' to stated target institutions (Aalto, TU Delft) for lack of better XR/HCI options would be strategically unwise; misses research trajectory entirely.
+- Fundamental domain mismatch: semiconductor physics vs. human-centred XR research.
+- Career trajectory risk: accepting this role would signal a pivot away from HCI/immersive systems and could limit future competitiveness for target positions in XR/HCI.
+- Skill gap too large to bridge in 3 years: no foundation in materials characterization, fabrication processes, or semiconductor physics.
+- Does not meet eligibility: requires completed PhD; researcher is at thesis stage of MSc.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-postdoctoral-research-fellow-chip-technologies-12-po.md` and link [[opp_tampere-postdoctoral-research-fellow-chip-technologies-12-po]]._

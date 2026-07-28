@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:32:12.660211Z",
-  "updated_at": "2026-07-27T10:23:59.603944Z",
+  "updated_at": "2026-07-28T09:07:43.103749Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:32:12.660211Z",
@@ -191,6 +191,48 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-07-28T08:52:04.549594Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at",
+        "official.salary_text"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-07-28T09:07:33.761888Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-28T09:07:43.103749Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -204,9 +246,9 @@
     "evidence_ids": [
       "tudelft/1366527757"
     ],
-    "retrieved_at": "2026-07-18T03:32:12.660211Z",
-    "raw_snapshot_hash": "0909267a60ef129f53831908abb27fa346dedaf31c33502918c0001b179557e0",
-    "extracted_content_hash": "4025d4d21365beab71fcba4dcf089ddec3e89f8c2d5615ffb7e4219958b1b266",
+    "retrieved_at": "2026-07-28T08:52:04.549113Z",
+    "raw_snapshot_hash": "db4fa691674b54fc2598b922ca8605baa228462823a4fb797df595736893189b",
+    "extracted_content_hash": "ba2634c00e31758166bd30e7e0e8096d2a55485727a0f778037e377908f87f8d",
     "deadline": "2026-09-08",
     "deadline_note": null,
     "start_date": null,
@@ -216,7 +258,7 @@
     "posted_date": null,
     "position_type": "phd",
     "funding": null,
-    "salary_text": "€3059 - €3881 per month (stated range)",
+    "salary_text": "€3204 - €4051 per month (stated range)",
     "duration_text": null,
     "location": "Delft, Netherlands",
     "language_requirements": [],
@@ -225,55 +267,51 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "How do construction firms turn software into measurable business value? This PhD investigates why digital management tools succeed, stall, or fail in practice.\nJob description\nThis PhD project investigates how construction firms realize value from construction software. The central question is how digital investments are translated into measurable business value. Rather than studying software adoption as a technical issue, the project examines value realisation as an organisational and strategic process. It focuses on the alignment between enterprise-level decision-making and project-level implementation, including tensions between standardisation and flexibility, enterprise integration and project autonomy, and strategic intent and operational use.\nThe research is planned to use a comparative multiple-case study design. You will conduct in-depth empirical research with construction firms undergoing digital transformation. This will include interviews with executives, IT leaders, digital transformation leads, project managers, and site teams; document and data analysis; and, where possible, on-site observation of software use in active project settings. The qualitative case study work will be complemented by a targeted survey of industry decision-makers.\nThe expected outcome is a better understanding of how construction firms define the business case for digital software, how they organize implementation across firm and project levels, and what distinguishes successful, partial, and failed trajectories of value realisation. It should be noted that digital software here refers to field management software and enterprise resource planning (ERP) software, not product modelling software such as Building Information Modelling (BIM), although knowledge of BIM can be helpful. The project will contribute to academic debates on digital transformation, construction management, project-based organizing, and firm performance. It will also produce practical guidance for executives, project teams, and digital transformation leads seeking to make better decisions about construction software implementation.\nYou will be based in the Department of Management in the Built Environment at the Faculty of Architecture and the Built Environment, TU Delft. The project will be supervised by Daniel Hall, Eleni Papadonikolaki, and Hans Wamelink, and will be associated with the DigiConstruct Lab. The PhD will also engage with an industry sponsor – Hilti – and industry partners through regular meetings, workshops, and empirical fieldwork.\nJob requirements\nYou should have:\nA master’s degree in construction management, civil engineering, architecture, built environment studies, management, organisation studies, information systems, innovation studies, or a related field.\nA strong interest in digital transformation, construction software, project-based organizations, and the business value of technology.\nAffinity with empirical research methods, especially qualitative case study research, interviews, observations, and document analysis.\nThe ability to engage with both academic literature and industry practice.\nStrong analytical skills and the ability to connect organisational, technological, and financial perspectives.\nStrong ability to work, write and speak in English. Proficiency in Dutch is an advantage but not required.\nThe ability to work independently towards completion of the PhD (expected 4 years duration) while collaborating with TU Delft research community and proactively with industry practitioners.\nExperience with construction, digital tools, ERP systems, project management software, BIM, field management platforms, or software implementation is an advantage.\nCandidates are encouraged to apply, even if they do not meet all of the requirements above.\nTU Delft (Delft University of Technology)\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nChallenge. Change. Impact!\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Daniel Hall, e-mail:\nd.m.hall@tudelft.nl\n.\nFor more information about the application procedure, please contact Sofie Hennekens, HR Advisor,\ne-mail:\nrecruitment-bk@tudelft.nl\n.\nApplication procedure\nPlease apply no later than\nSeptember 8, 2026\n(local Dutch time + 2 hrs) via the application button and upload the following five items:\nCover letter, maximum one page and 400 words, explaining your motivation for the position and your fit with the research topic.\nCV, including education, relevant work experience, research experience, and relevant skills.\nList of key scientific outputs. Provide a list of 1-3 three selected academic contributions, such as published papers, conference papers, master thesis work, reports, or other relevant outputs. For each selected contribution, include a short narrative (maximum 100 words) explaining why it could be relevant to this PhD position, regarding either its fit with the PhD topic or how it has developed the candidate as a researcher. Applications listing more than three academic contributions will not be considered.\nOne-minute video introduction, in which you briefly introduce yourself and explain why you are a good fit for this PhD position. The video does not need to be professionally produced. A simple recording is sufficient. Please include a link to the video in the text field or upload the video directly.\nContact details of two references who may be contacted later in the selection process.\nThe first round of interviews are planned for 15 September 2026, with a second round to occur in the two weeks following (if required).\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "How do construction firms turn software into measurable business value? This PhD investigates why digital management tools succeed, stall, or fail in practice.\nJob description\nThis PhD project investigates how construction firms realize value from construction software. The central question is how digital investments are translated into measurable business value. Rather than studying software adoption as a technical issue, the project examines value realisation as an organisational and strategic process. It focuses on the alignment between enterprise-level decision-making and project-level implementation, including tensions between standardisation and flexibility, enterprise integration and project autonomy, and strategic intent and operational use.\nThe research is planned to use a comparative multiple-case study design. You will conduct in-depth empirical research with construction firms undergoing digital transformation. This will include interviews with executives, IT leaders, digital transformation leads, project managers, and site teams; document and data analysis; and, where possible, on-site observation of software use in active project settings. The qualitative case study work will be complemented by a targeted survey of industry decision-makers.\nThe expected outcome is a better understanding of how construction firms define the business case for digital software, how they organize implementation across firm and project levels, and what distinguishes successful, partial, and failed trajectories of value realisation. It should be noted that digital software here refers to field management software and enterprise resource planning (ERP) software, not product modelling software such as Building Information Modelling (BIM), although knowledge of BIM can be helpful. The project will contribute to academic debates on digital transformation, construction management, project-based organizing, and firm performance. It will also produce practical guidance for executives, project teams, and digital transformation leads seeking to make better decisions about construction software implementation.\nYou will be based in the Department of Management in the Built Environment at the Faculty of Architecture and the Built Environment, TU Delft. The project will be supervised by Daniel Hall, Eleni Papadonikolaki, and Hans Wamelink, and will be associated with the DigiConstruct Lab. The PhD will also engage with an industry sponsor – Hilti – and industry partners through regular meetings, workshops, and empirical fieldwork.\nJob requirements\nYou should have:\nA master’s degree in construction management, civil engineering, architecture, built environment studies, management, organisation studies, information systems, innovation studies, or a related field.\nA strong interest in digital transformation, construction software, project-based organizations, and the business value of technology.\nAffinity with empirical research methods, especially qualitative case study research, interviews, observations, and document analysis.\nThe ability to engage with both academic literature and industry practice.\nStrong analytical skills and the ability to connect organisational, technological, and financial perspectives.\nStrong ability to work, write and speak in English. Proficiency in Dutch is an advantage but not required.\nThe ability to work independently towards completion of the PhD (expected 4 years duration) while collaborating with TU Delft research community and proactively with industry practitioners.\nExperience with construction, digital tools, ERP systems, project management software, BIM, field management platforms, or software implementation is an advantage.\nCandidates are encouraged to apply, even if they do not meet all of the requirements above.\nTU Delft (Delft University of Technology)\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nChallenge. Change. Impact!\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Daniel Hall, e-mail:\nd.m.hall@tudelft.nl\n.\nFor more information about the application procedure, please contact Sofie Hennekens, HR Advisor,\ne-mail:\nrecruitment-bk@tudelft.nl\n.\nApplication procedure\nPlease apply no later than\nSeptember 8, 2026\n(local Dutch time + 2 hrs) via the application button and upload the following five items:\nCover letter, maximum one page and 400 words, explaining your motivation for the position and your fit with the research topic.\nCV, including education, relevant work experience, research experience, and relevant skills.\nList of key scientific outputs. Provide a list of 1-3 three selected academic contributions, such as published papers, conference papers, master thesis work, reports, or other relevant outputs. For each selected contribution, include a short narrative (maximum 100 words) explaining why it could be relevant to this PhD position, regarding either its fit with the PhD topic or how it has developed the candidate as a researcher. Applications listing more than three academic contributions will not be considered.\nOne-minute video introduction, in which you briefly introduce yourself and explain why you are a good fit for this PhD position. The video does not need to be professionally produced. A simple recording is sufficient. Please include a link to the video in the text field or upload the video directly.\nContact details of two references who may be contacted later in the selection process.\nThe first round of interviews are planned for 15 September 2026, with a second round to occur in the two weeks following (if required).\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "PhD in digital transformation and business value realisation in construction firms. Research uses qualitative case study methodology (interviews, observation, document analysis) to investigate how construction organisations implement software and realise measurable business outcomes, excluding BIM product modelling.",
-    "fit_type": "adjacent-methodological-fit",
+    "summary": "A PhD in organizational and strategic dimensions of digital transformation in construction, focusing on how firms realize business value from software implementation through comparative case studies, interviews, and industry engagement.",
+    "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 25,
-      "rationale": "Limited thematic alignment. Researcher's domains are human-centred XR, spatial cognition, learning, and collaboration. This position focuses on organisational digital transformation and software adoption in construction—a different application space. No immersive systems, spatial learning, or wayfinding content. However, the human-centred methodological approach (qualitative research, stakeholder engagement, organisational perspective) is adjacent."
+      "score": 5,
+      "rationale": "The position is entirely orthogonal to the researcher's core identity. It addresses construction management, organizational change, and business process adoption—none of which align with human-centred XR, immersive learning, spatial cognition, or collaborative immersive systems. The mention of 'digital tools' and 'software' is generic and does not connect to XR/immersive technology design or evaluation."
     },
     "methodological_fit": {
-      "score": 62,
-      "rationale": "Strong methodological fit in qualitative research, case studies, interviews, and mixed methods. Researcher has demonstrated ability in user studies and experimental design. This position prioritises qualitative case study research, interviews, and observation—skills the researcher could extend. However, the focus is organisational rather than user-centred; no evaluation of user experience or learning outcomes."
+      "score": 25,
+      "rationale": "There is limited methodological overlap. Both involve qualitative research and user engagement, but the researcher's strength is in experimental design, user studies with controlled immersive environments, and spatial/cognitive outcomes. This position requires organizational case study methodology, executive interviews, and adoption-oriented research—a different research culture. The researcher's quantitative and experimental foundations would not be central to this work."
     },
     "growth_value": {
-      "score": 45,
-      "rationale": "Would develop valuable capabilities in qualitative organisational research, stakeholder interview methodology, and multi-site case study design. However, does not close primary gaps (physiological sensing, advanced statistics, eye-tracking) or advance target competencies in spatial cognition and immersive learning. Value is primarily methodological."
+      "score": 10,
+      "rationale": "This position would not advance the researcher's target capability gaps. The researcher needs to deepen expertise in spatial cognition, immersive learning science, advanced multiplayer interaction design, and rigorous experimental evaluation of XR interventions. A construction management PhD offers no pathway to these competencies."
     },
     "strategic_value": {
-      "score": 50,
-      "rationale": "TU Delft is priority-2 institution (Netherlands, positive). Faculty of Architecture and the Built Environment is well-regarded. Supervisors (Hall, Papadonikolaki, Wamelink) appear established. Funding via industry sponsor (Hilti) is stable. However, research direction does not support progression toward human-centred XR research trajectory. No path forward into immersive learning or spatial systems research from this position."
+      "score": 45,
+      "rationale": "TU Delft is a strong institution aligned with the researcher's target geography (Netherlands, priority 2). The supervisory team and Faculty of Architecture offer rigorous research support. However, the group's focus on organizational/business value rather than human-centred technology design means limited exposure to peer networks, conferences, or funding streams relevant to immersive systems research. The positioning could dilute rather than sharpen the researcher's profile for subsequent positions in HCI and XR."
     },
     "required_skills": [
-      "qualitative-research"
+      "qualitative-research",
+      "experimental-design",
+      "academic-writing"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
       "qualitative-research",
-      "user-studies",
       "experimental-design",
-      "academic-writing"
+      "academic-writing",
+      "user-studies"
     ],
-    "missing_skills": [
-      "construction-management",
-      "organisational-studies",
-      "erp-systems",
-      "digital-transformation"
-    ],
+    "missing_skills": [],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "MSc in construction management, civil engineering, architecture, built environment studies, management, organisation studies, information systems, or related field required. Applicant has MSc by Research in Creative Multimedia—does not clearly fit listed categories, though information systems adjacency could be argued.",
-      "Position states 'candidates are encouraged to apply, even if they do not meet all of the requirements above'—suggesting some flexibility on degree requirements.",
-      "Experience with construction, digital tools, ERP systems, project management software, or BIM listed as 'an advantage' but not required—applicant has none."
+      "Researcher is MSc by Research (in progress, thesis stage); position typically requires completed MSc. Eligibility depends on thesis submission timeline.",
+      "Position strongly prefers background in construction, management, or organization studies. Researcher's background is creative multimedia and XR—substantial conceptual pivot required."
     ],
     "risks": [
-      "Degree fit uncertainty: creative multimedia MSc may be viewed as non-traditional for a construction/management PhD, despite qualitative research methodological overlap.",
-      "Thematic mismatch: research is in organisational change and software adoption, not human-centred design or user experience—a different intellectual tradition.",
-      "No domain knowledge: applicant has no construction, ERP, project management, or digital transformation background; would require substantial onboarding.",
-      "Career continuity risk: this position would diverge from immersive systems research; difficult to pivot back toward XR/HCI afterward."
+      "Severe thematic misalignment. The PhD would substantially redirect the researcher away from human-centred immersive systems toward organizational change management and construction industry specifics.",
+      "No XR, immersive technology, or HCI expertise in supervisory team. Limited mentoring on the researcher's target research identity.",
+      "Publication profile and network effects: Research output would be construction/organization management focused, not HCI/XR. This could complicate future positioning for immersive systems roles.",
+      "Opportunity cost: This 4-year position would delay or derail pursuit of human-centred XR research trajectories at Aalto, TU Delft (other labs), or other European groups with stronger HCI alignment."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -281,23 +319,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.72,
+    "confidence": 0.95,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-20T16:41:24.667703Z",
-    "analysis_input_hash": "23b73108be34c2d0806f4970e848d13988999f79e1964633b2b7e7b611273cf7"
+    "analyzed_at": "2026-07-28T09:07:33.761238Z",
+    "analysis_input_hash": "39b6ef5f995e75c11a833f6f0ff7571a25ae274a28d92fc5c2ec7a654f14be75"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 45,
+    "fit_overall": 19,
     "urgency": "medium",
-    "days_to_deadline": 43,
+    "days_to_deadline": 42,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

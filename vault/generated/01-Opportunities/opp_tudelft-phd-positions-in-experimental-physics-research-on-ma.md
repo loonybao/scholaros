@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-02
 status: open
 eligibility_gate: uncertain
-fit_overall: 14
+fit_overall: 4
 urgency: urgent
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 6)
+Gate: **uncertain** (days to deadline: 5)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -76,7 +76,7 @@ via the application button and upload the following documents:
 CV, including a publication list.
 Motivation, indicating which position you think is a better fit to your interests.
 Research statement.
-Either two letters of recommendation or the contact information of two referees will be asked on a later stage
+Either two letters of recommendation or the contact information of two referees will be asked on a later stage.
 You can address your application to Leo Kouwenhoven.
 Doing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the
 Graduate Schools Admission Requirements.
@@ -88,27 +88,27 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
 
-Experimental PhD positions in quantum physics investigating Majorana bound states and qubits in Kitaev chains, combining low-temperature electrical transport, qubit manipulation (fusion, braiding), and entanglement studies in collaboration with materials and theory groups.
+A PhD in experimental quantum physics developing Majorana qubits based on magnetic domain walls in Kitaev chains, with focus on noise sources, topological protection, gate operations, and 2-qubit entanglement in collaboration with materials science and theory groups.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 10 |
-| Growth value | 5 |
-| Strategic value | 55 |
-| **Overall** | **14** |
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **4** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics
+**Missing skills:** low-temperature-transport, qubit-characterization, quantum-measurement, condensed-matter-physics, spintronics
 
 **Risks:**
-- Large knowledge and credential gap. User would enter a highly specialized field with no prior physics training documented.
-- Four-year PhD in quantum physics would likely preclude transition to immersive HCI research.
-- Supervisor and group culture are fundamentally physics-focused, not HCI or design-focused.
-- Collaborative partners (materials, theory) are also physics-oriented; no exposure to human-centred research methods.
+- This position is explicitly listed in the researcher's excluded directions as 'pure-machine-learning-algorithms' and foundational quantum physics—a direct misalignment with target identity.
+- Severe capability gap: The researcher would require extensive foundational physics study to be effective, likely leading to extended onboarding and reduced research autonomy.
+- Career derailment: A PhD in quantum information would establish the researcher as a physicist, not an HCI researcher. Subsequent transitions to immersive systems roles would be much harder and require significant re-credentialing.
+- Opportunity cost: High—4 years away from building the human-centred XR research track at a critical early-career stage.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-positions-in-experimental-physics-research-on-ma.md` and link [[opp_tudelft-phd-positions-in-experimental-physics-research-on-ma]]._
