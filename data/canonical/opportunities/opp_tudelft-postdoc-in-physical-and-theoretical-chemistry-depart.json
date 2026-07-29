@@ -1,0 +1,173 @@
+{
+  "id": "opp_tudelft-postdoc-in-physical-and-theoretical-chemistry-depart",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-29T08:50:10.142151Z",
+  "updated_at": "2026-07-29T09:13:43.498629Z",
+  "change_history": [
+    {
+      "ts": "2026-07-29T08:50:10.142288Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-29T09:11:43.682118Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-29T09:13:43.498629Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in Physical and Theoretical Chemistry, Department of Quantum Nanoscience, TU Delft",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-applied-sciences",
+    "source": "tudelft",
+    "source_native_id": "1367880457",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Physical-and-Theoretical-Chemistry%2C-Department-of-Quantum-Nanoscience%2C-TU-Delft-2628-CD/1367880457/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Physical-and-Theoretical-Chemistry%2C-Department-of-Quantum-Nanoscience%2C-TU-Delft-2628-CD/1367880457/",
+    "evidence_ids": [
+      "tudelft/1367880457"
+    ],
+    "retrieved_at": "2026-07-29T08:50:10.142003Z",
+    "raw_snapshot_hash": "f2b64465970e70bff7393488301558437b2e8c05d48eee7e7d07aa8676844aa5",
+    "extracted_content_hash": "5372e7a9173ff1da06ced84d603e4aab394bd0b611a121b41050bfbdfbc1ab50",
+    "deadline": "2026-08-24",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€ 3706 - € 5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Postdoctoral Position in Physical and Theoretical Chemistry, Department of Quantum Nanoscience, TU Delft.\nJob description\nOne postdoctoral position is available in my group at the Department of Quantum Nanoscience, TU Delft, to investigate electronic structure and spin-orbit/scalar relativistic effects in lanthanide-containing molecular and periodic systems.\nMolecules and atoms with unpaired electrons exhibit a net magnetic moment and serve as the building blocks of molecular quantum devices for next-generation technologies. While both transition-metal and lanthanide complexes can behave as molecular magnets, lanthanide systems have recently gained greater attention due to their larger magnetic anisotropies (i.e. higher barriers to spin inversion).\nFirst-principles analysis of correlated molecular and quantum materials containing lanthanide centers poses significant challenges due to the need to describe spin-orbit coupling (SOC), scalar relativistic effects, and both dynamic and non-dynamic correlation. In this work, we apply equation-of-motion coupled-cluster (EOM-CC) methods to adequately account for electron correlation. Furthermore, for lanthanide systems, we will use a two-step state-interaction treatment of SOC, while scalar relativistic effects will be included via the spin-free exact two-component theory in its one-electron variant (SFX2C-1e), thereby extending the scope of EOM-CC to lanthanide molecular magnets. While the SFX2C-1e model has been recently used to model core-level spectra, its combination with EOM-CC for molecular magnets has lagged behind. We will link EOM-CC to SFX2C-1e and validate its accuracy against previous benchmarks for small molecules like PtH. This approach is general and can be directly combined with EOM-CC embedded in point charges, or in periodic DFT for periodic systems.\nThe postdoc position is for two years. The starting date is negotiable but should preferably be 01.11.2026.\nJob requirements\nPhD in Chemistry, Physics, Materials Science, or a related discipline.\nStrong background in electronic structure methods and molecular simulations.\nExperience with post-Hartree-Fock methods (ideally CC and EOM-CC) and with quantum embedding strategies is highly desirable.\nKnowledge of heavy-metal/lanthanide chemistry and spin-related effects (SOC and scalar relativistic effects) is highly desirable.\nExperience with scientific programming is highly desirable.\nStrong analytical, problem-solving, and communication skills.\nAbility to work independently as well as in multidisciplinary research teams.\nInterest in supervising Master's and PhD students, and in collaborating on grant writing and applications.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDuration of contract is 2 years. Temporary.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Maristella Alessio, via\nAfdeling-QN-tnw@tudelft.nl\n.\nApplication procedure\nIf you want to be part of a vibrant, dynamic, and highly interdisciplinary environment, push yourself to grow independently, and contribute to frontier research in quantum nanoscience, please apply no later than\n24 August 2026\nvia the application button and upload the following documents:\nA cover letter in which you describe your personal motivation and specific qualifications for this position (max 1 page)\nCV\nLink to PhD thesis (please also include a brief description of previous research, maximum 1-2 pages)\nCopies of two journal/conference publications relevant for this position.\nYou can address your application to Maristella Alessio.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in theoretical and computational chemistry focused on electronic structure calculations of lanthanide-containing molecular systems. Work applies equation-of-motion coupled-cluster methods, spin-orbit coupling, and relativistic effects to model lanthanide molecular magnets and periodic systems.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "No thematic overlap. Research domain is theoretical chemistry and quantum materials (lanthanide magnetism, spin-orbit coupling, electronic structure)—entirely outside human-centred HCI, immersive systems, spatial cognition, or collaborative learning."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Position is computational chemistry/physics. While both involve empirical work and analysis, the methodologies are fundamentally different: post-Hartree-Fock quantum chemistry versus user-centered empirical studies and task performance measurement. No meaningful connection."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "Would require deep specialization in theoretical chemistry and quantum computing—entirely misaligned with target capabilities (spatial cognition research, user studies, immersive learning evaluation). Does not close any stated capability gaps."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "TU Delft is priority-1 institution in target geography. However, position is in Department of Quantum Nanoscience (Faculty of Applied Sciences), with no institutional or community ties to HCI, immersive systems, or learning science. Postdoc role also represents lateral or downward move from target trajectory (target identity assumes doctoral research pathway)."
+    },
+    "required_skills": [
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "python",
+      "cpp"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD in Chemistry, Physics, Materials Science, or related; researcher holds MSc by Research in Creative Multimedia—not eligible without PhD.",
+      "Position is postdoc-level; researcher is still completing MSc thesis. Eligibility unclear until degree is awarded.",
+      "Posting requires 'strong background in electronic structure methods and molecular simulations' and 'experience with post-Hartree-Fock methods (CC, EOM-CC)'—no evidence in researcher's profile.",
+      "Experience with 'scientific programming' expected; researcher's programming (C#, Unity) is game engine focused, not scientific computing.",
+      "'Highly desirable' qualifications (heavy-metal/lanthanide chemistry, SOC, scalar relativistic effects) are entirely absent from researcher's background."
+    ],
+    "risks": [
+      "Researcher does not yet hold a PhD; postdoc positions typically require completed doctorate.",
+      "Extreme disciplinary mismatch in core research domain (quantum chemistry vs. human-centred immersive systems).",
+      "Researcher would be substantially underqualified in required theoretical and computational chemistry skills.",
+      "Postdoc trajectory does not align with target identity or career plan (target focuses on doctoral research pathway to independent researcher).",
+      "No supervisory or research community overlap with HCI, immersive learning, or spatial cognition communities."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.96,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-29T09:11:43.681746Z",
+    "analysis_input_hash": "bb08ab745189c5bccafa6047143abfc686d03ea63ffe43b743cca680efaac7a6"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 5,
+    "urgency": "medium",
+    "days_to_deadline": 26,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

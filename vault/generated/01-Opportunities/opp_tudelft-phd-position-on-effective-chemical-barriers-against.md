@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-04
 status: open
 eligibility_gate: uncertain
-fit_overall: 10
+fit_overall: 14
 urgency: medium
 needs_review: true
 ---
@@ -17,14 +17,14 @@ needs_review: true
 **Deadline:** 2026-09-04
 **Location:** Delft, Netherlands
 **Position type:** phd
-**Salary:** €3204 - €4051 per month (stated range)
+**Salary:** €3059 - €3881 per month (stated range)
 **Duration:** not stated
 **Status:** open
 **Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-on-Effective-Chemical-Barriers-against-Rising-Damp-2628-CD/1365411257/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 38)
+Gate: **uncertain** (days to deadline: 37)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -71,7 +71,7 @@ here
 to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
 The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
 Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
@@ -106,29 +106,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-TU Delft 4-year PhD in CHEMBARIDA project on chemical damp-proofing treatments for rising damp in buildings. Research combines laboratory experimentation, moisture-transport modelling, in-situ testing on masonry, and multiscale validation. Interdisciplinary collaboration with University of Amsterdam (materials science, building physics, building conservation).
+PhD position in building physics and materials science focused on chemical damp-proofing treatments, rising damp in masonry, and moisture transport modelling. Work combines laboratory experimentation, porous material modelling, and in-situ validation across scales at TU Delft's Faculty of Architecture and the Built Environment.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 4 |
-| Methodological fit | 14 |
-| Growth value | 3 |
-| Strategic value | 22 |
-| **Overall** | **10** |
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 35 |
+| **Overall** | **14** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** materials-science, chemistry, moisture-transport-modelling, building-physics, masonry-conservation
+**Missing skills:** none noted
 
 **Risks:**
-- Fundamental qualification mismatch: MSc in creative multimedia vs. required MSc in materials science, engineering, or building physics.
-- Thematic distance is extreme: building materials chemistry has no connection to human-centred immersive systems or spatial learning.
-- Experimental focus is materials/chemistry-lab based; researcher's experimental training is in human-subjects evaluation and user-studies design—different epistemology and practice.
-- 4-year PhD investment would embed candidate in materials science/building physics culture, not HCI/immersive-systems research.
-- No career continuity: skills and knowledge gained would not support applications to priority-1 institutions (Aalto, TU Delft departments in interactive systems, XR/AR research) or target identity development.
-- Supervisor expertise (materials durability, building conservation) does not intersect with human-centred XR research communities or methodologies.
+- Significant mismatch in disciplinary background and technical requirements; unlikely to be competitive.
+- PhD would not develop competencies aligned with target identity (human-centred XR/HCI researcher).
+- No clear supervisory or lab connection to immersive systems, HCI, or learning science communities.
+- Successful completion would position researcher in building science, not on path to target roles in immersive learning or spatial cognition research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-on-effective-chemical-barriers-against.md` and link [[opp_tudelft-phd-position-on-effective-chemical-barriers-against]]._

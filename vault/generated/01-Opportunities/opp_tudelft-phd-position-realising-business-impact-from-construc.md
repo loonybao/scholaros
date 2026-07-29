@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-08
 status: open
 eligibility_gate: uncertain
-fit_overall: 19
+fit_overall: 28
 urgency: medium
 needs_review: true
 ---
@@ -17,14 +17,14 @@ needs_review: true
 **Deadline:** 2026-09-08
 **Location:** Delft, Netherlands
 **Position type:** phd
-**Salary:** €3204 - €4051 per month (stated range)
+**Salary:** €3059 - €3881 per month (stated range)
 **Duration:** not stated
 **Status:** open
 **Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-Realising-Business-Impact-from-Construction-Software-2628-CD/1366527757/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 42)
+Gate: **uncertain** (days to deadline: 41)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -61,7 +61,7 @@ here
 to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
 The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
 Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
@@ -98,27 +98,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-A PhD in organizational and strategic dimensions of digital transformation in construction, focusing on how firms realize business value from software implementation through comparative case studies, interviews, and industry engagement.
+PhD in construction management and digital transformation focused on how construction firms realize business value from software implementation. Uses qualitative case study methodology (interviews, observations, document analysis) across enterprise and project levels; involves industry partnerships.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 25 |
-| Growth value | 10 |
-| Strategic value | 45 |
-| **Overall** | **19** |
+| Thematic fit | 8 |
+| Methodological fit | 45 |
+| Growth value | 20 |
+| Strategic value | 40 |
+| **Overall** | **28** |
 
 **Fit type:** poor-fit
 
 **Missing skills:** none noted
 
 **Risks:**
-- Severe thematic misalignment. The PhD would substantially redirect the researcher away from human-centred immersive systems toward organizational change management and construction industry specifics.
-- No XR, immersive technology, or HCI expertise in supervisory team. Limited mentoring on the researcher's target research identity.
-- Publication profile and network effects: Research output would be construction/organization management focused, not HCI/XR. This could complicate future positioning for immersive systems roles.
-- Opportunity cost: This 4-year position would delay or derail pursuit of human-centred XR research trajectories at Aalto, TU Delft (other labs), or other European groups with stronger HCI alignment.
+- PhD focus on construction software adoption and business value realisation does not advance target identity as human-centred immersive systems researcher.
+- No clear connection to XR, immersive learning, spatial cognition, or collaborative systems research communities.
+- Supervisory team and lab (DigiConstruct Lab) are construction-technology focused, not HCI or immersive systems oriented.
+- Completion would position researcher in construction informatics, not on path toward target doctoral or postdoc roles in immersive learning/spatial cognition labs.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-realising-business-impact-from-construc.md` and link [[opp_tudelft-phd-position-realising-business-impact-from-construc]]._

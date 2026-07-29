@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-09
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 12)
+Gate: **uncertain** (days to deadline: 11)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -78,7 +78,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+PhD position in experimental astronomy and detector physics focused on developing superconducting integral field units (IFUs) using Microwave Kinetic Inductance Detectors (MKIDs) for terahertz spectroscopy. Work spans microfabrication, device characterization, system integration, and field deployment to the ASTE telescope in Chile.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 25 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cpp, python
+
+**Risks:**
+- Extreme disciplinary mismatch; researcher would be far outside core competency area.
+- No pathway from this PhD to target identity as human-centred immersive systems researcher.
+- Supervisory team and research environment are physics/astronomy instrumentation focused, not HCI or design science.
+- High likelihood of being rejected at application stage due to mismatched background.
+- Completion would not advance researcher's career trajectory toward target roles.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-superconducting-imaging-spectrometer-fo.md` and link [[opp_tudelft-phd-position-superconducting-imaging-spectrometer-fo]]._
