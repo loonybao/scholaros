@@ -1,0 +1,172 @@
+{
+  "id": "opp_tudelft-phd-position-equilibrium-behavior-of-tramp-elements",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-07-30T08:36:18.176144Z",
+  "updated_at": "2026-07-30T08:57:02.265939Z",
+  "change_history": [
+    {
+      "ts": "2026-07-30T08:36:18.176259Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-07-30T08:57:02.115971Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-07-30T08:57:02.265939Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Equilibrium Behavior of Tramp Elements for Green Steel Production",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-aerospace-engineering",
+    "source": "tudelft",
+    "source_native_id": "1368025257",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Equilibrium-Behavior-of-Tramp-Elements-for-Green-Steel-Production-2628-CD/1368025257/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Equilibrium-Behavior-of-Tramp-Elements-for-Green-Steel-Production-2628-CD/1368025257/",
+    "evidence_ids": [
+      "tudelft/1368025257"
+    ],
+    "retrieved_at": "2026-07-30T08:36:18.176010Z",
+    "raw_snapshot_hash": "e4726c603d46c5bbd4a49adbbf71604b034b5a375bda10716e274d11b21f857e",
+    "extracted_content_hash": "277e7c52c9a671bf59cb36337874f20d5fc80f2dc273419c2f9b7aace45b498a",
+    "deadline": "2026-09-05",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Explore trace element thermodynamics in high-temperature systems to control steel quality in the green transition—a PhD bridging experiments, modelling, and industrial impact.\nJob description\nThe transition to low-carbon steel production is one of the key challenges in modern industry. At Tata Steel IJmuiden, this transition involves replacing the traditional blast furnace route with Direct Reduction, Electric Arc Furnaces (EAF), and, in a later stage, a Reducing Electric Furnace (REF). While these technologies enable significant CO₂ reduction, they introduce new challenges—most notably the accumulation of “tramp elements” from scrap and variable feedstocks, which can negatively affect steel quality and slag usability.\nThis PhD project aims to develop a fundamental thermodynamic understanding of how tramp and trace elements distribute between molten steel, slag, and vapor under next-generation steelmaking conditions. The research will focus on experimentally determining equilibrium partitioning behavior across relevant temperature, composition, and redox conditions, and translating these insights into predictive models for industrial application.\nYou will design and conduct high-temperature equilibration experiments using advanced gas-mixing furnaces at TU Delft and partner institutes. Samples will be analysed using state-of-the-art techniques such as laser ablation ICP-MS and electron microscopy to quantify trace element distributions at high spatial resolution. The resulting data will be integrated into thermodynamic models (e.g. FACTSage-based approaches) to support process optimisation and control in industrial steelmaking.\nThe project is carried out in close collaboration with Tata Steel R&D and academic partners, offering a unique opportunity to work at the interface of fundamental science and industrial application. You will contribute directly to the development of green steelmaking technologies while gaining expertise in high-temperature materials science, thermodynamics, and advanced analytical techniques.\nYour profile\nWe are looking for a highly motivated candidate with a Master’s degree in Materials Science, Metallurgy, Chemical Engineering, Geoscience, or a related field. A strong interest in thermodynamics, high-temperature processes, and experimental work is essential. Experience with analytical techniques or modelling is an advantage.\nDesign and perform high-temperature equilibrium experiments to study tramp element partitioning between steel, slag, and vapor phases\nAnalyse experimental samples using advanced techniques (e.g. LA-ICP-MS, SEM/EDS) to quantify trace element distributions\nDevelop and interpret thermodynamic datasets describing element behavior under EAF and REF conditions\nIntegrate experimental results into thermochemical models (e.g. FACTSage) to support process simulation and optimisation\nCollaborate with researchers at TU Delft and Tata Steel IJmuiden, and communicate findings through reports and scientific publications\nJob requirements\nMSc degree in Experimental Petrology, Materials Science, Metallurgy, Chemical Engineering, Geoscience, or a closely related field\nStrong interest in thermodynamics, high-temperature processes, and experimental research\nAffinity with or experience in laboratory work and materials characterization techniques (e.g. SEM, ICP-MS)\nBasic knowledge of thermodynamic modelling or willingness to learn tools such as FACTSage\nAnalytical mindset with strong problem-solving skills and attention to detail\nAbility to work both independently and collaboratively in an interdisciplinary team\nGood communication skills in English (written and spoken)\nMotivation to engage with both academic research at TU Delft and industrial application at Tata Steel IJmuiden\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Edgar Steenstra, via\ne.s.steenstra@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n5 September 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Edgar Steenstra.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "A PhD position in materials science and thermodynamics focused on trace element partitioning in green steel production. The work involves high-temperature experimental design, advanced analytical techniques (LA-ICP-MS, SEM/EDS), thermodynamic modelling (FACTSage), and collaboration with industrial partners at Tata Steel.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic overlap with human-centred XR, collaborative immersive systems, spatial cognition, wayfinding, or learning. The position is in materials science and industrial process chemistry. The target identity explicitly excludes pure technical domains; this is firmly materials engineering."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Minimal methodological alignment. The researcher has experimental design and quantitative research skills, which are transferable, but the position requires thermodynamics expertise, high-temperature materials characterization, and FACTSage modelling—domains requiring specialized technical preparation. No HCI, user research, or system evaluation methodology applies here."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "This position would not close capability gaps aligned with the target identity. While rigorous experimental methodology could deepen research fundamentals, the specialization in materials thermodynamics diverges entirely from human-centred immersive systems research and offers no pathway back to spatial cognition, learning design, or collaborative XR."
+    },
+    "strategic_value": {
+      "score": 45,
+      "rationale": "TU Delft is a priority-1 institution and the position offers strong supervision, industrial partnership, and EU-based funding stability. However, strategic value is limited because completing a PhD in materials science does not position the researcher for target doctoral or postdoctoral roles in HCI or immersive systems research. The network and credential are prestigious but off-trajectory."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher has MSc by Research (in progress, thesis stage); position requires completed MSc degree. Eligibility depends on thesis submission/award timeline relative to application and start date.",
+      "No background in thermodynamics, materials science, metallurgy, chemical engineering, or geoscience stated. Position explicitly seeks these disciplinary foundations.",
+      "No laboratory experience with high-temperature furnaces, LA-ICP-MS, SEM/EDS, or FACTSage modelling documented. Steep learning curve on core experimental and modelling tools."
+    ],
+    "risks": [
+      "Fundamental domain mismatch: materials science thermodynamics is disjoint from HCI and immersive systems research. Investing 4 years here creates credibility and network distance from target identity.",
+      "No clear bridge back: while PhD credentials are valuable, this specialization does not enhance competitive positioning for human-centred XR roles at Aalto, TU Delft HCI labs, or similar venues.",
+      "Skill transfer limited: experimental rigour is portable, but thermodynamic modelling, slag chemistry, and steelmaking process knowledge do not translate to immersive system design or human-centred evaluation.",
+      "Risk of trajectory lock-in: completion of a materials PhD may narrow subsequent postdoctoral and early-career options toward materials science rather than opening interdisciplinary HCI pathways."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-07-30T08:57:02.115371Z",
+    "analysis_input_hash": "2369912ff49d46903b51a605ff34793dd9e1cbce26b53eb91664210e27f1e59e"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 14,
+    "urgency": "medium",
+    "days_to_deadline": 37,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
