@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 4)
+Gate: **uncertain** (days to deadline: 3)
 
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
 - completed degree required and expected MSc completion (2027-07-31, estimated) is after the stated-but-negotiable start 2026-09-01 — recruiter confirmation required
