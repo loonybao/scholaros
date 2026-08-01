@@ -1,47 +1,47 @@
 {
   "tampere": {
-    "last_run": "2026-07-31T08:56:52.269271+00:00",
-    "last_success": "2026-07-31T08:56:52.269271+00:00",
+    "last_run": "2026-08-01T08:27:43.485151+00:00",
+    "last_success": "2026-08-01T08:27:43.485151+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 19,
-      "relevant": 16,
+      "fetched": 18,
+      "relevant": 15,
       "created": 0,
       "updated": 0,
-      "unchanged": 16,
+      "unchanged": 15,
       "candidates": 0,
       "skipped_irrelevant": 3
     }
   },
   "aalto": {
-    "last_run": "2026-07-31T08:55:12.688593+00:00",
-    "last_success": "2026-07-31T08:55:12.688593+00:00",
+    "last_run": "2026-08-01T08:26:12.256351+00:00",
+    "last_success": "2026-08-01T08:26:12.256351+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 50,
-      "relevant": 23,
+      "fetched": 46,
+      "relevant": 20,
       "created": 0,
       "updated": 0,
-      "unchanged": 23,
+      "unchanged": 20,
       "candidates": 0,
-      "skipped_irrelevant": 27
+      "skipped_irrelevant": 26
     }
   },
   "tudelft": {
-    "last_run": "2026-07-31T09:12:19.134563+00:00",
-    "last_success": "2026-07-31T09:12:19.134563+00:00",
+    "last_run": "2026-08-01T08:42:17.368205+00:00",
+    "last_success": "2026-08-01T08:42:17.368205+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 130,
-      "relevant": 79,
-      "created": 1,
-      "updated": 0,
-      "unchanged": 78,
+      "fetched": 127,
+      "relevant": 75,
+      "created": 0,
+      "updated": 2,
+      "unchanged": 73,
       "candidates": 5,
-      "skipped_irrelevant": 46
+      "skipped_irrelevant": 47
     }
   },
   "euraxess": {
@@ -60,18 +60,18 @@
     }
   },
   "varbi": {
-    "last_run": "2026-07-31T09:19:52.979379+00:00",
-    "last_success": "2026-07-31T09:19:52.979379+00:00",
+    "last_run": "2026-08-01T08:49:37.239007+00:00",
+    "last_success": "2026-08-01T08:49:37.239007+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
       "fetched": 75,
-      "relevant": 49,
-      "created": 0,
+      "relevant": 48,
+      "created": 1,
       "updated": 0,
-      "unchanged": 49,
+      "unchanged": 47,
       "candidates": 3,
-      "skipped_irrelevant": 23
+      "skipped_irrelevant": 24
     }
   }
 }

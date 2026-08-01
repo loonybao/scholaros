@@ -3,18 +3,18 @@ id: opp_tudelft-postdoc-multi-agent-aerial-manipulation-for-construc
 type: opportunity
 title: "Postdoc Multi-Agent Aerial Manipulation for Construction"
 organisation: "TU Delft"
-deadline: 2026-08-02
+deadline: 2026-08-15
 status: open
 eligibility_gate: uncertain
 fit_overall: 17
-urgency: urgent
+urgency: high
 needs_review: true
 ---
 
 # Postdoc Multi-Agent Aerial Manipulation for Construction
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
-**Deadline:** 2026-08-02
+**Deadline:** 2026-08-15
 **Location:** Delft, Netherlands
 **Position type:** postdoc
 **Salary:** €3546 - €5538 per month (stated range)
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 14)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -89,7 +89,7 @@ s.sun-2@tudelft.nl
 .
 Application procedure
 Are you interested in this vacancy? Please apply no later than
-2 August 2026
+15 August 2026
 via the application button and upload the following documents:
 A motivation letter (max 1 page) explaining your motivation and ambitions related to the PhD position and your relevant skils.
 Your CV Name and if the applicants are selected for an interview, they will be asked to provide contact details of at least two referees (preferably including your PhD thesis supervisors).
