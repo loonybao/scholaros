@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-01T08:42:35.618339Z",
-  "updated_at": "2026-08-01T08:49:38.159535Z",
+  "updated_at": "2026-08-02T08:52:35.100752Z",
   "change_history": [
     {
       "ts": "2026-08-01T08:42:35.618448Z",
@@ -21,6 +21,45 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-02T08:52:34.848729Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-02T08:52:35.100752Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +98,58 @@
     "status": "open",
     "description_text": "Postdoc in electronically tunable membranes for digitalized separation\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nReady to shape the future of separation science? Join the prestigious ERC-funded DynanoNet project and help pioneer digitally controlled separation technologies based on electronically tunable membranes. We warmly welcome your application.\nAbout the department/team\nYou will join the Department of Fibre and Polymer Technology (FPT), Sweden’s leading academic environment for research and education in polymers, fibres, cellulose-based materials, and sustainable technologies. FPT combines fundamental science with real-world impact through strong collaborations with industry and research partners.\nAs part of the Fibre Processes and Technology division, you will work in an ambitious, interdisciplinary team developing a new class of electronically tunable cellulose-based membranes that enable adaptive, digitally controlled separation processes. The research is led by Assistant Professor Tobias Benselfelt and focuses on nanofibril-based materials, electrochemically controlled membranes, and digitalized separation processes. More information about Tobias Benselfelt:\nhttps://www.kth.se/profile/bense\nJob description\nThe position involves research within the DynanoNet project, including:\nConducting independent research in the project area.\nCoordinating experimental activities in collaboration with a PhD student.\nPresenting research findings at project meetings, workshops, and international conferences.\nMaintaining project documentation and reporting project activities.\nThe successful candidate may also contribute to the supervision and mentoring of PhD and master’s students.\nQualifications\nRequirements\nA doctoral degree in materials science, chemical engineering, polymer science, electrochemistry, membrane science, or a related field. This eligibility requirement must be met no later than the time the employment decision is made.\nExcellent written and spoken English communication skills. English proficiency is essential for effective communication in an international research environment.\nStrong scientific writing, presentation, and communication abilities.\nPersonal skills\nTo be successful in this role, you should be responsible, independent, motivated, curious, and well organized. You have strong collaborative skills and enjoy working in interdisciplinary research environments.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nResearch experience in one or more of the following areas: membrane science, electrochemistry, transport phenomena, nanofibrillar materials, cellulose nanofibrils, hydrogels, or filtration technologies.\nExperience with electrochemical characterization techniques, including impedance spectroscopy, cyclic voltammetry, and/or chronoamperometry.\nExperience designing and constructing experimental setups or devices.\nA strong publication record demonstrating scientific independence.\nDemonstrated creativity, innovation, and the ability to develop new research ideas.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality.\nGreat emphasis will be placed on on personal skills and scientific independence, problem-solving ability, initiative, and the capacity to work effectively in an interdisciplinary and collaborative research environment.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge. The URL of your Google Scholar or a similar page is important.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally one page long.\nAttach two papers that show your expertise related to the research area.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, three years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nDec 2026-Jan 2027 or upon agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2254\nContact\nTobias Benselfelt, bense@kth.se\nPublished\n01.Aug.2026\nLast application date\n01.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoc in materials science and electrochemistry, developing electronically tunable cellulose-based membranes for digitally controlled separation processes. Research is experimental, chemistry-focused work within ERC-funded DynanoNet project at KTH.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "Position is entirely in materials science, electrochemistry, and membrane engineering. No connection to immersive systems, human-computer interaction, spatial learning, or collaborative systems. Researcher's background is human-centred XR, gamification, and spatial cognition—completely orthogonal domain."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Researcher has basic quantitative research skills from user studies. Position requires experimental electrochemistry (impedance spectroscopy, cyclic voltammetry, chronoamperometry), materials characterization, and device design. No methodological overlap; researcher has never worked in chemistry/materials science or electrochemical techniques."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "Position does not advance any capability relevant to researcher's target identity. Research direction (materials science, electrochemistry, separation technology) is entirely outside HCI, immersive systems, or spatial learning. No transferable skills or knowledge gains toward stated goals."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "KTH is a strong technical university and DynanoNet is a prestigious ERC project (funding stability). However, Department of Fibre and Polymer Technology is materials/engineering-focused, not HCI or immersive systems. No path to target institutions (Aalto, TU Delft) in HCI domain. Research culture entirely different from target."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD degree; researcher holds MSc in progress. Not eligible.",
+      "Posting mentions security clearance requirement under Swedish Protective Security Act; eligibility may depend on nationality and security assessment."
+    ],
+    "risks": [
+      "Researcher does not meet minimum eligibility (must have completed PhD; only has MSc in progress)",
+      "Zero thematic overlap with researcher's expertise or target identity",
+      "Requires technical background (materials science, electrochemistry, polymer science) researcher does not possess",
+      "No HCI, human evaluation, or immersive systems component in position",
+      "Career move would represent a complete pivot away from stated research direction",
+      "Potential security clearance complications depending on nationality (researcher based in Malaysia; Sweden may have restrictions)"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-02T08:52:34.848350Z",
+    "analysis_input_hash": "1c4849285ae8d1a654e7d3469e186b54b28ebed95163f11963c3270abd33e632"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,9 +157,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 6,
     "urgency": "medium",
-    "days_to_deadline": 31,
+    "days_to_deadline": 30,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

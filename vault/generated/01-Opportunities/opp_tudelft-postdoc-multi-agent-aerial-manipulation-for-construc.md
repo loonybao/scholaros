@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-15
 status: open
 eligibility_gate: uncertain
-fit_overall: 17
+fit_overall: 12
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 14)
+Gate: **uncertain** (days to deadline: 13)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -104,27 +104,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
 
-Postdoctoral position developing task-level planning and coordination methods for heterogeneous aerial robotic teams to autonomously assemble prefabricated building modules, with emphasis on multi-agent planning under dynamic constraints and contact-rich interactions.
+Postdoc position in multi-agent aerial robotics for construction, developing task-level planning and coordination methods for heterogeneous robotic teams (cable-suspended lifters and aerial manipulators). Requires strong background in planning, control, or learning for robotic systems, with emphasis on C++/Python and physics-based simulation.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 10 |
-| Growth value | 15 |
-| Strategic value | 65 |
-| **Overall** | **17** |
+| Methodological fit | 8 |
+| Growth value | 10 |
+| Strategic value | 40 |
+| **Overall** | **12** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cpp, advanced control theory, real-time simulation (RSCAD/RTDS), multi-agent planning algorithms
+**Missing skills:** cpp, mixed-effects-modelling, r, statistics
 
 **Risks:**
-- Core research domain (robotics control, autonomous systems) is explicitly listed as excluded direction.
-- Specialization in aerial manipulation and hardware-in-loop testing would create strong lock-in away from human-centred XR.
-- No HCI or user-facing research component; unlikely to build methodological foundations needed for target identity.
-- Postdoc role typically occupies 2 years—significant time away from human-centred research trajectory.
+- Researcher does not meet eligibility (must have PhD; MSc still in progress)
+- Position core (task planning, control, robot learning) explicitly excluded from researcher's target identity
+- C++ requirement is beyond researcher's current skill set (beginner Python only)
+- Robotics-focused group culture; mentorship would not align with human-centred XR research goals
+- No human factors, HCI, or learning evaluation in position scope
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-multi-agent-aerial-manipulation-for-construc.md` and link [[opp_tudelft-postdoc-multi-agent-aerial-manipulation-for-construc]]._

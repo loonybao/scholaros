@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-09-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 31)
+Gate: **uncertain** (days to deadline: 30)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -121,7 +121,29 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+
+Postdoc in materials science and electrochemistry, developing electronically tunable cellulose-based membranes for digitally controlled separation processes. Research is experimental, chemistry-focused work within ERC-funded DynanoNet project at KTH.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 25 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Researcher does not meet minimum eligibility (must have completed PhD; only has MSc in progress)
+- Zero thematic overlap with researcher's expertise or target identity
+- Requires technical background (materials science, electrochemistry, polymer science) researcher does not possess
+- No HCI, human evaluation, or immersive systems component in position
+- Career move would represent a complete pivot away from stated research direction
+- Potential security clearance complications depending on nationality (researcher based in Malaysia; Sweden may have restrictions)
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-electronically-tunable-membranes-for-digita.md` and link [[opp_varbi-postdoc-in-electronically-tunable-membranes-for-digita]]._

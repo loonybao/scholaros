@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-15
 status: open
 eligibility_gate: uncertain
-fit_overall: 24
+fit_overall: 13
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 14)
+Gate: **uncertain** (days to deadline: 13)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -99,27 +99,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Two PhD positions in autonomous aerial robotics for construction: one on multi-agent planning and control for cable-suspended aerial lifting systems (CAMLs), one on contact-aware planning and control for aerial robotic manipulators (ARMs) using learning-based methods. Both focus on decentralized control, hardware validation, and real-world demonstration of autonomous pavilion assembly.
+PhD position in multi-agent aerial robotics for construction, focusing on decentralized planning/control for cable-suspended lifting systems or contact-aware manipulation of prefabricated building components. Core work is aerial robotics control, motion planning, and machine learning for autonomous assembly.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 10 |
-| Methodological fit | 25 |
-| Growth value | 12 |
-| Strategic value | 65 |
-| **Overall** | **24** |
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 15 |
+| Strategic value | 35 |
+| **Overall** | **13** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python
+**Missing skills:** cpp, mixed-effects-modelling, r, statistics
 
 **Risks:**
-- Disciplinary barrier: the Autonomous Multi-Robots Lab recruits from robotics, control, and aerospace backgrounds; an HCI/XR graduate would be a misfit in cohort and lab culture
-- Theory deficit: the researcher would struggle with the mathematical foundations (multi-agent coordination, contact dynamics, reinforcement learning theory) that form the intellectual core of both projects
-- Misalignment with stated exclusion: the researcher's target identity explicitly excludes 'pure technical XR engineer'; this position is pure roboticist/control engineer—the opposite direction
-- Supervisor concern: Dr. Sun and Prof. Alonso-Mora expect candidates who have already demonstrated robotics or control competency through coursework and projects; the researcher's profile would raise questions about fit and motivation
+- Core position scope (robotics control, planning algorithms, hardware optimization) is explicitly excluded from researcher's target identity
+- Limited HCI/human evaluation component; researcher would be misaligned with position expectations from day one
+- Strong emphasis on C++ and ROS/ROS2 development; researcher has only beginner Python and no C++ experience
+- Supervisor expertise in robotics control, not human-centred design; limited mentorship in target research direction
+- Collaboration with TUM and ETH is strong, but all within robotics/control domain
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-multi-agent-aerial-manipulation-for-con.md` and link [[opp_tudelft-phd-position-multi-agent-aerial-manipulation-for-con]]._

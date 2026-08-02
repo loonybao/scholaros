@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:36:53.463049Z",
-  "updated_at": "2026-08-01T08:49:38.125568Z",
+  "updated_at": "2026-08-02T08:52:35.066725Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:36:53.463049Z",
@@ -244,6 +244,35 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-02T08:52:34.847667Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-02T08:52:35.066725Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -281,50 +310,54 @@
     "description_text": "Would you be interested in exploring how multi-agent aerial manipulation can contribute to construction, in particular by assembling a pavilion?\nJob description\nAdvancement of aerial robotics are reshaping the future of construction.  In the HARPA project funded by the EIC Pathfinder Challenge, you will explore how heterogeneous aerial robotics teams can collaboratively and autonomously assemble a pavilion. Together with other team members and collaborators from TUM and ETH, at the end of the project will perform a real-world demonstration of the autonomous assembly of a pre-fabricated pavilion using a team of aerial robots.\nHARPA is looking for a highlyg motivated and competent postdoctoral researcher.\nYou will develop task-level planning and coordination methods for heterogeneous aerial robotic teams composed of Cable-Suspended Aerial Multi-Lifting Systems (CAMLs) and Aerial Robotic Manipulators (ARMs). The research will address fundamental challenges in multi-agent planning under heterogeneous robot capabilities, dynamic constraints, contact-rich interactions, perception limitations, and high-level human guidance. A key objective is to bridge high-level task planning with the physical constraints of aerial manipulation and cooperative construction, enabling robotic teams to reason not only about what tasks to perform, but also about when, how, and by which robotic platform they should be executed.\nIn close collaboration with PhD researchers and project partners from TUM and ETH, you will contribute to the development of novel control and learning methods for aerial manipulators and multi-drone system and to the development of a physics-aware digital twin for aerial robotic construction. This digital twin will integrate robot dynamics, aerodynamics, contact interactions, component geometry, and construction-task constraints, supporting real-time 3D visualization, human monitoring, algorithm testing, and pre-assembly validation. The platform will serve both as a research environment for developing and benchmarking planning algorithms, and as a system-level validation tool before real-world deployment.\nBy the end of the contract, the postdoctoral researcher is expected to play a leading role in enabling coordinated collaboration between CAMLs and ARMs for the assembly of prefabricated building submodules. The candidate will be encouraged to publish in leading robotics venues, help shape the research direction of task-level planning for heterogeneous aerial construction systems and collaborate with other team members. The position offers the opportunity to contribute to both high-impact academic research and a large-scale robotic construction demonstration within an international EU project.\nThe position is available with a flexible start date to be agreed upon. The postdoctoral  researcher will join the Autonomous Multi-Robots Lab at the Cognitive Robotics Department and will be supervised by Dr. Sihao Sun and Prof. Javier Alonso-Mora. You will also have the chance to collaborate and visit our partners from ETH Zurich and TU Munich. As part of the postdoctoral position, there will be opportunities to gain teaching experience in the relevant courses and/or supervising MSc and PhD students.\nMore information about our research group can be found at:\nhttps://autonomousrobots.nl/\nJob requirements\nWe are looking for a candidate with:\n• A PhD degree in Robotics, Control, Aerospace Engineering, Mechanical Engineering, Computer Science, or a closely related field.\n• A strong research background in one or more of the following areas: multi-agent planning and coordination, task and motion planning, robot autonomy, aerial robotics, robotic manipulation, optimal control, robot learning, or human-robot interaction.\n• Experience with developing planning, control, or coordination algorithms for robotic systems, preferably with consideration of dynamic constraints, perception uncertainty, contact interactions, or real-world deployment.\n• Strong programming skills in C++ and/or Python, with experience in robotic software development using ROS and/or ROS 2.\n• Experience with simulation environments, digital twins, or physics-based robotic simulators, such as Isaac Sim, Newton, MuJoCo, PyBullet, or similar platforms.\n• A demonstrated ability to conduct independent research, publish in peer-reviewed venues, and contribute to high-quality scientific outputs.\n• Excellent problem-solving skills and the ability to work in an interdisciplinary team involving robotics, control, perception, simulation, and experimental validation.\n• Strong communication skills in English, both written and spoken.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 2 years Temporary\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Prof. J. Alonso-Mora at\nj.alonsomora@tudelft.nl\n, and Dr. S.Sun at\ns.sun-2@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n15 August 2026\nvia the application button and upload the following documents:\nA motivation letter (max 1 page) explaining your motivation and ambitions related to the PhD position and your relevant skils.\nYour CV Name and if the applicants are selected for an interview, they will be asked to provide contact details of at least two referees (preferably including your PhD thesis supervisors).\nTranscripts of your MSc studies.\nPublication list with a link to your PhD thesis (if applicable; you may apply prior to completing the PhD thesis).\nYou can address your application to .\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "Postdoctoral position developing task-level planning and coordination methods for heterogeneous aerial robotic teams to autonomously assemble prefabricated building modules, with emphasis on multi-agent planning under dynamic constraints and contact-rich interactions.",
+    "summary": "Postdoc position in multi-agent aerial robotics for construction, developing task-level planning and coordination methods for heterogeneous robotic teams (cable-suspended lifters and aerial manipulators). Requires strong background in planning, control, or learning for robotic systems, with emphasis on C++/Python and physics-based simulation.",
     "fit_type": "poor-fit",
     "thematic_fit": {
       "score": 5,
-      "rationale": "Position core is robotics control, multi-agent planning algorithms, and HVDC systems—none aligned with human-centred XR, collaborative learning, or spatial cognition. The mention of 'digital twin' is instrumental (physics simulation for robot coordination), not experiential or learning-focused."
+      "rationale": "Position is fundamentally robotics engineering: multi-agent planning, task/motion planning, robot autonomy, and learning for physical manipulation. Researcher's domain is human-centred immersive systems, spatial learning, and collaborative interaction design. No human subjects research, learning evaluation, or interaction design in scope. Digital twin mentioned is a physics/dynamics tool, not a human-centred system."
     },
     "methodological_fit": {
-      "score": 10,
-      "rationale": "Researcher has user-studies and experimental-design skills, but position requires control theory, real-time simulation (RSCAD/RTDS), and algorithm development for autonomous systems. No overlap in research methodology."
+      "score": 8,
+      "rationale": "Researcher has intermediate quantitative research and experimental design skills. Position requires C++/Python algorithm development, control theory, optimal planning, and ROS expertise. No overlap in qualitative research, human evaluation methods, or immersive system design methodologies."
     },
     "growth_value": {
-      "score": 15,
-      "rationale": "Could develop C++ and potentially advanced simulation skills, but these are not gaps blocking progress toward human-centred XR research. No pathway to spatial cognition, collaborative learning, or HCI methodology."
+      "score": 10,
+      "rationale": "Would develop advanced robotics and planning skills, which contradicts researcher's target identity (explicitly excludes robotics control and pure ML algorithms). Does not build capabilities in spatial cognition research, immersive learning design, or human-robot collaboration from a human-centred perspective. Represents a career direction away from stated goals."
     },
     "strategic_value": {
-      "score": 65,
-      "rationale": "TU Delft is a Priority 1 institution in Netherlands (preferred region). Strong funding (EIC Pathfinder), established group, and interdisciplinary collaboration. However, robotics control trajectory diverges from target identity and may create difficult-to-reverse specialization."
+      "score": 40,
+      "rationale": "TU Delft is prestigious and position is well-funded (EIC Pathfinder, EU project). Cognitive Robotics Department has strong international network (ETH, TUM). However, research culture is robotics/control-centric, not HCI. Supervisors Sun and Alonso-Mora are leading autonomy researchers but not in human-centred immersive systems. Postdoc pathway offers independence but within wrong domain."
     },
     "required_skills": [
       "cpp",
       "python",
-      "statistics"
+      "experimental-design",
+      "quantitative-research"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "python"
+      "python",
+      "experimental-design",
+      "quantitative-research"
     ],
     "missing_skills": [
       "cpp",
-      "advanced control theory",
-      "real-time simulation (RSCAD/RTDS)",
-      "multi-agent planning algorithms"
+      "mixed-effects-modelling",
+      "r",
+      "statistics"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position explicitly requires PhD degree; researcher has MSc by Research in progress. Eligibility unclear until thesis completion and degree conferral.",
-      "C++ proficiency stated as requirement; researcher has no evidence of C++ experience."
+      "Requires PhD degree; researcher holds MSc (in progress). Not eligible to apply.",
+      "Position requires publication record and demonstrated research independence; researcher has 1 first-author article and 1 in-progress review—acceptable but limited."
     ],
     "risks": [
-      "Core research domain (robotics control, autonomous systems) is explicitly listed as excluded direction.",
-      "Specialization in aerial manipulation and hardware-in-loop testing would create strong lock-in away from human-centred XR.",
-      "No HCI or user-facing research component; unlikely to build methodological foundations needed for target identity.",
-      "Postdoc role typically occupies 2 years—significant time away from human-centred research trajectory."
+      "Researcher does not meet eligibility (must have PhD; MSc still in progress)",
+      "Position core (task planning, control, robot learning) explicitly excluded from researcher's target identity",
+      "C++ requirement is beyond researcher's current skill set (beginner Python only)",
+      "Robotics-focused group culture; mentorship would not align with human-centred XR research goals",
+      "No human factors, HCI, or learning evaluation in position scope"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -332,23 +365,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.95,
+    "confidence": 0.98,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-20T16:47:12.563726Z",
-    "analysis_input_hash": "6a42d0d30b60f14c650353dbf4757edda4fd91f034dec4427356947ac4e91fb4"
+    "analyzed_at": "2026-08-02T08:52:34.847139Z",
+    "analysis_input_hash": "1f1fe0ad8674d3a6d079677fd4a0205a70a46f2556492788d71a817e289da251"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 17,
+    "fit_overall": 12,
     "urgency": "high",
-    "days_to_deadline": 14,
+    "days_to_deadline": 13,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
