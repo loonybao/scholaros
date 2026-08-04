@@ -24,7 +24,7 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **fail** (days to deadline: 12)
+Gate: **fail** (days to deadline: 11)
 
 - country 'United States' is outside allowed regions ['Europe']
 

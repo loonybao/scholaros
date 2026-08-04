@@ -5,10 +5,10 @@ title: "Project Researcher (Human-technology interaction), 2–5 positions"
 organisation: "Tampere University"
 deadline: 2026-08-03
 status: open
-eligibility_gate: uncertain
+eligibility_gate: fail
 fit_overall: 89
-urgency: urgent
-needs_review: true
+urgency: none
+needs_review: false
 ---
 
 # Project Researcher (Human-technology interaction), 2–5 positions
@@ -24,10 +24,9 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 0)
+Gate: **fail** (days to deadline: -1)
 
-- posting mentions possible nationality/export-control restrictions — verify which roles are affected
-- completed degree required and expected MSc completion (2027-07-31, estimated) is after the stated-but-negotiable start 2026-09-01 — recruiter confirmation required
+- application deadline has passed
 
 ## Description
 

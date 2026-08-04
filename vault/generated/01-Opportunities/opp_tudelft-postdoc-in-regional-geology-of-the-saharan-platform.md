@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 13)
+Gate: **uncertain** (days to deadline: 12)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -81,8 +81,7 @@ Application procedure
 Are you interested in this vacancy? Please apply no later than
 16 August 2026
 via the application button and upload the following documents:
-CV
-Motivational letter
+One file only: your CV, which may include a short motivation part about why you are interested in this project.
 Please note:
 You can apply online. We will not process applications sent by email and/or post.
 As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
