@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 6
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 28)
+Gate: **uncertain** (days to deadline: 27)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -84,7 +84,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+PhD position in TU Delft's Electronic Instrumentation group focused on designing, fabricating, and characterizing broadband semiconductor photodetectors for spectropolarimetric imaging in space-based Earth observation applications.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 1 |
+| Strategic value | 20 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Credential mismatch: Master's in Creative Multimedia does not meet stated requirement for engineering or physics-based discipline.
+- No semiconductor device physics background. Learning curve would be steep; research productivity at risk.
+- Core work (CMOS fabrication, spectral responsivity characterization, quantum efficiency analysis) is pure device engineering—antithetical to human-centred research.
+- Collaboration with metaoptics researcher, SRON, and industrial partners is technical/engineering-focused, not human factors.
+- This position would require retraining in device physics and fabrication, with zero relevance to target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-broadband-semiconductor-photodetectors.md` and link [[opp_tudelft-phd-position-broadband-semiconductor-photodetectors]]._

@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 14
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 27)
+Gate: **uncertain** (days to deadline: 26)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -105,7 +105,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+A one-year postdoctoral position at TU Delft focused on integrating spectroscopic sensors for real-time monitoring of microbial fermentation processes, combining lab work (sensor integration, fermentation data collection) with computational work (signal processing, data analysis). The role explicitly targets researchers with non-linear career paths seeking to expand technical expertise in bioprocess engineering and analytics.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 40 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** r, mixed-effects-modelling
+
+**Risks:**
+- Domain mismatch is fundamental. The researcher's research summary and target identity show no prior interest or competence in bioprocess engineering, fermentation, or analytical chemistry. Taking this role would be a substantial departure.
+- The position is designed to support non-linear career transitions, but the transition proposed here (XR/HCI → Biotech) would require the researcher to convincingly frame bioprocess analytics as a strategic step toward a future in human-centred XR. This narrative is weak and likely to raise questions in future PhD applications.
+- One-year duration and lack of direct relevance to target identity may not advance PhD candidacy. European HCI/XR PhD groups typically prioritize continuous research trajectory and domain expertise when evaluating postdoc candidates.
+- Researcher's Python skill is beginner-level with no substantial project experience; position expects data analysis work in an unfamiliar computational domain (signal processing, process analytics vs. game/application development).
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-integrating-spectroscopic-process-analytical.md` and link [[opp_tudelft-postdoc-integrating-spectroscopic-process-analytical]]._

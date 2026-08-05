@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-05
 status: open
 eligibility_gate: uncertain
-fit_overall: 5
+fit_overall: 4
 urgency: urgent
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 1)
+Gate: **uncertain** (days to deadline: 0)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -103,26 +103,26 @@ Please do not contact us for unsolicited services.
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
 
-Postdoctoral position in atomic layer deposition (ALD) technologies for next-generation perovskite-silicon tandem solar cells. Embedded in the Photovoltaic Materials and Devices group; involves thin-film fabrication, device characterization, and energy system modeling.
+Postdoctoral position in TU Delft's Photovoltaic Materials and Devices group developing atomic layer deposition (ALD) technologies for perovskite-silicon tandem solar cells, including fabrication, characterization, and integration of devices.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 2 |
-| Methodological fit | 8 |
-| Growth value | 1 |
-| Strategic value | 12 |
-| **Overall** | **5** |
+| Methodological fit | 3 |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **4** |
 
 **Fit type:** poor-fit
 
 **Missing skills:** none noted
 
 **Risks:**
-- Career level mismatch: position is postdoctoral; researcher has not completed PhD
-- Fundamental domain mismatch: photovoltaic materials/devices vs. human-centred HCI research
-- No hands-on experience in target technical areas; would require retraining from scratch
-- No existing supervisor relationship or recommendation in materials science or photovoltaics
-- Position requirements (modeling of thermal/energy systems, PV/T hybrid systems) unrelated to researcher's skillset
+- Complete domain mismatch: photovoltaics and materials science are excluded from target directions and have no bearing on human-centred XR research.
+- Credential risk: MSc from Creative Multimedia Faculty may not satisfy hiring expectations for a materials/device-focused postdoc at a top-tier institution.
+- Technical skill gap: ALD, CVD, TCAD, cleanroom fabrication are specialized skills requiring dedicated training. Postdoc timeline may be insufficient for productivity.
+- This position offers no pathway to human-centred XR or HCI identity. Post-postdoc position would be unclear: materials scientist or HCI researcher?
+- Work is entirely bench/lab-based; no human interaction, no user-centred thinking, no collaborative learning systems.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-ald4tandem-project.md` and link [[opp_tudelft-postdoc-ald4tandem-project]]._

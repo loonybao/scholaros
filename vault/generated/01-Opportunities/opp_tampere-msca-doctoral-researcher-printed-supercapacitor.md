@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-08-17
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 7
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 13)
+Gate: **uncertain** (days to deadline: 12)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -121,7 +121,27 @@ Hakuaika päättyy 17.08.2025 klo 23:59:00.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+MSCA-funded PhD position in sustainable electronics, specifically developing printed non-toxic bioderived supercapacitors for wearable and farming applications. Core work involves materials synthesis, electrochemical characterization, and integration with consortium partners across eight countries.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 15 |
+| **Overall** | **7** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Complete domain mismatch: materials science is excluded from the researcher's target directions and offers no pathway to human-centred XR identity.
+- No immersive systems, HCI, or learning science content. This would be a 3-year career detour.
+- Laboratory focus is sustainable electronics fabrication, not human factors or spatial research.
+- Secondments (RISE Sweden, InnoItaly Italy) are industrial/technical in nature, not HCI-relevant.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-msca-doctoral-researcher-printed-supercapacitor.md` and link [[opp_tampere-msca-doctoral-researcher-printed-supercapacitor]]._

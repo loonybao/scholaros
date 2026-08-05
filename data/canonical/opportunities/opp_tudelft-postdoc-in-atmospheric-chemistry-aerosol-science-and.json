@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-04T08:44:30.798844Z",
-  "updated_at": "2026-08-04T09:02:30.075934Z",
+  "updated_at": "2026-08-05T09:03:58.435610Z",
   "change_history": [
     {
       "ts": "2026-08-04T08:44:30.798971Z",
@@ -21,6 +21,45 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-05T09:02:11.334010Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-05T09:03:58.435610Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,15 +98,78 @@
     "status": "open",
     "description_text": "Conduct advanced research into atmospheric chemistry and air quality by deploying innovative measurement techniques for the atmosphere, including low-cost air quality sensors and miniature instruments.\nJob description\nAir pollution remains one of the most pressing environmental and public health challenges worldwide. To understand the sources, transformation and transport of atmospheric pollutants, a combination of advanced observations, innovative instrumentation and data analysis is required. Recent developments in miniature atmospheric instruments, low-cost air quality monitoring technologies and drone-based measurement platforms are creating new opportunities to study the composition of the atmosphere at unprecedented spatial, temporal and vertical scales.\nIn this position, you will contribute to research into atmospheric chemistry, aerosol science and air quality monitoring. You will use atmospheric instruments and low-cost air quality sensors to monitor particulate matter and gaseous pollutants in urban environments.\nYou will play a leading role in designing and conducting field measurement campaigns, including upcoming drone-based air quality observation campaigns. Your responsibilities will include operating atmospheric instrumentation, ensuring data quality and analyzing large observational datasets. This role involves combining practical, hands-on instrumentation with data-driven scientific analysis to improve our understanding of atmospheric processes and air pollution dynamics.\nA key aspect of the role involves disseminating research through high-quality, peer-reviewed publications. You will be expected to contribute to scientific writing, supervise junior researchers where appropriate and present research findings at national and international conferences.\nYou will join a collaborative, internationally recognized research group specializing in atmospheric science. This position offers an excellent opportunity to contribute to innovative research and participate in collaborations with academic partners.\nJob requirements\nWe are looking for a highly motivated researcher with a strong background in atmospheric measurements and data analysis. You will have:\nA PhD in atmospheric science, atmospheric chemistry, environmental science, aerosol science, physics, environmental engineering or a closely related discipline.\nDemonstrated expertise in atmospheric chemistry, aerosol science or air quality research;\nExperience with atmospheric instrumentation, including miniature atmospheric instruments and/or low-cost air quality sensors.\nExperience in planning and conducting field measurements and atmospheric monitoring campaigns.\nWillingness to participate in intensive fieldwork, including upcoming drone-based air quality measurement campaigns.\nStrong skills in analyzing large atmospheric datasets using programming languages such as Python, MATLAB or R.\nExperience with atmospheric data processing, quality assurance and statistical analysis.\nA strong publication record of peer-reviewed scientific articles.\nExcellent scientific writing skills and experience in preparing manuscripts for publication in international journals.\nAbility to work independently while contributing effectively within an interdisciplinary research team.\nExcellent command of written and spoken English.\nExperience with drone-based atmospheric measurements, sensor calibration and validation, or instrument development would be advantageous.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 1 year. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Dr. Ajit Ahlawat,\na.s.ahlawat@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 August 2026\nvia the application button and upload the following documents:\nCurriculum Vitae.\nA motivation letter describing your research interests and relevant experience in atmospheric chemistry, aerosol science, atmospheric instrumentation and air quality monitoring, as well as your reasons for applying.\nPublication list, including a one-page summary of your PhD thesis\nApplicants selected for an interview will be asked to provide contact information of at least 2 references.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position in TU Delft's atmospheric science group conducting field-based research on atmospheric chemistry, aerosol science, and air quality monitoring using miniature instrumentation and low-cost sensors, including drone-based measurement campaigns.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 4,
+      "rationale": "Atmospheric chemistry, aerosol science, and air quality monitoring are environmental science disciplines. No connection to human-centred systems, immersive technologies, spatial cognition, learning, collaboration, or human factors. The research domain is environmental monitoring—not HCI or XR."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Requires field measurement campaign design, data analysis, and peer-reviewed publication—overlaps with researcher's experimental-design and academic-writing skills. However, the scientific context (atmospheric data processing, sensor calibration, statistical analysis) is environmental engineering, not human-centred research. No methodological connection to user-studies or HCI evaluation."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Would develop advanced data analysis skills (Python, MATLAB, R for atmospheric datasets) and field methodology expertise. However, these do not advance the target identity of human-centred XR researcher. Could strengthen quantitative and statistical skills but zero relevance to immersive systems or spatial cognition."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "TU Delft is tier-1 and in target country (Netherlands). CEG Faculty is well-funded and internationally recognized. However, the research group specializes in atmospheric science and environmental monitoring—not HCI or human-centred research. This position does not provide a pathway to the target identity. Post-postdoc positioning would be ambiguous (atmospheric scientist? environmental engineer? HCI researcher?)."
+    },
+    "required_skills": [
+      "quantitative-research",
+      "experimental-design",
+      "academic-writing",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "experimental-design",
+      "academic-writing",
+      "python"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD in atmospheric science, atmospheric chemistry, environmental science, aerosol science, physics, or environmental engineering—researcher holds MSc in Creative Multimedia. Credential mismatch may disqualify.",
+      "Requires 'demonstrated expertise in atmospheric chemistry, aerosol science or air quality research'—no evidence in profile.",
+      "Requires experience with atmospheric instrumentation (miniature instruments, low-cost sensors) and drone-based platforms—researcher has no background here.",
+      "Requires 'willingness to participate in intensive fieldwork, including drone-based air quality measurement campaigns'—unclear if researcher has outdoor fieldwork capability/interest."
+    ],
+    "risks": [
+      "Domain mismatch: atmospheric science and environmental monitoring are not aligned with human-centred XR research. This is a complete career pivot away from target identity.",
+      "Credential risk: MSc in Creative Multimedia may not satisfy hiring threshold for environmental science postdoc at top-tier institution.",
+      "Technical gap: Sensor calibration, drone platforms, atmospheric data processing (Python/R for large datasets) are specialized environmental engineering skills.",
+      "One-year contract is short; limited time to develop atmospheric science expertise. Productivity risk.",
+      "No human interaction, no user-centred thinking, no collaborative or immersive systems component.",
+      "Post-postdoc career positioning would be unclear: atmospheric scientist or XR researcher?"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.91,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-05T09:02:11.333625Z",
+    "analysis_input_hash": "e5b12a5930d2f8fa1967840cdb1a29b526901329da43d28bae3147e6d29eefdf"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 9,
     "urgency": "medium",
-    "days_to_deadline": 26,
+    "days_to_deadline": 25,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

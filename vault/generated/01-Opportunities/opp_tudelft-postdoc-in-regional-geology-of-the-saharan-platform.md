@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-16
 status: open
 eligibility_gate: uncertain
-fit_overall: 2
+fit_overall: 7
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 12)
+Gate: **uncertain** (days to deadline: 11)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -90,28 +90,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
 
-Postdoctoral position in regional geology focused on quantifying vertical movements within Paleozoic unconformities of the Saharan Platform, combining fieldwork, thermochronology, and landscape evolution modelling. Requires PhD in geology, extensive Saharan fieldwork experience, and publication record.
+Postdoctoral position in TU Delft's geosciences group investigating regional geology of the Saharan Platform, focusing on Paleozoic unconformities, quantifying vertical movements (uplift/subsidence), and generating source-to-sink maps using field sampling and low-temperature thermochronology.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 0 |
-| Methodological fit | 5 |
-| Growth value | 0 |
-| Strategic value | 5 |
-| **Overall** | **2** |
+| Thematic fit | 2 |
+| Methodological fit | 8 |
+| Growth value | 3 |
+| Strategic value | 18 |
+| **Overall** | **7** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** landscape-evolution-modelling, low-temperature-thermochronology, source-to-sink-analysis, geochronology
+**Missing skills:** none noted
 
 **Risks:**
-- Disciplinary mismatch: researcher is trained in HCI and immersive systems design, not geology or Earth sciences
-- Thematic drift: accepting this role would abandon the researcher's established research trajectory in human-centred XR and spatial learning
-- Skill transfer cost: fieldwork and thermochronology expertise would require substantial reskilling; time to productivity would be high
-- No immersive systems or HCI research component; position would not support PhD applications or postdoctoral plans in the target research area
-- Career risk: a geology postdoc would signal a pivot away from HCI/XR, potentially complicating future applications to human-centred research groups
+- Complete domain mismatch: regional geology and subsurface mapping are not aligned with human-centred XR research. This is a career pivot into geoscience.
+- Credential risk: MSc in Creative Multimedia does not prepare for geoscience postdoc expectations at tier-1 institution.
+- Technical gap: Thermochronology, stratigraphic analysis, and Landscape Evolution Modelling are specialized geoscience skills requiring dedicated training.
+- Fieldwork demands: intensive Saharan Desert campaigns may exceed researcher's experience comfort level (no geoscience field background evident).
+- Two-year contract with no guarantee of relevance to XR/HCI pathway. Career opportunity cost is high.
+- No human interaction, no user-centred thinking, no connection to immersive systems or spatial learning.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-regional-geology-of-the-saharan-platform.md` and link [[opp_tudelft-postdoc-in-regional-geology-of-the-saharan-platform]]._

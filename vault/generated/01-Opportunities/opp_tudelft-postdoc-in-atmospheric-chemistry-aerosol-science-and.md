@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-08-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 26)
+Gate: **uncertain** (days to deadline: 25)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -98,7 +98,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.91_
+
+Postdoctoral position in TU Delft's atmospheric science group conducting field-based research on atmospheric chemistry, aerosol science, and air quality monitoring using miniature instrumentation and low-cost sensors, including drone-based measurement campaigns.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 4 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 20 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Domain mismatch: atmospheric science and environmental monitoring are not aligned with human-centred XR research. This is a complete career pivot away from target identity.
+- Credential risk: MSc in Creative Multimedia may not satisfy hiring threshold for environmental science postdoc at top-tier institution.
+- Technical gap: Sensor calibration, drone platforms, atmospheric data processing (Python/R for large datasets) are specialized environmental engineering skills.
+- One-year contract is short; limited time to develop atmospheric science expertise. Productivity risk.
+- No human interaction, no user-centred thinking, no collaborative or immersive systems component.
+- Post-postdoc career positioning would be unclear: atmospheric scientist or XR researcher?
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-atmospheric-chemistry-aerosol-science-and.md` and link [[opp_tudelft-postdoc-in-atmospheric-chemistry-aerosol-science-and]]._

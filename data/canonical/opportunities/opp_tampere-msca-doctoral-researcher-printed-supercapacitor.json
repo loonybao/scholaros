@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-03T09:52:22.583675Z",
-  "updated_at": "2026-08-04T09:02:30.003065Z",
+  "updated_at": "2026-08-05T09:03:58.364055Z",
   "change_history": [
     {
       "ts": "2026-08-03T09:52:22.583798Z",
@@ -29,6 +29,45 @@
       "actor": "rules",
       "fields_changed": [
         "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-05T09:02:11.329368Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-05T09:03:58.364055Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -67,7 +106,66 @@
     "status": "open",
     "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our universities community has its competitive edges in technology, health, and society.\nwww.tuni.fi/en\nLaboratory for Future Electronics\nat the\nElectrical Engineering Unit\nat the\nFaculty of Information and Communication Sciences\nat\nTampere University\nfocuses on sustainable electronics materials and fabrication processes, flexible and stretchable electronics, self-powered sensor nodes, and heterogenous integration.\nWe are excited to announce an opening for a motivated Doctoral Researcher to work on “Printed non-toxic bioderived and biodegradable supercapacitors for low-power wearable and farming applications (DR12)” as a part of the H2024 Marie Skłodowska-Curie Doctoral Network funded by the Europen Commission “\nHolistic integration of eco-Friendly design tools and materials, fabrication technologies for the responsible co-creation of future Sustainable integrated electronic systems (FERNS\n)” (grant agreement number 101226611). The network brings together 20 universities, research institutes, and industrial partners from eight countries. Our aim is to train the next generation of researchers in the implementation of eco-design approaches for the realization of sustainable electronics.\nJob description:\nWe are now looking for a Doctoral Researcher to join the project and to grow into an expert in sustainable energy storage for low-power electronics applications. The aim of the work is to develop supercapacitor energy storage using porous carbons from biochar, greener chemical activation method, and develop environmentally friendly electrolytes. Work will focus on:\nPreparation, characterization, and optimization of porous carbon electrode ink for supercapacitor.\nDevelopment of an environmentally friendly electrolyte based on deep eutectic solvents\nDevelopment of non-toxic bioderived supercapacitor cells and modules for low-power applications.\nCollaboration with the other colleagues across Tampere University, and with FERNS partners.\nThe job includes two secondments: RISE (6 months), Sweden, and InnoItaly (1 month), Italy.\nResponsibilities:\nConduct cutting-edge research on the non-toxic bioderived and biodegradable supercapacitors based on printing technologies.\nCharacterize the synthesized materials using e.g., BET, SEM, XPS, TGA, DSC, and FTIR and devices through various electroanalytical techniques like CV, GCD and EIS.\nEngage in the dissemination of the data through peer-reviewed scientific publications, report writing, and conference presentation.\nEngage in appropriate training and professional development opportunities.\nWork as part of an international team with FERNS partners.\nUndertake planned secondments with consortium partners.\nParticipate in Education and Public Engagement activities, as required.\nTo carry out any additional duties as may reasonably be required within the general scope and level of the post.\nRequirements:\nFor the position, we require\nMaster's degree in electrical engineering, materials science, chemistry, chemical engineering, or related fields.\nTheoretical and practical expertise in materials and characterization in the domain of supercapacitors or batteries.\nVery good English language skills.\nAbility to write and publish high-quality research papers in peer-reviewed journals.\nAbility to conduct systematic scientific research, and inquiring mind and problem-solving skills.\nAbility to work in a team and communicate clearly in multidisciplinary and international environment but also work and think independently.\nAbility to carry out the abovementioned secondments abroad as well as to travel to consortium meetings and international conferences.\nSuccessful applicant must not already hold a doctoral degree.\nSuccessful applicant must be on-site at Tampere to start in the position no later than 1st of October.\nAccording to the Marie Skłodowska-Curie Actions (MSCA) mobility rule, the researcher must not have resided or carried out their main activity (work, studies, etc.) in Finland for more than 12 months in the 3 years immediately prior to their recruitment. Compulsory national service and/or short stays such as holidays and time spent as part of a procedure for obtaining refugee status under the Geneva Convention are not considered. The formal requirements need to met by the end of the application period (e.g., degree completion). The successful candidates need to apply for and be granted a study right for a doctoral degree in the doctoral program of the discipline at Tampere University. Please visit the\nadmissions webpage\nfor more information on eligibility requirements.\nWe offer:\nThe positions will be filled for a fixed-term period of 3 years.\nThe starting date will be mutually agreed, but selected candidate must be on-site and able to start before October 2026.\nA trial period of six months applies to all our new employees.\nThe salary will be set in accordance with MSCA rates and the gross monthly salary in the employment contract is in Finland about 3800 EUR/month plus family allowance if applicable.\nAccess to world-class training, workshops, and conferences.\nInternational, interdisciplinary, and intersectoral mobility opportunities.\nEnrolment in a structured doctoral program.\nWe offer you the opportunity to join our dynamic and innovative international community. As a member of staff at Tampere University, you will enjoy a range of competitive benefits, such as a flexible work schedule, good facilities for teleworking, occupational healthcare services, a variety of affordable food and drink outlets across our campuses and a personal fund to spend on sports and cultural activities in your free time. International HR services offer their help with e.g. official issues in settling in Finland and Tampere. Please read more about\nworking at Tampere University\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\nTampere, located between two big lakes, is Finland’s second largest city area and the biggest inland city in the Nordic countries. Nature is close everywhere you turn your head in Tampere. This together with a strong tradition in industry make Tampere a unique environment for living and working. At present the region hosts a great deal of industry and service businesses, and the City of Tampere is a major hub for the Finnish ICT industry. For more information on Tampere, please check\nVisitTampere\n,\nWelcome to Tampere\nand\nInternational House Tampere\n.\nFinland provides one of the most advanced and comprehensive social security in the world. It includes for example sickness benefits, various family benefits and a comprehensive healthcare system. For more information on Finland, please check\nInfoFinland\nand\nThis is Finland\n.\nHow to apply:\nPlease submit your application through our online recruitment system (link below). The closing date for applications is\nAugust 17, 2026 at 23:59:00 (EEST / CET +3)\n. Applications and all accompanying documentation must be in English.\nThe following documents should accompany your application:\na CV/Resume (with a list of publications, if applicable)\na free-form application letter outlining how you meet the criteria for this role (max. 1 page)\nCopy of degree certificates and transcript of records (M.Sc. and B.Sc. studies) in original language. If original language is other than Finnish, Swedish or English, please provide an official translation in one of those languages.\nother relevant documents that support your application (e.g. M.Sc. thesis, the most relevant publications regarding the call (max. 2), list of referees, etc.)\nFor questions and more information, please contact:\nProfessor Matti Mäntysalo matti.mantysalo (at) tuni.fi, +358 40 7576 800\n***********\nT\nampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nMSCA väitöskirjatutkija (painettu superkondensaattori)\nTampereen yliopiston informaatioteknologian ja viestinnän tiedekunnan sähkötekniikan yksikkö on mukana Marie Skłodowska-Curie Doctoral Network -projektissa ” Holistic integration of eco-Friendly design tools and materials, fabrication technologies for the responsible co-creation of future Sustainable integrated electronic systems (FERNS)”. Projektikonsortio muodostuu 20 yliopistosta, tutkimuslaitoksesta, ja yrityksestä ja sen tavoitteena on kouluttaa 15 tutkijaa. Tavoitteemme on kouluttaa seuraavan sukupolven tutkijoita ekosuunnittelun menetelmien soveltamiseen kestävän elektroniikan toteuttamiseksi.\nHaemme väitöskirjatutkijaa työskentelemään ympäristöystävällisten painettujen superkondensaattorien kehittämiseen. Tarkemmat tiedot tehtävästä ja hakuohjeet löytyvät yllä olevasta englanninkielisestä ilmoituksesta.\nHakuaika päättyy 17.08.2025 klo 23:59:00."
   },
-  "ai": null,
+  "ai": {
+    "summary": "MSCA-funded PhD position in sustainable electronics, specifically developing printed non-toxic bioderived supercapacitors for wearable and farming applications. Core work involves materials synthesis, electrochemical characterization, and integration with consortium partners across eight countries.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No alignment with human-centred XR, immersive systems, spatial cognition, or collaborative learning. The position is pure materials science and electrochemistry—antithetical to the researcher's target identity as a human-centred XR/HCI researcher."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Experimental design and quantitative research methods overlap, but the experimental context (materials characterization: BET, SEM, XPS, TGA, DSC, FTIR, CV, GCD, EIS) is orthogonal to user-study design, usability evaluation, or spatial-learning assessment. No transferable methodological value."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "Would close no gaps relevant to the researcher's target identity. Materials synthesis and electrochemistry skills have zero applicability to immersive systems design, spatial cognition research, or HCI."
+    },
+    "strategic_value": {
+      "score": 15,
+      "rationale": "Tampere University is in a preferred country (Finland), and MSCA funding is stable. However, the group (Laboratory for Future Electronics) specializes in sustainable electronics—not human-centred research. Supervisor network and institutional prestige do not advance a human-centred XR trajectory."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc completion by October 2026 start date.",
+      "MSCA mobility rule: researcher must not have resided or worked in Finland for >12 months in prior 3 years.",
+      "Requires willingness to relocate on-site to Tampere by October 2026.",
+      "Requires formal enrolment in Tampere University doctoral program."
+    ],
+    "risks": [
+      "Complete domain mismatch: materials science is excluded from the researcher's target directions and offers no pathway to human-centred XR identity.",
+      "No immersive systems, HCI, or learning science content. This would be a 3-year career detour.",
+      "Laboratory focus is sustainable electronics fabrication, not human factors or spatial research.",
+      "Secondments (RISE Sweden, InnoItaly Italy) are industrial/technical in nature, not HCI-relevant."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-05T09:02:11.328835Z",
+    "analysis_input_hash": "75a9dc55203840cc023633bd1249b1d8914f0f442faf40bec31f1d5853511541"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -75,9 +173,9 @@
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source",
       "posting hints at a mobility/residence-history rule — verify the exact condition"
     ],
-    "fit_overall": null,
+    "fit_overall": 7,
     "urgency": "high",
-    "days_to_deadline": 13,
+    "days_to_deadline": 12,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
