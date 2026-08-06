@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 25)
+Gate: **uncertain** (days to deadline: 24)
 
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
