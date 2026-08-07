@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-31
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 25)
+Gate: **uncertain** (days to deadline: 24)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -123,7 +123,27 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Doctoral position in rock mechanics at Aalto University focused on underground hydrogen storage design, combining numerical modelling, in-situ experiments in a research tunnel, and risk assessment. The role integrates geological data, probabilistic methods, and experimental measurement chains with geotechnical and energy sector partners.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 25 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** r, matlab, mixed-effects-modelling, gis
+
+**Risks:**
+- Fundamental mismatch: position is in rock mechanics and geotechnical engineering; researcher's identity is human-centred XR/HCI. This is a career redirection, not a complementary step.
+- Required skills (FEM, numerical modelling, reliability analysis, instrumentation) represent a steep learning curve in unfamiliar domain.
+- No XR, immersive systems, user studies, or collaborative design elements; extended time in this track would delay progress toward target identity.
+- Research output would not contribute to portfolio for human-centred XR/HCI positions at priority institutions.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-in-rock-mechanics-for-underground.md` and link [[opp_aalto-doctoral-researcher-in-rock-mechanics-for-underground]]._

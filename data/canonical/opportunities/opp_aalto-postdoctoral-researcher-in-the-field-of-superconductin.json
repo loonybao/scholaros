@@ -1,0 +1,179 @@
+{
+  "id": "opp_aalto-postdoctoral-researcher-in-the-field-of-superconductin",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-07T07:20:54.039214Z",
+  "updated_at": "2026-08-07T07:42:02.346979Z",
+  "change_history": [
+    {
+      "ts": "2026-08-07T07:20:54.039352Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-07T07:42:02.220991Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-07T07:42:02.346979Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral researcher in the field of superconducting quantum circuits",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-science",
+    "source": "aalto",
+    "source_native_id": "postdoctoral-researcher-in-the-field-of-superconducting-quantum-circuits",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-the-field-of-superconducting-quantum-circuits",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Postdoctoral-researcher-in-the-field-of-superconducting-quantum-circuits_R47444/apply",
+    "evidence_ids": [
+      "aalto/postdoctoral-researcher-in-the-field-of-superconducting-quantum-circuits"
+    ],
+    "retrieved_at": "2026-08-07T07:20:54.039044Z",
+    "raw_snapshot_hash": "2b120a9e82dc247fc438a79bb06221b483730afa60d29a18e5813b3481432044",
+    "extracted_content_hash": "d2bb9076e2fb974d06ff75cd1abe87f3a78193e2b02d0e327b6dcd868c6a59c8",
+    "deadline": "2026-09-30",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-06",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nAt the Department of Applied Physics, our pioneering research in physical sciences creates important industrial applications that hold great technological potential. Our research focuses on Materials physics, Quantum technology, Soft & living matter, and Advanced energy solutions. Topics extend from fundamental research to important applications. We educate future generations of research and development professionals, data specialists, technology experts, inventors, and scientists for industry and society.\nThe\nKvantti group\n(Superconducting Qubits and Circuit QED)\nat the\nDepartment of Applied Physics\n, Aalto University, is seeking outstanding candidates for the position of\nPostdoctoral Researcher in experimental circuit QED\nWe are looking for a bright, motivated postdoctoral researcher to join our team. You should have excellent study records in physics, engineering, or related disciplines up to the level of Ph.D.  (awarded or expected soon). You are energetic and confident to take initiative in the lab. Your skills can be in any area of mesoscopic physics, nanoelectronics, cryogenics, microwave electronics, circuit design, clean-room techniques, simulations, data analysis, and instrument programming.\nOur group is doing research on circuits consisting of superconducting qubits and resonators - presently one of the most promising platforms for future quantum computers and quantum simulators. Moreover, we explore additional applications of these devices for emerging quantum technologies such as supersensitive detection. This field of research has had tremendous development in recent times and presently offers plenty of exciting opportunities for scientific breakthroughs.\nWe have several research directions in the group, with projects funded by EU, Research Council of Finland, and by Business Finland: axion detection using superconducting qubits, control of quantum computers using microwave and optical signals, and continuous-variables quantum information processing and sensing using parametric amplifiers. More details are available from the group leader. As a postdoctoral researcher you will be part of a vibrant international team striving to advance these exciting research topics, and we offer the possibility to engage in collaborations with industrial partners and other academic groups interested in quantum technologies that are part of these projects.\nYour experience and ambitions\nApplicants for this position should hold (or expect soon) a PhD degree in physics, electrical engineering, or computer science. Applicants should preferably have prior research experience in one or more of the following areas: design and fabrication of superconducting devices, cryogenic operation and measurements, microwave electronics, numerical simulations, quantum control, and data analysis. However, we will consider candidates with experience and expertise in other nearby fields, such as quantum optics, trapped atoms/ions, nanoelectronics, NV centers, quantum materials, etc. given that a strong motivation for transiting to a new field is demonstrated.\nWhat we offer\nA fixed-term contract will be made initially for two years. Aalto University follows the salary system of Finnish universities. The starting salary for a Postdoctoral Researcher is\napprox. 4229 €/month\nand it can increase to\n4649 €/month\ndepending on the level of experience and expertise. The contract includes occupational healthcare. The primary workplace will be the Otaniemi Campus at Aalto University.\nThe successful candidate will have the chance to become a top expert in the fast-developing field of quantum simulation and quantum information processing with superconducting qubits. You will have full access to the OtaNano research infrastructure for nano- and micro- technologies, comprising state-of-the-art equipment in nanofabrication, cryogenics, microscopy, and electronics. OtaNano operates the largest clean room in Northern Europe and our Low Temperature Laboratory (where the group is located) leverages unmatched expertise in cryogenics and low-noise measurements. The group is also part of the\nFinnish Quantum Flagship\nnational initiative and we are active members of\nInstituteQ\n. The skills that you will develop as a postdoc are currently in very high demand both in academia and in high-tech companies - at present, there is a significant level of investment from private and governmental funding agents in the field of quantum technologies.\nReady to apply?\nTo apply for the position, please submit your application including the attachments mentioned below as one single PDF document in English through our online recruitment system by using the link on Aalto University’s web page (\"Apply Now”).\n(1) Letter of motivation\n(2) CV including and description of skills/previous experience and list of publications\n(3) Degree certificates and academic transcripts\n(4) Contact details of at least two referees (or letters of recommendation, if already available)\nThe deadline for applications is\nSeptember 30, 2026,\nwhile the screening of candidates will start immediately and will proceed on a rolling basis. The position will be filled as soon as a suitable candidate is identified. For additional information, contact Prof. Sorin Paraoanu (sorin (dot) paraoanu (at) aalto (dot) fi).\nAalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period. Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions).\nDoing research at Aalto University:\nAs a postdoctoral researcher in the Kvantti group you will be part of a vibrant community working on quantum technologies. You will have the opportunity to discuss on a daily basis and collaborate with theorists and experimentalists working on related topics. You will be a part of one of the largest and most active innovation and startup hubs in Nordic countries.\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nCareers at Aalto | Aalto University\nCheck out our new virtual campus experience:\nAalto University – virtual campus tour\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWORLD HAPPINESS REPORT\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in experimental circuit QED and superconducting qubits at Aalto University, focusing on device design, cryogenic operation, microwave control, and quantum information processing. Part of Finnish Quantum Flagship and InstituteQ initiatives.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "No thematic connection. The position is in quantum physics and quantum computing—fundamental physics and hardware. The researcher's identity centres on human-centred immersive systems, collaborative learning, spatial cognition, and HCI. There is no intersection between quantum circuit design and human-centred XR."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Minimal methodological fit. The position requires experimental design in a physics/engineering context (cryogenics, microwave electronics, device fabrication, numerical simulations). The researcher has intermediate experimental design skills from user studies, but these are in human-factors contexts with questionnaires and task measures—not in quantum systems instrumentation, numerical physics simulations (which differ fundamentally from game engine development), or low-temperature measurement chains. Skills are incommensurable."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "Zero growth value toward the target identity. A postdoc in superconducting qubits would deepen expertise in quantum physics and engineering—the opposite direction from human-centred XR research. This would not close any capability gaps relevant to immersive systems, collaborative design, or HCI."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Aalto is tier-1 and the quantum flagship initiative offers strong funding and visibility. However, strategic value is severely limited because the research domain is incompatible with the stated target identity. Postdoc-level position offers career advancement and publication opportunities, but in a field unrelated to human-centred XR. This would not support transition to doctoral/postdoctoral positions in the researcher's priority groups."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "statistics"
+    ],
+    "missing_skills": [
+      "python",
+      "r",
+      "cryogenics-and-low-temperature-measurement",
+      "microwave-electronics",
+      "superconducting-device-design",
+      "numerical-physics-simulation"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher holds MSc by Research (in progress); position requires PhD (awarded or expected soon). PhD eligibility contingent on completion and successful defence of thesis.",
+      "Position expects experience in mesoscopic physics, nanoelectronics, cryogenics, or closely related quantum fields. Researcher has none of these."
+    ],
+    "risks": [
+      "Fundamental discipline mismatch: quantum physics/engineering vs. human-centred HCI/XR. This is not an adjacent methodological fit; it is a different research ecosystem.",
+      "Researcher lacks domain background (no cryogenics, quantum control, microwave electronics, nanoelectronics, clean-room experience). Onboarding would require extensive retraining.",
+      "Postdoc position is temporary (2 years); limited time to build sufficient expertise to be competitive in quantum field.",
+      "Output would not contribute to portfolio for HCI/XR positions. Career pivot would delay doctoral/postdoctoral progression in target direction.",
+      "No human-factors or collaborative elements; research would not inform understanding of immersive systems or learning."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-07T07:42:02.220591Z",
+    "analysis_input_hash": "b8517f65d5beb52c4fff894ca597180241cdf710a1cd9480553b7f5148510fd1"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 5,
+    "urgency": "low",
+    "days_to_deadline": 54,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
