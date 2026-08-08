@@ -2,7 +2,7 @@
 source: aalto
 native_id: innovation-postdoc-artificial-intelligence
 url: https://www.aalto.fi/en/open-positions/innovation-postdoc-artificial-intelligence
-retrieved_at: 2026-07-17T15:35:14.697070+00:00
+retrieved_at: 2026-08-08T06:58:02.618899+00:00
 ---
 
 Aalto University is home to researchers working at the frontier of artificial intelligence. Some of that work has the potential to become more than research — to address real problems, create new industries, and contribute to Finland's deep tech future. The Innovation Postdoc exists to support that transition.
@@ -64,7 +64,7 @@ The position includes occupational health care and retirement benefits in accord
 Application instructions
 Before applying, please read this instruction carefully. The applications must be submitted through Aalto University’s recruitment system.
 The steps required for submission are outlined here.
-The application portal closes on August 13th, 2026, 23:59. We recommend you submit your application a couple of days prior to the deadline to ensure proper processing.
+The application portal closes on August 23th, 2026, 23:59. We recommend you submit your application a couple of days prior to the deadline to ensure proper processing.
 Documents and naming conventions
 The documents mentioned below must be submitted as part of the Innovation Postdoc application. All documents must be submitted as PDF files (max. 5 MB in total) unless otherwise stated. Please use the following naming conventions for your documents and add your full name on each page of documents.
 FamilyName_Firstname-degree transcript

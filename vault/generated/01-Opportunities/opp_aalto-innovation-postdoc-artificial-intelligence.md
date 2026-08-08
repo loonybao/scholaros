@@ -3,18 +3,18 @@ id: opp_aalto-innovation-postdoc-artificial-intelligence
 type: opportunity
 title: "Innovation Postdoc – Artificial Intelligence"
 organisation: "Aalto University"
-deadline: 2026-08-13
+deadline: 2026-08-23
 status: open
 eligibility_gate: uncertain
-fit_overall: 25
-urgency: urgent
+fit_overall: 26
+urgency: high
 needs_review: true
 ---
 
 # Innovation Postdoc – Artificial Intelligence
 
 **Organisation:** [[org_aalto_university]] (Aalto University)
-**Deadline:** 2026-08-13 (12:00 UTC)
+**Deadline:** 2026-08-23 (12:00 UTC)
 **Location:** Espoo, Finland
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 6)
+Gate: **uncertain** (days to deadline: 15)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -90,7 +90,7 @@ The position includes occupational health care and retirement benefits in accord
 Application instructions
 Before applying, please read this instruction carefully. The applications must be submitted through Aalto University’s recruitment system.
 The steps required for submission are outlined here.
-The application portal closes on August 13th, 2026, 23:59. We recommend you submit your application a couple of days prior to the deadline to ensure proper processing.
+The application portal closes on August 23th, 2026, 23:59. We recommend you submit your application a couple of days prior to the deadline to ensure proper processing.
 Documents and naming conventions
 The documents mentioned below must be submitted as part of the Innovation Postdoc application. All documents must be submitted as PDF files (max. 5 MB in total) unless otherwise stated. Please use the following naming conventions for your documents and add your full name on each page of documents.
 FamilyName_Firstname-degree transcript
@@ -118,21 +118,28 @@ here.
 
 ## AI analysis
 
-_claude-fable-5 · fit_analysis_v1 · confidence 0.90_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
 
-12-month funded innovation position for Aalto doctoral researchers/postdocs to commercialise an existing AI research result (customer discovery, business model, spinout preparation).
+Aalto's Innovation Postdoc program targets researchers with a concrete, commercially differentiable technology or invention ready for validation with real users and partners. The 12-month position focuses 100% on de-risking innovation (problem/market validation, business model development, commercialization pathway preparation) rather than research advancement, supported by coaching, IP guidance, and access to the Nordic startup ecosystem.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 30 |
+| Thematic fit | 15 |
 | Methodological fit | 20 |
 | Growth value | 30 |
-| Strategic value | 20 |
-| **Overall** | **25** |
+| Strategic value | 65 |
+| **Overall** | **26** |
 
 **Fit type:** poor-fit
 
 **Missing skills:** none noted
+
+**Risks:**
+- Career trajectory risk: Researcher's target identity emphasizes doctoral research and long-term HCI academia. A commercialization-focused postdoc would delay PhD entry and signal a pivot toward entrepreneurship rather than research.
+- Misaligned incentives: The program is structured to maximize innovation readiness and spinout potential, not research rigor. A researcher driven by 'design and evaluate' human-centred systems may experience friction with market-validation and business-model-first thinking.
+- Limited research continuation: Position offers 'continued access to and support from Aalto professors' for technology development, but does not position the researcher within an HCI or spatial cognition research group. Research mentorship appears secondary to innovation coaching.
+- Unclear scope: Posting does not specify whether XR/immersive learning systems are a priority research area for the program's innovation network. AI is mentioned as Aalto's frontier; XR application innovation fit is ambiguous.
+- Funding uncertainty: Milestone-based funding top-ups are mentioned but criteria and availability are not specified in the posting.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-innovation-postdoc-artificial-intelligence.md` and link [[opp_aalto-innovation-postdoc-artificial-intelligence]]._

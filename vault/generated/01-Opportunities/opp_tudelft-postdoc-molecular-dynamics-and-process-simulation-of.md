@@ -7,7 +7,7 @@ deadline: 2026-09-22
 status: open
 eligibility_gate: uncertain
 fit_overall: 7
-urgency: low
+urgency: medium
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 46)
+Gate: **uncertain** (days to deadline: 45)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
