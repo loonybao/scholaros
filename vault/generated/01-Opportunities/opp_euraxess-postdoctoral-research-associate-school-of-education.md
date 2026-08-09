@@ -5,10 +5,10 @@ title: "Postdoctoral Research Associate, School of Education"
 organisation: "Times Higher Education"
 deadline: 2026-08-08
 status: open
-eligibility_gate: uncertain
+eligibility_gate: fail
 fit_overall: 30
-urgency: urgent
-needs_review: true
+urgency: none
+needs_review: false
 ---
 
 # Postdoctoral Research Associate, School of Education
@@ -24,10 +24,9 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 0)
+Gate: **fail** (days to deadline: -1)
 
-- funding/salary not confirmed on the posting
-- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- application deadline has passed
 
 ## Description
 
