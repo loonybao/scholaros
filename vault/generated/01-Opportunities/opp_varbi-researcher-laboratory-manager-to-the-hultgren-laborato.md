@@ -3,18 +3,18 @@ id: opp_varbi-researcher-laboratory-manager-to-the-hultgren-laborato
 type: opportunity
 title: "Researcher - Laboratory Manager to the Hultgren Laboratory"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-10
+deadline: 2026-08-24
 status: open
 eligibility_gate: uncertain
-fit_overall: 8
-urgency: urgent
+fit_overall: 4
+urgency: high
 needs_review: true
 ---
 
 # Researcher - Laboratory Manager to the Hultgren Laboratory
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-10
+**Deadline:** 2026-08-24
 **Location:** Stockholm, Sweden
 **Position type:** other
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 1)
+Gate: **uncertain** (days to deadline: 13)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -116,35 +116,35 @@ Tara Congo, congo@kth.se
 Published
 30.Jun.2026
 Last application date
-10.Aug.2026
+24.Aug.2026
 Apply for position
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
 
-Laboratory manager and researcher role overseeing KTH's Hultgren materials characterization facility. Responsibilities include equipment management (XRD, SEM, thermal analysis), user support, budget oversight, and strategic infrastructure development for materials research.
+Laboratory Manager and Researcher position at KTH's Hultgren Laboratory, a materials characterization facility offering instruments for sample preparation and measurement of metallic, ceramic, polymer, and composite materials (XRD, SEM, TEM, thermal analysis, mechanical testing). Role emphasizes facility operations, user support, equipment maintenance, strategic development, and partial technical leadership on selected instruments.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 10 |
-| Growth value | 5 |
-| Strategic value | 15 |
-| **Overall** | **8** |
+| Thematic fit | 2 |
+| Methodological fit | 4 |
+| Growth value | 1 |
+| Strategic value | 12 |
+| **Overall** | **4** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** materials-characterization, XRD-expertise, SEM-expertise, thermal-analysis, laboratory-operations-management, materials-science, Swedish-language
+**Missing skills:** materials-characterization, xrd, sem, tem, thermal-analysis, mechanical-testing
 
 **Risks:**
-- Researcher unqualified for core materials characterization expertise (XRD, SEM, thermal analysis).
-- Role is primarily laboratory operations management, not active research in researcher's field.
-- Permanent position in materials science diverts researcher from immersive systems research identity.
-- Significant language barrier (Swedish required); researcher's profile does not confirm proficiency.
-- Career trajectory risk: accepting managerial role in unrelated domain could undermine credibility for future HCI positions.
+- Ineligible for immediate application (requires PhD; researcher has MSc in progress).
+- Severe domain mismatch: materials science instrumentation management vs. human-centred XR/HCI is a fundamentally different research and career track. Accepting this role would signal departure from immersive systems research and damage credibility in target HCI communities.
+- Laboratory manager roles are often transition points into research administration rather than paths to independent human-centred research positions. Career trajectory risk is high.
+- Language barrier: Swedish language 'required in day to day work' may reduce competitiveness or create workplace friction despite English-language posting. No evidence of Swedish proficiency in researcher profile.
+- Permanent contract in non-target domain may make it difficult to transition back to doctoral or postdoctoral research in human-centred XR without substantial additional qualifications or publication record in new domain.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-researcher-laboratory-manager-to-the-hultgren-laborato.md` and link [[opp_varbi-researcher-laboratory-manager-to-the-hultgren-laborato]]._

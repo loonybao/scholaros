@@ -1,0 +1,173 @@
+{
+  "id": "opp_tampere-postdoctoral-research-fellow-computational-biophysic",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-11T07:13:00.441400Z",
+  "updated_at": "2026-08-11T07:33:02.317092Z",
+  "change_history": [
+    {
+      "ts": "2026-08-11T07:13:00.441527Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-11T07:33:02.156602Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-11T07:33:02.317092Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Research Fellow (Computational Biophysics)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3144",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3144",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3144#login_form",
+    "evidence_ids": [
+      "tampere/3144"
+    ],
+    "retrieved_at": "2026-08-11T07:13:00.441249Z",
+    "raw_snapshot_hash": "38d1b04f32604f266124391d6ee6ad15106304996fcf18ffb3e44a75eb0a4696",
+    "extracted_content_hash": "e89adfd89e5a0187f7e6bf976694fbae35b399b267c075938ac050978f06440e",
+    "deadline": "2026-09-15",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-10",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our university community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nThe recently established\nBioInterfaces\ngroup  at\nthe Faculty of Engineering and Natural Sciences\nuses molecular dynamics simulations to tackle a diverse set of questions related to biomolecules. The group is currently looking for a postdoctoral researcher to coordinate its research activity in the field of membrane proteins and particularly scramblases.\nJob description\nThe group recently obtained funding for a\nproject to study and design lipid scramblases.\nThis project involves high-throughput coarse-grained and atomistic molecular dynamics simulations, biasing techniques, constant-pH simulations, protein design, and the development of an online database. The project also involves several collaborators that will support the work experimentally.\nYour tasks will involve coordinating the daily work on the project; designing, performing and analyzing simulations; communicating with the collaborators; supervising the doctoral researcher working on the project; preparing manuscripts for publication; and disseminating the findings at meetings and conferences. A doctoral researcher (PhD student) with a complementary skillset will also be hired to work exclusively on the project.\nRequirements\nYou should have a PhD degree in physics, chemistry, biosciences, or a related subject area, preferably with a solid background in molecular dynamics simulations (e.g., GROMACS) and at least basic knowledge of programming (e.g., Python). The demonstrated ability to develop simulation or analysis tools, to design de novo proteins, or to apply machine learning methods to simulation data are considered major advantages.\nYou are expected to be able to work independently, supervise the work of students, communicate with the experimental collaborators, and potentially contribute to the teaching activities of the unit. You should be fluent in spoken and written English. International experience and networks are also appreciated.\nTampere University is a unique, multidisciplinary and boldly forward-looking, evolving community. Our values are openness, diversity, responsibility, courage, critical thinking, erudition/ Bildung, and learner-centredness. We hope that you can embrace these values and promote them in your work.\nWe offer\nThe position offers an opportunity to gain experience in student supervision, independent research, and project management in a supportive and international research environment. The successful candidate will also have the freedom to develop their own research ideas with the support of exceptional supercomputing resources and excellent collaborating teams. The position also provides valuable experience for researchers interested in building an independent academic career.\nThe position will be filled for a fixed-term period of 2 years starting in 1/2027. The start date is flexible and negotiable. A trial period of six months applies to all our new employees. The group will support the hired postdoc in applying for independent funding to extend the position beyond 2 years if they so desire.\nThe salary will be based on both the job requirements and the employee's personal performance in accordance with the Finnish University Salary System. The position of a Postdoctoral Researcher is placed on the job demands levels 5–6 (teaching and research staff). A typical starting salary of Postdoctoral Researcher is around 4000 EUR/month.\nThe BioInterfaces group is part of the Computational physics laboratory, which hosts 7 active research groups covering topics in biophysics, quantum matter, complex systems, novel materials, nanostructures, electronic structure and interdisciplinary challenges in medical technologies and physiology. The BioInterfaces group collaborates with numerous computational and experimental groups nationally and internationally. The group has access to the exceptional computational resources hosted by CSC–IT Center of Science in Finland.\nWe offer you the opportunity to join our dynamic and innovative international community.  As a member of staff at Tampere University, you will enjoy a range of competitive benefits, such as occupational health care services, flexible work schedule, versatile research infrastructure, modern teaching facilities and a safe and inviting campus area as well as a personal fund to spend on sports and cultural activities in your free time. Please read more about\nworking at Tampere University\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\n.\nFinland is among the most stable, free and safe countries in the world, based on prominent ratings by various agencies. Tampere is the largest inland city of Finland, and the city is counted among the major academic hubs in the Nordic countries. Tampere region is the most rapidly growing urban area in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. Tampere is also surrounded by vivid nature with forests and lakes, providing countless opportunities for easy-to-access outdoor adventures and refreshment throughout the year.\nRead more about Finland and Tampere:\nVisit Finland\nThis is Finland\nMinistry of Economic Affairs and Employment: Welcome to Finland\nVisit Tampere\nHow to apply\nPlease submit your application through our online recruitment system. The closing date for applications is [September 15th, (23:59 EET / UTC +2)]. Please write your application and all accompanying documents in English and attach them in PDF format.\nApplications should include the following documents:\nCurriculum Vitae including the list of scientific publications.\nContact information of 1–2 people that can be contacted for references. In addition to a PI, you can also include the name of, e.g., a postdoc that supervised/worked with you.\nMotivation letter in free form (max 2 pages).\nPlease note that you do not have to fill in the optional fields in the application form if these details are already included in your CV.\nFor more information, please contact:\nAssistant Professor, Group Leader Matti Javanainen, tel. +358 50 411 55 227, matti.javanainen (at) tuni.fi\n_______\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nBioInterfaces-tutkimusryhmä etsii tutkijatohtoria laskennallisen biofysiikan alalta koordinoimaan skramblaasiproteiinien tutkimusprojektia.\nRyhmä tutkii molekyylidynamiikkasimulaatioiden avulla monimutkaisten biomembraanien rakennetta ja dynamiikkaa, proteiinien käytöstä näissä kalvoissa, sekä biomolekyylien käytöstä rajapinnoilla. Lisäksi kehitämme työkaluja ja malleja simulaatioidemme tarpeisiin.\nTehtävänkuvaus\nTutkijatohtorin tehtäviin kuuluu projektin koordinointi, tohtoriopiskelijan ohjaus, simulaatioiden toteutus ja analysointi, tutkimusjulkaisujen valmistelu, tulosten esittely alan tapaamisissa sekä mahdollisesti pienimuotoinen osallistuminen opetustyöhön.\nHakuohjeet\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).\nHakuaika tehtävään päättyy 15.9.2025 klo 23.59."
+  },
+  "ai": {
+    "summary": "Postdoctoral position coordinating a computational biophysics research project on lipid scramblases at Tampere University, involving molecular dynamics simulations, protein design, database development, and supervision of a doctoral researcher. Position emphasizes independent research, student supervision, and project management.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 1,
+      "rationale": "No thematic alignment. Position is pure computational biophysics (molecular dynamics, protein design, membrane biophysics). Researcher's target is human-centred XR, immersive learning systems, and spatial collaboration. Domains are orthogonal; no shared research questions or application contexts."
+    },
+    "methodological_fit": {
+      "score": 3,
+      "rationale": "Minimal methodological overlap. Position core is computational simulation and algorithm development (molecular dynamics, protein design, machine learning on simulation data). Researcher's expertise is empirical HCI methodology: user studies, experimental design, human performance evaluation. Supervision and project management skills are transferable but do not offset the fundamental methodological mismatch."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "Negligible growth toward target identity. While position offers project management and supervision experience (valuable for academic career), it develops these skills in a domain and research tradition antithetical to human-centred XR. No pathway to immersive systems, spatial cognition, or HCI research communities. Post-PhD trajectory would lead away from target institution networks (Aalto, TU Delft) and research communities."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "Tampere is geographically aligned (Finland). Group has excellent funding, computational resources (CSC), and international collaborations. However, the BioInterfaces group is within Computational Physics—not HCI, immersive systems, or learning sciences. Postdoc experience at this group does not build networks or visibility in target research communities. May disadvantage candidacy for future HCI positions if seen as domain divergence."
+    },
+    "required_skills": [
+      "python",
+      "molecular-dynamics",
+      "statistics",
+      "supervision"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics"
+    ],
+    "missing_skills": [
+      "molecular-dynamics",
+      "supervision"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires a PhD degree. Researcher holds MSc by Research (in progress). Ineligible until PhD completion.",
+      "No pathway to this position from current status without first completing a PhD, likely in a non-target domain given Master's trajectory."
+    ],
+    "risks": [
+      "Ineligible for current application (requires PhD; researcher has MSc in progress).",
+      "If hypothetically eligible post-PhD, same domain mismatch risk as doctoral position: accepting a postdoc in computational biophysics would signal career pivot away from human-centred XR and damage candidacy for target positions at Aalto, TU Delft, and similar HCI/immersive systems groups.",
+      "Two-year postdoc in non-target domain may be difficult to reframe or pivot back to HCI research without substantial additional retraining or publication record in new domain."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-11T07:33:02.156213Z",
+    "analysis_input_hash": "eb4431b8f329c9c1f068068cad6eaa27c25bcdbc126a2fcacd0dba52910b561e"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 3,
+    "urgency": "medium",
+    "days_to_deadline": 35,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

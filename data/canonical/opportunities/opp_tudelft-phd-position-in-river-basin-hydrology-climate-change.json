@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-18T03:36:30.993155Z",
-  "updated_at": "2026-08-09T07:21:09.233822Z",
+  "updated_at": "2026-08-11T07:33:02.352180Z",
   "change_history": [
     {
       "ts": "2026-07-18T03:36:30.993155Z",
@@ -296,6 +296,18 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-11T07:33:02.352180Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -393,14 +405,14 @@
     "analysis_input_hash": "997193049b67dbef40422c0b96f3ba39fd6b50247c5c2905fe3708cbe1b8b4ef"
   },
   "derived": {
-    "eligibility_gate": "uncertain",
+    "eligibility_gate": "fail",
     "eligibility_reasons": [
-      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+      "application deadline has passed"
     ],
     "fit_overall": 15,
-    "urgency": "urgent",
-    "days_to_deadline": 0,
-    "needs_review": true,
+    "urgency": "none",
+    "days_to_deadline": -2,
+    "needs_review": false,
     "timing_assessment": "timing_unknown"
   },
   "manual": {

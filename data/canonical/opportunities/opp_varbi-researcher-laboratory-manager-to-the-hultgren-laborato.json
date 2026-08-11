@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:14:55.600830Z",
-  "updated_at": "2026-08-09T07:21:09.345224Z",
+  "updated_at": "2026-08-11T07:33:02.464944Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:14:55.600830Z",
@@ -241,6 +241,48 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-11T07:29:22.625809Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-08-11T07:33:02.157852Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-11T07:33:02.464944Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -254,10 +296,10 @@
     "evidence_ids": [
       "varbi/kth-950568"
     ],
-    "retrieved_at": "2026-07-21T01:14:55.600830Z",
-    "raw_snapshot_hash": "fc3271370c50984b6307a52fda3353749ec2e5aa66161c349f1f7e6921dacc28",
-    "extracted_content_hash": "a0510690be6903d505d57e1e2c93069a7f1ed1c1d0f3dce1245cca423e54906b",
-    "deadline": "2026-08-10",
+    "retrieved_at": "2026-08-11T07:29:22.625224Z",
+    "raw_snapshot_hash": "7384849c01203a11f376179604309099ac7faaff8934e51520b2c6665902a7fa",
+    "extracted_content_hash": "c658db1520ef2d38a5fa731c095ae0268066c9563c93b6e5e7308cd5adcb865f",
+    "deadline": "2026-08-24",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -275,61 +317,56 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Researcher -  Laboratory Manager to the Hultgren Laboratory\nApply for position\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nJob description\nThe Hultgren Laboratory is a KTH infrastructure open to students and researchers from universities, institutes and industry. It provides a comprehensive suite of instruments for sample preparation, materials characterization and measurement of materials’ properties. While the facility offers measurement services, it is primarily set up for independent use by researchers, who after appropriate training, can operate the tools and instruments themselves. Most research conducted at the laboratory focuses on metallic and hard materials; however, the instrumentation is also well suited to the study of a broad range of other solid-state materials, such as ceramics, polymers, semiconductors, composites and biomaterials.\nThe overarching goal of the Hultgren Laboratory is to enable high-quality, materials research and education by providing reliable, accessible, and state-of-the-art experimental capabilities. Central to this mission is fostering an efficient, well-supported user environment that promotes both scientific excellence and collaboration across academia and industry.\nThe Laboratory Manager plays a key role in achieving these objectives. The position is responsible for the overall coordination and day-to-day operation of the laboratory, including managing user access, responding to enquiries, and ensuring an effective onboarding and training process for new users.\nThe Laboratory Manager will oversee the maintenance, functionality and safe operation of all equipment, while also providing technical support to users in their experimental work. In addition, the role includes responsibility for the laboratory’s financial oversight, including budgeting, operational costs, investments, and income from user fees and services. While primary responsibility for individual instruments is distributed across the team, the Laboratory Manager is expected to take technical leadership for selected equipment aligned with their expertise; for example, XRD, SEM, thermal analysis or mechanical testing.\nBeyond operational responsibilities, the Laboratory Manager is expected to contribute strategically to the laboratory’s development by defining a clear vision and initiating plans for long-term improvements in infrastructure, services and instrumentation. The aim is to continuously strengthen the laboratory’s capabilities and enhance its contribution to research excellence and innovation.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree\nResearch experience in materials characterization techniques, e.g., XRD, SEM, TEM, thermal analysis, mechanical behavior.\nThe ability to express yourself very well in English, spoken and written, as this will be required in day-to-day work.\nStrong collaboration skills including the ability to support teaching and learning activities.\nIndependent\nCan take initiative\nStructured approach to planning and carrying out activities\nProblem solving and analytical capabilities\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nPreferred qualifications\nPhD focusing on metallic/hard materials·\nExperience with research into metallic/hard materials.·\nExperience in managing laboratory operations and equipment. ·\nExperience supervising students and/or staff\nExperience in method development\nExperience in writing proposals for funding\nExperience in budget responsibility\nKnowledge of laboratory safety standards\nProficiency in Swedish as it is required in day to day work.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nCovering letter about why you are motivated, and have the skills, for this position\nPublications or certificates showing proficiency in laboratory/instrument use and maintenance/services\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid until further notice (permanent post) according to agreement.\nThe employment begins with a six-month probationary period.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nPermanent position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2485\nContact\nPeter Hedström, pheds@kth.se\nTara Congo, congo@kth.se\nPublished\n30.Jun.2026\nLast application date\n10.Aug.2026\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Researcher -  Laboratory Manager to the Hultgren Laboratory\nApply for position\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nJob description\nThe Hultgren Laboratory is a KTH infrastructure open to students and researchers from universities, institutes and industry. It provides a comprehensive suite of instruments for sample preparation, materials characterization and measurement of materials’ properties. While the facility offers measurement services, it is primarily set up for independent use by researchers, who after appropriate training, can operate the tools and instruments themselves. Most research conducted at the laboratory focuses on metallic and hard materials; however, the instrumentation is also well suited to the study of a broad range of other solid-state materials, such as ceramics, polymers, semiconductors, composites and biomaterials.\nThe overarching goal of the Hultgren Laboratory is to enable high-quality, materials research and education by providing reliable, accessible, and state-of-the-art experimental capabilities. Central to this mission is fostering an efficient, well-supported user environment that promotes both scientific excellence and collaboration across academia and industry.\nThe Laboratory Manager plays a key role in achieving these objectives. The position is responsible for the overall coordination and day-to-day operation of the laboratory, including managing user access, responding to enquiries, and ensuring an effective onboarding and training process for new users.\nThe Laboratory Manager will oversee the maintenance, functionality and safe operation of all equipment, while also providing technical support to users in their experimental work. In addition, the role includes responsibility for the laboratory’s financial oversight, including budgeting, operational costs, investments, and income from user fees and services. While primary responsibility for individual instruments is distributed across the team, the Laboratory Manager is expected to take technical leadership for selected equipment aligned with their expertise; for example, XRD, SEM, thermal analysis or mechanical testing.\nBeyond operational responsibilities, the Laboratory Manager is expected to contribute strategically to the laboratory’s development by defining a clear vision and initiating plans for long-term improvements in infrastructure, services and instrumentation. The aim is to continuously strengthen the laboratory’s capabilities and enhance its contribution to research excellence and innovation.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree\nResearch experience in materials characterization techniques, e.g., XRD, SEM, TEM, thermal analysis, mechanical behavior.\nThe ability to express yourself very well in English, spoken and written, as this will be required in day-to-day work.\nStrong collaboration skills including the ability to support teaching and learning activities.\nIndependent\nCan take initiative\nStructured approach to planning and carrying out activities\nProblem solving and analytical capabilities\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nPreferred qualifications\nPhD focusing on metallic/hard materials·\nExperience with research into metallic/hard materials.·\nExperience in managing laboratory operations and equipment. ·\nExperience supervising students and/or staff\nExperience in method development\nExperience in writing proposals for funding\nExperience in budget responsibility\nKnowledge of laboratory safety standards\nProficiency in Swedish as it is required in day to day work.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nCovering letter about why you are motivated, and have the skills, for this position\nPublications or certificates showing proficiency in laboratory/instrument use and maintenance/services\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid until further notice (permanent post) according to agreement.\nThe employment begins with a six-month probationary period.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nPermanent position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2485\nContact\nPeter Hedström, pheds@kth.se\nTara Congo, congo@kth.se\nPublished\n30.Jun.2026\nLast application date\n24.Aug.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "Laboratory manager and researcher role overseeing KTH's Hultgren materials characterization facility. Responsibilities include equipment management (XRD, SEM, thermal analysis), user support, budget oversight, and strategic infrastructure development for materials research.",
+    "summary": "Laboratory Manager and Researcher position at KTH's Hultgren Laboratory, a materials characterization facility offering instruments for sample preparation and measurement of metallic, ceramic, polymer, and composite materials (XRD, SEM, TEM, thermal analysis, mechanical testing). Role emphasizes facility operations, user support, equipment maintenance, strategic development, and partial technical leadership on selected instruments.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "Researcher has zero background in materials science, materials characterization, or laboratory management. While position values research contribution, it is rooted in metallic/hard materials and instrumentation—entirely disconnected from HCI, immersive systems, or spatial learning."
+      "score": 2,
+      "rationale": "No thematic alignment. Position is materials science instrumentation and laboratory management—focused on characterization techniques, equipment operation, and materials research support. Researcher's target is human-centred immersive systems, spatial cognition, collaborative learning, and wayfinding. No intersection in research domains, application contexts, or intellectual questions."
     },
     "methodological_fit": {
-      "score": 10,
-      "rationale": "Position includes user support and training elements (tangentially related to HCI), but core methodology is materials characterization via instrumentation (XRD, SEM, TEM). Researcher's HCI/UX evaluation methods do not transfer."
+      "score": 4,
+      "rationale": "Minimal methodological overlap. Position emphasizes materials characterization (XRD, SEM, TEM, thermal analysis), instrumentation expertise, and laboratory operations management. Researcher's methods are empirical HCI: user studies, experimental design, human performance measurement, and immersive system evaluation. The role requires technical depth in materials science tools; researcher has no background or interest in materials characterization. Core research traditions are orthogonal."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "Could develop lab management and mentoring skills, but offers no advancement in immersive systems, spatial cognition, user-centred design, or collaborative technologies. Distracts from stated research identity."
+      "score": 1,
+      "rationale": "No meaningful growth toward target identity. Laboratory management skills (budgeting, user support, equipment oversight, strategic planning) are generic academic competencies but develop entirely outside human-centred research contexts. Position would not advance expertise in XR, immersive systems, spatial cognition, or HCI methodology. Unlikely to strengthen candidacy for human-centred XR positions."
     },
     "strategic_value": {
-      "score": 15,
-      "rationale": "KTH Stockholm in target geography. Permanent position with job security. However, role is primarily operational/managerial in materials science, not research in HCI or immersive systems. No funding agency alignment with researcher's goals."
+      "score": 12,
+      "rationale": "KTH is a world-leading technical university in Stockholm, Sweden (geographically aligned with preferences). Permanent position with stable funding and strong institutional reputation. However, the Hultgren Laboratory is a materials science facility within the School of Industrial Engineering and Management—not an HCI, immersive systems, or human-centred research group. Administrative/managerial experience at a technical facility does not build networks, visibility, or trajectory toward target institutions (Aalto, TU Delft) or research communities in immersive systems. May be viewed as departure from research path."
     },
     "required_skills": [
-      "user-studies",
       "experimental-design",
-      "academic-writing"
+      "research-experience-materials-characterization"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "user-studies",
-      "experimental-design",
-      "academic-writing"
+      "experimental-design"
     ],
     "missing_skills": [
       "materials-characterization",
-      "XRD-expertise",
-      "SEM-expertise",
+      "xrd",
+      "sem",
+      "tem",
       "thermal-analysis",
-      "laboratory-operations-management",
-      "materials-science",
-      "Swedish-language"
+      "mechanical-testing"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires PhD; researcher holds MSc by Research in progress",
-      "Position strongly prefers PhD in metallic/hard materials and materials science expertise—researcher has no such background",
-      "Swedish language proficiency required for day-to-day work; researcher profile does not mention Swedish",
-      "Position emphasizes materials research and metallic materials focus; researcher specializes in XR and HCI"
+      "Position requires a doctoral degree or equivalent foreign qualification. Researcher holds MSc by Research (in progress). Ineligible until PhD completion.",
+      "Posting mentions security clearance under Protective Security Act (2018:585) and notes that 'a prerequisite for employment is that the applicant is approved following the security clearance.' Researcher's nationality and background documentation would need to satisfy Swedish security vetting; unclear whether this is a substantive barrier.",
+      "Position 'strongly' prefers Swedish language proficiency 'as it is required in day to day work.' Researcher's language profile indicates only English fluency. Language barrier may reduce competitiveness, though not stated as disqualifying."
     ],
     "risks": [
-      "Researcher unqualified for core materials characterization expertise (XRD, SEM, thermal analysis).",
-      "Role is primarily laboratory operations management, not active research in researcher's field.",
-      "Permanent position in materials science diverts researcher from immersive systems research identity.",
-      "Significant language barrier (Swedish required); researcher's profile does not confirm proficiency.",
-      "Career trajectory risk: accepting managerial role in unrelated domain could undermine credibility for future HCI positions."
+      "Ineligible for immediate application (requires PhD; researcher has MSc in progress).",
+      "Severe domain mismatch: materials science instrumentation management vs. human-centred XR/HCI is a fundamentally different research and career track. Accepting this role would signal departure from immersive systems research and damage credibility in target HCI communities.",
+      "Laboratory manager roles are often transition points into research administration rather than paths to independent human-centred research positions. Career trajectory risk is high.",
+      "Language barrier: Swedish language 'required in day to day work' may reduce competitiveness or create workplace friction despite English-language posting. No evidence of Swedish proficiency in researcher profile.",
+      "Permanent contract in non-target domain may make it difficult to transition back to doctoral or postdoctoral research in human-centred XR without substantial additional qualifications or publication record in new domain."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -337,14 +374,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.92,
+    "confidence": 0.93,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-21T07:47:05.975876Z",
-    "analysis_input_hash": "0d793fea087ae8bdc8f1a5f7526fa17d791a6a082b7df14b1b0feab88d357f23"
+    "analyzed_at": "2026-08-11T07:33:02.157310Z",
+    "analysis_input_hash": "2bfbea737bb4f2b5a7ec8d396c5ba13895ef3490fd3c2c84b2673ad9fb961ab5"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -353,9 +390,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 8,
-    "urgency": "urgent",
-    "days_to_deadline": 1,
+    "fit_overall": 4,
+    "urgency": "high",
+    "days_to_deadline": 13,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
