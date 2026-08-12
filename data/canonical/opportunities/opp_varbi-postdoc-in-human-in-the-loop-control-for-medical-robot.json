@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:11:16.076766Z",
-  "updated_at": "2026-08-11T07:33:02.443129Z",
+  "updated_at": "2026-08-12T08:00:58.050346Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:11:16.076766Z",
@@ -223,6 +223,48 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-12T07:43:00.908116Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-08-12T08:00:57.766361Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-12T08:00:58.050346Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -236,10 +278,10 @@
     "evidence_ids": [
       "varbi/kth-954145"
     ],
-    "retrieved_at": "2026-07-21T01:11:16.076766Z",
-    "raw_snapshot_hash": "50d72e25cab4d920e44d95cb37784907077ac4437416d3a9b0f14dc6b36e8ea3",
-    "extracted_content_hash": "bca4abc3635e1de3d7fff3549c7a06cbfb22b7462cf6d6e6ff4ea9e7abca3503",
-    "deadline": "2026-08-12",
+    "retrieved_at": "2026-08-12T07:43:00.907579Z",
+    "raw_snapshot_hash": "1979cefc920341aec393d50bcbc7fab7932af7df6adca964328445d22908f815",
+    "extracted_content_hash": "9ba2b439ef9fe9263760a988b1ece0ae7957cdfe0ed37342957bc8300f26b561",
+    "deadline": "2026-08-19",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -257,45 +299,58 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Postdoc in human in the loop control for medical robotics\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nDo you have a background within mechatronics, biomedical, mechanical, electrical, or computer engineering and research interests in medical robotics and human in the loop control - this could be a position for you. We are looking for an ambitious, collaborative, and structured person to join our team.\nYou will lead research efforts in human-in-the-loop control for medical robotics in the context of cardiovascular technologies. The goal is to innovate control systems for optimized interaction of soft cardiovascular pumps and wearable biofeedback systems with the human body. You will have the opportunity to critically assess the safety of the proposed control system for real-world application utilizing hybrid mock circulation. The unique systems enable real-time testing in interaction with the human cardiovascular system dynamics across various patient groups. You are expected to publish in scientific journals in an independent way and to support the coordination of the research group and supervision of students.\nAs a PostDoc, you will be an integral part of the growing Intelligent Heart Technology Lab, whose mission is to advance cardiovascular health technologies, at the Department of Biomedical Engineering and Health Systems. Read more about our research here. Throughout the project, you will work closely with stakeholders in clinics and international partners, enabling fast learning and idea exchange with medical doctors.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nYou have research expertise in mechatronics, robotics, and/or control.\nCommunication skills in interdisciplinary environments are desirable .\nAs a person you are independent and collaborative.\nIn your work, you are structured and able to prioritize workstreams.\nYou have competence in teaching others.\nYou are aware of diversity and equal opportunity issues, with specific focus on gender equality.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nPhD thesis or equivalent publication record incl. pre-prints\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-10-01 or according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2627\nContact\nSeraina Anne Dual, seraina@kth.se\nPublished\n09.Jul.2026\nLast application date\n12.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+    "description_text": "Postdoc in human in the loop control for medical robotics\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nDo you have a background within mechatronics, biomedical, mechanical, electrical, or computer engineering and research interests in medical robotics and human in the loop control - this could be a position for you. We are looking for an ambitious, collaborative, and structured person to join our team.\nYou will lead research efforts in human-in-the-loop control for medical robotics in the context of cardiovascular technologies. The goal is to innovate control systems for optimized interaction of soft cardiovascular pumps and wearable biofeedback systems with the human body. You will have the opportunity to critically assess the safety of the proposed control system for real-world application utilizing hybrid mock circulation. The unique systems enable real-time testing in interaction with the human cardiovascular system dynamics across various patient groups. You are expected to publish in scientific journals in an independent way and to support the coordination of the research group and supervision of students.\nAs a PostDoc, you will be an integral part of the growing Intelligent Heart Technology Lab, whose mission is to advance cardiovascular health technologies, at the Department of Biomedical Engineering and Health Systems. Read more about our research here. Throughout the project, you will work closely with stakeholders in clinics and international partners, enabling fast learning and idea exchange with medical doctors.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nYou have research expertise in mechatronics, robotics, and/or control.\nCommunication skills in interdisciplinary environments are desirable .\nAs a person you are independent and collaborative.\nIn your work, you are structured and able to prioritize workstreams.\nYou have competence in teaching others.\nYou are aware of diversity and equal opportunity issues, with specific focus on gender equality.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nPhD thesis or equivalent publication record incl. pre-prints\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-10-01 or according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2627\nContact\nSeraina Anne Dual, seraina@kth.se\nPublished\n09.Jul.2026\nLast application date\n19.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "KTH postdoc in human-in-the-loop control for medical robotics, specifically designing control systems for soft cardiovascular pumps and wearable biofeedback systems with real-time hybrid mock circulation testing and clinical stakeholder collaboration.",
-    "fit_type": "poor-fit",
+    "summary": "Postdoctoral researcher position in human-in-the-loop control for cardiovascular medical robotics at KTH Stockholm. Focus is on control systems for soft pumps and wearable biofeedback, safety validation via hybrid mock circulation, and real-time testing across patient groups. Role includes independent publication, student supervision, and clinician collaboration.",
+    "fit_type": "adjacent-methodological-fit",
     "thematic_fit": {
-      "score": 15,
-      "rationale": "Position explicitly involves 'human in the loop,' interdisciplinary collaboration, and clinical translation—thematically human-centered. However, core focus is mechatronics, control systems design, and biomedical device engineering. Human-in-the-loop here refers to control design and safety validation, not human-centred design, spatial cognition, or immersive learning. No immersive systems component."
+      "score": 25,
+      "rationale": "Position centers on human-robot interaction, control system design, and real-world validation in medical contexts. Candidate's target identity emphasizes human-centred immersive systems and spatial/collaborative learning. Overlap exists in 'human-in-the-loop' framing and real-world transfer (safety validation mirrors candidate's interest in real-world spatial transfer). However, medical robotics control is not immersive, not focused on learning or spatial cognition, and not collaborative in the social-multiplayer sense. The human-in-the-loop language is superficially aligned but mechanically different."
     },
     "methodological_fit": {
-      "score": 20,
-      "rationale": "Requires mechatronics, robotics control expertise, and biomedical engineering background. Researcher has game development (Unity/C#) and multiplayer systems experience, which are distinct from real-time control, hybrid simulation, and medical device safety. User-studies experience partially relevant to clinical collaboration, but insufficient without core control/mechatronics knowledge."
+      "score": 40,
+      "rationale": "Both candidate and position value user-facing evaluation, real-world validation, and interdisciplinary collaboration. Candidate has intermediate experimental-design and user-studies skills; position requires safety assessment and stakeholder engagement (clinics, international partners). However, medical robotics control demands expertise in mechatronics, control theory, and systems engineering—domains candidate lacks. Candidate's methods (HCI evaluation, questionnaires, task performance) do not directly transfer to cardiovascular system dynamics testing or hybrid mock circulation. Collaborative and real-world validation mindset is methodologically adjacent but technical foundations diverge."
     },
     "growth_value": {
-      "score": 25,
-      "rationale": "Researcher could develop some transferable skills in interdisciplinary collaboration and real-time system evaluation. However, learning medical robotics control would not close capability gaps aligned with target identity (eye-tracking, physiological sensing, advanced statistics for spatial cognition research)."
+      "score": 35,
+      "rationale": "Position would develop real-world validation rigor, stakeholder engagement in high-stakes contexts (clinical safety), and potentially deepen understanding of human-system interaction beyond digital immersion. However, it would not advance spatial cognition, collaborative learning theory, wayfinding, or immersive systems design. Candidate would gain clinical/medical domain knowledge and control systems perspective but would not build toward spatial understanding or multiplayer collaborative systems. Growth is lateral rather than foundational for target identity."
     },
     "strategic_value": {
-      "score": 30,
-      "rationale": "KTH and Stockholm meet institutional/geographic criteria. Department of Biomedical Engineering is internationally strong. However, research focus is medical device control, not immersive systems or spatial learning. Does not establish pathway to Aalto, TU Delft, or European HCI/immersive research groups."
+      "score": 50,
+      "rationale": "KTH Stockholm is a leading technical university in Sweden, candidate's preferred region. Department of Biomedical Engineering and Health Systems is internationally recognized. Two-year postdoctoral appointment offers shorter commitment than ORBIT position. However, mechatronics and medical robotics are not established pathways into human-centred immersive systems or HCI doctoral positions at Aalto or TU Delft. Position provides credential strength and international collaboration but limited strategic proximity to target doctoral research focus."
     },
-    "required_skills": [],
+    "required_skills": [
+      "experimental-design",
+      "user-studies",
+      "academic-writing"
+    ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "user-studies"
+      "experimental-design",
+      "user-studies",
+      "academic-writing"
     ],
-    "missing_skills": [],
+    "missing_skills": [
+      "control-systems-engineering",
+      "mechatronics",
+      "robotics-dynamics",
+      "biomedical-engineering"
+    ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Researcher holds MSc by Research (in progress); position requires completed PhD by employment decision.",
-      "Implicit disciplinary expectation: background in 'mechatronics, biomedical, mechanical, electrical, or computer engineering.' Creative Multimedia is adjacent but not equivalent. Researcher's strengths are software (game engines) and HCI, not control systems or biomedical engineering."
+      "Requires doctoral degree completed by time of employment decision; candidate holds MSc by Research (in progress). Thesis must be defended and degree conferred before or very shortly after application to meet eligibility.",
+      "Preferred qualification: 'doctoral degree obtained within last three years.' Candidate would need degree conferred very recently (by mid-2026 for typical PhD entry timeline). MSc-to-PhD window may be too tight.",
+      "Position emphasizes 'research expertise in mechatronics, robotics, and/or control.' Candidate has none of these. Posting suggests this is desirable but possibly not absolute requirement; however, background gap is substantial.",
+      "Security clearance may apply per Swedish Protective Security Act. Candidate should verify eligibility for security vetting if position is classified."
     ],
     "risks": [
-      "While labeled 'human-in-the-loop,' this is device control and safety validation, not human-centred design or learning research.",
-      "No background in control theory, mechatronics, or biomedical engineering.",
-      "User-studies experience is insufficient without core robotics/control competence.",
-      "Thematic drift: medical robotics is tangential to target identity (spatial cognition, immersive learning, collaboration in VR).",
-      "Potential visa/clearance ambiguity flagged in posting."
+      "Technical foundation gap: candidate lacks formal training in control theory, mechatronics, and robotics. Ramp-up period would be steep and unsupported by postdoc environment (expected to publish independently and supervise students immediately).",
+      "Domain adjacency trap: human-in-the-loop language creates false alignment. Medical robotics control is fundamentally about system safety and dynamic response, not human learning, spatial understanding, or collaborative knowledge-building.",
+      "Career diffusion risk: postdoctoral role in medical robotics may reduce candidacy for doctoral positions focused on immersive learning and spatial cognition. Research narrative becomes fragmented rather than building coherent identity.",
+      "Degree timing: thesis completion before application deadline (not explicitly stated) is uncertain. If thesis runs into 2026, eligibility may be jeopardized.",
+      "Limited immersive systems connection: no XR, AR, VR, multiplayer, or spatial learning components. Current Unity/C# skills would atrophy."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -303,14 +358,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.88,
+    "confidence": 0.8,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-21T07:43:13.274802Z",
-    "analysis_input_hash": "8f992de38146cd328031d6bb6a45174c1b0572e1ea85c09425846f3396a49fed"
+    "analyzed_at": "2026-08-12T08:00:57.765822Z",
+    "analysis_input_hash": "4c646b84be8fece745303ac9b460b7bfd51d49051da0847befb5b7cfc22cfc3a"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -319,9 +374,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 20,
+    "fit_overall": 36,
     "urgency": "urgent",
-    "days_to_deadline": 1,
+    "days_to_deadline": 7,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

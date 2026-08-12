@@ -1,0 +1,173 @@
+{
+  "id": "opp_tudelft-phd-position-molecular-modeling-of-hydrogen-producti",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-12T07:32:09.953308Z",
+  "updated_at": "2026-08-12T08:00:57.969502Z",
+  "change_history": [
+    {
+      "ts": "2026-08-12T07:32:09.953433Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-12T08:00:57.765144Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-12T08:00:57.969502Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Molecular Modeling of Hydrogen Production Processes",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1363992057",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Molecular-Modeling-of-Hydrogen-Production-Processes-2628-CD/1363992057/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Molecular-Modeling-of-Hydrogen-Production-Processes-2628-CD/1363992057/",
+    "evidence_ids": [
+      "tudelft/1363992057"
+    ],
+    "retrieved_at": "2026-08-12T07:32:09.953154Z",
+    "raw_snapshot_hash": "ae1a547b170febd0214e5f8facd3534ccc5f71c734d13ccad64655a038af4f3e",
+    "extracted_content_hash": "e8dab4303158689c2b6835f56df9efd6897d0115d84920f576d0b8e745bb0685",
+    "deadline": "2026-09-20",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3059 - €3881 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "If you are eager to perform cutting-edge molecular modeling to accelerate the development of green and low-carbon hydrogen technologies, then this is position is for you.\nJob description\nYou will join a unique project which aims to develop the next generation of green and low-carbon hydrogen technologies. You will be embeded in the Process & Energy department of the Mechanical Engineering Faculty in TU Delft, and work together with an extended and diverse consortium comprising research organizations in the Netherlands, leading international end-users spanning the chemical and energy sectors, and high-tech companies covering the full energy value chain. Your main focus will be on modeling systems essential for the design and optimization of hydrogen production processes. Accurate thermodynamic, structural, and transport properties are essential for the modelling and design of water electrolysers. These properties strongly depend on T, p, and composition. For model development and validation, experimental data on bulk properties (e.g., electrical/thermal conductivities, transference numbers, electro-osmotic drag coefficients, (transport) diffusion coefficients, viscosities, heat capacities, activity coefficients, and vapor-liquid equilibria) and surface properties and kinetics (e.g., V/L surface tension) for systems containing electrolytes are crucial but largely missing. Also, visco-elastic properties of membranes in electrolysers are crucial, yet not well-described and studied in the literature. This lack of data seriously hinders the development of accurate models for electrolysers. To fill-in this gap, you will use hierarchical molecular simulations to produce high quality thermodynamic, transport, and kinetic data that can be used for multiscale model development. We will focus both on bulk properties and relevant thermodynamics and transport in the membrane along with investigating the catalyst-ionomer interface for both PEM and AEM electrolysis systems. Visco-elastic properties will be computed using the appropriate modelling techniques. Method and models will be developed when necessary.\nJob requirements\nThe ideal candidate:\nHolds an MSc in Mechanical, Chemical, Materials Eng., or Physics or similar discipline.\nHas a strong knoweledge in core disciplines, i.e., mathematics, physics, chemistry, thermodynamics.\nEnjoys working in a team with other students (MSc or PhD) and senior researchers, and stakeholders.\nHas excellent written and verbal communication skills in English.\nHas a positive attitude.\nIs able to work independently towards producing novel and accurate results.\nPior experience with molecular simulation, ab-initio, or macroscale modeling is not necessary, nevertheless, will be considered a strong plus.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact\nO.Moultos@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n20 September 2026\nvia the application button and upload the following documents:\nCV\nA short and to-the-point motivational letter\nList of BSc and Msc grades\nYou can address your application to .\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in molecular modeling and simulation for hydrogen production technologies, focusing on thermodynamic, transport, and kinetic properties of electrolyte systems and membranes in water electrolysers. Work sits within computational chemistry and materials science, embedded in TU Delft's Process & Energy department with consortium partners across research organizations, industry, and end-users.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Position core is pure computational chemistry, thermodynamics, molecular simulation, and materials properties—none of which align with candidate's target identity (human-centred immersive systems, spatial cognition, collaborative learning, wayfinding). The position explicitly excludes human factors, design, learning outcomes, and interaction. There is no immersive systems, HCI, or spatial learning component."
+    },
+    "methodological_fit": {
+      "score": 0,
+      "rationale": "Position demands hierarchical molecular simulation, ab-initio modeling, and computational materials science. Candidate's methods are empirical HCI evaluation (user studies, task performance measurement, questionnaires) and XR systems design. No methodological bridge exists. The listing notes prior molecular simulation experience 'is not necessary' but the gap between qualitative user evaluation and quantitative molecular-scale simulation is fundamental."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "This position would require complete retraining in computational chemistry, thermodynamics, and molecular dynamics. It would not advance any capability relevant to spatial cognition, immersive learning, collaborative systems, or HCI. Candidate would lose domain depth and technical XR skills (Unity, C#, multiplayer networking) with no return toward target identity."
+    },
+    "strategic_value": {
+      "score": 0,
+      "rationale": "TU Delft is on candidate's priority_1 institution list, which is valuable. However, this position is in the Mechanical Engineering faculty (Process & Energy department), which has no research connection to immersive systems, HCI, spatial cognition, or learning design. The strategic value of Delft's location and reputation is negated by departmental mismatch. Four-year doctoral contract structure is standard."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "molecular-simulation",
+      "ab-initio-modeling",
+      "thermodynamic-computation",
+      "computational-chemistry"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc in Mechanical, Chemical, Materials Engineering, or Physics. Candidate holds MSc by Research in Creative Multimedia (in progress). Degree field mismatch may disqualify or require strong justification in motivation letter.",
+      "Position notes 'strong knowledge in core disciplines: mathematics, physics, chemistry, thermodynamics.' Candidate's background is design, HCI, and experiential systems—not physics or chemistry. Prerequisite knowledge gap is significant.",
+      "Candidate has beginner-level Python with no substantial project experience; position requires hands-on computational modeling. Steep learning curve not addressed in job description."
+    ],
+    "risks": [
+      "Complete domain mismatch: molecular hydrogen production has no intersection with human-centred immersive systems research or target identity.",
+      "Discipline mismatch: posting explicitly targets engineering and physical science backgrounds; candidate's Creative Multimedia MSc will likely screen out in initial eligibility review.",
+      "Career direction reversal: accepting would close doors to human-centred XR doctoral positions and signal exit from target research community.",
+      "Technical skill deficit: computational chemistry and molecular dynamics modeling require foundation knowledge candidate does not possess. Onboarding risk is high.",
+      "No pathway to target: three years of molecular modeling work would not advance toward doctoral research in spatial cognition or immersive learning systems."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-12T08:00:57.764763Z",
+    "analysis_input_hash": "92657568934eec9d39e5075cd160c59a37a2b45e55f3f834cc597302946dad6d"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 0,
+    "urgency": "medium",
+    "days_to_deadline": 39,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

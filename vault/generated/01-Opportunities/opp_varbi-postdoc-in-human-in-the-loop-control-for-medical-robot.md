@@ -3,10 +3,10 @@ id: opp_varbi-postdoc-in-human-in-the-loop-control-for-medical-robot
 type: opportunity
 title: "Postdoc in human in the loop control for medical robotics"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-12
+deadline: 2026-08-19
 status: open
 eligibility_gate: uncertain
-fit_overall: 20
+fit_overall: 36
 urgency: urgent
 needs_review: true
 ---
@@ -14,7 +14,7 @@ needs_review: true
 # Postdoc in human in the loop control for medical robotics
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-12
+**Deadline:** 2026-08-19
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 1)
+Gate: **uncertain** (days to deadline: 7)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -102,35 +102,35 @@ Seraina Anne Dual, seraina@kth.se
 Published
 09.Jul.2026
 Last application date
-12.Aug.2026
+19.Aug.2026
 Login and apply
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.80_
 
-KTH postdoc in human-in-the-loop control for medical robotics, specifically designing control systems for soft cardiovascular pumps and wearable biofeedback systems with real-time hybrid mock circulation testing and clinical stakeholder collaboration.
+Postdoctoral researcher position in human-in-the-loop control for cardiovascular medical robotics at KTH Stockholm. Focus is on control systems for soft pumps and wearable biofeedback, safety validation via hybrid mock circulation, and real-time testing across patient groups. Role includes independent publication, student supervision, and clinician collaboration.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 15 |
-| Methodological fit | 20 |
-| Growth value | 25 |
-| Strategic value | 30 |
-| **Overall** | **20** |
+| Thematic fit | 25 |
+| Methodological fit | 40 |
+| Growth value | 35 |
+| Strategic value | 50 |
+| **Overall** | **36** |
 
-**Fit type:** poor-fit
+**Fit type:** adjacent-methodological-fit
 
-**Missing skills:** none noted
+**Missing skills:** control-systems-engineering, mechatronics, robotics-dynamics, biomedical-engineering
 
 **Risks:**
-- While labeled 'human-in-the-loop,' this is device control and safety validation, not human-centred design or learning research.
-- No background in control theory, mechatronics, or biomedical engineering.
-- User-studies experience is insufficient without core robotics/control competence.
-- Thematic drift: medical robotics is tangential to target identity (spatial cognition, immersive learning, collaboration in VR).
-- Potential visa/clearance ambiguity flagged in posting.
+- Technical foundation gap: candidate lacks formal training in control theory, mechatronics, and robotics. Ramp-up period would be steep and unsupported by postdoc environment (expected to publish independently and supervise students immediately).
+- Domain adjacency trap: human-in-the-loop language creates false alignment. Medical robotics control is fundamentally about system safety and dynamic response, not human learning, spatial understanding, or collaborative knowledge-building.
+- Career diffusion risk: postdoctoral role in medical robotics may reduce candidacy for doctoral positions focused on immersive learning and spatial cognition. Research narrative becomes fragmented rather than building coherent identity.
+- Degree timing: thesis completion before application deadline (not explicitly stated) is uncertain. If thesis runs into 2026, eligibility may be jeopardized.
+- Limited immersive systems connection: no XR, AR, VR, multiplayer, or spatial learning components. Current Unity/C# skills would atrophy.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-human-in-the-loop-control-for-medical-robot.md` and link [[opp_varbi-postdoc-in-human-in-the-loop-control-for-medical-robot]]._
