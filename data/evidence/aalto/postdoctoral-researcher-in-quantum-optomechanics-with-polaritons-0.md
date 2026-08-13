@@ -2,7 +2,7 @@
 source: aalto
 native_id: postdoctoral-researcher-in-quantum-optomechanics-with-polaritons-0
 url: https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-quantum-optomechanics-with-polaritons-0
-retrieved_at: 2026-07-17T15:34:44.246512+00:00
+retrieved_at: 2026-08-13T07:39:11.170909+00:00
 ---
 
 Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.
@@ -49,7 +49,7 @@ Please submit your application including the attachments mentioned below as one 
 Please note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via
 Aalto University open positions
 The deadline for applications is
-August 1, 2026
+September 15, 2026
 . We will go through applications, and we may invite suitable candidates to interview already during the application period. The positions will be filled as soon as suitable candidates are identified.
 For additional information, contact Prof. Anton Zasedatelev (
 anton.zasedatelev@aalto.fi

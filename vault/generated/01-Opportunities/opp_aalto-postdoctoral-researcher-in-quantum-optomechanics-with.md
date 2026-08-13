@@ -3,18 +3,18 @@ id: opp_aalto-postdoctoral-researcher-in-quantum-optomechanics-with
 type: opportunity
 title: "Postdoctoral Researcher in quantum optomechanics with polaritons"
 organisation: "Aalto University"
-deadline: 2026-08-01
+deadline: 2026-09-15
 status: open
-eligibility_gate: fail
-fit_overall: 5
-urgency: none
-needs_review: false
+eligibility_gate: uncertain
+fit_overall: 6
+urgency: medium
+needs_review: true
 ---
 
 # Postdoctoral Researcher in quantum optomechanics with polaritons
 
 **Organisation:** [[org_aalto_university]] (Aalto University)
-**Deadline:** 2026-08-01 (12:00 UTC)
+**Deadline:** 2026-09-15 (12:00 UTC)
 **Location:** Espoo, Finland
 **Position type:** phd
 **Salary:** not stated
@@ -24,9 +24,10 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **fail** (days to deadline: -11)
+Gate: **uncertain** (days to deadline: 33)
 
-- application deadline has passed
+- funding/salary not confirmed on the posting
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 
@@ -74,7 +75,7 @@ Please submit your application including the attachments mentioned below as one 
 Please note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via
 Aalto University open positions
 The deadline for applications is
-August 1, 2026
+September 15, 2026
 . We will go through applications, and we may invite suitable candidates to interview already during the application period. The positions will be filled as soon as suitable candidates are identified.
 For additional information, contact Prof. Anton Zasedatelev (
 anton.zasedatelev@aalto.fi
@@ -114,21 +115,26 @@ here.
 
 ## AI analysis
 
-_claude-fable-5 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 1.00_
 
-Postdoc in quantum optomechanics with polaritons (School of Science).
+Postdoctoral researcher position in experimental quantum optomechanics using polaritons and GaAs microcavities, with focus on quantum transduction and light-sound interaction. Role involves leading experimental work, PhD student supervision, and grant writing within national quantum initiatives.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 3 |
+| Thematic fit | 0 |
 | Methodological fit | 5 |
-| Growth value | 5 |
-| Strategic value | 10 |
-| **Overall** | **5** |
+| Growth value | 0 |
+| Strategic value | 30 |
+| **Overall** | **6** |
 
 **Fit type:** poor-fit
 
 **Missing skills:** none noted
+
+**Risks:**
+- Career-track incompatibility: Postdoctoral physics role consolidates trajectory away from HCI entirely. Acceptance would make return to human-centred XR research significantly harder.
+- Discipline isolation: Quantum optics community has minimal overlap with XR/HCI research. Network and collaborators built in this role unlikely to support future human-centred immersive systems work.
+- Research identity: No aspects of immersive design, learning, collaboration, or human factors. Position contradicts stated target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-postdoctoral-researcher-in-quantum-optomechanics-with.md` and link [[opp_aalto-postdoctoral-researcher-in-quantum-optomechanics-with]]._

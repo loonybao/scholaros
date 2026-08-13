@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-17T15:34:44.270524Z",
-  "updated_at": "2026-08-12T08:00:57.889224Z",
+  "updated_at": "2026-08-13T07:59:05.685047Z",
   "change_history": [
     {
       "ts": "2026-07-17T15:34:44.271514Z",
@@ -359,6 +359,59 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-13T07:39:11.218680Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-08-13T07:59:05.589455Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.funding_assessment",
+        "ai.future_group_rationale",
+        "ai.future_group_value",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.model",
+        "ai.next_action",
+        "ai.recommendation",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-13T07:59:05.685047Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -372,10 +425,10 @@
     "evidence_ids": [
       "aalto/postdoctoral-researcher-in-quantum-optomechanics-with-polaritons-0"
     ],
-    "retrieved_at": "2026-07-21T00:53:13.334423Z",
-    "raw_snapshot_hash": "2c68d5d53585c4e56844a8f187b2f9550217a7103caaf82512764b2f355d70f1",
-    "extracted_content_hash": "2d7f0f666d370dbc62ba9a89eafe474012e6145c3d0d55fd563416d3f6242db1",
-    "deadline": "2026-08-01",
+    "retrieved_at": "2026-08-13T07:39:11.218150Z",
+    "raw_snapshot_hash": "a0f419f344c6cd78d2d78159a58867a3a1909f3c65a16565f33468beff3a0e4c",
+    "extracted_content_hash": "4041feac434d2857efed6c7fea40c131bb16f7e771fd0d910d63f213499320a4",
+    "deadline": "2026-09-15",
     "deadline_note": "12:00 UTC",
     "start_date": null,
     "start_date_value": null,
@@ -393,64 +446,72 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.\nDiversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nAt the Department of Applied Physics, our pioneering research in physical sciences creates important industrial applications that hold great technological potential. Our research focuses on Materials physics, Quantum technology, Soft & living matter, and Advanced energy solutions. Topics extend from fundamental research to important applications. We educate future generations of research and development professionals, data specialists, technology experts, inventors, and scientists for industry and society.\nThe\nMacroscopic Quantum Optics (MQO) Group\nand\nQuantum NanoOptomechanics and Forces (QNOF) Group\nat Aalto University jointly invites applications for an experimental postdoctoral position in quantum optomechanics with exciton-polaritons.\nPostdoctoral Researcher\nResearch focus:\nThe project aims to reach the quantum regime of optomechanics with polaritons by utilizing GaAs/AlAs-based microcavities with embedded quantum wells with applications in quantum transduction between microwave and optical frequencies. These unconventional optomechanical systems exhibit a unique \"magic coincidence\" of their phonon and polariton properties allowing for the simultaneous trapping of light and sound within the same high-Q cavity, and resulting in extremely high optomechanical interaction for the polaritons and mechanical modes in GHz range. The project is carried out in close collaboration with our partners providing access to complementary expertise and device know-how.\nYour role and goals\nThe successful candidate is expected to lead the experimental effort with a team of PhD and master’s students and collaborate closely with theorists in the group. They will collaborate with our academic and industry partners worldwide. They expected to lead preparation of research manuscripts for publications in top-tier journals, coordinate submissions, and taking the role of corresponding author. Besides the expertise in experimental quantum optics, the candidate will acquire excellent training in grant writing and research leadership provided by Aalto University and at the MQO/QNOF group level by contributing to research management and funding applications within the joint team. Our team has a great record in supporting applications to prestigious national and international postdoc-level funding schemes such as\nthe Magnus Ehrnrooth Foundation\nand\nMarie Skłodowska-Curie Fellowship\n.\nYour experience and ambitions\nPhD in one of the following broader experimental areas: AMO physics and quantum optics/optomechanics\nStrong hands-on skills in experimental research (optics lab), including automation of data acquisition and data analysis\nProven track record of research publications in your field\nExcellent communication skills (fluency in English) and strong collaboration abilities\nFinnish language is not required\nHighly motivated to conduct fundamental research\nWhat we offer\nThe MQO and QNOF teams combine advanced quantum optics methods in both discrete and continuous variables with cutting-edge solid-state systems aimed at pushing the limits of fundamental research and applications such as quantum sensing.\nWe are part of Finland’s major national quantum initiatives, including the\nInstituteQ\nand the\nFinnish Quantum Flagship (FQF)\n, and benefit from access to world-class experimental infrastructure at Aalto’s Otaniemi campus - home to\nOtaNano, the largest cleanroom facility in the Nordics.\nThe position is full-time and initially funded for 2 years, with the possibility of extension till 5 years in total. The starting salary is approximately\n4229–4649\n€/month, depending on experience, and includes occupational healthcare, research travel, and relocation support.\nWe value a healthy work–life balance and actively support personal and professional development. You will have opportunities to collaborate with leading academic and industry partners and contribute to exciting national and international research initiatives in quantum science and technology.\nJoin us!\nPlease submit your application including the attachments mentioned below as one single PDF document in English through our online recruitment system by using the link on Aalto University’s web page (click the \"Apply Now” button).\n(1)   Letter of motivation\n(2)   CV including list of publications\n(3)   Contact details of at least two referees\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\nThe deadline for applications is\nAugust 1, 2026\n. We will go through applications, and we may invite suitable candidates to interview already during the application period. The positions will be filled as soon as suitable candidates are identified.\nFor additional information, contact Prof. Anton Zasedatelev (\nanton.zasedatelev@aalto.fi\n) and Prof. Laure Mercier de Lepinay (\nlaure.mercierdelepinay@aalto.fi\n)\nAalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report 2025\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.\nDiversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nAt the Department of Applied Physics, our pioneering research in physical sciences creates important industrial applications that hold great technological potential. Our research focuses on Materials physics, Quantum technology, Soft & living matter, and Advanced energy solutions. Topics extend from fundamental research to important applications. We educate future generations of research and development professionals, data specialists, technology experts, inventors, and scientists for industry and society.\nThe\nMacroscopic Quantum Optics (MQO) Group\nand\nQuantum NanoOptomechanics and Forces (QNOF) Group\nat Aalto University jointly invites applications for an experimental postdoctoral position in quantum optomechanics with exciton-polaritons.\nPostdoctoral Researcher\nResearch focus:\nThe project aims to reach the quantum regime of optomechanics with polaritons by utilizing GaAs/AlAs-based microcavities with embedded quantum wells with applications in quantum transduction between microwave and optical frequencies. These unconventional optomechanical systems exhibit a unique \"magic coincidence\" of their phonon and polariton properties allowing for the simultaneous trapping of light and sound within the same high-Q cavity, and resulting in extremely high optomechanical interaction for the polaritons and mechanical modes in GHz range. The project is carried out in close collaboration with our partners providing access to complementary expertise and device know-how.\nYour role and goals\nThe successful candidate is expected to lead the experimental effort with a team of PhD and master’s students and collaborate closely with theorists in the group. They will collaborate with our academic and industry partners worldwide. They expected to lead preparation of research manuscripts for publications in top-tier journals, coordinate submissions, and taking the role of corresponding author. Besides the expertise in experimental quantum optics, the candidate will acquire excellent training in grant writing and research leadership provided by Aalto University and at the MQO/QNOF group level by contributing to research management and funding applications within the joint team. Our team has a great record in supporting applications to prestigious national and international postdoc-level funding schemes such as\nthe Magnus Ehrnrooth Foundation\nand\nMarie Skłodowska-Curie Fellowship\n.\nYour experience and ambitions\nPhD in one of the following broader experimental areas: AMO physics and quantum optics/optomechanics\nStrong hands-on skills in experimental research (optics lab), including automation of data acquisition and data analysis\nProven track record of research publications in your field\nExcellent communication skills (fluency in English) and strong collaboration abilities\nFinnish language is not required\nHighly motivated to conduct fundamental research\nWhat we offer\nThe MQO and QNOF teams combine advanced quantum optics methods in both discrete and continuous variables with cutting-edge solid-state systems aimed at pushing the limits of fundamental research and applications such as quantum sensing.\nWe are part of Finland’s major national quantum initiatives, including the\nInstituteQ\nand the\nFinnish Quantum Flagship (FQF)\n, and benefit from access to world-class experimental infrastructure at Aalto’s Otaniemi campus - home to\nOtaNano, the largest cleanroom facility in the Nordics.\nThe position is full-time and initially funded for 2 years, with the possibility of extension till 5 years in total. The starting salary is approximately\n4229–4649\n€/month, depending on experience, and includes occupational healthcare, research travel, and relocation support.\nWe value a healthy work–life balance and actively support personal and professional development. You will have opportunities to collaborate with leading academic and industry partners and contribute to exciting national and international research initiatives in quantum science and technology.\nJoin us!\nPlease submit your application including the attachments mentioned below as one single PDF document in English through our online recruitment system by using the link on Aalto University’s web page (click the \"Apply Now” button).\n(1)   Letter of motivation\n(2)   CV including list of publications\n(3)   Contact details of at least two referees\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\nThe deadline for applications is\nSeptember 15, 2026\n. We will go through applications, and we may invite suitable candidates to interview already during the application period. The positions will be filled as soon as suitable candidates are identified.\nFor additional information, contact Prof. Anton Zasedatelev (\nanton.zasedatelev@aalto.fi\n) and Prof. Laure Mercier de Lepinay (\nlaure.mercierdelepinay@aalto.fi\n)\nAalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report 2025\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
   "ai": {
-    "summary": "Postdoc in quantum optomechanics with polaritons (School of Science).",
+    "summary": "Postdoctoral researcher position in experimental quantum optomechanics using polaritons and GaAs microcavities, with focus on quantum transduction and light-sound interaction. Role involves leading experimental work, PhD student supervision, and grant writing within national quantum initiatives.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 3,
-      "rationale": "Fundamental quantum physics."
+      "score": 0,
+      "rationale": "Position is pure fundamental physics (quantum optics, optomechanics, polaritons). No human-computer interaction, immersive systems, learning, spatial cognition, collaboration, or any domain relevant to researcher's target identity. XR/VR not mentioned or applicable."
     },
     "methodological_fit": {
       "score": 5,
-      "rationale": "No overlap."
+      "rationale": "Both roles involve experimental work and data analysis, but methods are entirely distinct: quantum optics instrumentation vs. HCI user studies and immersive system evaluation. No transferable methodological insight."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "Not aligned."
+      "score": 0,
+      "rationale": "Develops expertise in AMO physics and quantum optics—fundamental physics domains with no relevance to spatial learning, human-centred XR, or collaborative immersive systems. Directly contradicts researcher's stated research direction."
     },
     "strategic_value": {
-      "score": 10,
-      "rationale": "Wrong stage and field."
+      "score": 30,
+      "rationale": "Aalto is a priority-1 institution with excellent funding, prestigious collaborators, and research leadership development. However, placement in Department of Applied Physics moves career into quantum technology, away from HCI and design disciplines entirely. Minimal strategic value for target identity."
     },
-    "required_skills": [],
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
     "preferred_skills": [],
     "skill_evidence": {},
-    "matched_skills": [],
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
     "missing_skills": [],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires a PhD - hard ineligibility"
+      "Position requires completed PhD; researcher is MSc by Research (in progress). PhD must be completed and awarded before application."
     ],
-    "risks": [],
-    "rejection_reasons": [
-      "career_stage_mismatch",
-      "poor_research_fit"
+    "risks": [
+      "Career-track incompatibility: Postdoctoral physics role consolidates trajectory away from HCI entirely. Acceptance would make return to human-centred XR research significantly harder.",
+      "Discipline isolation: Quantum optics community has minimal overlap with XR/HCI research. Network and collaborators built in this role unlikely to support future human-centred immersive systems work.",
+      "Research identity: No aspects of immersive design, learning, collaboration, or human factors. Position contradicts stated target identity."
     ],
-    "future_group_value": "low",
-    "future_group_rationale": "No methodological neighbourhood to the target identity",
-    "funding_assessment": "Salaried postdoc per posting text.",
-    "recommendation": "reject",
-    "next_action": "None.",
-    "confidence": 0.95,
-    "model": "claude-fable-5",
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 1.0,
+    "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
-    "analysis_provider": "interactive_claude",
-    "analysis_mode": "manual_assisted",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-18T04:44:34.398326Z",
-    "analysis_input_hash": "ee96af31da756fd20faefcc9c0e4ec78d27bb7151182bea797a47e7d873dac98"
+    "analyzed_at": "2026-08-13T07:59:05.588955Z",
+    "analysis_input_hash": "4681155b26a8a0ae266ed95907388bce7d578ef6c192552fb0588d9517b49437"
   },
   "derived": {
-    "eligibility_gate": "fail",
+    "eligibility_gate": "uncertain",
     "eligibility_reasons": [
-      "application deadline has passed"
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 5,
-    "urgency": "none",
-    "days_to_deadline": -11,
-    "needs_review": false,
+    "fit_overall": 6,
+    "urgency": "medium",
+    "days_to_deadline": 33,
+    "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
   "manual": {

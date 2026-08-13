@@ -1,0 +1,174 @@
+{
+  "id": "opp_aalto-doctoral-researcher-in-simulation-of-variable-speed-el",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-13T07:39:21.390846Z",
+  "updated_at": "2026-08-13T07:59:05.675577Z",
+  "change_history": [
+    {
+      "ts": "2026-08-13T07:39:21.390942Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-13T07:59:05.588288Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-13T07:59:05.675577Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher in Simulation of Variable Speed Electric Machines with Advanced Magnetic Material",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-in-simulation-of-variable-speed-electric-machines-with-advanced-magnetic",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-simulation-of-variable-speed-electric-machines-with-advanced-magnetic",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-Researcher-in-Simulation-of-Variable-Speed-Electric-Machines-with-Advanced-Magnetic-Material_R47493-3/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-in-simulation-of-variable-speed-electric-machines-with-advanced-magnetic"
+    ],
+    "retrieved_at": "2026-08-13T07:39:21.390716Z",
+    "raw_snapshot_hash": "a1a9274d25d0770849192f3e3c4db5d1500927925bdd388ec648acbbe7837aa6",
+    "extracted_content_hash": "f7feec23e52aee238b0157f03ba2d2d9c867db7ebdeee379d63e7dfbb9cd4c86",
+    "deadline": "2026-10-01",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-12",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 120 nationalities, 16 000 students, 446 professors and 5200 employees working on our dynamic campus in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nWe are currently seeking one highly motivated\ndoctoral researcher\nto join the Department of Electrical Engineering and Automation at Aalto University, Finland, within a project focused on implementing advanced models of soft magnetic materials in accurate simulation software. The developed laminated‑steel models will be evaluated using an experimental setup equipped with variable‑speed electric machines. The objective of this evaluation is to determine whether the proposed model improves the prediction of additional losses introduced by the manufacturing process.\nThe successful candidate will contribute to research on generalizing some advanced magnetic material model developed at Aalto University. The focus on anisotropy and punching deterioration will enable the effective incorporation of detailed material models in design tools for the next-generation variable-speed electric machines feed by frequency converters. The development and implementation of the magnetic model into a finite-element-based software toolbox will be at Aalto University. The experimental validation will include sample-level characterizations as well as measurements on electric machines of varying power rating and machine topologies. The machine-level studies will be carried out in cooperation with ABB Corporate Research Sweden, Västerås.\nResearch Focus\nThe doctoral researcher will focus on topics including (but not limited to):\nExperimental characterization of several grades of laminated steels for electric machines whose magnetic properties are subjected to manufacturing-related degradation (e.g., mechanical stresses due to punching)\nGeneralizing the model of magnetic deterioration to account for the residual mechanical stresses due to the punching process on electric steels of different grades and thicknesses.\nContribute to the implementation of the dynamic vector models in the finite element code\nNumerical analysis of additional losses in the operating conditions of simulated variable-speed electric machines\nValidate the developed simulation models by experimental evaluation of the additional losses in the variable-speed electric machines\nRequirements\nEligible candidates should have\nMaster’s degree in electrical engineering, computer science, materials sciences, or a closely related field\nFluent written and verbal communication skills in English\nAbility to work both independently and collaboratively as part of a research team\nIf you are chosen for this position, you will apply for the study right in doctoral studies at Aalto University School of Electrical Engineering. Thus, please see the student information and admission criteria at\nhttps://www.aalto.fi/en/study-options/aalto-doctoral-programme-in-electrical-engineering\n.\nDesired background\nWe are looking for candidates with a strong background in one or more of the following areas:\nModelling and simulation of variable speed electric machines\nNumerical methods for finite element simulations\nMagnetism in polycrystalline microstructures\nMagneto-mechanical interaction in ferromagnetism\nExperience or strong interest in the following areas is highly desirable:\nProgramming skills (MATLAB, Python, or C/C++)\nReal-time and instrumentation platform (dSpace, LabView)\nMicroscopic measurements (X-Ray, EBSD)\nWhat we offer\nFully funded doctoral researcher’s position at Aalto University, which is consistently ranked among the top universities in Europe.The work is done in close cooperation with ABB Västerås, worldwide industry leader in electric motor and drives.\nThe position is fixed term and follows Aalto's standard 2+2 model. It will be made initially for two years, with a six-month probationary period, and extended by two further years after a successful mid-term review, giving a total duration of four years.\nThe position starts in November 2026 or as mutually agreed\nThe salary will be based on both the job requirements and the employee’s personal performance in accordance with the salary system of Finnish universities. The starting salary for a doctoral researcher is 3143 €/month.\nOpportunity to work in a high-impact industrial research project with leading academic and industrial partners.\nAccess to state-of-the-art laboratories for magnetic characterization and motor drive testing.\nA stimulating international research environment.\nAn opportunity to transpose academic research into the industrial perspective.\nReady to apply?\nIf you want to join our community,\nplease submit your application through our recruitment site (”Apply now!” at the bottom of the page) by 1 October 2026\n.\nTo apply, please share the following application materials in English and in pdf-format with us:\nMotivation letter\nCV including information of at least two referees.\nCopy of your academic transcripts and diplomas for Bachelor’s and Master’s degrees.\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via Aalto University open positions.\nIf you wish to hear more about the position, you can reach out to Doctor Floran Martin (floran.martin@aalto.fi), or Professor Anouar Belahcen (anouar.belahcen@aalto.fi) from Aalto University. Feel free to contact Doctor Marco Biasion (marco.biasion@se.abb.com) or Doctor David Lindell (david.lindell@se.abb.com). For questions related to the application process, please contact HR Advisor Johanna Haapalainen (hr-elec@aalto.fi).\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand c\nheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Doctoral researcher position in computational electromagnetics focused on magnetic material modelling, finite-element simulation, and experimental validation of variable-speed electric machines. Core work spans material characterization, numerical analysis, and machine-level testing in collaboration with ABB.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Position is fundamentally rooted in electrical engineering, materials physics, and computational electromagnetics. No connection to human-computer interaction, immersive systems, learning, spatial cognition, or collaboration design. XR/VR not mentioned. Researcher's target identity centres on human-centred immersive systems and spatial learning; this position has none of those dimensions."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Some methodological overlap in experimental design and validation, but the core methods are materials characterization, finite-element modelling, and electromagnetic simulation—entirely distinct from HCI research methods, user studies, and immersive system evaluation. No skill transfer value to target identity."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "Would develop deep expertise in materials science and FEM, but these are excluded research directions in the profile (pure computer science, graphics rendering, GPU optimisation). Does not close gaps in HCI, immersive design, or spatial learning research."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "Aalto is a priority-1 institution, strong funding and supervision. However, placement in Department of Electrical Engineering moves the researcher away from HCI/media/design communities and into physics/engineering discipline. Career trajectory diverges from stated target identity as a human-centred XR/HCI researcher."
+    },
+    "required_skills": [
+      "python",
+      "cpp",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python"
+    ],
+    "missing_skills": [
+      "cpp"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher holds MSc by Research (in progress); position requires completed Master's by start date (November 2026). Thesis completion timeline should be verified.",
+      "Background is creative multimedia and HCI; position strongly prefers electrical engineering, materials sciences, or closely related field. Interdisciplinary jump is significant and may require additional technical preparation."
+    ],
+    "risks": [
+      "Disciplinary mismatch: Position anchors in electrical engineering and physics; researcher's identity is in HCI and design. Unlikely to feel aligned with group culture or research priorities.",
+      "Skill requirements: No experience in FEM, magnetism, materials characterization, or the specific numerical methods central to the role. Steep learning curve on non-target technical areas.",
+      "Career direction: Accepting this role may signal a pivot away from human-centred immersive systems research, potentially weakening future applications to HCI-focused groups.",
+      "No human factors, user studies, or interaction design component."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-13T07:59:05.587842Z",
+    "analysis_input_hash": "211b0c13ce5bdcdeff655c9bd3e613b0d7e802a1e845443ac93d26bafc11b966"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 11,
+    "urgency": "low",
+    "days_to_deadline": 49,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

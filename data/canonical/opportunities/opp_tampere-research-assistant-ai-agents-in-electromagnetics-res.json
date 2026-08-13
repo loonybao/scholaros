@@ -1,0 +1,172 @@
+{
+  "id": "opp_tampere-research-assistant-ai-agents-in-electromagnetics-res",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-13T07:39:34.877370Z",
+  "updated_at": "2026-08-13T07:59:05.714788Z",
+  "change_history": [
+    {
+      "ts": "2026-08-13T07:39:34.877457Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-13T07:59:05.590307Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-13T07:59:05.714788Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Research Assistant (AI agents in electromagnetics research)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3146",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3146",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3146#login_form",
+    "evidence_ids": [
+      "tampere/3146"
+    ],
+    "retrieved_at": "2026-08-13T07:39:34.877246Z",
+    "raw_snapshot_hash": "cc4cdd8d66b9fef392de0bfdadcb7aad6b5cfabf1c71ff6ea3a0f2daa1185eb9",
+    "extracted_content_hash": "b242f030aad628dbd5a3aa673bd2bb08b4d1b0093cfc6870e50f4a91fb37e4a8",
+    "deadline": "2026-09-07",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-12",
+    "position_type": "research_assistant",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our universities community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nThe research group of\nElectromechanics\nat the\nElectrical Engineering Unit\nat the\nFaculty of Information Technology and Communication Sciences\nat Tampere University focuses on numerical electromagnetics and magnetic materials. We work at the interface of electromagnetic theory, computational science, physics of magnetic materials and electrical engineering applications of practical importance. Our vision is to integrate advanced electromagnetic modeling tools together with practical design of electromagnetic energy conversion devices, such as electrical machines, transformers, inductors and energy harvesters.\nWe are part of a\nResearch Council of Finland Centre of Excellence\non “High-Speed Electromechanical Energy Conversion Systems” which aims at the development of next generation high-speed electrical machines for energy conversion and transport applications. Our part is related to the development of numerical modeling techniques for the high-frequency behavior of electrical machine windings. We are also running a 5-year\nEuropean Research Council funded project\n“Controllable Magnetic Cores for Transformers and Electrical Machines” related to real-time control of magnetic flux paths in electromagnetic devices. Both projects rely heavily on numerical modeling of magnetic fields in different applications using in-house computational codes.\nJOB DESCRIPTION\nWe are now looking for a Research Assistant to explore means of applying AI agents in our ongoing research. The objective is to identify and evaluate promising applications of AI agents in computational electromagnetics and related software development. The exact topic will be decided based on the background and interests of the selected candidate. The work may involve, for example,\ndevelopment of AI agents for integration and maintenance of computational codes written in different languages (in particular MATLAB, Python and Fortran)\ndevelopment of AI agent-based workflows for verification, validation and benchmarking computational electromagnetics software\ndevelopment of AI agents for automated implementation of computational electromagnetics algorithms based on scientific literature\nThe topics may also be suitable for B.Sc. or M.Sc. theses.\nREQUIREMENTS\nA successful candidate has a B.Sc. or M.Sc. study right in a Finnish university, an excellent study record in a relevant engineering field, experience in programming and interest in applying AI tools in electromagnetic modeling. In particular, experience with or interest in some of the following are appreciated:\nprogramming in MATLAB, Python or Fortran\nscientific computing, e.g., the finite element method\ndynamic electromagnetics, electrical machines and transformers\nopen-weight AI models, local AI deployment tools (e.g. Ollama, OpenCode) and agentic AI workflows\ncustomizing large language models\nThey can also demonstrate high-quality writing and reporting skills. The position requires good English language skills.\nWE OFFER\nWe can offer a part-time contract for a B.Sc. or M.Sc. student or a full-time contract for a master’s thesis worker. The starting date and the exact allocation (full-time or part-time) will be mutually agreed before the start of employment. The position will be filled for a fixed-term period until May 9th, 2027 with a possibility for extension. A trial period of 3,5 months is applied.\nThe salary will be based on both the job demands and the employee's personal performance in accordance with\nthe University Salary System.\nThe position of Research Assistant is placed on the job demand level 1 (the demand level chart for the teaching and research staff). In addition, employees will receive performance-based salary which for Research Assistants is based on their study credits. Full-time salary for a Research Assistant is around € 2200–2600 per month depending on completed study credits.\nTampere University\noffers many benefits to its employees, e.g. occupational health services, flexible working hours, high-quality sport services and affordable lunch opportunities on campus. Tampere region is one of the fastest growing city areas in Finland. Tampere is the largest inland city in the Nordic countries and a traditional centre of the Finnish industry. Today, the city is best known for its high-tech expertise and extensive know-how in various fields. Tampere is also the most popular city in Finland for higher education studies.\nHOW TO APPLY\nPlease submit your application through our online recruitment system (link below).\nThe closing date for applications is September 7th, 2026 (at 23:59, EEST / UTC +3)\n. Applications and all accompanying documentation must be in English.\nThe following documents should accompany your application:\na CV (with a list of publications if applicable)\na free-form application letter (max. 1 page)\ntranscript of records\nother relevant documents that support your application (e.g. B.Sc. thesis, course assignment reports (max. 2), etc.)\nFor questions and more information\n, please contact:\nProfessor Paavo Rasilo, paavo.rasilo (at) tuni.fi, +358 40 849 0409\nUniversity Instructor Antero Marjamäki, antero.marjamaki (at) tuni.fi, +358 50 436 1726\n**************************\nHaemme tutkimusapulaista kartoittamaan tekoälyagenttien käyttömahdollisuuksia laskennallisessa sähkömagnetiikassa.\nSähkömekaniikan tutkimusryhmä Tampereen yliopiston informaatioteknologian ja viestinnän tiedekunnan sähkötekniikan yksiköstä keskittyy numeeriseen sähkömagnetiikkaan ja magneettisten materiaalien mallintamiseen. Työskentelemme sähkömagneettisen kenttäteorian, laskennallisen tieteen, magneettisten materiaalien fysiikan ja tärkeiden sähkötekniikan sovellusten rajapinnassa. Tavoitteenamme on integroida sähkömagnetiikan edistyneitä mallinnusmenetelmiä sähkömagneettisten energianmuuntimien suunnittelutyöhön. Tällaisia energianmuuntimia ovat mm. sähkökoneet, muuntajat, kuristimet ja energianlouhintalaitteet.\nOlemme mukana\nSuomen Akatemian huippuyksikössä\n”Suurnopeuksiset sähkömekaaniset energianmuunnosjärjestelmät”, jossa kehitetään uuden sukupolven suurnopeussähkökoneita energia- ja liikennesovelluksiin. Meidän osuutemme liittyy numeeristen mallinnusmenetelmien kehittämiseen suurtaajuisten sähkömagneettisten kenttien mallintamiseksi sähkökoneiden käämityksissä. Lisäksi vedämme\nEuroopan tutkimusneuvoston\nrahoittamaa viisivuotista hanketta liittyen säädettävien rautasydänten käyttöön muuntajissa ja sähkökoneissa. Molemmat projektit perustuvat vahvasti magneettikenttien numeeriseen mallinnukseen hyödyntäen tutkimusryhmässämme kehitettyjä laskentaohjelmistoja.\nTarkemmat tiedot tehtävästä ja hakuohjeet löytyvät yllä olevasta englanninkielisestä ilmoituksesta.\nHakuaika tehtävään päättyy 7.9.2026, klo 23:59\n."
+  },
+  "ai": {
+    "summary": "Research Assistant position exploring applications of AI agents in computational electromagnetics, with focus on AI-assisted code integration, workflow automation, and algorithm implementation for FEM-based electromagnetic modelling. Full-time or part-time contract through May 2027.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "Position is fundamentally anchored in computational electromagnetics (FEM, magnetic materials, electrical machines). AI agents are a means to accelerate that domain work, not the research focus. No human-computer interaction, immersive systems, spatial learning, or collaboration design. No connection to researcher's core themes (human-centred XR, spatial cognition, immersive learning, wayfinding)."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Programmer-facing role: AI agents for code maintenance, software verification, and algorithm automation. Researcher's methodologies are HCI user studies, experimental design for learning outcomes, and immersive system evaluation. Minimal methodological alignment. AI tools themselves are not a bridge between these domains."
+    },
+    "growth_value": {
+      "score": 12,
+      "rationale": "Would develop practical AI tool experience and scientific computing skills (MATLAB, Python, FEM concepts). Python experience aligns with beginner-level skill. However, expertise gained (AI-assisted code generation, electromagnetics domain knowledge) does not close critical gaps in HCI, user-centred evaluation methods, or immersive system design—areas central to target identity."
+    },
+    "strategic_value": {
+      "score": 40,
+      "rationale": "Tampere University is a priority-2 institution (methodological fit >70% required for consideration; this does not meet that threshold). Position offers engagement with Tampere's strong electromagnetics group and ERC funding, but placement in Electrical Engineering Unit continues discipline divergence from HCI. Limited value for building target identity as human-centred immersive systems researcher. Part-time/short-term contract (until May 2027) provides modest stepping-stone value only if used to pivot back to HCI work."
+    },
+    "required_skills": [
+      "python",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires B.Sc. or M.Sc. study right in a Finnish university OR master's thesis worker status. Researcher holds Malaysian MSc by Research; does not meet Finnish study right requirement unless enrolled as M.Sc. thesis worker. Eligibility depends on institutional arrangement.",
+      "Starting date and full-time/part-time allocation to be mutually agreed; timeline flexibility exists but unclear if aligned with researcher's PhD timeline."
+    ],
+    "risks": [
+      "Discipline drift: Continued focus on electromagnetics and scientific computing, away from HCI and immersive systems. Accumulated expertise does not build human-centred XR researcher identity.",
+      "Skill mismatch: AI agent development is cutting-edge but orthogonal to core HCI and immersive system design. Does not develop user-centred evaluation, collaboration design, or spatial learning expertise.",
+      "Limited supervision value: Research group is electromagnetics-focused; minimal mentorship for human-centred XR research directions or HCI method development.",
+      "Part-time / short-term nature: Until May 2027, limited depth. Could function as technical interlude but does not meaningfully advance target career trajectory.",
+      "Finnish study right barrier: May not be eligible depending on institutional status."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-13T07:59:05.590020Z",
+    "analysis_input_hash": "2ba42a694d73de4f40175ee5c1384d205b9a19d3b4d6172ff4ca94cf513e5e09"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 16,
+    "urgency": "medium",
+    "days_to_deadline": 25,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
