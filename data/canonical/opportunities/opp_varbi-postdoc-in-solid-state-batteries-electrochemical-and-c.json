@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:12:01.791828Z",
-  "updated_at": "2026-08-13T07:59:05.819294Z",
+  "updated_at": "2026-08-14T07:48:15.865391Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:12:01.791828Z",
@@ -239,6 +239,48 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-14T07:42:36.063824Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-08-14T07:48:15.559824Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-14T07:48:15.865391Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -252,10 +294,10 @@
     "evidence_ids": [
       "varbi/kth-953802"
     ],
-    "retrieved_at": "2026-07-21T01:12:01.791828Z",
-    "raw_snapshot_hash": "25b85f2e5c1928fefee7253ebbe297235f67969ea577d59f13228fa325a345b1",
-    "extracted_content_hash": "8abde1bd812b103089f81b2a4af2d797d6872b53dcb98d27c82eb6c8250a34e4",
-    "deadline": "2026-08-15",
+    "retrieved_at": "2026-08-14T07:42:36.063129Z",
+    "raw_snapshot_hash": "23855bd789aa086e1b7b3bf912b99d29a1a52d4d842f47ad6929538e5207ee9e",
+    "extracted_content_hash": "dda4fb8c9412dec3ba72ea1f3b2cb3a799cf17adc6e970ac84fb7053864d1d15",
+    "deadline": "2026-08-22",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -273,56 +315,52 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Postdoc in solid-state batteries - Electrochemical and chemical characterization\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nNext leap in the battery development is expected to be the lithium solid-state batteries (SSB), allowing the replacement of the flammable organic electrolyte in Li-ion batteries with a safer and a more compact solid electrolyte. Within the framework of the Swedish governmental battery initiative COMPEL, aimed to support competence and excellence in battery research and education for the transport sector, KTH join forces with a coordinated initiative on composite SSB with seven postdoctoral positions in several disciplines, focusing on various aspects along the battery value chain, ranging from synthesis, cell assembly, characterization, modeling to scaled-up manufacturing. The 2-year postdoc project\nElectrochemical properties of solid-state batteries and analysis of interactions between its different components\nwill be shared between Depts Chemical Engineering (Div Applied Electrochemistry) and Chemistry (Div. Applied Physical Chemistry). The project will focus on electrochemical and chemical evaluation of components and cells with materials produced in parallel postdoc projects in the initiative\n.\nThe research aims to gain a deeper understanding of the structure / performance relationship of the developed electrolytes and interactions between the electrode materials and electrolyte, the conduction mechanism, degradation and the relationship between manufacturing process and materials properties. The analysis relies on combining electrochemical methods, such as electrochemical impedance spectroscopy, with for instance nuclear magnetic resonance spectroscopy (NMR), electron microscopy (SEM/TEM), Raman and in situ mass spectrometry (OLMS).\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in Electrochemistry, Chemistry, Chemical Engineering, Materials Science, or a related subject with experience in electrochemistry.This eligibility requirement must be met no later than the time the employment decision is made.\nProficiency in written and spoken English, as this will be required in day-to-day work.\nStrong laboratory and instrumental skills.\nAwareness of diversity and equal treatment issues with a particular focus on gender equality.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nExperience in solid-state batteries and well-acquainted with electrochemical characterization techniques of batteries.\nHands-on experience with material NMR and/or Raman spectroscopy.\nAn innovative mindset and ability to work independently.\nGood collaborative skills and abilities and interest in working in a team.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your university studies. Translations into English or Swedish if the original documents have not been issued in any West-European languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally one page long.\nContact to reference persons or recommendation letters.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-10-01 or according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2603\nContact\nRakel Wreland Lindström, rakel2@kth.se\nIstvan Furo, furo@kth.se\nJames Gardner, jgardner@kth.se\nPublished\n08.Jul.2026\nLast application date\n15.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+    "description_text": "Postdoc in solid-state batteries - Electrochemical and chemical characterization\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nNext leap in the battery development is expected to be the lithium solid-state batteries (SSB), allowing the replacement of the flammable organic electrolyte in Li-ion batteries with a safer and a more compact solid electrolyte. Within the framework of the Swedish governmental battery initiative COMPEL, aimed to support competence and excellence in battery research and education for the transport sector, KTH join forces with a coordinated initiative on composite SSB with seven postdoctoral positions in several disciplines, focusing on various aspects along the battery value chain, ranging from synthesis, cell assembly, characterization, modeling to scaled-up manufacturing. The 2-year postdoc project\nElectrochemical properties of solid-state batteries and analysis of interactions between its different components\nwill be shared between Depts Chemical Engineering (Div Applied Electrochemistry) and Chemistry (Div. Applied Physical Chemistry). The project will focus on electrochemical and chemical evaluation of components and cells with materials produced in parallel postdoc projects in the initiative\n.\nThe research aims to gain a deeper understanding of the structure / performance relationship of the developed electrolytes and interactions between the electrode materials and electrolyte, the conduction mechanism, degradation and the relationship between manufacturing process and materials properties. The analysis relies on combining electrochemical methods, such as electrochemical impedance spectroscopy, with for instance nuclear magnetic resonance spectroscopy (NMR), electron microscopy (SEM/TEM), Raman and in situ mass spectrometry (OLMS).\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in Electrochemistry, Chemistry, Chemical Engineering, Materials Science, or a related subject with experience in electrochemistry.This eligibility requirement must be met no later than the time the employment decision is made.\nProficiency in written and spoken English, as this will be required in day-to-day work.\nStrong laboratory and instrumental skills.\nAwareness of diversity and equal treatment issues with a particular focus on gender equality.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nExperience in solid-state batteries and well-acquainted with electrochemical characterization techniques of batteries.\nHands-on experience with material NMR and/or Raman spectroscopy.\nAn innovative mindset and ability to work independently.\nGood collaborative skills and abilities and interest in working in a team.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your university studies. Translations into English or Swedish if the original documents have not been issued in any West-European languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally one page long.\nContact to reference persons or recommendation letters.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-10-01 or according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2603\nContact\nRakel Wreland Lindström, rakel2@kth.se\nIstvan Furo, furo@kth.se\nJames Gardner, jgardner@kth.se\nPublished\n08.Jul.2026\nLast application date\n22.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "Postdoc in battery materials characterisation at KTH investigating electrochemical and chemical properties of solid-state battery components and cells, using electrochemical impedance spectroscopy, NMR, SEM/TEM, Raman spectroscopy, and in situ mass spectrometry.",
+    "summary": "A 2-year postdoctoral position at KTH focusing on electrochemical and chemical characterization of solid-state battery components and cells, combining electrochemical methods (EIS, NMR, SEM/TEM, Raman, OLMS) to understand structure-performance relationships and degradation mechanisms.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 2,
-      "rationale": "Battery electrochemistry, materials characterisation, and component interaction analysis are entirely orthogonal to human-centred XR, immersive learning, collaborative systems, and spatial cognition. The research is purely materials and analytical chemistry."
+      "score": 5,
+      "rationale": "No alignment with human-centred immersive systems, spatial cognition, learning, collaboration, or wayfinding research. This is materials science and electrochemistry with no HCI, XR, or human-studies dimension."
     },
     "methodological_fit": {
-      "score": 6,
-      "rationale": "While the position involves experimental characterisation and quantitative analysis, the methods (electrochemical impedance spectroscopy, NMR, electron microscopy, Raman, mass spectrometry) are specific to materials science and share no conceptual or practical overlap with user-centred XR research or HCI evaluation."
+      "score": 8,
+      "rationale": "While the position involves experimental design and systematic characterization, the methods are laboratory-based materials science (spectroscopy, microscopy) rather than human-centred research methods. User studies, qualitative analysis, and immersive system evaluation share no common ground with electrochemical instrumentation."
     },
     "growth_value": {
-      "score": 0,
-      "rationale": "Proficiency in electrochemical methods, NMR, microscopy, Raman spectroscopy, and mass spectrometry would not advance the researcher's capability development in human-centred immersive systems, learning design, or HCI methodology."
+      "score": 2,
+      "rationale": "This role would not advance capabilities in spatial cognition, immersive learning design, human-centred evaluation, or collaborative systems. The analytical skills (data interpretation, experimental rigor) are broadly transferable but the technical domain is orthogonal to target research identity."
     },
     "strategic_value": {
-      "score": 12,
-      "rationale": "Position is embedded in the Swedish COMPEL battery initiative with multi-institutional coordination and government funding stability. However, battery characterisation is a separate research ecosystem. No strategic value for candidacy toward Aalto, TU Delft, or immersive systems doctoral programs."
+      "score": 15,
+      "rationale": "KTH is a strong institution with stable funding through the COMPEL initiative. However, this position is embedded in materials science/engineering, not the HCI/XR research community. Career trajectory would diverge from target identity (human-centred immersive systems researcher) into battery chemistry."
     },
     "required_skills": [
-      "experimental-design",
-      "quantitative-research"
+      "experimental-design"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "experimental-design",
-      "quantitative-research"
+      "experimental-design"
     ],
     "missing_skills": [
-      "electrochemical-impedance-spectroscopy",
-      "nuclear-magnetic-resonance",
-      "scanning-electron-microscopy",
-      "transmission-electron-microscopy",
-      "raman-spectroscopy",
-      "in-situ-mass-spectrometry",
-      "solid-state-battery-knowledge"
+      "virtual-reality",
+      "augmented-reality",
+      "user-studies",
+      "mixed-reality",
+      "academic-writing"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Researcher holds MSc by Research (in progress). Posting requires 'doctoral degree or equivalent foreign degree in Electrochemistry, Chemistry, Chemical Engineering, Materials Science, or a related subject with experience in electrochemistry' completed by employment decision date. Researcher's MSc in Creative Multimedia does not satisfy this requirement. Eligibility is highly questionable.",
-      "Posting emphasises hands-on experience with NMR and/or Raman spectroscopy as preferred. Researcher has no such experience."
+      "Requires doctoral degree by employment decision date; profile states MSc by Research in progress (thesis stage). Eligibility contingent on thesis completion and formal award before start date (2026-10-01).",
+      "Posting mentions potential security clearance requirement under Swedish Protective Security Act; unclear if this specific role is classified as security-sensitive."
     ],
     "risks": [
-      "Researcher's academic background does not align with posting requirements (chemistry, chemical engineering, materials science).",
-      "Two-year postdoc in battery characterisation would create a severe disciplinary gap from HCI/XR research, significantly damaging competitiveness for target doctoral positions.",
-      "No thematic, methodological, or supervisory alignment with researcher's core domain.",
-      "Publication record would diverge from researcher's target HCI/XR venues and communities."
+      "Complete domain misalignment: materials science vs. human-centred immersive systems.",
+      "No existing XR/HCI research group or mentorship pathway; isolated from target research community.",
+      "2-year postdoc in battery electrochemistry would establish credentials in wrong field, potentially reducing competitiveness for future human-centred XR doctoral or researcher roles.",
+      "No publications or collaborations with human-centred computing groups at KTH to leverage for future positioning."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -330,14 +368,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.96,
+    "confidence": 0.95,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-21T07:45:04.470600Z",
-    "analysis_input_hash": "046d41ae5ab62b0e8ba125e921984d539baabe328f976a101842b74f57dbc0dc"
+    "analyzed_at": "2026-08-14T07:48:15.559084Z",
+    "analysis_input_hash": "497a2599d87baf234bdfeb0788603b1ac6377e0a50566ef83e325ed62c82015c"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -346,9 +384,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 5,
-    "urgency": "urgent",
-    "days_to_deadline": 2,
+    "fit_overall": 7,
+    "urgency": "high",
+    "days_to_deadline": 8,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

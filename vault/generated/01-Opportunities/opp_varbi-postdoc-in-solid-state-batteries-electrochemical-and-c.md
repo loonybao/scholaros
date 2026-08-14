@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-solid-state-batteries-electrochemical-and-c
 type: opportunity
 title: "Postdoc in solid-state batteries - Electrochemical and chemical characterization"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-15
+deadline: 2026-08-22
 status: open
 eligibility_gate: uncertain
-fit_overall: 5
-urgency: urgent
+fit_overall: 7
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in solid-state batteries - Electrochemical and chemical characterization
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-15
+**Deadline:** 2026-08-22
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 8)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -107,34 +107,34 @@ James Gardner, jgardner@kth.se
 Published
 08.Jul.2026
 Last application date
-15.Aug.2026
+22.Aug.2026
 Login and apply
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoc in battery materials characterisation at KTH investigating electrochemical and chemical properties of solid-state battery components and cells, using electrochemical impedance spectroscopy, NMR, SEM/TEM, Raman spectroscopy, and in situ mass spectrometry.
+A 2-year postdoctoral position at KTH focusing on electrochemical and chemical characterization of solid-state battery components and cells, combining electrochemical methods (EIS, NMR, SEM/TEM, Raman, OLMS) to understand structure-performance relationships and degradation mechanisms.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 2 |
-| Methodological fit | 6 |
-| Growth value | 0 |
-| Strategic value | 12 |
-| **Overall** | **5** |
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 15 |
+| **Overall** | **7** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** electrochemical-impedance-spectroscopy, nuclear-magnetic-resonance, scanning-electron-microscopy, transmission-electron-microscopy, raman-spectroscopy, in-situ-mass-spectrometry, solid-state-battery-knowledge
+**Missing skills:** virtual-reality, augmented-reality, user-studies, mixed-reality, academic-writing
 
 **Risks:**
-- Researcher's academic background does not align with posting requirements (chemistry, chemical engineering, materials science).
-- Two-year postdoc in battery characterisation would create a severe disciplinary gap from HCI/XR research, significantly damaging competitiveness for target doctoral positions.
-- No thematic, methodological, or supervisory alignment with researcher's core domain.
-- Publication record would diverge from researcher's target HCI/XR venues and communities.
+- Complete domain misalignment: materials science vs. human-centred immersive systems.
+- No existing XR/HCI research group or mentorship pathway; isolated from target research community.
+- 2-year postdoc in battery electrochemistry would establish credentials in wrong field, potentially reducing competitiveness for future human-centred XR doctoral or researcher roles.
+- No publications or collaborations with human-centred computing groups at KTH to leverage for future positioning.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-solid-state-batteries-electrochemical-and-c.md` and link [[opp_varbi-postdoc-in-solid-state-batteries-electrochemical-and-c]]._

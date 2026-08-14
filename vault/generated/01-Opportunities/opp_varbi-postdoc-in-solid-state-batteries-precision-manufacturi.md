@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-solid-state-batteries-precision-manufacturi
 type: opportunity
 title: "Postdoc in solid-state batteries – Precision manufacturing"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-15
+deadline: 2026-08-28
 status: open
 eligibility_gate: uncertain
-fit_overall: 3
-urgency: urgent
+fit_overall: 5
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in solid-state batteries – Precision manufacturing
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-15
+**Deadline:** 2026-08-28
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 14)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -105,33 +105,35 @@ Amir Rashid, amirr@kth.se
 Published
 08.Jul.2026
 Last application date
-15.Aug.2026
+28.Aug.2026
 Login and apply
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
 
-2-year postdoctoral position in precision manufacturing and metrology for scalable solid-state battery production at KTH's Department of Production Engineering. Research focuses on manufacturing variability, tolerancing, process capability, and non-destructive evaluation (X-ray CT, optical metrology, ultrasonic sensing).
+A 2-year postdoctoral position at KTH in precision manufacturing and metrology for solid-state battery production, focusing on manufacturing variability reduction, process capability, and inline quality assurance using optical, laser-based, and X-ray characterization techniques.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 3 |
-| Methodological fit | 2 |
+| Methodological fit | 6 |
 | Growth value | 1 |
-| Strategic value | 10 |
-| **Overall** | **3** |
+| Strategic value | 12 |
+| **Overall** | **5** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** manufacturing-metrology, precision-engineering, process-capability-analysis, x-ray-ct-analysis, optical-metrology, statistical-process-control, finite-element-modelling, python, cpp
+**Missing skills:** virtual-reality, augmented-reality, user-studies, mixed-reality, academic-writing, multiplayer-networking, unity, csharp
 
 **Risks:**
-- Core domain (production engineering, industrial metrology, manufacturing systems) is categorically different from HCI.
-- No human subjects, no user research, no immersive systems—entirely outside target identity.
-- Shared methodology (experimental design) is superficial and would not bridge disciplinary gap.
+- Complete thematic misalignment: precision manufacturing/industrial metrology vs. human-centred immersive systems research.
+- No research group overlap with HCI, XR, or immersive systems communities; isolated from target research trajectory.
+- 2-year postdoc in manufacturing engineering would establish primary research identity in wrong discipline, reducing future competitiveness for human-centred immersive systems roles.
+- No clear pathway to transition from manufacturing optimization back to human-centred research without a second postdoc or retraining period.
+- Educational background (Creative Multimedia, Human-Centred XR) may not be perceived as equivalent to required manufacturing/systems engineering credentials.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-solid-state-batteries-precision-manufacturi.md` and link [[opp_varbi-postdoc-in-solid-state-batteries-precision-manufacturi]]._
