@@ -5,10 +5,10 @@ title: "Postdoctoral Researcher in 2D material nanocomposites for tunable photon
 organisation: "Aalto University"
 deadline: 2026-08-14
 status: open
-eligibility_gate: uncertain
+eligibility_gate: fail
 fit_overall: 4
-urgency: urgent
-needs_review: true
+urgency: none
+needs_review: false
 ---
 
 # Postdoctoral Researcher in 2D material nanocomposites for tunable photonics
@@ -24,10 +24,9 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 0)
+Gate: **fail** (days to deadline: -1)
 
-- funding/salary not confirmed on the posting
-- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- application deadline has passed
 
 ## Description
 

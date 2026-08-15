@@ -1,254 +1,251 @@
 ---
 type: dashboard
-generated: 2026-08-14
+generated: 2026-08-15
 ---
 
 # Research Compass — Dashboard
 
-_Generated 2026-08-14 — run `python -m compass export` to refresh._
+_Generated 2026-08-15 — run `python -m compass export` to refresh._
 
 ## Action required (deadlines)
 
 | Opportunity | Organisation | Deadline | Days | Gate | Fit |
 |---|---|---|---|---|---|
-| [[opp_tudelft-phd-position-in-data-and-ai-for-multi-source-micromo\|PhD Position in Data and AI for Multi-Source Micromobility Safety Analytics]] | TU Delft | 2026-07-19 | -26 | fail | 32 |
-| [[opp_tudelft-phd-position-in-extended-reality-for-safe-and-active\|PhD Position in Extended Reality for Safe and Active Mobility]] | TU Delft | 2026-07-19 | -26 | fail | 86 |
-| [[opp_tudelft-postdoc-position-high-resolution-urban-cfd-simulatio\|Postdoc Position - High-Resolution Urban CFD Simulations and Measurements for Urban Air Mobility]] | TU Delft | 2026-07-19 | -26 | fail | 20 |
-| [[opp_tudelft-researcher-positions-interoperability-of-control-and\|Researcher Positions: Interoperability of Control and Protection in the High Voltage Direct Current]] | TU Delft | 2026-07-19 | -26 | fail | 15 |
-| [[opp_tudelft-phd-position-high-fidelity-nuclear-reactor-modeling\|PhD Position High Fidelity Nuclear Reactor Modeling and Safety Analysis]] | TU Delft | 2026-07-20 | -25 | fail | 8 |
-| [[opp_tudelft-phd-position-privacy-for-crop-breeding\|PhD Position Privacy for Crop Breeding]] | TU Delft | 2026-07-20 | -25 | fail | 14 |
-| [[opp_tudelft-postdoc-new-luminescent-materials-for-sustainable-en\|Postdoc New Luminescent Materials for Sustainable Energy Technology: Towards a Photovoltaic Window]] | TU Delft | 2026-07-20 | -25 | fail | 7 |
-| [[opp_tudelft-postdoc-theoretical-biophysics-across-scales\|Postdoc Theoretical Biophysics Across Scales]] | TU Delft | 2026-07-20 | -25 | fail | 13 |
-| [[opp_tudelft-research-assistant-in-agentic-ai-for-infrastructure\|Research Assistant  in Agentic AI for Infrastructure Management]] | TU Delft | 2026-07-21 | -24 | fail | 41 |
-| [[opp_euraxess-innovation-technology-developer-backend-services-de\|Innovation Technology Developer – Backend Services Developer]] | ResearchJobs.cz | 2026-07-22 | -23 | fail | 30 |
-| [[opp_euraxess-postdoc-quantum-thermal\|Postdoc – Quantum Thermal]] | ResearchJobs.cz | 2026-07-22 | -23 | fail | 18 |
-| [[opp_tudelft-phd-position-second-life-of-batteries-for-grid-suppo\|PhD Position Second Life of Batteries for Grid /Support]] | TU Delft | 2026-07-22 | -23 | fail | 12 |
-| [[opp_tudelft-postdoc-for-e2packman\|Postdoc for E2Packman]] | TU Delft | 2026-07-22 | -23 | fail | 14 |
-| [[opp_tudelft-postdoc-human-centred-thermal-comfort-and-machine-le\|Postdoc Human-Centred Thermal Comfort and Machine Learning for Electric Vehicles]] | TU Delft | 2026-07-22 | -23 | fail | 52 |
-| [[opp_unilu_computational_interaction_phd\|Doctoral Researcher in Computer Science — Computational Interaction]] | University of Luxembourg | 2026-07-22 | -23 | fail | 66 |
-| [[opp_varbi-postdoc-in-integrated-transport-emissions-and-health-a\|Postdoc in Integrated Transport Emissions and Health Assessment]] | KTH Royal Institute of Technology | 2026-07-22 | -23 | fail | 19 |
-| [[opp_aalto-postdoctoral-researcher-advanced-life-cycle-assessment\|Postdoctoral researcher, Advanced Life Cycle Assessment (LCA) of bio-based processes and products]] | Aalto University | 2026-07-25 | -20 | fail | 5 |
-| [[opp_tudelft-fully-funded-phd-position-in-quantum-photonics\|Fully Funded PhD Position in Quantum Photonics]] | TU Delft | 2026-07-26 | -19 | fail | 13 |
-| [[opp_tudelft-postdoc-trustworthy-graph-machine-learning\|Postdoc Trustworthy Graph Machine Learning]] | TU Delft | 2026-07-26 | -19 | fail | 7 |
-| [[opp_tudelft-phd-position-modeling-foot-growth-and-deformities-in\|PhD Position Modeling Foot Growth and Deformities in Children with Cerebral Palsy]] | TU Delft | 2026-07-27 | -18 | fail | 45 |
-| [[opp_tudelft-postdoc-bipolar-membrane-development-for-acid-base-f\|Postdoc Bipolar Membrane Development for Acid-Base Flow Battery Systems]] | TU Delft | 2026-07-28 | -17 | fail | 14 |
-| [[opp_tudelft-postdoc-scalable-graph-learning\|Postdoc Scalable Graph Learning]] | TU Delft | 2026-07-28 | -17 | fail | 5 |
-| [[opp_tudelft-post-doctoral-researcher-in-computational-geomechani\|Post-Doctoral Researcher in Computational Geomechanics of Gas Migration in Clays]] | TU Delft | 2026-07-29 | -16 | fail | 14 |
-| [[opp_tudelft-phd-position-haptics\|PhD Position Haptics]] | TU Delft | 2026-07-30 | -15 | fail | 58 |
-| [[opp_tudelft-phd-position-in-quantum-magnonics\|PhD Position in Quantum Magnonics]] | TU Delft | 2026-07-30 | -15 | fail | 10 |
-| [[opp_aalto-doctoral-researcher-in-fatigue-of-waam-structures\|Doctoral Researcher in Fatigue of WAAM Structures]] | Aalto University | 2026-07-31 | -14 | fail | 6 |
-| [[opp_aalto-doctoral-students-theoretical-foundations-of-distribut\|Doctoral Students  (theoretical foundations of distributed quantum computing)]] | Aalto University | 2026-07-31 | -14 | fail | 6 |
-| [[opp_aalto-postdoctoral-researchers-theoretical-foundations-of-di\|Postdoctoral Researchers (theoretical foundations of distributed quantum computing)]] | Aalto University | 2026-07-31 | -14 | fail | 5 |
-| [[opp_tampere-doctoral-researcher-in-dependable-automation-artific\|Doctoral Researcher in Dependable Automation, Artificial Intelligence and Cyber-Physical Systems (3 positions)]] | Tampere University | 2026-07-31 | -14 | fail | 23 |
-| [[opp_tudelft-phd-position-advanced-lattice-boltzmann-methods-for\|PhD Position Advanced Lattice Boltzmann Methods for Multiphysics Simulations of Nuclear Reactors]] | TU Delft | 2026-07-31 | -14 | fail | 9 |
-| [[opp_tudelft-phd-position-in-mobile-computing-for-intra-oral-sens\|PhD Position in Mobile Computing for Intra-Oral Sensing]] | TU Delft | 2026-07-31 | -14 | fail | 19 |
-| [[opp_tudelft-phd-position-operational-performance-of-antenna-arra\|PhD Position Operational Performance of Antenna Arrays in Presence of Heterogeneous Environment]] | TU Delft | 2026-07-31 | -14 | fail | 18 |
-| [[opp_tudelft-postdoc-in-situ-cryo-et\|Postdoc In-Situ Cryo-ET]] | TU Delft | 2026-07-31 | -14 | fail | 20 |
-| [[opp_varbi-doctoral-student-in-deep-learning-for-biological-syste\|Doctoral student in deep learning for biological systems]] | KTH Royal Institute of Technology | 2026-07-31 | -14 | fail | 14 |
-| [[opp_varbi-doctoral-student-in-fluorescence-based-biomolecular-sp\|Doctoral student in Fluorescence-based Biomolecular Spectroscopy / Imaging]] | KTH Royal Institute of Technology | 2026-07-31 | -14 | fail | 9 |
-| [[opp_tudelft-phd-position-distribution-systems-flexible-operation\|PhD Position Distribution Systems Flexible Operation under Uncertain and Incomplete Information]] | TU Delft | 2026-08-01 | -13 | fail | 14 |
-| [[opp_tudelft-phd-position-foundation-ai-models-for-distribution-s\|PhD Position Foundation AI Models for Distribution Systems Decision-Making]] | TU Delft | 2026-08-01 | -13 | fail | 18 |
-| [[opp_varbi-doctoral-student-in-underwater-robotics\|Doctoral student in Underwater Robotics]] | KTH Royal Institute of Technology | 2026-08-01 | -13 | fail | 8 |
-| [[opp_aalto-doctoral-researcher-phd-student-in-area-selective-atom\|Doctoral researcher (PhD student) in area-selective atomic layer deposition (AS-ALD) simulations]] | Aalto University | 2026-08-02 | -12 | fail | 6 |
-| [[opp_tampere-doctoral-researcher-novel-photochemistry-systems-for\|Doctoral Researcher (Novel Photochemistry Systems for Light-Triggered Hydrogels)]] | Tampere University | 2026-08-02 | -12 | fail | 6 |
-| [[opp_tudelft-2-phd-positions-in-physicsinformed-machine-learning\|2 PhD positions in Physics‑Informed Machine Learning for Traffic Modelling & Prediction]] | TU Delft | 2026-08-02 | -12 | fail | 18 |
-| [[opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a\|PhD Position Biosensing and Designing for Temporal and Biofabricated Textile Experiences]] | TU Delft | 2026-08-02 | -12 | fail | 65 |
-| [[opp_tudelft-phd-position-experimental-air-knife-turbulent-jet-im\|PhD Position (Experimental) Air-Knife Turbulent Jet Impingement on a Liquid Zinc Surface]] | TU Delft | 2026-08-02 | -12 | fail | 15 |
-| [[opp_tudelft-phd-position-metabolic-engineering-for-cultivated-me\|PhD Position Metabolic Engineering for Cultivated Meat]] | TU Delft | 2026-08-02 | -12 | fail | 13 |
-| [[opp_tudelft-phd-position-modelling-inspired-cell-engineering-for\|PhD Position Modelling-inspired Cell Engineering for Upscaled Cultivated Meat]] | TU Delft | 2026-08-02 | -12 | fail | 18 |
-| [[opp_tudelft-phd-positions-in-experimental-physics-research-on-ma\|PhD Positions in Experimental Physics Research on Magnetic Domain Wall Qubits]] | TU Delft | 2026-08-02 | -12 | fail | 4 |
-| [[opp_tudelft-postdoc-cell-engineering-for-cultivated-meat\|Postdoc Cell Engineering for Cultivated Meat]] | TU Delft | 2026-08-02 | -12 | fail | 14 |
-| [[opp_tudelft-postdoc-in-physicsinformed-machine-learning-for-hybr\|Postdoc in Physics‑Informed Machine Learning for Hybrid Traffic Prediction]] | TU Delft | 2026-08-02 | -12 | fail | 11 |
-| [[opp_tudelft-postdoc-in-the-stritvaiz-project\|Postdoc  in the Stritvaiz Project]] | TU Delft | 2026-08-02 | -12 | fail | 22 |
-| [[opp_aalto-postdoctoral-researcher-in-contested-waterfront-develo\|Postdoctoral Researcher in Contested Waterfront Developments (ConWa)-project]] | Aalto University | 2026-08-03 | -11 | fail | 26 |
-| [[opp_tampere-doctoral-researcher-soft-robotics\|Doctoral Researcher (soft robotics)]] | Tampere University | 2026-08-03 | -11 | fail | 11 |
-| [[opp_tampere-doctoral-researcher\|Doctoral Researcher]] | Tampere University | 2026-08-03 | -11 | fail | 51 |
-| [[opp_tampere-postdoctoral-research-fellow-2\|Postdoctoral Research Fellow]] | Tampere University | 2026-08-03 | -11 | fail | 6 |
-| [[opp_tampere-postdoctoral-research-fellow\|Postdoctoral Research Fellow]] | Tampere University | 2026-08-03 | -11 | fail | 6 |
-| [[opp_tampere_project_researcher_hti_2026\|Project Researcher (Human-technology interaction), 2–5 positions]] | Tampere University | 2026-08-03 | -11 | fail | 89 |
-| [[opp_tudelft-phd-position-experimental-physics-thermal-hydraulics\|PhD Position Experimental Physics Thermal-Hydraulics in Advanced Nuclear Reactor Technology]] | TU Delft | 2026-08-03 | -11 | fail | 6 |
-| [[opp_tudelft-phd-position-in-design-integration-of-bio-inclusive\|PhD position in Design Integration of Bio-Inclusive Façade Interventions]] | TU Delft | 2026-08-03 | -11 | fail | 35 |
-| [[opp_tudelft-postdoc-safe-waterborne-digital-systems\|Postdoc Safe Waterborne Digital Systems]] | TU Delft | 2026-08-03 | -11 | fail | 25 |
-| [[opp_varbi-postdoc-in-ai-modeling-for-cell-biology-alphacell-prog\|Postdoc in AI Modeling for Cell Biology, AlphaCell Program]] | KTH Royal Institute of Technology | 2026-08-03 | -11 | fail | 11 |
-| [[opp_varbi-postdoc-in-biological-data-systems-alpha-cell-program\|Postdoc in Biological Data Systems, Alpha Cell Program]] | KTH Royal Institute of Technology | 2026-08-03 | -11 | fail | 32 |
-| [[opp_varbi-postdoc-in-cell-and-molecular-biology-research\|Postdoc in Cell and Molecular Biology Research]] | KTH Royal Institute of Technology | 2026-08-03 | -11 | fail | 12 |
-| [[opp_aalto-doctoral-researcher-in-nano-scale-control-of-optical-f\|Doctoral Researcher in nano-scale control of optical fields]] | Aalto University | 2026-08-04 | -10 | fail | 6 |
-| [[opp_tudelft-postdoc-ald4tandem-project\|Postdoc ALD4TANDEM project]] | TU Delft | 2026-08-05 | -9 | fail | 4 |
-| [[opp_aalto-doctoral-researcher-in-digital-integrated-circuits\|Doctoral Researcher in Digital Integrated Circuits]] | Aalto University | 2026-08-07 | -7 | fail | 7 |
-| [[opp_varbi-doctoral-student-in-sustainable-satellite-networks\|Doctoral student in Sustainable Satellite Networks]] | KTH Royal Institute of Technology | 2026-08-07 | -7 | fail | 12 |
-| [[opp_euraxess-postdoctoral-research-associate-school-of-education\|Postdoctoral Research Associate, School of Education]] | Times Higher Education | 2026-08-08 | -6 | fail | 30 |
-| [[opp_aalto-postdoctoral-researchers-in-ai-driven-atomistic-modeli\|Postdoctoral Researchers in AI-driven atomistic modeling and AI-accelerated cheminformatics]] | Aalto University | 2026-08-09 | -5 | fail | 5 |
-| [[opp_tudelft-phd-position-in-river-basin-hydrology-climate-change\|PhD Position in River Basin Hydrology: Climate Change & Hydrological Extremes]] | TU Delft | 2026-08-09 | -5 | fail | 15 |
-| [[opp_tudelft-phd-position-superconducting-imaging-spectrometer-fo\|PhD Position Superconducting Imaging Spectrometer for Submillimeter-Wave Cosmology]] | TU Delft | 2026-08-09 | -5 | fail | 6 |
-| [[opp_aalto-postdoctoral-researcher-in-complexity-aligned-innovati\|Postdoctoral researcher in complexity-aligned innovation and institutional design]] | Aalto University | 2026-08-10 | -4 | fail | 48 |
-| [[opp_tudelft-phd-position-ai-alignment-value-assessment-for-open\|PhD Position AI Alignment: Value Assessment for Open Models & AI Systems]] | TU Delft | 2026-08-10 | -4 | fail | 48 |
-| [[opp_tudelft-phd-position-two-phase-flow-of-cryogenic-hydrogen\|PhD Position Two-Phase Flow of Cryogenic Hydrogen]] | TU Delft | 2026-08-10 | -4 | fail | 20 |
-| [[opp_varbi-doctoral-student-licentiate-in-engineering-materials-s\|Doctoral student (Licentiate) in Engineering Materials Science]] | KTH Royal Institute of Technology | 2026-08-10 | -4 | fail | 5 |
-| [[opp_varbi-postdoc-in-microgrids-for-ai-data-centers\|Postdoc in Microgrids for AI data centers]] | KTH Royal Institute of Technology | 2026-08-11 | -3 | fail | 9 |
-| [[opp_varbi-researcher-in-ev-charging-infrastructure\|Researcher in EV charging infrastructure]] | KTH Royal Institute of Technology | 2026-08-11 | -3 | fail | 2 |
-| [[opp_varbi-researcher-in-power-electronics\|Researcher in Power Electronics]] | KTH Royal Institute of Technology | 2026-08-11 | -3 | fail | 2 |
-| [[opp_tudelft-phd-position-particle-based-modelling-of-scrap-handl\|PhD Position Particle Based Modelling of Scrap Handling for Green Steel Production]] | TU Delft | 2026-08-12 | -2 | fail | 25 |
-| [[opp_varbi-postdoc-in-data-driven-structured-historic-energy-reno\|Postdoc in data-driven structured historic energy renovations]] | KTH Royal Institute of Technology | 2026-08-12 | -2 | fail | 10 |
-| [[opp_tampere-doctoral-researcher-antenna-engineering\|Doctoral Researcher (Antenna Engineering)]] | Tampere University | 2026-08-13 | -1 | fail | 12 |
-| [[opp_tudelft-phd-position-full-scale-wind-over-deck-measurements\|PhD Position Full-scale Wind Over Deck Measurements for Drone Operations]] | TU Delft | 2026-08-13 | -1 | fail | 15 |
-| [[opp_aalto-postdoctoral-researcher-in-2d-material-nanocomposites\|Postdoctoral Researcher in 2D material nanocomposites for tunable photonics]] | Aalto University | 2026-08-14 | 0 | uncertain | 4 |
-| [[opp_euraxess-selection-procedure-1-rtt-full-time-subordinate-emp\|Selection procedure 1 RTT, full-time, subordinate employment contract, 6 years, non-renewable, pursuant to art. 24 co. 2, L. 240/2010, G.S.D. 12/GIUR-14 “Criminal Law”, S.S.D. GIUR-14/A (formerly IUS/17) Jurisprudence]] | Italian Ministry of Education, University and Research | 2026-08-14 | 0 | uncertain | 16 |
-| [[opp_tampere-doctoral-researcher-in-railway-engineering-dsii\|Doctoral Researcher in Railway Engineering (DSII)]] | Tampere University | 2026-08-14 | 0 | uncertain | 9 |
-| [[opp_varbi-doctoral-student-licentiate-in-digital-twins-for-elect\|Doctoral student (licentiate) in digital twins for electrified construction]] | KTH Royal Institute of Technology | 2026-08-14 | 0 | uncertain | 42 |
-| [[opp_varbi-postdoc-in-development-anaerobic-process-for-bioplasti\|Postdoc in Development Anaerobic Process for Bioplastic Valorization]] | KTH Royal Institute of Technology | 2026-08-14 | 0 | uncertain | 9 |
-| [[opp_varbi-postdoc-in-large-language-model-inferencing\|Postdoc in Large Language Model inferencing]] | KTH Royal Institute of Technology | 2026-08-14 | 0 | uncertain | 9 |
-| [[opp_aalto-doctoral-researcher-in-non-gray-thermal-radiation-mode\|Doctoral Researcher in  Non-gray Thermal Radiation Modelling]] | Aalto University | 2026-08-15 | 1 | uncertain | 6 |
-| [[opp_euraxess-laurance-s-rockefeller-visiting-faculty-fellowship\|Laurance S. Rockefeller Visiting Faculty Fellowship for Academic Year 2027-2028]] | Times Higher Education | 2026-08-15 | 1 | fail | 16 |
-| [[opp_tudelft-phd-position-multi-agent-aerial-manipulation-for-con\|Phd Position Multi-Agent Aerial Manipulation for Construction]] | TU Delft | 2026-08-15 | 1 | uncertain | 13 |
-| [[opp_tudelft-postdoc-multi-agent-aerial-manipulation-for-construc\|Postdoc Multi-Agent Aerial Manipulation for Construction]] | TU Delft | 2026-08-15 | 1 | uncertain | 12 |
-| [[opp_varbi-postdoc-in-solid-state-batteries-development-of-compos\|Postdoc in solid-state batteries – Development of composite electrolytes]] | KTH Royal Institute of Technology | 2026-08-15 | 1 | uncertain | 3 |
-| [[opp_varbi-postdoc-in-solid-state-batteries-micromechanical-model\|Postdoc in solid-state batteries - micromechanical modelling of cells]] | KTH Royal Institute of Technology | 2026-08-15 | 1 | uncertain | 5 |
-| [[opp_varbi-postdoc-in-solid-state-batteries-ml-based-battery-esti\|Postdoc in solid-state batteries – ML-Based Battery Estimation & Control]] | KTH Royal Institute of Technology | 2026-08-15 | 1 | uncertain | 9 |
-| [[opp_varbi-postdoc-in-solid-state-batteries-modelling-synthesis-o\|Postdoc in solid-state batteries - Modelling & synthesis of electrolytes]] | KTH Royal Institute of Technology | 2026-08-15 | 1 | uncertain | 3 |
-| [[opp_varbi-postdoc-in-solid-state-batteries-scalable-production-o\|Postdoc in Solid-State Batteries – Scalable Production of Solid Electrolytes]] | KTH Royal Institute of Technology | 2026-08-15 | 1 | uncertain | 2 |
-| [[opp_varbi-researcher-research-software-engineer-in-ai-machine-le\|Researcher/Research software engineer in AI/machine learning]] | KTH Royal Institute of Technology | 2026-08-15 | 1 | uncertain | 14 |
-| [[opp_euraxess-assistant-professor-of-teaching-wu-jieh-yee-school\|Assistant Professor of Teaching, Wu Jieh Yee School of Interdisciplinary Studies]] | Times Higher Education | 2026-08-16 | 2 | fail | 18 |
-| [[opp_tampere-doctoral-researcher-computational-physics\|Doctoral Researcher (Computational Physics)]] | Tampere University | 2026-08-16 | 2 | uncertain | 6 |
-| [[opp_tampere-doctoral-researcher-nanophotonics-and-meta-optics\|Doctoral Researcher (Nanophotonics and Meta-Optics)]] | Tampere University | 2026-08-16 | 2 | uncertain | 9 |
-| [[opp_tampere-postdoctoral-research-fellow-nanophotonics-and-meta\|Postdoctoral Research Fellow (Nanophotonics and Meta-Optics)]] | Tampere University | 2026-08-16 | 2 | uncertain | 6 |
-| [[opp_tudelft-phd-position-for-identification-of-structure-functio\|PhD Position for Identification of Structure-function Relationships in Methanogenic Microbiomes]] | TU Delft | 2026-08-16 | 2 | uncertain | 12 |
-| [[opp_tudelft-phd-position-polaris-materials\|PhD Position POLARIS Materials]] | TU Delft | 2026-08-16 | 2 | uncertain | 12 |
-| [[opp_tudelft-phd-position-to-help-shape-the-future-of-reliable-su\|PhD Position to Help Shape the Future of Reliable, Sustainable Power Electronics]] | TU Delft | 2026-08-16 | 2 | uncertain | 22 |
-| [[opp_tudelft-postdoc-in-regional-geology-of-the-saharan-platform\|Postdoc in Regional Geology of the Saharan Platform]] | TU Delft | 2026-08-16 | 2 | uncertain | 7 |
-| [[opp_tudelft-postdoc-researcher-in-behavioural-modelling-and-urba\|Postdoc Researcher in Behavioural Modelling and Urban Sustainability Transitions]] | TU Delft | 2026-08-16 | 2 | uncertain | 24 |
-| [[opp_varbi-doctoral-student-in-geodetic-surveying-with-gnss\|Doctoral student in geodetic surveying with GNSS]] | KTH Royal Institute of Technology | 2026-08-16 | 2 | uncertain | 12 |
-| [[opp_aalto-doctoral-researcher-in-the-department-of-civil-enginee\|Doctoral researcher in the Department of Civil Engineering]] | Aalto University | 2026-08-17 | 3 | uncertain | 10 |
-| [[opp_aalto-postdoctoral-researcher-in-computational-social-scienc\|Postdoctoral Researcher in Computational Social Science]] | Aalto University | 2026-08-17 | 3 | uncertain | 50 |
-| [[opp_tampere-doctoral-researcher-environmental-chemicals-and-endo\|Doctoral Researcher (Environmental Chemicals and Endometriosis)]] | Tampere University | 2026-08-17 | 3 | uncertain | 6 |
-| [[opp_tampere-msca-doctoral-researcher-printed-supercapacitor\|MSCA Doctoral Researcher (Printed supercapacitor)]] | Tampere University | 2026-08-17 | 3 | uncertain | 7 |
-| [[opp_tudelft-postdoc-transformative-policy-and-law-to-accelerate\|Postdoc Transformative Policy and Law to Accelerate Sustainability Transitions]] | TU Delft | 2026-08-17 | 3 | uncertain | 21 |
-| [[opp_tudelft-postdoc-validating-a-digital-twin-for-evaluating-emi\|Postdoc: Validating a Digital Twin for Evaluating Emission Reduction Strategies for Inland Shipping]] | TU Delft | 2026-08-17 | 3 | uncertain | 24 |
-| [[opp_tudelft-two-phd-positions-in-user-centred-design-of-public-t\|Two PhD positions in User-centred Design of Public Transport]] | TU Delft | 2026-08-17 | 3 | uncertain | 58 |
-| [[opp_varbi-postdoc-in-nuclear-engineering\|Postdoc in Nuclear Engineering]] | KTH Royal Institute of Technology | 2026-08-17 | 3 | uncertain | 2 |
-| [[opp_varbi-postdoctors-in-nuclear-engineering\|Postdoctors in Nuclear Engineering]] | KTH Royal Institute of Technology | 2026-08-17 | 3 | uncertain | 3 |
-| [[opp_varbi-postdoc-in-in-high-performance-computing\|Postdoc in in High-Performance Computing.]] | KTH Royal Institute of Technology | 2026-08-18 | 4 | uncertain | 8 |
-| [[opp_varbi-postdoc-in-human-in-the-loop-control-for-medical-robot\|Postdoc in human in the loop control for medical robotics]] | KTH Royal Institute of Technology | 2026-08-19 | 5 | uncertain | 36 |
-| [[opp_tampere-research-assistant\|Research Assistant / M.Sc. thesis worker (Materials Science, Composite materials)]] | Tampere University | 2026-08-20 | 6 | uncertain | 8 |
-| [[opp_varbi-postdoc-in-ai-driven-road-network-performance-predicti\|Postdoc in AI-driven road network performance prediction and maintenance.]] | KTH Royal Institute of Technology | 2026-08-20 | 6 | uncertain | 13 |
-| [[opp_varbi-postdoc-in-ai-native-wireless-networks\|Postdoc in AI-native Wireless Networks]] | KTH Royal Institute of Technology | 2026-08-20 | 6 | uncertain | 9 |
-| [[opp_varbi-postdoc-in-genomics\|Postdoc in genomics]] | KTH Royal Institute of Technology | 2026-08-20 | 6 | uncertain | 3 |
-| [[opp_varbi-postdoc-in-solid-state-batteries-electrochemical-and-c\|Postdoc in solid-state batteries - Electrochemical and chemical characterization]] | KTH Royal Institute of Technology | 2026-08-22 | 8 | uncertain | 7 |
-| [[opp_aalto-innovation-postdoc-artificial-intelligence\|Innovation Postdoc – Artificial Intelligence]] | Aalto University | 2026-08-23 | 9 | uncertain | 26 |
-| [[opp_tudelft-junior-researcher-postdoctoral-researcher-in-offshor\|Junior Researcher / Postdoctoral Researcher in Offshore Geotechnics]] | TU Delft | 2026-08-23 | 9 | uncertain | 14 |
-| [[opp_tudelft-phd-position-co-creating-circular-business-models-an\|PhD position Co-creating circular business models and services for e-bikes and home appliances]] | TU Delft | 2026-08-23 | 9 | uncertain | 44 |
-| [[opp_tudelft-phd-position-effect-of-tramp-elements-in-martensitic\|PhD Position Effect of Tramp Elements in Martensitic Stainless Steels]] | TU Delft | 2026-08-23 | 9 | uncertain | 8 |
-| [[opp_tudelft-postdoc-position-in-adaptive-multimodal-human-techno\|Postdoc Position in Adaptive Multimodal Human-Technology Interaction for Automated Driving]] | TU Delft | 2026-08-23 | 9 | uncertain | 54 |
-| [[opp_varbi-doctoral-students-in-networked-systems-security\|Doctoral students in Networked Systems Security]] | KTH Royal Institute of Technology | 2026-08-23 | 9 | uncertain | 16 |
-| [[opp_varbi-postdoc-in-circular-manufacturing-systems\|Postdoc in Circular Manufacturing Systems]] | KTH Royal Institute of Technology | 2026-08-23 | 9 | uncertain | 15 |
-| [[opp_varbi-postdoc-in-digital-and-sustainable-production-logistic\|Postdoc in Digital and Sustainable Production Logistics]] | KTH Royal Institute of Technology | 2026-08-23 | 9 | uncertain | 22 |
-| [[opp_varbi-postdoc-in-industrial-ecosystems-and-circular-transiti\|Postdoc in Industrial Ecosystems and Circular Transition]] | KTH Royal Institute of Technology | 2026-08-23 | 9 | uncertain | 12 |
-| [[opp_varbi-postdoc-in-innovation-management-for-circular-solution\|Postdoc in Innovation management for circular solutions]] | KTH Royal Institute of Technology | 2026-08-23 | 9 | uncertain | 15 |
-| [[opp_varbi-postdoc-in-machine-elements\|Postdoc in machine elements]] | KTH Royal Institute of Technology | 2026-08-23 | 9 | uncertain | 4 |
-| [[opp_varbi-postdoc-in-transaminase-biocatalysis-for-industrial-ap\|Postdoc in Transaminase Biocatalysis for Industrial Applications]] | KTH Royal Institute of Technology | 2026-08-23 | 9 | uncertain | 4 |
-| [[opp_tudelft-phd-position-in-tunnel-design-for-geological-disposa\|PhD Position in Tunnel Design for Geological Disposal of Radioactive Waste]] | TU Delft | 2026-08-24 | 10 | uncertain | 9 |
-| [[opp_tudelft-phd-position-projection-system-for-te-imaging-in-sca\|PhD Position Projection System for TE Imaging in Scanning Electron Microscope (SEM)]] | TU Delft | 2026-08-24 | 10 | uncertain | 9 |
-| [[opp_tudelft-phd-positions-in-theoretical-chemistry-and-physics-e\|PhD Positions in Theoretical Chemistry and Physics (ERC-Funded)]] | TU Delft | 2026-08-24 | 10 | uncertain | 14 |
-| [[opp_tudelft-postdoc-in-open-quantum-system-dynamics-department-o\|Postdoc in Open Quantum System Dynamics, Department of Quantum Nanosciene, TU Delft (ERC-Funded)]] | TU Delft | 2026-08-24 | 10 | uncertain | 6 |
-| [[opp_tudelft-postdoc-in-physical-and-theoretical-chemistry-depart\|Postdoc in Physical and Theoretical Chemistry, Department of Quantum Nanoscience, TU Delft]] | TU Delft | 2026-08-24 | 10 | uncertain | 5 |
-| [[opp_varbi-postdoc-in-experimental-and-computational-fracture-mec\|Postdoc in Experimental and Computational Fracture Mechanics]] | KTH Royal Institute of Technology | 2026-08-24 | 10 | uncertain | 4 |
-| [[opp_varbi-postdoc-in-microstructure-informed-modelling-of-fractu\|Postdoc in microstructure-informed modelling of fracture mechanics]] | KTH Royal Institute of Technology | 2026-08-24 | 10 | uncertain | 8 |
-| [[opp_varbi-postdoc-in-soundscape-engineering-and-acoustic-metamat\|Postdoc in soundscape engineering and acoustic metamaterials]] | KTH Royal Institute of Technology | 2026-08-24 | 10 | uncertain | 46 |
-| [[opp_varbi-researcher-laboratory-manager-to-the-hultgren-laborato\|Researcher - Laboratory Manager to the Hultgren Laboratory]] | KTH Royal Institute of Technology | 2026-08-24 | 10 | uncertain | 4 |
-| [[opp_tudelft-internal-postdoc-in-safety-assessment-and-strengthen\|Internal: Postdoc in Safety Assessment and Strengthening Technology of Existing Concrete Bridges]] | TU Delft | 2026-08-25 | 11 | uncertain | 8 |
-| [[opp_varbi-postdoc-in-complex-fluid-flows\|Postdoc in complex fluid flows]] | KTH Royal Institute of Technology | 2026-08-25 | 11 | uncertain | 9 |
-| [[opp_tampere-doctoral-researcher-signal-processing\|Doctoral Researcher (Signal Processing)]] | Tampere University | 2026-08-27 | 13 | uncertain | 12 |
-| [[opp_tudelft-postdoc-theoretical-biophysics-sars-cov2\|Postdoc Theoretical Biophysics Sars-Cov2]] | TU Delft | 2026-08-27 | 13 | uncertain | 9 |
-| [[opp_tudelft-phd-position-sensing-viscosity-with-ultrasound\|PhD Position Sensing Viscosity with Ultrasound]] | TU Delft | 2026-08-28 | 14 | uncertain | 7 |
-| [[opp_varbi-postdoc-in-solid-state-batteries-precision-manufacturi\|Postdoc in solid-state batteries – Precision manufacturing]] | KTH Royal Institute of Technology | 2026-08-28 | 14 | uncertain | 5 |
-| [[opp_aalto-doctoral-researcher-in-ai-and-quantum-inspired-optimiz\|Doctoral Researcher in AI and Quantum-Inspired Optimization for Sustainable Energy Systems]] | Aalto University | 2026-08-30 | 16 | uncertain | 9 |
-| [[opp_aalto-research-assistant-master-thesis-worker-in-simulation\|Research Assistant (master thesis worker) in Simulation for Optoelectronics Devices]] | Aalto University | 2026-08-30 | 16 | uncertain | 5 |
-| [[opp_tudelft-phd-position-extended-reality-for-inclusive-automate\|PhD Position eXtended Reality for Inclusive Automated Vehicle Interaction]] | TU Delft | 2026-08-30 | 16 | uncertain | 84 |
-| [[opp_tudelft-phd-position-hydrogen-based-novel-flow-battery-techn\|PhD Position Hydrogen-based Novel Flow Battery Technology]] | TU Delft | 2026-08-30 | 16 | uncertain | 11 |
-| [[opp_tudelft-phd-position-metaoptics-for-space-applications\|PhD Position Metaoptics for Space Applications]] | TU Delft | 2026-08-30 | 16 | uncertain | 17 |
-| [[opp_tudelft-phd-position-simulating-the-airspace-of-the-future-f\|PhD Position Simulating the Airspace of the Future: Fleet & Network Optimization for Future Aircraft]] | TU Delft | 2026-08-30 | 16 | uncertain | 17 |
-| [[opp_tudelft-postdoc-complexes-for-novel-flow-batteries\|Postdoc Complexes for Novel Flow Batteries]] | TU Delft | 2026-08-30 | 16 | uncertain | 10 |
-| [[opp_tudelft-postdoc-in-application-of-extended-reality-for-inclu\|Postdoc in Application of eXtended Reality for Inclusive Automated Vehicle and Road User Interaction]] | TU Delft | 2026-08-30 | 16 | uncertain | 67 |
-| [[opp_tudelft-postdoc-in-atmospheric-chemistry-aerosol-science-and\|Postdoc in Atmospheric Chemistry, Aerosol Science and Air Quality Monitoring]] | TU Delft | 2026-08-30 | 16 | uncertain | 9 |
-| [[opp_aalto-a-doctoral-researcher-phd-student-in-machine-learning\|A Doctoral Researcher (PhD student) in Machine Learning for Electron–Phonon Interactions and Wannier-Based Hamiltonians]] | Aalto University | 2026-08-31 | 17 | uncertain | 7 |
-| [[opp_aalto-doctoral-researcher-in-quantum-computing-and-algorithm\|Doctoral Researcher in quantum computing and algorithms for Life Science applications]] | Aalto University | 2026-08-31 | 17 | uncertain | 6 |
-| [[opp_aalto-doctoral-researcher-in-rock-mechanics-for-underground\|Doctoral Researcher in Rock Mechanics for underground hydrogen storage and risk-based design]] | Aalto University | 2026-08-31 | 17 | uncertain | 12 |
-| [[opp_aalto-doctoral-researcher-in-structural-health-monitoring-an\|Doctoral Researcher in Structural Health Monitoring and Condition Assessment]] | Aalto University | 2026-08-31 | 17 | uncertain | 8 |
-| [[opp_aalto-postdoctoral-researcher-in-quantum-algorithms-and-opti\|Postdoctoral researcher in quantum algorithms and optimization for Life Science applications]] | Aalto University | 2026-08-31 | 17 | uncertain | 5 |
-| [[opp_euraxess-one-or-more-phd-positions-in-using-large-scale-data\|One or more PhD positions in Using Large-Scale Data to Improve Precision Medicine in Psychiatry]] | Aalborg Universitet | 2026-08-31 | 17 | uncertain | 31 |
-| [[opp_tampere-postdoctoral-research-fellow-chip-technologies-12-po\|Postdoctoral Research Fellow (Chip Technologies), 12 positions]] | Tampere University | 2026-08-31 | 17 | uncertain | 8 |
-| [[opp_tudelft-phd-position-advanced-adaptive-optics-for-laser-sate\|PhD Position Advanced Adaptive Optics for Laser Satellite Communications]] | TU Delft | 2026-08-31 | 17 | uncertain | 17 |
-| [[opp_tudelft-phd-position-in-nanomedicine-formulation-engineering\|PhD Position in Nanomedicine Formulation Engineering for Cancer Treatment]] | TU Delft | 2026-08-31 | 17 | uncertain | 20 |
-| [[opp_tudelft-phd-position-modelling-and-optimization-of-processes\|PhD Position Modelling and Optimization of Processes to Recycle Low-grade Biogenic Waste]] | TU Delft | 2026-08-31 | 17 | uncertain | 17 |
-| [[opp_tudelft-phd-position-on-assessing-private-climate-change-ada\|PhD Position on Assessing Private Climate Change Adaptation Effectiveness and Limits]] | TU Delft | 2026-08-31 | 17 | uncertain | 52 |
-| [[opp_tudelft-phd-position-quantum-algorithms-for-numerical-simula\|PhD Position Quantum Algorithms for Numerical Simulation in Aerospace]] | TU Delft | 2026-08-31 | 17 | uncertain | 10 |
-| [[opp_tudelft-phd-position-thermal-runaway-of-batteries\|PhD Position Thermal Runaway of Batteries]] | TU Delft | 2026-08-31 | 17 | uncertain | 14 |
-| [[opp_tudelft-phd-position-wireless-communications-and-non-terrest\|PhD Position Wireless Communications and Non-Terrestrial Networks]] | TU Delft | 2026-08-31 | 17 | uncertain | 10 |
-| [[opp_tudelft-postdoc-integrating-spectroscopic-process-analytical\|Postdoc Integrating Spectroscopic Process Analytical Technology for Fermentation Process]] | TU Delft | 2026-08-31 | 17 | uncertain | 14 |
-| [[opp_tudelft-postdoc-modelling-of-electrochemical-recovery-of-nit\|Postdoc Modelling of Electrochemical Recovery of Nitrogen Vectors from Wastewater]] | TU Delft | 2026-08-31 | 17 | uncertain | 12 |
-| [[opp_varbi-doctoral-student-in-sic-bipolar-devices-for-power-elec\|Doctoral student in SiC bipolar devices for power electronics]] | KTH Royal Institute of Technology | 2026-08-31 | 17 | uncertain | 3 |
-| [[opp_varbi-postdoc-in-ai-based-formally-verified-code-generation\|Postdoc in AI-based formally verified code generation]] | KTH Royal Institute of Technology | 2026-08-31 | 17 | uncertain | 13 |
-| [[opp_varbi-postdoc-in-hardware-design-and-design-automation\|Postdoc in Hardware Design and Design Automation]] | KTH Royal Institute of Technology | 2026-08-31 | 17 | uncertain | 5 |
-| [[opp_aalto-doctoral-researcher-in-transport-studies\|Doctoral Researcher in Transport Studies]] | Aalto University | 2026-09-01 | 18 | uncertain | 51 |
-| [[opp_euraxess-selection-n-1-rtd-in-tenure-track-rtt-ex-art-24-co\|Selection n.1 RTD in tenure track (RTT), ex art.24 co.2 L. 240/2010, reserved ex D.M. 193/2026 to RTD a), GSD 11/PSIC-01 “General psychology, neuropsychology and cognitive neuroscience, psychometrics” SSD PSIC-01/A (M-PSI/01) DISS]] | Italian Ministry of Education, University and Research | 2026-09-01 | 18 | uncertain | 47 |
-| [[opp_euraxess-selection-no-1-rtd-in-tenure-track-rtt-ex-art-24-co\|Selection no. 1 RTD in tenure track (RTT), ex art.24 co.2 L.240/2010, reserved pursuant to the Ministerial Decree. 193/2026 a RTD a), GSD 07/AGRI-07 “Food science and technology” - SSD AGRI-07/A “Food science and technology” (formerly AGR/15) DAFNE]] | Italian Ministry of Education, University and Research | 2026-09-01 | 18 | uncertain | 16 |
-| [[opp_euraxess-une-enseignante-chercheurse-en-genie-civil-et-urbai\|Un·e enseignant·e-chercheur·se en Génie Civil et Urbain]] | INSA Rennes | 2026-09-01 | 18 | uncertain | 21 |
-| [[opp_tudelft-phd-position-broadband-semiconductor-photodetectors\|PhD Position Broadband Semiconductor Photodetectors for Spectropolarimetric Imaging]] | TU Delft | 2026-09-01 | 18 | uncertain | 6 |
-| [[opp_tudelft-phd-position-in-developing-a-digital-health-passport\|PhD Position in Developing a Digital Health Passport for Railway Tracks on Bridges]] | TU Delft | 2026-09-01 | 18 | uncertain | 43 |
-| [[opp_tudelft-phd-position-in-smart-sensing-and-monitoring-of-rail\|PhD Position in Smart Sensing and Monitoring of Railway Embankment]] | TU Delft | 2026-09-01 | 18 | uncertain | 24 |
-| [[opp_tudelft-postdoc-in-tsunami-engineering\|Postdoc in Tsunami Engineering]] | TU Delft | 2026-09-01 | 18 | uncertain | 19 |
-| [[opp_varbi-post-doctoral-position-in-global-detection-techniques\|Post-doctoral position in global detection techniques for radicals in air]] | KTH Royal Institute of Technology | 2026-09-01 | 18 | uncertain | 8 |
-| [[opp_varbi-postdoc-in-electronically-tunable-membranes-for-digita\|Postdoc in electronically tunable membranes for digitalized separation]] | KTH Royal Institute of Technology | 2026-09-01 | 18 | uncertain | 6 |
-| [[opp_varbi-postdoc-in-postdoc-in-mass-spectrometry-for-detecting\|Postdoc in Postdoc in Mass Spectrometry for detecting oxygenated radicals in air]] | KTH Royal Institute of Technology | 2026-09-01 | 18 | uncertain | 3 |
-| [[opp_tudelft-phd-position-on-effective-chemical-barriers-against\|PhD Position on Effective Chemical Barriers against Rising Damp]] | TU Delft | 2026-09-04 | 21 | uncertain | 14 |
-| [[opp_tudelft-postdoctoral-researcher-position-in-data-driven-desi\|Postdoctoral Researcher Position in Data-Driven Design Evaluation of Urban Transformations]] | TU Delft | 2026-09-04 | 21 | uncertain | 59 |
-| [[opp_tudelft-phd-position-equilibrium-behavior-of-tramp-elements\|PhD Position Equilibrium Behavior of Tramp Elements for Green Steel Production]] | TU Delft | 2026-09-05 | 22 | uncertain | 14 |
-| [[opp_tudelft-phd-position-electrical-engineering-cryo-cmos-circui\|PhD Position Electrical Engineering: Cryo-CMOS Circuit Design for Temperature Sensors in Quantum]] | TU Delft | 2026-09-06 | 23 | uncertain | 5 |
-| [[opp_euraxess-senior-knowledge-exchange-and-enterprise-fellow-kno-2\|Senior Knowledge Exchange and Enterprise Fellow: (Knowledge Mobilisation & Community Connector)]] | Times Higher Education | 2026-09-07 | 24 | uncertain | 24 |
-| [[opp_euraxess-senior-knowledge-exchange-and-enterprise-fellow-kno\|Senior Knowledge Exchange and Enterprise Fellow (Knowledge Mobilisation)]] | Times Higher Education | 2026-09-07 | 24 | uncertain | 24 |
-| [[opp_tampere-research-assistant-ai-agents-in-electromagnetics-res\|Research Assistant (AI agents in electromagnetics research)]] | Tampere University | 2026-09-07 | 24 | uncertain | 16 |
-| [[opp_tudelft-phd-position-in-decoding-the-microbial-nitrogen-cycl\|PhD Position in Decoding the Microbial Nitrogen Cycle for Climate Resilience]] | TU Delft | 2026-09-07 | 24 | uncertain | 11 |
-| [[opp_tudelft-postdoc-fes-shorts-for-gait-rehabilitation-after-str\|Postdoc FES Shorts for Gait Rehabilitation after Stroke]] | TU Delft | 2026-09-07 | 24 | uncertain | 59 |
-| [[opp_tudelft-postdoc-in-tunnel-modelling-for-geological-disposal\|Postdoc in Tunnel Modelling for Geological Disposal of Radioactive Waste]] | TU Delft | 2026-09-07 | 24 | uncertain | 12 |
-| [[opp_tudelft-postdoc-markerless-motion-capture-for-home-monitorin\|Postdoc Markerless Motion Capture for Home Monitoring in Neurological Populations]] | TU Delft | 2026-09-07 | 24 | uncertain | 54 |
-| [[opp_tudelft-phd-position-realising-business-impact-from-construc\|PhD Position Realising Business Impact from Construction Software]] | TU Delft | 2026-09-08 | 25 | uncertain | 28 |
-| [[opp_aalto-postdoctoral-researcher-in-quantum-optomechanics-with\|Postdoctoral Researcher in quantum optomechanics with polaritons]] | Aalto University | 2026-09-15 | 32 | uncertain | 6 |
-| [[opp_tampere-doctoral-researcher-computational-biophysics\|Doctoral Researcher (Computational Biophysics)]] | Tampere University | 2026-09-15 | 32 | uncertain | 5 |
-| [[opp_tampere-postdoctoral-research-fellow-computational-biophysic\|Postdoctoral Research Fellow (Computational Biophysics)]] | Tampere University | 2026-09-15 | 32 | uncertain | 3 |
-| [[opp_tudelft-phd-position-cognitive-guidance-in-xr-to-improve-ind\|PhD Position Cognitive Guidance in XR to Improve Independent Mobility for People with Disabilities]] | TU Delft | 2026-09-15 | 32 | uncertain | 89 |
-| [[opp_tudelft-phd-position-in-theoretical-physics-mechanical-quant\|PhD Position in Theoretical Physics | Mechanical Quantum Sensors for Fundamental Physics]] | TU Delft | 2026-09-15 | 32 | uncertain | 7 |
-| [[opp_tudelft-postdoc-in-theoretical-quantum-physics-quantum-sensi\|Postdoc in Theoretical Quantum Physics | Quantum Sensing and Tests of Fundamental Physics]] | TU Delft | 2026-09-15 | 32 | uncertain | 6 |
-| [[opp_tudelft-postdoc-multi-scale-mechanobiological-cardiac-growth\|Postdoc Multi-Scale Mechanobiological Cardiac Growth and Remodelling]] | TU Delft | 2026-09-15 | 32 | uncertain | 12 |
-| [[opp_tudelft-phd-position-molecular-modeling-of-hydrogen-producti\|PhD Position Molecular Modeling of Hydrogen Production Processes]] | TU Delft | 2026-09-20 | 37 | uncertain | 0 |
-| [[opp_euraxess-professor-assoc-prof-assist-prof-state-key-laborato\|Professor/Assoc. Prof./Assist. Prof., State Key Laboratory of Quality Research in Chinese Medicines]] | Times Higher Education | 2026-09-21 | 38 | fail | 14 |
-| [[opp_euraxess-professor-assoc-professor-assist-professor-departme\|Professor/Assoc. Professor/Assist. Professor, Department of Environmental Science and Engineering]] | Times Higher Education | 2026-09-21 | 38 | fail | 16 |
-| [[opp_euraxess-professor-assoc-professor-assistant-professor-lectu\|Professor/Assoc. Professor/Assistant Professor/Lecturer, Institute for Social and Cultural Research]] | Times Higher Education | 2026-09-21 | 38 | fail | 18 |
-| [[opp_euraxess-professor-associate-professor-assistant-professor-d\|Professor/Associate Professor/Assistant Professor, Department of Engineering Science]] | Times Higher Education | 2026-09-21 | 38 | fail | 20 |
-| [[opp_euraxess-professor-associate-professor-assistant-professor-s-2\|Professor/Associate Professor/Assistant Professor, School of Computer Science and Engineering]] | Times Higher Education | 2026-09-21 | 38 | fail | 29 |
-| [[opp_euraxess-professor-associate-professor-assistant-professor-s\|Professor/Associate Professor/Assistant Professor, School of Pharmacy]] | Times Higher Education | 2026-09-21 | 38 | fail | 14 |
-| [[opp_euraxess-researcher-associate-researcher-assistant-researche\|Researcher / Associate Researcher / Assistant Researcher / Postdoctoral Researcher, M.I.S.T.A.]] | Times Higher Education | 2026-09-21 | 38 | fail | 18 |
-| [[opp_tampere-postdoctoral-researcher-orbit-consortium-management\|Postdoctoral Researcher (ORBIT Consortium, Management and Organizations)]] | Tampere University | 2026-09-21 | 38 | uncertain | 12 |
-| [[opp_tudelft-phd-position-on-quantum-error-correction-for-photoni\|PhD Position on Quantum Error Correction for Photonics]] | TU Delft | 2026-09-22 | 39 | uncertain | 5 |
-| [[opp_tudelft-postdoc-molecular-dynamics-and-process-simulation-of\|Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage Systems]] | TU Delft | 2026-09-22 | 39 | uncertain | 7 |
-| [[opp_aalto-postdoctoral-researcher-in-the-field-of-superconductin\|Postdoctoral researcher in the field of superconducting quantum circuits]] | Aalto University | 2026-09-30 | 47 | uncertain | 5 |
-| [[opp_tudelft-phd-position-learning-and-control-for-complex-large\|PhD Position Learning and Control for Complex Large-Scale Systems with Applications in Greenhouses]] | TU Delft | 2026-09-30 | 47 | uncertain | 20 |
-| [[opp_aalto-doctoral-researcher-in-simulation-of-variable-speed-el\|Doctoral Researcher in Simulation of Variable Speed Electric Machines with Advanced Magnetic Material]] | Aalto University | 2026-10-01 | 48 | uncertain | 11 |
-| [[opp_euraxess-tenure-track-assistant-professor-associate-professo\|Tenure-Track Assistant Professor / Associate Professor in International Relations]] | Times Higher Education | 2026-10-01 | 48 | fail | 16 |
-| [[opp_varbi-postdoc-in-nuclear-fuel-materials\|Postdoc in Nuclear Fuel Materials]] | KTH Royal Institute of Technology | 2026-10-01 | 48 | uncertain | 4 |
-| [[opp_aalto-visiting-researcher-in-aalto-university-school-of-arts\|Visiting Researcher in Aalto University School of Arts, Design and Architecture (unfunded position)]] | Aalto University | 2027-12-30 | 503 | uncertain | 49 |
+| [[opp_tudelft-phd-position-in-data-and-ai-for-multi-source-micromo\|PhD Position in Data and AI for Multi-Source Micromobility Safety Analytics]] | TU Delft | 2026-07-19 | -27 | fail | 32 |
+| [[opp_tudelft-phd-position-in-extended-reality-for-safe-and-active\|PhD Position in Extended Reality for Safe and Active Mobility]] | TU Delft | 2026-07-19 | -27 | fail | 86 |
+| [[opp_tudelft-postdoc-position-high-resolution-urban-cfd-simulatio\|Postdoc Position - High-Resolution Urban CFD Simulations and Measurements for Urban Air Mobility]] | TU Delft | 2026-07-19 | -27 | fail | 20 |
+| [[opp_tudelft-researcher-positions-interoperability-of-control-and\|Researcher Positions: Interoperability of Control and Protection in the High Voltage Direct Current]] | TU Delft | 2026-07-19 | -27 | fail | 15 |
+| [[opp_tudelft-phd-position-high-fidelity-nuclear-reactor-modeling\|PhD Position High Fidelity Nuclear Reactor Modeling and Safety Analysis]] | TU Delft | 2026-07-20 | -26 | fail | 8 |
+| [[opp_tudelft-phd-position-privacy-for-crop-breeding\|PhD Position Privacy for Crop Breeding]] | TU Delft | 2026-07-20 | -26 | fail | 14 |
+| [[opp_tudelft-postdoc-new-luminescent-materials-for-sustainable-en\|Postdoc New Luminescent Materials for Sustainable Energy Technology: Towards a Photovoltaic Window]] | TU Delft | 2026-07-20 | -26 | fail | 7 |
+| [[opp_tudelft-postdoc-theoretical-biophysics-across-scales\|Postdoc Theoretical Biophysics Across Scales]] | TU Delft | 2026-07-20 | -26 | fail | 13 |
+| [[opp_tudelft-research-assistant-in-agentic-ai-for-infrastructure\|Research Assistant  in Agentic AI for Infrastructure Management]] | TU Delft | 2026-07-21 | -25 | fail | 41 |
+| [[opp_euraxess-innovation-technology-developer-backend-services-de\|Innovation Technology Developer – Backend Services Developer]] | ResearchJobs.cz | 2026-07-22 | -24 | fail | 30 |
+| [[opp_euraxess-postdoc-quantum-thermal\|Postdoc – Quantum Thermal]] | ResearchJobs.cz | 2026-07-22 | -24 | fail | 18 |
+| [[opp_tudelft-phd-position-second-life-of-batteries-for-grid-suppo\|PhD Position Second Life of Batteries for Grid /Support]] | TU Delft | 2026-07-22 | -24 | fail | 12 |
+| [[opp_tudelft-postdoc-for-e2packman\|Postdoc for E2Packman]] | TU Delft | 2026-07-22 | -24 | fail | 14 |
+| [[opp_tudelft-postdoc-human-centred-thermal-comfort-and-machine-le\|Postdoc Human-Centred Thermal Comfort and Machine Learning for Electric Vehicles]] | TU Delft | 2026-07-22 | -24 | fail | 52 |
+| [[opp_unilu_computational_interaction_phd\|Doctoral Researcher in Computer Science — Computational Interaction]] | University of Luxembourg | 2026-07-22 | -24 | fail | 66 |
+| [[opp_varbi-postdoc-in-integrated-transport-emissions-and-health-a\|Postdoc in Integrated Transport Emissions and Health Assessment]] | KTH Royal Institute of Technology | 2026-07-22 | -24 | fail | 19 |
+| [[opp_aalto-postdoctoral-researcher-advanced-life-cycle-assessment\|Postdoctoral researcher, Advanced Life Cycle Assessment (LCA) of bio-based processes and products]] | Aalto University | 2026-07-25 | -21 | fail | 5 |
+| [[opp_tudelft-fully-funded-phd-position-in-quantum-photonics\|Fully Funded PhD Position in Quantum Photonics]] | TU Delft | 2026-07-26 | -20 | fail | 13 |
+| [[opp_tudelft-postdoc-trustworthy-graph-machine-learning\|Postdoc Trustworthy Graph Machine Learning]] | TU Delft | 2026-07-26 | -20 | fail | 7 |
+| [[opp_tudelft-phd-position-modeling-foot-growth-and-deformities-in\|PhD Position Modeling Foot Growth and Deformities in Children with Cerebral Palsy]] | TU Delft | 2026-07-27 | -19 | fail | 45 |
+| [[opp_tudelft-postdoc-bipolar-membrane-development-for-acid-base-f\|Postdoc Bipolar Membrane Development for Acid-Base Flow Battery Systems]] | TU Delft | 2026-07-28 | -18 | fail | 14 |
+| [[opp_tudelft-postdoc-scalable-graph-learning\|Postdoc Scalable Graph Learning]] | TU Delft | 2026-07-28 | -18 | fail | 5 |
+| [[opp_tudelft-post-doctoral-researcher-in-computational-geomechani\|Post-Doctoral Researcher in Computational Geomechanics of Gas Migration in Clays]] | TU Delft | 2026-07-29 | -17 | fail | 14 |
+| [[opp_tudelft-phd-position-haptics\|PhD Position Haptics]] | TU Delft | 2026-07-30 | -16 | fail | 58 |
+| [[opp_tudelft-phd-position-in-quantum-magnonics\|PhD Position in Quantum Magnonics]] | TU Delft | 2026-07-30 | -16 | fail | 10 |
+| [[opp_aalto-doctoral-researcher-in-fatigue-of-waam-structures\|Doctoral Researcher in Fatigue of WAAM Structures]] | Aalto University | 2026-07-31 | -15 | fail | 6 |
+| [[opp_aalto-doctoral-students-theoretical-foundations-of-distribut\|Doctoral Students  (theoretical foundations of distributed quantum computing)]] | Aalto University | 2026-07-31 | -15 | fail | 6 |
+| [[opp_aalto-postdoctoral-researchers-theoretical-foundations-of-di\|Postdoctoral Researchers (theoretical foundations of distributed quantum computing)]] | Aalto University | 2026-07-31 | -15 | fail | 5 |
+| [[opp_tampere-doctoral-researcher-in-dependable-automation-artific\|Doctoral Researcher in Dependable Automation, Artificial Intelligence and Cyber-Physical Systems (3 positions)]] | Tampere University | 2026-07-31 | -15 | fail | 23 |
+| [[opp_tudelft-phd-position-advanced-lattice-boltzmann-methods-for\|PhD Position Advanced Lattice Boltzmann Methods for Multiphysics Simulations of Nuclear Reactors]] | TU Delft | 2026-07-31 | -15 | fail | 9 |
+| [[opp_tudelft-phd-position-in-mobile-computing-for-intra-oral-sens\|PhD Position in Mobile Computing for Intra-Oral Sensing]] | TU Delft | 2026-07-31 | -15 | fail | 19 |
+| [[opp_tudelft-phd-position-operational-performance-of-antenna-arra\|PhD Position Operational Performance of Antenna Arrays in Presence of Heterogeneous Environment]] | TU Delft | 2026-07-31 | -15 | fail | 18 |
+| [[opp_tudelft-postdoc-in-situ-cryo-et\|Postdoc In-Situ Cryo-ET]] | TU Delft | 2026-07-31 | -15 | fail | 20 |
+| [[opp_varbi-doctoral-student-in-deep-learning-for-biological-syste\|Doctoral student in deep learning for biological systems]] | KTH Royal Institute of Technology | 2026-07-31 | -15 | fail | 14 |
+| [[opp_varbi-doctoral-student-in-fluorescence-based-biomolecular-sp\|Doctoral student in Fluorescence-based Biomolecular Spectroscopy / Imaging]] | KTH Royal Institute of Technology | 2026-07-31 | -15 | fail | 9 |
+| [[opp_tudelft-phd-position-distribution-systems-flexible-operation\|PhD Position Distribution Systems Flexible Operation under Uncertain and Incomplete Information]] | TU Delft | 2026-08-01 | -14 | fail | 14 |
+| [[opp_tudelft-phd-position-foundation-ai-models-for-distribution-s\|PhD Position Foundation AI Models for Distribution Systems Decision-Making]] | TU Delft | 2026-08-01 | -14 | fail | 18 |
+| [[opp_varbi-doctoral-student-in-underwater-robotics\|Doctoral student in Underwater Robotics]] | KTH Royal Institute of Technology | 2026-08-01 | -14 | fail | 8 |
+| [[opp_aalto-doctoral-researcher-phd-student-in-area-selective-atom\|Doctoral researcher (PhD student) in area-selective atomic layer deposition (AS-ALD) simulations]] | Aalto University | 2026-08-02 | -13 | fail | 6 |
+| [[opp_tampere-doctoral-researcher-novel-photochemistry-systems-for\|Doctoral Researcher (Novel Photochemistry Systems for Light-Triggered Hydrogels)]] | Tampere University | 2026-08-02 | -13 | fail | 6 |
+| [[opp_tudelft-2-phd-positions-in-physicsinformed-machine-learning\|2 PhD positions in Physics‑Informed Machine Learning for Traffic Modelling & Prediction]] | TU Delft | 2026-08-02 | -13 | fail | 18 |
+| [[opp_tudelft-phd-position-biosensing-and-designing-for-temporal-a\|PhD Position Biosensing and Designing for Temporal and Biofabricated Textile Experiences]] | TU Delft | 2026-08-02 | -13 | fail | 65 |
+| [[opp_tudelft-phd-position-experimental-air-knife-turbulent-jet-im\|PhD Position (Experimental) Air-Knife Turbulent Jet Impingement on a Liquid Zinc Surface]] | TU Delft | 2026-08-02 | -13 | fail | 15 |
+| [[opp_tudelft-phd-position-metabolic-engineering-for-cultivated-me\|PhD Position Metabolic Engineering for Cultivated Meat]] | TU Delft | 2026-08-02 | -13 | fail | 13 |
+| [[opp_tudelft-phd-position-modelling-inspired-cell-engineering-for\|PhD Position Modelling-inspired Cell Engineering for Upscaled Cultivated Meat]] | TU Delft | 2026-08-02 | -13 | fail | 18 |
+| [[opp_tudelft-phd-positions-in-experimental-physics-research-on-ma\|PhD Positions in Experimental Physics Research on Magnetic Domain Wall Qubits]] | TU Delft | 2026-08-02 | -13 | fail | 4 |
+| [[opp_tudelft-postdoc-cell-engineering-for-cultivated-meat\|Postdoc Cell Engineering for Cultivated Meat]] | TU Delft | 2026-08-02 | -13 | fail | 14 |
+| [[opp_tudelft-postdoc-in-physicsinformed-machine-learning-for-hybr\|Postdoc in Physics‑Informed Machine Learning for Hybrid Traffic Prediction]] | TU Delft | 2026-08-02 | -13 | fail | 11 |
+| [[opp_tudelft-postdoc-in-the-stritvaiz-project\|Postdoc  in the Stritvaiz Project]] | TU Delft | 2026-08-02 | -13 | fail | 22 |
+| [[opp_aalto-postdoctoral-researcher-in-contested-waterfront-develo\|Postdoctoral Researcher in Contested Waterfront Developments (ConWa)-project]] | Aalto University | 2026-08-03 | -12 | fail | 26 |
+| [[opp_tampere-doctoral-researcher-soft-robotics\|Doctoral Researcher (soft robotics)]] | Tampere University | 2026-08-03 | -12 | fail | 11 |
+| [[opp_tampere-doctoral-researcher\|Doctoral Researcher]] | Tampere University | 2026-08-03 | -12 | fail | 51 |
+| [[opp_tampere-postdoctoral-research-fellow-2\|Postdoctoral Research Fellow]] | Tampere University | 2026-08-03 | -12 | fail | 6 |
+| [[opp_tampere-postdoctoral-research-fellow\|Postdoctoral Research Fellow]] | Tampere University | 2026-08-03 | -12 | fail | 6 |
+| [[opp_tampere_project_researcher_hti_2026\|Project Researcher (Human-technology interaction), 2–5 positions]] | Tampere University | 2026-08-03 | -12 | fail | 89 |
+| [[opp_tudelft-phd-position-experimental-physics-thermal-hydraulics\|PhD Position Experimental Physics Thermal-Hydraulics in Advanced Nuclear Reactor Technology]] | TU Delft | 2026-08-03 | -12 | fail | 6 |
+| [[opp_tudelft-phd-position-in-design-integration-of-bio-inclusive\|PhD position in Design Integration of Bio-Inclusive Façade Interventions]] | TU Delft | 2026-08-03 | -12 | fail | 35 |
+| [[opp_tudelft-postdoc-safe-waterborne-digital-systems\|Postdoc Safe Waterborne Digital Systems]] | TU Delft | 2026-08-03 | -12 | fail | 25 |
+| [[opp_varbi-postdoc-in-ai-modeling-for-cell-biology-alphacell-prog\|Postdoc in AI Modeling for Cell Biology, AlphaCell Program]] | KTH Royal Institute of Technology | 2026-08-03 | -12 | fail | 11 |
+| [[opp_varbi-postdoc-in-biological-data-systems-alpha-cell-program\|Postdoc in Biological Data Systems, Alpha Cell Program]] | KTH Royal Institute of Technology | 2026-08-03 | -12 | fail | 32 |
+| [[opp_varbi-postdoc-in-cell-and-molecular-biology-research\|Postdoc in Cell and Molecular Biology Research]] | KTH Royal Institute of Technology | 2026-08-03 | -12 | fail | 12 |
+| [[opp_aalto-doctoral-researcher-in-nano-scale-control-of-optical-f\|Doctoral Researcher in nano-scale control of optical fields]] | Aalto University | 2026-08-04 | -11 | fail | 6 |
+| [[opp_tudelft-postdoc-ald4tandem-project\|Postdoc ALD4TANDEM project]] | TU Delft | 2026-08-05 | -10 | fail | 4 |
+| [[opp_aalto-doctoral-researcher-in-digital-integrated-circuits\|Doctoral Researcher in Digital Integrated Circuits]] | Aalto University | 2026-08-07 | -8 | fail | 7 |
+| [[opp_varbi-doctoral-student-in-sustainable-satellite-networks\|Doctoral student in Sustainable Satellite Networks]] | KTH Royal Institute of Technology | 2026-08-07 | -8 | fail | 12 |
+| [[opp_euraxess-postdoctoral-research-associate-school-of-education\|Postdoctoral Research Associate, School of Education]] | Times Higher Education | 2026-08-08 | -7 | fail | 30 |
+| [[opp_aalto-postdoctoral-researchers-in-ai-driven-atomistic-modeli\|Postdoctoral Researchers in AI-driven atomistic modeling and AI-accelerated cheminformatics]] | Aalto University | 2026-08-09 | -6 | fail | 5 |
+| [[opp_tudelft-phd-position-in-river-basin-hydrology-climate-change\|PhD Position in River Basin Hydrology: Climate Change & Hydrological Extremes]] | TU Delft | 2026-08-09 | -6 | fail | 15 |
+| [[opp_tudelft-phd-position-superconducting-imaging-spectrometer-fo\|PhD Position Superconducting Imaging Spectrometer for Submillimeter-Wave Cosmology]] | TU Delft | 2026-08-09 | -6 | fail | 6 |
+| [[opp_aalto-postdoctoral-researcher-in-complexity-aligned-innovati\|Postdoctoral researcher in complexity-aligned innovation and institutional design]] | Aalto University | 2026-08-10 | -5 | fail | 48 |
+| [[opp_tudelft-phd-position-ai-alignment-value-assessment-for-open\|PhD Position AI Alignment: Value Assessment for Open Models & AI Systems]] | TU Delft | 2026-08-10 | -5 | fail | 48 |
+| [[opp_tudelft-phd-position-two-phase-flow-of-cryogenic-hydrogen\|PhD Position Two-Phase Flow of Cryogenic Hydrogen]] | TU Delft | 2026-08-10 | -5 | fail | 20 |
+| [[opp_varbi-doctoral-student-licentiate-in-engineering-materials-s\|Doctoral student (Licentiate) in Engineering Materials Science]] | KTH Royal Institute of Technology | 2026-08-10 | -5 | fail | 5 |
+| [[opp_varbi-postdoc-in-microgrids-for-ai-data-centers\|Postdoc in Microgrids for AI data centers]] | KTH Royal Institute of Technology | 2026-08-11 | -4 | fail | 9 |
+| [[opp_varbi-researcher-in-ev-charging-infrastructure\|Researcher in EV charging infrastructure]] | KTH Royal Institute of Technology | 2026-08-11 | -4 | fail | 2 |
+| [[opp_varbi-researcher-in-power-electronics\|Researcher in Power Electronics]] | KTH Royal Institute of Technology | 2026-08-11 | -4 | fail | 2 |
+| [[opp_tudelft-phd-position-particle-based-modelling-of-scrap-handl\|PhD Position Particle Based Modelling of Scrap Handling for Green Steel Production]] | TU Delft | 2026-08-12 | -3 | fail | 25 |
+| [[opp_varbi-postdoc-in-data-driven-structured-historic-energy-reno\|Postdoc in data-driven structured historic energy renovations]] | KTH Royal Institute of Technology | 2026-08-12 | -3 | fail | 10 |
+| [[opp_tampere-doctoral-researcher-antenna-engineering\|Doctoral Researcher (Antenna Engineering)]] | Tampere University | 2026-08-13 | -2 | fail | 12 |
+| [[opp_tudelft-phd-position-full-scale-wind-over-deck-measurements\|PhD Position Full-scale Wind Over Deck Measurements for Drone Operations]] | TU Delft | 2026-08-13 | -2 | fail | 15 |
+| [[opp_aalto-postdoctoral-researcher-in-2d-material-nanocomposites\|Postdoctoral Researcher in 2D material nanocomposites for tunable photonics]] | Aalto University | 2026-08-14 | -1 | fail | 4 |
+| [[opp_euraxess-selection-procedure-1-rtt-full-time-subordinate-emp\|Selection procedure 1 RTT, full-time, subordinate employment contract, 6 years, non-renewable, pursuant to art. 24 co. 2, L. 240/2010, G.S.D. 12/GIUR-14 “Criminal Law”, S.S.D. GIUR-14/A (formerly IUS/17) Jurisprudence]] | Italian Ministry of Education, University and Research | 2026-08-14 | -1 | fail | 16 |
+| [[opp_tampere-doctoral-researcher-in-railway-engineering-dsii\|Doctoral Researcher in Railway Engineering (DSII)]] | Tampere University | 2026-08-14 | -1 | fail | 9 |
+| [[opp_varbi-doctoral-student-licentiate-in-digital-twins-for-elect\|Doctoral student (licentiate) in digital twins for electrified construction]] | KTH Royal Institute of Technology | 2026-08-14 | -1 | fail | 42 |
+| [[opp_varbi-postdoc-in-development-anaerobic-process-for-bioplasti\|Postdoc in Development Anaerobic Process for Bioplastic Valorization]] | KTH Royal Institute of Technology | 2026-08-14 | -1 | fail | 9 |
+| [[opp_varbi-postdoc-in-large-language-model-inferencing\|Postdoc in Large Language Model inferencing]] | KTH Royal Institute of Technology | 2026-08-14 | -1 | fail | 9 |
+| [[opp_aalto-doctoral-researcher-in-non-gray-thermal-radiation-mode\|Doctoral Researcher in  Non-gray Thermal Radiation Modelling]] | Aalto University | 2026-08-15 | 0 | uncertain | 6 |
+| [[opp_euraxess-laurance-s-rockefeller-visiting-faculty-fellowship\|Laurance S. Rockefeller Visiting Faculty Fellowship for Academic Year 2027-2028]] | Times Higher Education | 2026-08-15 | 0 | fail | 16 |
+| [[opp_tudelft-phd-position-multi-agent-aerial-manipulation-for-con\|Phd Position Multi-Agent Aerial Manipulation for Construction]] | TU Delft | 2026-08-15 | 0 | uncertain | 13 |
+| [[opp_tudelft-postdoc-multi-agent-aerial-manipulation-for-construc\|Postdoc Multi-Agent Aerial Manipulation for Construction]] | TU Delft | 2026-08-15 | 0 | uncertain | 12 |
+| [[opp_varbi-postdoc-in-solid-state-batteries-development-of-compos\|Postdoc in solid-state batteries – Development of composite electrolytes]] | KTH Royal Institute of Technology | 2026-08-15 | 0 | uncertain | 3 |
+| [[opp_varbi-postdoc-in-solid-state-batteries-ml-based-battery-esti\|Postdoc in solid-state batteries – ML-Based Battery Estimation & Control]] | KTH Royal Institute of Technology | 2026-08-15 | 0 | uncertain | 9 |
+| [[opp_varbi-postdoc-in-solid-state-batteries-modelling-synthesis-o\|Postdoc in solid-state batteries - Modelling & synthesis of electrolytes]] | KTH Royal Institute of Technology | 2026-08-15 | 0 | uncertain | 3 |
+| [[opp_varbi-postdoc-in-solid-state-batteries-scalable-production-o\|Postdoc in Solid-State Batteries – Scalable Production of Solid Electrolytes]] | KTH Royal Institute of Technology | 2026-08-15 | 0 | uncertain | 2 |
+| [[opp_varbi-researcher-research-software-engineer-in-ai-machine-le\|Researcher/Research software engineer in AI/machine learning]] | KTH Royal Institute of Technology | 2026-08-15 | 0 | uncertain | 14 |
+| [[opp_euraxess-assistant-professor-of-teaching-wu-jieh-yee-school\|Assistant Professor of Teaching, Wu Jieh Yee School of Interdisciplinary Studies]] | Times Higher Education | 2026-08-16 | 1 | fail | 18 |
+| [[opp_tampere-doctoral-researcher-computational-physics\|Doctoral Researcher (Computational Physics)]] | Tampere University | 2026-08-16 | 1 | uncertain | 6 |
+| [[opp_tampere-doctoral-researcher-nanophotonics-and-meta-optics\|Doctoral Researcher (Nanophotonics and Meta-Optics)]] | Tampere University | 2026-08-16 | 1 | uncertain | 9 |
+| [[opp_tampere-postdoctoral-research-fellow-nanophotonics-and-meta\|Postdoctoral Research Fellow (Nanophotonics and Meta-Optics)]] | Tampere University | 2026-08-16 | 1 | uncertain | 6 |
+| [[opp_tudelft-phd-position-for-identification-of-structure-functio\|PhD Position for Identification of Structure-function Relationships in Methanogenic Microbiomes]] | TU Delft | 2026-08-16 | 1 | uncertain | 12 |
+| [[opp_tudelft-phd-position-polaris-materials\|PhD Position POLARIS Materials]] | TU Delft | 2026-08-16 | 1 | uncertain | 12 |
+| [[opp_tudelft-phd-position-to-help-shape-the-future-of-reliable-su\|PhD Position to Help Shape the Future of Reliable, Sustainable Power Electronics]] | TU Delft | 2026-08-16 | 1 | uncertain | 22 |
+| [[opp_tudelft-postdoc-in-regional-geology-of-the-saharan-platform\|Postdoc in Regional Geology of the Saharan Platform]] | TU Delft | 2026-08-16 | 1 | uncertain | 7 |
+| [[opp_tudelft-postdoc-researcher-in-behavioural-modelling-and-urba\|Postdoc Researcher in Behavioural Modelling and Urban Sustainability Transitions]] | TU Delft | 2026-08-16 | 1 | uncertain | 24 |
+| [[opp_varbi-doctoral-student-in-geodetic-surveying-with-gnss\|Doctoral student in geodetic surveying with GNSS]] | KTH Royal Institute of Technology | 2026-08-16 | 1 | uncertain | 12 |
+| [[opp_aalto-doctoral-researcher-in-the-department-of-civil-enginee\|Doctoral researcher in the Department of Civil Engineering]] | Aalto University | 2026-08-17 | 2 | uncertain | 10 |
+| [[opp_aalto-postdoctoral-researcher-in-computational-social-scienc\|Postdoctoral Researcher in Computational Social Science]] | Aalto University | 2026-08-17 | 2 | uncertain | 50 |
+| [[opp_tampere-doctoral-researcher-environmental-chemicals-and-endo\|Doctoral Researcher (Environmental Chemicals and Endometriosis)]] | Tampere University | 2026-08-17 | 2 | uncertain | 6 |
+| [[opp_tampere-msca-doctoral-researcher-printed-supercapacitor\|MSCA Doctoral Researcher (Printed supercapacitor)]] | Tampere University | 2026-08-17 | 2 | uncertain | 7 |
+| [[opp_tudelft-postdoc-transformative-policy-and-law-to-accelerate\|Postdoc Transformative Policy and Law to Accelerate Sustainability Transitions]] | TU Delft | 2026-08-17 | 2 | uncertain | 21 |
+| [[opp_tudelft-postdoc-validating-a-digital-twin-for-evaluating-emi\|Postdoc: Validating a Digital Twin for Evaluating Emission Reduction Strategies for Inland Shipping]] | TU Delft | 2026-08-17 | 2 | uncertain | 24 |
+| [[opp_tudelft-two-phd-positions-in-user-centred-design-of-public-t\|Two PhD positions in User-centred Design of Public Transport]] | TU Delft | 2026-08-17 | 2 | uncertain | 58 |
+| [[opp_varbi-postdoc-in-nuclear-engineering\|Postdoc in Nuclear Engineering]] | KTH Royal Institute of Technology | 2026-08-17 | 2 | uncertain | 2 |
+| [[opp_varbi-postdoctors-in-nuclear-engineering\|Postdoctors in Nuclear Engineering]] | KTH Royal Institute of Technology | 2026-08-17 | 2 | uncertain | 3 |
+| [[opp_varbi-postdoc-in-human-in-the-loop-control-for-medical-robot\|Postdoc in human in the loop control for medical robotics]] | KTH Royal Institute of Technology | 2026-08-19 | 4 | uncertain | 36 |
+| [[opp_tampere-research-assistant\|Research Assistant / M.Sc. thesis worker (Materials Science, Composite materials)]] | Tampere University | 2026-08-20 | 5 | uncertain | 8 |
+| [[opp_varbi-postdoc-in-ai-driven-road-network-performance-predicti\|Postdoc in AI-driven road network performance prediction and maintenance.]] | KTH Royal Institute of Technology | 2026-08-20 | 5 | uncertain | 13 |
+| [[opp_varbi-postdoc-in-ai-native-wireless-networks\|Postdoc in AI-native Wireless Networks]] | KTH Royal Institute of Technology | 2026-08-20 | 5 | uncertain | 9 |
+| [[opp_varbi-postdoc-in-genomics\|Postdoc in genomics]] | KTH Royal Institute of Technology | 2026-08-20 | 5 | uncertain | 3 |
+| [[opp_varbi-postdoc-in-solid-state-batteries-electrochemical-and-c\|Postdoc in solid-state batteries - Electrochemical and chemical characterization]] | KTH Royal Institute of Technology | 2026-08-22 | 7 | uncertain | 7 |
+| [[opp_aalto-innovation-postdoc-artificial-intelligence\|Innovation Postdoc – Artificial Intelligence]] | Aalto University | 2026-08-23 | 8 | uncertain | 26 |
+| [[opp_tudelft-junior-researcher-postdoctoral-researcher-in-offshor\|Junior Researcher / Postdoctoral Researcher in Offshore Geotechnics]] | TU Delft | 2026-08-23 | 8 | uncertain | 14 |
+| [[opp_tudelft-phd-position-co-creating-circular-business-models-an\|PhD position Co-creating circular business models and services for e-bikes and home appliances]] | TU Delft | 2026-08-23 | 8 | uncertain | 44 |
+| [[opp_tudelft-phd-position-effect-of-tramp-elements-in-martensitic\|PhD Position Effect of Tramp Elements in Martensitic Stainless Steels]] | TU Delft | 2026-08-23 | 8 | uncertain | 8 |
+| [[opp_tudelft-postdoc-position-in-adaptive-multimodal-human-techno\|Postdoc Position in Adaptive Multimodal Human-Technology Interaction for Automated Driving]] | TU Delft | 2026-08-23 | 8 | uncertain | 54 |
+| [[opp_varbi-doctoral-students-in-networked-systems-security\|Doctoral students in Networked Systems Security]] | KTH Royal Institute of Technology | 2026-08-23 | 8 | uncertain | 16 |
+| [[opp_varbi-postdoc-in-circular-manufacturing-systems\|Postdoc in Circular Manufacturing Systems]] | KTH Royal Institute of Technology | 2026-08-23 | 8 | uncertain | 15 |
+| [[opp_varbi-postdoc-in-digital-and-sustainable-production-logistic\|Postdoc in Digital and Sustainable Production Logistics]] | KTH Royal Institute of Technology | 2026-08-23 | 8 | uncertain | 22 |
+| [[opp_varbi-postdoc-in-industrial-ecosystems-and-circular-transiti\|Postdoc in Industrial Ecosystems and Circular Transition]] | KTH Royal Institute of Technology | 2026-08-23 | 8 | uncertain | 12 |
+| [[opp_varbi-postdoc-in-innovation-management-for-circular-solution\|Postdoc in Innovation management for circular solutions]] | KTH Royal Institute of Technology | 2026-08-23 | 8 | uncertain | 15 |
+| [[opp_varbi-postdoc-in-machine-elements\|Postdoc in machine elements]] | KTH Royal Institute of Technology | 2026-08-23 | 8 | uncertain | 4 |
+| [[opp_varbi-postdoc-in-transaminase-biocatalysis-for-industrial-ap\|Postdoc in Transaminase Biocatalysis for Industrial Applications]] | KTH Royal Institute of Technology | 2026-08-23 | 8 | uncertain | 4 |
+| [[opp_tudelft-phd-position-in-tunnel-design-for-geological-disposa\|PhD Position in Tunnel Design for Geological Disposal of Radioactive Waste]] | TU Delft | 2026-08-24 | 9 | uncertain | 9 |
+| [[opp_tudelft-phd-position-projection-system-for-te-imaging-in-sca\|PhD Position Projection System for TE Imaging in Scanning Electron Microscope (SEM)]] | TU Delft | 2026-08-24 | 9 | uncertain | 9 |
+| [[opp_tudelft-phd-positions-in-theoretical-chemistry-and-physics-e\|PhD Positions in Theoretical Chemistry and Physics (ERC-Funded)]] | TU Delft | 2026-08-24 | 9 | uncertain | 14 |
+| [[opp_tudelft-postdoc-in-open-quantum-system-dynamics-department-o\|Postdoc in Open Quantum System Dynamics, Department of Quantum Nanosciene, TU Delft (ERC-Funded)]] | TU Delft | 2026-08-24 | 9 | uncertain | 6 |
+| [[opp_tudelft-postdoc-in-physical-and-theoretical-chemistry-depart\|Postdoc in Physical and Theoretical Chemistry, Department of Quantum Nanoscience, TU Delft]] | TU Delft | 2026-08-24 | 9 | uncertain | 5 |
+| [[opp_varbi-postdoc-in-experimental-and-computational-fracture-mec\|Postdoc in Experimental and Computational Fracture Mechanics]] | KTH Royal Institute of Technology | 2026-08-24 | 9 | uncertain | 4 |
+| [[opp_varbi-postdoc-in-microstructure-informed-modelling-of-fractu\|Postdoc in microstructure-informed modelling of fracture mechanics]] | KTH Royal Institute of Technology | 2026-08-24 | 9 | uncertain | 8 |
+| [[opp_varbi-postdoc-in-soundscape-engineering-and-acoustic-metamat\|Postdoc in soundscape engineering and acoustic metamaterials]] | KTH Royal Institute of Technology | 2026-08-24 | 9 | uncertain | 46 |
+| [[opp_varbi-researcher-laboratory-manager-to-the-hultgren-laborato\|Researcher - Laboratory Manager to the Hultgren Laboratory]] | KTH Royal Institute of Technology | 2026-08-24 | 9 | uncertain | 4 |
+| [[opp_tudelft-internal-postdoc-in-safety-assessment-and-strengthen\|Internal: Postdoc in Safety Assessment and Strengthening Technology of Existing Concrete Bridges]] | TU Delft | 2026-08-25 | 10 | uncertain | 8 |
+| [[opp_varbi-postdoc-in-complex-fluid-flows\|Postdoc in complex fluid flows]] | KTH Royal Institute of Technology | 2026-08-25 | 10 | uncertain | 9 |
+| [[opp_tampere-doctoral-researcher-signal-processing\|Doctoral Researcher (Signal Processing)]] | Tampere University | 2026-08-27 | 12 | uncertain | 12 |
+| [[opp_tudelft-postdoc-theoretical-biophysics-sars-cov2\|Postdoc Theoretical Biophysics Sars-Cov2]] | TU Delft | 2026-08-27 | 12 | uncertain | 9 |
+| [[opp_aalto-doctoral-researcher-strategy-and-emotions\|Doctoral Researcher, Strategy and emotions]] | Aalto University | 2026-08-28 | 13 | uncertain | — |
+| [[opp_tudelft-phd-position-sensing-viscosity-with-ultrasound\|PhD Position Sensing Viscosity with Ultrasound]] | TU Delft | 2026-08-28 | 13 | uncertain | 7 |
+| [[opp_varbi-postdoc-in-solid-state-batteries-precision-manufacturi\|Postdoc in solid-state batteries – Precision manufacturing]] | KTH Royal Institute of Technology | 2026-08-28 | 13 | uncertain | 5 |
+| [[opp_varbi-postdoc-in-solid-state-batteries-micromechanical-model\|Postdoc in solid-state batteries - micromechanical modelling of cells]] | KTH Royal Institute of Technology | 2026-08-29 | 14 | uncertain | 5 |
+| [[opp_aalto-doctoral-researcher-in-ai-and-quantum-inspired-optimiz\|Doctoral Researcher in AI and Quantum-Inspired Optimization for Sustainable Energy Systems]] | Aalto University | 2026-08-30 | 15 | uncertain | 9 |
+| [[opp_aalto-research-assistant-master-thesis-worker-in-simulation\|Research Assistant (master thesis worker) in Simulation for Optoelectronics Devices]] | Aalto University | 2026-08-30 | 15 | uncertain | 5 |
+| [[opp_tudelft-phd-position-extended-reality-for-inclusive-automate\|PhD Position eXtended Reality for Inclusive Automated Vehicle Interaction]] | TU Delft | 2026-08-30 | 15 | uncertain | 84 |
+| [[opp_tudelft-phd-position-hydrogen-based-novel-flow-battery-techn\|PhD Position Hydrogen-based Novel Flow Battery Technology]] | TU Delft | 2026-08-30 | 15 | uncertain | 11 |
+| [[opp_tudelft-phd-position-metaoptics-for-space-applications\|PhD Position Metaoptics for Space Applications]] | TU Delft | 2026-08-30 | 15 | uncertain | 17 |
+| [[opp_tudelft-phd-position-simulating-the-airspace-of-the-future-f\|PhD Position Simulating the Airspace of the Future: Fleet & Network Optimization for Future Aircraft]] | TU Delft | 2026-08-30 | 15 | uncertain | 17 |
+| [[opp_tudelft-postdoc-complexes-for-novel-flow-batteries\|Postdoc Complexes for Novel Flow Batteries]] | TU Delft | 2026-08-30 | 15 | uncertain | 10 |
+| [[opp_tudelft-postdoc-in-application-of-extended-reality-for-inclu\|Postdoc in Application of eXtended Reality for Inclusive Automated Vehicle and Road User Interaction]] | TU Delft | 2026-08-30 | 15 | uncertain | 67 |
+| [[opp_tudelft-postdoc-in-atmospheric-chemistry-aerosol-science-and\|Postdoc in Atmospheric Chemistry, Aerosol Science and Air Quality Monitoring]] | TU Delft | 2026-08-30 | 15 | uncertain | 9 |
+| [[opp_aalto-a-doctoral-researcher-phd-student-in-machine-learning\|A Doctoral Researcher (PhD student) in Machine Learning for Electron–Phonon Interactions and Wannier-Based Hamiltonians]] | Aalto University | 2026-08-31 | 16 | uncertain | 7 |
+| [[opp_aalto-doctoral-researcher-in-quantum-computing-and-algorithm\|Doctoral Researcher in quantum computing and algorithms for Life Science applications]] | Aalto University | 2026-08-31 | 16 | uncertain | 6 |
+| [[opp_aalto-doctoral-researcher-in-rock-mechanics-for-underground\|Doctoral Researcher in Rock Mechanics for underground hydrogen storage and risk-based design]] | Aalto University | 2026-08-31 | 16 | uncertain | 12 |
+| [[opp_aalto-doctoral-researcher-in-structural-health-monitoring-an\|Doctoral Researcher in Structural Health Monitoring and Condition Assessment]] | Aalto University | 2026-08-31 | 16 | uncertain | 8 |
+| [[opp_aalto-postdoctoral-researcher-in-quantum-algorithms-and-opti\|Postdoctoral researcher in quantum algorithms and optimization for Life Science applications]] | Aalto University | 2026-08-31 | 16 | uncertain | 5 |
+| [[opp_euraxess-one-or-more-phd-positions-in-using-large-scale-data\|One or more PhD positions in Using Large-Scale Data to Improve Precision Medicine in Psychiatry]] | Aalborg Universitet | 2026-08-31 | 16 | uncertain | 31 |
+| [[opp_tampere-postdoctoral-research-fellow-chip-technologies-12-po\|Postdoctoral Research Fellow (Chip Technologies), 12 positions]] | Tampere University | 2026-08-31 | 16 | uncertain | 8 |
+| [[opp_tudelft-phd-position-advanced-adaptive-optics-for-laser-sate\|PhD Position Advanced Adaptive Optics for Laser Satellite Communications]] | TU Delft | 2026-08-31 | 16 | uncertain | 17 |
+| [[opp_tudelft-phd-position-in-nanomedicine-formulation-engineering\|PhD Position in Nanomedicine Formulation Engineering for Cancer Treatment]] | TU Delft | 2026-08-31 | 16 | uncertain | 20 |
+| [[opp_tudelft-phd-position-modelling-and-optimization-of-processes\|PhD Position Modelling and Optimization of Processes to Recycle Low-grade Biogenic Waste]] | TU Delft | 2026-08-31 | 16 | uncertain | 17 |
+| [[opp_tudelft-phd-position-on-assessing-private-climate-change-ada\|PhD Position on Assessing Private Climate Change Adaptation Effectiveness and Limits]] | TU Delft | 2026-08-31 | 16 | uncertain | 52 |
+| [[opp_tudelft-phd-position-quantum-algorithms-for-numerical-simula\|PhD Position Quantum Algorithms for Numerical Simulation in Aerospace]] | TU Delft | 2026-08-31 | 16 | uncertain | 10 |
+| [[opp_tudelft-phd-position-thermal-runaway-of-batteries\|PhD Position Thermal Runaway of Batteries]] | TU Delft | 2026-08-31 | 16 | uncertain | 14 |
+| [[opp_tudelft-phd-position-wireless-communications-and-non-terrest\|PhD Position Wireless Communications and Non-Terrestrial Networks]] | TU Delft | 2026-08-31 | 16 | uncertain | 10 |
+| [[opp_tudelft-postdoc-integrating-spectroscopic-process-analytical\|Postdoc Integrating Spectroscopic Process Analytical Technology for Fermentation Process]] | TU Delft | 2026-08-31 | 16 | uncertain | 14 |
+| [[opp_tudelft-postdoc-modelling-of-electrochemical-recovery-of-nit\|Postdoc Modelling of Electrochemical Recovery of Nitrogen Vectors from Wastewater]] | TU Delft | 2026-08-31 | 16 | uncertain | 12 |
+| [[opp_varbi-doctoral-student-in-sic-bipolar-devices-for-power-elec\|Doctoral student in SiC bipolar devices for power electronics]] | KTH Royal Institute of Technology | 2026-08-31 | 16 | uncertain | 3 |
+| [[opp_varbi-postdoc-in-ai-based-formally-verified-code-generation\|Postdoc in AI-based formally verified code generation]] | KTH Royal Institute of Technology | 2026-08-31 | 16 | uncertain | 13 |
+| [[opp_varbi-postdoc-in-hardware-design-and-design-automation\|Postdoc in Hardware Design and Design Automation]] | KTH Royal Institute of Technology | 2026-08-31 | 16 | uncertain | 5 |
+| [[opp_aalto-doctoral-researcher-in-transport-studies\|Doctoral Researcher in Transport Studies]] | Aalto University | 2026-09-01 | 17 | uncertain | 51 |
+| [[opp_euraxess-selection-n-1-rtd-in-tenure-track-rtt-ex-art-24-co\|Selection n.1 RTD in tenure track (RTT), ex art.24 co.2 L. 240/2010, reserved ex D.M. 193/2026 to RTD a), GSD 11/PSIC-01 “General psychology, neuropsychology and cognitive neuroscience, psychometrics” SSD PSIC-01/A (M-PSI/01) DISS]] | Italian Ministry of Education, University and Research | 2026-09-01 | 17 | uncertain | 47 |
+| [[opp_euraxess-selection-no-1-rtd-in-tenure-track-rtt-ex-art-24-co\|Selection no. 1 RTD in tenure track (RTT), ex art.24 co.2 L.240/2010, reserved pursuant to the Ministerial Decree. 193/2026 a RTD a), GSD 07/AGRI-07 “Food science and technology” - SSD AGRI-07/A “Food science and technology” (formerly AGR/15) DAFNE]] | Italian Ministry of Education, University and Research | 2026-09-01 | 17 | uncertain | 16 |
+| [[opp_euraxess-une-enseignante-chercheurse-en-genie-civil-et-urbai\|Un·e enseignant·e-chercheur·se en Génie Civil et Urbain]] | INSA Rennes | 2026-09-01 | 17 | uncertain | 21 |
+| [[opp_tudelft-phd-position-broadband-semiconductor-photodetectors\|PhD Position Broadband Semiconductor Photodetectors for Spectropolarimetric Imaging]] | TU Delft | 2026-09-01 | 17 | uncertain | 6 |
+| [[opp_tudelft-phd-position-in-developing-a-digital-health-passport\|PhD Position in Developing a Digital Health Passport for Railway Tracks on Bridges]] | TU Delft | 2026-09-01 | 17 | uncertain | 43 |
+| [[opp_tudelft-phd-position-in-smart-sensing-and-monitoring-of-rail\|PhD Position in Smart Sensing and Monitoring of Railway Embankment]] | TU Delft | 2026-09-01 | 17 | uncertain | 24 |
+| [[opp_tudelft-postdoc-in-tsunami-engineering\|Postdoc in Tsunami Engineering]] | TU Delft | 2026-09-01 | 17 | uncertain | 19 |
+| [[opp_varbi-post-doctoral-position-in-global-detection-techniques\|Post-doctoral position in global detection techniques for radicals in air]] | KTH Royal Institute of Technology | 2026-09-01 | 17 | uncertain | 8 |
+| [[opp_varbi-postdoc-in-electronically-tunable-membranes-for-digita\|Postdoc in electronically tunable membranes for digitalized separation]] | KTH Royal Institute of Technology | 2026-09-01 | 17 | uncertain | 6 |
+| [[opp_varbi-postdoc-in-in-high-performance-computing\|Postdoc in in High-Performance Computing.]] | KTH Royal Institute of Technology | 2026-09-01 | 17 | uncertain | 8 |
+| [[opp_varbi-postdoc-in-postdoc-in-mass-spectrometry-for-detecting\|Postdoc in Postdoc in Mass Spectrometry for detecting oxygenated radicals in air]] | KTH Royal Institute of Technology | 2026-09-01 | 17 | uncertain | 3 |
+| [[opp_tudelft-phd-position-on-effective-chemical-barriers-against\|PhD Position on Effective Chemical Barriers against Rising Damp]] | TU Delft | 2026-09-04 | 20 | uncertain | 14 |
+| [[opp_tudelft-postdoctoral-researcher-position-in-data-driven-desi\|Postdoctoral Researcher Position in Data-Driven Design Evaluation of Urban Transformations]] | TU Delft | 2026-09-04 | 20 | uncertain | 59 |
+| [[opp_tudelft-phd-position-equilibrium-behavior-of-tramp-elements\|PhD Position Equilibrium Behavior of Tramp Elements for Green Steel Production]] | TU Delft | 2026-09-05 | 21 | uncertain | 14 |
+| [[opp_tudelft-phd-position-electrical-engineering-cryo-cmos-circui\|PhD Position Electrical Engineering: Cryo-CMOS Circuit Design for Temperature Sensors in Quantum]] | TU Delft | 2026-09-06 | 22 | uncertain | 5 |
+| [[opp_euraxess-senior-knowledge-exchange-and-enterprise-fellow-kno-2\|Senior Knowledge Exchange and Enterprise Fellow: (Knowledge Mobilisation & Community Connector)]] | Times Higher Education | 2026-09-07 | 23 | uncertain | 24 |
+| [[opp_euraxess-senior-knowledge-exchange-and-enterprise-fellow-kno\|Senior Knowledge Exchange and Enterprise Fellow (Knowledge Mobilisation)]] | Times Higher Education | 2026-09-07 | 23 | uncertain | 24 |
+| [[opp_tampere-research-assistant-ai-agents-in-electromagnetics-res\|Research Assistant (AI agents in electromagnetics research)]] | Tampere University | 2026-09-07 | 23 | uncertain | 16 |
+| [[opp_tudelft-phd-position-in-decoding-the-microbial-nitrogen-cycl\|PhD Position in Decoding the Microbial Nitrogen Cycle for Climate Resilience]] | TU Delft | 2026-09-07 | 23 | uncertain | 11 |
+| [[opp_tudelft-postdoc-fes-shorts-for-gait-rehabilitation-after-str\|Postdoc FES Shorts for Gait Rehabilitation after Stroke]] | TU Delft | 2026-09-07 | 23 | uncertain | 59 |
+| [[opp_tudelft-postdoc-in-tunnel-modelling-for-geological-disposal\|Postdoc in Tunnel Modelling for Geological Disposal of Radioactive Waste]] | TU Delft | 2026-09-07 | 23 | uncertain | 12 |
+| [[opp_tudelft-postdoc-markerless-motion-capture-for-home-monitorin\|Postdoc Markerless Motion Capture for Home Monitoring in Neurological Populations]] | TU Delft | 2026-09-07 | 23 | uncertain | 54 |
+| [[opp_tudelft-phd-position-realising-business-impact-from-construc\|PhD Position Realising Business Impact from Construction Software]] | TU Delft | 2026-09-08 | 24 | uncertain | 28 |
+| [[opp_tudelft-phd-position-biomaterial-sciences-transcutaneous-nee\|PhD Position Biomaterial Sciences Transcutaneous, Needle-Free Vascular Access for Hemodialysis]] | TU Delft | 2026-09-13 | 29 | uncertain | — |
+| [[opp_aalto-postdoctoral-researcher-in-quantum-optomechanics-with\|Postdoctoral Researcher in quantum optomechanics with polaritons]] | Aalto University | 2026-09-15 | 31 | uncertain | 6 |
+| [[opp_tampere-doctoral-researcher-computational-biophysics\|Doctoral Researcher (Computational Biophysics)]] | Tampere University | 2026-09-15 | 31 | uncertain | 5 |
+| [[opp_tampere-postdoctoral-research-fellow-computational-biophysic\|Postdoctoral Research Fellow (Computational Biophysics)]] | Tampere University | 2026-09-15 | 31 | uncertain | 3 |
+| [[opp_tudelft-phd-position-cognitive-guidance-in-xr-to-improve-ind\|PhD Position Cognitive Guidance in XR to Improve Independent Mobility for People with Disabilities]] | TU Delft | 2026-09-15 | 31 | uncertain | 89 |
+| [[opp_tudelft-phd-position-in-theoretical-physics-mechanical-quant\|PhD Position in Theoretical Physics | Mechanical Quantum Sensors for Fundamental Physics]] | TU Delft | 2026-09-15 | 31 | uncertain | 7 |
+| [[opp_tudelft-postdoc-in-theoretical-quantum-physics-quantum-sensi\|Postdoc in Theoretical Quantum Physics | Quantum Sensing and Tests of Fundamental Physics]] | TU Delft | 2026-09-15 | 31 | uncertain | 6 |
+| [[opp_tudelft-postdoc-multi-scale-mechanobiological-cardiac-growth\|Postdoc Multi-Scale Mechanobiological Cardiac Growth and Remodelling]] | TU Delft | 2026-09-15 | 31 | uncertain | 12 |
+| [[opp_tudelft-postdoc-experimental-study-of-ice-formation-process\|Postdoc Experimental Study of Ice Formation Process for Contrails]] | TU Delft | 2026-09-18 | 34 | uncertain | — |
+| [[opp_tudelft-phd-position-molecular-modeling-of-hydrogen-producti\|PhD Position Molecular Modeling of Hydrogen Production Processes]] | TU Delft | 2026-09-20 | 36 | uncertain | 0 |
+| [[opp_euraxess-professor-assoc-prof-assist-prof-state-key-laborato\|Professor/Assoc. Prof./Assist. Prof., State Key Laboratory of Quality Research in Chinese Medicines]] | Times Higher Education | 2026-09-21 | 37 | fail | 14 |
+| [[opp_euraxess-professor-assoc-professor-assist-professor-departme\|Professor/Assoc. Professor/Assist. Professor, Department of Environmental Science and Engineering]] | Times Higher Education | 2026-09-21 | 37 | fail | 16 |
+| [[opp_euraxess-professor-assoc-professor-assistant-professor-lectu\|Professor/Assoc. Professor/Assistant Professor/Lecturer, Institute for Social and Cultural Research]] | Times Higher Education | 2026-09-21 | 37 | fail | 18 |
+| [[opp_euraxess-professor-associate-professor-assistant-professor-d\|Professor/Associate Professor/Assistant Professor, Department of Engineering Science]] | Times Higher Education | 2026-09-21 | 37 | fail | 20 |
+| [[opp_euraxess-professor-associate-professor-assistant-professor-s-2\|Professor/Associate Professor/Assistant Professor, School of Computer Science and Engineering]] | Times Higher Education | 2026-09-21 | 37 | fail | 29 |
+| [[opp_euraxess-professor-associate-professor-assistant-professor-s\|Professor/Associate Professor/Assistant Professor, School of Pharmacy]] | Times Higher Education | 2026-09-21 | 37 | fail | 14 |
+| [[opp_euraxess-researcher-associate-researcher-assistant-researche\|Researcher / Associate Researcher / Assistant Researcher / Postdoctoral Researcher, M.I.S.T.A.]] | Times Higher Education | 2026-09-21 | 37 | fail | 18 |
+| [[opp_tampere-postdoctoral-researcher-orbit-consortium-management\|Postdoctoral Researcher (ORBIT Consortium, Management and Organizations)]] | Tampere University | 2026-09-21 | 37 | uncertain | 12 |
+| [[opp_tudelft-postdoc-predicting-mitigating-liquid-copper-infiltra\|Postdoc Predicting & Mitigating Liquid Copper Infiltration in Steels via Atomistic Simulations]] | TU Delft | 2026-09-21 | 37 | uncertain | — |
+| [[opp_tudelft-phd-position-on-quantum-error-correction-for-photoni\|PhD Position on Quantum Error Correction for Photonics]] | TU Delft | 2026-09-22 | 38 | uncertain | 5 |
+| [[opp_tudelft-postdoc-molecular-dynamics-and-process-simulation-of\|Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage Systems]] | TU Delft | 2026-09-22 | 38 | uncertain | 7 |
+| [[opp_aalto-postdoctoral-researcher-in-the-field-of-superconductin\|Postdoctoral researcher in the field of superconducting quantum circuits]] | Aalto University | 2026-09-30 | 46 | uncertain | 5 |
+| [[opp_tudelft-phd-position-learning-and-control-for-complex-large\|PhD Position Learning and Control for Complex Large-Scale Systems with Applications in Greenhouses]] | TU Delft | 2026-09-30 | 46 | uncertain | 20 |
+| [[opp_aalto-doctoral-researcher-in-simulation-of-variable-speed-el\|Doctoral Researcher in Simulation of Variable Speed Electric Machines with Advanced Magnetic Material]] | Aalto University | 2026-10-01 | 47 | uncertain | 11 |
+| [[opp_euraxess-tenure-track-assistant-professor-associate-professo\|Tenure-Track Assistant Professor / Associate Professor in International Relations]] | Times Higher Education | 2026-10-01 | 47 | fail | 16 |
+| [[opp_varbi-postdoc-in-nuclear-fuel-materials\|Postdoc in Nuclear Fuel Materials]] | KTH Royal Institute of Technology | 2026-10-01 | 47 | uncertain | 4 |
+| [[opp_aalto-visiting-researcher-in-aalto-university-school-of-arts\|Visiting Researcher in Aalto University School of Arts, Design and Architecture (unfunded position)]] | Aalto University | 2027-12-30 | 502 | uncertain | 49 |
 
 ## Needs manual review
 
-- [[opp_aalto-postdoctoral-researcher-in-2d-material-nanocomposites]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
-- [[opp_euraxess-selection-procedure-1-rtt-full-time-subordinate-emp]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
-- [[opp_tampere-doctoral-researcher-in-railway-engineering-dsii]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
-- [[opp_varbi-doctoral-student-licentiate-in-digital-twins-for-elect]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
-- [[opp_varbi-postdoc-in-development-anaerobic-process-for-bioplasti]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
-- [[opp_varbi-postdoc-in-large-language-model-inferencing]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_aalto-doctoral-researcher-in-non-gray-thermal-radiation-mode]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-phd-position-multi-agent-aerial-manipulation-for-con]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-multi-agent-aerial-manipulation-for-construc]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-solid-state-batteries-development-of-compos]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
-- [[opp_varbi-postdoc-in-solid-state-batteries-micromechanical-model]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-solid-state-batteries-ml-based-battery-esti]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-solid-state-batteries-modelling-synthesis-o]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-solid-state-batteries-scalable-production-o]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -271,7 +268,6 @@ _Generated 2026-08-14 — run `python -m compass export` to refresh._
 - [[opp_tudelft-two-phd-positions-in-user-centred-design-of-public-t]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-nuclear-engineering]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoctors-in-nuclear-engineering]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
-- [[opp_varbi-postdoc-in-in-high-performance-computing]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-human-in-the-loop-control-for-medical-robot]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tampere-research-assistant]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-ai-driven-road-network-performance-predicti]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -303,8 +299,10 @@ _Generated 2026-08-14 — run `python -m compass export` to refresh._
 - [[opp_varbi-postdoc-in-complex-fluid-flows]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tampere-doctoral-researcher-signal-processing]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-theoretical-biophysics-sars-cov2]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- [[opp_aalto-doctoral-researcher-strategy-and-emotions]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-phd-position-sensing-viscosity-with-ultrasound]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-solid-state-batteries-precision-manufacturi]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- [[opp_varbi-postdoc-in-solid-state-batteries-micromechanical-model]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_aalto-doctoral-researcher-in-ai-and-quantum-inspired-optimiz]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_aalto-research-assistant-master-thesis-worker-in-simulation]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-phd-position-extended-reality-for-inclusive-automate]] — posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -343,6 +341,7 @@ _Generated 2026-08-14 — run `python -m compass export` to refresh._
 - [[opp_tudelft-postdoc-in-tsunami-engineering]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-post-doctoral-position-in-global-detection-techniques]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-electronically-tunable-membranes-for-digita]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- [[opp_varbi-postdoc-in-in-high-performance-computing]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-postdoc-in-mass-spectrometry-for-detecting]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-phd-position-on-effective-chemical-barriers-against]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoctoral-researcher-position-in-data-driven-desi]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -356,6 +355,7 @@ _Generated 2026-08-14 — run `python -m compass export` to refresh._
 - [[opp_tudelft-postdoc-in-tunnel-modelling-for-geological-disposal]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-markerless-motion-capture-for-home-monitorin]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-phd-position-realising-business-impact-from-construc]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- [[opp_tudelft-phd-position-biomaterial-sciences-transcutaneous-nee]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_aalto-postdoctoral-researcher-in-quantum-optomechanics-with]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tampere-doctoral-researcher-computational-biophysics]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tampere-postdoctoral-research-fellow-computational-biophysic]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -363,8 +363,10 @@ _Generated 2026-08-14 — run `python -m compass export` to refresh._
 - [[opp_tudelft-phd-position-in-theoretical-physics-mechanical-quant]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-in-theoretical-quantum-physics-quantum-sensi]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-multi-scale-mechanobiological-cardiac-growth]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- [[opp_tudelft-postdoc-experimental-study-of-ice-formation-process]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-phd-position-molecular-modeling-of-hydrogen-producti]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tampere-postdoctoral-researcher-orbit-consortium-management]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- [[opp_tudelft-postdoc-predicting-mitigating-liquid-copper-infiltra]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-phd-position-on-quantum-error-correction-for-photoni]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-molecular-dynamics-and-process-simulation-of]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_aalto-postdoctoral-researcher-in-the-field-of-superconductin]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source

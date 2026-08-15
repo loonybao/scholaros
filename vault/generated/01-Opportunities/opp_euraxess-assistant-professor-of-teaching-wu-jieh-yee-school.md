@@ -24,7 +24,7 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **fail** (days to deadline: 2)
+Gate: **fail** (days to deadline: 1)
 
 - country 'Hong Kong' is outside allowed regions ['Europe']
 

@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-in-high-performance-computing
 type: opportunity
 title: "Postdoc in in High-Performance Computing."
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-18
+deadline: 2026-09-01
 status: open
 eligibility_gate: uncertain
 fit_overall: 8
-urgency: urgent
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in in High-Performance Computing.
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-18
+**Deadline:** 2026-09-01
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 4)
+Gate: **uncertain** (days to deadline: 17)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -104,7 +104,7 @@ Niclas Jansson, njansson@kth.se
 Published
 08.Jul.2026
 Last application date
-18.Aug.2026
+01.Sep.2026
 Login and apply
 Share links
 Return to job vacancies

@@ -1,0 +1,126 @@
+---
+id: opp_tudelft-postdoc-predicting-mitigating-liquid-copper-infiltra
+type: opportunity
+title: "Postdoc Predicting & Mitigating Liquid Copper Infiltration in Steels via Atomistic Simulations"
+organisation: "TU Delft"
+deadline: 2026-09-21
+status: open
+eligibility_gate: uncertain
+fit_overall: not-analyzed
+urgency: medium
+needs_review: true
+---
+
+# Postdoc Predicting & Mitigating Liquid Copper Infiltration in Steels via Atomistic Simulations
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-09-21
+**Location:** Delft, Netherlands
+**Position type:** postdoc
+**Salary:** €3706 - €5760 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-Predicting-&-Mitigating-Liquid-Copper-Infiltration-in-Steels-via-Atomistic-Simulations-2628-CD/1369515657/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 37)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Join TU Delft and help enable liquid copper infiltration-resistant steels for a circular economy. As a postdoctoral researcher, you will unravel how silicon suppresses liquid copper infiltration at the atomic scale, using density functional theory-accurate machine-learned potentials and molecular dynamics simulations, in close collaboration with leading European research institutes and steel industry partners.
+Job description
+At TU Delft, you will contribute to a transformative research initiative focused on sustainable steel production. This project addresses a critical and growing challenge in metallurgy which is the liquid copper infiltration (LCI) in copper-contaminated steels leading to cracking during steel processing. While LCI is a known issue in conventional steel recycling, it becomes especially critical in the context of green steel production, where increased reliance on recycled scrap and electric arc furnace (EAF)-based routes promotes copper accumulation in steel, creating conditions that favour subsequent copper-induced embrittlement.
+Team Dey
+within the
+Computational Materials Science
+section at TU Delft is actively engaged in developing fundamental understanding for next-generation circular steelmaking. Using advanced atomistic modelling techniques, you will unravel the atomic-scale competition between copper and silicon at grain boundaries and oxide interfaces, delivering atomistic insights directly relevant to improving the recyclability and processability of both conventional and green steels. Where experimental work within the project focuses on process development and validation, this position addresses the underlying governing atomistic mechanisms.
+Within this position, you will employ molecular dynamics (MD) simulations to investigate the underlying atomistic mechanisms of LCI in steel grain boundaries and the inhibitory role of silicon. Your MD-based approach will elucidate how silicon disrupts copper wetting and diffusion. A central aspect of this project is the development of a Density Functional Theory (DFT)-accurate machine-learned interatomic potential (MLIP) for the multi-component steel system of interest. Ultimately, this simulation-driven framework will allow reliable identification of
+the
+new thresholds for copper content and the corresponding optimum silicon concentrations, thereby supporting the development of more robust recyclable steels.
+Your responsibilities
+In this role, you will develop fundamental insights into the atomistic mechanisms governing LCI at steel grain boundaries and the inhibitory role of silicon in copper-contaminated steels. As a postdoctoral researcher, you will:
+Perform molecular dynamics (MD) simulations to obtain atomic-scale insights into copper segregation, wetting and embrittlement at grain boundaries in steels
+Develop a Density Functional Theory (DFT)-accurate machine-learned interatomic potential (MLIP), enabling predictive MD simulations capable of resolving atomic-scale LCI mechanisms with near-DFT accuracy
+Investigate how silicon suppresses LCI, including its effects on grain boundary site competition and the formation of copper-silicon intermetallic phases
+Collaborate closely with researchers within
+department MSE
+as well as with the project partners including Leibniz-Institut Für Werkstofforientierte Technologien (IWT), Thyssenkrupp Steel Europe AG, Oulun Yliopisto and Ovako Sweden AB, to connect modelling insights with process development and alloy design
+Contribute to scientific publications, conference presentations and the development of new research proposals in the field of in the field of sustainable and circular steelmaking
+Your work environment
+You will be part of
+Team Dey
+within the
+Computational Materials Science
+section at TU Delft. This team focuses on atomistic simulations to investigate materials for sustainable energy, with proven expertise in hydrogen embrittlement, hydrogen storage and the behaviour of carbon-based materials such as graphene. Your project on the atomistic mechanisms of liquid copper infiltration (LCI) in steels and the inhibitory role of silicon aligns with the team's broader interest in metal–impurity interactions, interfacial phenomena and its commitment to computation-guided design for green and circular steel production.
+You will collaborate closely with researchers from the broader research programme, including experimental teams and key partners such as Leibniz-Institut Für Werkstofforientierte Technologien (IWT), Oulun Yliopisto, Thyssenkrupp Steel Europe AG and Ovako Sweden AB.
+The
+Computational Materials Science
+section offers a collaborative and intellectually stimulating environment, where researchers work across disciplines and scales, with ample opportunities for scientific development and impact.
+Job requirements
+We are looking for a self-motivated researcher to help develop atomistic insights and simulation tools for enabling LCI-resistant steels. You are independent but also a good team player and are willing to cooperate closely with other researchers and our industry partners.
+Furthermore, you meet the following requirements:
+You hold a PhD degree in Materials Science and Engineering, Physics, Chemistry, or a closely related discipline.
+You have a strong expertise in atomistic and molecular simulation techniques (density functional theory, molecular dynamics, ab initio molecular dynamics) and in developing machine learning interatomic potentials and can apply these to uncover atomistic mechanisms relevant to LCI mitigation, such as copper–silicon competition at grain boundaries, copper trapping by the formation of intermetallic phases, etc.
+You have a strong track record in scientific research, as evident from publications in peer-reviewed international journals and conference participation.
+You have excellent written and verbal communication skills in English.
+Join this unique programme, where you can apply your technical knowledge to collaborate with leading European research institutes and steel industries. Imagine enabling the safe use of recycled scrap in green steel production and improving the circularity of steel. You can help make an impact on a more sustainable future.
+TU Delft (Delft University of Technology)
+Working at TU Delft means contributing to solutions that really make a difference.
+For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.
+These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
+At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.
+Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
+Faculty Mechanical Engineering
+From chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.
+ME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.
+Click
+here
+to go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These
+videos
+will introduce you to some of our researchers and their work.
+Conditions of employment
+Duration of contract is 3 years. Temporary.
+A job of 36-40 hours per week.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+An excellent pension scheme via the ABP.
+The possibility to compile an individual employment package every year.
+Discount with health insurers on supplemental packages.
+Flexible working week.
+Every year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.
+Plenty of opportunities for education, training and courses.
+Partially paid parental leave
+Attention for working healthy and energetically with the vitality program.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.  .
+Additional information
+For more information about this vacancy, please contact Poulumi Dey via
+p.dey@tudelft.nl
+.
+The expected start date is December 2026 (but can be earlier, depending on the candidate availability and immigration procedures); contract duration is 3 years. You will receive an update on the outcome of your application in the week of 28th September. The first interviews are scheduled for the week of 5th October, followed by a second interview round in the week of 12th October.
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+21 September 2026
+via the application button and upload the following documents:
+A cover letter in which you describe your motivation and specific qualifications for this position (max 1 page)
+Your CV
+Abstract of your PhD thesis
+Copies of two journal/conference publications (if applicable)
+You can address your application to Poulumi Dey.
+Please note:
+You can apply online. We will not process applications sent by email and/or post.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_Not analyzed yet._
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-predicting-mitigating-liquid-copper-infiltra.md` and link [[opp_tudelft-postdoc-predicting-mitigating-liquid-copper-infiltra]]._

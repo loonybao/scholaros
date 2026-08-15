@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-solid-state-batteries-micromechanical-model
 type: opportunity
 title: "Postdoc in solid-state batteries - micromechanical modelling of cells"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-15
+deadline: 2026-08-29
 status: open
 eligibility_gate: uncertain
 fit_overall: 5
-urgency: urgent
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in solid-state batteries - micromechanical modelling of cells
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-15
+**Deadline:** 2026-08-29
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 1)
+Gate: **uncertain** (days to deadline: 14)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -103,7 +103,7 @@ Malin Åkermo, akermo@kth.se
 Published
 08.Jul.2026
 Last application date
-15.Aug.2026
+29.Aug.2026
 Login and apply
 Share links
 Return to job vacancies
