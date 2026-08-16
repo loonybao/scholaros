@@ -7,7 +7,7 @@ deadline: 2026-08-15
 status: open
 eligibility_gate: fail
 fit_overall: 16
-urgency: urgent
+urgency: none
 needs_review: false
 ---
 
@@ -24,9 +24,9 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **fail** (days to deadline: 0)
+Gate: **fail** (days to deadline: -1)
 
-- country 'United States' is outside allowed regions ['Europe']
+- application deadline has passed
 
 ## Description
 
