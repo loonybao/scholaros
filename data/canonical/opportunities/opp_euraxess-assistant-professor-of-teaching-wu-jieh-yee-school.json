@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-19T01:41:32.010172Z",
-  "updated_at": "2026-08-16T07:02:14.479823Z",
+  "updated_at": "2026-08-17T07:19:14.162164Z",
   "change_history": [
     {
       "ts": "2026-07-19T01:41:32.010172Z",
@@ -273,6 +273,16 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-17T07:19:14.162164Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -360,11 +370,11 @@
   "derived": {
     "eligibility_gate": "fail",
     "eligibility_reasons": [
-      "country 'Hong Kong' is outside allowed regions ['Europe']"
+      "application deadline has passed"
     ],
     "fit_overall": 18,
-    "urgency": "urgent",
-    "days_to_deadline": 0,
+    "urgency": "none",
+    "days_to_deadline": -1,
     "needs_review": false,
     "timing_assessment": "timing_unknown"
   },

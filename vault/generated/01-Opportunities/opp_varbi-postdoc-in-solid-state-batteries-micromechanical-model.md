@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-08-29
 status: open
 eligibility_gate: uncertain
-fit_overall: 5
+fit_overall: 11
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 13)
+Gate: **uncertain** (days to deadline: 12)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -110,26 +110,31 @@ Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.91_
 
-2-year postdoctoral position in computational micromechanics of solid-state battery cells at KTH's Division of Material and Structural Mechanics. Research focuses on finite-element modelling of particle-scale mechanics, interface mechanics, contact stability, and fracture in solid electrolytes under electrochemical cycling.
+Two-year postdoctoral position at KTH Royal Institute of Technology (Stockholm, Sweden) in the Department of Engineering Mechanics developing a micromechanical modelling framework for solid-state lithium battery cells. Role links mechanical state to electrochemical performance through particle-scale simulation, experimental validation, and mechanical characterization.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 3 |
+| Thematic fit | 2 |
+| Methodological fit | 18 |
 | Growth value | 2 |
-| Strategic value | 15 |
-| **Overall** | **5** |
+| Strategic value | 22 |
+| **Overall** | **11** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python, cpp, finite-element-modelling, multiphysics-simulation, materials-characterization
+**Missing skills:** python
 
 **Risks:**
-- Core research domain (materials mechanics, electrochemistry, FEM) is entirely outside researcher's expertise and excluded career directions (pure ML algorithms, control systems adjacent to battery management).
-- No pathway back to human-centred XR/HCI research—a 2-year postdoc here would signal a career pivot away from target identity.
-- Supervisor network and group culture would be materials-science-focused, not HCI.
+- Eligibility barrier: position nominally requires PhD; researcher has MSc in progress. Strict reading would exclude the researcher.
+- Severe technical mismatch. Researcher would compete against mechanical engineers, materials scientists, or applied physicists with PhD-level training in finite element methods, solid mechanics, and materials simulation.
+- No background in solid mechanics, finite element analysis, multiphysics modelling, phase-field fracture, or battery science.
+- Python listed as 'beginner' with no project experience. Role likely requires advanced scientific computing in Python, C++, or Fortran.
+- Two-year postdoc in battery mechanics delays re-entry into human-centred XR research.
+- Supervisory team expertise is in engineering mechanics and materials—no HCI, interaction design, or user-centred research competence.
+- Potential security clearance requirement could complicate employment.
+- High risk of underperformance relative to peer postdocs with strong backgrounds in computational mechanics or materials engineering.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-solid-state-batteries-micromechanical-model.md` and link [[opp_varbi-postdoc-in-solid-state-batteries-micromechanical-model]]._

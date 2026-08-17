@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-09-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 8
+fit_overall: 15
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 16)
+Gate: **uncertain** (days to deadline: 15)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -111,29 +111,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-KTH postdoc in HPC software science focused on algorithmic innovation, mixed-precision methods, and data-centric optimization for flagship codes (GROMACS, Neko, VeloxChem) targeting post-exascale heterogeneous architectures and energy efficiency.
+Postdoctoral HPC software scientist position at KTH Center for Scientific Computing, focused on algorithmic optimization and mixed-precision techniques for three flagship scientific codes (GROMACS, Neko, VeloxChem) targeting next-generation heterogeneous hardware architectures.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 8 |
-| Growth value | 5 |
-| Strategic value | 15 |
-| **Overall** | **8** |
+| Thematic fit | 8 |
+| Methodological fit | 20 |
+| Growth value | 10 |
+| Strategic value | 25 |
+| **Overall** | **15** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** cpp
 
 **Risks:**
-- Disciplinary mismatch: HPC scientific computing ≠ HCI or immersive systems.
-- No background in performance modelling, heterogeneous computing, or scientific simulation.
-- Python is beginner-level; role requires strong systems programming and optimization expertise.
-- Meets exclusion criterion (GPU optimization focus).
-- Complete departure from target identity; researcher would become an HPC engineer, not a human-centred XR researcher.
-- Potential visa/clearance ambiguity flagged in posting.
+- Domain exclusion: pure HPC optimization and mixed-precision algorithm work fall outside immersive systems and human-centred research—researcher's excluded directions.
+- Credential timing: MSc not yet completed; position targets recent PhDs.
+- Severe skill transfer friction: game-engine C# expertise does not bridge to HPC C/Fortran development workflows, performance profiling, or computational science ecosystems.
+- Security clearance ambiguity: posting references Protective Security Act and potential clearance requirements; researcher's status as foreign postdoc candidate may add procedural complexity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-in-high-performance-computing.md` and link [[opp_varbi-postdoc-in-in-high-performance-computing]]._

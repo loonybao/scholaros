@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-18
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 33)
+Gate: **uncertain** (days to deadline: 32)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -94,7 +94,26 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Postdoctoral position in experimental aeronautics focusing on contrail ice nucleation pathways through laboratory studies. The role investigates how different engine exhaust conditions affect ice formation in aviation-induced clouds, with the goal of validating microphysics models for climate impact assessment.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 5 |
+| Strategic value | 10 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cpp
+
+**Risks:**
+- Fundamental disciplinary mismatch: position sits squarely in excluded direction 'pure physics/climate science applied to engineering problems', outside HCI/XR entirely.
+- Significant credential gap: MSc in multimedia/creative computing does not qualify for physics-focused postdoc expectation.
+- No transferable methodological pathway: transitioning from human-centred XR user studies to microphysics lab experiments represents a restart, not progression.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-experimental-study-of-ice-formation-process.md` and link [[opp_tudelft-postdoc-experimental-study-of-ice-formation-process]]._

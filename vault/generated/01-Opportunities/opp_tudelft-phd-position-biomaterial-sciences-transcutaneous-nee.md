@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-13
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 5
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 28)
+Gate: **uncertain** (days to deadline: 27)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -94,7 +94,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Four-year PhD position at TU Delft in biomaterial sciences developing a needle-free transcutaneous vascular access device for hemodialysis. The role integrates biomaterials design, medical device development, and clinical translation in collaboration with Leiden University Medical Center.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 8 |
+| Growth value | 3 |
+| Strategic value | 5 |
+| **Overall** | **5** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Severe domain mismatch. Researcher would be entering a field with no preparation, competing against candidates with biomedical engineering or materials science backgrounds.
+- No domain expertise, no publications, no project experience in biomaterials, medical devices, or vascular physiology.
+- Four-year commitment to a field orthogonal to stated career identity represents significant risk of career misalignment and lost momentum in HCI/XR.
+- Supervisor expectations for biomedical expertise would not be met by an XR-trained researcher.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-biomaterial-sciences-transcutaneous-nee.md` and link [[opp_tudelft-phd-position-biomaterial-sciences-transcutaneous-nee]]._

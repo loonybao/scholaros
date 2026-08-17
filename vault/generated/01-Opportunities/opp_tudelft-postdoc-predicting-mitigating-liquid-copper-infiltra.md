@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-21
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 3
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 36)
+Gate: **uncertain** (days to deadline: 35)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -120,7 +120,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+
+Three-year postdoctoral position at TU Delft in the Faculty of Mechanical Engineering (Computational Materials Science section) using molecular dynamics and machine-learned potentials to investigate liquid copper infiltration in steels and the inhibitory role of silicon. Role focuses on atomistic modelling, algorithm development, and industrial collaboration.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 1 |
+| Strategic value | 4 |
+| **Overall** | **3** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
+
+**Risks:**
+- Severe technical mismatch. Researcher would be competing against materials scientists, physicists, or chemists with PhD-level training in atomistic simulation.
+- No background in molecular dynamics, DFT, machine learning for interatomic potentials, or materials science fundamentals.
+- Python listed as 'beginner' with no substantial project experience; this role requires advanced scientific computing in Python and likely other languages (Fortran, C++).
+- Three-year commitment to computational materials science delays re-entry into human-centred XR research.
+- Supervisor and team expertise is in materials engineering and industrial steelmaking—no HCI, user-centred design, or immersive systems competence.
+- High likelihood of underperformance relative to peer postdocs with materials science PhDs, given the specialized technical requirements.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-predicting-mitigating-liquid-copper-infiltra.md` and link [[opp_tudelft-postdoc-predicting-mitigating-liquid-copper-infiltra]]._

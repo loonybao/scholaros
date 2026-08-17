@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-15T06:47:56.298055Z",
-  "updated_at": "2026-08-16T07:02:14.608307Z",
+  "updated_at": "2026-08-17T07:19:14.291956Z",
   "change_history": [
     {
       "ts": "2026-08-15T06:47:56.298174Z",
@@ -29,6 +29,45 @@
       "actor": "rules",
       "fields_changed": [
         "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-17T07:18:15.235785Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-17T07:19:14.291956Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -67,15 +106,72 @@
     "status": "open",
     "description_text": "Join TU Delft and help enable liquid copper infiltration-resistant steels for a circular economy. As a postdoctoral researcher, you will unravel how silicon suppresses liquid copper infiltration at the atomic scale, using density functional theory-accurate machine-learned potentials and molecular dynamics simulations, in close collaboration with leading European research institutes and steel industry partners.\nJob description\nAt TU Delft, you will contribute to a transformative research initiative focused on sustainable steel production. This project addresses a critical and growing challenge in metallurgy which is the liquid copper infiltration (LCI) in copper-contaminated steels leading to cracking during steel processing. While LCI is a known issue in conventional steel recycling, it becomes especially critical in the context of green steel production, where increased reliance on recycled scrap and electric arc furnace (EAF)-based routes promotes copper accumulation in steel, creating conditions that favour subsequent copper-induced embrittlement.\nTeam Dey\nwithin the\nComputational Materials Science\nsection at TU Delft is actively engaged in developing fundamental understanding for next-generation circular steelmaking. Using advanced atomistic modelling techniques, you will unravel the atomic-scale competition between copper and silicon at grain boundaries and oxide interfaces, delivering atomistic insights directly relevant to improving the recyclability and processability of both conventional and green steels. Where experimental work within the project focuses on process development and validation, this position addresses the underlying governing atomistic mechanisms.\nWithin this position, you will employ molecular dynamics (MD) simulations to investigate the underlying atomistic mechanisms of LCI in steel grain boundaries and the inhibitory role of silicon. Your MD-based approach will elucidate how silicon disrupts copper wetting and diffusion. A central aspect of this project is the development of a Density Functional Theory (DFT)-accurate machine-learned interatomic potential (MLIP) for the multi-component steel system of interest. Ultimately, this simulation-driven framework will allow reliable identification of\nthe\nnew thresholds for copper content and the corresponding optimum silicon concentrations, thereby supporting the development of more robust recyclable steels.\nYour responsibilities\nIn this role, you will develop fundamental insights into the atomistic mechanisms governing LCI at steel grain boundaries and the inhibitory role of silicon in copper-contaminated steels. As a postdoctoral researcher, you will:\nPerform molecular dynamics (MD) simulations to obtain atomic-scale insights into copper segregation, wetting and embrittlement at grain boundaries in steels\nDevelop a Density Functional Theory (DFT)-accurate machine-learned interatomic potential (MLIP), enabling predictive MD simulations capable of resolving atomic-scale LCI mechanisms with near-DFT accuracy\nInvestigate how silicon suppresses LCI, including its effects on grain boundary site competition and the formation of copper-silicon intermetallic phases\nCollaborate closely with researchers within\ndepartment MSE\nas well as with the project partners including Leibniz-Institut Für Werkstofforientierte Technologien (IWT), Thyssenkrupp Steel Europe AG, Oulun Yliopisto and Ovako Sweden AB, to connect modelling insights with process development and alloy design\nContribute to scientific publications, conference presentations and the development of new research proposals in the field of in the field of sustainable and circular steelmaking\nYour work environment\nYou will be part of\nTeam Dey\nwithin the\nComputational Materials Science\nsection at TU Delft. This team focuses on atomistic simulations to investigate materials for sustainable energy, with proven expertise in hydrogen embrittlement, hydrogen storage and the behaviour of carbon-based materials such as graphene. Your project on the atomistic mechanisms of liquid copper infiltration (LCI) in steels and the inhibitory role of silicon aligns with the team's broader interest in metal–impurity interactions, interfacial phenomena and its commitment to computation-guided design for green and circular steel production.\nYou will collaborate closely with researchers from the broader research programme, including experimental teams and key partners such as Leibniz-Institut Für Werkstofforientierte Technologien (IWT), Oulun Yliopisto, Thyssenkrupp Steel Europe AG and Ovako Sweden AB.\nThe\nComputational Materials Science\nsection offers a collaborative and intellectually stimulating environment, where researchers work across disciplines and scales, with ample opportunities for scientific development and impact.\nJob requirements\nWe are looking for a self-motivated researcher to help develop atomistic insights and simulation tools for enabling LCI-resistant steels. You are independent but also a good team player and are willing to cooperate closely with other researchers and our industry partners.\nFurthermore, you meet the following requirements:\nYou hold a PhD degree in Materials Science and Engineering, Physics, Chemistry, or a closely related discipline.\nYou have a strong expertise in atomistic and molecular simulation techniques (density functional theory, molecular dynamics, ab initio molecular dynamics) and in developing machine learning interatomic potentials and can apply these to uncover atomistic mechanisms relevant to LCI mitigation, such as copper–silicon competition at grain boundaries, copper trapping by the formation of intermetallic phases, etc.\nYou have a strong track record in scientific research, as evident from publications in peer-reviewed international journals and conference participation.\nYou have excellent written and verbal communication skills in English.\nJoin this unique programme, where you can apply your technical knowledge to collaborate with leading European research institutes and steel industries. Imagine enabling the safe use of recycled scrap in green steel production and improving the circularity of steel. You can help make an impact on a more sustainable future.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 3 years. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Poulumi Dey via\np.dey@tudelft.nl\n.\nThe expected start date is December 2026 (but can be earlier, depending on the candidate availability and immigration procedures); contract duration is 3 years. You will receive an update on the outcome of your application in the week of 28th September. The first interviews are scheduled for the week of 5th October, followed by a second interview round in the week of 12th October.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n21 September 2026\nvia the application button and upload the following documents:\nA cover letter in which you describe your motivation and specific qualifications for this position (max 1 page)\nYour CV\nAbstract of your PhD thesis\nCopies of two journal/conference publications (if applicable)\nYou can address your application to Poulumi Dey.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Three-year postdoctoral position at TU Delft in the Faculty of Mechanical Engineering (Computational Materials Science section) using molecular dynamics and machine-learned potentials to investigate liquid copper infiltration in steels and the inhibitory role of silicon. Role focuses on atomistic modelling, algorithm development, and industrial collaboration.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "This is computational materials science and atomistic simulation research focused on steel metallurgy and green circular steelmaking. Researcher's core domains are human-centred XR, immersive learning, spatial cognition, and wayfinding. No thematic bridge exists. The posting contains no mention of human-centred design, interaction, learning, user experience, or any HCI dimension."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "The position requires computational modelling, simulation, and data analysis—broad methodological categories where the researcher has some competence. However, the specific technical toolkit differs completely: molecular dynamics, density functional theory, machine-learned interatomic potentials, and grain-boundary physics are specialized computational materials science methods. Researcher's computational experience is limited to game engine development (Unity/C#) and basic statistics; no scientific computing, MD simulation, or DFT background is evident."
+    },
+    "growth_value": {
+      "score": 1,
+      "rationale": "Virtually no growth value toward stated target identity. A three-year postdoc in atomistic materials simulation would build expertise in computational materials science, not in human-centred XR, spatial cognition, or immersive systems. This represents a fundamental career pivot away from the researcher's stated direction."
+    },
+    "strategic_value": {
+      "score": 4,
+      "rationale": "TU Delft is a target institution, but this position is in the Faculty of Mechanical Engineering's materials science group, not in interactive systems or HCI research. The supervisor (Poulumi Dey) works on computational metallurgy for sustainable steelmaking—orthogonal to human-centred immersive systems. Postdoc experience in atomistic modelling does not advance the researcher's trajectory toward doctoral or research roles in HCI/XR."
+    },
+    "required_skills": [
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires PhD in Materials Science and Engineering, Physics, Chemistry, or closely related field. Researcher holds MSc in Creative Multimedia—a substantial disciplinary gap with no formal training in materials science, physics, or chemistry.",
+      "Posting emphasizes 'strong expertise in atomistic and molecular simulation techniques (DFT, MD, ab initio MD)' and developing machine-learned potentials. Researcher has no background in any of these methods or in computational physics.",
+      "Requires 'strong track record in scientific research, as evident from publications in peer-reviewed international journals.' Researcher has one first-author journal article in HCI/XR; no publications in materials science or computational physics.",
+      "Position expects immediate research productivity in a specialized technical domain; researcher would need substantial training in DFT, MD frameworks, and materials simulation tools."
+    ],
+    "risks": [
+      "Severe technical mismatch. Researcher would be competing against materials scientists, physicists, or chemists with PhD-level training in atomistic simulation.",
+      "No background in molecular dynamics, DFT, machine learning for interatomic potentials, or materials science fundamentals.",
+      "Python listed as 'beginner' with no substantial project experience; this role requires advanced scientific computing in Python and likely other languages (Fortran, C++).",
+      "Three-year commitment to computational materials science delays re-entry into human-centred XR research.",
+      "Supervisor and team expertise is in materials engineering and industrial steelmaking—no HCI, user-centred design, or immersive systems competence.",
+      "High likelihood of underperformance relative to peer postdocs with materials science PhDs, given the specialized technical requirements."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.94,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-17T07:18:15.235352Z",
+    "analysis_input_hash": "e6e0421343f21f21e5467cf3c6cb0816cfdb367738fc50d1794259eaa788f14d"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 3,
     "urgency": "medium",
-    "days_to_deadline": 36,
+    "days_to_deadline": 35,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

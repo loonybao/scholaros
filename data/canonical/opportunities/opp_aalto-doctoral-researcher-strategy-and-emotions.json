@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-15T06:41:44.866407Z",
-  "updated_at": "2026-08-16T07:02:14.465273Z",
+  "updated_at": "2026-08-17T07:19:14.147521Z",
   "change_history": [
     {
       "ts": "2026-08-15T06:41:44.866529Z",
@@ -29,6 +29,45 @@
       "actor": "rules",
       "fields_changed": [
         "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-17T07:18:15.233259Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-17T07:19:14.147521Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -67,16 +106,71 @@
     "status": "open",
     "description_text": "At Aalto University, science and art meet technology and business. We build a sustainable future by achieving breakthroughs in our key areas and at their intersections. At the same time, we inspire the change-makers of the future and create solutions to the world’s grand challenges. Our university community comprises 16,000 students, 446 professors, and over 5,000 employees representing more than 120 nationalities. Our campus is located in Otaniemi, Espoo. Diversity is part of who we are, and we work continuously to ensure diversity and non-discrimination in our community. We therefore encourage qualified applicants from all backgrounds to join us.\nDoctoral Researcher position in research on strategy and emotions\nWe are looking for an ambitious researcher to join a research project examining the role of emotions in strategic decision-making, strategy work, and strategy implementation.\nThe research group operates at the Department of Industrial Engineering and Management. The position is full-time and based in Finland. The project involves field research in both Finnish and international companies.\nStudents of Industrial Engineering and Management (IEM) are particularly well suited for the role. Studies in IEM and an understanding of corporate strategy, management, and operations are considered an asset.\nYou might be a great fit if you\nare genuinely interested in the relationship between strategy and emotions\nhave strong qualitative research skills or motivation to develop them\nenjoy demanding intellectual discussion and constructive critique\naim to publish in leading international journals in management and organization studies\nwant to work closely in a research group committed to collaboration\nwork independently, proactively, and with perseverance.\nWe require excellent command of English, strong communication skills, and the ability to work both independently and as part of a research team. Proficiency in Finnish is an advantage but not a requirement.\nThe Doctoral Researcher position\nThe position is particularly suitable for IEM students in the final stage of their studies as well as recent graduates.\nYour Master’s thesis does not need to be completed at the time of application. However, you must have a clear and credible plan for finishing the thesis and graduating. In your application, please describe the current status of your thesis, remaining work, and your planned graduation timetable.\nApplicants must hold a relevant higher university degree or be able to complete the degree before starting the position. The degree may be, for example, in Industrial Engineering and Management, strategy, organization studies, management, or another relevant field.\nPrevious publication experience is not required for the Doctoral Researcher position. Key selection criteria include research potential, analytical thinking, academic ambition, study performance, and the ability to carry out demanding research work over the long term.\nSalary is determined according to the Finnish university salary system. The starting salary for Doctoral Researchers is 3263,32 EUR/month.\nThe preferred starting date is as soon as possible during 2026. The initial contract period is two years, with a mandatory mid-term evaluation during the second year. Upon a successful evaluation, the contract will be extended for a second two-year period.\nLevel of research ambition\nThe project’s academic ambition is very high. Our aim is to produce internationally excellent and genuinely novel research and to publish it in the field’s leading journals.\nThis requires full commitment to research, patience, and sustained effort. Research inevitably involves uncertainty, critical feedback, rejections, and the need to develop the work through multiple rounds. Acceptance rates at leading journals are often below five percent.\nThe research topics are closely connected to prior work on strategy and emotions. The goal is not merely to apply existing research but to significantly advance our understanding of the emotional dynamics of strategy. The research should push the frontier beyond what has already been published, for example, in Administrative Science Quarterly, Academy of Management Journal, Strategic Management Journal, and other leading journals.\nApplicants are encouraged to familiarize themselves with this body of literature before preparing their application.\nWhat we value in applicants\nWe particularly value a proactive approach. A strong application shows that the applicant is familiar with prior research and is able to present well-founded ideas, for example, on\nwhat current research does not yet explain\nhow existing theories or research designs could be developed\nwhat new research questions could be formed in the domain\nhow the applicant’s expertise could strengthen the research project.\nApplicants are expected to be able to independently identify the core prior literature.\nEvidence of academic excellence is also important. For Doctoral Researcher applicants, such evidence may include, for example, excellent study performance, a demanding Master’s thesis or strong indications based on a thesis in progress, experience as a research assistant, a conference presentation, an award, or other proof of research potential.\nHow to apply and required application materials\nApply by submitting your application through our recruitment system (“Apply now!” link) no later than\n28 August 2026\n. Applications sent by email will not be accepted. We encourage early submission, as candidates may be invited to interviews during the application period and the position may be filled before the deadline. Please note that the position may remain unfilled if a suitable candidate is not found.\nIf you are an Aalto employee, please apply with your employee profile via the Workday system (internal jobs). If you are an Aalto student or visitor, please apply with your personal email address (not aalto.fi) via the external Open positions page.\nAll materials must be submitted as PDF files, up to five (5) files with a maximum size of 5 MB each.\nPlease attach:\nMotivation letter describing your interest in the position and the research topic, and explaining why you would be a good fit for the project.\nCurriculum vitae.\nOfficial transcript of records.\nA preliminary research idea or research plan (1–2 pages) demonstrating your familiarity with research on strategy and emotions and presenting ideas for developing the research.\nIf your Master’s thesis is still in progress, briefly describe its topic, current status, remaining work, and a realistic completion schedule in your application.\nFor more information about the position, please contact Professor Timo Vuori,\ntimo.vuori@aalto.fi\n. For questions related to the application process, please contact HR Partner Hanna Koli at\nhanna.koli@aalto.fi\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Doctoral researcher position at Aalto University's Department of Industrial Engineering and Management examining emotions in strategic decision-making and strategy implementation through field research in Finnish and international companies. The role targets IEM students and recent graduates with qualitative research interests and ambitions to publish in top management journals.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The position is fundamentally rooted in organizational management, strategic decision-making, and emotions in corporate contexts. The researcher's domain expertise centers on human-centred XR, immersive learning systems, spatial cognition, and wayfinding—domains orthogonal to strategy and organizational behavior. No thematic bridge exists between XR orientation systems and corporate strategy research."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Both roles require qualitative research skills and field studies, which the researcher demonstrates. However, the researcher's primary methodological strength is user studies in immersive environments with quantitative measures (task performance, wayfinding metrics). Strategy research demands deep organizational ethnography, interview analysis, and grounded theory in a corporate context—a different qualitative tradition. The researcher has no organizational behavior or management methodology background."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "This position would require a radical methodological pivot away from immersive systems and spatial cognition. While qualitative research skills could transfer, the researcher would be starting nearly from zero in organizational theory, strategy literature, and management research design. This represents sideways career movement, not capability building toward the stated target identity of human-centred XR/HCI."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "Aalto is a strong institution, but the Department of Industrial Engineering and Management is misaligned with the researcher's target institutions (Aalto's media lab or HCI groups would be relevant; this is not). Publishing in top management journals (ASQ, AMJ, SMJ) does not advance a human-centred XR researcher's trajectory. This is a prestigious but orthogonal career path."
+    },
+    "required_skills": [
+      "qualitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "qualitative-research",
+      "academic-writing"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher's MSc is in progress (thesis stage). Position requires 'clear and credible plan for finishing the thesis and graduating' and degree must be completed before starting. Timing feasibility unclear without graduation date.",
+      "Position explicitly targets IEM students and recent graduates with background in strategy/management/organization studies. Researcher's MSc is in Creative Multimedia with XR focus—a significant disciplinary mismatch."
+    ],
+    "risks": [
+      "Domain pivot is too severe. The researcher has invested in XR/HCI expertise; redirecting to organizational strategy would dilute rather than strengthen their PhD candidacy in their target field.",
+      "No demonstrated interest in organizational behavior, management theory, or corporate strategy in research summary or publications.",
+      "Posting explicitly values IEM study background and strategy/management foundations; researcher's background offers neither.",
+      "High-ambition research environment (target journals <5% acceptance) with unfamiliar literature and methods increases risk of mismatch and underperformance."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-17T07:18:15.232703Z",
+    "analysis_input_hash": "529693fe7c5172b040fdbc9b6a9ae4fb2e3a13631a497681877bdf80ed51e767"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 10,
     "urgency": "high",
-    "days_to_deadline": 12,
+    "days_to_deadline": 11,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

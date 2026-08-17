@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-08-28
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 10
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 12)
+Gate: **uncertain** (days to deadline: 11)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -95,7 +95,27 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Doctoral researcher position at Aalto University's Department of Industrial Engineering and Management examining emotions in strategic decision-making and strategy implementation through field research in Finnish and international companies. The role targets IEM students and recent graduates with qualitative research interests and ambitions to publish in top management journals.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 8 |
+| Strategic value | 10 |
+| **Overall** | **10** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Domain pivot is too severe. The researcher has invested in XR/HCI expertise; redirecting to organizational strategy would dilute rather than strengthen their PhD candidacy in their target field.
+- No demonstrated interest in organizational behavior, management theory, or corporate strategy in research summary or publications.
+- Posting explicitly values IEM study background and strategy/management foundations; researcher's background offers neither.
+- High-ambition research environment (target journals <5% acceptance) with unfamiliar literature and methods increases risk of mismatch and underperformance.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-strategy-and-emotions.md` and link [[opp_aalto-doctoral-researcher-strategy-and-emotions]]._

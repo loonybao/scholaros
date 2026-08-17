@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:12:38.377107Z",
-  "updated_at": "2026-08-16T07:02:14.646039Z",
+  "updated_at": "2026-08-17T07:19:14.329796Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:12:38.377107Z",
@@ -276,6 +276,34 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-17T07:19:14.023590Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-17T07:19:14.329796Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -313,45 +341,49 @@
     "description_text": "Postdoc in in High-Performance Computing.\nLogin and apply\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nAre you a highly motivated researcher with a passion for HPC and a drive to solve complex scientific challenges? Do you thrive in an R&D environment where your ideas and the software you write directly impact cutting-edge research?\nWe are seeking  postdocs as an HPC software scientist at the scientific software unit at KTH Center for Scientific Computing (KCSC). The position is funded by SSF within the SEESSI initiative, which aims to ready Sweden’s flagship codes in molecular dynamics, computational fluid dynamics, and quantum chemistry for next-generation hardware.\nYou will join a project team of HPC software scientists at KCSC collaborating closely with and driving real-world impact across three of Sweden’s flagship HPC codes: GROMACS (one of the world's most widely used molecular dynamics packages), Neko (a highly scalable CFD framework nominated for the ACM Gordon Bell prize in 2023), and VeloxChem (a versatile open-source quantum chemistry software).\nAs a postdoctoral researcher, your primary focus will be to pioneer innovative, technology-aware algorithmic techniques targeting these codes. Our aim goes beyond raw performance tuning; we use a multi-disciplinary approach to redesign key algorithms for modern HPC architectures while establishing energy efficiency as a critical design metric.\nKey research objectives include:\nMixed-precision algorithms:\nDesigning and implementing mixed-precision formulations for key domain-specific kernels to leverage low-precision hardware without compromising simulation fidelity.\nData-centric optimization:\nDesigning and implementing communication schemes and data access strategies targeting post-exascale systems, e.g., using GPU-centric communication techniques.\nCollaboration & impact:\nWe actively encourage you to publish your research in high-profile international venues, providing the opportunity to contribute directly to upstream flagship codebases and reach a global user base.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nFamiliarity with performance modeling, analysis and optimization for heterogeneous architectures.\nExperience with developing code for: molecular dynamics, computational fluid dynamics, or quantum chemistry.\nExperience working with large-scale scientific software projects and collaboration.\nAwareness of diversity and equal opportunity issues, with a focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n3\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2614\nContact\nNiclas Jansson, njansson@kth.se\nPublished\n08.Jul.2026\nLast application date\n01.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "KTH postdoc in HPC software science focused on algorithmic innovation, mixed-precision methods, and data-centric optimization for flagship codes (GROMACS, Neko, VeloxChem) targeting post-exascale heterogeneous architectures and energy efficiency.",
+    "summary": "Postdoctoral HPC software scientist position at KTH Center for Scientific Computing, focused on algorithmic optimization and mixed-precision techniques for three flagship scientific codes (GROMACS, Neko, VeloxChem) targeting next-generation heterogeneous hardware architectures.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "Core focus is computational performance, algorithm optimization, and hardware-aware computing for scientific simulations (molecular dynamics, CFD, quantum chemistry). No HCI, immersive systems, spatial cognition, learning, or user evaluation. Pure high-performance computing engineering. Meets exclusion criterion: GPU optimization and pure ML-adjacent algorithm development."
+      "score": 8,
+      "rationale": "No thematic overlap with the researcher's core interests. This is pure computational science infrastructure work—HPC algorithm design, performance optimization, and low-level code tuning. The researcher's domain is human-centred immersive systems, spatial learning design, and collaborative interaction. XR/HCI does not appear in this posting."
     },
     "methodological_fit": {
-      "score": 8,
-      "rationale": "Requires expertise in performance modelling, heterogeneous architectures, domain-specific scientific computing (MD, CFD, quantum chemistry), and large-scale software engineering. Researcher has game engine development and multiplayer networking, which are not scientific computing domains. Beginner-level Python insufficient for this role."
+      "score": 20,
+      "rationale": "Weak methodological connection. Both involve system evaluation and optimization, but at fundamentally different layers. The researcher conducts human-centred experimental studies with user outcomes (spatial learning, wayfinding transfer). This position requires performance profiling, hardware-aware algorithm design, and computational science expertise. The researcher's intermediate Python skill and absence of experience with performance modelling, heterogeneous architectures, or large scientific codebases creates a substantial gap."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "Learning HPC optimization would not close capability gaps aligned with target identity (eye-tracking, physiological sensing, statistics for spatial cognition). Conversely, this role would require abandoning immersive systems research entirely."
+      "score": 10,
+      "rationale": "This direction represents explicit excluded territory: 'pure-machine-learning-algorithms' and GPU-optimization at the infrastructure level. Development would concentrate on low-level performance tuning and computational kernels—far from the researcher's target trajectory in human-centred XR and spatial cognition research."
     },
     "strategic_value": {
-      "score": 15,
-      "rationale": "KTH and Stockholm are institutionally/geographically acceptable. KCSC (Center for Scientific Computing) is well-respected for HPC. However, research community is scientific computing and computational science, not HCI or immersive systems. No pathway to Aalto, TU Delft, or target European research groups in human-centred XR."
+      "score": 25,
+      "rationale": "KTH is located in Sweden (preferred geography). However, this specific research unit and project are misaligned with the researcher's target identity. While KCSC and the flagship codes carry prestige in computational science, they operate in excluded domains. Supervisor/group quality in HPC does not translate to HCI research advancement."
     },
     "required_skills": [
-      "python"
+      "python",
+      "statistics",
+      "cpp"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
       "python"
     ],
-    "missing_skills": [],
+    "missing_skills": [
+      "cpp"
+    ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Researcher holds MSc by Research (in progress); position requires completed PhD by employment decision. Posting states 'Preferred qualifications: A doctoral degree...obtained within the last three years'; researcher will need to meet this timing if selected.",
-      "No mention of explicit disciplinary requirement, but 'experience developing code for molecular dynamics, CFD, or quantum chemistry' is preferred. Creative Multimedia MSc does not provide this."
+      "Researcher's Python skill is listed as 'beginner' with no substantial project experience. Position expects applied HPC development in C/Fortran and Python for performance-critical work.",
+      "Requires 'familiarity with performance modelling, analysis and optimization for heterogeneous architectures.' Researcher has no demonstrated experience in this domain.",
+      "Requires experience with 'large-scale scientific software projects and collaboration' in molecular dynamics, CFD, or quantum chemistry. Researcher's software background is limited to game-engine development (Unity/C#) and XR systems.",
+      "Position explicitly targets 'doctoral degree or equivalent foreign degree obtained within the last three years.' Researcher's MSc is in-progress (thesis stage), not yet completed."
     ],
     "risks": [
-      "Disciplinary mismatch: HPC scientific computing ≠ HCI or immersive systems.",
-      "No background in performance modelling, heterogeneous computing, or scientific simulation.",
-      "Python is beginner-level; role requires strong systems programming and optimization expertise.",
-      "Meets exclusion criterion (GPU optimization focus).",
-      "Complete departure from target identity; researcher would become an HPC engineer, not a human-centred XR researcher.",
-      "Potential visa/clearance ambiguity flagged in posting."
+      "Domain exclusion: pure HPC optimization and mixed-precision algorithm work fall outside immersive systems and human-centred research—researcher's excluded directions.",
+      "Credential timing: MSc not yet completed; position targets recent PhDs.",
+      "Severe skill transfer friction: game-engine C# expertise does not bridge to HPC C/Fortran development workflows, performance profiling, or computational science ecosystems.",
+      "Security clearance ambiguity: posting references Protective Security Act and potential clearance requirements; researcher's status as foreign postdoc candidate may add procedural complexity."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -359,14 +391,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.95,
+    "confidence": 0.92,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-21T07:43:13.277831Z",
-    "analysis_input_hash": "95b24f16e7299b01801369dec983d325efa0f5a4ec52cefd7d0108b3e734adef"
+    "analyzed_at": "2026-08-17T07:19:14.023015Z",
+    "analysis_input_hash": "888e824f98043ce18d39e8924d9b6e940546d52b1a409cccc773de0cdbf9e38c"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -375,9 +407,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 8,
+    "fit_overall": 15,
     "urgency": "high",
-    "days_to_deadline": 16,
+    "days_to_deadline": 15,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
