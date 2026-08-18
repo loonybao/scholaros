@@ -3,10 +3,10 @@ id: opp_tampere-postdoctoral-researcher-orbit-consortium-management
 type: opportunity
 title: "Postdoctoral Researcher (ORBIT Consortium, Management and Organizations)"
 organisation: "Tampere University"
-deadline: 2026-09-21
+deadline: 2026-09-27
 status: open
 eligibility_gate: uncertain
-fit_overall: 12
+fit_overall: 21
 urgency: medium
 needs_review: true
 ---
@@ -14,7 +14,7 @@ needs_review: true
 # Postdoctoral Researcher (ORBIT Consortium, Management and Organizations)
 
 **Organisation:** [[org_tampere_university]] (Tampere University)
-**Deadline:** 2026-09-21 (23:59 local time)
+**Deadline:** 2026-09-27 (23:59 local time)
 **Location:** Tampere, Finland
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 35)
+Gate: **uncertain** (days to deadline: 40)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -75,7 +75,7 @@ https://www.visitfinland.com/
 https://infofinland.fi/en/home
 How to apply
 Please submit your application through Tampere University’s electronic recruitment system (link below this announcement). The closing date for applications is
-21.09.2026 at 23:59 at Finnish time / UTC+3.
+27.09.2026 at 23:59 at Finnish time / UTC+3.
 Please write your application and all accompanying documentation in English and attach them in PDF format.
 Please attach the following documents to your application:
 a cover letter that describes why you would be a good fit for the ORBIT Consortium, including your motivation to apply for the position and relevant qualifications (max. 2 pages)
@@ -103,31 +103,31 @@ professori Elina I. Mäkinen
 .
 Hakuohjeet
 Lue tarkemmat tiedot ja hakuohjeet yllä olevalta englanninkieliseltä ilmoitukselta ja jätä hakemuksesi sähköisellä hakulomakkeella
-21.09.2026 mennessä.
+27.09.2026 mennessä.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.85_
 
-Postdoctoral researcher position in organizational studies within the ORBIT consortium, examining how Nordic energy sector organizations adopt AI responsibly across regulatory, organizational, and professional dimensions. Work combines qualitative fieldwork (interviews, observations, document analysis) across four Nordic transmission system operators with comparative analysis and stakeholder engagement.
+3-year postdoctoral position in organization studies and qualitative research within a Nordic consortium examining how organizations implement and regulate AI responsibly. Focus on fieldwork across Nordic transmission system operators (energy sector) using ethnographic and interview methods.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 15 |
-| Growth value | 10 |
-| Strategic value | 20 |
-| **Overall** | **12** |
+| Thematic fit | 8 |
+| Methodological fit | 35 |
+| Growth value | 12 |
+| Strategic value | 25 |
+| **Overall** | **21** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** ethnographic-fieldwork, comparative-organizational-analysis, regulatory-policy-analysis
+**Missing skills:** mixed-methods
 
 **Risks:**
-- Fundamental domain mismatch: energy sector organizational AI governance has no intersection with candidate's research identity or target directions.
-- Career pivot risk: accepting would signal exit from immersive systems and HCI research, potentially damaging future candidacy for doctoral positions in priority institutions (Aalto, TU Delft) where immersive systems and human-centred XR are active research areas.
-- Degree timing risk: candidate's MSc is not yet completed. Thesis stage timeline unclear; eligibility depends on conferment before 21 September 2026.
-- Post-postdoc pathway unclear: three-year postdoctoral role in organizational studies offers limited bridge to target doctoral research in spatial cognition and immersive learning.
+- Career stage mismatch: this is a postdoc role; researcher is finishing MSc and would not meet eligibility criteria for several years
+- Disciplinary pivot: organization studies and AI governance are adjacent to but distinct from human-centred XR research; expertise built here may not transfer effectively to immersive systems research
+- Supervision fit: Mäkinen's expertise is organizational behaviour and management; no overlap with HCI, immersive systems, or spatial learning research
+- Opportunity cost: spending 3 years on organizational AI governance would delay advancement toward human-centred XR position types (doctoral researcher, phd-candidate, research assistant with phd pathway)
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-postdoctoral-researcher-orbit-consortium-management.md` and link [[opp_tampere-postdoctoral-researcher-orbit-consortium-management]]._

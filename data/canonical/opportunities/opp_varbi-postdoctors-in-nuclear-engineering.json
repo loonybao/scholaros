@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:16:27.156273Z",
-  "updated_at": "2026-08-17T07:19:14.348483Z",
+  "updated_at": "2026-08-18T07:09:25.048302Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:16:27.156273Z",
@@ -298,6 +298,48 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-18T07:02:42.413514Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-08-18T07:09:24.701466Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-18T07:09:25.048302Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -311,10 +353,10 @@
     "evidence_ids": [
       "varbi/kth-950511"
     ],
-    "retrieved_at": "2026-07-21T01:16:27.156273Z",
-    "raw_snapshot_hash": "be70b7bd346f762b2d5dea6a29fac221b91c1adc5d16497d5ff504f2f583482b",
-    "extracted_content_hash": "e1c463db53f6ca47f746b4f52e7ae60ecc521f51b54e23ed9c062241a43ad6b0",
-    "deadline": "2026-08-17",
+    "retrieved_at": "2026-08-18T07:02:42.412918Z",
+    "raw_snapshot_hash": "fbbecf017b0db730e321f04f059fd039572b62c7a45f3ba85dd38868758218d7",
+    "extracted_content_hash": "f257c20b19a81b978cc3b478a112cdc26ebfb11391321bb888e33f7b9e2ee5ff",
+    "deadline": "2026-09-04",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -332,51 +374,56 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Postdoctors in Nuclear Engineering\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences\nJob description\nWe are looking for postdoctoral fellows to contribute to several projects related to thermohydraulics and safety of small modular reactors (SMRs). The work will include analysis in support of design and development of large-scale experimental facilities to be constructed and operated at KTH and Oskarshamn. Different facilities will be designed to address important thermohydraulic phenomena relevant to both water and liquid lead cooled SMRs. The work will be a part of national projects supported by Swedish Energy Agency and has strong links with collaborative projects in Europe.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nDoctoral degree in nuclear engineering, experimental and analytical thermohydraulics, fluid mechanics.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nKnowledge and experience of experimental and analytical investigation of thermohydraulic phenomena of importance for safety of water and lead cooled nuclear reactors.\nGood communication and collaborative skills, capability to work in a team and independently.\nMotivation and dedication to research work is a very strong merit.\nTeaching experience is an advantage.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nLetters of support, if at hand, or contact details for 2-3 reference persons.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOthers\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2483\nContact\nPavel Kudinov, pkudinov@kth.se\nJens H Bardarson, bardarson@kth.se\nPublished\n25.Jun.2026\nLast application date\n17.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+    "description_text": "Postdoctors in Nuclear Engineering\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences\nJob description\nWe are looking for postdoctoral fellows to contribute to several projects related to thermohydraulics and safety of small modular reactors (SMRs). The work will include analysis in support of design and development of large-scale experimental facilities to be constructed and operated at KTH and Oskarshamn. Different facilities will be designed to address important thermohydraulic phenomena relevant to both water and liquid lead cooled SMRs. The work will be a part of national projects supported by Swedish Energy Agency and has strong links with collaborative projects in Europe.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nDoctoral degree in nuclear engineering, experimental and analytical thermohydraulics, fluid mechanics.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nKnowledge and experience of experimental and analytical investigation of thermohydraulic phenomena of importance for safety of water and lead cooled nuclear reactors.\nGood communication and collaborative skills, capability to work in a team and independently.\nMotivation and dedication to research work is a very strong merit.\nTeaching experience is an advantage.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nLetters of support, if at hand, or contact details for 2-3 reference persons.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOthers\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2483\nContact\nPavel Kudinov, pkudinov@kth.se\nJens H Bardarson, bardarson@kth.se\nPublished\n25.Jun.2026\nLast application date\n04.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "Postdoctoral position in thermohydraulics and safety of small modular reactors (SMRs) at KTH, involving experimental and analytical analysis of thermal-hydraulic phenomena for water and liquid-lead cooled reactor designs.",
+    "summary": "Postdoctoral positions at KTH for multiple fellows contributing to thermohydraulic analysis and experimental facility design for small modular reactors (water and liquid lead cooled), supported by Swedish and European nuclear research initiatives.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 0,
-      "rationale": "Nuclear engineering thermohydraulics has no connection to human-centred XR, collaborative immersive systems, spatial learning, or any HCI theme."
+      "score": 5,
+      "rationale": "Position is experimental and analytical nuclear engineering centred on thermohydraulic phenomena and reactor safety. Researcher's domains (immersive learning systems, spatial cognition, collaborative XR, wayfinding, gamification, user studies) have zero thematic overlap. This is pure engineering research with no human-centred, HCI, or learning science component."
     },
     "methodological_fit": {
-      "score": 5,
-      "rationale": "Both domains involve experimental work, but researcher's experimental design targets human behaviour and learning outcomes via XR interfaces. Position targets physical/thermal phenomena via experimental facilities. Minimal methodological overlap."
+      "score": 12,
+      "rationale": "Researcher has intermediate experimental design and quantitative research skills applicable to any empirical work. However, the experimental context requires deep domain expertise in nuclear physics, fluid mechanics, and reactor engineering—not design science, HCI, or user-centred evaluation. Methods diverge fundamentally."
     },
     "growth_value": {
-      "score": 0,
-      "rationale": "Position offers no advancement in immersive systems, human-centred design, user evaluation, or spatial cognition research. Entirely orthogonal domain."
+      "score": 5,
+      "rationale": "Position addresses thermohydraulic and reactor design challenges, which are unrelated to the researcher's target capability gaps (spatial learning transfer, collaborative immersive interaction, real-world integration of XR). No growth value toward doctoral HCI research."
     },
     "strategic_value": {
-      "score": 10,
-      "rationale": "KTH in Stockholm meets geographic preference. However, no pathway to HCI or immersive systems research. Funded by Swedish Energy Agency and European projects, but misaligned with target research identity."
+      "score": 30,
+      "rationale": "KTH is well-funded and prestigious. However, the nuclear engineering group sits outside the researcher's target HCI/immersive systems communities. Limited utility for establishing connections at Aalto, TU Delft, or other European HCI/XR research groups. Career path diverges from target identity."
     },
     "required_skills": [
-      "experimental-design"
+      "experimental-design",
+      "quantitative-research"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "experimental-design"
+      "experimental-design",
+      "quantitative-research"
     ],
     "missing_skills": [
-      "nuclear engineering",
-      "thermohydraulics",
-      "fluid mechanics",
-      "reactor physics"
+      "cpp",
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires PhD in nuclear engineering, thermohydraulics, or fluid mechanics; researcher holds MSc in multimedia/XR",
-      "Preference for PhD obtained within last 3 years; researcher's timeline unclear"
+      "Researcher holds MSc by Research (in progress, thesis stage); position requires completed doctoral degree by employment decision. Not yet eligible.",
+      "Position may require security clearance under Swedish Protective Security Act; nationality not stated in profile."
     ],
     "risks": [
-      "Complete domain mismatch. Researcher has no background in nuclear engineering or thermal sciences.",
-      "Career risk: pursuing this would move researcher away from stated HCI/XR identity.",
-      "No technical skills transfer from Unity/C#/multiplayer systems to nuclear safety analysis.",
-      "Collaboration emphasis is with European research groups in energy/nuclear, not HCI or immersive systems."
+      "Fundamental domain divergence: nuclear thermohydraulics ≠ human-centred XR/HCI.",
+      "Accepting would delay PhD entry and redirect career away from immersive systems research.",
+      "No user research, design evaluation, or learning science involvement.",
+      "Research group (nuclear engineering) disconnected from target HCI institutions and communities.",
+      "Researcher not yet PhD-eligible; positions are postdoctoral.",
+      "Security clearance requirement may introduce barriers.",
+      "Multiple positions offered; does not indicate structured doctoral pathway."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -384,14 +431,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.98,
+    "confidence": 0.95,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-21T07:47:05.963687Z",
-    "analysis_input_hash": "224557eb0d69b4c717f6458d7207ae5cf5ad2b20bf1a7a8e38738b5ec811fead"
+    "analyzed_at": "2026-08-18T07:09:24.700933Z",
+    "analysis_input_hash": "b82ea0c72eb1e9f084da71a9d4c828dc7c1f82f1fe44d259e635354760a2cfba"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -400,9 +447,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 3,
-    "urgency": "urgent",
-    "days_to_deadline": 0,
+    "fit_overall": 11,
+    "urgency": "high",
+    "days_to_deadline": 17,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

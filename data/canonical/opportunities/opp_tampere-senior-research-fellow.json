@@ -1,0 +1,169 @@
+{
+  "id": "opp_tampere-senior-research-fellow",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-18T06:48:10.997428Z",
+  "updated_at": "2026-08-18T07:09:24.898409Z",
+  "change_history": [
+    {
+      "ts": "2026-08-18T06:48:10.997552Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-18T07:06:18.087996Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-18T07:09:24.898409Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Senior Research Fellow",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3137",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3137",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3137#login_form",
+    "evidence_ids": [
+      "tampere/3137"
+    ],
+    "retrieved_at": "2026-08-18T06:48:10.997264Z",
+    "raw_snapshot_hash": "2378261750e0f0be844ec59e2cc9d221a5fb77a4120314984af46539ef0efb2d",
+    "extracted_content_hash": "47b07a1147b216b8bf02d86e04f2a14ca18e9fda899ca365aa267a72995d2aca",
+    "deadline": "2026-09-11",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-17",
+    "position_type": "other",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational, and high-impact research and education. Our universities community has its competitive edges in technology, health, and society.\nwww.tuni.fi/en\nThe Faculty of Social Sciences\nat Tampere University invites applications for a fixed-term\nSenior Research Fellow position in literary studies and/or philosophy of literature for a two-year period starting in January 2027\n(or as agreed).\nThe position is open within the\nCentre of Excellence in Meliorist Philosophy of Suffering\n(MePhiS), funded by the Research Council of Finland, and its research team\nSuffering and Meliorism in Literature and the Philosophy of Literature\n. Among the five research teams of MePhiS, four are hosted by the Faculty of Theology at the University of Helsinki, while the team\nSuffering and Meliorism in Literature and the Philosophy of Literature\nis hosted by the Faculty of Social Sciences at Tampere University. The Centre offers a supportive and inspiring research environment and excellent opportunities for researchers to develop their careers in an international and interdisciplinary setting. More information about MePhiS is available at:\nwww.helsinki.fi/mephis\n.\nMePhiS engages in philosophical and interdisciplinary scholarship that places the concept of suffering at the centre of philosophical reflection and offers conceptual and argumentative tools for a deeper understanding of human engagement with affliction, starting from the meliorist (Lat.\nmelior\n, better) idea that the world can and should be made better through active human efforts. According to meliorism, a positive outcome is neither guaranteed (optimism) nor impossible (pessimism).\nThe research group on\nSuffering and Meliorism in Literature and the Philosophy of Literature\nwithin MePhiS focuses on literary studies and the philosophy of literature as pathways to a meliorist philosophy of suffering. We take seriously the idea that literature can articulate philosophical questions and shape people’s\nways of\nexperiencing\n,\nexpressing, and coping with suffering. The group critically examines writers and literary traditions associated with optimism, pessimism, and/or meliorism, and analyses literary works that reflect societal anxieties as well as human or non-human suffering arising from war, violence, poverty, marginalisation, the climate crisis, and related challenges. We also investigate how philosophers draw on literature in developing ethical responses to suffering.\nPosition\nTowards these ends, we invite applications for a\nSenior Research Fellow with a background in literary studies and/or philosophy of literature\nwith demonstrated interest in advancing research in these fields.\nThe Senior Research Fellow will be responsible for\ninvestigating representations of suffering and meliorism in literary and philosophical contexts;\ndeveloping literary and philosophical analyses of ethical responses to suffering;\nauthoring scholarly publications on the research topic;\ncollaborating with other members of the Centre of Excellence, including through joint publications and other research activities; and\ncontributing to teaching and administrative duties, amounting to approximately 5-10% of the working time.\nQualifications\nWe seek candidates with expertise in literary studies and/or philosophy of literature who are interested in advancing the research aims described above. Applicants must hold a doctoral degree in a relevant field within the humanities or social sciences (e.g., literary studies, philosophy) and have a demonstrated track record of high-quality research and international publications. A Senior Research Fellow typically has at least ca\n.\nfive years of postdoctoral experience. In addition, applicants should possess the ability to lead a research group, a track record of securing external research funding, and the teaching skills required to successfully perform the duties and responsibilities of the position.\nFamiliarity with the topics of suffering, optimism, pessimism, or meliorism in literature and philosophy, as well as experience in combining literary studies with philosophical inquiry, will be considered an advantage.\nThe selected candidate should be capable of conducting independent research at a high international level and able to work both independently and collaboratively as a member of the research team. The working language of MePhiS is English, and excellent written and oral communication skills in English are required.\nApplicants should be prepared to provide proof of their qualifications upon request. Please do not submit AI-generated proposals.\nWe offer\nThe position is fixed-term for two years starting in January 2027 or as agreed. A six-month trial period applies to all new employees at Tampere University.\nThe salary will be based on\nthe University Salary System\n. The salary of a Senior Research Fellow is at levels 6-7. In addition to the basic salary, a performance-based salary component is paid according to the appointee’s qualifications and experience. The starting salary (level 6) is approximately EUR 4,700-4,900 per month.\nThe appointee is expected to reside in Finland while employed by Tampere University. Tampere University is an internationally renowned research university offering a wide range of staff benefits, including occupational health care, flexible working hours, and excellent campus sports facilities. Please read more about\nworking at Tampere University\n. International staff are supported in relocating to Finland.\nFor more information about Tampere, please see\nVisitTampere\n. For further information about Finland, please visit\nInfoFinland\nand\nThis is Finland\n.\nHow to apply\nApplications must be submitted in English through Tampere University’s electronic recruitment system (link below). The closing date for applications is\n11 September 2026 (at 23:59\n/\nUTC+3\n). Online interviews with shortlisted candidates will be held on 24 and 25 September 2026.\nThe following documents must be attached to your application:\n1)\nCV\n(max. 3 pages, including the contact details of two referees) according to\nTENK guidelines\n2)\nA numbered list of publications\naccording to the\nResearch Council of Finland guidelines\n3)\nA letter of motivation\n(max. 1 page) outlining your motivation for applying, relevant expertise, and how you would contribute to the research aims and collaborative activities of the project.\n4)\nA research proposal\n(max. 3 pages) consisting of\na description of how your previous research experience and current work align with the overarching aims of the team\nSuffering and Meliorism in Literature and the Philosophy of Literature\n;\na research idea outlining why the project’s themes or approach interest you and how you position your own research within this context;\na preliminary publication plan.\nEnquiries\nFor further information about the position please contact the\np\nroject PI, Academy Professor Sari Kivistö\n, sari.kivisto(at)tuni.fi.\nFor questions regarding the application process, please contact HR Specialist Katri Majuri,\nkatri.majuri(at)tuni.fi\n****************************************************************************\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTampereen yliopiston yhteiskuntatieteiden tiedekunta hakee kahden vuoden määräaikaiseen tehtävään\n1 yliopistotutkijaa\nalkaen tammikuussa 2027 (tai sopimuksen mukaan). Tehtävä sijoittuu\nMelioristisen kärsimyksen filosofian huippuyksikköön\nja sen tutkimusryhmään\nKärsimys ja meliorismi kirjallisuudessa ja kirjallisuudenfilosofiassa\n(PI Akatemiaprofessori Sari Kivistö; rahoitus: Suomen Akatemia).\nLuethan tarkemman tehtävänkuvauksen ja hakuohjeet englanninkielisestä ilmoitustekstistä yläpuolelta.\nHakuaika tehtävään päättyy 11.9.2026\nklo: 23:59."
+  },
+  "ai": {
+    "summary": "2-year Senior Research Fellow position in literary studies and/or philosophy of literature at a Centre of Excellence (MePhiS) examining suffering and meliorism in literature and philosophy. Based at Tampere University Faculty of Social Sciences; requires doctoral degree and ~5 years postdoctoral experience.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "The position is in humanities-focused literary analysis and philosophy of literature examining suffering, meliorism, and ethical responses in pre-modern and contemporary texts. The researcher's domains—XR, spatial cognition, immersive learning, collaborative systems, wayfinding—have no thematic connection. Literary philosophy and immersive systems design operate in entirely different epistemic and professional contexts."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "The Senior Research Fellow role emphasizes scholarly publication, literary analysis, and philosophical inquiry. The researcher has academic writing skills (journal articles, systematic mapping) but no demonstrated expertise in textual analysis, literary criticism, or philosophy. HCI experimental design and user studies are inapplicable. The methodological framework (close reading, interpretive analysis of literary works) is orthogonal to empirical HCI research."
+    },
+    "growth_value": {
+      "score": 1,
+      "rationale": "This position would not advance any capability relevant to the researcher's target identity. It would require developing entirely new expertise in literary philosophy and suffering-centred analysis, neither of which connects to spatial cognition, collaborative immersive systems, or learning outcomes. This represents disciplinary abandonment, not skill growth."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "Tampere University is in the preferred geography (Finland) and the Centre of Excellence (MePhiS) is prestigious and well-funded (Finnish Research Council). However, the senior fellow role is positioned toward humanities scholarship, not technology-centred research. The supervisory focus (Sari Kivistö on meliorist philosophy of suffering) bears no relation to HCI, immersive systems, or human-centred technology research. Completing this position would not advance the researcher toward Aalto, TU Delft, or human-centred XR research groups."
+    },
+    "required_skills": [
+      "qualitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires completed doctoral degree with ~5 years postdoctoral experience; researcher is currently in MSc thesis stage and would not be eligible for at least 7–9 years (MSc → PhD 3-4 years → postdoc 5+ years)",
+      "Applicants must have demonstrated research leadership, external funding acquisition, and teaching experience at senior level; researcher has none of these yet",
+      "Position requires demonstrated expertise in literary studies and/or philosophy of literature; researcher has no background or publications in these areas"
+    ],
+    "risks": [
+      "Career stage mismatch: researcher is years away from postdoctoral eligibility; this is a senior-level role and researcher is early-career",
+      "Severe disciplinary mismatch: literary philosophy and meliorist philosophy of suffering require foundational training and scholarship trajectory entirely different from HCI and immersive systems research",
+      "Expertise mismatch: researcher has no publications, training, or demonstrated interest in literary analysis, philosophy of literature, or suffering-centred inquiry",
+      "Career pathway risk: pursuing senior fellowship in humanities would lock researcher into a non-technology research trajectory, fundamentally diverging from stated target identity"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-18T07:06:18.087620Z",
+    "analysis_input_hash": "1d6a99357f44b102968eb3519d12e2d26f788cf6b3b1a7b38ab41e0b98a93f95"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 4,
+    "urgency": "medium",
+    "days_to_deadline": 24,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

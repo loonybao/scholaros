@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-nuclear-engineering
 type: opportunity
 title: "Postdoc in Nuclear Engineering"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-17
+deadline: 2026-09-04
 status: open
 eligibility_gate: uncertain
-fit_overall: 2
-urgency: urgent
+fit_overall: 14
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in Nuclear Engineering
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-17
+**Deadline:** 2026-09-04
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 0)
+Gate: **uncertain** (days to deadline: 17)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -101,33 +101,35 @@ Jens H Bardarson, bardarson@kth.se
 Published
 25.Jun.2026
 Last application date
-17.Aug.2026
+04.Sep.2026
 Login and apply
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoc in experimental methods for two-phase flow measurement at high temperature/pressure conditions, developing miniature sensors for small modular reactor thermohydraulics via the HWAT facility in collaboration with Swedish nuclear regulator.
+Postdoctoral position at KTH focused on experimental methods for two-phase flows in small modular reactors, involving sensor manufacturing and thermohydraulic testing in the HWAT facility. Part of European and Swedish national nuclear research projects.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 0 |
-| Methodological fit | 5 |
-| Growth value | 0 |
-| Strategic value | 5 |
-| **Overall** | **2** |
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 35 |
+| **Overall** | **14** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** cpp, python, statistics, mixed-effects-modelling
 
 **Risks:**
-- Severe domain misalignment. Nuclear engineering is explicitly excluded from researcher's target directions by omission and contrary to HCI focus.
-- Two years in nuclear sensor development would create a career gap from immersive systems research and make subsequent HCI PhD applications harder to justify.
-- No research group overlap with Aalto, TU Delft, or European HCI/XR communities.
+- Fundamental domain mismatch: nuclear engineering ≠ HCI. Accepting would delay PhD entry and diverge from target identity.
+- No immersive systems, user research, or learning science component.
+- Researcher is not yet PhD-eligible; position is postdoctoral.
+- Research group and institution focus is engineering-physics, not human-centred design or HCI.
+- Security clearance requirement may introduce barriers.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-nuclear-engineering.md` and link [[opp_varbi-postdoc-in-nuclear-engineering]]._

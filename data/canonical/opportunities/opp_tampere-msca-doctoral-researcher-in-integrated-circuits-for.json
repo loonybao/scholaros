@@ -1,0 +1,175 @@
+{
+  "id": "opp_tampere-msca-doctoral-researcher-in-integrated-circuits-for",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-18T06:48:05.131996Z",
+  "updated_at": "2026-08-18T07:09:24.889263Z",
+  "change_history": [
+    {
+      "ts": "2026-08-18T06:48:05.132120Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-18T07:06:18.085681Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-18T07:09:24.889263Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "MSCA Doctoral Researcher in Integrated Circuits for Array Transceivers",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3147",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3147",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3147#login_form",
+    "evidence_ids": [
+      "tampere/3147"
+    ],
+    "retrieved_at": "2026-08-18T06:48:05.131841Z",
+    "raw_snapshot_hash": "184ac0cb328030116fb65f3683f28b21fb17f78f9ca88ffc77ea90a4da3577cf",
+    "extracted_content_hash": "e70b62f6acd6e4210c8107d0fcc74145d677d4165b3aa5c80f1c0968e645d732",
+    "deadline": "2026-09-15",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-17",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "ambiguous",
+    "mobility_requirement_text": "Posting mentions: …soon as possible, no later than 1.1.2027). The applicant may be of any nationality. The applicant must comply with the MSCA mobility rule: they must not have resided or carried out their main activity (work, studies, etc.) in Finland for more than 12 cumulative months in the 36 months immediately before the start date. Compulsory…",
+    "status": "open",
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our universities community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nThe Electrical Engineering unit\nat\nthe Faculty of Information Technology and Communication Sciences\n, Tampere University, invites applications for a Marie Skłodowska-Curie Action (MSCA) Doctoral Candidate position in integrated circuits and signal processing for large-array transceivers in next-generation communication systems.  The position is part of the EU-funded MSCA Doctoral Network ANCHOR. The successful candidate will contribute to advancing energy-efficient, high-performance communication systems for next-generation wireless infrastructures.\nAbout the ANCHOR Doctoral Network\nANCHOR\nis an EU-funded Marie Skłodowska-Curie Doctoral Network that brings together leading universities and industry partners to train 15 doctoral candidates in next-generation communication technologies. The network addresses key challenges in future wireless infrastructures — including spectrum harmonization, 3D coverage, mobility, latency, capacity, and energy efficiency — by advancing integrated solutions across radio, THz, and optical domains. Through interdisciplinary research, international secondments, and structured cross-sectoral training, ANCHOR equips its doctoral candidates with strong theoretical foundations and practical expertise to drive innovation in Europe’s future telecommunications landscape. More information about ANCHOR network can be found\nhttps://www.anchor.strath.ac.uk/\n.\nJob Description\nThe research focuses on developing signal processing concepts and energy-efficient, high-performance integrated circuit architectures for large-array transceivers in future communication systems, with emphasis on beamforming, near-field, and advanced receiver signal processing.\nThe Doctoral Candidate will:\nDevelop and validate signal processing concepts for efficient large-array systems\nDesign energy-efficient hardware architectures for beamforming\nPerform system-level modelling and simulations (e.g., MATLAB or similar tools)\nDesign, tape out, and experimentally characterize integrated circuit prototypes\nDisseminate results through leading international journals and conferences\nDevelop research collaboration with DCs in the Tampere University, ANCHOR network\nThe position includes secondments of 6 months at University College London (UCL) and 4 months at Altice Labs (Portugal), providing direct exposure to leading academic and industrial research environments.\nIn addition to research duties, the candidate will complete all doctoral degree requirements at Tampere University, contribute to ANCHOR project deliverables, participate in network-wide training events, and actively disseminate results through scientific and professional channels. High-quality scientific publishing is expected throughout the project.\nRequirements\nThis position follows the rules of the Marie Skłodowska-Curie Doctoral Networks.\nTo be eligible, the applicant must not hold a PhD degree at the time of recruitment.\nThe applicant must hold a relevant master’s degree by the time the employment begins (start date: as soon as possible, no later than 1.1.2027).\nThe applicant may be of any nationality.\nThe applicant must comply with the MSCA mobility rule: they must not have resided or carried out their main activity (work, studies, etc.) in Finland for more than 12 cumulative months in the 36 months immediately before the start date. Compulsory national service, short stays (e.g., holidays), and time spent as part of a procedure for obtaining refugee status under the Geneva Convention are not considered.\nIn addition, the selected candidate must apply for and be granted the right to pursue doctoral studies at Tampere University. A doctoral candidate must enroll as a doctoral student no later than six months after the start of the contract. Please visit the\nhttps://www.tuni.fi/en/study-with-us/doctoral-programme-computing-and-electrical-engineering#expander-trigger--field-eligibility-criteria--in--b18570dd-c0ce-477f-b48c-f2df4dc492a1\nfor more information on the requirements for the same. Formal English language requirements must be fulfilled by the time of enrollment in the doctoral program (not necessarily at the time of applying). Strong written and spoken English skills are essential for success in this position.\nDesired Skills and Profile\nWe are seeking a highly motivated and research-oriented candidate with a strong interest in integrated circuit design and future communication systems, and a clear ambition to pursue a doctoral degree. The applicant should hold an M.Sc. (or equivalent) in electrical engineering, computer engineering, or a closely related discipline.\nThe ideal candidate is intellectually curious, open to acquiring new skills, and able to work rigorously and independently while contributing effectively to a collaborative, international research environment. Interest in an academic or industrial research career is highly valued. Experience in one or more of the following areas is considered advantageous, the more, the better:\nKnowledge in signal processing and system-level modelling\nStrong skills with numerical modelling and simulation tools (e.g., MATLAB, Python)\nGood knowledge in digital circuit and DSP hardware design\nStrong hands-on skills in ASIC design methodologies (e.g., HDL-based design, simulation, synthesis, place-and-route workflows)\nGood knowledge in analog circuit design\nStrong skills in analog/RF circuit design and simulation with tools like Cadence Virtuoso\nFPGA or RF-SoC prototyping experience\nHands-on experience with industry-standard EDA tools (e.g., Cadence, ModelSim or equivalent) is beneficial.\nPrior tape out experience is a plus, not a requirement\nWe offer\nWe offer a fully funded 36-month fixed-term doctoral position within the MSCA framework. The employment begins as soon as possible, no later than 1.1.2027. Salary is determined in accordance with MSCA Doctoral Candidate regulations and the\nFinnish University Salary System\n. The estimated gross monthly salary is approximately €3,950 before employee taxation for a candidate without a family allowance and approximately €4,450 before employee taxation for a candidate with a family (e.g., married or with dependent children).\nThe doctoral candidate will be guided by a distinguished and internationally recognized supervisory team, ensuring ambitious, high-quality doctoral training and close mentorship. Doctoral candidate will be co-supervised by Asst. Prof. Vishnu Unnikrishnan, Assoc. Prof. Bo Tan, Prof. Elena Simona Lohan, and Prof. Mikko Valkama, whose complementary expertise spans theoretical innovation and practical impact.  Secondments with Prof. Izzat Darwazeh at UCL and the industrial visit at Altice Labs, Portugal, provide direct exposure to leading academic and industrial research environments, forming a strong international platform for scientific excellence and career development. The\nhttps://sochub.fi/\necosystem at Tampere University provides an excellent framework to support the IC tape out activities.\nThe position is based at Tampere University’s Hervanta campus, a major Nordic technology hub offering modern laboratories, advanced research infrastructure, and a collaborative academic community. Comprehensive support services and staff benefits including occupational health care, flexible working arrangements, sports facilities, and campus restaurants create excellent conditions for focused research. More information is available at\nhttps://www.tuni.fi/en/about-us/working-at-tampere-universities\n.      required for this position.\nCity of Tampere and Finland\nTampere, located between two large lakes, is Finland’s second-largest urban area and a leading Nordic technology hub. The city combines a vibrant innovation ecosystem — particularly strong in ICT and industry — with immediate access to nature and a high quality of life. For more information about Tampere, please visit\nVisitTampere\n,\nWelcome to Tampere\nand\nInternational House Tampere\n. Finland consistently ranks among the world’s safest and most stable societies and offers a comprehensive public healthcare and social security system, making it an attractive and secure destination for international researchers and their families. For more information about living and working in Finland, please visit\nInfoFinland\nand\nThis is Finland\n.\nHow to Apply\nApplications must be submitted through Tampere University’s online recruitment system (application link below). The deadline for applications is\n15 September, 2026 at\n23:59 (EEST / UTC +3)\n.\nAll application documents must be submitted in English and uploaded in PDF format.\nPlease include the following required documents:\nCover letter outlining your motivation for applying, your research interests, and how your background aligns with the position\nCurriculum vitae (CV) detailing your educational background, relevant technical skills, research experience, publications (if any), and other scientific achievements. Please include contact details for at least two referees\nCopies of bachelor’s (if applicable) and master’s degree certificates (if available at the time of application)\nOfficial transcripts of records for bachelor’s (if applicable) and master’s degrees\nYou may also include additional supporting documents, if relevant (e.g., proof of English proficiency, recommendation letters).\nFor further information\nabout the position, please contact Prof. Vishnu Unnikrishnan or Prof. Mikko Valkama (\nfirstname.lastname@tuni.fi\n).\n****\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nHaemme määräaikaista MSCA väitöskirjatutkijaa, jonka työsuhde kestää 36 kuukautta Tampereen yliopistossa. Tehtävä Tampereen yliopistolla sijoittuu Sähkötekniikan yksikköön, Informaatioteknologian ja viestinnän tiedekuntaan.\nLue tarkemmat tiedot tehtävästä ja hakuohjeet englanninkielisestä osiosta.\nHakuaika tehtävään päättyy\n15.9.2026 klo 23:59:00."
+  },
+  "ai": {
+    "summary": "36-month MSCA Doctoral Network position in integrated circuit design and signal processing for large-array transceivers. Focus on beamforming, hardware architectures, and chip prototyping with secondments to UCL and Altice Labs. Based at Tampere University Faculty of Information Technology.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "This position is pure hardware engineering: integrated circuits, beamforming, ASIC design, RF signal processing, and telecommunications infrastructure. The researcher's domain is human-centred immersive systems design and spatial learning outcomes. No thematic alignment exists. While the posting mentions communication systems, the core is embedded systems and GPU-level hardware—explicitly excluded by the researcher's stated constraints."
+    },
+    "methodological_fit": {
+      "score": 12,
+      "rationale": "The researcher has intermediate C# and advanced Unity skills; the position requires MATLAB, Python, HDL (Verilog/VHDL), Cadence, and EDA tools. The computational skill sets are adjacent (numerical modelling, simulation tools) but the application domains—circuit simulation, signal processing, ASIC design—are fundamentally different from gameplay/system code in game engines. Multiplayer networking experience is inapplicable. Experimental evaluation skills are orthogonal."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Completing this doctoral project would add deep expertise in chip design, RF engineering, and signal processing—areas entirely outside the researcher's target identity and explicitly in the excluded-directions list (embedded systems, pure ML/hardware optimisation). No capability gaps relevant to human-centred XR research would be addressed."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "MSCA funding is highly prestigious and Tampere University is in Finland (target geography). However, the supervisory team (Vishnu Unnikrishnan, Bo Tan, Elena Simona Lohan, Mikko Valkama) specialise in RF/electrical engineering and communications systems, with no connection to HCI, XR, or human-centred research. A PhD in integrated circuits would not build a profile toward Aalto, TU Delft, or human-centred immersive systems research groups."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "cpp",
+      "r"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher must hold MSc by 1 January 2027 (currently in progress; timeline is tight)",
+      "MSCA mobility rule: researcher must not have resided in Finland for >12 cumulative months in 36 months prior to start; residency history must be verified",
+      "Researcher must be admitted to Tampere's Doctoral Programme in Computing and Electrical Engineering; no electrical engineering background evident in profile"
+    ],
+    "risks": [
+      "Severe disciplinary mismatch: ASIC design, RF circuit simulation, and beamforming require foundational knowledge in electrical engineering, signal processing, and semiconductor physics; researcher's background is entirely in software/game development and HCI",
+      "Position core is embedded systems and hardware optimisation—both explicitly excluded by researcher's stated constraints",
+      "Supervision fit: none of the four supervisors have expertise in human-computer interaction, XR, or educational technology",
+      "Skill gap: researcher would need to acquire MATLAB, HDL, Cadence, and other EDA tools; no evidence of readiness for hardware-level work",
+      "Career risk: a PhD in integrated circuits would place researcher in electronics/telecom industry, not human-centred XR research"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-18T07:06:18.085260Z",
+    "analysis_input_hash": "6d43fdcc99338e6fb68b8633d7e0ad0fd69f596caaef6d08ef5e9310f94e4cc6"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source",
+      "posting hints at a mobility/residence-history rule — verify the exact condition"
+    ],
+    "fit_overall": 9,
+    "urgency": "medium",
+    "days_to_deadline": 28,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

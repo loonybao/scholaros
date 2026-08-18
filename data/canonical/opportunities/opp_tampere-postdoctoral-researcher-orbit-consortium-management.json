@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-12T07:29:19.843630Z",
-  "updated_at": "2026-08-17T07:19:14.196222Z",
+  "updated_at": "2026-08-18T07:09:24.895839Z",
   "change_history": [
     {
       "ts": "2026-08-12T07:29:19.843780Z",
@@ -94,6 +94,46 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-18T06:48:28.373496Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-08-18T07:06:18.086930Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-18T07:09:24.895839Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -107,10 +147,10 @@
     "evidence_ids": [
       "tampere/3139"
     ],
-    "retrieved_at": "2026-08-12T07:29:19.843480Z",
-    "raw_snapshot_hash": "f750735a4ba9ddb7958904a5391d39ccd60262dc909f2cb36ce895bc5bb4122e",
-    "extracted_content_hash": "567ae331feb6973601600ba7554f1ddaf7cf81d69aadc0bccff160021265c1ef",
-    "deadline": "2026-09-21",
+    "retrieved_at": "2026-08-18T06:48:28.372940Z",
+    "raw_snapshot_hash": "574f74323774be24ca2a7cee2922d273fb1cccd20f8404d40532436a97e36622",
+    "extracted_content_hash": "f3a8a40268f62e970dda8d4c488eb6945856777196c97cd19ebb7038c72df1f7",
+    "deadline": "2026-09-27",
     "deadline_note": "23:59 local time",
     "start_date": null,
     "start_date_value": null,
@@ -128,31 +168,31 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our universities community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nThe position is hosted by the\nFaculty of Management and Business\nat Tampere University, a multidisciplinary academic community with strong international research in administrative sciences, business sciences, politics, information and knowledge management, and industrial engineering and management. The Faculty’s strength is in crossing disciplinary boundaries and generating new research-based perspectives on societal and organizational challenges.\nWe are inviting applications for a Postdoctoral Researcher position in the NordForsk funded research project “Organizing Across Boundaries for Responsible Use of AI: Towards Interconnected Smart Grids in the Nordic Energy Sector” (ORBIT). The position will be situated in Tampere University’s Faculty of Management and Business and supervised by one of ORBIT’s principal investigators\nProfessor Elina I. Mäkinen\n.\nThe ORBIT consortium engages with the profound transformation that the energy sector is undergoing as Nordic countries pursue the green transition and integration of secure, interconnected smart grids. In this context, energy sector organizations are turning to AI to forecast, balance, and manage critical infrastructure, while also responding to new regulatory frameworks such as the EU AI Act.\nIn the ORBIT project, we examine how regulation, organizational practices, and professional expertise come together as organizations build the capacity to use AI responsibly and securely, and how this reshapes expert work, accountability, and collaboration across organizational and national boundaries. The project combines in-depth qualitative fieldwork across the four Nordic transmission system operators with comparative analysis, contributing to debates in organization studies and the sociology of expertise on responsible AI, professional work, and organizing across boundaries.\nThe ORBIT project brings together a consortium of management and organization researchers from Tampere University (Finland), Aalborg University (Denmark), University of Gothenburg (Sweden), and BI Norwegian Business School (Norway). Their shared research interest is to advance in-depth qualitative research concerning how AI in a broad sense is transforming expert work and how.\nJob Description\nThe postdoctoral researcher will contribute to research activities and stakeholder interactions as part of the ORBIT Consortium. Work duties (e.g., data collection) will take place mainly in Finland but may also include data collection and participation in meetings in Sweden, Denmark, and Norway.\nThe successful candidate is expected to:\ncarry out qualitative fieldwork, including interviews, observations, and document analysis\ncontribute to comparative analyses across Nordic countries and across organizational settings\ncollaborate with consortium members in designing and carrying out workshops, stakeholder engagement, and dissemination activities\ncontribute to the development of international academic publications and other project outputs directed at both scholarly and practitioner audiences\nparticipate in the research communities at Tampere University\nAt the start of the position, the postdoctoral researcher will become familiar with the ORBIT Consortium’s conceptual and empirical framework and prepare the data collection together with the team. The researcher will take increasing responsibility for fieldwork, comparative analysis, the co-authoring of journal articles and reports, and active participation in international consortium collaboration. The position offers an excellent opportunity to further develop an international research profile and academic networks in organization studies, organizational sociology, or adjacent fields.\nRequirements\nThe postdoctoral researcher candidate must have:\na doctoral degree in management and organization, organization studies, sociology, or another relevant social science discipline. The doctoral degree must be completed by the end of the application period.\nthe ability to conduct independent scientific research\nstrong methodological competence in qualitative or ethnographic research methods\ntrack record or clear potential for publishing in international peer-reviewed journals\nexcellent written and spoken English language skills\nThe postdoctoral researcher position requires a doctoral degree and evidence of publication activities. The position requires strong qualitative research skills and fluency in English. Previous experience in studying the energy sector will be considered additional merit. Additionally, prior work experience in an international and interdisciplinary research team is appreciated.\nWe offer\nWe offer a stimulating and international research environment in one of the most multidisciplinary universities in Finland.\nTampere University\ncombines strong disciplinary expertise with boundary-crossing research in technology, health, and society, and the University’s international community includes members from over 80 countries.\nRead more\nabout working at Tampere University.\nThe postdoctoral researcher is expected to start on 1 November 2026 or as soon as possible thereafter. The postdoctoral researcher position is for three years. A trial period of six (6) months applies to all new employees.\nThe salary is based on the Finnish university salary system for teaching and research staff. The position is expected to be placed at demand level 5–6. The typical starting salary for a postdoctoral researcher is approximately 3 900–4 200 EUR per month.\nIn addition, Tampere University offers a wide range of staff benefits, including support for occupational health care, sports facilities on campus, and access to campus restaurants and cafés with staff discounts.\nThe city of Tampere is a Nordic academic hub and offers a dynamic and attractive living environment. Finland provides a family-friendly working environment with generous parental leaves, affordable daycare for all children, world-renowned free primary and secondary education as well as public healthcare.\nFor more information on Tampere and Finland, please visit:\nhttps://visittampere.fi/en\nhttps://www.visitfinland.com/\nhttps://infofinland.fi/en/home\nHow to apply\nPlease submit your application through Tampere University’s electronic recruitment system (link below this announcement). The closing date for applications is\n21.09.2026 at 23:59 at Finnish time / UTC+3.\nPlease write your application and all accompanying documentation in English and attach them in PDF format.\nPlease attach the following documents to your application:\na cover letter that describes why you would be a good fit for the ORBIT Consortium, including your motivation to apply for the position and relevant qualifications (max. 2 pages)\na curriculum vitae\na list of publications\none writing sample (for example, published article, dissertation chapter, or working paper)\ncontact details for two referees (references may be included as part of the curriculum vitae)\nThe recruitment process may include interviews and, where relevant, other assessment methods in line with Tampere University’s recruitment principles.\nFor further information, please contact:\nProfessor Elina I. Mäkinen\nFaculty of Management and Business, Tampere University\nelina.makinen@tuni.fi\nTel. +358 44 237 0982\nPossible HR contact:\nHR Specialist Anni Zilliacus,\nanni.zilliacus@tuni.fi\n**************************************************************************************************\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTehtävä sijoittuu Tampereen yliopiston\njohtamisen ja talouden tiedekuntaan\n, joka on monitieteinen akateeminen yhteisö, jossa tehdään vahvaa kansainvälistä tutkimusta hallintotieteessä, kauppatieteessä, politiikan tutkimuksessa, tietojohtamisessa sekä tuotantotaloudessa. Tiedekunnan vahvuutena on tieteenalarajojen ylittäminen ja uusien tutkimukseen perustuvien näkökulmien tuottaminen yhteiskunnallisiin ja organisatorisiin haasteisiin.\nHaemme nyt tutkijatohtoria NordForsk-rahoitteiseen ORBIT-konsortioon (Organizing Across Boundaries for Responsible Use of AI: Towards Interconnected Smart Grids in the Nordic Energy Sector). Tehtävä sijoittuu Tampereen yliopiston johtamisen ja talouden tiedekuntaan, ja ohjaajana toimii yksi ORBIT-hankkeen päätutkijoista,\nprofessori Elina I. Mäkinen\n.\nHakuohjeet\nLue tarkemmat tiedot ja hakuohjeet yllä olevalta englanninkieliseltä ilmoitukselta ja jätä hakemuksesi sähköisellä hakulomakkeella\n21.09.2026 mennessä."
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our universities community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nThe position is hosted by the\nFaculty of Management and Business\nat Tampere University, a multidisciplinary academic community with strong international research in administrative sciences, business sciences, politics, information and knowledge management, and industrial engineering and management. The Faculty’s strength is in crossing disciplinary boundaries and generating new research-based perspectives on societal and organizational challenges.\nWe are inviting applications for a Postdoctoral Researcher position in the NordForsk funded research project “Organizing Across Boundaries for Responsible Use of AI: Towards Interconnected Smart Grids in the Nordic Energy Sector” (ORBIT). The position will be situated in Tampere University’s Faculty of Management and Business and supervised by one of ORBIT’s principal investigators\nProfessor Elina I. Mäkinen\n.\nThe ORBIT consortium engages with the profound transformation that the energy sector is undergoing as Nordic countries pursue the green transition and integration of secure, interconnected smart grids. In this context, energy sector organizations are turning to AI to forecast, balance, and manage critical infrastructure, while also responding to new regulatory frameworks such as the EU AI Act.\nIn the ORBIT project, we examine how regulation, organizational practices, and professional expertise come together as organizations build the capacity to use AI responsibly and securely, and how this reshapes expert work, accountability, and collaboration across organizational and national boundaries. The project combines in-depth qualitative fieldwork across the four Nordic transmission system operators with comparative analysis, contributing to debates in organization studies and the sociology of expertise on responsible AI, professional work, and organizing across boundaries.\nThe ORBIT project brings together a consortium of management and organization researchers from Tampere University (Finland), Aalborg University (Denmark), University of Gothenburg (Sweden), and BI Norwegian Business School (Norway). Their shared research interest is to advance in-depth qualitative research concerning how AI in a broad sense is transforming expert work and how.\nJob Description\nThe postdoctoral researcher will contribute to research activities and stakeholder interactions as part of the ORBIT Consortium. Work duties (e.g., data collection) will take place mainly in Finland but may also include data collection and participation in meetings in Sweden, Denmark, and Norway.\nThe successful candidate is expected to:\ncarry out qualitative fieldwork, including interviews, observations, and document analysis\ncontribute to comparative analyses across Nordic countries and across organizational settings\ncollaborate with consortium members in designing and carrying out workshops, stakeholder engagement, and dissemination activities\ncontribute to the development of international academic publications and other project outputs directed at both scholarly and practitioner audiences\nparticipate in the research communities at Tampere University\nAt the start of the position, the postdoctoral researcher will become familiar with the ORBIT Consortium’s conceptual and empirical framework and prepare the data collection together with the team. The researcher will take increasing responsibility for fieldwork, comparative analysis, the co-authoring of journal articles and reports, and active participation in international consortium collaboration. The position offers an excellent opportunity to further develop an international research profile and academic networks in organization studies, organizational sociology, or adjacent fields.\nRequirements\nThe postdoctoral researcher candidate must have:\na doctoral degree in management and organization, organization studies, sociology, or another relevant social science discipline. The doctoral degree must be completed by the end of the application period.\nthe ability to conduct independent scientific research\nstrong methodological competence in qualitative or ethnographic research methods\ntrack record or clear potential for publishing in international peer-reviewed journals\nexcellent written and spoken English language skills\nThe postdoctoral researcher position requires a doctoral degree and evidence of publication activities. The position requires strong qualitative research skills and fluency in English. Previous experience in studying the energy sector will be considered additional merit. Additionally, prior work experience in an international and interdisciplinary research team is appreciated.\nWe offer\nWe offer a stimulating and international research environment in one of the most multidisciplinary universities in Finland.\nTampere University\ncombines strong disciplinary expertise with boundary-crossing research in technology, health, and society, and the University’s international community includes members from over 80 countries.\nRead more\nabout working at Tampere University.\nThe postdoctoral researcher is expected to start on 1 November 2026 or as soon as possible thereafter. The postdoctoral researcher position is for three years. A trial period of six (6) months applies to all new employees.\nThe salary is based on the Finnish university salary system for teaching and research staff. The position is expected to be placed at demand level 5–6. The typical starting salary for a postdoctoral researcher is approximately 3 900–4 200 EUR per month.\nIn addition, Tampere University offers a wide range of staff benefits, including support for occupational health care, sports facilities on campus, and access to campus restaurants and cafés with staff discounts.\nThe city of Tampere is a Nordic academic hub and offers a dynamic and attractive living environment. Finland provides a family-friendly working environment with generous parental leaves, affordable daycare for all children, world-renowned free primary and secondary education as well as public healthcare.\nFor more information on Tampere and Finland, please visit:\nhttps://visittampere.fi/en\nhttps://www.visitfinland.com/\nhttps://infofinland.fi/en/home\nHow to apply\nPlease submit your application through Tampere University’s electronic recruitment system (link below this announcement). The closing date for applications is\n27.09.2026 at 23:59 at Finnish time / UTC+3.\nPlease write your application and all accompanying documentation in English and attach them in PDF format.\nPlease attach the following documents to your application:\na cover letter that describes why you would be a good fit for the ORBIT Consortium, including your motivation to apply for the position and relevant qualifications (max. 2 pages)\na curriculum vitae\na list of publications\none writing sample (for example, published article, dissertation chapter, or working paper)\ncontact details for two referees (references may be included as part of the curriculum vitae)\nThe recruitment process may include interviews and, where relevant, other assessment methods in line with Tampere University’s recruitment principles.\nFor further information, please contact:\nProfessor Elina I. Mäkinen\nFaculty of Management and Business, Tampere University\nelina.makinen@tuni.fi\nTel. +358 44 237 0982\nPossible HR contact:\nHR Specialist Anni Zilliacus,\nanni.zilliacus@tuni.fi\n**************************************************************************************************\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTehtävä sijoittuu Tampereen yliopiston\njohtamisen ja talouden tiedekuntaan\n, joka on monitieteinen akateeminen yhteisö, jossa tehdään vahvaa kansainvälistä tutkimusta hallintotieteessä, kauppatieteessä, politiikan tutkimuksessa, tietojohtamisessa sekä tuotantotaloudessa. Tiedekunnan vahvuutena on tieteenalarajojen ylittäminen ja uusien tutkimukseen perustuvien näkökulmien tuottaminen yhteiskunnallisiin ja organisatorisiin haasteisiin.\nHaemme nyt tutkijatohtoria NordForsk-rahoitteiseen ORBIT-konsortioon (Organizing Across Boundaries for Responsible Use of AI: Towards Interconnected Smart Grids in the Nordic Energy Sector). Tehtävä sijoittuu Tampereen yliopiston johtamisen ja talouden tiedekuntaan, ja ohjaajana toimii yksi ORBIT-hankkeen päätutkijoista,\nprofessori Elina I. Mäkinen\n.\nHakuohjeet\nLue tarkemmat tiedot ja hakuohjeet yllä olevalta englanninkieliseltä ilmoitukselta ja jätä hakemuksesi sähköisellä hakulomakkeella\n27.09.2026 mennessä."
   },
   "ai": {
-    "summary": "Postdoctoral researcher position in organizational studies within the ORBIT consortium, examining how Nordic energy sector organizations adopt AI responsibly across regulatory, organizational, and professional dimensions. Work combines qualitative fieldwork (interviews, observations, document analysis) across four Nordic transmission system operators with comparative analysis and stakeholder engagement.",
+    "summary": "3-year postdoctoral position in organization studies and qualitative research within a Nordic consortium examining how organizations implement and regulate AI responsibly. Focus on fieldwork across Nordic transmission system operators (energy sector) using ethnographic and interview methods.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "Position is entirely within organizational management, sociology of expertise, and regulatory studies of AI adoption in energy infrastructure. Target identity focuses on human-centred immersive systems, spatial cognition, and collaborative learning—domains with zero thematic overlap. The mention of 'AI' is contextual (energy sector AI governance) not technical or systems-design oriented."
+      "score": 8,
+      "rationale": "The position's domain is organizational sociology, AI governance, and professional work transformation in the energy sector—not immersive systems, spatial cognition, or learning. While both involve technology and human factors broadly, the researcher's focus on spatial understanding, wayfinding, and multiplayer collaboration has no substantive connection to energy infrastructure, regulatory frameworks (EU AI Act), or transmission system operations. No thematic overlap."
     },
     "methodological_fit": {
-      "score": 15,
-      "rationale": "Both profile and position value qualitative research and international collaboration. Candidate has intermediate user-studies and experimental-design skills; position requires advanced qualitative/ethnographic fieldwork. However, the candidate's methods are grounded in HCI evaluation (spatial cognition measurement, user performance metrics) whereas ORBIT demands organizational ethnography, comparative case analysis, and regulatory-institutional analysis. Methods are adjacent but not transferable."
+      "score": 35,
+      "rationale": "The position requires strong qualitative research skills—interviews, observation, document analysis, ethnography—which the researcher has demonstrated at intermediate level through user studies and experimental evaluation. However, the researcher's quantitative skills (task performance, questionnaires) and domain (XR/HCI) are secondary here. The required comparative analysis across Nordic organizations and policy contexts is methodologically adjacent to comparative HCI work but operates at organizational/sociological level, not individual user/learning outcomes."
     },
     "growth_value": {
-      "score": 10,
-      "rationale": "Position would develop qualitative depth and policy-facing research skills but would not advance spatial cognition, immersive systems design, or collaborative learning research. Candidate would move away from technical XR development (Unity, C#, multiplayer systems) into pure qualitative social science with no pathway back to target identity domains."
+      "score": 12,
+      "rationale": "A postdoc in organization studies would deepen the researcher's qualitative research and ethnographic methods—transferable skills. However, it does not close capability gaps relevant to the target identity. The researcher would not advance expertise in spatial cognition, immersive systems design, collaborative learning, or real-world spatial transfer. Adding organizational sociology expertise is tangential to human-centred XR research goals."
     },
     "strategic_value": {
-      "score": 20,
-      "rationale": "Tampere University is on candidate's priority_2 list and offers solid international research environment and stable NordForsk funding. However, supervisor Elina I. Mäkinen and the Faculty of Management and Business are not known for immersive systems or HCI research. Position offers no strategic advantage toward doctoral work in human-centred XR or spatial learning. Three-year postdoctoral contract is longer than typical entry pathway."
+      "score": 25,
+      "rationale": "Position is postdoctoral (researcher is still completing MSc); requires PhD as entry requirement. Tampere is in target geography (Finland). The ORBIT Consortium spans Nordic universities including Aalborg, Gothenburg, and BI Norwegian Business School—credible institutions in accessible regions. However, the research focus (organizational AI governance) is orthogonal to target identity. Supervisor Elina I. Mäkinen is in management/organization studies, not HCI or immersive systems. This would not build profile toward Aalto or TU Delft HCI groups."
     },
     "required_skills": [
       "qualitative-research",
-      "academic-writing",
-      "experimental-design"
+      "mixed-methods",
+      "academic-writing"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
@@ -162,20 +202,19 @@
       "user-studies"
     ],
     "missing_skills": [
-      "ethnographic-fieldwork",
-      "comparative-organizational-analysis",
-      "regulatory-policy-analysis"
+      "mixed-methods"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires completed doctoral degree by end of application period; candidate holds MSc by Research (in progress, thesis stage). Will not meet eligibility unless thesis is defended and degree conferred by 21 September 2026.",
-      "Position explicitly states 'doctoral degree in management and organization, organization studies, sociology, or another relevant social science discipline.' Candidate's MSc is in Creative Multimedia with HCI/XR focus. Field mismatch may trigger eligibility screening."
+      "Position explicitly requires completed doctoral degree; researcher is currently in MSc thesis stage and would not be eligible until after PhD completion (likely 2-3 years away)",
+      "Postdoctoral position is not a doctoral pathway; researcher must first complete doctoral studies elsewhere",
+      "Researcher must have demonstrated publication track record in peer-reviewed journals; currently has 1 first-author journal article and 1 in-progress systematic mapping review (modest but acceptable for early-career)"
     ],
     "risks": [
-      "Fundamental domain mismatch: energy sector organizational AI governance has no intersection with candidate's research identity or target directions.",
-      "Career pivot risk: accepting would signal exit from immersive systems and HCI research, potentially damaging future candidacy for doctoral positions in priority institutions (Aalto, TU Delft) where immersive systems and human-centred XR are active research areas.",
-      "Degree timing risk: candidate's MSc is not yet completed. Thesis stage timeline unclear; eligibility depends on conferment before 21 September 2026.",
-      "Post-postdoc pathway unclear: three-year postdoctoral role in organizational studies offers limited bridge to target doctoral research in spatial cognition and immersive learning."
+      "Career stage mismatch: this is a postdoc role; researcher is finishing MSc and would not meet eligibility criteria for several years",
+      "Disciplinary pivot: organization studies and AI governance are adjacent to but distinct from human-centred XR research; expertise built here may not transfer effectively to immersive systems research",
+      "Supervision fit: Mäkinen's expertise is organizational behaviour and management; no overlap with HCI, immersive systems, or spatial learning research",
+      "Opportunity cost: spending 3 years on organizational AI governance would delay advancement toward human-centred XR position types (doctoral researcher, phd-candidate, research assistant with phd pathway)"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -183,14 +222,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.95,
+    "confidence": 0.85,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-08-12T08:00:57.763526Z",
-    "analysis_input_hash": "412a8b097a94303ddba98714e84a08fa88c445a9b1cc89616fabaa1c286e6efe"
+    "analyzed_at": "2026-08-18T07:06:18.086422Z",
+    "analysis_input_hash": "28c07549618cb075748e6c690334be453a818a613f67e9213c0a8da840a326d4"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -198,9 +237,9 @@
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 12,
+    "fit_overall": 21,
     "urgency": "medium",
-    "days_to_deadline": 35,
+    "days_to_deadline": 40,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

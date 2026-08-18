@@ -3,18 +3,18 @@ id: opp_varbi-postdoctors-in-nuclear-engineering
 type: opportunity
 title: "Postdoctors in Nuclear Engineering"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-17
+deadline: 2026-09-04
 status: open
 eligibility_gate: uncertain
-fit_overall: 3
-urgency: urgent
+fit_overall: 11
+urgency: high
 needs_review: true
 ---
 
 # Postdoctors in Nuclear Engineering
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-17
+**Deadline:** 2026-09-04
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 0)
+Gate: **uncertain** (days to deadline: 17)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -101,34 +101,37 @@ Jens H Bardarson, bardarson@kth.se
 Published
 25.Jun.2026
 Last application date
-17.Aug.2026
+04.Sep.2026
 Login and apply
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoctoral position in thermohydraulics and safety of small modular reactors (SMRs) at KTH, involving experimental and analytical analysis of thermal-hydraulic phenomena for water and liquid-lead cooled reactor designs.
+Postdoctoral positions at KTH for multiple fellows contributing to thermohydraulic analysis and experimental facility design for small modular reactors (water and liquid lead cooled), supported by Swedish and European nuclear research initiatives.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 0 |
-| Methodological fit | 5 |
-| Growth value | 0 |
-| Strategic value | 10 |
-| **Overall** | **3** |
+| Thematic fit | 5 |
+| Methodological fit | 12 |
+| Growth value | 5 |
+| Strategic value | 30 |
+| **Overall** | **11** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** nuclear engineering, thermohydraulics, fluid mechanics, reactor physics
+**Missing skills:** cpp, python, statistics, mixed-effects-modelling
 
 **Risks:**
-- Complete domain mismatch. Researcher has no background in nuclear engineering or thermal sciences.
-- Career risk: pursuing this would move researcher away from stated HCI/XR identity.
-- No technical skills transfer from Unity/C#/multiplayer systems to nuclear safety analysis.
-- Collaboration emphasis is with European research groups in energy/nuclear, not HCI or immersive systems.
+- Fundamental domain divergence: nuclear thermohydraulics ≠ human-centred XR/HCI.
+- Accepting would delay PhD entry and redirect career away from immersive systems research.
+- No user research, design evaluation, or learning science involvement.
+- Research group (nuclear engineering) disconnected from target HCI institutions and communities.
+- Researcher not yet PhD-eligible; positions are postdoctoral.
+- Security clearance requirement may introduce barriers.
+- Multiple positions offered; does not indicate structured doctoral pathway.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoctors-in-nuclear-engineering.md` and link [[opp_varbi-postdoctors-in-nuclear-engineering]]._
