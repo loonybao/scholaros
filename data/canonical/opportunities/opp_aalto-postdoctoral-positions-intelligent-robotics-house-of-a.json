@@ -1,0 +1,176 @@
+{
+  "id": "opp_aalto-postdoctoral-positions-intelligent-robotics-house-of-a",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-19T06:48:19.507876Z",
+  "updated_at": "2026-08-19T07:08:45.435431Z",
+  "change_history": [
+    {
+      "ts": "2026-08-19T06:48:19.507987Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-19T07:05:38.692363Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-19T07:08:45.435431Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral positions: Intelligent Robotics / House of AI",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "postdoctoral-positions-intelligent-robotics-house-of-ai",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/postdoctoral-positions-intelligent-robotics-house-of-ai",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Postdoctoral-positions--Intelligent-Robotics---House-of-AI_R47544-3/apply",
+    "evidence_ids": [
+      "aalto/postdoctoral-positions-intelligent-robotics-house-of-ai"
+    ],
+    "retrieved_at": "2026-08-19T06:48:19.507709Z",
+    "raw_snapshot_hash": "6ef5b9023ee374b9aa8f66e3be75d581efcca4e09f5559bec7fdd333684dc918",
+    "extracted_content_hash": "e62ccf91c06255a15fbcf032da71587ed3b51919cccc2b55c64b5bb6356f6ba4",
+    "deadline": "2026-09-06",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-18",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Up to three postdoctoral positions are available in the\nIntelligent Robotics group\nat Aalto University, Finland, working on robotics and physical AI in direct collaboration with leading industrial partners. The group develops intelligent robotic systems, with an emphasis on methods and systems that cope with imperfect knowledge and uncertain sensing.\nThe positions are linked to the AI in Manufacturing and Machine Industry theme of the\nAalto House of AI\n, led by Professor Ville Kyrki. The theme brings together robotics, machine learning, and electrical and mechanical engineering to work on autonomous operation of machines, advanced control, and new data-driven services.\nOur industrial partners are global market leaders in their product categories, with installed fleets operating worldwide. The collaboration gives access to production machines and field data, problems defined jointly with their engineers, and pilots run on partner sites.\nThe group also sits inside a dense AI research environment. Aalto coordinates the Finnish Center for AI (FCAI) where Professor Kyrki leads the Autonomous AI program. The group is also part of ELLIS Institute Finland, the second institute of the pan-European ELLIS network, based on the Aalto campus. Postdocs in the group take part in the seminars and the Europe-wide network the institute brings, alongside compute on LUMI, EuroHPC’s flagship supercomputer.\nTopics\nWe are looking for candidates in the following two areas. Funding is in place for all three positions.\n1.\nRobot learning for manipulation\n: imitation and reinforcement learning of contact-rich, deformable object, and multi-object manipulation, and data-efficient adaptation to new tasks and embodiments.\n2.\nFault prediction and reliable autonomy\n: data-driven condition monitoring, prognostics, and anomaly detection for machines and fleets, learning from sparse failure data, handling distribution shift across machines and operating conditions, and combining physical models with learned components.\nTwo of the positions are attached to industrial collaboration projects: one on learning to manipulate multiple objects simultaneously, and one on fault prediction. The third position is open to a strong candidate who wants to work closely with industry.\nWhat we offer\nThe positions are for 2 years, with the possibility of extension, starting by agreement. You will have access to robot platforms including several Franka Emika Panda arms, a Boston Dynamics Spot, a Unitree Go2, a Hello Robot Stretch, and Alex, the Aalto autonomous car, as well as compute through Aalto and LUMI, funding for conference travel, and the option to co-advise doctoral students. Salary follows the Aalto salary system, with Finnish social security, occupational health care, and 5 weeks of annual leave. The group is international and works in English; no Finnish is required.\nRecent graduates and postdocs from the group have gone on to assistant professor positions at DTU, Tampere University, the University of Turku, New York University Abu Dhabi, and Vrije Universiteit Amsterdam.\nRequirements\nA PhD in robotics, machine learning, computer vision, control, or a related field (candidates close to completion are considered), a publication record in venues such as ICRA, IROS, RSS, CoRL, RA-L, T-RO, NeurIPS, or ICLR, and strong software skills. Experience with physical robots and an interest in working with industrial partners on real problems are advantages.\nHow to apply\nAll three positions are filled through a single call. Apply through our recruitment site using the \"Apply now!\" link by September 6, 2026. Include a CV with publication list, a cover letter stating your topics of interest, links to code, videos, or demos, and contact details of two referees. We aim to hold interviews within four weeks of the deadline and to make offers within six.\nInformal enquiries: Prof. Ville Kyrki, ville.kyrki@aalto.fi. Use “Post-doc position 2026” as email topic. For questions related to the application process, please contact HR advisor Johanna Haapalainen, johanna.haapalainen@aalto.fi.\nIntelligent Robotics group:\nhttps://irobotics.aalto.fi\nWorking at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto/working-at-aalto\nWorking in Finland:\nhttps://www.aalto.fi/en/careers-at-aalto/working-in-finland\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Three postdoctoral positions in intelligent robotics at Aalto focused on robot learning for manipulation and fault prediction for autonomous systems, embedded in a strong AI research environment with industrial partners and access to robot platforms and supercomputing.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 12,
+      "rationale": "No thematic fit. Position is rooted in robotics control, robot learning, reinforcement learning, and autonomous system reliability—excluded domains per target identity. Researcher's focus is human-centred immersive systems, spatial cognition, and collaborative multiplayer interaction. No mention of human factors, user studies, or learning outcomes relevant to human-centred design in the posting."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "Limited methodological adjacency. Position emphasizes imitation learning, reinforcement learning, condition monitoring, and data-driven anomaly detection. Researcher has intermediate experimental design and quantitative research skills from HCI context. Both involve working with partners and publications, but the technical methods (RL algorithms, autonomous control, fleet monitoring) are orthogonal to user-centred research methods."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Would not advance target identity. Researcher would deepen expertise in robotics control and ML algorithms—two excluded domains. No capability development relevant to human-centred XR, spatial learning, or collaborative immersive systems."
+    },
+    "strategic_value": {
+      "score": 75,
+      "rationale": "Aalto is priority_1 target. Strong funding, industrial partnerships, access to LUMI supercomputing and diverse robot platforms. House of AI environment is prestigious. However, strategic institutional value is undermined by thematic exclusion—this is a pure robotics/ML group."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "reinforcement-learning",
+      "robot-control",
+      "computer-vision",
+      "motion-planning",
+      "autonomous-systems"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD in robotics, ML, computer vision, control, or related field. Researcher has MSc (in progress) in Creative Multimedia, not a qualifying PhD.",
+      "Position is postdoctoral; researcher is pre-PhD (MSc thesis stage). Not eligible."
+    ],
+    "risks": [
+      "Career-stage mismatch: researcher is pre-PhD; position requires PhD completed.",
+      "Disciplinary exclusion: target identity explicitly excludes robotics-control and pure ML algorithm development.",
+      "Would establish researcher as robotics engineer, not human-centred XR researcher."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-19T07:05:38.691929Z",
+    "analysis_input_hash": "8e6ff955af731e3fce53e4d4f7ad790398e715dab33f53b5e373057614ee4eb4"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 23,
+    "urgency": "high",
+    "days_to_deadline": 18,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

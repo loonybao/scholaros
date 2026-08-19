@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-18T06:48:16.825169Z",
-  "updated_at": "2026-08-18T07:09:24.877638Z",
+  "updated_at": "2026-08-19T07:08:45.462774Z",
   "change_history": [
     {
       "ts": "2026-08-18T06:48:16.825293Z",
@@ -54,10 +54,50 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-19T06:49:15.839815Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at",
+        "official.title"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-08-19T07:08:45.315088Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-19T07:08:45.462774Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
-    "title": "1-2 Doctoral Researchers in literary studies or history",
+    "title": "Doctoral Researchers in Literary Studies or History (Verses of Learning: Epideixis and Cultural Stories of Nature at Early Modern Universities)/ 1–2 Väitöskirjatutkijaa, kirjallisuustiede tai historia",
     "org_id": "org_tampere_university",
     "lab_org_id": null,
     "source": "tampere",
@@ -67,9 +107,9 @@
     "evidence_ids": [
       "tampere/3136"
     ],
-    "retrieved_at": "2026-08-18T06:48:16.825008Z",
-    "raw_snapshot_hash": "f2e3a81f6ba21abbe5d99e1c6d6938320ffe6f5a3bbcdc23d14cc0bf19f78c21",
-    "extracted_content_hash": "21848d3cafc85edf279067b09665b1130b1b227b1cbfb9ad3f98aaa7d6b7fc6f",
+    "retrieved_at": "2026-08-19T06:49:15.839283Z",
+    "raw_snapshot_hash": "a76da3b9386b519764def277eb87138e8547a8ee06c0b1e95469807ddb1616e0",
+    "extracted_content_hash": "a4adf36e85656f185dd9de085ca3cc9c6228e5c62c5a47f09de4163be26cb215",
     "deadline": "2026-09-11",
     "deadline_note": "23:59 local time",
     "start_date": null,
@@ -91,47 +131,54 @@
     "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational, and high-impact research and education. Our universities community has its competitive edges in technology, health, and society\n.\nwww.tuni.fi/en\nThe Faculty of Social Sciences\nat Tampere University invites applications for\n1-2 Doctoral Researchers in literary studies or history.\nThe duration of employment is determined by the progress of the doctoral studies and thesis work and is limited up to a maximum of four years, starting in January 2027 or as agreed.\nThe positions are open within Academy Professor Sari Kivistö’s project,\nThe Verses of Learning: Epideixis and the Cultural Stories of Nature at Early Modern Universities\n(VERSITAS)\n, funded by the Research Council of Finland (2026-2031). The project examines the relationships between poetry, rhetoric, and nature in the early modern period, as well as their roots and continuities in earlier and later centuries. Myths and cultural narratives were an important part of early modern natural history and shaped experiences of nature. The project argues that understanding nature from a cultural perspective requires attention to the literary forms, genres, and rhetorical strategies through which it was represented. Through the study of scientific writing and occasional literature from the early modern period and adjacent centuries, we investigate how literary and stylistic devices shape relationships between humans and nature. Based in the Faculty of Social Sciences at Tampere University, the project offers a supportive and inspiring working environment, as well as excellent opportunities for researchers to advance their skills and careers.\nPositions and Qualifications\nWe are seeking promising doctoral researchers with a master’s degree in a relevant field within the humanities (e.g., literary studies, rhetoric and its history, book history, intellectual history, or classical studies). Applicants will be assessed primarily on the suitability of their proposed research topic to the project’s aims and its potential to produce research of high international standard. Knowledge of early modern literature and/or history, as well as experience working with historical texts and archival materials, will be considered an asset. Possible dissertation topics include historical studies of nature, human-animal studies, and ecocritical approaches to pre-modern and early modern literature, with potential scope for transhistorical perspectives. Familiarity with the history of rhetoric or occasional poetry will also be considered an advantage.\nThe doctoral researchers will be responsible for writing a doctoral dissertation related to the project’s research themes and completing the credits required for the doctoral degree. They will collaborate with the research team in organizing joint events and participating in other academic activities. The appointed researchers will contribute to teaching and administrative duties for up to 5% of their working time.\nThe selected candidates must apply for and be admitted to Tampere University’s\nDoctoral Programme in Literary Studies\nor\nDoctoral Programme in History\nduring the autumn semester of 2026. The application period for these programmes runs from 1 to 30 October 2026.\nWe offer\nThe positions are fixed term for four years (or a shorter period, depending on the stage of the dissertation) and will begin in January 2027 or as agreed. A six-month trial period applies to all new employees at Tampere University.\nSalary is based on\nthe University Salary System\n. Doctoral Researchers are placed on levels 2-4 of the salary scale. In addition to the basic salary, a performance-based salary component is paid according to the appointee’s qualifications and experience. The starting salary is approximately €2,700 per month and will increase as the doctoral studies progress.\nThe appointees are expected to reside in Finland during their employment at Tampere University. Tampere University is an internationally renowned research university offering a wide range of staff benefits, including occupational health care, flexible working hours, and excellent campus sports facilities. Please read more about\nworking at Tampere University\nand explore our\nCareer Stories.\nFor more information about Tampere, please see\nVisitTampere\n. For further information about Finland, please visit\nInfoFinland\nand\nThis is Finland\n.\nHow to apply\nApplications must be submitted in English through Tampere University’s electronic recruitment system (link below). The closing date for applications is\n11 September 2026 (at 23:59\n/\nUTC+3\n). Online interviews with shortlisted candidates will be held on 22 and 23 September 2026.\nPlease attach the following documents to your application:\n1) CV (max. 3 pages, including a list of publications, if applicable, and the contact details of the supervisor of your master’s thesis)\n2) Reference letter from the prospective supervisor of the doctoral dissertation (if external to the research team)\n3) Preliminary research proposal (max. 3 pages), including\na description of your previous research experience (e.g., your master’s thesis);\na research idea outlining why the project’s themes or approach interest you and how you would position your doctoral research within this context;\na timeline for your doctoral studies.\nPlease be prepared to provide proof of your qualifications upon request. Please do not submit AI-generated research proposals.\nEnquiries\nFor further information about the position, please contact the project PI, Academy Professor Sari Kivistö, sari.kivisto(at)tuni.fi.\n****************************************************************************\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTampereen yliopiston yhteiskuntatieteiden tiedekunta hakee neljän vuoden (tai vähemmän) määräaikaiseen tehtävään\n1-2 väitöskirjatutkijaa\nalkaen tammikuussa 2027. Tehtävä sijoittuu\nOppineet säkeet. Epideiktinen retoriikka ja kulttuuriset kertomukset luonnosta varhaisen uuden ajan yliopistoissa\n-tutkimushankkeeseen (PI Akatemiaprofessori Sari Kivistö; rahoitus: Suomen Akatemia).\nLuethan tarkemman tehtävänkuvauksen ja hakuohjeet englanninkielisestä ilmoitustekstistä yläpuolelta.\nHakuaika tehtävään päättyy 11.9.2026\nklo: 23:59."
   },
   "ai": {
-    "summary": "Doctoral position in literary studies or history within a 5-year Academy of Finland project examining poetry, rhetoric, and nature in early modern universities. Based at Tampere University Faculty of Social Sciences with structured doctoral training and team collaboration.",
+    "summary": "This position seeks 1–2 doctoral researchers in literary studies or history to join an Academy Professor-led project examining poetry, rhetoric, and nature in the early modern period. The project is funded by the Research Council of Finland (2026–2031) and based in Tampere University's Faculty of Social Sciences.",
     "fit_type": "poor-fit",
     "thematic_fit": {
       "score": 5,
-      "rationale": "The position is entirely humanities-focused (literary studies, rhetoric, historical analysis of early modern texts). The researcher's domains—XR, immersive systems, spatial cognition, wayfinding, gamification, digital twins—have zero alignment with early modern literature, poetry analysis, or historical textual scholarship. No methodological bridge exists."
+      "rationale": "The researcher's work centres on human-centred XR, collaborative immersive systems, spatial cognition, and learning in contemporary digital environments. The position's core is early modern literary history, rhetoric, and historical textual analysis—domains with no thematic overlap. The researcher's target identity explicitly excludes pure humanities scholarship in favour of HCI and immersive systems research."
     },
     "methodological_fit": {
-      "score": 8,
-      "rationale": "The researcher has demonstrated qualitative research competence (user studies, experimental design) and academic writing (journal articles, systematic mapping review). However, early modern literary scholarship requires archival work, textual analysis, and historical methods fundamentally different from HCI research. The overlap is generic research skills only, not methodological affinity."
+      "score": 10,
+      "rationale": "The researcher has intermediate skills in qualitative and quantitative research methods, experimental design, and academic writing. However, the position requires expertise in historical textual analysis, archival research, and literary scholarship—methodologies orthogonal to the researcher's UX research, user studies, and XR systems evaluation background. The methodological distance is substantial."
     },
     "growth_value": {
-      "score": 2,
-      "rationale": "This position would require abandoning the researcher's entire research identity and skill investment in XR, HCI, and immersive systems. No capability gaps relevant to the target identity (human-centred immersive systems, spatial cognition, collaborative learning) would be closed. This represents a 180-degree career pivot, not skill advancement."
+      "score": 5,
+      "rationale": "This position would not close capability gaps aligned with the researcher's stated direction. It offers no advancement in immersive systems design, spatial cognition research, collaborative interaction, or HCI methodology. A transition to early modern literary history would represent a fundamental career pivot away from the stated target identity and research trajectory."
     },
     "strategic_value": {
       "score": 15,
-      "rationale": "Tampere University is in the preferred geography (Finland) and offers structured doctoral funding in a well-established research group. However, the supervisor (Sari Kivistö) and project focus are entirely outside HCI and technology research. Completing a PhD in literary studies would not advance the researcher toward target institutions (Aalto, TU Delft) or their stated career goal of human-centred XR research."
+      "rationale": "Tampere University is a strong European research institution and is geographically aligned with the researcher's preference for Nordic/northern European locations. However, the Faculty of Social Sciences and this specific project lack research groups or supervisory ecosystems in HCI, XR, or immersive learning. The position does not strategically advance the researcher toward doctoral work in human-centred immersive systems or connections to priority institutions (Aalto, TU Delft)."
     },
     "required_skills": [
-      "qualitative-research",
       "academic-writing",
+      "qualitative-research",
       "experimental-design"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "qualitative-research",
       "academic-writing",
-      "user-studies"
+      "experimental-design",
+      "qualitative-research"
     ],
-    "missing_skills": [],
+    "missing_skills": [
+      "history-of-rhetoric",
+      "early-modern-literature",
+      "archival-research",
+      "textual-analysis"
+    ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Researcher must hold MSc by application deadline (currently in progress, thesis stage—eligibility contingent on completion by autumn 2026)",
-      "Position requires admission to Tampere's Doctoral Programme in Literary Studies or History during autumn 2026; researcher has no background in humanities disciplines"
+      "Position requires admission to Tampere University's Doctoral Programme in Literary Studies or History during autumn 2026; researcher must formally apply and be admitted before appointment in January 2027",
+      "Researcher must hold a master's degree in a humanities field (literary studies, rhetoric, book history, intellectual history, classical studies); MMU MSc by Research in Creative Multimedia may not meet formal admission requirements for these doctoral programmes",
+      "Position expects 5% teaching and administrative duties in addition to doctoral research"
     ],
     "risks": [
-      "Complete disciplinary mismatch: literary studies requires foundational training in textual analysis, history, and rhetoric; researcher has no demonstrated expertise or background in these areas",
-      "Career trajectory risk: pursuing a humanities PhD would substantially delay or derail the researcher's stated goal of becoming a human-centred XR/HCI researcher",
-      "Supervision fit: Sari Kivistö's expertise is in literary history and rhetoric; no overlap with researcher's XR/HCI background or interests",
-      "Admission risk: researcher may not be competitive for or successfully admitted to a literary studies doctoral programme without relevant Master's-level coursework or prior humanities study"
+      "Fundamental disciplinary mismatch: the researcher's core expertise (XR, HCI, immersive learning) is not applicable to early modern literary history or historical rhetoric",
+      "Career trajectory risk: accepting this position would represent a significant departure from the stated target identity and research direction, potentially weakening future applications to HCI/XR-focused doctoral programmes",
+      "Supervisor alignment risk: Academy Professor Sari Kivistö's project focuses on historical literary scholarship; no evidence of prior collaboration with XR, HCI, or immersive systems researchers",
+      "Doctoral programme fit risk: admission to Literary Studies or History doctoral programmes may be uncertain given the researcher's background in Creative Multimedia and XR rather than humanities disciplines",
+      "Research environment risk: the Faculty of Social Sciences at Tampere University does not appear to have active groups in human-centred XR, immersive learning, or spatial cognition research"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -139,14 +186,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.95,
+    "confidence": 0.92,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-08-18T07:06:18.083938Z",
-    "analysis_input_hash": "c55384aec164d60d7d2d77ebf93ca1c0173ee96e3c00b613e1e339a74524290c"
+    "analyzed_at": "2026-08-19T07:08:45.314457Z",
+    "analysis_input_hash": "7037e6eada9836f43da023c6a2d3ea7e187796fb14914b808946e1cc16754e4e"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -154,9 +201,9 @@
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 7,
+    "fit_overall": 8,
     "urgency": "medium",
-    "days_to_deadline": 24,
+    "days_to_deadline": 23,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

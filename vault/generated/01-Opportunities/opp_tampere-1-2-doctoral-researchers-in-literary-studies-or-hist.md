@@ -1,17 +1,17 @@
 ---
 id: opp_tampere-1-2-doctoral-researchers-in-literary-studies-or-hist
 type: opportunity
-title: "1-2 Doctoral Researchers in literary studies or history"
+title: "Doctoral Researchers in Literary Studies or History (Verses of Learning: Epideixis and Cultural Stories of Nature at Early Modern Universities)/ 1–2 Väitöskirjatutkijaa, kirjallisuustiede tai historia"
 organisation: "Tampere University"
 deadline: 2026-09-11
 status: open
 eligibility_gate: uncertain
-fit_overall: 7
+fit_overall: 8
 urgency: medium
 needs_review: true
 ---
 
-# 1-2 Doctoral Researchers in literary studies or history
+# Doctoral Researchers in Literary Studies or History (Verses of Learning: Epideixis and Cultural Stories of Nature at Early Modern Universities)/ 1–2 Väitöskirjatutkijaa, kirjallisuustiede tai historia
 
 **Organisation:** [[org_tampere_university]] (Tampere University)
 **Deadline:** 2026-09-11 (23:59 local time)
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 24)
+Gate: **uncertain** (days to deadline: 23)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -96,27 +96,28 @@ klo: 23:59.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-Doctoral position in literary studies or history within a 5-year Academy of Finland project examining poetry, rhetoric, and nature in early modern universities. Based at Tampere University Faculty of Social Sciences with structured doctoral training and team collaboration.
+This position seeks 1–2 doctoral researchers in literary studies or history to join an Academy Professor-led project examining poetry, rhetoric, and nature in the early modern period. The project is funded by the Research Council of Finland (2026–2031) and based in Tampere University's Faculty of Social Sciences.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 8 |
-| Growth value | 2 |
+| Methodological fit | 10 |
+| Growth value | 5 |
 | Strategic value | 15 |
-| **Overall** | **7** |
+| **Overall** | **8** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** history-of-rhetoric, early-modern-literature, archival-research, textual-analysis
 
 **Risks:**
-- Complete disciplinary mismatch: literary studies requires foundational training in textual analysis, history, and rhetoric; researcher has no demonstrated expertise or background in these areas
-- Career trajectory risk: pursuing a humanities PhD would substantially delay or derail the researcher's stated goal of becoming a human-centred XR/HCI researcher
-- Supervision fit: Sari Kivistö's expertise is in literary history and rhetoric; no overlap with researcher's XR/HCI background or interests
-- Admission risk: researcher may not be competitive for or successfully admitted to a literary studies doctoral programme without relevant Master's-level coursework or prior humanities study
+- Fundamental disciplinary mismatch: the researcher's core expertise (XR, HCI, immersive learning) is not applicable to early modern literary history or historical rhetoric
+- Career trajectory risk: accepting this position would represent a significant departure from the stated target identity and research direction, potentially weakening future applications to HCI/XR-focused doctoral programmes
+- Supervisor alignment risk: Academy Professor Sari Kivistö's project focuses on historical literary scholarship; no evidence of prior collaboration with XR, HCI, or immersive systems researchers
+- Doctoral programme fit risk: admission to Literary Studies or History doctoral programmes may be uncertain given the researcher's background in Creative Multimedia and XR rather than humanities disciplines
+- Research environment risk: the Faculty of Social Sciences at Tampere University does not appear to have active groups in human-centred XR, immersive learning, or spatial cognition research
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-1-2-doctoral-researchers-in-literary-studies-or-hist.md` and link [[opp_tampere-1-2-doctoral-researchers-in-literary-studies-or-hist]]._

@@ -1,0 +1,182 @@
+{
+  "id": "opp_tampere-postdoctoral-research-fellow-bioinformatics-and-ai-a",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-19T06:48:57.226005Z",
+  "updated_at": "2026-08-19T07:08:45.476035Z",
+  "change_history": [
+    {
+      "ts": "2026-08-19T06:48:57.226129Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-19T07:05:38.693839Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-19T07:08:45.476035Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Research Fellow (Bioinformatics and AI-Assisted Evidence Synthesis)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3150",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3150",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3150#login_form",
+    "evidence_ids": [
+      "tampere/3150"
+    ],
+    "retrieved_at": "2026-08-19T06:48:57.225817Z",
+    "raw_snapshot_hash": "c1daf6676f7f96fe52ffbfe2db5dfac7431e8792548e4d10d3390d03e8bee408",
+    "extracted_content_hash": "d01601cf612c712244b558eb0e58f101c53effd7602ef2b563c1817455841e5b",
+    "deadline": "2026-09-10",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-18",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our university community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\n.\nWe are looking for a\nPostdoctoral Research Fellow\nin the field of bioinformatics, AI-assisted evidence synthesis and computational mechanistic toxicology.\nJob description\nWe are seeking a computationally strong and independent Postdoctoral Research Fellow to shape computational work in the MAT group. The position will be primarily connected to the project\nEIRIS: Endocrine-disruption-Induced Endometriosis and Reconstruction of Integrated Signaling\n, while also contributing to broader group activities working at the interface of biomedical data science, systems biology, computational toxicology, and regulatory science (applied toxicology).\nEIRIS is a 4-year project that investigates how environmental chemicals may disrupt endocrine mechanisms leading to endometriosis, a common and under-researched condition affecting approximately 10–15% of women of reproductive age. The project aims to integrate fragmented biomedical evidence into structured resources and predictive models that support non-animal approaches to chemical safety assessment and women’s health research.\nThe position is hosted by the\nMechanistic and Applied Toxicology (MAT)\ngroup, a newly established research group led by Dr Alexandra Schaffert at the Faculty of Medicine and Health Technology, Tampere University. MAT develops mechanistic approaches for chemical safety assessment, contributing to the shift from animal-based toxicology toward Next-Generation Risk Assessment and non-animal methods (NAMs). We combine\nin vitro\nmolecular biology, mass-spectrometry-based proteomics, bioinformatics, evidence synthesis and computational modelling to understand how environmental chemicals perturb biological systems, with a particular focus on computational toxicology, endocrine disruption and female health. A central goal of the group is that mechanistic discoveries do not remain purely academic, but translate into tools and evidence that help decide which chemicals are safe, which biological effects matter, and how non-animal testing strategies should be designed in regulations. The group is embedded in the multidisciplinary environment of Tampere University, with access to strong local expertise and infrastructure in toxicology, high-performance computing, mass spectrometry and non-animal method development.\nAs part of our team, you will have the opportunity to:\nAI-assisted evidence synthesis and knowledge structuring\nDevelop workflows for extracting, structuring and evaluating information from biomedical text using natural language processing, language model-based or other AI-assisted approaches in a transparent, reproducible and critically evaluated manner\nContribute to biocuration, semantic interoperability, ontology-aware data integration and the development of structured evidence resources\nBioinformatics and mechanistic data integration\nAnalyse and integrate high-dimensional biomedical datasets, including transcriptomics, proteomics, secretomics and other molecular data\nApply pathway, network, graph-based and mechanistic modelling approaches to unravel adverse effects of environmental chemical exposure\nContribute to Adverse Outcome Pathway (AOP) research, including quantitative AOP approaches (AOPs are evidence-weighted causal graphs linking a molecular initiating event over several key events to an adverse outcome across multiple biological levels)\nBuild documented, reproducible and reusable computational workflows for collaborative research\nScientific contribution and mentoring\nContribute to scientific articles, presentations and grant applications\nCo-supervise junior researchers\nPrior knowledge of toxicology or biomedical research is beneficial but not required. We are looking primarily for a strong computational researcher with curiosity and motivation to engage with biological and toxicological questions.\nThe role carries substantial independence and is well suited to a candidate who wants responsibility for a computational research workstream rather than an analysis-support role. The successful candidate will have room to shape methodological solutions, develop their scientific profile, and contribute to the long-term development of a new research group.\nPrior postdoctoral experience is not required.\nRequirements:\nA doctoral degree, completed or to be completed before the start of employment, in bioinformatics, computational biology, computer science, data science, statistics, systems biology, or another relevant discipline\nStrong programming skills in Python and/or R\nDemonstrated experience developing data-analysis pipelines, software tools, workflows or computational resources that are documented and usable by others\nSubstantial experience in the analysis of high-dimensional omics (transcriptomics, proteomics), or comparable large, heterogeneous biomedical data\nSubstantial experience in natural language processing, large language models, information extraction, or text mining\nExperience in one or more of the following is considered an advantage: network analysis, graph methods, knowledge representation or ontologies; mechanistic, causal or dynamic modelling of biological systems\nThe ability to work independently, select and justify methods, communicate uncertainty, and take responsibility for a research workstream\nExcellent scientific writing and communication skills in English (at minimum level C1)\nTampere University is a unique, multidisciplinary, and boldly forward-looking community. Our values are openness, diversity, responsibility, courage, critical thinking, and learner-centeredness. We hope that you can embrace these values and promote them in your work.\nWe offer\nThe starting date is preferably as soon as possible, but latest in January 2026, or as mutually agreed. The position is full-time, and it will be filled for a fixed-term period of 2 years with the possibility of extension. A trial period of 6 months applies to all our new employees. The workplace is located at Kauppi Campus, Tampere University.\nWe offer access to high-performance computing, bioinformatics and mass spectrometry core facilities, and in vitro laboratory infrastructure and structured postdoctoral career support: mentoring, supervision experience, conference participation, and support in preparing your own fellowship or grant applications.\nThe group works with international collaborators in biomedical, omics, and computational research, giving the postdoctoral researcher direct access to expertise beyond the immediate group and opportunities for joint publications. We actively support the continued development of the postdoctoral researcher’s skills and scientific profile, including research visits to collaborating groups, participation in international conferences, workshops and specialised training, and support in applying for personal fellowships and mobility funding.\nThe salary will be based on both the job requirements and the employee's personal performance in accordance with the\nFinnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of Postdoctoral Research Fellow is placed on level 5-6 of the job requirements scale. A typical starting salary for a Postdoctoral Research Fellow is approximately 3800-4000 EUR per month. In addition, employees receive performance-based salary.\nWe are inviting you to be a part of a vibrant, active, and truly multidisciplinary research community. We value interdisciplinarity, as it allows you to expand your research network and exposes you to new perspectives and ideas to solve complex research problems and pursue novel research findings. We are strongly committed to the highest level of scientific research and the provision of high-quality education.\nAt the Faculty of Medicine and Health Technology, you will have access to state-of-the-art research facilities and resources. We offer a collaborative and interdisciplinary research environment, supported by mentoring and structured training opportunities.\nAs a member of staff at Tampere University, you will enjoy a range of competitive benefits, such as occupational health care services, flexible work schedule, versatile research infrastructure, modern teaching facilities and a safe and inviting campus area as well as a personal fund to spend on sports and cultural activities in your free time. Please read more about\nworking at Tampere University\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\n.\nFinland is among the most stable, free and safe countries in the world, based on prominent ratings by various agencies. Tampere is the largest inland city of Finland, and the city is counted among the major academic hubs in the Nordic countries. Tampere region is the most rapidly growing urban area in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. Tampere is also surrounded by vivid nature with forests and lakes, providing countless opportunities for easy-to-access outdoor adventures and refreshment throughout the year.\nRead more about Finland and Tampere:\nVisit Finland\nThis is Finland\nMinistry of Economic Affairs and Employment: Welcome to Finland\nVisit Tampere\nHow to apply\nPlease submit your application through our online recruitment system (link below). The closing date for applications is\n10\nof September 2026 (at 23.59 EEST / UTC+3).\nPlease write your application and all accompanying documentation in English and attach them in PDF format only.\nPlease attach the following documents to your application:\nCurriculum Vitae\nList of publications\n, clearly indicating first/co-first/senior author roles\nResearch and career statement (max. 2 pages)\ncovering:\nYour key scientific contributions, with explicit links to the relevant publications, preprints, code repositories, pipelines or datasets\nExperience relevant to this position, e.g. methods, data types and biological systems you have worked with, and any experience of leading a project or workstream and of interdisciplinary collaboration\nHow your expertise would contribute to the aims of this position, and what you would want to develop further\nYour career goals and how this position would support them\nContact details for two referees\nFor more information, please contact:\nDr Alexandra Schaffert, Group Leader (Mechanistic and Applied Toxicology), Faculty of Medicine and Health Technology, Tampere University. Email: alexandra.schaffert@tuni.fi\n***\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nLääketieteen ja terveysteknologian tiedekunnan Mechanistic and Applied Toxicology (MAT) -tutkimusryhmä etsii tutkijatohtoria bioinformatiikan ja tekoälyavusteisen evidenssisynteesin alalta.\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta). Tehtävän hakuaika päättyy\n10.09.2026 klo 23:59."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in bioinformatics and AI-assisted evidence synthesis for a computational toxicology project (EIRIS) investigating endocrine disruption and endometriosis, requiring strong programming, omics data analysis, NLP/LLM experience, and mechanistic modelling.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "No thematic alignment. Position is in computational toxicology, biomedical data science, and health research. Researcher's focus is human-centred immersive systems, spatial cognition, and collaborative learning. Completely orthogonal research domains."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Minimal methodological bridge. Position emphasizes bioinformatics pipelines, NLP/LLM workflows, omics analysis, and mechanistic modelling. Researcher has intermediate quantitative research and academic writing skills. Both involve data analysis and reproducible workflows, but biomedical data science is fundamentally different from HCI evaluation methodology. No overlap in domain-specific methods (transcriptomics, proteomics, pathway analysis, mechanistic toxicology)."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Would not close capability gaps relevant to target identity. Would develop deep bioinformatics and computational toxicology expertise, orthogonal to human-centred XR and spatial learning research. No pathway back to immersive systems or HCI."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "Tampere is in priority_2 (Finland). Funding is secure (2-year postdoc with extension possibility). Group support is strong (mentoring, conferences, fellowship support). However, this is a biomedical research group, not an HCI/XR environment. Institutional support cannot compensate for thematic misalignment."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "academic-writing",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "academic-writing",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "bioinformatics-pipelines",
+      "transcriptomics-analysis",
+      "proteomics-analysis",
+      "natural-language-processing",
+      "large-language-models",
+      "mechanistic-modelling",
+      "network-analysis",
+      "ontology-methods"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD completed or to be completed before start. Researcher has MSc (in progress), not PhD.",
+      "Position is postdoctoral; researcher is pre-PhD. Not eligible.",
+      "Requires 'substantial experience' in omics analysis (transcriptomics/proteomics) or comparable biomedical data. Researcher has no biomedical/life science background."
+    ],
+    "risks": [
+      "Career-stage mismatch: researcher is pre-PhD; position requires completed PhD.",
+      "Disciplinary distance: biomedical data science vs. HCI/immersive systems.",
+      "Would establish researcher in computational toxicology, far from target human-centred XR identity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.97,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-19T07:05:38.693430Z",
+    "analysis_input_hash": "73176e1c2e64378d319acf9c07321c1007765609e87d5811dea2f97f7325d96a"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 14,
+    "urgency": "medium",
+    "days_to_deadline": 22,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
