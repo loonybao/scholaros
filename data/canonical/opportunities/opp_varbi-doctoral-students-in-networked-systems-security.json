@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:17:03.765831Z",
-  "updated_at": "2026-08-19T07:08:45.588146Z",
+  "updated_at": "2026-08-20T07:10:43.979998Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:17:03.765831Z",
@@ -306,6 +306,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-20T07:06:22.341882Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-08-20T07:10:43.661432Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-20T07:10:43.979998Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -319,10 +360,10 @@
     "evidence_ids": [
       "varbi/kth-939588"
     ],
-    "retrieved_at": "2026-07-21T01:17:03.765831Z",
-    "raw_snapshot_hash": "8d08af792c5188779e4dee469e8f090b76c51b4f4809e17be6462e61f6b46009",
-    "extracted_content_hash": "1951cf1b7e35568743eab714fe57481f898608ac2eaea36e1b16e58f6bc45206",
-    "deadline": "2026-08-23",
+    "retrieved_at": "2026-08-20T07:06:22.341263Z",
+    "raw_snapshot_hash": "5ffd72ed353de7db88f871f4cf0feaee38cb1dff91edcc62f36133065c0549f7",
+    "extracted_content_hash": "3206b3cecda82919c265828ceacdc8f11f0898b7573ed83c2f205b77c9859cda",
+    "deadline": "2026-09-23",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -340,57 +381,60 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Doctoral students in Networked Systems Security\nApply for position\nSchool of Electrical Engineering and Computer Science at KTH\nProject description\nThird-cycle subject: Information and Communication Technologies\nWe invite applications for doctoral student positions with the Networked Systems Security (NSS) lab at EECS/CLS. We are looking for highly motivated individuals to pursue a PhD in security and privacy. The positions involve activities leading to original research and results in peer-reviewed publications. The research topics can relate with any of the NSS group areas (https://www.eecs.kth.se/nss).\nThe NSS group designs and builds trustworthy networked systems, with a research agenda covering a gamut of security and privacy problems and results that got significant attention by the research community. NSS introduced a new security curriculum at KTH. Candidates with experimental/systems or theoretical profiles and research interests in any aspect of security and privacy are welcome to apply.\nSupervision:\nProfessor\nPanagiotis ‘Panos’ Papadimitratos\nis proposed to supervise the doctoral student. Decisions are made on admission\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nshow solid background in several of the following: computer security, privacy preserving or enhancing technologies, mobile computing, networking, Internet security, wireless communications, distributed algorithms and systems, programming languages, performance analysis, operating systems, simulation techniques and tools, software engineering, system and network programming, applied cryptography, information theory.\nCandidates with strong experimental, systems or theoretical profiles and research interests in all aspects of security and privacy are encouraged to apply. Applicants should have strong interest in several of the following: design, analysis, verification, implementation, or empirical evaluation of secure networked systems. Of primary interest are security and resilience of positioning/localization, including global navigation satellite systems.\nIn addition, candidates need to demonstrate readiness and willingness to contribute to our research and work in an international research team.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nRecommendation letters: Please include detailed contact information for at least two (2) references.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-1902\nContact\nPanagiotis Papadimitratos, papadim@kth.se\nPublished\n09.Jun.2026\nLast application date\n23.Aug.2026\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Doctoral students in Networked Systems Security\nApply for position\nSchool of Electrical Engineering and Computer Science at KTH\nProject description\nThird-cycle subject: Information and Communication Technologies\nWe invite applications for doctoral student positions with the Networked Systems Security (NSS) lab at EECS/CLS. We are looking for highly motivated individuals to pursue a PhD in security and privacy. The positions involve activities leading to original research and results in peer-reviewed publications. The research topics can relate with any of the NSS group areas (https://www.eecs.kth.se/nss).\nThe NSS group designs and builds trustworthy networked systems, with a research agenda covering a gamut of security and privacy problems and results that got significant attention by the research community. NSS introduced a new security curriculum at KTH. Candidates with experimental/systems or theoretical profiles and research interests in any aspect of security and privacy are welcome to apply.\nSupervision:\nProfessor\nPanagiotis ‘Panos’ Papadimitratos\nis proposed to supervise the doctoral student. Decisions are made on admission\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nshow solid background in several of the following: computer security, privacy preserving or enhancing technologies, mobile computing, networking, Internet security, wireless communications, distributed algorithms and systems, programming languages, performance analysis, operating systems, simulation techniques and tools, software engineering, system and network programming, applied cryptography, information theory.\nCandidates with strong experimental, systems or theoretical profiles and research interests in all aspects of security and privacy are encouraged to apply. Applicants should have strong interest in several of the following: design, analysis, verification, implementation, or empirical evaluation of secure networked systems. Of primary interest are security and resilience of positioning/localization, including global navigation satellite systems.\nIn addition, candidates need to demonstrate readiness and willingness to contribute to our research and work in an international research team.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nRecommendation letters: Please include detailed contact information for at least two (2) references.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-1902\nContact\nPanagiotis Papadimitratos, papadim@kth.se\nPublished\n09.Jun.2026\nLast application date\n23.Sep.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "PhD position(s) in networked systems security and privacy, with focus on design, analysis, verification, and empirical evaluation of secure systems. Primary interest in security and resilience of positioning/localization systems, including GNSS. Supervisors: Panagiotis Papadimitratos (NSS lab).",
+    "summary": "Doctoral positions in security and privacy research at KTH's Networked Systems Security lab, covering networked systems design, security architecture, privacy-enhancing technologies, and verification—with particular interest in positioning, localization, and GNSS security.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 10,
-      "rationale": "Position is cybersecurity, privacy, and networked systems. Researcher works on human-centred XR, collaborative immersive systems, and spatial learning. Position mentions 'positioning/localization' (GNSS), but in a security context (resilience, authentication) unrelated to spatial cognition or wayfinding learning outcomes. No meaningful thematic overlap."
+      "score": 5,
+      "rationale": "Position core is cybersecurity, network resilience, cryptography, and positioning systems. Researcher's domain is human-centred HCI, immersive learning, collaborative systems, and spatial cognition. No thematic overlap. Security/privacy as academic topics do not intersect with the researcher's application domain (university orientation, wayfinding, multiplayer collaboration in immersive environments)."
     },
     "methodological_fit": {
-      "score": 18,
-      "rationale": "Position emphasizes empirical evaluation and implementation of secure systems—a methodological bridge to researcher's experimental design and user-studies approach. However, position also welcomes 'theoretical profiles' focused on formal verification and algorithmic analysis, which researcher lacks. Partial methodological alignment only if empirical/systems track is pursued; no alignment with theoretical track."
+      "score": 20,
+      "rationale": "Researcher has intermediate experimental design and quantitative research skills relevant to empirical evaluation of secure systems. However, position emphasizes 'design, analysis, verification, implementation' of networked systems—primarily systems and theoretical work. Researcher's background is in application design, user studies, and HCI evaluation, not systems security, cryptography, or network programming. No substantive methodological alignment."
     },
     "growth_value": {
-      "score": 15,
-      "rationale": "Position could develop empirical systems-evaluation skills applicable to future immersive-systems research. However, focus (security, privacy, authentication) is orthogonal to spatial cognition, collaborative interaction, or immersive learning research goals. Limited growth value for researcher's target trajectory."
+      "score": 8,
+      "rationale": "PhD in security and privacy does not advance stated capabilities in human-centred XR, collaborative immersive systems, or spatial learning. Researcher would acquire deep expertise in an orthogonal domain with no direct bearing on long-term research agenda. Not a strategic skill expansion."
     },
     "strategic_value": {
-      "score": 25,
-      "rationale": "Panagiotis Papadimitratos is a respected security researcher; NSS lab has strong publication record. KTH is excellent. However, research direction (networked systems security, GNSS resilience, cryptography) does not align with researcher's human-centred XR/HCI identity. Position would build security expertise, not spatial learning or immersive systems expertise."
+      "score": 40,
+      "rationale": "KTH is a strong European institution (Sweden is a preferred country). Supervisor Panagiotis Papadimitratos has international research standing. However, strategic value is limited by domain misalignment. Completing a PhD in security research would not establish the researcher within human-centred HCI or immersive systems communities, delaying entry to target research networks and institutions (Aalto, TU Delft)."
     },
     "required_skills": [
-      "experimental-design",
-      "statistics"
+      "computer-security",
+      "networking",
+      "distributed-algorithms",
+      "applied-cryptography",
+      "system-programming"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
       "experimental-design",
-      "statistics"
+      "quantitative-research"
     ],
     "missing_skills": [
       "computer-security",
-      "cryptography",
-      "privacy-preserving-technologies",
+      "networking",
       "distributed-algorithms",
-      "systems-programming"
+      "applied-cryptography",
+      "system-programming",
+      "performance-analysis",
+      "operating-systems"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Posting explicitly seeks candidates with 'solid background in several of the following: computer security, privacy, cryptography, distributed algorithms, systems programming'—researcher has none at intermediate level.",
-      "Position is open to 'experimental, systems or theoretical profiles'; theoretical track requires formal verification and advanced algorithms (researcher lacks background).",
-      "Security clearance likely required; ambiguous in posting.",
-      "Primary interest in GNSS security may require foundational knowledge of satellite positioning (not in researcher's profile)."
+      "Researcher holds MSc by Research (in progress). Position requires 'passed a second cycle degree' or equivalent. Eligibility contingent on thesis completion.",
+      "No background in computer security, privacy, networking, or cryptography. Recruitment materials emphasize 'solid background in several of the following' domains—researcher matches none of them."
     ],
     "risks": [
-      "Core focus (cybersecurity, privacy, localization resilience) is orthogonal to human-centred XR and spatial learning.",
-      "Researcher would require 6–12 months to build foundational security, cryptography, and systems knowledge.",
-      "Supervisor (Papadimitratos) and group culture (security/privacy) misaligned with target identity (human-centred XR/HCI).",
-      "PhD trajectory would shift toward secure systems engineering rather than advancing immersive-learning or collaborative-immersive-systems research.",
-      "Limited synergy between security evaluation methods and spatial cognition / wayfinding transfer research."
+      "Complete domain pivot: from HCI/immersive learning to cybersecurity and networked systems.",
+      "Researcher would spend four years acquiring expertise (systems programming, cryptography, network security) orthogonal to target identity.",
+      "No trajectory from this position toward human-centred immersive systems research or priority institutions (Aalto, TU Delft).",
+      "Publication record and research profile after PhD would be in security; repositioning later would require substantial re-training and community re-entry effort.",
+      "Security clearance requirement (Swedish Protective Security Act) may add administrative burden if position is classified; unclear from posting."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -398,14 +442,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.92,
+    "confidence": 0.93,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-21T07:41:41.555683Z",
-    "analysis_input_hash": "d1a9c468c7c15c09d30ea6f0c68ea76f219fd9eda3180a97134ac96f00d2e8f0"
+    "analyzed_at": "2026-08-20T07:10:43.660819Z",
+    "analysis_input_hash": "707eec131a76178af849a0475eeda7a9408d7a37966a324aa5077b6d27f93529"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -415,8 +459,8 @@
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
     "fit_overall": 16,
-    "urgency": "urgent",
-    "days_to_deadline": 4,
+    "urgency": "medium",
+    "days_to_deadline": 34,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

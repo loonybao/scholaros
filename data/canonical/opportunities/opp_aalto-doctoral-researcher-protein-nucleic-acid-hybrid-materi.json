@@ -1,0 +1,179 @@
+{
+  "id": "opp_aalto-doctoral-researcher-protein-nucleic-acid-hybrid-materi",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-20T06:50:28.226650Z",
+  "updated_at": "2026-08-20T07:10:43.807014Z",
+  "change_history": [
+    {
+      "ts": "2026-08-20T06:50:28.226770Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-20T07:10:43.660022Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-20T07:10:43.807014Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral researcher, protein-nucleic acid hybrid materials",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-chemical-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-protein-nucleic-acid-hybrid-materials",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-protein-nucleic-acid-hybrid-materials",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-researcher--protein-nucleic-acid-hybrid-materials_R47583/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-protein-nucleic-acid-hybrid-materials"
+    ],
+    "retrieved_at": "2026-08-20T06:50:28.226498Z",
+    "raw_snapshot_hash": "2e47de4a2a42f5ae5d4e393f5a9c56843091d09829152f7d3855f1e354d36381",
+    "extracted_content_hash": "87ea84d0102b6b34d8856fa510dae0e428bfacd1878f30fb14ff46242484395f",
+    "deadline": "2026-09-11",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-19",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and more than 5 000 employees, including more than 400 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe School of Chemical Engineering is one of the six schools of Aalto University. It combines natural sciences and engineering in a unique way.\nWe are now looking for a\nDoctoral researcher in the field of protein-nucleic acid hybrid materials\nWe are seeking a doctoral researcher to join a Research Council of Finland-funded project (\nhttps://research.fi/en/results/funding/88763\n) focused on developing programmable protein-nucleic acid hybrid materials for RNA delivery. RNA therapeutics, including mRNA vaccines and gene therapies, require delivery systems that protect nucleic acids and enable efficient intracellular release. This project combines DNA origami nanostructures with viral capsid proteins to investigate how capsid protein properties influence the assembly, stability, and function of protein-coated nanostructures. A central objective is to establish a systematic structure-function map linking capsid protein characteristics, such as structural architecture, oligomerisation behaviour, and charge distribution, to coating morphology, stability, and RNA delivery performance. The resulting framework will provide broadly applicable design rules for protein-nucleic acid hybrid materials and future RNA delivery technologies.\nScientific environment\nThe position is under the supervision of the Principal Investigator, Dr Donna McNeale, and is embedded in the Biohybrid Materials Group headed by Professor Mauri Kostiainen.\nThe laboratories are situated within\nthe Department of Bioproducts and Biosystems\n. The department of Bioproducts and Biosystems (Bio2), one of the three departments in the School of Chemical Engineering at Aalto University, has an internationally leading reputation in basic and applied research for the development of advanced materials from natural resources. It is one of the leading European research and higher education institutions in the field of sustainable chemistry and engineering based on the utilization of renewable resources. Bio2 aims to contribute to the development of novel solutions to move towards sustainable primary production and processing systems that can produce materials with fewer inputs, less environmental impact and reduced greenhouse gas emissions. Within bioscience, the department has research in bioprocess technology, molecular biotechnology, enzyme technology, metabolic engineering, synthetic biology, biomolecular, and biohybrid materials. Other strengths of the department include sustainable materials and products based on lignocellulose, ranging from nanomaterials to novel cellulose-based textiles.\nYour role and goals\nAs a doctoral researcher, you will investigate the design, assembly, and characterisation of protein-coated DNA origami nanostructures and their potential as RNA delivery platforms. Your main tasks include:\nDesign and fabrication of DNA origami nanostructures\nProduction, purification, and characterisation of viral capsid proteins and related protein building blocks\nStructural and biophysical characterisation of protein-coated DNA nanostructures\nEvaluation of RNA encapsulation and delivery performance\nAnalysis of structural, kinetics, and functional datasets\nDissemination of research findings through scientific publications and conference presentations\nThe project is primarily experimental, however, the datasets generated are expected to provide a strong foundation for future computational studies. Candidates with an interest in biomolecular modelling and simulation are encouraged to apply.\nYour experience and ambitions\nWe are looking for a candidate with a strong interest in biomolecular self-assembly, nanotechnology, and nucleic acid therapeutics. A background in one or more of the following areas is advantageous:\nProtein engineering, biophysics, or biomolecular self-assembly\nDNA nanotechnology and DNA origami\nViral capsids or virus-inspired nanomaterials\nStructural or biophysical characterisation methods\nRNA therapeutics and nucleic acid delivery\nMolecular interactions and supramolecular assembly\nQuantitative analysis of biological and nanoscale systems\nBiomolecular modelling and simulation, including molecular dynamics and coarse-grained simulations\nRequirements\nThe successful candidate is expected to have:\nA master’s degree in a relevant field, such as biotechnology, biophysics, molecular biosciences, nanotechnology, chemistry, chemical engineering, or a related discipline\nStrong academic writing and verbal communication skills in English.\nAbility to work both independently and collaboratively in an international research environment\nApplicants must fulfill the eligibility and admission criteria for Aalto's Doctoral Programme in Chemical Engineering as specified at\nAalto Doctoral Programme in Chemical Engineering | Aalto University.\nWhat we offer\nThe fixed-term contract is initially for two years, and during the first six months you must apply for and receive a right to study in the doctoral programme. The starting salary for doctoral researchers is 3142 € / month (gross). The contract includes Aalto University occupational healthcare benefits.\nThe position will be filled when a suitable candidate is identified. The preferred starting date for the position is\nSeptember 2026,\nbut the exact date can be agreed with the selected candidate. The primary workplace will be the Otaniemi campus at Aalto University.\nReady to apply?\nIf you want to join our community, please submit your application through our online recruitment system\nno later than\n11.09.2026\nusing the link on Aalto University’s webpage (“Apply now”). If you are an Aalto employee, please apply via Workday system (internal jobs).\nTo apply, please include the following documents in\nEnglish and as a single pdf document:\nLetter of motivation (max. one page). Please describe your background and future plans, and in particular the reasons for applying for this position.\nCV, including a possible list of publications\nDegree certificates and academic transcripts\nNames and contact details of at least 2 references\nAny questions?\nFor additional information about the position, kindly contact Donna McNeale (donna.mcneale@aalto.fi).\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand\nc\nheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nAalto University reserves the right for justified reasons to leave the position open, to extend the application period, and to consider candidates who have not submitted applications during the application period.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Doctoral researcher position in biomolecular self-assembly and protein-nucleic acid hybrid materials for RNA delivery, focusing on DNA origami design, viral capsid protein production, structural characterization, and RNA encapsulation evaluation at Aalto University's Department of Bioproducts and Biosystems.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Position core is pure molecular biology, bioprocess engineering, and RNA therapeutics. Researcher's domain is human-centred HCI and immersive learning systems. No overlap in application domain, research questions, or user-facing outcomes. Mention of 'datasets' and 'computational studies' does not establish thematic fit; these are methods, not domain alignment."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Researcher has intermediate quantitative research and experimental design skills from user studies, which are tangentially relevant to 'analysis of structural, kinetics, and functional datasets.' However, the position requires biomolecular characterization (protein purification, biophysical methods, structural analysis) and nanotechnology expertise—domains entirely outside researcher's experience. No methodological bridge exists."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Position would not close capability gaps aligned with researcher's target identity (human-centred immersive systems, spatial learning, collaboration). Transitioning to wet-lab molecular biology would represent a fundamental career pivot away from stated goals, not targeted skill expansion."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "Aalto is a priority-1 target institution with strong international reputation and stable Research Council of Finland funding. However, strategic value is severely limited by domain misalignment. Completing a PhD in molecular biology does not advance the researcher's stated identity as a human-centred XR/HCI researcher and would delay re-entry to target research communities."
+    },
+    "required_skills": [
+      "protein-engineering",
+      "biophysics",
+      "dna-nanotechnology",
+      "structural-characterization",
+      "quantitative-analysis"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "protein-engineering",
+      "biophysics",
+      "dna-nanotechnology",
+      "structural-characterization",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher holds MSc by Research (in progress). Position requires 'master's degree in relevant field' completed by start date (September 2026). Eligibility depends on thesis completion timeline.",
+      "No background in biotechnology, biophysics, molecular biosciences, or chemistry—the listed relevant disciplines. Fit would require candidacy argument based on 'equivalent knowledge,' which is unlikely to succeed."
+    ],
+    "risks": [
+      "Fundamental domain mismatch: molecular biology vs. human-centred HCI.",
+      "Researcher would acquire specialized molecular biology expertise with minimal transferability to target identity (human-centred immersive systems).",
+      "Four-year doctoral commitment to unrelated field delays career progress toward stated research agenda.",
+      "No publications, coursework, or project evidence in biomolecular sciences; recruitment committee would likely deprioritize without strong research background in the domain."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-20T07:10:43.659463Z",
+    "analysis_input_hash": "b66544d3abecfb27f360f79f8c7de5f80d727abc145e5e0852e67204e18118ef"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 14,
+    "urgency": "medium",
+    "days_to_deadline": 22,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
