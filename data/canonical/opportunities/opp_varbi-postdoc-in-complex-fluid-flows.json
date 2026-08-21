@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:15:04.760786Z",
-  "updated_at": "2026-08-20T07:10:43.988459Z",
+  "updated_at": "2026-08-21T07:09:10.943169Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:15:04.760786Z",
@@ -314,6 +314,48 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-21T07:06:40.318413Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-08-21T07:09:10.625108Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-21T07:09:10.943169Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -327,10 +369,10 @@
     "evidence_ids": [
       "varbi/kth-949470"
     ],
-    "retrieved_at": "2026-07-21T01:15:04.759786Z",
-    "raw_snapshot_hash": "5b9b89f2aeff02db36085d0a8aec6fa1f8c55df5ffab85a758e4c478f8bb7eb6",
-    "extracted_content_hash": "1ca74124e2d3eeaf85f2a8b43101db91d44c1b279bdc9d43ee203183ce44b173",
-    "deadline": "2026-08-25",
+    "retrieved_at": "2026-08-21T07:06:40.317825Z",
+    "raw_snapshot_hash": "5e9b96f773b28f33e46a3f0ed25f1b1a0164768e3fad58c85a9dedbf0f1854f6",
+    "extracted_content_hash": "abdb8ba7a0699809da0aaf40cebcac8f255e8b5f9501fbc84c2db25767952985",
+    "deadline": "2026-09-25",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -348,54 +390,58 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Postdoc in complex fluid flows\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences\nJob description\nWe are seeking a highly motivated postdoctoral to join the Fluids and Surfaces Group at KTH. The position offers the opportunity to develop an independent research profile within a broad range of topics, including turbulence, multiphase flows, interfacial phenomena, biofilms, surface engineering, computational fluid dynamics, and scientific machine learning.\nThe research direction will be adapted to the successful candidate’s expertise and interests. You will work closely with a dynamic team of PhD students and researchers and have access to unique experimental platforms, advanced numerical simulation tools, and high-performance computing resources. The position is supported by an ERC-funded research program, providing excellent opportunities to pursue ambitious research questions and establish international collaborations.\nYour main duties will be to conduct high-quality research, publish in leading journals, contribute to the development of new research directions, and support the supervision of doctoral and master's students. Depending on your background, the work may involve experiments, direct numerical simulations, theoretical modelling, data-driven methods, or combinations thereof.\nThe FLOW center offers an internationally recognized research environment with strong expertise in fluid mechanics and applied mathematics. The division maintains extensive collaborations with leading academic institutions and industrial partners worldwide.\nThis position is particularly suitable for candidates who enjoy scientific challenges, value intellectual freedom, and wish to contribute to the development of next-generation approaches for understanding and controlling complex fluid systems.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nDemonstrated scientific expertise in fluid mechanics.\nAbility to conduct independent research and publish scientific results in peer-reviewed journals.\nGood collaborative skills and the ability to work in an international research environment.\nExcellent written and verbal communication skills in English, as it is required in the daily work\nResearch expertise\nTeaching abilities\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nAs a person, you are independent, proactive, and have a strong ability to collaborate with researchers and students.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience in supervision or teaching at the university level.\nExperience of international research collaborations.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n1th September or by according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2409\nContact\nShervin Bagheri, sherwinb@kth.se\nPublished\n29.Jun.2026\nLast application date\n25.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+    "description_text": "Postdoc in complex fluid flows\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences\nJob description\nWe are seeking a highly motivated postdoctoral to join the Fluids and Surfaces Group at KTH. The position offers the opportunity to develop an independent research profile within a broad range of topics, including turbulence, multiphase flows, interfacial phenomena, biofilms, surface engineering, computational fluid dynamics, and scientific machine learning.\nThe research direction will be adapted to the successful candidate’s expertise and interests. You will work closely with a dynamic team of PhD students and researchers and have access to unique experimental platforms, advanced numerical simulation tools, and high-performance computing resources. The position is supported by an ERC-funded research program, providing excellent opportunities to pursue ambitious research questions and establish international collaborations.\nYour main duties will be to conduct high-quality research, publish in leading journals, contribute to the development of new research directions, and support the supervision of doctoral and master's students. Depending on your background, the work may involve experiments, direct numerical simulations, theoretical modelling, data-driven methods, or combinations thereof.\nThe FLOW center offers an internationally recognized research environment with strong expertise in fluid mechanics and applied mathematics. The division maintains extensive collaborations with leading academic institutions and industrial partners worldwide.\nThis position is particularly suitable for candidates who enjoy scientific challenges, value intellectual freedom, and wish to contribute to the development of next-generation approaches for understanding and controlling complex fluid systems.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nDemonstrated scientific expertise in fluid mechanics.\nAbility to conduct independent research and publish scientific results in peer-reviewed journals.\nGood collaborative skills and the ability to work in an international research environment.\nExcellent written and verbal communication skills in English, as it is required in the daily work\nResearch expertise\nTeaching abilities\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nAs a person, you are independent, proactive, and have a strong ability to collaborate with researchers and students.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience in supervision or teaching at the university level.\nExperience of international research collaborations.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n1th September or by according to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2409\nContact\nShervin Bagheri, sherwinb@kth.se\nPublished\n29.Jun.2026\nLast application date\n25.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "KTH postdoc in fluid mechanics, covering turbulence, multiphase flows, biofilms, computational fluid dynamics, and scientific machine learning. Position emphasizes independent research direction, experimentation or simulation, and collaboration within the FLOW center.",
+    "summary": "Postdoctoral position in complex fluid mechanics at KTH's Fluids and Surfaces Group, offering flexible research direction across turbulence, multiphase flows, interfacial phenomena, biofilms, CFD, and scientific machine learning. Supported by ERC funding with access to experimental platforms and high-performance computing resources.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "Fluid mechanics, CFD, and applied mathematics have no connection to human-centred XR, collaborative immersive systems, spatial cognition, learning design, or wayfinding. Completely orthogonal research domain."
+      "score": 8,
+      "rationale": "Position is fundamentally a fluid mechanics/applied mathematics role. While it mentions 'scientific machine learning' as one optional direction, the core research areas (turbulence, multiphase flows, interfacial phenomena, biofilms, surface engineering, CFD) are physics-driven, not human-centred. No immersive systems, learning, collaboration, spatial cognition, or HCI methodologies present."
     },
     "methodological_fit": {
-      "score": 10,
-      "rationale": "Position requires expertise in experiments, numerical simulation, or theoretical modelling—none of which match the researcher's HCI/XR methodology (user studies, experimental design for spatial cognition, immersive system evaluation). Scientific machine learning could offer adjacent technical interest, but is incidental to the core work."
+      "score": 12,
+      "rationale": "Position explicitly allows research direction to be 'adapted to successful candidate's expertise,' which theoretically creates flexibility. However, the baseline expertise required is in fluid mechanics, numerical simulation, or theoretical modeling—none of which match candidate's HCI/experimental user-studies background. The 'scientific machine learning' track requires Python and quantitative modeling skills at a level beyond candidate's current capability."
     },
     "growth_value": {
-      "score": 8,
-      "rationale": "Exposure to high-performance computing and data-driven methods could develop technical skills, but does not advance human-centred immersive systems research or close gaps in HCI/XR evaluation methodology."
+      "score": 15,
+      "rationale": "Postdoc position offers independence and international research environment, valuable for career development. However, it would require substantial reskilling in fluid mechanics or numerical methods. Growth would be primarily in computational/theoretical physics, not in human-centred XR methodology, spatial cognition research, or immersive system design—the core gaps candidate needs to close."
     },
     "strategic_value": {
-      "score": 18,
-      "rationale": "KTH and Stockholm are geographically aligned; ERC funding indicates research stability. However, the Fluids and Surfaces Group research trajectory does not support entry into human-centred XR/HCI. Two-year postdoc would delay PhD pathway."
+      "score": 65,
+      "rationale": "KTH is not on the priority list but is a strong European technical university with excellent international standing. ERC funding provides excellent stability and prestige. The Fluids and Surfaces Group has strong reputation and international collaborations. However, strategic value for the candidate's specific trajectory is mixed: postdoc visibility is valuable, but the research direction (fluid mechanics) does not establish profile in human-centred XR or lead to future positions in immersive systems research."
     },
     "required_skills": [
-      "experimental-design",
-      "academic-writing"
+      "python",
+      "quantitative-research"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "experimental-design",
-      "academic-writing"
+      "python",
+      "quantitative-research"
     ],
     "missing_skills": [
-      "fluid-mechanics",
-      "computational-fluid-dynamics",
-      "numerical-simulation",
-      "turbulence-modelling",
-      "multiphase-flow-analysis"
+      "fluid-mechanics-theory",
+      "cfd-simulation",
+      "direct-numerical-simulation",
+      "theoretical-modeling",
+      "scientific-machine-learning-for-physics",
+      "high-performance-computing",
+      "experimental-fluid-mechanics"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires PhD in fluid mechanics or closely related field. Researcher holds MSc in Creative Multimedia—significant disciplinary gap.",
-      "Requires PhD completion by employment decision date.",
-      "Preference for recent PhDs (within 3 years) aligns with 2026 completion."
+      "Requires 'doctoral degree or equivalent foreign degree'—candidate is still in MSc thesis stage; position requires completed PhD by employment start date.",
+      "Preferred qualification: 'PhD obtained within last three years'—candidate will not have PhD when applying.",
+      "'Demonstrated scientific expertise in fluid mechanics' required—candidate has none."
     ],
     "risks": [
-      "Severe disciplinary mismatch: Creative Multimedia background does not meet stated requirements in fluid mechanics/engineering.",
-      "Fundamental research domain misalignment: fluid dynamics is excluded by target identity exclusion list (pure technical engineering).",
-      "Career trajectory risk: two years in CFD/applied mathematics weakens HCI/XR positioning for future PhD applications."
+      "Fundamental eligibility barrier: candidate does not hold a doctorate; position explicitly requires PhD before employment decision. This is not negotiable.",
+      "Research domain mismatch: candidate has no background in fluid mechanics, CFD, or theoretical modeling. Even with flexibility to adapt research direction, foundational knowledge gaps are large.",
+      "Postdoc positioning: while postdocs provide visibility, this position would establish candidate's early-career profile in fluid mechanics, making future pivot to human-centred XR more difficult (career narrative inconsistency).",
+      "Supervisor expertise: Prof. Shervin Bagheri specializes in fluid mechanics and applied mathematics, not HCI or immersive systems. Limited mentorship alignment.",
+      "Time cost: postdoc positions are 1–2 years. Candidate would be better served investing that time in building human-centred XR credentials."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -403,14 +449,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.94,
+    "confidence": 0.92,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-21T07:43:07.390739Z",
-    "analysis_input_hash": "ab649820e267e5aa0d479a2b1e703f6aad08878b7e8bcb819a9c72bfe2e689a2"
+    "analyzed_at": "2026-08-21T07:09:10.624536Z",
+    "analysis_input_hash": "0bed715dffd9413b79637c7facc39569889f49f21c839b56119e14c8d7d72b80"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -419,9 +465,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 9,
-    "urgency": "urgent",
-    "days_to_deadline": 5,
+    "fit_overall": 19,
+    "urgency": "medium",
+    "days_to_deadline": 35,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-complex-fluid-flows
 type: opportunity
 title: "Postdoc in complex fluid flows"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-25
+deadline: 2026-09-25
 status: open
 eligibility_gate: uncertain
-fit_overall: 9
-urgency: urgent
+fit_overall: 19
+urgency: medium
 needs_review: true
 ---
 
 # Postdoc in complex fluid flows
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-25
+**Deadline:** 2026-09-25
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 5)
+Gate: **uncertain** (days to deadline: 35)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -107,33 +107,35 @@ Shervin Bagheri, sherwinb@kth.se
 Published
 29.Jun.2026
 Last application date
-25.Aug.2026
+25.Sep.2026
 Login and apply
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-KTH postdoc in fluid mechanics, covering turbulence, multiphase flows, biofilms, computational fluid dynamics, and scientific machine learning. Position emphasizes independent research direction, experimentation or simulation, and collaboration within the FLOW center.
+Postdoctoral position in complex fluid mechanics at KTH's Fluids and Surfaces Group, offering flexible research direction across turbulence, multiphase flows, interfacial phenomena, biofilms, CFD, and scientific machine learning. Supported by ERC funding with access to experimental platforms and high-performance computing resources.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 10 |
-| Growth value | 8 |
-| Strategic value | 18 |
-| **Overall** | **9** |
+| Thematic fit | 8 |
+| Methodological fit | 12 |
+| Growth value | 15 |
+| Strategic value | 65 |
+| **Overall** | **19** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** fluid-mechanics, computational-fluid-dynamics, numerical-simulation, turbulence-modelling, multiphase-flow-analysis
+**Missing skills:** fluid-mechanics-theory, cfd-simulation, direct-numerical-simulation, theoretical-modeling, scientific-machine-learning-for-physics, high-performance-computing, experimental-fluid-mechanics
 
 **Risks:**
-- Severe disciplinary mismatch: Creative Multimedia background does not meet stated requirements in fluid mechanics/engineering.
-- Fundamental research domain misalignment: fluid dynamics is excluded by target identity exclusion list (pure technical engineering).
-- Career trajectory risk: two years in CFD/applied mathematics weakens HCI/XR positioning for future PhD applications.
+- Fundamental eligibility barrier: candidate does not hold a doctorate; position explicitly requires PhD before employment decision. This is not negotiable.
+- Research domain mismatch: candidate has no background in fluid mechanics, CFD, or theoretical modeling. Even with flexibility to adapt research direction, foundational knowledge gaps are large.
+- Postdoc positioning: while postdocs provide visibility, this position would establish candidate's early-career profile in fluid mechanics, making future pivot to human-centred XR more difficult (career narrative inconsistency).
+- Supervisor expertise: Prof. Shervin Bagheri specializes in fluid mechanics and applied mathematics, not HCI or immersive systems. Limited mentorship alignment.
+- Time cost: postdoc positions are 1–2 years. Candidate would be better served investing that time in building human-centred XR credentials.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-complex-fluid-flows.md` and link [[opp_varbi-postdoc-in-complex-fluid-flows]]._

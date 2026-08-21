@@ -1,0 +1,174 @@
+{
+  "id": "opp_tudelft-phd-position-in-cryogenic-and-dynamic-characterisati",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-21T06:55:02.977759Z",
+  "updated_at": "2026-08-21T07:09:10.840031Z",
+  "change_history": [
+    {
+      "ts": "2026-08-21T06:55:02.977867Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-21T07:09:10.622805Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-21T07:09:10.840031Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position in Cryogenic and Dynamic Characterisation of Aerospace Materials",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-aerospace-engineering",
+    "source": "tudelft",
+    "source_native_id": "1369994757",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Cryogenic-and-Dynamic-Characterisation-of-Aerospace-Materials-2628-CD/1369994757/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Cryogenic-and-Dynamic-Characterisation-of-Aerospace-Materials-2628-CD/1369994757/",
+    "evidence_ids": [
+      "tudelft/1369994757"
+    ],
+    "retrieved_at": "2026-08-21T06:55:02.977636Z",
+    "raw_snapshot_hash": "b3ab637e0fa71c60287f5c3b7517e568c1e79554c4dfd3432ff3a2d98e39887e",
+    "extracted_content_hash": "b22a157ea1cadf611d87a2fc6c9315931b537be36e7d4a00d8de0909c0e89bbf",
+    "deadline": "2026-09-16",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Optical measurements become significantly more challenging at temperatures approaching 20 K. Develop new methods to reveal how aerospace materials deform and become damaged under cryogenic and dynamic loading. Your research will contribute to safer hydrogen-powered aircraft structures.\nJob description\nHow do aerospace materials deform and fail at temperatures approaching 20 K (-250 °C)? And how does their behaviour change under dynamic loading? In this PhD project, you will develop experimental and optical measurement methods to answer these questions and support the safe introduction of hydrogen-based aviation technologies.\nHydrogen has significant potential as an alternative aviation fuel, but its storage requires substantially more volume than jet fuel and the use of cylindrical tanks. Integrating these tanks into the aircraft fuselage makes their structural integrity crucial to passenger safety. Yet we still lack a fundamental understanding of how aerospace materials behave at cryogenic temperatures, particularly in contact with hydrogen and across different strain rates.\nYou will investigate deformation mechanisms, strain localisation and damage from quasi-static to dynamic loading. A central challenge is developing optical testing methods that remain accurate despite the large temperature gradients present in cryogenic experiments. You will explore full-field techniques such as digital image correlation, speckle and grid methods, interferometry, digital holography, structured-light and fringe projection, deflectometry, pattern tracking, high-speed imaging and thermography. Complementary photonic sensing approaches, such as fibre Bragg grating sensors, may also be considered.\nYour research will determine which optical measurement techniques can reliably capture deformation and damage under cryogenic conditions, how experimental constraints can be overcome, and how strain rate influences material behaviour. The resulting experimental data will be used to validate numerical models and contribute to certification by analysis of future composite structures.\nThe project is part of the Dutch Aviation Systems Analysis Lab (DASAL), a collaboration between TU Delft and Royal NLR within the Dutch Luchtvaart in Transitie programme. You will be based in the Optical Metrology for Aerospace (OMA) and Design of Structures research groups within the\nAerospace Structures & Materials (ASM) department\nat TU Delft’s\nFaculty of Aerospace Engineering\n. OMA is a young, interdisciplinary and international research group focusing on optical instrumentation, interferometry and photonics for optical metrology applications.\nYou will be supervised by Dr Andrei Anisimov and Dr Saullo Castro. You will publish your findings, present them at conferences and project meetings, and communicate with both scientific and industrial audiences. You may also supervise MSc students, contribute to education and ongoing research, and develop your own research ideas.\nJob requirements\nYou hold an MSc in optical engineering, photonics, aerospace or mechanical engineering, applied physics, materials science, experimental mechanics, instrumentation, or a related field.\nYou have a strong interest in experimental testing, material characterisation and material behaviour under extreme environmental and loading conditions.\nYou have hands-on experience with experimental setups, measurement systems, optical measurement techniques, mechanical testing or laboratory instrumentation.\nExperience with full-field optical methods, image processing, high-speed imaging, cryogenic testing, composites, numerical modelling or non-destructive testing is an advantage.\nYou can work independently while collaborating effectively with researchers from different disciplines.\nYou communicate clearly and are motivated to share your research with scientific, industrial and general audiences.\nYou have a good command of English, enabling you to work effectively with academic, industrial and project stakeholders.\nThe outcomes of this project will be disseminated to the scientific community, industrial stakeholders and a general audience through presentations at national and international conferences, publications in peer-reviewed journals, and project meetings. You will also participate in English-taught Doctoral Education courses, write scientific articles and prepare a final thesis. Additionally, you may be involved in training and teaching MSc students. Therefore, a good level of English proficiency and social skills are required to work effectively with academic, industrial and project stakeholders. For more details, please check the Graduate Schools Admission Requirements:\nhttps://www.tudelft.nl/onderwijs/opleidingen/phd/admission\n.\nTU Delft\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Andrei Anisimov, via\na.g.anisimov@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n16 September 2026\nvia the application button and upload the following documents:\nMotivation letter\nDetailed CV\nCopies of your BSc and MSc degrees and transcripts\nIn the motivation letter, please describe the main challenges you expect in characterising material deformation and damage under cryogenic conditions using optical measurement techniques.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in experimental measurement methods for aerospace materials under cryogenic and dynamic loading, focused on optical metrology techniques to support hydrogen-powered aircraft structures. Part of the DASAL collaboration between TU Delft and Royal NLR.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Position is entirely focused on materials science, experimental physics, cryogenic testing, and aerospace engineering. No connection to human-computer interaction, immersive systems, spatial cognition, learning, collaboration, or any aspect of the candidate's research domains. This is not an XR/HCI field."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Position emphasizes experimental design and materials characterization under extreme conditions. While the candidate has intermediate experimental-design skills from user studies, this is entirely unrelated to optical metrology, cryogenic physics, or strain measurement. No methodological bridge exists."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "No capability development value for human-centred XR research. Candidate would develop expertise in photonics, cryogenic engineering, and materials testing—skills with no application to immersive learning systems, spatial cognition research, or collaborative VR design."
+    },
+    "strategic_value": {
+      "score": 40,
+      "rationale": "TU Delft is a priority-1 institution with strong reputation and secure funding (DASAL program). However, strategic value is severely diminished because the research direction has zero alignment with target identity or career goals. A prestigious position in the wrong field is a career derailment, not advancement."
+    },
+    "required_skills": [
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "optical-metrology",
+      "photonics",
+      "cryogenic-testing",
+      "full-field-optical-methods",
+      "image-processing",
+      "high-speed-imaging",
+      "materials-science",
+      "aerospace-engineering"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc in optical engineering, photonics, aerospace, mechanical engineering, applied physics, materials science, or related field. Candidate holds MSc in Creative Multimedia—significant disciplinary mismatch."
+    ],
+    "risks": [
+      "Severe disciplinary mismatch: candidate's background is human-centred design and XR; aerospace materials science requires physics/engineering fundamentals not present.",
+      "Complete research pivot: would require abandonment of human-centred XR trajectory and retraining in materials physics.",
+      "No supervisor alignment: Dr. Andrei Anisimov and Dr. Saullo Castro specialize in aerospace materials and optical measurement—not HCI or immersive systems.",
+      "Fundamental conceptual distance: cryogenic material testing has no connection to learning, collaboration, spatial cognition, or immersive design."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-21T07:09:10.622424Z",
+    "analysis_input_hash": "18b58b8842eabd46eb4e486463f85fcdfdef621a275b935ba21f0182948b8e38"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 8,
+    "urgency": "medium",
+    "days_to_deadline": 26,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

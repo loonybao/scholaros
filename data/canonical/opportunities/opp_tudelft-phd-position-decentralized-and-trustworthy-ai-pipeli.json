@@ -1,0 +1,177 @@
+{
+  "id": "opp_tudelft-phd-position-decentralized-and-trustworthy-ai-pipeli",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-21T06:55:13.870123Z",
+  "updated_at": "2026-08-21T07:09:10.825860Z",
+  "change_history": [
+    {
+      "ts": "2026-08-21T06:55:13.870229Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-21T07:09:10.621686Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-21T07:09:10.825860Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Decentralized and Trustworthy AI Pipelines (EU project WALTZ)",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1370001157",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Decentralized-and-Trustworthy-AI-Pipelines-%28EU-project-WALTZ%29-2628-CD/1370001157/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Decentralized-and-Trustworthy-AI-Pipelines-%28EU-project-WALTZ%29-2628-CD/1370001157/",
+    "evidence_ids": [
+      "tudelft/1370001157"
+    ],
+    "retrieved_at": "2026-08-21T06:55:13.870004Z",
+    "raw_snapshot_hash": "194fff9a0dbe80eed0945833121d8cae57398e1bea4e2ecc121b45c8f24a89d9",
+    "extracted_content_hash": "bd60d15adc20f2ab63d73f888eaa4fe0405578f62a8358073f5f8e6efd3c2352",
+    "deadline": "2026-09-24",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Public administrations hold the data for better public services but cannot pool it. We aim to build decentralized AI pipelines that let them learn from data they can never expose, in the EU project WALTZ.\nJob description\nThe Horizon Europe Innovation Action WALTZ (Workflow-Driven AI-Enabled Lawful and Trusted Data Spaces for Public Authorities) builds a trusted \"system-of-systems\" data stack that turns heterogeneous administrative data into governed, AI-ready assets, validated in six public-sector pilots. TU Delft leads its task on AI-ready training and evaluation pipelines using real and synthetic data. Public authorities cannot ship their data to a central trainer, the participants in such a pipeline cannot all be assumed honest, and the models they increasingly want to deploy are LLM-based, whose failures are semantic rather than crashes.\nWe aim to build training and inference pipelines that work across administrative boundaries, and evaluation methods that say something honest about how far they can be trusted. Initial concrete task ideas include:\ndesign decentralized and federated pipelines that combine real and synthetic data across organisational boundaries without a central aggregator, under controlled mixing strategies that address data scarcity and distribution shift;\nmake them resilient to Byzantine participants, and to poisoning of the synthetic data supply;\nquantify what leaks: membership inference and reconstruction against models trained on real-synthetic mixes, and the utility cost of differentially private generation;\ntreat LLM-based components as a distributed system: replicate inference across diverse models, study how their failures correlate, and use quorum and semantic-agreement mechanisms to turn individually unreliable answers into trustworthy ones;\nbuild the evaluation side: benchmarks, cross-validation schemes, reporting protocols — covering accuracy, robustness, bias, generalisation and privacy leakage, released as open, reproducible software.\nYou will be based at the Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS), in the Distributed Systems group of the Department of Software Technology, supervised by Dr Jérémie Decouchant, whose work spans Byzantine fault tolerance, decentralized learning and trustworthy AI systems. TU Delft's DelftBlue and DAIC GPU clusters are available for large-scale experiments.\nWALTZ has more than thirty partners, so your work will not stay in the lab: you will collaborate with research groups across Europe and see your methods stress-tested by real public authorities. Alongside your research you will publish at top venues, follow the TU Delft Graduate School doctoral programme, and take on a modest teaching and supervision load (up to 15%).\nJob requirements\nAn MSc (completed, or close to completion) in Computer Science, Data Science, Artificial Intelligence, Electrical Engineering or a closely related field.\nA solid foundation in machine learning and/or distributed systems. Familiarity with federated or decentralized learning, fault tolerance, generative models, privacy-preserving ML, or LLM-based systems is a strong asset.\nStrong programming skills in Python and hands-on experience with a modern deep learning framework (e.g. PyTorch), including work on Linux-based GPU/HPC clusters.\nDemonstrable interest in trustworthy AI: privacy, robustness, adversarial behaviour, evaluation methodology and reproducibility.\nStrong analytical skills and the independence to carry a research agenda over four years, combined with the discipline to meet project deliverable deadlines.\nExcellent command of written and spoken English. Non-native speakers without an English-taught degree must meet the TU Delft English language requirements (e.g. TOEFL iBT 90 or IELTS 6.5 overall).\nA collaborative attitude: you enjoy working in a large international consortium and can explain your work to non-academic stakeholders such as public administrations.\nCommitment to open science: publishing code and benchmarks, and contributing to open-source software.\nTU Delft (Delft University of Technology)\nDelft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.\nAt TU Delft we embrace diversity as one of our core\nvalues\nand we actively\nengage\nto be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.\nChallenge. Change. Impact!\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. Jérémie Decouchant, via j.decouchant@tudelft.nl.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than 24 Sep 2026 via the application button and upload the following documents:\na cover letter (max. 1 page) explaining your motivation and your fit with the research topic;\nyour CV, including a list of publications if applicable;\ntranscripts of your BSc and MSc studies;\na copy of your MSc thesis, if applicable;\nproof of English language proficiency, if applicable.\nOptionally, you may add links to code repositories you are proud of.\nYou can address your application to Dr. Jérémie Decouchant.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services.\n#EUfunded This is an EU funded project, named WALTZ, with project number 101342260, within program Horizon Europe"
+  },
+  "ai": {
+    "summary": "PhD position in decentralized and federated machine learning pipelines for public-sector data governance, with focus on Byzantine fault tolerance, privacy-preserving ML, and trustworthy AI evaluation methods. Part of the EU Horizon Europe WALTZ project with 30+ international partners.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Position is centered on pure machine learning algorithm development, federated learning infrastructure, and distributed systems—none of which align with the candidate's human-centred XR/HCI research direction. The target identity explicitly excludes pure-machine-learning-algorithms. No immersive systems, spatial cognition, collaboration, or learning outcome evaluation aspects present."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Candidate has intermediate quantitative-research and statistics skills, which are tangentially relevant to the evaluation methodology aspect of the role. However, the core methodologies required (federated learning, Byzantine fault tolerance, differential privacy, LLM robustness testing) are orthogonal to user-studies-based HCI research. No overlap in experimental design approach or evaluation focus."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "This position would require building deep expertise in pure ML/AI systems, which contradicts the target identity. While trustworthy AI is valuable, the candidate's growth would be in technical ML depth rather than human-centred XR methodology, collaborative system design, or spatial cognition research—the core capability gaps they need to close."
+    },
+    "strategic_value": {
+      "score": 60,
+      "rationale": "TU Delft is a priority-1 target institution and a top-tier technical university with strong international standing. The WALTZ project offers excellent funding stability (Horizon Europe), large consortium exposure, and publishing at top venues. However, strategic value is undermined by thematic misalignment; the position would not advance the candidate toward their stated research identity or target position types (doctoral researcher in human-centred XR)."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "machine-learning-fundamentals",
+      "federated-learning",
+      "byzantine-fault-tolerance",
+      "differential-privacy",
+      "pytorch-or-deep-learning-framework",
+      "hpc-cluster-experience"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires completed MSc by start date; candidate is in thesis stage but eligibility timeline is unclear.",
+      "Requires 'solid foundation in machine learning' and 'hands-on experience with modern deep learning framework'—candidate lists python as beginner with no deep learning project experience."
+    ],
+    "risks": [
+      "Core skill mismatch: candidate has no demonstrated ML/deep learning experience; position explicitly requires PyTorch and Linux GPU/HPC clusters.",
+      "Thematic drift: accepting this position would establish a research trajectory in pure ML systems, creating path dependence away from human-centred XR identity.",
+      "Supervisor alignment: Dr. Jérémie Decouchant specializes in Byzantine systems and trustworthy AI—not human-centred immersive systems or HCI.",
+      "Project deliverable pressure: WALTZ has 30+ partners and tight deliverable deadlines; candidate would need to deliver ML results on schedule rather than exploring HCI questions."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-21T07:09:10.621164Z",
+    "analysis_input_hash": "d96eec3fdb6f4885c9b18791a80317d49b1b6020f14fd540001e8b50326d5b88"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 18,
+    "urgency": "medium",
+    "days_to_deadline": 34,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
