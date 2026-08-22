@@ -3,10 +3,10 @@ id: opp_tudelft-phd-position-in-decoding-the-microbial-nitrogen-cycl
 type: opportunity
 title: "PhD Position in Decoding the Microbial Nitrogen Cycle for Climate Resilience"
 organisation: "TU Delft"
-deadline: 2026-09-07
+deadline: 2026-09-09
 status: open
 eligibility_gate: uncertain
-fit_overall: 11
+fit_overall: 13
 urgency: high
 needs_review: true
 ---
@@ -14,7 +14,7 @@ needs_review: true
 # PhD Position in Decoding the Microbial Nitrogen Cycle for Climate Resilience
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
-**Deadline:** 2026-09-07
+**Deadline:** 2026-09-09
 **Location:** Delft, Netherlands
 **Position type:** phd
 **Salary:** €3059 - €3881 per month (stated range)
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 17)
+Gate: **uncertain** (days to deadline: 18)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -71,7 +71,7 @@ m.laureni@tudelft.nl
 Applica
 tion procedure
 Are you interested in this vacancy? Please apply no later than
-7 September 2026
+9 September 2026
 via the application button and upload the following documents:
 CV.
 Motivation letter (max. 2 pages).
@@ -88,28 +88,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
 
-PhD position in environmental microbiology focused on nitrogen-cycling microbial communities, combining bioreactor cultivation, multi-omics analysis, and computational modelling to address greenhouse gas emissions and sustainable nitrogen management.
+PhD position in systems microbiology at TU Delft combining experimental cultivation, multi-omics analysis (metagenomics, metaproteomics), and mathematical modelling to study nitrogen-cycling microbial communities. Work spans environmental biotechnology, systems microbiology, and computational biology.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 15 |
-| Growth value | 5 |
-| Strategic value | 20 |
-| **Overall** | **11** |
+| Methodological fit | 8 |
+| Growth value | 3 |
+| Strategic value | 55 |
+| **Overall** | **13** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python, r
+**Missing skills:** python, statistics
 
 **Risks:**
-- Complete domain shift away from HCI and immersive systems; pursuing this role would signal career redirection rather than PhD progression in target area.
-- Researcher lacks foundational microbiology and bioengineering knowledge; onboarding cost would be very high.
-- Research group and supervisor network operate in environmental biotechnology/systems microbiology, not human-computer interaction or XR.
-- No overlap with researcher's target institutions (Aalto, TU Delft HCI/XR groups) or methodological themes (spatial cognition, collaborative immersive systems, learning).
-- Master's thesis work and first-author publication are in XR and HCI; this position would require disengagement from that research narrative.
+- Complete disciplinary mismatch: systems microbiology vs. human-centred XR
+- Position's 'Need-to-haves' require laboratory microbiology background and 'strong interest in bioreactor design'—researcher has neither
+- No prior coursework, projects, or experience in biology, microbiology, or environmental science
+- Recruitment team will likely screen out on disciplinary grounds; MSc background in multimedia is a poor fit for biology PhD
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-decoding-the-microbial-nitrogen-cycl.md` and link [[opp_tudelft-phd-position-in-decoding-the-microbial-nitrogen-cycl]]._

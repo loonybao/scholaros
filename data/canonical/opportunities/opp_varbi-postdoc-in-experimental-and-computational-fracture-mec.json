@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-07-21T01:14:28.177740Z",
-  "updated_at": "2026-08-21T07:09:10.948742Z",
+  "updated_at": "2026-08-22T07:01:39.140629Z",
   "change_history": [
     {
       "ts": "2026-07-21T01:14:28.177740Z",
@@ -303,6 +303,48 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-22T06:57:51.261703Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-08-22T07:00:50.757253Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-22T07:01:39.140629Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -316,10 +358,10 @@
     "evidence_ids": [
       "varbi/kth-952802"
     ],
-    "retrieved_at": "2026-07-21T01:14:28.177740Z",
-    "raw_snapshot_hash": "243c76c7e52088eccf48e6f8d29195ffadb67ceb706fb61afe55e1bea998acf2",
-    "extracted_content_hash": "ec8bd8860f0261e663e480aacf8a8456ff66c832b643a8438ab6b92bcda2a434",
-    "deadline": "2026-08-24",
+    "retrieved_at": "2026-08-22T06:57:51.261212Z",
+    "raw_snapshot_hash": "f61a19f654685f2b0285520c87fb03bf114744ff050e63f080b458984118b4f7",
+    "extracted_content_hash": "987ac607a1303c00abbce80ef42709189fca50881f4059cc1774e350c7616913",
+    "deadline": "2026-09-07",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -337,45 +379,50 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Postdoc in Experimental and Computational Fracture Mechanics\nLogin and apply\nSchool of Engineering Sciences at KTH\nJob description\nThe position focus on experimental and computational fracture mechanics. A central issue in the work includes experimental testing of mini-CT specimens combined with numerical modeling. The main objective is to improve existing methods for characterizing crack growth resistance in ductile materials. Use of sub-sized specimens in assessment of structural integrity is an area under strong development and includes issues such as geometry effects as well as transferability of laboratory results to actual components.\nThe outcome of the project is foreseen to be an integrated testing and computational methodology that can be standardized according to regulatory perspectives. You will work in a research environment together with other researchers focused on material and fracture mechanics problems related to metals of interest to the process industry, where parts of the project will be carried out in collaboration with the Swedish nuclear industry.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nIn addition to your scientific skills and pedagogical ability, a relevant doctoral thesis, international experience and proficiency in English as it is needed in the daily work\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience in mechanical testing\nGood knowledge and skill in nonlinear computational mechanics\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nCollaborative abilities\nIndependence\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2559\nContact\nJonas Faleskog, Professor, +4687908977, faleskog@kth.se\nPublished\n02.Jul.2026\nLast application date\n24.Aug.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+    "description_text": "Postdoc in Experimental and Computational Fracture Mechanics\nLogin and apply\nSchool of Engineering Sciences at KTH\nJob description\nThe position focus on experimental and computational fracture mechanics. A central issue in the work includes experimental testing of mini-CT specimens combined with numerical modeling. The main objective is to improve existing methods for characterizing crack growth resistance in ductile materials. Use of sub-sized specimens in assessment of structural integrity is an area under strong development and includes issues such as geometry effects as well as transferability of laboratory results to actual components.\nThe outcome of the project is foreseen to be an integrated testing and computational methodology that can be standardized according to regulatory perspectives. You will work in a research environment together with other researchers focused on material and fracture mechanics problems related to metals of interest to the process industry, where parts of the project will be carried out in collaboration with the Swedish nuclear industry.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nIn addition to your scientific skills and pedagogical ability, a relevant doctoral thesis, international experience and proficiency in English as it is needed in the daily work\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience in mechanical testing\nGood knowledge and skill in nonlinear computational mechanics\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nCollaborative abilities\nIndependence\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2559\nContact\nJonas Faleskog, Professor, +4687908977, faleskog@kth.se\nPublished\n02.Jul.2026\nLast application date\n07.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "KTH postdoc in experimental and computational fracture mechanics focused on mechanical testing of sub-sized specimens, numerical modelling of crack growth, and standardization of methods for structural integrity assessment in ductile materials.",
+    "summary": "Postdoctoral researcher position in experimental and computational fracture mechanics at KTH Royal Institute of Technology, Stockholm. Work combines mechanical testing of mini-CT specimens with numerical modelling to improve crack growth resistance characterization and sub-sized specimen methodology for structural integrity assessment.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 0,
-      "rationale": "Pure materials science and mechanical engineering. No connection to human-computer interaction, immersive systems, spatial cognition, learning, or user evaluation. XR/VR not mentioned. Core exclusion criterion met: pure computational mechanics."
+      "score": 4,
+      "rationale": "The researcher's expertise is in human-centred XR, collaborative immersive systems, spatial learning, and gamification. This position is pure materials science and mechanical engineering—fracture mechanics, specimen testing, computational solid mechanics, and structural integrity. There is no connection to HCI, immersive systems, learning design, or spatial cognition."
     },
     "methodological_fit": {
-      "score": 5,
-      "rationale": "Requires expertise in nonlinear computational mechanics, mechanical testing, and numerical modelling—fields with no overlap to researcher's skill set. Researcher has no background in finite element analysis, materials science, or experimental mechanics."
+      "score": 12,
+      "rationale": "The position requires experimental mechanical testing and nonlinear computational mechanics (numerical modelling, FEM). The researcher has intermediate experimental design and quantitative research skills from user studies, but lacks background in materials science, mechanical testing methodology, finite element modelling, or structural analysis. The intersection is minimal."
     },
     "growth_value": {
-      "score": 2,
-      "rationale": "No capability gaps closed relevant to target identity. Learning computational fracture mechanics would be a complete departure from spatial learning, immersive design, or human-centred research methods."
+      "score": 3,
+      "rationale": "Developing fracture mechanics and computational solid mechanics expertise would not advance the researcher toward their target identity in spatial learning and immersive systems. This is orthogonal to long-term capability development."
     },
     "strategic_value": {
-      "score": 15,
-      "rationale": "KTH is prestigious and Stockholm geographically eligible. However, the School of Engineering Sciences is in materials and structures, not HCI or immersive technology. No pathway to target institutions (Aalto, TU Delft) or target research groups."
+      "score": 60,
+      "rationale": "KTH is a top technical university in Sweden, within the researcher's preferred geography. The position is well-structured and offers collaboration with Swedish nuclear industry. However, this is outweighed by complete disciplinary misalignment. The researcher's target institutions are Aalto and TU Delft (both in priority 1); KTH is not mentioned in target_institutions."
     },
-    "required_skills": [],
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
     "preferred_skills": [],
     "skill_evidence": {},
-    "matched_skills": [],
-    "missing_skills": [
-      "python",
-      "statistics",
-      "experimental-design"
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
     ],
+    "missing_skills": [],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Researcher holds MSc by Research (in progress); position requires completed PhD by employment decision.",
-      "Disciplinary requirement: 'relevant doctoral thesis' in mechanical/civil engineering or materials science. Creative Multimedia MSc does not satisfy this."
+      "Position requires PhD. Researcher holds MSc by Research (in progress). Eligibility contingent on thesis completion before contract start.",
+      "Position emphasizes 'good knowledge and skill in nonlinear computational mechanics'—researcher has no background in FEM, solid mechanics, or materials science.",
+      "Preferred qualifications include PhD obtained 'within the last three years.' If thesis is completed in 2026, this timeline may be tight but achievable.",
+      "Security clearance may apply ('Protective Security Act 2018:585') if role is classified as security-sensitive; not stated whether this position qualifies, but nuclear industry collaboration suggests possible sensitivity."
     ],
     "risks": [
-      "Fundamental disciplinary mismatch: materials science ≠ HCI.",
-      "No experimental mechanics or computational modelling background.",
-      "Complete thematic departure from target identity."
+      "Complete thematic mismatch: materials science and fracture mechanics vs. human-centred XR and spatial learning",
+      "Researcher has no background in mechanical testing, materials science, or structural mechanics",
+      "Position focuses on standardization and regulatory methodology for nuclear/process industry—outside researcher's domain and target identity",
+      "Posting is in Swedish language context (Swedish original takes precedence); while position is advertised in English, there may be institutional communication expectations"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -383,14 +430,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.98,
+    "confidence": 0.93,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-07-21T07:43:13.267584Z",
-    "analysis_input_hash": "2106e2565937412fb67ed1b592524be4f3c03ba257f3cc3983af9b0c14854b15"
+    "analyzed_at": "2026-08-22T07:00:50.756823Z",
+    "analysis_input_hash": "6382c03ecd67068a070ad41c688aed644aacad488f59707bfe98aa869471f1eb"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -399,9 +446,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 4,
-    "urgency": "urgent",
-    "days_to_deadline": 3,
+    "fit_overall": 15,
+    "urgency": "high",
+    "days_to_deadline": 16,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

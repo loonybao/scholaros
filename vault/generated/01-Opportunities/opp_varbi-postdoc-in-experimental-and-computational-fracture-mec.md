@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-experimental-and-computational-fracture-mec
 type: opportunity
 title: "Postdoc in Experimental and Computational Fracture Mechanics"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-24
+deadline: 2026-09-07
 status: open
 eligibility_gate: uncertain
-fit_overall: 4
-urgency: urgent
+fit_overall: 15
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in Experimental and Computational Fracture Mechanics
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-24
+**Deadline:** 2026-09-07
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 3)
+Gate: **uncertain** (days to deadline: 16)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -100,33 +100,34 @@ Jonas Faleskog, Professor, +4687908977, faleskog@kth.se
 Published
 02.Jul.2026
 Last application date
-24.Aug.2026
+07.Sep.2026
 Login and apply
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
 
-KTH postdoc in experimental and computational fracture mechanics focused on mechanical testing of sub-sized specimens, numerical modelling of crack growth, and standardization of methods for structural integrity assessment in ductile materials.
+Postdoctoral researcher position in experimental and computational fracture mechanics at KTH Royal Institute of Technology, Stockholm. Work combines mechanical testing of mini-CT specimens with numerical modelling to improve crack growth resistance characterization and sub-sized specimen methodology for structural integrity assessment.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 0 |
-| Methodological fit | 5 |
-| Growth value | 2 |
-| Strategic value | 15 |
-| **Overall** | **4** |
+| Thematic fit | 4 |
+| Methodological fit | 12 |
+| Growth value | 3 |
+| Strategic value | 60 |
+| **Overall** | **15** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python, statistics, experimental-design
+**Missing skills:** none noted
 
 **Risks:**
-- Fundamental disciplinary mismatch: materials science ≠ HCI.
-- No experimental mechanics or computational modelling background.
-- Complete thematic departure from target identity.
+- Complete thematic mismatch: materials science and fracture mechanics vs. human-centred XR and spatial learning
+- Researcher has no background in mechanical testing, materials science, or structural mechanics
+- Position focuses on standardization and regulatory methodology for nuclear/process industry—outside researcher's domain and target identity
+- Posting is in Swedish language context (Swedish original takes precedence); while position is advertised in English, there may be institutional communication expectations
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-experimental-and-computational-fracture-mec.md` and link [[opp_varbi-postdoc-in-experimental-and-computational-fracture-mec]]._

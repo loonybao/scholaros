@@ -1,0 +1,168 @@
+{
+  "id": "opp_tudelft-postdoc-integrated-sensor-and-readout-ics-for-roboti",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-22T06:46:09.598250Z",
+  "updated_at": "2026-08-22T07:01:39.104389Z",
+  "change_history": [
+    {
+      "ts": "2026-08-22T06:46:09.598366Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-22T07:00:50.756306Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-22T07:01:39.104389Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Integrated Sensor and Readout ICs for Robotics Smart Skin",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1370068557",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Integrated-Sensor-and-Readout-ICs-for-Robotics-Smart-Skin-2628-CD/1370068557/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Integrated-Sensor-and-Readout-ICs-for-Robotics-Smart-Skin-2628-CD/1370068557/",
+    "evidence_ids": [
+      "tudelft/1370068557"
+    ],
+    "retrieved_at": "2026-08-22T06:46:09.598050Z",
+    "raw_snapshot_hash": "3802577eae8399fe45c15e2cb715c7396ff62ebfd72d552e00ce5199f30be665",
+    "extracted_content_hash": "bef167b044aba9be9b327a38d84c8e69612d130cbeb7b38e0103bb279e308a9b",
+    "deadline": "2026-09-18",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Give robots a human-like sense of touch. Develop integrated sensors and mixed-signal readout ICs for flexible electronic skin, enabling fast, robust and scalable tactile intelligence for advanced robotics.\nJob description\nHow do you equip an entire robot with thousands of tactile sensors without creating excessive wiring, latency and sensitivity to electromagnetic interference and power-supply noise? As a Postdoc at TU Delft, you will tackle these challenges by developing integrated sensor and readout IC technology for flexible electronic skin, or Smart Skin.\nYou will design, simulate and lay out low-power mixed-signal ICs for large sensor arrays. Your work may include low-noise analogue front-ends, high-resolution and energy-efficient ADCs, and local data processing and multiplexing. You will explore circuit architectures such as local digitisation, event-driven or asynchronous readout, and noise-immune topologies to achieve robust, ultra-low-latency tactile sensing with a high dynamic range.\nWorking closely with materials and sensor experts, you will integrate CMOS chips with flexible or stretchable capacitive, piezoelectric or piezoresistive sensor arrays. You will take designs from architecture to tape-out and characterisation, using suitable CMOS technologies. You will conduct electrical measurements and validate your solutions at robotic system level.\nYour research will combine fundamental IC innovation with hands-on experimental work. You will publish your findings at leading solid-state circuits and sensor conferences and in journals, and co-supervise MSc and PhD candidates.\nYou will work at the\nFaculty of Electrical Engineering, Mathematics and Computer Science\n(EEMCS), within the\nDepartment of Microelectronics\n. Here, you will join an interdisciplinary research environment with expertise in integrated circuits, sensors and robotic systems. You will have access to advanced IC design tools, measurement equipment and fabrication facilities. Together, we aim to develop the hardware that enables the next generation of intelligent robots to physically sense and interact with their environment.\nJob requirements\nYou hold a PhD in Electrical Engineering, Microelectronics, Integrated Circuits or a closely related field.\nYou have a strong foundation in analogue IC design, including MOSFET physics, amplifiers, voltage references and frequency compensation.\nYou have experience designing mixed-signal circuits, such as ADCs, DACs, comparators, oscillators or related building blocks.\nYou are proficient with IC design and simulation tools such as Cadence Virtuoso and Spectre, or comparable industry-standard EDA tools.\nYou have experience with system-level modelling using MATLAB/Simulink, Verilog-A or comparable tools.\nYou enjoy collaborating across disciplines and translating sensor and system requirements into integrated circuit architectures.\nExperience with capacitive, resistive or ultrasonic sensors and their readout ICs is an advantage, but not required.\nYou communicate effectively in English and are motivated to publish research and support MSc and PhD candidates.\nYou are expected to have 2+ successful tapeouts in CMOS technologies.\nYou are expected to have at least 2 of the following publications: ISSCC, VLSI,  ESSERC, ASSCC, CICC, JSSC, TCAS-I, SSCL, TCAS-II.\nCandidates who do not fullfill the requirements will not be considered.\nTU Delft (Delft University of Technology)\nDelft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.\nAt TU Delft we embrace diversity as one of our core\nvalues\nand we actively\nengage\nto be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.\nChallenge. Change. Impact!\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDuration of contract is 18 months Temporary\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Qinwen Fan, via\nqinwenfan@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n18 September 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nPlease highlight your IC design experience, including tape out if applicable\nPlease highlight your publication list\nPlease include a <5 slides PPT, showcasing one of your previous works\nYou can address your application to Qinwen Fan.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoctoral researcher position in integrated circuit design for robotic tactile sensing at TU Delft. Focus is on developing low-power mixed-signal ICs (analogue front-ends, ADCs, signal processing) for flexible sensor arrays in robot skin applications. Requires expertise in CMOS design, tape-outs, and publication record.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "The posting mentions robotics and sensing hardware, but the core research is pure mixed-signal IC design and microelectronics—not human-centred interaction or immersive systems. While robotics is mentioned, the focus is on hardware (CMOS circuits, ADCs, analogue front-ends) not on human factors, collaboration, learning, or UX. The researcher's target identity explicitly excludes 'embedded systems' and 'GPU optimisation'—IC design falls into similar engineering hardware categories."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "The position requires advanced expertise in analogue IC design (MOSFET physics, amplifier design, frequency compensation), mixed-signal circuits, Cadence Virtuoso, and systems-level modelling (MATLAB/Simulink, Verilog-A). The researcher has advanced Unity/C# skills but zero background in electronics, circuit design, or CMOS technology. No methodological overlap."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "Developing IC design expertise would not advance the researcher toward their target identity in human-centred XR and spatial learning research. This is a pure hardware engineering track with no relevance to long-term capabilities they aim to build."
+    },
+    "strategic_value": {
+      "score": 45,
+      "rationale": "TU Delft is world-class (EEMCS is a leading faculty), and the position offers access to advanced fabrication and design tools. However, the researcher is ineligible (requires PhD; they hold MSc) and the disciplinary misalignment is severe. The robotics context is superficial; this is fundamentally a microelectronics position."
+    },
+    "required_skills": [
+      "cpp"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "cpp"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD in Electrical Engineering, Microelectronics, or Integrated Circuits. Researcher's MSc is in multimedia creative technology—not eligible.",
+      "Hard requirement: '2+ successful tapeouts in CMOS technologies' and '≥2 publications at ISSCC, VLSI, ESSERC, ASSCC, CICC, JSSC, TCAS-I, SSCL, TCAS-II.' Researcher has zero tapeouts and no publications in any circuits venue.",
+      "Posting states: 'Candidates who do not fulfill the requirements will not be considered.' Researcher fails multiple hard requirements."
+    ],
+    "risks": [
+      "Ineligible: requires PhD; researcher holds MSc by Research (in progress)",
+      "Hard requirements for tapeouts and top-tier circuits publications are screening criteria; researcher has neither",
+      "Disciplinary mismatch is fundamental: microelectronics IC design vs. human-centred XR and immersive systems",
+      "Position's core is pure embedded systems hardware—explicitly listed in target_identity.excluded_directions",
+      "No transferable skills from Unity/XR development to CMOS circuit design"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-22T07:00:50.756024Z",
+    "analysis_input_hash": "b834277b79a33def2499762afe04a4acc64f3890f1575571073648316c6ba0e4"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 12,
+    "urgency": "medium",
+    "days_to_deadline": 27,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

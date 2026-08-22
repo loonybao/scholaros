@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-microstructure-informed-modelling-of-fractu
 type: opportunity
 title: "Postdoc in microstructure-informed modelling of fracture mechanics"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-08-24
+deadline: 2026-09-07
 status: open
 eligibility_gate: uncertain
-fit_overall: 8
-urgency: urgent
+fit_overall: 7
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in microstructure-informed modelling of fracture mechanics
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-08-24
+**Deadline:** 2026-09-07
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 3)
+Gate: **uncertain** (days to deadline: 16)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -102,7 +102,7 @@ Alexander Grötsch, groetsch@kth.se
 Published
 03.Jul.2026
 Last application date
-24.Aug.2026
+07.Sep.2026
 Login and apply
 Share links
 Return to job vacancies
@@ -111,24 +111,25 @@ Return to job vacancies
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoc position in experimental and computational fracture mechanics at KTH, focused on void nucleation under stress using microCT and synchrotron facilities, with finite element modelling for ductile-to-brittle transition in HSLA steels.
+Postdoc in experimental and computational fracture mechanics at KTH, combining mechanical testing, X-ray CT imaging, and finite element modelling to develop void nucleation models for material failure prediction.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 10 |
-| Growth value | 5 |
+| Methodological fit | 8 |
+| Growth value | 2 |
 | Strategic value | 15 |
-| **Overall** | **8** |
+| **Overall** | **7** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** python
 
 **Risks:**
-- Fundamental domain mismatch: materials science and mechanics engineering vs. HCI and immersive systems. Two years in this track would delay PhD application and dissertation focus.
-- No XR/immersive learning research in group; no pathway to target institutions (Aalto, TU Delft) or target identity.
-- Supervisor expertise in fracture mechanics, not HCI or immersive systems evaluation.
+- Thematic misalignment is fundamental: materials science vs. human-centred HCI; no recovery pathway within this position.
+- Technical skill mismatch: nonlinear finite element modelling, synchrotron-scale X-ray CT, and HSLA steel mechanics are outside candidate's domain and would require substantial retraining.
+- Strategic risk: accepting this role would delay or derail entry into human-centred XR research communities and European HCI groups (Aalto, TU Delft priority targets).
+- Postdoc timing: candidate is mid-thesis; employment decision timeline and degree completion alignment unclear from posting.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-microstructure-informed-modelling-of-fractu.md` and link [[opp_varbi-postdoc-in-microstructure-informed-modelling-of-fractu]]._

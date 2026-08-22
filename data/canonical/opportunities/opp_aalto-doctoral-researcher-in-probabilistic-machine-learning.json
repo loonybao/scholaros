@@ -1,0 +1,175 @@
+{
+  "id": "opp_aalto-doctoral-researcher-in-probabilistic-machine-learning",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-22T06:43:34.016947Z",
+  "updated_at": "2026-08-22T07:01:38.983932Z",
+  "change_history": [
+    {
+      "ts": "2026-08-22T06:43:34.017087Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-22T07:00:50.752768Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-22T07:01:38.983932Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher in Probabilistic Machine Learning",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-science",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-in-probabilistic-machine-learning",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-probabilistic-machine-learning",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-Researcher-in-Probabilistic-Machine-Learning_R47634/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-in-probabilistic-machine-learning"
+    ],
+    "retrieved_at": "2026-08-22T06:43:34.016726Z",
+    "raw_snapshot_hash": "eac492cdbcea7b211d01c9fe1625224fe0790a11370d3907a21005c1d91e1543",
+    "extracted_content_hash": "b23b867d3d6a75133bfaaf1037e390e6513742581f6259dc152dc84dddb4aad0",
+    "deadline": "2026-10-21",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-21",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Doctoral Researcher in Probabilistic Machine Learning\nAalto University is a community of bold thinkers where science and art meet technology and business. We are committed to identifying and solving grand societal challenges and building an innovative future. Aalto has six schools with 14 000 students and a staff of 5000, of which more than 400 are professors. Our main campus is located in Espoo, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe Department of Computer Science is an internationally-oriented community and home to world-class research in modern computer science, combining research on foundations and innovative applications. With over 40 professors and more than 450 employees from 50 countries, it is the largest department at Aalto University and the leading computer science research unit in northern Europe. Computer science research at Aalto University ranks high in several international surveys (7th in Europe and 1st in the Nordics (NTU 2023); and 88th worldwide in Times Higher Education subject ranking 2025).\nWe are now looking for a:\nDoctoral Researcher\nWe are looking for a doctoral researcher(PhD student) with a strong background in probabilistic machine learning, statistics, applied mathematics, computer science, or a related field, and strong programming skills, to work on biology-informed machine learning for dynamical systems (see project description below). The position is based at the Department of Computer Science at Aalto University, Finland, within a research environment spanning the Computational Systems Biology group, the Finnish Centre for Artificial Intelligence (FCAI), and ELLIS Institute Finland. You will be supervised by Dr Julien Martinelli and Associate Professor Harri Lähdesmäki. The position offers a broad local research network in Bayesian machine learning and computational biology.\nYour network and team\nDr Martinelli is an independent Research Fellow supported by an Academy Research Fellowship of the Research Council of Finland and develops Biology-Informed Machine Learning methods for biomedical applications. Associate Professor Lähdesmäki leads Aalto’s Computational Systems Biology group and has extensive expertise in Bayesian inference for biological systems.\nProject description\nOrdinary differential equation (ODE) models provide interpretable descriptions of biological processes, but they are often incomplete: mechanisms may be only partly known, data are noisy and sparsely sampled, measurements vary across individuals and conditions, and some relevant biological states are unobserved. Purely data-driven models offer flexibility, but often ignore known biology and provide limited insight into uncertainty and mechanisms. These challenges motivate a broader Biology-Informed Machine Learning perspective [1].\nThe doctoral student’s thesis will focus on operationalising this perspective through the development of Biology-Informed Gaussian Processes (BioGPs). These are Bayesian dynamical models that combine known mechanistic components with flexible Gaussian process terms representing unknown or misspecified biology. Depending on the candidate’s interests, there may also be opportunities to connect this research with emerging foundation-model approaches for dynamical systems [2]. Key methodological questions shared across these directions include reliable uncertainty quantification, inference from heterogeneous trajectories, partial observability, and the integration of uncertain prior knowledge. A central goal will also be to go beyond trajectory prediction by coupling these approaches with methods for learning explicit, interpretable mechanistic ODEs, including their symbolic structure [3]. Lastly, recent work from the team includes nonparametric mixed-effect ODE models for population- and subject-specific dynamics [4], as well as GP-based approaches to modelling temporal single-cell data [5].\nSelected references\n[1] J. Martinelli. “Position: Biology is the Challenge Physics-Informed ML Needs to Evolve”. In: Advances in Neural Information Processing Systems. Vol. 38.\nOpenReview\n. 2025.\n[2] J. R. Hübers et al. “Foundation Inference Models for Ordinary Differential Equations”. In:\nForty-third International Conference on Machine Learning\n. 2026.\n[3] C. Métayer, A. Ballesta, and J. Martinelli. “Data-driven discovery of digital twins in biomedical research”. In:\nBriefings in Bioinformatics\n27.1 (2026), bbaf722.\nDOI: 10.1093/bib/bbaf722.\n[4] J. Martinelli et al. Bayesian Nonparametric Mixed-Effect ODEs with Gaussian Processes. 2026.\narXiv: 2605.13088 [cs.LG].\n[5] M. Y. Balik and H. Lähdesmäki. “Modeling Temporal scRNA-seq Data with Latent Gaussian Process and Optimal Transport”. In: Proceedings of the 43rd International Conference on Machine Learning.\nOpenReview\n. 2026.\nWhat we offer\nThe position belongs to the Aalto career system and the selected person will be appointed for a two-year fixed term appointment with an option for two-year renewal.\nThe starting salary for the position is 3168,20 EUR per month. In addition to the salary, the contract includes occupational health benefits, and Finland has a comprehensive social security system. The annual total workload of research and teaching staff at Aalto University is 1 612 hours. The position is located at the Aalto University Otaniemi campus.\nReady to apply?\nPlease submit your application through our recruitment system Workday.\nThe deadline for applications is 21.10.2026 at 23.59 (UTC +3).\nThe position will be filled as soon as suitable candidate has been identified.\nTo apply, please share the following application materials in\none\npdf file with us:\nCV\nCover letter highlighting your research interests and how they align with the project (see Dr. Martinelli’s prior\npublications\nfor reference)\nExample of academic writing (B.Sc/M.Sc thesis, project report from a course, etc.)\nTranscripts of MSc and BSc studies\nThe degree certificate of your latest degree\nThe candidates must have completed their master’s degree before the start of the contract period. Aalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.\nFurther information\nDr. Julien Martinelli, e-mail\njulien.martinelli@aalto.fi\n.\nHR Advisor Susanna Holma, e-mail \"hr-cs@aalto.fi\" (recruitment process)\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nAalto University – Towards a better world\n,\nAalto People\n, and\nShaping a Sustainable Future\n.\nAnd this webpage about Aalto and Finland:\nWhy Finland? | Aalto University\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi/\n!\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was just listed again as the happiest country in the world:\nWorld Happiness Report 2025: People are much kinder than we expect, research shows | The World Happiness Report\n.\nMore about Aalto University:\nAalto.fi\ntwitter.com/aaltouniversity\nfacebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Doctoral researcher position in probabilistic machine learning and Bayesian inference for biological dynamical systems at Aalto University's Department of Computer Science. The work combines theory (Gaussian processes, ODE models, symbolic discovery) with applications in computational biology, supervised by established researchers in Bayesian ML and systems biology.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The position is fundamentally about pure machine learning algorithm development (Bayesian inference, Gaussian processes, symbolic ODE discovery) applied to biology. The researcher's expertise is in human-centred XR, collaborative immersive systems, and spatial learning—domains that do not intersect with probabilistic ML or computational biology. XR is not mentioned in the posting."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "The researcher has intermediate quantitative research and statistics skills, but the position requires advanced probabilistic ML, Bayesian inference, and nonparametric modelling—well beyond beginner Python and basic statistics. The core methodological toolkit (mixed-effects modelling, advanced statistics, computational biology pipelines) is absent from the researcher's profile."
+    },
+    "growth_value": {
+      "score": 15,
+      "rationale": "While the position would develop quantitative and computational skills, it addresses neither the researcher's stated target identity (human-centred XR/HCI) nor long-term capability gaps relevant to spatial learning, collaboration, or immersive systems. The pivot would be too radical and orthogonal to career trajectory."
+    },
+    "strategic_value": {
+      "score": 60,
+      "rationale": "Aalto University is a world-leading institution (7th in Europe for CS) with excellent funding stability and international reputation. Supervisors Martinelli and Lähdesmäki are established researchers with strong publication records and Academy funding. However, this advantage is entirely offset by thematic misalignment; institutional quality cannot compensate for pursuing a fundamentally different research direction."
+    },
+    "required_skills": [
+      "statistics",
+      "mixed-effects-modelling",
+      "python",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "statistics",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc by Research (in progress) must be completed before contract start; thesis stage status suggests completion within timeframe is likely but not confirmed",
+      "No background in probabilistic ML, Bayesian inference, or computational biology mentioned; substantial retraining would be required"
+    ],
+    "risks": [
+      "Pure machine learning algorithm development is explicitly listed in target_identity.excluded_directions as a poor fit",
+      "No overlap between researcher's domains (human-centred XR, spatial cognition, collaboration) and position core (probabilistic ML, biological dynamical systems, symbolic ODE discovery)",
+      "Position requires 'strong background' in probabilistic ML or applied mathematics; researcher has neither",
+      "Supervisors' expertise is in Bayesian inference and computational systems biology, not HCI or immersive systems; limited alignment for mentorship"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-22T07:00:50.752316Z",
+    "analysis_input_hash": "518be69988cb3cd37c294733030b0cdb823e36f968adc648340d82818ae90790"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 16,
+    "urgency": "low",
+    "days_to_deadline": 60,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
