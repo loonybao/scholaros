@@ -1,7 +1,7 @@
 {
   "tampere": {
-    "last_run": "2026-08-23T06:46:05.091282+00:00",
-    "last_success": "2026-08-23T06:46:05.091282+00:00",
+    "last_run": "2026-08-24T07:04:41.671728+00:00",
+    "last_success": "2026-08-24T07:04:41.671728+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
@@ -15,32 +15,32 @@
     }
   },
   "aalto": {
-    "last_run": "2026-08-23T06:44:54.752785+00:00",
-    "last_success": "2026-08-23T06:44:54.752785+00:00",
+    "last_run": "2026-08-24T07:03:32.249769+00:00",
+    "last_success": "2026-08-24T07:03:32.249769+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
       "fetched": 27,
-      "relevant": 16,
+      "relevant": 17,
       "created": 0,
       "updated": 0,
-      "unchanged": 16,
+      "unchanged": 17,
       "candidates": 0,
-      "skipped_irrelevant": 11
+      "skipped_irrelevant": 10
     }
   },
   "tudelft": {
-    "last_run": "2026-08-23T06:57:22.618040+00:00",
-    "last_success": "2026-08-23T06:57:22.618040+00:00",
+    "last_run": "2026-08-24T07:15:46.957556+00:00",
+    "last_success": "2026-08-24T07:15:46.957556+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 100,
-      "relevant": 58,
-      "created": 0,
+      "fetched": 97,
+      "relevant": 56,
+      "created": 2,
       "updated": 0,
-      "unchanged": 58,
-      "candidates": 4,
+      "unchanged": 54,
+      "candidates": 3,
       "skipped_irrelevant": 38
     }
   },
@@ -60,18 +60,18 @@
     }
   },
   "varbi": {
-    "last_run": "2026-08-23T07:01:38.947185+00:00",
-    "last_success": "2026-08-23T07:01:38.947185+00:00",
+    "last_run": "2026-08-24T07:19:11.452326+00:00",
+    "last_success": "2026-08-24T07:19:11.452326+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 38,
-      "relevant": 27,
+      "fetched": 31,
+      "relevant": 21,
       "created": 0,
       "updated": 0,
-      "unchanged": 27,
+      "unchanged": 21,
       "candidates": 2,
-      "skipped_irrelevant": 9
+      "skipped_irrelevant": 8
     }
   }
 }

@@ -1,0 +1,180 @@
+{
+  "id": "opp_tudelft-phd-position-on-the-impact-of-extreme-events-on-stru",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-24T07:05:57.889377Z",
+  "updated_at": "2026-08-24T07:19:33.077070Z",
+  "change_history": [
+    {
+      "ts": "2026-08-24T07:05:57.889502Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-24T07:19:32.816329Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-24T07:19:33.077070Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position on the Impact of Extreme Events on Structures",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1370164757",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-on-the-Impact-of-Extreme-Events-on-Structures-2628-CD/1370164757/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-on-the-Impact-of-Extreme-Events-on-Structures-2628-CD/1370164757/",
+    "evidence_ids": [
+      "tudelft/1370164757"
+    ],
+    "retrieved_at": "2026-08-24T07:05:57.889213Z",
+    "raw_snapshot_hash": "92b08e917406c7f4f7acca8e6193c0b86ca89ae7975926533b91ce7da9bae9ff",
+    "extracted_content_hash": "ab6e142b3f6dd4035b906163c3a103a6fb7e53197e297d70bbaa811a198dc0ad",
+    "deadline": "2026-09-27",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - 4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Challenge: Extreme water events threaten people and infrastructure\nChange: Understand impact dynamics with experiments and numerical simulations\nImpact: Optimize the design of resilient infrastructure\nJob description\nWe are looking for an enthusiastic and talented PhD student to join the NWO-VIDI project 'Not-Just-Water' to investigate the impact of extreme water events on (infra)structure. These events such as (flash)floods, dam failures, coastal floods, storm surges and tsunamis generate highly unsteady flows whose interaction with buildings is poorly understood. In particular, the coupling between hydraulic processes and structural response represents a major knowledge gap.\nIn this PhD project, you will focus on impact dynamics on structures, establishing direct links between unsteady hydraulic loads and the structure’s response. Working in TU Delft’s Hydraulic Engineering laboratory, you will design and perform advanced large-scale experiments using our dam-break facility and instrumented building models (impervious and with openings) capturing loads and pressures on various structural elements, both horizontally and vertically. Integrating experiments with numerical simulations (e.g. CFD-OpenFOAM, OpenSees), you will provide new understanding of the coupled water-structure interaction during extreme events. Positioned at the interface between hydraulic and structural engineering, your research will help explaining how structures respond to extreme hydraulic loading and provide the scientific basis for safer and more optimized engineering solutions.\nThis position offers a unique opportunity to combine fundamental research with real-world impact, developing the knowledge and tools needed to better protect communities against future extreme events. You will collaborate closely with international academic and industrial partners, as part of a multidisciplinary team working at the forefront of climate-resilient infrastructure research.\nOur team values a supportive and inclusive working environment where diverse perspectives are encouraged. You will receive guidance and mentoring to develop your scientific and professional skills, with opportunities to co-supervise MSc students, present your work internationally, and participate in TU Delft’s extensive training programme.\nThe position is embedded within the globally recognized Department of Hydraulic Engineering (HE) at TU Delft, renowned for excellence in education, research, and innovation. The department addresses major societal challenges, including climate adaptation, energy transition, and sustainable development, supported by world-class experimental facilities and a vibrant international community of around 68 permanent staff members and more than 100 PhD candidates and postdoctoral researchers.\nJob requirements\nWe are looking for a highly motivated candidate with the following qualifications:\nNeed-to-haves:\nA MSc in Civil (Hydraulic) Engineering, Civil (Structural) Engineering, Mechanical Engineering, or a closely related discipline.\nDemonstrable experience with data processing, signal analysis and programming (e.g. Python/Matlab).\nAbility to work independently as well as in a multi-disciplinary team.\nFluent in English (oral and written).\nNice-to-haves:\nPrevious laboratory experience is a plus.\nAvailability to start preferably in January/February 2027.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - 4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Davide Wüthrich (Assistant Professor in Hydraulic Structures) at\nd.wuthrich@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n27 September 2026\nvia the application button and upload the following documents:\nA detailed Curriculum Vitae, including your list of publications.\nA cover letter (max. 1 page) describing your motivation and qualifications for the position.\nApplicants selected for an interview will be asked to provide contact information of at least 2 references.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "A four-year PhD in hydraulic-structural engineering investigating how extreme water events (floods, tsunamis) impact infrastructure. The work combines large-scale experiments in hydraulic labs with numerical simulations (CFD, structural analysis) to model coupled water-structure interactions and inform resilient infrastructure design.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic overlap. The position is fundamentally about hydraulic engineering, structural mechanics, and climate-resilient infrastructure. The researcher works in human-centred immersive systems, spatial cognition, and collaborative learning. Neither the research questions, target users, nor application domains intersect."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "The position lists 'data processing, signal analysis, and programming (Python/Matlab)' as requirements. The researcher has beginner Python (no substantial project experience) and no demonstrated competency in signal analysis, hydraulic modelling, or CFD. The core methods—large-scale experimental fluid dynamics, finite-element structural analysis, numerical simulation—are engineering disciplines with no overlap to user studies, immersive interaction design, or collaborative HCI evaluation. The 'design-based research' framing in the posting is misleading; this is experimental engineering, not design science in the HCI sense."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "This position provides no growth toward the researcher's stated target identity. It would require mastery of hydraulic engineering, structural mechanics, CFD, and signal processing—none of which advance capabilities in human-centred XR, spatial cognition research, or collaborative immersive systems. No transferable advanced skills; beginner Python is insufficient foundation."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "TU Delft is a Priority 1 institution with strong funding and reputation. However, the Department of Hydraulic Engineering operates entirely outside HCI and immersive systems research communities. The researcher would have no peer group or mentors in human-centred XR. The position offers structured doctoral training but in a domain that does not support the researcher's long-term identity goals or publication trajectory in their core field."
+    },
+    "required_skills": [
+      "experimental-design",
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "python"
+    ],
+    "missing_skills": [
+      "signal-analysis",
+      "hydraulic-modelling",
+      "cfd-openfoam",
+      "structural-finite-element-analysis",
+      "opensees-numerical-simulation",
+      "fluid-dynamics",
+      "advanced-python-for-engineering"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc required in Civil/Hydraulic/Structural Engineering or 'closely related discipline'—researcher's MSc is in Creative Multimedia, likely does not qualify as closely related",
+      "Posting requires 'demonstrable experience with data processing, signal analysis and programming'—researcher has no signal analysis experience and only beginner Python without project evidence",
+      "Laboratory experience listed as 'nice-to-have,' but core research is experimental fluid dynamics; researcher's lab experience is only user studies in immersive systems"
+    ],
+    "risks": [
+      "Eligibility barrier: MSc discipline mismatch may disqualify application before technical review",
+      "Severe skill gap: researcher lacks foundational knowledge in hydraulics, structural mechanics, CFD, and signal processing",
+      "Career misalignment: accepting this would represent a fundamental pivot away from human-centred XR research and damage positioning in the target field",
+      "No peer support: Hydraulic Engineering department has no active HCI or immersive systems groups",
+      "Publication difficulty: researcher's first-author publication is in immersive learning; pivoting to hydraulic engineering would fragment research identity and limit future HCI funding/collaboration opportunities",
+      "Supervision mismatch: supervisors (hydraulic/structural engineering focus) cannot mentor human-centred research or immersive systems work"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-24T07:19:32.815922Z",
+    "analysis_input_hash": "67ca6cb88ea741dc5be959665f1e3f71c5a80e8eb628fa23087644df7b19c771"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 9,
+    "urgency": "medium",
+    "days_to_deadline": 34,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
