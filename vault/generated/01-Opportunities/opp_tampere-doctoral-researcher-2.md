@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-10-05
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 41)
+Gate: **uncertain** (days to deadline: 40)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -118,7 +118,28 @@ Hakuaika tehtävään päättyy 5.10.2026, klo 23:59.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Doctoral researcher position in deep learning and machine learning methods for high-frequency financial data modeling, housed in the Computational Intelligence group at Tampere University with collaboration from the Financial Data Science group. The role focuses on designing ML/DL models for financial markets, including generative models, forecasting, and trustworthy predictions, with a four-year full-time contract.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 25 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, mixed-effects-modelling
+
+**Risks:**
+- Severe domain misalignment: Pure ML/fintech research directly contradicts stated target identity and excluded research directions.
+- Credential mismatch: A PhD in deep learning for financial markets would position the researcher as a machine learning specialist, not a human-centred XR/HCI researcher, making future transitions to priority institutions (Aalto, TU Delft) difficult.
+- Skill gap in core requirements: Beginner Python and basic statistics are substantial gaps for a doctoral researcher in deep learning; ramp-up would be steep and time-consuming.
+- No HCI/user evaluation component: The role offers no opportunity to develop or maintain human-centred research methodologies, user study design, or evaluation skills central to the target identity.
+- Opportunity cost: Four years in fintech ML delays entry into collaborative immersive systems research and PhD networks in HCI/XR.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-2.md` and link [[opp_tampere-doctoral-researcher-2]]._

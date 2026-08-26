@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-25T06:53:12.223380Z",
-  "updated_at": "2026-08-25T07:11:55.109047Z",
+  "updated_at": "2026-08-26T07:09:39.945633Z",
   "change_history": [
     {
       "ts": "2026-08-25T06:53:12.223518Z",
@@ -21,6 +21,45 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-08-26T07:09:39.767119Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-26T07:09:39.945633Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,16 +98,80 @@
     "status": "open",
     "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our university community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\n.\nWe are looking for a\nDoctoral Researcher to work on deep learning methodologies for high-frequency financial data modeling.\nThe selected applicant will be member of the Computational Intelligence group led by Professor\nAlexandros Iosifidis\n, and closely collaborate with the Financial Data Science group led by Professor\nJuho Kanniainen\n, at the Unit of Computing Sciences of Tampere University. The position is full-time and will be filled as soon as possible for a fixed-term period of four years. The workplace is located at Hervanta Campus of Tampere University, Finland.\nJOB DESCRIPTION\nThe\nDoctoral Researcher\nwill conduct research on designing, implementing, and proposing new Machine/Deep Learning methods and models for Financial Markets.\nTopics of interest include generative models for financial data synthesis and/or forecasting, trustworthy financial data predictions, world models for financial markets, system-II predictive models, and multi-model multi-asset routing mechanisms for financial predictions\n.\nThe project combines real-world financial data analysis with hands-on design and development of Machine Learning models that push the state-of-the-art, with room to shape the direction of research based on the researcher’s interests. Writing high-level scientific publications is an essential part of the research.\nIn addition to the research towards the doctoral dissertation, the duties of the researcher may include some teaching tasks (5-10%) or other small faculty tasks that support the studies.\nREQUIREMENTS\nA completed master's degree in computer science, computer engineering, or another related field.\nStrong knowledge of Machine Learning theory and methods, and related Deep Learning approaches, with emphasis on fundamental concepts and techniques.\nAbility to conduct systematic scientific research related to the design of Deep Learning methods and models.\nA curious mind and solid skills in critical thinking and problem solving.\nKnowledge and experience of Generative AI focusing on the methodologies and their applications in different types of data. Knowledge of financial data analysis, especially Limit Order Book data, is considered an advantage.\nExcellent communication skills in English, and ability to collaborate in multidisciplinary teams.\nAbility to write research papers in high-quality peer-reviewed journals or conferences in the field of Machine Learning and/or Finance.\nYou need to have completed a relevant Master’s degree before the starting date of employment.\nThe selected person will need to apply for and be granted a study right for a doctoral degree in the doctoral programme of Computing and Electrical Engineering at Tampere University. Please visit\nthe admission web page of the doctoral programme of Computing and Electrical Engineering\nfor more information on eligibility requirements of the doctoral programme.\nPlease note that if you have not completed a university degree in Finland, an official English language certificate will also be required for the admission to the doctoral programme. The accepted English language certificates and their minimum requirements, as well as exemptions regarding the certificates, are available\nhere\n.\nWE OFFER\nThe full-time position will be filled for a fixed-term period of four years. The planned starting date is\nDecember 1\nst\n, 2026\nor as mutually agreed by both parties.A trial period of six (6) months applies to all our new employees.\nThe salary will be based on both the job requirements and the employee’s personal performance in accordance\nwith the Finnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of a Doctoral Researcher is placed on level 2-4 of the job requirements scale. A typical starting salary for a Doctoral Researcher is approximately 2770-2900 EUR/month. The salary increases based on experience and the progress of doctoral studies.\nWe are inviting you to be a part of a vibrant, active and truly international research community. Our\nData Science Research Centre\nis formed by experts actively contributing to different aspects of Artificial Intelligence, especially in Fundamental and Applied Machine Learning. Moreover, both Professor Alexandros Iosifidis and Professor Juho Kanniainen are Associated Faculty of the newly established\nELLIS Institute Finland\nwhich is a world-class research hub in AI and machine learning.\nWe value interdisciplinarity, as it allows new perspectives and ideas to solve research problems and pursue novel research findings in human-centered interactive technologies. We are strongly committed to the highest level of scientific research and the provision of high-quality doctoral education.\nAs a member of staff at Tampere University, you will enjoy a range of competitive benefits, such as occupational health care services, flexible work schedule, versatile research infrastructure, modern teaching facilities and a safe and inviting campus area as well as a personal fund to spend on sports and cultural activities in your free time. Please read more about\nworking at Tampere University\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\n.\nTampere is one of the major academic hubs in the Nordic countries and offers a dynamic living environment. Tampere region is one of Finland´s three most rapidly growing urban areas and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society.\nRead more about Finland and Tampere:\nVisit Finland\nThis is Finland\nMinistry of Economic Affairs and Employment: Welcome to Finland\nVisit Tampere\nHOW TO APPLY\nPlease submit your application through our online recruitment system.\nThe closing date for applications is Monday, October 5\nth\n, 2026 (23:59:00 EEST / UTC +3).\nPlease write your application and all the accompanying documentation in English and attach them in PDF format.\nPlease attach only the following documents to your application:\nCurriculum vitae.\nFree-form application letter including 1) a brief statement of how you meet the criteria for this position, and 2) description of your research interests in the scope of the Doctoral Researcher position described above.\nThis letter should be max. 3 pages long, font 12.\nPDF copies of your Master’s and Bachelor’s degree certificates, including transcripts of all university records (in Finnish or English).\nOther relevant documents that support your application, e.g. your Master’s thesis, the most relevant publications regarding the call (max. 2), and a list of referees\nFor more information, please contact:\nProfessor Alexandros Iosifidis,\nalexandros.iosifidis@tuni.fi\nProfessor Juho Kanniainen,\njuho.kanniainen@tuni.fi\n***\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTampereen yliopistossa on haettavana väitöskirjatutkijan (Deep Learning for High-Frequency Financial Data Modeling) tehtävä.\nHAKUOHJEET\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).\nHakuaika tehtävään päättyy 5.10.2026, klo 23:59."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Doctoral researcher position in deep learning and machine learning methods for high-frequency financial data modeling, housed in the Computational Intelligence group at Tampere University with collaboration from the Financial Data Science group. The role focuses on designing ML/DL models for financial markets, including generative models, forecasting, and trustworthy predictions, with a four-year full-time contract.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The position's core is pure machine learning algorithm development for financial data—explicitly excluded in the researcher's target identity. No connection to human-centred immersive systems, spatial cognition, collaborative learning, or XR/HCI. The domain (fintech ML) and target domain (immersive HCI) are orthogonal."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "The researcher has intermediate quantitative research and experimental design skills applicable to any empirical doctoral work. However, the position requires deep learning theory, generative AI methodologies, and financial data analysis—none of which the researcher has demonstrated. The methodological foundations (statistics, programming for ML pipelines) are nascent (beginner Python, basic statistics) and would require substantial upskilling in unfamiliar territory. No user studies, HCI evaluation, or human-centred research methods are part of this role."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "This position would develop technical ML/DL capabilities and financial domain knowledge, but these close none of the researcher's stated long-term capability gaps. The target identity emphasizes human-centred evaluation, spatial learning transfer, and collaborative immersive design—none of which are addressed. Growth in pure ML algorithm development actively diverges from the target identity and would delay progress toward collaborative immersive systems research."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "Tampere University is in the preferred geography (Finland, Priority 2), and the university has strong research infrastructure and ELLIS affiliation, suggesting funding stability and research quality. However, the supervisor group (Computational Intelligence, Financial Data Science) has no overlap with human-centred XR, HCI, or immersive learning. A PhD from this group would establish credentials in ML/fintech, not in the researcher's target field, potentially creating reputational misalignment with future HCI/immersive systems hiring committees. The four-year contract duration is standard and supportive of doctoral completion."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "academic-writing",
+      "statistics"
+    ],
+    "missing_skills": [
+      "python",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires completed MSc by start date (December 1, 2026); researcher is currently in thesis stage—on-time completion risk should be assessed.",
+      "Non-Finnish degree may require official English language certificate for doctoral programme admission per Tampere regulations.",
+      "Position requires 'strong knowledge of Machine Learning theory and methods' and 'generative AI methodologies'—researcher has beginner Python and no demonstrated DL/generative model experience."
+    ],
+    "risks": [
+      "Severe domain misalignment: Pure ML/fintech research directly contradicts stated target identity and excluded research directions.",
+      "Credential mismatch: A PhD in deep learning for financial markets would position the researcher as a machine learning specialist, not a human-centred XR/HCI researcher, making future transitions to priority institutions (Aalto, TU Delft) difficult.",
+      "Skill gap in core requirements: Beginner Python and basic statistics are substantial gaps for a doctoral researcher in deep learning; ramp-up would be steep and time-consuming.",
+      "No HCI/user evaluation component: The role offers no opportunity to develop or maintain human-centred research methodologies, user study design, or evaluation skills central to the target identity.",
+      "Opportunity cost: Four years in fintech ML delays entry into collaborative immersive systems research and PhD networks in HCI/XR."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-26T07:09:39.766535Z",
+    "analysis_input_hash": "94b59303fdf43f2acdd5953b05ca663ccf13c51248352b7c3fbe37c9c5224612"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 12,
     "urgency": "medium",
-    "days_to_deadline": 41,
+    "days_to_deadline": 40,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
