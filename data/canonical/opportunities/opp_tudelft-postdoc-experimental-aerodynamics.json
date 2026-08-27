@@ -1,0 +1,173 @@
+{
+  "id": "opp_tudelft-postdoc-experimental-aerodynamics",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-27T11:00:29.103210Z",
+  "updated_at": "2026-08-27T11:15:47.802312Z",
+  "change_history": [
+    {
+      "ts": "2026-08-27T11:00:29.103290Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-27T11:15:47.590190Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-27T11:15:47.802312Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Experimental Aerodynamics",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-aerospace-engineering",
+    "source": "tudelft",
+    "source_native_id": "1370524657",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Experimental-Aerodynamics-2628-CD/1370524657/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Experimental-Aerodynamics-2628-CD/1370524657/",
+    "evidence_ids": [
+      "tudelft/1370524657"
+    ],
+    "retrieved_at": "2026-08-27T11:00:29.103084Z",
+    "raw_snapshot_hash": "f9eebc06fac7020589d9bc4d22d678d93ff2b84d4faeaa1e00348528e5428262",
+    "extracted_content_hash": "cc7381cec349d75c19b939cc4c645844ca36389e87feb6f5abe9a4ea27d29c32",
+    "deadline": "2026-09-27",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Are you passionate about experimental aerodynamics and flow visualization? Apply for a PhD position that aims at transforming flow field measurements into aerodynamic forces by pressure and friction.\nJob description\nThe Aerodynamics group is composed of 12 scientific staff and hosts the Chairs of Experimental Aerodynamics, Computational Fluid Dynamics and Flow Control. The group has a specific expertise in the field of advanced experimental and computational techniques for the analysis of aerodynamic systems as well as in flow control technologies. The group’s research is conducted within collaborations performed with European partners such as the European Space Agency (ESA), the German-Dutch Wind-Tunnels (DNW), LaVision GmbH, a Formula 1 team and several other aerodynamics institutes.\nSince 2000 an experimental aerodynamics team has concentrated on the development of advanced non-intrusive measurement techniques such as Particle Image Velocimetry, InfraRed Thermography and Background Oriented Schlieren for the study of critical aerodynamic phenomena such as flow separation, transition to turbulence, shock wave boundary layer interactions in the supersonic and hypersonic regimes.\nThe Aerodynamics laboratories are equipped with state of the art wind tunnels with a large low-speed (low-turbulence) wind tunnel and high-speed transonic-supersonic tunnels up to hypersonic flows (Mach 11). A low-speed open test section large wind tunnel (Open Jet Facility) erected in 2008 is available for real-world aerodynamics of sports, wind energy and rotorcraft system, among others. The group disposes a wide range of experimental equipment for tomographic PIV, and large scale measurements in wind tunnels and in the field. The research activity aims at high scientific profile, with and attention to the transfer and application of the developed technologies in real industrial situations. Visit www.lr.tudelft.nl/aerodynamics for an overview of current activities and relevant scientific publications. It is the intention of the Aerodynamics group to further explore experimental techniques for aerodynamics, flight mechanics and propulsion, for which the AEROSQIN project constitutes a perfect framework.\nThe candidate will advance techniques for large-scale 3D particle tracking by merging measurement theory and practice with flow modelling for applications in industrial wind tunnels for the aerospace sector and oversee the application of helium-filled soap bubbles as flow tracers up to the supersonic regime.\nJob requirements\nWe will consider applications based on the following skillsets. If you do not fullfil all requirements, please still apply (there is room for learning-on-the-job).\n- A PhD in aerospace/mechanical engineering or applied physics.\n- Demonstrated ability to conduct research in experimental fluid mechanics.\n- Proven competence on flow measurement techniques and PIV.\n- Familiarity with optics, lasers, image processing and statistical data analysis.\n- Familiarity with flow modelling techniques (CFD) or machine learning for fluid flows.\n- Aptitude for team work and excellent communication skills in spoken and written English.\n- Ability to supervise students or early-stage researchers.\n- Affinity with data processing techniques and programming (Matlab and/or Python).\n- Hands-on with laboratory work, skilled in experimental design.\n- Creativity, assertive attitude, and perseverance.\nThe selection process will start immediately; the intended start date is in October 2026.\nTU Delft\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDuration of contract is 2 years. Temporary.\nA job of 38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information, please contact Prof. Fulvio Scarano\nf.scarano@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n27 September 2026\nvia the application button and upload the following documents:\nSubmit the following in three separate pdf files:\nPDF 1 must include:\nCurriculum Vitae\nMotivation letter (max 1 page)\nshould include, at least, the following:\nExamples of projects and achievements that demonstrate your relevant competences\nYour motivation for applying to this position\nPDF 2 must include:\nFull transcripts of your university degree in English. In case the transcripts are in another language, please include a translation (certified translation is not needed).\nPDF 3 must include:\nList of research papers published in international scientific peer-reviewed journals.\nIf the applicants are selected for an interview, they will be asked to provide contact details of two referees with their consent.\nAfter the first selection process, video interviews will be arranged.\nPlease note:\n#EUfunded This is an EU funded project, named\nAEROSQIN (Surface Layer Diagnostics\nfrom Quantitative Flow Visualization)\n, with project number 101266905, within program HE / ERC.\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoc position in experimental aerodynamics and flow visualization at TU Delft, leading development of large-scale 3D particle tracking and high-speed flow tracing methods for aerospace applications, with supervisory responsibilities.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "Position focuses on aerodynamic measurement, flow physics, and aerospace engineering. Researcher's expertise is human-centred XR, collaborative immersive learning, and spatial cognition. No thematic connection; position is pure experimental physics and measurement science."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Researcher has experimental-design and quantitative-research competencies; position requires advanced experimental methodology. However, the technical requirements (PIV expertise, optics, lasers, CFD/ML for flows, hands-on wind-tunnel work) and the scale of responsibility (overseeing techniques, supervising researchers) sit outside researcher's toolkit. Methodological gap is large and not bridgeable within postdoc timeframe."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "Position deepens specialization in aerodynamic measurement and computational fluid dynamics, plus leadership/mentorship. None of these competencies address target capability gaps (statistical depth, qualitative methods, multimodal sensing, collaborative system evaluation, learning outcome measurement). Postdoc would not advance human-centred research skills or strategic positioning."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "TU Delft is priority-1 (Netherlands, EU); Aerodynamics group has excellent infrastructure and EU funding. However, Postdoc position requires PhD in aerospace/mechanical engineering or applied physics—researcher holds MSc (in-progress). Position is therefore ineligible as-stated. Even if eligible, supervisor and group operate in pure fluid mechanics with no HCI track record. Strategic misalignment with target career direction."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python"
+    ],
+    "missing_skills": [
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position explicitly requires PhD in aerospace/mechanical engineering or applied physics. Researcher is MSc by Research (in-progress) in creative multimedia. Does not meet minimum degree requirement for postdoc-level position. Ineligible as posted.",
+      "Posting emphasizes demonstrated PhD-level research in experimental fluid mechanics; researcher's doctoral training will be in HCI, not aerodynamics or physics."
+    ],
+    "risks": [
+      "Ineligible: position requires completed PhD; researcher will hold MSc by Research.",
+      "Extreme domain mismatch even if degree requirement were waived. Researcher lacks the foundational PhD training in aerodynamics/mechanics expected at postdoc level.",
+      "Position is leadership-track (supervise researchers, oversee technique development), requiring deep expertise in field. Researcher has no such background.",
+      "Zero strategic value for target identity. Would derail career trajectory toward human-centred XR and immersive learning research."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-27T11:15:47.589905Z",
+    "analysis_input_hash": "211f953ee8bdbdc0941cb96d34333d15c9804ff37ea78fc54289ec23fcb5e3fc"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 9,
+    "urgency": "medium",
+    "days_to_deadline": 31,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
