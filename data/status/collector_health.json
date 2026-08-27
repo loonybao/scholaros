@@ -1,7 +1,7 @@
 {
   "tampere": {
-    "last_run": "2026-08-27T10:59:13.739142+00:00",
-    "last_success": "2026-08-27T10:59:13.739142+00:00",
+    "last_run": "2026-08-27T17:29:19.290152+00:00",
+    "last_success": "2026-08-27T17:29:19.290152+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
@@ -15,33 +15,33 @@
     }
   },
   "aalto": {
-    "last_run": "2026-08-27T10:58:01.214071+00:00",
-    "last_success": "2026-08-27T10:58:01.214071+00:00",
+    "last_run": "2026-08-27T17:28:05.762163+00:00",
+    "last_success": "2026-08-27T17:28:05.762163+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
       "fetched": 28,
       "relevant": 18,
-      "created": 1,
+      "created": 0,
       "updated": 0,
-      "unchanged": 17,
+      "unchanged": 18,
       "candidates": 0,
       "skipped_irrelevant": 10
     }
   },
   "tudelft": {
-    "last_run": "2026-08-27T11:09:42.168184+00:00",
-    "last_success": "2026-08-27T11:09:42.168184+00:00",
+    "last_run": "2026-08-27T17:39:45.632268+00:00",
+    "last_success": "2026-08-27T17:39:45.632268+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 94,
+      "fetched": 95,
       "relevant": 54,
-      "created": 4,
+      "created": 0,
       "updated": 0,
-      "unchanged": 50,
+      "unchanged": 54,
       "candidates": 3,
-      "skipped_irrelevant": 37
+      "skipped_irrelevant": 38
     }
   },
   "euraxess": {
@@ -60,14 +60,14 @@
     }
   },
   "varbi": {
-    "last_run": "2026-08-27T11:12:34.889197+00:00",
-    "last_success": "2026-08-27T11:12:34.889197+00:00",
+    "last_run": "2026-08-27T17:42:44.090430+00:00",
+    "last_success": "2026-08-27T17:42:44.090430+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 28,
-      "relevant": 18,
-      "created": 0,
+      "fetched": 29,
+      "relevant": 19,
+      "created": 1,
       "updated": 0,
       "unchanged": 18,
       "candidates": 4,

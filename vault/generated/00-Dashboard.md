@@ -260,6 +260,7 @@ _Generated 2026-08-27 — run `python -m compass export` to refresh._
 | [[opp_tudelft-postdoc-in-monitoring-of-thermally-induced-seismic-e\|Postdoc in Monitoring of Thermally Induced Seismic Events]] | TU Delft | 2026-09-30 | 34 | uncertain | 11 |
 | [[opp_aalto-doctoral-researcher-in-simulation-of-variable-speed-el\|Doctoral Researcher in Simulation of Variable Speed Electric Machines with Advanced Magnetic Material]] | Aalto University | 2026-10-01 | 35 | uncertain | 11 |
 | [[opp_euraxess-tenure-track-assistant-professor-associate-professo\|Tenure-Track Assistant Professor / Associate Professor in International Relations]] | Times Higher Education | 2026-10-01 | 35 | fail | 16 |
+| [[opp_varbi-doctoral-student-in-neuronics\|Doctoral student in Neuronics]] | KTH Royal Institute of Technology | 2026-10-01 | 35 | uncertain | — |
 | [[opp_varbi-postdoc-in-nuclear-fuel-materials\|Postdoc in Nuclear Fuel Materials]] | KTH Royal Institute of Technology | 2026-10-01 | 35 | uncertain | 4 |
 | [[opp_tampere-doctoral-researcher-2\|Doctoral Researcher]] | Tampere University | 2026-10-05 | 39 | uncertain | 12 |
 | [[opp_tudelft-phd-position-mri-flow-measurements-in-inertial-dense\|PhD Position MRI Flow Measurements in Inertial Dense Suspensions]] | TU Delft | 2026-10-11 | 45 | uncertain | 14 |
@@ -371,6 +372,7 @@ _Generated 2026-08-27 — run `python -m compass export` to refresh._
 - [[opp_tudelft-phd-position-learning-and-control-for-complex-large]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-postdoc-in-monitoring-of-thermally-induced-seismic-e]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_aalto-doctoral-researcher-in-simulation-of-variable-speed-el]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- [[opp_varbi-doctoral-student-in-neuronics]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_varbi-postdoc-in-nuclear-fuel-materials]] — funding/salary not confirmed on the posting; posting mentions possible nationality/export-control restrictions — verify which roles are affected; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tampere-doctoral-researcher-2]] — funding/salary not confirmed on the posting; whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - [[opp_tudelft-phd-position-mri-flow-measurements-in-inertial-dense]] — whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
