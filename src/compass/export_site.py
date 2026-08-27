@@ -44,6 +44,7 @@ letter-spacing:.05em;color:var(--ink2);margin:26px 0 10px}
 .phase{font-size:20px;font-weight:700}.gen{color:var(--muted);font-size:12px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;
 padding:14px 16px;margin-bottom:12px}
+.card.quiet{background:transparent;border-style:dashed}
 .card h3{margin:0 0 4px;font-size:15px}.card h3 a{color:var(--ink);text-decoration:none}
 .org{color:var(--ink2);font-size:12.5px;margin-bottom:8px}
 .badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
@@ -61,6 +62,25 @@ a{color:var(--accent)}
 
 def _b(text: str, tone: str = "neutral") -> str:
     return f'<span class="b {tone}">{html.escape(str(text))}</span>'
+
+
+def _next_window_note(h: dict) -> str:
+    """Plain-language line about when action does start, from the horizon."""
+    if not h:
+        return "No graduation horizon recorded — nothing is being pushed as urgent."
+    prep = (h.get("preparation_window") or {}).get("from")
+    outreach = (h.get("outreach_window") or {}).get("from")
+    bits = []
+    if prep:
+        bits.append(f"preparation from {prep}")
+    if outreach:
+        bits.append(f"outreach from {outreach}")
+    months = h.get("months_to_graduation")
+    lead = (f"~{round(months)} months to graduation" if months is not None
+            else "Still early")
+    tail = (" · " + " · ".join(bits)) if bits else ""
+    return (f"{lead} — too early to apply or contact groups{tail}. "
+            "High-fit vacancies below are market intelligence, not tasks.")
 
 
 def _card(r: dict) -> str:
@@ -95,10 +115,11 @@ def render_html(cfg: Config, today: date | None = None) -> str:
     today = today or date.today()
     dash = dashboard_data(cfg, today)
     rows = browse_opportunities(cfg, {"scope": "relevant"})
-    # rank: apply/consider first, then by fit
+    # rank: best fit first; recommendation and deadline only break ties
     order = {"apply": 0, "consider": 1, "monitor": 2, "reject": 3, None: 4}
-    rows.sort(key=lambda r: (order.get(r.get("recommendation"), 4),
-                             -(r.get("fit_overall") or 0)))
+    rows.sort(key=lambda r: (-(r.get("fit_overall") or 0),
+                             order.get(r.get("recommendation"), 4),
+                             r.get("deadline") is None, r.get("deadline") or ""))
 
     h = dash.get("graduation_horizon") or {}
     parts = [f'<!doctype html><html lang="en"><head><meta charset="utf-8">',
@@ -118,16 +139,24 @@ def render_html(cfg: Config, today: date | None = None) -> str:
             f'{html.escape(h.get("certainty",""))})</div>'
             f'<div class="meta" style="margin-top:8px">{html.escape(h.get("phase_guidance",""))}</div></div>')
 
-    # action required
+    # What's next — phase-aware. Far from graduation there is nothing to act on,
+    # so the section states that plainly and names the next window instead of
+    # presenting a to-do list the user cannot act on yet.
     ar = dash.get("action_required") or []
     tasks = dash.get("manual_tasks") or []
-    if ar or tasks:
-        parts.append("<h2>Action required</h2>")
-        for t in tasks:
-            parts.append(f'<div class="card"><h3>{html.escape(t.get("title",""))}</h3>'
-                         f'<div class="meta">{html.escape(str(t.get("due_date") or ""))}</div></div>')
+    parts.append("<h2>What's next</h2>")
+    if ar:
         for r in ar:
             parts.append(_card(r))
+    else:
+        parts.append(f'<div class="card"><h3>Nothing to act on yet</h3>'
+                     f'<div class="meta">{html.escape(_next_window_note(h))}</div></div>')
+    if tasks:
+        parts.append("<h2>Your reminders</h2>")
+        for t in tasks:
+            due = str(t.get("due_date") or "no date")
+            parts.append(f'<div class="card quiet"><h3>{html.escape(t.get("title",""))}</h3>'
+                         f'<div class="meta">Set by you · {html.escape(due)}</div></div>')
 
     parts.append(f"<h2>Relevant opportunities ({len(rows)})</h2>")
     if not rows:
