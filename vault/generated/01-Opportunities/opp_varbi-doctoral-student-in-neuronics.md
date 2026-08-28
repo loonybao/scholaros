@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-10-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 35)
+Gate: **uncertain** (days to deadline: 34)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -130,7 +130,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Doctoral researcher position at KTH in AI-driven finite element human body modeling and injury biomechanics for vehicle safety assessment. Project focuses on personalizing and positioning FEM models using machine learning, with applications to occupant safety in traffic. Supervised by Xiaogai Li, Svein Kleiven, and Shiyang Meng; funded by Vinnova.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 12 |
+| Growth value | 5 |
+| Strategic value | 25 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** mixed-effects-modelling, statistics
+
+**Risks:**
+- Severe skills gap: researcher lacks foundational mechanics and FEM knowledge; learning curve would be steep and time-consuming
+- Research core (pure ML algorithm development) is explicitly excluded from researcher's target identity
+- No pathway to human-centered XR research; doctoral work would be in applied physics/engineering, not HCI
+- Supervisory team has no background in HCI, immersive systems, or user-centered research
+- Potential security clearance requirement (Protective Security Act 2018:585) may apply; researcher should verify eligibility
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-neuronics.md` and link [[opp_varbi-doctoral-student-in-neuronics]]._

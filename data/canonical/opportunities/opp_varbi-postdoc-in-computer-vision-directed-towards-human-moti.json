@@ -1,0 +1,176 @@
+{
+  "id": "opp_varbi-postdoc-in-computer-vision-directed-towards-human-moti",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-28T18:33:51.306517Z",
+  "updated_at": "2026-08-28T18:42:22.179496Z",
+  "change_history": [
+    {
+      "ts": "2026-08-28T18:33:51.306613Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-28T18:37:43.796183Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-28T18:42:22.179496Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in Computer Vision directed towards human motion analysis",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-963560",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:963560/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-963560"
+    ],
+    "retrieved_at": "2026-08-28T18:33:51.306380Z",
+    "raw_snapshot_hash": "db99f7138ff7d5532f08668bc14191378bd31663a04c376a255f1c4b56ae9e9d",
+    "extracted_content_hash": "4f065179cadcdb47fff48e7b69c76567033af6c361217896a2551c9b170a0c06",
+    "deadline": "2026-09-06",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Postdoc in Computer Vision directed towards human motion analysis\nLogin and apply\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nThe goal of the project is to develop video-based methods for modeling human motion, with applications toward 3D pose estimation, activity recognition, and synthetic motion generation. The project includes data collection with motion capture equipment and programming of generative machine learning models.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nResearch expertise, documented through publications in international conferences and journals in Computer Vision.\nThe applicant should have documented experience in machine learning, particularly programming deep neural networks. You should also have documented experience in computer vision, image processing, or signal processing, as well as experience with data collection using various motion capture systems.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nTeaching abilities\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nCollaborative abilities\nIndependence\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2883\nContact\nHedvig Kjellström, hedvig@kth.se\nPublished\n28.Aug.2026\nLast application date\n06.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "Postdoctoral researcher position at KTH School of Electrical Engineering and Computer Science. Project develops video-based methods for 3D human pose estimation, activity recognition, and synthetic motion generation using deep neural networks and generative machine learning. Includes motion capture data collection and computer vision algorithm development.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 18,
+      "rationale": "Position focuses on computer vision, deep learning for pose estimation, and motion analysis—core engineering/ML domains. Researcher's domain is human-centered XR, collaborative immersive learning, spatial cognition, and wayfinding. While both involve human motion/3D data, the research goal (algorithms for pose/activity recognition) is pure computer vision/ML, not human experience design, learning outcomes, or collaborative systems. No connection to immersive systems, user experience, or spatial learning transfer."
+    },
+    "methodological_fit": {
+      "score": 22,
+      "rationale": "Position requires 'documented experience in machine learning, particularly programming deep neural networks' and 'experience in computer vision, image processing, or signal processing.' Researcher has intermediate C#/Unity programming and beginner Python, but no documented deep learning or computer vision experience. Research methodology is algorithm development and model training, not user-centered evaluation. Some overlap in data collection practices, but core methodologies are orthogonal."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Position would develop Python and deep learning skills, which could have adjacent value for future HCI research (e.g., analyzing gaze or motion data in immersive studies). However, the 2-year postdoc focuses on pose/activity recognition algorithms—pure computer vision research excluded from target identity. Limited growth toward human-centered XR, collaborative systems, or spatial cognition research."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "KTH is a strong institution, but the research group (computer vision/ML) is not aligned with human-centered XR or HCI. Supervisor (Hedvig Kjellström) focuses on computer vision algorithms, not user experience or immersive systems. Postdoc in this group would build credentials in CV/ML, but offers no pathway to human-centered XR research or collaboration with HCI-focused supervisors."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "motion-capture"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics",
+      "motion-capture"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires 'documented experience in machine learning, particularly programming deep neural networks'—researcher has no evidence of DL/neural network programming",
+      "Position requires 'documented experience in computer vision, image processing, or signal processing'—researcher has no documented CV/IP background",
+      "Position requires 'experience with data collection using various motion capture systems'—researcher's motion capture knowledge is indirect (via Spatial.io multiplayer, not mocap hardware/software)"
+    ],
+    "risks": [
+      "Significant skills gap: researcher lacks deep learning and computer vision expertise; onboarding burden would be steep",
+      "Position core (computer vision / deep learning algorithms) falls within excluded categories from target identity",
+      "2-year postdoc would not advance pathway to human-centered XR research or collaborative immersive systems",
+      "Supervisory team has no HCI, immersive systems, or user-centered research background",
+      "Postdoc-level competition is typically high for CV/ML positions; researcher may not be competitive without ML publication record",
+      "Potential security clearance requirement may apply"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-28T18:37:43.795890Z",
+    "analysis_input_hash": "022e400081aba7c609eaf29f7d1c3a4759c7ed14f4a7f046fe722bb0b0829a21"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 18,
+    "urgency": "high",
+    "days_to_deadline": 9,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
