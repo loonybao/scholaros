@@ -7,7 +7,7 @@ deadline: 2026-09-21
 status: open
 eligibility_gate: fail
 fit_overall: 16
-urgency: medium
+urgency: high
 needs_review: false
 ---
 
@@ -24,7 +24,7 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **fail** (days to deadline: 22)
+Gate: **fail** (days to deadline: 21)
 
 - country 'Macao' is outside allowed regions ['Europe']
 

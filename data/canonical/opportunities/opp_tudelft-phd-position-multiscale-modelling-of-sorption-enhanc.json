@@ -1,0 +1,165 @@
+{
+  "id": "opp_tudelft-phd-position-multiscale-modelling-of-sorption-enhanc",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-31T13:05:49.670469Z",
+  "updated_at": "2026-08-31T13:19:14.458761Z",
+  "change_history": [
+    {
+      "ts": "2026-08-31T13:05:49.670564Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-31T13:19:14.240734Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-31T13:19:14.458761Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Multiscale Modelling of Sorption-Enhanced CO2 Hydrogenation Reactors",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1370698657",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Multiscale-Modelling-of-Sorption-Enhanced-CO2-Hydrogenation-Reactors-2628-CD/1370698657/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Multiscale-Modelling-of-Sorption-Enhanced-CO2-Hydrogenation-Reactors-2628-CD/1370698657/",
+    "evidence_ids": [
+      "tudelft/1370698657"
+    ],
+    "retrieved_at": "2026-08-31T13:05:49.670335Z",
+    "raw_snapshot_hash": "e1ef59a675dd56638edd37fd0a0d1530cb0f904f6a25fad4ed7b660cda32240f",
+    "extracted_content_hash": "09dd461240ecdf46274979e043ece0e10b286e4c95852359b4fd1e7984232061",
+    "deadline": "2026-09-30",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Will your multiphase models shape the energy transition?\nJob description\nThe research programme CO2URAGE, funded by the Dutch funding organisation NWO in the framework of the Perspectief Programme, targets the conversion of intermittent electricity to platform chemicals and fuels making use of dynamically operated processes. This is a promising route to alleviate net congestion and make more effective and economic use of renewable electricity without an unnecessary discarding of generated power. This four year’s PhD position is aimed at developing multiphase models to predict the dynamics and performance of sorption-enhanced CO2 hydrogenation reactors. An important feature is that the reactor should be heated electrically and should be scalable.\nThe PhD student will develop three-dimensional models to predict the hydrodynamics and heat/mass transfer in a complete reactor containing millions to billions of particles with basic wall heating. The precise type of reactor will be chosen in collabaration with other partners within this project. In case a (moving of fixed) bed is chosen, a coarse-grained CFD-DEM model or an Eulerian model will be developed, possibly making use of correlations from particle-resolved simulations. In case a fluidized bed is chosen, a traditional Eulerian Two-Fluid model (TFM) will be compared with a novel Lagrangian Continuous Particle Model (CPM). Initially, engineering correlations will be employed to describe the internal heat and mass transfer within the particles. Later, more accurate single-particle model results will be incorporated. The most suitable model will be expanded to investigate the efficiency of other electricity-based heating solutions such as microwave heating or electro-acoustic heating.\nAt TU Delft, the modelling work will be accompanied by another PhD student and postdoc who will carry out experimental work, which will allow for validation of the models. You will collaborate with experts from TU Delft, TNO and several large and SME companies involved in the programme.\nJob requirements\nAn MSc degree in Mechanical engineering, Chemical engineering, Applied physics, or related field is required.\nKnowledge and proven experience with reactor modeling and multiphase CFD simulations.\nA critical and inquisitive attitude with regard to obtained results is expected, which translates into formulating new research questions.\nAbility to function both in a team and independently.\nGood communication skills. Fluent in English, both spoken and written. Willing to learn the Dutch language.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Prof.dr.ir. Johan T. Padding,\nj.t.padding@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 September 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Prof.dr.ir. Johan T. Padding.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Doctoral position in multiphase CFD modelling for sorption-enhanced CO2 hydrogenation reactors, including hydrodynamics, heat/mass transfer, and reactor design via coarse-grained CFD-DEM or Eulerian approaches.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "No thematic overlap. Position is core computational fluid dynamics, reactor engineering, and process modelling. This falls squarely into pure CFD/engineering simulation, excluded from consideration per rules. No connection to human-centred systems, immersive technology, or spatial cognition."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "No methodological fit. Requires multiphase CFD simulations, particle-resolved modelling, and advanced numerical methods. Researcher's methodological toolkit is HCI experimental design, user studies, and immersive systems implementation—fundamentally different from computational engineering modelling."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "Zero growth value. Position is purely technical engineering; no advancement toward human-centred XR research. Would require complete retraining in numerical methods, CFD, and reactor engineering with no connection to target capabilities."
+    },
+    "strategic_value": {
+      "score": 5,
+      "rationale": "TU Delft is in target geography (Netherlands, Priority 1) with strong reputation. However, position is in Faculty of Mechanical Engineering focused on energy systems—not aligned with target institutions' HCI or immersive systems groups. No strategic value for human-centred XR pathway."
+    },
+    "required_skills": [
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc in Mechanical/Chemical Engineering or Applied Physics; researcher holds MSc by Research in Creative Multimedia—different disciplinary background"
+    ],
+    "risks": [
+      "Core exclusion criterion triggered: position is pure CFD/computational engineering, not HCI or immersive systems",
+      "Disciplinary mismatch: Engineering reactor modelling vs. multimedia/HCI research background",
+      "No research infrastructure or knowledge transfer from researcher's XR/immersive systems background",
+      "Would require complete reorientation into numerical methods and engineering; not adjacent methodological fit"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-31T13:19:14.240440Z",
+    "analysis_input_hash": "c1ddc98ba2e671b6cd9cb5c12b3321d65caf923f41c19328a889dd213e25c963"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 2,
+    "urgency": "medium",
+    "days_to_deadline": 30,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

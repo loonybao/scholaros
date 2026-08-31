@@ -1,0 +1,174 @@
+{
+  "id": "opp_tampere-postdoctoral-research-fellow-biomedicine",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-08-31T13:02:32.815439Z",
+  "updated_at": "2026-08-31T13:19:14.408180Z",
+  "change_history": [
+    {
+      "ts": "2026-08-31T13:02:32.815569Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-08-31T13:19:14.239936Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-08-31T13:19:14.408180Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Research Fellow (Biomedicine)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3161",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3161",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3161#login_form",
+    "evidence_ids": [
+      "tampere/3161"
+    ],
+    "retrieved_at": "2026-08-31T13:02:32.815227Z",
+    "raw_snapshot_hash": "a664ca0a547e0a0efd45ee5e5ed1702d08423e3e00d9c1aae47edb1c7fda3455",
+    "extracted_content_hash": "c245d7264e5d3b59312d079615f2c74aa623cf1c7f99e6122e68245c5c05641d",
+    "deadline": "2026-09-15",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-08-31",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our university community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\n.\nWe are looking for a\nPostdoctoral Research Fellow specializing in biomedicine, focused on neurodegenerative research,\nto join our Regulatory Genomics research group at the\nFaculty of Medicine and Health Technology\n(MET). The position is full-time and will be filled for a fixed-term period of two years. The workplace is located at Kauppi Campus, Tampere University.\nThe research is conducted in the\nRegulatory Genomics group\nat the Biomedicine unit, MET. We investigate the spatial and temporal dynamics of gene regulation in disease. Using single-cell and spatial genomics, our group maps cell type-specific regulatory programs relevant to disease onset and progression, with the overarching goal of understanding how these regulatory processes reside within the disease microenvironment, and how genetic variation influences them.\nThe Faculty of Medicine and Health Technology (MET)\nis dedicated to pursuing world-class research ranging from clinical medicine and translational medicine, through molecular biology, biotechnology and cell biology, to biomedical engineering, biomicrosystems, biomaterials, and biorobotics. We conduct internationally acclaimed basic and applied research.\nJob description\nWe are looking for a talented and motivated postdoctoral researcher to join the Regulatory Genomics research group in investigating how microglial states emerge in response to neurodegenerative disease-related stressors and how these states manifest within diseased brain tissue. The project will employ advanced single-cell and spatial genomic techniques developed by the group as well computational inference approaches to study glial gene regulation.\nRequirements:\nWe are seeking a versatile and independent researcher with experience supporting experimental or computational aspects of neuroscience research and/or single-cell or spatial genomics.\nApplicable doctoral degree in the field, e.g. Biomedicine, Neuroscience, Molecular and Cellular Biology, and/or Genomics completed by the starting date,\nHigh motivation and a strong research orientation,\nThe ability to work independently, and stay current with relevant literature,\nStrong interpersonal and networking skills, along with a willingness to mentor junior researchers ,\nFluency in spoken and written English.\nTampere University is a unique, multidisciplinary, and boldly forward-looking community. Our values are openness, diversity, responsibility, courage, critical thinking, and learner-centredness. We hope that you can embrace these values and promote them in your work.\nWe offer\nThe full-time position will be filled for a fixed-term period of two years. The estimated starting date is late 2026 or early 2027, or as mutually agreed upon both parties. A trial period of six months applies to all our new employees.\nThe salary will be based on both the job requirements and the employee's personal performance in accordance with\nthe Finnish University Salary System\n. The position of a Postdoctoral Researcher is placed on the job demands levels 5-6 (teaching and research staff). A typical starting salary of Postdoctoral Researcher is around 3900-4000 EUR/month.\nWe offer a world-class research environment in internationally recognized research groups. We have strong collaborative networks and offer great opportunities for researchers to develop their careers in an international setting. We offer you the opportunity to join our dynamic and innovative international community.\nAs a member of staff at Tampere University, you will enjoy a range of competitive benefits, such as occupational health care services, flexible work schedule, versatile research infrastructure, modern teaching facilities and a safe and inviting campus area as well as a personal fund to spend on sports and cultural activities in your free time. Please read more about\nworking at Tampere University\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\n.\nFinland is among the most stable, free and safe countries in the world, based on prominent ratings by various agencies. Tampere is the largest inland city of Finland, and the city is counted among the major academic hubs in the Nordic countries. Tampere region is the most rapidly growing urban area in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. Tampere is also surrounded by vivid nature with forests and lakes, providing countless opportunities for easy-to-access outdoor adventures and refreshment throughout the year.\nRead more about Finland and Tampere:\nVisit Finland\nThis is Finland\nMinistry of Economic Affairs and Employment: Welcome to Finland\nVisit Tampere\nHow to apply\nPlease submit your application through our online recruitment system (link below). The closing date for applications is\nSeptember 15th,\n2026 (at 23.59 EEST / UTC+3).\nPlease write your application and all accompanying documentation in English and attach them in PDF format only.\nPlease attach only the following documents to your application:\nCV (according to\nTENK guidelines\n)\nList of publications\nMotivation letter with a vision for research and professional development (1 page)\nPDF copy of your Doctoral degree certificate or certification of a set thesis defense date. If original language is other than Finnish, Swedish or English, please provide an official translation in one of those languages.\nNames and contact details of two referees\nFor more information, please contact:\nAssistant Professor, Mikael Marttinen, mikael.marttinen@tuni.fi\nWith questions related to the recruitment process, please contact: HR Specialist Lilli Sarasvirta,\nlilli.sarasvirta@tuni.fi\n***\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTampereen yliopiston lääketieteen ja terveysteknologian tiedekunnan alla toimivassa Regulatory Genomics -tutkimusryhmässä on haettavana tutkijatohtorin määräaikainen tehtävä biolääketieteen alalta.\nLääketieteen ja terveysteknologian tiedekuntamme\non monialainen biolääketieteen tekniikan, bioteknologian, lääketieteen ja terveysteknologian tutkimuksen ja opetuksen korkeatasoinen yksikkö. Teemme kansainvälisesti merkittävää perus- ja soveltavaa tutkimusta.\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta). Tehtävän hakuaika päättyy\n15.9.2026\nklo 23:59."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in neurodegenerative research focusing on microglial state emergence and gene regulation using single-cell and spatial genomics with computational inference.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic connection. Position is pure biomedical science (neurodegenerative disease, gene regulation, computational biology). Researcher's themes centre on human-centred XR, collaborative immersive learning, spatial cognition, and wayfinding—entirely different scientific domains."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Limited methodological fit. Position emphasizes single-cell and spatial genomics, computational inference, and neuroscience research. Researcher brings user-studies, experimental design, and quantitative methods, but these are applied to HCI/immersive systems evaluation, not molecular/computational biology. Computational inference could offer adjacent methodological resonance, but the domain gap is too large."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "No meaningful growth value toward target identity. Would require abandoning HCI/XR trajectory entirely. Does not close gaps in spatial cognition research, immersive systems design, or collaborative interaction methodologies."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Tampere is in priority geography (Finland, Priority 2). Faculty of Medicine and Health Technology has international reputation. However, position represents career pivot away from stated target identity. Postdoc in unrelated domain offers no strategic value for human-centred XR researcher pathway."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing",
+      "statistics"
+    ],
+    "missing_skills": [
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires completed PhD by start date; researcher holds only MSc by Research (thesis stage)",
+      "Position targets postdoctoral level; researcher is pre-doctoral",
+      "Requires experience in neuroscience and/or genomics research; researcher has none"
+    ],
+    "risks": [
+      "Ineligible: requires completed doctoral degree; researcher does not yet hold PhD",
+      "Fundamental domain mismatch: biomedical genomics vs. human-centred immersive systems",
+      "Career trajectory misalignment: moves away from target identity and excluded domains are not the issue—the core research mission is incompatible",
+      "No transferable research infrastructure or methods from researcher's XR/HCI background"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-08-31T13:19:14.239643Z",
+    "analysis_input_hash": "98eb3d7a6c0d2b905af692b4aea15ee7f7c58d88528512a244be9faf93a3648d"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 11,
+    "urgency": "high",
+    "days_to_deadline": 15,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
