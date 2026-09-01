@@ -1,0 +1,174 @@
+{
+  "id": "opp_tudelft-phd-position-in-uncertainty-based-life-cycle-modelli",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-01T11:21:55.048742Z",
+  "updated_at": "2026-09-01T11:33:43.950022Z",
+  "change_history": [
+    {
+      "ts": "2026-09-01T11:21:55.048831Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-01T11:31:55.866620Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-01T11:33:43.950022Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position in Uncertainty-Based Life-Cycle Modelling for Building Renovation Decision-Making",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-architecture-and-the-built-environment",
+    "source": "tudelft",
+    "source_native_id": "1370844357",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Uncertainty-Based-Life-Cycle-Modelling-for-Building-Renovation-Decision-Making-2628-CD/1370844357/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Uncertainty-Based-Life-Cycle-Modelling-for-Building-Renovation-Decision-Making-2628-CD/1370844357/",
+    "evidence_ids": [
+      "tudelft/1370844357"
+    ],
+    "retrieved_at": "2026-09-01T11:21:55.048627Z",
+    "raw_snapshot_hash": "84729199a3478c501755d17ba6ce754b1ec5e3380b08259d17c8c50f9c4627d1",
+    "extracted_content_hash": "9648cb41ada1f59be60222a83a4abc70407cdacc7e7fa7ab0349e0ef4d77c314",
+    "deadline": "2026-09-29",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3059 - €3881 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Challenge: Design building renovations under future uncertainty.\nChange: Develop uncertainty-aware life-cycle methods to optimise renovation.\nImpact: Enable robust decisions for sustainable buildings.\nJob description\nDelft University of Technology is hiring a PhD researcher on “Uncertainty-based Life-Cycle Modelling for Building Renovation Decision-Making”. The PhD position is part of the Horizon Europe CLIMABUILD project.\nThe candidate will develop probabilistic life-cycle modelling methods to support stakeholders in identifying robust and resilient building renovation strategies. The research will address current limitations in renovation planning by integrating lifecycle performance, climate risks, indoor comfort requirements, sustainability objectives and future uncertainties into a unified decision-making framework. The candidate will develop probabilistic modelling and stress-testing approaches, including Monte Carlo simulations and sensitivity analyses, to evaluate renovation strategies under uncertainties related to climate change, energy systems, market conditions, regulations and component lifetimes. The developed methods will support the identification of performance thresholds and robust renovation solutions under changing future conditions. The research outcomes will contribute to an explainable decision-support framework capable of visualizing renovation scenarios and communicating recommendations to stakeholders. Validation will be performed through real-world, multi-climate demonstration cases within the CLIMABUILD project. The candidate will work at the intersection of climate resilience assessment, life-cycle modelling and uncertainty quantification.\nThe successful candidate will collaborate with three research groups within the Faculty of Architecture and the Built Environment: Structures and Materials (restructgroup), Building Design & Technology (architectural-facades-products) and Environmental & Climate Design (climate-energy-circularity). The position is funded for 48 months, during which the candidate will conduct PhD research and contribute to the broader CLIMABUILD research agenda. The project offers opportunities to collaborate with international industrial and academic partners from related disciplines, including digital technologies, civil engineering, architecture and risk science.\nAbout CLIMABUILD: The project develops a next-generation digital ecosystem for deep renovation by introducing the Sustained Resilience approach, which integrates climate adaptation and long-term sustainability across the building lifecycle. Combining AI-enhanced digital twins, immersive technologies and participatory co-creation, the project enables citizens, practitioners and public authorities to jointly develop and evaluate renovation strategies. Demonstrated across four European countries, CLIMABUILD aims to accelerate building decarbonization while strengthening resilience against multiple climate hazards.\nJob requirements\nYou have a MSc degree in Building Technology, Civil Engineering, Architectural Engineering, or a related discipline.\nYou have building-related knowledge and knowledge of one or more of the following areas: building performance simulation, lifecycle assessment, or climate resilience.\nKnowledge of uncertainty quantification and risk modelling is desirable.\nYou have experience with programming and data analysis (e.g., Python).\nYou have strong analytical skills and interest in interdisciplinary research.\nYou have excellent oral and written communication skills in English proven by a minimum score of 100 in TOEFL or IELTS of 7.0 per sub-skill (writing, reading, listening, speaking). For more details please check the Graduate Schools Admission Requirements.\nYou are able to work independently, take initiative and collaborate effectively in a multidisciplinary team.\nYou are motivated to develop innovative methods addressing real-world challenges in sustainable and resilient building renovation.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Simona Bianchi, via e-mail:\ns.bianchi@tudelft.nl\n.\nFor more information about the application procedure, please contact Paulien Stastra, via e-mail:\nrecruitment-bk@tudelft.nl\n.\n#EUfunded This is an EU funded project, named CLIMABUILD, with project number 101326320, within program H2020 / Horizon Europe.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n29 September 2026\n(local Dutch time + 2 hrs) via the application button and upload the following documents:\nYour CV - highlighting examples of projects and/or achievements that demonstrate skills relevant to the advertised position;\nYour motivation letter (no more than 600 words) addressing your interests and describing how your experience and plans fit with the position;\nThe contact information for two references (letters not required at this stage);\nYour MSc thesis and, if applicable, one or two notable publications you have authored;\nYour undergraduate and graduate transcripts.\nShortlisted candidates will be invited to first-round interviews in mid-October, with a decision expected in early November.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "TU Delft seeks PhD researchers on probabilistic life-cycle modelling for building renovation decision-making under climate uncertainty. Work integrates uncertainty quantification, Monte Carlo simulation, stakeholder engagement, and digital twins for sustainable buildings.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 22,
+      "rationale": "Superficial overlap on 'digital twins' and 'immersive technologies' (mentioned as part of broader CLIMABUILD ecosystem). However, candidate's spatial cognition, wayfinding, and immersive learning are entirely absent from the PhD brief. Core work is probabilistic modelling, lifecycle assessment, climate resilience, and building performance—not HCI, human-centred XR, or spatial understanding."
+    },
+    "methodological_fit": {
+      "score": 18,
+      "rationale": "Candidate's experimental design and quantitative research map weakly to uncertainty quantification. However, PhD requires Monte Carlo simulation, sensitivity analysis, and probabilistic modelling—algorithmic and mathematical methods outside candidate's toolkit. Position requires Python and domain knowledge in building technology, LCA, or climate resilience. Candidate has none of these."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "Closes no gaps in candidate's target identity. Would require retraining in building science, probabilistic modelling, and climate adaptation—far from immersive-systems, spatial cognition, and collaborative-learning focus."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "TU Delft is a Tier-1 institution and CLIMABUILD is Horizon Europe funded (strong). However, research direction is orthogonal to target identity. PhD would establish expertise in sustainability and decision-support systems, not human-centred immersive research."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc in Building Technology, Civil Engineering, Architectural Engineering, or related discipline. Candidate's MSc is in Multimedia/Creative Media, not built environment.",
+      "Knowledge of building performance simulation, LCA, or climate resilience required. Candidate has none.",
+      "Must demonstrate 'building-related knowledge'—candidate's digital twin work is campus-orientation-focused, not building-systems-focused."
+    ],
+    "risks": [
+      "Disciplinary mismatch: candidate's MSc is creative multimedia, not engineering/built environment.",
+      "Core research pivot required: sustainability/climate adaptation vs. immersive-learning research.",
+      "Violates excluded direction: 'pure-machine-learning-algorithms'—Monte Carlo and sensitivity analysis are core quantitative methods, not HCI.",
+      "No thematic pathway to target identity (human-centred immersive systems)."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.94,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-01T11:31:55.866329Z",
+    "analysis_input_hash": "3a2175330c0d1ce7b4f095c5d0c440a97ddd7b7db10b90cbfba4a677792f84e1"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 20,
+    "urgency": "medium",
+    "days_to_deadline": 28,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

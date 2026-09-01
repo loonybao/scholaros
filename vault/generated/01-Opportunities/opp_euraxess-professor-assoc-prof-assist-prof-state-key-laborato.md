@@ -24,7 +24,7 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **fail** (days to deadline: 21)
+Gate: **fail** (days to deadline: 20)
 
 - country 'Macao' is outside allowed regions ['Europe']
 

@@ -1,0 +1,174 @@
+{
+  "id": "opp_aalto-hiit-postdoctoral-fellow-positions-in-computer-science",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-01T11:18:38.130082Z",
+  "updated_at": "2026-09-01T11:33:43.867831Z",
+  "change_history": [
+    {
+      "ts": "2026-09-01T11:18:38.130186Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-01T11:31:55.865506Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-01T11:33:43.867831Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "HIIT: Postdoctoral Fellow positions in Computer Science",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-science",
+    "source": "aalto",
+    "source_native_id": "hiit-postdoctoral-fellow-positions-in-computer-science-0",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/hiit-postdoctoral-fellow-positions-in-computer-science-0",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/HIIT--Postdoctoral-Fellow-positions-in-Computer-Science_R47830/apply",
+    "evidence_ids": [
+      "aalto/hiit-postdoctoral-fellow-positions-in-computer-science-0"
+    ],
+    "retrieved_at": "2026-09-01T11:18:38.129910Z",
+    "raw_snapshot_hash": "7ba8c9cac4d7c41630e1a6f51f6b5fd38c14716bcf9a020796fa0da306719888",
+    "extracted_content_hash": "8ed74c4de340d60e17a27d1c0c5e44faf262109e085018f779d4d235fc141f24",
+    "deadline": "2026-10-04",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-01",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "The Helsinki Institute for Information Technology (HIIT) is seeking\nPostdoctoral Fellows\nto join the Helsinki region information technology research community. The position is intended support early-career researchers on their road towards being independent researchers, in collaboration with one or more supervisors in HIIT Faculty. The position gives the fellows excellent opportunities for high-quality and high-impact research and for creating research networks supporting their careers.\nWe welcome applications across all areas in Computer Science, including\nAlgorithms and theory\nArtificial intelligence\nComputational Science\nHuman-Centric Computing\nSoftware Systems\nPosition details\nPositions are intended for researchers who have recently completed their doctoral degree or who will complete their doctoral degree before starting the position.\nPositions are hosted by Aalto University and University of Helsinki – the parent universities of HIIT.\nPositions are fully funded including salary and travel/publication costs, salaries follow the host universities’ pay scales.\nPositions are for up to three years with flexible starting dates, negotiated individually\nA successful applicant joins the research group of a HIIT Faculty member acting as a supervisor, matched based on mutual interest\nWho we are\nHelsinki Institute for Information Technology is a strategic partnership between Aalto University and the University of Helsinki – two internationally leading universities in computer science and information technology. Both are located in the Helsinki Metropolitan area, and the employing university will be determined by the supervising professor. Aalto University and the University of Helsinki are both committed to fostering an inclusive environment with people from diverse backgrounds, and researchers from underrepresented groups are particularly encouraged to apply.\nHIIT has the aim to boost fundamental and applied information technology research that makes a difference in the real world. HIIT facilitates research, impact, and collaboration activities in the Helsinki IT research community and offers funded post-doctoral researcher positions for excellent young scientists.\nRequirements\nKey requirements for the position:\nYou hold (or expect to shortly receive) a PhD in computer science, statistics, mathematics or a related field.\nYou have previous experience in information technology, preferably demonstrated by a publication record in top-tier venues.\nThe positions require the ability to work both independently and as part of a team\nExcellent command of written and spoken English is required.\nApplication deadline\nThe deadline for applications is October 4th, 2026 at 11:59 PM (23:59 UTC+03:00).\nReview timeline\nWe ask that all candidates that will continue the recruitment process to provide a public talk. We will contact shortlisted candidates in late October to provide this public talk. Public talks will be conducted via Zoom early November. Accepted candidates will be notified by late November.\nReady to apply?\nIn order to find the best match between candidates and supervisors, all applicants need to describe their research interests. All applicants should include all of the following attachments to their application.\nRequired attachments:\n(1)\nCover letter\n(1-2 pages in length) which includes the intended research area and how you intend to contribute to the field. If you have a potential supervisor(s), you should clearly state your motivation for applying to work with said supervisor, how you could contribute to the research produced by the supervisor and research area, and other relevant information.\n(2)\nPreliminary Research Plan\n(3-5 pages in length) which includes background information, research objectives and methods, possible hypothesised results, possible collaboration, and any other key information.\n(3)\nCV including a List of publications\n(please do not attach full copies of publications)\n(4) A\ntranscript of doctoral studies\nand the\ndegree certificate\nof the doctoral degree. If you have not completed your doctoral degree, we expect you to have completed the degree before starting the position. In lieu of the degree certificate, you should include a plan of completion that clearly explains your intended date of graduation.\n(5)\nContact details of possible referees\nfrom 2-3 senior academic people. We will contact your referees, if recommendation letters are required.\nAll materials should be submitted in English in a PDF format. Note: files should be 5MB max. You can upload up to five files to the eRecruitment (Workday) system, each 5MB.\nContact Information:\nMore information can be found on our website at\nhttps://www.hiit.fi/hiit-postdoctoral-fellow-positions-in-computer-science\n.\nFor questions regarding these positions, please contact the HIIT coordinator at coordinator@hiit.fi\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "HIIT seeks postdoctoral researchers across computer science domains including Human-Centric Computing. Positions are 3-year fully funded roles hosted by Aalto or University of Helsinki, requiring a recently completed PhD and publication record in top-tier venues.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 62,
+      "rationale": "Human-Centric Computing is explicitly listed as a welcome research area. The candidate's immersive-learning and collaborative-systems work aligns with human-centred directions, but the posting is broad and makes no specific commitment to XR, spatial cognition, or immersive systems. HIIT's scope spans theory, algorithms, and AI—none of which are the candidate's primary focus."
+    },
+    "methodological_fit": {
+      "score": 68,
+      "rationale": "Strong match on design-science and user-studies methodology. The candidate has experimental design, quantitative research, and user evaluation skills relevant to human-centric computing. However, the posting emphasises publication record in top-tier venues without specifying which venues; candidate's work is first-author journal + systematic review (in progress), which is solid but not yet established at the postdoc level expected by HIIT."
+    },
+    "growth_value": {
+      "score": 55,
+      "rationale": "Postdoc at a leading institute would strengthen academic visibility and independence trajectory. However, without a specific research group match, growth is uncertain. The candidate needs clarity on whether a supervisor focus area aligns with human-centred XR or diverges toward pure AI/theory."
+    },
+    "strategic_value": {
+      "score": 72,
+      "rationale": "Aalto is a Tier-1 target institution in the profile. HIIT is prestigious, well-funded (Horizon Europe level), and offers 3-year stability. Postdoc at Aalto strengthens PhD candidacy pathway and European network. Risk: broad posting may lead to group mismatch if supervisor is not human-centred-aligned."
+    },
+    "required_skills": [
+      "academic-writing",
+      "user-studies"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing",
+      "user-studies",
+      "experimental-design",
+      "quantitative-research",
+      "virtual-reality",
+      "unity",
+      "csharp",
+      "multiplayer-networking"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires completed PhD by start date; candidate currently in thesis stage (MSc). Must complete MSc before postdoc eligibility.",
+      "Posting emphasises 'recent PhD' and 'publication record in top-tier venues'—candidate's journal article and systematic review are credible but not yet peer-published impact metrics. Timing between MSc completion and PhD start unclear."
+    ],
+    "risks": [
+      "Broad posting without explicit XR/immersive research group. Risk of placement in pure AI, algorithms, or non-HCI track.",
+      "Candidate must complete PhD before postdoc; no indication of MSc→PhD pathway in profile. Timeline and funding continuity uncertain.",
+      "Competition likely high; publication record at postdoc entry expected to be stronger than in-progress systematic review."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.68,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-01T11:31:55.865075Z",
+    "analysis_input_hash": "d92c12744bed3f2f31777ee794f2a4a61b873e43131d28791f6ff904d5dcd0fc"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 65,
+    "urgency": "medium",
+    "days_to_deadline": 33,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

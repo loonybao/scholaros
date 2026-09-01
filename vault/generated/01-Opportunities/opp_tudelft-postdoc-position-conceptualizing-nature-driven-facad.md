@@ -1,0 +1,126 @@
+---
+id: opp_tudelft-postdoc-position-conceptualizing-nature-driven-facad
+type: opportunity
+title: "Postdoc Position - Conceptualizing Nature Driven Facades"
+organisation: "TU Delft"
+deadline: 2026-09-29
+status: open
+eligibility_gate: uncertain
+fit_overall: 42
+urgency: medium
+needs_review: true
+---
+
+# Postdoc Position - Conceptualizing Nature Driven Facades
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-09-29
+**Location:** Delft, Netherlands
+**Position type:** postdoc
+**Salary:** €3546 - €5538 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-Position-Conceptualizing-Nature-Driven-Facades-2628-CD/1370945957/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 28)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Challenge | Overheating in existing dwellings due to increasing hot weather
+Change | Affordable, acceptable, effective nature driven facades
+Impact | Improved health and lower cooling energy demand
+Job description
+As hot weather events are increasing, adaptation of existing dwellings is required to protect against unhealthy indoor conditions and mitigate future energy use for cooling. While nature driven measures have the potential to support health and mitigate operational energy, the application, affordability, and acceptance of such measures are limited. As postdoc researcher you will do research on nature driven building skin (façade) solutions for the NWO project Nature 4 homes. This is a 5.5 years project, starting in november 2026 and coordinated by Delft University of Technology.
+You will contribute primarily to foundational work on conceptualization of nature driven building skin solutions. This comprises exploration of the overall definition of nature-driven building skin characteristics and the composition of a structured database, that includes refining key performance indicators (KPI) and protocols across different academic disciplines. You will contribute to scientific publications, project deliverables, workshops, and interviews in collaboration with the consortium partners.
+A key aspect of your role is exploring and bridging academic concepts with professional and societal perspectives, through interviews and co-design workshops. You will collaborate closely with interdisciplinary project partners from academia, society, and industry. The role explicitly focuses on preparing integration of citizen science approaches with (living) lab studies, including data from surveys, physiological and psychological measurements, monitoring of thermal conditions and biodiversity, and modelling.
+You will join the section Environmental and Climate Design, department of Architectural Engineering and Technology at the Faculty of Architecture and the Built Environment, TU Delft. You will work in close collaboration with researchers from Urbanism, and Materials and Environment (Civil Engineering and Geo Sciences) at TU Delft, and with researchers from TU Eindhoven (Human Technology Interaction), Radboudumc (Integrative Physiology), Wageningen University and Research (Meteorology).
+You will have the opportunity to work alongside research, industry, and public-sector partners. Moreover, you will closely work with 4 PhD candidates across the universities involved, who will be hired for this project.
+Job requirements
+PhD in building engineering, meteorology, civil engineering, or related fields.
+Demonstrable affinity and interest in the built environment (building scale) and climate change.
+Excellent collaboration skills with academic, scientific, and industrial partners.
+Experience with co-creation, societal aspects,or human perception of built environment.
+Dutch language proficiency is considered a plus.
+Being able to start at December 1, 2026.
+TU Delft (Delft University of Technology)
+Working at TU Delft means contributing to solutions that really make a difference.
+For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.
+These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
+At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.
+Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
+Faculty Architecture & the Built Environment
+The Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.
+Staff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.
+Click
+here
+to go to the website of the Faculty of Architecture and the Built Environment.
+Conditions of employment
+Duration of contract is temporary for 18 months.
+A job of 32-38 hours per week.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+An excellent pension scheme via the ABP.
+The possibility to compile an individual employment package every year.
+Discount with health insurers on supplemental packages.
+Flexible working week.
+Every year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.
+Plenty of opportunities for education, training and courses.
+Partially paid parental leave
+Attention for working healthy and energetically with the vitality program.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.  .
+Additional information
+Content-related questions about this vacancy may be directed via email to AnneMarie Eijkelenboom, the principal investigator of this project, via e-mail:
+a.m.eijkelenboom@tudelft.nl
+.
+For more information about the application procedure, please contact Paulien Stastra, HR advisor,
+via
+recruitment-BK@tudelft.nl
+.
+Please do NOT use this email address for applications.
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+29 September 2026
+via the application button and upload the following documents:
+CV including details of all academic outputs.
+Coverletter outlining your qualifications and motivation (max.1 side, A4 format, font size no smaller than 9 points).
+Executive summary of your PhD dissertation.
+Shortly thereafter, selected candidates will be invited for a first-round interview on 6 October and for a second-round interview on 13 October.
+Please note:
+You can apply online. We will not process applications sent by email and/or post.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.70_
+
+TU Delft seeks a postdoc to conceptualize nature-driven building facades for thermal comfort and cooling energy reduction. Work integrates co-design, stakeholder engagement, interdisciplinary synthesis (academic, professional, societal), and preparation of citizen-science and lab-study methodologies.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 35 |
+| Methodological fit | 52 |
+| Growth value | 28 |
+| Strategic value | 48 |
+| **Overall** | **42** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** physiological-sensing, eye-tracking
+
+**Risks:**
+- Requires completed PhD; candidate is currently in MSc thesis stage.
+- Domain mismatch: sustainable building design vs. immersive-learning systems. Does not strengthen candidacy for immersive-HCI research roles.
+- 18-month postdoc is relatively short; limited opportunity to establish independent research identity.
+- Collaborative role on larger consortium; may limit autonomy compared to dedicated immersive-systems postdoc.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-position-conceptualizing-nature-driven-facad.md` and link [[opp_tudelft-postdoc-position-conceptualizing-nature-driven-facad]]._

@@ -5,10 +5,10 @@ title: "Postdoctoral Research Fellow (Chip Technologies), 12 positions"
 organisation: "Tampere University"
 deadline: 2026-08-31
 status: open
-eligibility_gate: uncertain
+eligibility_gate: fail
 fit_overall: 8
-urgency: urgent
-needs_review: true
+urgency: none
+needs_review: false
 ---
 
 # Postdoctoral Research Fellow (Chip Technologies), 12 positions
@@ -24,12 +24,9 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 0)
+Gate: **fail** (days to deadline: -1)
 
-- funding/salary not confirmed on the posting
-- posting mentions possible nationality/export-control restrictions — verify which roles are affected
-- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
-- posting states a mobility/residence-history rule — verify you satisfy it
+- application deadline has passed
 
 ## Description
 
