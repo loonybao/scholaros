@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-27T17:40:21.711633Z",
-  "updated_at": "2026-09-01T11:33:44.017583Z",
+  "updated_at": "2026-09-02T11:05:33.556443Z",
   "change_history": [
     {
       "ts": "2026-08-27T17:40:21.711764Z",
@@ -94,6 +94,45 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-02T11:03:48.815326Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-09-02T11:05:33.154488Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-02T11:05:33.556443Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -107,9 +146,9 @@
     "evidence_ids": [
       "varbi/kth-962477"
     ],
-    "retrieved_at": "2026-08-27T17:40:21.711445Z",
-    "raw_snapshot_hash": "4ae5370e597817677e054d46d3af44cb8abd9fa997533ef38b8c00c5bd475d8e",
-    "extracted_content_hash": "7c93466f86b8b6cf7294462d942bb4a1970c56a66c9e1a88a1eae74f16fd08c8",
+    "retrieved_at": "2026-09-02T11:03:48.814701Z",
+    "raw_snapshot_hash": "f07ff370faf1cbbc4af38bd905a88ea2e1e6a7a8cc5b9d07e004349acc695f8f",
+    "extracted_content_hash": "ea3cf6fdfec0e4be3c50df3a77ef61dc866e8d06ec98a58f75fbf92dae9ec7fa",
     "deadline": "2026-10-01",
     "deadline_note": null,
     "start_date": null,
@@ -128,53 +167,54 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Doctoral student in Neuronics\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nProject description\nThird-cycle subject: Technology and health\nAI-Driven Finite Element Human Body Modelling and Injury Biomechanics for Improved Traffic Safety\nThis project develops an AI-driven platform to personalize finite element Human Body Models (HBMs) and automatically position them in realistic occupant postures. The project addresses a key challenge in the transition toward HBM-based vehicle safety assessment in consumer ratings and future regulations, where efficient and accurate methods are needed to personalize and position HBMs for industrial deployment. The project also enables systematic reconstruction of real-world accidents from image and video data. On the technical side, the project establishes evidence-based quality criteria for harmonization and robust use across different HBM families, together with data-driven, PCA-based methods. Applicants should have a relevant background in mechanics/computational mechanics/ biomechanics, combined with strong programming skills or experience in AI/machine learning. This project is funded by Vinnova under the FFI (Strategic Vehicle Research and Innovation) programme and is carried out in collaboration with Autoliv.\nSupervision:\nXiaogai Li, Svein Kleiven and Shiyang Meng are proposed to supervise the doctoral student. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nKTH Royal Institute of Technology is seeking a highly motivated, recently graduated Master of Science in Engineering, with a willingness to travel to research and industry partners.\nPreferably, the candidate should have a Master's degree in Mechanical Engineering, Engineering Mechanics, Biomedical Engineering, Engineering Physics or equivalent, with a solid background in mechanics, computational mechanics and/or biomechanics. Strong knowledge of continuum mechanics and the Finite Element Method (FEM), solid programming skills (e.g. Python, Matlab), and experience with AI/machine learning (e.g. deep learning, graph neural networks) are highly meriting.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nYou have ability of working independently, communicating in English and working in group with other researchers. After the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nPlease don’t attach large reports or publications with your application.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-12-1 or according to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2847\nContact\nXiaogai Li, Associate Professor, +46739081035, xiaogai@kth.se\nSvein Kleiven, Professor, +4687906448, svein.kleiven@sth.kth.se\nPublished\n03.Aug.2026\nLast application date\n01.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Doctoral student in Neuronics\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nProject description\nThird-cycle subject: Technology and health\nAI-Driven Finite Element Human Body Modelling and Injury Biomechanics for Improved Traffic Safety\nThis project develops an AI-driven platform to personalize finite element Human Body Models (HBMs) and automatically position them in realistic occupant postures. The project addresses a key challenge in the transition toward HBM-based vehicle safety assessment in consumer ratings and future regulations, where efficient and accurate methods are needed to personalize and position HBMs for industrial deployment. The project also enables systematic reconstruction of real-world accidents from image and video data. On the technical side, the project establishes evidence-based quality criteria for harmonization and robust use across different HBM families, together with data-driven, PCA-based methods. Applicants should have a relevant background in mechanics/computational mechanics/ biomechanics, combined with strong programming skills or experience in AI/machine learning. This project is funded by Vinnova under the FFI (Strategic Vehicle Research and Innovation) programme and is carried out in collaboration with Autoliv.\nSupervision:\nXiaogai Li, Svein Kleiven and Shiyang Meng are proposed to supervise the doctoral student. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nKTH Royal Institute of Technology is seeking a highly motivated, recently graduated Master of Science in Engineering, with a willingness to travel to research and industry partners.\nPreferably, the candidate should have a Master's degree in Mechanical Engineering, Engineering Mechanics, Biomedical Engineering, Engineering Physics or equivalent, with a solid background in mechanics, computational mechanics and/or biomechanics. Strong knowledge of continuum mechanics and the Finite Element Method (FEM), solid programming skills (e.g. Python, Matlab), and experience with AI/machine learning (e.g. deep learning, graph neural networks) are highly meriting.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nYou have ability of working independently, communicating in English and working in group with other researchers. After the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nPlease don’t attach large reports or publications with your application.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n2026-12-1 or according to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2847\nContact\nXiaogai Li, Associate Professor, +46739081035, xiaogai@kth.se\nSvein Kleiven, Professor, +4687906448, svein.kleiven@sth.kth.se\nPublished\n27.Aug.2026\nLast application date\n01.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "Doctoral researcher position at KTH in AI-driven finite element human body modeling and injury biomechanics for vehicle safety assessment. Project focuses on personalizing and positioning FEM models using machine learning, with applications to occupant safety in traffic. Supervised by Xiaogai Li, Svein Kleiven, and Shiyang Meng; funded by Vinnova.",
+    "summary": "A doctoral position in AI-driven finite element human body modelling and injury biomechanics for traffic safety. The project personalizes computational human body models using AI/ML and integrates them with real-world accident reconstruction, supervised by applied mechanics and biomechanics faculty at KTH.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 8,
-      "rationale": "Position is centered on computational biomechanics, finite element modeling, AI/ML algorithm development for injury prediction, and vehicle safety engineering. Researcher's domain is human-centered XR, collaborative learning systems, spatial cognition, and wayfinding. While both involve 3D human models, the research goals (safety biomechanics vs. immersive learning and spatial transfer) and methodological contexts (pure FEM/ML vs. HCI/UX evaluation) are fundamentally distinct. No thematic connection to immersive systems, user experience, or learning outcomes."
+      "score": 10,
+      "rationale": "The core of this position is computational biomechanics, finite element modelling, and injury prediction—domains with no connection to human-centred XR, immersive learning, spatial cognition, or collaborative systems. AI/ML are mentioned as enabling tools but are not the research focus of the researcher's target identity. The human dimension here (occupant safety) is about physical anthropometry and biomechanics, not human perception, learning, collaboration, or spatial understanding."
     },
     "methodological_fit": {
-      "score": 12,
-      "rationale": "Position requires deep expertise in continuum mechanics, finite element method, and machine learning (deep learning, graph neural networks). Researcher has intermediate programming (C#, Unity) and beginner Python skills, but no documented experience with FEM, computational mechanics, or advanced ML. The research core is algorithmic development and computational physics, not user-centered evaluation. Minimal methodological overlap with HCI-based user studies and experimental design."
+      "score": 25,
+      "rationale": "The position requires strong programming (Python, Matlab) and AI/machine learning expertise, where the researcher has only beginner-level Python and no stated ML background. The researcher's user-studies and experimental-design skills are methodologically distant from finite element analysis and AI model validation. No overlap in technical tooling (FEM solvers, deep learning frameworks vs. game engines, user study design)."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "This position would require the researcher to pivot entirely toward computational biomechanics and ML algorithm development—domains explicitly listed as poor-fit in their target identity (pure ML algorithm development excluded). While Python skills could develop, the fundamental research orientation would move away from human-centered design, spatial learning, and collaborative systems toward physics-based simulation and safety engineering."
+      "score": 12,
+      "rationale": "Pursuing this doctoral position would require substantial retraining in applied mechanics, FEM, and machine learning—a complete pivot from human-centred XR research. While Python skills could develop, the domain (biomechanics/traffic safety) and methods (computational modelling, ML for prediction) do not serve the researcher's stated growth toward spatial cognition and collaborative immersive systems. A gap-closing opportunity only if the researcher abandons their target identity."
     },
     "strategic_value": {
-      "score": 25,
-      "rationale": "KTH is a leading technical institution (not in researcher's priority list but respected). Vinnova funding provides stability. However, the research group's focus (biomechanics, FEM, safety engineering) offers no mentorship or collaboration pathway in human-centered XR, immersive learning, or spatial cognition. Doctoral completion in this domain would not advance the researcher's target identity."
+      "score": 35,
+      "rationale": "KTH is a top-tier institution in Sweden (within the researcher's priority region). A doctoral degree from KTH is valuable for future career mobility. However, the research group (Neuronics / applied mechanics) is not aligned with human-centred XR or HCI communities. Post-doctoral career paths from this group would likely lead to biomechanics research or vehicle safety engineering, not immersive systems research. The collaboration with Autoliv (automotive) suggests industry links in a domain far from the researcher's target."
     },
     "required_skills": [
       "python",
-      "mixed-effects-modelling",
       "statistics"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "python"
+      "python",
+      "quantitative-research"
     ],
     "missing_skills": [
       "mixed-effects-modelling",
-      "statistics"
+      "r"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position requires 'solid background in mechanics, computational mechanics and/or biomechanics'—researcher has no documented background in these areas",
-      "Position requires 'strong knowledge of continuum mechanics and the Finite Element Method (FEM)'—not mentioned in researcher's skill inventory",
-      "Position requires 'experience with AI/machine learning (e.g. deep learning, graph neural networks)'—researcher has no documented ML/DL experience"
+      "Researcher's MSc by Research is in progress. Admission requires completed second-cycle degree (Master's) by the time admission is finalized; thesis stage status may satisfy this if formally conferred, but timing is ambiguous.",
+      "Posting strongly prefers candidates with backgrounds in Mechanical Engineering, Engineering Mechanics, or Biomedical Engineering. Researcher's background is in Creative Multimedia / HCI—a significant departure.",
+      "Posting emphasizes 'strong knowledge of continuum mechanics and FEM'—researcher has no stated background in either.",
+      "Security clearance requirement (Protective Security Act) may apply; researcher's background in Malaysia may complicate vetting."
     ],
     "risks": [
-      "Severe skills gap: researcher lacks foundational mechanics and FEM knowledge; learning curve would be steep and time-consuming",
-      "Research core (pure ML algorithm development) is explicitly excluded from researcher's target identity",
-      "No pathway to human-centered XR research; doctoral work would be in applied physics/engineering, not HCI",
-      "Supervisory team has no background in HCI, immersive systems, or user-centered research",
-      "Potential security clearance requirement (Protective Security Act 2018:585) may apply; researcher should verify eligibility"
+      "Severe thematic misalignment: core research is biomechanics and vehicle safety, not human-centred XR or immersive systems.",
+      "Supervisor group (mechanics, biomechanics, computational modelling) has no visible track record in HCI or immersive systems research.",
+      "Requires significant upskilling in FEM, continuum mechanics, and machine learning—research would consume first year+ on foundational knowledge rather than novel HCI research.",
+      "Upon PhD completion, researcher would be positioned in biomechanics/safety engineering communities, not human-centred XR.",
+      "No pathway to collaborative immersive systems or spatial learning research direction."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -188,8 +228,8 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-08-28T18:37:43.794873Z",
-    "analysis_input_hash": "3d3364ee0e65753eaa2802e87416f9c5662d700fffd779fb36d9a11d385ac950"
+    "analyzed_at": "2026-09-02T11:05:33.153961Z",
+    "analysis_input_hash": "98b47841081139b158b2b6a3c02afdb022f2dd51d2adcdf992820b59650befa1"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -198,9 +238,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 12,
+    "fit_overall": 19,
     "urgency": "medium",
-    "days_to_deadline": 30,
+    "days_to_deadline": 29,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

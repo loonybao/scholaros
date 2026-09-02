@@ -1,0 +1,114 @@
+---
+id: opp_tudelft-postdoc-in-nature-inspired-architectured-concrete
+type: opportunity
+title: "Postdoc in Nature-Inspired Architectured Concrete"
+organisation: "TU Delft"
+deadline: 2026-10-04
+status: open
+eligibility_gate: uncertain
+fit_overall: 7
+urgency: medium
+needs_review: true
+---
+
+# Postdoc in Nature-Inspired Architectured Concrete
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-10-04
+**Location:** Delft, Netherlands
+**Position type:** postdoc
+**Salary:** €3546 - €5538 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-in-Nature-Inspired-Architectured-Concrete-2628-CD/1371054357/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 32)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Help us shape a more sustainable future for the building sector, where infrastructure is grown, not just built.
+Job description
+Concrete is a quasi-brittle material with low tensile strength, so engineers have to rely on steel reinforcement. This comes with a significant environmental cost, as steel production is resource- and carbon-intensive. But nature has already perfected the art of turning brittle minerals into tough materials, like the nacre in seashells, by combining them with soft organic polymers.
+In this project, we explore a fundamentally different approach. Using 3D-printed concrete as a scaffold, we aim to guide the growth of a chitinous fungal network through the material. The result would be a new class of living composite materials that are not only structurally resilient but also inherently sustainable, moving us toward a future where infrastructure is grown, not just built.
+The project aims to prove the concept of hard/soft concrete composites. Your work will build on research activities already underway in our Materials & Environment section, building up on existing numerical models providing a foundation from which you can build on and contribute your own expertise to shaping the next steps of the research.
+As a postdoctoral researcher, you will:
+Use existing computational tools and research foundations to investigate promising concrete architectures.
+Design and perform simple experiments to test and validate the developed architectures.
+Combine modelling and experimental results to understand how architecture influences the mechanical performance of the composites.
+You will join the section of Materials & Environment, Department of Materials, Mechanics, Management & Design of TU Delft, at the Faculty of Civil Engineering and Geosciences. The section specialises in construction materials, with  several ongoing research projects on architectured concrete and concrete metamaterials. This project will be the first in our department focusing on hard/soft composites. Collaborating with leading international researchers in our team, this position offers a strong opportunity to expand your research profile at the intersection of computational modelling, sustainable construction materials, and nature-inspired design.
+Job requirements
+You hold a PhD in Civil Engineering, Materials Science, Mechanical Engineering, or a closely related engineering discipline, with a proven track record of scientific publishing. Experience with mechanical testing and/or numerical modelling (e.g., Abaqus) is a bonus.
+You can independently plan, execute and communicate your research effectively.
+You have excellent written and spoken English.
+Since this is a focused and short research project, it is preferred if the candidate is already in the Netherlands.
+TU Delft (Delft University of Technology)
+Delft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.
+At TU Delft we embrace diversity as one of our core values and we actively engage to be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.
+Challenge. Change. Impact!
+Faculty of Civil Engineering and Geosciences
+The Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.
+Click here to go to the website of the Faculty of Civil Engineering & Geosciences.
+Conditions of employment
+Duration of contract is 5.4 months. Temporary.
+A job of 38-40 hours per week.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+An excellent pension scheme via the ABP.
+The possibility to compile an individual employment package every year.
+Discount with health insurers on supplemental packages.
+Flexible working week.
+Every year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.
+Plenty of opportunities for education, training and courses.
+Partially paid parental leave
+Attention for working healthy and energetically with the vitality program.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.  .
+Additional information
+For more information about this vacancy, please contact Branko Šavija:
+b.savija@tudelft.nl
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+4 October 2026
+via the application button and upload the following documents:
+CV
+Motivational letter
+You can address your application to Branko Šavija.
+Please note:
+You can apply online. We will not process applications sent by email and/or post.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+A postdoctoral position in computational materials science focused on developing nature-inspired hard/soft concrete composites using 3D printing and fungal networks. The work combines numerical modelling and experimental validation to explore sustainable building materials.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 3 |
+| Strategic value | 15 |
+| **Overall** | **7** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cpp, r
+
+**Risks:**
+- Thematic misalignment is severe; this is a materials engineering project with no human-centred or XR elements.
+- Short contract duration offers minimal opportunity to publish or build reputation in the researcher's target field.
+- Relocating from Malaysia to Netherlands for 5.4 months is logistically demanding relative to research benefit.
+- No supervision or mentorship pathway toward doctoral study in human-centred XR.
+- Skill acquisition (FEM, materials modelling) has low transferability to target research direction.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-nature-inspired-architectured-concrete.md` and link [[opp_tudelft-postdoc-in-nature-inspired-architectured-concrete]]._

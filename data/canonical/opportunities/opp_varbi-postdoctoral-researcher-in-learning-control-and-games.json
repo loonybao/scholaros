@@ -1,0 +1,177 @@
+{
+  "id": "opp_varbi-postdoctoral-researcher-in-learning-control-and-games",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-02T11:02:43.435557Z",
+  "updated_at": "2026-09-02T11:05:33.611406Z",
+  "change_history": [
+    {
+      "ts": "2026-09-02T11:02:43.435695Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-02T11:05:33.156564Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-02T11:05:33.611406Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral researcher in learning, control, and games",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-964263",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:964263/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-964263"
+    ],
+    "retrieved_at": "2026-09-02T11:02:43.435345Z",
+    "raw_snapshot_hash": "1b3eaa02a688f100d915555316b1d43e23dc4339bcb35791144a81d64f23f4aa",
+    "extracted_content_hash": "30bc8b3083292b1fb5fd11d70b861ddce0ac410db4c539455a1348f8155ac00b",
+    "deadline": "2026-10-16",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Postdoctoral researcher in learning, control, and games\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences\nJob description\nWe are looking for a highly motivated postdoctoral researcher with a strong interest in intelligent systems in which artificial intelligence, human decision-making, or both interact with dynamical environments. The successful candidate is expected to have a solid background in one or more of the following areas: applied mathematics, systems and control, game theory, machine learning, optimization, and decision-making.\nThe project seeks to develop mathematical foundations and computational methods for the analysis, learning, and coordination of complex closed-loop systems involving three tightly coupled components: a dynamical environment, algorithmic decision makers, and strategic or adaptive agents. In such systems, decisions influence not only the physical environment but also the behavior of other participants and the data subsequently available for learning. These feedback effects create fundamental challenges for stability, identifiability, performance, and robustness that cannot be addressed by treating learning, control, and strategic interaction separately. The research will investigate how these coupled systems can be modeled, analyzed, and designed to achieve reliable system-level outcomes. The broader objective is to use insights from closed-loop decision-making to design intelligent systems that are more efficient, sustainable, resilient, and reliable.\nThe selected candidates will also be enrolled in the Wallenberg AI, Autonomous Systems, and Software Program (\nWASP\n), thereby gaining privileged access to its extensive resources. The WASP is Sweden’s largest individual research program ever, a major national initiative for strategically motivated basic research, education, and faculty recruitment. The program addresses research on artificial intelligence and autonomous systems acting in collaboration with humans, adapting to their environment through sensors, information, and knowledge, and forming intelligent systems-of-systems. The vision of WASP is excellent research and competence in artificial intelligence, autonomous systems, and software for the benefit of the Swedish industry.\nThe workplace\nThe Department of Mathematics (\nhttps://www.kth.se/math\n) has vibrant research environment, featuring world-class groups in applied, computational, and pure mathematics, as well as mathematical statistics. The research group excels in optimization and mathematical systems theory, with particular emphasis on network and nonlinear control and games, numerical analysis, optimization with particular emphasis on large-scale nonlinear programming and a range of applications. With a strong tradition of collaboration, the group works closely with startups, industry leaders, and academic institutions across Sweden and Europe, driving innovation and impactful research. Notable industrial projects span robotics, radiation therapy, cell biology, and supply chain optimization.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nA strong foundation in mathematical tools relevant to the project.\nA demonstrated record of exceptional research achievements and publications in high-impact venues.\nAdvanced analytical skills, with a proven ability to work independently and collaboratively within interdisciplinary teams.\nOutstanding communication skills, both written and verbal, to effectively disseminate research findings and collaborate with team members.\nAwareness of diversity and equal opportunity issues.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExpertise in one or more of the specific research areas relevant to the position.\nTeaching and mentoring abilities.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nA complete application packet includes the following items:\nCV including research areas and a publication list.\nCover letter (1 page max).\nA statement of current research and future research plans (2 page max except for references).\nCopy of diplomas and grades from all your previous university studies. (Translations into English or Swedish if the original ones are not in any of these languages.)\nThe contact information of at least 3 professional references, including their email addresses, phone numbers, and affiliations. The references may be contacted during the evaluation process.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2916\nContact\nSilun Zhang, Assistant Professor, silunz@kth.se\nPublished\n02.Sep.2026\nLast application date\n16.Oct.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "A postdoctoral position in mathematical foundations of learning, control, and games, with focus on closed-loop systems involving dynamical environments, algorithmic decision-makers, and strategic agents. The work is situated in applied mathematics and systems theory, with enrollment in the WASP programme.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 12,
+      "rationale": "The posting focuses on mathematical systems theory, game theory, and algorithmic decision-making in abstract dynamical systems. While 'learning' and 'multi-agent' appear superficially relevant, the context is pure control theory and optimization, not human-centred systems. There is no mention of human cognition, spatial understanding, immersive environments, presence, embodiment, or collaborative user experience. The 'game' element refers to game-theoretic formalisms, not gamified learning or social immersion."
+    },
+    "methodological_fit": {
+      "score": 18,
+      "rationale": "The position requires advanced mathematics (applied math, systems theory, optimization, game theory) and strong publication records in these domains. The researcher's background is in design, HCI, and user-centred research—qualitatively different from pure mathematics and control theory. While both involve research rigour, the toolsets (mathematical proof, dynamical systems analysis vs. user studies, design science) are largely non-overlapping. Beginner-level Python and no stated mathematics background are significant gaps."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "This position would require retraining in applied mathematics, systems theory, and game theory—foundational knowledge that would consume the first year. These skills are not aligned with the researcher's target growth areas (spatial cognition, immersive interaction design, user experience in collaborative XR). While 'multi-agent systems' might seem tangentially related to multiplayer collaboration, the mathematical formalism used here (game theory, control loops) is far removed from HCI-based studies of how humans coordinate in immersive spaces."
+    },
+    "strategic_value": {
+      "score": 45,
+      "rationale": "KTH and WASP are prestigious. A 2-year postdoctoral fellowship with access to WASP resources and publication in high-impact mathematics/control theory venues is strategically strong for general academic career mobility. However, it does not advance the researcher toward human-centred XR communities. Supervisors and peers in this group (Department of Mathematics, systems theory) would not strengthen the researcher's networks in HCI, immersive systems, or educational technology. Post-doctoral career trajectories from this position lead toward mathematical control, autonomous systems, or optimization research—not immersive systems."
+    },
+    "required_skills": [
+      "statistics",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "mixed-effects-modelling",
+      "r"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher holds MSc by Research (in progress). Posting requires doctoral degree by employment decision date. Thesis must be formally conferred.",
+      "Posting states 'doctoral degree obtained within the last three years' as preferred; researcher's MSc by Research does not qualify.",
+      "Posting explicitly requires 'strong foundation in mathematical tools relevant to the project' and lists applied mathematics, systems and control, and game theory. Researcher's profile is in design and HCI with no stated training in these areas."
+    ],
+    "risks": [
+      "Severe domain misalignment: pure mathematical systems theory has no thematic connection to human-centred XR, spatial learning, or collaborative immersive interaction.",
+      "Supervisor group (Department of Mathematics, systems theory) has no visible track record in HCI, immersive systems, or educational technology.",
+      "Fundamental methodological mismatch: mathematical proof and control-theoretic analysis are distant from user-centred research methods and design science.",
+      "Retraining in advanced mathematics would consume significant time; research output would be in control theory and game theory, not human-centred systems.",
+      "Two-year postdoctoral investment in pure mathematics would not accelerate or support transition to a human-centred XR research group.",
+      "Publications and networks established would be in applied mathematics and autonomous systems, not HCI or immersive systems research communities.",
+      "WASP programme, while prestigious, is focused on AI and autonomous systems rather than human-computer interaction or immersive systems."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-02T11:05:33.156170Z",
+    "analysis_input_hash": "7347192c408a89849f34b8bb70159266c3a481a281917a9d186e264754962060"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 18,
+    "urgency": "medium",
+    "days_to_deadline": 44,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

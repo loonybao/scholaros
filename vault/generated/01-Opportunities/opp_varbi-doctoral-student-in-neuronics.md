@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-10-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 12
+fit_overall: 19
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 30)
+Gate: **uncertain** (days to deadline: 29)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -121,7 +121,7 @@ Contact
 Xiaogai Li, Associate Professor, +46739081035, xiaogai@kth.se
 Svein Kleiven, Professor, +4687906448, svein.kleiven@sth.kth.se
 Published
-03.Aug.2026
+27.Aug.2026
 Last application date
 01.Oct.2026
 Apply for position
@@ -132,26 +132,26 @@ Return to job vacancies
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-Doctoral researcher position at KTH in AI-driven finite element human body modeling and injury biomechanics for vehicle safety assessment. Project focuses on personalizing and positioning FEM models using machine learning, with applications to occupant safety in traffic. Supervised by Xiaogai Li, Svein Kleiven, and Shiyang Meng; funded by Vinnova.
+A doctoral position in AI-driven finite element human body modelling and injury biomechanics for traffic safety. The project personalizes computational human body models using AI/ML and integrates them with real-world accident reconstruction, supervised by applied mechanics and biomechanics faculty at KTH.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 8 |
-| Methodological fit | 12 |
-| Growth value | 5 |
-| Strategic value | 25 |
-| **Overall** | **12** |
+| Thematic fit | 10 |
+| Methodological fit | 25 |
+| Growth value | 12 |
+| Strategic value | 35 |
+| **Overall** | **19** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** mixed-effects-modelling, statistics
+**Missing skills:** mixed-effects-modelling, r
 
 **Risks:**
-- Severe skills gap: researcher lacks foundational mechanics and FEM knowledge; learning curve would be steep and time-consuming
-- Research core (pure ML algorithm development) is explicitly excluded from researcher's target identity
-- No pathway to human-centered XR research; doctoral work would be in applied physics/engineering, not HCI
-- Supervisory team has no background in HCI, immersive systems, or user-centered research
-- Potential security clearance requirement (Protective Security Act 2018:585) may apply; researcher should verify eligibility
+- Severe thematic misalignment: core research is biomechanics and vehicle safety, not human-centred XR or immersive systems.
+- Supervisor group (mechanics, biomechanics, computational modelling) has no visible track record in HCI or immersive systems research.
+- Requires significant upskilling in FEM, continuum mechanics, and machine learning—research would consume first year+ on foundational knowledge rather than novel HCI research.
+- Upon PhD completion, researcher would be positioned in biomechanics/safety engineering communities, not human-centred XR.
+- No pathway to collaborative immersive systems or spatial learning research direction.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-neuronics.md` and link [[opp_varbi-doctoral-student-in-neuronics]]._

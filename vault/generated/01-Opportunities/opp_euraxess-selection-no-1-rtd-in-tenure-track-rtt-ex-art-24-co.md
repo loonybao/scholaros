@@ -5,10 +5,10 @@ title: "Selection no. 1 RTD in tenure track (RTT), ex art.24 co.2 L.240/2010, re
 organisation: "Italian Ministry of Education, University and Research"
 deadline: 2026-09-01
 status: open
-eligibility_gate: uncertain
+eligibility_gate: fail
 fit_overall: 16
-urgency: urgent
-needs_review: true
+urgency: none
+needs_review: false
 ---
 
 # Selection no. 1 RTD in tenure track (RTT), ex art.24 co.2 L.240/2010, reserved pursuant to the Ministerial Decree. 193/2026 a RTD a), GSD 07/AGRI-07 “Food science and technology” - SSD AGRI-07/A “Food science and technology” (formerly AGR/15) DAFNE
@@ -24,10 +24,9 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 0)
+Gate: **fail** (days to deadline: -1)
 
-- funding/salary not confirmed on the posting
-- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- application deadline has passed
 
 ## Description
 

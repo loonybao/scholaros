@@ -1,7 +1,7 @@
 {
   "tampere": {
-    "last_run": "2026-09-01T11:20:08.372932+00:00",
-    "last_success": "2026-09-01T11:20:08.372932+00:00",
+    "last_run": "2026-09-02T10:54:28.693098+00:00",
+    "last_success": "2026-09-02T10:54:28.693098+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
@@ -15,14 +15,14 @@
     }
   },
   "aalto": {
-    "last_run": "2026-09-01T11:18:48.981475+00:00",
-    "last_success": "2026-09-01T11:18:48.981475+00:00",
+    "last_run": "2026-09-02T10:53:06.573904+00:00",
+    "last_success": "2026-09-02T10:53:06.573904+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 19,
-      "relevant": 11,
-      "created": 1,
+      "fetched": 18,
+      "relevant": 10,
+      "created": 0,
       "updated": 0,
       "unchanged": 10,
       "candidates": 0,
@@ -30,18 +30,18 @@
     }
   },
   "tudelft": {
-    "last_run": "2026-09-01T11:28:27.179463+00:00",
-    "last_success": "2026-09-01T11:28:27.179463+00:00",
+    "last_run": "2026-09-02T11:02:24.712328+00:00",
+    "last_success": "2026-09-02T11:02:24.712328+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 77,
-      "relevant": 43,
-      "created": 3,
+      "fetched": 72,
+      "relevant": 40,
+      "created": 1,
       "updated": 0,
-      "unchanged": 40,
+      "unchanged": 39,
       "candidates": 2,
-      "skipped_irrelevant": 32
+      "skipped_irrelevant": 30
     }
   },
   "euraxess": {
@@ -60,16 +60,16 @@
     }
   },
   "varbi": {
-    "last_run": "2026-09-01T11:31:07.152301+00:00",
-    "last_success": "2026-09-01T11:31:07.152301+00:00",
+    "last_run": "2026-09-02T11:04:53.129787+00:00",
+    "last_success": "2026-09-02T11:04:53.129787+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 24,
-      "relevant": 17,
-      "created": 0,
-      "updated": 2,
-      "unchanged": 15,
+      "fetched": 22,
+      "relevant": 15,
+      "created": 2,
+      "updated": 1,
+      "unchanged": 12,
       "candidates": 2,
       "skipped_irrelevant": 5
     }
