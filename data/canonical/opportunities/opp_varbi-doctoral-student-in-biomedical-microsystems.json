@@ -1,0 +1,172 @@
+{
+  "id": "opp_varbi-doctoral-student-in-biomedical-microsystems",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-03T11:05:32.604997Z",
+  "updated_at": "2026-09-03T11:14:58.025345Z",
+  "change_history": [
+    {
+      "ts": "2026-09-03T11:05:32.605113Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-03T11:12:10.774269Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-03T11:14:58.025345Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral student in Biomedical microsystems",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-964164",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:964164/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-964164"
+    ],
+    "retrieved_at": "2026-09-03T11:05:32.604860Z",
+    "raw_snapshot_hash": "fe112fda97f6d97e1f2d3d20342a861b24540e4e79330d7d7bddef236059ae57",
+    "extracted_content_hash": "31a44fddcf1d91c54fbe8387190c51ca1747c97664aba76e73397a172a9b4774",
+    "deadline": "2026-09-30",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Doctoral student in Biomedical microsystems\nApply for position\nKungliga Tekniska högskolan,\nProject description\nThird-cycle subject: Micro and Nano Systems\nThe Micro and Nanosystems Lab invites applications for a Ph.D. student position. We are seeking applicants who have a desire to conduct cutting-edge research within the area of biomedical MEMS. As a Ph.D. student in MEMS you will be part of an interdisciplinary research team that consists of members with different professional and cultural backgrounds.\nThe doctoral project aims to develop next generation minimally invasive sampling technologies for neuro biomarkers. The work includes developing the technical platform and evaluating it in relevant models in vitro and in vivo. The project addresses several research challenges in miniaturization, biomechanics and microfabrication. Your research will be application focused and address real issues. You will work in a very innovative environment in collaboration with clinical experts at Karolinska Institutet and SciLifeLab.\nSupervision:\nProf. Niclas Roxhed is proposed to supervise the doctoral student. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge.\nDegree in Mechanical engineering or similar from a major university.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nexcellent command of English orally and in writing is required to publish in international journals. outstanding academic track record. skilled in pursuing experimental work. experience with fine mechanics will be meritorious\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages. Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2913\nContact\nNiclas Roxhed, Professor, roxhed@kth.se\nPublished\n03.Sep.2026\nLast application date\n30.Sep.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "PhD position in biomedical MEMS at KTH, focused on minimally invasive sampling technologies for neuro biomarkers through microfabrication, biomechanics, and in vitro/in vivo evaluation. Core work is pure materials engineering and biomedical device development with clinical collaboration.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The researcher's expertise is human-centred XR, immersive learning, and spatial cognition. This position requires biomedical microsystems engineering, microfabrication, and biomechanics—entirely disconnected domains. No overlap in research questions, methods, or applications."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "While both involve experimental work, the methodologies are fundamentally different. The researcher has user studies and spatial learning evaluation experience; this role requires materials science, microfabrication protocols, and biomedical testing. The researcher's computational/design background offers no applicable advantage."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "This position would not advance the researcher toward human-centred immersive systems research. It would require retraining in materials engineering and biomedical device physics—a lateral pivot away from the stated target identity of HCI-focused XR research."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "KTH is a respected institution with strong funding and supervision structure. However, the position's strategic value for this researcher is low: it does not align with target institutions (Aalto, TU Delft, or Nordic HCI groups), does not build toward spatial/learning/collaboration research, and represents a domain departure that would complicate future positioning as an HCI researcher."
+    },
+    "required_skills": [
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "materials-science",
+      "microfabrication",
+      "biomedical-device-development",
+      "biomechanics-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Degree requirement met (MSc by Research in progress). Posting emphasizes 'Mechanical engineering or similar from a major university'—researcher's background is in multimedia/creative computing, which may not satisfy this preference.",
+      "Security clearance may apply depending on final classification; nationality not explicitly restricted but EU mobility rules may vary."
+    ],
+    "risks": [
+      "Thematic misalignment: domain too remote from target identity to justify opportunity cost of 4-year commitment.",
+      "Career trajectory risk: completing a biomedical MEMS PhD would make future transition to HCI-XR roles harder, not easier.",
+      "Skill retraining burden: no existing expertise in materials, device physics, or microfabrication to build on."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-03T11:12:10.773758Z",
+    "analysis_input_hash": "a3184f0d85c66fa629c1ed6d8c4e674d0cbe2a798b4c33df352f3c448b10f3fc"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 11,
+    "urgency": "medium",
+    "days_to_deadline": 27,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

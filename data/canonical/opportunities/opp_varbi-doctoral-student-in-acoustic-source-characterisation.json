@@ -1,0 +1,182 @@
+{
+  "id": "opp_varbi-doctoral-student-in-acoustic-source-characterisation",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-03T11:04:39.278815Z",
+  "updated_at": "2026-09-03T11:14:58.023054Z",
+  "change_history": [
+    {
+      "ts": "2026-09-03T11:04:39.278941Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-03T11:11:23.924645Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-03T11:14:58.023054Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral student in acoustic source characterisation",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-962556",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:962556/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-962556"
+    ],
+    "retrieved_at": "2026-09-03T11:04:39.278649Z",
+    "raw_snapshot_hash": "f7203835671d8332dfc05aabd51893de261d41eb69f0120f0316e9a466d3c44c",
+    "extracted_content_hash": "176f6f3c8f27d027c59ddf08f6ec93371799a184c677f75722c72258103e623f",
+    "deadline": "2026-09-24",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Doctoral student in acoustic source characterisation\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences\nProject description\nThird-cycle subject: Vehicle, Maritime and Aerospace Engineering\nThe position is part of a project within the FFI Zero Emissions programme on acoustic source characterisation of electric vehicle components, carried out in close collaboration between KTH and Volvo Technology AB.\nAs vehicles are electrified, combustion noise disappears and sources such as electric motors, cooling fans and power electronics become dominant. The project develops robust methods to identify and characterise these acoustic sources. The work includes equivalent source modelling and inverse acoustics for partially coherent source fields, optimal microphone-array placement, and physics-informed and data-driven machine learning. The methods are linked to virtual pass-by simulation for more cost- and energy-efficient vehicle development.\nThe doctoral student will join the Sound and Vibration research environment at the Marcus Wallenberg Laboratory for Sound and Vibration Research, Department of Engineering Mechanics, KTH, and be associated with the Centre for ECO2 Vehicle Design. The work is carried out in close collaboration with Volvo Technology AB.\nSupervision:\nRomain Rumpler, Elias Zea och Susann Boij are proposed to supervise the doctoral student. Decisions are made on admission\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge.\nThe applicant has knowledge corresponding to at least 60 higher education credits at second-cycle level in Engineering Mechanics, Applied Physics, Electrical Engineering, Vehicle Engineering, or another subject relevant to acoustics, sound and vibration, or signal processing.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nIt is meritorious if the applicant has knowledge or experience in one or more of the following areas: acoustics, vibrations, structural dynamics, signal processing, inverse methods or microphone arrays, and machine learning or physics-informed machine learning. Experience with scientific programming and tools such as Python, MATLAB, TensorFlow/PyTorch, COMSOL or Actran is also meritorious, as is an interest in academia–industry collaboration.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2848\nContact\nRomain Rumpler, rumpler@kth.se\nElias Zea, zea@kth.se\nSusann Boij, sboij@kth.se\nPublished\n03.Sep.2026\nLast application date\n24.Sep.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "PhD position in vehicle acoustics and vibration research focused on identifying and characterizing acoustic sources in electric vehicles (motors, cooling, power electronics). Work involves equivalent source modelling, inverse acoustics, microphone array design, machine learning, and simulation for vehicle development.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Position is in acoustics, vibration analysis, and vehicle engineering. Core research involves inverse acoustic methods and signal processing for hardware characterization. Researcher's domain is human-centred immersive systems, learning, spatial cognition, and collaborative interaction. No thematic connection. Acoustics engineering and vehicle systems are orthogonal to immersive learning and human-computer interaction."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Position mentions machine learning and data-driven methods, which is adjacent to researcher's interests. However, the context is fundamentally different: acoustic source characterization requires signal processing, inverse methods, and microphone arrays—specialized physics/engineering techniques. Researcher has user study design, software development, and collaborative system design. The experimental paradigms do not transfer."
+    },
+    "growth_value": {
+      "score": 3,
+      "rationale": "Completing this PhD would develop expertise in acoustics, signal processing, and machine learning applied to hardware characterization. These skills do not advance the target identity of human-centred XR/immersive learning researcher. Would delay or redirect away from spatial cognition, collaborative interaction, and learning sciences research."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "KTH is a strong European institution in preferred geography (Sweden). The position offers industrial collaboration (Volvo Technology AB). However, the research group (Sound and Vibration, Marcus Wallenberg Lab) and supervisors (Rumpler, Zea, Boij) are in engineering acoustics, not HCI or immersive systems. The supervisory environment does not support human-centred immersive research trajectory."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python"
+    ],
+    "missing_skills": [
+      "acoustics",
+      "signal-processing",
+      "inverse-methods",
+      "microphone-arrays",
+      "vibration-analysis",
+      "vehicle-engineering",
+      "comsol-or-actran"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires 60+ credits at second-cycle level in Engineering Mechanics, Applied Physics, Electrical Engineering, Vehicle Engineering, or acoustics-related field; researcher has MSc by Research in Creative Multimedia",
+      "Meritorious experience includes acoustics, vibrations, structural dynamics, signal processing, or inverse methods; researcher has none",
+      "Beneficial experience with Python, MATLAB, TensorFlow/PyTorch, COMSOL, Actran; researcher has beginner Python, no scientific computing or simulation tools",
+      "PhD requires MSc admission eligibility; researcher's multimedia background may not satisfy engineering prerequisite checks"
+    ],
+    "risks": [
+      "Researcher lacks foundational training in acoustics, vibration theory, and signal processing required for PhD success",
+      "Pursuing this would redirect research focus from human-centred design toward physics-based engineering",
+      "Supervisory expertise is in acoustics/vibration, not human factors or immersive systems; limited mentorship alignment",
+      "Industrial collaboration with Volvo is automotive-focused, not immersive learning or spatial cognition"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.9,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-03T11:11:23.924258Z",
+    "analysis_input_hash": "f005c9763dbf38b5dba86a60a543367ed7954a1dae1675d82aeb2c7152d68353"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 10,
+    "urgency": "high",
+    "days_to_deadline": 21,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "opp_varbi-doctoral-student-in-condensed-matter-theory",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-03T11:03:00.952447Z",
+  "updated_at": "2026-09-03T11:14:58.026829Z",
+  "change_history": [
+    {
+      "ts": "2026-09-03T11:03:00.952573Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-03T11:12:10.776311Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-03T11:14:58.026829Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral student in condensed matter theory",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-958703",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:958703/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-958703"
+    ],
+    "retrieved_at": "2026-09-03T11:03:00.952277Z",
+    "raw_snapshot_hash": "9b0a8961129b462b9be0065f754ccf5417499d543a1cf84c0ff0f1b361145f4b",
+    "extracted_content_hash": "da38df42d76ce37345288037b3fd1e036ac7da6f09da71539390515c5800cb76",
+    "deadline": "2026-10-14",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Doctoral student in condensed matter theory\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences\nProject description\nThird-cycle subject:\nphysics\nThe project will focus on theoretical condensed matter physics, with particular emphasis on quantum many-body physics. The research will mainly employ analytical approaches, and particularly field-theoretical methods, to study interacting quantum systems both in and out of equilibrium. Numerical approaches will be used to complement the analytical work. The group’s current research interests include quantum chaos and thermalization, disordered systems, nonequilibrium quantum dynamics, and superconductivity.\nSupervision:\nYunxiang Liao is proposed to supervise the doctoral student. Decisions are made on admission\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree:\nDoctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2708\nContact\nYunxiang Liao, liao2@kth.se\nPublished\n03.Sep.2026\nLast application date\n14.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "PhD position in theoretical condensed matter physics at KTH, focused on quantum many-body systems using analytical field-theoretical methods and numerical approaches. Core work is pure mathematical physics in quantum mechanics.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "No connection to human-centred research, immersive systems, learning science, or spatial cognition. Condensed matter theory is pure fundamental physics—a domain orthogonal to the researcher's HCI and XR focus."
+    },
+    "methodological_fit": {
+      "score": 0,
+      "rationale": "Researcher's methods centre on user studies, experimental design, and qualitative/quantitative evaluation of human performance. This position requires analytical mathematics, field theory, and numerical simulation of quantum systems. No methodological overlap."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "Zero growth value toward stated target identity. Condensed matter theory PhD develops specialist physics expertise with no application to HCI, XR, learning, or spatial research."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "KTH offers strong reputation and research environment. However, strategic value is near zero: the position does not align with target institutions, does not build HCI/XR networks, and would be a categorical career departure that damages credibility for future HCI roles."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "quantum-mechanics",
+      "field-theory",
+      "analytical-mathematics",
+      "numerical-physics-simulation"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Degree requirement met (MSc by Research in progress). However, posting implies strong background in Physics or related theoretical discipline. Multimedia Computing degree does not demonstrate readiness for condensed matter theory coursework.",
+      "No Python or mathematical modelling experience at required level documented in profile."
+    ],
+    "risks": [
+      "Fundamental disciplinary mismatch: the researcher lacks the theoretical physics foundation (quantum mechanics, field theory, advanced mathematics) required for this position.",
+      "Career trajectory incompatibility: a condensed matter physics PhD would be very difficult to credibly transition from into HCI/XR research.",
+      "Application likelihood: without advanced physics background, competitive disadvantage against physics/engineering PhD applicants.",
+      "Four-year opportunity cost in unrelated domain."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-03T11:12:10.775923Z",
+    "analysis_input_hash": "f32ae37a4c5276d62d5c81f1e774958b73b4adbe9b4e68ee257e202e3131b755"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 4,
+    "urgency": "medium",
+    "days_to_deadline": 41,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

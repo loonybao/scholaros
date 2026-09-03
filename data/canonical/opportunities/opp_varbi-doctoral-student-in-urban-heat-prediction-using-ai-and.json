@@ -1,0 +1,179 @@
+{
+  "id": "opp_varbi-doctoral-student-in-urban-heat-prediction-using-ai-and",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-03T11:05:41.242454Z",
+  "updated_at": "2026-09-03T11:14:58.044979Z",
+  "change_history": [
+    {
+      "ts": "2026-09-03T11:05:41.242571Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-03T11:14:26.131772Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-03T11:14:58.044979Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Student in Urban Heat Prediction Using AI and Earth Observation",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-964277",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:964277/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-964277"
+    ],
+    "retrieved_at": "2026-09-03T11:05:41.242313Z",
+    "raw_snapshot_hash": "fbf8c34fffc9d7b57f40a3f4accfcea7dd04cc02d65788b4a8ce91493cf7bb78",
+    "extracted_content_hash": "1643f739aca9bd68fdb6311ff86badb238654adc66fc394c314050d18db53bd8",
+    "deadline": "2026-09-24",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Doctoral Student in Urban Heat Prediction Using AI and Earth Observation\nApply for position\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nProject description\nThird-cycle subject:\nComputer Science\nThe Division of Robotics, Perception and Learning has an open position for a doctoral student with a background and strong interest in deep generative learning and computer vision/remote sensing. The successful candidate will join a project funded by Digital Futures to map urban air temperature at high spatial and temporal resolutions. Cities face rising urban heat, both from sharp spikes and prolonged hot periods; however, producing these high-resolution urban air temperature maps remains an open problem. This project will treat dense urban air temperature estimation as an inverse problem, using conditional diffusion models to fuse satellite, forecast, and crowd-sourced station data into probabilistic maps. The challenge: conditioning generative models on large, heterogeneous, incomplete data will require the student to work on cutting-edge ML for a pressing societal need.\nYou will be part of an ongoing collaboration between the groups of Assoc. Prof. Josephine Sullivan at RPL, Prof. Yifang Ban (Division of Geoinformatics) at the Department of Urban Planning and Environment, and Sebastian Hafner at RISE, Kista.\nSupervision:\nAssociate Professor Josephine Sullivan is proposed to supervise the doctoral student.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge.\nThis project will require practical proficiency in deep learning. Thus demonstrated competency in deep learning programming libraries such as TensorFlow, PyTorch, or JAX is a must and experience with GPU-based experimentation and cluster computing (e.g., Docker, Slurm) a plus.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nIn the evaluation of candidates, an emphasis will be place on academic results, completed courses and demonstrated programming ability via completed project work. An earlier specialization in machine learning and experience with computer vision and/or remote sensing is highly desirable and especially meritorious.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2917\nContact\nJosephine Sullivan, Docent, sullivan@kth.se\nPublished\n03.Sep.2026\nLast application date\n24.Sep.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "PhD position in machine learning and computer vision at KTH (Division of Robotics, Perception and Learning) under Assoc. Prof. Josephine Sullivan. Focus: using conditional diffusion models and deep learning to fuse satellite, forecast, and sensor data for high-resolution urban air temperature mapping. Core work is ML algorithm development and deep computer vision.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "The position addresses urban heat (a real-world problem), but the research core is pure machine learning and computer vision algorithm development. The researcher's target identity explicitly excludes 'pure-machine-learning-algorithms.' While there is an earth observation / remote sensing application, the fundamental work is conditioning generative models on heterogeneous data—not human-centred, not about learning science, not about spatial cognition or wayfinding in the human sense. The proximity to 'real-world application' is superficial."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "The position requires deep learning proficiency (TensorFlow, PyTorch, JAX) and GPU/cluster computing—skills adjacent to the researcher's advanced programming (Unity, C#) but not directly matching. The researcher has no ML background. The methodological distance is large: ML algorithm development, generative model conditioning, and computer vision are distant from user studies and experimental HCI evaluation. Some programming transfer value, but limited."
+    },
+    "growth_value": {
+      "score": 25,
+      "rationale": "The position would force learning of deep learning frameworks, GPU computing, and machine learning fundamentals—genuine skill gaps. However, these skills are being learned in the context of pure ML/CV algorithm development, not in service of human-centred immersive systems or learning science. Growth is real but misaligned. The researcher might emerge with strong ML skills unsuited to human-centred XR work."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "KTH is well-funded (Digital Futures, strong institution). Assoc. Prof. Sullivan and the Division of Robotics, Perception and Learning are respected in ML/robotics. However, the group's core expertise is deep learning and computer vision, not human-centred systems or HCI. This position does not connect the researcher to supervisors or groups aligned with target identity (human-centred XR at Aalto, TU Delft). Post-PhD trajectory would likely lead to ML/robotics roles, not human-centred immersive systems."
+    },
+    "required_skills": [
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "csharp"
+    ],
+    "missing_skills": [
+      "deep-learning-frameworks-tensorflow-pytorch-jax",
+      "gpu-computing-docker-slurm",
+      "computer-vision-expertise",
+      "diffusion-models-knowledge",
+      "machine-learning-algorithms-foundation"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position demands 'practical proficiency in deep learning' and 'demonstrated competency in deep learning programming libraries such as TensorFlow, PyTorch, or JAX.' Researcher has none. This is a must-have, not a nice-to-have.",
+      "Experience with 'GPU-based experimentation and cluster computing (e.g., Docker, Slurm)' is listed as a plus. Researcher has none.",
+      "'An earlier specialization in machine learning and experience with computer vision and/or remote sensing is highly desirable and especially meritorious.' Researcher has no ML or computer vision background. She would start from scratch.",
+      "MSc thesis completion required by start date."
+    ],
+    "risks": [
+      "Core eligibility gap: position requires deep learning proficiency; researcher has none. Admission would likely require demonstrated capacity to learn fast, but this is uncertain.",
+      "Pure ML algorithm development is explicitly excluded from the researcher's target identity. Four years building expertise in generative models would move away from human-centred XR.",
+      "Computer vision and remote sensing are orthogonal to spatial cognition, spatial learning, and wayfinding in the human sense.",
+      "No user study, HCI, learning science, or human-centred evaluation component. Core methodological skills would atrophy.",
+      "Supervisor group (RPL, Robotics/Perception/Learning) is not aligned with human-centred XR. Post-PhD trajectory would likely lead to ML/robotics roles, not to Aalto or TU Delft human-centred groups.",
+      "Four-year commitment to deep learning in a computer vision context would delay return to human-centred research by 4–6+ years.",
+      "Publication record post-PhD would signal expertise in generative models and remote sensing, not in human-centred immersive systems—poor signalling for target positions."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-03T11:14:26.131398Z",
+    "analysis_input_hash": "b770171978a94359a3c4a919324044a8e571b032fa707f359ad21649ca7c6d8b"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 17,
+    "urgency": "high",
+    "days_to_deadline": 21,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

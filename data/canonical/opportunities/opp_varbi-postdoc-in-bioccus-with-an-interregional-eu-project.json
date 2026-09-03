@@ -1,0 +1,182 @@
+{
+  "id": "opp_varbi-postdoc-in-bioccus-with-an-interregional-eu-project",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-03T11:05:49.852780Z",
+  "updated_at": "2026-09-03T11:14:58.056112Z",
+  "change_history": [
+    {
+      "ts": "2026-09-03T11:05:49.852896Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-03T11:14:57.645753Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-03T11:14:58.056112Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in bioCCUS with an interregional EU project",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-965233",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:965233/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-965233"
+    ],
+    "retrieved_at": "2026-09-03T11:05:49.852643Z",
+    "raw_snapshot_hash": "db7236b8a9540180bfa3b72f0c66a2019c3646612d2fc56674324c678ff50956",
+    "extracted_content_hash": "55414dbce3827af75b6a43b1c6ef6212c8cc5ed96a8ef5580c9aba0a0e3d6240",
+    "deadline": "2026-09-12",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Postdoc in bioCCUS with an interregional EU project\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nThe use of biomass as an energy material and industrial feedstock is well developed in Sweden. This puts the country in an excellent position for the deployment of negative emission technologies based on capture, utilization and storage of bioCO2. The current position is part of an Interregional EU project within the Baltic region (Interreg Baltic) that aims at exploring and developing value chains for bioCO2, with the ultimate aim to replace fossil carbon with bio-carbon in certain industrial sectors. KTH will work closely with different biogas producer in the Baltic region and design and develop processes for separation and upgrading of bioCO2. The work includes field measurements at the biogas plant, lab experiments to estimate unknown model parameters, and theoretical in-silico process design calculations and cost-estimations. As a post-doc researcher in this project, you will be working on the junction between academic research and industrial development, interact with partners and stakeholders from various fields, and develop hands-on experience on industrial deployment of sustainable process technologies.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in Chemical or Process Engineering or a closely related discipline. This eligibility requirement must be met no later than the time the employment decision is made.\nDemonstrated ability to conduct independent scientific research, including experimental work, data analysis, and publication of results in peer-reviewed journals.\nStrong knowledge of chemical engineering fundamentals, especially transport phenomena, separation processes, and reaction engineering, combined with ability to apply theoretical principles to solve practical engineering challenges.\nExperience with process simulation, numerical modelling, or data-driven process analysis.\nGood knowledge of inorganic chemistry and analytical methods for analysis of CO2 in solvents and gas phases.\nDemonstrated experience in teaching and supervision of undergraduate and Master students.\nExcellent written and oral communication skills in English, as it is required in the daily work.\nAs a post-doctoral researcher, you are willing to contribute to a collaborative research environment; communicates effectively with researchers, industrial partners, and other stakeholders; support students in their learning and conduct of research and interact with colleagues within the research group; and show curiosity, flexibility, and a willingness to learn new methods and techniques\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience with experimental or theoretical process development in the area of carbon capture and utilization.\nExperience working with industrial research projects or collaborations with external stakeholders.\nExperience preparing project reports or technical deliverables for externally funded research projects.\nCommunicating skills in Swedish in both written and oral form is a plus, as it is required in the daily work.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nA cover letter explaining what motivates you to work on the junction between academic research and industrial development, max. 2 pages.\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nNames and contact details of two references (no reference letters).\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, three years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2966\nContact\nMatthäus Bäbler, babler@kth.se\nPublished\n03.Sep.2026\nLast application date\n12.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "Postdoctoral position in process engineering and sustainable energy focused on developing value chains for biogenic CO2 capture, utilization, and storage within a Baltic region EU project, combining field measurements, lab experiments, and multiscale process modelling.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic overlap. The position concerns bioprocess engineering, CO2 separation chemistry, process design, and industrial deployment of sustainable technologies. The researcher's domains are human-centred immersive systems, spatial learning, and collaborative interaction. There is no intersection in research questions, application domains, or intellectual focus."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Negligible methodological fit. While both involve experimental work and data analysis, the contexts are incommensurable. The position requires expertise in transport phenomena, separation processes, reaction engineering, process simulation, analytical chemistry, and industrial process development. The researcher has strengths in XR development, user study design, and spatial cognition measurement—none of which are relevant to chemical engineering or process design. There is no meaningful methodological bridge."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "No growth value toward target identity. A postdoctoral position in process engineering and bioCCUS would consolidate expertise in an entirely unrelated domain (sustainable energy/chemical engineering) with zero relevance to human-centred immersive systems, spatial cognition, or collaborative learning. It represents a permanent career diversion, not a stepping stone."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "Low strategic value. While KTH is a strong institution and the EU project provides funding stability and industrial partnership experience, the position does not advance toward the target institutions (Aalto, TU Delft) or European HCI groups. The supervisor (Matthäus Bäbler) specializes in chemical engineering and process design, not HCI or immersive systems. The Baltic interregional project is geographically acceptable but does not serve the researcher's specific institutional or methodological targets."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "statistics"
+    ],
+    "missing_skills": [
+      "chemical-engineering (not in taxonomy)",
+      "transport-phenomena (not in taxonomy)",
+      "separation-processes (not in taxonomy)",
+      "reaction-engineering (not in taxonomy)",
+      "process-simulation (not in taxonomy)",
+      "analytical-chemistry (not in taxonomy)",
+      "CO2-capture-and-utilization (not in taxonomy)"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires doctoral degree 'obtained within the last three years prior to the application deadline' as a preferred qualification. Researcher's MSc is in progress and will not be a doctorate. This is a postdoc position; researcher does not hold a PhD and is ineligible.",
+      "Posting specifies 'Doctoral degree or an equivalent foreign degree in Chemical or Process Engineering or a closely related discipline.' Researcher's degree is in Multimedia and Creative Multimedia (HCI/immersive systems), not engineering. Does not meet eligibility requirements."
+    ],
+    "risks": [
+      "Researcher is ineligible: postdoc positions require a PhD, and the researcher holds only an MSc (in progress).",
+      "Even if eligibility requirements were waived, the degree discipline (Multimedia, not Chemical Engineering) does not match the mandatory requirement.",
+      "Researcher has no background in chemical engineering, process design, or bioprocess development; the learning curve would be prohibitive.",
+      "Accepting this role would represent a permanent departure from HCI and immersive systems research with no pathway to return.",
+      "Supervisor group (chemical/process engineering) would provide no mentorship in human-centred research or XR methodologies.",
+      "Position does not advance toward priority institutions or target research groups."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-03T11:14:57.645387Z",
+    "analysis_input_hash": "eed11d1a976a7d4fa7da9af15780ea9d85a97a6a0ea3d4a78d85f1f871cf1350"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 10,
+    "urgency": "high",
+    "days_to_deadline": 9,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
