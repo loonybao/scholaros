@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-30
 status: open
 eligibility_gate: uncertain
-fit_overall: 20
+fit_overall: 9
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 27)
+Gate: **uncertain** (days to deadline: 26)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -75,6 +75,8 @@ is available, to support your accompanying partner with their job search in the 
 Additional information
 For more information about this vacancy, please contact Prof.dr.ir. Tamas Keviczky,
 t.keviczky@tudelft.nl
+or Dr. Mohammad Khosravi,
+mohammad.khosravi@tudelft.nl
 .
 Application procedure
 Are you interested in this vacancy? Please apply no later than
@@ -97,28 +99,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-PhD position in TU Delft's Control Systems group developing data-driven and hybrid model-based control algorithms for autonomous greenhouse climate and crop management, using Koopman operators and neural networks to optimize energy use and photosynthesis efficiency.
+PhD position in control systems and learning methods for autonomous greenhouse climate management, part of the GreenControl consortium. Focuses on data-driven and model-based predictive control using Koopman operators, reduced-order modelling, and optimization for crop-centric environmental control across multiple spatial and temporal scales.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 12 |
-| Methodological fit | 25 |
-| Growth value | 15 |
-| Strategic value | 35 |
-| **Overall** | **20** |
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 3 |
+| Strategic value | 25 |
+| **Overall** | **9** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics, mixed-effects-modelling
+**Missing skills:** systems-and-control, applied-mathematics, advanced-optimization, koopman-operators, pde-modelling, cfd
 
 **Risks:**
-- Domain shift: greenhouse control and agricultural technology are outside human-centred research. No direct relevance to immersive systems or spatial cognition.
-- Mathematical depth: Koopman operators, PDEs, RKHS, SINDy are advanced theoretical tools. Researcher would need significant ramp-up; PhD project timeline at risk.
-- Misaligned supervision: Prof. Keviczky specializes in control systems and optimization, not HCI or human-centred design. Limited mentorship on target research direction.
-- Biological/agricultural domain is a distraction from core XR/HCI identity development. Post-PhD positioning would be ambiguous (control theorist? HCI researcher? agricultural technologist?).
-- No human subjects or human factors component—opposite of researcher's target identity.
+- Position core is pure control systems and mathematical modelling—explicitly excluded in target_identity as 'pure machine-learning algorithms' adjacent work.
+- Supervisor expertise is controls/optimization, not HCI or learning sciences. Limited mentorship for target trajectory.
+- No immersive systems component; cannot be reframed as XR-adjacent work.
+- Mathematical barrier: Koopman operators, PDEs, and RKHS require formal mathematical background researcher does not possess.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-learning-and-control-for-complex-large.md` and link [[opp_tudelft-phd-position-learning-and-control-for-complex-large]]._
