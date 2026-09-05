@@ -1,0 +1,179 @@
+{
+  "id": "opp_tampere-postdoctoral-research-fellow-mechanical-and-railway",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-05T10:10:30.339888Z",
+  "updated_at": "2026-09-05T10:27:46.997591Z",
+  "change_history": [
+    {
+      "ts": "2026-09-05T10:10:30.340024Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-05T10:27:46.768892Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-05T10:27:46.997591Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Research Fellow (Mechanical and railway engineering)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3167",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3167",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3167#login_form",
+    "evidence_ids": [
+      "tampere/3167"
+    ],
+    "retrieved_at": "2026-09-05T10:10:30.339689Z",
+    "raw_snapshot_hash": "33c88a086ac8dd23ad922262bfef4035447f52c690288e18e7a9c85815f56872",
+    "extracted_content_hash": "86c471f1847a6c617387635d6007370d24ee5a3ff7b180d8b1a23965b76728d0",
+    "deadline": "2026-09-27",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-04",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our universities community has its competitive edges in technology, health and society.\nwww.tuni.fi/en\nWithin the\nunit of Automation Technology and Mechanical Engineering\n,\nfaculty of Engineering and Natural Sciences\n, we are recruiting one (1) postdoctoral researcher position. The unit has about 20 professors and 100 research staff in the areas of Robotics, Automation, and Mechanical engineering. Mechanical engineering is one of the core areas of education and research of the faculty. The position is opened in the Machine Design group (\nMachine Dynamics Group (Machine Design) | Tampere University\n).\nOur group concentrates on machine dynamics, contact modelling, vibration experimental and numerical railway vehicle dynamic analysis that can be used for model-based condition monitoring of different machine system.\nJob description\nWe are looking for one (1) Postdoctoral Research Fellow in mechanical engineering and/or civil engineering. You will focus on the research of Monitoring, Mechanism Analysis, and Mitigation for Sustainable Asset Management of Railway Wheel Out-of-Roundness.  You will collaborate closely with Finnish train maintenance company, VR Fleetcare. You will work one year at Tampere University and another year at VR Fleetcare. At the same time, you will have opportunity to test your technology on full-scale wheel-rail lab (\nFull-Scale Wheel-Rail Lab | Tampere University\n) at Tampere University and real train owned by VR Fleetcare.\nIn addition, activities include supervision of PhD / MSc students, preparation of grants and support of the general activities of the research labs.\nRequirements\nWe seek a motivated and self-guided person with strong theoretical background who is interested working on wheel-rail contact mechanism and vibration analysis, motivating to closely collaborate with railway industry and work on the laboratory and field measurements.  If you have background in railway engineering, it will be a plus for this position.\nFollowing background are needed:\nVibration and data analysis of the measurement (mainly accelerometer).\nFinite element analysis especially thermomechanical, fatigue and contact mechanism analysis (wheel-rail contact mechanism will be preferable).\nMultibody dynamics (railway dynamics will be preferable).\nYou should have a PhD degree in a relevant field. We expect a competence to pursue independent scientific work and adequate teaching skills. You should be fluent in spoken and written English.\nWe offer\nThe position will be offered for a fixed-term period of 2 years. The starting date is expected between Oct. 2026 and Dec. 2026 (or as mutually agreed). A trial period of six (6) months applies to all our new employees.\nAs a member of the dynamic and innovative international community of Tampere University, you will have access to a range of competitive benefits, including occupational health care services, flexible work schedules, versatile research infrastructure, modern teaching facilities, and a safe and inviting campus area. You will also have a personal fund to spend on sports and cultural activities during your free time. Please read more about\nworking at Tampere University\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\n.\nTampere is the largest inland city in Finland and is considered a major academic hub in the Nordic countries. The region is home to a vibrant, knowledge-intensive entrepreneurial community, and the city is an industrial powerhouse with a rich cultural scene and a reputation as a centre of Finland's information society. Additionally, Finland is known for being one of the most stable, free, and safe countries in the world, based on various ratings by prominent agencies. Tampere is surrounded by stunning nature, with forests and lakes offering countless opportunities for easy-to-access outdoor adventures and refreshment throughout the year.\nRead more about Finland and Tampere:\nVisit Finland\nThis is Finland\nMinistry of Economic Affairs and Employment: Welcome to Finland\nVisit Tampere\nSalary\nThe salary will be based on both the job demand level and the employee's personal performance in accordance with\nthe Finnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of the Postdoctoral Research Fellow is placed on the job demand level 5-6. In addition, employees will receive performance-based salary. Therefore, typically, Postdoctoral Research Fellow´s salary varies between 4000 Euro - 4500 Euro.\nHow to apply\nPlease submit your application through our online recruitment system. The closing date for applications is 27th September 2026 (23:59 EET / UTC +2). Please write your application and all the accompanying documentation in English and attach them in PDF format. Applications should include the following documents:\nCurriculum Vitae, e.g., according to\nTENK guidelines\nList of publications\nA letter of motivation, highlighting your achievements and ambition. Please indicate your preferred topic of research from the job descriptions and your most important work/publications and/or other achievements.\nShort listed applicants will be asked to submit a short research plan.\nFor more information, please contact:\nAssistant Professor, Xinxin Yu, Xinxin.yu (at) tuni.fi\n*******\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTekniikan ja luonnontieteiden tiedekunnan Automaatioteknologian ja konetekniikan yksikkö hakee postdoc-tutkijaa Koneensuunnittelun tutkimusryhmään. Tutkimusryhmä keskittyy koneiden dynamiikkaan, kosketusmallinnukseen, värähtelyiden kokeelliseen ja numeeriseen analyysiin sekä rautatiekaluston dynamiikkaan. Näitä menetelmiä hyödynnetään erilaisten konejärjestelmien mallipohjaisessa kunnonvalvonnassa.\nTehtävänkuvaus\nHaemme mekaniikan tai rakennustekniikan alan postdoc-tutkijaa tutkimaan rautatiepyörien ympyrämäisyyspoikkeamien (Wheel Out-of-Roundness, OOR) valvontaa, mekanismien analysointia ja lieventämiskeinoja kestävän omaisuudenhallinnan näkökulmasta.\nTehtävä toteutetaan tiiviissä yhteistyössä VR FleetCaren kanssa. Tutkija työskentelee yhden vuoden Tampereen yliopistossa ja toisen vuoden VR FleetCaressa. Työssä hyödynnetään sekä Tampereen yliopiston täyden mittakaavan pyörä-kisko-laboratoriota että VR FleetCaren kalustoa kehitettyjen menetelmien testaamiseen käytännössä. Tehtävään kuuluu lisäksi tohtori- ja diplomityöopiskelijoiden ohjausta, tutkimusrahoitushakemusten valmistelua sekä tutkimuslaboratorioiden toiminnan tukemista.\nHakuohjeet\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätä hakemuksesi yliopiston sähköisen rekrytointijärjestelmän kautta. Hakemus ja kaikki liitteet tulee laatia englanniksi ja toimittaa PDF-muodossa.\nHakuaika tehtävään päättyy 27.9.2026 klo 23.59.\nLisätiedot:\nAssistant Professor Xinxin Yu\nXinxin.yu(at)tuni.fi"
+  },
+  "ai": {
+    "summary": "Postdoctoral position in mechanical engineering focused on railway wheel dynamics, vibration analysis, finite element analysis, and condition monitoring. Work involves lab testing, field measurements, and collaboration with a train maintenance company, split between university and industry.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic overlap. Position is pure mechanical engineering—vibration analysis, FEA, multibody dynamics, and railway asset management. Researcher's profile is human-centred XR, immersive learning, and spatial cognition. The mention of 'monitoring' and 'systems' is domain-specific engineering, not human-computer interaction or user-centred design."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Minimal methodological fit. While the researcher has experimental design and quantitative research skills, those are elementary and applied to user studies and spatial learning. The position demands advanced finite element analysis, thermomechanical modelling, multibody dynamics simulation, and accelerometer data processing—none of which align with the researcher's demonstrated methods (user studies, questionnaires, task performance measures)."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "This position would not close meaningful capability gaps for the researcher's target identity. It would require unlearning from XR/HCI entirely and retraining in classical mechanical engineering. No pathway to human-centred immersive systems, spatial cognition research, or collaborative interaction design."
+    },
+    "strategic_value": {
+      "score": 15,
+      "rationale": "Tampere University is in the researcher's priority geography (Finland, acceptable institution). However, the group (Machine Design/Dynamics) is orthogonal to HCI or XR communities. No supervisor or collaborator overlap with target research domains. Two-year split between university and industry may provide stability, but the research direction diverges completely from stated target identity."
+    },
+    "required_skills": [
+      "finite-element-modelling",
+      "vibration-analysis",
+      "multibody-dynamics",
+      "accelerometer-data-processing",
+      "thermomechanical-analysis",
+      "fatigue-analysis",
+      "railway-engineering-domain-knowledge"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "finite-element-modelling",
+      "vibration-analysis",
+      "multibody-dynamics",
+      "accelerometer-data-processing",
+      "thermomechanical-analysis",
+      "fatigue-analysis",
+      "railway-engineering-domain-knowledge"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher has MSc by Research in progress; position requires PhD degree. Eligibility depends on whether thesis defence and degree conferral occur before Oct–Dec 2026 start date.",
+      "Position description emphasizes railway engineering background 'will be a plus'—researcher has none."
+    ],
+    "risks": [
+      "Complete domain mismatch: mechanical engineering vs. HCI/XR. Would derail trajectory toward target identity.",
+      "No transferable research skills: FEA, vibration analysis, multibody dynamics are not adjacent to user studies or immersive system design.",
+      "Degree timing uncertainty: must confirm MSc completion by start date.",
+      "Industry split (1 year Tampere, 1 year VR Fleetcare) may reduce publication output and academic visibility in HCI/XR communities."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-05T10:27:46.768300Z",
+    "analysis_input_hash": "6fb4fe2ec4054883caba9b175ac59828fa0d0fe39fd6cb71bd139da7fef6994d"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 7,
+    "urgency": "medium",
+    "days_to_deadline": 22,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-09-18
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 11
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 14)
+Gate: **uncertain** (days to deadline: 13)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -114,7 +114,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+
+Postdoctoral position in wireless communications and integrated sensing and communication (ISAC) at KTH, focused on energy-efficient network design, resource optimization, sensing algorithm development, and collaboration with industry partners (Ericsson, Tele2, RISE). Involves simulation, algorithm development, and coordination of research projects.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 12 |
+| Growth value | 6 |
+| Strategic value | 18 |
+| **Overall** | **11** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** wireless-communications, integrated-sensing-and-communication, network-optimization, resource-management, signal-processing, beamforming-mimo-algorithms, simulation-frameworks, machine-learning, cell-free-massive-mimo
+
+**Risks:**
+- Thematic drift: wireless networks and ISAC are orthogonal to human-centred XR and spatial learning. Position is pure engineering (signals, optimization, algorithms).
+- Skill gap in core position requirements: researcher lacks signal processing, MIMO algorithms, beamforming, or wireless systems knowledge. Ramp-up would be steep and time-consuming.
+- Community isolation: KTH Communication Systems Division is not an HCI or XR research group. Two years in this environment would not build target research networks.
+- Degree timing: must confirm MSc completion by start date.
+- Security clearance ambiguity: posting mentions Protective Security Act but applicability is unclear. May require investigation.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-wireless-network-and-integrated-sensing-and.md` and link [[opp_varbi-postdoc-in-wireless-network-and-integrated-sensing-and]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-04T11:02:09.374771Z",
-  "updated_at": "2026-09-04T11:09:01.855769Z",
+  "updated_at": "2026-09-05T10:27:47.209773Z",
   "change_history": [
     {
       "ts": "2026-09-04T11:02:09.374883Z",
@@ -21,6 +21,45 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-05T10:27:46.770920Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-05T10:27:47.209773Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +98,81 @@
     "status": "open",
     "description_text": "Postdoc in Wireless network and Integrated sensing and communication\nLogin and apply\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nWe invite applications for a Postdoctoral Researcher position in the Communication Systems Division at KTH. The position is connected to the large European research initiative RAI-6Green and the Swedish Wireless Innovation Network center SWE-WIN, which aim to advance resilient, robust, and energy-efficient wireless networks capable of supporting emerging services. The research focuses on resource management and orchestration, while leveraging new technologies such as integrated sensing and communication (ISAC). These initiatives bring together leading academic, industrial, and public-sector partners to develop innovative solutions for future communication networks and sensing-enabled services.\nJob description\nThe successful candidate will contribute to research on energy-efficient network design, optimization, and orchestration across different network components, as well as to the development of sensing algorithms and ISAC solutions. The postdoctoral researcher will also play an active role in coordinating research activities within the group, leading collaborative tasks in national and international research projects, publishing results in leading journals and conferences, and supervising MSc students and co-supervising PhD students.\nThe research will be conducted in a collaborative and multidisciplinary environment, with close interaction with major industrial and research partners (e.g., Ericsson, Tele2, RISE,..)  and other European companies and research institutions. The position offers excellent opportunities to conduct high-impact research, contribute to experimental demonstrators and standardization activities, and further develop a strong professional network across both academia and industry.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nApplicants should hold a PhD in Electrical Engineering, Computer Science, or a closely related field.\nGood collaboration skills who can work independently.\nA strong research record in wireless communications, networking, or optimization.\nApplicants are expected to have a strong background in at least one of the following areas:\nIntegrated sensing and communication Cell-free massive MIMO\nbeamforming, and MIMO algorithms\nJoint optimization of communication and computing resources\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience with simulation frameworks, system-level performance evaluation, or machine learning, is highly valued.\nDemonstrated ability to work independently as well as collaboratively in multidisciplinary and international environments.\nStrong communication and writing skills in English, as it is required in the daily work\nExperience in mentoring MSc or PhD students is meritorious.\nFor KTH and the research group, awareness of diversity and equal opportunity issues, with specific focus on gender equality are important.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n2\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2760\nContact\nCicek Cavdar, cavdar@kth.se\nPublished\n04.Sep.2026\nLast application date\n18.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral position in wireless communications and integrated sensing and communication (ISAC) at KTH, focused on energy-efficient network design, resource optimization, sensing algorithm development, and collaboration with industry partners (Ericsson, Tele2, RISE). Involves simulation, algorithm development, and coordination of research projects.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "Minimal thematic overlap. Position is in wireless communication systems, ISAC, network optimization, and signal processing. Researcher's profile is human-centred XR, collaborative immersive systems, spatial learning, and wayfinding. While 'sensing' appears in both contexts, the position's sensing is about electromagnetic radar/communication signal recovery, not about human spatial perception, cognitive load, or learning outcomes. No HCI, user experience, or immersive systems component."
+    },
+    "methodological_fit": {
+      "score": 12,
+      "rationale": "Weak methodological alignment. Position emphasizes algorithm design, simulation frameworks, system-level performance evaluation, and machine learning for optimization. Researcher has quantitative research and basic statistics skills but demonstrated in user studies context (questionnaires, task performance). The overlap exists (quantitative evaluation, ML interest, optimization framing) but position's signal processing and network algorithm design are not adjacent to user-centred experimental methods. Publication and collaboration models may overlap (strong publication record valued, multidisciplinary teamwork), but research substance is distant."
+    },
+    "growth_value": {
+      "score": 6,
+      "rationale": "Limited growth value. Position could strengthen quantitative analysis and ML/simulation skills, which are gaps in researcher's profile (statistics at beginner level, no ML listed). However, these gains would be in service of wireless network optimization, not spatial cognition or immersive learning. Would not close critical gaps for target identity (user study design, immersive system evaluation, collaboration mechanics in XR). Distraction more than investment."
+    },
+    "strategic_value": {
+      "score": 18,
+      "rationale": "KTH is in priority geography (Sweden, acceptable institution). Strong industrial partnerships (Ericsson, Tele2, RISE) and connection to European RAI-6Green initiative suggest research stability and visibility. However, supervisor/group (Communication Systems Division, KTH) operates in signals and networks, not HCI or XR. Researcher would be an outsider in a wireless engineering community. Two-year postdoc timeline is reasonable. No clear pathway to strengthening target identity or building XR/HCI network during this period."
+    },
+    "required_skills": [
+      "wireless-communications",
+      "integrated-sensing-and-communication",
+      "network-optimization",
+      "resource-management",
+      "signal-processing",
+      "beamforming-mimo-algorithms",
+      "simulation-frameworks",
+      "machine-learning",
+      "cell-free-massive-mimo"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "statistics"
+    ],
+    "missing_skills": [
+      "wireless-communications",
+      "integrated-sensing-and-communication",
+      "network-optimization",
+      "resource-management",
+      "signal-processing",
+      "beamforming-mimo-algorithms",
+      "simulation-frameworks",
+      "machine-learning",
+      "cell-free-massive-mimo"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher has MSc by Research in progress; position requires PhD degree. Eligibility depends on degree conferral by application/interview stage.",
+      "Position prefers PhD obtained within last three years; timing must align if MSc defence occurs late 2026.",
+      "Preferred qualifications list machine learning and simulation frameworks; researcher has beginner-level Python and no ML experience."
+    ],
+    "risks": [
+      "Thematic drift: wireless networks and ISAC are orthogonal to human-centred XR and spatial learning. Position is pure engineering (signals, optimization, algorithms).",
+      "Skill gap in core position requirements: researcher lacks signal processing, MIMO algorithms, beamforming, or wireless systems knowledge. Ramp-up would be steep and time-consuming.",
+      "Community isolation: KTH Communication Systems Division is not an HCI or XR research group. Two years in this environment would not build target research networks.",
+      "Degree timing: must confirm MSc completion by start date.",
+      "Security clearance ambiguity: posting mentions Protective Security Act but applicability is unclear. May require investigation."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-05T10:27:46.770577Z",
+    "analysis_input_hash": "008ce6a31f4cca5e669c3553a0ad58cbb2553faba61828a44c14498ad06c4913"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,9 +180,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 11,
     "urgency": "high",
-    "days_to_deadline": 14,
+    "days_to_deadline": 13,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

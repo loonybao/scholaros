@@ -7,7 +7,7 @@ deadline: 2026-09-12
 status: open
 eligibility_gate: uncertain
 fit_overall: 6
-urgency: high
+urgency: urgent
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 8)
+Gate: **uncertain** (days to deadline: 7)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
