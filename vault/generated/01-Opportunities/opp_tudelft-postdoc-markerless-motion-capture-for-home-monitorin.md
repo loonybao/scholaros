@@ -5,10 +5,10 @@ title: "Postdoc Markerless Motion Capture for Home Monitoring in Neurological Po
 organisation: "TU Delft"
 deadline: 2026-09-07
 status: open
-eligibility_gate: uncertain
+eligibility_gate: fail
 fit_overall: 54
-urgency: urgent
-needs_review: true
+urgency: none
+needs_review: false
 ---
 
 # Postdoc Markerless Motion Capture for Home Monitoring in Neurological Populations
@@ -24,9 +24,9 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 0)
+Gate: **fail** (days to deadline: -1)
 
-- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- application deadline has passed
 
 ## Description
 

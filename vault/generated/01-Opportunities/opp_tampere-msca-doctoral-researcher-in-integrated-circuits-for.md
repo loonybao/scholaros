@@ -6,8 +6,8 @@ organisation: "Tampere University"
 deadline: 2026-09-15
 status: open
 eligibility_gate: uncertain
-fit_overall: 9
-urgency: high
+fit_overall: 6
+urgency: urgent
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 8)
+Gate: **uncertain** (days to deadline: 7)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -78,7 +78,7 @@ Prior tape out experience is a plus, not a requirement
 We offer
 We offer a fully funded 36-month fixed-term doctoral position within the MSCA framework. The employment begins as soon as possible, no later than 1.1.2027. Salary is determined in accordance with MSCA Doctoral Candidate regulations and the
 Finnish University Salary System
-. The estimated gross monthly salary is approximately €3,950 before employee taxation for a candidate without a family allowance and approximately €4,450 before employee taxation for a candidate with a family (e.g., married or with dependent children).
+. The estimated gross monthly salary is approximately €3,950 before employee taxation for a candidate without a family allowance and approximately €4,450 before employee taxation for a candidate with a family (e.g., married or with dependent children). A six-month trial period applies to all new employees at Tampere University.
 The doctoral candidate will be guided by a distinguished and internationally recognized supervisory team, ensuring ambitious, high-quality doctoral training and close mentorship. Doctoral candidate will be co-supervised by Asst. Prof. Vishnu Unnikrishnan, Assoc. Prof. Bo Tan, Prof. Elena Simona Lohan, and Prof. Mikko Valkama, whose complementary expertise spans theoretical innovation and practical impact.  Secondments with Prof. Izzat Darwazeh at UCL and the industrial visit at Altice Labs, Portugal, provide direct exposure to leading academic and industrial research environments, forming a strong international platform for scientific excellence and career development. The
 https://sochub.fi/
 ecosystem at Tampere University provides an excellent framework to support the IC tape out activities.
@@ -123,28 +123,26 @@ Hakuaika tehtävään päättyy
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
 
-36-month MSCA Doctoral Network position in integrated circuit design and signal processing for large-array transceivers. Focus on beamforming, hardware architectures, and chip prototyping with secondments to UCL and Altice Labs. Based at Tampere University Faculty of Information Technology.
+This is a doctoral position focused on integrated-circuit architectures, signal processing and hardware prototyping for large-array wireless transceivers. The work centres on circuit design, numerical modelling, ASIC or FPGA workflows and experimental characterization, rather than XR, HCI or human-centred research.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 3 |
-| Methodological fit | 12 |
-| Growth value | 5 |
-| Strategic value | 20 |
-| **Overall** | **9** |
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 12 |
+| Strategic value | 18 |
+| **Overall** | **6** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cpp, r
+**Missing skills:** none noted
 
 **Risks:**
-- Severe disciplinary mismatch: ASIC design, RF circuit simulation, and beamforming require foundational knowledge in electrical engineering, signal processing, and semiconductor physics; researcher's background is entirely in software/game development and HCI
-- Position core is embedded systems and hardware optimisation—both explicitly excluded by researcher's stated constraints
-- Supervision fit: none of the four supervisors have expertise in human-computer interaction, XR, or educational technology
-- Skill gap: researcher would need to acquire MATLAB, HDL, Cadence, and other EDA tools; no evidence of readiness for hardware-level work
-- Career risk: a PhD in integrated circuits would place researcher in electronics/telecom industry, not human-centred XR research
+- Severe thematic and disciplinary mismatch with the target identity
+- No demonstrated background in integrated circuits, signal processing, ASIC or FPGA design
+- International training value does not compensate for the lack of a human-centred research pathway
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-msca-doctoral-researcher-in-integrated-circuits-for.md` and link [[opp_tampere-msca-doctoral-researcher-in-integrated-circuits-for]]._

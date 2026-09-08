@@ -1,0 +1,165 @@
+{
+  "id": "opp_tudelft-phd-position-scalable-lipid-nanoparticle-purificatio",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-08T10:53:04.709905Z",
+  "updated_at": "2026-09-08T11:10:50.982883Z",
+  "change_history": [
+    {
+      "ts": "2026-09-08T10:53:04.709990Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-08T11:10:50.759227Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-08T11:10:50.982883Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Scalable Lipid Nanoparticle Purification Technologies",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-applied-sciences",
+    "source": "tudelft",
+    "source_native_id": "1371554657",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Scalable-Lipid-Nanoparticle-Purification-Technologies-2628-CD/1371554657/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Scalable-Lipid-Nanoparticle-Purification-Technologies-2628-CD/1371554657/",
+    "evidence_ids": [
+      "tudelft/1371554657"
+    ],
+    "retrieved_at": "2026-09-08T10:53:04.709755Z",
+    "raw_snapshot_hash": "868cdc18a100c82ce1b684ee364bdafe2d2067adb938457e1a20f9c4a5a5f9a0",
+    "extracted_content_hash": "a7375ee0b62604c95e1ade1b49f806b968f04c0ec7c8d911d05eb64cc53ff341",
+    "deadline": "2026-10-06",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3059 - €3881 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Shape the future of cancer therapy through nanomedicine process engineering.\nJoin as a PhD candidate to design lipid nanoparticles using computational modeling with real-world validation.\nJob description\nSPARC (Scalable Personalized Nanotherapeutics for Cancer Treatment) is an ambitious research program dedicated to making advanced cancer therapies more effective and accessible, particularly for patients with hard-to-treat “cold tumors.” By developing personalized nanomedicines, SPARC aims to improve patient survival through innovations such as tumor-on-a-chip platforms that reduce reliance on animal testing, and novel manufacturing technologies that enhance therapeutic efficacy and product stability.\nAs part of this program, we are seeking a highly motivated Ph.D. student with an interest in cross-disciplinary research to join a shared position between the Precision Therapeutics group (Dr. Alina Rwei) in the Chemical Engineering department and the Complex Fluid Processing group (Prof. Johan Padding) in the Process & Energy department of TU Delft. The position will formally be at Precision Therapeutics.\nThe project is embedded in a strong academic–industrial network and offers close collaboration with leading pharmaceutical partners, including Merck KGaA and Johnson & Johnson.\nThis project focuses on purification of the output stream of lipid-based drug delivery nanoparticles manufacturing systems. These streams typically contain solvent, lipids and unencapsulated drug components, which need to be removed by dilution and subsequent ultra- or diafiltration. Current purification systems, typically based on (alternating) tangential flow filtration, suffer from loss of expensive lipid nanoparticles and membrane fouling, necessitating expensive regular replacement of the membranes.\nYour task will be to engineer innovative purification systems, e.g. by changing membrane materials and designing novel filtration flow geometries, that minimize loss of lipid nanoparticles and maximise throughput. In the design you will explore modularization options for relatively quick and low-cost replacement of filtration system components. The project also involves close interaction with other research teams within the SPARC consortium, e.g., molecular mechanisms for membrane fouling are investigated.\nKey Responsibilities\nComputational modelling with CFD simulations:\nInvestigate the flow, diffusion and filtration in tangential flow filtration systems\nImplement correlations to model build-up of fouling and its effects on filtration capacity\nDevelop novel flow geometries that balance:\nThroughput (maximising production rates)\nMechanical stress on lipid nanoparticles (minimising loss of LNPs)\nExperimental verification\nExperimentally verify the use of alternative membranes for LNP purification.\nExperimentally verify modularisation options for the purification train, including use of quick connectors.\nJob requirements\nMSc or equivalent in Chemical Engineering, Process Engineering, Mechanical Engineering, Nanotechnology or related field\nAnalytical mindset with ability to work across computational and experimental domains\nHave excellent communication skills in English, and want to work in a multidisciplinary team\nExperience in computational fluid dynamics simulations or pharmaceutical downstream processes is a plus\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. Alina Rwei, via\na.y.rwei@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n6 October\n2026\nvia the application button and upload the following documents:\nA detailed CV\nYour Bachelor’s and Master’s transcripts (grade reports)\nA cover letter outlining your motivation and key experience\nIf the applicants are selected for an interview, they will be asked to provide contact details of three referees with their consent.\nYou can address your application to Dr. Alina Rwei.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "This PhD concerns purification technologies for lipid nanoparticles used in pharmaceutical manufacturing. The research combines computational flow modelling with laboratory verification of membranes and filtration-system designs, with no connection to XR, HCI, learning or spatial interaction.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "The position is centered on chemical and process engineering for nanomedicine manufacturing and has no substantive thematic overlap with the target identity."
+    },
+    "methodological_fit": {
+      "score": 9,
+      "rationale": "Experimental verification is a limited methodological overlap, but the main work requires computational fluid-dynamics modelling, filtration-process engineering and laboratory experimentation outside the candidate's demonstrated methods."
+    },
+    "growth_value": {
+      "score": 16,
+      "rationale": "The project could build general computational-experimental research maturity, but it would not close the candidate's priority gaps in immersive interaction, human-centred evaluation or spatial learning."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "The academic and industrial research setting may offer strong disciplinary training, but it provides no evident supervisor, group or project pathway toward human-centred XR/HCI research."
+    },
+    "required_skills": [
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires an MSc or equivalent in chemical engineering, process engineering, mechanical engineering, nanotechnology or a related field",
+      "English proficiency for doctoral admission must be fulfilled"
+    ],
+    "risks": [
+      "Strong disciplinary mismatch with the candidate's research identity",
+      "Core computational fluid-dynamics and pharmaceutical process requirements are not evidenced",
+      "The project would likely require substantial retraining without producing target-relevant research outputs"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-08T11:10:50.758981Z",
+    "analysis_input_hash": "d7a9fe372a9bb263741061f9c137d3e9cfa3e92bc34f268a9f12181c53b9b4e9"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 7,
+    "urgency": "medium",
+    "days_to_deadline": 28,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

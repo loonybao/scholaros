@@ -1,0 +1,171 @@
+{
+  "id": "opp_aalto-doctoral-researcher",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-08T10:50:38.585010Z",
+  "updated_at": "2026-09-08T11:10:50.875321Z",
+  "change_history": [
+    {
+      "ts": "2026-09-08T10:50:38.585088Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-08T11:10:50.756573Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-08T11:10:50.875321Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral researcher",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-science",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-researcher_R47962/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher"
+    ],
+    "retrieved_at": "2026-09-08T10:50:38.584878Z",
+    "raw_snapshot_hash": "9bf493d665f2b9a48dd7edc830bfe9d17bfec55acf6e0a7ecf2c6d883f73a03e",
+    "extracted_content_hash": "220ee7d0a04d806111d43e76288be74d5dfad64f789b75c243e50500055b8eaf",
+    "deadline": "2026-10-15",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-07",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is a community of bold thinkers where science and art meet technology and business. We are committed to identifying and solving grand societal challenges and building an innovative future. Aalto has six schools with 14 000 students and a staff of 5000, of which more than 400 are professors. Our main campus is located in Espoo, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe Department of Computer Science is an internationally-oriented community and home to world-class research in modern computer science, combining research on foundations and innovative applications. With over 40 professors and more than 450 employees from 50 countries, it is the largest department at Aalto University and the leading computer science research unit in northern Europe. Computer science research at Aalto University ranks high in several international surveys (7th in Europe and 1st in the Nordics (NTU 2023); and 88th worldwide in Times Higher Education subject ranking 2025).\nWe are now looking for a\nDoctoral researcher\nAre you excited to help find and assess the most promising habitable exoplanets around solar-like magnetically active stars?\nJoin us to build next‑generation GPU‑accelerated models of stellar dynamos and connect them to exoplanet discovery and space‑weather environments. You will work in Aalto’s High‑Performance Computing Lab within the PEAS (Population of Exoplanets around Active Suns) consortium alongside leading teams in stellar astrophysics, exoplanets, and high-performance computing.\nYour network and team\nHome unit: Aalto University, Department of Computer Science (Otaniemi campus, Espoo), High‑Performance Computing Lab (Supervisor: Assoc. Prof. Maarit Korpi‑Lagg)\nConsortium collaborators include the University of Helsinki Stellar Astrophysics Group (Dr. Thomas Hackman, Dr. Mikko Tuomi), AI professor Teemu Roos from University of Helsinki, and international partners such as Leibniz Institute for Astrophysics Potsdam (AIP).\nYour role and goals\nYou will focus on modelling and interpretation of host stars’ dynamo mechanisms and magnetic activity using fully compressible MHD in global and local frameworks, integrated with physics‑informed machine learning and coronal/wind modelling. Key tasks and responsibilities:\nDevelop and implement data‑driven differential rotation constraints in the global dynamo models (e.g., via relaxation terms in the Navier–Stokes equation), calibrating against solar/stellar observations.\nDesign, run, and analyse large‑scale global solar/stellar dynamo simulations capable of capturing both small‑scale and large‑scale dynamos in the same model with resolutions requiring at LUMI‑class resources.\nPerform model selection and pruning using observational constraints, extend best‑match runs over multiple stellar activity cycles, and prepare datasets for ML analysis.\nContribute to coupling global and local radiative MHD models, including GPU acceleration of radiative transfer and high‑cadence data extraction; use ML tools to isolate active region progenitors and study eruptive conditions.\nInterface with SWMF modules (AWSoM/IA) to model stellar coronae and winds driven by dynamo‑generated surface magnetic maps.\nDisseminate results in journals and conferences; contribute to open‑science releases of data and code.\nIn addition to research work, persons hired are expected to participate in teaching following the standard practices at the department.\nYour experience and ambitions\nWe are looking for a motivated, collaborative researcher with:\nRequired\nMaster’s degree completed before the contract starts (e.g., astrophysics, applied physics, computational science, or closely related).\nRelevant coursework (examples):\nComputational physics/scientific computing and numerical methods for PDEs\nHigh‑performance computing (parallel distributed programming, GPU programming)\nAstrophysical fluid dynamics and/or magnetohydrodynamics\nRadiative transfer in astrophysics\nMachine learning or data analysis for physical sciences\nStrong programming skills (e.g., C/C++/Fortran and Python) and familiarity with reproducible workflows/version control.\nMotivation to pursue independent and collaborative research, and strong communication skills in English.\nPreferred\nDemonstrated experience with MHD or fluid‑dynamics solvers and analysis of large‑scale simulations; experience on GPUs is a plus.\nExperience with physics‑informed ML for scientific data\nFamiliarity with SWMF-like models for stellar coronae and wind modelling.\nWhat we offer\nWe will offer you an excellent and unique research environment in the capital region of Helsinki: our consortium conducts top-notch work in the intersection of astrophysics, data, and computer science. This will give you a chance to develop a unique set of skills appreciated both in academia and industry. You will have access to a unique combination of HPC resources:  Aalto Triton cluster (versatile Tier-2 system for testing, porting, and benchmarking); national CSC supercomputers (e.g. Roihu, Tier-1 systems for medium-level production runs); EuroHPC LUMI (Tier-0, for high-duty production); EuroHPC PRACE competed resources.\nThe position belongs to the Aalto career system and the selected person will be appointed for a two-year fixed term appointment with an option for two-year renewal.\nThe starting salary for the position is 3168,20 EUR per month. In addition to the salary, the contract includes occupational health benefits, and Finland has a comprehensive social security system. The annual total workload of research and teaching staff at Aalto University is 1 612 hours. The position is located at the Aalto University Otaniemi campus.\nReady to apply?\nIf you want to join our community, please submit your application through our recruitment system Workday.\nThe deadline for applications is 15.10.2026\n. The position will be filled as soon as suitable candidate has been identified.\nPlease note: Aalto University’s employees and visitors should apply for the position via our internal system Workday -> find jobs (not external aalto.fi webpage on open positions) by using their existing Workday user account\nTo apply, please share the following application materials in one pdf file with us:\nCV\nCover letter (1–2 pages) describing your fit and motivation to the above-described tasks\nDegree transcripts\nContact information for 1-2 referees\nLinks to code repositories, theses, or preprints (if available)\nThe candidates must have completed their Master’s degree before the start of the contract period. Aalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.\nFurther information\nProfessor Maarit Korpi-Lagg, e-mail \"firstname.lastname@aalto.fi\" (research related information)\nHR Advisor Susanna Holma, e-mail \"hr-cs@aalto.fi\" (recruitment process)\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nAalto University – Towards a better world\n,\nAalto People\n, and\nShaping a Sustainable Future\n.\nAnd this webpage about Aalto and Finland:\nWhy Finland? | Aalto University\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi/\n!\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was just listed again as the happiest country in the world:\nWorld Happiness Report 2025: People are much kinder than we expect, research shows | The World Happiness Report\n.\nMore about Aalto University:\nAalto.fi\ntwitter.com/aaltouniversity\nfacebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "This is a doctoral research role in stellar astrophysics and high-performance scientific computing. Its core work concerns magnetohydrodynamic simulations, GPU-oriented computation, physical modelling and machine-learning analysis of stellar dynamos, with no human-centred XR or HCI research component.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "The research topic is astrophysical modelling rather than immersive systems, spatial learning, collaboration or human-computer interaction. It also falls substantially within the excluded direction of GPU-intensive computational and pure algorithmic work."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "The candidate has some transferable programming, quantitative evaluation and academic-writing experience, but the position requires scientific simulation and physical-modelling methods that are not demonstrated in the profile."
+    },
+    "growth_value": {
+      "score": 15,
+      "rationale": "The role could develop large-scale computational modelling and scientific-computing abilities, but these capabilities would not close the main gaps toward a human-centred XR/HCI identity and could redirect the research trajectory away from it."
+    },
+    "strategic_value": {
+      "score": 12,
+      "rationale": "The Aalto research environment and collaboration network are presented as strong, but the supervisor and group focus is astrophysical HPC rather than HCI/XR. The posting provides no clear path from this project to the target identity."
+    },
+    "required_skills": [
+      "cpp",
+      "python",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "cpp"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires a completed relevant Master's degree before the contract starts",
+      "Relevant academic preparation is described as astrophysics, applied physics, computational science or a closely related field"
+    ],
+    "risks": [
+      "Major disciplinary mismatch with human-centred XR/HCI goals",
+      "Core work requires MHD, numerical PDE modelling and large-scale HPC methods not evidenced in the profile",
+      "The position may strengthen a computational-science identity rather than a human-centred research identity"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-08T11:10:50.756110Z",
+    "analysis_input_hash": "1c50222e6895ae4792ec42ee2f3b95c2d6959cb8b40df22abff8e981072aa504"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 7,
+    "urgency": "medium",
+    "days_to_deadline": 37,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

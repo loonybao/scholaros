@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-27
 status: open
 eligibility_gate: uncertain
-fit_overall: 18
+fit_overall: 44
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 20)
+Gate: **uncertain** (days to deadline: 19)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -96,6 +96,8 @@ Your graduate transcripts.
 An abstract of your MSc thesis, and an overview of your thesis research compiled into a single pdf file (max 10 pages in total) named TUD_YourLastname.pdf.
 Proof of English language proficiency.
 The names and contact details of two references.
+We would like to ask
+prospective candidates to kindly refrain from contacting the supervisory team with questions regarding the research scope or the suitability of their individual background. All relevant information is provided in the vacancy and the candidates’ profiles will be assessed as part of the formal selection process.
 Applications will be reviewed on a rolling basis until the position is filled.
 Expected starting date is January 2027.
 Doing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the
@@ -109,28 +111,26 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
 
-A four-year PhD in sustainable, nature-inclusive school building renovation focusing on biobased materials, climate resilience, and healthier learning environments. The research adopts a whole-systems design approach involving material selection, biodiversity integration, and child development outcomes, with real-world demonstration projects across three Dutch schools.
+This PhD investigates nature-inclusive and climate-resilient renovation strategies for school buildings using biobased materials, ecological considerations and stakeholder collaboration. It includes field-based experimentation, participatory design and design-oriented research, but does not centre on XR, digital systems or spatial cognition.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 15 |
-| Methodological fit | 20 |
-| Growth value | 10 |
-| Strategic value | 25 |
-| **Overall** | **18** |
+| Thematic fit | 28 |
+| Methodological fit | 46 |
+| Growth value | 62 |
+| Strategic value | 58 |
+| **Overall** | **44** |
 
-**Fit type:** poor-fit
+**Fit type:** adjacent-methodological-fit
 
-**Missing skills:** building-technology-materials-assessment, energy-efficiency-analysis, ecological-surveying, participatory-design-stakeholder-engagement, prototype-construction-scaled-modelling
+**Missing skills:** qualitative-research
 
 **Risks:**
-- Domain mismatch: researcher lacks foundational knowledge in building science, materials, and structural systems
-- Supervisor alignment: ecology and architecture supervisors operate outside HCI and immersive systems communities
-- Career trajectory risk: accepting this position would signal a pivot away from target identity (human-centred XR) and likely delay return to that domain
-- Methodological divergence: required lab work is materials/energy assessment, not user studies or immersive interaction design
-- Limited peer community: unlikely to find collaborators or mentorship in human-centred XR during this PhD
+- The candidate's creative-media and XR background may not satisfy the domain-specific building-science requirement
+- The project could lead toward sustainable architecture rather than immersive-systems research
+- Participatory and qualitative research experience is not established in the profile
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-nature-inclusive-school-renovation-w.md` and link [[opp_tudelft-phd-position-in-nature-inclusive-school-renovation-w]]._
