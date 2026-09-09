@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-24
 status: open
 eligibility_gate: uncertain
-fit_overall: 18
+fit_overall: 14
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 16)
+Gate: **uncertain** (days to deadline: 15)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -47,7 +47,7 @@ A solid foundation in machine learning and/or distributed systems. Familiarity w
 Strong programming skills in Python and hands-on experience with a modern deep learning framework (e.g. PyTorch), including work on Linux-based GPU/HPC clusters.
 Demonstrable interest in trustworthy AI: privacy, robustness, adversarial behaviour, evaluation methodology and reproducibility.
 Strong analytical skills and the independence to carry a research agenda over four years, combined with the discipline to meet project deliverable deadlines.
-Excellent command of written and spoken English. Non-native speakers without an English-taught degree must meet the TU Delft English language requirements (e.g. TOEFL iBT 90 or IELTS 6.5 overall).
+Excellent command of written and spoken English.
 A collaborative attitude: you enjoy working in a large international consortium and can explain your work to non-academic stakeholders such as public administrations.
 Commitment to open science: publishing code and benchmarks, and contributing to open-source software.
 TU Delft (Delft University of Technology)
@@ -96,27 +96,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-PhD position in decentralized and federated machine learning pipelines for public-sector data governance, with focus on Byzantine fault tolerance, privacy-preserving ML, and trustworthy AI evaluation methods. Part of the EU Horizon Europe WALTZ project with 30+ international partners.
+PhD position in the Horizon Europe project WALTZ, focusing on decentralized and federated AI pipelines for public administrations. Research involves designing training/inference pipelines across organizational boundaries, Byzantine fault tolerance, privacy-preserving methods, and LLM-based distributed systems.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 15 |
-| Growth value | 10 |
-| Strategic value | 60 |
-| **Overall** | **18** |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 50 |
+| **Overall** | **14** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** machine-learning-fundamentals, federated-learning, byzantine-fault-tolerance, differential-privacy, pytorch-or-deep-learning-framework, hpc-cluster-experience
+**Missing skills:** machine-learning, distributed-systems, federated-learning, privacy-preserving-ml
 
 **Risks:**
-- Core skill mismatch: candidate has no demonstrated ML/deep learning experience; position explicitly requires PyTorch and Linux GPU/HPC clusters.
-- Thematic drift: accepting this position would establish a research trajectory in pure ML systems, creating path dependence away from human-centred XR identity.
-- Supervisor alignment: Dr. Jérémie Decouchant specializes in Byzantine systems and trustworthy AI—not human-centred immersive systems or HCI.
-- Project deliverable pressure: WALTZ has 30+ partners and tight deliverable deadlines; candidate would need to deliver ML results on schedule rather than exploring HCI questions.
+- Core domain mismatch: pure ML/distributed systems, not HCI or immersive systems.
+- Skill gap: researcher lacks the ML and distributed-systems foundations required.
+- Methodological mismatch: researcher's strength is user studies and experimental design; this position requires ML algorithm development and systems engineering.
+- Career trajectory risk: a PhD in federated learning would move the researcher away from human-centred XR/HCI.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-decentralized-and-trustworthy-ai-pipeli.md` and link [[opp_tudelft-phd-position-decentralized-and-trustworthy-ai-pipeli]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-07T11:56:14.887203Z",
-  "updated_at": "2026-09-08T11:10:50.929284Z",
+  "updated_at": "2026-09-09T11:16:35.259193Z",
   "change_history": [
     {
       "ts": "2026-09-07T11:56:14.887335Z",
@@ -63,6 +63,45 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-09T11:01:06.319053Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-09-09T11:14:38.854436Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-09T11:16:35.259193Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -76,9 +115,9 @@
     "evidence_ids": [
       "tudelft/1371444157"
     ],
-    "retrieved_at": "2026-09-07T11:56:14.887036Z",
-    "raw_snapshot_hash": "1d6c149e8eeca691d3a421df24bdd0af7b877264f2906d7999bba75963ab2486",
-    "extracted_content_hash": "0b7527714dc119e54014376422d717c2d3c54e6d3647712fba7d4eec6eec19f4",
+    "retrieved_at": "2026-09-09T11:01:06.318452Z",
+    "raw_snapshot_hash": "5442c9041a06344821dbecf39b532811c2a93a138d042c497c49e06f09b6971b",
+    "extracted_content_hash": "24dfb22bb9ed9afdf49ed9f11cab0244c3b5411ce83ee61a30c19fab6fa85367",
     "deadline": "2026-10-23",
     "deadline_note": null,
     "start_date": null,
@@ -97,41 +136,52 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Engineers usually want predictability. This project embraces chaos! – Excited about control theory? Then join us to build the math of chaotic sampling for greener and more secure control systems.\nJob description\nWireless communication can make control systems cheaper and easier to deploy, but bandwidth and energy limitations, as well as vulnerability to cyber-attacks, restrict its use in critical applications. Event-based control approaches can greatly reduce communication by transmitting information only when required, while potentially generating complex, chaotic sampling patterns. This project investigates how such patterns can be designed systematically to make communication timing difficult for an external observer to predict, while maintaining closed-loop stability and using network resources efficiently.\nIn this PhD project, you will develop mathematical theory and computational methods for the analysis and design of chaotic sampling mechanisms in networked control systems. You will study conditions under which event-based sampling exhibits chaotic behavior and how to design controller and sampler strategies that account for stability, communication rate, and measures of timing unpredictability such as entropy. You will also investigate the robustness of these mechanisms to disturbances and assess whether transmission patterns can be learned from external observations.\nThis position is part of a new lab at the Delft Center for Systems and Control, supervised by Gabriel de Albuquerque Gleizer. The research will allow you to gain deep insights across nonlinear dynamics, optimization, and theoretical computer science, and to combine those in new innovative ways. The position will offer you the opportunity to work on important problems with real-world impact and a strong publication potential. As the project progresses, you will also have the freedom to contribute to an experimental demonstration using a wireless lab-scale control system. Still, this position is theory-centric: expected outcomes include theoretical results, mathematical proofs, and computational algorithms, as well as open-source software and validation through simulations and analysis. Experimental demonstration is an option if it interests you.\nTeaching activities are part of your PhD trajectory and may include, for example: supervising workgroups or lab sessions, assisting in courses, or mentoring BSc and MSc students. While teaching will not be your main responsibility, it offers valuable experience that supports your development and prepares you for future academic or professional roles. Teaching activities will not exceed 20% of your total appointment, averaged over the course of your PhD.\nJob requirements\nEssential\n• An MSc degree in systems & control, electrical engineering, mechanical engineering, applied mathematics, physics, theoretical computer science, or a closely related field.\n• Strong enthusiasm for mathematics and abstraction, matched with the motivation to conduct theory-driven research, the ability to develop rigorous mathematical arguments, and a drive to improve these skills.\n• Curiosity about chaos, nonlinear dynamics, and unpredictability.\n• Solid foundations in linear algebra and differential equations.\n• Proficiency in scientific programming and an excellent command of English.\nAdvantages (but not required)\n• Background in systems and control. For example, familiarity with stability analysis, state-space methods, jump-flow systems, or continuous-time and discrete-time LTI systems theory is a plus.\n• Experience with mathematical modeling, optimization, numerical computation, algorithm development, or machine learning.\n• Prior knowledge on nonlinear dynamics, dynamical systems theory, networked control systems, event-based control, discrete-event systems, or theoretical computer science is not a requirement, but it is an advantage.\nAdvantages (but not required)\n• Background in systems and control. For example, familiarity with stability analysis, state-space methods, jump-flow systems, or continuous-time and discrete-time LTI systems theory is a plus.\n• Experience with mathematical modeling, optimization, numerical computation, algorithm development, or machine learning.\n• Prior knowledge on nonlinear dynamics, dynamical systems theory, networked control systems, event-based control, discrete-event systems, or theoretical computer science is not a requirement, but it is an advantage.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about the vacancy, please contact Dr.Gabriel Gleizer,\nG.Gleizer@tudelft.nl\n.\nFor more information about the application procedure, please contact Giedo Kocken, HR Advisor,\nrecruitment-me@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n23 October 2026\nvia the application button and upload the following documents:\nA curriculum vitae (CV) that states your education and relevant working experience.\nA brief cover letter describing your interest and background in the topic (no more than 1 page).\nOne or two research-oriented documents written by you (e.g., MSc thesis, journal/conference publication, project report).\nTranscript for your BSc and MSc degrees including grades for courses.\nYou can address your application to Dr.Gabriel Gleizer.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "Engineers usually want predictability. This project embraces chaos! – Excited about control theory? Then join us to build the math of chaotic sampling for greener and more secure control systems.\nJob description\nWireless communication can make control systems cheaper and easier to deploy, but bandwidth and energy limitations, as well as vulnerability to cyber-attacks, restrict its use in critical applications. Event-based control approaches can greatly reduce communication by transmitting information only when required, while potentially generating complex, chaotic sampling patterns. This project investigates how such patterns can be designed systematically to make communication timing difficult for an external observer to predict, while maintaining closed-loop stability and using network resources efficiently.\nIn this PhD project, you will develop mathematical theory and computational methods for the analysis and design of chaotic sampling mechanisms in networked control systems. You will study conditions under which event-based sampling exhibits chaotic behavior and how to design controller and sampler strategies that account for stability, communication rate, and measures of timing unpredictability such as entropy. You will also investigate the robustness of these mechanisms to disturbances and assess whether transmission patterns can be learned from external observations.\nThis position is part of a new lab at the Delft Center for Systems and Control, supervised by Gabriel de Albuquerque Gleizer. The research will allow you to gain deep insights across nonlinear dynamics, optimization, and theoretical computer science, and to combine those in new innovative ways. The position will offer you the opportunity to work on important problems with real-world impact and a strong publication potential. As the project progresses, you will also have the freedom to contribute to an experimental demonstration using a wireless lab-scale control system. Still, this position is theory-centric: expected outcomes include theoretical results, mathematical proofs, and computational algorithms, as well as open-source software and validation through simulations and analysis. Experimental demonstration is an option if it interests you.\nTeaching activities are part of your PhD trajectory and may include, for example: supervising workgroups or lab sessions, assisting in courses, or mentoring BSc and MSc students. While teaching will not be your main responsibility, it offers valuable experience that supports your development and prepares you for future academic or professional roles. Teaching activities will not exceed 20% of your total appointment, averaged over the course of your PhD.\nJob requirements\nEssential\n• An MSc degree in systems & control, electrical engineering, mechanical engineering, applied mathematics, physics, theoretical computer science, or a closely related field.\n• Strong enthusiasm for mathematics and abstraction, matched with the motivation to conduct theory-driven research, the ability to develop rigorous mathematical arguments, and a drive to improve these skills.\n• Curiosity about chaos, nonlinear dynamics, and unpredictability.\n• Solid foundations in linear algebra and differential equations.\n• Proficiency in scientific programming and an excellent command of English.\nAdvantages (but not required)\n• Background in systems and control. For example, familiarity with stability analysis, state-space methods, jump-flow systems, or continuous-time and discrete-time LTI systems theory is a plus.\n• Experience with mathematical modeling, optimization, numerical computation, algorithm development, or machine learning.\n• Prior knowledge on nonlinear dynamics, dynamical systems theory, networked control systems, event-based control, discrete-event systems, or theoretical computer science is not a requirement, but it is an advantage.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about the vacancy, please contact Dr.Gabriel Gleizer,\nG.Gleizer@tudelft.nl\n.\nFor more information about the application procedure, please contact Giedo Kocken, HR Advisor,\nrecruitment-me@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n23 October 2026\nvia the application button and upload the following documents:\nA curriculum vitae (CV) that states your education and relevant working experience.\nA brief cover letter describing your interest and background in the topic (no more than 1 page).\nOne or two research-oriented documents written by you (e.g., MSc thesis, journal/conference publication, project report).\nTranscript for your BSc and MSc degrees including grades for courses.\nYou can address your application to Dr.Gabriel Gleizer.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "This is a theory-centric PhD on chaotic sampling, stability, communication efficiency and security in networked control systems. Its core work involves mathematical proofs, nonlinear dynamics, control design and computational algorithms, with experimental validation being optional rather than central.",
+    "summary": "PhD position in control theory and nonlinear dynamics, investigating chaotic sampling mechanisms in networked control systems. Research focuses on mathematical theory, computational methods, and analysis of event-based sampling for stability, communication efficiency, and timing unpredictability.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 2,
-      "rationale": "The research topic is networked control theory rather than human-centred XR, HCI, immersive learning, spatial cognition or collaborative interaction."
+      "score": 0,
+      "rationale": "No thematic overlap. The position is pure control theory and nonlinear dynamics. The researcher's domains (HCI, immersive systems, spatial cognition, collaborative learning) are entirely orthogonal to networked control systems and chaotic sampling."
     },
     "methodological_fit": {
-      "score": 5,
-      "rationale": "The position emphasizes mathematical abstraction, rigorous proofs, nonlinear dynamics and control algorithms. The profile demonstrates applied XR development and user evaluation, but not the mathematical or control-theoretic foundations required."
+      "score": 0,
+      "rationale": "The position is theory-centric, requiring rigorous mathematical arguments, differential equations, and nonlinear dynamics. The researcher's methodologies are experimental design, user studies, and quantitative analysis of human behavior—fundamentally different from pure mathematical theory."
     },
     "growth_value": {
-      "score": 15,
-      "rationale": "It could develop mathematical modelling and algorithmic reasoning, but only through a substantial pivot away from the target identity and existing research trajectory."
+      "score": 0,
+      "rationale": "This position would not close any of the researcher's stated capability gaps. It would introduce entirely new technical domains (control theory, nonlinear dynamics, networked systems) unrelated to the researcher's target identity."
     },
     "strategic_value": {
-      "score": 32,
-      "rationale": "The posting describes a research-intensive TU Delft environment and strong publication potential, but the new control-focused lab offers little visible pathway toward becoming a human-centred XR/HCI researcher."
+      "score": 40,
+      "rationale": "TU Delft is a priority-1 institution in the Netherlands (preferred geography). The research environment is excellent. However, the strategic value is minimal because the research direction is completely misaligned with the researcher's target identity."
     },
-    "required_skills": [],
+    "required_skills": [
+      "mathematics",
+      "control-theory",
+      "nonlinear-dynamics",
+      "optimization"
+    ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [],
-    "missing_skills": [],
+    "missing_skills": [
+      "mathematics",
+      "control-theory",
+      "nonlinear-dynamics",
+      "optimization"
+    ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires a completed MSc in systems and control, electrical engineering, mechanical engineering, applied mathematics, physics, theoretical computer science, or a closely related field; the profile reports an MSc by Research in progress in a creative multimedia faculty.",
-      "The posting requires strong mathematical foundations and scientific programming, but the relevant programming language and mathematical preparation are not established in the profile."
+      "Researcher's MSc is in progress; position requires completed MSc by start date.",
+      "Position explicitly requires 'strong enthusiasm for mathematics and abstraction' and 'rigorous mathematical arguments'; researcher's background is empirical and human-centred, not theoretical mathematics."
     ],
     "risks": [
-      "The core research identity is substantially misaligned with human-centred immersive systems.",
-      "Selection would likely depend on mathematical preparation and evidence of theory-driven research that are not present in the profile.",
-      "The role could redirect the researcher toward control theory rather than strengthen the stated XR/HCI trajectory."
+      "Complete domain mismatch: control theory and nonlinear dynamics have no connection to HCI, XR, or immersive systems.",
+      "Skill gap: researcher lacks the mathematical foundations in differential equations, linear algebra, and nonlinear dynamics required.",
+      "Methodological mismatch: researcher's strength is experimental design and user studies; this position requires pure mathematical theory.",
+      "Career trajectory risk: a PhD in control theory would be a significant detour from the researcher's target identity."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -139,23 +189,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.98,
+    "confidence": 0.99,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-09-07T12:10:12.818989Z",
-    "analysis_input_hash": "4b65ede1586da26a38ebe622d92e0948cd3d3e453cd9d375ceb50ac9ec8319c2"
+    "analyzed_at": "2026-09-09T11:14:38.853942Z",
+    "analysis_input_hash": "5a449bd54a8333f10365b23c118870b49a991a3e11af3326eb8fa7163c78b0d8"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 10,
+    "fit_overall": 6,
     "urgency": "medium",
-    "days_to_deadline": 45,
+    "days_to_deadline": 44,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

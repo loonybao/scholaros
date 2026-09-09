@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-23
 status: open
 eligibility_gate: uncertain
-fit_overall: 10
+fit_overall: 6
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 45)
+Gate: **uncertain** (days to deadline: 44)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -43,10 +43,6 @@ Essential
 • Curiosity about chaos, nonlinear dynamics, and unpredictability.
 • Solid foundations in linear algebra and differential equations.
 • Proficiency in scientific programming and an excellent command of English.
-Advantages (but not required)
-• Background in systems and control. For example, familiarity with stability analysis, state-space methods, jump-flow systems, or continuous-time and discrete-time LTI systems theory is a plus.
-• Experience with mathematical modeling, optimization, numerical computation, algorithm development, or machine learning.
-• Prior knowledge on nonlinear dynamics, dynamical systems theory, networked control systems, event-based control, discrete-event systems, or theoretical computer science is not a requirement, but it is an advantage.
 Advantages (but not required)
 • Background in systems and control. For example, familiarity with stability analysis, state-space methods, jump-flow systems, or continuous-time and discrete-time LTI systems theory is a plus.
 • Experience with mathematical modeling, optimization, numerical computation, algorithm development, or machine learning.
@@ -102,26 +98,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
 
-This is a theory-centric PhD on chaotic sampling, stability, communication efficiency and security in networked control systems. Its core work involves mathematical proofs, nonlinear dynamics, control design and computational algorithms, with experimental validation being optional rather than central.
+PhD position in control theory and nonlinear dynamics, investigating chaotic sampling mechanisms in networked control systems. Research focuses on mathematical theory, computational methods, and analysis of event-based sampling for stability, communication efficiency, and timing unpredictability.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 2 |
-| Methodological fit | 5 |
-| Growth value | 15 |
-| Strategic value | 32 |
-| **Overall** | **10** |
+| Thematic fit | 0 |
+| Methodological fit | 0 |
+| Growth value | 0 |
+| Strategic value | 40 |
+| **Overall** | **6** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** mathematics, control-theory, nonlinear-dynamics, optimization
 
 **Risks:**
-- The core research identity is substantially misaligned with human-centred immersive systems.
-- Selection would likely depend on mathematical preparation and evidence of theory-driven research that are not present in the profile.
-- The role could redirect the researcher toward control theory rather than strengthen the stated XR/HCI trajectory.
+- Complete domain mismatch: control theory and nonlinear dynamics have no connection to HCI, XR, or immersive systems.
+- Skill gap: researcher lacks the mathematical foundations in differential equations, linear algebra, and nonlinear dynamics required.
+- Methodological mismatch: researcher's strength is experimental design and user studies; this position requires pure mathematical theory.
+- Career trajectory risk: a PhD in control theory would be a significant detour from the researcher's target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-chaotic-sampling-for-secure-and-sustain.md` and link [[opp_tudelft-phd-position-chaotic-sampling-for-secure-and-sustain]]._

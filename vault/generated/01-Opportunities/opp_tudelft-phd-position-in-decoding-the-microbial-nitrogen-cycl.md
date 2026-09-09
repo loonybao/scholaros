@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-09
 status: open
 eligibility_gate: uncertain
-fit_overall: 13
+fit_overall: 4
 urgency: urgent
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 1)
+Gate: **uncertain** (days to deadline: 0)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -44,7 +44,6 @@ Excellent spoken and written English.
 Nice-to-haves:
 Experience with metagenomics and/or metaproteomics, including wet-lab procedures and bioinformatic analyses.
 Experience with Linux and scientific programming in R and/or Python.
-If your native language is not English and you do not hold a degree from an institution in which English is the language of instruction, you must submit proof of English proficiency from either TOEFL (minimum total score of 100) or IELTS (minimum total score of 7.0). Proof of English language proficiency certificates older than two years are not accepted.
 TU Delft (Delft University of Technology)
 Working at TU Delft means contributing to solutions that really make a difference.
 For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
@@ -88,27 +87,26 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
 
-PhD position in systems microbiology at TU Delft combining experimental cultivation, multi-omics analysis (metagenomics, metaproteomics), and mathematical modelling to study nitrogen-cycling microbial communities. Work spans environmental biotechnology, systems microbiology, and computational biology.
+PhD position in systems microbiology focused on nitrogen-cycling microbial communities, greenhouse gas emissions, and climate resilience. Combines experimental bioreactor cultivation, multi-omics analysis (metagenomics, metaproteomics), and mathematical modelling.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 8 |
-| Growth value | 3 |
-| Strategic value | 55 |
-| **Overall** | **13** |
+| Thematic fit | 0 |
+| Methodological fit | 10 |
+| Growth value | 0 |
+| Strategic value | 5 |
+| **Overall** | **4** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python, statistics
+**Missing skills:** python, statistics, mixed-effects-modelling
 
 **Risks:**
-- Complete disciplinary mismatch: systems microbiology vs. human-centred XR
-- Position's 'Need-to-haves' require laboratory microbiology background and 'strong interest in bioreactor design'—researcher has neither
-- No prior coursework, projects, or experience in biology, microbiology, or environmental science
-- Recruitment team will likely screen out on disciplinary grounds; MSc background in multimedia is a poor fit for biology PhD
+- Fundamental domain mismatch: microbiology and environmental biotechnology have no connection to XR, HCI, or spatial cognition.
+- Researcher lacks the required disciplinary background (chemistry, environmental engineering, microbiology).
+- Position would require 4 years of retraining in a completely different field.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-decoding-the-microbial-nitrogen-cycl.md` and link [[opp_tudelft-phd-position-in-decoding-the-microbial-nitrogen-cycl]]._

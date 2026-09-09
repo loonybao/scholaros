@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-21
 status: open
 eligibility_gate: uncertain
-fit_overall: 7
+fit_overall: 1
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 13)
+Gate: **uncertain** (days to deadline: 12)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -58,7 +58,9 @@ Coming to Delft Service
 Dual Career Programme
 is available, to support your accompanying partner with their job search in the Netherlands.
 Additional information
-If you would like more information about this vacancy or the selection procedure, please contact  Prof.dr.ir. Toeno van der Sar, via t.vandersar@tudelft.nl.
+If you would like more information about this vacancy or the selection procedure, please contact  Prof.dr.ir. Toeno van der Sar, via
+t.vandersar@tudelft.nl
+.
 Application procedure
 Are you interested in this vacancy? Please apply no later than
 21 Septemeber 2026
@@ -79,28 +81,26 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
 
-4-year PhD position in experimental physics and magnetic microscopy using nitrogen-vacancy (NV) centres in diamond to image magnetic fields and superconductors. Includes cleanroom microfabrication, single-photon microscopy, microwave engineering, and electronic characterization. Based at TU Delft van der Sar lab.
+PhD position in magnetic microscopy using nitrogen-vacancy (NV) centres in diamond to study superconductors and magnets. Focuses on NV-based magnetometry, single-spin control, microwave engineering, cleanroom fabrication, and electronic characterization.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 3 |
-| Methodological fit | 8 |
-| Growth value | 2 |
-| Strategic value | 22 |
-| **Overall** | **7** |
+| Thematic fit | 0 |
+| Methodological fit | 0 |
+| Growth value | 0 |
+| Strategic value | 5 |
+| **Overall** | **1** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cpp
+**Missing skills:** python, statistics, mixed-effects-modelling
 
 **Risks:**
-- Severe disciplinary mismatch: magnetic microscopy, quantum sensing, and condensed matter physics require foundational training in physics, quantum mechanics, and experimental instrumentation; researcher's background is entirely in multimedia and HCI
-- Skill foundation gap: researcher has no background in experimental physics, cleanroom work, microwave engineering, or quantum sensing; acquiring these skills in a 4-year PhD is feasible but requires substantial reorientation
-- Supervision fit: van der Sar lab focuses on fundamental physics and nanoscience; no connection to human-centred research or immersive systems
-- Career trajectory risk: a physics PhD would place researcher in condensed matter/quantum physics pipelines, not human-centred XR research; would diverge substantially from stated target identity
-- Within TU Delft itself, this PhD would not position researcher for collaborations with HCI or immersive systems groups; would isolate researcher in physics department
+- Fundamental domain mismatch: quantum physics and nanotechnology are completely orthogonal to XR, HCI, and spatial cognition.
+- Researcher lacks the required physics background and experimental expertise.
+- Position would require 4 years of retraining in a highly specialized physics field.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-magnetic-microscopy-of-magnets-and-supe.md` and link [[opp_tudelft-phd-position-magnetic-microscopy-of-magnets-and-supe]]._
