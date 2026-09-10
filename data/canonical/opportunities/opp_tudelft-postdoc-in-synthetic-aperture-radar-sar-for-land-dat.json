@@ -1,0 +1,82 @@
+{
+  "id": "opp_tudelft-postdoc-in-synthetic-aperture-radar-sar-for-land-dat",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-10T10:55:46.335420Z",
+  "updated_at": "2026-09-10T11:12:48.972959Z",
+  "change_history": [
+    {
+      "ts": "2026-09-10T10:55:46.335555Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-10T11:12:48.972959Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in Synthetic Aperture Radar (SAR) for Land Data Assimilation",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1371790557",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Synthetic-Aperture-Radar-%28SAR%29-for-Land-Data-Assimilation-2628-CD/1371790557/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Synthetic-Aperture-Radar-%28SAR%29-for-Land-Data-Assimilation-2628-CD/1371790557/",
+    "evidence_ids": [
+      "tudelft/1371790557"
+    ],
+    "retrieved_at": "2026-09-10T10:55:46.335258Z",
+    "raw_snapshot_hash": "26da487250fc0b3ff307c56070a969dc7181c77a74524f3f1e0b79bac5d6b007",
+    "extracted_content_hash": "d3d340a9e1baddc413081ea2e8977c5d46246272ce7c4c640ab78d3cb606e22d",
+    "deadline": "2026-09-27",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3546 - €5538 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Join the M-WAVE team to develop a forward operator for land data assimilation.\nJob description\nChallenge:\nUnderstanding the climatic drivers of crop failure, monitoring crop growth and implementing early warning systems are essential to ensure future food security. Satellite remote sensing, and satellite-derived products provide continuous, global data on crop growth and status. However, these data are still not exploited to their full potential. The CROPWAVES project aims to contribute to better future food security by improving global-scale crop and climate models through the integration of satellite data.\nChange:\nThe CROPWAVES project will exploit satellite-based products for soil moisture and vegetation using data assimilation to improve global-scale crop and climate models at different resolutions.\nImpact:\nCROPWAVES will contribute to improved future food security by providing tools and insight to assess agricultural systems under pressure due to climate change and growing population.\nWhat you’ll do:\nWithin this international project, TU Delft will develop a machine learning-based forward operator to enable the assimilation of SAR imagery into the crop growth model.\nYou will:\nProcess SAR imagery over several study domains across Europe.\nPrepare satellite data, derived products, crop model output and ancillary data to use as input and output for the proposed forward operator.\nDevelop and implement a framework to train, test and validate a machine learning-based forward operator to enable the assimilation of SAR data into a crop growth model.\nBe responsible for the curation, storage and maintenance of data and software used and developed in the project.\nContribute to reporting and project management, including participation in project meetings.\nPublish your research results in peer-reviewed publications.\nPresent your research outputs in project meetings, workshops, and international conferences.\nWhere, how and with whom you will work:\nYou will join the Department of Geoscience and Remote Sensing at TU Delft (Faculty of Civil Engineering and Geosciences) and work closely with Prof. Susan Steele-Dunne, her team at TU Delft (m-wave.tudelft.nl) and collaborators in the CROPWAVES project.\nJob requirements\nFor this postdoctoral role, we are looking for someone with a demonstrated background in SAR processing, SAR applications in agriculture and machine learning:\nA PhD in Earth Observation, Geodesy or a closely-related field.\nDemonstrated experience with SAR image processing using SNAP, PolSARPro or similar.\nExperience in the use of SAR for agricultural applications.\nDemonstrated proficiency in the use of machine learning for regression tasks.\nDemonstrated proficiency with Python or similar scientific programming environment.\nAbility to work with large datasets, develop reproducible workflows and apply modern data science tools.\nStrong organizational skills and a collaborative mindset: the ability to work effectively with international collaborators.\nExcellent communication skills and the ability to write scientific publications independently.\nGood command of written and spoken English.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 9 months. Temporary.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Susan Steele-Dunne (\ns.c.steele-dunne@tudelft.nl\n).\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n27 September 2026\nvia the application button and upload the following documents:\nCurriculum Vitae.\nCover letter, including your motivation for this specific position.\nTranscripts from your MSc/PhD degrees.\nA copy of your PhD thesis will be appreciated.\nApplicants selected for an interview will be asked to provide contact information of at least 3 references.\nYou can address your application to Susan Steele-Dunne.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post\n.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": null,
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": null,
+    "urgency": "high",
+    "days_to_deadline": 17,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

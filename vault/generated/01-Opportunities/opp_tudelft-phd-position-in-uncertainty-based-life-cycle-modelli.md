@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 20)
+Gate: **uncertain** (days to deadline: 19)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -44,7 +44,7 @@ You have building-related knowledge and knowledge of one or more of the followin
 Knowledge of uncertainty quantification and risk modelling is desirable.
 You have experience with programming and data analysis (e.g., Python).
 You have strong analytical skills and interest in interdisciplinary research.
-You have excellent oral and written communication skills in English proven by a minimum score of 100 in TOEFL or IELTS of 7.0 per sub-skill (writing, reading, listening, speaking). For more details please check the Graduate Schools Admission Requirements.
+You have excellent oral and written communication skills in English. You meet the English language requirements for admission to the TU Delft graduate school.
 You are able to work independently, take initiative and collaborate effectively in a multidisciplinary team.
 You are motivated to develop innovative methods addressing real-world challenges in sustainable and resilient building renovation.
 TU Delft (Delft University of Technology)
