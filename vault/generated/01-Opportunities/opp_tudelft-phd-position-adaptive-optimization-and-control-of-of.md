@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-22
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 11
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 42)
+Gate: **uncertain** (days to deadline: 40)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -92,7 +92,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Doctoral researcher position (4 years) in adaptive optimization and control for offshore energy systems integration. Research combines data-driven modelling and optimization-based control methods to enable renewable integration into legacy infrastructure.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 25 |
+| **Overall** | **11** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
+
+**Risks:**
+- Position core is pure control systems engineering and optimization algorithms, explicitly listed as poor-fit category
+- No HCI, immersive systems, or user-facing research component
+- Supervisor expertise (Dr. Marta Zagorowska, DCSC) is in advanced process control systems, not human-centred research
+- Would represent strategic divergence from target identity towards pure engineering
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-adaptive-optimization-and-control-of-of.md` and link [[opp_tudelft-phd-position-adaptive-optimization-and-control-of-of]]._

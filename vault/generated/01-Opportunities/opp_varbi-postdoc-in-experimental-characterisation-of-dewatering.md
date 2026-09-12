@@ -6,8 +6,8 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-09-19
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
-urgency: high
+fit_overall: 6
+urgency: urgent
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 9)
+Gate: **uncertain** (days to deadline: 7)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -111,7 +111,27 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+KTH postdoc position developing experimental methodology and advanced imaging techniques (X-ray, neutron, OCT, NMR) to characterize water transport and structural evolution in cellulose-based materials during pressing and drying. Work involves building lab equipment, beamtime at synchrotron/neutron sources, and collaboration with industrial partners in energy efficiency.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 3 |
+| Strategic value | 10 |
+| **Overall** | **6** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, r
+
+**Risks:**
+- Fundamental disciplinary mismatch: position requires deep domain knowledge in materials science, physics of dewatering, and synchrotron/neutron techniques. Researcher lacks this foundation.
+- Career trajectory risk: accepting this position would signal pivot away from target identity (human-centred XR) and into materials engineering, making return to HCI/XR doctoral track more difficult.
+- Supervisor/group fit unclear: no evidence group has HCI, learning science, or XR expertise. Supervision would likely focus on physics/engineering methods, not human-centred questions.
+- Limited skill transfer: advanced imaging methods learned here (X-ray, NMR) are not transferable to immersive systems or spatial learning research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-experimental-characterisation-of-dewatering.md` and link [[opp_varbi-postdoc-in-experimental-characterisation-of-dewatering]]._

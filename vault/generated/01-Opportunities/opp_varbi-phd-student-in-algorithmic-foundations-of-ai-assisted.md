@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-09-29
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 42
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 19)
+Gate: **uncertain** (days to deadline: 17)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -135,7 +135,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.72_
+
+PhD in algorithmic foundations of AI-assisted consensus and ranking using axiomatic approaches and social choice theory. Focus: content moderation via crowd-sourced classifiers without editorial discretion. Supervised by Prof. Aristides Gionis. WASP-funded (Sweden's largest AI research program).
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 30 |
+| Methodological fit | 55 |
+| Growth value | 40 |
+| Strategic value | 45 |
+| **Overall** | **42** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** qualitative-research
+
+**Risks:**
+- Degree completion uncertainty: researcher must confirm MSc thesis will be completed and formally awarded before PhD start. Posting requirement for 'passed' Master's is strict.
+- Algorithmic foundations require strong mathematical CS background; researcher's background is HCI/UX, not theory. Learning curve in social choice theory, axiomatic design, and formal methods could be steep.
+- Thematic drift: position is content moderation, not immersive learning or spatial understanding. While collaboration themes overlap, researcher may find research scope misaligned with long-term identity.
+- KTH is good, but not priority-1 institution. Network would be algorithmic/social-choice focused, not immersive-systems or HCI-design focused.
+- Collaboration and consensus themes are adjacent but not core to researcher's spatial-cognition and wayfinding interests.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-phd-student-in-algorithmic-foundations-of-ai-assisted.md` and link [[opp_varbi-phd-student-in-algorithmic-foundations-of-ai-assisted]]._

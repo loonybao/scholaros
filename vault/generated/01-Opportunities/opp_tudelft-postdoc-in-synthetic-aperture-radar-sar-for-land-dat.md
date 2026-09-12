@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-27
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 8
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 17)
+Gate: **uncertain** (days to deadline: 15)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -111,7 +111,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+
+Postdoc developing machine-learning-based forward operator to assimilise SAR imagery into crop-growth models. Core work: SAR image processing (SNAP/PolSARPro), machine learning for regression, Python-based data pipelines. EU-funded CROPWAVES project.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 15 |
+| Growth value | 5 |
+| Strategic value | 15 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** statistics, mixed-effects-modelling
+
+**Risks:**
+- Eligibility blocker: PhD required; researcher does not hold one.
+- Remote sensing and agricultural ML unrelated to human-centred immersive systems research.
+- Researcher lacks machine-learning background; would require substantial retraining.
+- Does not advance toward target identity or institutions in HCI/XR.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-synthetic-aperture-radar-sar-for-land-dat.md` and link [[opp_tudelft-postdoc-in-synthetic-aperture-radar-sar-for-land-dat]]._

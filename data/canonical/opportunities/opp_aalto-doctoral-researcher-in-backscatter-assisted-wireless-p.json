@@ -1,0 +1,174 @@
+{
+  "id": "opp_aalto-doctoral-researcher-in-backscatter-assisted-wireless-p",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-12T10:18:37.254657Z",
+  "updated_at": "2026-09-12T10:42:11.253102Z",
+  "change_history": [
+    {
+      "ts": "2026-09-12T10:18:37.254797Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-12T10:39:33.429485Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-12T10:42:11.253102Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher in Backscatter-Assisted Wireless Positioning",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-in-backscatter-assisted-wireless-positioning",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-backscatter-assisted-wireless-positioning",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-Researcher-in-Backscatter-Assisted-Wireless-Positioning_R48027/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-in-backscatter-assisted-wireless-positioning"
+    ],
+    "retrieved_at": "2026-09-12T10:18:37.254487Z",
+    "raw_snapshot_hash": "43c7117c3c73d816db43ce346f3317666ec144f4604b9ab4c439cd5740aea75b",
+    "extracted_content_hash": "8ae149fd04c15b31eb59cc9a762d006bffc949d12953af172b0284d08d3fa509",
+    "deadline": "2026-10-18",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-11",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.\nDiversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nWould you like to develop new wireless positioning methods for challenging non-line-of-sight environments and validate them through real radio experiments?\nWe are looking for a\nDoctoral Researcher in Backscatter-Assisted Wireless Positioning\nto join the Department of Information and Communications Engineering at Aalto University.\nThe position is part of the Research Council of Finland project\nBackscatter Assisted Non-line-of-sight Positioning (BANLOS)\n. The project investigates how backscatter communications can enable and improve wireless positioning when direct line-of-sight propagation is unavailable or unreliable.\nAs a doctoral researcher, you will work towards a doctoral degree while contributing to research at the intersection of\nwireless positioning, backscatter communications, statistical signal processing, and software-defined radio experimentation\n. Depending on your background and interests, your research may emphasize theoretical modelling and algorithms, experimental implementation, or a combination of the two.\nYour role and research\nYour main goal will be to develop and experimentally validate methods that use backscatter-assisted radio measurements to improve positioning in challenging propagation environments. The detailed research questions will be refined together with your supervisors as your doctoral research progresses.\nYour work may include:\nDeveloping signal models, algorithms, and performance analyses for backscatter-assisted non-line-of-sight positioning\nApplying detection and estimation theory to questions such as detectability, identifiability, positioning accuracy, and robustness\nDesigning and implementing software-defined radio prototypes and measurement experiments\nEvaluating the proposed methods through simulations, laboratory experiments, and relevant measurement datasets\nPublishing your research in high-quality international journals and conferences and presenting your results to the scientific community\nCompleting doctoral studies and developing the research skills required for a doctoral degree\nParticipating in teaching and other academic activities of the department to a limited extent\nThe precise balance between theoretical and experimental research can be tailored according to your background and the scientific direction of the project.\nYour research environment and supervision\nYou will join the BANLOS project in the research group of\nProfessor Riku Jäntti\nat Aalto University's Department of Information and Communications Engineering.\nThe research environment brings together expertise in wireless communications, radio positioning, statistical signal processing, and experimental radio systems. You will collaborate with researchers and students at Aalto University as well as with the project's wider national and international scientific network.\nYou will receive regular scientific supervision and support in developing the skills needed to become an independent researcher. As your doctoral work progresses, you will also be encouraged to develop your own research ideas, build scientific networks, and initiate new collaborations.\nWhat we expect from you\nWe are looking for a motivated, curious, and collaborative candidate who enjoys tackling challenging technical problems and is interested in developing into an independent researcher.\nYou should have:\nA Master's degree, or equivalent, in electrical engineering, communications engineering, signal processing, computer science, applied mathematics, or another closely related field\nA strong foundation in wireless communications, statistical signal processing, estimation theory, or a related area\nGood mathematical and analytical skills\nProgramming skills suitable for numerical simulation, signal processing, or experimental research\nGood written and spoken English\nMotivation and ability to pursue doctoral studies and conduct long-term research\nThe Master's degree should be completed by the start of the employment.\nWe particularly value experience or interest in one or more of the following:\nDetection and estimation theory\nWireless positioning and localization\nBackscatter or wireless communications\nStatistical signal processing\nSoftware-defined radio and experimental wireless systems\nPython, MATLAB, C/C++, GNU Radio, or comparable research tools\nPrevious experience in all these areas is not expected. We welcome applicants whose main strengths are either theoretical or experimental, provided that they are motivated to develop the complementary skills needed for the project.\nPrevious publication experience is not required. In the selection, we will place particular emphasis on the applicant's research potential, academic background, analytical and problem-solving skills, motivation for the research topic, and ability to conduct doctoral research.\nDoctoral studies at Aalto University\nThe position is intended for a researcher pursuing a doctoral degree at the Aalto Doctoral Programme in Electrical Engineering.\nThe selected candidate must fulfil the eligibility and admission requirements of the Doctoral Programme in Electrical Engineering. If you do not already have a doctoral study right at Aalto University, you will apply for the study right after being selected for the position.\nMore information about the doctoral programme, eligibility requirements, and doctoral admissions is available on the Aalto University website under\nAalto Doctoral Programme in Electrical Engineering\n.\nWhat we offer\nAt Aalto University, you will benefit from:\nA fully funded doctoral researcher position and the opportunity to work towards a doctoral degree\nA research topic combining fundamental questions in statistical estimation with practical wireless systems and experiments\nAn international research environment with strong expertise in wireless communications, positioning, and signal processing\nClose scientific supervision while gradually developing independence as a researcher\nAccess to computing, software-defined radio, radio prototyping, and measurement resources for theoretical and experimental research\nSupport for scientific publishing, international conference participation, research visits, professional development, and building your future research career\nOccupational healthcare and other employee benefits provided by Aalto University\nThe position follows the School of Electrical Engineering's doctoral researcher employment practices. The initial employment contract is for two years, with a six-month probationary period. Following a successful mid-term review, the contract is expected to be extended for a further two years, giving a total duration of four years.\nThe salary is determined according to the salary system of Finnish universities. The starting salary for a doctoral researcher is EUR 3,143 per month (gross) and develops as the doctoral research and studies progress.\nThe preferred starting date is as soon as possible, but the exact date can be agreed with the selected candidate.\nThe primary workplace is Aalto University's Otaniemi campus in Espoo, Finland. The duties of the position are carried out in Finland, with flexible working arrangements available in accordance with Aalto University practices.\nReady to apply?\nIf you would like to join us, please submit your application in English through Aalto University's online recruitment system using the\n\"Apply now\"\nlink no later than\nOctober 18th, 2026 (23:59 EEST)\n. Applications submitted by email will not be accepted. We encourage you to apply early, as we will go through applications, and we may invite suitable candidates to interview already during the application period.\nAll materials must be submitted in PDF format, with up to five (5) files, each no larger than 5 MB. The application materials must include:\nMotivation letter\ndescribing your interest in the position, relevant background, and motivation for doctoral research in the BANLOS project\nCurriculum vitae\n, including the contact details of at least two referees\nCopies of academic transcripts and degree certificates\nfor your Bachelor's and Master's degrees\nYou may also include a list of publications or other relevant research outputs\nif applicable\n, but previous publications are not required.\nWe encourage you to explain in your motivation letter how your background relates to one or more of the project's research areas. We do not expect applicants to have prior expertise in every aspect of the project.\nPlease note: Aalto University's employees should apply for the position via our internal HR system Workday (Internal Jobs) using their existing Workday user account, rather than through the external webpage for open positions. If you are a student or visitor at Aalto University, please apply using your personal email address rather than your aalto.fi address through Aalto University Open Positions\n.\nFurther information\nFor further information about the research topic and the doctoral researcher position, please contact\nProfessor Riku Jäntti\n,\nriku.jantti@aalto.fi\n. For questions concerning the recruitment process, please contact HR Advisor,\nhr-elec@aalto.fi\n.\nAbout the Department of Information and Communications Engineering\nThe Department of Information and Communications Engineering at Aalto University conducts high-impact research and education in communications engineering, signal processing, networking, and related digital technologies. Our international community combines rigorous theory with experimental research and close collaboration across disciplines.\nAbout Finland\nFinland is a great place for living with or without a family. It is a safe, politically stable, and well-organized Nordic society and consistently ranks highly in international comparisons of quality of life.\nFor more information about living and working in Finland, see\nAalto Careers for International Staff\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Doctoral researcher position in wireless positioning and backscatter communications at Aalto University. Core research focuses on signal processing, detection/estimation theory, and software-defined radio experiments to enable positioning in non-line-of-sight environments.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic alignment with human-centred XR, immersive learning, spatial cognition, or collaborative systems. Position is pure signal processing and wireless communications engineering."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Researcher has quantitative and experimental design skills, but the core methodologies (detection/estimation theory, statistical signal processing, SDR prototyping) do not overlap with HCI, user studies, or immersive system evaluation. User studies and experimental design are surface-level overlaps only."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Would develop technical depth in wireless systems and signal processing, but these sit orthogonal to the researcher's target identity. Does not close gaps in HCI methodology, learning science, or spatial cognition research."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "Aalto is a priority-1 institution and this is a fully-funded 4-year doctoral position with strong supervisory structure and international research environment. However, the department (Information and Communications Engineering) and research group (wireless communications) are fundamentally misaligned with the researcher's stated target direction away from pure technical engineering."
+    },
+    "required_skills": [
+      "statistics",
+      "python",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "statistics",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc by Research in progress; must be completed by start date per posting requirements",
+      "Posting specifies MSc in electrical engineering, communications engineering, signal processing, computer science or related field; MMU Creative Multimedia MSc may not meet 'closely related field' criterion—institution should verify"
+    ],
+    "risks": [
+      "Position core is pure wireless communications and signal processing, explicitly listed as poor-fit category (signals, algorithms, SDR) even though it touches experimental validation",
+      "No immersive systems, HCI, or learning science presence in department; would require complete methodological pivot",
+      "Supervisor expertise (Riku Jäntti group) is in wireless positioning and communications theory, not human-centred research",
+      "Diverges from target identity statement of 'human-centred XR/HCI researcher, not purely technical XR engineer'"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-12T10:39:33.428863Z",
+    "analysis_input_hash": "b404f4f9274ecc51e79702452cb6ac80345e1b87853ed186f16f9262d9c85513"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 14,
+    "urgency": "medium",
+    "days_to_deadline": 36,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

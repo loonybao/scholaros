@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-10T10:55:46.335420Z",
-  "updated_at": "2026-09-10T11:12:48.972959Z",
+  "updated_at": "2026-09-12T10:42:11.460701Z",
   "change_history": [
     {
       "ts": "2026-09-10T10:55:46.335555Z",
@@ -21,6 +21,45 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-12T10:40:28.026401Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-12T10:42:11.460701Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,15 +98,73 @@
     "status": "open",
     "description_text": "Join the M-WAVE team to develop a forward operator for land data assimilation.\nJob description\nChallenge:\nUnderstanding the climatic drivers of crop failure, monitoring crop growth and implementing early warning systems are essential to ensure future food security. Satellite remote sensing, and satellite-derived products provide continuous, global data on crop growth and status. However, these data are still not exploited to their full potential. The CROPWAVES project aims to contribute to better future food security by improving global-scale crop and climate models through the integration of satellite data.\nChange:\nThe CROPWAVES project will exploit satellite-based products for soil moisture and vegetation using data assimilation to improve global-scale crop and climate models at different resolutions.\nImpact:\nCROPWAVES will contribute to improved future food security by providing tools and insight to assess agricultural systems under pressure due to climate change and growing population.\nWhat you’ll do:\nWithin this international project, TU Delft will develop a machine learning-based forward operator to enable the assimilation of SAR imagery into the crop growth model.\nYou will:\nProcess SAR imagery over several study domains across Europe.\nPrepare satellite data, derived products, crop model output and ancillary data to use as input and output for the proposed forward operator.\nDevelop and implement a framework to train, test and validate a machine learning-based forward operator to enable the assimilation of SAR data into a crop growth model.\nBe responsible for the curation, storage and maintenance of data and software used and developed in the project.\nContribute to reporting and project management, including participation in project meetings.\nPublish your research results in peer-reviewed publications.\nPresent your research outputs in project meetings, workshops, and international conferences.\nWhere, how and with whom you will work:\nYou will join the Department of Geoscience and Remote Sensing at TU Delft (Faculty of Civil Engineering and Geosciences) and work closely with Prof. Susan Steele-Dunne, her team at TU Delft (m-wave.tudelft.nl) and collaborators in the CROPWAVES project.\nJob requirements\nFor this postdoctoral role, we are looking for someone with a demonstrated background in SAR processing, SAR applications in agriculture and machine learning:\nA PhD in Earth Observation, Geodesy or a closely-related field.\nDemonstrated experience with SAR image processing using SNAP, PolSARPro or similar.\nExperience in the use of SAR for agricultural applications.\nDemonstrated proficiency in the use of machine learning for regression tasks.\nDemonstrated proficiency with Python or similar scientific programming environment.\nAbility to work with large datasets, develop reproducible workflows and apply modern data science tools.\nStrong organizational skills and a collaborative mindset: the ability to work effectively with international collaborators.\nExcellent communication skills and the ability to write scientific publications independently.\nGood command of written and spoken English.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 9 months. Temporary.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Susan Steele-Dunne (\ns.c.steele-dunne@tudelft.nl\n).\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n27 September 2026\nvia the application button and upload the following documents:\nCurriculum Vitae.\nCover letter, including your motivation for this specific position.\nTranscripts from your MSc/PhD degrees.\nA copy of your PhD thesis will be appreciated.\nApplicants selected for an interview will be asked to provide contact information of at least 3 references.\nYou can address your application to Susan Steele-Dunne.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post\n.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoc developing machine-learning-based forward operator to assimilise SAR imagery into crop-growth models. Core work: SAR image processing (SNAP/PolSARPro), machine learning for regression, Python-based data pipelines. EU-funded CROPWAVES project.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Remote sensing, SAR processing, and agricultural data assimilation. No HCI, no immersive systems, no learning design, no human collaboration. Completely unrelated to researcher's human-centred XR domain."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Position requires machine learning (regression), Python proficiency, and data science workflows. Researcher has beginner Python and no ML background. User-studies and experimental-design methodologies do not transfer. However, general computational/workflow thinking has minor overlap."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Could build Python and machine-learning skills, but these are tangential to target identity (human-centred XR, spatial cognition, collaboration). No advancement toward core research themes."
+    },
+    "strategic_value": {
+      "score": 15,
+      "rationale": "TU Delft is priority-1 institution; EU funding (CROPWAVES) is stable. However, group is in Remote Sensing/Geoscience (Faculty of CEG), not HCI or design. Does not build network in human-centred immersive systems research or toward target doctoral pathway."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher currently holds MSc by Research, not PhD. Position requires PhD degree. Ineligible until PhD is completed.",
+      "Researcher's Python is beginner-level; posting requires 'demonstrated proficiency' for machine-learning regression tasks and large-dataset handling."
+    ],
+    "risks": [
+      "Eligibility blocker: PhD required; researcher does not hold one.",
+      "Remote sensing and agricultural ML unrelated to human-centred immersive systems research.",
+      "Researcher lacks machine-learning background; would require substantial retraining.",
+      "Does not advance toward target identity or institutions in HCI/XR."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.97,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-12T10:40:28.026034Z",
+    "analysis_input_hash": "a9f4464137a9e582bab23a0f881994300e3994a646719177d02ff830aa986f96"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 8,
     "urgency": "high",
-    "days_to_deadline": 17,
+    "days_to_deadline": 15,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

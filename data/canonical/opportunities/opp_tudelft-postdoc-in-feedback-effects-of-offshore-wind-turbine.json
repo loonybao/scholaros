@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-10T10:55:57.276723Z",
-  "updated_at": "2026-09-10T11:12:48.964512Z",
+  "updated_at": "2026-09-12T10:42:11.452104Z",
   "change_history": [
     {
       "ts": "2026-09-10T10:55:57.276844Z",
@@ -21,6 +21,45 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-12T10:40:28.025414Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-12T10:42:11.452104Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,15 +98,70 @@
     "status": "open",
     "description_text": "Job description\nOffshore wind energy is expanding rapidly, with larger turbines, higher power densities, reduced spacing between wind farms, and deployment in deeper waters. These developments intensify interactions between offshore wind farms and the marine atmospheric boundary layer (MABL), with potential impacts extending into the atmosphere above and the upper ocean below. While many studies focus on how atmospheric and oceanic conditions affect turbine performance and power production, significantly less is known about how large offshore wind farms modify atmospheric and oceanic processes themselves.\nIn this project, you will investigate whether and how large offshore wind farms influence precipitation. Using high-resolution numerical modeling, you will examine the physical mechanisms through which wind-farm-induced changes in the atmospheric flow and boundary-layer structure can affect precipitation. Targeted simulations with and without wind-farm effects will be used to quantify these responses and determine under which meteorological conditions they are most pronounced.\nAvailable observations will be used to identify relevant cases and evaluate the simulations. Simulations may include realistic cases to investigate potential wind-farm effects on observed precipitation, complemented by idealized experiments to isolate and better understand the underlying physical mechanisms.\nYou will play a leading role in designing and carrying out the numerical experiments, analyzing model results, and interpreting the physical mechanisms linking offshore wind farms to precipitation. The position offers substantial freedom to shape the scientific direction of the research within this focus, in close collaboration with an interdisciplinary team of scientists.\nJob requirements\nPhD degree in Earth sciences, physics, applied mathematics, engineering, computer science or related discipline.\nStrong skills in fluid mechanics and numerical modelling.\nExperience with large observational data sets of environmental variables.\nExperience with Matlab, Python...\nA demonstrable interest in atmospheric physics and offshore wind turbines.\nGood organizational skills and ability to work independently.\nGood command of written and spoken English.\nExperience with peer-reviewed scientific publishing will be appreciated.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nCo\nnditions of employment\nDuration of contract is 18 months. Temporary.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Sara Porchetta (\ns.p.porchetta@tudelft.nl\n).\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n15 October 2026\nvia the application button and upload the following documents:\nCurriculum Vitae.\nMotivation letter detailing your interest in atmospheric physics and offshore wind turbines.\nTranscripts from your BSc and MSc degrees.\nApplicants selected for an interview will be asked to provide contact information of at least 2 references.\nYou can address your application to Sara Porchetta.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post\n.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoc using high-resolution numerical modelling to study offshore wind farm effects on atmospheric precipitation and boundary-layer dynamics. Requires fluid mechanics, numerical simulation (Matlab/Python), and observational data analysis.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Pure atmospheric physics and computational fluid dynamics. No HCI, no immersive systems, no learning design, no collaboration. Completely orthogonal to researcher's domain and target identity."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Position requires CFD and numerical modelling expertise. Researcher has beginner-level Python and no demonstrated CFD experience. Experimental-design methodology is too distant from fluid mechanics simulation."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "No capability gaps aligned with target identity would be closed. Researcher would need to develop computational physics skills unrelated to human-centred immersive systems."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "TU Delft is priority-1 institution. However, position is in atmospheric science (Faculty of Civil Engineering), not HCI or design research. Does not build network or pathway toward target research community."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "python",
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher currently holds MSc by Research, not PhD. Position requires PhD degree. Ineligible unless PhD is completed before start date.",
+      "Researcher's Python is beginner-level; posting requires proficiency in Python or Fortran/C++ for numerical simulations."
+    ],
+    "risks": [
+      "Eligibility blocker: PhD required; researcher does not hold one.",
+      "Severe domain mismatch. Atmospheric physics unrelated to human-centred immersive systems.",
+      "Researcher lacks fluid mechanics and CFD background; steep retraining required.",
+      "Would significantly delay progress toward target identity and institutions."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-12T10:40:28.025039Z",
+    "analysis_input_hash": "e4a91c291346df052a9ac88c3191e67e68537621ef4e3bd94669a6574f6d6cf2"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 5,
     "urgency": "medium",
-    "days_to_deadline": 35,
+    "days_to_deadline": 33,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

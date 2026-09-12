@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-10-16
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 14
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 36)
+Gate: **uncertain** (days to deadline: 34)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -92,7 +92,27 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.85_
+
+Postdoctoral researcher position (2 years) in sustainability and business at Aalto University School of Business. Research focus is on organizing for sustainability, circular economy, governance, and business model innovation.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 20 |
+| Growth value | 5 |
+| Strategic value | 30 |
+| **Overall** | **14** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** qualitative-research
+
+**Risks:**
+- Eligibility barrier: candidate is not yet a PhD holder; position requires PhD completion
+- Completely different discipline (business/sustainability vs. HCI/immersive systems); no bridge disciplines
+- Would represent a strategic detour from target identity and European HCI/XR research networks
+- Low confidence in this assessment due to ineligibility threshold; does not matter whether fit is conceptually poor if candidate cannot apply
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-postdoctoral-researcher-in-sustainability-in-business.md` and link [[opp_aalto-postdoctoral-researcher-in-sustainability-in-business]]._

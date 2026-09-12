@@ -6,8 +6,8 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-09-19
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
-urgency: high
+fit_overall: 16
+urgency: urgent
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 9)
+Gate: **uncertain** (days to deadline: 7)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -111,7 +111,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Postdoc in numerical modelling and digital-twin development for mechanical dewatering and thermal drying of bio-based materials, using continuum porous-media framework (Darcy flow, heat transfer with phase change). Role involves finite-element/finite-volume implementation in COMSOL and Python, calibration against experimental data, and collaboration with experimental postdoc and industrial partners.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 25 |
+| Growth value | 15 |
+| Strategic value | 12 |
+| **Overall** | **16** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cpp, quantitative-research, statistics, user-studies
+
+**Risks:**
+- Does not meet doctoral degree requirement at application time.
+- Significant methodological gap: researcher is trained in HCI and design-science research; this role requires computational physics and numerical-analysis expertise.
+- No background in finite-element methods, continuum mechanics, COMSOL, or multiphysics modelling; domain requires substantial retraining.
+- Moves research trajectory away from human-centred systems and spatial cognition toward industrial process modelling.
+- Python experience alone does not compensate for missing physics and modelling foundations.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-modelling-and-digital-twin-development.md` and link [[opp_varbi-postdoc-in-modelling-and-digital-twin-development]]._

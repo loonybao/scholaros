@@ -5,10 +5,10 @@ title: "Doctoral Researchers in Literary Studies or History (Verses of Learning:
 organisation: "Tampere University"
 deadline: 2026-09-11
 status: open
-eligibility_gate: uncertain
+eligibility_gate: fail
 fit_overall: 8
-urgency: urgent
-needs_review: true
+urgency: none
+needs_review: false
 ---
 
 # Doctoral Researchers in Literary Studies or History (Verses of Learning: Epideixis and Cultural Stories of Nature at Early Modern Universities)/ 1–2 Väitöskirjatutkijaa, kirjallisuustiede tai historia
@@ -24,10 +24,9 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 1)
+Gate: **fail** (days to deadline: -1)
 
-- funding/salary not confirmed on the posting
-- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- application deadline has passed
 
 ## Description
 

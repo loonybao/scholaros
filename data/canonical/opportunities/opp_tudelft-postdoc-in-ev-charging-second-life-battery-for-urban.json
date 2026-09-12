@@ -1,0 +1,170 @@
+{
+  "id": "opp_tudelft-postdoc-in-ev-charging-second-life-battery-for-urban",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-12T10:21:24.300883Z",
+  "updated_at": "2026-09-12T10:42:11.451344Z",
+  "change_history": [
+    {
+      "ts": "2026-09-12T10:21:24.301012Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-12T10:40:28.024168Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-12T10:42:11.451344Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in EV Charging & Second Life Battery for Urban DC Traction Grids",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1371934157",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-EV-Charging-&-Second-Life-Battery-for-Urban-DC-Traction-Grids-2628-CD/1371934157/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-EV-Charging-&-Second-Life-Battery-for-Urban-DC-Traction-Grids-2628-CD/1371934157/",
+    "evidence_ids": [
+      "tudelft/1371934157"
+    ],
+    "retrieved_at": "2026-09-12T10:21:24.300701Z",
+    "raw_snapshot_hash": "0351d3c352d0896d570df84afdd0c22f4eaf9b581a95246c645156dca8e341f4",
+    "extracted_content_hash": "973d39e93cff85c294b3f735eda20b6224b1e64a8f4b59912e84b70ea5291283",
+    "deadline": "2026-10-06",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "To alleviate grid congestion, traction grids can provide EV charging for zero-emission construction sites while traction-bus batteries can be repurposed as second-life energy storage for peak shaving.\nJob description\nThe rapid electrification of transport, buildings, and industry is creating unprecedented pressure on urban electricity networks resulting in Grid congestion. In particular, construction sites often require high-power charging in locations where grid connections are unavailable, or capacity constrained. At the same time, many European cities possess extensive DC traction networks for trolleybuses and electric public transport. These networks represent a largely untapped energy asset that could provide local flexibility, support charging infrastructure, and enable new forms of distributed energy storage. Furthermore, growing numbers of electric bus and In-Motion Charging (IMC) batteries are reaching the end of their automotive service life while retaining significant residual capacity suitable for second-life applications.\nTo address the above challenges, the Postdoctoral Researcher will conduct research on:\nRepurposing end-of-first-life electric bus and IMC batteries as second-life stationary and mobile energy storage systems with focus on battery degradation and cell-to-cell variations\nAnalyzing the impact of battery chemistry, aging history, operational profiles, and pack architecture on second-life performance, safety, reliability, and lifetime using a Digital Twin. Developing methodologies for battery diagnostics, state-of-health estimation, assessment, disassembly, reconfiguration, and integration.\nInvestigate how traction grids can support high-power charging at construction-sites though optimal sizing of chargers and mobile battery storage systems based on the demand and through energy management strategies under traction and AC grid constraints.\nContribute to two pilots that demonstrate and validate: a) a Traction-to-Building microgrid integrating PV, second-life batteries, regenerative braking energy, smart energy management; b) mobile charging solutions for zero-emission construction machinery using the trolleybus network as an energy source.\nThis Postdoc is part of the EU-funded GRID4CITY project, within the Driving Urban Transitions (DUT) Partnerships program call 2025-26. Since TU Delft will be the coordinator of the project, a key responsibility of the Postdoc will to support the coordination of research activities with all EU partners, organizing tasks, meetings, and follow-ups, dissemination of knowledge and working on the pilots in the Netherlands and Poland.\nThe position offers excellent opportunities to publish in high-impact journals, collaborate with leading European partners, supervise MSc and PhD students, and contribute to the development of innovative battery and charging solutions to accelerate the energy transition to climate-neutral cities.\nThe research in the Department of Electrical Sustainable Energy is inspired by the technical, scientific, and societal challenges originating from the transition towards a more sustainable society and focuses on four areas:\nDC Systems, Energy Conversion and Storage (DCE&S)\nPhotovoltaic Materials and Devices (PVMD)\nIntelligent Electrical Power Grids (IEPG)\nHigh Voltage Technologies (HVT)\nThe department’s ESP Laboratory brings together High Voltage testing, DC Grids environment, and large RTDS for real-time simulation of power systems, power electronics research facilities, and an e-mobility lab with focus on electric macines and EV charging that includes a battery testing and characterizing room.\nThe DC Systems, Energy Conversion and Storage (DCE&S) group is responsible for research and education in the fields of DC systems, electric mobility, battery technology, power electronics, and electromechanics. The group is currently active in applications such as Direct Current distribution and transmission grids and microgrids, electrification of mobility (charging of electric vehicles), and integration of renewable energy sources.\nWould you like to know more about the ESE department and the DCE&S group? Visit www.tudelft.nl/ewi/ese\nJob requirements\nWho are we looking for?\nYou have a PhD degree in Electrical Engineering or a related engineering discipline from a well-established university with a proven record for independent researc\nA solid background in batteries, battery management systems, battery SoX modeling, thermal management of batteries, battery lifetime estimation and development of experimental setups.\nExperience with the modeling, simulating and building experimental setups related to one: Batteries SoX, AC and DC Grids, EV charging.\nExcellent English language skills\nExperience with managing large projects with partners, planning and following up of tasks, organizing meetings and budgets is preferred\nTU Delft (Delft University of Technology)\nDelft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.\nAt TU Delft we embrace diversity as one of our core\nvalues\nand we actively\nengage\nto be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.\nChallenge. Change. Impact!\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDuration of contract is 12 months with propect of another 23 months. Temporary.\nA job of 36-38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nWe offer a pleasant working environment with a dynamic and highly knowledgable team. For more information about this vacancy,  please contact Dr. Gautham Ram at G.R.ChandraMouli@tudelft.nl\nFor information about the selection procedure, please contact Sharmila Rattansingh, Management assistant at s.rattansingh@tudelft.nl.\nApplication procedure\nAre you interested in this vacancy? Please submit:\nMotivation letter addressed that explains your personal motivation in pursuing the Postdoc in general, and this topic in specific. Lay emphasis on how your background (PhD research, work experinence, etc) is an excellent fit to the job requirements. Please do not use Large Language Models (like ChatGPT) for providing a standard/non-personalized letter.\nYour CV\nList of 5 of your publications that you deem most fitting to the Postdoc position\nA list of grades of your qualifying degrees (such as BSc, MSc)\nYou can address your application to dr. Gautham Ram.\nIncomplete applications will not be considered.\nThe deadline for applications is 6 Octoer 2026 at 23:59 CET.\nPlease note that applications will be assessed on a rolling basis and suitable candidates will be invited for interview, so it is recommended not to wait until the deadline with your application. A knowledge security screening may be performed.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nApplications will be assessed on a rolling basis and suitable candidates will be invited for interview, so it is recommended not to wait until the deadline with your application.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services.\n#EUfunded This is an EU funded project, named GRID4CITY, within the Driving Urban Transitions (DUT) Partnerships program call 2025-26."
+  },
+  "ai": {
+    "summary": "Postdoc in battery diagnostics, second-life energy storage, and EV charging systems using digital twins. Research spans battery degradation, state-of-health estimation, and traction-grid integration with focus on technical/energetic systems. EU-funded GRID4CITY project.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Pure electrical engineering and energy systems research. No human-computer interaction, no immersive systems, no learning, no spatial cognition, no collaboration design. Digital twins mentioned are technical infrastructure twins, not spatial/educational twins. Completely outside researcher's domain."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Posting requires PhD-level battery research, experimental setups, and technical modelling. Researcher has user-studies and experimental-design skills, but position is focused on battery physics, not human factors. No methodological overlap."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "No value toward target identity. Would require retraining in electrical engineering and battery science, diverging from human-centred XR and learning research."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "TU Delft is priority-1 institution; EU funding (GRID4CITY) is stable. However, positioned in Faculty of Electrical Engineering (EEMCS), not HCI/design. Does not build network in target research community or toward doctoral pathway in human-centred immersive systems."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher currently holds MSc by Research, not PhD. Position explicitly requires PhD degree. Ineligible until PhD is completed.",
+      "Researcher's Python is beginner-level with no substantial project experience. Posting requires proficiency."
+    ],
+    "risks": [
+      "Eligibility blocker: position requires completed PhD; researcher does not hold one.",
+      "Severe domain divergence. Accepting would stall progress toward human-centred XR research.",
+      "No supervisory support for XR or HCI methodologies in this group."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-12T10:40:28.023784Z",
+    "analysis_input_hash": "3997d9dffe52ae041845a6c3c657758dd1cfe72a7f98c4b871cc7b7014ae6ae5"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 3,
+    "urgency": "medium",
+    "days_to_deadline": 24,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

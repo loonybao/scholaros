@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-10T10:53:09.780748Z",
-  "updated_at": "2026-09-10T11:12:48.798703Z",
+  "updated_at": "2026-09-12T10:42:11.282866Z",
   "change_history": [
     {
       "ts": "2026-09-10T10:53:09.780872Z",
@@ -21,6 +21,45 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-12T10:39:33.430590Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-12T10:42:11.282866Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,16 +98,72 @@
     "status": "open",
     "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 13 000 students, 400 professors and close to 4 500 other faculty and staff working on our dynamic campus in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe Aalto University School of Business\nis the leading business school in Finland. The School belongs to the select group of business schools that have been granted the most important international quality accreditations in its field. It aspires to be among the best business schools in Europe in terms of research excellence, a portfolio of pioneering B.Sc., M.Sc., Ph.D., and executive education programs, and contributions to society.\nThe Department of Management Studies invites applications for\nPOSTDOCTORAL RESEARCHER IN SUSTAINABILITY IN BUSINESS (2 years)\nWe are now looking for a junior academic interested in research and teaching in the domain of sustainable business. The position is within the Organizations and Management discipline in the\nDepartment of Management Studies\nof Aalto University Business School.\nAbout us\nThe department hosts a strong\nSustainability in Business\nresearch group. The group specializes in organizing for sustainability including collaborative innovating towards sustainability, circular economy, governance and institutions for sustainability, sustainability transitions and business models for sustainability. This work offers a basis for rethinking how businesses operate, how new actors and individuals can make contributions to sustainability and how sustainability debates unfold across the societies and different global contexts. In addition to active publishing, the group is active in collaborating with companies and other stakeholders as well as creating societal impact.\nThe department also has other strong research groups in various aspects of management studies. The department has a lively, international research community with numerous doctoral students and post-doctoral researchers from several countries. The working language at the department is English.\nOur expectations\nThe postdoctoral position is intended to allow the selected researcher to pursue their own research agenda and to develop personal competencies. We expect the candidate to conduct high quality research and aim to publish in leading international journals. The position is associated with a low teaching load: teaching one course per year or equivalent contribution. In addition, the position includes master’s thesis supervision and an opportunity to be involved in Ph.D. supervision.\nWe look for scholars who have completed their Ph.D. within the last four years, or are about to complete it. The Ph.D. is expected to be in a relevant field of study (such as management studies, social sciences, organizations and sustainability etc.), but applicants from other areas may also be considered. The applicants should have demonstrated the ability to teach competently and to publish internationally. The position requires fluent skill in English. Finnish and other language skills are considered a merit.\nPostdoctoral researchers are required to be in residence for the duration of the appointment, as we are looking for a member in our lively, welcoming departmental community. We would like you to start in February 2027, however starting date can be negotiated. The position is fixed term for  two years with a potential extension for 1-2 years.\nWe offer\nWe offer you a full-time position for 2 years with\nThriving sustainability research community\nStimulating research and working environment in one of the leading international universities\nPossibility to pursue cutting-edge research with a wide community of sustainability scholars and opportunities to participate in ground-breaking multi-disciplinary sustainability research.\nPossibility to attend of international academic conferences\nThe expected starting salary for a Postdoctoral Researcher is approximately 4500-4600 €/month (income before deduction of taxes), depending on experience and qualifications. As an employer, Aalto University provides excellent learning and development opportunities as well as occupational health care services, versatile exercise services and other employee benefits.\nAalto University also provides health care and retirement benefits. Finland is known for high quality of life, great work-life balance, clean nature, and family-friendly policies such as affordable high-quality daycare and free schools. Helsinki is a vibrant international city with a metropolitan area population of over 1.1 million people.\nHow to apply\nIf you want to join our community, please submit your application enclosing all relevant documents through our recruitment system\nWorkday\nno later than\n16.10.2026\nat 23:59 (Helsinki time zone). Aalto University’s employees and visitors should apply for the position by using their existing Workday user account. Please see how to do it\nhere\n.\nTo apply, please share the following application materials with us in English as a single file in PDF format (‘lastname_firstname_application.pdf’):\nCover letter\nCurriculum Vitae\nList of publications (with five most significant publications highlighted)\nNames and contact information for two references\nA list of teaching experience\nA research plan for the postdoctoral period (1-2 pages)\nAalto University reserves the right for justified reasons to leave the position open, to extend the application period and to consider candidates who have not submitted applications during the application period.\nFor more Information\nFor inquiries about this position, please contact Prof. Minna Halme (minna.halme(at)aalto.fi), Prof. Samuli Patala (samuli.patala(at)aalto.fi), Prof. Jukka Rintamäki (jukka.rintamaki(at)aalto.fi) or Senior University Lecturer Leena Lankoski (leena.lankoski(at)aalto.fi). In questions related to the recruitment process, please contact HR Partner Jenna Knuutinen, jenna.knuutinen(at)aalto.fi.\nPlease note that applications will be reviewed only after application time will expire and all candidates will be informed about the following process only after that. Kindly note, only applications submitted through Workday-recruitment tool will be considered in the process.\nAbout Finland\nFinland is a great place for living, both with or without family: it is a safe, politically stable and well-organized Nordic society which is consistently ranked highly in quality-of-life studies. Helsinki has been praised as one of the world’s most livable cities, e.g. by Monocle Magazine and in the Economist Intelligence Unit livability rankings. The World Happiness Report 2020 ranked Helsinki as the city with the highest well-being in the world. For more information about living in Finland:\nhttps://www.aalto.fi/en/services/why-finland\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoctoral researcher position (2 years) in sustainability and business at Aalto University School of Business. Research focus is on organizing for sustainability, circular economy, governance, and business model innovation.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Zero thematic overlap. Position is in business school, sustainability management and organizational studies. Researcher's domains are human-centred XR, spatial cognition, immersive learning and wayfinding—entirely orthogonal."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "Researcher has user studies and experimental design skills. Position may involve qualitative research and stakeholder engagement. However, the core methodologies (organizational studies, sustainability governance, circular economy modelling) require domain expertise and theoretical frameworks the researcher does not possess."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "No closure of capability gaps relevant to target identity. Would require learning entirely new domain (business, sustainability management, organizational theory) with no transfer to immersive systems or spatial learning research."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "Aalto is priority-1 institution and postdoc is fully funded with research independence and low teaching load. However, department (Management Studies, Business School) is completely misaligned. Position explicitly requests PhD completion 'within the last four years' and candidate is in thesis stage, not yet holding PhD."
+    },
+    "required_skills": [
+      "academic-writing",
+      "qualitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "qualitative-research"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Postdoctoral position requires completed PhD within the last four years; candidate holds MSc by Research in progress, does not yet hold PhD",
+      "Candidate currently in thesis stage; ineligible as posted"
+    ],
+    "risks": [
+      "Eligibility barrier: candidate is not yet a PhD holder; position requires PhD completion",
+      "Completely different discipline (business/sustainability vs. HCI/immersive systems); no bridge disciplines",
+      "Would represent a strategic detour from target identity and European HCI/XR research networks",
+      "Low confidence in this assessment due to ineligibility threshold; does not matter whether fit is conceptually poor if candidate cannot apply"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.85,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-12T10:39:33.430200Z",
+    "analysis_input_hash": "55f4125a83b4285ba5ea9b07d531dc9f557b9b282ac67240bf1c836652733bd1"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 14,
     "urgency": "medium",
-    "days_to_deadline": 36,
+    "days_to_deadline": 34,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

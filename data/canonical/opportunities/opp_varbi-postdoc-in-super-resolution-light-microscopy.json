@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-09T11:07:58.286024Z",
-  "updated_at": "2026-09-10T11:12:49.084474Z",
+  "updated_at": "2026-09-12T10:42:11.575141Z",
   "change_history": [
     {
       "ts": "2026-09-09T11:07:58.286144Z",
@@ -30,6 +30,45 @@
       "fields_changed": [
         "derived.days_to_deadline",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-12T10:41:20.235259Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-12T10:42:11.575141Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -68,7 +107,63 @@
     "status": "open",
     "description_text": "Postdoc in Super Resolution Light Microscopy\nLogin and apply\nKTH Royal Institute of Technology, School of Engineering Sciences\nJob description\nThe research group within advanced optical imaging works with technical development and implementation of new types of adaptive super-resolution microscopes. This includes design of new illumination methods through the crafting of optical systems to create pulse sequences and illumination patterns that together with specific labelling methods deliver images with resolution beyond what can be achieved with traditional imaging methods. The work will be done together with the PhD students and post-docs of the group and will as such involve collaborative work with both more and less experienced colleagues.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nResearch expertise\nIndependence\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nTeaching abilities\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nCollaborative abilities\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally one pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3037\nContact\nIlaria Testa, testa@kth.se\nPublished\n09.Sep.2026\nLast application date\n01.Oct.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "Postdoc in advanced optical imaging, specifically development and implementation of adaptive super-resolution microscopy systems. Role includes optical system design, illumination-method innovation, pulse-sequence development, and collaborative work with PhD students and postdocs in the research group.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "Optical imaging and advanced microscopy technology development. No connection to human-centred systems, interaction design, spatial cognition, learning, or user evaluation. The researcher's background is in immersive XR systems and human-centred design; this role is pure optical engineering and instrumentation development."
+    },
+    "methodological_fit": {
+      "score": 12,
+      "rationale": "Both involve technical development and design iteration. However, the researcher develops interactive software and evaluates human outcomes; this role centres on optical-physics instrumentation and signal-processing methodology. The design processes—iterative prototyping in XR vs. optical-system optimisation—operate at different levels of abstraction. Limited methodological transfer."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Developing expertise in super-resolution microscopy and adaptive optical systems does not advance the researcher's stated capability gaps (spatial cognition, immersive-system design, collaborative learning evaluation). Introduces optical physics and microscopy instrumentation—domains orthogonal to human-centred research. Minimal growth value for target identity."
+    },
+    "strategic_value": {
+      "score": 8,
+      "rationale": "KTH is reputable, but the School of Engineering Sciences and advanced optical imaging group operate outside HCI and immersive systems research communities. Position does not align with target institutions (Aalto, TU Delft) or research ecosystems focused on human-centred design. No pathway to doctoral research in target area."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "user-studies",
+      "experimental-design",
+      "qualitative-research",
+      "quantitative-research"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires completed PhD by employment start; researcher has MSc in progress (thesis stage).",
+      "Posting is extremely vague: lists only generic requirements ('research expertise, independence') without specifying optical imaging or photonics background. Posting does not provide sufficient technical detail to judge skill alignment.",
+      "No evidence of prior work in optical imaging, microscopy, photonics, or optical engineering in researcher profile."
+    ],
+    "risks": [
+      "Does not meet doctoral degree requirement at application time.",
+      "Posting is ambiguously written; cannot determine specific optical or physics expertise required.",
+      "No background in optical imaging, microscopy, photonics, or advanced instrumentation; would require substantial retraining.",
+      "Significant domain shift away from human-centred research toward optical-physics instrumentation.",
+      "Moves researcher away from target identity and target institutions."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.85,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-12T10:41:20.234898Z",
+    "analysis_input_hash": "f9aed238b0be00c31ed2d35f28cc6abded1021fc38dadab33933b7d338868fed"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -76,9 +171,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 9,
     "urgency": "high",
-    "days_to_deadline": 21,
+    "days_to_deadline": 19,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

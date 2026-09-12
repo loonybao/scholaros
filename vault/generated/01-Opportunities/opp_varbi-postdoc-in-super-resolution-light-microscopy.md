@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-10-01
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 9
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 21)
+Gate: **uncertain** (days to deadline: 19)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -105,7 +105,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.85_
+
+Postdoc in advanced optical imaging, specifically development and implementation of adaptive super-resolution microscopy systems. Role includes optical system design, illumination-method innovation, pulse-sequence development, and collaborative work with PhD students and postdocs in the research group.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 12 |
+| Growth value | 5 |
+| Strategic value | 8 |
+| **Overall** | **9** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** user-studies, experimental-design, qualitative-research, quantitative-research
+
+**Risks:**
+- Does not meet doctoral degree requirement at application time.
+- Posting is ambiguously written; cannot determine specific optical or physics expertise required.
+- No background in optical imaging, microscopy, photonics, or advanced instrumentation; would require substantial retraining.
+- Significant domain shift away from human-centred research toward optical-physics instrumentation.
+- Moves researcher away from target identity and target institutions.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-super-resolution-light-microscopy.md` and link [[opp_varbi-postdoc-in-super-resolution-light-microscopy]]._

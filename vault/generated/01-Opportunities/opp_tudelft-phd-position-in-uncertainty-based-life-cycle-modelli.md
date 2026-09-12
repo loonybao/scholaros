@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-29
 status: open
 eligibility_gate: uncertain
-fit_overall: 20
+fit_overall: 23
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 19)
+Gate: **uncertain** (days to deadline: 17)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -96,27 +96,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.82_
 
-TU Delft seeks PhD researchers on probabilistic life-cycle modelling for building renovation decision-making under climate uncertainty. Work integrates uncertainty quantification, Monte Carlo simulation, stakeholder engagement, and digital twins for sustainable buildings.
+Doctoral researcher position (4 years, Horizon Europe CLIMABUILD project) in probabilistic life-cycle modelling for building renovation decision-making. Research develops uncertainty-aware methods integrating climate resilience, sustainability, and lifecycle performance for building renovation strategies.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 22 |
-| Methodological fit | 18 |
-| Growth value | 8 |
-| Strategic value | 30 |
-| **Overall** | **20** |
+| Thematic fit | 12 |
+| Methodological fit | 25 |
+| Growth value | 30 |
+| Strategic value | 40 |
+| **Overall** | **23** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** mixed-effects-modelling
+**Missing skills:** python
 
 **Risks:**
-- Disciplinary mismatch: candidate's MSc is creative multimedia, not engineering/built environment.
-- Core research pivot required: sustainability/climate adaptation vs. immersive-learning research.
-- Violates excluded direction: 'pure-machine-learning-algorithms'—Monte Carlo and sensitivity analysis are core quantitative methods, not HCI.
-- No thematic pathway to target identity (human-centred immersive systems).
+- Different disciplinary domain (building technology, climate resilience vs. HCI, immersive systems); no obvious research bridge
+- Position emphasizes lifecycle modelling and building simulation, not human-computer interaction or spatial learning
+- Multidisciplinary supervisory team does not include HCI, learning science, or immersive systems expertise
+- Would represent strategic detour from target identity towards architecture and sustainability engineering
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-uncertainty-based-life-cycle-modelli.md` and link [[opp_tudelft-phd-position-in-uncertainty-based-life-cycle-modelli]]._

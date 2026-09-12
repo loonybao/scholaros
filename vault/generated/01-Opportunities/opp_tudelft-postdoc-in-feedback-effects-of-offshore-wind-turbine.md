@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-15
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 5
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 35)
+Gate: **uncertain** (days to deadline: 33)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -94,7 +94,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+
+Postdoc using high-resolution numerical modelling to study offshore wind farm effects on atmospheric precipitation and boundary-layer dynamics. Requires fluid mechanics, numerical simulation (Matlab/Python), and observational data analysis.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 10 |
+| Growth value | 0 |
+| Strategic value | 10 |
+| **Overall** | **5** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python, statistics
+
+**Risks:**
+- Eligibility blocker: PhD required; researcher does not hold one.
+- Severe domain mismatch. Atmospheric physics unrelated to human-centred immersive systems.
+- Researcher lacks fluid mechanics and CFD background; steep retraining required.
+- Would significantly delay progress toward target identity and institutions.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-feedback-effects-of-offshore-wind-turbine.md` and link [[opp_tudelft-postdoc-in-feedback-effects-of-offshore-wind-turbine]]._
