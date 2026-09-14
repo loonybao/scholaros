@@ -3,18 +3,18 @@ id: opp_tudelft-phd-position-on-twin-transition-of-infrastructure-pa
 type: opportunity
 title: "PhD Position on Twin Transition of Infrastructure: Paradoxical Leadership"
 organisation: "TU Delft"
-deadline: 2026-10-18
+deadline: 2026-11-03
 status: open
 eligibility_gate: uncertain
-fit_overall: 16
-urgency: medium
+fit_overall: 21
+urgency: low
 needs_review: true
 ---
 
 # PhD Position on Twin Transition of Infrastructure: Paradoxical Leadership
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
-**Deadline:** 2026-10-18
+**Deadline:** 2026-11-03
 **Location:** Delft, Netherlands
 **Position type:** phd
 **Salary:** €3204 - €4051 per month (stated range)
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 35)
+Gate: **uncertain** (days to deadline: 50)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -72,7 +72,7 @@ e.papadonikolaki@tudelft.nl
 ).
 Application procedure
 Are you interested in this vacancy? Please apply no later than
-18 October 2026
+3 November 2026
 via the application button and upload the following documents:
 CV, including education, relevant work experience, research experience and relevant skills (maximum 2 pages, in case of longer document, only the first 2 pages will be considered).
 If you have academic publications such as published (a) conference papers and/or (b) journal articles, please include a separate "Scientific outputs" document including full bibliographic information, DOI link and a short narrative (maximum 100 words) for a maximum of three contributions explaining why they are relevant to this PhD position (optional).
@@ -93,26 +93,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-PhD on paradoxical leadership in infrastructure organisations navigating tensions between digitalisation and sustainability. Uses longitudinal embedded case study with qualitative methods (interviews, observations, ethnography) in Dutch infrastructure sector. Part of NWO-funded Infra-PaX project.
+PhD in paradoxical leadership within infrastructure organisations, studying how leaders navigate tensions between digitalisation and sustainability through longitudinal embedded case studies. Research combines qualitative interviews, observations, document analysis and ethnographic fieldwork across the Dutch infrastructure sector.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 25 |
-| Growth value | 15 |
+| Methodological fit | 35 |
+| Growth value | 25 |
 | Strategic value | 20 |
-| **Overall** | **16** |
+| **Overall** | **21** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** organisational-ethnography, longitudinal-case-study-methods, leadership-theory, infrastructure-domain-knowledge
 
 **Risks:**
-- Fundamental domain mismatch: infrastructure leadership vs. human-centred immersive systems. Accepting this position would de-prioritise target identity.
-- No supervised research experience in organisational ethnography or longitudinal case study methods; learning curve would be steep.
-- Position does not advance researcher toward target institutions (Aalto, TU Delft HCI groups) or core research themes.
+- Strategic misalignment: accepting this position defers doctoral training in immersive HCI/XR, moving research identity away from target trajectory.
+- Domain knowledge gap: no infrastructure or organisational management background; steep learning curve.
+- Methodological reorientation: ethnographic organisational research differs significantly from application-design and usability evaluation; would require substantial methodological retraining.
+- Funding and geographic fit: position is at TU Delft (priority-1 institution, Netherlands preferred region), but the research direction does not support target identity development.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-on-twin-transition-of-infrastructure-pa.md` and link [[opp_tudelft-phd-position-on-twin-transition-of-infrastructure-pa]]._
