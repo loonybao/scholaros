@@ -1,0 +1,176 @@
+{
+  "id": "opp_tudelft-postdoc-position-in-digital-planning-framework-for-c",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-15T11:24:18.309652Z",
+  "updated_at": "2026-09-15T11:42:22.918192Z",
+  "change_history": [
+    {
+      "ts": "2026-09-15T11:24:18.309758Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-15T11:42:22.519103Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-15T11:42:22.918192Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Position in Digital Planning Framework for Circular and Climate Resilient Urban Environments",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-architecture-and-the-built-environment",
+    "source": "tudelft",
+    "source_native_id": "1372081657",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Position-in-Digital-Planning-Framework-for-Circular-and-Climate-Resilient-Urban-Environments-2628-CD/1372081657/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Position-in-Digital-Planning-Framework-for-Circular-and-Climate-Resilient-Urban-Environments-2628-CD/1372081657/",
+    "evidence_ids": [
+      "tudelft/1372081657"
+    ],
+    "retrieved_at": "2026-09-15T11:24:18.309456Z",
+    "raw_snapshot_hash": "eeaaad1178da8305e944b17900f061191c6c5eaf3425a3e09c5c547c65ea51b0",
+    "extracted_content_hash": "da18e83b9dc7bc0b83518aaf9428be754db594689ab4510e3cb37d682a69d1b5",
+    "deadline": "2026-10-04",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3546 - €5538 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Challenge: Enable integrated planning for circular & climate resilient buildings.\nChange: Develop digital multi-scale decision-support workflows.\nImpact: Support construction and renovation planning.\nJob description\nThe Faculty of Architecture and the Built Environment of Delft University of Technology is hiring a Postdoctoral researcher to work on a recently awarded Horizon Europe project, entitled AURORA (Shaping safe, sustainable, and human-centered places) under the supervision of Assistant Professors Simona Bianchi and Olga Ioannou, and Associate Professor Maria Pregnolato.\nThe broader AURORA project aims at accelerating the transformation of the built environment towards climate resilience and circularity. The project has a strong social perspective aiming at both technological and governance innovation. It combines innovative construction technologies, digital workflows, multi-level governance approaches, and participatory processes to support the development and implementation of resilient renovation strategies. Through demonstration pilots across Europe, AURORA provides practical frameworks for municipalities, practitioners, and stakeholders to evaluate and implement sustainable construction and renovation pathways.\nYou will contribute to the development of AURORA resilient and circular strategies multi-scale assessment framework. You will do so by assessing and classifying existing products, product systems and building configurations in accordance with the AURORA assessment framework and the project’s demonstrator contexts. You will also establish data structures that enable the exchange and integration of this information within those contexts. You will ultimately develop a user-friendly, intuitive digital interface to enable decision-making of circular and resilient building pathways for built environment stakeholders (governance bodies, construction companies, and individual users). The developed digital workflows will be tested, and validated through pilot applications, ensuring applicability across different building typologies, spatial scales and data availability conditions.\nKey activities include:\nAssessing integrated construction and renovation strategies, covering structural systems, façades and building equipment across different building typologies, climatic conditions and hazard contexts.\nTranslating assessed technologies and pathways into decision-ready parametric datasets and a structured database, enabling direct integration into AURORA digital planning workflows.\nDeveloping a user-friendly, intuitive, digital interface to enable decision-making between built environment stakeholders.\nAs a Postdoctoral researcher, you will collaborate with two research groups within the Faculty of Architecture and the Built Environment: Structures and Materials (restructgroup) and Building Design & Technology (architectural-facades-products), and one group within the Faculty of Civil Engineering and Geosciences: Hydraulic Structures and Flood Risk (hydraulic-structures-and-flood-risk). The position is funded for 18 months, during which the candidate will conduct postdoctoral research while contributing to the broader AURORA research program. The project offers opportunities to collaborate with leading European universities, industry partners, municipalities and public authorities working on circular construction, digital workflows and resilient urban development.\nJob requirements\nYou have a PhD degree in Civil Engineering, Architectural Engineering, Building Technology, or a related field;\nYou have demonstrated experience working in one or more of the following areas: resilience planning, decision support systems, building technology, sustainability assessments;\nDemonstrated knowledge of building and/or geographic information systems, data structures or software integration is a must;\nYou have excellent oral and written communication skills in English;\nYou are able to work independently  and as part of a team, and to build collaborative, interdisciplinary/transdisciplinary networks;\nYou are motivated to develop digital solutions supporting sustainable and climate-resilient built environments;\nWork experience in multi-institutional projects is not essential but will be considered an asset.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDuration of contract is temporary for 18 months.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Dr. Simona Bianchi, via e-mail:\ns.bianchi@tudelft.nl\n.\nFor more information about the application procedure, please contact Paulien Stastra, HR advisor,\nvia\nrecruitment-BK@tudelft.nl\n.\n#EUfunded This is an EU funded project, named AURORA, with project number 101326153, within program H2020 / Horizon Europe.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n4 October 2026\nvia the application button and upload the following documents:\nCV including details of all academic outputs.\nCoverletter outlining your qualifications and motivation (max.1 side, A4 format, font size no smaller than 9 points).\nExecutive summary of your PhD dissertation.\nWe would like to ask prospective candidates to kindly refrain from contacting the supervisory team with questions regarding the research scope or the suitability of their individual background. All relevant information is provided in the vacancy and the candidates’ profiles will be assessed as part of the formal selection process.\nShortlisted candidates will be invited to first-round interviews in mid-October, with a decision expected in early November.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "TU Delft postdoc position developing digital decision-support workflows and interfaces for circular and climate-resilient building assessment and planning within the Horizon Europe AURORA project. Focus is on data structures, parametric datasets, and user-facing tools for built environment stakeholders across multiple building typologies and scales.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 15,
+      "rationale": "The position is anchored in built environment, sustainability, and governance—domains orthogonal to the researcher's core: human-centred XR, immersive learning, spatial cognition, and wayfinding. The mention of 'user-friendly interfaces' and 'decision-making support' is superficially user-centred but the actual research lever is building technology, lifecycle assessment, and climate resilience, not human behaviour, spatial understanding, or immersive interaction. No mention of immersive systems, XR, or collaborative interaction."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "The position requires data structure design, parametric workflows, and system integration—primarily computer science and engineering methodologies. The researcher has user-study and experimental-design skills, but the posting emphasises technical assessment frameworks, database design, and digital interface development. Methodological overlap is limited to 'user-friendly interface' development, which is mentioned but not the research core. No requirement for HCI evaluation, user research, or empirical validation of user outcomes."
+    },
+    "growth_value": {
+      "score": 20,
+      "rationale": "Could introduce the researcher to multi-scale systems thinking and stakeholder engagement in real-world deployment contexts. However, this would divert effort from core capability gaps the researcher should be building: advanced experimental design for immersive environments, mixed-effects modelling, eye-tracking and physiological sensing for learning research, and deeper qualitative analysis of spatial cognition and collaboration dynamics. The skills offered are orthogonal to the PhD pathway."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "TU Delft is a priority-1 target institution (strong HCI and design-science groups exist there), and the AURORA project is Horizon Europe-funded—stable funding and European credibility. Supervisory team (Bianchi, Ioannou, Pregnolato) are established scholars in built environment research, not HCI or immersive systems. The position would build networks in architecture and civil engineering rather than in the human-centred XR community where the researcher aims to establish credibility."
+    },
+    "required_skills": [
+      "experimental-design",
+      "user-studies",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "building-information-systems",
+      "geographic-information-systems",
+      "data-structures",
+      "software-integration",
+      "parametric-design",
+      "sustainability-assessment"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD at start; researcher is in thesis stage of MSc by Research. PhD completion before hiring is essential.",
+      "No mention of XR, immersive systems, or HCI requirements; strong technical/engineering framing may signal misalignment in interview.",
+      "18-month contract; limited runway for building independent research identity before transitioning to PhD."
+    ],
+    "risks": [
+      "Disciplinary drift: two years in built environment/sustainability planning could fragment the researcher's identity in the immersive-systems community and reduce competitiveness for HCI-centred doctoral positions.",
+      "Limited mentorship in human-centred methodology: supervisory team has no evident HCI or XR background; learning curve on non-core methods.",
+      "Methodological mismatch: if the role emphasises technical system-building over user research, the researcher may spend 18 months developing engineering skills rather than deepening expertise in spatial cognition or immersive learning evaluation.",
+      "PhD pathway risk: postdoc output (digital planning tool, sustainability database) may not translate to strong HCI/XR PhD narrative or publications in target venues."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-15T11:42:22.518618Z",
+    "analysis_input_hash": "b4e5f9b786d1e49115ba6acea42946d43015573804ffd42303b740684bc3bdfa"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 22,
+    "urgency": "high",
+    "days_to_deadline": 19,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

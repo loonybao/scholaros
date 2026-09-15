@@ -1,0 +1,177 @@
+{
+  "id": "opp_tampere-msca-doctoral-researcher-detective-project-virology",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-15T11:21:18.575673Z",
+  "updated_at": "2026-09-15T11:42:22.774479Z",
+  "change_history": [
+    {
+      "ts": "2026-09-15T11:21:18.575781Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-15T11:41:15.865500Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-15T11:42:22.774479Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "MSCA Doctoral Researcher, DETECTIVE project (virology)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3174",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3174",
+    "apply_url": null,
+    "evidence_ids": [
+      "tampere/3174"
+    ],
+    "retrieved_at": "2026-09-15T11:21:18.575482Z",
+    "raw_snapshot_hash": "9bac7d4b70f9cceb0350499d9eb4ac0673409167a6a191d92b4e5337a9f2c37f",
+    "extracted_content_hash": "4f15462cab4d74e9684e4774acb68b9ed72975163a1ce8ff9b4cc2be50483724",
+    "deadline": "2026-10-08",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "ambiguous",
+    "mobility_requirement_text": "Posting mentions: …f-development, and the ability to work in a multidisciplinary research environment are expected. In accordance with the MSCA mobility rule, applicants must not have resided or carried out their main activity (work, studies, etc.) in Finland for more than 12 months during the 36 months immediately preceding 1 March 2027. Compulsory…",
+    "status": "open",
+    "description_text": "Tampere University is a unique, boldly future‑oriented and evolving community, and one of Finland’s most multidisciplinary universities. At Tampere University, technology, health and society come together in a distinctive way. Our research groups and projects carry out interdisciplinary and cross-sectoral research that transcends organisational boundaries. Our community is international, with members from more than 80 countries. Read more at\nhttps://www.tuni.fi/en/tau\n.\nDETECTIVE\n(Data-driven Excellence in Training of Epidemiological, Clinical, Technological and Innovative Virus Experts) is a Horizon Europe Marie Skłodowska-Curie Actions (MSCA) Doctoral Network. The network brings together leading academic, public health, clinical, and industrial partners across Europe to train the next generation of researchers in epidemic intelligence, emerging virus surveillance, and pandemic preparedness. Through interdisciplinary research and international collaboration, DETECTIVE aims to improve the early detection of emerging pathogens, strengthen risk assessment, and support real-time, evidence-based public health decision-making. Read more at\nvirusdetective.eu\nPopulation dynamics and emerging epidemics\nBackground of Project Doctoral Candidate 8\nEnteroviruses are common human pathogens that cause infections ranging from asymptomatic or mild disease to severe neurological, cardiac and systemic illness. While some enterovirus types circulate continuously in the population, others show epidemic or re-emerging patterns and can cause large outbreaks. The factors determining when an enterovirus type shifts from limited circulation to epidemic spread remain incompletely understood. Population immunity is likely to play an important role in these dynamics. Type-specific neutralizing antibodies induced by previous infections can provide long-lasting protection, while susceptible individuals continuously enter the population. Consequently, immunity against individual enterovirus types changes across age groups, birth cohorts and calendar time, potentially creating population-level immunity gaps that favor epidemic emergence. This doctoral project will investigate how enterovirus circulation and population immunity have changed over time and whether these dynamics can be used to predict epidemic risk. The project will exploit the unique longitudinal resources of the Finnish DIPP study, which has collected biological samples from children since 1994, and integrate these data with healthcare surveillance, wastewater monitoring and historical epidemic data. The ultimate goal is to identify immunological and epidemiological signals associated with epidemic emergence and use them to develop predictive models for enterovirus epidemic risk.\nJob Description and Research Objectives\nAt Tampere University, DETECTIVE is looking for a\nDoctoral Candidate\n8 to work on Work Package 2. As Doctoral Candidate 8, you will:\n– Characterize type-specific enterovirus immunity across age groups, birth cohorts and calendar periods using longitudinal serum samples and neutralizing antibody analyses.\n– Investigate long-term enterovirus circulation in the background population and integrate these findings with healthcare surveillance and wastewater monitoring.\n– Identify population susceptibility and immunity patterns associated with increased enterovirus circulation and epidemic emergence.\n– Develop and validate predictive models for enterovirus epidemic risk by integrating longitudinal immunological, virological and surveillance data.\n– Work with unique longitudinal sample collections and datasets spanning more than three decades and combine laboratory-based virology and serology with epidemiological data analysis and predictive modelling.\nThe project will be carried out within a multidisciplinary and international research environment, with opportunities to collaborate with experts in virology, epidemiology, bioinformatics, public health and epidemic modelling across the DETECTIVE network.\nSupervisory Team\nThe DC will be supervised by:\n– Adj. Professor Sami Oikarinen\n– Dr. Jutta Laiho\nAdditional scientific mentoring and collaboration will be provided by:\n– Prof. Heikki Hyöty at Tampere University\n– Dr. Sarah Kempster (MHRA)\n– Prof. Nicholas Grassly (ICL)\nPlanned Secondments\nThe doctoral candidate will undertake international secondments within the DETECTIVE network, including:\n– Medicines and Healthcare products Regulatory Agency (MHRA, UK) for training related to antibody standards\n– Imperial College London (ICL, UK) for training in population immunity and epidemic-risk modelling\nThese secondments will provide exposure to both academic and industrial research environments and offer opportunities to develop complementary scientific and transferable skills.\nRequirements\nWe are looking for a motivated researcher with a relevant Master’s degree in biomedical sciences, bioinformatics, microbiology, virology, immunology, epidemiology, or a related field. Experience with molecular technologies and bioinformatics will be considered an advantage. The successful candidate should be highly motivated to develop expertise in data science, including machine learning and artificial intelligence, and to apply these approaches to biomedical and epidemiological data. Excellent oral and written communication skills in English, an interest in self-development, and the ability to work in a multidisciplinary research environment are expected.\nIn accordance with the MSCA mobility rule, applicants must not have resided or carried out their main activity (work, studies, etc.) in Finland for more than 12 months during the 36 months immediately preceding 1 March 2027. Compulsory national service and/or short stays such as holidays and time spent as part of a procedure for obtaining refugee status under the Geneva Convention are not considered.\nAn applicant must have completed a relevant Master’s degree before the starting date of employment.\nWe offer\nWe offer a three-year Doctoral Candidate position placed at Tampere University within the EU-funded MSCA Doctoral Network DETECTIVE.  A trial period of six (6) months applies to all our new employees.   The salary will be set in accordance with MSCA rates. Target degree is PhD degree from Tampere University, Finland.\nThe doctoral researcher has the opportunity to work with unique longitudinal biological samples and epidemiological data from the Finnish DIPP study, covering more than three decades of enterovirus circulation.\n- A multidisciplinary research project combining virology, immunology, epidemiology, population surveillance and predictive modelling.\n– Access to the international DETECTIVE research and training network spanning academic institutions, public health organisations, regulatory bodies and industry.\n– Interdisciplinary network-wide training schools (one week each):\n1) Foundations in Virology, Bioinformatics and Epidemiology;\n2) Advanced Integration of Scientific, Diagnostic and Public Health Virology\n3) Translational Virology and connecting Academia, Clinical Practice and Public Health for Pandemic Preparedness.\n– An individually tailored career development plan and personal empowerment programme.\n– Access to the Campus Sport Services at a personnel price.\nTampere University offers a wide range of other staff benefits too, such as occupational health care, flexible working hours, and several restaurants and cafés on campus with staff discounts.  Read more about working at Tampere University:\nhttps://www.tuni.fi/en/tau/work-with-us.\nTampere University (TAU), founded in 1925, is an internationally oriented research university with a strong focus on multidisciplinary research and education at the intersection of technology, health, and society. With ten schools, approximately 23,200 students and 4,200 staff members, including around 330 professors, TAU is the second-largest university in Finland and provides a dynamic and international environment for high-quality research and doctoral education. Read more about Tampere University\nhttps://www.tuni.fi/en/tau/about-tampere-university\nand work in Tampere\nhttps://workintampere.fi/.\nTAU offers excellent research infrastructure for virology, metagenomics, and environmental research. The available facilities include a dedicated metagenomics core facility, an extensive environmental wastewater sample and data bank, Biosafety Level 2 and 3 laboratories, and dedicated clean areas for PCR and cell culture work. Researchers also have access to a broad range of university-wide core facilities and services through the\nTAU Met-Core Facilities and Services\n. The virology research environment is further supported by a large collection of wild-type enteroviruses isolated from different countries and continents.\nThe virus laboratory participates in international quality-control programmes, including QCMD, ensuring high standards in molecular virology and diagnostic research. Extensive high-performance computing resources are available through\nCSC – IT Center for Science\n, providing the computational capacity required for large-scale sequencing, bioinformatic, and metagenomic analyses.\nHow to apply\nPlease note that the applicant must fill in and complete the\nDETECTIVE application form\nand provide the following documents:\nCurriculum Vitae (maximum 2 pages)\nMotivation Letter (maximum 1 page)\nDetails for two references\nApply VIA THIS LINK:\nhttps://link.webropolsurveys.com/Participation/Public/f904ab62-b327-455c-a747-50bdb3785320?displayId=Fin3736985\nThe closing date for applications is 8 October 2026.\nFor more information\n, please contact:   Assoc. Prof. Sami Oikarinen, email: firstname.lastname@tuni.fi\n***\nTampereen yliopisto on ainutlaatuinen, rohkeasti tulevaisuuteen katsova, kehittyvä yhteisö ja yksi Suomen monialaisimmista yliopistoista. Meillä tekniikka, terveys ja yhteiskunta kohtaavat toisensa ainutlaatuisella tavalla. Tutkimusryhmissämme ja -hankkeissamme tehdään monitieteistä ja -alaista tutkimusta yli organisaatiorajojen. Yhteisömme on kansainvälinen, meitä on jo yli 80 maasta. Lue lisää\nTampereen yliopisto (TAU) | Tampereen yliopisto\n.\nHaemme väitöskirjatutkijaa DETECTIVE-hankkeeseen (Data-driven Excellence in Training of Epidemiological, Clinical, Technological and Innovative Virus Experts), joka on Horizon Europe -ohjelman Marie Skłodowska-Curie Actions (MSCA) Doctoral Network -verkosto. Verkosto kokoaa yhteen eurooppalaisia akateemisia, kliinisiä, kansanterveyden ja teollisuuden toimijoita kouluttamaan uuden sukupolven asiantuntijoita epidemioiden ennakointiin, uusien virusten seurantaan ja pandemioihin varautumiseen. Tampereen yliopistossa toteutettavassa väitöskirjaprojektissa tutkitaan enterovirusten väestötason immuniteetin, virusten kierron ja epidemioiden välistä yhteyttä hyödyntämällä ainutlaatuista yli 30 vuoden DIPP-pitkittäisaineistoa sekä terveydenhuollon seurantatietoja, jätevesiseurantaa ja historiallisia epidemiatietoja. Tavoitteena on tunnistaa epidemioiden syntyyn liittyviä immunologisia ja epidemiologisia signaaleja sekä kehittää ennustemalleja enterovirusepidemioiden riskin arvioimiseksi.\nHakuohjeet\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nHakuaika tehtävään päättyy 8.10.2026."
+  },
+  "ai": {
+    "summary": "MSCA Doctoral Network position at Tampere University investigating enterovirus population immunity dynamics, epidemic emergence, and predictive modelling using longitudinal serology, surveillance, wastewater data, and neutralizing antibody analysis. Work Package 2 focuses on characterizing type-specific immunity patterns and epidemic risk prediction.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "No thematic overlap. Research is pure virology/epidemiology focused on pathogen surveillance, serology, and disease modelling. Researcher's domains (HCI, XR, spatial learning, collaborative systems, gamification) are orthogonal. Position description contains zero mention of learning, user experience, interaction design, or technology engagement—the researcher's core identity."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Limited methodological bridge. Researcher has quantitative research and experimental-design skills, which are generic. However, position requires molecular virology, serology (neutralizing antibody analysis), epidemiological modelling, bioinformatics, and machine learning—none present in researcher's profile. Position explicitly requests biomedical sciences or virology background; researcher's background is media/multimedia and HCI. No software development, XR, or user-facing systems components."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Minimal growth value toward researcher's target identity. While position mentions data science and machine learning, these are domain-specific (epidemic modelling, not immersive systems). Researcher would invest 3 years in virology expertise with zero transfer to HCI, XR, or spatial-learning research. This represents career redirection away from stated target, not capability expansion within domain."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "Strategic misalignment. Position is biomedical/public health focused; researcher's target trajectory is design-oriented HCI in European universities prioritizing XR and spatial cognition. DETECTIVE network is virology-centred (MHRA, Imperial epidemiology); no overlap with target institutions (Aalto, TU Delft, Tampere's gamification centre). Supervisor expertise (Sami Oikarinen, virology) and secondments (MHRA, Imperial epidemiology) do not advance researcher's independent identity in HCI."
+    },
+    "required_skills": [
+      "quantitative-research",
+      "experimental-design",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "experimental-design",
+      "statistics"
+    ],
+    "missing_skills": [
+      "python",
+      "mixed-effects-modelling",
+      "r"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSCA mobility rule: applicant must not have resided in Finland >12 months in 36 months before 1.3.2027. Researcher is in Malaysia (MMU); no conflict stated.",
+      "MSc required before 1.3.2027 start; researcher's thesis is in-progress but on track.",
+      "Position explicitly requests background in biomedical sciences, bioinformatics, microbiology, virology, or immunology—researcher holds none of these."
+    ],
+    "risks": [
+      "Fundamental domain mismatch: this is a virology/epidemiology position, not HCI or XR-related despite Tampere location.",
+      "Researcher lacks all domain-specific technical prerequisites (molecular techniques, serology, epidemiological modelling software).",
+      "Three-year commitment would delay or derail target PhD pathway in human-centred XR research.",
+      "No transferable research identity or network building toward researcher's stated target institutions or supervisor profiles."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-15T11:41:15.865100Z",
+    "analysis_input_hash": "a58cd96a1bb544be155fe02369205e8f7664dd39b4d5359a6c791a8646c6b34c"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source",
+      "posting hints at a mobility/residence-history rule — verify the exact condition"
+    ],
+    "fit_overall": 10,
+    "urgency": "medium",
+    "days_to_deadline": 23,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

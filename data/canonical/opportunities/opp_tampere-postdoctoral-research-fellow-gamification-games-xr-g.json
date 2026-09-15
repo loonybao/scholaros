@@ -1,0 +1,182 @@
+{
+  "id": "opp_tampere-postdoctoral-research-fellow-gamification-games-xr-g",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-15T11:21:12.616062Z",
+  "updated_at": "2026-09-15T11:42:22.781677Z",
+  "change_history": [
+    {
+      "ts": "2026-09-15T11:21:12.616182Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-15T11:41:15.866569Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-15T11:42:22.781677Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Research Fellow (Gamification / Games / XR / GenAI / Emerging Media for Engagement with Sustainable Futures), 1-3 positions",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3170",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3170",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3170#login_form",
+    "evidence_ids": [
+      "tampere/3170"
+    ],
+    "retrieved_at": "2026-09-15T11:21:12.615857Z",
+    "raw_snapshot_hash": "24739fdd64ed0b35ed91c8b2484a79bdb8b7c3ccadd4e8b3319d436594db7107",
+    "extracted_content_hash": "40ade2098b57d871f1f00c57f60cda5be2968a2d02cdd1b90c917119df90870c",
+    "deadline": "2026-10-15",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-15",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Tampere University\nis a unique, boldly future‑oriented and evolving community, and one of Finland’s most multidisciplinary universities. At Tampere University, technology, health and society come together in a distinctive way. Our research groups and projects carry out interdisciplinary and cross-sectoral research that transcends organisational boundaries. Our community is international, with members from more than 80 countries. Read more at\nTampere University (TAU) | Tampere University\n.\nWe are seeking postdoctoral research fellows in the area of gameful and engaging technologies for sustainability to join us at the\nResearch Centre of Gameful Realities\n, Tampere University. The positions are situated in the broad area of engaging media technologies for prosocial, sustainable, and transformative applications.\nWe are looking for candidates who are interested in investigating how novel engaging media and technologies (such as extended reality, gamification, gameful systems, bioadaptive technologies, artificial intelligence, conversational agents, and other interactive or experiential media) can help people reflect, learn, engage with humanity's wicked challenges, collaborate, or imagine and shape futures in these domains.\nThe positions are suitable for applicants with a background in, for example, computer science, human-computer interaction, affective computing, information systems, cognitive science, media and communication studies, design, health technology, behavioural sciences, education, economics, or human-environment interaction. We welcome both theoretically ambitious and empirically rigorous doctoral projects, including those combining different approaches such as technology development, experimental research, qualitative inquiry, design, and public engagement.\nThe selected postdoctoral research fellow(s) will develop their own research plans within this broader research agenda. Some of the positions are expected to be connected to the project CLIMETA, while others may be shaped around the OPEN theme relating to the above-described emerging research directions within the Research Centre of Gameful Realities (see Research Context below).\nWe therefore welcome: a)\napplicants with a clear interest in\nCLIMETA\n, as well as\nb)\napplicants whose proposed research fits the wider theme of engaging media and technologies for sustainable applications (\nOPEN\n).\nIn your application, please indicate whether you are primarily applying for a position connected to CLIMETA or OPEN position within the broader research theme of engaging media and technologies. You may also indicate interest in both, if applicable.\nResearch Context\n1. Non project-specific / OPEN application\nEngaging technologies increasingly shape how people encounter information, learn, make decisions, understand themselves, relate to others, participate in communities, and act in the world. Games and gamification, extended reality, virtual environments, AI-supported systems, conversational agents, bioadaptive technologies, and similar avenues are creating new possibilities for learning, collaboration, participation, wellbeing, behaviour change, creativity, and social imagination.\nAt the same time, societies are navigating complex transformations related to, for example, sustainability, technological change, changing forms of work and consumption, social polarisation, and participation. Engaging technologies can make complex systems experiential, create new forms of social interaction and participation, support learning and reflection, facilitate perspective-taking and collaboration, and enable people to explore alternative behaviours and possible futures.\nThe recruited postdoctoral research fellow(s) will investigate how games, XR, AI, gamification, and other engaging and emerging media technologies can contribute to individual, social, and societal benefit. Research may address, for example, learning and literacy, motivation and behaviour, interaction and user experience, agency and participation, social connection and cooperation, wellbeing, perspective-taking, creativity, systems thinking, public engagement with science, digital and AI-mediated interaction, or the design and evaluation of transformative experiences. We are particularly interested in research addressing sustainability broadly understood, including its environmental, social, economic, cultural, and technological dimensions, as well as the relationships and trade-offs between them.\n2. Project CLIMETA: VR, Metacognition, and Climate Change engagement\nVirtual reality can uniquely instantiate the dynamic coupling of mind, body, and environment at the root of thinking and learning by having users embody avatars that are embedded in multisensory and context-rich worlds, enact understanding through interactive, consequential engagement, and extend their cognition through features such as artificial intelligence (AI) guides and bioadaptive feedback.\nCLIMETA investigates how immersive virtual reality and related engaging technologies can support meta-engagement: people’s capacity to become aware of, reflect on, and regulate their own cognitive, emotional, and behavioural responses to complex societal challenges such as climate change.\nClimate change is often approached as a matter of information, attitudes, or behaviour. However, people’s engagement with climate change is also shaped by deeper cognitive, emotional, and social processes. Barriers such as short-term thinking, climate anxiety, polarisation, in-group bias, distorted self-perceptions, and biased information processing can limit people’s ability to engage constructively with complexity.\nWithin CLIMETA, possible postdoctoral research themes may include, for example, VR-based climate engagement, metacognitive reflection, avatar embodiment and perspective-taking, AI-supported reflective agents, bioadaptive interactions, and developing methods for assessing meta-engagement in immersive environments.\nJOB DESCRIPTION\nIn this position, we invite candidates to propose their own research agenda relating to engaging media and technologies by drawing on methodologies such as design and participatory design workshops, VR development, LLM conversational agent design and/or evaluation methodologies, and laboratory experiments including interviews and psychophysiological measurements. We especially welcome applicants interested in laboratory and experimental research, while also valuing interdisciplinary and design-oriented approaches. The postdoctoral research fellow(s) selected for this position will develop their own research agenda within the broader scope of the open positions.\nCandidates are expected to design studies and disseminate them in a variety of ways, including publishing in academic venues and demonstrating the results in related events, including those oriented to the general public. The work includes research planning, experiment organising, data gathering and analysis, article writing, and dissemination of results. Moreover, the candidate is expected to participate in project-wide collaboration and further funding acquisition, as well as participate in community-building more broadly within the research group and the Research Centre of Gameful Realities. Teaching and supervision will be negotiated based on the interests of the candidate.\nREQUIREMENTS\nThe requirements below are the qualities we envision to be suitable for the defined tasks. However, we encourage all candidates who see themselves contributing in unique ways to one of these projects to apply.\nMinimum qualifications\nApplicable degree: i.e. PhD degree in a relevant field before the start of employment (latest 1.1.2027).\nFluency in English\nUseful dimensions of candidate’s background\nComputer science / Human-computer interaction / Affective computing / Information systems\nApplied psychology / cognitive science\nMedia and communication studies\nDesign (e.g., interaction design, game design)\nHealth technology\nBehavioural sciences\nEducational sciences (especially public engagement with science)\nEconomics\nHuman-environment interaction\nPossible methodological skills\nAptitude for quantitative and/or qualitative empirical research (especially laboratory experiments)\nAptitude for psychometric measurement\nAptitude for psychophysiological measurement (especially real-time signal processing and feedback)\nAbility to independently develop gamified environments (software)\nUnderstanding of design-driven methodologies (e.g., speculative and critical design, research through design, participatory design, co-design)\nLLM conversational agent design and/or evaluation methodologies\nAdvantageous qualities\nStrong academic writing skills and publication productivity\nDrive for rigorous and impactful research\nDrive for a career in research\nWE OFFER\nThe full-time position will be filled for a fixed-term period of two to four (2-4) years, starting upon mutual agreement but as soon as possible. The contract length will be determined based on the selected candidate’s qualifications, research profile, and how their agreed tasks align with the project and the broader research agenda. A trial period of six (6) months applies to all our new employees.\nThe salary will be based on both the job requirements and the employee’s personal performance in accordance\nwith the Finnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of a Postdoctoral Research Fellow is placed on level 5 of the job requirements scale.\nA typical starting salary for a Postdoctoral Researcher with no or little prior experience is approximately €4,000 per month.\nThe salary increases based on the job requirement level and personal performance level.\nThe University offers a wide range of staff benefits, such as occupational health care, flexible working hours, excellent sports facilities on campus, and several on-campus restaurants and cafés with staff discounts.\nPlease read more about working at Tampere University\n.\nWORKING ENVIRONMENT\nDepending on their topic, selected research fellow(s) will be based at Tampere University’s City centre campus within the Computing Sciences Unit at the Faculty of Information Technology and Communication Sciences (ITC) (CLIMETA and OPEN themes), or at the Hervanta campus within the Faculty of Management and Business (OPEN themes). They will work in close collaboration with researchers across the Research Centre of Gameful Realities (RCGR) in the context of the larger strategic profiling area of Tampere University in Gamification, Extended Reality and their application towards holistic sustainability.\nThe Research Centre of Gameful Realities (RCGR)\nis a trans-disciplinary research centre which brings together the Faculty of Information Technology and Communication Science, Faculty of Business Administration and Management and Faculty of Education at Tampere University. It is internationally revered for seminal academic and societal contributions in the areas of novel technologies such as motivational information systems (e.g. gamification, game-based learning, quantified-self, persuasive technologies), internet commerce (e.g. crowdsourcing, crowdfunding, sharing economies, game economies), new media (e.g. esports, streaming, immersive journalism) as well as human-computer interaction (VR / AR, wearables, transhumanism, user interfaces, more-than-human interaction). RCGR is one of the most prolific research centres internationally in its pursuit to wield gameful approaches towards the flourishing of the planet, people and prosperity.\nSee more in\nthis video\n.\nFlagship consortium: UNITE | Forest-Human-Machine Interplay is a prestigious research Flagship consortium composed of Tampere University, University of Eastern Finland, Finnish Geospatial Research Institute FGI and Natural Resources Institute Finland. The position offers unique vantage points and entry to an ambitious consortium that represents top international scholarship in the areas of gameful technologies and holistic sustainability. UNITE brings together the world’s leading research groups in the fields of forest sciences, geoinformation and sensor development, and gamification.\nLIFE IN TAMPERE\nTampere is one of the major academic hubs in the Nordic countries and offers a dynamic living environment. Tampere region is one of the three most rapidly growing urban areas in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. The city campus of the Tampere University, where the candidate(s) will be located, is walking distance to the city center. Tampere is an epicenter of game research internationally. For more information on Tampere and Finland, please visit:\nhttps://visittampere.fi/en/\nhttps://www.visitfinland.com/\nhttps://www.infofinland.fi/en/frontpage\nHOW TO APPLY\nPlease submit your application through our online recruitment system.\nIn your application, please indicate whether you are primarily applying for a position connected to CLIMETA or OPEN position within the broader research theme of engaging media and technologies.\nYou may also indicate interest in both, if applicable. We may interview candidates for either or both position categories.\nThe closing date for applications is October 15, 2026 (at 23.59 EEST / 20.59 UTC)\n. Please write your application and all accompanying documentation in English and attach them in PDF format only. Selected candidate(s) are expected to start as soon as possible.\nThe candidates should attach the following documents\n:\nCV\nList of publications, with the most important publications clearly marked (maximum 5)\nA motivation letter (max 2 pages) that briefly outlines:\nPage 1\n: Motivation to apply including how this position would support your career development, earliest starting date, and any other miscellaneous remarks that the candidate wishes to make. Please clearly specify which of the positions listed above you are applying for.\nPage 2\n: A tentative short research plan or research idea you would like to undertake in the position (this plan primarily functions as a departure point for discussion; the final research plan will be agreed upon together with the selected candidate(s))\nOptional\n: A design portfolio highlighting your design, development, and/or artistic work.\nContact\nProfessor\nJuho Hamari,\njuho.hamari@tuni.fi\nSenior Research Fellow\nMila Bujić,\nmila.bujic@tuni.fi\nPostdoctoral Research Fellow\nDaniel Fernández Galeote,\ndaniel.fernandezgaleote@tuni.fi\n**\nTampereen yliopisto on ainutlaatuinen, rohkeasti tulevaisuuteen katsova, kehittyvä yhteisö ja yksi Suomen monialaisimmista yliopistoista. Meillä tekniikka, terveys ja yhteiskunta kohtaavat toisensa ainutlaatuisella tavalla. Tutkimusryhmissämme ja -hankkeissamme tehdään monitieteistä ja -alaista tutkimusta yli organisaatiorajojen. Yhteisömme on kansainvälinen, meitä on jo yli 80 maasta. Lue lisää\nTampereen yliopisto (TAU) | Tampereen yliopisto\n.\nTampereen yliopistossa on haettavana Tutkijatohtorin (Gamification / Games / XR / GenAI / Emerging Media for Engagement with Sustainable Futures) tehtävät (1-3 tehtävää).\nHAKUOHJEET\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).\nHakuaika tehtävään päättyy 15.10.2026, klo 23:59."
+  },
+  "ai": {
+    "summary": "Tampere University seeks 1–3 postdoctoral fellows for the Research Centre of Gameful Realities to develop research agendas in engaging media technologies (XR, gamification, AI, conversational agents, bioadaptive systems) for sustainability, learning, participation, and social benefit. Offers both project-specific (CLIMETA: VR and climate metacognition) and open-theme directions.",
+    "fit_type": "exact-fit",
+    "thematic_fit": {
+      "score": 96,
+      "rationale": "Exceptional alignment with researcher's core identity and domains. Position explicitly centres on XR, collaborative immersive systems, learning, and gamification—researcher's research domains. CLIMETA's focus on avatar embodiment, perspective-taking, and immersive environments directly mirrors researcher's multiplayer role-based collaboration framework and spatial-learning outcomes. Open theme explicitly lists social connection, cooperation, perspective-taking, and learning outcomes."
+    },
+    "methodological_fit": {
+      "score": 93,
+      "rationale": "Strong methodological fit. Researcher brings advanced Unity/C# development, multiplayer-networking systems, user-studies design, and experimental methodology. Position explicitly values laboratory experiments, design-driven methodologies, and empirical research combining technology development with rigorous evaluation. Researcher's first-author publication and systematic mapping review demonstrate academic output capacity required for postdoc trajectory."
+    },
+    "growth_value": {
+      "score": 89,
+      "rationale": "High growth value. Position will advance: psychophysiological measurement (real-time signal processing and bioadaptive feedback), LLM conversational agent design and evaluation, advanced statistical methods, and rigorous large-scale study protocol design. Exposure to AI-guided reflective systems and metacognitive frameworks extends HCI repertoire. Leading role as fellow (vs. doctoral researcher) accelerates independence and supervision/mentoring capability development—key for future PI trajectory."
+    },
+    "strategic_value": {
+      "score": 92,
+      "rationale": "Excellent strategic fit. RCGR is internationally leading in gamification and immersive HCI—world-class peer and supervisor network. Postdoc timeline (2–4 years) aligns with transition to independent researcher and early-career funding (e.g., ERC Starting Grant planning). Finland location matches geographic preference. Publication productivity and international collaboration opportunities (CLIMETA, UNITE consortium) strengthen competitive profile for future faculty appointments at priority institutions (Aalto, TU Delft). Hamari's supervision and RCGR affiliation carry significant prestige."
+    },
+    "required_skills": [
+      "virtual-reality",
+      "user-studies",
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "virtual-reality",
+      "unity",
+      "csharp",
+      "multiplayer-networking",
+      "user-studies",
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "physiological-sensing",
+      "mixed-effects-modelling",
+      "statistics",
+      "eye-tracking"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "PhD degree required before start (latest 1.1.2027); researcher must defend MSc thesis and initiate doctoral work before postdoc eligibility. This is a ~2–3 year gap from current stage.",
+      "Position notes 'publication productivity' as advantageous; researcher has 1 first-author journal article and 1 in-progress systematic review. Acceptable but modest; expectation for postdoc is higher output."
+    ],
+    "risks": [
+      "Timing risk: researcher is at MSc thesis stage (2026). Postdoc positions typically assume PhD completion; this role may expect prior doctoral experience. However, postdoc description does not explicitly exclude early-stage PhDs, and researcher could apply after defence.",
+      "Missing psychophysiological measurement and statistical skills will require upskilling; position is less explicit about training on these than doctoral role.",
+      "Competition will be high; RCGR attracts strong international candidates. Researcher's profile is strong but early-career publication record is modest for postdoc-level competitiveness."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.87,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-15T11:41:15.866134Z",
+    "analysis_input_hash": "70080189e6f1b577cd3760f75ee2acb8d1cd148a55a541f4062c58805bf14f92"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 93,
+    "urgency": "medium",
+    "days_to_deadline": 30,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

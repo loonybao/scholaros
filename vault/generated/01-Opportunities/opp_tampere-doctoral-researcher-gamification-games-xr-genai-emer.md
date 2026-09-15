@@ -1,0 +1,175 @@
+---
+id: opp_tampere-doctoral-researcher-gamification-games-xr-genai-emer
+type: opportunity
+title: "Doctoral Researcher (Gamification / Games / XR / GenAI / Emerging Media for Engagement with Sustainable Futures), 1-3 positions"
+organisation: "Tampere University"
+deadline: 2026-10-15
+status: open
+eligibility_gate: uncertain
+fit_overall: 92
+urgency: medium
+needs_review: true
+---
+
+# Doctoral Researcher (Gamification / Games / XR / GenAI / Emerging Media for Engagement with Sustainable Futures), 1-3 positions
+
+**Organisation:** [[org_tampere_university]] (Tampere University)
+**Deadline:** 2026-10-15 (23:59 local time)
+**Location:** Tampere, Finland
+**Position type:** phd
+**Salary:** not stated
+**Duration:** not stated
+**Status:** open
+**Official source:** https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3169
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 30)
+
+- funding/salary not confirmed on the posting
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Tampere University
+is a unique, boldly future‑oriented and evolving community, and one of Finland’s most multidisciplinary universities. At Tampere University, technology, health and society come together in a distinctive way. Our research groups and projects carry out interdisciplinary and cross-sectoral research that transcends organisational boundaries. Our community is international, with members from more than 80 countries. Read more at
+Tampere University (TAU) | Tampere University
+.
+We are seeking
+doctoral researchers
+in the area of gameful and engaging technologies for sustainability to join us at the
+Research Centre of Gameful Realities
+, Tampere University. The positions are situated in the broad area of engaging media technologies for prosocial, sustainable, and transformative applications.
+We are looking for candidates who are interested in investigating how novel engaging media and technologies (such as extended reality, gamification, gameful systems, bioadaptive technologies, artificial intelligence, conversational agents, and other interactive or experiential media) can help people reflect, learn, engage with humanity's wicked challenges, collaborate, or imagine and shape futures in these domains.
+The positions are suitable for applicants with a background in, for example, computer science, human-computer interaction, affective computing, information systems, cognitive science, media and communication studies, design, health technology, behavioural sciences, education, economics, or human-environment interaction. We welcome both theoretically ambitious and empirically rigorous doctoral projects, including those combining different approaches such as technology development, experimental research, qualitative inquiry, design, and public engagement.
+The selected doctoral researcher(s) will develop their own research plans within this broader research agenda. Some of the positions are expected to be connected to the project CLIMETA, while others may be shaped around the OPEN theme relating to the above-described emerging research directions within the Research Centre of Gameful Realities.
+We therefore welcome a) applicants with a clear interest in CLIMETA, as well as b) applicants whose proposed research fits the wider theme of engaging media and technologies for sustainable applications (OPEN).
+In your application, please indicate whether you are primarily applying for a position connected to CLIMETA or OPEN position within the broader research theme of engaging media and technologies. You may also indicate interest in both, if applicable.
+Research Context
+1. Non project-specific / OPEN application
+Engaging technologies increasingly shape how people encounter information, learn, make decisions, understand themselves, relate to others, participate in communities, and act in the world. Games and gamification, extended reality, virtual environments, AI-supported systems, conversational agents, bioadaptive technologies, and similar avenues are creating new possibilities for learning, collaboration, participation, wellbeing, behaviour change, creativity, and social imagination.
+At the same time, societies are navigating complex transformations related to, for example, sustainability, technological change, changing forms of work and consumption, social polarisation, and participation. Engaging technologies can make complex systems experiential, create new forms of social interaction and participation, support learning and reflection, facilitate perspective-taking and collaboration, and enable people to explore alternative behaviours and possible futures.
+The recruited doctoral researcher(s) will investigate how games, XR, AI, gamification, and other engaging and emerging media technologies can contribute to individual, social, and societal benefit. Research may address, for example, learning and literacy, motivation and behaviour, interaction and user experience, agency and participation, social connection and cooperation, wellbeing, perspective-taking, creativity, systems thinking, public engagement with science, digital and AI-mediated interaction, or the design and evaluation of transformative experiences. We are particularly interested in research addressing sustainability broadly understood, including its environmental, social, economic, cultural, and technological dimensions, as well as the relationships and trade-offs between them.
+2. Project CLIMETA: VR, Metacognition, and Climate Change engagement
+Virtual reality can uniquely instantiate the dynamic coupling of mind, body, and environment at the root of thinking and learning by having users embody avatars that are embedded in multisensory and context-rich worlds, enact understanding through interactive, consequential engagement, and extend their cognition through features such as artificial intelligence (AI) guides and bioadaptive feedback.
+CLIMETA investigates how immersive virtual reality and related engaging technologies can support meta-engagement: people’s capacity to become aware of, reflect on, and regulate their own cognitive, emotional, and behavioural responses to complex societal challenges such as climate change.
+Climate change is often approached as a matter of information, attitudes, or behaviour. However, people’s engagement with climate change is also shaped by deeper cognitive, emotional, and social processes. Barriers such as short-term thinking, climate anxiety, polarisation, in-group bias, distorted self-perceptions, and biased information processing can limit people’s ability to engage constructively with complexity.
+Within CLIMETA, possible doctoral research topics may include, for example, VR-based climate engagement, metacognitive reflection, avatar embodiment, perspective-taking, AI-supported reflective agents, bioadaptive media, and developing methods for assessing meta-engagement in immersive environments.
+JOB DESCRIPTION
+In this position, we invite candidates to propose their own research agenda relating to engaging media and technologies by drawing on methodologies such as design and participatory design workshops, VR development, LLM conversational agent design and/or evaluation methodologies, and laboratory experiments including interviews and psychophysiological measurements. We especially welcome applicants interested in laboratory and experimental research, while also valuing interdisciplinary and design-oriented approaches. The doctoral researchers selected for this position will develop their own research agenda within the broader scope of the open positions.
+Candidates are expected to design studies and disseminate them in a variety of ways, including publishing in academic venues and demonstrating the results in related events, including those oriented to the general public. The work includes research planning, experiment organising, data gathering and analysis, article writing, and dissemination of results. Moreover, the candidate is expected to participate in project-wide collaboration and further funding acquisition, as well as participate in community-building more broadly within the research group and the Research Centre of Gameful Realities. Teaching and supervision will be negotiated based on the interests of the candidate.
+REQUIREMENTS
+The requirements below are the qualities we envision to be suitable for the defined tasks. However, we encourage all candidates who see themselves contributing in unique ways to one of these projects to apply.
+Minimum qualifications
+Applicable degree: i.e. Master’s degree in relevant field before the start of employment (latest 1.1.2027).
+Fluency in English
+Useful dimensions of candidate’s background
+Computer science / Human-computer interaction / Affective computing / Information systems
+Applied psychology / cognitive science
+Media and communication studies
+Design (e.g., interaction design, game design)
+Health technology
+Behavioural sciences
+Educational sciences (especially public engagement with science)
+Economics
+Human-environment interaction
+Possible methodological skills
+Aptitude for quantitative and/or qualitative empirical research (especially laboratory experiments)
+Aptitude for psychometric measurement
+Aptitude for psychophysiological measurement (especially real-time signal processing and feedback)
+Ability to independently develop gamified environments (software)
+Understanding of design-driven methodologies (e.g., speculative and critical design, research through design, participatory design, co-design)
+LLM conversational agent design and/or evaluation methodologies
+Advantageous qualities
+Strong academic writing skills and existing publications
+Drive for rigorous and impactful research
+Drive for a career in research
+WE OFFER
+The full-time position will be filled for a fixed-term period of four (4) years, starting upon mutual agreement. A trial period of six (6) months applies to all our new employees.
+The salary will be based on both the job requirements and the employee’s personal performance in accordance
+with the Finnish University Salary System
+. According to the criteria applied to teaching and research staff, the position of Doctoral Researcher is placed on level 2–4 of the job requirements scale. A
+typical starting salary for a Doctoral Researcher is approximately €2,800 per month
+. The salary increases based on experience and the progress of doctoral studies.
+The University offers a wide range of staff benefits, such as occupational health care, flexible working hours, excellent sports facilities on campus, and several on-campus restaurants and cafés with staff discounts.
+Please read more about working at Tampere University
+.
+WORKING ENVIRONMENT
+Candidates may begin the doctoral programme admission process after being recruited and therefore do not need to have been admitted to a doctoral programme before applying. The selected candidate(s) must enroll in and be accepted to an applicable doctoral programme in the
+Faculty of Information Technology and Communication Sciences
+before the start of the employment. Please visit
+the admissions page
+for more information on eligibility requirements.
+Depending on their topic, selected researcher(s) will be based at Tampere University’s City centre campus within the Computing Sciences Unit at the Faculty of Information Technology and Communication Sciences (ITC) (CLIMETA and OPEN themes), or at the Hervanta campus within the Faculty of Management and Business (OPEN themes). They will work in close collaboration with researchers across the Research Centre of Gameful Realities (RCGR) in the context of the larger strategic profiling area of the Tampere University in Gamification, Extended Reality and their application towards holistic sustainability.
+The Research Centre of Gameful Realities (RCGR)
+is a trans-disciplinary research centre which brings together the Faculty of Information Technology and Communication Science, Faculty of Business Administration and Management and Faculty of Education at Tampere University. It is internationally revered for seminal academic and societal contributions in the areas of novel technologies such as motivational information systems (e.g. gamification, game-based learning, quantified-self, persuasive technologies), internet commerce (e.g. crowdsourcing, crowdfunding, sharing economies, game economies), new media (e.g. esports, streaming, immersive journalism) as well as human-computer interaction (VR / AR, wearables, transhumanism, user interfaces, more-than-human interaction). RCGR is one of the most prolific research centres internationally in its pursuit to wield gameful approaches towards the flourishing of the planet, people and prosperity.
+See more in
+this video
+.
+Flagship consortium: UNITE | Forest-Human-Machine Interplay is a prestigious research Flagship consortium composed of Tampere University, University of Eastern Finland, Finnish Geospatial Research Institute FGI and Natural Resources Institute Finland. The position offers unique vantage points and entry to an ambitious consortium that represents top international scholarship in the areas of gameful technologies and holistic sustainability. UNITE brings together the world’s leading research groups in the fields of forest sciences, geoinformation and sensor development, and gamification.
+LIFE IN TAMPERE
+Tampere is one of the major academic hubs in the Nordic countries and offers a dynamic living environment. Tampere region is one of the three most rapidly growing urban areas in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. The city campus of the Tampere University, where the candidate(s) will be located, is walking distance to the city center. Tampere is an epicenter of game research internationally. For more information on Tampere and Finland, please visit:
+https://visittampere.fi/en/
+https://www.visitfinland.com/
+https://www.infofinland.fi/en/frontpage
+HOW TO APPLY
+Please submit your application through our online recruitment system. In your application, please indicate whether you are primarily applying for a position connected to CLIMETA or OPEN position within the broader research theme of engaging media and technologies. You may also indicate interest in both, if applicable. We may interview candidates for either or both position categories.
+The closing date for applications is October 15, 2026 (at 23.59 EEST / 20.59 UTC)
+. Please write your application and all accompanying documentation in English and attach them in PDF format only. Selected candidate(s) are expected to start as soon as possible.
+The candidates should attach the following documents
+:
+CV
+List of publications, if any
+One or two samples of academic writing (e.g. thesis, articles)
+A motivation letter (max 2 pages) that briefly outlines:
+Page 1
+: Motivation to apply, earliest starting date, and any other miscellaneous remarks that the candidate wishes to make. Please clearly specify which of the positions listed above you are applying for.
+Page 2
+: A tentative short research plan or research idea you would like to undertake in the position (this plan primarily functions as a departure point for discussion; the final research plan will be agreed upon together with the selected candidate(s))
+Optional
+: A design portfolio highlighting your design, development, and/or artistic work.
+Contact
+Professor
+Juho Hamari,
+juho.hamari@tuni.fi
+Senior Research Fellow
+Mila Bujić,
+mila.bujic@tuni.fi
+Postdoctoral Research Fellow
+Daniel Fernández Galeote,
+daniel.fernandezgaleote@tuni.fi
+***
+Tampereen yliopisto on ainutlaatuinen, rohkeasti tulevaisuuteen katsova, kehittyvä yhteisö ja yksi Suomen monialaisimmista yliopistoista. Meillä tekniikka, terveys ja yhteiskunta kohtaavat toisensa ainutlaatuisella tavalla. Tutkimusryhmissämme ja -hankkeissamme tehdään monitieteistä ja -alaista tutkimusta yli organisaatiorajojen. Yhteisömme on kansainvälinen, meitä on jo yli 80 maasta. Lue lisää
+Tampereen yliopisto (TAU) | Tampereen yliopisto
+.
+Tampereen yliopistossa on haettavana Väitöskirjatutkijan (Gamification / Games / XR / GenAI / Emerging Media for Engagement with Sustainable Futures) tehtävät (1-3 tehtävää).
+HAKUOHJEET
+Lue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.
+Jätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).
+Hakuaika tehtävään päättyy 15.10.2026, klo 23:59.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+
+Tampere University seeks 1–3 doctoral researchers for the Research Centre of Gameful Realities to investigate engaging media technologies (XR, gamification, AI, conversational agents) for sustainability, learning, behaviour change, and social participation. The position offers both project-specific (CLIMETA: VR and climate metacognition) and open-theme research directions within a trans-disciplinary centre.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 95 |
+| Methodological fit | 92 |
+| Growth value | 88 |
+| Strategic value | 90 |
+| **Overall** | **92** |
+
+**Fit type:** exact-fit
+
+**Missing skills:** physiological-sensing, mixed-effects-modelling, statistics, eye-tracking
+
+**Risks:**
+- Missing psychophysiological measurement skills; will require upskilling but this is a learning objective of the role.
+- Researcher's statistics background is self-rated beginner; mixed-effects modelling mentioned as possible methodological skill but not evident in profile. Position welcomes both quantitative and qualitative approaches, mitigating this risk.
+- Spatial cognition and wayfinding focus may need strategic reframing toward broader sustainability and climate themes emphasized in CLIMETA, though researcher's learning/collaboration themes transfer well.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-gamification-games-xr-genai-emer.md` and link [[opp_tampere-doctoral-researcher-gamification-games-xr-genai-emer]]._
