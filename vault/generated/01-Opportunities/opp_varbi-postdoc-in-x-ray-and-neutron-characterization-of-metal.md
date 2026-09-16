@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-x-ray-and-neutron-characterization-of-metal
 type: opportunity
 title: "Postdoc in X-ray and neutron characterization of metals for AM"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-09-17
+deadline: 2026-10-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 5
-urgency: urgent
+fit_overall: 7
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in X-ray and neutron characterization of metals for AM
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-09-17
+**Deadline:** 2026-10-01
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 15)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -105,7 +105,7 @@ Peter Hedström, pheds@kth.se
 Published
 28.Aug.2026
 Last application date
-17.Sep.2026
+01.Oct.2026
 Login and apply
 Share links
 Return to job vacancies
@@ -114,25 +114,25 @@ Return to job vacancies
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoctoral position in synchrotron and neutron characterization of metallic materials processed via additive manufacturing, laser welding, and heat treatment at KTH. Role includes in-situ studies, data-analysis methodology development, and collaboration with academic and industrial partners on sustainable material processing.
+Postdoc position in synchrotron and neutron characterization of metallic materials processed via laser and electron-beam techniques, including additive manufacturing and welding, with focus on phase transformations and mechanical properties at KTH.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 3 |
-| Methodological fit | 7 |
-| Growth value | 1 |
-| Strategic value | 12 |
-| **Overall** | **5** |
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 3 |
+| Strategic value | 10 |
+| **Overall** | **7** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics
+**Missing skills:** synchrotron-characterization (not in taxonomy), neutron-diffraction (not in taxonomy), phase-transformation-analysis (not in taxonomy), materials-science-data-analysis (not in taxonomy)
 
 **Risks:**
-- Researcher does not hold a PhD; position mandates doctorate before employment decision
-- Fundamental domain mismatch; no thematic or methodological alignment with human-centred XR
-- 2-year commitment to materials science diverts from target HCI/immersive learning research trajectory
-- No publications or group connections in materials characterization; limited credibility transfer
+- Complete disciplinary mismatch: researcher lacks materials science background and has no expertise in synchrotron or neutron techniques.
+- Career pathway risk: postdoc in large-scale materials characterization would lock researcher into materials science trajectory, away from target identity as human-centred immersive systems researcher.
+- No connection to target institutions, research communities, or PhD pathway.
+- Advanced characterization expertise would not transfer to immersive systems, HCI, or spatial learning research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-x-ray-and-neutron-characterization-of-metal.md` and link [[opp_varbi-postdoc-in-x-ray-and-neutron-characterization-of-metal]]._

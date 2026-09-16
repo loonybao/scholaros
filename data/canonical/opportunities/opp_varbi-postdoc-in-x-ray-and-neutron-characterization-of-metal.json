@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-28T18:33:42.083356Z",
-  "updated_at": "2026-09-15T11:42:23.010764Z",
+  "updated_at": "2026-09-16T11:27:56.561954Z",
   "change_history": [
     {
       "ts": "2026-08-28T18:33:42.083463Z",
@@ -191,6 +191,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-16T11:21:11.679745Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-09-16T11:27:56.002168Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-16T11:27:56.561954Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -204,10 +245,10 @@
     "evidence_ids": [
       "varbi/kth-958629"
     ],
-    "retrieved_at": "2026-08-28T18:33:42.083204Z",
-    "raw_snapshot_hash": "6a0374f74614bc69ee39d049c2cc4bfbd8772b6f84cc473be0f7666e07400383",
-    "extracted_content_hash": "58e7e81769b5ff0ce08b25dcdd9e47dd9570e823322fcf2d53f38a2cb2dc6f7c",
-    "deadline": "2026-09-17",
+    "retrieved_at": "2026-09-16T11:21:11.679200Z",
+    "raw_snapshot_hash": "2c8671ce887103b0191767fe0cb87990f50c780fa582297c36236656449c1c66",
+    "extracted_content_hash": "517d51549c4c1cb6d5be2f7d8c048a81d2865b598ca0e8e5cb881d8c44cd9175",
+    "deadline": "2026-10-01",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -225,51 +266,49 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Postdoc in X-ray and neutron characterization of metals for AM\nLogin and apply\nSchool of Industrial Engineering and Management at KTH\nJob description\nAt the Department of Materials Science, we offer a postdoctoral position focused on in‑situ and ex‑situ synchrotron and neutron characterization of metallic materials processed using laser and electron‑beam‑based techniques, particularly within additive manufacturing (AM), welding, and heat treatment. The position is centered around the custom‑built experimental environment developed at the Swedish beamline at PETRA III, beamline P21.2, where both electron‑beam and laser processing can be studied in real time under controlled conditions.\nThe postdoctoral researcher will further develop the methodology for applying this experimental setup in close collaboration with internal and external partners, and will use it to generate new knowledge on the behavior of metals under rapid thermal cycles, such as those occurring during AM or laser welding. In addition to synchrotron experiments, the position will include work with complementary characterization techniques to build a comprehensive understanding of microstructure evolution and mechanical properties.\nBy combining advanced in‑situ studies with ex‑situ analyses, the project aims to deepen the understanding of phase transformations, melt‑pool dynamics, solidification, as well as the properties of processed materials in end‑use applications, for example by studying their behavior under quasistatic or cyclic loading.\nThis research is central to enabling the development of new materials and processing solutions that support sustainable industrial transformation, for example within manufacturing industries or energy‑producing sectors. The results generated will be important for advancing circular material flows, reducing scrap, and increasing the use of recycled raw materials.\nThe position offers a unique opportunity to work at large‑scale research infrastructures, develop measurement methodologies and data‑analysis approaches for real‑time studies, and collaborate closely with both academic and industrial partners, nationally and internationally, to address important, needs‑driven materials and process challenges. The postdoctoral researcher will play a key role in advancing research on electron‑beam and laser processing of metals and their final properties.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in materials science or closely-related area for the proposed research. This eligibility requirement must be met no later than the time the employment decision is made.\nResearch experience in materials characterization, particularly synchrotron light and neutron characterization such as e.g. diffraction, small-angle scattering (WAXS, SAXS, ND, SANS) and imaging, evidenced by a track record of journal publications and international conference presentations.\nThe ability to express yourself very well in English, spoken and written, as this will be required in day-to-day work.\nYou are self-motivated with a strong ability to take initiative and run projects\nAs a person, you have well-developed analytical and problem-solving skills and like to take responsibility. You have strong collaboration skills including the ability to lead and to support research.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nExtensive experience in data analysis for synchrotron light or neutron characterization of metallic materials.\nExperience with electron‑beam and/or laser processing of metallic material\nExperience in characterization of mechanical behavior, phase transformations or/and precipitates in metallic materials.Experience with lab-scale characterization of metallic materials, e.g. SEM, XRD.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Max two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2702\nContact\nPeter Hedström, pheds@kth.se\nPublished\n28.Aug.2026\nLast application date\n17.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+    "description_text": "Postdoc in X-ray and neutron characterization of metals for AM\nLogin and apply\nSchool of Industrial Engineering and Management at KTH\nJob description\nAt the Department of Materials Science, we offer a postdoctoral position focused on in‑situ and ex‑situ synchrotron and neutron characterization of metallic materials processed using laser and electron‑beam‑based techniques, particularly within additive manufacturing (AM), welding, and heat treatment. The position is centered around the custom‑built experimental environment developed at the Swedish beamline at PETRA III, beamline P21.2, where both electron‑beam and laser processing can be studied in real time under controlled conditions.\nThe postdoctoral researcher will further develop the methodology for applying this experimental setup in close collaboration with internal and external partners, and will use it to generate new knowledge on the behavior of metals under rapid thermal cycles, such as those occurring during AM or laser welding. In addition to synchrotron experiments, the position will include work with complementary characterization techniques to build a comprehensive understanding of microstructure evolution and mechanical properties.\nBy combining advanced in‑situ studies with ex‑situ analyses, the project aims to deepen the understanding of phase transformations, melt‑pool dynamics, solidification, as well as the properties of processed materials in end‑use applications, for example by studying their behavior under quasistatic or cyclic loading.\nThis research is central to enabling the development of new materials and processing solutions that support sustainable industrial transformation, for example within manufacturing industries or energy‑producing sectors. The results generated will be important for advancing circular material flows, reducing scrap, and increasing the use of recycled raw materials.\nThe position offers a unique opportunity to work at large‑scale research infrastructures, develop measurement methodologies and data‑analysis approaches for real‑time studies, and collaborate closely with both academic and industrial partners, nationally and internationally, to address important, needs‑driven materials and process challenges. The postdoctoral researcher will play a key role in advancing research on electron‑beam and laser processing of metals and their final properties.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in materials science or closely-related area for the proposed research. This eligibility requirement must be met no later than the time the employment decision is made.\nResearch experience in materials characterization, particularly synchrotron light and neutron characterization such as e.g. diffraction, small-angle scattering (WAXS, SAXS, ND, SANS) and imaging, evidenced by a track record of journal publications and international conference presentations.\nThe ability to express yourself very well in English, spoken and written, as this will be required in day-to-day work.\nYou are self-motivated with a strong ability to take initiative and run projects\nAs a person, you have well-developed analytical and problem-solving skills and like to take responsibility. You have strong collaboration skills including the ability to lead and to support research.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nExtensive experience in data analysis for synchrotron light or neutron characterization of metallic materials.\nExperience with electron‑beam and/or laser processing of metallic material\nExperience in characterization of mechanical behavior, phase transformations or/and precipitates in metallic materials.Experience with lab-scale characterization of metallic materials, e.g. SEM, XRD.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Max two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2702\nContact\nPeter Hedström, pheds@kth.se\nPublished\n28.Aug.2026\nLast application date\n01.Oct.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "Postdoctoral position in synchrotron and neutron characterization of metallic materials processed via additive manufacturing, laser welding, and heat treatment at KTH. Role includes in-situ studies, data-analysis methodology development, and collaboration with academic and industrial partners on sustainable material processing.",
+    "summary": "Postdoc position in synchrotron and neutron characterization of metallic materials processed via laser and electron-beam techniques, including additive manufacturing and welding, with focus on phase transformations and mechanical properties at KTH.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 3,
-      "rationale": "Materials characterization and advanced metallurgy research. No human-centred systems, collaborative immersive interfaces, spatial learning design, or HCI dimension. The domain is purely technical materials science with no connection to the researcher's expertise in user-centred design, immersive learning, or wayfinding."
+      "score": 5,
+      "rationale": "Position is core materials science and advanced characterization, focused on phase transformations, melt-pool dynamics, and mechanical properties of processed metals. Researcher's domain is human-centred immersive systems, spatial cognition, and collaborative learning. No thematic intersection."
     },
     "methodological_fit": {
-      "score": 7,
-      "rationale": "Superficial overlap only: the researcher has quantitative research and experimental design experience. However, the core methodologies (synchrotron diffraction, neutron scattering, in-situ characterization, phase transformation analysis) are specialized materials science techniques unrelated to user studies, HCI evaluation, or immersive system design."
+      "score": 10,
+      "rationale": "Both involve experimental methodologies and data analysis. However, the specifics diverge completely. Synchrotron/neutron work requires expertise in beamline methodology, real-time monitoring of phase transformations, and materials science data interpretation. Researcher's methods are user-centred (user studies, behavioral measurement, spatial transfer tasks). While both are experimental, there is no methodological transfer."
     },
     "growth_value": {
-      "score": 1,
-      "rationale": "No capability development toward target identity. Synchrotron/neutron characterization does not advance spatial cognition research, collaborative system design, immersive learning evaluation, or real-world transfer studies. This introduces domain-specific skills orthogonal to stated research goals."
+      "score": 3,
+      "rationale": "Position offers no capability development aligned with target identity. Advanced characterization at synchrotron facilities would build materials science expertise orthogonal to immersive systems, human-centred design, and spatial learning research. Counterproductive to PhD pathway goals."
     },
     "strategic_value": {
-      "score": 12,
-      "rationale": "KTH is a leading institution in Sweden, a preferred country; Stockholm is in a preferred region. Access to PETRA III and synchrotron infrastructure is prestigious. However, the research environment is materials physics, not HCI or immersive systems, and does not position the researcher within human-centred XR communities or toward the target identity."
+      "score": 10,
+      "rationale": "KTH is a strong research institution with access to world-class large-scale research infrastructure (PETRA III beamline). However, this position anchors the researcher in materials science and advanced characterization, not immersive systems or HCI. Does not support transition to target PhD programs or European HCI-focused research groups."
     },
-    "required_skills": [
-      "statistics",
-      "experimental-design",
-      "quantitative-research"
-    ],
+    "required_skills": [],
     "preferred_skills": [],
     "skill_evidence": {},
-    "matched_skills": [
-      "experimental-design",
-      "quantitative-research"
-    ],
+    "matched_skills": [],
     "missing_skills": [
-      "statistics"
+      "synchrotron-characterization (not in taxonomy)",
+      "neutron-diffraction (not in taxonomy)",
+      "phase-transformation-analysis (not in taxonomy)",
+      "materials-science-data-analysis (not in taxonomy)"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires completed PhD by employment decision; researcher is MSc by Research in progress",
-      "Posting mentions security-sensitive role under Swedish Protective Security Act; nationality/clearance implications unclear"
+      "Requires doctoral degree in materials science or closely-related area. Researcher's MSc is in multimedia design science, outside stated disciplinary requirement.",
+      "Requires research track record in synchrotron/neutron characterization evidenced by journal publications and conference presentations. Researcher has no materials science publications.",
+      "Position assumes completed PhD; researcher is MSc by Research in progress.",
+      "Preference for doctorate obtained within last 3 years further suggests postdoc assumes completed PhD."
     ],
     "risks": [
-      "Researcher does not hold a PhD; position mandates doctorate before employment decision",
-      "Fundamental domain mismatch; no thematic or methodological alignment with human-centred XR",
-      "2-year commitment to materials science diverts from target HCI/immersive learning research trajectory",
-      "No publications or group connections in materials characterization; limited credibility transfer"
+      "Complete disciplinary mismatch: researcher lacks materials science background and has no expertise in synchrotron or neutron techniques.",
+      "Career pathway risk: postdoc in large-scale materials characterization would lock researcher into materials science trajectory, away from target identity as human-centred immersive systems researcher.",
+      "No connection to target institutions, research communities, or PhD pathway.",
+      "Advanced characterization expertise would not transfer to immersive systems, HCI, or spatial learning research."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -283,8 +322,8 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-08-28T18:42:21.905708Z",
-    "analysis_input_hash": "0bdec063b4f69607bde2b5dc4669bd1c96cb34000002fa80770b60bba3a27a88"
+    "analyzed_at": "2026-09-16T11:27:56.001629Z",
+    "analysis_input_hash": "4d73bd2d9d7fefecbe5508064bc4eaf3d4bd11fff6918741a66090b3342f5adc"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -293,9 +332,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 5,
-    "urgency": "urgent",
-    "days_to_deadline": 2,
+    "fit_overall": 7,
+    "urgency": "high",
+    "days_to_deadline": 15,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

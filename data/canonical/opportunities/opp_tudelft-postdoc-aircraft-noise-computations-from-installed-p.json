@@ -1,0 +1,177 @@
+{
+  "id": "opp_tudelft-postdoc-aircraft-noise-computations-from-installed-p",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-16T11:06:30.416844Z",
+  "updated_at": "2026-09-16T11:27:56.406779Z",
+  "change_history": [
+    {
+      "ts": "2026-09-16T11:06:30.416977Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-16T11:24:08.888834Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-16T11:27:56.406779Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Aircraft Noise Computations from Installed Propeller-Fuselage Interaction",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-aerospace-engineering",
+    "source": "tudelft",
+    "source_native_id": "1372218257",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Aircraft-Noise-Computations-from-Installed-Propeller-Fuselage-Interaction-2628-CD/1372218257/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Aircraft-Noise-Computations-from-Installed-Propeller-Fuselage-Interaction-2628-CD/1372218257/",
+    "evidence_ids": [
+      "tudelft/1372218257"
+    ],
+    "retrieved_at": "2026-09-16T11:06:30.416707Z",
+    "raw_snapshot_hash": "5fca64c1deac82f1c70190bd15acabbad391f564a90116d91c9dd1145fa89337",
+    "extracted_content_hash": "279ab21f140a675826658b191f3e3e42b718f634d2ac0011e13538681dfd78c9",
+    "deadline": "2026-09-29",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Job description\nA key challenge for the successful deployment of Clean Aviation’s Ultra-Efficient Regional Aircraft (UERA) concept is the achievement of passenger acceptable cabin acoustic performance under stringent aircraft level constraints. In SILENTIUM, the UERA use case is defined as a hybrid-electric regional turboprop aircraft carrying more than 50 passengers, with expected entry into service from 2035.Turboprop aircraft generate a demanding noise and vibration environment, including low frequency tonal propeller components, broadband turbulent boundary layer excitation and structure borne transmission paths.\nCabin acoustic treatment is therefore an enabling element for the UERA concept, provided that selected solutions do not undermine the aircraft level efficiency gains targeted by Clean Aviation. TUD is advertising a Postdoc position to lead the characterization of installed propeller/TBL related excitations and their impact on fuselage with high fidelity simulations. Simulations at the isolated, installed and full scale aircraft level will be carried out to study the hydrodynamic forcing to the source of cabin noise in the present aircraft configuration.\nJob requirements\nThe candidate should have:\na MSc degree in Engineering, Physics or Mathematics, an area relevant to the subject,\ngood analytical skills and a strong interest in performing experiments is required.\na solid knowledge of signal processing and mathematical theories,\nadvanced programming skills are advantageous for these positions.\nAs the project is part of a larger research program, practical interactions and collaborative skills are important too.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDuration of contract is 2 years. Temporary.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Daniele Ragni, via\nD.Ragni@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n29 September 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Daniele Ragni.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Two-year postdoctoral position in aerospace engineering at TU Delft characterizing propeller and turbulent boundary layer noise sources via high-fidelity simulations to inform cabin acoustic treatment for hybrid-electric regional aircraft.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "Core research is aerospace engineering, acoustics, and aeroacoustic simulation. The profile's domains are human-centred XR, immersive learning, spatial cognition, and collaborative systems. No thematic overlap. While both address real-world challenges, the research subjects, methods, and disciplines are entirely distinct."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "The position requires signal processing, mathematical modelling, and advanced programming—areas where the profile has intermediate mathematical foundation but no demonstrated experience. Methodologies are specialised to computational aeroacoustics and do not align with HCI research methods, user studies, design science, or immersive systems evaluation."
+    },
+    "growth_value": {
+      "score": 3,
+      "rationale": "This role would develop advanced computational modelling, signal processing, and simulation expertise in aerospace. These are niche technical skills with no applicability to human-centred immersive systems, spatial cognition research, or collaborative learning design."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "TU Delft is a priority-1 target institution (Netherlands), providing institutional value. The Faculty of Aerospace Engineering is research-mature and well-funded (Clean Aviation programme). However, the domain (aerospace engineering, aircraft noise) is orthogonal to HCI and immersive systems. Supervisor is an aeroacoustician; no HCI mentorship. Position does not support target identity development."
+    },
+    "required_skills": [
+      "statistics",
+      "quantitative-research",
+      "academic-writing",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "statistics",
+      "quantitative-research",
+      "academic-writing",
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "signal-processing",
+      "aeroacoustics",
+      "computational-fluid-dynamics",
+      "advanced-programming"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc degree in engineering, physics, or mathematics in a relevant area. Candidate holds MSc by Research (Creative Multimedia)—discipline mismatch is significant. Unlikely to meet minimum qualification bar for postdoctoral position in aerospace engineering.",
+      "Position requires 'advanced programming skills' (stated as advantageous). Candidate has advanced C# and intermediate Python, but no demonstrated expertise in the numerical computing frameworks or languages (Fortran, MATLAB, C++) typically used in aeroacoustic simulation."
+    ],
+    "risks": [
+      "Fundamental domain and qualification mismatch: candidate's background is in creative multimedia and immersive systems, not aerospace or engineering physics.",
+      "Unlikely to pass application screening: postdoctoral positions typically require a PhD in a closely related discipline. MSc in creative multimedia and aerospace engineering are orthogonal.",
+      "No research continuity: aerospace acoustics has no connection to human-centred immersive systems or learning science.",
+      "Career trajectory risk: this role would signal a complete departure from HCI/XR."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.93,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-16T11:24:08.888470Z",
+    "analysis_input_hash": "8da8b42db66d1928f2730ee02d461947370eb634705ee66f6b6bc02e3296ee02"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 8,
+    "urgency": "high",
+    "days_to_deadline": 13,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

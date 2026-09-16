@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-atom-probe-tomography-for-sustainable-metal
 type: opportunity
 title: "Postdoc in atom probe tomography for sustainable metals"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-09-17
+deadline: 2026-10-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 7
-urgency: urgent
+fit_overall: 6
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in atom probe tomography for sustainable metals
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-09-17
+**Deadline:** 2026-10-01
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 15)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -103,7 +103,7 @@ Tao Zhou, taozhou@kth.se
 Published
 28.Aug.2026
 Last application date
-17.Sep.2026
+01.Oct.2026
 Login and apply
 Share links
 Return to job vacancies
@@ -112,25 +112,25 @@ Return to job vacancies
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoctoral position in atom probe tomography (APT) characterization of metallic materials at KTH, focused on sustainable alloys, hydrogen-tolerant materials, and advanced microstructural analysis. The role requires APT specimen preparation, data acquisition, reconstruction, and collaboration with academic and industrial partners.
+Postdoc position in atom probe tomography (APT) characterization of metallic materials at KTH, focused on advancing sustainability of metals for energy systems and automotive electrification through nanoscale microstructural analysis.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
 | Methodological fit | 8 |
 | Growth value | 2 |
-| Strategic value | 15 |
-| **Overall** | **7** |
+| Strategic value | 10 |
+| **Overall** | **6** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics
+**Missing skills:** atom-probe-tomography (not in taxonomy; domain-specific), physical-metallurgy (not in taxonomy; domain-specific), specimen-preparation (not in taxonomy; domain-specific), materials-characterization (not in taxonomy; domain-specific)
 
 **Risks:**
-- Researcher does not hold a PhD and position explicitly requires doctorate or equivalent before employment decision
-- Complete domain mismatch; no transferable research identity or publications
-- Takes researcher away from target research direction for 2 years
-- No connection to collaborative immersive systems, HCI, or human-centred research
+- Complete domain mismatch. Researcher has no materials science background.
+- Career path risk: accepting this position would redirect the researcher away from HCI/immersive systems and into materials science, conflicting with target identity.
+- Skill development would not build toward target institution research groups or research directions.
+- MSc in progress may not meet eligibility requirement for postdoc (typically assumes completed PhD).
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-atom-probe-tomography-for-sustainable-metal.md` and link [[opp_varbi-postdoc-in-atom-probe-tomography-for-sustainable-metal]]._

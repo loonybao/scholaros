@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-28T18:33:33.286603Z",
-  "updated_at": "2026-09-15T11:42:22.968523Z",
+  "updated_at": "2026-09-16T11:27:56.512556Z",
   "change_history": [
     {
       "ts": "2026-08-28T18:33:33.286708Z",
@@ -191,6 +191,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-16T11:21:02.678718Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-09-16T11:27:55.999602Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-16T11:27:56.512556Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -204,10 +245,10 @@
     "evidence_ids": [
       "varbi/kth-958614"
     ],
-    "retrieved_at": "2026-08-28T18:33:33.286452Z",
-    "raw_snapshot_hash": "7f6d3ea7454ed5c4f25af3371d5ac94a140a195ae271a0d695d56863010f6a23",
-    "extracted_content_hash": "c24e0f73d8388a8519c88388e4e26c2775583657ff1f3b4d91b968c8cf1163b1",
-    "deadline": "2026-09-17",
+    "retrieved_at": "2026-09-16T11:21:02.677856Z",
+    "raw_snapshot_hash": "cc8dd4dc951b0c2ec3056a955b51888178ff7e7dfa87c4dd79b2abca7d234e20",
+    "extracted_content_hash": "6608af296c197d6e3b3e3d948b6811af69a28f2c71e5045a490ecd3e035cba3e",
+    "deadline": "2026-10-01",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -225,51 +266,48 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Postdoc in atom probe tomography for sustainable metals\nLogin and apply\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nJob description\nThe Hultgren Laboratory at the Department of Materials Science and Engineering, KTH Royal Institute of Technology, invites applications for a postdoctoral researcher position in atom probe tomography (APT). The successful candidate will join our materials characterization team and conduct research aimed at advancing the sustainability of metallic materials.\nThe Hultgren Laboratory is equipped with an EIKOS-UV atom probe instrument (laser and voltage pulse modes), funded through Hugo Carlsson's Foundation under Jernkontoret, KTH research infrastructure, and the Department of Materials Science and Engineering. Our research focuses on sustainable metallic and composite materials, with ongoing projects spanning hydrogen-tolerant alloys for fossil-free energy systems, metallic materials for electrification of the automotive industry, alloy design compatible with high recycled-material content, and nanoscale precipitation and trace element behavior across different material systems.\nThe postdoctoral researcher will conduct APT characterization and data analysis as a core part of individual and collaborative research projects, and apply complementary techniques to establish process–structure–property correlations in metallic materials. The role also involves contributing to the development of novel alloys and processing routes through advanced microstructural understanding, collaborating with academic and industrial partners in Sweden and internationally, and supporting student supervision and dissemination of results through publications and conferences.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in materials science, materials physics, materials characterization, or closely-related area for the proposed research. This eligibility requirement must be met no later than the time the employment decision is made.\nDemonstrated experience in APT characterization of metallic materials, including specimen preparation, data acquisition, and reconstruction/analysis\nThe ability to express yourself very well in English, spoken and written, as this will be required in day-to-day work\nYou are self-motivated with a strong ability to take initiative and run projects\nAs a person, you have well-developed analytical and problem-solving skills and like to take responsibility. You have strong collaboration skills including the ability to lead and to support research.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nBackground in physical metallurgy and solid-state phase transformations·\nExperience with complementary characterization techniques (e.g., FIB-SEM, TEM)\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge, particularly on APT and metallurgy.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of how you fit the position, and what are your research interests and future goals. Max two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2700\nContact\nPeter Hedström, pheds@kth.se\nTao Zhou, taozhou@kth.se\nPublished\n28.Aug.2026\nLast application date\n17.Sep.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+    "description_text": "Postdoc in atom probe tomography for sustainable metals\nLogin and apply\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nJob description\nThe Hultgren Laboratory at the Department of Materials Science and Engineering, KTH Royal Institute of Technology, invites applications for a postdoctoral researcher position in atom probe tomography (APT). The successful candidate will join our materials characterization team and conduct research aimed at advancing the sustainability of metallic materials.\nThe Hultgren Laboratory is equipped with an EIKOS-UV atom probe instrument (laser and voltage pulse modes), funded through Hugo Carlsson's Foundation under Jernkontoret, KTH research infrastructure, and the Department of Materials Science and Engineering. Our research focuses on sustainable metallic and composite materials, with ongoing projects spanning hydrogen-tolerant alloys for fossil-free energy systems, metallic materials for electrification of the automotive industry, alloy design compatible with high recycled-material content, and nanoscale precipitation and trace element behavior across different material systems.\nThe postdoctoral researcher will conduct APT characterization and data analysis as a core part of individual and collaborative research projects, and apply complementary techniques to establish process–structure–property correlations in metallic materials. The role also involves contributing to the development of novel alloys and processing routes through advanced microstructural understanding, collaborating with academic and industrial partners in Sweden and internationally, and supporting student supervision and dissemination of results through publications and conferences.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in materials science, materials physics, materials characterization, or closely-related area for the proposed research. This eligibility requirement must be met no later than the time the employment decision is made.\nDemonstrated experience in APT characterization of metallic materials, including specimen preparation, data acquisition, and reconstruction/analysis\nThe ability to express yourself very well in English, spoken and written, as this will be required in day-to-day work\nYou are self-motivated with a strong ability to take initiative and run projects\nAs a person, you have well-developed analytical and problem-solving skills and like to take responsibility. You have strong collaboration skills including the ability to lead and to support research.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nBackground in physical metallurgy and solid-state phase transformations·\nExperience with complementary characterization techniques (e.g., FIB-SEM, TEM)\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge, particularly on APT and metallurgy.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of how you fit the position, and what are your research interests and future goals. Max two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2700\nContact\nPeter Hedström, pheds@kth.se\nTao Zhou, taozhou@kth.se\nPublished\n28.Aug.2026\nLast application date\n01.Oct.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "Postdoctoral position in atom probe tomography (APT) characterization of metallic materials at KTH, focused on sustainable alloys, hydrogen-tolerant materials, and advanced microstructural analysis. The role requires APT specimen preparation, data acquisition, reconstruction, and collaboration with academic and industrial partners.",
+    "summary": "Postdoc position in atom probe tomography (APT) characterization of metallic materials at KTH, focused on advancing sustainability of metals for energy systems and automotive electrification through nanoscale microstructural analysis.",
     "fit_type": "poor-fit",
     "thematic_fit": {
       "score": 5,
-      "rationale": "The position is purely materials science and metallurgy. There is no human-centred systems design, immersive learning, spatial cognition, collaboration interfaces, or HCI dimension. The researcher's identity is explicitly human-centred XR/HCI; this posting is not."
+      "rationale": "This position is rooted in materials science and physical metallurgy. The researcher's domain is human-centred immersive systems and spatial cognition. There is no thematic overlap. The mention of 'sustainability' is domain-specific (material lifecycle) and does not bridge to the researcher's target identity."
     },
     "methodological_fit": {
       "score": 8,
-      "rationale": "Minimal methodological overlap. The researcher has experimental design and quantitative research skills, which materials characterization uses. However, the core methods (APT, synchrotron analysis, physical metallurgy) are domain-specific material science techniques with no connection to the researcher's XR, immersive systems, or user-study methodologies."
+      "rationale": "Both involve experimental design and data analysis, but the methodologies diverge fundamentally. APT requires domain expertise in specimen preparation, instrument operation, and metallurgical analysis. The researcher's experimental strength is in user studies, behavioral measurement, and spatial transfer—orthogonal to materials characterization. No transferable methods."
     },
     "growth_value": {
       "score": 2,
-      "rationale": "This position would not close any of the researcher's stated capability gaps (spatial cognition, collaborative systems design, immersive learning evaluation, real-world transfer assessment). It introduces an entirely orthogonal technical domain without advancing the target identity."
+      "rationale": "This position would close zero capability gaps aligned with the researcher's target identity. It would require mastery of APT and physical metallurgy, diverging away from human-centred design, immersive systems, and spatial learning research."
     },
     "strategic_value": {
-      "score": 15,
-      "rationale": "KTH is a respected institution and Stockholm is in a preferred region, which offers modest strategic value. However, the research environment is materials science, not HCI or immersive systems. This does not build toward the target identity or connect the researcher to human-centred XR research groups."
+      "score": 10,
+      "rationale": "KTH is a tier-1 institution with strong funding infrastructure. However, strategic value is measured against the researcher's target identity and PhD pathway. This position leads toward materials science, not HCI or immersive systems research. Does not support transition to target research directions (Aalto, TU Delft, European HCI-focused groups)."
     },
-    "required_skills": [
-      "statistics",
-      "experimental-design",
-      "quantitative-research"
-    ],
+    "required_skills": [],
     "preferred_skills": [],
     "skill_evidence": {},
-    "matched_skills": [
-      "experimental-design",
-      "quantitative-research"
-    ],
+    "matched_skills": [],
     "missing_skills": [
-      "statistics"
+      "atom-probe-tomography (not in taxonomy; domain-specific)",
+      "physical-metallurgy (not in taxonomy; domain-specific)",
+      "specimen-preparation (not in taxonomy; domain-specific)",
+      "materials-characterization (not in taxonomy; domain-specific)"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires completed PhD by employment decision; researcher is MSc by Research in progress",
-      "Posting mentions security-sensitive role under Swedish Protective Security Act; nationality/clearance implications unclear"
+      "Requires doctoral degree in materials science, materials physics, or closely-related area. Researcher's MSc is in multimedia and design science, outside stated requirements.",
+      "Position requires demonstrated APT characterization experience. Researcher has none.",
+      "Postdoc position type does not match researcher's stated target position types (doctoral researcher, PhD candidate, project researcher with PhD pathway)."
     ],
     "risks": [
-      "Researcher does not hold a PhD and position explicitly requires doctorate or equivalent before employment decision",
-      "Complete domain mismatch; no transferable research identity or publications",
-      "Takes researcher away from target research direction for 2 years",
-      "No connection to collaborative immersive systems, HCI, or human-centred research"
+      "Complete domain mismatch. Researcher has no materials science background.",
+      "Career path risk: accepting this position would redirect the researcher away from HCI/immersive systems and into materials science, conflicting with target identity.",
+      "Skill development would not build toward target institution research groups or research directions.",
+      "MSc in progress may not meet eligibility requirement for postdoc (typically assumes completed PhD)."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -283,8 +321,8 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-08-28T18:42:21.904706Z",
-    "analysis_input_hash": "5a10fc5043c968a6e92ab3752f7f30da1ec0f374820aa8d330dd2fc23a091abe"
+    "analyzed_at": "2026-09-16T11:27:55.998985Z",
+    "analysis_input_hash": "14103459cd77caa6b222adce3a1cefa9e4eae0234b4b1f30d6b5133287b4fbc9"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -293,9 +331,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 7,
-    "urgency": "urgent",
-    "days_to_deadline": 2,
+    "fit_overall": 6,
+    "urgency": "high",
+    "days_to_deadline": 15,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

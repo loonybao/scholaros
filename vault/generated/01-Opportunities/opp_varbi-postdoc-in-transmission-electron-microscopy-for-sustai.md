@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-transmission-electron-microscopy-for-sustai
 type: opportunity
 title: "Postdoc in transmission electron microscopy for sustainable metals"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-09-17
+deadline: 2026-10-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 2
-urgency: urgent
+fit_overall: 6
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in transmission electron microscopy for sustainable metals
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-09-17
+**Deadline:** 2026-10-01
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 15)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -106,37 +106,34 @@ Peter Hedström, pheds@kth.se
 Published
 28.Aug.2026
 Last application date
-17.Sep.2026
+01.Oct.2026
 Login and apply
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoctoral researcher position at KTH's Hultgren Laboratory in transmission electron microscopy (TEM) and materials characterization. Focus on microstructural characterization of sustainable metallic materials, utilizing state-of-the-art STEM with in-situ capabilities and automated crystallographic orientation mapping (ACOM). Applications include hydrogen-tolerant alloys, automotive electrification materials, and recycled-content alloys.
+Postdoc position in transmission electron microscopy (TEM) characterization of metallic materials at KTH, featuring state-of-the-art in-situ/operando STEM equipment and high-throughput crystallographic analysis for sustainable materials and manufacturing.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 2 |
-| Methodological fit | 2 |
-| Growth value | 0 |
-| Strategic value | 5 |
-| **Overall** | **2** |
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 10 |
+| **Overall** | **6** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics
+**Missing skills:** transmission-electron-microscopy (not in taxonomy), acom-automated-crystallographic-orientation-mapping (not in taxonomy), physical-metallurgy (not in taxonomy), specimen-preparation-tem (not in taxonomy)
 
 **Risks:**
-- Extreme domain mismatch; researcher fundamentally unqualified for technical work
-- No materials science background; competency development within 2-year postdoc is unrealistic
-- Position core (pure materials characterization) is outside human-centered research entirely
-- 2-year postdoc would delay or block pathway to doctoral studies in human-centered XR
-- Supervisory team has no HCI or immersive systems expertise; no mentorship alignment
-- Postdoc at this level typically requires established expertise in the domain; researcher would be severely disadvantaged
-- Potential security clearance requirement may apply
+- Disciplinary mismatch: researcher lacks materials science background and expertise.
+- Career trajectory risk: postdoc in materials science would redirect researcher away from HCI/immersive systems doctoral pathway.
+- No alignment with target institutions or research communities (Aalto, TU Delft, European HCI groups).
+- MSc in progress may not satisfy postdoc eligibility requirements.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-transmission-electron-microscopy-for-sustai.md` and link [[opp_varbi-postdoc-in-transmission-electron-microscopy-for-sustai]]._
