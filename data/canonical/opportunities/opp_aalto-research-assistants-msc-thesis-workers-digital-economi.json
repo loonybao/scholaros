@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-16T11:03:47.825434Z",
-  "updated_at": "2026-09-16T11:27:56.244205Z",
+  "updated_at": "2026-09-17T11:36:36.550459Z",
   "change_history": [
     {
       "ts": "2026-09-16T11:03:47.825554Z",
@@ -54,6 +54,46 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-17T11:14:14.743421Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-09-17T11:36:08.510607Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-17T11:36:36.550459Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -67,9 +107,9 @@
     "evidence_ids": [
       "aalto/research-assistants-msc-thesis-workers-digital-economic-security-lab-diesl-0"
     ],
-    "retrieved_at": "2026-09-16T11:03:47.825280Z",
-    "raw_snapshot_hash": "5a71970f834166438b7765fd56664d6b94b9ee139f2bea9269aa9de8278ca037",
-    "extracted_content_hash": "d58c44a7d5da9ecf3643d2162dd627b791f33ebe8ed838537d9ee6565b10c932",
+    "retrieved_at": "2026-09-17T11:14:14.742961Z",
+    "raw_snapshot_hash": "d523a7f38a3871a863dbf8f994b720708bdc418e8926e0a951f9e7086927e875",
+    "extracted_content_hash": "590502ef673988bce3fd2c5008ca62762b8362381efa1224b22af4dc9a9237ed",
     "deadline": "2026-10-18",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -88,55 +128,58 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Start date: Flexible, Fall/Winter 2026-27\nPost duration: 6 months\nSalary: 2620,59€ per month full-time (or pro rata for part-time if taking courses\nconcurrently)\nPlace of work: Aalto University, Computer Science building, room A238\nThe Digital Economic Security Lab (DIESL) is hiring research assistants to conduct\nresearch on the international political economy of digital infrastructures. The research\nassistants are expected to be final-year MSc students in the Computer Science\ndepartment (including the Information Networks Master’s programme) or of related\ndisciplines and will write their Master’s thesis as part of the role. The supervising\nprofessor is Vili Lehdonvirta, and the theses will be advised by lab members based on\nthe topic of interest.\nThe research assistants will be members of DIESL (\nhttp://diesl.eu/\n) , a multi-disciplinary\nresearch group that brings together diverse expertise in an open and constructive\nresearch environment. DIESL members study computational infrastructures and how\nthey are shaped by economic and political forces globally. The group examines the\nchanging geography of these infrastructures and how it is shaped by the interaction of\ntechnology companies’ business interests and states’ economic and security interests.\nThesis topic areas\nThe research assistant will write a thesis that addresses a research question relevant to\nDIESL’s aims, chosen in consultation with the supervisor and advisor. Potential topics\ninclude:\n• Data centre survey: Citizen attitude survey of data centres\no Analysis of a large-scale survey collected with external partners to gauge\nviews on data centre construction and operation in Finland\no Skills needed: Multivariate statistics and regression modelling using R,\nPython or Stata, basic understanding of survey design and sampling\n• Global cloud adoption: Expand on previous work (see Kilpi, 2025) and tools by\ngathering more data\no Focus can be on:\nCases of Chinese hosting to enable multi-class hosting provider inference and analysis\nExpanding the public sector data set with private sector data\nIdentifying the hosting dependencies of specific sectors of government\no Skills needed: ML/statistics in Python, basic understanding of Internet\narchitecture\n• Russian sanctions: Case study on the e ects of post-2022 sanctions on Russia's\ndigital infrastructure\no Drawing on trade and internet measurement data (from OONI, Censored\nPlanet, etc.) to assess disruption, adaptation, and the limits of\ntechnological decoupling. Framing and methodology flexible.\no Focus can be on:\nChanges in digital infrastructure;\nChanges in internet tra ic;\nChanges in Russian domain infrastructure;\nChanges in trade and supply chain for semiconductors;\nRelevant focus of the candidate’s choosing.\no Skills needed: Basic econometrics in R/Python, descriptive time-series\nanalysis, network measurement data parsing. Work proficiency of the\nRussian language is preferred.\n• Your own research idea relevant to the lab\nSelection criteria\nEssential selection criteria (you should have all of these)\n1. Strong interest in studying technology from the perspectives of international\ntrade and global politics\n2. Attention to detail\n3. Skills required to work on a specific research topic (see above)\n4. Ability to write fluent academic English\nAdditional selection criteria (you should have some of these)\n1. Basic multivariate statistics (e.g. multiple regression, logistic regression)\n2. Basic skills in statistical software (R, Python libraries, etc)\n3. Basic understanding of policymaking, industrial policies, and tech governance\nHow to apply\nSubmit your application by October 18th via Aalto’s online application system. Indicate\nin your cover letter which topic(s) you are interested in. Please include the following\nattachments:\n1. CV\n2. A cover letter that includes a point-by-point response to how your profile\nmatches the selection criteria listed above (max. 800 words)\n3. One writing sample demonstrating your academic writing skills in English, not\nnecessarily on a related topic; e.g. a course paper (ideally 1,000-6,000 words)\nIf your application is shortlisted, you will be contacted to arrange an interview.\nPlease send any informal queries via email to\nkunhan.li@aalto.fi\n(cc\notto.kassi@aalto.fi\n,\njaakko.kilpi@aalto.fi\n,\nvili.lehdonvirta@aalto.fi\n) with ‘DIESL thesis’ in the subject line.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+    "description_text": "Start date: Flexible, Fall/Winter 2026-27\nPost duration: 6 months\nSalary: 2 620,59€ per month full-time (or pro rata for part-time if taking courses concurrently)\nPlace of work: Aalto University, Computer Science building, room A238\nThe Digital Economic Security Lab (DIESL) is hiring research assistants to conduct research on the international political economy of digital infrastructures. The research assistants are expected to be final-year MSc students in the Computer Science department (including the Information Networks Master's programme) or of related disciplines and will write their Master's thesis as part of the role. The supervising professor is Vili Lehdonvirta, and the theses will be advised by lab members based on the topic of interest.\nThe research assistants will be members of DIESL (http://diesl.eu/), a multi-disciplinary research group that brings together diverse expertise in an open and constructive research environment. DIESL members study computational infrastructures and how they are shaped by economic and political forces globally. The group examines the changing geography of these infrastructures and how it is shaped by the interaction of technology companies' business interests and states' economic and security interests.\nThesis topic areas\nThe research assistant will write a thesis that addresses a research question relevant to DIESL's aims, chosen in consultation with the supervisor and advisor. Potential topics include:\n- Data centre survey: Citizen attitude survey of data centres\n- Analysis of a large-scale survey collected with external partners to gauge views on data centre construction and operation in Finland\n- Skills needed: Multivariate statistics and regression modelling using R, Python or Stata, basic understanding of survey design and sampling\n- Global cloud adoption: Expand on previous work (see Kilpi, 2025) and tools by gathering more data\n- Focus can be on:\n• Cases of Chinese hosting to enable multi-class hosting provider inference and analysis\n• Expanding the public sector data set with private sector data\n• Identifying the hosting dependencies of specific sectors of government\n- Skills needed: ML/statistics in Python, basic understanding of Internet architecture\n- Russian sanctions: Case study on the effects of post-2022 sanctions on Russia's digital infrastructure\n- Drawing on trade and internet measurement data (from OONI, Censored Planet, etc.) to assess disruption, adaptation, and the limits of technological decoupling. Framing and methodology flexible.\n- Focus can be on:\n• Changes in digital infrastructure\n• Changes in internet traffic\n• Changes in Russian domain infrastructure\n• Changes in trade and supply chain for semiconductors\n• Relevant focus of the candidate's choosing\n- Skills needed: Basic econometrics in R/Python, descriptive time-series analysis, network measurement data parsing. Work proficiency of the Russian language is preferred.\n- Your own research idea relevant to the lab\nSelection criteria\nEssential selection criteria (you should have all of these)\n1. Strong interest in studying technology from the perspectives of international trade and global politics\n2. Attention to detail\n3. Skills required to work on a specific research topic (see above)\n4. Ability to write fluent academic English\nAdditional selection criteria (you should have some of these)\n1. Basic multivariate statistics (e.g. multiple regression, logistic regression)\n2. Basic skills in statistical software (R, Python libraries, etc)\n3. Basic understanding of policymaking, industrial policies, and tech governance\nHow to apply\nSubmit your application by October 18th via Aalto's online application system. Indicate in your cover letter which topic(s) you are interested in. Please include the following attachments:\n1. CV\n2. A cover letter that includes a point-by-point response to how your profile matches the selection criteria listed above (max. 800 words)\n3. One writing sample demonstrating your academic writing skills in English, not necessarily on a related topic; e.g. a course paper (ideally 1,000-6,000 words)\nIf your application is shortlisted, you will be contacted to arrange an interview.\nPlease send any informal queries via email to kunhan.li@aalto.fi (cc otto.kassi@aalto.fi, jaakko.kilpi@aalto.fi, vili.lehdonvirta@aalto.fi) with 'DIESL thesis' in the subject line.\nRelated readings\nLehdonvirta, V. Wu, B., and Hawkins, Z. (2025). Weaponized interdependence in a bipolar world: How economic forces and security interests shape the global reach of U.S. and Chinese cloud data centres. Review of International Political Economy.\nhttps://dx.doi.org/10.2139/ssrn.4670764\nKilpi, J., Kässi, O., and Lehdonvirta, V. (2025) Most Finnish digital public services hosted by U.S. cloud providers. DIESL blog.\nhttps://diesl.eu/most-finnish-digital-public-services-hosted-by-u-s-cloud-providers/\nKässi, O., & Lehdonvirta, V. (2026). The Heterogeneous Impact of Data Transfer Restrictions on Data Centre Geography. Working paper available at SSRN:\nhttps://papers.ssrn.com/sol3/papers.cfm?abstract_id=7429402\nHawkins, Z., Lehdonvirta, V. and Wu, B. (2025). AI Compute Sovereignty: Infrastructure Control Across Territories, Cloud Providers, and Accelerators. Working paper available at SSRN:\nhttps://papers.ssrn.com/sol3/papers.cfm?abstract_id=5312977\nLehdonvirta, V. Wu, B., and Hawkins, Z. (2024). Compute North vs. Compute South: The Uneven Possibilities of Compute-based AI Governance Around the Globe. 7th AAAI/ACM Conference on AI, Ethics, and Society. San Jose, CA, October 21-23, 2024.\nhttps://doi.org/10.31235/osf.io/8yp7z\nPrevious theses\nKilpi, J. (2025). Detecting digital dependence: Inferring public-sector hosting arrangements from Internet infrastructural records,\nhttps://urn.fi/URN:NBN:fi:aalto-202512179426\nLiukkonen, K. (2025). Competing clouds: U.S.-China tech rivalry and the geoeconomic turn,\nhttps://urn.fi/URN:NBN:fi:aalto-202506174870\nNgo, L. (2025). Regulating the cloud: Cross-border data transfer regulation and the geography of hyperscale cloud infrastructure,\nhttps://urn.fi/URN:NBN:fi:aalto-202601221897\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
   "ai": {
-    "summary": "Research assistant position (final-year MSc students) at Aalto's Digital Economic Security Lab (DIESL) to write a thesis on international political economy of digital infrastructures, with topic options in data centre attitudes, cloud adoption, or Russian sanctions analysis.",
+    "summary": "Research assistant position for final-year MSc students to write theses within the Digital Economic Security Lab (DIESL), focusing on international political economy of digital infrastructures. Topics span data centre surveys, cloud adoption analysis, and Russian sanctions impact on digital systems.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 2,
-      "rationale": "DIESL studies computational infrastructures, trade, politics, and geopolitics of digital systems. The profile's domains are human-centred XR, immersive learning, spatial cognition, and collaborative systems. There is no thematic intersection. The focus is macro-level infrastructure and policy, not human-computer interaction, immersive design, or learning science."
+      "score": 12,
+      "rationale": "Research addresses digital infrastructure, geopolitics, and governance—domains orthogonal to human-centred XR, collaborative immersive systems, spatial learning, or wayfinding. No thematic overlap with candidate's research agenda."
     },
     "methodological_fit": {
-      "score": 15,
-      "rationale": "Limited methodological fit. Both involve research and academic writing. DIESL emphasises quantitative/statistical analysis (regression, time-series, network measurement) and the profile has beginner-level statistics and intermediate quantitative research skills. However, DIESL's focus on infrastructure measurement and econometric analysis does not align with HCI methods, user studies, design science, or immersive system evaluation."
+      "score": 35,
+      "rationale": "Position requires multivariate statistics, R/Python for econometrics and data analysis, which candidate has only beginner-level Python skills for. User studies and experimental design skills present but underutilised. No XR, VR, or immersive system development component."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "This role would develop Python/R programming and statistics skills, which could be marginally useful for data analysis in future HCI projects. However, the substantive research domains are non-overlapping. Working on geopolitics of cloud infrastructure offers no capability growth in immersive design, spatial cognition research, or collaborative system design."
+      "score": 18,
+      "rationale": "Could develop statistical and data analysis capabilities (gap in candidate's profile), but would redirect focus entirely away from human-centred immersive systems and collaborative interaction research. Minor growth in technical breadth, significant strategic misalignment."
     },
     "strategic_value": {
-      "score": 25,
-      "rationale": "Aalto University is a priority-1 target institution, providing institutional prestige and European presence. DIESL is a multidisciplinary lab with strong publications and international partnerships, offering research maturity and visibility. However, group expertise is computational infrastructure and political economy, not HCI or XR; supervisor Vili Lehdonvirta is not positioned to mentor human-centred immersive research. Research direction is misaligned with target identity."
+      "score": 20,
+      "rationale": "Aalto is highly regarded and DIESL is rigorous, but research agenda is political economy and infrastructure governance, not HCI/XR. No pathway toward target identity or funded research in gameful/immersive learning."
     },
     "required_skills": [
+      "python",
+      "r",
       "statistics",
       "quantitative-research",
-      "python",
       "academic-writing"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "statistics",
       "quantitative-research",
-      "academic-writing"
+      "academic-writing",
+      "python"
     ],
     "missing_skills": [
-      "python",
+      "multivariate-statistics",
+      "econometrics",
       "mixed-effects-modelling",
-      "r"
+      "survey-design",
+      "russian-language-proficiency"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position is restricted to final-year MSc students in Computer Science or related disciplines. Candidate is MSc by Research (in progress, thesis stage) at Multimedia University; eligibility depends on whether candidate is enrolled in a relevant MSc programme at Aalto or another qualifying institution and timing of enrolment.",
-      "Nationality restrictions are ambiguous in posting; unclear if candidate's Malaysian background creates barriers."
+      "Position is for final-year MSc students in Computer Science or related disciplines; candidate is MSc by Research in Creative Multimedia (different department/institution)",
+      "Posting emphasizes 'final-year MSc in Computer Science department'; unclear if Creative Multimedia MSc qualifies",
+      "Candidate's thesis topic (XR orientation system) is unrelated to DIESL's research agenda; would require topic pivot"
     ],
     "risks": [
-      "Domain mismatch: digital infrastructure geopolitics has no research continuity with immersive systems, HCI, or spatial learning.",
-      "The role positions candidate as a computer scientist studying infrastructure rather than as an HCI researcher; career signal is away from target identity.",
-      "Supervisor expertise is outside HCI; limited mentorship for human-centred research direction.",
-      "Position is MSc thesis completion role, not doctoral pathway; does not offer clear progression to PhD or research independence in target domain."
+      "Career pivot away from human-centred XR into infrastructure geopolitics would be strategically counterproductive",
+      "Limited Python and statistics skills would require substantial ramp-up in econometrics/data analysis",
+      "No immersive systems or design-driven research component aligns with candidate's methodological strengths"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -144,14 +187,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.92,
+    "confidence": 0.85,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-09-16T11:24:08.885379Z",
-    "analysis_input_hash": "ba8e535841f0591dd8e966ab4d8a66417d2b2eedf9de94b5d87f62d2d65d8d9b"
+    "analyzed_at": "2026-09-17T11:36:08.510320Z",
+    "analysis_input_hash": "d3dd28e4ac1f27490cac8a28761053f570ecb771f465374c6659a8fb990ed87d"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -161,9 +204,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 10,
+    "fit_overall": 22,
     "urgency": "medium",
-    "days_to_deadline": 32,
+    "days_to_deadline": 31,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

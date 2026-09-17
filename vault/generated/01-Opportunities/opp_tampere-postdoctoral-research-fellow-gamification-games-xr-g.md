@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-10-15
 status: open
 eligibility_gate: uncertain
-fit_overall: 93
+fit_overall: 87
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 29)
+Gate: **uncertain** (days to deadline: 28)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -66,7 +66,7 @@ Candidates are expected to design studies and disseminate them in a variety of w
 REQUIREMENTS
 The requirements below are the qualities we envision to be suitable for the defined tasks. However, we encourage all candidates who see themselves contributing in unique ways to one of these projects to apply.
 Minimum qualifications
-Applicable degree: i.e. PhD degree in a relevant field before the start of employment (latest 1.1.2027).
+Applicable degree: i.e. PhD degree in a relevant field before the start of employment (latest 1.6.2027).
 Fluency in English
 Useful dimensions of candidate’s background
 Computer science / Human-computer interaction / Affective computing / Information systems
@@ -90,7 +90,7 @@ Strong academic writing skills and publication productivity
 Drive for rigorous and impactful research
 Drive for a career in research
 WE OFFER
-The full-time position will be filled for a fixed-term period of two to four (2-4) years, starting upon mutual agreement but as soon as possible. The contract length will be determined based on the selected candidate’s qualifications, research profile, and how their agreed tasks align with the project and the broader research agenda. A trial period of six (6) months applies to all our new employees.
+The full-time position will be filled for a fixed-term period of two to four (2-4) years, starting upon mutual agreement but as soon as possible but latest 1.6.2027. The contract length will be determined based on the selected candidate’s qualifications, research profile, and how their agreed tasks align with the project and the broader research agenda. A trial period of six (6) months applies to all our new employees.
 The salary will be based on both the job requirements and the employee’s personal performance in accordance
 with the Finnish University Salary System
 . According to the criteria applied to teaching and research staff, the position of a Postdoctoral Research Fellow is placed on level 5 of the job requirements scale.
@@ -151,26 +151,26 @@ Hakuaika tehtävään päättyy 15.10.2026, klo 23:59.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.87_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
 
-Tampere University seeks 1–3 postdoctoral fellows for the Research Centre of Gameful Realities to develop research agendas in engaging media technologies (XR, gamification, AI, conversational agents, bioadaptive systems) for sustainability, learning, participation, and social benefit. Offers both project-specific (CLIMETA: VR and climate metacognition) and open-theme directions.
+Postdoctoral research fellow position(s) at Tampere University's Research Centre of Gameful Realities, investigating engaging media (XR, gamification, AI, bioadaptive systems) for learning, collaboration, sustainability engagement, and behaviour change. CLIMETA track focuses on VR for metacognitive climate engagement; OPEN theme welcomes broader research on gameful technologies for sustainable applications.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 96 |
-| Methodological fit | 93 |
-| Growth value | 89 |
-| Strategic value | 92 |
-| **Overall** | **93** |
+| Thematic fit | 90 |
+| Methodological fit | 85 |
+| Growth value | 82 |
+| Strategic value | 88 |
+| **Overall** | **87** |
 
 **Fit type:** exact-fit
 
-**Missing skills:** physiological-sensing, mixed-effects-modelling, statistics, eye-tracking
+**Missing skills:** mixed-effects-modelling, physiological-sensing, eye-tracking, qualitative-research, statistics
 
 **Risks:**
-- Timing risk: researcher is at MSc thesis stage (2026). Postdoc positions typically assume PhD completion; this role may expect prior doctoral experience. However, postdoc description does not explicitly exclude early-stage PhDs, and researcher could apply after defence.
-- Missing psychophysiological measurement and statistical skills will require upskilling; position is less explicit about training on these than doctoral role.
-- Competition will be high; RCGR attracts strong international candidates. Researcher's profile is strong but early-career publication record is modest for postdoc-level competitiveness.
+- Candidate must complete MSc and PhD application process before eligible; typical PhD duration 3-4 years means postdoc application unlikely before 2029-2030
+- Postdoc is intermediate step; if pursuing faculty/independence trajectory, timing should align with career goals
+- Statistics and multivariate analysis skills underdeveloped; may require self-directed learning if planning complex mixed-model analyses
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-postdoctoral-research-fellow-gamification-games-xr-g.md` and link [[opp_tampere-postdoctoral-research-fellow-gamification-games-xr-g]]._

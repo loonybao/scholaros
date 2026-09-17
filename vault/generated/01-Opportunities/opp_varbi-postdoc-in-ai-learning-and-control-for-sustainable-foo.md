@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-ai-learning-and-control-for-sustainable-foo
 type: opportunity
 title: "Postdoc in AI, Learning, and Control for Sustainable Food Systems"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-09-22
+deadline: 2026-10-05
 status: open
 eligibility_gate: uncertain
-fit_overall: 16
-urgency: urgent
+fit_overall: 33
+urgency: high
 needs_review: true
 ---
 
 # Postdoc in AI, Learning, and Control for Sustainable Food Systems
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-09-22
+**Deadline:** 2026-10-05
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 6)
+Gate: **uncertain** (days to deadline: 18)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -129,36 +129,34 @@ Angela Fontan, Assistant Prof., angfon@kth.se
 Published
 01.Sep.2026
 Last application date
-22.Sep.2026
+05.Oct.2026
 Login and apply
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.82_
 
-A postdoctoral position in AI, learning, and control applied to sustainable food systems. The research focuses on networked systems, complex decision-making modelling, and AI-based interventions across producers, consumers, and policymakers within agro-food value chains.
+Postdoctoral position at KTH Royal Institute of Technology focusing on AI, machine learning, and control systems applied to sustainable food systems. Research addresses modelling decision-making behaviour, capturing interactions among ecosystem actors (producers, consumers, policymakers), and designing interventions for sustainable diets and system resilience.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 8 |
-| Methodological fit | 15 |
-| Growth value | 10 |
-| Strategic value | 40 |
-| **Overall** | **16** |
+| Thematic fit | 28 |
+| Methodological fit | 42 |
+| Growth value | 32 |
+| Strategic value | 25 |
+| **Overall** | **33** |
 
-**Fit type:** poor-fit
+**Fit type:** adjacent-methodological-fit
 
-**Missing skills:** mixed-effects-modelling, r
+**Missing skills:** control-theory, networked-systems, agent-based-modelling, optimization-algorithms, machine-learning-systems, mixed-effects-modelling
 
 **Risks:**
-- Severe domain misalignment: food systems, sustainability policy, and control engineering bear no thematic relation to immersive systems or spatial learning.
-- Supervisor group (KTH FOOD, systems & control) has no apparent track record in human-centred XR or HCI.
-- Machine learning and control theory skills acquired would have low transferability to human-centred immersive systems research.
-- Two-year contract in a non-target domain would delay or redirect career momentum toward human-centred XR PhD.
-- Publications and network established would be in food systems and control engineering, not HCI or XR communities.
-- No pathway to doctoral positions in human-centred XR; instead, this leads toward applied AI for sustainability.
+- Candidate does not hold PhD or degree in required field (Electrical Engineering, Automatic Control, Applied Math)
+- Significant knowledge gaps in control theory, optimisation algorithms, and computational modelling
+- Postdoc would require intensive ramp-up in unfamiliar mathematical foundations
+- Career trajectory diverges from human-centred XR/HCI; postdoc here weakens candidacy for future HCI faculty roles
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-ai-learning-and-control-for-sustainable-foo.md` and link [[opp_varbi-postdoc-in-ai-learning-and-control-for-sustainable-foo]]._

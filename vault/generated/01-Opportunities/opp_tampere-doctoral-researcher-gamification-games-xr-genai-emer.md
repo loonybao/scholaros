@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-10-15
 status: open
 eligibility_gate: uncertain
-fit_overall: 92
+fit_overall: 89
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 29)
+Gate: **uncertain** (days to deadline: 28)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -61,7 +61,7 @@ Candidates are expected to design studies and disseminate them in a variety of w
 REQUIREMENTS
 The requirements below are the qualities we envision to be suitable for the defined tasks. However, we encourage all candidates who see themselves contributing in unique ways to one of these projects to apply.
 Minimum qualifications
-Applicable degree: i.e. Master’s degree in relevant field before the start of employment (latest 1.1.2027).
+Applicable degree: i.e. Master’s degree in relevant field before the start of employment (latest 1.6.2027).
 Fluency in English
 Useful dimensions of candidate’s background
 Computer science / Human-computer interaction / Affective computing / Information systems
@@ -85,7 +85,7 @@ Strong academic writing skills and existing publications
 Drive for rigorous and impactful research
 Drive for a career in research
 WE OFFER
-The full-time position will be filled for a fixed-term period of four (4) years, starting upon mutual agreement. A trial period of six (6) months applies to all our new employees.
+The full-time position will be filled for a fixed-term period of four (4) years, starting upon mutual agreement as soon as possible but latest 1.6.2027. A trial period of six (6) months applies to all our new employees.
 The salary will be based on both the job requirements and the employee’s personal performance in accordance
 with the Finnish University Salary System
 . According to the criteria applied to teaching and research staff, the position of Doctoral Researcher is placed on level 2–4 of the job requirements scale. A
@@ -150,26 +150,27 @@ Hakuaika tehtävään päättyy 15.10.2026, klo 23:59.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-Tampere University seeks 1–3 doctoral researchers for the Research Centre of Gameful Realities to investigate engaging media technologies (XR, gamification, AI, conversational agents) for sustainability, learning, behaviour change, and social participation. The position offers both project-specific (CLIMETA: VR and climate metacognition) and open-theme research directions within a trans-disciplinary centre.
+Doctoral researcher position(s) at Tampere University's Research Centre of Gameful Realities, investigating how novel engaging media (XR, gamification, AI, conversational agents) support learning, collaboration, sustainability engagement, and behavioural change. CLIMETA project focuses on VR for metacognitive climate engagement; OPEN theme welcomes broader research on gameful technologies for sustainability.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 95 |
-| Methodological fit | 92 |
-| Growth value | 88 |
+| Thematic fit | 92 |
+| Methodological fit | 88 |
+| Growth value | 85 |
 | Strategic value | 90 |
-| **Overall** | **92** |
+| **Overall** | **89** |
 
 **Fit type:** exact-fit
 
-**Missing skills:** physiological-sensing, mixed-effects-modelling, statistics, eye-tracking
+**Missing skills:** mixed-effects-modelling, physiological-sensing, eye-tracking, qualitative-research, statistics
 
 **Risks:**
-- Missing psychophysiological measurement skills; will require upskilling but this is a learning objective of the role.
-- Researcher's statistics background is self-rated beginner; mixed-effects modelling mentioned as possible methodological skill but not evident in profile. Position welcomes both quantitative and qualitative approaches, mitigating this risk.
-- Spatial cognition and wayfinding focus may need strategic reframing toward broader sustainability and climate themes emphasized in CLIMETA, though researcher's learning/collaboration themes transfer well.
+- MSc completion timing critical; any thesis delays could jeopardise start date
+- Candidate has not formally studied qualitative research methods; may need ramp-up if pursuing mixed-methods approach
+- Statistics and multivariate analysis are beginner-level; doctoral programme may require foundational stats coursework
+- No prior experience with psychophysiological measurement or bioadaptive systems; learning curve expected but manageable
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-gamification-games-xr-genai-emer.md` and link [[opp_tampere-doctoral-researcher-gamification-games-xr-genai-emer]]._
