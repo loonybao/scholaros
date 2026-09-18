@@ -1,0 +1,112 @@
+---
+id: opp_tudelft-phd-position-quantum-torsional-resonators
+type: opportunity
+title: "PhD Position Quantum Torsional Resonators"
+organisation: "TU Delft"
+deadline: 2026-10-15
+status: open
+eligibility_gate: uncertain
+fit_overall: 4
+urgency: medium
+needs_review: true
+---
+
+# PhD Position Quantum Torsional Resonators
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-10-15
+**Location:** Delft, Netherlands
+**Position type:** phd
+**Salary:** €3204 - €4051 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-Quantum-Torsional-Resonators-2628-CD/1372409457/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 27)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Creating superpositions of massive objects with a superconducting qubit: Can we test if gravity is quantum?
+Job description
+The radical theory of quantum mechanics is known to describe the fundamental physics of our universe at the nanoscale: from atoms and fundamental particles from a century ago, to the quantum sensors and computers of today, quantum mechanics governs how these microscopic objects and devices behave. In contrast, at the macroscopic scale, quantum effects are elusive: the macroscopic world seems to follow instead the laws of classical physics. At an even deeper level, despite work of 100 years, physics has yet to find a clear way to integrate gravitational effects into quantum theory. At the same time, quantum experiments with large masses are an outstanding challenge, and will be crucial in addressing how gravity and quantum mechanics can be combined.
+In the project, you will design, fabricate, and measure nanomechanical resonators coupled to superconducting quantum circuits with the aim of exploring the fundamental limits of the quantum behaviour of heavy, macroscopic objects. You will work with a team funded by an ERC Advanced proposal to do this using a radical new approach based on silicon nitride ribbon torsional resonators coupled directly via magnetic flux to a superconducting qubit. Building on the exciting flux-coupling concept pioneered in my group, you will bring mechanical experiments into new regimes, using quantum control over heavy objects via a superconducting qubit to build quantum superpositions of unprecedented size. You will develop skills to become an expert in complex nanofabrication as well as an expert in quantum measurements and control with superconducting quantum bits.
+You will work in the world-class, state-of-the-art
+Kavli Nanolab facility
+in Delft, a unique flagship academic cleanroom in Europe with extensive expertise and specialised facilities for nanofabrication of quantum devices.
+You will join a diverse and enthusiastic team of academic staff, PhD students and postdocs in the
+SteeleLab
+in the Quantum Nanoscience Department in Delft. You will meet regularly with your supervisors and other team members, and also be encouraged to develop and explore your own ideas. Furthermore, you will collaborate closely with local and international colleagues working in both experimental and theoretical fields to enable you to learn and execute world-leading research.
+Job requirements
+An MSc degree in physics
+An MSc degree in electrical or mechanical engineering could also be suitable if strongly motivated by experience with quantum mechanics or nanomechanics
+TU Delft (Delft University of Technology)
+Working at TU Delft means contributing to solutions that really make a difference.
+For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
+At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
+Faculty Applied Sciences
+With more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.
+Click
+here
+to go to the website of the Faculty of Applied Sciences.
+Conditions of employment
+Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
+The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.
+Additional information
+If you would like more information about this vacancy or the selection procedure, please contact Gary Steele, via
+G.A.Steele@tudelft.nl
+.
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+15 October 2026
+via the application button and upload the following documents:
+CV
+Transcripts of your MSc and Bachelor degrees
+1 page synopsis of your MSc thesis results
+Cover letter motivating how your research experience aligns with the nanofabrication and qubit work needed of the applicant in the project
+You can address your application to Gary Steele.
+Doing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the
+Graduate Schools Admission Requirements
+.
+EUfunded This is an EU funded project, named QTORSION, with project number 101266833, within program HE / ERC
+Please note:
+You can apply online. We will not process applications sent by email and/or post.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+PhD position in quantum physics focused on designing, fabricating, and measuring nanomechanical torsional resonators coupled to superconducting qubits to explore quantum behaviour of macroscopic objects and test fundamental physics limits. Core work involves nanofabrication, quantum control, and experimental measurement—a specialized physics and engineering role with no connection to human-computer interaction or immersive systems.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **4** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Complete disciplinary mismatch. Researcher has no physics background and no nanofabrication or quantum systems experience. Acceptance would require abandoning human-centred XR research entirely.
+- Research direction misaligned with target identity statement. Would place researcher in excluded domain: pure physics/engineering, not human-centred systems.
+- Supervisor expertise (Gary Steele, quantum nanoscience) is orthogonal to researcher's needs for mentorship in HCI and immersive systems.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-quantum-torsional-resonators.md` and link [[opp_tudelft-phd-position-quantum-torsional-resonators]]._

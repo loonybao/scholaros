@@ -3,18 +3,18 @@ id: opp_varbi-doctoral-students-in-networked-systems-security
 type: opportunity
 title: "Doctoral students in Networked Systems Security"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-09-23
+deadline: 2026-10-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 16
-urgency: urgent
+fit_overall: 14
+urgency: medium
 needs_review: true
 ---
 
 # Doctoral students in Networked Systems Security
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-09-23
+**Deadline:** 2026-10-31
 **Location:** Stockholm, Sweden
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 6)
+Gate: **uncertain** (days to deadline: 43)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -37,7 +37,9 @@ Apply for position
 School of Electrical Engineering and Computer Science at KTH
 Project description
 Third-cycle subject: Information and Communication Technologies
-We invite applications for doctoral student positions with the Networked Systems Security (NSS) lab at EECS/CLS. We are looking for highly motivated individuals to pursue a PhD in security and privacy. The positions involve activities leading to original research and results in peer-reviewed publications. The research topics can relate with any of the NSS group areas (https://www.eecs.kth.se/nss).
+We invite applications for doctoral student positions with the Networked Systems Security (NSS) lab at EECS/CLS. We are looking for highly motivated individuals to pursue a PhD in security and privacy. The positions involve activities leading to original research and results in peer-reviewed publications. The research topics can relate with any of the NSS group areas (
+https://www.eecs.kth.se/nss
+).
 The NSS group designs and builds trustworthy networked systems, with a research agenda covering a gamut of security and privacy problems and results that got significant attention by the research community. NSS introduced a new security curriculum at KTH. Candidates with experimental/systems or theoretical profiles and research interests in any aspect of security and privacy are welcome to apply.
 Supervision:
 Professor
@@ -126,35 +128,34 @@ Panagiotis Papadimitratos, papadim@kth.se
 Published
 09.Jun.2026
 Last application date
-23.Sep.2026
+31.Oct.2026
 Apply for position
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.80_
 
-Doctoral positions in security and privacy research at KTH's Networked Systems Security lab, covering networked systems design, security architecture, privacy-enhancing technologies, and verification—with particular interest in positioning, localization, and GNSS security.
+Doctoral student positions in networked systems security at KTH's NSS lab. Research spans security and privacy in networked systems, with emphasis on positioning/localization systems, distributed algorithms, cryptography, and systems implementation. Focus is network and systems security engineering, not human-computer interaction or immersive technologies.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 20 |
-| Growth value | 8 |
-| Strategic value | 40 |
-| **Overall** | **16** |
+| Thematic fit | 8 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 30 |
+| **Overall** | **14** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** computer-security, networking, distributed-algorithms, applied-cryptography, system-programming, performance-analysis, operating-systems
+**Missing skills:** python, cpp
 
 **Risks:**
-- Complete domain pivot: from HCI/immersive learning to cybersecurity and networked systems.
-- Researcher would spend four years acquiring expertise (systems programming, cryptography, network security) orthogonal to target identity.
-- No trajectory from this position toward human-centred immersive systems research or priority institutions (Aalto, TU Delft).
-- Publication record and research profile after PhD would be in security; repositioning later would require substantial re-training and community re-entry effort.
-- Security clearance requirement (Swedish Protective Security Act) may add administrative burden if position is classified; unclear from posting.
+- Research direction misaligned with target identity. Pursuing a PhD in networked systems security does not advance researcher's stated goal of designing and evaluating human-centred immersive systems. Complete pivot away from XR/HCI.
+- Supervisor expertise is in security and resilience; does not provide mentorship in human-centred XR, immersive learning, spatial cognition, or collaborative interaction design.
+- Security clearance uncertainty. Posting ambiguously suggests some positions may require clearance; researcher should clarify eligibility before investing effort.
+- Skill mismatch: position seeks 'solid background in several of' cryptography, distributed algorithms, performance analysis, operating systems, system/network programming. Researcher lacks formal training in these areas; would require substantial foundational retraining.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-students-in-networked-systems-security.md` and link [[opp_varbi-doctoral-students-in-networked-systems-security]]._
