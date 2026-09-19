@@ -1,0 +1,181 @@
+{
+  "id": "opp_aalto-postdoctoral-researcher-in-speech-and-language-technol",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-19T10:31:16.153428Z",
+  "updated_at": "2026-09-19T10:53:38.437788Z",
+  "change_history": [
+    {
+      "ts": "2026-09-19T10:31:16.153536Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-19T10:53:38.260540Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-19T10:53:38.437788Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Researcher in Speech and Language Technology",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "postdoctoral-researcher-in-speech-and-language-technology",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-speech-and-language-technology",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Postdoctoral-Researcher-in-Speech-and-Language-Technology_R48126-2/apply",
+    "evidence_ids": [
+      "aalto/postdoctoral-researcher-in-speech-and-language-technology"
+    ],
+    "retrieved_at": "2026-09-19T10:31:16.153276Z",
+    "raw_snapshot_hash": "3b680250278090d079b106b335535ada9f4e10ea4d8f37eb410d8de233568629",
+    "extracted_content_hash": "6ef97a534c21cd3929c711b271f4fc678a359736ec16d0409b2220524a435930",
+    "deadline": "2026-10-31",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-18",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges.\nOur community is made up of\n16\n000 students\nand 5 200 employees, including 446\nprofessors\n. Our\ncampus\nis\nin Espoo, Greater Helsinki, Finland.\nDiversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe research will be carried out at the\nDepartment of Information and Communications Engineering, DICE\n, at Aalto University, Finland. The project environment offers excellent infrastructure for deep learning, speech, and audio research, including Aalto University’s large-scale scientific computing cluster with CPU and GPU nodes, access to CSC’s national computing infrastructure including LUMI, and the Aalto Acoustics Lab with anechoic chambers, listening rooms, and audio measurement equipment.\nWe are now looking for a Postdoctoral Researcher in Speech and Language Technology\nAre you interested in transparency, content provenance, and traceability for AI-generated speech, music, and audio? We are looking for a\nPostdoctoral Researcher\nto join the funded project\nCOWAMA: Content-based watermarking for AI-generated audio\n, led by Assistant Professor Lauri Juvela.\nGenerative AI can now create increasingly realistic speech and music, raising urgent questions about misinformation, copyright, ownership, attribution, and accountability. The EU AI Act requires generative AI systems to label generated content, but external metadata is easy to remove, so additional layers of technical disclosure and detection are necessary. This project develops watermarking methods and software for speech and audio generative models, focusing on robustness and suitability for open-source use.\nYour role and goals\nAs a Postdoctoral Researcher, you will take primary responsibility for developing\ndeep content-based watermarks for audio\nand work jointly with a doctoral researcher on\nrobustness, evaluation, and generalization\n.\nYour work will include:\nDeveloping new\ncontent-based audio watermarking\nmethods for generated speech, music, and audio.\nDesigning detection and perceptual quality measures for cases where generated audio may deviate from the reference content but should remain perceptually acceptable.\nExploring methods such as audio content detection, music information retrieval, audio fingerprinting, alignment search, feature matching in self-supervised audio representations, and reference-free audio quality prediction.\nIntegrating watermarking capabilities into deep audio generative models, including extensions of collaborative watermarking to diffusion models and audio language models based on neural audio codecs.\nStudying whether watermark information can be embedded in long-term content, such as speech semantics, duration, prosody, or emphasis, rather than only in local signal-level features.\nDeveloping robustness evaluation methods, differentiable augmentation tools, and realistic attack scenarios for audio watermarks.\nPublishing research in leading journals and conferences in speech, audio, and machine learning, and contributing to open-source releases of software, trained models, and reproducible research outputs.\nThe research methods will include experiment design, software implementation, running deep learning experiments on high-performance computing infrastructure, and evaluation using objective metrics and subjective listening tests.\nYour network and team\nYou will be supervised by\nAssistant Professor Lauri Juvela\n, who leads the Speech Synthesis research group at Aalto University. The group works on deep generative models for speech and audio, speech synthesis, differentiable signal processing, deepfake detection, and watermarking.\nIn addition to the Aalto speech groups and the Doctoral Researcher in the project, you will work with an international collaboration network including Prof. Junichi Yamagishi at the National Institute of Informatics in Japan, Prof. Xavier Serra at Universitat Pompeu Fabra in Spain, Prof. Gustav Eje Henter at KTH Royal Institute of Technology in Sweden.\nThe collaboration network has a strong background in speech and audio synthesis, deep generative models, and deepfake detection, positioning the project to make an impact in watermarking and source tracing for AI-generated audio.\nYour experience and ambitions\nWe are looking for a motivated researcher with a strong interest in generative AI, speech, music, and audio technologies. To succeed in this role, you should have:\nA doctoral degree, or close to completing a doctoral degree, in speech or audio processing, machine learning, signal processing, computer science, or a related field.\nStrong experience with deep learning and generative models.\nProgramming skills suitable for modern machine learning research, preferably including Python and deep learning frameworks.\nInterest in one or more of the following areas: speech synthesis, music generation, neural audio codecs, diffusion models, audio language models, watermarking, deepfake detection, audio quality assessment, or audio representation learning.\nAbility to conduct independent research and publish in high-quality peer-reviewed venues.\nMotivation to work in an open-science-oriented project with open-source software and reproducible research outputs.\nGood collaboration and communication skills in an international research environment.\nFluency in English is required. Finnish language is not required.\nDoctoral- and master’s-level supervision experience is considered an advantage.\nWhat we offer\nA meaningful and timely research topic at the intersection of generative AI, audio technology, transparency, and digital trust. The project addresses the need for best practices and standards for navigating AI-generated content, with a focus on transparent, open, and distributed academic solutions.\nThe chance to work on methods that improve transparency and security in AI-generated speech and audio through watermarking, source tracing, and deepfake detection.\nAccess to excellent computing and research infrastructure, including Aalto’s CPU/GPU clusters, CSC and LUMI, FIN-CLARIN language resources, and the Aalto Acoustics Lab.\nAn international collaboration network with leading researchers and organizations in speech synthesis, music technology, deepfake detection, and audio generation.\nStrong support for open science, including open-access publishing and open-source release of software, models, and datasets.\nGreat possibilities for competence development and learning. Aalto offers a wide range of professional development opportunities, staff training, and development projects based on your interests and needs.\nA culture guided by responsibility, courage, and collaboration, where equality and inclusion support curiosity, innovation, collaboration, and wellbeing.\nOur vast array of professional development opportunities means you will grow and learn, having the chance to participate actively in staff training and development projects based on your interests and needs\n. The starting salary for Postdoctoral Researcher 4220 €/month.\nThe salary will increase based on performance. The position is fixed-term and will be for 2 years. Project funding has been awarded for 4 years, and the contract may be extended for another 2 years. The position starts in January 2027 or as mutually agreed.\nWe value work-life balance and well-being in all aspects of life. We work in a hybrid model, with the primary workplace located at the Otaniemi Campus in Espoo, Finland. Life on the revitalized campus is vibrant, featuring stunning architecture, tranquil nature, and a variety of cafes, restaurants, and services, all complemented by excellent public transportation connections.\nJoin us!\nTo apply, please share your\nCV, motivation letter, and copies of degree certificates and academic transcripts\nwith us through our recruitment site (\"Apply now!” at the bottom of the page)\nat the latest on 31st October 2026\n23.59pm (EET).\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\nFor more information about the role, please contact Professor Lauri Juvela (lauri.juvela@aalto.fi;  +358 50 464 6653).  For questions about the application process, please contact HR Advisor Johanna Haapalainen at hr-elec@aalto.fi.\nWe will go through applications, and we may invite suitable candidates to interview already during the application period. You will hear from us by the 15th of November. We aim to have a transparent and equal recruitment process, so feel free to ask us for feedback.\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand check out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report 2025\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Postdoctoral researcher position in content-based audio watermarking for generative AI, focusing on embedding watermarks in speech, music, and audio synthesis models, robustness evaluation, and integration into diffusion and neural codec-based generative models. Role emphasizes deep learning, generative models, and open-source reproducibility.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "Fundamental thematic misalignment. The position is purely technical audio AI: generative models, watermarking algorithms, neural codecs, diffusion models—excluded as pure ML algorithm development. No human factors, no immersive systems, no spatial cognition, no learning outcomes, no collaboration design, no user-centred evaluation. The posting does not mention XR, immersive systems, or any HCI dimension."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Poor methodological fit. The researcher's core methodologies are user studies, experimental design for spatial transfer, qualitative HCI evaluation, and multiplayer interaction design. This role requires deep learning research methods (model development, differentiable programming, robustness testing, 'objective metrics and subjective listening tests'). The researcher's beginner-level Python and absent deep learning experience create a fundamental skills gap. No overlap in research approaches."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "Minimal growth toward target identity. The researcher would gain advanced deep learning, generative models, and neural codec expertise—technical breadth only. This 2-year postdoctoral position would deepen divergence from human-centred immersive systems research. At postdoctoral level, the researcher should be consolidating and advancing the target research identity (spatial cognition, collaborative immersive systems, learning transfer), not pivoting into pure ML. No closure of gaps in human-centred XR, spatial learning design, or multiplayer collaboration theory."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Low strategic value despite Aalto's institutional strength. A postdoctoral position should advance the researcher's target identity and path to independent research. This role, led by a speech synthesis specialist with no evident HCI or immersive systems background, would not build the researcher's standing as a human-centred XR researcher. It may create confusion or signal a pivot away from the target identity to future employers and collaborators. The researcher would finish 2 years further from priority-1 and priority-2 target institutions' immersive systems and spatial cognition groups."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "academic-writing",
+      "python"
+    ],
+    "missing_skills": [
+      "deep-learning",
+      "generative-models",
+      "neural-audio-codecs",
+      "diffusion-models",
+      "machine-learning",
+      "signal-processing"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD completion before start. Researcher is MSc by Research (in progress). Eligibility is contingent on finishing thesis and earning doctoral degree.",
+      "Posting emphasizes 'strong experience with deep learning and generative models' and lists audio-specific topics (neural codecs, diffusion models, audio language models). Researcher has no demonstrated experience in any of these areas.",
+      "Posting seeks 'motivated researcher with strong interest in generative AI, speech, music, and audio technologies'—requires prior commitment to audio/ML research, not immersive systems."
+    ],
+    "risks": [
+      "Career trajectory mismatch: Accepting a postdoctoral position outside the target identity weakens the researcher's profile for future positions in human-centred XR and immersive learning. Hiring committees and collaborators at priority-1 institutions (Aalto HCI groups, TU Delft design/interaction researchers) may view this as a significant pivot.",
+      "Skill investment: The researcher would spend 2 years building expertise in generative models, neural codecs, and audio watermarking—valuable skills, but not transferable to the stated target research direction.",
+      "Publication record divergence: 2 years of publications in speech/audio/ML venues instead of HCI, immersive systems, or learning science venues further distances the researcher from the target field's publication ecosystem.",
+      "Supervision and network: The Speech Synthesis group and international collaborators (Prof. Yamagishi, Prof. Serra, Prof. Henter) work in speech synthesis and audio ML, not immersive systems or spatial cognition. Limited opportunity to build relationships in the target research community.",
+      "Opportunity cost: A 2-year postdoctoral position is critical for establishing independence and research direction. Spending it in a misaligned field substantially delays doctoral research and independent work in spatial learning, collaborative immersive systems, or real-world transfer—the target areas where the researcher should be building a reputation."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.94,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-19T10:53:38.260240Z",
+    "analysis_input_hash": "d2f870f5d97002600ba8ede274dd4006a01296852549f2cd2ac8ab04b41c8030"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 7,
+    "urgency": "medium",
+    "days_to_deadline": 42,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
