@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-01T11:18:38.130082Z",
-  "updated_at": "2026-09-19T10:53:38.429147Z",
+  "updated_at": "2026-09-20T11:11:12.467922Z",
   "change_history": [
     {
       "ts": "2026-09-01T11:18:38.130186Z",
@@ -191,6 +191,14 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-20T11:11:12.467922Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -296,7 +304,7 @@
     ],
     "fit_overall": 65,
     "urgency": "high",
-    "days_to_deadline": 15,
+    "days_to_deadline": 14,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
