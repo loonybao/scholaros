@@ -17,14 +17,14 @@ needs_review: true
 **Deadline:** 2026-10-06
 **Location:** Delft, Netherlands
 **Position type:** phd
-**Salary:** €3546 - €5538 per month (stated range)
+**Salary:** €3706 - €5760 per month (stated range)
 **Duration:** not stated
 **Status:** open
 **Official source:** https://careers.tudelft.nl/job/Delft-Postdoctoral-Researcher-Regio-Deal-New-Towns-2628-CD/1371486257/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 16)
+Gate: **uncertain** (days to deadline: 14)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 

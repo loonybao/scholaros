@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-11
 status: open
 eligibility_gate: uncertain
-fit_overall: 36
+fit_overall: 44
 urgency: high
 needs_review: true
 ---
@@ -17,14 +17,14 @@ needs_review: true
 **Deadline:** 2026-10-11
 **Location:** Delft, Netherlands
 **Position type:** phd
-**Salary:** €3059 - €3881 per month (stated range)
+**Salary:** €3204 - €4051 per month (stated range)
 **Duration:** not stated
 **Status:** open
 **Official source:** https://careers.tudelft.nl/job/Delft-PhD-Researcher-Decision-Processes-and-Strategies-for-Adaptive-Reuse-of-Buildings-2628-CD/1371299057/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 21)
+Gate: **uncertain** (days to deadline: 19)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -59,7 +59,7 @@ here
 to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
 The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
 Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
@@ -97,26 +97,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.65_
 
-This is a PhD on how stakeholders make adaptive-reuse decisions for buildings and on developing a decision framework incorporating environmental, cost, technical and circularity criteria. The work is primarily qualitative and stakeholder-facing, with validation through industry and practitioner engagement rather than immersive-system design.
+PhD position investigating decision-making processes for adaptive reuse of buildings across European contexts using qualitative research methods, with outcomes integrated into a decision framework balancing environmental, cost, technical and circular economy factors. Validation with stakeholders (asset owners, practitioners).
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 12 |
-| Methodological fit | 43 |
-| Growth value | 57 |
-| Strategic value | 55 |
-| **Overall** | **36** |
+| Thematic fit | 25 |
+| Methodological fit | 60 |
+| Growth value | 50 |
+| Strategic value | 45 |
+| **Overall** | **44** |
 
 **Fit type:** adjacent-methodological-fit
 
-**Missing skills:** qualitative-research
+**Missing skills:** stakeholder-engagement-research, decision-process-analysis, framework-development-for-practitioners, building-technology-knowledge, lifecycle-costing-frameworks
 
 **Risks:**
-- The substantive topic is adaptive reuse and sustainable buildings rather than XR, HCI or immersive learning.
-- The position may require domain knowledge in architecture, real estate and building sustainability that is not represented in the profile.
-- The methodological transition from user studies to qualitative stakeholder and practitioner research may require substantial training.
+- Disciplinary mismatch. MSc in multimedia/HCI is remote from building/real estate/architecture expectations. May fail eligibility screening.
+- Research direction diverges from target identity. Qualitative methods are valuable but applied to building reuse, not immersive learning or collaborative systems.
+- 4-year investment in built environment domain may reduce competitiveness for HCI/XR postdocs or fellowships.
+- Supervisor/group expertise is in real estate, building technology, sustainability—not HCI, XR, or immersive systems.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-researcher-decision-processes-and-strategies-for.md` and link [[opp_tudelft-phd-researcher-decision-processes-and-strategies-for]]._

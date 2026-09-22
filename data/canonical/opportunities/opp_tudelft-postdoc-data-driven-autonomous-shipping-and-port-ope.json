@@ -1,0 +1,178 @@
+{
+  "id": "opp_tudelft-postdoc-data-driven-autonomous-shipping-and-port-ope",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-22T11:14:34.674619Z",
+  "updated_at": "2026-09-22T11:34:28.798213Z",
+  "change_history": [
+    {
+      "ts": "2026-09-22T11:14:34.674737Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-22T11:33:02.676278Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-22T11:34:28.798213Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Data-Driven Autonomous Shipping and Port Operations",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1372814957",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Data-Driven-Autonomous-Shipping-and-Port-Operations-2628-CD/1372814957/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Data-Driven-Autonomous-Shipping-and-Port-Operations-2628-CD/1372814957/",
+    "evidence_ids": [
+      "tudelft/1372814957"
+    ],
+    "retrieved_at": "2026-09-22T11:14:34.674416Z",
+    "raw_snapshot_hash": "367175a8e56a252b248507c22bc15b8a39e3d43d181199f7b2c14c4dfc80fed5",
+    "extracted_content_hash": "1cd16986377f8f59cc9453ef4476febd3d8c86df7f74dd6d7851ba30b3f58b75",
+    "deadline": "2026-11-02",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Job description\nThe transition towards autonomous and remotely operated vessels is reshaping the way maritime transport systems are designed, operated and coordinated. The introduction of autonomy to the maritime and port ecosystem concerns multiple stakeholders including rowers, pilots, terminals, operators, port authorities, and so on. While advances in automation create opportunities for safer, more efficient and sustainable shipping, they also introduce new challenges in vessel operations, human–automation interaction, port-call planning and logistics coordination. Addressing these challenges requires an integrated understanding of how autonomous vessel capabilities interact with operational conditions, human intervention and the wider maritime and port logistics systems.\nThe postdoctoral researcher will develop data-driven and model-based approaches to support the integration of autonomous vessels into maritime transport and port logistics. The research will use data from vessels, sensors, environments and traffics to analyse the operational and nautical complexity of autonomous vessel operations. Attentions will be given to identifying situations in which interactions between onboard personnel, autonomous systems and remote operators are critical, and to translating these insights into Concepts of Operations (CONOPS) for navigation and energy management. The researcher will contribute to the architecture, management and use of the data platform supporting these activities.\nA major focus will be on port-call optimisation and logistics ecosystem strategies for autonomous vessels. The researcher will analyse planning, coordination and operational activities in port calls, identify sources of inefficiency and the adjustments required for autonomous sailing and mooring, and develop quantitative models and decision-support approaches for optimisation solutions. The research will also investigate how autonomous vessels affect collaboration and dependencies among stakeholders. Using agent-based modelling and scenario analyses, the researcher will evaluate alternative collaboration strategies, business models and incentives from ships, terminals and logistics-ecosystem perspectives.\nThe Postdoc will join the Department of Maritime and Transport Technology and will have the opportunity to investigate high-level coordination of multiple autonomous vessels at the Researchlab Autonomous Shipping (RAS), under the supervision of Yusong Pang and Rudy Negenborn. This Postdoc position is embedded in two co-funded research projects supported by European funding programmes, which are with over 20 industry and university partners including shipping companies, port authorities and operators, river commissions and waterborne industry actors. The research projects aim to develop living lab for green & autonomous corridor and accelerate the adoption of autonomous ships in short-sea shipping through open innovation.\nJob requirements\nYou have a PhD degree or expect to obtain a PhD degree soon in mechanical engineering, maritime technology, operations research, systems and control, or a related field, with strong skills in data engineering and quantitative modelling.\nExperience with autonomous shipping, port logistics or decision-support systems is an additional advantage.\nYou will formulate and conduct independent scientific research, develop and manage research data and modelling frameworks, validate results with project partners and stakeholders, and disseminate findings through high-quality scientific publications and professional networks.\nGood communication and writing skills in English and the ability to collaborate with project partners and research institutes are important.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 3 years. Temporary.\nA job of 38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact Dr. Yusong Pang,\ny.pang@tudelft.nl\n,\n+31(0)15 278 8685\n, or Prof.dr. Rudy R. Negenborn,\nr.r.negenborn@tudelft.nl\n,\n+31(0)15 278 6718\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n2 November 2026\nvia the application button and upload the following documents:\nA detailed CV including list of publications\nIf the applicants are selected for an interview, they will be asked to provide contact details of at least two referees with their consent\nYou can address your application to Dr. Yusong Pang.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoctoral position developing data-driven and model-based approaches for autonomous vessel integration into maritime logistics, including operational complexity analysis, Concepts of Operations (CONOPS), port-call optimization, and multi-agent scenario analysis of stakeholder collaboration.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "No thematic overlap. The position focuses on autonomous vessel operations, maritime logistics optimization, and multi-stakeholder coordination in shipping—a domain entirely outside human-centred XR, spatial cognition, immersive learning, and collaborative interaction design. Mention of 'interaction' refers to ship–autonomous system–operator coordination, not human-centred social or learning interaction."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Weak methodological bridge. The role emphasizes data engineering, quantitative modelling (agent-based modelling, discrete event simulation), and operational optimization. The researcher's core strength is human-centred evaluation (user studies, experimental design for human outcomes). Agent-based modelling could have adjacency to simulation-based research, but the application domain and outcome measures (operational efficiency, logistics coordination) diverge sharply from human learning and spatial cognition."
+    },
+    "growth_value": {
+      "score": 20,
+      "rationale": "Limited growth value. Agent-based modelling and scenario analysis could theoretically support future research on collaborative systems, but this position applies those methods to shipping logistics, not immersive interaction or learning. The researcher would gain simulation skills but lose domain focus."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "TU Delft is priority-1 institution (Netherlands). EU funding (multi-partner Horizon programme) provides stability. However, the Department of Maritime and Transport Technology is not positioned within HCI, XR, or human-centred research. A 3-year postdoc here establishes credentials in autonomous systems and logistics, not immersive systems or spatial learning. Weak pathway to target identity."
+    },
+    "required_skills": [
+      "quantitative-research",
+      "statistics",
+      "python",
+      "agent-based-modelling",
+      "discrete-event-simulation"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "statistics",
+      "python"
+    ],
+    "missing_skills": [
+      "agent-based-modelling",
+      "discrete-event-simulation",
+      "maritime-operations",
+      "autonomy-systems-knowledge",
+      "logistics-optimization"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD in 'mechanical engineering, maritime technology, operations research, systems and control, or a related field.' Candidate holds MSc by Research in Creative Multimedia (in progress). A Creative Multimedia MSc does not constitute a PhD or satisfy disciplinary requirements.",
+      "Experience with 'autonomous shipping, port logistics or decision-support systems' is listed as 'additional advantage.' Candidate has none."
+    ],
+    "risks": [
+      "Fundamental ineligibility. Position requires PhD; candidate has MSc (in progress). Does not meet baseline criterion.",
+      "Domain mismatch. Maritime logistics and autonomous systems engineering are far from HCI and immersive learning research.",
+      "Career diversion. 3 years in maritime technology delays transition to target HCI/XR identity.",
+      "No group expertise in human-centred or immersive systems research."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-22T11:33:02.675983Z",
+    "analysis_input_hash": "f87161694ee7bf3639f9df5a2c074dd461b8ad40b562d107c68c1d19886e0490"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 16,
+    "urgency": "medium",
+    "days_to_deadline": 41,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

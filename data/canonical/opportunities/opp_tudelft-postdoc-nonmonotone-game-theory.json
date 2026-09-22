@@ -1,0 +1,172 @@
+{
+  "id": "opp_tudelft-postdoc-nonmonotone-game-theory",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-22T11:14:56.200342Z",
+  "updated_at": "2026-09-22T11:34:28.829033Z",
+  "change_history": [
+    {
+      "ts": "2026-09-22T11:14:56.200458Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-22T11:34:28.434893Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-22T11:34:28.829033Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc NonMonotone Game Theory",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1372818357",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-NonMonotone-Game-Theory-2628-CD/1372818357/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-NonMonotone-Game-Theory-2628-CD/1372818357/",
+    "evidence_ids": [
+      "tudelft/1372818357"
+    ],
+    "retrieved_at": "2026-09-22T11:14:56.200160Z",
+    "raw_snapshot_hash": "7448fb1a6fe2f98c25855348720b1fa2a85ff28b1e2bd428af92ac24d29931d2",
+    "extracted_content_hash": "e84a0d6751dece56b8c720aaee0e7e85fed169e899067d0d65b83dac0d5bf923",
+    "deadline": "2026-10-30",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Shape intelligent control and coordination in future complex systems, from sustainable energy grids to autonomous mobility. In this ERC-funded PD project, you develop cutting-edge game-theoretic control and optimization methods.\nJob description\nModern society depends on complex, interconnected systems such as sustainable power grids, autonomous vehicles and human-machine collaborative systems. Ensuring that these systems operate safely, efficiently and fairly is a major scientific and societal challenge. It requires fundamentally new approaches to control and optimization in environments where multiple agents interact under uncertainty and constraints.[LC2.1]\nIn this research project at TU Delft, you will develop computational methods for game-theoretic control and optimization to address these challenges. As part of the European Research Council (ERC)-funded project “Data-driven Game Theoretic Control for Constrained Systems” (ARGON), you will work at the forefront of fundamental research with high potential for technological impact.\nYou will conduct theoretical and computational research on dynamic game theory and multi-agent optimization for uncertain systems with nonlinear dynamics. By building on tools from nonlinear systems, switched linear and polynomial systems, and projected dynamical systems, you will develop new analysis and synthesis frameworks for data-driven non-monotone game theory for nonlinear systems. These methods will contribute to applications such as multi-actor power grids, multi-vehicle automated driving and human-machine collaboration, enabling safer, more efficient and more sustainable operations.[LC3.1]\nYour responsibilities\nAs a postdoctoral researcher, you will:\nAnalyze several notions of local equilibria for non-convex, non-monotone game equilibrium problems;\nDevelop a dynamic game theory for switched polynomial systems;\nDevelop tractable computational methods for local equilibrium seeking in dynamic games with switched polynomial systems;\nExtend the developed methods to the class of piecewise-monotone game equilibrium problems;\nYour work environment[LC5.1]\nYou will join the Delft Center for Systems and Control (DCSC) within the Faculty of Mechanical Engineering. DCSC is an internationally leading research centre where PhD candidates, postdocs and faculty members work on modeling, analysis, control and optimization of complex dynamical systems relevant to science, engineering and society. You will focus on optimization-based, data-driven and partially model-based control methods. You will have access to a strong research network and a broad range of expertise across systems and control, optimization and data-driven methods. At DCSC, you will find an open and collaborative environment where interdisciplinary teamwork, intellectual curiosity and scientific excellence are valued. We work closely across research clusters and application domains such as energy, mobility and high-tech systems, sharing a drive to deepen fundamental understanding and contribute to societally relevant, sustainable solutions.\nJob requirements\nYou are a curious and proactive researcher who enjoys tackling complex theoretical and computational problems. You are motivated by fundamental scientific questions and take initiative in exploring novel ideas. You work well independently, while also thriving in a collaborative and internationally oriented research environment. As a strong team player, you contribute actively to discussions within a diverse research group and are open to feedback and new perspectives.\nFurthermore, you meet the following requirements:\nYou hold a PhD degree (or close to completion) in Systems and Control, or Electrical/Mechanical Engineering, or Applied Mathematics, or related field.\nYou have experience with, or a strong affinity for, Systems and Control, or Optimization, or Game Theory.\nYou demonstrate excellent analytical and critical thinking skills, combined with curiosity and diligence.\nYou have strong communication skills and an excellent command of English (knowledge of Dutch is not required).\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 3 years. Temporary.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact prof. Sergio Grammatico (\ns.grammatico@tudelft.nl\n). For more information about the application procedure, please contact our HR advisor, Giedo Kocken, (\nrecruitment-me@tudelft.nl\n).\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 October 2026\nvia the application button and upload the following documents:\nCurriculum vitae\nStatement of motivation and research interests (up to one page)\nTranscripts of all exams taken and obtained degrees (in English)\nUp to 3 research-oriented documents (e.g. thesis, conference/journal publication)\nYou can address your application to prof. Sergio Grammatico.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in game-theoretic control and multi-agent optimization for complex systems (power grids, autonomous vehicles, human-machine collaboration). Work focuses on theoretical and computational methods for dynamic games, switched polynomial systems, and equilibrium analysis within an ERC-funded project.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "The position mentions 'human-machine collaboration' as one application domain, and the researcher has experience with multiplayer collaborative systems. However, the core research is pure applied mathematics: game theory, nonlinear control, polynomial systems theory, and optimization. The 'human' aspect is only an end application, not a research focus. The researcher's expertise is in human cognition, spatial learning, and user experience—not control theory or game-theoretic analysis. The mention of collaboration is a label, not a methodological or thematic fit."
+    },
+    "methodological_fit": {
+      "score": 12,
+      "rationale": "The researcher has intermediate experience with quantitative research, experimental design, and basic statistics. This position requires advanced mathematics (nonlinear systems, polynomial dynamics, game theory), computational algorithm development, and theoretical analysis. While both involve 'systems,' the researcher's work is empirical and human-centred; this position is purely theoretical and mathematical. No overlapping methodological toolkit exists."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Developing expertise in game theory and control systems would not close gaps relevant to human-centred XR research. The researcher needs deeper knowledge of collaborative learning mechanisms, spatial cognition, and immersive interface design—not mathematical game theory. A postdoc in applied mathematics moves the researcher away from both their current trajectory and their target identity."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "TU Delft is a strong European institution in a preferred location (Netherlands). The ERC funding and Delft Center for Systems and Control offer research stability. However, the group is rooted in control engineering and applied mathematics, not HCI or human-centred systems. A position here would be a career path reset into systems and control, not a stepping stone toward doctoral research or faculty positions in XR/immersive learning."
+    },
+    "required_skills": [
+      "quantitative-research",
+      "statistics",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "statistics"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD degree completed by employment decision time. Researcher holds MSc by Research (in progress). Thesis must be submitted and conferred before application can be considered.",
+      "PhD should be in Systems and Control, Electrical/Mechanical Engineering, Applied Mathematics, or related field. Researcher's degree is in Creative Multimedia. Strong disciplinary mismatch.",
+      "Position emphasizes 'experience with, or strong affinity for, Systems and Control, or Optimization, or Game Theory.' Researcher has no documented background in any of these areas."
+    ],
+    "risks": [
+      "Severe disciplinary misalignment: this is a pure mathematics and control engineering position. Researcher's background in HCI and user-centred design offers no credibility or foundation.",
+      "Credential gap: MSc in Creative Multimedia will likely be viewed as insufficient qualification for a theoretical control/game theory postdoc. Unlikely to pass initial screening.",
+      "Career trajectory conflict: taking this role establishes the researcher as a control/game theory postdoc, substantially complicating future return to HCI or XR research leadership roles.",
+      "Mathematical skill gap: researcher has beginner-level statistics and no Python; the position expects advanced mathematical and computational maturity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.93,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-22T11:34:28.434597Z",
+    "analysis_input_hash": "c9ea93cc0c253a137573bee6710929cc8746dd9e79c5fc97bb7de81da466e016"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 11,
+    "urgency": "medium",
+    "days_to_deadline": 38,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

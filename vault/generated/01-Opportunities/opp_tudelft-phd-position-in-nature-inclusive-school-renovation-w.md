@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-09-27
 status: open
 eligibility_gate: uncertain
-fit_overall: 44
+fit_overall: 42
 urgency: urgent
 needs_review: true
 ---
@@ -17,14 +17,14 @@ needs_review: true
 **Deadline:** 2026-09-27
 **Location:** Delft, Netherlands
 **Position type:** phd
-**Salary:** €3059 - €3881 per month (stated range)
+**Salary:** €3204 - €4051 per month (stated range)
 **Duration:** not stated
 **Status:** open
 **Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-in-Nature-Inclusive-School-Renovation-with-Biobased-Materials-2628-CD/1366876057/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 7)
+Gate: **uncertain** (days to deadline: 5)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -69,7 +69,7 @@ here
 to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
 The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
 Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
@@ -111,26 +111,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.80_
 
-This PhD investigates nature-inclusive and climate-resilient renovation strategies for school buildings using biobased materials, ecological considerations and stakeholder collaboration. It includes field-based experimentation, participatory design and design-oriented research, but does not centre on XR, digital systems or spatial cognition.
+Four-year funded PhD in architecture and sustainable building design, developing nature-inclusive renovation strategies for schools using biobased materials, with emphasis on ecosystem integration, biodiversity, and child-nature interaction.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 28 |
-| Methodological fit | 46 |
-| Growth value | 62 |
-| Strategic value | 58 |
-| **Overall** | **44** |
+| Thematic fit | 35 |
+| Methodological fit | 50 |
+| Growth value | 40 |
+| Strategic value | 45 |
+| **Overall** | **42** |
 
 **Fit type:** adjacent-methodological-fit
 
-**Missing skills:** qualitative-research
+**Missing skills:** building-technology, lifecycle-assessment, materials-science, energy-systems, ecological-assessment
 
 **Risks:**
-- The candidate's creative-media and XR background may not satisfy the domain-specific building-science requirement
-- The project could lead toward sustainable architecture rather than immersive-systems research
-- Participatory and qualitative research experience is not established in the profile
+- Disciplinary pivot: from interactive systems and spatial cognition to building materials and energy retrofit. Supervision would not build HCI expertise.
+- Four-year timeline is long to invest in a direction tangent to target identity without assured pathway back to HCI.
+- The position's core—materials, energy, ecology—sits outside the researcher's domain. Ramp-up curve is steep for a non-architecture background.
+- No guarantee of immersive or digital technology integration; physical/material interventions are the focus.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-nature-inclusive-school-renovation-w.md` and link [[opp_tudelft-phd-position-in-nature-inclusive-school-renovation-w]]._

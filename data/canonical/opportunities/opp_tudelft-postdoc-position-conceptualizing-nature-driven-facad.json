@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-01T11:21:23.240319Z",
-  "updated_at": "2026-09-20T11:11:12.673742Z",
+  "updated_at": "2026-09-22T11:34:28.830412Z",
   "change_history": [
     {
       "ts": "2026-09-01T11:21:23.240417Z",
@@ -199,6 +199,26 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-22T11:22:27.156494Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at",
+        "official.salary_text"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-09-22T11:34:28.830412Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -212,9 +232,9 @@
     "evidence_ids": [
       "tudelft/1370945957"
     ],
-    "retrieved_at": "2026-09-01T11:21:23.240195Z",
-    "raw_snapshot_hash": "82d8e62366980516433225b2a95a3f9c11d703f65abd25a3cf22f27e90c9f6f2",
-    "extracted_content_hash": "6449a726b8866b392d8bd28ed4250e7f193773169e8893afcb0965ad134537d7",
+    "retrieved_at": "2026-09-22T11:22:27.155919Z",
+    "raw_snapshot_hash": "eb179c87afc9494419dca0e094ffef2daabe762151a1af7371dd5e5e6ef6dd48",
+    "extracted_content_hash": "89050a2c037d35521a246f3e5bc45c582d0818ccbc0587b043f6a03bb0955f5f",
     "deadline": "2026-09-29",
     "deadline_note": null,
     "start_date": null,
@@ -224,7 +244,7 @@
     "posted_date": null,
     "position_type": "postdoc",
     "funding": null,
-    "salary_text": "€3546 - €5538 per month (stated range)",
+    "salary_text": "€3706 - €5760 per month (stated range)",
     "duration_text": null,
     "location": "Delft, Netherlands",
     "language_requirements": [],
@@ -304,8 +324,8 @@
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
     "fit_overall": 42,
-    "urgency": "high",
-    "days_to_deadline": 9,
+    "urgency": "urgent",
+    "days_to_deadline": 7,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

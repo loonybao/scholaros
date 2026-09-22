@@ -6,8 +6,8 @@ organisation: "TU Delft"
 deadline: 2026-09-29
 status: open
 eligibility_gate: uncertain
-fit_overall: 23
-urgency: high
+fit_overall: 26
+urgency: urgent
 needs_review: true
 ---
 
@@ -17,14 +17,14 @@ needs_review: true
 **Deadline:** 2026-09-29
 **Location:** Delft, Netherlands
 **Position type:** phd
-**Salary:** €3059 - €3881 per month (stated range)
+**Salary:** €3204 - €4051 per month (stated range)
 **Duration:** not stated
 **Status:** open
 **Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-in-Uncertainty-Based-Life-Cycle-Modelling-for-Building-Renovation-Decision-Making-2628-CD/1370844357/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 9)
+Gate: **uncertain** (days to deadline: 7)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -59,7 +59,7 @@ here
 to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
 The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
 Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
@@ -96,27 +96,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.82_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.70_
 
-Doctoral researcher position (4 years, Horizon Europe CLIMABUILD project) in probabilistic life-cycle modelling for building renovation decision-making. Research develops uncertainty-aware methods integrating climate resilience, sustainability, and lifecycle performance for building renovation strategies.
+PhD position in probabilistic life-cycle modelling for building renovation decision-making within the Horizon Europe CLIMABUILD project. Research integrates climate resilience, lifecycle assessment, uncertainty quantification, and digital twins to support renovation strategy evaluation across European demonstration sites.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 12 |
+| Thematic fit | 20 |
 | Methodological fit | 25 |
 | Growth value | 30 |
 | Strategic value | 40 |
-| **Overall** | **23** |
+| **Overall** | **26** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python
+**Missing skills:** lifecycle-assessment, building-performance-simulation, monte-carlo-methods, climate-resilience-modelling, decision-support-systems-architecture
 
 **Risks:**
-- Different disciplinary domain (building technology, climate resilience vs. HCI, immersive systems); no obvious research bridge
-- Position emphasizes lifecycle modelling and building simulation, not human-computer interaction or spatial learning
-- Multidisciplinary supervisory team does not include HCI, learning science, or immersive systems expertise
-- Would represent strategic detour from target identity towards architecture and sustainability engineering
+- Domain shift: 4-year PhD in building science/climate adaptation delays or diverts from HCI/XR research identity.
+- Supervisor/group fit uncertain. No evidence this group supervises human-centred research or immersive systems.
+- Eligibility in question. MSc in Creative Multimedia may not satisfy 'Building Technology, Civil Engineering, Architectural Engineering' requirement.
+- Python skill at 'beginner' level; role expects competency with quantitative tools and frameworks from start.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-uncertainty-based-life-cycle-modelli.md` and link [[opp_tudelft-phd-position-in-uncertainty-based-life-cycle-modelli]]._

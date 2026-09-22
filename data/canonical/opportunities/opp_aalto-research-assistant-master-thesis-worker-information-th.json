@@ -1,0 +1,174 @@
+{
+  "id": "opp_aalto-research-assistant-master-thesis-worker-information-th",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-22T11:10:05.850509Z",
+  "updated_at": "2026-09-22T11:34:28.658667Z",
+  "change_history": [
+    {
+      "ts": "2026-09-22T11:10:05.850870Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-22T11:31:08.214069Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-22T11:34:28.658667Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Research Assistant (master thesis worker), information theory",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "research-assistant-master-thesis-worker-information-theory",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/research-assistant-master-thesis-worker-information-theory",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Research-Assistant--master-thesis-worker---information-theory_R48141-1/apply",
+    "evidence_ids": [
+      "aalto/research-assistant-master-thesis-worker-information-theory"
+    ],
+    "retrieved_at": "2026-09-22T11:10:05.849911Z",
+    "raw_snapshot_hash": "f8ab6afecc188b7d82492a2262a37244518f64920d25a7a8c061824cdb8c4e90",
+    "extracted_content_hash": "a931b03165d21fa55d88bf10508b4fd8ac3840f9baa8b6873e73f9ffdba121a4",
+    "deadline": "2026-09-24",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-21",
+    "position_type": "research_assistant",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe Information Theory research team at Aalto University (Department of Information and Communications Engineering, School of Electrical Engineering) invites applications for a 6-month\nResearch Assistant position for master thesis worker\n.\nAbout the team\nWe work across discrete mathematics and information theory, including\ncoding theory, combinatorial algorithms, design theory, and graph theory.\nComputational methods are central; the team operates a 500‑core cluster.\nWe both compete with and leverage AI; see:\nhttps://www.aalto.fi/en/news/researcher-cracks-new-kissing-number-bounds-besting-ai-in-the-process\nProject focus\nOne class of structures we study is Hadamard matrices — orthogonal combinatorial objects with applications in quantum technology. In this position, you will develop and implement computational methods to investigate how a technique called switching transforms various types of Hadamard matrices.\nQualifications\nBackground in mathematics or computer science\nExcellent programming skills and experience with C\nInterest in computational discrete mathematics and algorithmic experimentation\nNOTE!\nThis position is open only for Aalto University students.\nWhat we offer\nPaid employment for master's thesis work (salary: 2622 €/month).\nThe position is fixed term from 1 October 2026 to 31 March 2027.\nHow to apply\nTo apply, please submit your application through our recruitment site (\"Apply now!” at the bottom of the page) as soon as possible and no later than on 24 Sep 2026.\nPlease include the following attachments to your application:\nCV\nTranscript of study records\nBrief motivation letter\nPlease note: Aalto University employees should apply for the position via our internal HR system, Workday (Internal Jobs), using their existing Workday user account (not the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\nFor more information about the position, please contact Professor Patric Östergård (patric.ostergard@aalto.fi;\nhttps://users.aalto.fi/pat/\n). Yhteydenotossa voit myös käyttää suomea. Vid kontakt kan du också använda svenska.\nFor questions about the application process, please contact HR Advisor Johanna Haapalainen at hr-elec@aalto.fi.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "6-month research assistant position for Aalto University master's students in the Information Theory research team (Department of Information and Communications Engineering). Focus is computational methods for investigating Hadamard matrices and switching transformations, leveraging the team's 500-core computing cluster.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "Pure discrete mathematics and information theory (coding theory, combinatorial algorithms, graph theory, Hadamard matrices). No connection to immersive systems, spatial cognition, learning, collaboration, or human factors. Core research is computational mathematics, not HCI or XR."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Position emphasizes computational discrete mathematics and algorithm development. Researcher's expertise is in design science, user-centred evaluation, experimental HCI methods, and collaborative system design. Negligible methodological alignment. The requirement for strong C programming skills differs from researcher's Unity/C# experience."
+    },
+    "growth_value": {
+      "score": 3,
+      "rationale": "Computational mathematics skill development does not close identified gaps (eye-tracking, physiological sensing, statistics, mixed-effects modelling) nor advance immersive systems research. Would be a distraction from building a cohesive HCI research portfolio."
+    },
+    "strategic_value": {
+      "score": 5,
+      "rationale": "Position is open only to Aalto University students; researcher is enrolled at Multimedia University (Malaysia), not Aalto. Ineligible. Even if eligible, Information Theory group operates in pure mathematics, not HCI. No strategic value for target identity."
+    },
+    "required_skills": [
+      "c-programming",
+      "discrete-mathematics",
+      "algorithms",
+      "computational-methods"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "c-programming",
+      "discrete-mathematics",
+      "algorithms",
+      "computational-methods"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position explicitly restricted to Aalto University students only. Researcher is currently enrolled at Multimedia University (MMU), Malaysia. Ineligible.",
+      "Application deadline 24 September 2026.",
+      "Position fixed-term: 1 October 2026 – 31 March 2027 (6 months)."
+    ],
+    "risks": [
+      "Researcher is ineligible: position restricted to Aalto students; researcher is at MMU.",
+      "Even if eligibility could be clarified, disciplinary mismatch is severe: pure mathematics vs. HCI.",
+      "No relevance to immersive systems, spatial cognition, or human-centred research.",
+      "Short duration (6 months) and research focus (Hadamard matrices) would not contribute to HCI research portfolio or target career trajectory."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-22T11:31:08.213627Z",
+    "analysis_input_hash": "504651e70033a5013a1b1af0803042418798830b030c814bfaa94b60cd57cf35"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 4,
+    "urgency": "urgent",
+    "days_to_deadline": 2,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

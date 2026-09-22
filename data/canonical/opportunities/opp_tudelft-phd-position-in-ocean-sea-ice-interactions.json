@@ -1,0 +1,176 @@
+{
+  "id": "opp_tudelft-phd-position-in-ocean-sea-ice-interactions",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-22T11:14:02.331354Z",
+  "updated_at": "2026-09-22T11:34:28.749496Z",
+  "change_history": [
+    {
+      "ts": "2026-09-22T11:14:02.331462Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-22T11:32:08.706335Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-22T11:34:28.749496Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position in Ocean - Sea Ice Interactions",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1372788957",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Ocean-Sea-Ice-Interactions-2628-CD/1372788957/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Ocean-Sea-Ice-Interactions-2628-CD/1372788957/",
+    "evidence_ids": [
+      "tudelft/1372788957"
+    ],
+    "retrieved_at": "2026-09-22T11:14:02.331182Z",
+    "raw_snapshot_hash": "1cde107ffb09fbf4f741f52b237d98b88323a59150f4f7ee83db0e838529be17",
+    "extracted_content_hash": "f350b0d6b5aecbb6b5fecd0b96191dd8a244a7b24ac1d5050042d22a4644f4a1",
+    "deadline": "2026-11-03",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Deploy detailed models of coupled ocean / sea ice processes, probe their turbulent interactions, compare with observations, and design parameterizations for global climate models.\nJob description\nThe past decades have been associated with substantial losses of sea ice over both hemispheres. Existing climate models are currently unable to accurately forecast these changes, in part due to their imperfect representation of ocean and sea ice interactions at sub-grid scales.\nThis project aims to improve our physical understanding of these fine-scale processes, including the melting and breakage of sea ice, using a framework consisting of an ocean Large Eddy Simulation (LES) and a Discrete Element Model (DEM) of sea ice. Results from these simulations will be validated against a combination of in-situ and remote sensing data from both the Arctic and Antarctic sea ice regions. Based on this new understanding, the candidate will develop parameterizations that can emulate these physics for use in more coarsely-resolved climate models.\nThis fully-funded position is part of the European Research Council (ERC) 'ICE-FLOE' project, and will involve collaborations with other team members at TU Delft and internationally. There may also be the opportunity to assist with a research cruise in Antarctica.\nJob requirements\nMaster's degree in Earth sciences, oceanography, physics, applied mathematics, or engineering.\nDemonstrated research experience in climate, oceanography, the cryosphere, or atmospheric science.\nInterest in the intersection of solid/fluid mechanics.\nExperience working with the Julia programming language is an advantage but not required.\nAbility to work independently.\nExcellent command of written and spoken English.\nAbility to start the position in January-March 2027 (with some flexibility).\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Mukund Gupta,\nMukund.Gupta@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n3\nNovember 2026\nvia the application button and upload the following documents:\nCurriculum Vitae.\nMotivation letter detailing: (1) your interest in the research topic and (2) your experience in conducting research.\nTranscripts from your BSc and MSc degrees.\nA copy of your MSc thesis. If unavailable, a draft thesis or write-up from previous research could serve as a temporary substitute.\nApplicants selected for an interview will be asked to provide contact information of at least 3 references.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Four-year funded PhD in physical oceanography and cryosphere science, using large-eddy simulation (LES) and discrete element modelling (DEM) to study coupled ocean-sea ice processes, validate models against observations, and develop climate model parameterizations.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "The position is pure geophysical fluid dynamics and computational modelling of climate systems. The researcher's domain is human-centred immersive systems, spatial cognition, and collaborative learning. No thematic connection exists. The position makes no reference to human factors, interaction design, learning, or experience evaluation—all central to the researcher's identity."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "The position centres on numerical simulation (LES, DEM), fluid mechanics, and quantitative model-observation comparison. While the researcher conducts experimental evaluation and quantitative analysis, the methodological toolkit required—computational fluid dynamics, Large Eddy Simulation, Discrete Element Modelling, glaciology—is entirely outside the researcher's skill set. No methodological bridge exists."
+    },
+    "growth_value": {
+      "score": 3,
+      "rationale": "Programming experience in Julia and advanced numerical methods could develop computational skills, but these do not advance the target research direction. The position would require a complete reorientation into climate science, away from human-centred design and learning research. No growth value for the stated career path."
+    },
+    "strategic_value": {
+      "score": 5,
+      "rationale": "TU Delft is a priority-2 target institution and the Faculty of Civil Engineering & Geosciences is internationally strong. However, the supervisory group and research agenda (climate, oceanography, cryosphere) bear no relation to HCI or immersive learning. The position does not open doors to human-centred XR research or related communities. Institutional prestige is neutralized by disciplinary misalignment."
+    },
+    "required_skills": [
+      "oceanography",
+      "cryosphere-science",
+      "large-eddy-simulation",
+      "discrete-element-modelling",
+      "julia",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "oceanography",
+      "cryosphere-science",
+      "large-eddy-simulation",
+      "discrete-element-modelling",
+      "julia"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires Master's in Earth Sciences, Oceanography, Physics, Applied Mathematics, or Engineering. Researcher's MSc in Creative Multimedia does not align; likely rejected at eligibility stage."
+    ],
+    "risks": [
+      "Fundamental discipline mismatch: geophysics and climate science vs. human-computer interaction and educational technology.",
+      "No demonstrated research background in oceanography, climate science, or computational fluid dynamics.",
+      "LES and DEM are specialized computational methods requiring substantial ramp-up; no evidence of this expertise in profile.",
+      "Four-year commitment to a domain outside the researcher's target excludes concurrent development of immersive learning research."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-22T11:32:08.706036Z",
+    "analysis_input_hash": "077fa92ccc1257323a53012cc86c14fb4a8314f7cd6f621e73207fed06bbef0c"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 5,
+    "urgency": "medium",
+    "days_to_deadline": 42,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

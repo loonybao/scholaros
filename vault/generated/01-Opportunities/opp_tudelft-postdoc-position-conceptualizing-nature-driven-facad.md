@@ -7,7 +7,7 @@ deadline: 2026-09-29
 status: open
 eligibility_gate: uncertain
 fit_overall: 42
-urgency: high
+urgency: urgent
 needs_review: true
 ---
 
@@ -17,14 +17,14 @@ needs_review: true
 **Deadline:** 2026-09-29
 **Location:** Delft, Netherlands
 **Position type:** postdoc
-**Salary:** €3546 - €5538 per month (stated range)
+**Salary:** €3706 - €5760 per month (stated range)
 **Duration:** not stated
 **Status:** open
 **Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-Position-Conceptualizing-Nature-Driven-Facades-2628-CD/1370945957/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 9)
+Gate: **uncertain** (days to deadline: 7)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 

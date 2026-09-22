@@ -1,0 +1,114 @@
+---
+id: opp_tudelft-phd-position-in-ocean-sea-ice-interactions
+type: opportunity
+title: "PhD Position in Ocean - Sea Ice Interactions"
+organisation: "TU Delft"
+deadline: 2026-11-03
+status: open
+eligibility_gate: uncertain
+fit_overall: 5
+urgency: medium
+needs_review: true
+---
+
+# PhD Position in Ocean - Sea Ice Interactions
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-11-03
+**Location:** Delft, Netherlands
+**Position type:** phd
+**Salary:** €3204 - €4051 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-in-Ocean-Sea-Ice-Interactions-2628-CD/1372788957/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 42)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Deploy detailed models of coupled ocean / sea ice processes, probe their turbulent interactions, compare with observations, and design parameterizations for global climate models.
+Job description
+The past decades have been associated with substantial losses of sea ice over both hemispheres. Existing climate models are currently unable to accurately forecast these changes, in part due to their imperfect representation of ocean and sea ice interactions at sub-grid scales.
+This project aims to improve our physical understanding of these fine-scale processes, including the melting and breakage of sea ice, using a framework consisting of an ocean Large Eddy Simulation (LES) and a Discrete Element Model (DEM) of sea ice. Results from these simulations will be validated against a combination of in-situ and remote sensing data from both the Arctic and Antarctic sea ice regions. Based on this new understanding, the candidate will develop parameterizations that can emulate these physics for use in more coarsely-resolved climate models.
+This fully-funded position is part of the European Research Council (ERC) 'ICE-FLOE' project, and will involve collaborations with other team members at TU Delft and internationally. There may also be the opportunity to assist with a research cruise in Antarctica.
+Job requirements
+Master's degree in Earth sciences, oceanography, physics, applied mathematics, or engineering.
+Demonstrated research experience in climate, oceanography, the cryosphere, or atmospheric science.
+Interest in the intersection of solid/fluid mechanics.
+Experience working with the Julia programming language is an advantage but not required.
+Ability to work independently.
+Excellent command of written and spoken English.
+Ability to start the position in January-March 2027 (with some flexibility).
+TU Delft (Delft University of Technology)
+Working at TU Delft means contributing to solutions that really make a difference.
+For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
+At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
+Faculty of Civil Engineering and Geosciences
+The Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.
+Click
+here
+to go to the website of the Faculty of Civil Engineering & Geosciences.
+Conditions of employment
+Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
+The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.
+Additional information
+For more information about this vacancy, please contact Mukund Gupta,
+Mukund.Gupta@tudelft.nl
+.
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+3
+November 2026
+via the application button and upload the following documents:
+Curriculum Vitae.
+Motivation letter detailing: (1) your interest in the research topic and (2) your experience in conducting research.
+Transcripts from your BSc and MSc degrees.
+A copy of your MSc thesis. If unavailable, a draft thesis or write-up from previous research could serve as a temporary substitute.
+Applicants selected for an interview will be asked to provide contact information of at least 3 references.
+Doing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the
+Graduate Schools Admission Requirements
+.
+Please note:
+You can apply online.
+We will not process applications sent by email and/or post.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+
+Four-year funded PhD in physical oceanography and cryosphere science, using large-eddy simulation (LES) and discrete element modelling (DEM) to study coupled ocean-sea ice processes, validate models against observations, and develop climate model parameterizations.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 8 |
+| Growth value | 3 |
+| Strategic value | 5 |
+| **Overall** | **5** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** oceanography, cryosphere-science, large-eddy-simulation, discrete-element-modelling, julia
+
+**Risks:**
+- Fundamental discipline mismatch: geophysics and climate science vs. human-computer interaction and educational technology.
+- No demonstrated research background in oceanography, climate science, or computational fluid dynamics.
+- LES and DEM are specialized computational methods requiring substantial ramp-up; no evidence of this expertise in profile.
+- Four-year commitment to a domain outside the researcher's target excludes concurrent development of immersive learning research.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-ocean-sea-ice-interactions.md` and link [[opp_tudelft-phd-position-in-ocean-sea-ice-interactions]]._

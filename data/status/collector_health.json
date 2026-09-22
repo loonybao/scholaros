@@ -1,47 +1,47 @@
 {
   "tampere": {
-    "last_run": "2026-09-20T10:54:33.183304+00:00",
-    "last_success": "2026-09-20T10:54:33.183304+00:00",
+    "last_run": "2026-09-22T11:12:36.249606+00:00",
+    "last_success": "2026-09-22T11:12:36.249606+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 11,
-      "relevant": 8,
+      "fetched": 10,
+      "relevant": 7,
       "created": 0,
       "updated": 0,
-      "unchanged": 8,
+      "unchanged": 7,
       "candidates": 0,
       "skipped_irrelevant": 3
     }
   },
   "aalto": {
-    "last_run": "2026-09-20T10:53:43.711469+00:00",
-    "last_success": "2026-09-20T10:53:43.711469+00:00",
+    "last_run": "2026-09-22T11:11:51.973029+00:00",
+    "last_success": "2026-09-22T11:11:51.973029+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 24,
-      "relevant": 16,
-      "created": 0,
+      "fetched": 28,
+      "relevant": 19,
+      "created": 3,
       "updated": 0,
       "unchanged": 16,
       "candidates": 1,
-      "skipped_irrelevant": 7
+      "skipped_irrelevant": 8
     }
   },
   "tudelft": {
-    "last_run": "2026-09-20T11:05:13.949695+00:00",
-    "last_success": "2026-09-20T11:05:13.949695+00:00",
+    "last_run": "2026-09-22T11:24:14.281023+00:00",
+    "last_success": "2026-09-22T11:24:14.281023+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 84,
-      "relevant": 55,
-      "created": 0,
-      "updated": 0,
-      "unchanged": 55,
-      "candidates": 1,
-      "skipped_irrelevant": 28
+      "fetched": 86,
+      "relevant": 60,
+      "created": 8,
+      "updated": 9,
+      "unchanged": 43,
+      "candidates": 0,
+      "skipped_irrelevant": 26
     }
   },
   "euraxess": {
@@ -60,18 +60,18 @@
     }
   },
   "varbi": {
-    "last_run": "2026-09-20T11:11:12.259011+00:00",
-    "last_success": "2026-09-20T11:11:12.259011+00:00",
+    "last_run": "2026-09-22T11:30:06.905666+00:00",
+    "last_success": "2026-09-22T11:30:06.905666+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 56,
-      "relevant": 39,
-      "created": 0,
-      "updated": 0,
-      "unchanged": 39,
+      "fetched": 54,
+      "relevant": 38,
+      "created": 1,
+      "updated": 2,
+      "unchanged": 35,
       "candidates": 1,
-      "skipped_irrelevant": 16
+      "skipped_irrelevant": 15
     }
   }
 }

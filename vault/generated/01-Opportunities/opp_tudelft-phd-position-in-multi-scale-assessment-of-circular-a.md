@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-04
 status: open
 eligibility_gate: uncertain
-fit_overall: 51
+fit_overall: 42
 urgency: high
 needs_review: true
 ---
@@ -17,14 +17,14 @@ needs_review: true
 **Deadline:** 2026-10-04
 **Location:** Delft, Netherlands
 **Position type:** phd
-**Salary:** €3059 - €3881 per month (stated range)
+**Salary:** €3204 - €4051 per month (stated range)
 **Duration:** not stated
 **Status:** open
 **Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-in-Multi-Scale-Assessment-of-Circular-and-Climate-Resilient-Building-Construction-2628-CD/1372084257/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 14)
+Gate: **uncertain** (days to deadline: 12)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -66,7 +66,7 @@ here
 to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
 The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
 Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
@@ -105,26 +105,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.76_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
 
-TU Delft Faculty of Architecture and Built Environment seeks a PhD researcher to develop multi-scale assessment methods and digital databases for circular and climate-resilient building construction and renovation pathways, supported by the Horizon Europe AURORA project. Work will map innovative building technologies, develop pre-evaluated configuration catalogues, integrate data into parametric datasets, and apply framework to Dutch urban case study.
+Horizon Europe-funded 4-year doctoral position at TU Delft, Faculty of Architecture and the Built Environment, within the AURORA project. Role focuses on multi-scale assessment methods for circular and climate-resilient building construction, including technology mapping, catalogue development, digital database design, and application to Dutch urban neighborhoods. Positions spans building materials/systems, resilience analysis, and digital workflows.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 42 |
-| Methodological fit | 68 |
-| Growth value | 45 |
-| Strategic value | 38 |
-| **Overall** | **51** |
+| Thematic fit | 25 |
+| Methodological fit | 45 |
+| Growth value | 50 |
+| Strategic value | 65 |
+| **Overall** | **42** |
 
 **Fit type:** adjacent-methodological-fit
 
-**Missing skills:** python, mixed-effects-modelling, statistics
+**Missing skills:** building-sciences, building-technology, architectural-engineering, resilience-analysis, gis, digital-workflows, quantitative-assessment
 
 **Risks:**
-- Educational background mismatch: researcher's MSc is in creative multimedia and HCI, not architecture, engineering, or construction-related disciplines. Initial eligibility screening may exclude without strong interdisciplinary narrative.
-- Domain expertise gap: position assumes foundational knowledge of building systems, resilience analysis, and circular construction; researcher lacks this background.
-- Three-year commitment in sustainability-built-environment context represents career divergence from HCI/XR target. Limited networking benefit for future human-centred immersive systems research.
+- Master's degree discipline (Creative Multimedia) is peripheral to stated requirements (Building Sciences, Architectural Engineering, Civil Engineering). Application screening may reject based on disciplinary mismatch.
+- Researcher lacks foundational knowledge in building technology, resilience analysis, and construction systems; significant onboarding required.
+- Core research focus is building/urban scale, not human-centred immersive experience or spatial cognition. Research outputs would not directly strengthen HCI publication record or network.
+- GIS and digital workflow tools are orthogonal to researcher's current toolkit (Unity, C#); would require new technical foundation.
+- 4-year commitment, while adjacent methodologically, would consume time better spent building cohesive HCI portfolio.
+- Supervisors are architecture/sustainability specialists; mentorship in immersive systems or spatial learning is unlikely.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-multi-scale-assessment-of-circular-a.md` and link [[opp_tudelft-phd-position-in-multi-scale-assessment-of-circular-a]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-08T10:53:15.463089Z",
-  "updated_at": "2026-09-20T11:11:12.693257Z",
+  "updated_at": "2026-09-22T11:34:28.846694Z",
   "change_history": [
     {
       "ts": "2026-09-08T10:53:15.463174Z",
@@ -143,6 +143,25 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-22T11:20:17.451470Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at",
+        "official.salary_text"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-09-22T11:34:28.846694Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -156,9 +175,9 @@
     "evidence_ids": [
       "tudelft/1371486257"
     ],
-    "retrieved_at": "2026-09-08T10:53:15.462939Z",
-    "raw_snapshot_hash": "eefaff7d14220f655fb04fedc76843f11ef36e1d360b6805f6ef505f9739d3a3",
-    "extracted_content_hash": "7a81e30ffef6e84b21bc6d64ef64a339d15edf53b702fcb9165cd19c2f4a92af",
+    "retrieved_at": "2026-09-22T11:20:17.451023Z",
+    "raw_snapshot_hash": "d4178b10e50245bc81c4d9931748d0a957bdc9724c05364f08f24a808c27abd7",
+    "extracted_content_hash": "500a2332d2fc8cf91838ddc17774eddbba76b7517f54c672eaec393cb8b00d6d",
     "deadline": "2026-10-06",
     "deadline_note": null,
     "start_date": null,
@@ -168,7 +187,7 @@
     "posted_date": null,
     "position_type": "phd",
     "funding": null,
-    "salary_text": "€3546 - €5538 per month (stated range)",
+    "salary_text": "€3706 - €5760 per month (stated range)",
     "duration_text": null,
     "location": "Delft, Netherlands",
     "language_requirements": [],
@@ -244,7 +263,7 @@
     ],
     "fit_overall": 33,
     "urgency": "high",
-    "days_to_deadline": 16,
+    "days_to_deadline": 14,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

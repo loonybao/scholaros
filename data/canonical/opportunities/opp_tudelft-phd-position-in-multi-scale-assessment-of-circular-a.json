@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-15T11:23:56.700087Z",
-  "updated_at": "2026-09-20T11:11:12.587298Z",
+  "updated_at": "2026-09-22T11:34:28.747106Z",
   "change_history": [
     {
       "ts": "2026-09-15T11:23:56.700199Z",
@@ -94,6 +94,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-22T11:17:04.826179Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at",
+        "official.salary_text"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-09-22T11:31:08.216694Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-22T11:34:28.747106Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -107,9 +148,9 @@
     "evidence_ids": [
       "tudelft/1372084257"
     ],
-    "retrieved_at": "2026-09-15T11:23:56.699893Z",
-    "raw_snapshot_hash": "4694c093f769ac40909f86dce5afb81f2ee39d72f35a45c68e59a6deac2b1a36",
-    "extracted_content_hash": "028a8771f9d49be992128c6c4b5f3d3a01ea0a3064d58dc4b9320088cfbd0f42",
+    "retrieved_at": "2026-09-22T11:17:04.825732Z",
+    "raw_snapshot_hash": "619c75285f1d7926ef66e68b129d2bcc3a7a500b0b1bf44981b4c5355599a34e",
+    "extracted_content_hash": "a2c7db520bdad49a7bc487d23f7019766f6416206148f39b977fa4f8105014ac",
     "deadline": "2026-10-04",
     "deadline_note": null,
     "start_date": null,
@@ -119,7 +160,7 @@
     "posted_date": null,
     "position_type": "phd",
     "funding": null,
-    "salary_text": "€3059 - €3881 per month (stated range)",
+    "salary_text": "€3204 - €4051 per month (stated range)",
     "duration_text": null,
     "location": "Delft, Netherlands",
     "language_requirements": [],
@@ -128,53 +169,68 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Challenge: Accelerate the transition towards circular and resilient buildings.\nChange: Develop multi-scale assessment methods.\nImpact: Enable scalable pathways for urban environments.\nJob description\nThe Faculty of Architecture and the Built Environment of Delft University of Technology is hiring a PhD researcher to work on a recently awarded Horizon Europe project, entitled AURORA (Shaping safe, sustainable, and human-centered places) under the supervision of Assistant Professors Simona Bianchi and Olga Ioannou, and Associate Professor Maria Pregnolato.\nThe broader AURORA project aims at accelerating the transformation of the built environment towards climate resilience and circularity. The project has a strong social perspective aiming at both technological and governance innovation. It combines innovative construction technologies, digital workflows, multi-level governance approaches, and participatory processes to support the development and implementation of resilient renovation strategies. Through demonstration pilots across Europe, AURORA provides practical frameworks for municipalities, practitioners, and stakeholders to evaluate and implement sustainable construction and renovation pathways.\nIn your role as a PhD researcher, you will contribute to the development of AURORA resilient and circular strategies multi-scale assessment framework for designing circular and climate-resilient building construction and renovation pathways. Your research will focus on mapping and cataloguing innovative building technologies and investigating how individual products and product systems interact and can be combined into circular and resilient building configurations. Furthermore, you will contribute to the development of a digital database containing structured data for construction and renovation pathways, exploring how these can be adapted to different building typologies and hazard scenarios. You will then apply the developed framework to a Dutch urban neighborhood case-study.\nKey activities include:\nMapping integrated construction and renovation strategies, covering structural systems, façades and building systems equipment across different building typologies, climatic conditions and hazard contexts.\nDeveloping a catalogue of pre-evaluated configurations, supporting informed selection of resilient and circular construction and renovation options.\nAssisting in the integration of assessed technologies and pathways into decision-ready parametric datasets and a structured database, enabling direct integration into AURORA digital planning workflows.\nApplying the framework in real-time in a Dutch urban neighborhood.\nYou will collaborate with two research groups within the Faculty of Architecture and the Built Environment: Structures and Materials (restructgroup) and Building Design & Technology (architectural-facades-products), and one group within the Faculty of Civil Engineering and Geosciences: Hydraulic Structures and Flood Risk (hydraulic-structures-and-flood-risk). The position is funded for 48 months, during which the candidate will conduct doctoral research while contributing to the broader AURORA research program. The project offers opportunities to collaborate with leading European universities, industry partners, municipalities and public authorities working on circular construction, digital workflows and resilient urban development.\nJob requirements\nYou have a MSc degree in Building Sciences, such as Architectural Engineering, Building Technology, Civil Engineering, Environmental Engineering, or a related discipline;\nYou have demonstrated knowledge of one or more of the following areas: circular construction, resilience analysis, building technologies, building performance;\nYou have demonstrated experience in multi-scale approaches linking materials, components, buildings and urban systems and quantitative performance assessment methods;\nKnowledge of GIS, digital workflows or programming (e.g. Python) is an advantage;\nYou have excellent oral and written communication skills in English. For more details, please check the Graduate Schools Admission Requirements.\nKnowledge of Dutch is considered a plus;\nYou are able to work independently and as part of a team, and to build collaborative, interdisciplinary/transdisciplinary networks;\nYou are motivated to develop innovative methods to support circular and resilient transformation of the built environment.\nTU Delft (Delft University of Technology)\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nChallenge. Change. Impact!\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Simona Bianchi, via e-mail:\ns.bianchi@tudelft.nl\n.\nFor more information about the application procedure, please contact paulien Stastra, HR Advisor,\ne-mail:\nrecruitment-bk@tudelft.nl\n.\n#EUfunded This is an EU funded project, named AURORA, with project number 101326153, within program H2020 / Horizon Europe.\nApplication procedure\nPlease apply no later than\n4 October 2026\n(local Dutch time + 2 hrs) via the application button and upload the following five items:\nYour CV - highlighting examples of projects and/or achievements that demonstrate skills relevant to the advertised position.\nYour motivation letter (no more than 600 words) addressing your interests and describing how your experience and plans fit with the position.\nThe contact information for two references (letters not required at this stage).\nYour MSc thesis and, if applicable, one or two notable publications you have authored.\nYour undergraduate and graduate transcripts.\nWe would like to ask prospective candidates to kindly refrain from contacting the supervisory team with questions regarding the research scope or the suitability of their individual background. All relevant information is provided in the vacancy and the candidates’ profiles will be assessed as part of the formal selection process.\nShortlisted candidates will be invited to first-round interviews in mid-October, with a decision expected in early November.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "Challenge: Accelerate the transition towards circular and resilient buildings.\nChange: Develop multi-scale assessment methods.\nImpact: Enable scalable pathways for urban environments.\nJob description\nThe Faculty of Architecture and the Built Environment of Delft University of Technology is hiring a PhD researcher to work on a recently awarded Horizon Europe project, entitled AURORA (Shaping safe, sustainable, and human-centered places) under the supervision of Assistant Professors Simona Bianchi and Olga Ioannou, and Associate Professor Maria Pregnolato.\nThe broader AURORA project aims at accelerating the transformation of the built environment towards climate resilience and circularity. The project has a strong social perspective aiming at both technological and governance innovation. It combines innovative construction technologies, digital workflows, multi-level governance approaches, and participatory processes to support the development and implementation of resilient renovation strategies. Through demonstration pilots across Europe, AURORA provides practical frameworks for municipalities, practitioners, and stakeholders to evaluate and implement sustainable construction and renovation pathways.\nIn your role as a PhD researcher, you will contribute to the development of AURORA resilient and circular strategies multi-scale assessment framework for designing circular and climate-resilient building construction and renovation pathways. Your research will focus on mapping and cataloguing innovative building technologies and investigating how individual products and product systems interact and can be combined into circular and resilient building configurations. Furthermore, you will contribute to the development of a digital database containing structured data for construction and renovation pathways, exploring how these can be adapted to different building typologies and hazard scenarios. You will then apply the developed framework to a Dutch urban neighborhood case-study.\nKey activities include:\nMapping integrated construction and renovation strategies, covering structural systems, façades and building systems equipment across different building typologies, climatic conditions and hazard contexts.\nDeveloping a catalogue of pre-evaluated configurations, supporting informed selection of resilient and circular construction and renovation options.\nAssisting in the integration of assessed technologies and pathways into decision-ready parametric datasets and a structured database, enabling direct integration into AURORA digital planning workflows.\nApplying the framework in real-time in a Dutch urban neighborhood.\nYou will collaborate with two research groups within the Faculty of Architecture and the Built Environment: Structures and Materials (restructgroup) and Building Design & Technology (architectural-facades-products), and one group within the Faculty of Civil Engineering and Geosciences: Hydraulic Structures and Flood Risk (hydraulic-structures-and-flood-risk). The position is funded for 48 months, during which the candidate will conduct doctoral research while contributing to the broader AURORA research program. The project offers opportunities to collaborate with leading European universities, industry partners, municipalities and public authorities working on circular construction, digital workflows and resilient urban development.\nJob requirements\nYou have a MSc degree in Building Sciences, such as Architectural Engineering, Building Technology, Civil Engineering, Environmental Engineering, or a related discipline;\nYou have demonstrated knowledge of one or more of the following areas: circular construction, resilience analysis, building technologies, building performance;\nYou have demonstrated experience in multi-scale approaches linking materials, components, buildings and urban systems and quantitative performance assessment methods;\nKnowledge of GIS, digital workflows or programming (e.g. Python) is an advantage;\nYou have excellent oral and written communication skills in English. For more details, please check the Graduate Schools Admission Requirements.\nKnowledge of Dutch is considered a plus;\nYou are able to work independently and as part of a team, and to build collaborative, interdisciplinary/transdisciplinary networks;\nYou are motivated to develop innovative methods to support circular and resilient transformation of the built environment.\nTU Delft (Delft University of Technology)\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nChallenge. Change. Impact!\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Simona Bianchi, via e-mail:\ns.bianchi@tudelft.nl\n.\nFor more information about the application procedure, please contact paulien Stastra, HR Advisor,\ne-mail:\nrecruitment-bk@tudelft.nl\n.\n#EUfunded This is an EU funded project, named AURORA, with project number 101326153, within program H2020 / Horizon Europe.\nApplication procedure\nPlease apply no later than\n4 October 2026\n(local Dutch time + 2 hrs) via the application button and upload the following five items:\nYour CV - highlighting examples of projects and/or achievements that demonstrate skills relevant to the advertised position.\nYour motivation letter (no more than 600 words) addressing your interests and describing how your experience and plans fit with the position.\nThe contact information for two references (letters not required at this stage).\nYour MSc thesis and, if applicable, one or two notable publications you have authored.\nYour undergraduate and graduate transcripts.\nWe would like to ask prospective candidates to kindly refrain from contacting the supervisory team with questions regarding the research scope or the suitability of their individual background. All relevant information is provided in the vacancy and the candidates’ profiles will be assessed as part of the formal selection process.\nShortlisted candidates will be invited to first-round interviews in mid-October, with a decision expected in early November.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "TU Delft Faculty of Architecture and Built Environment seeks a PhD researcher to develop multi-scale assessment methods and digital databases for circular and climate-resilient building construction and renovation pathways, supported by the Horizon Europe AURORA project. Work will map innovative building technologies, develop pre-evaluated configuration catalogues, integrate data into parametric datasets, and apply framework to Dutch urban case study.",
+    "summary": "Horizon Europe-funded 4-year doctoral position at TU Delft, Faculty of Architecture and the Built Environment, within the AURORA project. Role focuses on multi-scale assessment methods for circular and climate-resilient building construction, including technology mapping, catalogue development, digital database design, and application to Dutch urban neighborhoods. Positions spans building materials/systems, resilience analysis, and digital workflows.",
     "fit_type": "adjacent-methodological-fit",
     "thematic_fit": {
-      "score": 42,
-      "rationale": "Limited thematic overlap. Position focuses on circular building construction, climate resilience, and sustainable urban design—domains outside researcher's stated identity (human-centred XR, spatial learning, collaboration). However, position does address 'sustainable futures' and participatory processes, which align with broader impact goals. No mention of immersive technologies, learning systems, or user engagement—researcher's core strengths."
+      "score": 25,
+      "rationale": "Position is anchored in building science, construction technology, and urban resilience—not immersive systems or spatial cognition. However, there is a peripheral conceptual connection: the multi-scale assessment approach (materials → components → buildings → urban systems) echoes systems thinking; the digital database and parametric datasets share vocabulary with interactive system design. The social perspective and participatory processes in AURORA have weak methodological resonance with collaborative design. Overall, thematic distance is large; the overlap is architectural systems thinking, not human experience or spatial learning."
     },
     "methodological_fit": {
-      "score": 68,
-      "rationale": "Moderate methodological bridge. Position values digital workflows, data structures, GIS systems, and programming (Python mentioned as advantage). Researcher has software development rigor (Unity, C#) but no stated GIS or architectural information systems (AIS) experience. Position requires multi-scale systems thinking and integration of heterogeneous data—a methodological strength applicable to researcher's domain but not directly demonstrated. Researcher's quantitative experimental design skills do not map to this role's focus on technology cataloguing and database design."
+      "score": 45,
+      "rationale": "Position emphasizes design-oriented research, multi-scale mapping, cataloguing, database design, and framework development—methodologically closer to design science than previous opportunities. The research process (specifying configurations, testing in real-world pilots, participatory workflows) has some alignment with user-centred design and evaluation frameworks. The digital workflows component echoes interactive systems design. However, core methodologies focus on building performance, material science, and technical standardization, not human factors, spatial perception, or immersive experience. The experimental validation is technical (performance metrics), not experiential (user studies). Adjacent, but not adjacent-HCI."
     },
     "growth_value": {
-      "score": 45,
-      "rationale": "Limited growth toward researcher's target identity. While position offers valuable expertise in GIS, parametric design, decision-support systems, and digital integration, these skills develop in construction/sustainability context, not HCI or immersive systems. Three-year investment yields transferable software engineering and systems-thinking capabilities but diverts from core spatial-learning and XR research trajectory. No direct advancement toward independent HCI researcher identity or supervisor network in target domain."
+      "score": 50,
+      "rationale": "Would develop expertise in multi-scale system assessment, digital workflow integration, and real-world case study application—transferable to complex immersive systems (e.g., parametric design of spatial experiences, multi-level assessment frameworks). The database and digital systems work could strengthen technical foundations for building interactive XR platforms. The participatory and social dimensions of AURORA align conceptually with collaborative design. Identified gaps (eye-tracking, physiological sensing) remain unaddressed, but advanced statistics and mixed-methods could be developed. Growth is in design-systems thinking, not narrow to immersive learning, but conceptually adjacent."
     },
     "strategic_value": {
-      "score": 38,
-      "rationale": "Weak strategic alignment. TU Delft is a priority institution (Netherlands in preferred list), and AURORA is prestigious Horizon Europe funding. However, supervisory team (Bianchi, Ioannou, Pregnolato) specialize in architecture, built environment resilience, and circular construction—not human-centred HCI or XR. Position does not build toward target supervisor profiles at Aalto or TU Delft's HCI/media groups. Limited network transfer to researcher's stated target research areas."
+      "score": 65,
+      "rationale": "TU Delft is Priority 1 target; Faculty of Architecture is world-leading in design-oriented research. Horizon Europe funding is stable and prestigious. Supervisors Simona Bianchi, Olga Ioannou, and Maria Pregnolato are recognized researchers in sustainable design and urban systems. Collaborative network spans multiple TU Delft faculties (Architecture, Civil Engineering) and European partners—strong intellectual ecosystem. Position offers genuine interdisciplinary exposure. However, research domain is not immersive systems or HCI; the adjacent fit is in design-systems methodology, not thematic focus. Geographic and institutional fit is excellent; disciplinary positioning is tangential."
     },
     "required_skills": [
-      "experimental-design",
-      "quantitative-research",
-      "python"
+      "building-sciences",
+      "building-technology",
+      "architectural-engineering",
+      "resilience-analysis",
+      "gis",
+      "digital-workflows",
+      "python",
+      "quantitative-assessment",
+      "academic-writing"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "quantitative-research",
-      "experimental-design"
+      "python",
+      "academic-writing"
     ],
     "missing_skills": [
-      "python",
-      "mixed-effects-modelling",
-      "statistics"
+      "building-sciences",
+      "building-technology",
+      "architectural-engineering",
+      "resilience-analysis",
+      "gis",
+      "digital-workflows",
+      "quantitative-assessment"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "MSc in Building Sciences, Architectural Engineering, Civil Engineering, or Environmental Engineering required. Researcher holds MSc by Research in Multimedia (Creative Multimedia)—not a conventional building science degree. Application may be rejected at initial screening unless interdisciplinary argument (e.g., digital systems, design science) is persuasive.",
-      "Experience in multi-scale systems and quantitative performance assessment expected; researcher has limited demonstrated evidence in built environment domain.",
-      "Python programming is listed as advantage; researcher rates beginner level with no project experience."
+      "Requires MSc in Building Sciences (Architectural Engineering, Building Technology, Civil Engineering, Environmental Engineering, or related). Researcher's MSc is in Creative Multimedia (Creative Multimedia Faculty, MMU). Significant disciplinary distance; may screen out, though 'related discipline' language allows some flexibility.",
+      "Preferred: knowledge of GIS, digital workflows, Python—researcher has Python (beginner level) but no GIS or digital workflow background.",
+      "Preferred: knowledge of circular construction, resilience analysis, building technologies, building performance. Researcher has none of these.",
+      "Application deadline 4 October 2026.",
+      "Dutch language is a plus but not required."
     ],
     "risks": [
-      "Educational background mismatch: researcher's MSc is in creative multimedia and HCI, not architecture, engineering, or construction-related disciplines. Initial eligibility screening may exclude without strong interdisciplinary narrative.",
-      "Domain expertise gap: position assumes foundational knowledge of building systems, resilience analysis, and circular construction; researcher lacks this background.",
-      "Three-year commitment in sustainability-built-environment context represents career divergence from HCI/XR target. Limited networking benefit for future human-centred immersive systems research."
+      "Master's degree discipline (Creative Multimedia) is peripheral to stated requirements (Building Sciences, Architectural Engineering, Civil Engineering). Application screening may reject based on disciplinary mismatch.",
+      "Researcher lacks foundational knowledge in building technology, resilience analysis, and construction systems; significant onboarding required.",
+      "Core research focus is building/urban scale, not human-centred immersive experience or spatial cognition. Research outputs would not directly strengthen HCI publication record or network.",
+      "GIS and digital workflow tools are orthogonal to researcher's current toolkit (Unity, C#); would require new technical foundation.",
+      "4-year commitment, while adjacent methodologically, would consume time better spent building cohesive HCI portfolio.",
+      "Supervisors are architecture/sustainability specialists; mentorship in immersive systems or spatial learning is unlikely."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -182,23 +238,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.76,
+    "confidence": 0.75,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-09-15T11:41:15.867178Z",
-    "analysis_input_hash": "313404c81c8638c70a8d09b5ed9c2a92baef81ac7d13c9d1e19b88e21cc072e8"
+    "analyzed_at": "2026-09-22T11:31:08.216328Z",
+    "analysis_input_hash": "8757c8144d665c4de4689b984a00d479187a09a14f741516667d387c56f1379b"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 51,
+    "fit_overall": 42,
     "urgency": "high",
-    "days_to_deadline": 14,
+    "days_to_deadline": 12,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
