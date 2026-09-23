@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-30
 status: open
 eligibility_gate: uncertain
-fit_overall: 24
+fit_overall: 18
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 38)
+Gate: **uncertain** (days to deadline: 37)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -32,18 +32,17 @@ Gate: **uncertain** (days to deadline: 38)
 
 Shape intelligent control and coordination in future complex systems, from sustainable energy grids to autonomous mobility. In this ERC-funded PhD project, you develop cutting-edge game-theoretic control and optimization methods.
 Job description
-Modern society depends on complex, interconnected systems such as sustainable power grids, autonomous vehicles and human-machine collaborative systems. Ensuring that these systems operate safely, efficiently and fairly is a major scientific and societal challenge. It requires fundamentally new approaches to control and optimization in environments where multiple agents interact under uncertainty and constraints.[LC2.1]
+Modern society depends on complex, interconnected systems such as sustainable power grids, autonomous vehicles and human-machine collaborative systems. Ensuring that these systems operate safely, efficiently and fairly is a major scientific and societal challenge. It requires fundamentally new approaches to control and optimization in environments where multiple agents interact under uncertainty and constraints.
 In this PhD project at TU Delft, you will develop distributed computational methods for game-theoretic control and optimization to address these challenges. As part of the European Research Council (ERC)-funded project “Data-driven Game Theoretic Control for Constrained Systems” (ARGON), you will work at the forefront of fundamental research with high potential for technological impact.
-You will conduct theoretical and computational research on dynamic game theory and multi-agent optimization for uncertain systems. By building on tools from distributed optimization, convex-monotone game theory, and hybrid systems, you will develop new computational frameworks for data-driven game-theoretic control in large-scale multi-agent systems. These methods will contribute to applications such as multi-actor power grids, multi-vehicle automated driving and human-machine collaboration, enabling safer, more efficient and more sustainable operations.[LC3.1]
+You will conduct theoretical and computational research on dynamic game theory and multi-agent optimization for uncertain systems. By building on tools from distributed optimization, convex-monotone game theory, and hybrid systems, you will develop new computational frameworks for data-driven game-theoretic control in large-scale multi-agent systems. These methods will contribute to applications such as multi-actor power grids, multi-vehicle automated driving and human-machine collaboration, enabling safer, more efficient and more sustainable operations.
 Your responsibilities
 As a PhD researcher, you will:
 Analyze the complexity of relevant structured classes of distributed game equilibrium problems.
 Develop data-driven decomposition methods for structured game equilibrium problems.
 Develop data-driven, fast and scalable computational methods for game equilibrium problems.
-[LC4.1]Develop an open-source computational toolbox for dynamic game equilibrium problems.
+Develop an open-source computational toolbox for dynamic game equilibrium problems.
 Teaching activities are part of your PhD trajectory and may include, for example: supervising workgroups or lab sessions, assisting in courses, or mentoring BSc and MSc students. While teaching will not be your main responsibility, it offers valuable experience that supports your development and prepares you for future academic or professional roles.
 Your work environment
-[LC5.1]
 You will join the Delft Center for Systems and Control (DCSC) within the Faculty of Mechanical Engineering. DCSC is an internationally leading research centre where PhD candidates, postdocs and faculty members work on modeling, analysis, control and optimization of complex dynamical systems relevant to science, engineering and society. You will focus on optimization-based, data-driven and partially model-based control methods. You will have access to a strong research network and a broad range of expertise across systems and control, optimization and data-driven methods. At DCSC, you will find an open and collaborative environment where interdisciplinary teamwork, intellectual curiosity and scientific excellence are valued. We work closely across research clusters and application domains such as energy, mobility and high-tech systems, sharing a drive to deepen fundamental understanding and contribute to societally relevant, sustainable solutions.
 Job requirements
 You are a curious and proactive researcher who enjoys tackling complex theoretical and computational problems. You are motivated by fundamental scientific questions and take initiative in exploring novel ideas. You work well independently, while also thriving in a collaborative and internationally oriented research environment. As a strong team player, you contribute actively to discussions within a diverse research group and are open to feedback and new perspectives.
@@ -100,28 +99,30 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.85_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-ERC-funded 4-year doctoral position at TU Delft, Delft Center for Systems and Control (Faculty of Mechanical Engineering). Focus is data-driven game-theoretic control and optimization methods for multi-agent systems in applications such as power grids, autonomous vehicles, and human-machine collaboration.
+TU Delft is recruiting a PhD researcher to develop distributed computational methods for game-theoretic control and multi-agent optimization in dynamic systems. Work spans systems control, game theory, and optimization with applications to power grids, autonomous vehicles, and human-machine collaboration. Core is control theory and applied mathematics, not HCI or immersive systems.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 15 |
 | Methodological fit | 20 |
-| Growth value | 25 |
-| Strategic value | 55 |
-| **Overall** | **24** |
+| Growth value | 15 |
+| Strategic value | 25 |
+| **Overall** | **18** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** systems-control, game-theory, optimization, distributed-algorithms, matlab
+**Missing skills:** game-theory, systems-control, optimization-theory, convex-analysis, distributed-algorithms, control-systems-simulation, advanced-mathematics
 
 **Risks:**
-- Disciplinary mismatch: systems control and game theory vs. HCI and design science. Researcher has no background in control theory, optimization, or game theory.
-- Master's degree field (Creative Multimedia / Multimedia at Malaysian university) may be viewed as outside the specified disciplinary scope (Systems & Control, Engineering, Applied Math). Risk of application screening rejection.
-- Steep learning curve required in mathematical foundations (distributed optimization, game-theoretic equilibria) unrelated to immersive systems research.
-- Doctoral research in control theory would create portfolio fragmentation; difficult to transition back to human-centred immersive systems afterward.
-- Supervisor and research group are in systems/control, not HCI or XR; limited mentorship alignment with target identity.
+- Domain misalignment: Systems control and game-theoretic optimization are fundamentally different from human-centred XR research, design science, and learning science.
+- Eligibility uncertainty: MSc background in Creative Multimedia/HCI does not match stated preference for Systems/Control/Engineering backgrounds. May be rejected at screening.
+- Skills barrier: Game theory, convex analysis, distributed optimization, and control theory are specialized mathematical disciplines. Learning curve is steep; researcher would be starting from foundational courses, not cutting-edge research.
+- Opportunity cost: Four years in control theory delays entry into immersive systems research and makes XR positions less competitive upon graduation.
+- Weak supervisory fit: While DCSC is excellent, Prof. Grammatico's expertise (systems control, optimization) does not align with human-centred XR or learning science. Cross-disciplinary mentoring would be limited.
+- Publication risk: Output would be in control/optimization venues, not HCI/learning science journals where the researcher needs visibility.
+- The mention of 'human-machine collaboration' is superficial—the core research is mathematical, not behavioral or experiential.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-data-driven-distributed-game-theory.md` and link [[opp_tudelft-phd-position-data-driven-distributed-game-theory]]._

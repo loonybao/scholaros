@@ -1,0 +1,164 @@
+---
+id: opp_tampere-doctoral-researcher-administrative-sciences-business
+type: opportunity
+title: "Doctoral Researcher (Administrative Sciences, Business Studies and Politics), 4 positions"
+organisation: "Tampere University"
+deadline: 2026-10-16
+status: open
+eligibility_gate: uncertain
+fit_overall: 16
+urgency: medium
+needs_review: true
+---
+
+# Doctoral Researcher (Administrative Sciences, Business Studies and Politics), 4 positions
+
+**Organisation:** [[org_tampere_university]] (Tampere University)
+**Deadline:** 2026-10-16 (23:59 local time)
+**Location:** Tampere, Finland
+**Position type:** phd
+**Salary:** not stated
+**Duration:** not stated
+**Status:** open
+**Official source:** https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3181
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 23)
+
+- funding/salary not confirmed on the posting
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+[Teksti suomeksi alla]
+Together,
+Tampere University and Tampere University of Applied Sciences
+form a higher education community that places faith in people and scientific knowledge. Leading experts in the fields of technology, health and society are changing the world at Finland’s second largest multidisciplinary higher education institution.
+At
+the Faculty of Management and Business
+, we teach and carry out high-quality, international research in the areas of administrative sciences, business studies, politics, information and knowledge management, and industrial engineering and management. With 3,500 students and more than 300 staff members, our Faculty is a large academic community.
+In
+the Doctoral Programme in Administrative Sciences, Business Studies and Politics
+, students can complete the following doctoral degrees: Doctor of Administrative Sciences, Doctor of Science (Econ./Business Adm.), Doctor of Social Sciences and Doctor of Philosophy. We have fully funded Doctoral Researcher (postgraduate student) positions open as follows:
+Job description
+Doctoral Researchers are expected to:
+pursue a doctoral degree in one of the subjects of our doctoral programme and
+participate in teaching and other specified tasks.
+Requirements
+The persons selected for the positions are expected to:
+have a Master's degree or equivalent from a university,
+present a research and study plan approved by a supervisor and
+have been accepted to pursue a doctoral degree in the Doctoral Programme in Administrative Sciences, Business Studies and Politics, before signing the employment contract.
+Successful candidates are selected based on the level of scientific promise they show. This will be evaluated on the basis of their research and study plans as well as their track record in previous studies. Evidence of the progress of the doctoral dissertation and/or scientific publishing is considered an advantage.
+Priority will be given to applicants who have not received full-time funding for four years before the end of the application period.
+Before applying, the applicant must secure a supervisor for their doctoral thesis by communicating with the Unit that is closest to the subject area of their thesis.
+Please note that applicants for the Doctoral Researcher positions must apply separately to the
+Doctoral Programme in Administrative Science, Business Studies and Politics
+, unless they have already been granted the right to pursue doctoral studies in that Programme.
+We offer
+The doctoral researcher positions will be filled for a fixed-term period beginning on January 1, 2027. The positions will be filled for 1—3 years, and the duration of the employment period depends on the research phase. A trial period (of six months) applies to all our new employees.
+The salary will be based on both the job demands and the employee's personal performance in accordance with the University Salary System. The current starting salary for this position is €2774,69 per month. Our incentive salary system for Doctoral Researchers ensures that the salary increases as the doctoral thesis and studies progress.
+We offer a wide range of staff benefits, such as occupational health care, flexible working hours, several restaurants on campus, and excellent sports facilities on campus. Please read more about
+working at Tampere University
+.
+We invite you to be a part of a vibrant, active and international research community. Interdisciplinarity is highly encouraged, as it allows you to expand your research network and exposes you to new perspectives and ideas to solve complex research problems and pursue novel research findings. We have a strong commitment to the highest level of scientific research and the provision of high-quality doctoral education.
+How to apply
+Please submit your application through our online recruitment system by
+23:59 EEST (20:59 UTC, GMT+3) on October 16, 2026
+. Applications must include the following documents in one pdf-file:
+A Curriculum Vitae according to the
+TENK template
+, including the date when you received your study right towards a doctoral degree in our doctoral programme.
+Your
+research and study plan
+, including a time schedule for your doctoral dissertation project.
+A list of your publications according to the
+Research Council of Finland guidelines
+.
+A detailed account of grants received for doctoral dissertation research and previous employment at Finnish research schools or other similar positions.
+Contact information of your supervisor(s) for further details.
+Please remember that
+you cannot apply
+unless
+you have a pre-arranged supervisor at Tampere University in the discipline to which you are applying.
+More information
+For more information about the positions, please contact:
+Professor Eija Vinnari, Head of Doctoral Programme, eija.vinnari[at]tuni.fi
+For more information about the recruitment process, please contact:
+HR Specialist Anni Zilliacus anni.zilliacus[at]tuni.fi
+*******************************************************************************
+Tampereen yliopisto ja Tampereen ammattikorkeakoulu
+muodostavat korkeakouluyhteisön, joka uskoo ihmiseen ja tieteeseen. Tekniikan, terveyden ja yhteiskunnan huippuosaajat muuttavat maailmaa Suomen toiseksi suurimmassa monitieteisessä ja innostavassa tutkimus- ja oppimisympäristössä.
+Johtamisen ja talouden tiedekunnassa
+tehdään korkeatasoista, monitieteistä ja kansainvälistä tutkimusta ja annetaan opetusta hallintotieteiden, kauppatieteiden, politiikan tutkimuksen, tietojohtamisen ja tuotantotalouden tutkimusaloilla. Tiedekunnan muodostaa laaja-alainen tiedeyhteisö, johon kuuluu noin 3500 opiskelijaa ja yli 300 henkilökunnan edustajaa.
+Hallintotieteiden, kauppatieteiden ja politiikan tutkimuksen tohtoriohjelmassa
+koulutetaan hallintotieteiden, kauppatieteiden ja yhteiskuntatieteiden tohtoreita. Tohtoriohjelmassa on avoinna väitöskirjatutkijan rahoitettuja tehtäviä.
+Tehtävänkuvaus
+Väitöskirjatutkijan tehtävänä on:
+suorittaa tohtorin tutkinto Tampereen yliopistossa hallintotieteiden, kauppatieteiden ja politiikan tutkimuksen tohtoriohjelmassa sekä
+osallistua lisäksi opetustoimintaan ja muihin määriteltyihin tehtäviin.
+Edellytykset
+Tehtävään valittavalta edellytämme
+ylempää korkeakoulututkintoa,
+ohjaajan hyväksymää opinto- ja tutkimussuunnitelmaa sekä
+ennen työsuhteen alkamista myönnettyä jatko-opinto-oikeutta hallintotieteiden, kauppatieteiden ja politiikan tutkimuksen tohtoriohjelmaan.
+Valinnan perusteena on hakijan tieteellinen lupaavuus, jota arvioidaan esitetyn tutkimus- ja opintosuunnitelman sekä aiemmissa opinnoissa osoitetun menestyksen perusteella. Näytöt väitöskirjatyön etenemisestä ja/tai tieteellisestä julkaisemista ovat eduksi.
+Tehtävää täytettäessä otetaan huomioon myös hakijan aiemmin päätoimiseen väitöskirjatyöskentelyyn saama rahoitus. Etusijalla ovat ne hakijat, jotka ennen hakuajan päättymistä eivät ole saaneet päätoimista työskentelyä mahdollistavaa rahoitusta neljää vuotta.
+Hakijalla on ennen hakemuksen jättämistä oltava ohjaaja siitä Tampereen yliopiston yksiköstä, jonka alaan väitöskirja kuuluu.
+Tohtorikoulutettavan tehtävää hakevien tulee hakea erikseen
+hallintotieteiden, kauppatieteiden ja politiikan tutkimuksen tohtoriohjelmaan
+, ellei heille ole jo myönnetty oikeutta suorittaa tohtoriopintoja kyseisessä ohjelmassa.
+Tarjoamme
+Tehtävä täytetään 1.1.2027 alkaen ja määräaikaisesti 1—3 vuoden ajalle. Työsuhteen kesto määräytyy väitöskirjatyön vaiheen perusteella. Tehtävässä on työehtosopimuksen mukainen kuuden kuukauden koeaika.
+Tehtävän palkkaus määräytyy yliopistojen opetus- ja tutkimushenkilöstön palkkausjärjestelmän mukaisesti. Tämänhetkinen väitöskirjatutkijan aloituspalkka on 2774,69 euroa. Tehtävästä saatu ansio kasvaa palkkausmallin mukaisesti väitöskirjatyön edetessä.
+Tarjoamme mahdollisuuden työskennellä aktiivisessa ja innovatiivisessa työyhteisössä. Henkilöstöetuihimme kuuluu muun muassa joustavat työskentelymahdollisuudet, edulliset kampusravintolat kaikilla kampuksille sekä henkilöstön kulttuuri- ja liikuntaharrastusten tukeminen. Lue lisää
+työskentelystä meillä
+.
+Hakuohjeet
+Jätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta). Hakuaika tehtävään päättyy
+16.10.2026 klo 23.59.
+Liitä hakemukseesi (yhtenä pdf-tiedostona):
+ansioluettelo
+Tutkimuseettisen neuvottelukunnan (TENK) ansioluettelomallin
+mukaisesti sisältäen tiedon siitä, milloin opinto-oikeus tohtoriopintoihin on saatu
+julkaisuluettelo
+Suomen Akatemian ohjeiden
+mukaisesti
+tutkimus- ja opintosuunnitelma
+, joka sisältää väitöskirjatyön aikataulun
+tarkka selvitys väitöskirjatutkimusta varten aiemmin saaduista apurahoista tai selvitys aiemmasta työsuhteesta valtakunnallisessa tutkijakoulussa tai vastaavassa
+ohjaajan/ohjaajien yhteystiedot mahdollisia lisätietoja varten.
+Huomioithan, että et voi hakea tehtävää, ellei sinulla ole ennalta sovittua ohjaajaa Tampereen yliopistossa siinä opintosuunnassa, jonka alaan väitöskirjatutkimuksesi liittyy.
+Lisätietoja
+Professori Eija Vinnari, tohtoriohjelmavastaava, eija.vinnari[at]tuni.fi
+Hakuprosessiin liittyen:
+HR-asiantuntija Anni Zilliacus, anni.zilliacus[at]tuni.fi
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.85_
+
+Tampere University is recruiting four fully-funded doctoral researchers across Administrative Sciences, Business Studies, and Politics. Candidates must secure a pre-arranged supervisor and submit a research plan; positions begin January 2027 for 1–3 years depending on dissertation phase.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 10 |
+| Methodological fit | 25 |
+| Growth value | 5 |
+| Strategic value | 20 |
+| **Overall** | **16** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** organizational-analysis, policy-analysis, administrative-science, business-theory
+
+**Risks:**
+- Domain misalignment: Administrative Sciences, Business Studies, and Politics are orthogonal to the researcher's target identity (human-centred XR, immersive learning, spatial cognition).
+- Supervisor uncertainty: Posting requires pre-arranged supervisor; no indication that Tampere has faculty in XR or immersive systems HCI. Proposing a cross-disciplinary thesis without strong local HCI supervision is high-risk.
+- Opportunity cost: Three years pursuing a PhD in business/admin sciences delays entry into the XR research community and makes subsequent XR positions less competitive.
+- Publication risk: Output would be in business/organizational journals, not HCI/learning science venues where the researcher needs visibility.
+- Eligibility not confirmed: Background in Creative Multimedia / XR is not explicitly mentioned as acceptable for this programme.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-administrative-sciences-business.md` and link [[opp_tampere-doctoral-researcher-administrative-sciences-business]]._

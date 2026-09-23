@@ -1,0 +1,176 @@
+{
+  "id": "opp_tampere-doctoral-researcher-administrative-sciences-business",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-23T11:02:22.031042Z",
+  "updated_at": "2026-09-23T11:25:10.239828Z",
+  "change_history": [
+    {
+      "ts": "2026-09-23T11:02:22.031144Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-23T11:23:35.217493Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-23T11:25:10.239828Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher (Administrative Sciences, Business Studies and Politics), 4 positions",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3181",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3181",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3181#login_form",
+    "evidence_ids": [
+      "tampere/3181"
+    ],
+    "retrieved_at": "2026-09-23T11:02:22.030901Z",
+    "raw_snapshot_hash": "5d92512949e17f169ebf9a6045aa5bfe153a414b61c3dda47917c6063b8cf4af",
+    "extracted_content_hash": "4f0604587182611406c602ca491a4f484552143049d0f86d4a695dcdb535cff3",
+    "deadline": "2026-10-16",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-23",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "[Teksti suomeksi alla]\nTogether,\nTampere University and Tampere University of Applied Sciences\nform a higher education community that places faith in people and scientific knowledge. Leading experts in the fields of technology, health and society are changing the world at Finland’s second largest multidisciplinary higher education institution.\nAt\nthe Faculty of Management and Business\n, we teach and carry out high-quality, international research in the areas of administrative sciences, business studies, politics, information and knowledge management, and industrial engineering and management. With 3,500 students and more than 300 staff members, our Faculty is a large academic community.\nIn\nthe Doctoral Programme in Administrative Sciences, Business Studies and Politics\n, students can complete the following doctoral degrees: Doctor of Administrative Sciences, Doctor of Science (Econ./Business Adm.), Doctor of Social Sciences and Doctor of Philosophy. We have fully funded Doctoral Researcher (postgraduate student) positions open as follows:\nJob description\nDoctoral Researchers are expected to:\npursue a doctoral degree in one of the subjects of our doctoral programme and\nparticipate in teaching and other specified tasks.\nRequirements\nThe persons selected for the positions are expected to:\nhave a Master's degree or equivalent from a university,\npresent a research and study plan approved by a supervisor and\nhave been accepted to pursue a doctoral degree in the Doctoral Programme in Administrative Sciences, Business Studies and Politics, before signing the employment contract.\nSuccessful candidates are selected based on the level of scientific promise they show. This will be evaluated on the basis of their research and study plans as well as their track record in previous studies. Evidence of the progress of the doctoral dissertation and/or scientific publishing is considered an advantage.\nPriority will be given to applicants who have not received full-time funding for four years before the end of the application period.\nBefore applying, the applicant must secure a supervisor for their doctoral thesis by communicating with the Unit that is closest to the subject area of their thesis.\nPlease note that applicants for the Doctoral Researcher positions must apply separately to the\nDoctoral Programme in Administrative Science, Business Studies and Politics\n, unless they have already been granted the right to pursue doctoral studies in that Programme.\nWe offer\nThe doctoral researcher positions will be filled for a fixed-term period beginning on January 1, 2027. The positions will be filled for 1—3 years, and the duration of the employment period depends on the research phase. A trial period (of six months) applies to all our new employees.\nThe salary will be based on both the job demands and the employee's personal performance in accordance with the University Salary System. The current starting salary for this position is €2774,69 per month. Our incentive salary system for Doctoral Researchers ensures that the salary increases as the doctoral thesis and studies progress.\nWe offer a wide range of staff benefits, such as occupational health care, flexible working hours, several restaurants on campus, and excellent sports facilities on campus. Please read more about\nworking at Tampere University\n.\nWe invite you to be a part of a vibrant, active and international research community. Interdisciplinarity is highly encouraged, as it allows you to expand your research network and exposes you to new perspectives and ideas to solve complex research problems and pursue novel research findings. We have a strong commitment to the highest level of scientific research and the provision of high-quality doctoral education.\nHow to apply\nPlease submit your application through our online recruitment system by\n23:59 EEST (20:59 UTC, GMT+3) on October 16, 2026\n. Applications must include the following documents in one pdf-file:\nA Curriculum Vitae according to the\nTENK template\n, including the date when you received your study right towards a doctoral degree in our doctoral programme.\nYour\nresearch and study plan\n, including a time schedule for your doctoral dissertation project.\nA list of your publications according to the\nResearch Council of Finland guidelines\n.\nA detailed account of grants received for doctoral dissertation research and previous employment at Finnish research schools or other similar positions.\nContact information of your supervisor(s) for further details.\nPlease remember that\nyou cannot apply\nunless\nyou have a pre-arranged supervisor at Tampere University in the discipline to which you are applying.\nMore information\nFor more information about the positions, please contact:\nProfessor Eija Vinnari, Head of Doctoral Programme, eija.vinnari[at]tuni.fi\nFor more information about the recruitment process, please contact:\nHR Specialist Anni Zilliacus anni.zilliacus[at]tuni.fi\n*******************************************************************************\nTampereen yliopisto ja Tampereen ammattikorkeakoulu\nmuodostavat korkeakouluyhteisön, joka uskoo ihmiseen ja tieteeseen. Tekniikan, terveyden ja yhteiskunnan huippuosaajat muuttavat maailmaa Suomen toiseksi suurimmassa monitieteisessä ja innostavassa tutkimus- ja oppimisympäristössä.\nJohtamisen ja talouden tiedekunnassa\ntehdään korkeatasoista, monitieteistä ja kansainvälistä tutkimusta ja annetaan opetusta hallintotieteiden, kauppatieteiden, politiikan tutkimuksen, tietojohtamisen ja tuotantotalouden tutkimusaloilla. Tiedekunnan muodostaa laaja-alainen tiedeyhteisö, johon kuuluu noin 3500 opiskelijaa ja yli 300 henkilökunnan edustajaa.\nHallintotieteiden, kauppatieteiden ja politiikan tutkimuksen tohtoriohjelmassa\nkoulutetaan hallintotieteiden, kauppatieteiden ja yhteiskuntatieteiden tohtoreita. Tohtoriohjelmassa on avoinna väitöskirjatutkijan rahoitettuja tehtäviä.\nTehtävänkuvaus\nVäitöskirjatutkijan tehtävänä on:\nsuorittaa tohtorin tutkinto Tampereen yliopistossa hallintotieteiden, kauppatieteiden ja politiikan tutkimuksen tohtoriohjelmassa sekä\nosallistua lisäksi opetustoimintaan ja muihin määriteltyihin tehtäviin.\nEdellytykset\nTehtävään valittavalta edellytämme\nylempää korkeakoulututkintoa,\nohjaajan hyväksymää opinto- ja tutkimussuunnitelmaa sekä\nennen työsuhteen alkamista myönnettyä jatko-opinto-oikeutta hallintotieteiden, kauppatieteiden ja politiikan tutkimuksen tohtoriohjelmaan.\nValinnan perusteena on hakijan tieteellinen lupaavuus, jota arvioidaan esitetyn tutkimus- ja opintosuunnitelman sekä aiemmissa opinnoissa osoitetun menestyksen perusteella. Näytöt väitöskirjatyön etenemisestä ja/tai tieteellisestä julkaisemista ovat eduksi.\nTehtävää täytettäessä otetaan huomioon myös hakijan aiemmin päätoimiseen väitöskirjatyöskentelyyn saama rahoitus. Etusijalla ovat ne hakijat, jotka ennen hakuajan päättymistä eivät ole saaneet päätoimista työskentelyä mahdollistavaa rahoitusta neljää vuotta.\nHakijalla on ennen hakemuksen jättämistä oltava ohjaaja siitä Tampereen yliopiston yksiköstä, jonka alaan väitöskirja kuuluu.\nTohtorikoulutettavan tehtävää hakevien tulee hakea erikseen\nhallintotieteiden, kauppatieteiden ja politiikan tutkimuksen tohtoriohjelmaan\n, ellei heille ole jo myönnetty oikeutta suorittaa tohtoriopintoja kyseisessä ohjelmassa.\nTarjoamme\nTehtävä täytetään 1.1.2027 alkaen ja määräaikaisesti 1—3 vuoden ajalle. Työsuhteen kesto määräytyy väitöskirjatyön vaiheen perusteella. Tehtävässä on työehtosopimuksen mukainen kuuden kuukauden koeaika.\nTehtävän palkkaus määräytyy yliopistojen opetus- ja tutkimushenkilöstön palkkausjärjestelmän mukaisesti. Tämänhetkinen väitöskirjatutkijan aloituspalkka on 2774,69 euroa. Tehtävästä saatu ansio kasvaa palkkausmallin mukaisesti väitöskirjatyön edetessä.\nTarjoamme mahdollisuuden työskennellä aktiivisessa ja innovatiivisessa työyhteisössä. Henkilöstöetuihimme kuuluu muun muassa joustavat työskentelymahdollisuudet, edulliset kampusravintolat kaikilla kampuksille sekä henkilöstön kulttuuri- ja liikuntaharrastusten tukeminen. Lue lisää\ntyöskentelystä meillä\n.\nHakuohjeet\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta). Hakuaika tehtävään päättyy\n16.10.2026 klo 23.59.\nLiitä hakemukseesi (yhtenä pdf-tiedostona):\nansioluettelo\nTutkimuseettisen neuvottelukunnan (TENK) ansioluettelomallin\nmukaisesti sisältäen tiedon siitä, milloin opinto-oikeus tohtoriopintoihin on saatu\njulkaisuluettelo\nSuomen Akatemian ohjeiden\nmukaisesti\ntutkimus- ja opintosuunnitelma\n, joka sisältää väitöskirjatyön aikataulun\ntarkka selvitys väitöskirjatutkimusta varten aiemmin saaduista apurahoista tai selvitys aiemmasta työsuhteesta valtakunnallisessa tutkijakoulussa tai vastaavassa\nohjaajan/ohjaajien yhteystiedot mahdollisia lisätietoja varten.\nHuomioithan, että et voi hakea tehtävää, ellei sinulla ole ennalta sovittua ohjaajaa Tampereen yliopistossa siinä opintosuunnassa, jonka alaan väitöskirjatutkimuksesi liittyy.\nLisätietoja\nProfessori Eija Vinnari, tohtoriohjelmavastaava, eija.vinnari[at]tuni.fi\nHakuprosessiin liittyen:\nHR-asiantuntija Anni Zilliacus, anni.zilliacus[at]tuni.fi"
+  },
+  "ai": {
+    "summary": "Tampere University is recruiting four fully-funded doctoral researchers across Administrative Sciences, Business Studies, and Politics. Candidates must secure a pre-arranged supervisor and submit a research plan; positions begin January 2027 for 1–3 years depending on dissertation phase.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "Minimal thematic overlap. The doctoral programme is administrative science, business studies, and politics—fundamentally different from human-centred XR, immersive learning, and spatial cognition. The researcher's domains (collaborative immersive systems, wayfinding, learning design) do not map to business administration or political science unless framed as organizational innovation, which is not evident in the posting."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Modest adjacency only. Both domains can employ qualitative and quantitative methods (user studies, questionnaires, mixed-methods), but the research epistemology differs fundamentally. Administrative sciences typically use organizational analysis, policy analysis, and institutional frameworks; the researcher's work is grounded in HCI, embodied cognition, and learning science. No clear methodological bridge."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "This position would not close meaningful capability gaps for the researcher's target identity. While organizational or management perspectives could tangentially enrich XR research, a full PhD in administrative science is a costly detour. The researcher's gaps (statistics, advanced qualitative analysis, physiological sensing) are not addressed here."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Tampere University is a reputable Finnish institution (meets geographic preference). However, the Faculty of Management and Business is not aligned with XR/HCI research networks. Supervisory fit is uncertain—the posting requires pre-arranged supervisor, but no HCI/immersive systems faculty are mentioned. Funding is secure and provided, but in a misaligned discipline."
+    },
+    "required_skills": [
+      "academic-writing",
+      "qualitative-research",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "organizational-analysis",
+      "policy-analysis",
+      "administrative-science",
+      "business-theory"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher must secure supervisor *before* applying. Posting does not identify HCI or immersive systems supervisors at Tampere; significant uncertainty whether suitable mentorship exists.",
+      "Researcher holds MSc by Research in Creative Multimedia. Posting does not explicitly state whether non-administrative-science MScs are eligible, though 'Master's degree or equivalent' suggests openness. Verify with program contact."
+    ],
+    "risks": [
+      "Domain misalignment: Administrative Sciences, Business Studies, and Politics are orthogonal to the researcher's target identity (human-centred XR, immersive learning, spatial cognition).",
+      "Supervisor uncertainty: Posting requires pre-arranged supervisor; no indication that Tampere has faculty in XR or immersive systems HCI. Proposing a cross-disciplinary thesis without strong local HCI supervision is high-risk.",
+      "Opportunity cost: Three years pursuing a PhD in business/admin sciences delays entry into the XR research community and makes subsequent XR positions less competitive.",
+      "Publication risk: Output would be in business/organizational journals, not HCI/learning science venues where the researcher needs visibility.",
+      "Eligibility not confirmed: Background in Creative Multimedia / XR is not explicitly mentioned as acceptable for this programme."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.85,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-23T11:23:35.217020Z",
+    "analysis_input_hash": "2141afdea99270890065602582b5e3f4818cc9a2c7901ed0567d25b2439817eb"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 16,
+    "urgency": "medium",
+    "days_to_deadline": 23,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "id": "opp_tudelft-postdoctoral-researcher-in-ai-education-research",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-23T11:05:02.628279Z",
+  "updated_at": "2026-09-23T11:25:10.428802Z",
+  "change_history": [
+    {
+      "ts": "2026-09-23T11:05:02.628395Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-23T11:23:35.221590Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-23T11:25:10.428802Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Researcher in AI Education Research",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-architecture-and-the-built-environment",
+    "source": "tudelft",
+    "source_native_id": "1372831057",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoctoral-Researcher-in-AI-Education-Research-2628-CD/1372831057/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoctoral-Researcher-in-AI-Education-Research-2628-CD/1372831057/",
+    "evidence_ids": [
+      "tudelft/1372831057"
+    ],
+    "retrieved_at": "2026-09-23T11:05:02.628141Z",
+    "raw_snapshot_hash": "ee0ea426491f4b4439f27d626127dc1add3c3d6cc9d476b1dd4274cc2142b721",
+    "extracted_content_hash": "039d901c36656ba2087022ccd56f43fb6f328652ca8867047d57e26a43ae3f4d",
+    "deadline": "2026-10-18",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "As the AI technological landscape continuously inspires innovation, are you keen to uncover the student perspective, and the implications of AI for meaningful student learning?\nJob description\nDelft University of Technology (TU Delft) is looking for a postdoctoral researcher within the TU Delft Teaching Academy Initiative on Innovation in Delft Engineering Education (IDEE).\nThe position falls within the IDEE project “Teaching and Learning in the Age of AI”, focusing  on how we, as a university of technology, can respond to the rise of AI in the learning process. What does AI mean for the way we teach and learn? How can meaningful learning be redefined in today’s AI-enabled educational landscape? The project has the following overarching goals: (1) develop a theoretical framework of constructive alignment for AI-rich teaching environments; (2) identify which patterns of student-AI interactions influence the adoption of deep or surface approaches to learning; (3) create, implement and evaluate guidelines and knowledge base for teachers to design their courses so the use of AI contributes to meaningful learning; and (4) create an engaged community around teaching and learning in the age of AI.\nFor this post-doc position you will build on two trajectories currently underway. The first is led by a PhD researcher who investigates educational practices that protect learning in the presence of increasingly powerful automation tools. The second, led by a postdoctoral researcher, develops a framework for redefining meaningful learning in the age of AI. Building on these, you will explore ways that AI guidelines are being integrated into TU Delft courses across the campus and study their impact on meaningful student learning. Your initial goal will be to engage with the educational community involved in the project. You will then compile results from experiments and initiatives happening across the university. This preliminary investigation will inform a study that you will design and implement in TU Delft classroom(s). Ultimately, you will produce recommendations for implementation of guidelines across a range of university disciplinary settings.\nAs a disciplinary expert and senior researcher you will have the opportunity to assist in advising a PhD project, and will facilitate collaboration with the project’s existing team: a second postdoctoral researcher, research assistants, an educational advisor, and an interfaculty team of researchers and educators. Thus, we are seeking a highly motivated, collaborative, and talented researcher, with a keen eye for strong research designs.\nYour recommendations will be developed through inquiry of questions such as:\nHow do guidelines translate to different teaching methods used across faculties? Examples include: lecture, workshop, studio, seminar, and online learning material.\nWhat are the respective learning objectives, and assessments used in different disciplines and how do these integrate AI guidelines?\nHow do AI guidelines influence student learning and how should educators integrate AI guidelines into their course planning?\nWhat recommendations do you have for AI guidelines and policies that take into account student learning and diverging teaching methods for different disciplines?\nAs a postdoctoral researcher, you will:\nEngage with Teaching Academy and education staff across TU Delft faculties to connect policies and guidelines to implementation approaches.\nSupport researchers experimenting with the impact of AI on student learning.\nReview results from multiple studies and research in the IDEE group, to provide concrete recommendations.\nEnvisioned outputs:\nPeer-reviewed publications on realised impacts of policy and guidelines in classroom settings across engineering disciplines.\nRecommendations for implementing guidelines for designing learning objectives, teaching activities, and assessments that prioritise student learning in the age of AI.\nJob requirements\nYou hold a PhD in Educational Science, Learning Sciences, Social and Behavioural Sciences, Engineering Education, Human-Computer Interaction or a related field.\nYour research background demonstrates a clear focus on education, learning or human behaviour.\nYou have AI literacy and a strong interest in educational innovation, technology and AI.\nYou are familiar with, or have an affinity for, design and/or engineering education research.\nYou have experience with qualitative and quantitative research methods.\nYou have a keen eye for robust research designs and enjoy conducting interdisciplinary research.\nYou communicate clearly in English, both verbally and in writing.\nYou work effectively both independently and collaboratively in a multidisciplinary environment.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDuration of contract is 2 years. Temporary.\nA job of 32-38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact A.E. (Angela) Rout, via e-mail:\na.e.rout@tudelft.nl\n.\nFor more information about the application procedure, please contact Sofie Hennekens, HR advisor,\nvia\nrecruitment-BK@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n18 October 2026\nvia the application button and upload the following documents:\nCV including details of all academic outputs.\nCoverletter outlining your qualifications and motivation (max.1 side, A4 format, font size no smaller than 9 points).\nExecutive summary of your PhD dissertation.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "TU Delft is recruiting a postdoctoral researcher to investigate how AI guidelines integrate into engineering courses across disciplines and their impact on meaningful student learning. Work involves educational research, classroom studies, and cross-faculty engagement to produce recommendations for AI-informed course design. Core focus is learning science and engineering education, not immersive systems or XR.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 50,
+      "rationale": "Moderate thematic adjacency. Both the position and the researcher's work prioritize learning, educational design, and student experience. The position frames learning through the lens of AI integration and meaningful learning theory; the researcher frames it through immersive systems, spatial cognition, and collaboration. The questions—'what learning approaches work when tools change?', 'how do students learn best?'—are aligned at a high level. However, the position does not focus on immersive systems, spatial understanding, or multiplayer collaboration. The intersection is 'learning design in technology-rich environments,' which is real but not the researcher's specific expertise."
+    },
+    "methodological_fit": {
+      "score": 65,
+      "rationale": "Good adjacency. Position requires mixed-methods research (qualitative engagement with educators, quantitative classroom studies, synthesis of results across contexts). Researcher has intermediate experience with user studies, experimental design, and quantitative research. The position emphasizes classroom observation, instructor interviews, and multi-site implementation evaluation—familiar qualitative and mixed-methods territory. However, the researcher's empirical work centers on controlled spatial tasks and task performance; this position requires ethnographic-style classroom engagement and policy-to-practice translation, which is a step beyond the researcher's demonstrated practice. Overall: methodologically adjacent, with some gap in qualitative depth and cross-site synthesis."
+    },
+    "growth_value": {
+      "score": 60,
+      "rationale": "Moderate growth value. This position would develop the researcher's capabilities in (1) learning sciences theory and research design beyond spatial cognition; (2) qualitative research and stakeholder engagement at scale; (3) translating research into institutional practice and policy; (4) cross-disciplinary communication. These are valuable capabilities for a senior human-centred researcher. However, this position does *not* address the researcher's stated gaps (statistics/mixed-effects modeling, eye-tracking, physiological sensing). The learning outcomes are complementary rather than filling priority gaps. Growth is in breadth (educational systems) not depth (spatial cognition or immersive technologies)."
+    },
+    "strategic_value": {
+      "score": 70,
+      "rationale": "Good strategic value. TU Delft is excellent (Netherlands meets geographic preference). The Teaching Academy and IDEE project are well-positioned institutions for educational research. The position is postdoctoral (not doctoral), which is aligned with the researcher's MSc status—though the researcher is still completing the thesis, so timing is uncertain. Publishing in engineering education and learning sciences venues would build credibility in that research community. However, this does *not* directly advance the researcher's target identity (human-centred XR researcher). The adjacency is lateral—moving into educational research more broadly rather than deepening immersive systems expertise. Connection to XR supervisors or groups is not evident."
+    },
+    "required_skills": [
+      "academic-writing",
+      "qualitative-research",
+      "quantitative-research",
+      "experimental-design",
+      "mixed-methods"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing",
+      "experimental-design",
+      "quantitative-research",
+      "user-studies"
+    ],
+    "missing_skills": [
+      "mixed-methods",
+      "qualitative-research",
+      "learning-sciences-theory",
+      "educational-policy-analysis",
+      "cross-site-ethnography"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires PhD in Educational Science, Learning Sciences, Social/Behavioural Sciences, Engineering Education, or HCI. Researcher holds MSc by Research in Creative Multimedia with focus on immersive learning and HCI—related but not identical. Eligibility depends on whether 'HCI' is interpreted as qualifying and whether the HCI work on learning is sufficient to substitute for formal educational science training. Likely borderline; recommend contacting a.e.rout@tudelft.nl to clarify.",
+      "Researcher is still in thesis stage (MSc by Research in progress). Position begins likely in 2027; researcher must complete MSc before starting. Timeline is tight but potentially feasible if thesis concludes by late 2026."
+    ],
+    "risks": [
+      "Disciplinary expansion, not deepening: Position moves the researcher toward educational research broadly, not toward the researcher's stated target identity (human-centred XR/immersive systems researcher). May dilute XR focus.",
+      "Supervisory alignment uncertain: Posting does not identify supervisors with XR or immersive systems expertise. Angela Rout (project lead) is in architecture/education; no indication of collaboration with VR/XR groups. Mentorship may not reinforce researcher's target trajectory.",
+      "Timing risk: Researcher must complete MSc thesis before postdoc start (likely 2027). If thesis completion is delayed, position may be lost.",
+      "PhD timing: Postdoc positions often assume PhD is complete. Researcher holds MSc by Research, not PhD. Verify with recruitment that this is acceptable; some institutions may require enrolled PhD status or completed PhD.",
+      "Limited XR/immersive systems visibility: Publications and network in educational research are valuable, but separate from immersive systems HCI community where the researcher aims to build standing.",
+      "Not a research priority match: Researcher's target identity emphasizes spatial understanding, wayfinding, real-world transfer, and multiplayer collaboration—not broad learning science or AI in education.",
+      "Growth in breadth over depth: Position develops educational research skills broadly but not the specific methodological gaps (statistics, physiological sensing) the researcher identified."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.7,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-23T11:23:35.221283Z",
+    "analysis_input_hash": "13919e0fe695874fff615807340d16817284eadd82aedba70ddd2613347ba195"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 60,
+    "urgency": "medium",
+    "days_to_deadline": 25,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

@@ -3,18 +3,18 @@ id: opp_varbi-doctoral-student-in-information-and-coding-theory-for
 type: opportunity
 title: "Doctoral student in information and coding theory for federated learning"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-09-24
+deadline: 2026-10-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 12
-urgency: urgent
+fit_overall: 9
+urgency: high
 needs_review: true
 ---
 
 # Doctoral student in information and coding theory for federated learning
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-09-24
+**Deadline:** 2026-10-01
 **Location:** Stockholm, Sweden
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 8)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -124,33 +124,34 @@ Ragnar Thobaben, Professor, ragnart@kth.se
 Published
 03.Sep.2026
 Last application date
-24.Sep.2026
+01.Oct.2026
 Apply for position
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-KTH/DTU joint doctoral position in information theory and coding for federated machine learning resilience and efficiency, with required mobility between Stockholm and Copenhagen.
+Doctoral position in information and coding theory applied to federated machine learning, focusing on communication efficiency and node resilience in distributed ML. Jointly supervised by KTH and DTU with required mobility between Stockholm and Copenhagen.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 10 |
-| Methodological fit | 8 |
+| Methodological fit | 5 |
 | Growth value | 5 |
-| Strategic value | 35 |
-| **Overall** | **12** |
+| Strategic value | 20 |
+| **Overall** | **9** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics, mixed-effects-modelling
+**Missing skills:** information-theory, coding-theory, stochastic-analysis, mathematical-systems-analysis, federated-learning, machine-learning-fundamentals
 
 **Risks:**
-- Steep learning curve in theoretical foundations (stochastic processes, information theory, optimization) before meaningful research contributions.
-- Misalignment of PhD research trajectory with target identity; would spend 3–4 years in mathematical systems optimization rather than human-centred immersive research.
-- Required mobility between KTH and DTU complicates networking within target HCI/XR research community in Europe.
+- Career pivot away from target identity; doctoral training in information theory and federated ML would not build toward human-centred immersive systems research
+- Mathematical background gap is significant; researcher would struggle with core theoretical content
+- Supervision group (theoretical ML/information theory) has no HCI or XR expertise; limited mentorship for maintaining research identity
+- Dual-site supervision adds logistical burden (required 1+ year at DTU); geographic constraint may conflict with preference for priority-1 institutions (Aalto, Delft)
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-information-and-coding-theory-for.md` and link [[opp_varbi-doctoral-student-in-information-and-coding-theory-for]]._
