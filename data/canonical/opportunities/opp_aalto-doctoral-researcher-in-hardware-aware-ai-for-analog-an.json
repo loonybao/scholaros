@@ -1,0 +1,174 @@
+{
+  "id": "opp_aalto-doctoral-researcher-in-hardware-aware-ai-for-analog-an",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-24T11:19:50.702694Z",
+  "updated_at": "2026-09-24T11:44:44.577804Z",
+  "change_history": [
+    {
+      "ts": "2026-09-24T11:19:50.702814Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-24T11:41:34.155546Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-24T11:44:44.577804Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher in Hardware-Aware AI for Analog and RF Circuits",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-in-hardware-aware-ai-for-analog-and-rf-circuits",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-hardware-aware-ai-for-analog-and-rf-circuits",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-Researcher-in-Hardware-Aware-AI-for-Analog-and-RF-Circuits_R48160-4/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-in-hardware-aware-ai-for-analog-and-rf-circuits"
+    ],
+    "retrieved_at": "2026-09-24T11:19:50.702503Z",
+    "raw_snapshot_hash": "c64436f4f12d3400f3b748ab4703ab8df9ab1fdc1b1555185ef003576be574c3",
+    "extracted_content_hash": "eadb6a74c1766a3e213d8ca2bd06aa24efa679eb787e012b9d7ee6e70efdaad4",
+    "deadline": "2026-10-09",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-24",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.\nDiversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community\nThe Department of Electronics and Nanoengineering conducts research and arranges related courses in the fields of electromagnetics, micro and nanotechnology, radio engineering, and space technology. The department research groups have active national and international collaboration with several institutes and companies. Research groups are working with world-class research facilities and instruments; the largest clean rooms in the Nordic countries are located in the Micro- and nanotechnology centre Micronova.\nDoctoral Researcher in Hardware-Aware AI for Analog and RF Circuits.\nWe are now looking for a Doctoral Researcher (PhD student) to join the Tiny Systems and Circuits (TSirc) group at Aalto University's Department of Electronics and Nanoengineering. In this position you will build hardware-aware AI models for analog and RF circuits toward energy-efficient AI-driven 6G transmitters.\nYour Role and Goals\nAs a Doctoral Researcher, you will:\nBuild hardware-aware behavioral models of analog and RF circuits in Python\nValidate the developed models against circuit simulations and measurements\nPerform hardware-algorithm co-design for AI-driven 6G transmitters\nPublish and present your results at leading international venues, and complete your doctoral thesis in the Aalto Doctoral Programme in Electrical Engineering\nContribute to teaching duties as part of your doctoral studies\nYour Network and Team\nCurrently, our research group consists of 1 professor, 4 PhD students, and several MSc/BSc research assistants. The group is led by Professor Kwantae Kim.\nYour Experience and Ambitions\nWe are looking for a self-motivated colleague who is expected to:\nHold a Master’s degree, with an excellent study record, in Electrical Engineering, Electronics, Microelectronics, Signal Processing, or a closely related field, completed by the start of the position\nHave practical experience in machine learning with Python, including training neural networks in PyTorch or a similar framework\nHave a solid background in signals and systems as well as analog circuit theory\nHave strong logical thinking and good communication skills\nHave a working proficiency in English. (Finnish language is not required.)\nThe following are considered an advantage:\nExperience with laboratory measurements of analog or RF circuits\nExperience with signal processing for wireless communication\nExperience with transistor-level circuit design and simulation\nWhat We Offer\nWe provide GPU computing for machine learning on Aalto's Triton high-performance computing cluster, alongside industry-standard circuit simulation tools (Cadence, Synopsys, etc.) on our own computing cluster.\nWe provide RF measurement infrastructure covering DC to THz bandwidth at the School of Electrical Engineering.\nWe collaborate with academic partners in Europe and Asia, including research visits abroad. In this project, extensive collaboration is planned with researchers from TU Delft, Yonsei University, and GIST.\nThe contract is fixed-term and follows Aalto's standard 2+2 model. It will be made initially for two (2) years, with a six (6) month probationary period, and extended by two (2) further years after a successful mid-term review, giving a total duration of four (4) years. The starting salary for doctoral researcher is approximately 3100€/Month.\nOur primary workplace is located at the Otaniemi Campus in Espoo, Finland. The position is full-time and on-site.\nAalto University reserve the right to leave the position unfilled if no suitable candidate is found.\nJoin Us!\nTo apply, please share your application with us through our recruitment site (\"Apply now!”) at the latest by\nOctober 9, 2026,\nat 23:59 EEST (UTC+3). Incomplete applications (e.g. CV-only) or applications submitted by email will not be accepted. We encourage you to apply early, as we will go through applications, and we may invite suitable candidates to interview already during the application period.\nAll materials must be submitted in English and in PDF format, with up to five (5) files, each no larger than 5 MB. The application materials must include:\nCV\nMotivation letter (max. 1 page), covering:\nWhy this research topic interests you\nWhy you want to join our group specifically\nTranscript of study records for your MSc and BSc degrees\nRecommendation letter (max. 1, if available), written recently for this application\nOur application review criteria are described at https://kwantaekim.github.io/open-position/\nPlease note: Aalto University's employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via Aalto University open positions.\nWant to know more?\nFor more information regarding the open position, please contact Professor Kwantae Kim, kwantae.kim@aalto.fi. In any question regarding the recruitment process, please contact HR Advisor, hr-elec@aalto.fi.\nLearn more about the TSirc research group:\nhttps://kwantaekim.github.io\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand check out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Doctoral position in hardware-aware machine learning for analog and RF circuits, focused on behavioral modeling of circuits in Python and hardware-algorithm co-design for 6G transmitters. Work integrates ML with circuit simulation and measurement validation.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "No thematic fit. Position is pure ML algorithm development and RF circuit modeling for telecommunications infrastructure. Excludes all human-centered research, immersive systems, spatial cognition, collaboration, and learning. The 'AI' angle does not bridge this—pure machine learning on circuit data is mechanistic and has no HCI or human-interaction dimension."
+    },
+    "methodological_fit": {
+      "score": 22,
+      "rationale": "Limited methodological adjacency. Candidate has beginner Python and no ML/neural-network experience. Position requires 'practical experience in machine learning with Python, including training neural networks in PyTorch or TensorFlow.' Both involve computational modeling and validation, but that is superficial—candidate's experimental design is human-centered (user studies); position's is hardware/simulation-centered (benchmarking against circuit models)."
+    },
+    "growth_value": {
+      "score": 18,
+      "rationale": "Developing Python and ML skills could be broadly useful, but at direct cost to HCI and immersive systems expertise. This position does not close gaps toward spatial cognition, collaborative systems, or human-centered design—it opens new gaps in a different direction. Growth is in ML engineering, not HCI research."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "Aalto is priority-1, and electronics/nanoengineering has world-class facilities (OtaNano). However, TSirc group (Tiny Systems and Circuits) is pure hardware-ML, with no connection to HCI, XR, or immersive systems. Supervisor (Prof. Kwantae Kim) is respected but outside target research community. No pathway back to human-centered research."
+    },
+    "required_skills": [
+      "python",
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Candidate must hold MSc degree by start (September 2026 advertised). Candidate is in thesis stage; MSc completion by September 2026 is feasible.",
+      "Position requires 'practical experience in machine learning with Python, including training neural networks in PyTorch or TensorFlow.' Candidate lists Python as beginner with no project experience; this is a significant gap against stated requirement."
+    ],
+    "risks": [
+      "Skill gap on core requirement: machine learning with neural networks. Candidate has no evidence of this; onboarding would require substantial ramp-up, reducing research productivity.",
+      "Thematic departure: Accepting this position abandons immersive systems and human-centered research for 4 years, creating reputational and network misalignment with target identity.",
+      "Poor research-community fit: The RF/6G/circuit-modeling community has no overlap with XR/HCI venues or collaborators. Publications would not advance target-identity profile.",
+      "Supervision mismatch: Prof. Kim's group is hardware-algorithm optimization; no mentorship in HCI, user research, or immersive systems design."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-24T11:41:34.155066Z",
+    "analysis_input_hash": "072aa26b4064aba627a9571a9d8036eb4ef5319a36999d6da6dbebb783c06b1f"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 17,
+    "urgency": "high",
+    "days_to_deadline": 15,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
