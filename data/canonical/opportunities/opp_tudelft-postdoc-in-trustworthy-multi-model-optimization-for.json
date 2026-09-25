@@ -1,0 +1,176 @@
+{
+  "id": "opp_tudelft-postdoc-in-trustworthy-multi-model-optimization-for",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-25T11:29:13.236815Z",
+  "updated_at": "2026-09-25T11:55:21.841251Z",
+  "change_history": [
+    {
+      "ts": "2026-09-25T11:29:13.236939Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-25T11:47:15.097146Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-25T11:55:21.841251Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in Trustworthy Multi-Model Optimization for Railway Timetabling (ICAI Robust)",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1373177757",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Trustworthy-Multi-Model-Optimization-for-Railway-Timetabling-%28ICAI-Robust%29-2628-CD/1373177757/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-Trustworthy-Multi-Model-Optimization-for-Railway-Timetabling-%28ICAI-Robust%29-2628-CD/1373177757/",
+    "evidence_ids": [
+      "tudelft/1373177757"
+    ],
+    "retrieved_at": "2026-09-25T11:29:13.236587Z",
+    "raw_snapshot_hash": "8e49bbbf01084b5afc4d8e2143dc81e9be0e18c01dc99bf4059e9965606e100f",
+    "extracted_content_hash": "56ee8c1d8504f104d47e7539ade21b21a2e6307b28635d6574b0d9b4c995e722",
+    "deadline": "2026-10-31",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "ICAI Robust RAIL Lab is looking for a postdoctoral researcher to help bridge that gap, along two connected directions.\nJob description\nThe Dutch railway network is approaching its capacity limits, and the timetable that keeps it running is one of the most consequential optimization problems in the country — spanning many orders of magnitude in detail, from macroscopic capacity-planning down to millisecond-level microscopic simulation. No single algorithm spans that whole range on its own.\nICAI Robust RAIL Lab — a joint initiative of TU Delft, Utrecht University, and NS/ProRail under the NWO LTP-ROBUST programme — is looking for a postdoctoral researcher to help bridge that gap, along two connected directions.\nTrustworthy multi-model optimization. Combine models at different levels of abstraction — macroscopic capacity planning, mesoscopic scheduling, microscopic simulation — into a single, computationally tractable pipeline, without sacrificing trust in the result. Draw on recent work on self-certifying optimization proxies — fast machine learning surrogates that carry their own provable optimality guarantee, falling back to an exact solver only on the instances that need it — and on the broader idea of building a relaxation that's fine-grained exactly where a query needs it and coarse elsewhere. This hybrid, multi-model philosophy motivates decision support in other domains as well.\nTimetabling for a multi-operator railway. ProRail's system for allocating rail capacity is shifting from an operator-request model to one where train paths are effectively \"sold\" to multiple, competing railway operators — turning capacity allocation into a genuine market-design problem. How do you allocate scarce train paths fairly, efficiently, and strategy-proofly across operators who each hold private information about their own needs? This is a live mechanism-design question, not a hypothetical one: it echoes the FCC's landmark two-sided spectrum incentive auction.\nYou'll work with researchers in the Algorithmics section, headed by Mathijs de Weerdt, contacts at ProRail and NS, and some of the lab's researchers (PhD tracks on hub planning, real-time rescheduling, crew rostering, energy-efficient operation) — with freedom to shape your own research agenda within this scope.\nWhat we offer: a postdoctoral position for 16 fte months (working days per week and exact duration negotiable), embedded in a well-resourced, industry-connected lab.\nJob requirements\nWe're looking for: a recent PhD graduate in optimization, operations research, machine learning, or a closely related field, with strong mathematical/algorithmic grounding and a genuine interest in working at the interface of theory and a large, real-world system for sustainable transport.\nConditions of employment\nDuration of contract is 16 months. Temporary.\nA job of 32-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nInterested? Get in touch to discuss the position with Prof. Mathijs de Weerdt M.M.deWeerdt@tudelft.nl.\nApplication procedure\nPlease apply no later than 31 Oct 2026 via the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to prof. Mathijs de Weerdt.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "TU Delft's ICAI Robust RAIL Lab (joint with Utrecht University, NS/ProRail) seeks a postdoctoral researcher in optimization and mechanism design for multi-model railway timetabling, combining macroscopic capacity planning, mesoscopic scheduling, and microscopic simulation with applications to multi-operator market allocation.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "The position is pure optimization, operations research, and mechanism design applied to railway timetabling. It has no connection to human-centred immersive systems, spatial cognition, learning, collaboration, or wayfinding. The researcher's target identity is explicitly human-centred XR/HCI; railway capacity allocation is a different domain entirely, with no human-factors or user-experience dimension."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "The position requires algorithmic and mathematical grounding in optimization, machine learning, and operations research — fields the researcher has not studied. The researcher's methodological toolkit (user studies, experimental design for human performance, multiplayer interaction design) is inapplicable to combinatorial optimization, surrogate models, or mechanism design. The researcher has no background in algorithm design, mathematical optimisation, or the computer science theory required."
+    },
+    "growth_value": {
+      "score": 1,
+      "rationale": "This position offers zero growth value toward the stated target. It would require foundational retraining in optimization, operations research, and theoretical computer science — a complete departure from human-centred research. After 16 months, the researcher would have expertise in railway timetabling algorithms, not in immersive systems or spatial cognition. The skills do not transfer to any HCI or XR context."
+    },
+    "strategic_value": {
+      "score": 8,
+      "rationale": "TU Delft is a priority-1 target institution (Netherlands, strong reputation). However, the position is embedded in the Algorithmics section and ICAI Robust RAIL Lab, with no connections to HCI, design, or human-centred research groups. The postdoc would work with ProRail and NS (industry partners in transport, not technology or immersive systems). Relationships built here would not support a transition to human-centred XR doctoral or postdoctoral roles. The 16-month duration is short for a postdoc and would not establish stable research footing."
+    },
+    "required_skills": [
+      "quantitative-research",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "statistics"
+    ],
+    "missing_skills": [
+      "optimization-algorithms",
+      "operations-research",
+      "machine-learning",
+      "mechanism-design",
+      "mathematical-modelling",
+      "constraint-satisfaction",
+      "game-theory"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires a recent PhD in optimization, operations research, machine learning, or closely related field. Researcher holds only MSc by Research (in progress); not eligible unless thesis is completed and escalated to a PhD before application (implausible within standard timelines).",
+      "Posting does not state a deadline explicitly in the text provided, but indicates 'Please apply no later than 31 Oct 2026' in the application procedure section."
+    ],
+    "risks": [
+      "Researcher is not eligible: position requires a PhD; researcher holds MSc by Research (in progress) in a design/HCI discipline, not optimization or operations research.",
+      "Complete methodological and domain mismatch. The researcher has no background in the algorithmic, mathematical, or CS theory required.",
+      "16-month fixed-term postdoc appointment. After contract ends, researcher would need to secure a new position in an entirely different field (optimization/OR), having spent time and credibility away from human-centred XR.",
+      "No pathway back to target identity. Publications in railway optimization do not support future HCI/XR PhD candidacy or postdoc roles."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-25T11:47:15.096848Z",
+    "analysis_input_hash": "75b72fa90608177b6ae26d98d24d3fff497cd40aa2c582eee2cc49598f72fba7"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 4,
+    "urgency": "medium",
+    "days_to_deadline": 36,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
