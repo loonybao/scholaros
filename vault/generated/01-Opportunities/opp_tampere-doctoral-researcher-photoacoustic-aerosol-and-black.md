@@ -6,7 +6,7 @@ organisation: "Tampere University"
 deadline: 2026-10-18
 status: open
 eligibility_gate: uncertain
-fit_overall: 19
+fit_overall: 14
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 23)
+Gate: **uncertain** (days to deadline: 22)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -63,7 +63,7 @@ Ministry of Economic Affairs and Employment: Welcome to Finland
 Visit Tampere
 How to apply
 Please submit your application through our online recruitment system. The closing date for applications is
-18th of Oktober (23:59 EET / UTC +2).
+18th of Oktober (23:59 EET / UTC +3).
 Please write your application and all accompanying documents in English and attach them in PDF format.
 Applications should include the following documents:
 Curriculum Vitae according to
@@ -92,27 +92,26 @@ Hakuaika tehtävään päättyy 18.10.2026.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.85_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
 
-Tampere University is recruiting a doctoral researcher to develop photoacoustic measurement technology for aerosol and black-carbon monitoring. The work combines hands-on instrumentation design, laboratory experimentation, calibration, programming, and data analysis within an atmospheric measurement science context.
+Tampere University seeks a doctoral researcher to develop photoacoustic instrumentation for aerosol and black-carbon measurements, combining hands-on instrument design, laboratory experiments, data analysis, and calibration routines. The work is experimental environmental/atmospheric science with a regulatory compliance driver (EU air-quality directive).
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 8 |
-| Methodological fit | 28 |
-| Growth value | 25 |
-| Strategic value | 18 |
-| **Overall** | **19** |
+| Thematic fit | 3 |
+| Methodological fit | 18 |
+| Growth value | 5 |
+| Strategic value | 40 |
+| **Overall** | **14** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** photoacoustic instrumentation (not in taxonomy), aerosol physics (not in taxonomy), optics and photonics (not in taxonomy), data acquisition systems (not in taxonomy), calibration protocols (not in taxonomy), uncertainty analysis (not in taxonomy)
+**Missing skills:** python, photoacoustics, optics, instrumentation-design, aerosol-physics, data-acquisition-electronics
 
 **Risks:**
-- Domain mismatch: The researcher would be trained as an atmospheric measurement scientist, not an HCI researcher. This PhD would further entrench a technical/instrumentation specialization rather than advancing the target goal of human-centred design research.
-- Limited methodological transfer: While experimental design skills transfer, the specific instrumentation and domain expertise (photoacoustic optics, aerosol physics) do not support immersive systems research.
-- Competitive disadvantage: The researcher would compete against candidates with physics, engineering, or atmospheric science backgrounds. An MSc in multimedia/creative technology may be seen as unconventional or insufficiently rigorous in a measurement science context.
-- Career path divergence: After this PhD, the researcher would hold credentials in atmospheric measurement science. Transitioning to HCI/XR research at a postdoc level would require explaining a significant career pivot and might face skepticism from HCI groups who would question why they were recruited into measurement science.
+- Domain gap: aerosol physics and photoacoustic instrumentation are technical specialisms the candidate has not trained in.
+- Python-level risk: position requires 'strong programming and data-analysis skills in Python, MATLAB or comparable tools.' Candidate is listed as beginner in Python with no substantial project experience.
+- Career opportunity cost: three years in atmospheric measurement science would not build toward immersive-systems research; reorienting afterward would be difficult.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-photoacoustic-aerosol-and-black.md` and link [[opp_tampere-doctoral-researcher-photoacoustic-aerosol-and-black]]._

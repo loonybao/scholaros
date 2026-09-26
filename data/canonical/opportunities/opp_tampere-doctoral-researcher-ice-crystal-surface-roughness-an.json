@@ -1,0 +1,179 @@
+{
+  "id": "opp_tampere-doctoral-researcher-ice-crystal-surface-roughness-an",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-26T11:02:05.325556Z",
+  "updated_at": "2026-09-26T11:23:50.214711Z",
+  "change_history": [
+    {
+      "ts": "2026-09-26T11:02:05.325682Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-26T11:22:13.754276Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-26T11:23:50.214711Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher (Ice Crystal Surface Roughness and Atmospheric Optics)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3189",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3189",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3189#login_form",
+    "evidence_ids": [
+      "tampere/3189"
+    ],
+    "retrieved_at": "2026-09-26T11:02:05.325396Z",
+    "raw_snapshot_hash": "fb6a3d42550f8f8e68c01e99fe272a2dbe3f048984fef95da44583778bbd2c00",
+    "extracted_content_hash": "e97dffef817ad198cf58b2310884ce783de3e8e9baa203ad44c89d6b1241c0f5",
+    "deadline": "2026-10-18",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-25",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Tampere University and Tampere University of Applied Sciences create a unique environment for multidisciplinary, inspirational and high-impact research and education. Our university community has its competitive edges in technology, health and society\n.\nwww.tuni.fi/en\nThe Aerosol and Cloud Particle Optics group, part of the Aerosol Physics Laboratory at Tampere University, is recruiting a Doctoral Researcher to join CRYSTAL, a European Research Council (ERC)-funded project that pioneers the use of advanced 3D nano-printing in atmospheric science. CRYSTAL addresses a major unresolved question: how nano- and microscale surface roughness changes the way atmospheric ice crystals scatter sunlight and how cirrus clouds are represented in climate and satellite-observation models.\nJob description\nAs a doctoral researcher, you will investigate the optical response of realistic ice crystal surface roughness using nano-printed test surfaces. Your main responsibility will be to plan and participate in the optical characterization of these surfaces and to analyse polarization-resolved measurements of their bidirectional reflectance distribution function (BRDF). The work combines optics, precision measurement, surface characterization, programming and quantitative data analysis.\nYou will contribute to selecting and preparing representative ice crystal surface morphologies for nano-printing and to assessing the quality of the fabricated samples. You will develop robust data-processing and quality-control routines and determine how the measured scattering depends on roughness scale, surface anisotropy, illumination and observation geometry, and polarization.\nIn collaboration with the project's postdoctoral researcher, you will test physically based surface-scattering descriptions, including Harvey-Shack theory and ABg-type parameterizations, against the laboratory measurements. The resulting parameterized optical description will support modelling of atmospheric ice crystals and, ultimately, improved interpretation of cirrus-cloud observations from next-generation satellites.\nRequirements\nApplicants must hold an internationally recognized Master's degree in experimental physics, optics, photonics, atmospheric science or another relevant field by the starting date. You should be motivated by experimental research and interested in working across the boundaries of atmospheric science, optical measurement and surface technology.\nThe most important qualifications are hands-on experience with optical or other precision laboratory measurements and strong programming and data-analysis skills in Python, MATLAB or comparable tools. Previous experience with light-scattering or BRDF measurements, gonioreflectometry, surface metrology, microscopy, nano-fabrication, ice-particle optics or cloud microphysics is an advantage but not required. Excellent English and constructive teamwork are essential; Finnish is not required.\nWe offer\nYou will receive structured doctoral training and close scientific supervision while developing expertise in experimental atmospheric optics, surface scattering and advanced measurement methods. You will work closely with the project's postdoctoral researcher, experienced researchers in the group and international collaborators. As your project progresses, you will take increasing responsibility for experiments, data analysis, scientific publications and presentations at international conferences.\nWe offer a fixed-term Doctoral Researcher position for 3.5 years. The preferred starting date is 1 January 2027, or as soon as possible by mutual agreement. A trial period of six months applies to all our new employees. The salary will be based on both the job requirements and the employee's personal performance in accordance with the\nFinnish University Salary System\n. A typical starting salary for a Doctoral Researcher is around EUR 3,000 per month.\nThe Aerosol and Cloud Particle Optics group has a long record of developing optical instruments and measurement methods for aerosol and cloud research, supported by an extensive international collaboration network. Within Tampere University's Aerosol Physics Laboratory, the ERC-funded CRYSTAL project offers a distinctive interdisciplinary environment connecting atmospheric science, experimental optics, nano-fabrication and computational light scattering.\nAs a member of staff at Tampere University, you will enjoy a range of competitive benefits, such as occupational health care services, flexible work schedule, versatile research infrastructure, modern teaching facilities and a safe and inviting campus area as well as a personal fund to spend on sports and cultural activities in your free time. Please read more about\nworking at Tampere University\nand information about\nTampere University as an employer\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\n.\nFinland is among the most stable, free and safe countries in the world, based on prominent ratings by various agencies. Tampere is the largest inland city of Finland, and the city is counted among the major academic hubs in the Nordic countries. Tampere region is the most rapidly growing urban area in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. Tampere is also surrounded by vivid nature with forests and lakes, providing countless opportunities for easy-to-access outdoor adventures and refreshment throughout the year.\nRead more about Finland and Tampere City:\nVisit Finland\nThis is Finland\nMinistry of Economic Affairs and Employment: Welcome to Finland\nVisit Tampere\nHow to apply\nPlease submit your application through our online recruitment system. The closing date for applications is\n18th of Oktober (23:59 EET / UTC +2).\nPlease write your application and all accompanying documents in English and attach them in PDF format.\nApplications should include the following documents:\nCurriculum Vitae according to\nTENK guidelines\nList of publications according to\nAcademy of Finland guidelines\nContact information for two referees\nMotivation letter describing your relevant experience, research interests and motivation for doctoral research on ice crystal surface roughness, optical measurements and atmospheric light scattering\nFor more information, please contact:\nEmma Järvinen, emma.jarvinen@tuni.fi\n*******\nTampereen yliopisto ja Tampereen ammattikorkeakoulu muodostavat yhdessä Suomen toiseksi suurimman monitieteisen, innostavan ja vaikuttavan tutkimus- ja oppimisyhteisön. Korkeakouluyhteisömme osaamiskärjet ovat tekniikka, terveys ja yhteiskunta. Lue lisää:\nwww.tuni.fi\nTehtävänkuvaus\nTampereen yliopiston Aerosol and Cloud Particle Optics -tutkimusryhmä etsii väitöskirjatutkijaa Euroopan tutkimusneuvoston (ERC) rahoittamaan CRYSTAL-hankkeeseen. Innovatiivisessa hankkeessa tuodaan edistynyt 3D-nanotulostus ilmakehätieteeseen ja tutkitaan, miten jääkiteiden nano- ja mikromittakaavan pinnankarheus vaikuttaa niiden optisiin ominaisuuksiin.\nVäitöskirjatutkijan päätehtävänä on tutkia realistisia jääkiteiden pintarakenteita jäljittelevien nanotulostettujen testipintojen optista vastetta. Työhön kuuluu polarisaatioherkkien BRDF-mittausten suunnittelu ja toteutukseen osallistuminen, mittausaineistojen laadunvarmistus ja analyysi sekä fysikaalisten pintasirontamallien testaaminen yhdessä hankkeen tutkijoiden kanssa.\nTehtävä täytetään 3,5 vuodeksi. Toivottu aloitusajankohta on 1.1.2027 tai mahdollisimman pian sopimuksen mukaan.\nEdellytykset\nHakijalla tulee olla soveltuva ylempi korkeakoulututkinto ja sujuva englannin kielen taito. Arvostamme erityisesti käytännön kokemusta optisista tai muista tarkkuusmittauksista sekä hyviä ohjelmointi- ja data-analyysitaitoja.\nKokemus valonsirontamittauksista, BRDF-mittauksista, pintamittauksista, mikroskopiasta, nanovalmistuksesta tai ilmakehän jäähiukkasista katsotaan eduksi. Hakijan tulee pystyä työskentelemään yhteistyössä kansainvälisessä ja monitieteisessä tutkimusympäristössä.\nHakuohjeet\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).\nHakuaika tehtävään päättyy 18.10.2026."
+  },
+  "ai": {
+    "summary": "Tampere University seeks a doctoral researcher to investigate how nano-scale surface roughness of ice crystals affects optical scattering and atmospheric light. The work combines experimental optics, nano-printed test surfaces, spectroscopy, BRDF measurements, and computational light scattering—a pure atmospheric physics and optics domain.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "This position is anchored in atmospheric optics, surface scattering, and ice-crystal physics. The researcher's expertise in collaborative XR, spatial learning, gamification, and user-centred design has zero thematic connection. The posting contains no mention of human factors, learning outcomes, immersive systems, or user studies."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "The researcher has intermediate skills in experimental design and quantitative analysis. This role also involves experimental work, measurement, and data analysis. However, the specifics diverge entirely: atmospheric/optical measurements vs. human-performance and spatial-cognition studies. Programming skills (Python/MATLAB expected) overlap with the researcher's limited Python background, but that alone is insufficient."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "The researcher would develop expertise in atmospheric optics, nano-fabrication, BRDF measurements, and optical physics. These are hard-physics domains explicitly outside her target identity and excluded directions. This work does not close gaps in immersive-systems, HCI, or spatial-cognition research."
+    },
+    "strategic_value": {
+      "score": 45,
+      "rationale": "Tampere is a strong priority-2 institution in a preferred country (Finland). The Aerosol Physics Laboratory has solid international reputation and ERC funding. However, research culture and supervisor focus (atmospheric optics) misalign with researcher's HCI goals. Limited opportunity for pivot into immersive systems or human-centred work."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python",
+      "optical-measurement",
+      "brdf-spectroscopy",
+      "surface-metrology",
+      "atmospheric-physics",
+      "nano-fabrication",
+      "optical-data-analysis"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires MSc in experimental physics, optics, photonics, atmospheric science or relevant field; researcher's MMU MSc is in multimedia/creative multimedia, not physics or optics",
+      "Position expects hands-on optical or precision laboratory background; researcher has none documented"
+    ],
+    "risks": [
+      "Strong domain barrier: atmospheric optics vs. HCI. This is pure physics research, not adjacent-methodological.",
+      "Supervisor expertise (aerosol optics, atmospheric measurement) does not overlap with researcher's XR/human-factors background.",
+      "3.5-year PhD commitment to atmospheric physics may delay or redirect trajectory away from target HCI identity.",
+      "No collaboration, immersive systems, learning design, or user studies components.",
+      "Researcher's weak Python skills and no optical measurement background make onboarding challenging."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-26T11:22:13.753732Z",
+    "analysis_input_hash": "7f57289fe1d89d5735b4dad1473a3fbacdb945ac812325ac00a9f488c5d04840"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 16,
+    "urgency": "medium",
+    "days_to_deadline": 22,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

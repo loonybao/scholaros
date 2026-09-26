@@ -1,0 +1,177 @@
+{
+  "id": "opp_tudelft-phd-position-combinatorics",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-26T11:05:32.787229Z",
+  "updated_at": "2026-09-26T11:23:50.274286Z",
+  "change_history": [
+    {
+      "ts": "2026-09-26T11:05:32.787368Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-26T11:23:24.443428Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-26T11:23:50.274286Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Combinatorics",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1373209657",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Combinatorics-2628-CD/1373209657/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Combinatorics-2628-CD/1373209657/",
+    "evidence_ids": [
+      "tudelft/1373209657"
+    ],
+    "retrieved_at": "2026-09-26T11:05:32.787046Z",
+    "raw_snapshot_hash": "b9c9b6fb79aee33d29dc810bd1365623ea644a7f8768c785ecc7185a9aab3237",
+    "extracted_content_hash": "26c7661e78f760a9767d741420879c59cdccce9673b2859ffb90c0bb4d54bd4d",
+    "deadline": "2026-10-09",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Job description\nThe Discrete Mathematics and Optimization group within the Delft Institute of Applied Mathematics at TU Delft is offering a full-time PhD position in the area of combinatorics.\nDuring the PhD, you will work on topics at the intersection of probabilistic and extremal combinatorics, structural graph theory and algorithms. We study problems on discrete structures such as graphs, permutations, posets or set systems using probabilistic, structural and sometimes algebraic techniques. Potential directions include topics such as universal graphs ('What is the smallest graph containing all n-vertex graphs as induced subgraph?'), reconstruction problems ('How many distances are required to reconstruct the edge set of a graph?') or finding structures that can lead to faster algorithms ('How fast can you 3-colour an n-vertex graph of diameter 2?').\nThe PhD will be supervised by Carla Groenland. You will have the opportunity to collaborate with postdocs, PhD candidates, and other faculty members of the research group in Discrete Mathematics and Optimization. Moreover, another PhD vacancy at University of Amsterdam, jointly supervised with Ross Kang on a similar topic, is open now at the same time, giving further collaboration opportunities.\nBesides carrying out mathematical research and preparing scientific publications, you will be expected to actively participate in seminars and discussions within the department, and to present your work at both national and international conferences and workshops. You will also carry out minor teaching tasks (at most 15% of your time) in English (or possibly Dutch if you are Dutch-speaking). If desired, you can take Dutch language courses offered by the TU Delft Language Center.\nJob requirements\nStrong communication and collaboration skills\nMathematical maturity on the level of a master's degree in mathematics. A master's degree in mathematics (or closely related discipline) is a requirement by the start of the position.\nEnthusiasm for topics in probabilistic and extremal combinatorics and/or structural graph theory. Prior experience in these topics is not required but advantageous.\nPrior research experience, for example through a university project or summer internship.\nFluent in English (no knowledge of Dutch is needed).\nTU Delft (Delft University of Technology)\nDelft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.\nAt TU Delft we embrace diversity as one of our core\nvalues\nand we actively\nengage\nto be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.\nChallenge. Change. Impact!\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy see\nhttps://sites.google.com/view/carlagroenland/openings\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n9 October 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nDetailed transcript\nCopy of your Master's thesis (if applicable) or comparable research-oriented document.\nYou can address your application to dr. C.E. Groenland.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "This is a PhD position in discrete mathematics focusing on probabilistic and extremal combinatorics, structural graph theory, and algorithms. Research topics include universal graphs, reconstruction problems, and fast graph algorithms. Supervision is by Carla Groenland with collaboration opportunities in the Discrete Mathematics and Optimization group.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Position is pure mathematics (combinatorics, graph theory, algorithms). Researcher's domain is human-centred immersive systems, spatial cognition, and collaborative learning. No thematic connection exists; this is outside all researcher's priority domains and target identity."
+    },
+    "methodological_fit": {
+      "score": 0,
+      "rationale": "Researcher's methods centre on user studies, experimental design for human learning outcomes, and technology evaluation in immersive environments. Pure mathematics research involves theoretical proofs, algorithms, and computational analysis. No methodological transfer applies."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "This position does not develop any capability gaps identified in the researcher's target identity (human-centred XR, spatial cognition, collaborative immersive systems, real-world spatial transfer). Mathematics PhD would not advance HCI research trajectory."
+    },
+    "strategic_value": {
+      "score": 5,
+      "rationale": "TU Delft is a priority-1 institution and strong research environment. However, this institutional strength is entirely offset by complete domain misalignment and the researcher's lack of mathematical background."
+    },
+    "required_skills": [
+      "experimental-design",
+      "academic-writing",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "pure-mathematics",
+      "graph-theory",
+      "algorithm-design",
+      "theoretical-computer-science",
+      "formal-proof-writing"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requirement: 'Master's degree in mathematics (or closely related discipline) is a requirement by the start of the position'—researcher holds MSc by Research in Creative Multimedia, not mathematics",
+      "Posting emphasizes 'mathematical maturity on the level of a master's degree in mathematics'—Creative Multimedia degree does not provide this",
+      "No evidence in researcher's profile of university mathematics coursework, proof-writing, or theoretical CS background"
+    ],
+    "risks": [
+      "Researcher is not eligible: position explicitly requires MSc in mathematics or closely related field; Creative Multimedia MSc does not qualify",
+      "Zero domain expertise in mathematics, graph theory, or algorithm design",
+      "Would require foundational retraining in pure mathematics before contributing to research",
+      "Completely orthogonal to researcher's target career path in human-centred XR and HCI",
+      "Researcher's interest in spatial cognition and immersive systems is entirely distinct from combinatorial graph problems"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-26T11:23:24.442915Z",
+    "analysis_input_hash": "129bba4932542d3533dbf762f107e576ec283ab2cdb9420a800f512ce794fafe"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 1,
+    "urgency": "high",
+    "days_to_deadline": 13,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

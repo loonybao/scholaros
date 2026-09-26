@@ -1,0 +1,137 @@
+---
+id: opp_tudelft-phd-position-continuum-two-phase-flow-modelling-of-p
+type: opportunity
+title: "PhD Position Continuum Two-Phase Flow Modelling of Piping in Dikes"
+organisation: "TU Delft"
+deadline: 2026-10-25
+status: open
+eligibility_gate: uncertain
+fit_overall: 8
+urgency: medium
+needs_review: true
+---
+
+# PhD Position Continuum Two-Phase Flow Modelling of Piping in Dikes
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-10-25
+**Location:** Delft, Netherlands
+**Position type:** phd
+**Salary:** €3059 - €3881 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-Continuum-Two-Phase-Flow-Modelling-of-Piping-in-Dikes-2628-CD/1373219757/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 29)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Develop advanced models to understand and predict piping and internal erosion in dikes. As a PhD researcher at TU Delft, you will connect fundamental fluid–soil interaction physics with computational modelling to contribute to safer flood defences.
+Job description
+Internal erosion and piping are among the main failure mechanisms of clay–sand layered dikes and remain important challenges in flood risk management. Reliable numerical models can improve our understanding of how piping develops and help engineers assess and design safer, more reliable flood defence systems. In this PhD project, you will contribute to this challenge by advancing the modelling of particle transport and fluid–soil interaction in dikes.
+A key scientific challenge is to represent the complex interaction between soil particles and flowing water across different spatial and temporal scales, while keeping the models computationally efficient. The research builds on an Eulerian two-phase modelling approach previously applied to backward erosion piping. You will investigate how this approach can be further developed to capture the physical processes that govern pipe formation and progression, while connecting detailed modelling with larger-scale analyses.
+The goal of the project is to develop a robust and computationally efficient modelling framework that improves the prediction of piping in layered dikes. Your research will contribute to a better understanding of internal erosion and support the development of safer flood defence systems and more reliable flood risk assessments.
+Your responsibilities
+As a PhD researcher, you will:
+Develop continuum-based two-phase models to predict internal erosion and pipe progression in clay-sand layered dikes.
+Derive constitutive modelling approaches from high-fidelity DNS-DEM data generated within the broader project consortium.
+Capture the multi-scale nature of pipe formation while maintaining computational efficiency, including the exploration of adaptive mesh refinement strategies.
+Disseminate research outcomes through scientific publications, conference presentations, and collaboration with researchers from relevant disciplines.
+Your work environment
+You will join the
+Offshore and Dredging Engineering
+group within the department of
+Maritime and Transport Technology
+of the Faculty of Mechanical Engineering. You will receive supervision and guidance while having the freedom to shape and develop your research. You will have access to well-equipped facilities, including:
+The hydraulic circuit
+.
+You will work in an open and collaborative environment where interdisciplinary teamwork, curiosity and scientific excellence are valued. The group works closely across fluid mechanics, soil mechanics, hydraulic engineering and ocean engineering, using various computational and experimental techniques, sharing knowledge and expertise to develop innovative solutions with meaningful societal impact. Please see our work for more information:
+Offshore and Dredging Engineering
+.
+Job requirements
+You are highly motivated to translate fundamental flow and erosion physics into practically relevant scales through two-phase flow modelling. You are well organised, manage your time effectively and take initiative in a multidisciplinary research environment. You are results-oriented and enjoy working with researchers from different disciplines.
+Furthermore, you meet the following requirements:
+You have an MSc degree in a relevant field (Mechanical Engineering, Chemical Engineering, Applied Physics, Process Technology, Civil Engineering or a closely related discipline)
+You have received training in multiphase flow physics, numerical methods, and computational fluid dynamics (CFD), ideally complemented by application in your MSc thesis, research projects, or internships.
+Have excellent communication skills and command of English.
+Have affinity with teaching and guiding MSc students.
+Familiarity with Euler–Euler multiphase flow modelling and/or automatic mesh adaptation techniques is considered an advantage.
+TU Delft (Delft University of Technology)
+Delft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.
+At TU Delft we embrace diversity as one of our core
+values
+and we actively
+engage
+to be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.
+Challenge. Change. Impact!
+Faculty Mechanical Engineering
+Working at TU Delft means contributing to solutions that really make a difference.
+For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.
+These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
+At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.
+Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
+Conditions of employment
+Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
+The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.
+Additional information
+For information about this vacancy, you can contact Dr. G. Keetels
+g.h.keetels@tudelft.nl
+.
+You will receive an update on the outcome of your application in the week of 9th of November. The first interviews are scheduled for mid to end November, followed by a second interview round.
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+25 October 2026
+via the application button and upload the following documents:
+A cover letter stating your motivation
+Your curriculum vitae
+A summary of your master thesis max. 1 page
+List of courses and grades at Master and Bachelor level (in English).
+You can address your application to Dr. G. Keetels.
+Doing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the
+Graduate Schools Admission Requirements
+.
+Please note:
+You can apply online. We will not process applications sent by email and/or post.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+TU Delft seeks a PhD researcher to develop computational fluid-dynamics and two-phase flow models for internal erosion and piping in flood-defence dikes. The work combines CFD, numerical methods, multiphase flow physics, and hydraulic engineering—applied mechanical engineering with no immersive or human-systems component.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 28 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** computational-fluid-dynamics, multiphase-flow-physics, numerical-methods, mesh-adaptation-algorithms, eulerian-modelling, soil-fluid-interaction-physics, c++-or-fortran
+
+**Risks:**
+- Strong disciplinary mismatch: computational hydraulic engineering vs. human-centred HCI. This is applied engineering, outside researcher's excluded pure-engineering barrier but still orthogonal.
+- Supervisor expertise (multiphase flow, dike erosion modelling) is orthogonal to researcher's XR and immersive-systems background.
+- 4-year PhD in CFD/hydraulic engineering could redirect career away from target human-centred identity.
+- No user studies, design, collaboration, immersive systems, or human-factors components.
+- Researcher has no CFD, numerical methods, or hydraulic engineering background; steep learning curve.
+- Research culture (computational engineering) is disjoint from HCI/immersive-systems communities.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-continuum-two-phase-flow-modelling-of-p.md` and link [[opp_tudelft-phd-position-continuum-two-phase-flow-modelling-of-p]]._

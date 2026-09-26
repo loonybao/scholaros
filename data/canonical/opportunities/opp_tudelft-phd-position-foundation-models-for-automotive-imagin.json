@@ -1,0 +1,176 @@
+{
+  "id": "opp_tudelft-phd-position-foundation-models-for-automotive-imagin",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-26T11:06:27.103125Z",
+  "updated_at": "2026-09-26T11:23:50.295623Z",
+  "change_history": [
+    {
+      "ts": "2026-09-26T11:06:27.103262Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-26T11:22:58.027192Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-26T11:23:50.295623Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Foundation Models for Automotive Imaging Radar",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1373228857",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Foundation-Models-for-Automotive-Imaging-Radar-2628-CD/1373228857/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Foundation-Models-for-Automotive-Imaging-Radar-2628-CD/1373228857/",
+    "evidence_ids": [
+      "tudelft/1373228857"
+    ],
+    "retrieved_at": "2026-09-26T11:06:27.102947Z",
+    "raw_snapshot_hash": "19df5037ac632ff26859ab7664554bb5d0430ad915da506f41ad2d23f8627418",
+    "extracted_content_hash": "1ebd0546e3a82d4ce50cfca1a4485292d24317bb8acd6cf644b3113ce44725ca",
+    "deadline": "2026-10-18",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Job description\nNext generation automotive imaging radars provide increasingly rich 3D information, opening the door to more advanced scene understanding and perception tasks such as 3D object detection and free space estimation. However, current neural networks are typically developed for a specific radar configuration and task, and often generalize poorly to other sensors. At the same time, large scale radar datasets with high quality labels remain scarce.\nIn this PhD project, you will investigate foundation models for automotive imaging radar. The goal is to learn general radar representations from largely unlabelled data that can generalize across different radar configurations and be efficiently adapted to multiple downstream perception tasks with limited labelled data. An important research direction is the transfer of representations from vision and LiDAR based foundation models to radar, as well as the development of multimodal foundation models incorporating radar. A further challenge is how different radar representations and sensor configurations can be accommodated within a general foundation model framework, and to what extent a common model can generalize across them. Research directions may also include generative or predictive modeling of dynamic radar scenes.\nThe project combines methodological machine learning research with experiments on real automotive sensor data. You will have access to research vehicles and advanced radar prototypes for collecting and evaluating real world multimodal sensor data.\nWhile the primary application domain is automotive, the developed methods should preferably be sufficiently general to also apply to other domains, such as autonomous vehicles operating in off-road settings.\nYou will join the Intelligent Vehicles group within the Department of Cognitive Robotics at TU Delft. The project will be carried out in collaboration with Perciv.AI, and will also involve NXP Semiconductors as an industrial partner. The research is part of the FIND project, funded by the Dutch Research Council (NWO), which investigates foundation models for high tech industry applications.\nYour results are expected to be published at leading international venues in machine learning, computer vision, robotics and radar, such as NeurIPS, CVPR, ICRA, IEEE IV and RadarConf. For your research, you will have access to extensive computing resources at TU Delft, ranging from personal workstations and shared GPU servers to the Delft AI Cluster and the DelftBlue supercomputer. Your supervisors will be Prof. Dariu Gavrila and Dr. Julian Kooij.\nJob requirements\nWe are looking for a candidate with:\n• An MSc degree in Computer Science, Artificial Intelligence, Robotics, Electrical Engineering, or a closely related field.\n• A strong academic record and solid background in machine learning and deep learning.\n• Ability to develop, understand, and critically evaluate machine learning research software, preferably using Python and PyTorch.\n• An interest in foundation models, self supervised learning, multimodal learning, and 3D perception.\n• An affinity for translating methodological research into experiments with real automotive sensor data and vehicle demonstrators.\n• The ability to work independently as well as collaborate effectively within a larger research team.\n• Good written and spoken English.\n• Experience with radar, signal processing, computer vision, autonomous driving, or sensor fusion is advantageous.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Prof. Dr. D.M. Gavrila at\nrecruitment-me@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n18 October 2026\nvia the application button and upload the following documents:\nA motivation letter\nA detailed CV\nBS and MS transcripts (i.e. courses and grades)\nAny supporting materials e.g. link to MS Thesis (draft), publications, project descriptions, code repositories\nIf the applicants are selected for an interview, they will be asked to provide contact details of at least two references with their consent\nYou can address your application to Prof. Dr. D.M. Gavrila.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "TU Delft's Intelligent Vehicles group seeks a PhD researcher to develop foundation models for automotive imaging radar, focusing on self-supervised learning, multimodal transfer from vision/LiDAR, and generalization across sensor configurations. The research combines machine learning methodology with real automotive sensor data and vehicle demonstrators.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 25,
+      "rationale": "No direct thematic overlap with immersive learning or spatial cognition. However, 3D perception and scene understanding have tangential relevance to spatial reasoning. The automotive application is orthogonal to the candidate's HCI focus."
+    },
+    "methodological_fit": {
+      "score": 52,
+      "rationale": "Strong overlap in experimental validation on real sensor data and iterative design evaluation. Candidate's intermediate quantitative-research and user-studies skills transfer to empirical ML validation. However, the core methodology is deep learning and foundation models—candidate lacks formal training in neural networks, PyTorch, and modern ML. Position requires moving from applied user research into algorithmic development."
+    },
+    "growth_value": {
+      "score": 45,
+      "rationale": "Would substantially build machine-learning capability (currently beginner in Python, no deep-learning background). However, this closes a technical gap, not the human-centred or spatial-cognition gaps identified in the target identity. Growth is lateral rather than toward the stated direction."
+    },
+    "strategic_value": {
+      "score": 55,
+      "rationale": "TU Delft is priority-1; Prof. Gavrila and the Intelligent Vehicles group are internationally respected. Industrial partnership (NXP) and real vehicle access offer exceptional research infrastructure. However, the domain (autonomous vehicles, radar perception) does not align with human-centred immersive systems or educational spatial learning."
+    },
+    "required_skills": [
+      "python",
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python-advanced",
+      "pytorch",
+      "deep-learning",
+      "foundation-models",
+      "computer-vision",
+      "self-supervised-learning",
+      "multimodal-learning"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc in 'Computer Science, Artificial Intelligence, Robotics, Electrical Engineering, or a closely related field.' Creative Multimedia MSc is marginal; acceptance would depend on course transcripts showing substantive CS/AI coursework.",
+      "Position emphasises 'solid background in machine learning and deep learning' as core requirement; candidate has beginner Python and no ML coursework evident."
+    ],
+    "risks": [
+      "Skill gap: candidate would need to rapidly acquire PyTorch, deep learning fundamentals, and foundation-model methods. First year would be steep onboarding.",
+      "Domain commitment: automotive perception and autonomous vehicles are far from human-centred XR; PhD work in this space would not build toward target identity.",
+      "Limited immersive-learning relevance: foundation models for radar have no direct connection to the spatial-cognition and collaborative-learning themes the candidate has built."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.75,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-26T11:22:58.026771Z",
+    "analysis_input_hash": "4d9be68a09a95d6a5487cd3d6b4a58d44ad859841592a64c9046fce43aefde3c"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 42,
+    "urgency": "medium",
+    "days_to_deadline": 22,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
