@@ -3,18 +3,18 @@ id: opp_varbi-doctoral-student-in-nuclear-power-safety
 type: opportunity
 title: "Doctoral student in Nuclear Power Safety"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-10-09
+deadline: 2026-10-23
 status: open
 eligibility_gate: uncertain
-fit_overall: 14
-urgency: high
+fit_overall: 8
+urgency: medium
 needs_review: true
 ---
 
 # Doctoral student in Nuclear Power Safety
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-10-09
+**Deadline:** 2026-10-23
 **Location:** Stockholm, Sweden
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 12)
+Gate: **uncertain** (days to deadline: 25)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -123,34 +123,35 @@ Weimin Ma, weimin@kth.se
 Published
 03.Sep.2026
 Last application date
-09.Oct.2026
+23.Oct.2026
 Apply for position
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.89_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
 
-KTH doctoral position in nuclear power safety focused on severe accident management, developing digital tools to modernize SAMG (accident management guidelines) and AI-aided diagnostics for light-water reactor damage assessment.
+KTH Royal Institute of Technology seeks a doctoral student in Nuclear Power Safety to digitalize severe-accident-management guidelines (SAMG), develop AI-aided plant-damage diagnosis tools, and integrate these for improved accident management in light-water reactors. The research combines accident phenomenology, nuclear engineering, AI/machine learning for diagnosis, and safety analysis procedures.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 15 |
-| Growth value | 10 |
-| Strategic value | 40 |
-| **Overall** | **14** |
+| Thematic fit | 6 |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 18 |
+| **Overall** | **8** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** python
 
 **Risks:**
-- Substantial domain knowledge deficit in nuclear engineering, severe accident phenomenology, and NRC codes would require extended foundational learning.
-- Application may be weak against candidates with nuclear/mechanical engineering backgrounds.
-- PhD research in nuclear safety diverges entirely from target research identity (human-centred immersive systems); represents a fundamental career pivot away from HCI/XR research.
-- No existing publication history, supervisor relationship, or research experience in nuclear engineering or safety-critical systems.
+- Researcher does not hold a Master's degree in nuclear engineering or mechanical engineering. Eligibility for PhD admission is questionable; program is unlikely to accept Creative Multimedia as 'substantially equivalent.'
+- Zero background in nuclear physics, reactor systems, or safety analysis. Doctoral training would require 1–2 years of foundational coursework before independent research.
+- Position focuses on accident management procedures and AI diagnosis tools—technical engineering domains. The research has no human-computer-interaction or human-factors component despite the mention of 'digitalize...procedures.'
+- Security clearance for nuclear-sensitive work may be complex for a foreign researcher; processing delays or denial is possible.
+- Post-PhD career path would be nuclear engineering, not immersive systems or HCI research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-nuclear-power-safety.md` and link [[opp_varbi-doctoral-student-in-nuclear-power-safety]]._

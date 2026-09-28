@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 4
+fit_overall: 5
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 34)
+Gate: **uncertain** (days to deadline: 33)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -39,7 +39,10 @@ Timetabling for a multi-operator railway. ProRail's system for allocating rail c
 You'll work with researchers in the Algorithmics section, headed by Mathijs de Weerdt, contacts at ProRail and NS, and some of the lab's researchers (PhD tracks on hub planning, real-time rescheduling, crew rostering, energy-efficient operation) — with freedom to shape your own research agenda within this scope.
 What we offer: a postdoctoral position for 16 fte months (working days per week and exact duration negotiable), embedded in a well-resourced, industry-connected lab.
 Job requirements
-We're looking for: a recent PhD graduate in optimization, operations research, machine learning, or a closely related field, with strong mathematical/algorithmic grounding and a genuine interest in working at the interface of theory and a large, real-world system for sustainable transport.
+A recently obtained PhD in optimization, operations research, machine learning, or a closely related field.
+A strong mathematical/algorithmic grounding.
+A genuine interest in working at the interface of theory and a large, real-world system for sustainable transport.
+Due to your collaboration with Dutch Railways and ProRail, a conversational level of spoken Dutch is strongly preferred.
 Conditions of employment
 Duration of contract is 16 months. Temporary.
 A job of 32-40 hours per week.
@@ -62,7 +65,11 @@ Interested? Get in touch to discuss the position with Prof. Mathijs de Weerdt M.
 Application procedure
 Please apply no later than 31 Oct 2026 via the application button and upload the following documents:
 CV
+, clearly outlining your relevant experience, command of the Dutch language and mathematical and algorithmic background.
 Motivational letter
+. We value
+personally written
+letters that explain why you are interested in joining our group at this stage of your career, and why you are motivated to work at the interface of theory and a large, real-world system for sustainable transport.
 You can address your application to prof. Mathijs de Weerdt.
 Please note:
 You can apply online. We will not process applications sent by email and/or post.
@@ -72,27 +79,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
 
-TU Delft's ICAI Robust RAIL Lab (joint with Utrecht University, NS/ProRail) seeks a postdoctoral researcher in optimization and mechanism design for multi-model railway timetabling, combining macroscopic capacity planning, mesoscopic scheduling, and microscopic simulation with applications to multi-operator market allocation.
+TU Delft's ICAI Robust RAIL Lab seeks a postdoctoral researcher to develop trustworthy multi-model optimization for railway timetabling, bridging macroscopic capacity planning and microscopic simulation. The role combines optimization algorithms, machine-learning surrogates with optimality guarantees, and mechanism design for multi-operator capacity allocation. This is a pure operations-research and algorithmic-optimization position.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 2 |
+| Thematic fit | 3 |
 | Methodological fit | 5 |
-| Growth value | 1 |
-| Strategic value | 8 |
-| **Overall** | **4** |
+| Growth value | 2 |
+| Strategic value | 12 |
+| **Overall** | **5** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** optimization-algorithms, operations-research, machine-learning, mechanism-design, mathematical-modelling, constraint-satisfaction, game-theory
+**Missing skills:** none noted
 
 **Risks:**
-- Researcher is not eligible: position requires a PhD; researcher holds MSc by Research (in progress) in a design/HCI discipline, not optimization or operations research.
-- Complete methodological and domain mismatch. The researcher has no background in the algorithmic, mathematical, or CS theory required.
-- 16-month fixed-term postdoc appointment. After contract ends, researcher would need to secure a new position in an entirely different field (optimization/OR), having spent time and credibility away from human-centred XR.
-- No pathway back to target identity. Publications in railway optimization do not support future HCI/XR PhD candidacy or postdoc roles.
+- Researcher does not hold a PhD and is ineligible for postdoctoral positions. Application would be rejected at the eligibility screening stage.
+- Even if eligibility could be waived, disciplinary mismatch is absolute. Researcher has no background in optimization, operations research, or machine learning.
+- Position requires 'conversational Dutch' due to collaboration with Dutch Railways and ProRail. Researcher's language background is not specified but likely does not include Dutch.
+- Role is for an independent researcher leading work; early-career researcher transitioning from XR/HCI to operations research would face severe credibility and capability gaps.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-trustworthy-multi-model-optimization-for.md` and link [[opp_tudelft-postdoc-in-trustworthy-multi-model-optimization-for]]._

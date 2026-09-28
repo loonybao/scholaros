@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-03T11:03:45.886462Z",
-  "updated_at": "2026-09-27T11:59:58.952804Z",
+  "updated_at": "2026-09-28T13:34:08.924521Z",
   "change_history": [
     {
       "ts": "2026-09-03T11:03:45.886592Z",
@@ -231,6 +231,48 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-28T13:30:13.941247Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-09-28T13:33:42.265290Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-28T13:34:08.924521Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -244,10 +286,10 @@
     "evidence_ids": [
       "varbi/kth-960628"
     ],
-    "retrieved_at": "2026-09-03T11:03:45.886302Z",
-    "raw_snapshot_hash": "8ac983c3776dee27c92c16c5b92cf03545124debb8d2470baa451d53107dcd8c",
-    "extracted_content_hash": "7ea48c26d4bc32770e496bc51d455febdba1df458c4c9d1ec0b27eb9f2ab7430",
-    "deadline": "2026-10-09",
+    "retrieved_at": "2026-09-28T13:30:13.940680Z",
+    "raw_snapshot_hash": "90ec0be5c05cf733574421d65bba5f5383ed9dc3591737d2e0ad2f94a75bbab2",
+    "extracted_content_hash": "9d436b79338256f8e7f38089b5c21a2c526a265a58b56b9d4ea3df1aef934737",
+    "deadline": "2026-10-23",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -265,49 +307,51 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Doctoral student in Nuclear Power Safety\nApply for position\nSchool of Engineering Sciences at KTH\nProject description\nThird-cycle subject:\nPhysics, specialization in Nuclear Engineering\nThe group of Nuclear Power Safety in Division of Nuclear Science and Engineering (NSE) conducts research on accident phenomena of risk importance to existing and future nuclear reactors, and performs safety analysis for nuclear power plants, including design basis accident analysis and severe accident analysis. The research projects involve extensive international cooperation.\nWe are looking for a doctoral student to carry out frontier research on accident management (AM) during severe accidents of light water reactors. The doctoral student project is supported by the funds from Strålsäkerhetsmyndigheten (SSM).\nThe successful candidate is expected to (i) digitalize the paper-based, lookup-table-like procedures in the severe accident management guidelines (SAMG) to be chosen, facilitating the realization of the SAMG in case of severe accidents; (ii) develop an AI-aided tool for diagnosis of plant damage state using measured and estimated data (e.g. the simulation results of U.S. NRC codes); and (iii) combine the digitalized SAMG with the AI-aided tool for effective accident management.\nSupervision:\nProfessor Weimin Ma is proposed to supervise the doctoral student. Decisions are made on admission\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nThe applicant must have been awarded a Master’s degree in nuclear engineering or mechanical engineering.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2770\nContact\nWeimin Ma, weimin@kth.se\nPublished\n03.Sep.2026\nLast application date\n09.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Doctoral student in Nuclear Power Safety\nApply for position\nSchool of Engineering Sciences at KTH\nProject description\nThird-cycle subject:\nPhysics, specialization in Nuclear Engineering\nThe group of Nuclear Power Safety in Division of Nuclear Science and Engineering (NSE) conducts research on accident phenomena of risk importance to existing and future nuclear reactors, and performs safety analysis for nuclear power plants, including design basis accident analysis and severe accident analysis. The research projects involve extensive international cooperation.\nWe are looking for a doctoral student to carry out frontier research on accident management (AM) during severe accidents of light water reactors. The doctoral student project is supported by the funds from Strålsäkerhetsmyndigheten (SSM).\nThe successful candidate is expected to (i) digitalize the paper-based, lookup-table-like procedures in the severe accident management guidelines (SAMG) to be chosen, facilitating the realization of the SAMG in case of severe accidents; (ii) develop an AI-aided tool for diagnosis of plant damage state using measured and estimated data (e.g. the simulation results of U.S. NRC codes); and (iii) combine the digitalized SAMG with the AI-aided tool for effective accident management.\nSupervision:\nProfessor Weimin Ma is proposed to supervise the doctoral student. Decisions are made on admission\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nThe applicant must have been awarded a Master’s degree in nuclear engineering or mechanical engineering.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2770\nContact\nWeimin Ma, weimin@kth.se\nPublished\n03.Sep.2026\nLast application date\n23.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "KTH doctoral position in nuclear power safety focused on severe accident management, developing digital tools to modernize SAMG (accident management guidelines) and AI-aided diagnostics for light-water reactor damage assessment.",
+    "summary": "KTH Royal Institute of Technology seeks a doctoral student in Nuclear Power Safety to digitalize severe-accident-management guidelines (SAMG), develop AI-aided plant-damage diagnosis tools, and integrate these for improved accident management in light-water reactors. The research combines accident phenomenology, nuclear engineering, AI/machine learning for diagnosis, and safety analysis procedures.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "No thematic connection. The researcher studies human-centred immersive systems, spatial learning, and collaborative interaction. This position is pure nuclear engineering and AI/diagnostic tool development for reactor accident management. While the work involves system design and human interaction with guidance interfaces, the domain is nuclear safety operations, not HCI research, immersive systems, or learning science."
+      "score": 6,
+      "rationale": "Position is rooted in nuclear engineering, accident analysis, and reactor safety—pure technical physics and engineering domains. The researcher's expertise is in human-centred XR, immersive learning, spatial cognition, and collaborative systems. There is no thematic intersection. The mention of 'AI-aided diagnosis' does not represent human-centred HCI; it is a machine-learning engineering task applied to reactor telemetry data. The core is nuclear safety, not human factors or interaction design."
     },
     "methodological_fit": {
-      "score": 15,
-      "rationale": "The position requires digitizing paper-based procedures, developing AI-aided diagnosis tools, and combining them for decision support. These involve systems design and human factors (operators consulting SAMG under stress). The researcher has experience in user-centred system design and UX evaluation from immersive systems. However, the technical core is nuclear engineering (severe accident physics) and AI/ML diagnostics—domains requiring specialized knowledge the researcher lacks. The HCI/UX component is secondary and subordinate to engineering and physics requirements."
+      "score": 8,
+      "rationale": "Position requires a Master's degree in nuclear engineering or mechanical engineering and demands deep physics and engineering knowledge. The researcher has intermediate experimental-design and quantitative-research skills from HCI user studies—not aligned with nuclear accident simulation, code-based phenomenology analysis, or diagnostic ML model development. No methodological bridge."
     },
     "growth_value": {
-      "score": 10,
-      "rationale": "This position would expose the researcher to applied AI/diagnostics development and high-stakes human-system interaction design. These skills are adjacent to HCI but in a critical infrastructure domain. Limited transfer to stated growth areas (statistics, mixed-effects modelling) or target trajectory (immersive systems, spatial cognition, collaborative learning research)."
+      "score": 2,
+      "rationale": "This role would require learning nuclear engineering and accident phenomenology from the ground up. It does not close any of the researcher's stated capability gaps (statistics, mixed-effects modelling, physiological sensing, eye-tracking) in a useful way. Growth would be in a completely orthogonal domain."
     },
     "strategic_value": {
-      "score": 40,
-      "rationale": "KTH is a leading institution with strong nuclear engineering and applied physics programs. Funding is stable (provided by Strålsäkerhetsmyndigheten, Sweden's Radiation Safety Authority). Supervisor Weimin Ma is an established researcher. However, the institution and supervisor expertise are in nuclear engineering, not HCI or human-centred research. No path to researcher's target identity or community in immersive systems research."
+      "score": 18,
+      "rationale": "Strengths: KTH (Stockholm, Sweden) is in a priority-1 geography (Scandinavia). This IS a doctoral-student position aligned with target position types. Supervision by Prof. Weimin Ma; strong institution. Weaknesses: Research community is nuclear engineering and safety science, not HCI or immersive systems. Publications and conferences are in nuclear technology, not XR/immersive-systems venues. Doctoral training embeds researcher in nuclear-engineering networks, not target research community. Post-PhD trajectory would be nuclear-safety research, not human-centred immersive systems."
     },
     "required_skills": [
-      "experimental-design",
       "quantitative-research"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "experimental-design",
-      "quantitative-research"
+      "quantitative-research",
+      "experimental-design"
     ],
-    "missing_skills": [],
+    "missing_skills": [
+      "python"
+    ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Posting requires 'Master's degree in nuclear engineering or mechanical engineering.' Researcher has MSc by Research in Multimedia; degree domain does not match eligibility requirement.",
-      "Posting specifies the candidate should: (i) digitalize SAMG procedures, (ii) develop AI-aided diagnostic tools, (iii) combine them operationally. This requires domain knowledge in severe accident physics, NRC codes, and safety analysis that the researcher lacks.",
-      "Admission eligibility is formally met (MSc by research stage), but disciplinary gap may disadvantage the application."
+      "Admission requirement: 'Master's degree in nuclear engineering or mechanical engineering.' Researcher holds MSc by Research in Creative Multimedia (Faculty of Creative Multimedia). Field mismatch is substantial. Eligibility depends on whether the program accepts 'substantially equivalent knowledge,' which is unlikely given the disciplinary distance.",
+      "Admission requires English proficiency 'equivalent to English B/6.' Researcher's background does not specify, but is likely satisfied given prior international research context.",
+      "Position may require security clearance under Swedish Protective Security Act (2018:585) due to nuclear-safety sensitivity. Researcher's background as a foreign graduate student may trigger additional vetting; posting notes 'a prerequisite for employment is that the applicant is approved following the security clearance.'"
     ],
     "risks": [
-      "Substantial domain knowledge deficit in nuclear engineering, severe accident phenomenology, and NRC codes would require extended foundational learning.",
-      "Application may be weak against candidates with nuclear/mechanical engineering backgrounds.",
-      "PhD research in nuclear safety diverges entirely from target research identity (human-centred immersive systems); represents a fundamental career pivot away from HCI/XR research.",
-      "No existing publication history, supervisor relationship, or research experience in nuclear engineering or safety-critical systems."
+      "Researcher does not hold a Master's degree in nuclear engineering or mechanical engineering. Eligibility for PhD admission is questionable; program is unlikely to accept Creative Multimedia as 'substantially equivalent.'",
+      "Zero background in nuclear physics, reactor systems, or safety analysis. Doctoral training would require 1–2 years of foundational coursework before independent research.",
+      "Position focuses on accident management procedures and AI diagnosis tools—technical engineering domains. The research has no human-computer-interaction or human-factors component despite the mention of 'digitalize...procedures.'",
+      "Security clearance for nuclear-sensitive work may be complex for a foreign researcher; processing delays or denial is possible.",
+      "Post-PhD career path would be nuclear engineering, not immersive systems or HCI research."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -315,14 +359,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.89,
+    "confidence": 0.96,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-09-03T11:13:01.167798Z",
-    "analysis_input_hash": "d1a49dfb5550225ef116261677443d266b7e4c290b482a46cb725c6dba97eade"
+    "analyzed_at": "2026-09-28T13:33:42.264736Z",
+    "analysis_input_hash": "fbb6947b1057a4438a6c85253604c7998a8d927a92dcc4bcbad8863607b0e6a6"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -331,9 +375,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 14,
-    "urgency": "high",
-    "days_to_deadline": 12,
+    "fit_overall": 8,
+    "urgency": "medium",
+    "days_to_deadline": 25,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

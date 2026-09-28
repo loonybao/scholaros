@@ -6,8 +6,8 @@ organisation: "TU Delft"
 deadline: 2026-10-19
 status: open
 eligibility_gate: uncertain
-fit_overall: 32
-urgency: medium
+fit_overall: 44
+urgency: high
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 22)
+Gate: **uncertain** (days to deadline: 21)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -64,11 +64,9 @@ Coming to Delft Service
 Dual Career Programme
 is available, to support your accompanying partner with their job search in the Netherlands.
 Additional information
-For more information about this vacancy, please contact Dr. Ece Üreten (
-E.Uereten@tudelft.nl
-) or Dr. Perla Marang-van de Mheen (
-P.J.Marang-vandeMheen@tudelft.nl
-).
+For more information about this vacancy, please contact
+Recruitment-tbm@tudelft.nl
+.
 Application procedure
 Are you interested in this vacancy? Please apply no later than
 19 October 2026
@@ -88,27 +86,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.78_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.72_
 
-Four-year funded PhD in ICU handover communication and patient safety, examining sociotechnical complexity of shift handovers in intensive care using safety science, systems engineering, and qualitative/quantitative research methods to evaluate handover tools and practices.
+TU Delft's Faculty of Technology, Policy & Management offers a PhD position examining safe handover practices in Intensive Care Units (ICUs) through a sociotechnical lens. The research combines healthcare systems analysis, human factors, safety science, and stakeholder engagement to understand communication failures during clinical transitions. This is a sociotechnical systems and healthcare safety research position.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 20 |
-| Methodological fit | 45 |
-| Growth value | 30 |
-| Strategic value | 35 |
-| **Overall** | **32** |
+| Thematic fit | 28 |
+| Methodological fit | 52 |
+| Growth value | 48 |
+| Strategic value | 58 |
+| **Overall** | **44** |
 
 **Fit type:** adjacent-methodological-fit
 
-**Missing skills:** safety-science, healthcare-systems, sociotechnical-analysis
+**Missing skills:** statistics, mixed-effects-modelling
 
 **Risks:**
-- Primary risk: disciplinary reorientation into healthcare systems and patient safety; no demonstrated interest or background in clinical contexts.
-- Dutch language requirement ('prioritized') is a practical barrier if not met.
-- Four-year commitment to healthcare research delays or derails return to immersive learning systems research.
-- Supervisory expertise and community are healthcare safety and systems engineering, not HCI or spatial cognition research; no intellectual home for the researcher's target identity.
+- Zero domain knowledge in healthcare or safety science. Onboarding curve is steep despite methodological transferability.
+- Position is positioned as sociotechnical systems research in clinical settings, not immersive-systems or HCI research. Publication venues (healthcare informatics, safety science) differ from target research identity (immersive systems, HCI conferences).
+- Supervisors (Dr. Ece Üreten, Dr. Perla Marang-van de Mheen) lead healthcare-systems research; limited mentorship in immersive systems or spatial cognition. Post-PhD positioning would be healthcare-informatics focused, not XR.
+- Risk of trajectory lock: completing a healthcare-systems PhD at TU Delft may make subsequent transition back to immersive-systems research harder, despite methodological overlap.
+- Posting emphasizes 'willingness to work closely with stakeholders from healthcare organizations'; this is a clinical immersion, not a typical research lab environment.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-safe-and-effective-handover-practices-i.md` and link [[opp_tudelft-phd-position-safe-and-effective-handover-practices-i]]._
