@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-10-23
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 10
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 25)
+Gate: **uncertain** (days to deadline: 24)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -130,7 +130,27 @@ here.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+This position develops hybrid quantum devices coupling superconducting qubits, magnons, and photoluminescent spin ions through experimental physics work in magnonics, quantum technology, and materials science. The role requires advanced instrumentation expertise (film deposition, spectroscopy, cryogenic systems) and is based at Aalto University's Nanomagnetism and Spintronics group.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 35 |
+| **Overall** | **10** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** magnonics, superconducting-circuits, materials-science, film-deposition, spectroscopy, cryogenic-systems, quantum-technology
+
+**Risks:**
+- Fundamental domain mismatch: quantum physics ≠ human-computer interaction. Two years in this position would not advance the researcher toward their target identity.
+- Required background (physics MSc or PhD) may make the researcher uncompetitive or ineligible.
+- No existing HCI, XR, learning science, or social science collaborators mentioned in the posting. Isolation from target research community.
+- Skill development pathway is physics instrumentation, not human-centred research methods.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-and-postdoctoral-positions-in-hybrid-magnonic.md` and link [[opp_aalto-doctoral-and-postdoctoral-positions-in-hybrid-magnonic]]._

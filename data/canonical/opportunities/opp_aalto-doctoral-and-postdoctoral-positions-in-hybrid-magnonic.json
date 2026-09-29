@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-23T11:01:49.734715Z",
-  "updated_at": "2026-09-28T13:34:08.565570Z",
+  "updated_at": "2026-09-29T12:45:45.369481Z",
   "change_history": [
     {
       "ts": "2026-09-23T11:01:49.734819Z",
@@ -63,6 +63,45 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-29T12:45:45.135289Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-29T12:45:45.369481Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -99,16 +138,78 @@
     "status": "open",
     "description_text": "We are looking for highly motivated\nDoctoral Researchers\n(PhD students) and\nPostdoctoral Researchers\nto work on experiments in a project that couples superconducting qubits, magnons and photoluminescent spin ions within a single chip-scale device. Magnons link the microwave and the optical domain, opening the way to efficient microwave-to-optical quantum transduction and to magnon-mediated entanglement between spin ions. Positions are available across the following research topics, each addressing a different pillar of the platform.\nTopic 1\nStrongly coupled magnon–microwave-photon–qubit hybrids in 3D magnetic fields\nIn this topic, we will develop\nhigh-Q superconducting microwave cavities\non garnet substrates and integrate them with\ntransmon circuits supplied by a collaborating quantum-circuits group\n. The work covers the deposition and nanostructuring of Nb and NbN resonators, their optimisation for\nmagnetic-field resilience\n, and the design of a\nshared microwave cavity\nthrough which the qubit and the magnon mode couple. The central challenge is field compatibility: the fields needed to tune the magnons are precisely those that degrade qubit coherence, addressed through shielded and flip-chip geometries and through\nfull vector control of the magnetic field\n, decoupling the direction the magnons require from the one the circuit tolerates. With the hybrid operational, we will characterise\nqubit–magnon coupling\nspectroscopically, and we will work towards\nentanglement between a qubit and a single magnon\n.\nTopic 2\nHybrid quantum materials and integrated optical cavities for photoluminescent spin-ion–magnon coupling\nThe goal of this topic is an\nintegrated high-Q optical cavity in which magnons and photoluminescent spin ions are both strongly coupled\n, operated at millikelvin temperatures. We will explore\nmultiple material systems\nto identify a platform where high-Q magnons couple efficiently to the spin ions while long optical and spin lifetimes are preserved, using\npulsed laser deposition, atomic layer deposition and liquid-phase epitaxy\nof substituted garnet films, and comparing directly doped garnets against stacks in which the spin ions are hosted in an adjacent layer. The candidate systems will be characterised by\nphotoluminescence-excitation spectroscopy, quantum-limited EPR and microwave spectroscopy\n.\nThe selected system will be structured into\nintegrated high-Q optical cavities\n, and a suitable fibre-to-chip coupling scheme for millikelvin operation will be developed using\ntwo-photon lithography\n. The devices will then be packaged for the millikelvin refrigerator, combining optical and microwave access with the thermal anchoring and low heat load required there. The goal of this topic is the demonstration of\nefficient microwave-to-optical conversion\nin the integrated device.\nTopic 3\nOptical multimode-fibre imaging at deep cryogenic temperatures\nIn this topic, we will build a cryogenic imaging platform based on\nmultimode-fibre holography\n. Wavefront shaping combined with a measured fibre transmission matrix allows a diffraction-limited focus to be formed and scanned at the end of a bare fibre, giving microscope-grade resolution with a thermal footprint compatible with a millikelvin refrigerator. The work covers the construction of the optical system and its adaptation to millikelvin operation, where the central problem is the stability of the transmission matrix through cooldown. The platform will then be extended from imaging to\nspatially resolved photoluminescence spectroscopy in the telecom band\nwith single-photon-sensitive detection, and integrated with the optical cavity devices developed in the project. The goal is the\noptical addressing and readout of single spin ions\n, working towards\ntwo spin ions entangled through a shared magnon mode\n.\nWhere you will work\nThe project is conducted in the\nNanomagnetism and Spintronics group\nat the Department of Applied Physics of Aalto University. Our laboratory is equipped with advanced instrumentation for film growth and for magnetic, microwave and optical characterisation. Particularly relevant for the advertised positions are a pulsed laser deposition system for garnet film growth, an atomic layer deposition system, a VNA-FMR setup, a broadband spin-wave spectrometer, a time-resolved magneto-optic Kerr effect microscope, tunable C-band lasers, and cryogenic platforms including a closed-cycle optical cryostat with a 3D vector magnet and an adiabatic demagnetisation refrigerator reaching 30 mK. You will also have full access to the\nOtaNano research infrastructure\n, consisting of a state-of-the-art cleanroom for nanofabrication and a centre for nanomicroscopy.\nAalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nYour experience and ambitions\nWe are looking for bright and motivated researchers with an excellent record in one or more of the following: magnonics, magnetism, quantum technology, superconducting circuits, optics and photonics, or materials science. We do not expect any single applicant to cover all areas of the project; please indicate in your motivation letter which topic or topics interest you and why. Good command of English (both verbal and written) and demonstrated ability to disseminate scientific results are mandatory requirements. Finnish language is not required. Applicants must be motivated to conduct research at the highest international level with the aim of publishing high-impact articles.\nTo be eligible, Doctoral Researchers must hold an MSc degree in physics or another suitable field. Postdoctoral Researchers must hold a PhD in physics or a related discipline, or be close to completing one, and are expected to take a leading role in their topic and to support the doctoral researchers in the team.\nWhat we offer\nDoctoral Researcher positions are initially filled for 2 years and continued for another 2 years after a successful midterm review. The starting salary for Doctoral Researchers is 3142,65 € per month (gross), and it increases as the Doctoral Researcher progresses in the research and studies.\nPostdoctoral Researcher positions have an initial contract of 2 years, with the possibility of extension. The starting salary for Postdoctoral Researchers is 4229,48 - 4649,25 € per month (gross), depending on experience.\nAalto University follows the salary system of Finnish universities. All contracts include occupational healthcare. The annual workload of research and teaching staff at Aalto University is currently 1612 hours.\nOur vast array of professional development opportunities means you will grow and learn, having the chance to participate actively in staff trainings and development projects based on your interests and needs. There is great freedom in your role, and we have a flexible modern working culture. We value work-life balance and well-being in all aspects of life.\nJoin us!\nTo apply, please send the following documents as a single PDF file (all documents in English) through our recruitment site (\"Apply now!\"):\nLetter of motivation, indicating the position and topic(s) you are applying for\nCV including list of publications\nDegree certificates and academic transcripts\nContact details of at least two referees (or letters of recommendation, if available)\nThe deadline for applications 23.10.2026\n. Applications will be reviewed on a rolling basis, and suitable candidates may be invited to an interview before the deadline. Aalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.\nFor additional information, kindly contact Dr. Lukáš Flajšman (\nlukas.flajsman@aalto.fi\n) and Prof. Sebastiaan van Dijken (\nsebastiaan.van.dijken@aalto.fi\n).\nPlease note: Aalto University's employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions).\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and is regularly listed as the happiest country in the world. For more information about living in Finland:\nhttps://www.aalto.fi/en/careers-at-aalto/living-in-finland\nand\nhttps://www.aalto.fi/en/services/welcome-to-aalto-university-and-finland-info-package\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
-  "ai": null,
+  "ai": {
+    "summary": "This position develops hybrid quantum devices coupling superconducting qubits, magnons, and photoluminescent spin ions through experimental physics work in magnonics, quantum technology, and materials science. The role requires advanced instrumentation expertise (film deposition, spectroscopy, cryogenic systems) and is based at Aalto University's Nanomagnetism and Spintronics group.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic alignment. The position is pure experimental quantum physics (magnonics, superconducting circuits, cryogenic characterization). The researcher's identity is human-centred immersive systems, spatial cognition, and collaborative learning — entirely different scientific domains. The mention of 'Aalto University' is institutional, not thematic."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Minimal methodological overlap. The researcher has intermediate experimental-design and user-studies skills grounded in HCI. This position requires spectroscopy, materials characterization, quantum measurement, and instrumentation control — physics-level experimental methods with no connection to human subjects, usability, or learning science. The only shared thread is 'conducting rigorous experiments,' which is too generic to constitute methodological fit."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "This position closes no capability gaps relevant to the researcher's target identity. Learning quantum device fabrication, VNA-FMR spectroscopy, or cryogenic characterization would not advance toward human-centred XR, collaborative immersive systems, or spatial learning research. The skill sets are orthogonal."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "Aalto University is a strong institution in the researcher's priority-1 geography and country (Finland). However, this specific group (Nanomagnetism and Spintronics) has no demonstrable HCI, XR, or learning science presence. The position does not build connections to supervisors, collaborators, or research communities aligned with the target identity. Funding is stable (EU/Finnish research context) and the institution is prestigious, but strategic value is undermined by complete domain mismatch."
+    },
+    "required_skills": [
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "magnonics",
+      "superconducting-circuits",
+      "materials-science",
+      "film-deposition",
+      "spectroscopy",
+      "cryogenic-systems",
+      "quantum-technology"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting states 'Doctoral Researchers must hold an MSc degree in physics or another suitable field.' Researcher holds MSc by Research in Creative Multimedia; eligibility depends on whether MMU Creative Multimedia qualifies as 'suitable field' in physics context — likely not, given the quantum physics focus.",
+      "Postdoc track requires 'PhD in physics or a related discipline' — researcher is MSc in progress, ineligible.",
+      "Position strongly prefers expertise in 'magnonics, magnetism, quantum technology, superconducting circuits, optics and photonics, or materials science' — researcher has none of these."
+    ],
+    "risks": [
+      "Fundamental domain mismatch: quantum physics ≠ human-computer interaction. Two years in this position would not advance the researcher toward their target identity.",
+      "Required background (physics MSc or PhD) may make the researcher uncompetitive or ineligible.",
+      "No existing HCI, XR, learning science, or social science collaborators mentioned in the posting. Isolation from target research community.",
+      "Skill development pathway is physics instrumentation, not human-centred research methods."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-29T12:45:45.134759Z",
+    "analysis_input_hash": "1a63f64fd2a93efca3d2a5d52e4dbaa2958d362a3f43e41bc09db1d57fd21694"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 10,
     "urgency": "medium",
-    "days_to_deadline": 25,
+    "days_to_deadline": 24,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
