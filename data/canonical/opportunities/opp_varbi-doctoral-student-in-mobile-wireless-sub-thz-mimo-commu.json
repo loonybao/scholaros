@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-03T11:04:48.221424Z",
-  "updated_at": "2026-09-29T12:45:45.761484Z",
+  "updated_at": "2026-09-30T12:48:03.067762Z",
   "change_history": [
     {
       "ts": "2026-09-03T11:04:48.221546Z",
@@ -248,6 +248,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-09-30T12:26:18.556620Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-09-30T12:48:02.367987Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-30T12:48:03.067762Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -261,10 +302,10 @@
     "evidence_ids": [
       "varbi/kth-962649"
     ],
-    "retrieved_at": "2026-09-03T11:04:48.221271Z",
-    "raw_snapshot_hash": "207a2bf4e1379034b30ce7ccbae697e7f953bc0f4545c1385a3e831cff03f126",
-    "extracted_content_hash": "2543c62f2a0c048404bc9e34266b7f0cbef585ae36c5a0482233e66d9830f661",
-    "deadline": "2026-10-01",
+    "retrieved_at": "2026-09-30T12:26:18.555929Z",
+    "raw_snapshot_hash": "33112a70ec0ba6b74b3778333c4738ac99569a74ddeadbed50f54d9660407928",
+    "extracted_content_hash": "21c7c102be7d737a6a9aa97d2b4ee4e9e4851fe44b321799cd4b44e2a55cfc2d",
+    "deadline": "2026-10-05",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -282,49 +323,51 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Doctoral student in mobile wireless sub-THz MIMO communication for 7G\nApply for position\nKTH, School of Electrical Engineering and Computer Science\nProject description\nThird-cycle subject:\nInformation and Communication Technology\nIn this doctoral project, you will contribute to the\ntheory formation for mobile sub-terahertz (sub-THz) and terahertz (THz) wireless communication systems for 6G, 7G and beyond and establish yourself at the international forefront\n. Some possible research sub-areas are related to physically large antenna arrays, near-field THz communications, movable antennas, intelligent reflecting surfaces (IRSs), joint terahertz communication and wireless sensing (ISAC), massive and distributed MIMO at sub-terahertz frequencies, and terahertz communications for satellite networks. Methods from probability theory, communication theory, electromagnetics, optimization and machine learning will play an important role.\nThe research will focus on the physical layer and media access control layer, but there are opportunities to adapt the research to your personal interests. The research is fully funded, and the results will be published in top-level journals and prepare you for a research career in academia and industry.\nSupervision:\nAssistant Prof. Vitaly Petrov and Prof. Emil Björnsson.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues and\ncommunicate effectively in English\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree:\nDoctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages. Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports (no more than 3 examples).For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2851\nContact\nVitaly Petrov, Assistant Prof., vitalyp@kth.se\nPublished\n03.Sep.2026\nLast application date\n01.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Doctoral student in mobile wireless sub-THz MIMO communication for 7G\nApply for position\nKTH, School of Electrical Engineering and Computer Science\nProject description\nThird-cycle subject:\nInformation and Communication Technology\nIn this doctoral project, you will contribute to the\ntheory formation for mobile sub-terahertz (sub-THz) and terahertz (THz) wireless communication systems for 6G, 7G and beyond and establish yourself at the international forefront\n. Some possible research sub-areas are related to physically large antenna arrays, near-field THz communications, movable antennas, intelligent reflecting surfaces (IRSs), joint terahertz communication and wireless sensing (ISAC), massive and distributed MIMO at sub-terahertz frequencies, and terahertz communications for satellite networks. Methods from probability theory, communication theory, electromagnetics, optimization and machine learning will play an important role.\nThe research will focus on the physical layer and media access control layer, but there are opportunities to adapt the research to your personal interests. The research is fully funded, and the results will be published in top-level journals and prepare you for a research career in academia and industry.\nSupervision:\nAssistant Prof. Vitaly Petrov and Prof. Emil Björnsson.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues and\ncommunicate effectively in English\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree:\nDoctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages. Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports (no more than 3 examples).For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2851\nContact\nVitaly Petrov, Assistant Prof., vitalyp@kth.se\nPublished\n03.Sep.2026\nLast application date\n05.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "KTH doctoral position in sub-THz and THz wireless communication theory for 6G/7G, covering antenna arrays, MIMO, intelligent reflecting surfaces, joint sensing/communication, and satellite networks using probability theory, optimization, and machine learning.",
+    "summary": "A PhD in sub-terahertz and terahertz wireless communication for 6G/7G, focusing on physical-layer theory, antenna arrays, near-field communications, and intelligent reflecting surfaces. Supervised by Vitaly Petrov and Emil Björnsson at KTH's School of Electrical Engineering and Computer Science.",
     "fit_type": "poor-fit",
     "thematic_fit": {
       "score": 0,
-      "rationale": "No thematic overlap. The researcher studies human-centred immersive systems and spatial learning; this position is pure physical-layer communication theory and RF/THz engineering. No HCI, no immersive systems, no learning science, no collaboration or social interaction beyond research team collaboration."
+      "rationale": "Pure wireless communications, signal processing, and electromagnetic theory. No connection to human-centred systems, immersive interaction, spatial cognition, learning, collaboration, or any domain relevant to the researcher's target identity."
     },
     "methodological_fit": {
       "score": 5,
-      "rationale": "The position emphasizes 'probability theory, communication theory, electromagnetics, optimization and machine learning.' The researcher has intermediate quantitative-research skills from HCI user studies and beginner-level Python. These do not prepare for graduate-level theoretical communication systems, RF engineering, or MIMO/antenna theory. Method transfer is negligible."
+      "rationale": "Position emphasizes mathematical theory (probability theory, communication theory, optimization) and machine learning at the physical layer. Researcher has beginner-level Python and no demonstrated experience with signal processing, electromagnetics, or pure algorithm development. Methodological overlap is minimal."
     },
     "growth_value": {
       "score": 0,
-      "rationale": "Communications engineering and THz RF systems are entirely outside the researcher's target growth trajectory (human-centred immersive systems, spatial cognition, collaborative interaction design). Would add no value to stated PhD goals."
+      "rationale": "Does not advance spatial cognition, collaborative immersive systems, HCI, or human-centred research. Pure ML and communications theory are explicitly excluded from the researcher's target directions."
     },
     "strategic_value": {
-      "score": 30,
-      "rationale": "KTH is a top-tier technical university with strong communications and signal processing groups. Supervisors Vitaly Petrov and Emil Björnsson are established researchers in wireless communications. Funding and research prestige are solid. However, zero intellectual bridge to HCI, XR, or human-centred research. Supervisor expertise is in physical layer and systems optimization, not human factors or application domains."
+      "score": 20,
+      "rationale": "KTH is in Sweden (preferred country) and well-funded. However, the School of Electrical Engineering focuses on pure technical systems rather than human-centred or design-science research. Supervision in wireless theory does not support pathway to immersive-systems or HCI leadership."
     },
     "required_skills": [
-      "statistics",
-      "quantitative-research"
+      "python"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "quantitative-research"
+      "python"
     ],
     "missing_skills": [
-      "statistics"
+      "communication-theory",
+      "signal-processing",
+      "electromagnetics",
+      "optimization",
+      "antenna-design",
+      "machine-learning-algorithms"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Posting does not specify required background, but describes research requiring 'probability theory, communication theory, electromagnetics, optimization and machine learning.' Researcher has no formal training in communication theory, electromagnetics, or RF systems.",
-      "Selection emphasizes personal skills and goal orientation, but no admission prerequisite waiver for domain expertise gaps is indicated.",
-      "Prior information theory experience is listed as a plus; researcher has none."
+      "Requires 'basic eligibility' (MSc or equivalent 240 credits with 60 second-cycle credits). Researcher holds MSc by Research in progress; confirm thesis completion and degree conferral before application deadline."
     ],
     "risks": [
-      "Severe domain knowledge deficit would require 12+ months of foundational coursework (signal processing, EM theory, communication systems) before independent research.",
-      "PhD years invested in communications theory diverge sharply from target identity and future HCI/XR research career.",
-      "No existing publication history, mentor network, or research experience in communications or RF systems."
+      "Stated excluded direction: position is pure wireless communications and ML algorithm development, both explicitly outside target scope.",
+      "Researcher's expertise is advanced in Unity/C# and collaborative interaction design, not mathematical signal theory or electromagnetics.",
+      "Four-year PhD commitment to communications theory delays repositioning toward human-centred XR/HCI research."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -332,14 +375,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.94,
+    "confidence": 0.98,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-09-03T11:13:01.165813Z",
-    "analysis_input_hash": "fb9a294e39919adbdcbf09dada2abc77859d3f848770ad18035758ef5e3da8ec"
+    "analyzed_at": "2026-09-30T12:48:02.367198Z",
+    "analysis_input_hash": "7de6c6acc107dbb6b3580549ecf06fa5bf87d10dcdfb15500c06d2c78b34163d"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -348,9 +391,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 6,
+    "fit_overall": 5,
     "urgency": "urgent",
-    "days_to_deadline": 2,
+    "days_to_deadline": 5,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

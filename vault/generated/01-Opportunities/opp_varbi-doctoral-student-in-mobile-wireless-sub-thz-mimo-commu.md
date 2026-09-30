@@ -3,10 +3,10 @@ id: opp_varbi-doctoral-student-in-mobile-wireless-sub-thz-mimo-commu
 type: opportunity
 title: "Doctoral student in mobile wireless sub-THz MIMO communication for 7G"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-10-01
+deadline: 2026-10-05
 status: open
 eligibility_gate: uncertain
-fit_overall: 6
+fit_overall: 5
 urgency: urgent
 needs_review: true
 ---
@@ -14,7 +14,7 @@ needs_review: true
 # Doctoral student in mobile wireless sub-THz MIMO communication for 7G
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-10-01
+**Deadline:** 2026-10-05
 **Location:** Stockholm, Sweden
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 5)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -125,33 +125,33 @@ Vitaly Petrov, Assistant Prof., vitalyp@kth.se
 Published
 03.Sep.2026
 Last application date
-01.Oct.2026
+05.Oct.2026
 Apply for position
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
 
-KTH doctoral position in sub-THz and THz wireless communication theory for 6G/7G, covering antenna arrays, MIMO, intelligent reflecting surfaces, joint sensing/communication, and satellite networks using probability theory, optimization, and machine learning.
+A PhD in sub-terahertz and terahertz wireless communication for 6G/7G, focusing on physical-layer theory, antenna arrays, near-field communications, and intelligent reflecting surfaces. Supervised by Vitaly Petrov and Emil Björnsson at KTH's School of Electrical Engineering and Computer Science.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 0 |
 | Methodological fit | 5 |
 | Growth value | 0 |
-| Strategic value | 30 |
-| **Overall** | **6** |
+| Strategic value | 20 |
+| **Overall** | **5** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics
+**Missing skills:** communication-theory, signal-processing, electromagnetics, optimization, antenna-design, machine-learning-algorithms
 
 **Risks:**
-- Severe domain knowledge deficit would require 12+ months of foundational coursework (signal processing, EM theory, communication systems) before independent research.
-- PhD years invested in communications theory diverge sharply from target identity and future HCI/XR research career.
-- No existing publication history, mentor network, or research experience in communications or RF systems.
+- Stated excluded direction: position is pure wireless communications and ML algorithm development, both explicitly outside target scope.
+- Researcher's expertise is advanced in Unity/C# and collaborative interaction design, not mathematical signal theory or electromagnetics.
+- Four-year PhD commitment to communications theory delays repositioning toward human-centred XR/HCI research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-mobile-wireless-sub-thz-mimo-commu.md` and link [[opp_varbi-doctoral-student-in-mobile-wireless-sub-thz-mimo-commu]]._

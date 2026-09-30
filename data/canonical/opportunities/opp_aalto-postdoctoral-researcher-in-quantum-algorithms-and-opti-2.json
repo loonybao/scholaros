@@ -1,0 +1,172 @@
+{
+  "id": "opp_aalto-postdoctoral-researcher-in-quantum-algorithms-and-opti-2",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-30T12:08:51.166184Z",
+  "updated_at": "2026-09-30T12:48:02.695145Z",
+  "change_history": [
+    {
+      "ts": "2026-09-30T12:08:51.166320Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-30T12:29:07.708016Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-30T12:48:02.695145Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral researcher in quantum algorithms and optimization for Life Science applications",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "postdoctoral-researcher-in-quantum-algorithms-and-optimization-for-life-science-applications-0",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-quantum-algorithms-and-optimization-for-life-science-applications-0",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Postdoctoral-researcher-in-quantum-algorithms-and-optimization-for-Life-Science-applications_R48225/apply",
+    "evidence_ids": [
+      "aalto/postdoctoral-researcher-in-quantum-algorithms-and-optimization-for-life-science-applications-0"
+    ],
+    "retrieved_at": "2026-09-30T12:08:51.165944Z",
+    "raw_snapshot_hash": "7c6a9a9df053c94a9a57fdb65237c7a080f67ee2085ce4d2b18cc18efa3c5039",
+    "extracted_content_hash": "f54c074880f4d9f87899624471a86a54ea13038887e3e86189342a13943d6fe1",
+    "deadline": "2026-11-30",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-09-30",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 120 nationalities, 14 000 students, 400 professors and close to 5000 other faculty and staff working on our dynamic campus in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe School of Electrical Engineering is one of the six schools of Aalto University. Our portfolio covers fields from natural sciences to engineering and information sciences. In parallel with basic research, we develop ideas and technologies further into innovations and services. We are experts in systems science; we develop integrated solutions from care of the elderly to space robotics.\nWe are now looking for a\nPostdoctoral researcher in quantum algorithms and optimization for Life Science applications.\nThis is an early-career position for researchers who are within two years of completing their PhD. The contract is a two-year contract, extendable by one year.\nAre you as excited about quantum technology and its future applications as we are?\nWe are seeking a postdoctoral researcher to join the Micro and Quantum Systems (MQS) research group in the Department of Electronics and Nanoengineering at Aalto University. MQS currently comprises more than 19 members and is expanding. We are advancing foundational topics in quantum computing and their practical applications.\nIn this position, you will work at the intersection of quantum computing, computational biology, genomics, and materials science. You will have the opportunity to delve deeply into quantum computing and contribute to high-quality research with real-world impact. Join us in shaping the future!\nYour role and goals\nYour primary task as a postdoctoral researcher is to conduct research in quantum algorithms and quantum information. You are expected to take an active role in advancing the MQS group’s research projects.\nOur recent work has focused on the theory and applications of quantum walk algorithms, variational quantum algorithms and their optimization, adiabatic quantum computation, and quantum machine learning. Theoretical and applied research into the capabilities of quantum computing and quantum advantage is a key focus across four application domains: bioinformatics, plant breeding, biomaterial synthesis, and cellulose‑processing enzyme design. In each of these, the underlying challenges are hard computational problems, such as combinatorial optimization, sampling, and molecular simulation. The domain expertise is provided through collaboration with partners in life science and materials groups, so no prior experience in the life sciences is required.\nYou will develop hybrid quantum‑classical algorithms to tackle domain‑specific, computationally demanding problems. Methods will be designed for near‑term (NISQ‑era) deployment, with models evaluated for expressivity, training stability, scalability, and resource requirements on representative problem sizes, and systematically benchmarked against fully classical baselines. In parallel, medium‑ to long‑term quantum algorithms will be explored to assess quantum readiness and to establish innovative methodologies relevant to each application field. The exact research topics can be tailored to your interests within the scope of our current projects.\nYour goal is to produce world‑class research results, in collaboration with other group members in the lively environment of the MQS group, and to publish them in high‑impact journals.\nIn addition to research, you will also be expected to take part in the supervision of PhD students and the teaching activities of the research group.\nYour network and team\nCurrently, our research group consists of 1 professor, 1 lecturer, 1 staff scientist, 1 research fellow, 2 postdocs and 7 PhD students, and several undergraduate research collaborators. The group is led by Professor Ilkka Tittonen.\nYour experience and ambitions\nApplicants are expected to\nHold a PhD with an excellent academic records in theoretical physics, mathematics, computer science, or another relevant field, awarded no more than two years before the application deadline.\nHave a solid background in quantum computing and quantum algorithms, sufficient to conduct research on the topic.\nHave programming skills (e.g., Python) and experience with numerical simulations or quantum software frameworks (e.g., Qiskit and PennyLane).\nHave a demonstrated ability to conduct independent and collaborative research on advanced topics.\nHave a working proficiency in English. (Finnish language is not required.)\nThe research topics can be adjusted according to the background of the applicant. Familiarity with one or more of the application areas described above (e.g., bioinformatics, computational biology or materials science) is a clear advantage, but not a requirement. We also welcome applicants from computational biology, bioinformatics or related fields who have a solid background in quantum computing. Teaching or supervision experience is also a valuable asset.\nWhat we offer\nThe position is a fixed-term, two-year contract, with the possibility of a one-year extension, subject to funding and progress. The salary for postdoctoral researcher is approximately 4200€/Month.\nWe offer the opportunity to conduct research within a vibrant international community. Finland hosts many active quantum computing groups connected through the national consortium InstituteQ, which coordinates a wide range of quantum‑related activities. We have access to real quantum hardware, including VTT’s Q50 machine and Aalto’s new Q20 system, located in the same building as our offices. In addition, we have access to other commercially available quantum platforms. Aalto University also offers ample opportunities for multidisciplinary research and teaching collaboration.\nWe offer you interesting work in an inspiring work environment. You will work in a community of students, researchers and other professionals, where we promote socially significant goals in the fields of science and education. We will familiarize you with your tasks and you will become part of a friendly and competent team that will continue to support you as your work progresses.\nOur wide array of professional development opportunities at Aalto University means you will grow and learn, having the chance to participate actively in staff trainings and development projects based on your interests and needs.\nWe work in a hybrid way, and the primary workplace is Otaniemi, Espoo. The Otaniemi campus is a thriving and connected community of 100 nationalities, 13,000 students and 4,500 employees. Life at the transformed campus is vibrant and filled with amazing architecture, calming nature, and a variety of cafes, restaurants, services and good connections along the recently opened metro line.\nJoin us!\nTo apply, please share your application with us through our recruitment site (\"Apply now!”) at the latest by\nNovember 30th, 2026\n. Applications submitted by email will not be accepted. We encourage you to apply early, as we will go through applications, and we may invite suitable candidates to interview already during the application period.\nAll materials must be submitted in PDF format, with up to five (5) files, each no larger than 5 MB. The application materials must include:\nCV (including a list of publications)\nMotivation letter\nRecommendation letters (max. 2, if available)\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions).\nFor more information regarding the open position, please contact Professor Ilkka Tittonen (\nilkka.tittonen@aalto.fi\n), University Lecturer Matti Raasakka (\nmatti.raasakka@aalto.fi\n) and Postdoctoral researcher Andrea Marchesin (\nandrea.marchesin@aalto.fi\n). For any question regarding the recruitment process, please contact HR Advisor (\nhr-elec@aalto.fi\n).\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nAalto University – Towards a better world\n,\nAalto People\n, and\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi/\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was just listed again as the happiest country in the world. For more information about living in Finland:\nhttps://www.aalto.fi/en/careers-at-aalto/for-international-staff\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in the Micro and Quantum Systems group applying quantum algorithms to computational biology, genomics, and materials science. Work involves hybrid quantum-classical algorithm design, NISQ-era implementation, and benchmarking against classical baselines.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Position is pure quantum computing algorithm development with applications to life science problems. Candidate's research is human-centred XR for spatial learning and orientation. No intersection in research questions, methods, or domain."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Both involve software development and empirical evaluation. However, quantum algorithm evaluation uses classical benchmarking and simulation, not user-centred methods. Candidate's experimental design and user studies skills do not apply."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "Position requires PhD in theoretical physics, mathematics, or computer science with solid quantum computing background. Candidate has no quantum computing background. This would require starting from scratch in a fundamentally different domain (quantum physics/CS theory vs. HCI)."
+    },
+    "strategic_value": {
+      "score": 10,
+      "rationale": "Aalto is priority-1; MQS group is well-resourced and internationally connected. However, position is postdoctoral (requires completed PhD), and candidate is still in Master's thesis stage. Position focuses on quantum theory and life science applications, not HCI or immersive systems. Does not advance target identity."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires completed PhD awarded no more than two years before application deadline. Candidate is currently MSc by Research (in progress). Not eligible unless PhD completed by November 2028.",
+      "Position requires 'solid background in quantum computing and quantum algorithms, sufficient to conduct research on the topic' — no evidence of this background.",
+      "Position requires experience with 'quantum software frameworks (e.g., Qiskit and PennyLane)' — no evidence.",
+      "Familiarity with life sciences (bioinformatics, computational biology, materials science) listed as 'clear advantage' — candidate has none."
+    ],
+    "risks": [
+      "Candidate is ineligible (postdoc requires PhD; candidate is still in Master's thesis stage).",
+      "Pure ML/quantum computing algorithm development — excluded research direction.",
+      "No background in quantum computing, quantum physics, or relevant mathematics.",
+      "Career trajectory would diverge entirely from human-centred XR/HCI identity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-30T12:29:07.707592Z",
+    "analysis_input_hash": "76fcdad15d51f3dbf65ca8c0b46208ec3fa2dfe953fb60e5dee3c4021e0d1f1c"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 3,
+    "urgency": "low",
+    "days_to_deadline": 61,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

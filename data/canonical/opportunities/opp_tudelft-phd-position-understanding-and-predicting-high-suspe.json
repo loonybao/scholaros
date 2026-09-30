@@ -1,0 +1,173 @@
+{
+  "id": "opp_tudelft-phd-position-understanding-and-predicting-high-suspe",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-09-30T12:12:12.267497Z",
+  "updated_at": "2026-09-30T12:48:02.933075Z",
+  "change_history": [
+    {
+      "ts": "2026-09-30T12:12:12.267629Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-09-30T12:29:07.710647Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-09-30T12:48:02.933075Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD position Understanding and Predicting High Suspended Sediment Dynamics in Estuaries",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1373465357",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-position-Understanding-and-Predicting-High-Suspended-Sediment-Dynamics-in-Estuaries-2628-CD/1373465357/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-position-Understanding-and-Predicting-High-Suspended-Sediment-Dynamics-in-Estuaries-2628-CD/1373465357/",
+    "evidence_ids": [
+      "tudelft/1373465357"
+    ],
+    "retrieved_at": "2026-09-30T12:12:12.267300Z",
+    "raw_snapshot_hash": "1132cfb1048fce09511763d4173739d9ef1b9351aac42565dcdf9aed16dd3d27",
+    "extracted_content_hash": "56902aa0823ed8bc1c1abe0a88ec5cab92d2e4f56190063ccc2749f6bb47bd93",
+    "deadline": "2026-10-12",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Human interventions and climate change are exerting increasing pressure on estuarine systems, profoundly altering their dynamics and often leading to negative consequences such as reduced flood safety, ecosystem degradation, and declining water quality. Given the growing challenges faced by these environments, there is an urgent need to improve our understanding of the physical, ecological, and biogeochemical processes that govern their behaviour.\nJob description\nThe PhD candidate will develop and analyse new process-based mathematical models to improve our understanding and predictive capability of sediment dynamics in hyperturbid estuaries. These systems are characterized by extremely high suspended sediment concentrations, strong interactions between flow and sediment transport, and the formation of fluid mud layers, making them among the most challenging coastal environments to model.\nThe research will focus on the fundamental question of how hydrodynamics, turbulence, sediment transport, and sediment trapping interact under highly turbid conditions. Existing idealized estuarine models do not adequately capture these feedback mechanisms, particularly when sediment concentrations become sufficiently high to influence turbulence and, consequently, the flow itself. The PhD candidate will therefore extend an existing two-dimensional vertical (2DV) estuarine model by developing and implementing novel turbulence closures that explicitly account for the mutual interactions between turbulence and sediment dynamics.\nUsing a combination of analytical techniques, asymptotic methods, and numerical simulations, the candidate will investigate the emergence of turbidity maxima, the formation of fluid mud layers, and the mechanisms governing sediment retention in estuaries. Particular attention will be paid to identifying the dominant physical processes and determining how system behaviour changes under varying forcing conditions and parameter regimes. Model results will be evaluated against observations from several European estuaries, thereby linking fundamental theory to real-world applications.\nIn the second phase of the project, the research will advance beyond the traditional 2DV framework by incorporating lateral variability. This will result in a more comprehensive description of estuarine dynamics and enable the investigation of questions that cannot be addressed with width-averaged models. Specifically, the candidate will quantify the role of lateral circulation, channel-shoal interactions, and cross-estuary sediment transport in controlling the location and strength of estuarine turbidity maxima and the occurrence of fluid mud.\nThe project combines mathematical model development, nonlinear dynamical systems analysis, turbulence modelling, and environmental fluid mechanics. The successful candidate will contribute to the development of new theoretical understanding of sediment-rich estuarine systems and will collaborate closely with other PhD candidates and postdoctoral researchers within the iMose project. Strong interactions with knowledge institutes, including Deltares, will ensure that the research remains connected to contemporary scientific and societal challenges related to estuarine management and climate adaptation.\nJob requirements\nA Master's degree in (Applied) Mathematics, Applied Physics, or a related discipline is required. Candidates should have demonstrated expertise in the development of mathematical models for geophysical flows and turbulence, employing both analytical and numerical techniques.\nWe seek a researcher with a critical and inquisitive mindset, capable of rigorously evaluating results and translating findings into new and relevant research questions. The ability to work effectively both independently and as part of a multidisciplinary team is essential.\nStrong communication skills are required, including fluency in English, both written and spoken. A willingness to learn the Dutch language is expected.\nTU Delft (Delft University of Technology\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact prof.dr. Henk Schuttelaars, via h.schuttelaars@tudelft.nl.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than 12 Oct 2026 via the application button and upload the following documents:\nCV.\nMotivational letter.\nTranscripts and Master’s degree/diploma (if already available).\nCopy of your Master’s thesis (or a comparable writing sample).\nYou can address your application to prof.dr. Henk Schuttelaars.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Doctoral position in mathematical modelling of suspended sediment dynamics in hyperturbid estuaries. Combines mathematical model development, nonlinear dynamical systems analysis, and turbulence modelling to improve understanding of sediment retention, fluid mud formation, and turbidity maxima using analytical and numerical techniques.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Position is pure environmental fluid mechanics and mathematical modelling of estuarine sediment transport. Candidate's research is human-centred XR for spatial learning and orientation. No intersection in research questions, application domains, or stakeholder groups."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Position requires asymptotic methods, nonlinear dynamical systems analysis, numerical simulations, and mathematical model development. Candidate's methods are experimental design, user studies, and qualitative/quantitative analysis of user behaviour. Fundamental methodological mismatch."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "Position requires strong foundation in applied mathematics, differential equations, numerical methods, and turbulence theory. Candidate has no background in these areas. Starting this PhD would require years of prerequisite learning in mathematical physics and fluid mechanics, not core competency development in HCI."
+    },
+    "strategic_value": {
+      "score": 5,
+      "rationale": "TU Delft is quality institution but Faculty of EEMCS applied mathematics focus does not align with candidate's research direction. Collaborators (Deltares, estuarine management groups) are in environmental engineering/water resources, not HCI or immersive systems. Position does not support stated target identity or create relevant network for future career."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires 'Master's degree in (Applied) Mathematics, Applied Physics, or a related discipline.' Candidate's MSc is Creative Multimedia (human-centred XR). While technically 'related,' this falls well outside standard disciplinary expectations for this role.",
+      "Position requires 'demonstrated expertise in the development of mathematical models for geophysical flows and turbulence, employing both analytical and numerical techniques' — no evidence of this expertise.",
+      "Position requires 'willingness to learn the Dutch language' — reasonable for candidate but not specified in constraints."
+    ],
+    "risks": [
+      "Fundamental disciplinary mismatch: applied mathematics / fluid mechanics vs. HCI / design research.",
+      "Candidate lacks required mathematical background (differential equations, asymptotic methods, nonlinear dynamics).",
+      "Research has no connection to human-centred systems, learning, or immersive technology.",
+      "Faculty (EEMCS) and research group focus on environmental modelling and fluid mechanics, not HCI or design.",
+      "Position would represent complete pivot away from stated research identity and career trajectory."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-09-30T12:29:07.710272Z",
+    "analysis_input_hash": "56e7eb53df0527a9b8c6abcd8452d6729e0c0b9a0145fec5c4cb03e89cf37668"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 2,
+    "urgency": "high",
+    "days_to_deadline": 12,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

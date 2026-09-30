@@ -3,18 +3,18 @@ id: opp_varbi-researcher-in-modelling-for-materials-design
 type: opportunity
 title: "Researcher in Modelling for Materials Design"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-10-01
+deadline: 2026-10-15
 status: open
 eligibility_gate: uncertain
-fit_overall: 10
-urgency: urgent
+fit_overall: 9
+urgency: high
 needs_review: true
 ---
 
 # Researcher in Modelling for Materials Design
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-10-01
+**Deadline:** 2026-10-15
 **Location:** Stockholm, Sweden
 **Position type:** other
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 15)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -107,7 +107,7 @@ Joakim Odqvist, odqvist@kth.se
 Published
 11.Sep.2026
 Last application date
-01.Oct.2026
+15.Oct.2026
 Apply for position
 Share links
 Return to job vacancies
@@ -116,26 +116,25 @@ Return to job vacancies
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-KTH researcher position developing physics-informed machine learning models for heat treatment and steel design, integrating thermodynamics understanding with data-driven approaches. Role involves computational modelling, experimental validation, and collaboration with industrial partners on electrification and circular production challenges.
+A researcher position in physics-informed machine learning for materials design and steel characterization, combining computational modelling with experimental validation. Located at KTH's Hultgren Laboratory within Materials Science and Engineering.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
+| Thematic fit | 0 |
 | Methodological fit | 15 |
 | Growth value | 5 |
-| Strategic value | 12 |
-| **Overall** | **10** |
+| Strategic value | 20 |
+| **Overall** | **9** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** r
+**Missing skills:** computational-materials-science, thermodynamics, machine-learning-for-materials, microstructure-analysis, physics-informed-modelling, scientific-computing
 
 **Risks:**
-- Severe domain mismatch: position requires existing ML publication record and deep materials science knowledge. Researcher lacks both.
-- Career pivot risk: accepting would signal departure from human-centred XR research direction, making doctoral applications in target field more difficult to justify.
-- Onboarding cost: steep learning curve in physics-informed ML, thermodynamics, and steel metallurgy would consume first months; limited mentorship for HCI/XR transition later.
-- Supervisor alignment: no evidence of HCI, learning science, or XR expertise in group. Supervision would be materials-focused, not human-centred.
-- Publication mismatch: position expects output in materials science venues, further distancing researcher from HCI/XR publication record needed for doctoral applications.
+- Core domain mismatch: materials science and steel design are entirely outside human-centred research and the excluded categories do not directly apply, but the research is fundamentally incompatible with target identity.
+- Degree qualification (MSc in Creative Multimedia, not materials science or computational engineering) may not meet stated doctoral-degree requirements.
+- Position limited to 12 months; unclear if pathway to longer engagement or PhD enrollment exists.
+- Commitment to materials-design research delays repositioning toward XR/collaborative-systems PhD.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-researcher-in-modelling-for-materials-design.md` and link [[opp_varbi-researcher-in-modelling-for-materials-design]]._
