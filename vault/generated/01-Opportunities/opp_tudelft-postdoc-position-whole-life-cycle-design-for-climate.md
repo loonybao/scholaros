@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-20
 status: open
 eligibility_gate: uncertain
-fit_overall: 14
+fit_overall: 19
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 20)
+Gate: **uncertain** (days to deadline: 19)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -62,7 +62,7 @@ to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Duration of contract is temporary for 33 months.
 A job of 32-40 hours per week.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+A salary based on Scale 10 of the CAO for Dutch Universities with a salary between €3706 - €5760 gross per month based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 An excellent pension scheme via the ABP.
 The possibility to compile an individual employment package every year.
 Discount with health insurers on supplemental packages.
@@ -100,27 +100,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.91_
 
-Postdoctoral position developing whole-life-cycle decision-support frameworks and methodologies for climate-responsive, circular building design and in-between space renovation. Work involves climate performance evaluation, circularity assessment, and validation through European demonstrator projects in collaboration with architects, engineers and industry partners.
+Postdoctoral position in whole-life-cycle design methods for climate-responsive and circular buildings at TU Delft, focusing on decision-support framework development and innovative in-between space design for renovation. Requires PhD in architecture/building technology and experience with sustainability assessment, LCA, and design research.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 8 |
+| Thematic fit | 12 |
 | Methodological fit | 20 |
-| Growth value | 15 |
-| Strategic value | 15 |
-| **Overall** | **14** |
+| Growth value | 25 |
+| Strategic value | 30 |
+| **Overall** | **19** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** lifecycle-assessment, sustainability-assessment, circular-economy-methodology, building-performance-simulation, architectural-design-knowledge, lca-software-tools
+**Missing skills:** lca-lifecycle-assessment, sustainability-assessment, circular-economy-frameworks, climate-resilience-assessment, building-technology, environmental-performance-modelling
 
 **Risks:**
-- Fundamental domain mismatch: building design and sustainable construction engineering are distinct from human-computer interaction and immersive systems research.
-- PhD preparation delay: postdoctoral placement should consolidate trajectory toward target career identity; this position diverges from it significantly.
-- Credential gap: applicant's background is creative multimedia and XR HCI, not architecture or building engineering; hiring committee may view candidacy as weakly qualified.
-- Career coherence: transition from immersive spatial learning systems to building lifecycle assessment would create fragmented research narrative, potentially disadvantaging future HCI positions.
+- Career-stage mismatch: researcher is in thesis stage of MSc; position targets postdocs with PhD and project management experience
+- Discipline mismatch: researcher's background is Creative Multimedia/XR design, not architecture or building engineering
+- Substantial domain knowledge gap in LCA, sustainability standards, building lifecycle assessment; would require significant retraining
+- Research group emphasis on building facades, materials, and environmental performance is distant from immersive learning and spatial cognition
+- Position leads away from stated target identity toward sustainability/climate resilience specialization rather than human-centred XR/immersive systems
+- Contract length (36 months, potentially 4 years) would extend commitment in non-aligned domain
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-position-whole-life-cycle-design-for-climate.md` and link [[opp_tudelft-postdoc-position-whole-life-cycle-design-for-climate]]._

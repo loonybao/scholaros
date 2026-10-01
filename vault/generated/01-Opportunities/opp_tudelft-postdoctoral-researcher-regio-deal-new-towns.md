@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-06
 status: open
 eligibility_gate: uncertain
-fit_overall: 33
+fit_overall: 30
 urgency: urgent
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 6)
+Gate: **uncertain** (days to deadline: 5)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -68,7 +68,7 @@ to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Duration of contract is 2,5 years. Temporary external finance.
 A job of 36-40 hours per week.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+A salary based on Scale 10 of the CAO for Dutch Universities with a salary between €3706 - €5760 gross per month based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 An excellent pension scheme via the ABP.
 The possibility to compile an individual employment package every year.
 Discount with health insurers on supplemental packages.
@@ -106,27 +106,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.80_
 
-This is a postdoctoral transdisciplinary research role on socio-spatial challenges in Dutch New Towns, involving municipalities, community stakeholders, workshops and policy-oriented outputs. It emphasizes qualitative and design research in urban governance rather than XR, immersive learning or digital interaction.
+Transdisciplinary postdoctoral position bridging municipal governance, spatial planning, and social cohesion research in Dutch urban renewal contexts. Role involves 1–2 days/week embedded in municipalities, qualitative/design-research methods, and collaborative knowledge production with practitioners.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 18 |
-| Methodological fit | 43 |
-| Growth value | 48 |
-| Strategic value | 30 |
-| **Overall** | **33** |
+| Thematic fit | 15 |
+| Methodological fit | 35 |
+| Growth value | 20 |
+| Strategic value | 60 |
+| **Overall** | **30** |
 
 **Fit type:** poor-fit
 
 **Missing skills:** qualitative-research
 
 **Risks:**
-- Likely ineligible because the profile does not show a completed PhD
-- Likely language gap because Dutch proficiency is not listed
-- Major domain shift from immersive systems to urban governance and municipal practice
-- Required qualitative and participatory methods are not demonstrated
+- Thematic misalignment with spatial cognition and immersive-learning research direction.
+- Role is embedded in municipal governance context; PhD research would likely diverge from human-centred immersive systems focus.
+- Qualitative-research methods gap; candidate would need substantial upskilling in interviews and participatory design.
+- Dutch language requirement may be a barrier.
+- Supervision background in urban studies, not HCI—unfamiliar research culture.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoctoral-researcher-regio-deal-new-towns.md` and link [[opp_tudelft-postdoctoral-researcher-regio-deal-new-towns]]._

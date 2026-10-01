@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-04
 status: open
 eligibility_gate: uncertain
-fit_overall: 22
+fit_overall: 16
 urgency: urgent
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 4)
+Gate: **uncertain** (days to deadline: 3)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -65,7 +65,7 @@ to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Duration of contract is temporary for 18 months.
 A job of 38-40 hours per week.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+A salary based on Scale 10 of the CAO for Dutch Universities with a salary between €3706 - €5760 gross per month based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 An excellent pension scheme via the ABP.
 The possibility to compile an individual employment package every year.
 Discount with health insurers on supplemental packages.
@@ -105,27 +105,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
 
-TU Delft postdoc position developing digital decision-support workflows and interfaces for circular and climate-resilient building assessment and planning within the Horizon Europe AURORA project. Focus is on data structures, parametric datasets, and user-facing tools for built environment stakeholders across multiple building typologies and scales.
+Postdoctoral position in circular and climate-resilient building design at TU Delft, developing digital multi-scale decision-support frameworks and workflows for construction/renovation planning. Requires PhD in Civil/Architectural Engineering and expertise in building information systems, data structures, sustainability assessment.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 15 |
-| Methodological fit | 25 |
+| Thematic fit | 10 |
+| Methodological fit | 15 |
 | Growth value | 20 |
-| Strategic value | 35 |
-| **Overall** | **22** |
+| Strategic value | 25 |
+| **Overall** | **16** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** building-information-systems, geographic-information-systems, data-structures, software-integration, parametric-design, sustainability-assessment
+**Missing skills:** building-information-systems, data-structures-and-databases, bim-software, building-technology, sustainability-assessment-lca, parametric-design
 
 **Risks:**
-- Disciplinary drift: two years in built environment/sustainability planning could fragment the researcher's identity in the immersive-systems community and reduce competitiveness for HCI-centred doctoral positions.
-- Limited mentorship in human-centred methodology: supervisory team has no evident HCI or XR background; learning curve on non-core methods.
-- Methodological mismatch: if the role emphasises technical system-building over user research, the researcher may spend 18 months developing engineering skills rather than deepening expertise in spatial cognition or immersive learning evaluation.
-- PhD pathway risk: postdoc output (digital planning tool, sustainability database) may not translate to strong HCI/XR PhD narrative or publications in target venues.
+- Credential and discipline mismatch: researcher lacks PhD in required field and has no building/construction domain experience
+- Knowledge gap in BIM, building technology, and sustainability assessment is substantial; would require domain retraining
+- Position targets construction/renovation practitioners; researcher's experience is learning design and spatial interaction, not building performance or lifecycle planning
+- Digital interface work, while potentially applicable, is embedded in unfamiliar domain (construction workflows) rather than learning or immersive design
+- Research group focus is on structures/materials/building tech, not human-centred design or XR—limited networking value for stated target trajectory
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-position-in-digital-planning-framework-for-c.md` and link [[opp_tudelft-postdoc-position-in-digital-planning-framework-for-c]]._

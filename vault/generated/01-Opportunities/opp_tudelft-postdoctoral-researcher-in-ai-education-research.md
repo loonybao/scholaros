@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-18
 status: open
 eligibility_gate: uncertain
-fit_overall: 60
+fit_overall: 40
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 18)
+Gate: **uncertain** (days to deadline: 17)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -72,7 +72,7 @@ to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Duration of contract is 2 years. Temporary.
 A job of 32-38 hours per week.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+A salary based on Scale 10 of the CAO for Dutch Universities with a salary between €3706 - €5760 gross per month based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 An excellent pension scheme via the ABP.
 The possibility to compile an individual employment package every year.
 Discount with health insurers on supplemental packages.
@@ -109,30 +109,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.70_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
 
-TU Delft is recruiting a postdoctoral researcher to investigate how AI guidelines integrate into engineering courses across disciplines and their impact on meaningful student learning. Work involves educational research, classroom studies, and cross-faculty engagement to produce recommendations for AI-informed course design. Core focus is learning science and engineering education, not immersive systems or XR.
+Postdoctoral position at TU Delft investigating how AI integration affects meaningful student learning across engineering disciplines. Role bridges educational policy, classroom implementation, and research; requires design of studies, stakeholder engagement, and publication of findings.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 50 |
-| Methodological fit | 65 |
-| Growth value | 60 |
+| Thematic fit | 25 |
+| Methodological fit | 45 |
+| Growth value | 35 |
 | Strategic value | 70 |
-| **Overall** | **60** |
+| **Overall** | **40** |
 
-**Fit type:** adjacent-methodological-fit
+**Fit type:** poor-fit
 
-**Missing skills:** mixed-methods, qualitative-research, learning-sciences-theory, educational-policy-analysis, cross-site-ethnography
+**Missing skills:** qualitative-research, mixed-methods
 
 **Risks:**
-- Disciplinary expansion, not deepening: Position moves the researcher toward educational research broadly, not toward the researcher's stated target identity (human-centred XR/immersive systems researcher). May dilute XR focus.
-- Supervisory alignment uncertain: Posting does not identify supervisors with XR or immersive systems expertise. Angela Rout (project lead) is in architecture/education; no indication of collaboration with VR/XR groups. Mentorship may not reinforce researcher's target trajectory.
-- Timing risk: Researcher must complete MSc thesis before postdoc start (likely 2027). If thesis completion is delayed, position may be lost.
-- PhD timing: Postdoc positions often assume PhD is complete. Researcher holds MSc by Research, not PhD. Verify with recruitment that this is acceptable; some institutions may require enrolled PhD status or completed PhD.
-- Limited XR/immersive systems visibility: Publications and network in educational research are valuable, but separate from immersive systems HCI community where the researcher aims to build standing.
-- Not a research priority match: Researcher's target identity emphasizes spatial understanding, wayfinding, real-world transfer, and multiplayer collaboration—not broad learning science or AI in education.
-- Growth in breadth over depth: Position develops educational research skills broadly but not the specific methodological gaps (statistics, physiological sensing) the researcher identified.
+- Thematic drift away from human-centred XR and spatial cognition research during PhD pathway.
+- Limited immersive-systems methodological development; unlikely to strengthen core research identity.
+- Posting is vague on the role of computational/interactive design; may emphasise policy and institutional change over system design.
+- PhD supervision background unclear; cannot assess HCI research culture fit.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoctoral-researcher-in-ai-education-research.md` and link [[opp_tudelft-postdoctoral-researcher-in-ai-education-research]]._

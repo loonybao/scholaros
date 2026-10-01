@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-07T11:56:04.325916Z",
-  "updated_at": "2026-09-30T12:48:03.039201Z",
+  "updated_at": "2026-10-01T13:07:20.256714Z",
   "change_history": [
     {
       "ts": "2026-09-07T11:56:04.326048Z",
@@ -235,6 +235,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-10-01T12:55:16.547173Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-10-01T13:04:02.265740Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-01T13:07:20.256714Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -248,9 +289,9 @@
     "evidence_ids": [
       "tudelft/1371417657"
     ],
-    "retrieved_at": "2026-09-22T11:20:28.171780Z",
-    "raw_snapshot_hash": "a33a4b12b16f1dbf7cb2f9f94705017ce38fdbab10d23ec0635473cb589e4b69",
-    "extracted_content_hash": "f116b6bd63a07ed41793ce10e37aaf01679c491a9812aafbe24bf3d5cb1a72da",
+    "retrieved_at": "2026-10-01T12:55:16.546636Z",
+    "raw_snapshot_hash": "628b5fb3597a4292303cbb56128acbebd17733666e535e371ce56c3f32224be2",
+    "extracted_content_hash": "fa70f5aaccaa4c2b8b9e46ba343f6bfb3192f47ca7e18321484c8b739d19d5bc",
     "deadline": "2026-10-04",
     "deadline_note": null,
     "start_date": null,
@@ -269,53 +310,68 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Why does heat affect people differently? Join the Horizon Europe HARARA project to explore the lived realities of urban heat and shape inclusive climate adaptation solutions.\nJob description\nThis postdoctoral position is part of the HARARA project, a Horizon Europe Mission initiative funded by the European Commission. HARARA examines both the objective and subjective experiences of heat among migrantised communities in Antwerp and Rotterdam. The project brings together researchers from Erasmus University Rotterdam, the University of Antwerp, and Delft University of Technology, alongside civil society partners Empact vzw and Cultuurwerkplaats Tarwewijk, to develop a holistic understanding of the impacts of urban heat. By exploring how people experience, interpret, and respond to heat-related challenges, the consortium aims to contribute to the development of inclusive and effective climate adaptation solutions.\nAs a postdoctoral researcher, you will be primarily responsible for conducting a comparative analysis of heat impacts in Antwerp and Rotterdam. You will analyse and correlate objective measurements of indoor temperature and humidity with survey data on residents’ perceptions and experiences of heat, collected from 75 households in each city. In addition, you will map and assess existing inclusive local climate adaptation practices in both cities and contribute to the development and refinement of policy frameworks and community-based adaptation strategies in collaboration with the project’s civil society partners.\nYou will be based within the section of Environmental Technology and Design (ETD). ETD contributes to inter- and transdisciplinary, context-driven and problem/solution-focused research and education for the sake of a better environment. It involves a collaborative design and engineering approach, with social-and environmental-based methods and techniques as operative instruments, as well as the development and application of advanced urban data science and geospatial information technologies to support this primary aim. Research and education blend environmental technology, urban ecology, citizen participation and environmental behaviour at different scales. There is a strong emphasis on the interaction of these fields in terms of theories, methods and techniques, as well as their application via concepts, strategies and spatial interventions, as a significant part of ETD's research portfolio concerns applied science for and often with public and private partners.\nJob requirements\nWe are looking for a highly motivated researcher with:\nA PhD in a relevant discipline, such as urbanism, environmental sciences, public health, sociology, or a related field.\nExperience with quantitative data analysis, including the analysis of survey data and environmental measurements, and proficiency in statistical software such as R, Python, SPSS, or Stata.\nAffinity with issues of climate justice, social inclusion, migration, and/or community-based research.\nExperience conducting comparative or mixed-methods research is an asset.\nAn interest in translating research findings into practical and policy-relevant recommendations.\nExcellent writing and communication skills in English. Knowledge of Dutch is an advantage, given the collaboration with local partners and field sites in Antwerp and Rotterdam.\nThe ability to work independently while collaborating effectively within an international and multidisciplinary consortium.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDuration of contract is 16 months. Temporary.\nA job of 28,8-32 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr.ir. M.M.E. (Marjolein) van Esch, via e-mail:\nm.m.e.vanesch@tudelft.nl\n.\nFor more information about the application procedure, please contact Paulien Stastra, HR advisor,\nvia\nrecruitment-BK@tudelft.nl\n.\n#EUfunded This is an EU funded project, named HARARA, with project number 101216412, within program H2020 / Horizon Europe.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n4 October 2026\nvia the application button and upload the following documents:\nCV including details of all academic outputs.\nCoverletter outlining your qualifications and motivation (max.1 side, A4 format, font size no smaller than 9 points).\nExecutive summary of your PhD dissertation.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "Why does heat affect people differently? Join the Horizon Europe HARARA project to explore the lived realities of urban heat and shape inclusive climate adaptation solutions.\nJob description\nThis postdoctoral position is part of the HARARA project, a Horizon Europe Mission initiative funded by the European Commission. HARARA examines both the objective and subjective experiences of heat among migrantised communities in Antwerp and Rotterdam. The project brings together researchers from Erasmus University Rotterdam, the University of Antwerp, and Delft University of Technology, alongside civil society partners Empact vzw and Cultuurwerkplaats Tarwewijk, to develop a holistic understanding of the impacts of urban heat. By exploring how people experience, interpret, and respond to heat-related challenges, the consortium aims to contribute to the development of inclusive and effective climate adaptation solutions.\nAs a postdoctoral researcher, you will be primarily responsible for conducting a comparative analysis of heat impacts in Antwerp and Rotterdam. You will analyse and correlate objective measurements of indoor temperature and humidity with survey data on residents’ perceptions and experiences of heat, collected from 75 households in each city. In addition, you will map and assess existing inclusive local climate adaptation practices in both cities and contribute to the development and refinement of policy frameworks and community-based adaptation strategies in collaboration with the project’s civil society partners.\nYou will be based within the section of Environmental Technology and Design (ETD). ETD contributes to inter- and transdisciplinary, context-driven and problem/solution-focused research and education for the sake of a better environment. It involves a collaborative design and engineering approach, with social-and environmental-based methods and techniques as operative instruments, as well as the development and application of advanced urban data science and geospatial information technologies to support this primary aim. Research and education blend environmental technology, urban ecology, citizen participation and environmental behaviour at different scales. There is a strong emphasis on the interaction of these fields in terms of theories, methods and techniques, as well as their application via concepts, strategies and spatial interventions, as a significant part of ETD's research portfolio concerns applied science for and often with public and private partners.\nJob requirements\nWe are looking for a highly motivated researcher with:\nA PhD in a relevant discipline, such as urbanism, environmental sciences, public health, sociology, or a related field.\nExperience with quantitative data analysis, including the analysis of survey data and environmental measurements, and proficiency in statistical software such as R, Python, SPSS, or Stata.\nAffinity with issues of climate justice, social inclusion, migration, and/or community-based research.\nExperience conducting comparative or mixed-methods research is an asset.\nAn interest in translating research findings into practical and policy-relevant recommendations.\nExcellent writing and communication skills in English. Knowledge of Dutch is an advantage, given the collaboration with local partners and field sites in Antwerp and Rotterdam.\nThe ability to work independently while collaborating effectively within an international and multidisciplinary consortium.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDuration of contract is 16 months. Temporary.\nA job of 28,8-32 hours per week.\nA salary based on Scale 10 of the CAO for Dutch Universities with a salary between €3706 - €5760 gross per month based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr.ir. M.M.E. (Marjolein) van Esch, via e-mail:\nm.m.e.vanesch@tudelft.nl\n.\nFor more information about the application procedure, please contact Paulien Stastra, HR advisor,\nvia\nrecruitment-BK@tudelft.nl\n.\n#EUfunded This is an EU funded project, named HARARA, with project number 101216412, within program H2020 / Horizon Europe.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n4 October 2026\nvia the application button and upload the following documents:\nCV including details of all academic outputs.\nCoverletter outlining your qualifications and motivation (max.1 side, A4 format, font size no smaller than 9 points).\nExecutive summary of your PhD dissertation.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "This research role investigates objective and perceived urban-heat impacts among migrantised communities in Antwerp and Rotterdam using environmental measurements, surveys and comparative analysis. It also involves mixed-methods or community-oriented work and translating findings into climate-adaptation and policy recommendations.",
-    "fit_type": "poor-fit",
+    "summary": "Postdoctoral position in the HARARA project examining urban heat experiences and inclusive climate adaptation in Antwerp and Rotterdam. Involves comparative analysis of objective temperature/humidity measurements correlated with survey data on residents' perceptions, local adaptation practices assessment, and policy framework development.",
+    "fit_type": "adjacent-methodological-fit",
     "thematic_fit": {
-      "score": 15,
-      "rationale": "The human and spatial focus has some broad relevance to the profile, but the substantive core is urban heat, climate justice, migration and environmental adaptation rather than immersive systems, spatial learning or XR-mediated collaboration."
+      "score": 40,
+      "rationale": "Moderate thematic distance with some resonance. Position addresses social-environmental justice, inclusion, and community-based adaptation—values aligned with human-centred design philosophy. However, core research focus is urban heat resilience and climate adaptation, not learning, spatial cognition, or collaborative immersive systems. Emphasis on migrantised communities' lived experiences and participatory approaches aligns with the researcher's human-centred ethos, but the substantive domain (climate adaptation, public health, urban environments) is different from immersive learning systems."
     },
     "methodological_fit": {
-      "score": 55,
-      "rationale": "Survey analysis and quantitative research align with the profile's user-study and task-measurement experience. The position additionally expects proficiency in R or comparable statistical software and values mixed-methods and community-based research, which are not yet established."
+      "score": 60,
+      "rationale": "Good methodological alignment. Position explicitly requires quantitative data analysis (survey data, environmental measurements), statistical software (R, Python, SPSS, Stata), and comparative mixed-methods research. Researcher has intermediate skills in quantitative research, user studies, and experimental design. Posting emphasizes 'translating research findings into practical and policy-relevant recommendations'—a design-science approach aligned with the researcher's methodology. However, position requires advanced statistical analysis (correlating measurement and survey data) and mixed-methods comparative analysis, which demand more sophisticated statistics than the researcher currently has (beginner-level)."
     },
     "growth_value": {
-      "score": 48,
-      "rationale": "The role could build capability in quantitative environmental analysis, mixed-methods research, community engagement and policy translation. These are useful research skills but do not directly close the central gap toward human-centred immersive-system design."
+      "score": 65,
+      "rationale": "Significant growth potential in quantitative research methods and statistical analysis (R, Python, mixed-methods). Researcher would substantially advance from beginner to intermediate/advanced statistics—a stated capability gap. Would deepen experience with comparative research design and policy-relevant evaluation. However, growth would be in climate/social justice research, not in immersive systems, spatial cognition, eye-tracking, or advanced HCI evaluation. Valuable methodological growth but not directly aligned with target research trajectory."
     },
     "strategic_value": {
-      "score": 49,
-      "rationale": "The international, interdisciplinary consortium and applied community context could strengthen collaboration and policy-relevant research experience. The thematic distance from XR/HCI and the seniority requirement substantially reduce its strategic value for the stated target identity."
+      "score": 55,
+      "rationale": "TU Delft is priority-2 institution. Faculty of Architecture and the Built Environment is design-oriented with strong research reputation. HARARA is Horizon Europe funded (Mission initiative), providing excellent funding stability and international collaboration (Erasmus Rotterdam, University of Antwerp, civil society partners). Position emphasizes transdisciplinary collaboration and community-based research, which aligns with researcher's values. However, research group (Environmental Technology and Design, ETD) focuses on environmental technology, urban ecology, and sustainability—adjacent to design but not a hub for human-centred XR or immersive learning. Networking would build climate/urban design community, not primary HCI trajectory community."
     },
     "required_skills": [
       "quantitative-research",
+      "statistics",
       "python",
-      "r",
+      "user-studies",
+      "experimental-design",
+      "academic-writing",
       "mixed-methods"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
       "quantitative-research",
-      "python"
+      "statistics",
+      "python",
+      "user-studies",
+      "experimental-design",
+      "academic-writing",
+      "mixed-methods"
     ],
     "missing_skills": [
-      "r",
-      "mixed-methods"
+      "advanced-statistical-analysis",
+      "r-statistical-programming",
+      "survey-design-and-analysis",
+      "environmental-measurement-and-analysis",
+      "mixed-effects-modelling"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires a PhD in a relevant discipline; the profile reports an MSc by Research in progress and no completed PhD.",
-      "The posting indicates that Dutch is advantageous for collaboration with local partners and field sites, while the profile only specifies English."
+      "Requires PhD in relevant discipline (urbanism, environmental sciences, public health, sociology, or related). Researcher has MSc in Creative Multimedia—discipline is adjacent (design, human-centred research) but not in listed fields. Eligibility depends on institutional interpretation of 'related field'—borderline but potentially acceptable given environmental and social research components",
+      "Posting requires 'proficiency in statistical software such as R, Python, SPSS, or Stata.' Researcher has beginner Python; would need to rapidly develop R and/or SPSS proficiency to be effective in data analysis role",
+      "Posting prefers 'experience conducting comparative or mixed-methods research'—researcher has user-study and experimental-design experience but limited evidence of large-scale comparative analysis",
+      "Knowledge of Dutch is listed as an advantage given collaboration with local partners in Antwerp and Rotterdam; researcher has no stated Dutch proficiency"
     ],
     "risks": [
-      "The role is a major domain shift into urban climate, environmental measurement and migration-related community research.",
-      "The profile's Python experience is beginner-level and does not demonstrate proficiency in the statistical software expected for the role.",
-      "The requirement for a completed relevant PhD is a substantial eligibility barrier.",
-      "The work would likely strengthen general empirical research skills without advancing the target XR/HCI identity directly."
+      "Credential mismatch: researcher's MSc is Creative Multimedia, not urbanism/environmental sciences/public health; may not meet eligibility threshold depending on evaluation",
+      "Statistical analysis gap is significant; posting requires correlating environmental measurements with survey data using advanced methods (mixed-effects modelling not yet in researcher's toolkit); steep learning curve required",
+      "Domain knowledge gap in urban heat, climate justice, and public health; researcher would need to acquire substantive context in climate adaptation literature",
+      "Shift from learning design and immersive systems to urban/environmental research; peripheral to stated target trajectory",
+      "16-month contract is relatively short; researcher may not have sufficient time to reach full productivity in new domain before contract ends",
+      "Research focus is environmental/social sciences, not human-centred XR or immersive systems; would not advance toward priority research communities"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -323,23 +379,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.97,
+    "confidence": 0.75,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-09-07T12:10:12.821292Z",
-    "analysis_input_hash": "59f1a72a2d89ecb6b6fa34937bc7cb2b64750f4371366704372c5897c61c1325"
+    "analyzed_at": "2026-10-01T13:04:02.265260Z",
+    "analysis_input_hash": "1b628ad4b85e2dec799bcd5670b2f1f80dafdd86a50c6c32efa28e68a2e1c93e"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 39,
+    "fit_overall": 53,
     "urgency": "urgent",
-    "days_to_deadline": 4,
+    "days_to_deadline": 3,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

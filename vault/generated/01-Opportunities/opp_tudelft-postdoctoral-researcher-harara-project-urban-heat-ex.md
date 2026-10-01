@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-10-04
 status: open
 eligibility_gate: uncertain
-fit_overall: 39
+fit_overall: 53
 urgency: urgent
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 4)
+Gate: **uncertain** (days to deadline: 3)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -59,7 +59,7 @@ to go to the website of the Faculty of Architecture and the Built Environment.
 Conditions of employment
 Duration of contract is 16 months. Temporary.
 A job of 28,8-32 hours per week.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+A salary based on Scale 10 of the CAO for Dutch Universities with a salary between €3706 - €5760 gross per month based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
 An excellent pension scheme via the ABP.
 The possibility to compile an individual employment package every year.
 Discount with health insurers on supplemental packages.
@@ -97,27 +97,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
 
-This research role investigates objective and perceived urban-heat impacts among migrantised communities in Antwerp and Rotterdam using environmental measurements, surveys and comparative analysis. It also involves mixed-methods or community-oriented work and translating findings into climate-adaptation and policy recommendations.
+Postdoctoral position in the HARARA project examining urban heat experiences and inclusive climate adaptation in Antwerp and Rotterdam. Involves comparative analysis of objective temperature/humidity measurements correlated with survey data on residents' perceptions, local adaptation practices assessment, and policy framework development.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 15 |
-| Methodological fit | 55 |
-| Growth value | 48 |
-| Strategic value | 49 |
-| **Overall** | **39** |
+| Thematic fit | 40 |
+| Methodological fit | 60 |
+| Growth value | 65 |
+| Strategic value | 55 |
+| **Overall** | **53** |
 
-**Fit type:** poor-fit
+**Fit type:** adjacent-methodological-fit
 
-**Missing skills:** r, mixed-methods
+**Missing skills:** advanced-statistical-analysis, r-statistical-programming, survey-design-and-analysis, environmental-measurement-and-analysis, mixed-effects-modelling
 
 **Risks:**
-- The role is a major domain shift into urban climate, environmental measurement and migration-related community research.
-- The profile's Python experience is beginner-level and does not demonstrate proficiency in the statistical software expected for the role.
-- The requirement for a completed relevant PhD is a substantial eligibility barrier.
-- The work would likely strengthen general empirical research skills without advancing the target XR/HCI identity directly.
+- Credential mismatch: researcher's MSc is Creative Multimedia, not urbanism/environmental sciences/public health; may not meet eligibility threshold depending on evaluation
+- Statistical analysis gap is significant; posting requires correlating environmental measurements with survey data using advanced methods (mixed-effects modelling not yet in researcher's toolkit); steep learning curve required
+- Domain knowledge gap in urban heat, climate justice, and public health; researcher would need to acquire substantive context in climate adaptation literature
+- Shift from learning design and immersive systems to urban/environmental research; peripheral to stated target trajectory
+- 16-month contract is relatively short; researcher may not have sufficient time to reach full productivity in new domain before contract ends
+- Research focus is environmental/social sciences, not human-centred XR or immersive systems; would not advance toward priority research communities
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoctoral-researcher-harara-project-urban-heat-ex.md` and link [[opp_tudelft-postdoctoral-researcher-harara-project-urban-heat-ex]]._
