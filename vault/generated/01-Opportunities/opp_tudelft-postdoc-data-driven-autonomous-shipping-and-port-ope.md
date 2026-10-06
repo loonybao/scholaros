@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-02
 status: open
 eligibility_gate: uncertain
-fit_overall: 16
+fit_overall: 48
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 28)
+Gate: **uncertain** (days to deadline: 27)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -74,13 +74,9 @@ is available, to support your accompanying partner with their job search in the 
 Additional information
 For more information about this vacancy, please contact Dr. Yusong Pang,
 y.pang@tudelft.nl
-,
-+31(0)15 278 8685
-, or Prof.dr. Rudy R. Negenborn,
+, +31(0)15 278 8685, or Prof.dr. Rudy R. Negenborn,
 r.r.negenborn@tudelft.nl
-,
-+31(0)15 278 6718
-.
+, +31(0)15 278 6718.
 Application procedure
 Are you interested in this vacancy? Please apply no later than
 2 November 2026
@@ -96,27 +92,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.78_
 
-Postdoctoral position developing data-driven and model-based approaches for autonomous vessel integration into maritime logistics, including operational complexity analysis, Concepts of Operations (CONOPS), port-call optimization, and multi-agent scenario analysis of stakeholder collaboration.
+Postdoctoral position in data-driven autonomous shipping and port operations. Develops data-driven and model-based approaches for integrating autonomous vessels into maritime systems. Focus areas: operational complexity analysis, human–automation interaction, Concepts of Operations (CONOPS), port-call optimisation, and stakeholder collaboration strategies. Embedded in two co-funded EU research projects with 20+ industry/university partners.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 10 |
-| Methodological fit | 15 |
-| Growth value | 20 |
-| Strategic value | 30 |
-| **Overall** | **16** |
+| Thematic fit | 35 |
+| Methodological fit | 55 |
+| Growth value | 50 |
+| Strategic value | 60 |
+| **Overall** | **48** |
 
-**Fit type:** poor-fit
+**Fit type:** adjacent-methodological-fit
 
-**Missing skills:** agent-based-modelling, discrete-event-simulation, maritime-operations, autonomy-systems-knowledge, logistics-optimization
+**Missing skills:** statistics, mixed-effects-modelling
 
 **Risks:**
-- Fundamental ineligibility. Position requires PhD; candidate has MSc (in progress). Does not meet baseline criterion.
-- Domain mismatch. Maritime logistics and autonomous systems engineering are far from HCI and immersive learning research.
-- Career diversion. 3 years in maritime technology delays transition to target HCI/XR identity.
-- No group expertise in human-centred or immersive systems research.
+- 3-year postdoc in maritime systems positions researcher outside primary target ecosystem (human-centred XR/immersive systems). Methodological gains do not translate directly to target domain.
+- Supervisor expertise (control systems, maritime operations) is distinct from HCI/XR community. Limited mentorship on target identity.
+- Data-driven maritime research may limit future mobility into immersive systems roles if viewed as domain specialist in maritime rather than generalist in human-centred systems.
+- No immersive or spatial cognition component. Research remains grounded in logistics and automation rather than learning or spatial understanding.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-data-driven-autonomous-shipping-and-port-ope.md` and link [[opp_tudelft-postdoc-data-driven-autonomous-shipping-and-port-ope]]._

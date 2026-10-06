@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-phd-position-in-single-molecule-biophysic
 type: opportunity
-title: "PhD Position in Single-Molecule Biophysic"
+title: "PhD Position Single-Molecule Biophysic"
 organisation: "TU Delft"
 deadline: 2026-11-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 13
+fit_overall: 8
 urgency: medium
 needs_review: true
 ---
 
-# PhD Position in Single-Molecule Biophysic
+# PhD Position Single-Molecule Biophysic
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-11-01
@@ -20,11 +20,11 @@ needs_review: true
 **Salary:** €3059 - €3881 per month (stated range)
 **Duration:** not stated
 **Status:** open
-**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-in-Single-Molecule-Biophysic-2628-CD/1372311857/
+**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-Single-Molecule-Biophysic-2628-CD/1372311857/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 27)
+Gate: **uncertain** (days to deadline: 26)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 - posting hints at a mobility/residence-history rule — verify the exact condition
@@ -87,28 +87,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
 
-Four-year MSCA Doctoral Network PhD in biophysics at TU Delft, combining single-molecule fluorescence techniques, biochemistry, and machine learning to study protein-ligand and protein-peptide interactions with therapeutic applications.
+Doctoral researcher position in single-molecule biophysics at TU Delft (Faculty of Applied Sciences), combining experimental single-molecule fluorescence techniques, biochemistry, and computational methods to study protein-ligand and protein-peptide interactions with therapeutic applications.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 2 |
-| Methodological fit | 10 |
-| Growth value | 8 |
-| Strategic value | 50 |
-| **Overall** | **13** |
+| Thematic fit | 3 |
+| Methodological fit | 8 |
+| Growth value | 5 |
+| Strategic value | 22 |
+| **Overall** | **8** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python
+**Missing skills:** none noted
 
 **Risks:**
-- Fundamental domain mismatch: molecular biophysics and protein biochemistry have no research continuity with human-centred immersive systems.
-- Degree background may not qualify: Creative Multimedia is unlikely to be deemed 'related field' to physics/biophysics. Admissions screening risk.
-- Career trajectory risk: a PhD in biophysics would signal a complete departure from HCI/XR and severely complicate future transitions back to target identity.
-- Supervisor is a biophysicist; no HCI or immersive systems mentorship.
-- Research environment is molecular science, not design or user-centred research.
+- Severe disciplinary mismatch: biophysics to HCI represents a major career pivot; accepting would signal abandonment of target identity
+- No overlap in research communities, publication venues, or supervisor networks with human-centred XR research
+- Degree requirement mismatch (Creative Multimedia vs. physics/biophysics) likely results in rejection or significant scrutiny
+- MSCA mobility rule compliance differs from funding requirement—confirm with recruiter
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-single-molecule-biophysic.md` and link [[opp_tudelft-phd-position-in-single-molecule-biophysic]]._

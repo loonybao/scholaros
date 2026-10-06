@@ -1,0 +1,169 @@
+{
+  "id": "opp_aalto-doctoral-researcher-in-trustworthy-machine-learning",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-06T12:59:22.645123Z",
+  "updated_at": "2026-10-06T13:24:13.024719Z",
+  "change_history": [
+    {
+      "ts": "2026-10-06T12:59:22.645291Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-06T13:18:27.994440Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-06T13:24:13.024719Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher in Trustworthy Machine Learning",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-science",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-in-trustworthy-machine-learning-0",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-trustworthy-machine-learning-0",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-Researcher-in-Trustworthy-Machine-Learning_R48273/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-in-trustworthy-machine-learning-0"
+    ],
+    "retrieved_at": "2026-10-06T12:59:22.644898Z",
+    "raw_snapshot_hash": "b01bebafd90dd94da2d545f50bf5493e1731ceb94c66c1a518f280b13b568a25",
+    "extracted_content_hash": "3170d91ebff266ed6548b26fc2a5c004fc90495dd0f67d41e09b57fdcbe5c3d2",
+    "deadline": "2026-10-31",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-10-05",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is a community of bold thinkers where science and art meet technology and business. We are committed to identifying and solving grand societal challenges and building an innovative future. Aalto has six schools with 14 000 students and a staff of 5000, of which more than 400 are professors. Our main campus is located in Espoo, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe Department of Computer Science is an internationally-oriented community and home to world-class research in modern computer science, combining research on foundations and innovative applications. With over 40 professors and more than 450 employees from 50 countries, it is the largest department at Aalto University and the leading computer science research unit in northern Europe. Computer science research at Aalto University ranks high in several international surveys (7th in Europe and 1st in the Nordics (NTU 2023); and 88th worldwide in Times Higher Education subject ranking 2025).\nWe are now looking for a Doctoral Researcher in Trustworthy Machine Learning\nYour role and goals\nTrustworthy & Adversarial Computing Lab (\nhttps://taclab.aalto.fi\n) led by Sebastian Szyller is looking for a doctoral researcher (PhD student) to pursue a degree in trustworthy machine learning.\nAs a doctoral researcher your goal is to conduct research in the fast-paced field of trustworthy machine learning. You are expected to:\n1) Carry out state-of-the-art research.\n2) Prepare and publish manuscripts at leading conferences and journals.\n3) Present your work at academic and industry events.\n4) Collaborate with other researchers (locally and internationally).\nFocus\nThe position is focused on\nprovenance and integrity of machine learning models and pipelines.\nYou will tackle topics related to:\n1) Verifiable, provable and auditable machine learning (e.g. adversarial robustness, privacy, fairness).\n2) AI/MLBOM and related topics.\n3) Proof carrying in ML.\nIn addition to research work, the hired is expected to participate in teaching following the standard practices at the department.\nYour experience and ambitions\nThe position requires excellent programming skills in Python with demonstrable familiarity with PyTorch, experience in working on shared codebases, excellent applied math skills (especially probability theory, matrix algebra, calculus). Beyond technical experience, candidates are expected to have strong teamwork and collaboration skills, as well as competency in critical and independent thinking.\nYou’re a good fit if:\n1) you have experience in machine learning and would like to explore the security/privacy angle, or\n2) you have a security/privacy background and would like to apply it to machine learning, or\n3) you have experience in explainable/interpretable/fair machine learning, and/or software supply chains.\nOutstanding applicants have prior experience in trustworthy machine learning, and/or publication record in machine learning or security/privacy, software supply chains.\nWhat we offer\nWe offer a fully funded position (2 + 2 model) under the supervision of Sebastian Szyller. Trustworthy & Adversarial Computing Lab is a newly established group. The lab has an extensive network consisting of companies and academic institutions in Europe and across the world.\nThe expected start date is January 2027 or sooner if available.\nThe position belongs to the Aalto career system and the selected person will be appointed for a two-year fixed term appointment with an option for two-year renewal.\nThe starting salary for the position is 3168 EUR per month. In addition to the salary, the contract includes occupational health benefits, and Finland has a comprehensive social security system. The annual total workload of research and teaching staff at Aalto University is 1 612 hours. The position is located at the Aalto University Otaniemi campus.\nReady to apply?\nIf you want to join our community, please submit your application through our recruitment system Workday.\nThe deadline for applications is 31.10.2026\n. The position will be filled as soon as suitable candidate has been identified.\nPlease note: Aalto University’s employees and visitors should apply for the position via our internal system Workday -> find jobs (not external aalto.fi webpage on open positions) by using their existing Workday user account.\nTo apply, please share the following application materials in one pdf file with us:\n·       CV\n·       Short bio\n·       Draft research plan\n·       Transcript of records and a pdf or link to your MSc thesis\n·       Recommendation letter(s) or contact details for such\n·       At later stage, you will need to provide your Bachelor’s and Master’s diplomas (if not from Aalto)\nThe candidates must have completed their Master’s degree before the start of the contract period. Aalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.\nFurther information\nProfessor Sebastian Szyller, e-mail sebastian.szyller@aalto.fi (research related information)\nHR Advisor Susanna Holma, e-mail \"hr-cs@aalto.fi\" (recruitment process)\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nAalto University – Towards a better world\n,\nAalto People\n, and\nShaping a Sustainable Future\n.\nAnd this webpage about Aalto and Finland\n:\nWhy Finland? | Aalto University\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi/\n!\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was just listed again as the happiest country in the world:\nWorld Happiness Report 2025: People are much kinder than we expect, research shows | The World Happiness Report\n.\nMore about Aalto University:\nAalto.fi\ntwitter.com/aaltouniversity\nfacebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Doctoral researcher position in trustworthy machine learning at Aalto University (Department of Computer Science), focusing on provenance, integrity, adversarial robustness, privacy, and fairness in ML models and pipelines. Research will emphasize verifiable ML, MLBOM, and proof-carrying approaches.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "Pure machine learning algorithm development, adversarial robustness, and formal verification of ML systems are excluded as poor fit per rules (pure ML algorithm development). The position is fundamentally about ML security and formal methods, not human-centred systems, spatial cognition, or collaborative immersive design."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "Trustworthy ML relies on formal methods, mathematical proof, adversarial testing, and algorithm development. These are distant from user-centred design, qualitative research, user studies, and experimental HCI evaluation. While both involve Python and data analysis, the methodological cores are incompatible."
+    },
+    "growth_value": {
+      "score": 12,
+      "rationale": "This position would develop strong Python, PyTorch, and machine learning expertise. However, these are tool skills in service of pure algorithm work. No advancement in human-centred research methods, user study design, or immersive systems evaluation. Does not close capability gaps in target research areas."
+    },
+    "strategic_value": {
+      "score": 28,
+      "rationale": "Aalto (priority-1 institution), strong CS department, 4-year funding, Finland location. But the Trustworthy & Adversarial Computing Lab is newly established with a focus on ML security and formal verification—communities and mentorship would be in computer science/security, not HCI or design research."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires 'excellent applied math skills' (probability, matrix algebra, calculus) and 'excellent programming skills in Python with PyTorch familiarity'—researcher has beginner Python; high barrier to entry",
+      "Master's degree must be completed before contract start (January 2027); researcher is in thesis stage—timeline is tight but feasible if thesis is submitted by late 2026"
+    ],
+    "risks": [
+      "Core exclusion: pure ML algorithm development (adversarial robustness, fairness verification) is explicitly listed as poor fit in target identity rules",
+      "Steep ramp-up required in applied mathematics and PyTorch; researcher's Python is beginner-level",
+      "Accepting this position would position the researcher as an ML engineer, making transition back to HCI/XR significantly harder and signalling a career pivot away from target identity"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-06T13:18:27.994032Z",
+    "analysis_input_hash": "752178dffeba95a34687ecbae249a4f566389a802d1089fabbae5205770d3f09"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 16,
+    "urgency": "medium",
+    "days_to_deadline": 25,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

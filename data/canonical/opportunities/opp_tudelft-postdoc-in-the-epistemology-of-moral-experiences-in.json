@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-10-01T12:44:48.062280Z",
-  "updated_at": "2026-10-05T14:16:04.773358Z",
+  "updated_at": "2026-10-06T13:24:13.326313Z",
   "change_history": [
     {
       "ts": "2026-10-01T12:44:48.062397Z",
@@ -86,22 +86,63 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-10-06T13:04:10.997997Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.apply_url",
+        "official.canonical_url",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at",
+        "official.title"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-10-06T13:24:12.733460Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-06T13:24:13.326313Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
-    "title": "Postdoc in the Epistemology of Moral Experiences in Technology | TU Delft",
+    "title": "Postdoc Epistemology of Moral Experiences in Technology | TU Delft",
     "org_id": "org_tu_delft",
     "lab_org_id": "org_tudelft_faculty-of-technology-policy-management",
     "source": "tudelft",
     "source_native_id": "1373664157",
-    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-the-Epistemology-of-Moral-Experiences-in-Technology-TU-Delft-2628-CD/1373664157/",
-    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-in-the-Epistemology-of-Moral-Experiences-in-Technology-TU-Delft-2628-CD/1373664157/",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Epistemology-of-Moral-Experiences-in-Technology-TU-Delft-2628-CD/1373664157/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Epistemology-of-Moral-Experiences-in-Technology-TU-Delft-2628-CD/1373664157/",
     "evidence_ids": [
       "tudelft/1373664157"
     ],
-    "retrieved_at": "2026-10-01T12:44:48.062081Z",
-    "raw_snapshot_hash": "c3c6e4ffb2bc03359efd4402d6597a59615ae89c0372596788e6b80dfd9b1734",
-    "extracted_content_hash": "fcaab132f1b0375275b87f8d7e14cd90f9f3be45be9851dda19ddc6e2ef453d0",
+    "retrieved_at": "2026-10-06T13:04:10.997395Z",
+    "raw_snapshot_hash": "38a819b38facf17f7b9edf4b5a7735912e0f630d065ddd1eb064420110ce4a2f",
+    "extracted_content_hash": "bd977501997c209faf420ca97287f7a5ad8792464ec6e293c3c5cf181636011c",
     "deadline": "2026-11-15",
     "deadline_note": null,
     "start_date": null,
@@ -123,27 +164,26 @@
     "description_text": "Job description\nTechnologies increasingly shape the moral landscape of our societies. In response, approaches such as Design for Values (DfV) and Value Sensitive Design seek to embed moral values like privacy, justice, and sustainability directly into the design process. But while DfV has many methods for eliciting what people currently value, it offers virtually no guidance regarding which values are the right ones to design for, which means designers risk baking harmful or mistaken values into the technologies we all live with.\nThis project, Techno-Moral Experience and the Foundations of Design for Values (TechnoMoralXP), tackles that gap head-on by building a moral epistemology for DfV. Its guiding idea is that our emotional and perceptual encounters with morally significant situations—moral experiences—are central to justified moral judgement, and can be harnessed in design.\nAs the WP1 postdoc, you develop lead the project's philosophical foundations. Working closely with Dr James Hutton and Prof. Ibo van de Poel, you will:\ndevelop a new conceptualisation of techno-moral experiences and distinguish them from neighbouring notions;\nanalyse the epistemic roles such experiences can play in justifying design decisions and investigate their limitations;\nintegrate your work with that of WP2, where a second postdoc builds a practical design toolkit based on your findings.\nYou will publish in leading ethics and technology-ethics journals; help shape a new research frontier between moral epistemology, technology ethics and design; and join a supportive, international team in one of the world's strongest groups in the ethics of technology.\nJob requirements\nA PhD (completed, or very close to completion) in philosophy, with strength in metaethics, moral epistemology, ethics, or philosophy of emotion — or a closely related area.\nA track record, appropriate to career stage, of high-quality research and writing in relevant areas of philosophy.\nGenuine interest in the ethics of technology and/or in Design for Values; prior work in these areas is welcome but not required.\nCompetence to work in an interdisciplinary team spanning philosophy and design, and to connect abstract epistemology to applied design questions.\nExcellent command of English and excellent academic writing skills.\nEnthusiasm for contributing to the group's wider intellectual life and, on occasion, its educational activities. (Up to 10% of the postdoc's time will be spent on educational activities.)\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Technology, Policy & Management\nThe Faculty of TPM provides an important contribution to solving complex technical-social issues, such as energy transition, mobility, digitalisation, water management and (cyber) security. TPM does this with its excellent education and research at the intersection of technology, society and policy. We combine insights from both engineering and social sciences as well as the humanities. TPM develops robust models and designs, is internationally oriented and has an extensive network of knowledge institutions, companies, social organisations and governments.\nClick\nhere\nto go to the website of the Faculty of Technology, Policy and Management.\nConditions of employment\nDuration of contract is 3 years. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor questions about the role, contact Dr James Hutton, Assistant Professor of Ethics & Philosophy of Technology (\nJ.Hutton@tudelft.nl)\n. For questions about the recruitment procedure, contact\nrecruitment-tbm@tudelft.nl\n.\nAt TU Delft we value diversity and inclusion and warmly encourage candidates from groups underrepresented in academia to apply.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n15 November 2026\nvia the application button and upload the following documents:\nA cover letter (max. 2 pages) setting out your fit, motivation and contact details.\nA CV.\nA writing sample: a paper you have authored that best demonstrates your work.\nA copy of your PhD certificate and transcript (or a supervisor's statement on expected completion).\nIf the applicants are selected for an interview, they will be asked to provide contact details of two referees with their consent.\nInterviews are planned for 2nd–3rd December (first round) and 10th–11th December (second round), held online.\nYou can address your application to Dr James Hutton\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "Postdoctoral position in philosophy of technology and moral epistemology at TU Delft, developing conceptual foundations for Design for Values (DfV). Requires PhD in philosophy with strength in metaethics/moral epistemology; involves bridging moral philosophy with applied design practice.",
+    "summary": "A 3-year postdoc in philosophy developing theoretical foundations for embedding moral values into technology design, bridging moral epistemology with Design for Values methodology. The role leads WP1 philosophical research and coordinates with WP2's applied design toolkit development, publishing in ethics and technology-ethics venues.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 15,
-      "rationale": "Weak thematic overlap. Position is grounded in philosophy of technology, moral epistemology, and ethics—domains outside the researcher's training and research trajectory. While the researcher practices human-centred design and values ethics in HCI implicitly through design-science methods, this position requires deep philosophical expertise in metaethics and epistemology. The researcher's work addresses spatial learning and collaboration; moral foundations of technology design are not a stated research theme."
+      "score": 20,
+      "rationale": "The posting centers on metaethics, moral epistemology, and the philosophy of technology—abstract philosophical work on values, justice, and moral justification. The researcher's domains are human-centred XR, spatial cognition, collaborative learning, and wayfinding. While Design for Values is adjacent to HCI, the WP1 postdoc role is fundamentally philosophical, not design-practice or user-research focused. The researcher has no evidence of training, publication, or demonstrated competence in moral philosophy, epistemology, or ethics."
     },
     "methodological_fit": {
-      "score": 10,
-      "rationale": "Very limited methodological fit. Position is philosophically grounded and emphasizes conceptual analysis, epistemology, and integration with design practice. The researcher's methods are empirical: user studies, experimental design, quantitative/qualitative evaluation. The intellectual traditions are different. While both involve design, the postdoc requires philosophical argumentation and theoretical abstraction; the researcher's work is grounded in human evaluation and spatial/collaborative outcomes."
+      "score": 25,
+      "rationale": "The role requires deep engagement with metaethics and moral epistemology—theoretical philosophy toolsets (conceptual analysis, argumentation, logical rigour in ethics). The researcher's methodological strengths are user studies, experimental design, quantitative/qualitative evaluation of spatial learning and collaborative systems. Cross-disciplinary work in philosophy and design is mentioned as desirable, but the core WP1 deliverables are philosophical (conceptualisation, epistemic analysis, limitations of moral experience), not empirical evaluation or design research, which is the researcher's actual competence."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "Minimal growth value toward stated target identity. Position would build philosophical foundations in design ethics but would not advance capabilities in immersive systems, spatial cognition, collaborative interaction, or user evaluation methods. Would require retraining in philosophy; is orthogonal to the researcher's core trajectory."
+      "score": 20,
+      "rationale": "This postdoc could introduce the researcher to Design for Values frameworks and technology ethics, which are relevant to human-centred design. However, the posted role demands mastery of contemporary moral epistemology and metaethics—areas requiring years of philosophy training. The gap between spatial learning research and moral philosophy is vast. The position would develop a new capability (ethics philosophy) rather than deepen existing strengths in spatial cognition, collaboration design, or immersive learning science."
     },
     "strategic_value": {
-      "score": 10,
-      "rationale": "TU Delft is a priority-2 institution. However, the position is in philosophy/technology ethics within Faculty of Technology, Policy & Management, not in design-focused groups. No connection to immersive systems, learning, or HCI research clusters. Would not advance networking or group alignment toward stated target institutions or research communities."
+      "score": 30,
+      "rationale": "TU Delft (priority-1 target) is excellent for career advancement. Faculty of Technology, Policy & Management is more design and social-science oriented than EEMCS. However, the postdoc would be embedded in a philosophy-led initiative, not in a design or HCI group. The researcher's target identity is human-centred XR/HCI researcher, not technology ethicist or moral philosopher. Success in this role would advance visibility in ethics-of-technology circles but would not establish the researcher's positioning in the immersive systems or spatial learning research communities."
     },
     "required_skills": [
-      "academic-writing",
-      "qualitative-research"
+      "academic-writing"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
@@ -151,24 +191,21 @@
       "academic-writing"
     ],
     "missing_skills": [
-      "metaethics",
-      "moral-epistemology",
-      "philosophy-of-technology",
-      "philosophical-argumentation",
-      "value-theory"
+      "qualitative-research"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires PhD in philosophy with strength in metaethics, moral epistemology, or closely related area. Researcher has MSc by research in Creative Multimedia/XR—does not meet PhD requirement and is in entirely different discipline",
-      "Posting explicitly seeks 'track record of high-quality research and writing in relevant areas of philosophy'—researcher has no philosophy publications; HCI and design science publications would not satisfy this requirement",
-      "Position requires 'genuine interest in ethics of technology and/or Design for Values' as minimum but 'prior work in these areas' is welcome; researcher's work is implicitly value-conscious but not explicitly focused on moral epistemology or technology ethics as a research domain"
+      "Position requires 'PhD (completed, or very close to completion) in philosophy, with strength in metaethics, moral epistemology, ethics, or philosophy of emotion.' Researcher's MSc by Research is not a philosophy degree and shows no demonstrated competence in metaethics or moral epistemology.",
+      "Posting expects 'a track record, appropriate to career stage, of high-quality research and writing in relevant areas of philosophy.' Researcher's publication record (1 first-author HCI journal article, 1 systematic mapping review in progress) does not include philosophy or ethics publications.",
+      "No indication of thesis completion timeline relative to application deadline (15 Nov 2026) or postdoc start date.",
+      "Genuine interest in ethics of technology is stated as welcome but not required; however, demonstrated research or publication in that area would likely strengthen a weak candidacy."
     ],
     "risks": [
-      "Fundamental credential mismatch: position requires PhD in philosophy; researcher has MSc in Creative Multimedia",
-      "No philosophical training or track record: researcher would be uncompetitive against philosophy PhD candidates",
-      "Domain is abstract and theoretical; orthogonal to the researcher's empirical, design-focused trajectory",
-      "Would require complete retraining and is not a stepping stone toward immersive XR/HCI research",
-      "Faculty placement (TPM, not design-focused groups) offers no networking advantage for target career path"
+      "Educational background mismatch: PhD in philosophy required; candidate has MSc by Research in creative multimedia with no formal philosophy training.",
+      "Thematic pivot: accepting this role signals a shift to technology ethics and moral philosophy, away from the target identity (human-centred XR/collaborative immersive systems). Would likely be perceived as a career departure rather than advancement.",
+      "Skill foundation: developing competence in contemporary metaethics and moral epistemology requires sustained philosophical training; a researcher entering postdoc-level philosophy work without a PhD in philosophy would face steep learning curves and credibility challenges.",
+      "Publication venue mismatch: posting targets ethics and technology-ethics journals; researcher's publication trajectory is in HCI and immersive learning venues. Establishing authority in ethics philosophy on a 3-year postdoc timeline is unlikely.",
+      "Collaboration asymmetry: WP2 design toolkit development (more aligned with HCI) is secondary to WP1 philosophical foundations, and the researcher would lead the philosophical work, not the design research."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -176,23 +213,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.98,
+    "confidence": 0.88,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-10-01T13:04:02.260512Z",
-    "analysis_input_hash": "5c90853ae27e305e03b774692484dfab2aa96af6c14bcc8ab8a4942fdd58b5cf"
+    "analyzed_at": "2026-10-06T13:24:12.732972Z",
+    "analysis_input_hash": "cbcbf83ec2799d412f95d0ee46b4c1385a61f03cb0c47f6ec85298c09693809b"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 11,
+    "fit_overall": 23,
     "urgency": "medium",
-    "days_to_deadline": 41,
+    "days_to_deadline": 40,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

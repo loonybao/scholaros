@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-postdoc-in-the-epistemology-of-moral-experiences-in
 type: opportunity
-title: "Postdoc in the Epistemology of Moral Experiences in Technology | TU Delft"
+title: "Postdoc Epistemology of Moral Experiences in Technology | TU Delft"
 organisation: "TU Delft"
 deadline: 2026-11-15
 status: open
 eligibility_gate: uncertain
-fit_overall: 11
+fit_overall: 23
 urgency: medium
 needs_review: true
 ---
 
-# Postdoc in the Epistemology of Moral Experiences in Technology | TU Delft
+# Postdoc Epistemology of Moral Experiences in Technology | TU Delft
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-11-15
@@ -20,11 +20,11 @@ needs_review: true
 **Salary:** €3706 - €5760 per month (stated range)
 **Duration:** not stated
 **Status:** open
-**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-in-the-Epistemology-of-Moral-Experiences-in-Technology-TU-Delft-2628-CD/1373664157/
+**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-Epistemology-of-Moral-Experiences-in-Technology-TU-Delft-2628-CD/1373664157/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 41)
+Gate: **uncertain** (days to deadline: 40)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -97,28 +97,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
 
-Postdoctoral position in philosophy of technology and moral epistemology at TU Delft, developing conceptual foundations for Design for Values (DfV). Requires PhD in philosophy with strength in metaethics/moral epistemology; involves bridging moral philosophy with applied design practice.
+A 3-year postdoc in philosophy developing theoretical foundations for embedding moral values into technology design, bridging moral epistemology with Design for Values methodology. The role leads WP1 philosophical research and coordinates with WP2's applied design toolkit development, publishing in ethics and technology-ethics venues.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 15 |
-| Methodological fit | 10 |
-| Growth value | 5 |
-| Strategic value | 10 |
-| **Overall** | **11** |
+| Thematic fit | 20 |
+| Methodological fit | 25 |
+| Growth value | 20 |
+| Strategic value | 30 |
+| **Overall** | **23** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** metaethics, moral-epistemology, philosophy-of-technology, philosophical-argumentation, value-theory
+**Missing skills:** qualitative-research
 
 **Risks:**
-- Fundamental credential mismatch: position requires PhD in philosophy; researcher has MSc in Creative Multimedia
-- No philosophical training or track record: researcher would be uncompetitive against philosophy PhD candidates
-- Domain is abstract and theoretical; orthogonal to the researcher's empirical, design-focused trajectory
-- Would require complete retraining and is not a stepping stone toward immersive XR/HCI research
-- Faculty placement (TPM, not design-focused groups) offers no networking advantage for target career path
+- Educational background mismatch: PhD in philosophy required; candidate has MSc by Research in creative multimedia with no formal philosophy training.
+- Thematic pivot: accepting this role signals a shift to technology ethics and moral philosophy, away from the target identity (human-centred XR/collaborative immersive systems). Would likely be perceived as a career departure rather than advancement.
+- Skill foundation: developing competence in contemporary metaethics and moral epistemology requires sustained philosophical training; a researcher entering postdoc-level philosophy work without a PhD in philosophy would face steep learning curves and credibility challenges.
+- Publication venue mismatch: posting targets ethics and technology-ethics journals; researcher's publication trajectory is in HCI and immersive learning venues. Establishing authority in ethics philosophy on a 3-year postdoc timeline is unlikely.
+- Collaboration asymmetry: WP2 design toolkit development (more aligned with HCI) is secondary to WP1 philosophical foundations, and the researcher would lead the philosophical work, not the design research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-the-epistemology-of-moral-experiences-in.md` and link [[opp_tudelft-postdoc-in-the-epistemology-of-moral-experiences-in]]._

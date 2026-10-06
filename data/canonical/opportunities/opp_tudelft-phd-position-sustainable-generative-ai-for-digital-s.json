@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-29T12:26:53.026561Z",
-  "updated_at": "2026-10-05T14:16:04.717293Z",
+  "updated_at": "2026-10-06T13:24:13.268552Z",
   "change_history": [
     {
       "ts": "2026-09-29T12:26:53.026680Z",
@@ -102,10 +102,50 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-10-06T13:06:31.460570Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at",
+        "official.title"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-10-06T13:19:19.709669Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-06T13:24:13.268552Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
-    "title": "PhD Position: Sustainable Generative AI for Digital Sovereignty",
+    "title": "PhD Position Sustainable Generative AI for Digital Sovereignty",
     "org_id": "org_tu_delft",
     "lab_org_id": "org_tudelft_faculty-of-technology-policy-management",
     "source": "tudelft",
@@ -115,9 +155,9 @@
     "evidence_ids": [
       "tudelft/1373343657"
     ],
-    "retrieved_at": "2026-09-29T12:26:53.026425Z",
-    "raw_snapshot_hash": "c77d43aae12877af3557a80360afd5524946260309caaf233d6bcc837adca0bb",
-    "extracted_content_hash": "e64e16bf7a0afd71bac30ceb4f1928bcb15ca610dc82c52888b6d9c12082c7aa",
+    "retrieved_at": "2026-10-06T13:06:31.459989Z",
+    "raw_snapshot_hash": "c32eef17f0b96bb9f8fd454e8de856146310e56b0705952ddec8d17e67e9e5aa",
+    "extracted_content_hash": "1b645eacea5c927734acf99c9610c47fe99b7e99e2024351620878a1292991dd",
     "deadline": "2026-11-01",
     "deadline_note": null,
     "start_date": null,
@@ -139,52 +179,46 @@
     "description_text": "Join us for this PhD project in EU Horizon €8 million initiative, to transform how generative AI is deployed across Europe for a more sustainable, sovereign and resilient future.\nJob description\nGenerative AI is widely expected to become a central element of digital transformation. Its flexibility and adaptability give businesses in many sectors an opportunity to innovate rapidly, respond to changing conditions, and lower barriers to automation. For society to benefit from these advancements, organisations need to maintain control over sensitive information and critical decision-making tools.\nReducing dependence on external providers strengthens digital autonomy, while more efficient ways of running AI help align technological progress with environmental and energy targets. By designing systems that are sustainable, sovereign, secure, and efficient at the same time, this PhD project will support Europe’s broader ambitions for responsible technological leadership.\nPosition Overview:\nThis PhD position is aimed at candidates with a Master’s degree in computer science/engineering, AI, data science, or related fields, with a strong interest in generative AI. The successful candidate will be based at the Department of Engineering Systems and Services (ESS) at Delft University of Technology under the supervision of Dr. Aaron Ding, Dr. Marcela Tuler de Oliveira, Prof. Dr. Marijn Janssen. This PhD project involves close collaboration with partners from the EU Horizon project, and candidates will have the opportunity to engage with interdisciplinary teams involved in the project.\nKey Responsibilities:\nTo conduct an in-depth evaluation of existing foundation models to assess their suitability in the digital industries, automotive and healthcare domains. Design sustainable inference strategies and framework towards the computing continuum.\nCollaborate with experts from the f-inference consortium to design, develop, test and refine the design strategies and framework.\nWork independently and contribute collaboratively within a multidisciplinary team environment.\nProject Impact:\nThis project will democratise the access to advanced Generative AI technologies through practical tools that help businesses, particularly SMEs, adopt state-of-the-art AI models. The outcomes are expected to enhance competitiveness, support sustainable innovation, and contribute to a more inclusive digital transition across Europe.\nJob requirements\nMSc in computer science/engineering, AI, data science, or related fields.\nStrong analytical skills\nA strong interest in interdisciplinary research, and the use of AI in inter-oranisational context\nAbility to work independently and collaboratively within a dynamic, multidisciplinary environment.\nExcellent command of English\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Technology, Policy & Management\nThe Faculty of TPM provides an important contribution to solving complex technical-social issues, such as energy transition, mobility, digitalisation, water management and (cyber) security. TPM does this with its excellent education and research at the intersection of technology, society and policy. We combine insights from both engineering and social sciences as well as the humanities. TPM develops robust models and designs, is internationally oriented and has an extensive network of knowledge institutions, companies, social organisations and governments.\nClick\nhere\nto go to the website of the Faculty of Technology, Policy and Management.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Aaron Ding (\naaron.ding@tudelft.nl\n).\nFor more information about the application procedure, please contact Olivie Beek, HR-advisor (\nrecruitment-tbm@tudelft.nl\n).\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n1 November 2026\nvia the application button and upload the following documents:\nyour CV\nmotivation letter\nofficial list of all courses followed during your BSc and MSc studies with grades\nyour MSc thesis\nIf the applicants are selected for an interview, they will be asked to provide contact details of two referees with their consent.\nThe start date is flexible, but foreseen for summer/fall 2026. Screening starts as applications come in.\nYou can address your application to Aaron Ding.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "4-year PhD in sustainable generative AI, focusing on foundation model evaluation and inference optimization for digital sovereignty. Work spans model assessment across domains (industrial, automotive, healthcare), framework design for computing continuum, and collaboration with EU Horizon consortium partners. Emphasis on AI systems and infrastructure, not application or user experience.",
+    "summary": "PhD position in sustainable generative AI for digital sovereignty, part of an EU Horizon €8M initiative. Evaluates foundation models for suitability in industrial domains (automotive, healthcare), designs inference strategies, and develops frameworks for the computing continuum. Interdisciplinary collaboration with consortium partners.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 8,
-      "rationale": "No immersive systems, no spatial cognition, no learning outcomes, no collaboration mechanics. The position is pure AI infrastructure and machine learning systems. While it mentions 'digital sovereignty' and 'business adoption,' it does not engage with human experience, spatial understanding, or interactive design. Generative AI at this level is algorithm and deployment infrastructure, not human-centred application."
+      "score": 10,
+      "rationale": "Position centres on foundation models, inference optimisation, and AI sustainability—pure machine learning algorithm development and optimisation. No connection to human-centred design, immersive systems, spatial cognition, learning outcomes, or collaborative interaction. Explicitly excluded domain."
     },
     "methodological_fit": {
-      "score": 15,
-      "rationale": "Researcher has beginner-level Python and no machine-learning background. The PhD requires strong AI/ML foundations, deep learning frameworks, and systems-level evaluation. Researcher's methods are grounded in HCI (user studies, experimental design on human subjects). ML systems evaluation is a different methodology entirely: benchmarking, inference profiling, model quantization—not human-centred or empirical in the HCI sense."
+      "score": 20,
+      "rationale": "Some methodological overlap in interdisciplinary teamwork and domain evaluation, but researcher's strength in user-centred experimental design and spatial learning studies has minimal application. Work is technical evaluation and systems design, not human-centred research or HCI methodology."
     },
     "growth_value": {
-      "score": 20,
-      "rationale": "This role develops Python proficiency, AI infrastructure knowledge, and systems thinking. However, it does not address core gaps (statistics, mixed-effects modelling, physiological sensing) or immersive-systems capabilities. Growth is in AI ops and ML systems, not HCI."
+      "score": 15,
+      "rationale": "Would develop quantitative and AI/ML analysis skills but moves away from human-centred research and immersive systems entirely. Limited transferability to target identity. Python skill would advance, but at cost of abandoning established research direction."
     },
     "strategic_value": {
-      "score": 55,
-      "rationale": "TU Delft (Priority 1), 4-year PhD with EU Horizon funding (€8M initiative, high prestige). Strong institution, stable funding, interdisciplinary consortium exposure. Faculty TPM has social-technical research credibility. However, Department of Engineering Systems and Services (ESS) is not an HCI group, and supervisors Ding, Tuler de Oliveira, and Janssen work on systems and policy, not on immersive experiences or spatial cognition. Funding and institution quality are high, but research home is misaligned."
+      "score": 30,
+      "rationale": "TU Delft is priority-1 and Netherlands is preferred. Strong funding (EU Horizon) and interdisciplinary consortium. However, project mission—efficient AI deployment across industries—does not align with target institution priorities in human-centred XR or spatial cognition. Supervisor quality likely strong but research culture mismatch is significant."
     },
     "required_skills": [
-      "quantitative-research"
+      "python",
+      "quantitative-research",
+      "statistics"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
-    "matched_skills": [
-      "quantitative-research"
-    ],
+    "matched_skills": [],
     "missing_skills": [
       "python",
-      "machine-learning",
-      "deep-learning-frameworks",
-      "model-evaluation-benchmarking",
-      "ai-systems-architecture"
+      "statistics",
+      "mixed-effects-modelling"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position explicitly requires MSc in computer science/engineering, AI, data science, or related fields. Researcher's MSc is in Creative Multimedia. Fit is non-standard. Posting does not include a 'candidates with complementary backgrounds welcome' clause, suggesting stricter filtering.",
-      "Python requirement is implicit (systems work, ML frameworks). Researcher lists Python as beginner-level, no substantial project experience. This is a significant gap for a 4-year AI PhD.",
-      "No ML background evident in researcher profile. Ramp-up would be steep and time-consuming in a PhD context."
+      "Posting requires 'strong interest in interdisciplinary research and use of AI in inter-organisational context.' Researcher's interdisciplinary experience is in HCI/XR; AI domain is new.",
+      "Starting date flexible but foreseen for summer/fall 2026; timing feasible if MSc thesis completes on schedule."
     ],
     "risks": [
-      "Core exclusion: pure machine-learning and AI infrastructure. Falls under 'pure ML algorithm development' guidance—misaligned with human-centred XR identity.",
-      "Disciplinary divergence: AI systems research is a different scholarly culture from HCI. Publishing venues, research questions, and career pathways are distinct.",
-      "Skill transfer is negligible. XR development and ML systems optimization do not share methodologies or tooling.",
-      "Research identity: PhD in sustainable AI would brand the researcher in AI/systems, making return to HCI narrative difficult.",
-      "Python ramp-up: significant learning required in year 1 before meaningful research contributions.",
-      "No human-centred output: deliverables (models, frameworks, benchmarks) are technical artifacts, not validated user experiences or learning outcomes."
+      "Pure ML algorithm development is explicitly in researcher's excluded list. Position violates stated constraints.",
+      "Skill development path (Python, statistics, AI systems) diverges from target identity. Opportunity cost is high relative to advancing human-centred XR research.",
+      "No user-facing or human-centred components. Candidacy would rely entirely on demonstrating interest in new domain, not established expertise."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -192,23 +226,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.91,
+    "confidence": 0.88,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-09-29T12:43:14.378817Z",
-    "analysis_input_hash": "c5b7e74265a76545f34bb26d7c213f0ce8e89b3b83b759c38b08fef5c4a23a24"
+    "analyzed_at": "2026-10-06T13:19:19.709176Z",
+    "analysis_input_hash": "d1243630ab4e708b01380beeab9f90cd0365b54de167b2fcd6262b5b36b663be"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 19,
+    "fit_overall": 17,
     "urgency": "medium",
-    "days_to_deadline": 27,
+    "days_to_deadline": 26,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

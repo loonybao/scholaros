@@ -1,0 +1,170 @@
+{
+  "id": "opp_tudelft-postdoc-category-theory-computer-proof-assistants-an",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-06T13:03:06.885005Z",
+  "updated_at": "2026-10-06T13:24:13.288010Z",
+  "change_history": [
+    {
+      "ts": "2026-10-06T13:03:06.885140Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-06T13:19:19.711968Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-06T13:24:13.288010Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Category Theory, Computer Proof Assistants and Computer Algebra Systems",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1373970157",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Category-Theory%2C-Computer-Proof-Assistants-and-Computer-Algebra-Systems-2628-CD/1373970157/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Category-Theory%2C-Computer-Proof-Assistants-and-Computer-Algebra-Systems-2628-CD/1373970157/",
+    "evidence_ids": [
+      "tudelft/1373970157"
+    ],
+    "retrieved_at": "2026-10-06T13:03:06.884814Z",
+    "raw_snapshot_hash": "fc82a3a8e5975062661de159bf3c793b89059ed7cf1b2a84530c0be2892048aa",
+    "extracted_content_hash": "1558da265e27eec113857da57137c50cea65a7c9b2049126d1d071b75b1fb5bb",
+    "deadline": "2026-11-01",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Postdoctoral research position on category theory, computer proof assistants, and computer algebra systems.\nJob description\nComputer proof assistants and computer algebra systems have complementary strengths. A proof assistant checks each step of a mathematical argument against a formal foundation, but is not designed for computation; a computer algebra system computes efficiently with large and intricate algebraic structures, but its results depend on code that has not been formally verified. Category theory is a good place to connect the two. CAP (Categories, Algorithms, Programming) is a software system for computational category theory, implemented in GAP and part of the homalg project. Because it expresses categorical constructions directly as algorithms, it is a suitable target for formalisation. The aim of the project is to bring the two kinds of system together, so that categorical computations can be carried out with the efficiency of a computer algebra system and checked with the guarantees of a proof assistant.\nThe postdoctoral researcher will design and build this connection between a proof assistant — Rocq, Lean or Agda, to be decided at the start of the project — and CAP. The work is partly conceptual and partly practical: making the categorical doctrines underlying CAP precise enough to formalise, choosing a formal treatment that is faithful to the constructive content of CAP's algorithms, and implementing the result as documented, openly available software. The researcher will publish the results, present them at conferences and workshops, and contribute to the open-source libraries of both projects. There is room to shape the direction of the work according to their own interests and expertise, and to develop their own research agenda alongside it.\nThe position is based in the Programming Languages group, Department of Software Technology, at TU Delft, where the researcher will work with Benedikt Ahrens, and in collaboration with Mohamed Barakat at Universität Siegen, with regular exchange between the two groups. This connects the researcher to both of the relevant communities: formalisation and univalent foundations in Delft, computational category theory and the homalg/CAP ecosystem in Siegen. The role also includes contributing to the supervision of BSc and MSc students working on related projects, and possibly some classroom teaching.\nJob requirements\nApplications will be evaluated on the following criteria:\nPhD (awarded by the start date, or submitted with a defence scheduled) in mathematics, computer science, or a closely related field\nResearch experience in at least one of: interactive theorem proving/formalisation, computer algebra, or category theory — demonstrated by publications, a thesis, or a substantial software contribution\nDemonstrable interest in the other two, and willingness to learn them to working depth\nPractical programming ability and comfort working with a substantial existing codebase\nAbility to work independently and to collaborate across the maths/CS boundary; good written and spoken English\nExperience in, and willingness to contribute to, student supervision and teaching\nTU Delft (Delft University of Technology)\nDelft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.\nAt TU Delft we embrace diversity as one of our core\nvalues\nand we actively\nengage\nto be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.\nChallenge. Change. Impact!\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDuration of contract is 1 year, extensible to max 3 years.\nA job of 32-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Benedikt Ahrens, via\nB.P.Ahrens@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n1 november 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nResearch statement\nOptionally, your teaching statement\nYou can address your application to Benedikt Ahrens. The starting date would ideally be 1 March 2027 at the latest, but a later starting date can be discussed.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in category theory, computer proof assistants, and computer algebra systems. Designs and builds connections between proof assistants (Rocq/Lean/Agda) and CAP (computational category theory system). Role includes formalisation, algorithm implementation, open-source contribution, and student supervision. Based in Programming Languages group, cross-site with Universität Siegen.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Research domain is formal mathematics, computational algebra, and theorem proving—no intersection with human-centred design, immersive systems, spatial cognition, learning, or collaboration. Position is pure mathematics/computer science theory with no HCI or XR dimension."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Both roles involve systems building and evaluation, but methodologies diverge completely. Position requires formal proof techniques, algorithm design, and codebase integration. Researcher's methods are empirical user studies, experimental design for spatial/learning outcomes, and qualitative/quantitative HCI analysis. No overlapping skillset."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Would develop formal methods and functional programming skills but moves orthogonally away from human-centred research. No advancement toward spatial cognition, collaborative systems, or immersive learning. Intellectual trajectory incompatible with target identity."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "TU Delft is priority-1 institution; Netherlands is preferred. Programming Languages group has strong reputation. However, research community (formal methods, mathematical computing) is unrelated to human-centred XR ecosystem. Postdoc is 1–3 years; limited pathway to PhD or long-term positioning in target field."
+    },
+    "required_skills": [
+      "python",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD (awarded or defended). Researcher will have MSc by Research on submission. Does not meet stated requirement unless defence is scheduled and conversion recognised.",
+      "Posting seeks 'research experience in at least one of: interactive theorem proving, computer algebra, or category theory.' Researcher has none in these domains.",
+      "Position requires willingness to learn theorem proving and category theory 'to working depth.' Researcher's background offers no foundation."
+    ],
+    "risks": [
+      "Does not meet posted eligibility criteria. Candidate lacks PhD and required domain expertise.",
+      "Position is explicitly outside researcher's excluded list but is nonetheless completely orthogonal to target identity and core research direction.",
+      "Postdoc is short-term (1–3 years); insufficient time to establish expertise in formal methods + establish identity in category theory community. High opportunity cost relative to human-centred XR PhD roles.",
+      "Supervision and teaching expectations assume mathematical background researcher does not have."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.9,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-06T13:19:19.711598Z",
+    "analysis_input_hash": "772a8c35c289032570582c019b784e419254aed6939320c80b0ea76085d70eb2"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 9,
+    "urgency": "medium",
+    "days_to_deadline": 26,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

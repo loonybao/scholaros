@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-phd-position-thermal-sensors-based-on-sigmal-delta-m
 type: opportunity
-title: "PhD Position Thermal Sensors based on Sigmal-Delta Modulation"
+title: "PhD Position Thermal Sensors based on Sigma-Delta Modulation"
 organisation: "TU Delft"
 deadline: 2026-10-22
 status: open
 eligibility_gate: uncertain
-fit_overall: 11
+fit_overall: 5
 urgency: high
 needs_review: true
 ---
 
-# PhD Position Thermal Sensors based on Sigmal-Delta Modulation
+# PhD Position Thermal Sensors based on Sigma-Delta Modulation
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-10-22
@@ -20,11 +20,11 @@ needs_review: true
 **Salary:** €3204 - €4051 per month (stated range)
 **Duration:** not stated
 **Status:** open
-**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-Thermal-Sensors-based-on-Sigmal-Delta-Modulation-2628-CD/1373925057/
+**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-Thermal-Sensors-based-on-Sigma-Delta-Modulation-2628-CD/1373925057/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 17)
+Gate: **uncertain** (days to deadline: 16)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -83,25 +83,25 @@ Please do not contact us for unsolicited services
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-PhD position in sensor design focusing on thermal sensors using sigma-delta modulation. Core work requires solid understanding of sensor physics, heat transfer, and analog circuit design with demonstrated chip design experience.
+PhD position in thermal sensor design using sigma-delta modulation. Requires chip design expertise, analog circuit fundamentals, and sensor physics knowledge. Applicants must have prior chip design publications or industrial experience. Position emphasizes sensor-based systems and experimental/simulation-based research.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 10 |
-| Growth value | 5 |
-| Strategic value | 35 |
-| **Overall** | **11** |
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **5** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** analog-circuit-design, sensor-physics, chip-design, heat-transfer
+**Missing skills:** cpp, mixed-effects-modelling, physiological-sensing
 
 **Risks:**
-- Severe skill-domain mismatch: researcher lacks foundational knowledge in sensor physics, heat transfer, and analog circuit design.
-- Explicit gating requirement (chip design publication or industrial experience) not met.
-- Disciplinary leap from Creative Multimedia to EEMCS sensor engineering is large; supervisor may question fit.
-- Opportunity diverts researcher away from stated target identity and excludes pure-technical directions.
+- Researcher does not meet posted eligibility criteria. Application would likely be desk-rejected.
+- Core research domain (embedded systems, chip design) is in researcher's explicitly excluded list.
+- Fundamental skill mismatch. No pathway from researcher's current expertise to chip design competence within PhD timeline.
+- Position diverts entirely from human-centred XR trajectory. Strategic risk to target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-thermal-sensors-based-on-sigmal-delta-m.md` and link [[opp_tudelft-phd-position-thermal-sensors-based-on-sigmal-delta-m]]._

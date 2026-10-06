@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-phd-position-sustainable-generative-ai-for-digital-s
 type: opportunity
-title: "PhD Position: Sustainable Generative AI for Digital Sovereignty"
+title: "PhD Position Sustainable Generative AI for Digital Sovereignty"
 organisation: "TU Delft"
 deadline: 2026-11-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 19
+fit_overall: 17
 urgency: medium
 needs_review: true
 ---
 
-# PhD Position: Sustainable Generative AI for Digital Sovereignty
+# PhD Position Sustainable Generative AI for Digital Sovereignty
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-11-01
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 27)
+Gate: **uncertain** (days to deadline: 26)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -96,29 +96,26 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.91_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
 
-4-year PhD in sustainable generative AI, focusing on foundation model evaluation and inference optimization for digital sovereignty. Work spans model assessment across domains (industrial, automotive, healthcare), framework design for computing continuum, and collaboration with EU Horizon consortium partners. Emphasis on AI systems and infrastructure, not application or user experience.
+PhD position in sustainable generative AI for digital sovereignty, part of an EU Horizon €8M initiative. Evaluates foundation models for suitability in industrial domains (automotive, healthcare), designs inference strategies, and develops frameworks for the computing continuum. Interdisciplinary collaboration with consortium partners.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 8 |
-| Methodological fit | 15 |
-| Growth value | 20 |
-| Strategic value | 55 |
-| **Overall** | **19** |
+| Thematic fit | 10 |
+| Methodological fit | 20 |
+| Growth value | 15 |
+| Strategic value | 30 |
+| **Overall** | **17** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python, machine-learning, deep-learning-frameworks, model-evaluation-benchmarking, ai-systems-architecture
+**Missing skills:** python, statistics, mixed-effects-modelling
 
 **Risks:**
-- Core exclusion: pure machine-learning and AI infrastructure. Falls under 'pure ML algorithm development' guidance—misaligned with human-centred XR identity.
-- Disciplinary divergence: AI systems research is a different scholarly culture from HCI. Publishing venues, research questions, and career pathways are distinct.
-- Skill transfer is negligible. XR development and ML systems optimization do not share methodologies or tooling.
-- Research identity: PhD in sustainable AI would brand the researcher in AI/systems, making return to HCI narrative difficult.
-- Python ramp-up: significant learning required in year 1 before meaningful research contributions.
-- No human-centred output: deliverables (models, frameworks, benchmarks) are technical artifacts, not validated user experiences or learning outcomes.
+- Pure ML algorithm development is explicitly in researcher's excluded list. Position violates stated constraints.
+- Skill development path (Python, statistics, AI systems) diverges from target identity. Opportunity cost is high relative to advancing human-centred XR research.
+- No user-facing or human-centred components. Candidacy would rely entirely on demonstrating interest in new domain, not established expertise.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-sustainable-generative-ai-for-digital-s.md` and link [[opp_tudelft-phd-position-sustainable-generative-ai-for-digital-s]]._
