@@ -1,0 +1,178 @@
+{
+  "id": "opp_tudelft-postdoc-idee-progression-and-retention",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-08T13:05:37.195354Z",
+  "updated_at": "2026-10-08T13:22:52.625140Z",
+  "change_history": [
+    {
+      "ts": "2026-10-08T13:05:37.195483Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-08T13:21:23.106110Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-08T13:22:52.625140Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc IDEE Progression and Retention",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1374333157",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-IDEE-Progression-and-Retention-2628-CD/1374333157/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-IDEE-Progression-and-Retention-2628-CD/1374333157/",
+    "evidence_ids": [
+      "tudelft/1374333157"
+    ],
+    "retrieved_at": "2026-10-08T13:05:37.195159Z",
+    "raw_snapshot_hash": "325c4a8527087db316b499cae780d728b1bbcef496ec1664dd7cbcf2d29d23eb",
+    "extracted_content_hash": "bdaa184362b272539d1f6c1b0b8c53eddec715686acc5dfa1db1c80b4944ee36",
+    "deadline": "2026-11-08",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Come and innovate TU Delft education with your postdoctoral research.\nJob description\nTU Delft engineers are expected to contribute to complex practical challenges by designing and investigating cutting-edge solutions to real-life problems.\nEducating this next generation of engineers requires not only teaching specific knowledge and skills from individual courses but also integrating these contents into a coherent curriculum that reflects the retention and progression of students' knowledge and skills. In the end, various aspects of teaching at TU Delft can and must be designed, implemented, evaluated, and optimized for a seamless continuum of education. The Teaching Academy of the TU Delft has identified this integration, engineering students’ progression and retention of knowledge & skills, as one of the themes in the “Initiative on Innovation in Delft Engineering Education” (IDEE).\nThe goal of this project is to explore how that seamless integration can be achieved. As a postdoctoral researcher, you will contribute to: 1. Continuing conceptualizing the notion of ‘progression and retention’ of knowledge and skills in practical engineering education settings. 2. Identifying factors that impact progression and retention. 3. Investigating intended, enacted and experienced curricula across several educational programmes at TU Delft. 4. Developing evidence-based practical guidelines for curriculum design that promotes student progression and retention in engineering education. 5. Empirically test curriculum guidelines and course interventions for increased progression across different programs of TU Delft.\nYou will work in a multidisciplinary team of TU Delft staff members and a PhD student in four work packages within the ‘Progression and Retention’ theme.\nJob requirements\nWe are looking for a motivated candidate who:\nhas obtained a PhD degree, either in one of the social sciences such as Educational Studies or Cognitive Psychology and a strong interest in engineering and engineering education, or, conversely, a PhD degree in science or engineering and a strong interest in education and educational research\nis acquainted with the higher educational system, especially in a university context\nis committed to doing action research and applying mixed methods in various educational practices\npossesses skills to organize the research work in consultation with a multidisciplinary team and to interact with multiple stakeholders with diverse interests and values.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDuration of contract is 1 year with prospect of another year.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAside from the faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS), the chosen candidate will work as a member of the Initiative on Innovation in Delft Engineering Education (IDEE). IDEE is a cross-faculty program for innovations and research in engineering education for degree programs at TU Delft. This PD project is one of the research projects within IDEE at TU Delft. The candidate will work in close vicinity of the other IDEE PhD and PD candidates, supported by Scientific Expert and the TU Delft Teaching Academy. (\nwww.tudelft.nl/idee\n). The Teaching Academy is the network for and by lecturers of TU Delft with the mission to collaboratively enhance engineering education and drive education innovations across faculty boundaries. Learn more about the Teaching Academy via\nhttps://www.tudelft.nl/teachingacademy\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact dr. Martin Skrodzki, via m.skrodzki@tudelft.nl.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than 8 Nov 2026 via the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to dr. Martin Skrodzki.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoctoral researcher position in engineering education research, investigating progression and retention of knowledge/skills across TU Delft engineering curricula. Work involves conceptualizing learning outcomes, identifying retention factors, investigating intended/enacted/experienced curricula, and developing evidence-based guidelines for curriculum design.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 52,
+      "rationale": "Position centers on learning outcomes, knowledge retention, and educational design—directly adjacent to candidate's immersive learning research. However, focus is on curriculum-level engineering education progression, not immersive systems, spatial cognition, collaborative interaction, or real-world transfer. Thematic overlap is in learning science methodology, not candidate's core immersive systems identity."
+    },
+    "methodological_fit": {
+      "score": 68,
+      "rationale": "Excellent match on mixed-methods research, action research, user studies coordination, and multidisciplinary team collaboration. Candidate's experimental design, quantitative and qualitative methods, and empirical evaluation align with IDEE's action-research approach. However, position requires stronger qualitative research skills and educational research theory than candidate has demonstrated."
+    },
+    "growth_value": {
+      "score": 62,
+      "rationale": "Directly advances research capacity in learning science, mixed-methods research design, and large-scale empirical evaluation. Postdoc duration (1–2 years) is short but intensive for developing educational research methodologies. Would strengthen ability to evaluate learning outcomes in future immersive systems research. However, does not advance spatial cognition, collaborative interaction, or immersive system design per se."
+    },
+    "strategic_value": {
+      "score": 55,
+      "rationale": "TU Delft is priority-1 institution; IDEE is cross-faculty educational research initiative with strong institutional support and teaching academy collaboration. Position offers visibility within European engineering education networks. However, postdoc is not positioned as pathway to HCI groups (Aalto, Tampere). Could serve as bridge to human-factors engineering or learning science, but does not directly advance immersive systems research identity."
+    },
+    "required_skills": [
+      "mixed-methods",
+      "qualitative-research",
+      "quantitative-research",
+      "user-studies",
+      "experimental-design",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "experimental-design",
+      "academic-writing",
+      "user-studies"
+    ],
+    "missing_skills": [
+      "qualitative-research",
+      "mixed-methods"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD degree; candidate has MSc by Research (in progress). PhD must be completed before start date. Candidate's thesis stage may not conclude before 2026 application deadlines.",
+      "Posting states preference for PhD in social sciences (educational studies, cognitive psychology) or PhD in science/engineering with strong education interest. Candidate's MSc-level background in XR + education is non-standard; would need to articulate education research interest clearly.",
+      "Postdoc requires action research experience in educational practice settings. Candidate's experience is primarily in controlled user studies for immersive systems, not curriculum-level educational action research."
+    ],
+    "risks": [
+      "Position is 1-year contract with prospect of extension. Short term for postdoc; limited capacity to advance long-term career trajectory. High uncertainty on extension.",
+      "Role is in engineering education research, not immersive systems or HCI. Career path diverges from stated target unless candidate explicitly repositions toward learning science.",
+      "Work is embedded in IDEE cross-faculty initiative, not in immersive systems, HCI, or design research groups. Limited network building toward Aalto/Tampere immersive systems groups.",
+      "Lack of substantial qualitative research background may require rapid upskilling in educational research methodologies and theory."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.78,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-08T13:21:23.105719Z",
+    "analysis_input_hash": "ffe311c0ce1c37b1af5d99b2e6f9683b6dda88f4cd49bb61cfc37842e4d1b1f7"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 60,
+    "urgency": "medium",
+    "days_to_deadline": 31,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

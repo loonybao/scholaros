@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 18
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -24,12 +24,13 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 25)
+Gate: **uncertain** (days to deadline: 24)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 
+Join the Dutch 6G flagship project to help shape the future of communications!
 Job description
 Join the frontier of innovation in 6G: the future of mobile networks technology! In the Netherlands, a unique alliance of 60 top-notch ICT companies, semiconductor firms, and research institutions has united to spearhead specific aspects of 6G: (1) software antennas, (2) AI-driven network software, and (3) groundbreaking 6G applications. Join us as a PhD student in this prestigious Future Network Services (FNS) flagship project, where research and entrepreneurial pursuits converge.
 Future 6G infrastructures will involve multiple specialized AI agents that manage radio, transport, computing, and service resources across different domains and vendors. Although individual agents may optimize local objectives, their actions can interact, conflict, or compete for shared resources. This PhD will develop learning methods for coordinating such agentic systems under changing network conditions, incomplete information, and operational constraints. The research will build on constrained and optimistic online learning, distributed learning, and online game-theoretic methods. The developed framework will be studied in two main application areas: multi-domain resource management for AI-enabled services, and resilient network operation, including fault diagnosis, root-cause analysis, and autonomous remediation. The methods will be validated through FNS use-cases, network data, and experimental infrastructure in collaboration with industrial partners.
@@ -80,26 +81,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
 
-Doctoral researcher position in agentic AI for 6G resource management and resilient network operations at TU Delft. Research focuses on coordinating multiple AI agents managing network resources across domains under incomplete information and operational constraints, using online learning and game-theoretic methods.
+PhD position in multi-agent learning and distributed AI for coordinating specialized agents managing resources across 6G network domains (radio, transport, computing, services), with applications to multi-domain resource management and network fault diagnosis.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 12 |
-| Methodological fit | 18 |
-| Growth value | 15 |
-| Strategic value | 32 |
-| **Overall** | **18** |
+| Thematic fit | 6 |
+| Methodological fit | 10 |
+| Growth value | 12 |
+| Strategic value | 28 |
+| **Overall** | **12** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics
+**Missing skills:** python, statistics, mixed-effects-modelling
 
 **Risks:**
-- Pure ML/algorithmic focus (constrained learning, game theory) without human-centred component; career move away from target identity
-- 6G and network infrastructure domains have limited intersection with XR/HCI communities; publication venues, peers, and supervision would be in systems/networking
-- Beginner Python level may require significant onboarding; position assumes comfort with distributed algorithms and theoretical frameworks
+- Fundamental misalignment: PhD is pure multi-agent ML research; candidate's target is human-centred immersive systems. Career identity becomes incoherent.
+- Supervisor group (Iosifidis et al.) is systems/ML-focused, not HCI-aligned. Limited mentorship for spatial cognition, collaborative learning, or immersive interaction.
+- PhD dissertation and publication record would be in distributed AI and network optimization, not immersive systems or spatial learning. Severely weakens candidacy for HCI positions at Aalto, Tampere, or other European groups.
+- Three years with no advancement in core research competencies (spatial cognition, multiplayer collaboration design, learning transfer evaluation). Opportunity cost is very high.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-agentic-ai-for-resource-management-and.md` and link [[opp_tudelft-phd-position-agentic-ai-for-resource-management-and]]._

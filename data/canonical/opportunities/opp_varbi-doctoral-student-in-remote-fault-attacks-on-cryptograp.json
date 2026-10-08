@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-03T11:05:23.385399Z",
-  "updated_at": "2026-10-07T13:23:10.761335Z",
+  "updated_at": "2026-10-08T13:22:52.732828Z",
   "change_history": [
     {
       "ts": "2026-09-03T11:05:23.385507Z",
@@ -312,6 +312,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-10-08T13:19:47.806025Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-10-08T13:22:51.980999Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-08T13:22:52.732828Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -325,10 +366,10 @@
     "evidence_ids": [
       "varbi/kth-963604"
     ],
-    "retrieved_at": "2026-09-03T11:05:23.385269Z",
-    "raw_snapshot_hash": "f4a6a1ac9880313416343b0fea064cf35de641dea854e9e278f9375f4d5d0766",
-    "extracted_content_hash": "f7fcec4a5ea6adabc9428699411236a7fa5fb07885c78031d3585dcc56fc4cb0",
-    "deadline": "2026-10-10",
+    "retrieved_at": "2026-10-08T13:19:47.805390Z",
+    "raw_snapshot_hash": "afb0cf38cf5f4de26161607e58e9b5916ecef80ea79383c489f5b9b48948a6bc",
+    "extracted_content_hash": "a2a17b6dea701c733ddb9d7447f589f859ad06d0de0cc972c1f56f6d7c3a1c41",
+    "deadline": "2026-10-17",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -346,52 +387,54 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Doctoral student in Remote Fault Attacks on Cryptographic Algorithms\nApply for position\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nProject description\nThird-cycle subject:\nInformation and Communication Technology\nCurrently, there are no effective methods for protecting implementations of cryptographic algorithms from fault attacks, where an adversary deliberately injects faults into cryptographic computations to extract sensitive information. This project aims to address this important open problem, with a particular focus on remote attacks. We intend to take into account the impact of fault attacks on cryptographic implementation security from both an offensive perspective (by devising new types of attacks) and a defensive perspective (by designing countermeasures). The overarching challenge is to create defense mechanisms that can withstand fault attacks as the adversary's capabilities grow. By considering mathematical and electrical engineering problems together, the project is expected to create cryptographic implementations in which resistance to fault attacks is incorporated at the design stage rather than addressed later, after a vulnerability is discovered.\nThe successful candidate is expected to investigate the use of advanced machine learning techniques to enhance both the analysis and mitigation of fault attacks. The insights gained will be used to develop new vulnerability assessment methods and design countermeasures against fault attacks, along with supporting tools.\nThe work will be carried out in the Hardware Security group at KTH which currently includes five PhD students.\nThe project is funded by the Swedish Research Council.\nSupervision:\nProf. Elena Dubrova and Prof. Carl-Mikael Zetterling\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nThe special eligibility requirements include knowledge of cryptographic algorithms, expertise fault and side-channel attacks, experience in embedded systems, as well as practical skills in machine learning including knowledge of essentials tools and platforms such as TensorFlow, etc.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues and\ncommunicate research results effectively in writing and through presentations\nApplicants who have completed a course in hardware security as part of their academic curriculum will be given a priority.\nApplicants whose bachelor/master thesis work was performed in the area of hardware security will be given a priority.\nApplicants with published papers in high-ranked hardware security journals, conferences, or workshops will be given a priority.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree:\nDoctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2888\nContact\nElena Dubrova, Professor, dubrova@kth.se\nPublished\n03.Sep.2026\nLast application date\n10.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Doctoral student in Remote Fault Attacks on Cryptographic Algorithms\nApply for position\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nProject description\nThird-cycle subject:\nInformation and Communication Technology\nCurrently, there are no effective methods for protecting implementations of cryptographic algorithms from fault attacks, where an adversary deliberately injects faults into cryptographic computations to extract sensitive information. This project aims to address this important open problem, with a particular focus on remote attacks. We intend to take into account the impact of fault attacks on cryptographic implementation security from both an offensive perspective (by devising new types of attacks) and a defensive perspective (by designing countermeasures). The overarching challenge is to create defense mechanisms that can withstand fault attacks as the adversary's capabilities grow. By considering mathematical and electrical engineering problems together, the project is expected to create cryptographic implementations in which resistance to fault attacks is incorporated at the design stage rather than addressed later, after a vulnerability is discovered.\nThe successful candidate is expected to investigate the use of advanced machine learning techniques to enhance both the analysis and mitigation of fault attacks. The insights gained will be used to develop new vulnerability assessment methods and design countermeasures against fault attacks, along with supporting tools.\nThe work will be carried out in the Hardware Security group at KTH which currently includes five PhD students.\nThe project is funded by the Swedish Research Council.\nSupervision:\nProf. Elena Dubrova and Prof. Carl-Mikael Zetterling\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nThe special eligibility requirements include knowledge of cryptographic algorithms, expertise fault and side-channel attacks, experience in embedded systems, as well as practical skills in machine learning including knowledge of essentials tools and platforms such as TensorFlow, etc.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues and\ncommunicate research results effectively in writing and through presentations\nApplicants who have completed a course in hardware security as part of their academic curriculum will be given a priority.\nApplicants whose bachelor/master thesis work was performed in the area of hardware security will be given a priority.\nApplicants with published papers in high-ranked hardware security journals, conferences, or workshops will be given a priority.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree:\nDoctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-2888\nContact\nElena Dubrova, Professor, dubrova@kth.se\nPublished\n03.Sep.2026\nLast application date\n17.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "PhD position in hardware security and cryptographic fault attacks at KTH under Prof. Elena Dubrova, combining offensive/defensive cryptography with machine learning for vulnerability assessment and countermeasure design. Core work is in cryptographic implementation security and embedded systems.",
+    "summary": "KTH doctoral position in cryptographic security focusing on remote fault attacks, defensive countermeasures, and machine learning for vulnerability assessment. Combines mathematical cryptography, electrical engineering, and ML techniques under VR funding.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "Cryptographic fault attacks and hardware security have no thematic connection to human-centred XR, spatial cognition, collaborative learning, or wayfinding. The position explicitly calls for expertise in 'embedded systems'—a domain the researcher's target identity excludes."
+      "score": 0,
+      "rationale": "Zero thematic overlap. Cryptographic security, fault attacks, and hardware security are entirely orthogonal to human-centred XR, collaborative immersive systems, spatial cognition, learning, and wayfinding. This is not adjacent to any target theme."
     },
     "methodological_fit": {
-      "score": 10,
-      "rationale": "The position mentions machine learning but applies it to fault-injection analysis and cryptographic vulnerability detection. This is algorithmic ML, not human-centred evaluation. The researcher's methodological strengths (user studies, experimental design, real-world transfer) are not transferable here."
+      "score": 5,
+      "rationale": "Machine learning is mentioned as a tool for attack/defense analysis, but methodology is mathematical cryptography and electrical engineering testing, not HCI, experimental evaluation of human learning, or immersive systems design. No user studies or spatial/learning evaluation methods."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "The position calls for machine learning skills; the researcher has none and could build beginner-level ML knowledge. However, this would be in a security/cryptography context unrelated to human-centred systems, representing a costly detour rather than meaningful growth toward target identity."
+      "score": 0,
+      "rationale": "Cryptographic security and embedded systems fault analysis close none of the capability gaps needed for human-centred immersive systems research. This direction is excluded in the researcher's target profile (pure ML algorithms, embedded systems)."
     },
     "strategic_value": {
       "score": 10,
-      "rationale": "KTH is well-funded and prestigious (Swedish Research Council). However, the Hardware Security group and supervisors (Dubrova, Zetterling) have no track record in HCI, XR, or human-centred research. This position does not connect the researcher to groups or supervisors who would advise on or advocate for a transition to target identity."
+      "rationale": "KTH is a leading institution and VR funding is stable. However, supervisors (Elena Dubrova, Carl-Mikael Zetterling) are hardware security specialists. No path to target identity; would be 4-year detour into pure security engineering."
     },
     "required_skills": [
-      "python"
+      "embedded-systems",
+      "pure-machine-learning-algorithms"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
-    "matched_skills": [
-      "csharp"
-    ],
+    "matched_skills": [],
     "missing_skills": [
-      "cryptographic-algorithms-knowledge",
-      "fault-attack-expertise",
-      "embedded-systems-programming",
-      "machine-learning-practical-experience"
+      "virtual-reality",
+      "user-studies",
+      "multiplayer-networking",
+      "unity",
+      "csharp",
+      "experimental-design",
+      "quantitative-research"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position lists special eligibility: 'knowledge of cryptographic algorithms, expertise fault and side-channel attacks, experience in embedded systems, practical skills in machine learning.' Researcher has none of these. Core requirements are not met.",
-      "MSc thesis must be completed by start date per Swedish education ordinance."
+      "Position explicitly requires 'knowledge of cryptographic algorithms, expertise in fault and side-channel attacks, experience in embedded systems, and practical skills in machine learning (TensorFlow, etc.)'; researcher has none of these.",
+      "MSc by Research in progress: eligibility depends on thesis completion before doctoral start (not stated in posting)."
     ],
     "risks": [
-      "Embedded systems is explicitly excluded from the researcher's target identity directions. Accepting this position would build depth in a forbidden domain.",
-      "No HCI, user studies, or human-centred methodology component. Human-centred research skills would atrophy over 4 years.",
-      "Supervisor group (Hardware Security) has no visible expertise in immersive systems, XR, or HCI. No pathway back to target identity after PhD.",
-      "Geographic advantage (Stockholm) does not offset thematic/strategic misalignment.",
-      "Cryptographic and fault-attack expertise would not transfer to human-centred XR roles."
+      "Core domain (cryptographic security, embedded systems) is explicitly excluded from researcher's target directions.",
+      "No HCI, immersive systems, learning, or spatial cognition component.",
+      "Supervisors specialise in hardware security, not XR or human-centred research.",
+      "Position prioritises applicants with hardware security coursework, thesis work, or publications; researcher has none.",
+      "4-year commitment to pure security engineering would extend timeline to target identity significantly."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -405,8 +448,8 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-09-03T11:14:26.128144Z",
-    "analysis_input_hash": "2c51a70a22a213ee58639c57f15ff92daa267201826326d56cbd1afca18a6061"
+    "analyzed_at": "2026-10-08T13:22:51.980417Z",
+    "analysis_input_hash": "c2e2075e3254d1d7413bc8c3bcf320f324a08306c265a2cedfc3c1d6faf58589"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -415,9 +458,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 8,
-    "urgency": "urgent",
-    "days_to_deadline": 3,
+    "fit_overall": 3,
+    "urgency": "high",
+    "days_to_deadline": 9,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

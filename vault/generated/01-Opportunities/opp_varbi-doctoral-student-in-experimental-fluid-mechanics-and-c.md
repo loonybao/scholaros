@@ -3,18 +3,18 @@ id: opp_varbi-doctoral-student-in-experimental-fluid-mechanics-and-c
 type: opportunity
 title: "Doctoral student in experimental fluid mechanics and complex films"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-10-12
+deadline: 2026-10-26
 status: open
 eligibility_gate: uncertain
-fit_overall: 16
-urgency: urgent
+fit_overall: 7
+urgency: high
 needs_review: true
 ---
 
 # Doctoral student in experimental fluid mechanics and complex films
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-10-12
+**Deadline:** 2026-10-26
 **Location:** Stockholm, Sweden
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 5)
+Gate: **uncertain** (days to deadline: 18)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -126,35 +126,34 @@ Shervin Bagheri, sherwinb@kth.se
 Published
 03.Sep.2026
 Last application date
-12.Oct.2026
+26.Oct.2026
 Apply for position
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-PhD position in experimental fluid mechanics at KTH focused on complex films (biological, living) and their interaction with fluid flows under shear and unsteady conditions. Work involves designing experimental platforms, continuum modelling, computational fluid dynamics, and data-driven methods.
+KTH doctoral position in experimental fluid mechanics studying how complex biological and synthetic films interact with fluid flows. Research combines experimental platforms, continuum modeling, data-driven methods, and computational fluid dynamics under VR funding.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 20 |
-| Growth value | 10 |
-| Strategic value | 35 |
-| **Overall** | **16** |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 15 |
+| **Overall** | **7** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** fluid-mechanics, experimental-platform-design-for-physics, continuum-modelling, computational-fluid-dynamics, data-driven-modelling
+**Missing skills:** virtual-reality, user-studies, multiplayer-networking, unity, csharp
 
 **Risks:**
-- Domain divergence: fluid mechanics is unrelated to human-centred XR; four years here creates re-specialization cost.
-- Methodological gap: researcher lacks CFD, continuum mechanics, and experimental rig design background.
-- Competitive disadvantage: engineering/physics PhD candidates will rank higher in selection.
-- Career pathway unclear: PhD in biofilm-flow interactions does not credibly lead to HCI/spatial learning research; actually narrows future options.
-- Skill obsolescence: time in fluid mechanics delays engagement with rapidly evolving XR/immersive research landscape.
+- Fundamental domain mismatch: fluid mechanics is excluded from researcher's target directions.
+- Supervisor expertise in fluid mechanics, not HCI or XR; poor mentorship alignment.
+- No immersive systems or learning science component despite XR mention in researcher's interests.
+- Shifting to experimental fluid mechanics would delay progress toward target identity by 4 years.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-experimental-fluid-mechanics-and-c.md` and link [[opp_varbi-doctoral-student-in-experimental-fluid-mechanics-and-c]]._

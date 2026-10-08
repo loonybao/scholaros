@@ -3,18 +3,18 @@ id: opp_varbi-doctoral-student-in-remote-fault-attacks-on-cryptograp
 type: opportunity
 title: "Doctoral student in Remote Fault Attacks on Cryptographic Algorithms"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-10-10
+deadline: 2026-10-17
 status: open
 eligibility_gate: uncertain
-fit_overall: 8
-urgency: urgent
+fit_overall: 3
+urgency: high
 needs_review: true
 ---
 
 # Doctoral student in Remote Fault Attacks on Cryptographic Algorithms
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-10-10
+**Deadline:** 2026-10-17
 **Location:** Stockholm, Sweden
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 3)
+Gate: **uncertain** (days to deadline: 9)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -129,7 +129,7 @@ Elena Dubrova, Professor, dubrova@kth.se
 Published
 03.Sep.2026
 Last application date
-10.Oct.2026
+17.Oct.2026
 Apply for position
 Share links
 Return to job vacancies
@@ -138,26 +138,26 @@ Return to job vacancies
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
 
-PhD position in hardware security and cryptographic fault attacks at KTH under Prof. Elena Dubrova, combining offensive/defensive cryptography with machine learning for vulnerability assessment and countermeasure design. Core work is in cryptographic implementation security and embedded systems.
+KTH doctoral position in cryptographic security focusing on remote fault attacks, defensive countermeasures, and machine learning for vulnerability assessment. Combines mathematical cryptography, electrical engineering, and ML techniques under VR funding.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 10 |
-| Growth value | 5 |
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
 | Strategic value | 10 |
-| **Overall** | **8** |
+| **Overall** | **3** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cryptographic-algorithms-knowledge, fault-attack-expertise, embedded-systems-programming, machine-learning-practical-experience
+**Missing skills:** virtual-reality, user-studies, multiplayer-networking, unity, csharp, experimental-design, quantitative-research
 
 **Risks:**
-- Embedded systems is explicitly excluded from the researcher's target identity directions. Accepting this position would build depth in a forbidden domain.
-- No HCI, user studies, or human-centred methodology component. Human-centred research skills would atrophy over 4 years.
-- Supervisor group (Hardware Security) has no visible expertise in immersive systems, XR, or HCI. No pathway back to target identity after PhD.
-- Geographic advantage (Stockholm) does not offset thematic/strategic misalignment.
-- Cryptographic and fault-attack expertise would not transfer to human-centred XR roles.
+- Core domain (cryptographic security, embedded systems) is explicitly excluded from researcher's target directions.
+- No HCI, immersive systems, learning, or spatial cognition component.
+- Supervisors specialise in hardware security, not XR or human-centred research.
+- Position prioritises applicants with hardware security coursework, thesis work, or publications; researcher has none.
+- 4-year commitment to pure security engineering would extend timeline to target identity significantly.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-remote-fault-attacks-on-cryptograp.md` and link [[opp_varbi-doctoral-student-in-remote-fault-attacks-on-cryptograp]]._

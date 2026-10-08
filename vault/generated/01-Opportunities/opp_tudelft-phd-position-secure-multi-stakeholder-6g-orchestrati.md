@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 12
+fit_overall: 10
 urgency: medium
 needs_review: true
 ---
@@ -24,13 +24,13 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 25)
+Gate: **uncertain** (days to deadline: 24)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 
-Join the Dutch 6G flagship project to help sahpe the future of communications.
+Join the Dutch 6G flagship project to help shape the future of communications.
 Job description
 Join the frontier of innovation in 6G: the future of mobile networks technology! In the Netherlands, a unique alliance of 60 top-notch ICT companies, semiconductor firms, and research institutions has united to spearhead specific aspects of 6G: (1) software antennas, (2) AI-driven network software, and (3) groundbreaking 6G applications. Join us as a PhD student in this prestigious Future Network Services (FNS) flagship project, where research and entrepreneurial pursuits converge.
 6G services will no longer run in a single place. They will be built from software functions that are placed, scaled, and moved across devices, base stations, edge sites, and central clouds, often owned and operated by different parties. This PhD project designs, builds, and evaluates the management and orchestration (MANO) systems that make this multi-stakeholder continuum secure and dependable. The research question is how orchestration can decide across infrastructure that cannot be fully trusted. The project addresses how hardware roots of trust are discovered, allocated, and carried across migration, how a node is attested continuously while it serves traffic, how split AI workloads are placed without exposing model or data across trust boundaries, and how orchestration decisions are made auditable. The work extends open-source orchestration platforms and is validated on FNS experimental infrastructure in collaboration with industrial partners.
@@ -81,26 +81,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
 
-PhD position in secure multi-stakeholder 6G orchestration within the Dutch 6G flagship project. Focuses on management and orchestration systems for distributed 6G services across heterogeneous infrastructure with trust and security constraints. Work involves extending open-source platforms and validation on FNS experimental infrastructure.
+PhD position designing management and orchestration (MANO) systems for multi-stakeholder 6G service continuum, focusing on security, trust boundaries, hardware attestation, workload placement, and auditable orchestration decisions across heterogeneous infrastructure.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 15 |
-| Growth value | 10 |
+| Methodological fit | 8 |
+| Growth value | 8 |
 | Strategic value | 25 |
-| **Overall** | **12** |
+| **Overall** | **10** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python
+**Missing skills:** python, statistics, mixed-effects-modelling, academic-writing
 
 **Risks:**
-- Core research domain (6G infrastructure, security orchestration) is in excluded or near-excluded territory relative to researcher's target. Acceptance would require pivoting away from human-centred XR to systems infrastructure.
-- No mention of immersive systems, user studies, or collaborative design. Intellectual mismatch is fundamental, not remediable by skill development.
-- Two-year initial contract with go/no-go assessment could create instability if project direction becomes misaligned with researcher's long-term trajectory.
+- Research identity misalignment: 6G orchestration security is infrastructure/systems work; candidate's target is human-centred immersive systems. PhD dissertation would be irrelevant to HCI career path.
+- Supervisor (Mohan) focuses on systems security and orchestration, not HCI or collaborative design. Limited mentorship alignment.
+- Three-year PhD in systems security creates fragmented career narrative (MSc immersive learning → PhD systems security → target HCI researcher). Difficult to explain coherent research trajectory.
+- Publication record and expertise would be in security systems, not immersive systems, spatial cognition, or collaborative learning. Significantly weakens applications to Aalto, Tampere, or HCI-focused groups.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-secure-multi-stakeholder-6g-orchestrati.md` and link [[opp_tudelft-phd-position-secure-multi-stakeholder-6g-orchestrati]]._
