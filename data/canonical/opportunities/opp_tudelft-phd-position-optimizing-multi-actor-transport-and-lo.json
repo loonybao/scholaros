@@ -1,0 +1,177 @@
+{
+  "id": "opp_tudelft-phd-position-optimizing-multi-actor-transport-and-lo",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-09T12:52:11.731062Z",
+  "updated_at": "2026-10-09T13:14:37.167668Z",
+  "change_history": [
+    {
+      "ts": "2026-10-09T12:52:11.731183Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-09T13:08:35.000896Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-09T13:14:37.167668Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Optimizing Multi-actor Transport and Logistics Systems",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-technology-policy-management",
+    "source": "tudelft",
+    "source_native_id": "1374437557",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Optimizing-Multi-actor-Transport-and-Logistics-Systems-2628-CD/1374437557/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Optimizing-Multi-actor-Transport-and-Logistics-Systems-2628-CD/1374437557/",
+    "evidence_ids": [
+      "tudelft/1374437557"
+    ],
+    "retrieved_at": "2026-10-09T12:52:11.730910Z",
+    "raw_snapshot_hash": "36956a8790e1233ca3d1aa5d830569f91dc4a4b5355ff40ce273478631e4fb14",
+    "extracted_content_hash": "6decd603e91e7f3406edb600ef8414cc2e1aec6cf4abd8cc3d427f43ce1489df",
+    "deadline": "2026-11-22",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Would you like to develop new theory and algorithms for problems with multiple interacting actors? Are you interested in working at the intersection of game theory and mixed-integer optimisation?\nJob description\nTransport and logistics systems consist of many players with potentially conflicting objectives that continuously strive to maximize their performance. The competition and collaboration between these players can influence their decision-making, which is something that traditional Mixed Integer Linear Programming (MILP) formulations with a single decision-maker cannot capture. The goal of this PhD is to develop novel methodologies at the intersection of operations research and game theory to address these problems. Applications can go beyond the transport and logistics domain.\nYour research will focus on mathematical modelling and algorithm development for planning and operating multi-actor systems, taking into account that the actions of one actor influence the opportunities and performance of others. A central methodological component of the position is the development of scalable optimisation algorithms for large and computationally challenging problem instances. You will formulate mathematical programming models and design solution approaches based on techniques such as column generation, branch-and-price, and Benders decomposition.\nYou will be expected to:\ndevelop new game-theoretic/optimization models for multi-actor decision problems;\ndesign scalable solution methods for large-scale optimisation problems;\ncontribute to scientific publications in leading journals in operations research, transportation, and logistics;\ncommunicate research findings to an interdisciplinary audience.\nYou will join the Transport and Logistics section of the Department of Engineering Systems and Services\nJob requirements\nWe are looking for a candidate who meets the following requirements:\nAn MSc degree in operations research, econometrics, applied mathematics, computer science, industrial engineering, systems and control, or a closely related discipline.\nA strong background and demonstrated experience in mathematical optimisation, in particular mixed-integer programming.\nExcellent programming skills (e.g., Python, Julia, Java, or C++) and experience with optimization solvers.\nVery good academic writing and communication skills in English.\nAn open and collaborative attitude and the ability to work effectively in an interdisciplinary and international research environment.\nKnowledge of game theory, bi-level optimization and decomposition-based solution algorithms are a plus.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Technology, Policy & Management\nThe Faculty of TPM provides an important contribution to solving complex technical-social issues, such as energy transition, mobility, digitalisation, water management and (cyber) security. TPM does this with its excellent education and research at the intersection of technology, society and policy. We combine insights from both engineering and social sciences as well as the humanities. TPM develops robust models and designs, is internationally oriented and has an extensive network of knowledge institutions, companies, social organisations and governments.\nClick\nhere\nto go to the website of the Faculty of Technology, Policy and Management.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Patrick Stokkink via\nP.S.A.Stokkink@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n22 November 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Patrick Stokkink.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Doctoral position in operations research and game theory for multi-actor transport and logistics systems. Focus on mathematical modelling, game-theoretic frameworks, and scalable optimization algorithms (column generation, branch-and-price, Benders decomposition) for planning and operating systems where multiple actors have competing objectives. Applications extend beyond transport and logistics.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "No thematic overlap. Position is rooted in operations research, game theory, and mathematical optimization for logistics and transport systems. Researcher's domains (human-centred XR, collaborative immersive systems, immersive learning, spatial cognition, human-computer interaction, gamification, social multiplayer interaction) address human experience, learning, and engagement—not logistics optimization or transportation economics. Position makes no reference to human factors, learning outcomes, user experience, or immersive technologies."
+    },
+    "methodological_fit": {
+      "score": 2,
+      "rationale": "No methodological alignment. Position requires expert-level mixed-integer programming (MILP), game theory, and optimization algorithm design using Python, Julia, Java, or C++. Researcher's methods are user studies, experimental design, qualitative/quantitative HCI evaluation, game engine development, and user-centred design. No overlap. Position is mathematical and algorithmic; researcher's work is empirical and human-centred."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "Does not address or support identified capability gaps. Researcher needs statistics (HCI-focused), mixed-effects modelling, physiological sensing, eye-tracking. Position demands game theory, mixed-integer programming, and optimization algorithms. Entirely different domain. No transferable growth value."
+    },
+    "strategic_value": {
+      "score": 5,
+      "rationale": "Negative strategic value. TU Delft is excellent but this position is in operations research and transportation systems, not HCI or immersive technologies. Faculty (TPM: Technology, Policy & Management) is multidisciplinary but this position focuses on technical optimization, not human-centred or learning-focused research. Supervisor (Patrick Stokkink) works on operations and logistics, not HCI. Research community and career path would diverge from target identity as human-centred XR researcher focusing on learning, collaboration, and spatial cognition."
+    },
+    "required_skills": [
+      "mixed-integer-programming",
+      "python",
+      "cpp",
+      "statistics",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "cpp",
+      "game-theory",
+      "mixed-integer-programming",
+      "r"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires MSc in 'operations research, econometrics, applied mathematics, computer science, industrial engineering, systems and control, or closely related discipline.' Researcher's MSc by Research in Creative Multimedia likely does not meet this requirement. Check TU Delft admission standards.",
+      "Position explicitly requires 'strong background and demonstrated experience in mathematical optimisation, in particular mixed-integer programming' and 'excellent programming skills (e.g., Python, Julia, Java, or C++).' Researcher has beginner Python, no MIP experience, and no C++.",
+      "English proficiency required; researcher meets this."
+    ],
+    "risks": [
+      "Severe disciplinary mismatch. Position is mathematical optimization and game theory; researcher is HCI and immersive learning. Would require PhD-level retraining in operations research fundamentals.",
+      "Researcher's MSc background may not be recognized as meeting admission discipline requirements.",
+      "No meaningful pathway to apply or leverage researcher's XR, multiplayer design, or user evaluation expertise. Supervisor and peer community would not value HCI background."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-09T13:08:35.000525Z",
+    "analysis_input_hash": "6b4a3b05a1424df255d7773203c3e8f36b50f41aeea727a01defe7c5c6632ef4"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 3,
+    "urgency": "medium",
+    "days_to_deadline": 44,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

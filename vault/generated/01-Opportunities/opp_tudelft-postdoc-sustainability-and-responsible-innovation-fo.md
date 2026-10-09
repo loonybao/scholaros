@@ -1,0 +1,128 @@
+---
+id: opp_tudelft-postdoc-sustainability-and-responsible-innovation-fo
+type: opportunity
+title: "Postdoc Sustainability and Responsible Innovation for Climate-Resilient Water Systems"
+organisation: "TU Delft"
+deadline: 2026-10-30
+status: open
+eligibility_gate: uncertain
+fit_overall: 27
+urgency: high
+needs_review: true
+---
+
+# Postdoc Sustainability and Responsible Innovation for Climate-Resilient Water Systems
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-10-30
+**Location:** Delft, Netherlands
+**Position type:** postdoc
+**Salary:** €3706 - €5760 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-Sustainability-and-Responsible-Innovation-for-Climate-Resilient-Water-Systems-2628-CD/1374434457/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 21)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Are you excited about shaping the urban water systems of the future? Join us in a Dutch research project where your analysis of urban water system innovations will support decision-making.
+Job description
+European water systems face increasing pressures from climate change, urbanization, ageing infrastructure, and stricter environmental requirements. At the same time, new hybrid urban water management approaches combining nature-based solutions and conventional gray infrastructure bring opportunities to improve system performance and adaptability. However, significant uncertainties remain regarding the environmental, economic, and societal implications of these innovations, limiting the ability of technology developers, utilities, planners, and policymakers to make responsible decisions about their development and implementation.
+In this position you will investigate hybrid urban water innovations, which combe green and grey water infrastructure, seeking to anticipate the potential societal and environmental impacts associated to them. For that, you will integrate Value Sensitive Design (VSD) and ex-ante sustainability assessment within the Horizon Europe project RESILIENT-FLOWS. Therefore, this position involves two parts: Part a focuses on how stakeholders perceive urban water innovations, identifying how values such as sustainability and resilience, should be integrated in their design and implementation. For this, you are expected to develop and analyze stakeholder engagement activities (e.g. interviews, participatory workshops), and coordinate partners to conduct them across multiple European pilot sites. Part b focuses on an ex-ante Life Cycle Assessment (LCA) approach to assess the environmental impacts of hybrid urban water innovations in selected case studies from the RESILIENT-FLOWS project. Depending on your interests, you may focus more on part a or b above, however the position requires you to engage in both. The results from your research will serve as key inputs to decision-support tools developed within the RESILIENT-FLOWS consortium, enabling utilities, planners, and policymakers to evaluate alternative innovations for climate-resilient urban water management.
+Your main responsibilities will include:
+Designing and coordinating stakeholder engagement activities, such as stakeholder interviews and focus groups
+Analyze how values such as resilience and sustainability could be taken into account in technology assessment and decision-making
+Apply ex-ante Life Cycle Assessment methodologies for emerging water infrastructure solutions
+Support project partners on the integration of stakeholder insights and sustainability assessment results into broader assessment and decision-support frameworks
+Publishing research findings in leading international journals and presenting results at scientific conferences
+Contributing to project deliverables and collaborating with academic and non-academic partners across Europe
+You will become part of a multi-disciplinary team and collaborate closely with researchers working on nature-based solutions, water treatment technologies, digital twins, amongst others. This position offers a unique opportunity to help shape emerging approaches for integrating sustainability assessment and responsible innovation in the design of future climate-resilient water systems. In this position you will be working closely with researchers, utilities, municipalities, regulators, and technology providers across various European countries.
+Job requirements
+We are looking for a reseracher who has afinity with quantitative and qualitative methods, and who enjoys questioning assumptions, metrics, and indicators to better understand what a desirable innovation is.
+For that, the vacancy's requirements are:
+• PhD in Industrial Ecology, Sustainability Sciences, Technology Assessment, or a related field
+• Proven experience with Life Cycle Assessment
+• Proven experience with qualitative data gathering methods, such as interviewing and focus groups
+• Interest in Urban Water Systems and Nature Based Solutions
+• Ability to analyze both qualitative and quantitative data
+• Excellent communication and scientific writting skills
+• Ability to work independently while collaborating in interdisciplinary and international teams
+• Excellent command of English
+Good to Have
+• Experience with ex-ante or prospective Life Cycle Assessment
+• Background or experience with Urban Water Systems and Nature Based Solutions
+TU Delft (Delft University of Technology)
+Working at TU Delft means contributing to solutions that really make a difference.
+For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
+At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
+Faculty of Civil Engineering and Geosciences
+The Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.
+Click
+here
+to go to the website of the Faculty of Civil Engineering & Geosciences.
+Conditions of employment
+Duration of contract is 3 years. Temporary.
+A job of 36-40 hours per week.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+An excellent pension scheme via the ABP.
+The possibility to compile an individual employment package every year.
+Discount with health insurers on supplemental packages.
+Flexible working week.
+Every year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.
+Plenty of opportunities for education, training and courses.
+Partially paid parental leave
+Attention for working healthy and energetically with the vitality program.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.  .
+Additional information
+For more information about this vacancy, please contact Mar Palmeros Parada,
+m.d.m.palmerosparada@tudelft.nl
+.
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+30 October 2026
+via the application button and upload the following documents:
+CV
+Motivational letter
+You can address your application to Mar Palmeros Parada.
+Please note:
+#EUfunded This is an EU funded project, named #ResilientFlows, with project number #project number, within program #HORIZON program
+You can apply online. We will not process applications sent by email and/or post.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+A 3-year postdoctoral position at TU Delft combining stakeholder engagement (interviews, focus groups) and ex-ante Life Cycle Assessment for hybrid urban water infrastructure innovations within the Horizon Europe RESILIENT-FLOWS project. The role bridges Value Sensitive Design, sustainability assessment, and decision-support tool development across European pilot sites.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 15 |
+| Methodological fit | 35 |
+| Growth value | 20 |
+| Strategic value | 45 |
+| **Overall** | **27** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** mixed-effects-modelling, statistics
+
+**Risks:**
+- Thematic misalignment: position is rooted in sustainability science and civil engineering, not HCI or immersive systems. Acceptance would signal a research trajectory shift that could complicate future positioning in the target field.
+- Supervisor and group fit: Faculty of Civil Engineering & Geosciences has no documented strengths in human-computer interaction, XR, or immersive learning. Supervisory capacity for human-centred methodology development is uncertain.
+- Skill gap in LCA and environmental modelling: the researcher would enter as a junior contributor in unfamiliar technical domain, not as a leader with transferable expertise.
+- Opportunity cost: 3-year commitment to water systems and sustainability assessment delays entry into doctoral research in spatial cognition and collaborative immersive systems.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-sustainability-and-responsible-innovation-fo.md` and link [[opp_tudelft-postdoc-sustainability-and-responsible-innovation-fo]]._

@@ -3,18 +3,18 @@ id: opp_tampere-doctoral-researcher-gamification-games-xr-genai-emer
 type: opportunity
 title: "Doctoral Researcher (Gamification / Games / XR / GenAI / Emerging Media for Engagement with Sustainable Futures), 1-3 positions"
 organisation: "Tampere University"
-deadline: 2026-10-15
+deadline: 2026-10-22
 status: open
 eligibility_gate: uncertain
-fit_overall: 89
-urgency: urgent
+fit_overall: 93
+urgency: high
 needs_review: true
 ---
 
 # Doctoral Researcher (Gamification / Games / XR / GenAI / Emerging Media for Engagement with Sustainable Futures), 1-3 positions
 
 **Organisation:** [[org_tampere_university]] (Tampere University)
-**Deadline:** 2026-10-15 (23:59 local time)
+**Deadline:** 2026-10-22 (23:59 local time)
 **Location:** Tampere, Finland
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 7)
+Gate: **uncertain** (days to deadline: 13)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -114,7 +114,7 @@ https://www.visitfinland.com/
 https://www.infofinland.fi/en/frontpage
 HOW TO APPLY
 Please submit your application through our online recruitment system. In your application, please indicate whether you are primarily applying for a position connected to CLIMETA or OPEN position within the broader research theme of engaging media and technologies. You may also indicate interest in both, if applicable. We may interview candidates for either or both position categories.
-The closing date for applications is October 15, 2026 (at 23.59 EEST / 20.59 UTC)
+The closing date for applications has been extended until October 22, 2026 (at 23.59 EEST / 20.59 UTC)
 . Please write your application and all accompanying documentation in English and attach them in PDF format only. Selected candidate(s) are expected to start as soon as possible.
 The candidates should attach the following documents
 :
@@ -128,6 +128,9 @@ Page 2
 : A tentative short research plan or research idea you would like to undertake in the position (this plan primarily functions as a departure point for discussion; the final research plan will be agreed upon together with the selected candidate(s))
 Optional
 : A design portfolio highlighting your design, development, and/or artistic work.
+For frequently asked questions
+, see here:
+Open Doctoral and Postdoctoral Researcher positions — Gamification / Games / XR / GenAI / Emerging M…
 Contact
 Professor
 Juho Hamari,
@@ -146,31 +149,30 @@ Tampereen yliopistossa on haettavana Väitöskirjatutkijan (Gamification / Games
 HAKUOHJEET
 Lue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.
 Jätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).
-Hakuaika tehtävään päättyy 15.10.2026, klo 23:59.
+Hakuaika tehtävään on jatkettu 22.10.2026, klo 23:59 asti.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
 
-Doctoral researcher position(s) at Tampere University's Research Centre of Gameful Realities, investigating how novel engaging media (XR, gamification, AI, conversational agents) support learning, collaboration, sustainability engagement, and behavioural change. CLIMETA project focuses on VR for metacognitive climate engagement; OPEN theme welcomes broader research on gameful technologies for sustainability.
+Doctoral positions (1–3 available) in gameful and engaging technologies for sustainability at Tampere University's Research Centre of Gameful Realities. Positions span gamification, games, XR, generative AI, and emerging media with application to learning, behaviour change, collaboration, and climate engagement. Researchers design own agendas within broader themes (CLIMETA on VR and climate metacognition; OPEN on general engaging media for sustainability).
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 92 |
-| Methodological fit | 88 |
-| Growth value | 85 |
-| Strategic value | 90 |
-| **Overall** | **89** |
+| Thematic fit | 95 |
+| Methodological fit | 92 |
+| Growth value | 88 |
+| Strategic value | 93 |
+| **Overall** | **93** |
 
 **Fit type:** exact-fit
 
-**Missing skills:** mixed-effects-modelling, physiological-sensing, eye-tracking, qualitative-research, statistics
+**Missing skills:** eye-tracking, physiological-sensing, mixed-effects-modelling, r
 
 **Risks:**
-- MSc completion timing critical; any thesis delays could jeopardise start date
-- Candidate has not formally studied qualitative research methods; may need ramp-up if pursuing mixed-methods approach
-- Statistics and multivariate analysis are beginner-level; doctoral programme may require foundational stats coursework
-- No prior experience with psychophysiological measurement or bioadaptive systems; learning curve expected but manageable
+- Researcher is currently early-stage (thesis stage); position is competitive and may attract post-docs or more advanced candidates. However, position explicitly invites researchers to 'propose own research agenda,' suggesting openness to ambitious junior researchers with clear vision.
+- Researcher's physiological-sensing and eye-tracking skills are 'none'; positions list psychophysiological measurement as valuable dimension. This is a growth area rather than blocker, and positions value design-oriented candidates without all methodological skills.
+- Multiple positions available (1–3); not all will align equally. Researcher should target CLIMETA or OPEN according to fit with own proposed research direction to maximize match.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-gamification-games-xr-genai-emer.md` and link [[opp_tampere-doctoral-researcher-gamification-games-xr-genai-emer]]._

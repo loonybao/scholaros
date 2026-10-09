@@ -1,0 +1,171 @@
+{
+  "id": "opp_tudelft-phd-position-s-diffractive-electron-imaging-of-surfa",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-09T12:52:01.101019Z",
+  "updated_at": "2026-10-09T13:14:37.180007Z",
+  "change_history": [
+    {
+      "ts": "2026-10-09T12:52:01.101141Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-09T13:11:37.292516Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-09T13:14:37.180007Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position(s) Diffractive Electron Imaging of Surfaces",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-applied-sciences",
+    "source": "tudelft",
+    "source_native_id": "1374410357",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position%28s%29-Diffractive-Electron-Imaging-of-Surfaces-2628-CD/1374410357/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position%28s%29-Diffractive-Electron-Imaging-of-Surfaces-2628-CD/1374410357/",
+    "evidence_ids": [
+      "tudelft/1374410357"
+    ],
+    "retrieved_at": "2026-10-09T12:52:01.100865Z",
+    "raw_snapshot_hash": "de9941af718d7014208e94b9e2491b709e42028422ace91dc1b66a815b35743d",
+    "extracted_content_hash": "423e63a8842f4fa58f6736401e43c838c70b547e093e844d819091e486a48bae",
+    "deadline": "2026-11-08",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Challenge: How do we watch material surfaces evolve?\nChange: Building a surface-sensitive diffractive microscope.\nImpact: Enabling high-resolution imaging of surfaces during operation.\nJob description\nWe are looking for two PhD candidates to join the Curious Beams Lab at Delft University of Technology and develop a new approach to imaging materials surfaces with electrons. The positions are part of BEAMSurf: Diffractive Atomic-Scale Surface Imaging with Backscattered Electrons, an ERC Starting Grant project led by Dr. Georgios Varnavides.\nSurfaces control many of the properties and processes that determine material functionality, from chemical reactions in catalysis to interfaces in nanoelectronic devices. Yet, observing surfaces at high spatial resolution while they operate remains challenging. BEAMSurf will develop a new scanning electron microscope that uses coherent backscattered electrons for diffractive imaging of surfaces, with the potential to overcome conventional resolution limits for low-energy SEM.\nAs a PhD candidate, you will help build the experimental and computational foundations of this imaging technique. The two PhD candidates will have complementary roles and work alongisde a postdoctoral researcher leading the instrumentation development.\nPhD 1: Electron Optics and Experimental Imaging\nYou will help develop and experimentally realize the new electron-optical imaging platform. Working closely with the postdoc, you will design, characterize, and integrate miniature electron-optical components into a high-vacuum SEM. A central challenge is to separate the desired backscattered electron signal from the primary beam and direct it towards a dedicated detector.\nYour work will span electron optics, ray tracing simulations, nanofabrication, vacuum technology, and experimental microscopy. As the project develops, you will also help establish the experimental imaging methodology and optimize the microscope for diffractive imaging.\nThis position is suited to candidates interested in building new instrumentation and working across physics and engineering. Experience with electron optics, electromagnetic simulation, MEMS, nanofabrication, vacuum systems or instrumentation is valuable but not required.\nPhD 2: Computational Imaging and Surface Science\nYou will develop the computational methods needed to extract high-resolution surface information from coherent backscattered electron measurements. You will develop forward models and inverse-scattering approaches for reflection-mode electron imaging, using simulations and experimental reconstructions to understand the capabilities and limitations of the technique.\nAs the experimental platform matures, you will work closely with the instrumentation team to apply these methods to experimental measurements and establish high-resolution surface imaging. An important goal is to move beyond static images towards studying surfaces as they evolve, including processes such as oxidation, interfacial reactions, and electrically driven changes.\nThis position is suited to candidates interested in computational imaging, inverse problems, electron scattering, open-source numerical techniques, and/or surface science. Experience with electron microscopy datasets is useful but not essential.\nResearch Environment:\nYou will join the Curious Beams Lab, led by Dr. Georgios Varnavides, within the Microscopy and Instrumentation Techniques (MInT) cluster of the Department of Imaging Physics at TU Delft, Applied Sciences.\nThe MInT cluster brings together multiple research groups working across electron microscopy, from semiconductor inspection and metrology, to cryogenic electron microscopy for biological samples. The cluster has access to state-of-the-art field-emission SEMs and FIB-SEMS, with a new microscope being acquired primarily for this project.\nMore broadly, the ImPhys department provides an interdisciplinary environment spanning multiple imaging modalities, wavelengths, and length scaels, including extreme ultraviolet imaging, optical super-resolution, ultrasound and MRI, as-well as AI-based medical imaging.\nJob requirements\nWe are looking for curious and motivated researchers who want to develop a new imaging technology from fundamental physics through to experimental demonstration.\nYou have:\nAn MSc degree, or equivalent, in physics, applied physics, electrical engineering, mechanical engineering, materials science, computer science, or a closely related field.\nA strong interest in experimental physics, electron microscopy, imaging science, or a related area.\nThe ability to work independently while contributing actively to a collaborative research team.\nStrong analytical and problem-solving skills.\nGood written and spoken English communication skills.\nYou are available to start in 2027, with some flexibility around the exact start date.\nFor the electron-optics and experimental-imaging direction, experience or interest in electron optics, electromagnetic simulation, nanofabrication, MEMS, vacuum systems, instrumentation, electronics or experimental microscopy is particularly valuable.\nFor the computational-imaging and surface-science direction, experience or interest in scientific programming, numerical simulation, inverse problems, computational imaging, diffraction, electron microscopy or materials characterization is particularly valuable.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Georgios Varnavides at\ng.varnavides@tudelft.nl\n.\nFor additional information about the Curious Beams Labs and our research programme, please visit\nhttps://cbl.curve.space/\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n8 November\n2026\nvia the application button and upload the following documents:\nA motivation letter describing your research interests and experience.\nYour CV - if the applicants are selected for an interview, they will be asked to provide contact details of at least 3 referees with their consent.\nYour MSc thesis abstract (or equivalent research summary).\nTranscript of your Bachelor degree.\nYou can address your application to Dr. Georgios Varnavides.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\n#EUfunded This is an EU funded project, named BEAMSurf, with project number 101301679, within program HE / ERC\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Two PhD positions in experimental imaging science developing a new scanning electron microscope for diffractive surface imaging. Positions split between electron optics/instrumentation (PhD 1) and computational imaging/surface science (PhD 2). ERC Starting Grant project (BEAMSurf).",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 12,
+      "rationale": "Position core is instrumentation development, electron optics, and materials characterization. Thematically disconnected from human-centred immersive systems, spatial learning, wayfinding, collaboration, or social interaction. The computational-imaging strand (PhD 2) has some adjacent methodological merit, but applied to physical surfaces, not human spatial cognition or learning outcomes."
+    },
+    "methodological_fit": {
+      "score": 18,
+      "rationale": "PhD 2 (computational imaging) offers weak methodological adjacency: inverse problems, image reconstruction, and numerical simulation overlap conceptually with spatial mapping or data analysis. However, application domain (electron diffraction, surface science) is distant. Researcher's experimental-design and user-study skills are inapplicable. No user-facing system design or HCI component."
+    },
+    "growth_value": {
+      "score": 22,
+      "rationale": "PhD 2 would develop scientific programming, numerical methods, and computational imaging skills—useful for researcher's future work in immersive-system analysis or spatial-data processing. However, growth is tangential; position does not address eye-tracking, physiological sensing, or mixed-effects modelling priorities. Computational skills valuable but not targeted."
+    },
+    "strategic_value": {
+      "score": 18,
+      "rationale": "TU Delft is priority-1 institution; ERC Starting Grant signals strong funding and supervisor quality (Dr. Varnavides, Curious Beams Lab). Department of Imaging Physics is interdisciplinary and well-regarded. However, lab's focus (electron microscopy, surface imaging, materials science) orthogonal to HCI/XR research. Post-PhD network would be in microscopy/materials, not immersive systems or spatial cognition."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Formal requirement: MSc in Physics, Applied Physics, Engineering or closely related field; MMU MSc in Creative Multimedia is a non-traditional entry point.",
+      "For PhD 2 (computational imaging): background in computational imaging, inverse problems, or electron microscopy datasets beneficial. Researcher has none of these.",
+      "For PhD 1 (electron optics): background in electron optics, MEMS, nanofabrication or instrumentation required. Researcher has no evidence.",
+      "Start date 2027; researcher is mid-thesis (MSc by Research in progress). Timing may conflict with thesis completion."
+    ],
+    "risks": [
+      "Thematic misalignment: surfaces and materials characterization do not connect to spatial cognition, wayfinding, or collaborative learning research.",
+      "Advisor network: post-PhD relationships would be in imaging physics/microscopy, not HCI or immersive-systems communities.",
+      "Career-trajectory risk: PhD in computational imaging for electron microscopy could delay or obscure path to human-centred XR researcher identity.",
+      "Limited domain relevance: computational methods learned would not transfer strongly to immersive-systems or spatial-learning research."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-09T13:11:37.292089Z",
+    "analysis_input_hash": "67b0aecd50fa2e164bf2cdee5d9763a3348d347c5e83306d9686006ebb37896d"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 16,
+    "urgency": "medium",
+    "days_to_deadline": 30,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

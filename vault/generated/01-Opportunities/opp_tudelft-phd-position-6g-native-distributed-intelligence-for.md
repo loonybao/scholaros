@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 11
+fit_overall: 6
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 24)
+Gate: **uncertain** (days to deadline: 23)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -62,7 +62,7 @@ Coming to Delft Service
 Dual Career Programme
 is available, to support your accompanying partner with their job search in the Netherlands.
 Additional information
-If you would like more information about this vacancy or the selection procedure, please contact dr qing Wang, via quing.wang@tudelf.nl.
+If you would like more information about this vacancy or the selection procedure, please contact dr qing Wang, via qing.wang@tudelf.nl.
 Application procedure
 Are you interested in this vacancy? Please apply no later than 1 Nov 2026 via the application button and upload the following documents:
 CV
@@ -81,27 +81,26 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
 
-PhD position developing resource-aware 6G-native distributed AI techniques (split inference, model partitioning, computation offloading) for physical AI systems under latency and resource constraints. Core work is pure machine learning algorithm development and distributed systems optimization within telecommunications infrastructure.
+Doctoral position in 6G communications technology and distributed artificial intelligence for resource-constrained embedded and edge computing. Focus on split inference, model partitioning, computation offloading, and cross-layer resource orchestration to enable 'Physical AI' on devices under latency and energy constraints. Position part of Netherlands 6G flagship project (60 companies, research institutions) with exclusive testbed access and entrepreneurial development opportunities.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
 | Methodological fit | 8 |
-| Growth value | 15 |
-| Strategic value | 25 |
-| **Overall** | **11** |
+| Growth value | 3 |
+| Strategic value | 10 |
+| **Overall** | **6** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python, statistics, mixed-effects-modelling
+**Missing skills:** cpp, distributed-systems-knowledge, machine-learning-systems
 
 **Risks:**
-- PhD would be pure ML algorithm research in 6G, creating a research identity misalignment with stated target (human-centred immersive systems). Career narrative becomes fragmented.
-- Would substantially delay or preclude immersive systems expertise development during critical PhD phase.
-- Supervisor group (Iosifidis et al.) specializes in network optimization and multi-agent learning, not HCI or immersive systems. Limited mentorship for target research direction.
-- Publication record and PhD thesis would be in telecommunications/ML, not HCI, making future HCI/immersive-systems positions (Aalto, Tampere) harder to access.
+- Severe domain mismatch. Position is pure systems engineering and distributed ML; researcher background is HCI and game development. Would require substantial foundational study in network systems and algorithmic optimization.
+- Position aligns with researcher's stated excluded directions: 'pure-machine-learning-algorithms' and 'embedded-systems'. Distributed intelligence for 6G edge computing is fundamentally algorithm and systems optimization, not human-centred application.
+- No meaningful integration of researcher's XR, multiplayer networking, or user evaluation expertise. Supervisor and research community would not value or understand HCI background.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-6g-native-distributed-intelligence-for.md` and link [[opp_tudelft-phd-position-6g-native-distributed-intelligence-for]]._

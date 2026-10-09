@@ -1,0 +1,170 @@
+{
+  "id": "opp_tudelft-phd-position-quantum-physics-rare-earth-ion-single-p",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-09T12:52:33.032163Z",
+  "updated_at": "2026-10-09T13:14:37.176594Z",
+  "change_history": [
+    {
+      "ts": "2026-10-09T12:52:33.032328Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-09T13:11:37.291325Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-09T13:14:37.176594Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Quantum Physics - Rare-earth Ion single Photon Emitter",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-applied-sciences",
+    "source": "tudelft",
+    "source_native_id": "1374450357",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Quantum-Physics-Rare-earth-Ion-single-Photon-Emitter-2628-CD/1374450357/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Quantum-Physics-Rare-earth-Ion-single-Photon-Emitter-2628-CD/1374450357/",
+    "evidence_ids": [
+      "tudelft/1374450357"
+    ],
+    "retrieved_at": "2026-10-09T12:52:33.031982Z",
+    "raw_snapshot_hash": "6c80993bb9a89d4a5c3c3bcc895d689e152c7209835efbcd4b995a5f5d4320e4",
+    "extracted_content_hash": "0ab5be62fa009630275e6c89837643c9c3a710898e49343c82a4ccfcb536d399",
+    "deadline": "2026-11-08",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Creating quantum networks with rare-earth ions\nJob description\nSilicon-based microchips are the essential building block of modern electronic hardware, such as computers and cell phones. Can silicon also play a critical role in building the next generation of the internet - the quantum internet? In order to realize a fully functional and scalable quantum network, we are developing highly coherent single photon emitters using erbium ions operating in the telecom C-band and directly embedded in a solid state crystal, such as silicon. Crucially, we are able to realize high-quality light-matter interfaces and directly enhance the photon emission into an optical channel using photonic crystal cavities. By leveraging different isotopes for long-lived and programmable quantum registers, we are planning on realizing all the critical parts for a quantum network using fully integrated and highly scalable structures.\nIn order to help us achieve our ambitious goals, we are looking for a talented and motivated person, with strong curiousity of rare-earth ion physics, single-emitters in solid-state systems or experimental AMO physics. The successful candidate will work in a dynamic team environment.\nAt the Groeblacher Lab we have a vision: we thrive to be an inclusive place where a diverse mix of talented people want to come, to learn, to live their passion and do their best work. We are dedicated to promoting equality, creating a safe environment for everyone, and believe deeply in diversity of race, gender, sexual orientation, religion, ethnicity, national origin, age, socioeconomic background and all the other fascinating characteristics that make us different. We truly think diversity is a strength and working in a diverse environment, and being exposed to a variety of perspectives makes us stronger scientists and better human beings.\nThe Department of Quantum Nanoscience at the TU Delft is an exciting, collaborative environment with several world-renowned research groups. The department is focused on Quantum Theory, Quantum Information Science and Quantum Devices & Materials. The research is supported by state-of-the-art facilities, in particular the cleanroom facilities for realizing next-generation nanostructures.\nThe successful candidate will have the opportunity to learn new experimental techniques (microfabrication, quantum optics, cryogenics, ...), to understand the underlying principles of single-photon emitters and to gain a deep knowledge in finite element simulation and advanced computer based experimentation. As a PhD student you will also be given the opportunity to supervise Master students and you will receive all the training allowing you to evolve into an independent scientist.\nJob requirements\nMasters or equivalent in (applied) physics or engineering\nDeep understanding of quantum physics\nCurious and self-motivated\nPlus:\nHands on experience with quantum optics experiments\nExperience with finite-element simulations\nPrior experience in nanofabrication and cryogenics\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact\nRecruitment-tnw@tudelft.nl\n.\nFor more information about our work and this position please see\nhttps://groeblacherlab.tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n8 November 2026\nvia the application button and upload the following documents:\nIn your Cover Letter (max. 1 A4) please elaborate on your motivation to work on a topic related to single photon emitters and rare-earth ions as well as join our team / your personal drive and ambitions. Please note that in line with our department's vision, we value personally written letters with \"imperfections\" above AI generated \"perfection\".\nIn your CV please ensure your previous level of experience with nanofabrication, cryogenics, quantum optics, and / or simulations is clearly stated, if any.\nYou can address your application to Simon Groeblacher.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in experimental quantum physics developing single-photon emitters using rare-earth ions (erbium) in solid-state crystals for quantum networks. Research spans quantum optics, nanofabrication, cryogenics, and finite-element simulation.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "Position is pure physics/quantum science. No human-computer interaction, user studies, spatial cognition, collaborative learning, or social interaction. XR/metaverse unmentioned. Rare-earth ion physics is fundamentally disconnected from researcher's domains (human-centred immersive systems, wayfinding, spatial learning)."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Researcher's strength is HCI methodology (user studies, experimental design with humans, qualitative collaboration research). Position requires experimental quantum physics, microfabrication, cryogenics, and finite-element simulation—no conceptual or technical overlap. Experimental design in human contexts is distinct from apparatus-focused physics."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Would introduce hands-on experimental apparatus design and cryogenic systems knowledge, but these do not close target capability gaps (eye-tracking, physiological sensing, advanced statistics for spatial cognition). Growth trajectory orthogonal to stated needs for human-centred XR research."
+    },
+    "strategic_value": {
+      "score": 12,
+      "rationale": "TU Delft is priority-1 institution. Department of Quantum Nanoscience has strong reputation and world-class facilities. However, Groeblacher Lab is pure physics/quantum information, not HCI or immersive systems. PhD here anchors researcher into quantum-optics career path, away from target HCI/XR communities."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Formal requirement: Master's in (Applied) Physics or Engineering; MMU MSc in Creative Multimedia does not clearly satisfy this.",
+      "Deep understanding of quantum physics required; researcher has no evidence of quantum-level physics background.",
+      "Hands-on experience with quantum optics experiments required; researcher has no laboratory-optics experience."
+    ],
+    "risks": [
+      "Career-direction risk: PhD in quantum physics misaligns with target identity (human-centred XR/HCI researcher). Unlikely pathway back to collaborative immersive systems after quantum physics specialization.",
+      "Disciplinary pivot: recruiting supervisors in quantum optics rather than HCI/XR will reshape PhD trajectory and network.",
+      "Thematic isolation: research on single-photon emitters has no connection to spatial cognition, wayfinding, learning, or social collaboration research.",
+      "Skill development: advanced quantum theory and experimental apparatus skills do not build toward target methodological toolkit (eye-tracking, physiological sensing, spatial cognition assessment)."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.96,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-09T13:11:37.290919Z",
+    "analysis_input_hash": "92ae4f25d017f16aaa02bd9841810627a19a8458a2454ce9d243e11f1f8b72fc"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 7,
+    "urgency": "medium",
+    "days_to_deadline": 30,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

@@ -6,8 +6,8 @@ organisation: "TU Delft"
 deadline: 2026-10-30
 status: open
 eligibility_gate: uncertain
-fit_overall: 3
-urgency: medium
+fit_overall: 9
+urgency: high
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 22)
+Gate: **uncertain** (days to deadline: 21)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -87,8 +87,8 @@ Coming to Delft Service
 Dual Career Programme
 is available, to support your accompanying partner with their job search in the Netherlands.
 Additional information
-For more information about this vacancy, please contact Poulumi Dey via
-p.dey@tudelft.nl
+For more information about this vacancy, please contact
+recruitment-ME@tudelft.nl
 .
 The expected start date is 18th January 2027 (but can be earlier, depending on the candidate availability and immigration procedures); contract duration is 4 years. You will receive an update on the outcome of your application in the week of 16th November 2026. The first interviews are scheduled for the week of 23rd November 2026, followed by a second interview round in the week of 30th November 2026.
 Application procedure
@@ -110,29 +110,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-This PhD position investigates hydrogen embrittlement in circular steels using density functional theory (DFT) and machine-learned interatomic potentials. Research focuses on atomistic mechanisms of hydrogen-defect interactions in compositionally complex recycled steels, embedded in a larger 6-year project (CIRHY) with academic and industrial partners.
+PhD position in computational materials science focused on atomistic simulation of hydrogen embrittlement in recycled steels using density functional theory and machine-learning potentials. Part of a 6-year circular-steels initiative (CIRHY) with industrial partnership (Tata Steel) and academic consortium.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 0 |
-| Methodological fit | 5 |
-| Growth value | 0 |
-| Strategic value | 10 |
-| **Overall** | **3** |
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 8 |
+| Strategic value | 15 |
+| **Overall** | **9** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** density-functional-theory, molecular-dynamics, machine-learning-potentials, computational-physics, materials-science, python, statistics
+**Missing skills:** mixed-effects-modelling
 
 **Risks:**
-- Researcher is ineligible: position explicitly requires MSc in Materials Science, Physics, Chemistry or related physical science
-- Zero background in computational physics, DFT, or molecular simulation
-- Beginner Python level insufficient for the computational demands (ML potential development, MD simulations)
-- Would require 1–2 years of foundational physics and computational training before productive contribution
-- Directly contradicts researcher's excluded directions: this is pure machine-learning-algorithm development applied to materials without HCI intent
-- Shifts researcher's career away from human-centred immersive systems entirely
+- Career-direction risk: pivoting from human-centred XR into pure computational materials science would delay or derail target PhD identity (human-centred immersive systems researcher).
+- Skill mismatch: position demands DFT/MD expertise researcher does not possess; ramp-up time substantial.
+- Disciplinary misalignment: materials science PhD would not build toward target HCI/XR groups at Aalto, TU Delft, or European peers.
+- Thematic alienation: research topic (hydrogen embrittlement) orthogonal to all stated target themes (spatial cognition, collaborative learning, wayfinding, social interaction).
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-probing-hydrogen-defect-interaction-in.md` and link [[opp_tudelft-phd-position-probing-hydrogen-defect-interaction-in]]._

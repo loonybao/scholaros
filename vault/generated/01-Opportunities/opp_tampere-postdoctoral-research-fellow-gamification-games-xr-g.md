@@ -3,18 +3,18 @@ id: opp_tampere-postdoctoral-research-fellow-gamification-games-xr-g
 type: opportunity
 title: "Postdoctoral Research Fellow (Gamification / Games / XR / GenAI / Emerging Media for Engagement with Sustainable Futures), 1-3 positions"
 organisation: "Tampere University"
-deadline: 2026-10-15
+deadline: 2026-10-22
 status: open
 eligibility_gate: uncertain
 fit_overall: 87
-urgency: urgent
+urgency: high
 needs_review: true
 ---
 
 # Postdoctoral Research Fellow (Gamification / Games / XR / GenAI / Emerging Media for Engagement with Sustainable Futures), 1-3 positions
 
 **Organisation:** [[org_tampere_university]] (Tampere University)
-**Deadline:** 2026-10-15 (23:59 local time)
+**Deadline:** 2026-10-22 (23:59 local time)
 **Location:** Tampere, Finland
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 7)
+Gate: **uncertain** (days to deadline: 13)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -116,7 +116,8 @@ HOW TO APPLY
 Please submit your application through our online recruitment system.
 In your application, please indicate whether you are primarily applying for a position connected to CLIMETA or OPEN position within the broader research theme of engaging media and technologies.
 You may also indicate interest in both, if applicable. We may interview candidates for either or both position categories.
-The closing date for applications is October 15, 2026 (at 23.59 EEST / 20.59 UTC)
+The closing date for applications has been extended until October 22, 2026
+(at 23.59 EEST / 20.59 UTC)
 . Please write your application and all accompanying documentation in English and attach them in PDF format only. Selected candidate(s) are expected to start as soon as possible.
 The candidates should attach the following documents
 :
@@ -129,6 +130,9 @@ Page 2
 : A tentative short research plan or research idea you would like to undertake in the position (this plan primarily functions as a departure point for discussion; the final research plan will be agreed upon together with the selected candidate(s))
 Optional
 : A design portfolio highlighting your design, development, and/or artistic work.
+For frequently asked questions
+, see here:
+Open Doctoral and Postdoctoral Researcher positions — Gamification / Games / XR / GenAI / Emerging M…
 Contact
 Professor
 Juho Hamari,
@@ -147,30 +151,30 @@ Tampereen yliopistossa on haettavana Tutkijatohtorin (Gamification / Games / XR 
 HAKUOHJEET
 Lue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.
 Jätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).
-Hakuaika tehtävään päättyy 15.10.2026, klo 23:59.
+Hakuaika tehtävään on jatkettu 22.10.2026, klo 23:59 asti.
 
 ## AI analysis
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
 
-Postdoctoral research fellow position(s) at Tampere University's Research Centre of Gameful Realities, investigating engaging media (XR, gamification, AI, bioadaptive systems) for learning, collaboration, sustainability engagement, and behaviour change. CLIMETA track focuses on VR for metacognitive climate engagement; OPEN theme welcomes broader research on gameful technologies for sustainable applications.
+Postdoctoral research fellow positions (1–3 available) in gameful and engaging technologies for sustainability at Tampere University's Research Centre of Gameful Realities. Scope mirrors doctoral track: gamification, games, XR, generative AI, and emerging media for learning, behaviour change, collaboration, and climate engagement. Researchers develop own agendas within CLIMETA (VR and climate metacognition) and OPEN (general engaging media for sustainability) themes.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 90 |
-| Methodological fit | 85 |
-| Growth value | 82 |
+| Thematic fit | 92 |
+| Methodological fit | 90 |
+| Growth value | 70 |
 | Strategic value | 88 |
 | **Overall** | **87** |
 
-**Fit type:** exact-fit
+**Fit type:** adjacent-methodological-fit
 
-**Missing skills:** mixed-effects-modelling, physiological-sensing, eye-tracking, qualitative-research, statistics
+**Missing skills:** eye-tracking, physiological-sensing, mixed-effects-modelling, r
 
 **Risks:**
-- Candidate must complete MSc and PhD application process before eligible; typical PhD duration 3-4 years means postdoc application unlikely before 2029-2030
-- Postdoc is intermediate step; if pursuing faculty/independence trajectory, timing should align with career goals
-- Statistics and multivariate analysis skills underdeveloped; may require self-directed learning if planning complex mixed-model analyses
+- Researcher is not yet PhD-qualified. Postdoc positions are for researchers who have completed doctorate. Applying now would be premature.
+- Even if researcher accelerates doctoral work, completing PhD and publishing sufficient postdoc-level research by June 2027 is extremely ambitious. Postdoc roles typically recruit from researchers 0–3 years post-PhD.
+- Strong recommendation: Pursue doctoral researcher position first (exact fit at same institution, timing-appropriate), then re-apply for postdoc role after PhD completion (2–3 years post-doctorate).
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-postdoctoral-research-fellow-gamification-games-xr-g.md` and link [[opp_tampere-postdoctoral-research-fellow-gamification-games-xr-g]]._

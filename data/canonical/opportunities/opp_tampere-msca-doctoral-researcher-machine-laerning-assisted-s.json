@@ -1,0 +1,175 @@
+{
+  "id": "opp_tampere-msca-doctoral-researcher-machine-laerning-assisted-s",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-09T12:49:14.193212Z",
+  "updated_at": "2026-10-09T13:14:37.025231Z",
+  "change_history": [
+    {
+      "ts": "2026-10-09T12:49:14.193389Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-09T13:08:34.997014Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-09T13:14:37.025231Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "MSCA Doctoral Researcher (Machine-Laerning Assisted Structured Light Generation in Optical Fibers)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3197",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3197",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3197#login_form",
+    "evidence_ids": [
+      "tampere/3197"
+    ],
+    "retrieved_at": "2026-10-09T12:49:14.192979Z",
+    "raw_snapshot_hash": "d3c99534fb4b9cb3ea44aef3765d4425899936373be4af6ef63df3cb1edc82a8",
+    "extracted_content_hash": "78d48674c8c5a4dae8fc72d53ccb095a2ddf28b76f2768541ec0d67e319ceb70",
+    "deadline": "2026-10-21",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-10-08",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "ambiguous",
+    "mobility_requirement_text": "Posting mentions: …ampere University , must not hold a doctoral degree, and must fulfil the applicable employment requirements in Finland. MSCA Mobility Rule : at the time of recruitment by the host organization the researcher must not have resided or carried out his/her main activity (work, studies, etc.) in the country of his/her employer (Tampere…",
+    "status": "open",
+    "description_text": "Tampere University\nis\na unique, boldly future‑oriented and evolving community, and one of Finland’s most multidisciplinary universities. At Tampere University, technology, health and society come together in a distinctive way. Our research groups and projects carry out interdisciplinary and cross-sectoral research that transcends organisational boundaries. Our community is international, with members from more than 80 countries. Read more at\nTampere University (TAU) | Tampere University\n.\nHiPOVor\nis an international doctoral network developing a new generation of high-power light beams carrying optical angular momentum. Fifteen doctoral researchers will work across the full technology chain, from beam generation and amplification to propagation, characterization and applications. The network brings together eight leading European universities and nine industrial partners, providing interdisciplinary training at the interface of advanced photonics, structured light and high-power laser technologies. The aim is to advance both fundamental science and practical applications, while training a new generation of specialists for academic and industrial careers.\nJob description\nProject title:\nHigh power broadband fiber-based structured light with machine learning tuneable spatio-temporal characteristics\nProject tasks and objectives\n:  This doctoral project will explore how AI can control complex light inside multimode optical fibers. You will develop high-power broadband structured-light sources and use machine learning to tune their spatial, spectral and temporal properties on demand. The work combines nonlinear fiber optics, structured light, ultrafast photonics and AI, with the goal of turning complex multimode dynamics into a programmable light source rather than an uncontrolled effect.\nExpected results\n: The project will deliver new methods for AI-programmable all-fiber structured-light generation, enabling dynamically tunable beam shape, spectrum and temporal behavior at practical power levels. Potential applications include imaging, sensing, laser processing and industrial inspection.\nPlanned secondment(s)\n: University of Warsaw (Poland), University of Stuttgart (Germany)\nThe Doctoral candidate will also be involved in dissemination through social media promotion of the network, such as project website, LinkedIn groups, YouTube video channels, and blogging.\nPlace of employment\n: Tampere University, Finland\nSupervisory team\n: Professor Goëry Genty and Associate Professor Regina Gumenyuk\nExpected starting date\n: January 1st, 2027 at the latest.\nDuration of the work contract\n:  36 months\nTrial period\n: 6 months\nTarget degree\n: PhD degree from Tampere University, Finland\nApproximate gross salary\n: The gross salary for the work contract in Finland is 3,950 euros/month (living allowance and mobility allowance).  If the fellow is eligible for family allowance, the salary for the work contract is approx. 4,450 euros/month. The salary will be defined in accordance with MSCA funding rules. The MSCA Fellow pays the Finnish progressive tax and employee unemployment insurance fee from the taxable monthly gross salary.\nRequirements\nWe are looking for a talented, creative and highly motivated researcher with a strong background in photonics, optics, laser physics or a closely related field. Applicants are expected to have prior hands-on experience in experimental optics or photonics. Experience in nonlinear optics, optical fibes, ultrafast optics or structured light is particularly relevant. Skills in numerical modelling, Python/MATLAB, machine learning or optical data analysis are considered an advantage. The candidate should be comfortable with laboratory work and interested in combining advanced photonics experiments with computational and AI-based methods. The recruited researcher can be of any nationality, must be eligible for enrolment in the\ndoctoral programme at Tampere University\n, must not hold a doctoral degree, and must fulfil the applicable employment requirements in Finland.\nMSCA Mobility Rule\n: at the time of recruitment by the host organization the researcher must not have resided or carried out his/her main activity (work, studies, etc.) in the country of his/her employer (Tampere University, Finland) for more than 12 months in the 3 years immediately prior to his/her recruitment. Compulsory national service and/or short stays such as holidays and time spent as part of a procedure for obtaining refugee status under the Geneva Convention are not considered.\nThe applicant must be in possession of Master of Science (MSc) diploma.\nEnglish language requirements: Proficiency in written/spoken English is mandatory. In certain cases, we may ask for a language certificate.\nWe offer\nPlease read more about working at Tampere University\nhttps://www.tuni.fi/en/tau/work-with-us\n.\nFinland is among the most stable, free and safe countries in the world, based on prominent ratings by various agencies. It is also ranked as one of the top countries as far as social progress is concerned. Tampere is counted among the major academic hubs in the Nordic countries and offers a dynamic living environment. Tampere’s region is one of the most rapidly growing urban areas in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society.\nFor more information on Tampere and Finland, please visit:\nhttps://workintampere.fi/\nhttps://www.visitfinland.com/en/\nhttps://www.infofinland.fi/en/landingpage\nHow to apply\nPlease submit your application through our online recruitment system.\nThe closing date for applications is 21st of October 2026 (at 23:59 EEST / UTC +3).\nThe applicant must submit the following documents through LAURA recruitment system, only a clear copy of the documents will be considered.\nCertified copies of the bachelor's and master's degree certificates with the Diploma Supplement (DS) as approved by the EU Commission for degrees completed in European universities (when applicable) Official translations into English (if the original documents are in a language other than English)\nCurriculum Vitae/CV (preferably in\nEuropass\nformat)\nList of publications (if any) your contributions in the publication\nReferences: Contact details of 2 or more referees included in the CV\nMotivation letter: maximum 1 page where you introduce yourself and present your qualifications; you may include also your previous research fields and main research results. Please emphasize your future goals career-wise\nPlease note that we will begin conducting interviews during the application period, so early applications are encouraged. This allows us to get to know candidates as soon as possible and keep the process moving efficiently. Please apply at your earliest convenience!\nFor more information, please contact:\nProf. Goëry Genty goery.genty@tuni.fi\n***\nTampereen yliopisto\non ainutlaatuinen, rohkeasti tulevaisuuteen katsova, kehittyvä yhteisö ja yksi Suomen monialaisimmista yliopistoista. Meillä tekniikka, terveys ja yhteiskunta kohtaavat toisensa ainutlaatuisella tavalla. Tutkimusryhmissämme ja -hankkeissamme tehdään monitieteistä ja -alaista tutkimusta yli organisaatiorajojen. Yhteisömme on kansainvälinen, meitä on jo yli 80 maasta. Lue lisää\nTampereen yliopisto (TAU) | Tampereen yliopisto\n.\nTehtävänkuvaus\nHaemme väitöskirjatutkijaa hankkeeseen, jossa tutkitaan, miten tekoälyä ja koneoppimista voidaan hyödyntää monimuotokuiduissa etenevän monimutkaisen valon hallintaan. Tavoitteena on kehittää suuritehoisia ja laajakaistaisia rakenteisen valon kuitulähteitä, joiden avaruudellisia, spektraalisia ja ajallisia ominaisuuksia voidaan säätää dynaamisesti. Työ yhdistää epälineaarisen kuituoptiikan, rakenteisen valon, ultranopean fotoniikan ja tekoälyn. Tuloksena pyritään kehittämään uusia menetelmiä tekoälyohjattuun, täysin kuitupohjaiseen valon tuottamiseen, jossa säteen muotoa, spektriä ja ajallista käyttäytymistä voidaan ohjelmoida käytännöllisillä tehotasoilla. Mahdollisia sovelluksia ovat kuvantaminen, mittaus ja tunnistus, laserprosessointi sekä teollinen tarkastus.\nHakuohjeet\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta. Jätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).\nHakuaika tehtävään päättyy 21.10.2026."
+  },
+  "ai": {
+    "summary": "MSCA-funded doctoral position in machine-learning-assisted structured light generation in multimode optical fibers. Project combines nonlinear fiber optics, structured light, ultrafast photonics, and AI to develop tunable, programmable light sources for imaging, sensing, laser processing, and industrial inspection. Position part of HiPOVor international doctoral network (15 positions across 8 European universities, 9 industrial partners).",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "No thematic overlap. Position is specialized in photonics, laser physics, nonlinear optics, and optical fiber engineering. While the project title includes 'structured light' and 'AI,' the core research is pure physics and engineering of light propagation, not human-centred technology, learning, collaboration, or spatial cognition. Researcher's domains (immersive learning, spatial cognition, human-computer interaction, social collaboration) do not intersect with photonics engineering."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Negligible methodological alignment. Position requires hands-on experimental photonics, numerical modelling in MATLAB/Python for optical systems, and machine learning for optical data analysis. Researcher's methodological strengths are user studies, experimental design in human evaluation, and game engine development. No overlap in core technical approaches or experimental paradigms. Position is 'pure optical physics' experimentation, not HCI experimental research."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "Does not address or support any identified capability gaps. Researcher flagged need for growth in statistics, mixed-effects modelling, physiological sensing, and eye-tracking within HCI contexts. Structured light photonics adds none of these and would not prepare researcher for HCI or immersive systems research."
+    },
+    "strategic_value": {
+      "score": 5,
+      "rationale": "Negative strategic value for stated career goals. Position is in physics/photonics, not HCI or XR research. Tampere University is valued as priority-2 institution, but this position is disconnected from the Research Centre of Gameful Realities and gamification research community. MSCA network focuses on photonics technology stack, not human-centred or learning applications. Supervisor team (Goëry Genty, Regina Gumenyuk) are photonics experts, not HCI or immersive systems mentors. Career trajectory would pivot away from human-centred research and target research identity as immersive learning researcher."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "cpp",
+      "photonics-domain-knowledge"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires 'strong background in photonics, optics, laser physics or closely related field' with 'prior hands-on experience in experimental optics or photonics.' Researcher's background is in multimedia, XR, and HCI—no photonics training evident. Would require substantial foundational study.",
+      "MSCA Mobility Rule: Researcher must not have resided in Finland for >12 months in prior 3 years. Researcher is in Malaysia (per education institution); mobility rule appears satisfied, but confirm residency history.",
+      "Master of Science diploma required; researcher holds MSc by Research (in progress), which should qualify."
+    ],
+    "risks": [
+      "Severe domain mismatch. Researcher would be entering a specialized physics field without foundational training. Learning curve would be steep and divert focus from building expertise in target domain.",
+      "Position is 'pure computer vision, SLAM, robotics control, graphics rendering, GPU optimisation, embedded systems or pure ML algorithm development'—falls under researcher's stated excluded directions (pure ML algorithms, pure technical stack unconnected to human factors). While position is not strictly on that list, photonics engineering is similarly orthogonal to human-centred research.",
+      "No pathway to integrate or leverage researcher's existing XR, game engine, or user evaluation expertise. Supervisor and cohort would not understand researcher's background."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.97,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-09T13:08:34.996627Z",
+    "analysis_input_hash": "f88c48f6c68a7b3a59ca842795ccd04b2a6182632f1899d1102fa832d4ad712c"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source",
+      "posting hints at a mobility/residence-history rule — verify the exact condition"
+    ],
+    "fit_overall": 6,
+    "urgency": "high",
+    "days_to_deadline": 12,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
