@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 6
+fit_overall: 18
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 21)
+Gate: **uncertain** (days to deadline: 20)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -62,13 +62,15 @@ Coming to Delft Service
 Dual Career Programme
 is available, to support your accompanying partner with their job search in the Netherlands.
 Additional information
-If you would like more information about this vacancy or the selection procedure, please contact dr qing Wang, via qing.wang@tudelf.nl.
+If you would like more information about this vacancy or the selection procedure, please contact Dr Qing Wang, via
+qing.wang@tudelft.nl
+.
 Application procedure
 Are you interested in this vacancy? Please apply no later than 1 Nov 2026 via the application button and upload the following documents:
 CV
 Motivational letter
 Copies of your BSc and MSc degrees and transcripts.
-You can address your application to dr qing Wang.
+You can address your application to Dr Qing Wang.
 Applications will be evaluated as they come in,so please apply as soon as possible.
 Doing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the
 Graduate Schools Admission Requirements
@@ -81,26 +83,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-Doctoral position in 6G communications technology and distributed artificial intelligence for resource-constrained embedded and edge computing. Focus on split inference, model partitioning, computation offloading, and cross-layer resource orchestration to enable 'Physical AI' on devices under latency and energy constraints. Position part of Netherlands 6G flagship project (60 companies, research institutions) with exclusive testbed access and entrepreneurial development opportunities.
+A 4-year doctoral position in 6G-native distributed AI, focusing on resource-aware techniques for adapting AI workloads across embedded devices, edge, and cloud infrastructure under strict latency and reliability constraints, within the Dutch FNS flagship 6G consortium.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 8 |
-| Growth value | 3 |
-| Strategic value | 10 |
-| **Overall** | **6** |
+| Thematic fit | 8 |
+| Methodological fit | 18 |
+| Growth value | 14 |
+| Strategic value | 45 |
+| **Overall** | **18** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cpp, distributed-systems-knowledge, machine-learning-systems
+**Missing skills:** mixed-effects-modelling, r
 
 **Risks:**
-- Severe domain mismatch. Position is pure systems engineering and distributed ML; researcher background is HCI and game development. Would require substantial foundational study in network systems and algorithmic optimization.
-- Position aligns with researcher's stated excluded directions: 'pure-machine-learning-algorithms' and 'embedded-systems'. Distributed intelligence for 6G edge computing is fundamentally algorithm and systems optimization, not human-centred application.
-- No meaningful integration of researcher's XR, multiplayer networking, or user evaluation expertise. Supervisor and research community would not value or understand HCI background.
+- Disciplinary misalignment: creative multimedia vs. computer science infrastructure focus
+- Position's core (network optimization, AI workload distribution) is listed in researcher's excluded directions (pure ML algorithms)
+- Department specializes in electrical engineering and CS infrastructure, not HCI or human-centred evaluation
+- Testbed and PoC focus on network/compute infrastructure, not human factors or spatial/immersive learning
+- Pursuing this PhD would cement trajectory away from human-centred XR target identity toward infrastructure and distributed systems
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-6g-native-distributed-intelligence-for.md` and link [[opp_tudelft-phd-position-6g-native-distributed-intelligence-for]]._

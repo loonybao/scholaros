@@ -1,0 +1,182 @@
+{
+  "id": "opp_aalto-doctoral-researcher-in-adaptive-grid-interactive-edge",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-12T14:46:21.752947Z",
+  "updated_at": "2026-10-12T15:04:01.810297Z",
+  "change_history": [
+    {
+      "ts": "2026-10-12T14:46:21.753126Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-12T15:04:01.515009Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-12T15:04:01.810297Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral researcher in Adaptive Grid-Interactive Edge Datacenter Fleets (MSCA Doctoral Network)",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-in-adaptive-grid-interactive-edge-datacenter-fleets-msca-doctoral-network",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-adaptive-grid-interactive-edge-datacenter-fleets-msca-doctoral-network",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-researcher-in-Adaptive-Grid-Interactive-Edge-Datacenter-Fleets--MSCA-Doctoral-Network-_R48310-1/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-in-adaptive-grid-interactive-edge-datacenter-fleets-msca-doctoral-network"
+    ],
+    "retrieved_at": "2026-10-12T14:46:21.752701Z",
+    "raw_snapshot_hash": "6aad84790894c273eeb7fbc1bb1ff7602da61971b5495fb3afe5b9fe18a9f016",
+    "extracted_content_hash": "cbf977074fffbb89972ea9f285b3c767b4339ca999d1496d8f6e8aabe1bdc2e1",
+    "deadline": "2026-12-15",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-10-12",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "ambiguous",
+    "mobility_requirement_text": "Posting mentions: …You must meet the following requirements: No doctoral degree. At the date of recruitment, you must not yet hold a PhD. Mobility rule. You must not have lived or done your main activity (work or studies) in Finland for more than 12 months in the 36 months just before you are recruited, unless as part of a compulsory national servic…",
+    "status": "open",
+    "description_text": "We are recruiting one doctoral researcher (3 years) to the AEGIS network\nAEGIS — Adaptive Grid-Interactive Edge Datacenter Fleets — is a European research and training network. It is funded by the EU through a Marie Skłodowska-Curie Doctoral Network, runs from 2026 to 2030, and trains 15 Doctoral Candidates (PhD students). The DN targets developing software-defined technologies that turn edge data centers from passive electrical loads into active, carbon-efficient and grid-interactive resources. The project has three layers:\nA programmable infrastructure layer\ngives safe, runtime-verified control of a site’s power electronics, cooling, and AI hardware.\nAn intelligence layer\nreads real-time grid signals and turns a request such as “reduce power by 20%” into the detailed actions that hardware and facilities must take, without breaking service.\nA fleet orchestration layer\ncoordinates many sites, even when they have different owners, using trusted and privacy-preserving methods, so the whole fleet can act as one Virtual Power Plant.\nRead more about the project and other participants here:\nhttps://aegis-dn.eu/\nYour role:\nYou will be working on “End-to-End Energy Modeling for Distributed AI Services”. To make carbon-aware decisions, both orchestrators and developers need to see the real energy cost of an AI workload. In this project you build analytical models and systems that make energy and carbon metrics visible. You will create compositional energy models that span the radio network, the transport network, and the datacenter hardware, and expose them through a fast query interface so any tool can ask, “what does this AI service cost in energy?”\nYou will be responsible for:\nDeveloping compositional energy models for disaggregated radio (RAN) components, transport networks, and datacenter hardware.\nBuilding a low-latency query API that returns the end-to-end energy cost of an AI service.\nWhat you will deliver:\nValidated models with less than 10% prediction error on the Aalto and Ericsson testbeds.\nA query API that returns end-to-end energy-cost estimates in under 100 milliseconds.\nA doctoral dissertation that you will defend.\nSecondments:\nYou will spend two research visits with partners in the network:\nEricsson\n(Finland) — 3 months from around May 2028 (industry), with Tomas Mecklin: test the energy models on Ericsson’s infrastructure testbeds.\nTU Wien\n(Vienna, Austria) — 3 months from around May 2029 (academic), with Ivona Brandić: combine the digital-twin models with the end-to-end energy models.\nThe position requires:\nMaster's degree in computer science, communications engineering, telecommunications, or a related field (with a CGPA of at least 4/5)\nExperience (e.g. coursework, projects, etc.) in AI and machine learning, including understanding of various DNN architectures, training models, and applying them for different tasks\nUnderstanding of computer and telecom networks (for example RAN)\nExperience with empirical measurements (Prior work on energy or power measurement is strongly preferred)\nData analysis and analytical modeling — identifying the features that drive system behaviour and building compositional or analytical models from measured data (an interest or aptitude here is enough; we don’t expect prior demonstrated experience)\nGood programming skills – you are required to provide a sample of your code during the recruitment process\nFluency in written and spoken English. See\nhttps://www.aalto.fi/en/study-options/aalto-doctoral-programme-in-electrical-engineering#8-required-language-proficiency\nfor information on how you can demonstrate proficiency in English. This is required when officially applying for doctoral studies at the School of Electrical Engineering in Aalto University (within 6 months after starting in the job). Please note that you do not need official proof when applying for this job.\nIf you are chosen for this position, you will apply for the study right in doctoral studies at Aalto University School of Electrical Engineering. Thus, please see the student information and admission criteria at\nhttps://www.aalto.fi/en/study-options/aalto-doctoral-programme-in-electrical-engineering\n.\nMSCA eligibility\nYou must meet the following requirements:\nNo doctoral degree. At the date of recruitment, you must not yet hold a PhD.\nMobility rule. You must not have lived or done your main activity (work or studies) in Finland for more than 12 months in the 36 months just before you are recruited, unless as part of a compulsory national service or a procedure for obtaining EU temporary protection or refugee status under the Geneva Convention. Short stays such as holidays do not count.\nAll nationalities welcome. The positions are open to applicants of any nationality.\nWhat we offer:\nYou will become a part of the\nCloud and Network Computing group\n, headed by assistant professor Gopika Premsankar. You will be advised by Riku Jäntti, full professor in\nCommunications Engineering\n. Both groups are based in the Department of Information and Communications Engineering in the School of Electrical Engineering.\nThe position starts in March 2027 or as mutually agreed. The start date cannot be later than June 2027. The employment contract will be made for three years.\nApplication documents\nTo apply, please share the following application materials (as PDFs) with us through our recruitment site (\"Apply now!” at the bottom of the page):\nA CV\nA short letter of motivation, at most 1 page, which describes your interest and motivation (please try to include details that are not part of your CV and emphasize how you address the position-specific requirements listed above)\nSample code, preferably on a code repository (Provide a URL and describe in one paragraph your role in developing the software)\nNames and email addresses of two reference providers. They will be contacted directly at a later stage in the application process.\nTranscript of grades for your Bachelor’s and Master’s degrees\nPlease note that our recruitment system allows maximum of 5 attachments, so please combine e.g. the copies of transcripts in one PDF, if necessary.\nApplication process\nThe application deadline is\nDecember 15, 2026\n23.59pm (EET). We will go through the applications in batches, and we may invite suitable candidates to interview already during the application period. The call will be closed early, if the position is filled before the application deadline.\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions).\nMore information\nFor more information about the position, please contact Professor Gopika Premsankar (gopika.premsankar@aalto.fi).  For questions about the application process, please contact HR Advisor Johanna Haapalainen at hr-elec@aalto.fi.\nWhy Finland and why this group\nAalto University provides a vibrant and collaborative environment. We work in a hybrid way, and the primary workplace is Otaniemi, Espoo. The Otaniemi campus is a thriving and connected community of 100 nationalities, 16,000 students and 5,200 employees. Life at the campus is vibrant and filled with amazing architecture, calming nature, and a variety of cafes, restaurants, services and good transport connections.\nFinland is a great place for living – it is a safe, politically stable and well-organized Nordic society. For more information about living in Finland:\nhttps://www.aalto.fi/en/careers-at-aalto/living-in-finland\n&\nhttps://www.aalto.fi/en/services/welcome-to-aalto-university-and-finland-info-package\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand check out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "A 3-year doctoral position in energy modeling for distributed AI services within the AEGIS EU Doctoral Network, focused on building compositional energy models and query APIs for carbon-aware AI workload deployment across radio, transport, and datacenter infrastructure.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The position is entirely centered on energy modeling, AI infrastructure, distributed systems, and datacenter optimization. The researcher's domain is human-centred XR, immersive learning, spatial cognition, and collaborative systems. There is no overlap in research questions, methodologies, or application domains."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Both domains involve data analysis and modeling, but the methods diverge sharply. The position requires analytical modeling of physical systems, convex optimization, machine learning for energy prediction, and embedded systems integration. The researcher's methods center on user studies, experimental design, qualitative/quantitative evaluation of human experience, and XR application development. The skill transfer is minimal."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "This position would require retraining in physics-based modeling, optimization theory, datacenter infrastructure, and embedded systems — a fundamentally different research trajectory from the researcher's stated target identity of human-centred XR/HCI. It closes no gaps relevant to immersive learning or spatial cognition research."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "Aalto University is a priority-1 target institution, and the MSCA Doctoral Network offers strong funding, international secondments (Ericsson, TU Wien), and a structured doctoral program. However, the group's focus (energy and infrastructure) does not align with the researcher's target institutions' strengths in HCI and immersive systems. The supervisor and group quality are high, but the strategic mismatch is severe."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "mixed-effects-modelling",
+      "r"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires Master's degree in computer science, communications engineering, telecommunications, or related field; researcher has MSc in Creative Multimedia (in progress) — disciplinary mismatch",
+      "Requires demonstrated experience in AI/ML and DNN architectures; researcher has no ML background",
+      "Requires understanding of computer and telecom networks (RAN); researcher has no networking background",
+      "Requires empirical measurement experience in energy/power; researcher has user-study measurement but not physical systems measurement",
+      "MSCA mobility rule: researcher must not have lived/worked in Finland >12 months in prior 36 months; eligibility depends on residency history",
+      "Position starts March 2027 or by June 2027; researcher is in thesis stage (status unclear)"
+    ],
+    "risks": [
+      "Disciplinary mismatch: Creative Multimedia degree vs. required computer science / engineering background",
+      "No prior experience in ML, optimization, or energy modeling — steep ramp required",
+      "Secondments with Ericsson and TU Wien focus on infrastructure and energy systems, not HCI or human-centred concerns",
+      "If researcher proceeds, PhD would be in energy systems / infrastructure, not human-centred XR, diverging from stated target identity",
+      "Supervisor (Premsankar, Jäntti) specialize in networking and energy systems, not HCI or immersive systems"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-12T15:04:01.514391Z",
+    "analysis_input_hash": "d62f457631f0df466f7632ddbee772d6f8d47ae9e5a11ae70baf18896f84d78d"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source",
+      "posting hints at a mobility/residence-history rule — verify the exact condition"
+    ],
+    "fit_overall": 14,
+    "urgency": "low",
+    "days_to_deadline": 64,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

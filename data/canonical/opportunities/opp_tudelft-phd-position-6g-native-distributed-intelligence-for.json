@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-10-08T13:05:04.685016Z",
-  "updated_at": "2026-10-11T12:37:49.212395Z",
+  "updated_at": "2026-10-12T15:04:01.966102Z",
   "change_history": [
     {
       "ts": "2026-10-08T13:05:04.685182Z",
@@ -111,6 +111,46 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-10-12T14:51:15.427374Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-10-12T15:04:01.517569Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-12T15:04:01.966102Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -124,9 +164,9 @@
     "evidence_ids": [
       "tudelft/1374292757"
     ],
-    "retrieved_at": "2026-10-09T12:53:15.895557Z",
-    "raw_snapshot_hash": "0e196678466dd8d6b78b3e2ff758b9110e33db9cccdd55c377c4c3bf2588f95b",
-    "extracted_content_hash": "ea29f80b6a7b071bb9ef21280ae11cc47785ea609108bacba9fe9429c18687f4",
+    "retrieved_at": "2026-10-12T14:51:15.426689Z",
+    "raw_snapshot_hash": "5f0c0cf5b7b1e45530dc9af544b7dc10b9884654a5f7a9b7e8024a9eff474e1e",
+    "extracted_content_hash": "decacfe9118223a3a3a224ee4457e13afda2700db845ae2ca57e40bb870dc1a4",
     "deadline": "2026-11-01",
     "deadline_note": null,
     "start_date": null,
@@ -145,55 +185,57 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Join the Dutch 6G flagship project to help shape the future of communications.\nJob description\nJoin the frontier of innovation in 6G: the future of mobile networks technology! In the Netherlands, a unique alliance of 60 top-notch ICT companies, semiconductor firms, and research institutions has united to spearhead specific aspects of 6G: (1) software antennas, (2) AI-driven network software, and (3) groundbreaking 6G applications. Join us as a PhD student in this prestigious Future Network Services (FNS) flagship project, where research and entrepreneurial pursuits converge.\nHow can 6G enable resource-constrained Physical AI by dynamically distributing and adapting AI workloads across embedded devices, the edge, and the cloud, while jointly orchestrating communication, computation, and sensing under strict latency, reliability, and resource constraints? The project will investigate resource-aware 6G-native distributed AI techniques such as collaborative and split inference, adaptive model partitioning and selection, computation offloading, and cross-layer resource orchestration. A particular focus will be on how 6G can enable Physical AI systems to adapt to changing network, compute, sensor, and energy conditions while maintaining predictable performance.\nYou’ll be joining an internationally diverse and thriving team, providing ample opportunities for riveting sparring and knowledge sharing. Fostering a highly collaborative and friendly atmosphere, we will give you all the support you need to develop and grow. Moreover, as a valued member of the FNS consortium, you can collaborate with various partners in pursuit of integrating your AI/ML techniques into the various 6G PoCs and demos.\nJob requerements\nBecome part of an expansive ecosystem shaping the development of 6G. You will benefit from training in 5G and beyond networks, AI, and software development. Plus, you will gain exclusive access to (1) a state-of-the-art testbed where theory meets real-world application, and (2) an ecosystem that cultivates entrepreneurial endeavours.\nAre you ready to challenge yourself? We're seeking candidates who have, or are about to receive, a Master-of-Science degree in a relevant computer science discipline and who like to combine theory with practice. Proficiency in English is essential, as you'll collaborate within a diverse, international community. For more details on our admission requirements, please visit https://www.tudelft.nl/onderwijs/opleidingen/phd/admission. We’ll evaluate based on your academic record, interviews, and possibly assignments. While a strong background in the field is crucial, what matters as well is your creative flair, motivation, and above all, your passion for comprehensive research!\nTU Delft (Delft University of Technology)\nDelft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.\nAt TU Delft we embrace diversity as one of our core\nvalues\nand we actively\nengage\nto be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.\nChallenge. Change. Impact!\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact dr qing Wang, via qing.wang@tudelf.nl.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than 1 Nov 2026 via the application button and upload the following documents:\nCV\nMotivational letter\nCopies of your BSc and MSc degrees and transcripts.\nYou can address your application to dr qing Wang.\nApplications will be evaluated as they come in,so please apply as soon as possible.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "Join the Dutch 6G flagship project to help shape the future of communications.\nJob description\nJoin the frontier of innovation in 6G: the future of mobile networks technology! In the Netherlands, a unique alliance of 60 top-notch ICT companies, semiconductor firms, and research institutions has united to spearhead specific aspects of 6G: (1) software antennas, (2) AI-driven network software, and (3) groundbreaking 6G applications. Join us as a PhD student in this prestigious Future Network Services (FNS) flagship project, where research and entrepreneurial pursuits converge.\nHow can 6G enable resource-constrained Physical AI by dynamically distributing and adapting AI workloads across embedded devices, the edge, and the cloud, while jointly orchestrating communication, computation, and sensing under strict latency, reliability, and resource constraints? The project will investigate resource-aware 6G-native distributed AI techniques such as collaborative and split inference, adaptive model partitioning and selection, computation offloading, and cross-layer resource orchestration. A particular focus will be on how 6G can enable Physical AI systems to adapt to changing network, compute, sensor, and energy conditions while maintaining predictable performance.\nYou’ll be joining an internationally diverse and thriving team, providing ample opportunities for riveting sparring and knowledge sharing. Fostering a highly collaborative and friendly atmosphere, we will give you all the support you need to develop and grow. Moreover, as a valued member of the FNS consortium, you can collaborate with various partners in pursuit of integrating your AI/ML techniques into the various 6G PoCs and demos.\nJob requerements\nBecome part of an expansive ecosystem shaping the development of 6G. You will benefit from training in 5G and beyond networks, AI, and software development. Plus, you will gain exclusive access to (1) a state-of-the-art testbed where theory meets real-world application, and (2) an ecosystem that cultivates entrepreneurial endeavours.\nAre you ready to challenge yourself? We're seeking candidates who have, or are about to receive, a Master-of-Science degree in a relevant computer science discipline and who like to combine theory with practice. Proficiency in English is essential, as you'll collaborate within a diverse, international community. For more details on our admission requirements, please visit https://www.tudelft.nl/onderwijs/opleidingen/phd/admission. We’ll evaluate based on your academic record, interviews, and possibly assignments. While a strong background in the field is crucial, what matters as well is your creative flair, motivation, and above all, your passion for comprehensive research!\nTU Delft (Delft University of Technology)\nDelft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.\nAt TU Delft we embrace diversity as one of our core\nvalues\nand we actively\nengage\nto be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.\nChallenge. Change. Impact!\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr Qing Wang, via\nqing.wang@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than 1 Nov 2026 via the application button and upload the following documents:\nCV\nMotivational letter\nCopies of your BSc and MSc degrees and transcripts.\nYou can address your application to Dr Qing Wang.\nApplications will be evaluated as they come in,so please apply as soon as possible.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "Doctoral position in 6G communications technology and distributed artificial intelligence for resource-constrained embedded and edge computing. Focus on split inference, model partitioning, computation offloading, and cross-layer resource orchestration to enable 'Physical AI' on devices under latency and energy constraints. Position part of Netherlands 6G flagship project (60 companies, research institutions) with exclusive testbed access and entrepreneurial development opportunities.",
+    "summary": "A 4-year doctoral position in 6G-native distributed AI, focusing on resource-aware techniques for adapting AI workloads across embedded devices, edge, and cloud infrastructure under strict latency and reliability constraints, within the Dutch FNS flagship 6G consortium.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "No thematic overlap. Position is specialized in telecommunications infrastructure, distributed machine learning systems, and computational resource allocation—core computer science and systems engineering. Researcher's domains (human-centred XR, collaborative immersive systems, immersive learning, spatial cognition, human-computer interaction) focus on human experience, not network architecture or algorithmic optimization. Position does not mention learning outcomes, user experience, collaboration, spatial understanding, or human-centred design."
+      "score": 8,
+      "rationale": "The position centers on network infrastructure, distributed machine learning, workload orchestration, and embedded device optimization for 6G. The researcher's domain is human-centred XR, spatial cognition, collaborative immersive learning, and wayfinding. No thematic overlap exists; the position is pure infrastructure and ML, explicitly outside the researcher's excluded directions."
     },
     "methodological_fit": {
-      "score": 8,
-      "rationale": "Minimal methodological alignment. Position requires strong background in computer science, machine learning, software development, and computational optimization. Researcher's methodological strengths are user studies, experimental design for human evaluation, game engine development, and qualitative/quantitative HCI research. Position's core work is algorithm development, system optimization, and testbed evaluation—engineering-focused, not human-centred research. No overlap in research paradigms or evaluation methods."
+      "score": 18,
+      "rationale": "The posting emphasizes AI/ML techniques (collaborative inference, model partitioning, computation offloading) and resource orchestration in networked systems. The researcher's methods are user studies, experimental design for human behavior, and XR application development. The only superficial connection is 'AI/ML,' but applied to fundamentally different problems (network optimization vs. human learning and spatial transfer). No methodological bridge exists."
     },
     "growth_value": {
-      "score": 3,
-      "rationale": "Does not address researcher's identified capability gaps. Researcher needs growth in statistics (HCI-focused), mixed-effects modelling, physiological sensing, and eye-tracking. Position demands growth in distributed machine learning, systems optimization, and 6G protocols. These are orthogonal domains and would not prepare researcher for HCI or immersive systems research."
+      "score": 14,
+      "rationale": "This role develops skills in distributed AI, edge computing, and network optimization — valuable for ML systems engineers, but orthogonal to human-centred XR research. It does not address capability gaps relevant to the researcher's target identity (e.g., physiological sensing, eye-tracking, statistics for behavioral analysis, understanding of spatial cognition literature)."
     },
     "strategic_value": {
-      "score": 10,
-      "rationale": "Negative strategic value for stated career goals. TU Delft is a world-leading university but this position is in telecommunications and systems engineering, not HCI or immersive technologies. Supervisory team (dr Qing Wang) works on 6G network systems, not human-centred or learning technologies. Flagship project partners are telecom and semiconductor companies, not gaming, XR, or educational technology communities. Career trajectory would diverge entirely from target identity as human-centred XR researcher. No pathway to leverage existing XR or user evaluation expertise."
+      "score": 45,
+      "rationale": "TU Delft is a priority-1 target institution with excellent reputation and strong funding (EU FNS flagship). The consortium provides access to state-of-the-art testbeds and entrepreneurial opportunities. However, the research focus (6G infrastructure and distributed AI systems) is fundamentally misaligned with human-centred XR research. The department (Electrical Engineering, EEMCS) has limited expertise in HCI, immersive systems, or human-centred evaluation."
     },
     "required_skills": [
       "python",
-      "cpp",
       "statistics",
-      "quantitative-research",
-      "academic-writing"
+      "quantitative-research"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
       "python",
-      "academic-writing"
+      "statistics",
+      "quantitative-research"
     ],
     "missing_skills": [
-      "cpp",
-      "distributed-systems-knowledge",
-      "machine-learning-systems"
+      "mixed-effects-modelling",
+      "r"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position requires 'Master-of-Science degree in a relevant computer science discipline' (e.g., computer science, software engineering, systems). Researcher's MSc by Research in Creative Multimedia may not be recognized as 'relevant computer science.' Check TU Delft admission requirements.",
-      "Researcher has 'unity' and 'csharp' skills but position emphasizes Python and C++ for systems-level work. No C++ experience evident.",
-      "English proficiency required; researcher meets this."
+      "Requires Master's degree in computer science or related discipline; researcher has MSc in Creative Multimedia (in progress) — disciplinary boundary depends on program accreditation",
+      "Posting emphasizes 'strong background in the field' (AI, 6G, networks); researcher lacks demonstrated ML or networking background",
+      "Research focuses on 'resource-constrained Physical AI' and 'Physical AI systems' — framing suggests robotics / embodied AI in infrastructure, not human-computer interaction",
+      "Application deadline: 1 November 2026",
+      "Selection based on academic record, interviews, and possibly assignments — interview assessment of motivation/fit would be critical given disciplinary mismatch"
     ],
     "risks": [
-      "Severe domain mismatch. Position is pure systems engineering and distributed ML; researcher background is HCI and game development. Would require substantial foundational study in network systems and algorithmic optimization.",
-      "Position aligns with researcher's stated excluded directions: 'pure-machine-learning-algorithms' and 'embedded-systems'. Distributed intelligence for 6G edge computing is fundamentally algorithm and systems optimization, not human-centred application.",
-      "No meaningful integration of researcher's XR, multiplayer networking, or user evaluation expertise. Supervisor and research community would not value or understand HCI background."
+      "Disciplinary misalignment: creative multimedia vs. computer science infrastructure focus",
+      "Position's core (network optimization, AI workload distribution) is listed in researcher's excluded directions (pure ML algorithms)",
+      "Department specializes in electrical engineering and CS infrastructure, not HCI or human-centred evaluation",
+      "Testbed and PoC focus on network/compute infrastructure, not human factors or spatial/immersive learning",
+      "Pursuing this PhD would cement trajectory away from human-centred XR target identity toward infrastructure and distributed systems"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -201,23 +243,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.96,
+    "confidence": 0.92,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-10-09T13:08:34.999367Z",
-    "analysis_input_hash": "fdfbc0e17da7ad99151422030c6ce2ef8e67137360b01f45403faecb4a8878d2"
+    "analyzed_at": "2026-10-12T15:04:01.517082Z",
+    "analysis_input_hash": "e50bb24832c060804c471349bbef6ce1610f889ae9e379f7af2304a2870c6ef7"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 6,
+    "fit_overall": 18,
     "urgency": "high",
-    "days_to_deadline": 21,
+    "days_to_deadline": 20,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
