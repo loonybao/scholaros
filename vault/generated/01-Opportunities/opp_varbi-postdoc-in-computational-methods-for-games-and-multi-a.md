@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-computational-methods-for-games-and-multi-a
 type: opportunity
 title: "Postdoc in Computational Methods for Games and Multi-Agent Decision Making"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-10-15
+deadline: 2026-11-05
 status: open
 eligibility_gate: uncertain
 fit_overall: 12
-urgency: urgent
+urgency: medium
 needs_review: true
 ---
 
 # Postdoc in Computational Methods for Games and Multi-Agent Decision Making
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-10-15
+**Deadline:** 2026-11-05
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 22)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -111,7 +111,7 @@ Giuseppe Belgioioso, giubel@kth.se
 Published
 17.Sep.2026
 Last application date
-15.Oct.2026
+05.Nov.2026
 Login and apply
 Share links
 Return to job vacancies

@@ -3,18 +3,18 @@ id: opp_aalto-postdoctoral-researcher-in-photomemristor-arrays-for-o
 type: opportunity
 title: "Postdoctoral Researcher in Photomemristor Arrays for Optogenetic-Neuromorphic Interfaces"
 organisation: "Aalto University"
-deadline: 2026-10-15
+deadline: 2026-10-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 4
-urgency: urgent
+fit_overall: 5
+urgency: high
 needs_review: true
 ---
 
 # Postdoctoral Researcher in Photomemristor Arrays for Optogenetic-Neuromorphic Interfaces
 
 **Organisation:** [[org_aalto_university]] (Aalto University)
-**Deadline:** 2026-10-15 (12:00 UTC)
+**Deadline:** 2026-10-31 (12:00 UTC)
 **Location:** Espoo, Finland
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 17)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -55,7 +55,7 @@ Please submit the following as a single PDF, in English, through our recruitment
 2.    CV, including a list of publications
 3.    Degree certificates and academic transcripts
 4.    Contact details for at least two referees (or letters of recommendation, if available)
-Deadline: 15 October 2026
+Deadline: 31 October 2026
 . Applications will be reviewed on a rolling basis, and suitable candidates may be invited to interview before the deadline. Aalto University reserves the right, for justified reasons, to leave the position open, extend or reopen the application period, or consider candidates who apply outside the stated window.
 For additional information, please contact Prof. Sebastiaan van Dijken (
 sebastiaan.van.dijken@aalto.fi
@@ -81,26 +81,28 @@ here.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-Postdoctoral position in nanomagnetism and device physics focused on photomemristor arrays for bio-hybrid neural interfaces. Core work involves materials science, nanofabrication, thin-film characterization, and integration into closed-loop neuromorphic systems.
+Postdoctoral position in the Nanomagnetism and Spintronics group at Aalto, focusing on photomemristor arrays for optogenetic-neuromorphic interfaces—designing and fabricating devices for bio-machine hybrid systems.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 0 |
-| Growth value | 0 |
-| Strategic value | 15 |
-| **Overall** | **4** |
+| Thematic fit | 3 |
+| Methodological fit | 5 |
+| Growth value | 2 |
+| Strategic value | 12 |
+| **Overall** | **5** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** physics, materials-science, nanofabrication, thin-film-characterization, device-engineering
+**Missing skills:** materials-science, nanofabrication, optoelectronics, neuromorphic-computing, thin-film-deposition
 
 **Risks:**
-- Domain mismatch is fundamental. This is pure materials and device physics, excluded per target constraints.
-- Accepting this role would establish postdoctoral credentials outside HCI/XR, making transition to target identity significantly harder.
-- No pathway to collaborative immersive systems or human-centred research within this group structure.
+- Thematic misalignment: neuromorphic hardware and bioelectronics research is unrelated to human-centred immersive systems and collaboration design.
+- No pathway to HCI PhD: this postdoc would not prepare the researcher for doctoral positions in design-focused XR/HCI groups.
+- Supervision mismatch: Applied Physics advisors do not work in human-computer interaction or user-centred design.
+- Skill transfer poor: nanofabrication and device physics are unlikely to be relevant to future immersive systems research.
+- Competitive risk: researcher would compete for a physics postdoc against candidates with stronger materials science credentials.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-postdoctoral-researcher-in-photomemristor-arrays-for-o.md` and link [[opp_aalto-postdoctoral-researcher-in-photomemristor-arrays-for-o]]._

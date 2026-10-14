@@ -2,7 +2,7 @@
 source: aalto
 native_id: doctoral-and-postdoctoral-positions-in-hybrid-magnonics-photonics
 url: https://www.aalto.fi/en/open-positions/doctoral-and-postdoctoral-positions-in-hybrid-magnonics-photonics
-retrieved_at: 2026-09-23T11:01:49.634409+00:00
+retrieved_at: 2026-10-14T11:25:42.306725+00:00
 ---
 
 We are looking for highly motivated
@@ -77,7 +77,7 @@ Letter of motivation, indicating the position and topic(s) you are applying for
 CV including list of publications
 Degree certificates and academic transcripts
 Contact details of at least two referees (or letters of recommendation, if available)
-The deadline for applications 23.10.2026
+The deadline for applications 31.10.2026
 . Applications will be reviewed on a rolling basis, and suitable candidates may be invited to an interview before the deadline. Aalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.
 For additional information, kindly contact Dr. Lukáš Flajšman (
 lukas.flajsman@aalto.fi

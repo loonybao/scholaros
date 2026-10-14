@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-03
 status: open
 eligibility_gate: uncertain
-fit_overall: 5
+fit_overall: 7
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 21)
+Gate: **uncertain** (days to deadline: 20)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -33,8 +33,8 @@ Gate: **uncertain** (days to deadline: 21)
 Deploy detailed models of coupled ocean / sea ice processes, probe their turbulent interactions, compare with observations, and design parameterizations for global climate models.
 Job description
 The past decades have been associated with substantial losses of sea ice over both hemispheres. Existing climate models are currently unable to accurately forecast these changes, in part due to their imperfect representation of ocean and sea ice interactions at sub-grid scales.
-This project aims to improve our physical understanding of these fine-scale processes, including the melting and breakage of sea ice, using a framework consisting of an ocean Large Eddy Simulation (LES) and a Discrete Element Model (DEM) of sea ice. Results from these simulations will be validated against a combination of in-situ and remote sensing data from both the Arctic and Antarctic sea ice regions. Based on this new understanding, the candidate will develop parameterizations that can emulate these physics for use in more coarsely-resolved climate models.
-This fully-funded position is part of the European Research Council (ERC) 'ICE-FLOE' project, and will involve collaborations with other team members at TU Delft and internationally. There may also be the opportunity to assist with a research cruise in Antarctica.
+This project aims to improve our physical understanding of these fine-scale processes, including the melting and breakage of sea ice, using a framework consisting of an ocean Large Eddy Simulation (LES) and a Discrete Element Model (DEM) of sea ice. Results from these simulations will be validated against a combination of in-situ and remote sensing data from both the Arctic and Antarctic sea ice regions. Based on this new understanding, you will develop parameterizations that can emulate these physics for use in more coarsely-resolved climate models.
+You will join the Geoscience & Remote Sensing department (GRS) working closely with fellow PhD researchers, postdocs, and professors in an open and collaborative environment, where you will receive full support and training to grow in your career. This fully-funded position is part of the European Research Council (ERC) 'ICE-FLOE' project, and will involve collaborations with other team members at TU Delft and internationally. There may also be the opportunity to assist with a research cruise in Antarctica.
 Job requirements
 Master's degree in Earth sciences, oceanography, physics, applied mathematics, or engineering.
 Demonstrated research experience in climate, oceanography, the cryosphere, or atmospheric science.
@@ -88,27 +88,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
 
-Four-year funded PhD in physical oceanography and cryosphere science, using large-eddy simulation (LES) and discrete element modelling (DEM) to study coupled ocean-sea ice processes, validate models against observations, and develop climate model parameterizations.
+PhD position at TU Delft's Geoscience & Remote Sensing group, developing coupled ocean-sea ice models using Large Eddy Simulation and Discrete Element Modeling, validated against in-situ and remote sensing data to improve climate model parameterizations.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 2 |
 | Methodological fit | 8 |
 | Growth value | 3 |
-| Strategic value | 5 |
-| **Overall** | **5** |
+| Strategic value | 20 |
+| **Overall** | **7** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** oceanography, cryosphere-science, large-eddy-simulation, discrete-element-modelling, julia
+**Missing skills:** large-eddy-simulation, discrete-element-modeling, climate-science, geophysics, julia-programming, remote-sensing
 
 **Risks:**
-- Fundamental discipline mismatch: geophysics and climate science vs. human-computer interaction and educational technology.
-- No demonstrated research background in oceanography, climate science, or computational fluid dynamics.
-- LES and DEM are specialized computational methods requiring substantial ramp-up; no evidence of this expertise in profile.
-- Four-year commitment to a domain outside the researcher's target excludes concurrent development of immersive learning research.
+- Thematic drift: climate science research is incompatible with human-centred XR/HCI identity; difficult to pivot to doctoral HCI research afterward.
+- Skill mismatch: no background in geophysics, climate modeling, or scientific computing (Julia/Python for numerical methods).
+- Supervision and culture misalignment: Geoscience & Remote Sensing group focuses on physical processes, not human interaction or design.
+- Career disadvantage: PhD in climate science would not position researcher competitively for HCI postdoc or faculty positions.
+- Competitive risk: researcher would be weaker than candidates from physics or engineering backgrounds in geophysical modeling.
+- Funding path: climate science funding streams do not overlap with immersive systems and HCI; limited future grant opportunities in target domain.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-ocean-sea-ice-interactions.md` and link [[opp_tudelft-phd-position-in-ocean-sea-ice-interactions]]._

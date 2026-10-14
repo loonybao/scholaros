@@ -3,7 +3,7 @@ id: opp_aalto-doctoral-and-postdoctoral-positions-in-hybrid-magnonic
 type: opportunity
 title: "Doctoral and postdoctoral positions in hybrid magnonics-photonics"
 organisation: "Aalto University"
-deadline: 2026-10-23
+deadline: 2026-10-31
 status: open
 eligibility_gate: uncertain
 fit_overall: 10
@@ -14,7 +14,7 @@ needs_review: true
 # Doctoral and postdoctoral positions in hybrid magnonics-photonics
 
 **Organisation:** [[org_aalto_university]] (Aalto University)
-**Deadline:** 2026-10-23 (12:00 UTC)
+**Deadline:** 2026-10-31 (12:00 UTC)
 **Location:** Espoo, Finland
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 10)
+Gate: **uncertain** (days to deadline: 17)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -103,7 +103,7 @@ Letter of motivation, indicating the position and topic(s) you are applying for
 CV including list of publications
 Degree certificates and academic transcripts
 Contact details of at least two referees (or letters of recommendation, if available)
-The deadline for applications 23.10.2026
+The deadline for applications 31.10.2026
 . Applications will be reviewed on a rolling basis, and suitable candidates may be invited to an interview before the deadline. Aalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.
 For additional information, kindly contact Dr. Lukáš Flajšman (
 lukas.flajsman@aalto.fi

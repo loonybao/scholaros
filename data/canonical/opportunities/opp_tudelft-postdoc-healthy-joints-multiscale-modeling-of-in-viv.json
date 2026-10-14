@@ -1,0 +1,179 @@
+{
+  "id": "opp_tudelft-postdoc-healthy-joints-multiscale-modeling-of-in-viv",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-14T11:28:37.200057Z",
+  "updated_at": "2026-10-14T12:00:33.059171Z",
+  "change_history": [
+    {
+      "ts": "2026-10-14T11:28:37.200200Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-14T11:44:00.184964Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-14T12:00:33.059171Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Healthy Joints Multiscale Modeling of in Vivo Knee Loading",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1374806757",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Healthy-Joints-Multiscale-Modeling-of-in-Vivo-Knee-Loading-2628-CD/1374806757/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Healthy-Joints-Multiscale-Modeling-of-in-Vivo-Knee-Loading-2628-CD/1374806757/",
+    "evidence_ids": [
+      "tudelft/1374806757"
+    ],
+    "retrieved_at": "2026-10-14T11:28:37.199906Z",
+    "raw_snapshot_hash": "418068d3689df9af509358a51c34a38290cbcbf5b832b569e8ae8e420de39f00",
+    "extracted_content_hash": "ccdf8fbffdb019d43c4029ff2677a391ccdaa700b53abfd9c6d9a451c972885b",
+    "deadline": "2026-10-31",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Are you looking to make a positive impact on people’s health and quality of life? Do you have the skills and desire to shape the future of multiscale musculoskeletal modeling for human health?\nJob description\nHealthy joints are essential for mobility, independence and quality of life. Yet osteoarthritis (OA) is rapidly becoming one of the largest chronic health challenges in the Netherlands and worldwide. The Convergence Health & Technology ‘Healthy Joints’ Flagship brings together a consortium from TU Delft, Erasmus MC, and Erasmus University Rotterdam to better understand OA and its progression. We are a large team of clinicians, engineers, data scientists, imaging specialists and more, and we are working together to improve prevention, early diagnosis, and personalized treatment for individuals with OA. Our multi-scale approach investigates joint health and disease at the cellular-, tissue-, joint-, whole person-, and societal-levels.\nThe Biomechanical engineering department at TU Delft is seeking a talented and motivated part-time postdoctoral researcher to join our team in a fixed-term position for the final year of the Healthy Joints project. You would be joining the work package focused on “Multiscale modeling pathomechanics of joint and tissue load In vivo”. In this role, you would support the team in continuing to build and refine existing multiscale musculoskeletal models and apply these models to evaluate cartilage stress in individuals with OA. This will include tasks like developing or refining algorithms, processing and analyzing biomechanics and imaging data, supporting translation and dissemination activities, and supervising masters and PhD students. Your primary focus would be to work strategically to ensure the sustainability of this research line beyond the Healthy Joints project, working together with the team to write proposals and apply for funding.\nJob requirements\nWe are looking for an ambitious, independent, and collaborative postdoctoral researcher with a strong background in multiscale musculoskeletal modeling, who is motivated to build an independent research line that extends the work of Healthy Joints.\nRequired qualifications\nA PhD in Biomechanical Engineering, Biomedical Engineering, Computer Vision, Robotics, or a related discipline\nA strong curiosity for human movement analysis and multiscale musculoskeletal modeling\nExperience with optical motion capture data collection, processing, modeling, and analysis, preferably with clinical/experimental gait data in musculoskeletal populations\nAdvanced skills in algorithm development, data analysis, and computational modeling (Python, OpenSim)\nExcellent project management and communication skills to manage a multi-site project across academic and industry partners\nWorks independently yet thrives in a collaborative, multidisciplinary team\nFluent in Dutch and English\nPersuasive scientific writing\nExcellent track record in acquiring grants within an academic or industry setting\nDemonstrated track record in knowledge dissemination (publications in top tier scientific journals, presentations at international conferences) in biomechanics, osteoarthritis, or a related field\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 1 year. Temporarily with a posibility for extension.\nA job of 8-14 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this position please contact Ajay Seth (\na.seth@tudelft.nl\n).\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n31 October 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Ajay Seth.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Part-time postdoctoral position at TU Delft supporting multiscale musculoskeletal modeling and in vivo knee loading analysis as part of the 'Healthy Joints' consortium, with focus on cartilage stress evaluation in osteoarthritis, algorithm development, and research sustainability.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Biomedical engineering and musculoskeletal biomechanics with no human-computer interaction, immersive systems, spatial learning, or collaboration design. Position is fundamentally about clinical/biomechanical modeling, not human experience in digital or immersive environments."
+    },
+    "methodological_fit": {
+      "score": 12,
+      "rationale": "Position involves algorithm development, data analysis, computational modeling (Python, OpenSim), and motion capture data processing—methodologies with partial transferability to interactive systems research. However, clinical gait analysis and biomechanical modeling differ markedly from immersive learning evaluation and user-centred design methodology."
+    },
+    "growth_value": {
+      "score": 8,
+      "rationale": "Would strengthen Python skills, data analysis, and computational modeling relevant to quantitative research generally. However, does not advance spatial cognition research, collaborative interaction design, immersive learning, or human-centred XR—the specific capability gaps required for HCI PhD candidacy."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "TU Delft is priority-1 institution and Netherlands is priority country. Multi-institutional consortium (Erasmus MC, Erasmus University Rotterdam) indicates strong network and interdisciplinary reach. Part-time structure may offer flexibility. However, Biomechanical Engineering is not HCI-aligned; no clear pathway to immersive systems research or design-focused supervision."
+    },
+    "required_skills": [
+      "python",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "opensim",
+      "motion-capture-analysis",
+      "musculoskeletal-modeling",
+      "clinical-biomechanics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires fluency in Dutch and English; researcher's language profile does not specify Dutch proficiency—this may be a hard constraint.",
+      "Position emphasizes 'persuasive scientific writing' and grant acquisition; researcher's publication record (1 journal article, 1 in-progress review) suggests developing, not established, publication track record.",
+      "Role requires demonstrating 'excellent track record in acquiring grants'—researcher is pre-PhD and has no independent grant portfolio."
+    ],
+    "risks": [
+      "Language barrier: Dutch fluency requirement is likely non-negotiable; researcher's background does not confirm this capability.",
+      "Thematic mismatch: musculoskeletal biomechanics and clinical health engineering do not align with human-centred XR or immersive learning research directions.",
+      "Narrow career pathway: biomechanics postdoc experience would not strengthen candidacy for HCI-focused PhD programs or positions.",
+      "Part-time structure: 8–14 hours/week may limit research depth and integration into the research group.",
+      "Supervision fit: Biomechanical Engineering advisors lack expertise in immersive systems, HCI, or collaborative interaction design.",
+      "Competitive disadvantage: researcher's background (XR application design) does not match the biomechanics researcher profile the consortium seeks."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-14T11:44:00.184523Z",
+    "analysis_input_hash": "fdd01ed3736ac6165b0db9f8413b89f900b0bb74e5fed6d923efb8115dec01a2"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 11,
+    "urgency": "high",
+    "days_to_deadline": 17,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

@@ -2,7 +2,7 @@
 source: aalto
 native_id: postdoctoral-researcher-in-photomemristor-arrays-for-optogenetic-neuromorphic-interfaces
 url: https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-photomemristor-arrays-for-optogenetic-neuromorphic-interfaces
-retrieved_at: 2026-09-22T11:10:53.580670+00:00
+retrieved_at: 2026-10-14T11:25:53.800826+00:00
 ---
 
 Aalto University, Department of Applied Physics, Nanomagnetism and Spintronics Group; Location: Espoo (Otaniemi campus), Finland; Application deadline: 15 October 2026
@@ -29,7 +29,7 @@ Please submit the following as a single PDF, in English, through our recruitment
 2.    CV, including a list of publications
 3.    Degree certificates and academic transcripts
 4.    Contact details for at least two referees (or letters of recommendation, if available)
-Deadline: 15 October 2026
+Deadline: 31 October 2026
 . Applications will be reviewed on a rolling basis, and suitable candidates may be invited to interview before the deadline. Aalto University reserves the right, for justified reasons, to leave the position open, extend or reopen the application period, or consider candidates who apply outside the stated window.
 For additional information, please contact Prof. Sebastiaan van Dijken (
 sebastiaan.van.dijken@aalto.fi
