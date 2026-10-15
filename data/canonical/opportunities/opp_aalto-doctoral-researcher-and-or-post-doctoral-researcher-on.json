@@ -1,0 +1,173 @@
+{
+  "id": "opp_aalto-doctoral-researcher-and-or-post-doctoral-researcher-on",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-15T11:03:02.518538Z",
+  "updated_at": "2026-10-15T11:39:46.190140Z",
+  "change_history": [
+    {
+      "ts": "2026-10-15T11:03:02.518706Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-15T11:27:02.575350Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-15T11:39:46.190140Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral researcher and/or Post-doctoral researcher on compound semiconductor energy converters",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-science",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-andor-post-doctoral-researcher-on-compound-semiconductor-energy-converters-0",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-andor-post-doctoral-researcher-on-compound-semiconductor-energy-converters-0",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-researcher-and-or-Post-doctoral-researcher-on-compound-semiconductor-energy-converters_R48374-1/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-andor-post-doctoral-researcher-on-compound-semiconductor-energy-converters-0"
+    ],
+    "retrieved_at": "2026-10-15T11:03:02.518310Z",
+    "raw_snapshot_hash": "9a7d835856cea970ebc16ba4dc3be3b43d2084c39259a349469baae7f3094e13",
+    "extracted_content_hash": "da3711a6645f45bcaa81f343a103175e583c834cab00bcda373fd140c6213598",
+    "deadline": "2026-11-30",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-10-15",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 120 nationalities, 14 000 students, 400 professors and close to 5000 other faculty and staff working on our dynamic campus in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community's diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe Engineered NanoSystems (ENS researcher group\n) at Aalto University School of Science is looking for\nDoctoral and/or Post-doctoral researchers on compound semiconductor energy converters.\nWe are looking for new highly motivated colleagues to work on developing electroluminescent and thermophotonic energy converters based on III-V compound semiconductors and thin-film devices. Our work spans the full range of topics from epitaxial growth and material development to device design, characterization and modeling, fully integrating activities joining a team of theoreticians and experimentalists.\nAbout the Engineered NanoSystems (ENS) research group\nThe work at ENS combines the research of optical thermodynamics with semiconductor energy conversion, forming one of the leading clusters for the research of termophotonics. The group aims to demonstrate and develop optical heat pumps and energy harvesting approaches that are based on electroluminescence and related new device architectures. While presently based at the university and providing a cutting edge clean room environment for academic research, we also have a strong ambition towards enabling broader use of the developed technologies outside the university environment.\nWho we are looking for\nWe are particularly looking for persons with a background, expertise and interest in III-V semiconductor device fabrication, epitaxy, optical packaging and theory e.g. in the form of GaAs solar cells and LEDs. Depending on your background, you will have the possibility to contribute to various aspects of our work, aiming to demonstrate the next break-throughs in solid state optical cooling [1].\nThe ideal candidates provide, depending on their respective career stage:\n•       Good knowledge of the optics and physics of compound semiconductors (emphasis on GaAs based materials, MOCVD, solar cells, infrared lasers and/or LEDs)\n•       Experience/interest on III-V device clean room processing, tools and process development\n•       Experience/interest in materials and characterization techniques and optical encapsulation\n•       Strong analytical skills combined with team working skills, sociable character and a good command of English\n•       Resourcefulness and aptitude for independent and open minded thinking\n•       Earlier studies on a suitable field\nWe are primarily looking for post-doctoral candidates but may also consider doctoral candidate applicants having an excellent match with our specific needs. Doctoral candidates also must fulfill the admission requirements for the Aalto Doctoral Programme in Science. More information on the general requirements and the Doctoral Programme in Science:\nAalto Doctoral Programme in Science | Aalto University\n. Please check the student information, admission criteria and pay attention to the required (English) language proficiency. Typically, the total duration of Ph.D. studies is four (4) years.\nWhat we offer\nYou will be working in a research team of ~10-15 persons working on closely connected topics from theory to device fabrication on projects funded by the EIC, ERC and national foundations. The research takes place at Aalto University and Micronova clean room facilities, located at Espoo, Finland. Micronova is the largest clean room facility in the nordic countries and Finland offers a clean, safe and naturally beautiful environment having several world's best country/city nominations over the past few years, as well as four distinct seasons, outstanding social security system and a high standard of living.\nThe positions are scheduled up to 3-5 years, but following the standard Aalto´s practice the Doctoral researcher position contract will be made initially for two years, then extended after a successful mid-term progress review (typically in total 2+2 years).\nThe salary levels follow the salary system of Finnish universities, typically setting the salary of a post-doctoral researcher to 4403,16 €/month. The starting salary of a doctoral researcher is approximately 3142,65 €/month, and it will increase with achievements, such as scientific publications.\nThe positions are full-time, and the annual workload for Aalto University's research and teaching staff is 1,612 hours. The employment contract includes occupational health services provided by Aalto University.\nWe strive to combine the best aspects of remote and in-person work, and we offer flexible working hours. Your workstation is located in the renewed and vibrant Otaniemi campus area, which has diverse services and good transport connections. We operate in a hybrid model, with the primary workplace located at the Otaniemi campus in Espoo. The work must be done in Finland.\nJoin us!\nIf you are interested, kindly submit the following documents (only in PDF-format, written in English) at latest 30.11.2026 through our recruitment system Workday (\"Apply now!\"):\n•       Motivation letter,\n•       CV + list of publications\n•       Your degree or transcript of records and a copy of your most recent degree, if you are about to graduate with a master's degree.\n•       Any other documents such as recommendations that explain your suitability and support your application\nWe wish to fill the positions as soon as possible, and may start interviewing candidates before the end of the call.\nIf you have further enquiries on the tasks, positions or the ENS team, please contact by email at jani(dot)oksanen(at)aalto.fi.\nFor general questions about the recruiting process, you may contact Dilan Kucukaslan, HR Advisor, hr-nbe(at)aalto.fi.\nPlease note: Aalto University's employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions).\nRead more about working at Aalto: /\nhttps://www.aalto.fi/en/careers-at-aalto\n/\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi/\nFurther information:\nAalto university:\nwww.aalto.fi\nMicronova clean room facilities:\nhttps://www.aalto.fi/en/otanano/micronova\nBackground papers\n[1]\nhttps://www.nature.com/articles/s41566-020-0600-6\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report 2024\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Aalto University is seeking doctoral and postdoctoral researchers to develop electroluminescent and thermophotonic energy converters based on III-V compound semiconductors, spanning epitaxial growth, device design, characterization, and modeling.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "Position is focused on semiconductor materials science, optoelectronics engineering, and energy conversion physics. No connection to human-centred research, immersive systems, spatial cognition, learning outcomes, or user evaluation. The work is device-centric and material-centric, not human-centric."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Experimental methods are present (characterization, modeling), but they are tailored to solid-state physics: MOCVD, epitaxy, optical packaging, device fabrication, and thermodynamic modeling. No user research, qualitative evaluation, interaction studies, or design-science methodology. Candidate's user-studies and experimental-design skills would be unused."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "This work would develop deep expertise in semiconductor physics and energy conversion—neither of which is on the target capability roadmap. No advancement toward spatial-cognition research, immersive-learning evaluation, or human-computer interaction methodology."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "Aalto is priority_1 (Finland, Europe). Funding is secure (EIC, ERC, national foundations). Research group is established and well-resourced (Micronova cleanroom access). However, the research direction offers zero strategic value for reaching target identity or joining HCI/immersive-systems communities. Publications here would not be readable or relevant to target collaborators."
+    },
+    "required_skills": [
+      "materials-science",
+      "semiconductor-device-physics",
+      "epitaxy"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "user-studies",
+      "virtual-reality",
+      "multiplayer-networking",
+      "unity",
+      "csharp",
+      "qualitative-research"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting seeks 'background, expertise and interest in III-V semiconductor device fabrication, epitaxy, optical packaging and theory.' Candidate has no documented experience in any of these. Master's is in XR application development, not materials science.",
+      "Posting notes 'Doctoral candidates also must fulfill the admission requirements for the Aalto Doctoral Programme in Science.' Candidate may face barriers if background in creative multimedia is not viewed as sufficient preparation for physics doctoral admission."
+    ],
+    "risks": [
+      "Research domain is fundamentally incompatible with stated target identity; this would be a career reset, not a step forward.",
+      "Lack of prior materials-science or epitaxy experience means a steep learning curve with no scaffolding from existing skills.",
+      "Three years of energy-converter research would produce publications and expertise that have minimal portability to HCI, XR, or immersive-learning roles."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.93,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-15T11:27:02.574768Z",
+    "analysis_input_hash": "296493c8dc833533118ac7c778db7af036d45f05a55dd9dc4ef41668c4ae3b61"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 8,
+    "urgency": "low",
+    "days_to_deadline": 46,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
