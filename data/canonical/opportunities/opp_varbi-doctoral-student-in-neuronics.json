@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-08-27T17:40:21.711633Z",
-  "updated_at": "2026-10-15T11:39:46.726540Z",
+  "updated_at": "2026-10-17T10:45:12.944919Z",
   "change_history": [
     {
       "ts": "2026-08-27T17:40:21.711764Z",
@@ -497,6 +497,18 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-10-17T10:45:12.944919Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_gate",
+        "derived.eligibility_reasons",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -596,16 +608,14 @@
     "analysis_input_hash": "c00a967e601b71024e6147a261e61eba6c2923cf99141b0e79643f3d6d71ab01"
   },
   "derived": {
-    "eligibility_gate": "uncertain",
+    "eligibility_gate": "fail",
     "eligibility_reasons": [
-      "funding/salary not confirmed on the posting",
-      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
-      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+      "application deadline has passed"
     ],
     "fit_overall": 12,
-    "urgency": "urgent",
-    "days_to_deadline": 0,
-    "needs_review": true,
+    "urgency": "none",
+    "days_to_deadline": -2,
+    "needs_review": false,
     "timing_assessment": "timing_unknown"
   },
   "manual": {

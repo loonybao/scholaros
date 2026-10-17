@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-10-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 10
+fit_overall: 5
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 16)
+Gate: **uncertain** (days to deadline: 14)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -132,25 +132,24 @@ here.
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-This position develops hybrid quantum devices coupling superconducting qubits, magnons, and photoluminescent spin ions through experimental physics work in magnonics, quantum technology, and materials science. The role requires advanced instrumentation expertise (film deposition, spectroscopy, cryogenic systems) and is based at Aalto University's Nanomagnetism and Spintronics group.
+Doctoral and postdoctoral positions in experimental quantum magnonics, focusing on superconducting qubits, magnon-photon coupling, and cryogenic optical systems at Aalto's Nanomagnetism and Spintronics group. Core work is materials science, device fabrication, and quantum characterization.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 8 |
+| Methodological fit | 3 |
 | Growth value | 2 |
-| Strategic value | 35 |
-| **Overall** | **10** |
+| Strategic value | 15 |
+| **Overall** | **5** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** magnonics, superconducting-circuits, materials-science, film-deposition, spectroscopy, cryogenic-systems, quantum-technology
+**Missing skills:** physiological-sensing, mixed-effects-modelling, statistics
 
 **Risks:**
-- Fundamental domain mismatch: quantum physics ≠ human-computer interaction. Two years in this position would not advance the researcher toward their target identity.
-- Required background (physics MSc or PhD) may make the researcher uncompetitive or ineligible.
-- No existing HCI, XR, learning science, or social science collaborators mentioned in the posting. Isolation from target research community.
-- Skill development pathway is physics instrumentation, not human-centred research methods.
+- Severe domain mismatch: accepting this role would derail the researcher's stated target identity and require 4-year commitment to unrelated physics domain.
+- No HCI, XR, or human-centered research presence in the group; no publication synergy with researcher's first-author journal work.
+- Postdoctoral position listed; researcher is MSc-level; only eligible if pursuing doctoral researcher route, but doctoral pathway is in wrong field.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-and-postdoctoral-positions-in-hybrid-magnonic.md` and link [[opp_aalto-doctoral-and-postdoctoral-positions-in-hybrid-magnonic]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-17T11:26:52.305756Z",
-  "updated_at": "2026-10-15T11:39:46.773548Z",
+  "updated_at": "2026-10-17T10:45:12.974273Z",
   "change_history": [
     {
       "ts": "2026-09-17T11:26:52.305832Z",
@@ -286,6 +286,34 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-10-17T10:45:12.366405Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-17T10:45:12.974273Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -323,54 +351,54 @@
     "description_text": "Postdoc in Computational Methods for Games and Multi-Agent Decision Making\nLogin and apply\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nGame theory is rapidly gaining traction in several engineering applications as the natural framework for multi-agent decision making. Yet, unlike optimization, game theory has no mature, general-purpose solvers. Computing an equilibrium of a multi-agent noncooperative game amounts to solving a large-scale generalized equation, and available solutions rely on restrictive assumptions, offer no control over which equilibrium is returned, and scale poorly with the size of the problem. This position addresses the computational side of this gap.\nWe are seeking a highly motivated postdoctoral researcher with a solid background in one or more of the following areas: game theory, optimization algorithms, and numerical methods. The successful candidate will develop efficient algorithms and computational tools for equilibrium computation in multi-agent games. The work will focus on:\nScalable algorithms for various equilibrium problems in multi-agent games;\nOpen-source computational tools and benchmarks;\nApplication of game-theoretic solvers to multi-agent autonomous systems;\nAbout WASP:\nThe position is affiliated with the Wallenberg AI, Autonomous Systems and Software Program (WASP), Sweden's largest individual research program ever. Read more\nhere.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nA strong foundation in mathematical tools relevant for the project.\nA demonstrated record of research achievements and publications in high-impact venues in automatic control, optimization, or related fields.\nProficiency in scientific programming (e.g., Python, Julia, or C++) and experience implementing optimization algorithms.\nProven ability to work both independently and in interdisciplinary teams.\nExcellent written and verbal communication skills.\nAwareness of diversity and equal opportunity issues.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExpertise in operator theory, variational inequalities, or operator-splitting methods.\nContributions to optimization software.\nTeaching abilities and experience mentoring master students.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge. (max 2 pages)\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nMotivation letter (1 page max).\nResearch statement (1 pages max, excluding references).\nContact of two academic or professional references.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3164\nContact\nGiuseppe Belgioioso, giubel@kth.se\nPublished\n17.Sep.2026\nLast application date\n05.Nov.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "Postdoctoral position at KTH Royal Institute of Technology (WASP program) focusing on algorithmic and computational methods for equilibrium computation in multi-agent games. Research develops scalable algorithms, open-source tools, and applications to autonomous systems; emphasises game theory, optimisation, and numerical methods.",
+    "summary": "A postdoctoral position at KTH focused on developing scalable algorithms and computational tools for equilibrium computation in multi-agent game theory, with applications to autonomous systems. The role emphasizes mathematical foundations, optimization algorithms, and scientific programming rather than human-centred research or immersive systems.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 15,
-      "rationale": "Thematic mismatch. Position core is pure game theory, optimisation algorithms, and computational solver development—applied to autonomous systems and control. No connection to human-centred systems, immersive experiences, learning, collaboration, or spatial understanding. 'Games' refers to game-theoretic models, not gameful design or interactive media. Candidate's game research is gamification and engagement, orthogonal to this domain."
+      "score": 5,
+      "rationale": "The position is centred on game-theoretic algorithms and multi-agent decision-making in autonomous systems. While the researcher has experience with multiplayer collaboration mechanics, the posting shows no engagement with human factors, learning outcomes, spatial cognition, or immersive interaction design. The thematic distance is substantial."
     },
     "methodological_fit": {
-      "score": 12,
-      "rationale": "Severe methodological mismatch. Position requires expert-level proficiency in game theory, operator theory, variational inequalities, optimisation algorithms, and C++/Julia software development. Candidate has no background in formal game theory, control systems, operator-splitting methods, or systems-level algorithm design. The 'multi-agent' framing in position is computational agents solving equilibria, not human collaboration or social interaction."
+      "score": 15,
+      "rationale": "The researcher has intermediate quantitative research and experimental design skills, but the position requires deep expertise in operator theory, variational inequalities, and operator-splitting methods—mathematical tools for algorithm development. The posting emphasizes 'mathematical tools', 'optimization algorithms', and 'numerical methods' as core requirements. The researcher's strength lies in user-centred empirical evaluation and XR application development, not computational mathematics or algorithm research."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "Minimal alignment with target capabilities. Learning optimisation algorithms and game theory would not advance human-centred immersive systems research. Position emphasises pure mathematical/algorithmic development with no HCI, design, or empirical user evaluation component. Does not close relevant capability gaps for target identity."
+      "score": 20,
+      "rationale": "The position would develop scientific programming skills (Python, C++) and deepen quantitative/mathematical foundations, which could support future hybrid work. However, it offers negligible closure on the researcher's core capability gaps: advanced statistical modelling, eye-tracking and physiological sensing integration, or mixed-methods evaluation in immersive contexts. The domain (game-theoretic equilibrium computation) is orthogonal to spatial cognition and human-centred immersive research."
     },
     "strategic_value": {
-      "score": 10,
-      "rationale": "Poor strategic fit. KTH WASP is prestigious and well-funded, but in automatic control and AI systems, not HCI/XR. Position would establish credentials in computational game theory, but entirely separate from human-centred XR research trajectory. No pathway from multi-agent algorithm design back to immersive systems or spatial learning research."
+      "score": 35,
+      "rationale": "KTH is a strong institution with WASP funding backing (stable, prestigious program). Stockholm aligns with geographic preferences. However, the group's focus on computational methods and autonomous systems does not align with the researcher's target identity as a human-centred XR/HCI researcher. The postdoc would be a career detour away from the target trajectory toward doctoral or project positions in collaborative immersive systems and spatial learning."
     },
     "required_skills": [
+      "game-theory",
+      "optimization-algorithms",
+      "numerical-methods",
       "python",
-      "cpp"
+      "cpp",
+      "academic-writing"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "python"
+      "python",
+      "academic-writing"
     ],
     "missing_skills": [
       "game-theory",
       "optimization-algorithms",
-      "operator-theory",
-      "variational-inequalities",
-      "operator-splitting-methods",
-      "cpp",
-      "julia",
-      "scientific-programming"
+      "numerical-methods",
+      "cpp"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires PhD degree in Automatic Control, Optimization, or related mathematical field; candidate has MSc by Research in Creative Multimedia",
-      "Posting strongly emphasises mathematical foundations (operator theory, variational methods); candidate lacks formal training",
-      "Preferred: PhD within last 3 years; candidate must complete MSc and PhD first"
+      "Position requires a completed PhD; researcher currently holds MSc by Research (in progress). Eligibility requirement states degree must be held 'no later than the time the employment decision is made'—timing depends on MSc completion date and application/decision timeline.",
+      "Posting does not explicitly restrict non-EU citizens, but mentions potential security clearance under Swedish Protective Security Act (2018:585) if the role is classified as security-sensitive. Scope and impact of this requirement unclear from text."
     ],
     "risks": [
-      "Candidate does not hold PhD or degree in required mathematical/control field",
-      "Severe skill gap in game theory, optimisation theory, and advanced mathematics",
-      "No experience with C++ or algorithm implementation for large-scale solvers",
-      "Career pivot into pure computational methods would be counterproductive for human-centred XR trajectory"
+      "Substantial domain mismatch: game-theoretic algorithm development is fundamentally different from human-centred immersive research. Success would require developing expertise in advanced mathematics and optimization—areas not evidenced in the researcher's profile.",
+      "Career trajectory risk: accepting this postdoc would delay or redirect progress toward the target identity (human-centred XR/HCI researcher) and priority institutions (Aalto, TU Delft). Two years in computational game theory would not strengthen candidacy for immersive systems positions.",
+      "Qualification gap: the researcher has beginner-level statistics and no demonstrated experience with operator theory, variational inequalities, or numerical methods—all signalled as core to the role.",
+      "Postdoc timing: the researcher is still completing an MSc thesis. A postdoc is not aligned with stated target position types (doctoral researcher, PhD candidate, project researcher with PhD pathway)."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -384,8 +412,8 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-09-17T11:36:08.513385Z",
-    "analysis_input_hash": "12dc5530195517aecd89a1e579662e1f01c9a8ee9cd13597c42cc31da7e0d8e1"
+    "analyzed_at": "2026-10-17T10:45:12.365853Z",
+    "analysis_input_hash": "831374780aa9c7400f3ede92cb73ee3a8fde4fb5214854d8fe327f1f3d9c7c8c"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -394,9 +422,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 12,
+    "fit_overall": 15,
     "urgency": "high",
-    "days_to_deadline": 21,
+    "days_to_deadline": 19,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

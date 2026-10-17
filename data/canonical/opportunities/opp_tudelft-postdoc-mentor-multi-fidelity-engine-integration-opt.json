@@ -1,0 +1,166 @@
+{
+  "id": "opp_tudelft-postdoc-mentor-multi-fidelity-engine-integration-opt",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-17T10:23:06.552405Z",
+  "updated_at": "2026-10-17T10:45:12.896460Z",
+  "change_history": [
+    {
+      "ts": "2026-10-17T10:23:06.552525Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-17T10:38:22.212245Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-17T10:45:12.896460Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc MENTOR: Multi-fidelity ENgine inTegration Optimization for Next Generation AiRcraft",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-aerospace-engineering",
+    "source": "tudelft",
+    "source_native_id": "1374975957",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-MENTOR-Multi-fidelity-ENgine-inTegration-Optimization-for-Next-Generation-AiRcraft-2628-CD/1374975957/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-MENTOR-Multi-fidelity-ENgine-inTegration-Optimization-for-Next-Generation-AiRcraft-2628-CD/1374975957/",
+    "evidence_ids": [
+      "tudelft/1374975957"
+    ],
+    "retrieved_at": "2026-10-17T10:23:06.552226Z",
+    "raw_snapshot_hash": "ac857c87d87ed68a3843686daaa67dae9b62cc1792e8959b1e3e6129272ebd3a",
+    "extracted_content_hash": "dada92c153d3e4b4856df38b7d3095518b3ea32786bf3cfc1ad962520d6f6ff9",
+    "deadline": "2026-10-29",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Help shape the next generation of aircraft. At TU Delft, you will develop advanced simulation and optimization tools to improve engine-airframe integration, aerodynamic efficiency and noise performance.\nJob description\nThe next generation of aircraft calls for innovative propulsion technologies, more efficient airframes and improved noise performance. But how can we accurately predict the complex interactions between engines and airframes? As a postdoctoral researcher at TU Delft, you will develop a multi-fidelity computational framework to optimize aircraft engine integration, aerodynamic performance and aeroacoustics. Your research will contribute to the design and assessment of future aircraft.\nYou will work on\nMENTOR (Multi-fidelity Engine Integration Optimization for Next Generation Aircraft)\n, a research project bringing together experts from TU Delft and the Royal Netherlands Aerospace Centre (NLR). Your challenge is to develop an integrated toolbox combining high-fidelity simulations, fast aerodynamic prediction methods and aeroacoustic models.\nYour research will focus on three interconnected areas:\nHigh-fidelity aerodynamic optimization:\nDevelop a design tool combining adjoint-based optimization with unsteady Reynolds-Averaged Navier–Stokes (URANS) simulations to integrate different propulsion systems with low-drag airframes.\nFast performance prediction:\nCombine blade element momentum (BEM) theory and vortex lattice methods to efficiently predict propulsive efficiency and engine-airframe drag.\nAeroacoustic prediction:\nDevelop models compatible with NLR tools, using flow distortion theory to predict tonal noise and stochastic optimization approaches for broadband noise components.\nMENTOR is part of the\nDutch Aviation Systems Analysis Lab\n(DASAL)\n, a flagship collaboration between TU Delft and NLR, funded through the Dutch National Growth Fund's\nLuchtvaart in Transitie\nprogramme. DASAL develops integrated models and simulations to support innovation in the Dutch aviation sector and inform public policy.\nYou will join the\nFaculty of Aerospace Engineering\nat TU Delft the Department of\nFlow Physics and Technology\n. Here, you will work in an interdisciplinary environment alongside PhD candidates, postdoctoral researchers and academic staff. Collaborating closely with NLR experts and researchers across the faculty, you will connect advanced computational methods with real-world aircraft design challenges and contribute to the development of more efficient and quieter aircraft.\nJob requirements\nYou hold a PhD in Aerospace Engineering, Mechanical Engineering or a closely related field.\nYou have a strong foundation in aerodynamics, aeroacoustics and computational fluid dynamics (CFD).\nYou have experience with numerical simulations and computational methods for aerodynamic analysis.\nYou are familiar with CAD modelling software and its application to aerodynamic design.\nYou have an interest in multidisciplinary optimization, propulsion integration and the development of computational prediction tools.\nYou take initiative, approach complex research challenges analytically and develop practical solutions.\nYou communicate effectively in English and enjoy collaborating with researchers from different disciplines and organizations.\nKnowledge of Dutch is an advantage, but not a requirement.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDuration of contract is 3 years. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about the Vacancy feel free to contact D. Ragni,\nd.ragni@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n29 October 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nOptionally, upload the best 3 documents (or links to resources) that show your experience in the aforementioned topics.\nYou can address your application to Daniele Ragni.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in aerospace engineering: multi-fidelity computational framework for aircraft engine-airframe integration, aerodynamic optimization, and aeroacoustic design. Core work is CFD, adjoint optimization, and aeroacoustic modelling.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "No thematic overlap. Position is aeronautical engineering and computational physics. Researcher's themes are human-centred immersive systems, collaborative learning, spatial cognition, wayfinding. No connection."
+    },
+    "methodological_fit": {
+      "score": 2,
+      "rationale": "Researcher's methodologies (user studies, experimental design for learning outcomes, qualitative/quantitative human-centred evaluation) have no overlap with CFD, adjoint optimization, aeroacoustic modelling, and CAD-based design analysis."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "No growth value toward stated target identity. Position strengthens aerospace engineering capabilities; researcher needs HCI, XR evaluation, and collaborative system design expertise."
+    },
+    "strategic_value": {
+      "score": 8,
+      "rationale": "TU Delft is a target-priority institution and HybridLabs/DASAL funding is substantial and stable. However, strategic value is undermined because this postdoc role would delay or prevent entry to doctoral/early-career positions in the researcher's actual field (human-centred XR). Supervisor quality is high; field is wrong."
+    },
+    "required_skills": [],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "experimental-design",
+      "user-studies",
+      "quantitative-research"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires PhD in Aerospace, Mechanical Engineering or closely related field. Researcher holds MSc by Research (in progress) in Creative Multimedia / HCI. Likely ineligible at start unless degree conferred before employment date.",
+      "Postdoc role; researcher is MSc-level. Pathway unclear."
+    ],
+    "risks": [
+      "Severe discipline mismatch: aerospace engineering vs. human-centred XR/HCI. Would require 3-year commitment to unrelated field.",
+      "Researcher lacks CFD, CAD, aerodynamics expertise; entering at significant disadvantage despite methodological maturity in human-centred work.",
+      "No publication or experience overlap with team; weak integration into interdisciplinary aerospace environment.",
+      "Career trajectory divergence: postdoc in aerospace engineering does not advance path to HCI/immersive systems doctoral work."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.96,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-17T10:38:22.211993Z",
+    "analysis_input_hash": "f722c9524bf7f6f9710b4f24d1b6a8c9644629f7e01e814536da00400ad0f1d6"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 3,
+    "urgency": "high",
+    "days_to_deadline": 12,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

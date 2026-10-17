@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-phd-position-6g-native-distributed-intelligence-for
 type: opportunity
-title: "PhD position "6G-Native Distributed Intelligence for Physical AI""
+title: "PhD position 6G-Native Distributed Intelligence for Physical AI"
 organisation: "TU Delft"
 deadline: 2026-11-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 18
+fit_overall: 14
 urgency: high
 needs_review: true
 ---
 
-# PhD position "6G-Native Distributed Intelligence for Physical AI"
+# PhD position 6G-Native Distributed Intelligence for Physical AI
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-11-01
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 17)
+Gate: **uncertain** (days to deadline: 15)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -80,31 +80,30 @@ You can apply online. We will not process applications sent by email and/or post
 As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
 knowledge security.
 Please do not contact us for unsolicited services.
+Recruitmentcode 6Gflagship
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.85_
 
-A 4-year doctoral position in 6G-native distributed AI, focusing on resource-aware techniques for adapting AI workloads across embedded devices, edge, and cloud infrastructure under strict latency and reliability constraints, within the Dutch FNS flagship 6G consortium.
+PhD position in 6G network research focused on distributed AI for edge computing and physical systems, studying resource-aware techniques like split inference, model partitioning, and computation offloading across constrained devices and cloud under latency and resource constraints.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 8 |
-| Methodological fit | 18 |
-| Growth value | 14 |
-| Strategic value | 45 |
-| **Overall** | **18** |
+| Thematic fit | 10 |
+| Methodological fit | 12 |
+| Growth value | 5 |
+| Strategic value | 40 |
+| **Overall** | **14** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** mixed-effects-modelling, r
+**Missing skills:** distributed-systems, machine-learning-algorithms, network-optimization, edge-computing, computational-modeling, systems-performance-evaluation
 
 **Risks:**
-- Disciplinary misalignment: creative multimedia vs. computer science infrastructure focus
-- Position's core (network optimization, AI workload distribution) is listed in researcher's excluded directions (pure ML algorithms)
-- Department specializes in electrical engineering and CS infrastructure, not HCI or human-centred evaluation
-- Testbed and PoC focus on network/compute infrastructure, not human factors or spatial/immersive learning
-- Pursuing this PhD would cement trajectory away from human-centred XR target identity toward infrastructure and distributed systems
+- Core research direction (6G infrastructure, distributed ML) is orthogonal to human-centred XR. Position explicitly targets algorithm and infrastructure layers, not human factors.
+- Supervisor (Qing Wang) and faculty have no published work in HCI, XR, or immersive systems.
+- Would require substantial retraining in ML systems and 6G network theory; research trajectory would deviate significantly from target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-6g-native-distributed-intelligence-for.md` and link [[opp_tudelft-phd-position-6g-native-distributed-intelligence-for]]._

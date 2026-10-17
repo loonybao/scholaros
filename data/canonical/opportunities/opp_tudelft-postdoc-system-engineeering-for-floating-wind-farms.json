@@ -1,0 +1,171 @@
+{
+  "id": "opp_tudelft-postdoc-system-engineeering-for-floating-wind-farms",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-17T10:22:34.401878Z",
+  "updated_at": "2026-10-17T10:45:12.914877Z",
+  "change_history": [
+    {
+      "ts": "2026-10-17T10:22:34.402007Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-17T10:42:44.365254Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-17T10:45:12.914877Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc System Engineeering for Floating Wind Farms",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-aerospace-engineering",
+    "source": "tudelft",
+    "source_native_id": "1375104657",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-System-Engineeering-for-Floating-Wind-Farms-2628-CD/1375104657/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-System-Engineeering-for-Floating-Wind-Farms-2628-CD/1375104657/",
+    "evidence_ids": [
+      "tudelft/1375104657"
+    ],
+    "retrieved_at": "2026-10-17T10:22:34.401706Z",
+    "raw_snapshot_hash": "9cf20cf0bab1349a310bba782f6b698aaceda2e09b96f6cc591809e596c66a9a",
+    "extracted_content_hash": "136f422a8f451b6449537629fc6ccc2e5da67a00308f695c6badfae007621af8",
+    "deadline": "2026-11-15",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Are you passionate about offshore wind energy? Apply for a Post-doctoral research position in Floating Offshore Wind Energy and help accelerate the supply chain readiness in this area.\nJob description\nFloating offshore wind turbines are widely regarded as a key technology to accelerate renewable power generation and reach climate targets. Installing a wind turbine on a floating structure comes with opportunities as well as new engineering challenges. In the Dutch-funded project HybridLabs (https://hybridlabs.tudelft.nl), we accelerate the development of innovations in offshore and floating renewable energy technologies. A key bottleneck to the implementation of these innovations is the system integration of different actors/needs and the supply chain readiness.\nIn this context, we are looking for a post-doctoral researcher to work on multi-disciplinary design analysis and optimisation (MDAO) for floating wind farms in different regions. The tasks involve both the development and dissemination of our MDAO software and its application to assess logistical aspects of the large-scale deployment of floating wind farms. Key research questions include: (i) what are the supply chain requirements and bottlenecks for large-scale deployment of floating wind farms, (ii) how can the system be optimised, and (iii) how much\ncan technical, monetary, and schedule risks be reduced or mitigated.\nAs a researcher, you will work among diverse and energetic peers which offers a stimulating and inclusive working environment for developing your research and academic skills. In addition, due to the highly multidisciplinary nature of this project, your research will contribute to and benefit from others and you will work in teams with other researchers from TU Delft and other institutions within the HybridLabs framework. You will also have the opportunity to work closely with companies as well as help strengthening the European ecosystem in this area. Finally, there will be opportunities to use the MDAO framework for outreach activities.\nWe are committed to fostering an inclusive, supportive and progressive workplace culture built on respect, community and wellbeing. We aim to attract outstanding global talent from all backgrounds and recognise that science and engineering benefit from diverse perspectives. We particularly encourage applications from women, who are currently underrepresented at this level within our university.\nJob requirements\nPhD. degree in system engineering, applied sciences, wind energy, or a related field.\nFundamental knowledge and application of MDAO (multi-disciplinary analysis and optimisation).\nGood knowledge of scientific computing, object-oriented programming (e.g., Python), and version control (e.g., git). Experience with FAIR and open-source software development is a plus.\nFamiliar with the system and/or supply chain challenges for offshore/floating wind energy. Experience with supply chain modelling for offshore/floating wind energy is a plus.\nCuriosity to engage with multi-disciplinary stakeholders. Experience with collaboration across institutions is a plus.\nAttitude to teamwork and excellent communication skills in spoken and written English, combined with demonstrated creativity, self-learning skills and an inclination towards research.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDuration of contract is 2 years. Temporary.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Prof. Axelle Viré, via\navire@tudelft.nl\n. This is a project supported by the Dutch National Research Council (NWO) under the project HybridLabs (project number NWA.1518.22.066) of the research programme Dutch Research Agenda – research along NWA routes by consortia.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n15 November 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Prof. Axelle Viré.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in multi-disciplinary design analysis and optimization (MDAO) for floating offshore wind farms, involving system integration, supply chain modelling, and software development within the HybridLabs consortium.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The position is fundamentally focused on offshore wind energy engineering, system optimization, and supply chain logistics. The researcher's expertise is in human-centred immersive systems, spatial cognition, and collaborative XR—domains with no thematic connection to renewable energy or floating wind infrastructure."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "While both involve multi-agent systems and collaboration, the methodological contexts are incompatible. The wind farm role requires MDAO algorithms, scientific computing, and supply chain analysis. The researcher has user-centred HCI methodology (experimental design, user studies, qualitative/quantitative analysis) but no background in systems engineering, optimization algorithms, or energy infrastructure modelling."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "This position would require learning an entirely new domain (offshore wind engineering) and technical skillset (MDAO, supply chain modelling, energy systems). It offers no advancement toward the researcher's target identity of human-centred XR/HCI or spatial learning systems."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "TU Delft is one of the researcher's target priority institutions (Priority 1), and the position offers stable EU funding through NWO and multi-institutional collaboration. However, the mismatch in research direction substantially undermines strategic value for a PhD pathway in HCI/XR."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD completion prior to employment decision; candidate holds MSc by Research (in progress, thesis stage) and does not yet hold doctoral degree.",
+      "Position explicitly targets PhD holders in system engineering, applied sciences, or wind energy; candidate background is in multimedia/HCI.",
+      "MDAO expertise is a fundamental requirement; no evidence of this capability in candidate profile."
+    ],
+    "risks": [
+      "Severe domain mismatch: renewable energy engineering vs. human-centred XR research.",
+      "Candidate does not meet stated PhD requirement and has no background in the required specialization.",
+      "Two-year postdoc duration would delay PhD pathway and diverge from target career trajectory.",
+      "No transferable expertise in MDAO, scientific computing for engineering systems, or supply chain modelling."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-17T10:42:44.364813Z",
+    "analysis_input_hash": "efb227049e37da28722f6c329b4a197fa0eaf8ecc2ebf7631e16e2bb9361fc0d"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 12,
+    "urgency": "medium",
+    "days_to_deadline": 29,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

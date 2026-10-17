@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-11-05
 status: open
 eligibility_gate: uncertain
-fit_overall: 12
+fit_overall: 15
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 21)
+Gate: **uncertain** (days to deadline: 19)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -120,25 +120,25 @@ Return to job vacancies
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-Postdoctoral position at KTH Royal Institute of Technology (WASP program) focusing on algorithmic and computational methods for equilibrium computation in multi-agent games. Research develops scalable algorithms, open-source tools, and applications to autonomous systems; emphasises game theory, optimisation, and numerical methods.
+A postdoctoral position at KTH focused on developing scalable algorithms and computational tools for equilibrium computation in multi-agent game theory, with applications to autonomous systems. The role emphasizes mathematical foundations, optimization algorithms, and scientific programming rather than human-centred research or immersive systems.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 15 |
-| Methodological fit | 12 |
-| Growth value | 5 |
-| Strategic value | 10 |
-| **Overall** | **12** |
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 20 |
+| Strategic value | 35 |
+| **Overall** | **15** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** game-theory, optimization-algorithms, operator-theory, variational-inequalities, operator-splitting-methods, cpp, julia, scientific-programming
+**Missing skills:** game-theory, optimization-algorithms, numerical-methods, cpp
 
 **Risks:**
-- Candidate does not hold PhD or degree in required mathematical/control field
-- Severe skill gap in game theory, optimisation theory, and advanced mathematics
-- No experience with C++ or algorithm implementation for large-scale solvers
-- Career pivot into pure computational methods would be counterproductive for human-centred XR trajectory
+- Substantial domain mismatch: game-theoretic algorithm development is fundamentally different from human-centred immersive research. Success would require developing expertise in advanced mathematics and optimization—areas not evidenced in the researcher's profile.
+- Career trajectory risk: accepting this postdoc would delay or redirect progress toward the target identity (human-centred XR/HCI researcher) and priority institutions (Aalto, TU Delft). Two years in computational game theory would not strengthen candidacy for immersive systems positions.
+- Qualification gap: the researcher has beginner-level statistics and no demonstrated experience with operator theory, variational inequalities, or numerical methods—all signalled as core to the role.
+- Postdoc timing: the researcher is still completing an MSc thesis. A postdoc is not aligned with stated target position types (doctoral researcher, PhD candidate, project researcher with PhD pathway).
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-computational-methods-for-games-and-multi-a.md` and link [[opp_varbi-postdoc-in-computational-methods-for-games-and-multi-a]]._

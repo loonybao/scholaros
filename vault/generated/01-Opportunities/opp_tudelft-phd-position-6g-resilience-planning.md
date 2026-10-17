@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-phd-position-6g-resilience-planning
 type: opportunity
-title: "PhD position "6G resilience planning""
+title: "PhD position 6G resilience planning"
 organisation: "TU Delft"
 deadline: 2026-11-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 13
+fit_overall: 12
 urgency: high
 needs_review: true
 ---
 
-# PhD position "6G resilience planning"
+# PhD position 6G resilience planning
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-11-01
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 17)
+Gate: **uncertain** (days to deadline: 15)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -79,30 +79,30 @@ You can apply online. We will not process applications sent by email and/or post
 As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
 knowledge security.
 Please do not contact us for unsolicited services.
+Recruitmentcode 6Gflagship
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
 
-PhD position developing risk profiling and resilience advisory systems for 6G networks, combining risk assessment methodologies, network planning optimization, and decision-support algorithms for telecom infrastructure operators.
+PhD position in 6G network resilience, developing risk profiling and advisory systems for network infrastructure, addressing disaster recovery, fault mitigation, and mission-critical service reliability planning.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 8 |
-| Methodological fit | 12 |
-| Growth value | 10 |
-| Strategic value | 30 |
-| **Overall** | **13** |
+| Methodological fit | 10 |
+| Growth value | 2 |
+| Strategic value | 35 |
+| **Overall** | **12** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python, statistics, mixed-effects-modelling, academic-writing
+**Missing skills:** network-systems, risk-modeling, infrastructure-analytics, fault-diagnosis-systems, operations-research
 
 **Risks:**
-- Research domain (telecom network resilience) is orthogonal to candidate's target identity (human-centred immersive systems). PhD thesis and publication record would not support future HCI/immersive-systems positions.
-- Supervisor group specializes in network optimization and infrastructure, not human-computer interaction or design science.
-- Would consume 3–4 years without advancing core competencies in spatial cognition, collaborative interaction design, or immersive learning evaluation.
-- Career trajectory becomes fragmented: MSc in immersive learning + PhD in telecom resilience. Difficult to explain coherent research narrative for future HCI roles.
+- Thematic mismatch is absolute. Position concerns network operations and infrastructure—researcher's background and goals are in human-centred interactive systems.
+- Supervisor (Fernando Kuipers) specializes in network optimization and resilience; no HCI or immersive systems research background.
+- Accepting this position would represent significant departure from documented target identity and research direction.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-6g-resilience-planning.md` and link [[opp_tudelft-phd-position-6g-resilience-planning]]._

@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-phd-position-secure-multi-stakeholder-6g-orchestrati
 type: opportunity
-title: "PhD position "Secure multi-stakeholder 6G orchestration""
+title: "PhD position Secure multi-stakeholder 6G orchestration"
 organisation: "TU Delft"
 deadline: 2026-11-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 10
+fit_overall: 12
 urgency: high
 needs_review: true
 ---
 
-# PhD position "Secure multi-stakeholder 6G orchestration"
+# PhD position Secure multi-stakeholder 6G orchestration
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-11-01
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 17)
+Gate: **uncertain** (days to deadline: 15)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -78,30 +78,31 @@ You can apply online. We will not process applications sent by email and/or post
 As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
 knowledge security.
 Please do not contact us for unsolicited services.
+Recruitmentcode 6Gflagship
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-PhD position designing management and orchestration (MANO) systems for multi-stakeholder 6G service continuum, focusing on security, trust boundaries, hardware attestation, workload placement, and auditable orchestration decisions across heterogeneous infrastructure.
+PhD position in 6G service orchestration and management systems, designing secure multi-stakeholder infrastructure for distributed software functions, addressing trust boundaries, hardware attestation, secure workload placement, and auditable orchestration decisions.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 8 |
-| Growth value | 8 |
-| Strategic value | 25 |
-| **Overall** | **10** |
+| Thematic fit | 8 |
+| Methodological fit | 10 |
+| Growth value | 2 |
+| Strategic value | 38 |
+| **Overall** | **12** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python, statistics, mixed-effects-modelling, academic-writing
+**Missing skills:** cloud-orchestration, security-architecture, distributed-systems-design, hardware-attestation, cryptographic-protocols, infrastructure-validation
 
 **Risks:**
-- Research identity misalignment: 6G orchestration security is infrastructure/systems work; candidate's target is human-centred immersive systems. PhD dissertation would be irrelevant to HCI career path.
-- Supervisor (Mohan) focuses on systems security and orchestration, not HCI or collaborative design. Limited mentorship alignment.
-- Three-year PhD in systems security creates fragmented career narrative (MSc immersive learning → PhD systems security → target HCI researcher). Difficult to explain coherent research trajectory.
-- Publication record and expertise would be in security systems, not immersive systems, spatial cognition, or collaborative learning. Significantly weakens applications to Aalto, Tampere, or HCI-focused groups.
+- Research sits entirely in infrastructure and security systems; no connection to human factors, XR, spatial cognition, or collaborative learning.
+- Supervisor (Nitinder Mohan) specializes in cloud systems and network security; no HCI or immersive systems research background.
+- Accepting this position would represent major departure from documented research goals and target identity.
+- Heavy systems engineering and security focus would require complete retraining outside researcher's domain expertise.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-secure-multi-stakeholder-6g-orchestrati.md` and link [[opp_tudelft-phd-position-secure-multi-stakeholder-6g-orchestrati]]._

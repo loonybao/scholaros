@@ -1,0 +1,176 @@
+{
+  "id": "opp_aalto-doctoral-researcher-chemical-upgrading-of-polyphenols",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-17T10:20:16.971931Z",
+  "updated_at": "2026-10-17T10:45:12.559473Z",
+  "change_history": [
+    {
+      "ts": "2026-10-17T10:20:16.972064Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-17T10:37:01.948180Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-17T10:45:12.559473Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral researcher, chemical upgrading of polyphenols for advanced functional materials",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-chemical-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-chemical-upgrading-of-polyphenols-for-advanced-functional-materials",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-chemical-upgrading-of-polyphenols-for-advanced-functional-materials",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-researcher--chemical-upgrading-of-polyphenols-for-advanced-functional-materials_R48385-3/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-chemical-upgrading-of-polyphenols-for-advanced-functional-materials"
+    ],
+    "retrieved_at": "2026-10-17T10:20:16.971729Z",
+    "raw_snapshot_hash": "7edcf0a669787eb7c0e58cd50e68bee2d496dbd11c77cf3997766d5b71fb22ba",
+    "extracted_content_hash": "f00fad5db4210095613915370774de41255de7fa0b085d44615656e4dad182e5",
+    "deadline": "2026-11-05",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-10-16",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including more than 440 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe School of Chemical Engineering is one of the six schools of Aalto University. The Department of Bioproducts and Biosystems (Bio2) focuses on innovations and cutting-edge research to support the emerging bioeconomy.\nThe Bioproduct Chemistry group is now looking for a\nDoctoral researcher in chemical upgrading of polyphenols for advanced functional materials\nAbout the Bioproduct Chemistry group\nThe Bioproduct Chemistry group, lead by Professor Monika Österberg, aims to replace fossil‑based materials with renewable biomaterials from natural resources, especially forest biomass. We specialize in bio‑based materials science and the surface chemistry of lignocellulosic materials, with emphasis on fundamental insights and interaction forces.\nOur research themes include:\nRenewable and recyclable materials from cellulose, lignin, and hemicelluloses\nValorization of polyphenolic side streams and greener processes (e.g., mechanochemistry, surface modification)\nInterfacial phenomena and development of biobased barriers, foams, and emulsions\nAdvanced textile recycling, including flotation‑based methods\nLearn more:\nhttps://www.aalto.fi/en/department-of-bioproducts-and-biosystems/bioproduct-chemistry\nPosition description\nAre you excited about sustainability and renewable materials? Bark and lignin are abundant, underutilized feedstocks rich in polyphenols. When engineered to self‑assemble into spherical colloidal particles, these compounds can replace fossil‑based or harmful chemicals across coatings, packaging, emulsifiers, and other applications.\nIn this PhD project, you will work at crossroads of natural products chemistry, material science, and industry, specifically:\nDevelop efficient fractionation and modification routes for polyphenols, including solvent‑free reactive extrusion\nEstablish structure–property–performance relationships linking chemical composition and particle size to application performance\nCombine wet‑chemistry characterization (e.g., 1H/13C/ 2D NMR, AFM, DLS, GPC, FTIR, zeta potential) with molecular modeling and machine learning\nCollaborate with international academic and industrial partners\nWho we’re looking for\nA curious, ambitious researcher with strong interest in organic andsurface chemistry, specifically lignin/polyphenol chemistry\nProblem‑solver with good time‑management and communication skills\nAdvantageous (but not required): experience with surface‑sensitive techniques, synthetic and preparative organic chemistry,lignin analytics, colloids, polymer processing, programming (e.g., Python/R/Matlab), molecular simulation or machine learning\nRequired qualifications\nMaster’s degree in chemistry or chemical engineering\nGood written and spoken English, and ability to work in a multidisciplinary international team\nHands‑on laboratory experience in relevant areas\nWhat we offer\nWe offer a fixed-term contract initially for two years. During the first 6 months, you must apply for and receive the right to study in the doctoral programme in Chemical Engineering. After a successful evaluation by the end of the first 2-year contract, the contract can be extended. Extension of the contract is typically based on the progress evaluation, revised project plan and available funding.\nThe starting salary for a Doctoral Researcher is about 3140 €/month (gross)\nAccess to Aalto’s state‑of‑the‑art facilities in an international research group\nHow to apply\nPlease submit your application as a single PDF file through our online recruitment system by using the link on Aalto University’s webpage (“Apply now”):\nCover letter (1–2 pages) describing your motivation, relevant experience, and fit for the position\nCV (including possible publications, presentations, and contact details of 1–3 referees)\nTranscript of records with grades, and diploma if available\nAll materials must be in English and submitted via the online system. Email applications cannot be considered.\nIf you are an Aalto employee, you should apply for the position via our internal HR system Workday (Internal Jobs) by using your existing Workday user account (not via the external webpage for open positions).\nTimeline and process\nApplication deadline: November 5. 2026, but the position may be filled before the deadline.\nPreferred start date: As soon possible, or as agreed.\nAalto University reserves the right, for justified reasons, to leave the position open, extend the application period, or consider candidates who have not applied within the application period.\nContacts\nFor further information about the research project and research environment/group, please contact Dr. Nicolò Pajer (\nnicolo.pajer@aalto.fi\n) or Prof. Monika Österberg\n(\nmonika.osterberg@aalto.fi\n)\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nandcheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Doctoral position in bio-based materials chemistry, focused on fractionation and modification of polyphenols from lignin and bark for sustainable coatings and packaging applications, combining wet-chemistry characterization with molecular modeling and machine learning.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "Zero thematic overlap. Position is in materials chemistry and bioeconomy; researcher's core themes are human-centred immersive systems, spatial cognition, collaboration, and learning design."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Minimal overlap despite both using experimental design. Position centers on organic chemistry, synthetic preparative work, materials characterization (NMR, AFM, DLS), and colloid science. Researcher's experimental methodology is user-studies and quantitative behavioral measurement—fundamentally different scientific traditions."
+    },
+    "growth_value": {
+      "score": 1,
+      "rationale": "No pathway to target capabilities. Would develop chemistry and materials modeling skills irrelevant to human-centred XR research, spatial cognition, or collaborative systems design."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Aalto is Priority 1 institution in Finland with strong funding. However, Bioproduct Chemistry group (Österberg) works in materials science and bioeconomy, completely outside HCI and XR domains. No strategic value for documented target identity."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "organic-chemistry",
+      "materials-characterization",
+      "colloid-science",
+      "molecular-modeling",
+      "python",
+      "r",
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc in chemistry or chemical engineering; researcher holds MSc by Research in Creative Multimedia. Significant eligibility barrier.",
+      "Posting states 'hands-on laboratory experience in relevant areas' required; researcher has no chemistry lab background."
+    ],
+    "risks": [
+      "Disciplinary boundary is hard. Researcher would need to acquire organic chemistry expertise and experimental skills orthogonal to prior training.",
+      "No connection to HCI, immersive systems, or educational technology.",
+      "Supervisor (Österberg) and group have no XR or human-centred research background."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-17T10:37:01.947712Z",
+    "analysis_input_hash": "c185041120c88b406d7a667121c1f6d3e3fe4fda4baf3049efd45fd31e24b7ec"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 6,
+    "urgency": "high",
+    "days_to_deadline": 19,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

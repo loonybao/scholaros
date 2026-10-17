@@ -5,10 +5,10 @@ title: "Doctoral Researcher (Administrative Sciences, Business Studies and Polit
 organisation: "Tampere University"
 deadline: 2026-10-16
 status: open
-eligibility_gate: uncertain
+eligibility_gate: fail
 fit_overall: 16
-urgency: urgent
-needs_review: true
+urgency: none
+needs_review: false
 ---
 
 # Doctoral Researcher (Administrative Sciences, Business Studies and Politics), 4 positions
@@ -24,10 +24,9 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 1)
+Gate: **fail** (days to deadline: -1)
 
-- funding/salary not confirmed on the posting
-- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+- application deadline has passed
 
 ## Description
 
