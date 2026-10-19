@@ -3,18 +3,18 @@ id: opp_varbi-postdoc-in-large-language-model-inferencing-2
 type: opportunity
 title: "Postdoc in Large Language Model inferencing"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-10-21
+deadline: 2026-11-27
 status: open
 eligibility_gate: uncertain
-fit_overall: 13
-urgency: urgent
+fit_overall: 19
+urgency: medium
 needs_review: true
 ---
 
 # Postdoc in Large Language Model inferencing
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-10-21
+**Deadline:** 2026-11-27
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 3)
+Gate: **uncertain** (days to deadline: 39)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -108,34 +108,35 @@ Marco Chiesa, mchiesa@kth.se
 Published
 23.Sep.2026
 Last application date
-21.Oct.2026
+27.Nov.2026
 Login and apply
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
 
-18 Million SEK, 5-year Wallenberg Scholar project at KTH Stockholm. Postdoc position focuses on design, implementation, and evaluation of distributed systems for machine learning inference, cost/power reduction for LLM serving, with machine learning and agentic frameworks components. Requires distributed systems, networking, programming, OS expertise.
+Postdoc position in distributed systems and machine learning inference, part of a 5-year Wallenberg Scholar project. Work focuses on designing, implementing, and evaluating systems to reduce cost and power consumption for serving large language models, with agentic frameworks development.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 8 |
-| Methodological fit | 15 |
+| Thematic fit | 10 |
+| Methodological fit | 20 |
 | Growth value | 10 |
-| Strategic value | 25 |
-| **Overall** | **13** |
+| Strategic value | 45 |
+| **Overall** | **19** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cpp, distributed-systems, gpu-programming, linux-systems, machine-learning-inference
+**Missing skills:** cpp, statistics
 
 **Risks:**
-- Severe skills gap: C++, distributed systems, GPU programming, Linux systems not in profile. Ramp-up time would be substantial.
-- Excluded direction: GPU optimization is explicitly listed as an excluded research area in target profile.
-- Thematic misalignment: pure ML systems infrastructure has no connection to human-centered immersive systems, spatial learning, or collaboration research.
-- Career direction risk: accepting this position would lock the researcher into a systems/ML track inconsistent with stated goal to become a human-centered XR/HCI researcher.
+- Researcher does not yet hold PhD; position assumes recent PhD completion. Eligibility contingent on thesis completion before employment start.
+- No systems programming or distributed systems background. Steep learning curve in unfamiliar CS subfield.
+- Research domain (ML infrastructure optimization) is excluded direction territory: 'pure machine-learning algorithms' development. While not algorithmic ML per se, the inference optimization focus sits uncomfortably close to pure ML engineering.
+- 2-year postdoc in systems/ML infrastructure pulls career trajectory away from target identity (human-centred XR, spatial cognition, collaborative immersive systems). Difficult to pivot back to HCI afterward without retraining.
+- Group culture is likely systems/performance-optimization focused, not human-centred research. Limited mentorship for transition to target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-large-language-model-inferencing-2.md` and link [[opp_varbi-postdoc-in-large-language-model-inferencing-2]]._

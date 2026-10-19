@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-09-23T11:14:50.317075Z",
-  "updated_at": "2026-10-18T10:51:33.332508Z",
+  "updated_at": "2026-10-19T12:46:31.430792Z",
   "change_history": [
     {
       "ts": "2026-09-23T11:14:50.317171Z",
@@ -282,6 +282,48 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-10-19T12:44:28.594276Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-10-19T12:46:30.463600Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-19T12:46:31.430792Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -295,10 +337,10 @@
     "evidence_ids": [
       "varbi/kth-972326"
     ],
-    "retrieved_at": "2026-10-05T14:12:02.372034Z",
-    "raw_snapshot_hash": "63d97a32b3195f7a7587a754a5ec1c6a149325cb4b774b1bb7624be98f9db958",
-    "extracted_content_hash": "7f685367ca89e99cc77cb8f2a982f300ad767227b77d227a79803ad73867980a",
-    "deadline": "2026-10-21",
+    "retrieved_at": "2026-10-19T12:44:28.593584Z",
+    "raw_snapshot_hash": "6d83310ef7179e32dc688ce9fc7d91719fc28ded90347a56aff8d2218559377c",
+    "extracted_content_hash": "cc897dc5c1d83a49fa2a99ff077833bbd6e9ee79a790fa424c29fd6c9272fd8b",
+    "deadline": "2026-11-27",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -316,56 +358,54 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Postdoc in Large Language Model inferencing\nLogin and apply\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nThe advertised post-doctoral position is within an ambitious, 5-year Wallenberg Scholar project titled \"Scalable and adaptive inferencing for democratizing AI\". In this 18 Million SEK project, we want to dramatically reduce the cost and power for serving large language models such as ChatGPT.\nMore project information\nand our\nproject page\nwith early publications.\nThe work will primarily entail design, implementation, and evaluation of distributed systems and networks for machine learning inference. Applying machine learning concepts, with the goal of devising agentic frameworks, will also be a part of the project.\nAs a member of the research lab, you will be involved in experimental systems work in collaboration with faculty members and several doctoral students at our research lab. You will contribute to scientific publications as well as to new grant applications.\nThe work will be in collaboration with Professor Dejan Kostic and Associate Professor Marco Chiesa.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nYou should also have a solid background in distributed systems, networking, programming and operating systems, and very good knowledge of English in speech and writing as it is required in day to day work.\nIt is important that you have very good skills in critical thinking and very good knowledge of C++, Python, Linux, and some scripting language.\nWe are seeking a highly motivated candidate with a willingness to experiment and explore, with international publications in journals and top conferences.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nTeaching abilities and awareness of diversity and equal opportunity issues, with specific focus on gender equality.\nYou are a good collaborator but can also work independently.\nExperience with machine learning, GPU programming, or large-scale inference systems.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3247\nContact\nDejan Kostic, dmk@kth.se\nMarco Chiesa, mchiesa@kth.se\nPublished\n23.Sep.2026\nLast application date\n21.Oct.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+    "description_text": "Postdoc in Large Language Model inferencing\nLogin and apply\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nThe advertised post-doctoral position is within an ambitious, 5-year Wallenberg Scholar project titled \"Scalable and adaptive inferencing for democratizing AI\". In this 18 Million SEK project, we want to dramatically reduce the cost and power for serving large language models such as ChatGPT.\nMore project information\nand our\nproject page\nwith early publications.\nThe work will primarily entail design, implementation, and evaluation of distributed systems and networks for machine learning inference. Applying machine learning concepts, with the goal of devising agentic frameworks, will also be a part of the project.\nAs a member of the research lab, you will be involved in experimental systems work in collaboration with faculty members and several doctoral students at our research lab. You will contribute to scientific publications as well as to new grant applications.\nThe work will be in collaboration with Professor Dejan Kostic and Associate Professor Marco Chiesa.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nYou should also have a solid background in distributed systems, networking, programming and operating systems, and very good knowledge of English in speech and writing as it is required in day to day work.\nIt is important that you have very good skills in critical thinking and very good knowledge of C++, Python, Linux, and some scripting language.\nWe are seeking a highly motivated candidate with a willingness to experiment and explore, with international publications in journals and top conferences.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nTeaching abilities and awareness of diversity and equal opportunity issues, with specific focus on gender equality.\nYou are a good collaborator but can also work independently.\nExperience with machine learning, GPU programming, or large-scale inference systems.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3247\nContact\nDejan Kostic, dmk@kth.se\nMarco Chiesa, mchiesa@kth.se\nPublished\n23.Sep.2026\nLast application date\n27.Nov.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "18 Million SEK, 5-year Wallenberg Scholar project at KTH Stockholm. Postdoc position focuses on design, implementation, and evaluation of distributed systems for machine learning inference, cost/power reduction for LLM serving, with machine learning and agentic frameworks components. Requires distributed systems, networking, programming, OS expertise.",
+    "summary": "Postdoc position in distributed systems and machine learning inference, part of a 5-year Wallenberg Scholar project. Work focuses on designing, implementing, and evaluating systems to reduce cost and power consumption for serving large language models, with agentic frameworks development.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 8,
-      "rationale": "Position is pure systems and machine learning infrastructure work: distributed ML inference, network optimization, LLM serving cost reduction. No mention of human-centered research, immersive systems, spatial cognition, collaboration, learning outcomes, or user evaluation. Thematic core is orthogonal to researcher's target identity. Even 'agentic frameworks' reference suggests AI system design, not human-agent collaboration in immersive contexts."
+      "score": 10,
+      "rationale": "Minimal thematic overlap. Position is pure systems/ML infrastructure research. While the broader category is computer science, the specific research—LLM inference optimization, distributed systems, GPU efficiency—sits at the opposite end of the CS spectrum from human-centred XR and immersive interaction design. No human-computer interaction, user research, or spatial cognition components evident."
     },
     "methodological_fit": {
-      "score": 15,
-      "rationale": "Minimal overlap. Position demands 'very good skills in critical thinking and very good knowledge of C++, Python, Linux' and systems-experimental work on inference optimization. Researcher has beginner Python, no C++, no systems programming background, no GPU/distributed systems experience. The 'experimental systems work' methodology differs markedly from user-centered empirical research. No transferable methods."
+      "score": 20,
+      "rationale": "Weak methodological fit. Position requires C++, Python, Linux, distributed systems, networking, and operating systems expertise. Researcher has intermediate Python (beginner level, no project experience) and advanced C#/Unity skills, but no demonstrated background in systems programming, distributed systems, or ML infrastructure. The experimental systems work is infrastructure-focused, not user-centred evaluation or HCI methodology."
     },
     "growth_value": {
       "score": 10,
-      "rationale": "This position would not close gaps relevant to the researcher's target trajectory. Python beginner skills might develop, but the researcher would be learning low-level systems and GPU optimization—excluded directions per target profile (gpu-optimisation explicitly listed). No advancement toward human-centered immersive systems, spatial cognition, or collaborative learning research."
+      "rationale": "Low growth value for target identity. Developing LLM inference infrastructure and distributed systems does not build capabilities in human-centred immersive design, collaborative social interaction, spatial cognition research, or any HCI methodology. Would require starting from foundational CS systems knowledge."
     },
     "strategic_value": {
-      "score": 25,
-      "rationale": "KTH is a strong institution in the preferred country (Sweden). Wallenberg Scholar funding is prestigious and stable. However, the research group is focused on ML systems infrastructure, not HCI or immersive systems. Supervisor expertise (Kostic: distributed systems, Chiesa: networking) does not align with human-centered or immersive research goals. Position does not advance stated career identity or institutional proximity to target groups."
+      "score": 45,
+      "rationale": "KTH (Stockholm, Sweden) is in priority geography (Sweden is preferred country). Wallenberg Scholar projects are prestigious, well-funded (18M SEK), stable multi-year commitment. Faculty/professor quality (Dejan Kostic, Marco Chiesa) appears strong based on international publication record. However, School of Electrical Engineering and Computer Science has no indicated HCI or immersive systems research focus. Supervisor expertise is in systems/networking, not human-centred research."
     },
     "required_skills": [
       "cpp",
       "python",
-      "statistics"
+      "statistics",
+      "experimental-design"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
       "python",
-      "academic-writing"
+      "experimental-design"
     ],
     "missing_skills": [
       "cpp",
-      "distributed-systems",
-      "gpu-programming",
-      "linux-systems",
-      "machine-learning-inference"
+      "statistics"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position explicitly requires 'very good knowledge of C++'; researcher has none.",
-      "Posting mentions possible security clearance under Swedish Protective Security Act (2018:585). Ambiguity on whether this role triggers clearance; researcher should clarify.",
-      "Preferred qualification specifies PhD obtained within last 3 years. If researcher completes MSc→PhD within typical timeline (3–4 years), she may fall outside this window. Timing contingent on PhD completion date."
+      "Posting requires PhD obtained within last three years (preferred). Researcher currently pursuing MSc; will not have PhD by application deadline. Eligibility is contingent on completed PhD.",
+      "Requires strong C++ skills and systems programming background. Researcher has beginner Python only, no C++ experience documented."
     ],
     "risks": [
-      "Severe skills gap: C++, distributed systems, GPU programming, Linux systems not in profile. Ramp-up time would be substantial.",
-      "Excluded direction: GPU optimization is explicitly listed as an excluded research area in target profile.",
-      "Thematic misalignment: pure ML systems infrastructure has no connection to human-centered immersive systems, spatial learning, or collaboration research.",
-      "Career direction risk: accepting this position would lock the researcher into a systems/ML track inconsistent with stated goal to become a human-centered XR/HCI researcher."
+      "Researcher does not yet hold PhD; position assumes recent PhD completion. Eligibility contingent on thesis completion before employment start.",
+      "No systems programming or distributed systems background. Steep learning curve in unfamiliar CS subfield.",
+      "Research domain (ML infrastructure optimization) is excluded direction territory: 'pure machine-learning algorithms' development. While not algorithmic ML per se, the inference optimization focus sits uncomfortably close to pure ML engineering.",
+      "2-year postdoc in systems/ML infrastructure pulls career trajectory away from target identity (human-centred XR, spatial cognition, collaborative immersive systems). Difficult to pivot back to HCI afterward without retraining.",
+      "Group culture is likely systems/performance-optimization focused, not human-centred research. Limited mentorship for transition to target identity."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -373,14 +413,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.93,
+    "confidence": 0.88,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-10-05T14:16:04.160676Z",
-    "analysis_input_hash": "e1954955fa253ccc44c7e35548e5d6f399ac1d071dbd00b182bb506851c4076b"
+    "analyzed_at": "2026-10-19T12:46:30.462820Z",
+    "analysis_input_hash": "9a4623ab2c04123178ab9cde5be4eba2d5ddcedac149f1ab87b24128898775f4"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -389,9 +429,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 13,
-    "urgency": "urgent",
-    "days_to_deadline": 3,
+    "fit_overall": 19,
+    "urgency": "medium",
+    "days_to_deadline": 39,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
