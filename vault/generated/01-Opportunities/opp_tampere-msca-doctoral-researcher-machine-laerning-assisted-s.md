@@ -1,17 +1,17 @@
 ---
 id: opp_tampere-msca-doctoral-researcher-machine-laerning-assisted-s
 type: opportunity
-title: "MSCA Doctoral Researcher (Machine-Laerning Assisted Structured Light Generation in Optical Fibers)"
+title: "MSCA Doctoral Researcher (Machine-Learning Assisted Structured Light Generation in Optical Fibers)"
 organisation: "Tampere University"
 deadline: 2026-10-21
 status: open
 eligibility_gate: uncertain
-fit_overall: 6
+fit_overall: 12
 urgency: urgent
 needs_review: true
 ---
 
-# MSCA Doctoral Researcher (Machine-Laerning Assisted Structured Light Generation in Optical Fibers)
+# MSCA Doctoral Researcher (Machine-Learning Assisted Structured Light Generation in Optical Fibers)
 
 **Organisation:** [[org_tampere_university]] (Tampere University)
 **Deadline:** 2026-10-21 (23:59 local time)
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 1)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -107,26 +107,28 @@ Hakuaika tehtävään päättyy 21.10.2026.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-MSCA-funded doctoral position in machine-learning-assisted structured light generation in multimode optical fibers. Project combines nonlinear fiber optics, structured light, ultrafast photonics, and AI to develop tunable, programmable light sources for imaging, sensing, laser processing, and industrial inspection. Position part of HiPOVor international doctoral network (15 positions across 8 European universities, 9 industrial partners).
+MSCA doctoral position in machine-learning-assisted structured light generation within multimode optical fibers at Tampere University. The work combines nonlinear fiber optics, AI/ML, and ultrafast photonics to develop programmable light sources with tunable spatial, spectral, and temporal properties for imaging, sensing, and industrial applications.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 8 |
-| Methodological fit | 5 |
-| Growth value | 2 |
-| Strategic value | 5 |
-| **Overall** | **6** |
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 20 |
+| **Overall** | **12** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cpp, photonics-domain-knowledge
+**Missing skills:** nonlinear-optics, ultrafast-photonics, optical-fiber-characterization, laser-physics, machine-learning, signal-processing
 
 **Risks:**
-- Severe domain mismatch. Researcher would be entering a specialized physics field without foundational training. Learning curve would be steep and divert focus from building expertise in target domain.
-- Position is 'pure computer vision, SLAM, robotics control, graphics rendering, GPU optimisation, embedded systems or pure ML algorithm development'—falls under researcher's stated excluded directions (pure ML algorithms, pure technical stack unconnected to human factors). While position is not strictly on that list, photonics engineering is similarly orthogonal to human-centred research.
-- No pathway to integrate or leverage researcher's existing XR, game engine, or user evaluation expertise. Supervisor and cohort would not understand researcher's background.
+- Disciplinary mismatch is severe. Photonics/laser physics knowledge gap would require 6+ months remedial learning; likelihood of success is low.
+- Research supervisors are pure photonics specialists; no HCI or XR mentorship available. Risk of intellectual isolation relative to target identity.
+- Postdoctoral collaborator would focus on multimodal ML; still no human-centred research component.
+- Project endpoint (structured light sources, not human evaluation) does not build publication track record in HCI/XR venues.
+- Degree does not match stated requirement for 'strong background in photonics, optics, laser physics or closely related field'.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-msca-doctoral-researcher-machine-laerning-assisted-s.md` and link [[opp_tampere-msca-doctoral-researcher-machine-laerning-assisted-s]]._

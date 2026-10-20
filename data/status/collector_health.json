@@ -1,22 +1,22 @@
 {
   "tampere": {
-    "last_run": "2026-10-19T12:31:22.628122+00:00",
-    "last_success": "2026-10-19T12:31:22.628122+00:00",
+    "last_run": "2026-10-20T11:07:31.323454+00:00",
+    "last_success": "2026-10-20T11:07:31.323454+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
       "fetched": 8,
       "relevant": 4,
       "created": 0,
-      "updated": 0,
-      "unchanged": 4,
+      "updated": 1,
+      "unchanged": 3,
       "candidates": 0,
       "skipped_irrelevant": 4
     }
   },
   "aalto": {
-    "last_run": "2026-10-19T12:30:56.954982+00:00",
-    "last_success": "2026-10-19T12:30:56.954982+00:00",
+    "last_run": "2026-10-20T11:07:04.463492+00:00",
+    "last_success": "2026-10-20T11:07:04.463492+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
@@ -30,18 +30,18 @@
     }
   },
   "tudelft": {
-    "last_run": "2026-10-19T12:43:07.498195+00:00",
-    "last_success": "2026-10-19T12:43:07.498195+00:00",
+    "last_run": "2026-10-20T11:19:13.807339+00:00",
+    "last_success": "2026-10-20T11:19:13.807339+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
       "fetched": 89,
-      "relevant": 61,
-      "created": 3,
-      "updated": 0,
+      "relevant": 60,
+      "created": 1,
+      "updated": 1,
       "unchanged": 58,
       "candidates": 0,
-      "skipped_irrelevant": 28
+      "skipped_irrelevant": 29
     }
   },
   "euraxess": {
@@ -60,16 +60,16 @@
     }
   },
   "varbi": {
-    "last_run": "2026-10-19T12:45:13.691523+00:00",
-    "last_success": "2026-10-19T12:45:13.691523+00:00",
+    "last_run": "2026-10-20T11:21:22.384635+00:00",
+    "last_success": "2026-10-20T11:21:22.384635+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
       "fetched": 24,
       "relevant": 13,
-      "created": 1,
-      "updated": 1,
-      "unchanged": 11,
+      "created": 0,
+      "updated": 0,
+      "unchanged": 13,
       "candidates": 0,
       "skipped_irrelevant": 11
     }

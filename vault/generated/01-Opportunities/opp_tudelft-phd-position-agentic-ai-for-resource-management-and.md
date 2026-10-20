@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 16
+fit_overall: 10
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 13)
+Gate: **uncertain** (days to deadline: 12)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -37,7 +37,10 @@ Job description
 Join the frontier of innovation in 6G: the future of mobile networks technology! In the Netherlands, a unique alliance of 60 top-notch ICT companies, semiconductor firms, and research institutions has united to spearhead specific aspects of 6G: (1) software antennas, (2) AI-driven network software, and (3) groundbreaking 6G applications. Join us as a PhD student in this prestigious Future Network Services (FNS) flagship project, where research and entrepreneurial pursuits converge.
 Future 6G infrastructures will involve multiple specialized AI agents that manage radio, transport, computing, and service resources across different domains and vendors. Although individual agents may optimize local objectives, their actions can interact, conflict, or compete for shared resources. This PhD will develop learning methods for coordinating such agentic systems under changing network conditions, incomplete information, and operational constraints. The research will build on constrained and optimistic online learning, distributed learning, and online game-theoretic methods. The developed framework will be studied in two main application areas: multi-domain resource management for AI-enabled services, and resilient network operation, including fault diagnosis, root-cause analysis, and autonomous remediation. The methods will be validated through FNS use-cases, network data, and experimental infrastructure in collaboration with industrial partners.
 You’ll be joining an internationally diverse and thriving team, providing ample opportunities for riveting sparring and knowledge sharing. Fostering a highly collaborative and friendly atmosphere, we will give you all the support you need to develop and grow. Moreover, as a valued member of the FNS consortium, you can collaborate with various partners in pursuit of integrating your AI/ML techniques into the various 6G PoCs and demos.
-Job requerements
+Here, you can watch a short introduction to one of the labs within the Networked Systems section participating in the Future Network Services flagship project, check an overview of the current TU Delft vacancies within the
+project here
+.
+Job requirements
 Become part of an expansive ecosystem shaping the development of 6G. You will benefit from training in modern communication networks, principled AI methods, and system design and evaluation approaches. Plus, you will gain exclusive access to (1) a state-of-the-art testbed where theory meets real-world application, and (2) an ecosystem that cultivates entrepreneurial endeavours.
 Are you ready to challenge yourself?
 We're seeking candidates who have, or are about to receive:
@@ -92,27 +95,28 @@ Recruitmentcode: 6Gflagship
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-PhD position in multi-agent AI coordination for 6G networks, developing learning methods for distributed agents managing radio, transport, computing, and service resources, addressing multi-domain optimization and autonomous resilient network operations.
+TU Delft PhD position in agentic AI for 6G network resource management and resilient operations. The role develops learning methods for coordinating multiple AI agents managing radio, transport, computing, and service resources under incomplete information and operational constraints, using online learning and game-theoretic approaches. Two main application areas: multi-domain resource management for AI-enabled services and resilient network operation (fault diagnosis, root-cause analysis, autonomous remediation).
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 12 |
-| Methodological fit | 15 |
-| Growth value | 3 |
-| Strategic value | 40 |
-| **Overall** | **16** |
+| Thematic fit | 0 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 35 |
+| **Overall** | **10** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** machine-learning-algorithms, game-theoretic-methods, distributed-systems, online-learning-theory, network-optimization, operations-research
+**Missing skills:** distributed-algorithms, game-theory, online-learning, network-optimization, machine-learning, systems-modelling
 
 **Risks:**
-- Core research (AI agents for network resource coordination) sits in pure systems and ML domain, far from human-centred research.
-- Supervisor (Georgios Iosifidis) specializes in AI optimization and network systems; no published work in HCI or human-centred immersive systems.
-- Would require substantial retraining in distributed systems, optimization theory, and network infrastructure fundamentally outside researcher's expertise and target trajectory.
-- Position is adjacent to excluded categories (pure ML algorithm development).
+- Disciplinary pivot is substantial. Researcher would need to build competency in distributed algorithms, game theory, and network AI from foundational level.
+- No HCI or user-facing research in the project scope; research outputs (algorithms, simulations, optimization frameworks) do not contribute to target publication venues (CHI, VR/AR conferences, immersive-systems venues).
+- Supervisors (e.g., Iosifidis) are computer scientists specializing in network AI; unlikely to provide HCI mentorship or validate human-centred methodology.
+- Project validation through 'FNS use-cases, network data, and experimental infrastructure'—no human evaluation or immersive-systems testing.
+- Three-year funding commitment could delay return to HCI-aligned research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-agentic-ai-for-resource-management-and.md` and link [[opp_tudelft-phd-position-agentic-ai-for-resource-management-and]]._

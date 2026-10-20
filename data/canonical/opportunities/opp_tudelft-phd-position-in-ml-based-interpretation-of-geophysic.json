@@ -1,0 +1,189 @@
+{
+  "id": "opp_tudelft-phd-position-in-ml-based-interpretation-of-geophysic",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-20T11:08:37.079403Z",
+  "updated_at": "2026-10-20T11:22:53.685918Z",
+  "change_history": [
+    {
+      "ts": "2026-10-20T11:08:37.079550Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-20T11:22:53.239210Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-20T11:22:53.685918Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position in ML-Based Interpretation of Geophysical Legacy Data for Mineral Exploration",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1375334857",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-ML-Based-Interpretation-of-Geophysical-Legacy-Data-for-Mineral-Exploration-2628-CD/1375334857/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-ML-Based-Interpretation-of-Geophysical-Legacy-Data-for-Mineral-Exploration-2628-CD/1375334857/",
+    "evidence_ids": [
+      "tudelft/1375334857"
+    ],
+    "retrieved_at": "2026-10-20T11:08:37.079208Z",
+    "raw_snapshot_hash": "38649cc2a39f57078efad37478efa7ff402b8b68677eca6e5e22d1aeeb3c6ffe",
+    "extracted_content_hash": "c06e28e2a45fb0d433ea61c7660d51ea8853b28b9230551f3f2a22a9edf77407",
+    "deadline": "2026-11-17",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Develop and test new methods for deep exploration of sediment-hosted copper systems by integrating legacy seismic and well-log data with basin modelling, geochemistry and machine learning.\nJob description\nWe are looking for a PhD candidate who is keen to explore how legacy seismic and well-log data acquired for petroleum exploration can be transformed into a new resource for deep mineral exploration. The candidate will combine quantitative geophysical interpretation, basin modelling and machine learning to investigate a challenging target: the thin Kupferschiefer horizon buried beneath the Netherlands and the North Sea.\nThe Dutch subsurface offers an exceptional dataset of more than 6,000 wells, including approximately 1,700 in which the Kupferschiefer has been identified, together with extensive high-quality 2D and 3D seismic reflection data and available cores. Yet these data were acquired and interpreted for hydrocarbon exploration. Recognizing and mapping a horizon a few metres thick at kilometers depth, and identifying features associated with its mineral potential, requires methods that can extract information across datasets with very different resolution, coverage and physical meaning.\nThe goal of this PhD project is to develop an integrated methodology for characterizing the Kupferschiefer and its geological context. You will analyse well logs to identify the target horizon and extrapolate it to wells where it has not yet been recognized. You will use seismic data for cross-well correlation and improved spatial characterization, and basin analysis to investigate the roles of stratigraphy, faulting and basin evolution. Geological, petrophysical, geochemical and mineralogical information will be integrated to identify characteristics and fingerprints associated with copper mineralization.\nMachine learning will be an important part of this methodological development. You will establish robust and interpretable baseline models for well-log analysis and investigate approaches designed for sequential data, including convolutional and transformer-based models. You will also contribute to multimodal methods that combine seismic, well-log, geological and geochemical information while incorporating geological knowledge and physical constraints. A postdoctoral researcher will work alongside you for one year, focusing primarily on advanced multimodal and physics-informed machine-learning developments.\nThe research is part of the EU-funded INTELLIGENT project. Results from the Dutch basin will be combined with complementary studies by other groups working on the Kupferschiefer and related systems to develop a regional-scale mineral-system model and transferable exploration workflows. Your multidisciplinary research work will be carried out within the Applied Geophysics and Petrophysics Section and the Resource Engineering Section of GSE at TU Delft. Through close collaboration with TNO, the National Materials Observatory and partners from universities, geological surveys, research institutes and industry across Europe, you will test new methodological ideas within an international network and against a real, societally relevant exploration challenge.\nJob requirements\nBeing creative and independent, you have the ability to conduct independent research and collaborate across geoscience, engineering and data-science disciplines.\nYou also have:\nAn MSc degree in geophysics, geology, earth sciences, geological or petroleum engineering, or a closely related discipline.\nInterest in applied geophysics and resource exploration and machine learning methods.\nExperience in scientific programming (preferably Python or Matlab).\nGood writing and communication skills.\nExperience in one or more of the fields below is considered an advantage:\nBasin analysis, basin modelling or sedimentary-basin evolution.\nQuantitative interpretation of seismic reflection data and well logs.\nPetrophysics, low temperature geochemistry and mineralogy.\nMachine Learning (deep learning and/or statistical learning methods).\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Valentina Socco, Geophysics (\nL.V.Socco@tudelft.nl\n), Mike Buxton, Resource Engineering (\nM.W.N.Buxton@tudelft.nl\n), or Jing Sun, Machine Learning (\ning.Sun@tudelft.nl\n).\nPlease apply via the website of TU Delft, unsolicited emails will not be considered or answered.\n#EU funded: This is an EU funded project, named INTELLIGENT: Innovative exploration technologies for deep-targeting critical mineral deposits, Horizon Europe (HORIZON) Call: HORIZON-CL4-2026-01, Project: 101345448, Coordinator Uppsala University.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n17 November 2026\nvia the application button and upload the following documents:\nMotivation letter.\nCurriculum Vitae, including a list of relevant courses.\nIf applicable, the topic of your MSc thesis.\nYou can address your application to Valentina Socco.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "TU Delft PhD position in machine-learning-based interpretation of geophysical legacy data (seismic, well-log) for mineral exploration, specifically targeting the Kupferschiefer horizon beneath the Netherlands and North Sea. The role integrates quantitative geophysical interpretation, basin modelling, ML (CNNs, transformers), and multimodal fusion to develop methods for deep mineral exploration, with a postdoctoral collaborator contributing advanced ML developments.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "No thematic connection to human-centred XR, immersive systems, spatial cognition, learning, collaboration, or wayfinding. The position is geophysics and subsurface resource exploration—a domain entirely outside HCI, XR, and learning sciences."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "The position emphasizes ML for sequential data (CNNs, transformers), multimodal fusion, and quantitative interpretation of technical data. The researcher has intermediate quantitative-research and experimental-design skills, but these are rooted in HCI evaluation (user studies, spatial performance measures) rather than geophysical data interpretation. There is no methodological overlap in core disciplines: geophysics, basin analysis, petrophysics versus spatial cognition, immersive design, and human evaluation."
+    },
+    "growth_value": {
+      "score": 15,
+      "rationale": "The researcher would gain exposure to advanced ML (transformers, multimodal fusion) and physics-informed learning—valuable capabilities. However, these would be applied to geophysics, not immersive systems or spatial cognition. No advancement in eye-tracking, physiological sensing, or HCI-specific statistical methods. Growth trajectory diverges sharply from target identity and closes no HCI-relevant capability gaps."
+    },
+    "strategic_value": {
+      "score": 40,
+      "rationale": "TU Delft is a top-tier institution in a priority country (Netherlands). The INTELLIGENT project is EU-funded (Horizon Europe), well-resourced, and embedded in a strong international network across geoscience, industry, and policy. The Faculty of Civil Engineering & Geosciences is excellent for earth sciences. However, the research culture, supervisor expertise (geophysics, resource engineering), and publication venues (geoscience journals, not HCI) do not align with target identity. Strong institutional/funding position, but wrong research ecosystem."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "machine-learning",
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "deep-learning",
+      "convolutional-neural-networks",
+      "transformer-models",
+      "multimodal-machine-learning",
+      "physics-informed-learning",
+      "geophysics",
+      "seismic-interpretation",
+      "well-log-analysis",
+      "basin-modelling",
+      "petrophysics",
+      "geochemistry"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc in geophysics, geology, earth sciences, or closely related discipline. MMU Creative Multimedia does not satisfy this requirement.",
+      "Position seeks 'creative and independent' researchers and lists advantage skills (basin analysis, seismic interpretation, petrophysics, low-temperature geochemistry, ML); researcher has none of these.",
+      "Position explicitly states 'interest in applied geophysics and resource exploration and machine learning methods' as a requirement; researcher has no demonstrated interest in geophysics or resource exploration.",
+      "Postdoctoral researcher will drive advanced ML; PhD role will focus on well-log analysis, seismic cross-well correlation, and integration—more domain-specific than algorithmic research."
+    ],
+    "risks": [
+      "Disciplinary pivot is fundamental. Researcher would require retraining in geophysics, geology, seismic interpretation, and petrophysics; foundational knowledge gaps are substantial.",
+      "No HCI, user-facing research, or human evaluation in project scope. Outcomes are geophysical interpretation methods, not immersive systems or spatial-cognition research.",
+      "Supervisory team (Socco, Buxton, Sun) are geophysicists and resource engineers; no HCI mentorship or validation of human-centred methodology.",
+      "Publication track record would be in geoscience venues (Geophysics, Geology, resource journals), not HCI or immersive-systems conferences—misalignment with target research identity.",
+      "Four-year commitment to geophysics could solidify divergence from HCI/XR career trajectory.",
+      "Research does not build skills in eye-tracking, physiological sensing, immersive design, or collaboration dynamics—critical gaps in researcher's profile for HCI PhD pathway."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.94,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-20T11:22:53.238858Z",
+    "analysis_input_hash": "f3be80c0d3e7c6b4d529e1f8a5710787b5f7c0ed8729983f9d6baa4e5c88bcb7"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 15,
+    "urgency": "medium",
+    "days_to_deadline": 28,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
