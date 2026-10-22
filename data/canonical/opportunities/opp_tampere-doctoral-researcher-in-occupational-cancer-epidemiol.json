@@ -1,0 +1,175 @@
+{
+  "id": "opp_tampere-doctoral-researcher-in-occupational-cancer-epidemiol",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-22T11:23:12.408071Z",
+  "updated_at": "2026-10-22T11:44:40.495879Z",
+  "change_history": [
+    {
+      "ts": "2026-10-22T11:23:12.408222Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-22T11:44:40.203328Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-22T11:44:40.495879Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher in Occupational Cancer Epidemiology (NordExCan)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3202",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3202",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3202#login_form",
+    "evidence_ids": [
+      "tampere/3202"
+    ],
+    "retrieved_at": "2026-10-22T11:23:12.407892Z",
+    "raw_snapshot_hash": "c80cb5768393ace0fd37894d4c6e7c2b60c15ac5dd1c90fd953a2614033a7d72",
+    "extracted_content_hash": "1a3db6ab70d9d049d4df58cea2d9b384882f24c8a398b42ca94c138d05ec1233",
+    "deadline": "2026-11-15",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-10-21",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Tampere University\nis a unique, boldly future‑oriented and evolving community, and one of Finland’s most multidisciplinary universities. At Tampere University, technology, health and society come together in a distinctive way. Our research groups and projects carry out interdisciplinary and cross-sectoral research that transcends organisational boundaries. Our community is international, with members from more than 80 countries. Read more at\nhttps://www.tuni.fi/en/tau\nThe Faculty of Social Sciences\nand\nHealth Sciences Unit\n(HES) at Tampere University invite applications for the position of\nDoctoral Researcher in Occupational Cancer Epidemiology for a fixed-term period of 3 years starting in January 2027\n(or as agreed).\nThe Health Sciences unit provides a collaborative setting with multidisciplinary and multimethodological strengths in population health, supporting rigorous and impactful doctoral research.\nOur doctoral programs in\nHealth Sciences\n,\nEpidemiology and Public Health (IPPE)\n, and\nMedicine\noffer a strong methodological and research environment for completing an ongoing doctoral project within established research groups at the Health Sciences Unit. The programs provide advanced training in key areas of population health, supporting high-quality publication-oriented research and researcher training.\nJob description\nThe doctoral researcher will join the research project\n“The Nordic Occupational Exposome and Cancer: Decades of Change, Mixtures, and Inequalities” (NordExCan)\n, led by Principal Investigator Dr. Subas Neupane. The project examines how occupational exposures change over working life and how these exposures, individually and in combination, are associated with cancer incidence, mortality, and inequalities in the Nordic countries. The research builds on the Nordic Occupational Cancer (NOCCA) cohort and Nordic job-exposure matrices, using occupational histories and population and cancer registry data from Finland, Sweden, Norway, Denmark, and Iceland.\nThe doctoral researcher will mainly work on\nWork Package 1\n, focusing on occupational exposure histories and their associations with cancer incidence. The work includes harmonising occupational and registry data, estimating cumulative and time-varying exposures, and examining the effects of exposure mixtures and changes in exposure over working life. The doctoral researcher will use epidemiological and statistical methods to investigate cancer risks, including differences by sex and socioeconomic position. Depending on the research needs, the doctoral researcher may also contribute to other work packages covering rare cancers, cancer survival, and causal pathways.\nThe doctoral researcher will conduct research leading to a doctoral dissertation and contribute to scientific publications and conference presentations. The position also involves participating in project meetings and working closely with the Nordic research team. The research will be based on registry data analysed in secure environments using reproducible statistical methods.\nQualifications\nA Master's degree in epidemiology, public health, biostatistics, health sciences, data science, or a related field is required. The selected candidate must also meet the requirements for admission to a relevant doctoral programme at Tampere University. Applicants may be required to provide proof of English proficiency, such as IELTS or TOEFL scores, in accordance with the university's admission requirements.\nWe are looking for a candidate with an interest in occupational and cancer epidemiology and good skills in quantitative research and statistical analysis. The candidate should be able to work independently and as part of a research team. Good written and spoken English skills are required.\nThe selected candidate must also meet the requirements for admission to a relevant doctoral programme (\nDoctoral Programme in Health Sciences\nor\nInternational Doctoral Programme in Epidemiology and Public Health\n) at Tampere University.\nPrevious experience in statistical programming, particularly R, and working with large-scale registry or longitudinal data will be considered an advantage. Experience in exposure assessment, survival analysis, or other epidemiological methods is also valuable. Familiarity with job-exposure matrices, time-varying exposures, multilevel models, or causal inference would be beneficial, but is not required. Previous experience with Nordic registry data is not required.\nWe offer\nThe position is fixed-term for 3 years starting in January 2027. A trial period of six months applies to all new employees at Tampere University.\nThe salary will be based on\nthe University Salary System\n. The salary of a doctoral researcher is at levels 2-4. In addition to the basic salary, a supplementary portion of the salary will be paid based on the appointee’s qualifications and experience. A typical starting salary is approximately 2 800 € / month.\nMost of the research will take place physically in Tampere, Finland. The appointee is expected to reside in Finland while employed by Tampere University. International staff are supported in relocating to Finland.\nTampere University is an internationally renowned research university. We offer a wide range of staff benefits, such as occupational health care, flexible working hours, and excellent sports facilities on campus. Please read more about\nworking at Tampere University\n. For more information about Tampere, please see\nWork In Tampere\n. For further information about Finland, please visit\nInfoFinland\nand\nThis is Finland\n.\nHow to apply\nPlease submit your application through our online recruitment system (link below).\nThe closing date for applications is 15\nth\nNovember, 2026 (23:59 EET/UTC +2).\nPlease attach the following documents to your application:\nBrief CV, (max. 3 pages including a list of publications.\nShort (max. 1 page) motivation letter describing research interests, relevant experience, and suitability for the position.\nDegree certificates and transcripts, and a brief description of previous research experience (a master’s thesis).\nEnquiries\nFor further information about the position please contact Dr. Subas Neupane (\nsubas.neupane@tuni.fi\n).\n***********************************************************************\nTampereen yliopisto hakee\nväitöskirjatutkijaa\nNordExCan-hankkeeseen kolmen vuoden sopimuksella. Tehtävä tarjoaa mahdollisuuden tehdä kansainvälisesti merkittävää tutkimusta työperäisten altisteiden, syövän ja terveyserojen yhteyksistä hyödyntäen ainutlaatuisia pohjoismaisia rekisteriaineistoja.\nTutustu tehtävään, kelpoisuusvaatimuksiin ja hakuohjeisiin tarkemmin yllä olevasta englanninkielisestä ilmoituksesta.\nHakuaika päättyy\n15.11.2026."
+  },
+  "ai": {
+    "summary": "Doctoral position at Tampere University within the NordExCan project investigating occupational exposures and cancer incidence across Nordic countries. Work focuses on harmonizing registry data, estimating cumulative and time-varying exposures, and examining cancer risk associations by sex and socioeconomic position.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 2,
+      "rationale": "Zero thematic alignment. Position is in occupational epidemiology and cancer research. Target researcher focuses on human-centred XR, collaborative immersive systems, spatial cognition, and learning—entirely different domains with no conceptual overlap."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Candidate has intermediate quantitative research, statistics (basic), and experimental design skills. Position requires epidemiological methods, survival analysis, and multilevel modelling. While both involve quantitative methodology, the specific tools (mixed-effects modelling, survival analysis, large-scale registry data) are not present in candidate's profile and the research context (public health vs. HCI) is fundamentally misaligned."
+    },
+    "growth_value": {
+      "score": 3,
+      "rationale": "Would develop statistical and quantitative skills but in a domain (epidemiology) orthogonal to target identity. No value toward spatial cognition, immersive learning, collaborative systems, or HCI. Would represent complete career pivot."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Tampere University is a target-priority institution (Priority 2) and position offers 3-year funded doctoral opportunity. However, research group has no connection to XR, HCI, or learning sciences. Funding stability and institutional location cannot offset fundamental domain mismatch."
+    },
+    "required_skills": [
+      "quantitative-research",
+      "statistics",
+      "r",
+      "mixed-effects-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "statistics"
+    ],
+    "missing_skills": [
+      "r",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires Master's degree in epidemiology, public health, biostatistics, or related field; candidate holds MSc in Creative Multimedia (HCI/XR focused). Eligibility contingent on admission to doctoral programme.",
+      "Candidate must meet Tampere University doctoral programme admission requirements, which may favour epidemiology/biostatistics backgrounds.",
+      "Position requires working with Nordic registry data in secure environments; candidate has no stated experience with health data systems."
+    ],
+    "risks": [
+      "Extreme domain mismatch: occupational epidemiology is unrelated to any aspect of candidate's research profile or target identity.",
+      "Candidate lacks required epidemiological background and would need to build entirely new expertise.",
+      "Registry data and survival analysis are far from candidate's core competencies.",
+      "Accepting this role would represent a radical departure from target career path toward human-centred XR."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-22T11:44:40.203081Z",
+    "analysis_input_hash": "e8e3d03f6c839c17ca91b8bbe11c631e1c15c822ba3d35c00818d204d1d4f560"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 9,
+    "urgency": "medium",
+    "days_to_deadline": 24,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "opp_varbi-postdoc-in-icme-for-electron-beam-powder-bed-fusion",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-22T11:35:20.974348Z",
+  "updated_at": "2026-10-22T11:44:40.794133Z",
+  "change_history": [
+    {
+      "ts": "2026-10-22T11:35:20.974512Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-22T11:44:40.204940Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-22T11:44:40.794133Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc in ICME for electron beam powder bed fusion",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-980986",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:980986/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-980986"
+    ],
+    "retrieved_at": "2026-10-22T11:35:20.974132Z",
+    "raw_snapshot_hash": "d3fb41a3aad22a6dffe0ca451ac8ec9c041337b98aa57b11b8c8f6d4571c509d",
+    "extracted_content_hash": "e0ec2d90d8dd706c4bb31d2aa21ceff4c7eae37df642892c4b7b3b755f89c1ae",
+    "deadline": "2026-11-20",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Postdoc in ICME for electron beam powder bed fusion\nLogin and apply\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nJob description\nAt KTH Royal Institute of Technology, XPRES (the Centre of Excellence in Production Research) is a long-term national initiative to strengthen production science. Established in 2010, XPRES brings together KTH, Mälardalen University, RISE, and Swerim in close collaboration with leading industry to advance sustainable, digitalized, and human-centric manufacturing. We now invite outstanding candidates to join this dynamic, multi-partner research environment as postdoctoral researchers.\nWe are looking for a postdoctoral researcher to advance the understanding of process-microstructure-property relationships in metal additive manufacturing, with a focus on electron beam powder bed fusion (PBF-EB).\nThe project investigates how process strategy, geometry and thermal history influence local microstructure and material properties in complex components. Using an Integrated Computational Materials Engineering (ICME) approach, modeling, process data and experimental characterization will be combined to link processing conditions to material behavior and structural integrity.\nDepending on your background, the work may include materials, process and microstructure modeling, process-data analysis, materials characterization and mechanical testing.\nThe project is based at the Department of Materials Science and Engineering and carried out within XPRES, in close collaboration with researchers in materials science, structural mechanics and production engineering. You will have the opportunity to shape the scientific direction and develop new methods at the interface between these fields.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.\nResearch expertise in materials science, materials engineering, mechanical engineering, manufacturing engineering or another field relevant to the project.\nDemonstrated research experience in metallic materials and additive manufacturing, rapid solidification, computational materials science, materials modelling or a closely related area.\nExperience of connecting computational or theoretical approaches with experimental data or materials characterization.\nAbility to independently formulate and address scientific research questions.\nGood collaborative abilities and an interest in working across disciplinary boundaries.\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline.\nExperience with Integrated Computational Materials Engineering (ICME), CALPHAD, microstructure modelling, process modelling, or related computational method.\nExperience with powder bed fusion or other metal additive manufacturing processes.\nExperience of combining modeling and experiments in materials research.\nScientific publications demonstrating a high level of research expertise.\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3575\nContact\nGreta Lindwall, gretal@kth.se\nPublished\n21.Oct.2026\nLast application date\n20.Nov.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "Postdoctoral position at KTH Royal Institute of Technology within the XPRES Centre of Excellence, focused on understanding process-microstructure-property relationships in metal additive manufacturing, specifically electron beam powder bed fusion. Uses Integrated Computational Materials Engineering (ICME) to link processing conditions to material behaviour and structural integrity.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "Zero thematic alignment. Position focuses on materials science, computational materials engineering, and metal additive manufacturing. Candidate's domains are human-centred XR, collaborative immersive systems, spatial cognition, and learning. No intersection in research questions, phenomena, or outcomes."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Position emphasizes computational materials modelling (CALPHAD, microstructure modelling, ICME), experimental characterization, and mechanical testing. Candidate's methodologies are user-centred (user studies, experimental design for human outcomes, spatial learning evaluation). While both involve modelling and experiments, the target domains (material properties vs. human cognition and interaction) are fundamentally different. Python is a shared language, but applied in entirely different contexts."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Would develop materials modelling and computational engineering expertise but in a domain orthogonal to target identity. No pathway to spatial cognition, collaborative systems, HCI, or learning research. Represents significant career detour with limited transferable value to human-centred XR."
+    },
+    "strategic_value": {
+      "score": 30,
+      "rationale": "KTH is a respected technical university in a target country (Sweden). XPRES is a prestigious, multi-partner national research initiative with industry connections and strong funding. However, the Department of Materials Science and Engineering and additive manufacturing focus have no demonstrated connection to HCI, XR, learning sciences, or human-centred design. Institutional prestige cannot compensate for domain mismatch."
+    },
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD or equivalent foreign degree obtained within the last three years prior to application deadline. Candidate holds MSc in progress. Eligibility contingent on thesis completion and degree conferment.",
+      "Position prioritizes candidates with specific expertise in materials science, metallic materials, additive manufacturing, CALPHAD, microstructure modelling, or ICME. Candidate has none of these.",
+      "Candidate must demonstrate experience connecting computational approaches with experimental materials characterization—experience candidate does not possess."
+    ],
+    "risks": [
+      "Fundamental domain mismatch: materials engineering and additive manufacturing are unrelated to human-centred XR or HCI.",
+      "Position requires deep materials science and ICME background; candidate lacks formal training.",
+      "Work is highly technical and domain-specific; risk of underperformance and poor fit.",
+      "Would delay progression toward target identity as human-centred XR researcher.",
+      "Selection committee would likely question motivation for materials science pivot."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-22T11:44:40.204685Z",
+    "analysis_input_hash": "fa20e95bdebeb8b2c4959a1011c3407ac9450ef258c513178dd1356230d6256c"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 9,
+    "urgency": "medium",
+    "days_to_deadline": 29,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

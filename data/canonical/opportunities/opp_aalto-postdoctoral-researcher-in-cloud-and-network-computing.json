@@ -1,0 +1,172 @@
+{
+  "id": "opp_aalto-postdoctoral-researcher-in-cloud-and-network-computing",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-22T11:22:52.376729Z",
+  "updated_at": "2026-10-22T11:44:40.444516Z",
+  "change_history": [
+    {
+      "ts": "2026-10-22T11:22:52.376917Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-22T11:44:40.202445Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-22T11:44:40.444516Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral researcher in Cloud and Network Computing",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "postdoctoral-researcher-in-cloud-and-network-computing",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-cloud-and-network-computing",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Postdoctoral-researcher-in-Cloud-and-Network-Computing_R48427-2/apply",
+    "evidence_ids": [
+      "aalto/postdoctoral-researcher-in-cloud-and-network-computing"
+    ],
+    "retrieved_at": "2026-10-22T11:22:52.376476Z",
+    "raw_snapshot_hash": "26587b8954f73a458538ae738708e3042c3a31ef91f29b324828855c69660b31",
+    "extracted_content_hash": "62147eb23665ceee5328070f60a431b7ea1f1516a4ec93f99439b7d5691cf07d",
+    "deadline": "2026-12-30",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-10-21",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "We are recruiting one\npostdoctoral researcher\nto join our team.\nYour role\nYou will define and lead a research agenda at the intersection of multimodal large language models and networking, examples include semantic and context-aware networking, resource management in edge computing systems, and AI-native network control. An important part of the role is designing and building realistic simulators to generate data, evaluate algorithms, and study network behavior under dynamic conditions. Our ongoing project funded through NSF and RCF joint project provides a motivating public-safety communication context.\nYou will work closely with the PI and with international collaborators, and will take a leading role in mentoring PhD and Master's students while advancing your independent research profile.\nThe position requires\nPhD in computer science, telecommunications / electrical engineering, or a related field\nExcellent research track record in networking or MLLMs or LLMs\nDemonstrated experience in building and designing simulation environments\nMerit: Experience in developing algorithms for resource management\nAbility to provide guidance and mentorship to doctoral researchers and master’s students, and collaborate with diverse research groups\nWhat we offer\nYou will become a part of the Cloud and Network Computing group, headed by assistant professor Gopika Premsankar. Our group is dedicated to advancing research in networked systems, primarily focused on lowering the environmental footprint of such systems while enhancing performance and reliability. The NSF-RCF joint project provides opportunities for visiting collaborators in North Carolina State University and Penn State University. The role is fully funded for 2 years, with the possibility of a longer stay.\nYou will receive a competitive salary, starting at approximately 4220 EUR / month for a postdoctoral researcher. The contract includes comprehensive occupational health benefits.\nApplication documents\nTo apply, please share the following application materials with us through our recruitment site (\"Apply now!” button at the bottom of the page):\nA CV\nA short letter of motivation, at most 1 page, which describes your interest and motivation (please try to include details that are not part of your CV and directly address the requirements listed above)\nSample code for simulations, preferably on a code repository\nNames and email addresses of those who could provide a reference letter (at least two are required). They will be contacted directly at a later stage in the application process.\nPublication list with 1 or 2 key publications highlighted. At the end of the list, please describe in one paragraph the relevance of the highlighted publication(s) to the role.\nApplication process\nThe application deadline is December 30th, 2026\n(23:59 EET). We will go through applications in batches, and we will invite suitable candidates to interview already before the application deadline. The position will be closed once the position is filled.\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions).\nMore information\nFor more information about the position, please contact Gopika Premsankar (gopika.premsankar@aalto.fi).  For questions about the application process, please contact HR Advisor Johanna Haapalainen at hr-elec@aalto.fi.\nWhy Finland and why this group\nAalto University provides a vibrant and collaborative environment. We work in a hybrid way, and the primary workplace is Otaniemi, Espoo. The Otaniemi campus is a thriving and connected community of 100 nationalities, 16,000 students and 5,200 employees. Life at the campus is vibrant and filled with amazing architecture, calming nature, and a variety of cafes, restaurants, services and good transport connections.\nFinland is a great place for living – it is a safe, politically stable and well-organized Nordic society. For more information about living in Finland:\nhttps://www.aalto.fi/en/careers-at-aalto/living-in-finland\n&\nhttps://www.aalto.fi/en/services/welcome-to-aalto-university-and-finland-info-package\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand check out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Postdoctoral position at Aalto University focused on multimodal large language models and networking, including semantic-aware networking, edge computing resource management, and AI-native network control. Requires building simulation environments to generate data and evaluate algorithms in a public-safety communication context.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No overlap with human-centred XR, collaborative immersive systems, spatial cognition, or learning domains. Position is fundamentally about networking infrastructure and LLMs, not human-computer interaction or immersive systems design."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "While the position involves simulation building (tangentially relevant), the core work is algorithm development, resource management, and network control—domains far removed from experimental design, user studies, and human-centred evaluation. No connection to immersive technology or HCI methodology."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Position would develop simulation and algorithmic skills but offers no pathway to spatial cognition, collaborative immersive systems, or HCI expertise. Would represent a significant detour from target identity as a human-centred XR researcher."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "Aalto is a target-priority institution and position offers 2-year funding stability and mentoring opportunities. However, the research group (Cloud and Network Computing) has no demonstrable connection to HCI, XR, learning sciences, or human-centred design—making institutional prestige alone insufficient."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD; candidate holds MSc in progress. Eligibility contingent on thesis completion and formal degree conferment.",
+      "Position is titled 'postdoctoral' but candidate may not meet the postdoc eligibility window if thesis completion extends into 2027."
+    ],
+    "risks": [
+      "Fundamental domain mismatch: networking/LLMs versus human-centred immersive systems.",
+      "Position emphasizes algorithm development and simulator design, not user-centred evaluation or interaction design.",
+      "No evidence the Cloud and Network Computing group has prior work in XR, learning, or HCI.",
+      "Accepting this role would delay or derail progress toward stated target identity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-22T11:44:40.201989Z",
+    "analysis_input_hash": "e5eab1f6a5fdc5dae7cba2c80b12bcf7ff6d70e47c8b3bb0fbcd2464a3be17c2"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 10,
+    "urgency": "low",
+    "days_to_deadline": 69,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

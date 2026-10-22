@@ -1,0 +1,173 @@
+{
+  "id": "opp_tudelft-phd-position-in-digital-twins-for-flood-resilient-in",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-22T11:24:36.782774Z",
+  "updated_at": "2026-10-22T11:44:40.574906Z",
+  "change_history": [
+    {
+      "ts": "2026-10-22T11:24:36.782932Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-22T11:44:40.204154Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-22T11:44:40.574906Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position in Digital Twins for Flood-Resilient Infrastructure",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1375576057",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Digital-Twins-for-Flood-Resilient-Infrastructure-2628-CD/1375576057/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Digital-Twins-for-Flood-Resilient-Infrastructure-2628-CD/1375576057/",
+    "evidence_ids": [
+      "tudelft/1375576057"
+    ],
+    "retrieved_at": "2026-10-22T11:24:36.782612Z",
+    "raw_snapshot_hash": "fb8d62be992c74776d55393956d6f3b36000fdc41dfbce575aafd54b28291fc0",
+    "extracted_content_hash": "e03d95bfdcc2debe69e41441585835bae2024f75d424c51b975165a02f29f74f",
+    "deadline": "2026-11-18",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Develop and implement a Digital Twin that strengthens our ability to protect critical infrastructure against flooding.\nJob description\nCurrent and future impact of flooding to critical infrastructure (e.g. dikes, bridges) is a major concern worldwide. Unfortunately, the management of flood-prone structures is extremely challenging because underlying processes are complex and uncertain. If our capacity to anticipate flood-induced impacts on infrastructure does not improve, societal and economic consequences are likely to be unsustainable.\nDigital Twins (DTs) offer a promising opportunity to combine recent advances in modelling, data assimilation and machine learning. However, for DTs to support the management of flood-prone infrastructure, they must be effectively integrated with flood-risk modelling. The scientific challenge is to develop methods that enable Digital Twins to leverage multiple models, datasets and computational techniques to improve predictive capacity in real flood-risk contexts.\nFlooDT (Digital Twin for flood-resilient infrastructure management) is a prestigious and ambitious project funded by NWO. It aims to develop a new methodological framework to exploit the capability of DTs for managing flood risk “from climate prediction to structure protection”. TU Delft is leading the project and a consortium that involves multiple universities (e.g. ETH Zurich, Univ. Polytechnica of Catalunya) and stakeholders (e.g. Deltares, Rijkswaterstaat). The project has also the support of the TU Delft Digital Competence Centre (DCC).\nFor this unique project we are seeking a motivated and talented PhD candidate for a 4-year appointment. In your role you will:\nDevelop functional modules for Digital Twins, such as risk analysis, scenario modelling and processing of monitoring data.\nDevelop hybrid (physics based/machine learning) modelling for flood risk.\nApply and validate the Digital Twin functionalities for simplified representation of infrastructure (first) and real case studies (second).\nImplement the developed functionalities into end users' platforms.\nCo-organise workshops and co-coordinate stakeholder engagement (e.g. regular meetings, presentations, visits).\nYou will join the FlooDT team and the Flood Risk and Hydraulic Structures section, a collaborative and international team where curiosity, interdisciplinary research and scientific excellence are valued. Our section closely collaborates with the other sections within the Department of Hydraulic Engineering, other departments within our Faculty of Civil Engineering and Geoscience and many research groups around the world. We offer strong support for your professional growth, including mentoring, training, and ample opportunities for international collaboration and networking.\nThis position will open doors to exciting career opportunities in both academia and the future-facing companies that are shaping the next generation of digital technologies.\nJob requirements\nWe are looking for an excellent, enthusiastic and inquisitive computational researcher who enjoys working in an international and multidisciplinary environment. You have:\nA MSc degree in Civil Engineering, Computer Science or Hydro-informatics (or in a related discipline).\nDemostrated experience in numerical modelling, hydrodynamic simulation and data management.\nScientific and/or practical knowledge of machine learning.\nExcellent programming skills (e.g. in Python, SQL, Java, PyTorch, etc.).\nA critical, creative and pro-active approach to research, with distinctive problem-solving skills.\nProven experience with writing scientific reports/publications.\nConfidence/willingness in engaging with partners and stakeholders.\nExcellent command of English (oral and written).\nPrevious internship experience with non-academic institutions is desiderable.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nC\nonditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nAll information are cointained here and general questions will not be answered. For specific requests, please contact Maria Pregnolato (\nm.pregnolato@tudelft.nl\n).\nAfter the first selection, online interviews will be held in December.\nThe candidate is expected to start in March/April 2027.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n18 November 2026\nvia the application button and upload the following documents:\nCV (max 4 pages).\nCover letter (max 1 page) describing your motivation and qualifications for the position.\nApplicants selected for an interview will be asked to provide contact information of at least 2 references.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position at TU Delft developing digital twins for managing flood-resilient infrastructure. Work combines modelling, data assimilation, and machine learning to integrate flood-risk modelling with digital twin frameworks. Project is part of the NWO-funded FlooDT consortium involving multiple universities and stakeholders.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 35,
+      "rationale": "Candidate's research includes digital twin design and development (campus orientation metaverse/digital twin); position also centres on digital twins. However, candidate's digital twin is human-centred, focused on spatial learning and collaboration, while FlooDT's focus is infrastructure monitoring, physics-based modelling, and risk prediction. No connection to human-centred design, learning outcomes, or collaborative interaction—core to candidate's identity."
+    },
+    "methodological_fit": {
+      "score": 50,
+      "rationale": "Moderate alignment on computational and data-handling methodology. Candidate has advanced programming (C#, Unity), intermediate experimental design, and user-studies experience. Position requires Python/SQL, machine learning, data management, and numerical modelling. Candidate's design-science and user-centred methodologies are orthogonal to position's focus on physics-based and ML-driven modelling. However, both involve computational systems and data work. Significant reskilling in physics-based modelling, hydrology, and ML would be required."
+    },
+    "growth_value": {
+      "score": 45,
+      "rationale": "Would develop Python proficiency, machine learning, numerical modelling, and data assimilation skills—genuinely valuable for future HCI/XR work involving complex systems. However, does not directly advance spatial cognition, collaborative immersive systems, or learning sciences expertise. Would close a gap in computational depth but not in the specific HCI domains candidate targets."
+    },
+    "strategic_value": {
+      "score": 70,
+      "rationale": "TU Delft is a target-priority institution (Priority 1). Position offers 4-year funded PhD in a prestigious, well-resourced consortium environment with international collaborators (ETH Zurich, UPC). Strong mentoring and professional development support. Institutional prestige, funding stability, and European location align with constraints. However, research group focuses on hydraulic engineering and computational modelling, not HCI or XR."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc in Civil Engineering, Computer Science, Hydro-informatics, or related discipline. Candidate holds MSc in Creative Multimedia (not traditionally aligned). Eligibility contingent on whether institution accepts interdisciplinary background.",
+      "Position expects strong numerical modelling and hydrodynamic simulation background; candidate has no formal training or experience in these areas.",
+      "Candidate must meet TU Delft Graduate School English proficiency requirements (likely met given first-author publications)."
+    ],
+    "risks": [
+      "Thematic mismatch: infrastructure resilience is not a primary target domain for candidate. Would require justifying career pivot to selection committee.",
+      "Candidate lacks formal background in civil engineering, hydraulics, or hydro-informatics—significant prerequisites.",
+      "Work is physics-driven and infrastructure-focused; candidate's strength is human-centred interaction design. Risk of underperformance in domain-specific modelling.",
+      "4-year commitment in infrastructure domain may delay return to human-centred XR / spatial learning research.",
+      "Digital twin in this context is a simulation/prediction tool, not an interactive, collaborative, human-centred system—fundamentally different from candidate's vision."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.8,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-22T11:44:40.203912Z",
+    "analysis_input_hash": "b3ac861d0e2ab851f23cd14a3e2f1b4df747098f965fb2cd8f9df8dea44b0595"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 47,
+    "urgency": "medium",
+    "days_to_deadline": 27,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
