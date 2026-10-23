@@ -1,0 +1,187 @@
+{
+  "id": "opp_tudelft-postdoc-markerless-motion-capture-for-home-monitorin-2",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-23T11:15:29.405643Z",
+  "updated_at": "2026-10-23T11:29:18.448226Z",
+  "change_history": [
+    {
+      "ts": "2026-10-23T11:15:29.405803Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-23T11:29:06.516015Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-23T11:29:18.448226Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Markerless Motion Capture for Home Monitoring in Neurological Populations",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1375594157",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Markerless-Motion-Capture-for-Home-Monitoring-in-Neurological-Populations-2628-CD/1375594157/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Markerless-Motion-Capture-for-Home-Monitoring-in-Neurological-Populations-2628-CD/1375594157/",
+    "evidence_ids": [
+      "tudelft/1375594157"
+    ],
+    "retrieved_at": "2026-10-23T11:15:29.405447Z",
+    "raw_snapshot_hash": "0dcd0ba7fdd62fc674d3f4a08c56bd85509e3b58a52294c2517c97411bea0879",
+    "extracted_content_hash": "91c7b802379e2f032edf000f854517512a7bb2ec4fde91e1a5c1053860659b73",
+    "deadline": "2026-11-13",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Are you passionate about shaping the future of healthcare? Do you want to develop technology that truly matters in people’s lives? Join us in creating radical innovations that support patients at home\nJob description\nThe department of Biomechanical Engineering TU Delft seeks a motivated postdoctoral researcher with a background in biomechanical engineering for a full-time, fully funded project on the clinical validation of single-camera markerless motion capture for assessment and long-term home monitoring of motor impairments in stroke and Parkinson's disease patients. The position is based at TU Delft, supervised by Dr. Eline van der Kruk and Dr. Ajay Seth, with measurements at clinical partner sites and in patients' homes, and part of your time spent on-site at Model Health (Leuven, Belgium) to co-develop the home-based prototype. You will work closely with clinicians, patients, and Model Health, embedded in the multidisciplinary \"Care is coming home!\" program, a 5-year consortium of 2 technical universities (TU Delft, UTwente), 6 hospitals, 13 companies (including Model Health), 1 rehabilitation centre, and 5 patient organisations.\nThe Challenge\nReliable, long-term monitoring of motor impairments outside the clinic is essential to support home-based rehabilitation, yet existing markerless motion capture systems are rarely validated on neurological gait patterns and struggle to generalize across pathology, body morphology, camera viewpoint, and home environments. Before such systems can support clinical decisions, we need to know how accurate they really are, for which patients, and under which conditions. We also need to understand which outcome measures are valid and meaningful to patients, caregivers and clinicians.This position aims to close that gap: you will verify and validate a single-camera markerless motion capture system against gold-standard 3D marker-based motion capture and musculoskeletal models, first in the lab and then in patients' homes, linking biomechanical accuracy to clinically meaningful outcomes.\nYou will:\n• Assess the accuracy of markerless outcome measures against marker-based 3D motion capture and musculoskeletal modelling in people with stroke and Parkinson’s disease.\n• Use musculoskeletal modelling to compare markerless and marker-based estimates, evaluate their biomechanical plausibility and perform sensitivity analyses\n• Evaluate whether these outcome measures are valid, meaningful, and acceptable in the home environment, in collaboration with patients, caregivers and clinicians\n• Generate biomechanically realistic synthetic movement data from musculoskeletal simulations to train and improve markerless motion capture models\n• Design and carry out home measurements with a single-camera prototype developed together with Model Health, and compare its real-world performance with lab-based measurements\n• Contribute to clinician-facing visualization of the results, with privacy-by-design protection of patients and their home environment\nYou will translate this into a research plan aimed at peer-reviewed publications, alongside consortium deliverables.\nOur offer\nYou will become part of the funded research program in the Netherlands named 'Care is coming home!', which involves 9 PhDs and 5 Postdocs. So, we offer an excellent inspiring, collaborative, and international research environment, with access to leading experts in medical technology and AI-driven healthcare solutions. Additionally, you will have access to state-of-the-art labs, clinical partners, and patient organisations, which are preconditions to make a meaningful contribution to the future of sustainable healthcare.\n• Full-time postdoctoral position for one year, with the possibility of extension by up to two years\n• Excellent mentorship and a stimulating international research environment with excellent facilities\nJob requirements\nWe are seeking an ambitious, hands-on postdoctoral researcher who wants to find out whether markerless motion capture truly works for patients, in the lab and at home. You combine a strong engineering background in biomechanics with the communication skills to work directly with clinicians and patients.\nYou bring:\n• A PhD in Biomechanical Engineering, Biomedical Engineering, Human Movement Sciences, or a related engineering discipline.\n• Hands-on experience with musculoskeletal modelling (e.g., OpenSim, AnyBody), including critical evaluation of model outputs.\n• Experience with marker-based 3D motion capture (e.g., Vicon, Qualisys) and force plates, from protocol design to data processing.\n• Strong programming skills (e.g., Python and/or MATLAB) for data processing, analysis pipelines, and statistics; experience with markerless or video-based pose estimation (e.g., OpenCap) is a plus.\n• Experience with, or a strong motivation to work on, measurements in patient populations, preferably people with stroke or Parkinson’s disease.\n• Excellent communication and organization skills to explain technology clearly to clinicians and to work with patients, including in their home environment.\n• Willingness to travel regularly to Model Health in Leuven (Belgium), clinical partner sites, and patients' homes in the Netherlands.\n• Ability to work independently while thriving in a collaborative, multidisciplinary consortium team.\n• Fluency in English, both written and spoken.\n• Proficiency in Dutch is strongly preferred, as you will visit patients at home; proficiency in Moroccan Arabic or Turkish is an additional advantage.\nIf you enjoy bringing biomechanics from the lab to the clinic and into people's homes, this postdoc is the perfect opportunity to make a real impact in home-based neurological monitoring.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 36 months. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. ir. Eline van der Kruk, email:\ne.vanderkruk@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n13 November 2026\nvia the application button and upload the following documents:\nCV\nCover letter\nIf the applicants are selected for an interview, they will be asked to provide contact details of at least two referees with their consent (at least one academic)\nYou can address your application to Dr. ir. Eline van der Kruk.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoc position validating single-camera markerless motion capture for clinical home monitoring of stroke and Parkinson's patients. Combines biomechanical engineering, musculoskeletal modeling, and patient-centered validation within the multidisciplinary 'Care is coming home!' consortium involving universities, hospitals, and patient organizations.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 35,
+      "rationale": "The position's emphasis on real-world validation in patient homes and user-centered design (clinician and patient involvement, acceptability research) aligns with the researcher's human-centered, real-world-outcome focus. However, the core domain is biomechanics and clinical motion analysis, not collaborative immersive systems, spatial cognition, or learning. XR/immersive dimensions are absent. The thematic alignment is methodological (user studies, real-world validation) rather than domain-aligned."
+    },
+    "methodological_fit": {
+      "score": 58,
+      "rationale": "Strong methodological overlap: the researcher has demonstrated skills in user studies, experimental design, quantitative analysis, and translating technology to real-world settings. The postdoc explicitly requires 'communication skills to work directly with clinicians and patients' and 'measurements in patient populations,' mirroring the researcher's human-centered, stakeholder-engaged approach. However, core technical requirements (musculoskeletal modeling, marker-based motion capture, OpenSim/AnyBody, Python/MATLAB data pipelines) are substantially beyond the researcher's current toolkit. The researcher would be learning a new technical domain."
+    },
+    "growth_value": {
+      "score": 45,
+      "rationale": "Would substantially deepen quantitative research, statistics, and data analysis skills—moving the researcher from beginner to intermediate-advanced level. Would provide hands-on validation methodology in real-world clinical/home settings, directly applicable to future immersive learning research. However, the biomechanics and motion capture expertise would not directly transfer to immersive systems, XR interfaces, or collaborative virtual environments. Growth is in research rigor and real-world validation, not in target domain expertise."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "TU Delft is a priority-2 institution. The 'Care is coming home!' consortium offers strong multidisciplinary networks and peer engagement. However, this position is in Biomechanical Engineering (Faculty of Mechanical Engineering), not in HCI, immersive systems, or cognitive science. Post-postdoc trajectory would naturally lead toward healthcare technology, not human-centered XR/immersive learning research. Supervisory guidance and peer networks would be in biomechanics, not the researcher's target field."
+    },
+    "required_skills": [
+      "musculoskeletal-modelling",
+      "motion-capture",
+      "python",
+      "matlab",
+      "statistics",
+      "experimental-design",
+      "user-studies",
+      "qualitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "user-studies",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "musculoskeletal-modelling",
+      "motion-capture",
+      "matlab",
+      "physiological-sensing"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD in Biomechanical Engineering, Biomedical Engineering, Human Movement Sciences, or related engineering discipline; researcher holds MSc by Research in Multimedia, not biomechanics.",
+      "Requires 'hands-on experience with musculoskeletal modelling (e.g., OpenSim, AnyBody), including critical evaluation of model outputs'—researcher has none.",
+      "Requires 'strong programming skills (e.g., Python and/or MATLAB)'—researcher is beginner in Python, no MATLAB experience.",
+      "Requires 'experience with marker-based 3D motion capture (e.g., Vicon, Qualisys) and force plates, from protocol design to data processing'—researcher has no evidence of this.",
+      "Prefers Dutch language proficiency; researcher's profile does not indicate Dutch fluency.",
+      "Position is postdoc-level (requires completed PhD); researcher is MSc by Research, still in thesis stage—ineligible until PhD completion."
+    ],
+    "risks": [
+      "Eligibility barrier: Position requires completed PhD; researcher is still in thesis stage and would not be eligible for ~1–2 years.",
+      "Disciplinary mismatch: Biomechanical engineering is a distinct field from multimedia/HCI; onboarding time and learning curve would be steep.",
+      "Career trajectory risk: A postdoc in clinical biomechanics/motion capture would position the researcher toward healthcare technology, not immersive learning or collaborative XR systems.",
+      "Technical entry barrier: Requires advanced biomechanics modeling and clinical motion capture expertise that would require substantial retraining; the researcher's XR and multiplayer networking skills would not transfer directly.",
+      "Postdoc-level position may be premature: Researcher's profile suggests a research assistant or junior researcher role would be better fit at this stage."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.78,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-23T11:29:06.515665Z",
+    "analysis_input_hash": "08ef95fd8ebdd0d99bc2fbaab6b78b8a01488692b6e04d6c2bb41e808f172a3f"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 47,
+    "urgency": "high",
+    "days_to_deadline": 21,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
