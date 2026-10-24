@@ -1,0 +1,181 @@
+{
+  "id": "opp_varbi-researcher-in-data-driven-health-with-specialisation-i",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-24T10:43:37.120010Z",
+  "updated_at": "2026-10-24T10:50:34.198886Z",
+  "change_history": [
+    {
+      "ts": "2026-10-24T10:43:37.120154Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-24T10:50:33.530940Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-24T10:50:34.198886Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Researcher in data driven health, with specialisation in knowledge graphs",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-983033",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:983033/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-983033"
+    ],
+    "retrieved_at": "2026-10-24T10:43:37.119826Z",
+    "raw_snapshot_hash": "b17ed06a08aaf829bfb7900ac3ba498baee21182da3d53c6b054d7badab3094e",
+    "extracted_content_hash": "df6cbf8822bf9cc8f2a93b9ab329e28347d1507dd0990d6744cc0cd6eb915432",
+    "deadline": "2026-11-02",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "other",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Researcher in data driven health, with specialisation in knowledge graphs\nApply for position\nSchool of Engineering Sciences in Chemistry, Biotechnology and Health at KTH\nJob description\nWithin the department, we run a large number of research projects in close collaboration with societal stakeholders, with the aim of creating value from health data at the societal, individual, and health care levels. Data harmonization, the use of knowledge graphs, visualization, and participatory methods are key competencies for developing meaningful projects.\nThe department has many students, and we are seeking a researcher who can build successful initiatives that connect societal stakeholders’ expectations with the collective expertise of our students. We see integrating education with research as an important way to create impact.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree\nYou have demonstrated research expertise in computer science in the health domain or a related field.\nYou have experience leading research projects in collaboration with societal stakeholders, particularly in the public sector on health-related issues.\nYou can lead and develop projects involving health data, and have extensive experience working with knowledge graphs, cloud services, and Kubernetes environments.\nYou take a pedagogical approach and have the skills needed to include master’s students in your projects.\nYou work independently and can collaborate with a wide range of professionals to achieve impact through your research.\nPreferred qualifications\nFamiliarity with Swedish open data sources in the public sector, particularly those related to health and social care, is an advantage.\nKnowledge of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Max two pages long.\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid for a limited time according to the agreement - for up to 12 months, with access according to agreement.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nSpecial fixed-term employment\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3655\nContact\nSebastiaan Meijer, smeijer@kth.se\nPublished\n24.Oct.2026\nLast application date\n02.Nov.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "Researcher position at KTH focused on data-driven health systems, knowledge graphs, and data harmonization in collaboration with public sector health stakeholders. Role involves leading research projects, supervising students, and working with cloud infrastructure and knowledge representation.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 15,
+      "rationale": "Position requires expertise in health data, knowledge graphs, and computer science applied to health systems. While health is a domain where immersive systems could eventually apply (e.g., medical training), this role is centred on data infrastructure and knowledge representation, not user experience, learning outcomes, collaboration, or spatial cognition. No thematic overlap with researcher's core domains."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "Researcher has academic writing, user studies, and some quantitative research skills. However, the position demands expertise in knowledge graphs, semantic web technologies, Kubernetes, cloud services, and health informatics—specialized computer science infrastructure skills orthogonal to HCI and immersive systems research. The pedagogical component (supervising master's students) is somewhat adjacent but does not compensate for the fundamental technical mismatch."
+    },
+    "growth_value": {
+      "score": 18,
+      "rationale": "Position could develop skills in research project leadership, stakeholder collaboration, and possibly some data visualization/communication competencies. However, it would require building entirely new expertise in knowledge graphs and cloud infrastructure, taking time away from immersive systems and spatial cognition—the core gaps the researcher should be closing in a doctoral trajectory."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "KTH is in Sweden (preferred region) and a strong technical university, offering some strategic value. The role includes research leadership and stakeholder collaboration, which builds soft skills. However, KTH's School of Engineering Sciences in Chemistry, Biotechnology and Health is outside the HCI and immersive systems research ecosystem where the researcher should be building credibility and networks."
+    },
+    "required_skills": [
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing",
+      "user-studies",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "knowledge-graphs",
+      "semantic-web-technologies",
+      "kubernetes",
+      "cloud-services",
+      "health-informatics",
+      "data-harmonization"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires doctoral degree—researcher holds MSc by Research (in progress); thesis completion timing unclear and must be confirmed before this position's start date",
+      "Security clearance may be required depending on specific role classification under Swedish Protective Security Act; outcomes unpredictable",
+      "Position emphasizes 'demonstrated research expertise in computer science in the health domain'—researcher's domain is multimedia/XR, not health informatics",
+      "Preferred qualification about Swedish open data sources and public sector context—researcher has no stated background in this domain"
+    ],
+    "risks": [
+      "Limited disciplinary overlap: health informatics + knowledge graphs + cloud infrastructure are not natural extensions of XR/HCI research",
+      "Doctoral-level hiring likely expects more senior domain expertise than researcher currently holds in health data systems",
+      "Fixed-term 12-month position may be insufficient for sustained career building in a new domain; creates resume instability",
+      "Health data + security clearance requirement could complicate hiring timeline and negotiations",
+      "Taking this role risks positioning researcher as a data systems person rather than a human-centred researcher, complicating future HCI/XR positioning",
+      "No evident immersive systems, spatial learning, or collaboration research happening in this group based on posting"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.85,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-24T10:50:33.530632Z",
+    "analysis_input_hash": "10bd1b74279395931d0ed3b05fa3b8e594aaaa4fb155ea9b0f238539e511f134"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 20,
+    "urgency": "high",
+    "days_to_deadline": 9,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

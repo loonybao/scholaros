@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 23)
+Gate: **uncertain** (days to deadline: 22)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -46,7 +46,9 @@ Furthermore, we expect that you have
 4) A keen interest in the nuclear industry and its future roles in society.
 5) An interest in transient modelling and analysis.
 6) Good communication skills and the ability to be a team player in a highly multidisciplinary setting.
-For this vacancy, a knowledge embargo exemption is required. Please check the following website:
+For this vacancy, a knowledge embargo exemption is required.
+This exemption should be applied for after an official offer is made.
+Please check the following website:
 https://www.government.nl/themes/education/secondary-vocational-education-mbo-and-tertiary-higher-education/exemption-certain-engineering-or-nuclear-related-courses-of-study
 TU Delft (Delft University of Technology)
 Working at TU Delft means contributing to solutions that really make a difference.
@@ -96,28 +98,28 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-PhD position in experimental analysis and numerical modelling of boiling instabilities in helical steam generators for advanced nuclear reactors. Involves building a laboratory test rig, characterizing two-phase flow instabilities, and validating computational models.
+PhD position in experimental thermal-hydraulics focused on boiling instabilities in advanced nuclear steam generators. The role involves designing and building laboratory equipment, conducting experiments on two-phase flow phenomena, and comparing results to numerical models.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 0 |
-| Methodological fit | 5 |
-| Growth value | 0 |
-| Strategic value | 40 |
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 2 |
+| Strategic value | 15 |
 | **Overall** | **8** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics, python
+**Missing skills:** thermodynamic system modelling, transient modelling, heat transfer, fluid mechanics, nuclear engineering fundamentals
 
 **Risks:**
-- Complete research-domain departure. Researcher would move from human-centred XR to nuclear thermal-hydraulics—a field with no thematic, methodological, or strategic connection to stated target identity.
-- This position is a textbook example of excluded research directions: pure engineering systems development without human-centred evaluation. Acceptance would signal abandonment of human-centred research focus.
-- Knowledge embargo and Dutch Ministry approval add bureaucratic friction; nuclear research also has publication and collaboration restrictions that could limit future flexibility.
-- Career repositioning risk: nuclear thermal-hydraulics is a specialized field. Completing a PhD here would require sustained commitment to the domain; pivoting back to human-centred XR afterward would be difficult and would appear as unfocused research identity.
-- Supervision context (thermal-hydraulics engineering group) offers no mentorship for human-centred research or immersive systems. Network built during PhD would be in nuclear engineering, not HCI/XR.
+- Fundamental domain mismatch: thermal-hydraulics has no conceptual or methodological bridge to human-centred XR research
+- MSc discipline may not satisfy formal eligibility criteria (requires physics/ME or 'similar')
+- Taking this role would likely derail PhD trajectory toward HCI/XR academia, creating reputational risk for the researcher's target identity
+- Nuclear engineering environment unlikely to recognize or value prior XR/HCI work
+- Position appears to require immediate hands-on apparatus design/fabrication, not research planning or methodological development
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-experimental-analysis-of-boiling-instab.md` and link [[opp_tudelft-phd-position-experimental-analysis-of-boiling-instab]]._

@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-15
 status: open
 eligibility_gate: uncertain
-fit_overall: 9
+fit_overall: 6
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 23)
+Gate: **uncertain** (days to deadline: 22)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -46,7 +46,8 @@ Furthermore, we expect that you have
 4) A keen interest in the nuclear industry and its future roles in society.
 5) Keen interest in transient modelling and analysis.
 6) Good communication skills and the ability to be a team player in a highly multidisciplinary setting.
-For this vacancy, a knowledge embargo exemption is required. Please check the following website:
+For this vacancy, a knowledge embargo exemption is required. This exemption should be applied for after an official offer is made.
+Please check the following website:
 https://www.government.nl/themes/education/secondary-vocational-education-mbo-and-tertiary-higher-education/exemption-certain-engineering-or-nuclear-related-courses-of-study
 TU Delft (Delft University of Technology)
 Working at TU Delft means contributing to solutions that really make a difference.
@@ -98,29 +99,28 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
 
-PhD position in advanced power cycle design and transient modelling for small modular reactors (SMRs) with thermal energy storage to enable flexible load-following. Research couples reactor physics modelling with power-cycle thermodynamics to optimize ramp rates for grid support.
+PhD position in power cycle design and transient modelling for small modular reactors (SMRs) with thermal energy storage to enable load-following in hybrid renewable-nuclear grids.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 0 |
-| Methodological fit | 10 |
-| Growth value | 0 |
-| Strategic value | 35 |
-| **Overall** | **9** |
+| Thematic fit | 3 |
+| Methodological fit | 8 |
+| Growth value | 1 |
+| Strategic value | 12 |
+| **Overall** | **6** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics, python
+**Missing skills:** thermodynamic system modelling, transient modelling, power cycle design, coupled numerical simulation, nuclear reactor modelling
 
 **Risks:**
-- Fundamental mismatch between researcher's human-centred XR identity and position's pure nuclear engineering focus. This is not an adjacent position; it is orthogonal to stated target identity.
-- Research direction exemplifies excluded domains: pure technical systems engineering without human-centred outcomes, user evaluation, or collaborative design. Accepting this position contradicts stated research exclusions and target direction.
-- Knowledge embargo and security requirements create bureaucratic friction and potential publication/collaboration constraints—relevant for nuclear research but not beneficial for an HCI researcher.
-- PhD completion in this domain would lock researcher into nuclear engineering for several years. Career repositioning back to human-centred XR afterward would require rebuilding HCI credentials and would signal an unfocused research identity.
-- Supervision and peer network would be thermal engineers and reactor physicists. Limited value for future transitions to human-centred XR research groups or communities.
-- This position is a more severe misalignment than adjacent-fit opportunities. Pursuing it risks derailing the human-centred XR research trajectory entirely.
+- Severe domain mismatch: computational thermodynamics has no connection to human-centred research or XR
+- Disciplinary misalignment may create eligibility challenges with MSc evaluation
+- Pursuing this role would create a multi-year detour from HCI/XR research trajectory and compromise target identity positioning
+- Nuclear energy research environment unlikely to recognize or value immersive systems expertise
+- Position is highly specialized; skills acquired are not portable to human-centred research
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-flexibility-in-nuclear-power.md` and link [[opp_tudelft-phd-position-flexibility-in-nuclear-power]]._
