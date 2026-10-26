@@ -1,0 +1,127 @@
+---
+id: opp_tudelft-phd-position-bayesian-modeling-and-counterfactual-me
+type: opportunity
+title: "PhD Position Bayesian Modeling and Counterfactual Methods for Nanoparticle Transport in Human Tissue"
+organisation: "TU Delft"
+deadline: 2026-11-29
+status: open
+eligibility_gate: uncertain
+fit_overall: 12
+urgency: medium
+needs_review: true
+---
+
+# PhD Position Bayesian Modeling and Counterfactual Methods for Nanoparticle Transport in Human Tissue
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-11-29
+**Location:** Delft, Netherlands
+**Position type:** phd
+**Salary:** €3204 - €4051 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-Bayesian-Modeling-and-Counterfactual-Methods-for-Nanoparticle-Transport-in-Human-Tissue-2628-CD/1375788757/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 34)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Shape the future of nanoparticle safety and design. Join TU Delft as a PhD researcher using Bayesian and counterfactual modelling to predict nanoparticle transport in human tissue.
+Job description
+We are looking for a PhD candidate to build the computational model at the center of a European project on nanoparticle transport in human tissue. You will join the research group of Dr. Sepinoud Azimi, working within the SYNERGIE project (Horizon Europe), a consortium of thirteen partners including Fraunhofer, Roche, the Karolinska Institute, University Hospital Aachen, Mimetas, Ruhr University Bochum and Maastricht University.
+Small particles from the environment have been detected in human blood, placenta and brain tissue, but it is still not clear what they do there. Dose-response data for humans does not exist and animal studies have not transferred well, and as a result there is no exposure limit for these particles.
+Part of the reason prediction is so hard is that a particle changes as it moves through the body. It acquires a layer of proteins, it aggregates with other particles, and depending on the material it may partly degrade, so that the particle reaching a given tissue is not the same object that was administered or characterised at the start. Most transport models do not account for this. They treat the particle as fixed, which means they are predicting the fate of something that has already changed.
+The same difficulty affects engineered nanoparticles for drug delivery, and it is one of the reasons so few of them reach their intended target.
+SYNERGIE is building a platform of nine human tissue-on-chip models that can be connected to follow a particle through uptake, circulation and storage. TU Delft leads the in silico work package.
+As a PhD candidate, you will:
+Build a mechanistic model of how particles move between nine human tissues, and calibrate it against experimental data using Bayesian inference.
+Work out which physical and chemical properties of a particle decide where it ends up.
+Develop methods that go beyond prediction: for a particle that behaves badly, what is the smallest change that would fix it, and when should that answer not be trusted.
+Release the model as open-source software and support its use in regulatory dialogue.
+You will also contribute to teaching in the department and to the supervision of BSc projects.
+You will work alongside a postdoctoral researcher and PhD candidates on related problems, and interact with experimental partners across the SYNERGIE consortium. You will have access to the DelftBlue high-performance computing cluster.
+The intended start date is January 2027.
+Job requirements
+MSc in applied mathematics, computational science, physics, systems biology, or a closely related quantitative field.
+Demonstrated experience building and solving ODE or dynamical systems models.
+Demonstrated experience with Bayesian inference in a probabilistic programming framework such as PyMC, Stan or NumPyro.
+Strong scientific programming in Python. Please point us to a repository.
+Excellent written and spoken English.
+Preferred qualifications:
+Continuous optimization or optimal control.
+Causal inference or counterfactual reasoning.
+Surrogate modelling, Gaussian processes, or emulation.
+Physiologically based pharmacokinetic modelling or systems pharmacology.
+Experience packaging and documenting scientific software.
+No background in toxicology, nanomaterials, chemistry or biology is required.
+TU Delft (Delft University of Technology)
+Working at TU Delft means contributing to solutions that really make a difference.
+For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
+At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
+Faculty Technology, Policy & Management
+The Faculty of TPM provides an important contribution to solving complex technical-social issues, such as energy transition, mobility, digitalisation, water management and (cyber) security. TPM does this with its excellent education and research at the intersection of technology, society and policy. We combine insights from both engineering and social sciences as well as the humanities. TPM develops robust models and designs, is internationally oriented and has an extensive network of knowledge institutions, companies, social organisations and governments.
+Click
+here
+to go to the website of the Faculty of Technology, Policy and Management.
+Conditions of employment
+Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
+The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.
+Additional information
+If you would like more information about this vacancy or the selection procedure, please contact Dr. Sepinoud Azimi, via
+s.azimirashti@tudelft.nl
+.
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+29 November 2026
+via the application button and upload
+your CV, a brief cover letter, a one-page research statement, and a link to a code repository you have built. In your research statement, please describe what you want to work on, why this position fits, and your experience with dynamical systems modelling and Bayesian inference.
+If the applicants are selected for an interview, they will be asked to provide contact details of two referees with their consent.
+You can address your application to Dr. Sepinoud Azimi.
+Doing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the
+Graduate Schools Admission Requirements
+.
+Please note:
+#EUfunded This is an EU funded project, named SYNERGIE with project number 101288129 within European Union's Horizon Europe research and innovation program
+You can apply online. We will not process applications sent by email and/or post.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+PhD position in computational modelling of nanoparticle transport through human tissue using Bayesian inference and counterfactual methods, embedded in a multi-partner Horizon Europe consortium. The role centres on building mechanistic ODE models, calibrating against experimental data, and developing causal inference methods for particle design optimization.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 25 |
+| **Overall** | **12** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** mixed-effects-modelling
+
+**Risks:**
+- Fundamental mismatch between research culture (computational physics/pharmacokinetics) and candidate's target identity (human-centred HCI).
+- Candidate lacks formal background and demonstrated skills in core technical requirements (Bayesian inference, ODE modelling, probabilistic programming).
+- Educational background (Creative Multimedia) may not satisfy degree-background screening, despite technical skills in user studies and quantitative analysis.
+- If accepted, would require 4 years of retraining in a domain far from target research direction, reducing probability of successful transition to human-centred immersive systems research.
+- No pathway to target identity (Aalto, TU Delft groups in HCI/XR). Completing this PhD would not build networks or supervision relationships in the target research community.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-bayesian-modeling-and-counterfactual-me.md` and link [[opp_tudelft-phd-position-bayesian-modeling-and-counterfactual-me]]._

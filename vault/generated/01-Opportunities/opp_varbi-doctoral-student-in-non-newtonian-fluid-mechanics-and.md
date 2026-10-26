@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-10-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 15
+fit_overall: 17
 urgency: urgent
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 6)
+Gate: **uncertain** (days to deadline: 5)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -79,10 +79,23 @@ KTH’s Doctoral student salary agreement
 . Read more about
 Doctoral studies (PhD) | KTH | Sweden
 .
-Allowances
-- In addition to the starting basic salary mentioned in above link, all positions within Marie Curie contains a mobility allowance and possible family allowance,
-for more information read here.
-Basic salary and supplementary allowances are specified pre tax.
+Salary and allowances
+– The position is funded through the Marie Skłodowska-Curie Actions (MSCA) programme. For more information, please see
+Doctoral Networks - Marie Skłodowska-Curie Actions.
+The
+Living Allowance
+corresponds to approximately
+SEK 35,423 per month
+and is used to finance the salary paid in accordance with the KTH doctoral salary scale (see the KTH doctoral salary agreement linked above).
+In addition, the following allowances are included:
+Mobility Allowance:
+approximately
+SEK 5,017 per month
+Family Allowance:
+approximately
+SEK 4,664 per month
+(if the eligibility criteria are fulfilled)
+All amounts are stated before tax. The stated amounts are approximate and may vary slightly due to exchange rate fluctuations.
 Union representatives
 Contact information for
 union representatives.
@@ -121,7 +134,7 @@ Full time
 First day of employment
 1st of December 2026
 Salary
-Monthly salary according to KTH's doctoral student salary agreement - Starting salary 33700 SEK / month (approx 2991 EUR).
+Monthly salary according to KTH's doctoral student salary agreement
 Number of positions
 1
 Full-time equivalent
@@ -147,26 +160,30 @@ Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
 
-KTH doctoral position in computational fluid dynamics and AI, combining high-performance computing, experiments, and machine learning for rheological characterisation of non-Newtonian flows. Funded by EU doctoral network FairCFD with mobility requirement.
+Doctoral position in computational and experimental fluid mechanics (non-Newtonian flows) combined with AI and machine learning, within an EU MSCA Doctoral Network (FairCFD). Research integrates high-performance computing, laboratory experiments, and AI pattern recognition to build a digital twin rheometer for characterising complex fluid behaviour.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
+| Thematic fit | 8 |
 | Methodological fit | 20 |
 | Growth value | 15 |
-| Strategic value | 25 |
-| **Overall** | **15** |
+| Strategic value | 35 |
+| **Overall** | **17** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics
+**Missing skills:** none noted
 
 **Risks:**
-- Core research is pure computational physics—explicitly a poor-fit category per rules (physics-based simulation and algorithm development).
-- Researcher has no domain foundation in fluid mechanics or CFD.
-- Mobility rules may exclude or complicate eligibility for non-EU residents.
+- Fundamental research culture mismatch (fluid mechanics engineering vs. human-centred HCI).
+- Candidate's target_identity explicitly excludes 'pure-machine-learning-algorithms'; this role heavily emphasises AI/ML-driven optimisation for physical characterisation.
+- Four-year commitment to a domain orthogonal to target identity (spatial cognition, collaborative immersive systems, learning science).
+- No supervision or research group connection to HCI, XR, or learning science. Doctoral committee would be fluid mechanics specialists.
+- Educational background (Creative Multimedia) differs from typical cohort; may experience cultural/methodological friction in a physics/engineering doctoral programme.
+- Completion would not advance candidacy for target positions at Aalto or HCI-focused groups at TU Delft.
+- Unilateral domain pivot: completing this PhD would require follow-on postdoc or career restructuring to re-enter immersive systems research.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-non-newtonian-fluid-mechanics-and.md` and link [[opp_varbi-doctoral-student-in-non-newtonian-fluid-mechanics-and]]._

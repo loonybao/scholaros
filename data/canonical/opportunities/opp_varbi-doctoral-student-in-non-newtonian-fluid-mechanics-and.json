@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-10-01T12:56:37.633944Z",
-  "updated_at": "2026-10-25T11:12:19.635557Z",
+  "updated_at": "2026-10-26T12:44:32.891100Z",
   "change_history": [
     {
       "ts": "2026-10-01T12:56:37.634054Z",
@@ -232,6 +232,46 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-10-26T12:41:41.006792Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-10-26T12:43:51.246665Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-26T12:44:32.891100Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -245,9 +285,9 @@
     "evidence_ids": [
       "varbi/kth-970092"
     ],
-    "retrieved_at": "2026-10-01T12:56:37.633753Z",
-    "raw_snapshot_hash": "a592a85648e62f087bee365e4ccf17e07d12960361ddc947f1508f838722cfad",
-    "extracted_content_hash": "3c5c7bed8494cd9e2dfb8d91e3044f03762c532ba915f822b83778d439eb1bec",
+    "retrieved_at": "2026-10-26T12:41:41.006032Z",
+    "raw_snapshot_hash": "42907b02c1ebf326b03846fdad89964429ee6d8dfd4b1b2ab49d16ce839ef3de",
+    "extracted_content_hash": "dcfd0d3c51afee4a62f2031f4b047da00d52dbab86e7528dd8e1929f47e62909",
     "deadline": "2026-10-31",
     "deadline_note": null,
     "start_date": null,
@@ -266,52 +306,57 @@
     "mobility_requirement_status": "ambiguous",
     "mobility_requirement_text": "Posting mentions: …dish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following: Mobility rules - Candidates must not have resided or conducted their main activity (work, studies, etc.) in Sweden for more than 12 months in the 3 years immediately preceding the recruitment date, passed a second…",
     "status": "open",
-    "description_text": "Doctoral student in non-Newtonian fluid mechanics and AI\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences\nProject description\nThird-cycle subject:\nEngineering Mechanics\nWithin EU doctoral network F\nairCFD\n, this project will combine high-performance computing, experiments and artificial intelligence in non-Newtonian flows, with the aim of improving rheological characterisation and modelling. In particular, we will design a digital twin rheometer to reliably measure complex fluid parameters in time-varying and chaotic flows.\nWe will use modern AI techniques to exploit spatial patterns in the computational and experimental data and optimize parameter sensitivity. The researcher will join the dynamic Complex\nFluids Research group\n, have access to the supercomputing facilities at KTH, the Swedish e-Science Research Centre (\nSeRC\n) and the excellent research environment\nFLOW\n.\nSupervision:\nOuti Tammisola and Fredrik Lundell are proposed to supervise the doctoral student. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\nMobility rules\n- Candidates must not have resided or conducted their main activity (work, studies, etc.) in Sweden for more than 12 months in the 3 years immediately preceding the recruitment date,\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge.\nA suitable background for this position is a master's degree in engineering, mathematics or physics with a focus on fluid mechanics, computational or experimental methods, and/or applied mathematics.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues,\nstrong motivation for doctoral studies, ability to work independently, critical analysis as well as possessing good levels of cooperative and communicative skills.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral Degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nAllowances\n- In addition to the starting basic salary mentioned in above link, all positions within Marie Curie contains a mobility allowance and possible family allowance,\nfor more information read here.\nBasic salary and supplementary allowances are specified pre tax.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nStriving towards gender equality, diversity and equal conditions is both a question of quality for KTH and a given part of our values.\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n1st of December 2026\nSalary\nMonthly salary according to KTH's doctoral student salary agreement - Starting salary 33700 SEK / month (approx 2991 EUR).\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3135\nContact\nOuti Tammisola, outi@kth.se\nFredrik Lundell, frlu@kth.se\nPublished\n01.Oct.2026\nLast application date\n31.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Doctoral student in non-Newtonian fluid mechanics and AI\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences\nProject description\nThird-cycle subject:\nEngineering Mechanics\nWithin EU doctoral network F\nairCFD\n, this project will combine high-performance computing, experiments and artificial intelligence in non-Newtonian flows, with the aim of improving rheological characterisation and modelling. In particular, we will design a digital twin rheometer to reliably measure complex fluid parameters in time-varying and chaotic flows.\nWe will use modern AI techniques to exploit spatial patterns in the computational and experimental data and optimize parameter sensitivity. The researcher will join the dynamic Complex\nFluids Research group\n, have access to the supercomputing facilities at KTH, the Swedish e-Science Research Centre (\nSeRC\n) and the excellent research environment\nFLOW\n.\nSupervision:\nOuti Tammisola and Fredrik Lundell are proposed to supervise the doctoral student. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\nMobility rules\n- Candidates must not have resided or conducted their main activity (work, studies, etc.) in Sweden for more than 12 months in the 3 years immediately preceding the recruitment date,\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge.\nA suitable background for this position is a master's degree in engineering, mathematics or physics with a focus on fluid mechanics, computational or experimental methods, and/or applied mathematics.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues,\nstrong motivation for doctoral studies, ability to work independently, critical analysis as well as possessing good levels of cooperative and communicative skills.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral Degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nSalary and allowances\n– The position is funded through the Marie Skłodowska-Curie Actions (MSCA) programme. For more information, please see\nDoctoral Networks - Marie Skłodowska-Curie Actions.\nThe\nLiving Allowance\ncorresponds to approximately\nSEK 35,423 per month\nand is used to finance the salary paid in accordance with the KTH doctoral salary scale (see the KTH doctoral salary agreement linked above).\nIn addition, the following allowances are included:\nMobility Allowance:\napproximately\nSEK 5,017 per month\nFamily Allowance:\napproximately\nSEK 4,664 per month\n(if the eligibility criteria are fulfilled)\nAll amounts are stated before tax. The stated amounts are approximate and may vary slightly due to exchange rate fluctuations.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nStriving towards gender equality, diversity and equal conditions is both a question of quality for KTH and a given part of our values.\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\n1st of December 2026\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3135\nContact\nOuti Tammisola, outi@kth.se\nFredrik Lundell, frlu@kth.se\nPublished\n01.Oct.2026\nLast application date\n31.Oct.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "KTH doctoral position in computational fluid dynamics and AI, combining high-performance computing, experiments, and machine learning for rheological characterisation of non-Newtonian flows. Funded by EU doctoral network FairCFD with mobility requirement.",
+    "summary": "Doctoral position in computational and experimental fluid mechanics (non-Newtonian flows) combined with AI and machine learning, within an EU MSCA Doctoral Network (FairCFD). Research integrates high-performance computing, laboratory experiments, and AI pattern recognition to build a digital twin rheometer for characterising complex fluid behaviour.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "No thematic connection to human-centred XR, learning, collaboration, or spatial cognition. Position core is fluid mechanics simulation and rheological characterisation—a pure physics/engineering domain."
+      "score": 8,
+      "rationale": "The core research is non-Newtonian fluid mechanics, experimental fluid dynamics, and AI-driven parameter optimisation. No human-centred research, immersive systems, learning science, collaboration, or spatial cognition for human understanding. The 'AI' component is applied to fluid property characterisation, not human-computer interaction or immersive learning. Thematic misalignment is fundamental."
     },
     "methodological_fit": {
       "score": 20,
-      "rationale": "Researcher has intermediate programming (C#, Python beginner) and some quantitative skills. Position values HPC, AI, and experimental methods. Python would be learnable, but researcher lacks domain expertise in computational mechanics, fluid dynamics, or scientific computing. Experimental validation methodology in rheology does not align with user-study or evaluation practices."
+      "rationale": "Position emphasises computational methods (HPC, numerical simulation), experimental design and execution, and AI/machine learning for pattern recognition in scientific data. The candidate has intermediate experimental design and quantitative research skills from user studies; these methodologies do not transfer well to fluid dynamics experiments or HPC-driven computational modelling. The 'AI' component (pattern extraction, parameter sensitivity) is scientometric/optimisation-focused, not HCI or human learning evaluation. Some overlap in experimental rigour, but core methods diverge significantly."
     },
     "growth_value": {
       "score": 15,
-      "rationale": "Position would develop HPC and AI/ML skills applicable to other domains, but at cost of abandoning human-centred research trajectory. Does not close gaps relevant to immersive systems or spatial learning."
+      "rationale": "Exposure to HPC facilities, advanced machine learning integration with physical simulation, and rigorous experimental validation could broaden technical capabilities. However, these skills (HPC, fluid simulation, rheology) are peripheral to the candidate's target identity. The candidate explicitly excludes pure ML algorithm development; this role is heavily algorithm-development-focused (AI-driven rheometer). Growth would be lateral and away from human-centred research."
     },
     "strategic_value": {
-      "score": 25,
-      "rationale": "KTH is strong; EU doctoral network funding is stable. Sweden/Stockholm location meets geographic criteria. However, research domain (fluid dynamics) has no strategic pathway to human-centred XR. Supervisor expertise in CFD/rheology does not advance target identity."
+      "score": 35,
+      "rationale": "KTH is a strong European technical institution; the doctoral network (FairCFD) is EU MSCA-funded, ensuring 4-year funding stability. However, the FLOW research environment and Complex Fluids group are in mechanical/computational engineering, not HCI. Supervisors (Outi Tammisola, Fredrik Lundell) are fluid mechanics specialists. Completion would not build networks in immersive systems, human-centred XR, or learning science communities. Weak pathway to target institutions (Aalto, TU Delft HCI groups) or target identity."
     },
     "required_skills": [
       "python",
       "statistics",
-      "experimental-design"
+      "experimental-design",
+      "quantitative-research"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
       "python",
+      "statistics",
       "experimental-design",
       "quantitative-research"
     ],
-    "missing_skills": [
-      "statistics"
-    ],
+    "missing_skills": [],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "EU doctoral network has mobility rule: candidates must not have resided/worked in Sweden for >12 months in preceding 3 years. Researcher is in Malaysia; eligibility unknown.",
-      "Posting expects Master's in engineering, mathematics, or physics with focus on fluid mechanics or computational methods. Researcher's MMU Creative Multimedia background is non-standard.",
-      "Python listed as beginner; position expects solid programming for HPC work."
+      "Candidate is currently in MSc thesis stage (not completed). Position requires completed second-cycle degree (Master's) by application or admission deadline. Candidate must complete thesis before formal admission eligibility.",
+      "Suitable background described as MSc in engineering, mathematics or physics with focus on fluid mechanics, computational or experimental methods, applied mathematics. Candidate holds MSc in Creative Multimedia. Educational background is not a formal barrier but represents domain shift.",
+      "MSCA Doctoral Networks have mobility eligibility rules: candidates must not have resided or conducted main activity in Sweden >12 months in preceding 3 years. Candidate's current location (Malaysia) likely satisfies this, but requires verification.",
+      "English proficiency equivalent to B/6 required—likely met, but not explicitly stated in profile."
     ],
     "risks": [
-      "Core research is pure computational physics—explicitly a poor-fit category per rules (physics-based simulation and algorithm development).",
-      "Researcher has no domain foundation in fluid mechanics or CFD.",
-      "Mobility rules may exclude or complicate eligibility for non-EU residents."
+      "Fundamental research culture mismatch (fluid mechanics engineering vs. human-centred HCI).",
+      "Candidate's target_identity explicitly excludes 'pure-machine-learning-algorithms'; this role heavily emphasises AI/ML-driven optimisation for physical characterisation.",
+      "Four-year commitment to a domain orthogonal to target identity (spatial cognition, collaborative immersive systems, learning science).",
+      "No supervision or research group connection to HCI, XR, or learning science. Doctoral committee would be fluid mechanics specialists.",
+      "Educational background (Creative Multimedia) differs from typical cohort; may experience cultural/methodological friction in a physics/engineering doctoral programme.",
+      "Completion would not advance candidacy for target positions at Aalto or HCI-focused groups at TU Delft.",
+      "Unilateral domain pivot: completing this PhD would require follow-on postdoc or career restructuring to re-enter immersive systems research."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -319,14 +364,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.9,
+    "confidence": 0.88,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-10-01T13:05:32.183079Z",
-    "analysis_input_hash": "6fc4a398a0b59b9f275af3c2037a927ddb5ac893052fd83e00f7184de7f01e71"
+    "analyzed_at": "2026-10-26T12:43:51.246127Z",
+    "analysis_input_hash": "093a4b15a641474ad6189e7c19ca9fbdbcf36aeeda0d14603f7c46f60935c9c2"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -336,9 +381,9 @@
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source",
       "posting hints at a mobility/residence-history rule — verify the exact condition"
     ],
-    "fit_overall": 15,
+    "fit_overall": 17,
     "urgency": "urgent",
-    "days_to_deadline": 6,
+    "days_to_deadline": 5,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
