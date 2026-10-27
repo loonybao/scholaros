@@ -1,0 +1,175 @@
+{
+  "id": "opp_tudelft-postdoc-ammonia-fuelled-sofc-ice-power-propulsion-an",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-27T11:49:22.947739Z",
+  "updated_at": "2026-10-27T12:02:14.909990Z",
+  "change_history": [
+    {
+      "ts": "2026-10-27T11:49:22.947897Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-27T12:02:14.308431Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-27T12:02:14.909990Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Ammonia-fuelled SOFC-ICE Power, Propulsion and Energy System - Ship integration",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1375849457",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Ammonia-fuelled-SOFC-ICE-Power%2C-Propulsion-and-Energy-System-Ship-integration-2628-CD/1375849457/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Ammonia-fuelled-SOFC-ICE-Power%2C-Propulsion-and-Energy-System-Ship-integration-2628-CD/1375849457/",
+    "evidence_ids": [
+      "tudelft/1375849457"
+    ],
+    "retrieved_at": "2026-10-27T11:49:22.947564Z",
+    "raw_snapshot_hash": "6947c88b720c866bcd0298c20b145a021e3f1a99df9fdff56d0605bd10e4155b",
+    "extracted_content_hash": "a547482cbd6d3e368e556ac53287eba1b1fda307e17e3bc1e2f5383d0040e11f",
+    "deadline": "2026-11-23",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "The AmmoniaDrive project partners are looking for a post-doc that will bring the AmmoniaDrive concept closer to realisation by addressing ship integration aspects.\nJob description\nDecarbonizing shipping? Ammonia is considered by many as an effective hydrogen carrier and sustainable e-fuel for sea-going vessels and other heavy-duty applications, mainly because of its promise of being a cost-effective, carbon-free and relatively energy-dense fuel. However, choosing ammonia as a sustainable shipping fuel does not yet solve the question of how the energy stored in ammonia can be converted into useful (mechanical or electric) power on board of ships. AmmoniaDrive offers a unique solution to this question: a single-fuel, high-efficiency, zero-emission SOFC-ICE power plant that will fit on board of ships without sacrificing range and speed.\nIn this postdoc project, part of the larger AmmoniaDrive project, you will investigate the performance of the NH3-fueled SOFC-ICE power, propulsion and energy system, when it is applied on board of a ship capable of transporting ammonia (a benchmark vessel, with an ideal size and operational profile for the project, is available). Ammonia carriers are expected to be vital for a florishing global hydrogen economy and as such are very good candidates to become early-adoptors of the AmmoniaDrive concept. You will investigate ship design and integration aspects, part-load operation (e.g. in port), off-design and transient loading performance, power and energy management strategies and compliance with safety regulations, to name a few of the unsolved challenges. As part of the AmmoniaDrive team you will have access to the latest insights, developments and modelling techniques as established by the nine PhD researchers within the research project as well as to the enthusiastic AmmoniaDrive partners (10+ maritime companies).\nTopics in scope of this position include:\nGather insights into AmmoniaDrive Power Plant fundamentals, working principles and operational limitations.\nGather relevant design and engineering information from AmmoniaDrive partners (e.g. Anthony Veder, Bureau Veritas, C-Job Naval Architects) for a specific case study vessel (e.g. ammonia / chemical tanker).\nInvestigate new modelling approaches and sub-model improvements to enable time-domain simulations of ship voyages and port operations together with MARIN's Zero Emission Laboratory to assess performance, emissions, transient loading capability and to test power&energy management strategies.\nDisseminate your findings to the scientific community and industrial partners.\nMore information on the AmmoniaDrive project:\nhttp://resolver.tudelft.nl/uuid:dd34837a-65d4-497c-b989-8330887d7d89\nhttps://www.linkedin.com/groups/12718699/\nhttps://ammoniadrive.net\nJob requirements\nCandidates for this challenging project have a PhD degree and background in Mechanical Engineering, Marine Engineering or similar. Good communication and writing skills in English and the ability to collaborate are necessary as well.\nBeing a postdoctoral researcher at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well with colleagues and project partners.\nNeed-to-have:\nA PhD degree in Mechanical Engineering, Marine Engineering or similar.\nGood communication skills in English.\nExperience with Matlab, Simulink, GT-Power or similar relevant engineering software packages.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 1 year. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact dr.ir. P. de Vos at\np.devos@tudelft.nl\nor +31(0)152781040.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n23 November 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to .\nThis publication is part of the project AmmoniaDrive with project number 14267 of the research programme NWO Perspectief which is financed by the Dutch Research Council (NWO).\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "A 1-year postdoc position in ship integration for ammonia-fuelled fuel cell-ICE hybrid propulsion systems. Work spans power plant modelling, naval engineering, simulation, and energy management strategy—applied mechanical/marine engineering in the decarbonisation domain.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "No thematic connection whatsoever. The researcher works on human-centred immersive systems, spatial cognition, collaborative learning, and wayfinding. This position concerns maritime propulsion technology, energy systems, and ship design. There is no human-computer interaction, no immersive systems, no spatial learning. The mention of 'digital twins' is purely technical (simulation), not experiential."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Both involve systems thinking and modelling. However, the researcher's work is empirical and human-centred (user studies, experimental validation of spatial transfer). This role is pure engineering simulation: Matlab/Simulink, GT-Power, transient loading analysis, power management algorithms. Methodologies are orthogonal."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "This role advances mechanical engineering and energy systems expertise. It closes no capability gaps relevant to the researcher's target identity. Deepening Matlab/Simulink skills is not a stated priority, and maritime engineering does not support future immersive systems research."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "TU Delft Faculty of Mechanical Engineering is reputable and in a preferred location. The AmmoniaDrive project is stable and well-connected to industry partners. However, the research group operates in marine propulsion and energy systems—completely outside the target research communities (HCI, immersive systems, spatial cognition). Does not advance the researcher's strategic position."
+    },
+    "required_skills": [
+      "matlab",
+      "simulink",
+      "mechanical-systems-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "matlab",
+      "simulink",
+      "gt-power",
+      "marine-engineering",
+      "transient-system-analysis",
+      "power-management-simulation"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD degree; researcher has MSc by Research (in progress)—not eligible unless degree is conferred before application deadline",
+      "Position explicitly requires background in Mechanical or Marine Engineering; Creative Multimedia MSc will not meet disciplinary expectations",
+      "Need-to-have skills (Matlab, Simulink, GT-Power) are not in researcher's demonstrated skillset"
+    ],
+    "risks": [
+      "Ineligibility: Researcher does not yet hold a PhD; position is postdoc-only",
+      "Severe domain isolation: Maritime propulsion has zero overlap with HCI or immersive systems research. One year in this role would not advance any strategic objective",
+      "Opportunity cost: A 1-year postdoc in unrelated engineering would delay return to target research direction and weaken candidacy for PhD/postdoc positions in HCI at target institutions"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-27T12:02:14.308140Z",
+    "analysis_input_hash": "b6559d7f39948f679f1306c4c59bdb3f5b403ff60c78367a5b752711c7b106a1"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 6,
+    "urgency": "medium",
+    "days_to_deadline": 27,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

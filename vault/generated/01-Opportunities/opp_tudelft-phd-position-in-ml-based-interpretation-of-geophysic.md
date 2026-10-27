@@ -6,8 +6,8 @@ organisation: "TU Delft"
 deadline: 2026-11-17
 status: open
 eligibility_gate: uncertain
-fit_overall: 15
-urgency: medium
+fit_overall: 13
+urgency: high
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 22)
+Gate: **uncertain** (days to deadline: 21)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -77,7 +77,7 @@ M.W.N.Buxton@tudelft.nl
 ing.Sun@tudelft.nl
 ).
 Please apply via the website of TU Delft, unsolicited emails will not be considered or answered.
-#EU funded: This is an EU funded project, named INTELLIGENT: Innovative exploration technologies for deep-targeting critical mineral deposits, Horizon Europe (HORIZON) Call: HORIZON-CL4-2026-01, Project: 101345448, Coordinator Uppsala University.
+#EU funded: This is an EU funded project, named INTELLIGENT: Innovative exploration technologies for deep-targeting critical mineral deposits, HE - Horizon Europe (HORIZON) Call: HORIZON-CL4-2026-01, Project: 101345448, Coordinator Uppsala University.
 Application procedure
 Are you interested in this vacancy? Please apply no later than
 17 November 2026
@@ -98,29 +98,26 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.94_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
 
-TU Delft PhD position in machine-learning-based interpretation of geophysical legacy data (seismic, well-log) for mineral exploration, specifically targeting the Kupferschiefer horizon beneath the Netherlands and North Sea. The role integrates quantitative geophysical interpretation, basin modelling, ML (CNNs, transformers), and multimodal fusion to develop methods for deep mineral exploration, with a postdoctoral collaborator contributing advanced ML developments.
+A 4-year PhD position in machine learning for geophysical data interpretation, focused on mineral exploration through seismic, well-log, and basin modelling integration. Core work is applied geophysics with deep learning, operating in the earth sciences domain with industrial collaboration.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 0 |
+| Thematic fit | 5 |
 | Methodological fit | 20 |
-| Growth value | 15 |
-| Strategic value | 40 |
-| **Overall** | **15** |
+| Growth value | 5 |
+| Strategic value | 25 |
+| **Overall** | **13** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** deep-learning, convolutional-neural-networks, transformer-models, multimodal-machine-learning, physics-informed-learning, geophysics, seismic-interpretation, well-log-analysis, basin-modelling, petrophysics, geochemistry
+**Missing skills:** machine-learning-deep-learning, geophysical-interpretation, seismic-analysis, basin-modelling, transformer-models, multimodal-data-fusion
 
 **Risks:**
-- Disciplinary pivot is fundamental. Researcher would require retraining in geophysics, geology, seismic interpretation, and petrophysics; foundational knowledge gaps are substantial.
-- No HCI, user-facing research, or human evaluation in project scope. Outcomes are geophysical interpretation methods, not immersive systems or spatial-cognition research.
-- Supervisory team (Socco, Buxton, Sun) are geophysicists and resource engineers; no HCI mentorship or validation of human-centred methodology.
-- Publication track record would be in geoscience venues (Geophysics, Geology, resource journals), not HCI or immersive-systems conferences—misalignment with target research identity.
-- Four-year commitment to geophysics could solidify divergence from HCI/XR career trajectory.
-- Research does not build skills in eye-tracking, physiological sensing, immersive design, or collaboration dynamics—critical gaps in researcher's profile for HCI PhD pathway.
+- Disciplinary barrier: Hiring panel will likely screen for earth science training; Creative Multimedia background may not survive initial filtering
+- Deep domain specialization: Geophysics is not adjacent to HCI or spatial cognition research; knowledge would not transfer
+- Career trajectory damage: Accepting this position would signal a pivot away from immersive systems research, potentially weakening future applications to HCI groups
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-ml-based-interpretation-of-geophysic.md` and link [[opp_tudelft-phd-position-in-ml-based-interpretation-of-geophysic]]._
