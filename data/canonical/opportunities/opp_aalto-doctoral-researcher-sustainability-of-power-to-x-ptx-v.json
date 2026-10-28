@@ -1,0 +1,167 @@
+{
+  "id": "opp_aalto-doctoral-researcher-sustainability-of-power-to-x-ptx-v",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-28T12:21:09.669215Z",
+  "updated_at": "2026-10-28T12:36:36.891041Z",
+  "change_history": [
+    {
+      "ts": "2026-10-28T12:21:09.669376Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-28T12:36:36.671996Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-28T12:36:36.891041Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher, sustainability of Power-to-X (PtX) value chains",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-chemical-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-sustainability-of-power-to-x-ptx-value-chains",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-sustainability-of-power-to-x-ptx-value-chains",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-Researcher--sustainability-of-Power-to-X--PtX--value-chains_R48457/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-sustainability-of-power-to-x-ptx-value-chains"
+    ],
+    "retrieved_at": "2026-10-28T12:21:09.669008Z",
+    "raw_snapshot_hash": "c2beaf8f9e526f941ad9629ff8eeede39aeb7d8017e3808aa3d034d501d2c897",
+    "extracted_content_hash": "e39cace48a6c1f00aab16bd0afb9034c6daa377508328be2fc1d6a4666dddf2d",
+    "deadline": "2026-11-22",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-10-27",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe\nSustainable Systems\nresearch group in the\nDepartment of Chemical and Metallurgical Engineering\nat Aalto University is seeking a highly motivated\nDOCTORAL RESEARCHER\nto focus on the sustainability of Power-to-X (PtX) value chains.\nAre you passionate about advancing renewable energy technologies? Do you want to develop cutting-edge computational frameworks that shape the future of sustainable energy? Join us in solving key challenges in decarbonizing hard-to-abate sectors.\nProject Overview\nThis PhD project aims to develop decision-making models and optimization strategies for the cross-sector integration and operation of PtX technologies. You will work on ensuring these pathways operate within planetary boundaries while meeting stringent criteria for cost-effectiveness, safety, and operational resilience.\nKey Research Questions:\nHow can the intermittent nature of renewable electricity production be economically decoupled from further chemical processing of eFuels and eChemicals?\nHow can the technical, economic, and environmental feasibility of the PtX value chain be maximized under operational and market uncertainty?\nHow can an efficient and intelligent computational framework be developed to optimally design and operate low-carbon energy transition pathways for the industrial sectors in Finland and beyond?\nYour Role and Responsibilities\nPush the flexibility limits of energy transition pathways by modeling operational dynamics, intermediate storage, and variable feedstocks.\nFormulate Techno-Economic and Life Cycle-driven Mixed-Integer Linear Programming (MILP) models to optimize full PtX value chains.\nEngage with internal group members, academic collaborators, and external industry stakeholders.\nPresent research outcomes at international academic conferences and publish in high-impact, peer-reviewed journals.\nTo support your research, you will have access to our group’s comprehensive model library covering PtX technologies, unit operations, training materials, and sustainability assessment frameworks.\nYour network and team\nYou will join the\nSustainable Systems group\n, led by\nProf. Rofice Dickson\n. Our group focuses on developing mathematical models, algorithms, and computer-aided software tools to explore circular and sustainable solutions for energy systems.\nYou will be directly supervised by Prof. Rofice Dickson and work alongside a vibrant, multidisciplinary team of PhD students, postdoctoral researchers, and industrial partners.\nThe unique competitive edge of the\nDepartment of Chemical and Metallurgical Engineering\nin the School of Chemical Engineering is based on sustainable utilization of raw materials, designing more efficient processes, and developing new materials and products. Our department’s areas of expertise enable a sustainable future with high-performance products and processes in the circular economy and bioeconomy. The department is in a key position in research of chemical engineering, materials technology, metals processing, efficient energy technologies and digitalization of these. Our core competences include unit operations and processes in chemical engineering, hydro- and pyro-metallurgy, catalyst and polymeric materials, novel catalytic process, process control and process systems engineering.\nYour Experience and Ambitions\nWe are seeking highly motivated candidates with a strong research background in\nProcess Systems Engineering of energy systems\n.\nRequired:\nMaster’s Degree: In Chemical Engineering, Electrical Engineering, Energy Systems Engineering, or a closely related field.\nOptimization background: Solid experience applying mathematical programming (e.g., MILP, MINLP) to energy or process systems.\nProgramming proficiency: Demonstrated skills in optimization or modeling environments (e.g., GAMS, Python, Julia, or MATLAB).\nDesirable (Considered an Advantage):\nAssessment Methodologies: Knowledge of TEA and LCA methodologies.\nSoftware tools: Familiarity with process simulation tools (Aspen Plus/Hysys, PRO/II) and LCA software (SimaPro, openLCA).\nResearch focus: Strong interest in renewable energy pathways, cross-sectoral integration, and decision-making under uncertainty.\nWhat we offer\nThe starting date is January 1, 2027, or as mutually agreed. We offer a fixed term contract initially for 2 years. During the first 6 months you must apply and receive a right to study in the Doctoral Programme in Chemical Engineering. After a successful evaluation by the end of the first 2 year contract, the contract can be extended. Extension contract is typically based on the progress evaluation, revised project plan and available funding.\nThe starting salary for a Doctoral Researcher is about 3140 €/month (gross). The contract includes Aalto University occupational healthcare benefits.\nPlease check the student information and admission criteria at\nhttps://www.aalto.fi/en/study-options/aalto-doctoral-programme-in-chemical-engineering\n. Please pay attention to the mandatory skill level in English.\nWe value work-life balance and well-being in all aspects of life. The primary workplace will be the Otaniemi Campus in Espoo, Finland. Life on the revitalized campus is vibrant, featuring stunning architecture, tranquil nature, and a variety of cafes, restaurants, and services, all complemented by excellent public transportation connections.\nWe offer great possibilities for\ncompetence development and learning.\nWe constantly keep learning to find the most impactful ways to empower – and invest in – our people.\nJoin us!\nIf you want to join our community, please submit your application no later than\n22.11.2026\n, in English through our online recruitment system by using the link (\"Apply Now\") on Aalto University's web page.  Please note that we only accept applications via Workday.\nPlease including the following attachments mentioned below, in English:\nA cover letter describing your motivation for pursuing this PhD position\nA CV, including your academic achievements, possible list of publications, and any relevant work or research experience\nContact details of at least two references\nCopies of your academic transcripts and degrees\nPlease note that the position will be filled as soon as a suitable candidate is identified.\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions).\nFor additional information, kindly contact Prof. Rofice Dickson at\nrofice.dickson@aalto.fi\n.\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nAalto University – Towards a better world\n,\nAalto People\n, and\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi/\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report\nFor more information about living in Finland:\nAalto Careers for International Staff\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Doctoral position in process systems engineering focused on techno-economic optimization and life-cycle assessment of Power-to-X (PtX) renewable energy value chains. Work involves mathematical modelling (MILP), process simulation, and sustainability assessment frameworks.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "No thematic overlap. Position is chemical engineering / energy systems optimization. Researcher's domain is human-centred XR, collaborative immersive systems, spatial learning, and wayfinding. These domains do not intersect."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Minimal methodological fit. Position requires optimization modelling (MILP/MINLP), process simulation tools (Aspen, GAMS, Python/Julia), and TEA/LCA assessment—none of which researcher has demonstrated. Researcher's methods are user-centred empirical research (user studies, questionnaires, experimental evaluation with human participants). No overlap in technical approach."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Limited growth value. Python is listed as beginner skill, which position would develop. However, this would come at cost of abandoning HCI research trajectory entirely. Does not address identified gaps (statistics in HCI context, eye-tracking, physiological sensing, mixed-effects modelling for behavioural data)."
+    },
+    "strategic_value": {
+      "score": 5,
+      "rationale": "Aalto is priority-1 institution. However, supervision (Prof. Rofice Dickson) is in chemical/energy domain, not HCI. Group focuses on energy systems modelling and optimization, with no human-centred or immersive systems expertise. No strategic path toward target identity."
+    },
+    "required_skills": [
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Master's degree requirement (Chemical Engineering, Electrical Engineering, Energy Systems, or closely related); researcher has MSc by Research in Multimedia/Creative Multimedia—related only distantly if at all"
+    ],
+    "risks": [
+      "Disciplinary mismatch. Chemical engineering is orthogonal to HCI and immersive systems.",
+      "Required optimization and process modelling background absent; would need substantial foundational coursework.",
+      "No connection to researcher's target identity (human-centred XR/immersive learning).",
+      "Supervisor expertise in energy systems, not human factors or HCI.",
+      "Master's background in Multimedia/Creative Multimedia may not satisfy 'closely related' criterion for Chemical Engineering."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-28T12:36:36.671772Z",
+    "analysis_input_hash": "064f983be55f0fa48e74725ed2937370c4fe502e521fdc3d488cfcb09e13203f"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 5,
+    "urgency": "medium",
+    "days_to_deadline": 25,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

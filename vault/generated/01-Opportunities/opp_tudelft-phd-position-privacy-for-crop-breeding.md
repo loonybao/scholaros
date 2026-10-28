@@ -24,7 +24,7 @@ needs_review: false
 
 ## Eligibility
 
-Gate: **fail** (days to deadline: -99)
+Gate: **fail** (days to deadline: -100)
 
 - application deadline has passed
 
