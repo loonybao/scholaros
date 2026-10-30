@@ -1,0 +1,175 @@
+{
+  "id": "opp_tudelft-phd-position-in-ai-for-software-reuse-and-agentic-de",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-30T12:25:18.646293Z",
+  "updated_at": "2026-10-30T12:43:55.421231Z",
+  "change_history": [
+    {
+      "ts": "2026-10-30T12:25:18.646496Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-30T12:38:35.625302Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-30T12:43:55.421231Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position in AI for Software Reuse and Agentic Development",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1376215257",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-AI-for-Software-Reuse-and-Agentic-Development-2628-CD/1376215257/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-AI-for-Software-Reuse-and-Agentic-Development-2628-CD/1376215257/",
+    "evidence_ids": [
+      "tudelft/1376215257"
+    ],
+    "retrieved_at": "2026-10-30T12:25:18.646083Z",
+    "raw_snapshot_hash": "c417aa1f22c8971a1b9bf53c75af124d7ae5255d4fe5371d7fe9b96120c53169",
+    "extracted_content_hash": "b80dc8bb165d6b5fbe52e119fe2eec2a2a427bf065bf52c6f49f57cd266d7ab1",
+    "deadline": "2026-12-01",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "How can AI agents build on existing software instead of reinventing it? Join this collaboration between TU Delft and ING to research more reliable agentic software development.\nJob description\nSoftware intensive organizations rely on increasingly large and complex software ecosystems consisting of services, libraries, APIs, frameworks, documentation, and other shared engineering knowledge. Recent advances in generative AI and software engineering agents are changing how software is developed and how developers interact with these ecosystems. TU Delft is collaborating with ING to investigate how we can make enterprise software development more sustainable and reliable in this changing landscape.\nWe will develop new techniques and tools that help developers and AI agents make better use of existing software and developer knowledge. Our research will combine AI with software repository mining, program and architecture analysis, empirical software engineering, and studies with practitioners. The research will focus on real-world software engineering challenges at ING, while contributing scientific insights and open research results that can benefit the broader software engineering community.\nWithin this collaboration, we explore two main research directions:\nDirection 1: Software Reuse in Enterprise Software Ecosystems\nLarge organizations invest substantially in reusable software assets. However, as a consequence similar functionality can be implemented independently across teams, increasing fragmentation and long-term maintenance costs. AI-assisted software development makes this challenge even more important: software engineering agents can rapidly generate new code, but may reproduce functionality that already exists elsewhere in an organization.\nThis direction investigates how software assets are discovered, consumed, adapted, and evolved across large software ecosystems. We will study where opportunities for reuse exist, how software can successfully be adapted across teams, how reusable assets evolve over time, and how developers and AI agents can be guided towards suitable existing software. Ultimately, we aim to develop intelligent techniques that help organizations maximize reuse while reducing unnecessary duplication and maintenance effort.\nDirection 2: Reliable Agentic Software Development\nAI software engineering agents can increasingly perform tasks such as implementing features, fixing bugs, testing, and refactoring software. Their success, however, depends not only on the underlying AI models, but also on the engineering context available to them. In enterprise environments, relevant knowledge is distributed across source code, documentation, architecture descriptions, requirements, APIs, development history, and organizational practices.\nThis direction investigates the engineering foundations required for reliable agentic software development. We will study what context agents need for different software engineering tasks, what makes specifications sufficiently complete and precise, how stale or incomplete context and software complexity affect agent performance, and how organizations can determine when tasks can be reliably delegated to AI agents. The goal is to develop techniques and safeguards that enable organizations to integrate increasingly autonomous software engineering agents while maintaining software quality and human oversight.\nWe are committed to creating a diverse and inclusive research environment and encourage applications from all qualified candidates, regardless of their background or experience. We believe that diversity contributes to a more innovative and creative research community. If you do not meet some of the optional requirements listed, we encourage you to still apply and explain how your unique experience and skills can contribute to our research.\nJob requirements\nRequired\nMaster's degree in Computer Science, Software Engineering, Artificial Intelligence, or a related field\nProficiency in the English language\nAdditional requirements:\nResearch focus, characterized by curiosity, data fluency, and critical thinking\nEngineering mindset, including ability to create experimental prototypes and demonstrators\nTeam player, good listener, and ready to help\nTo thrive as a PhD candidate, it’s crucial to have a strong research mindset driven by curiosity and passion for your topic. Reflecting on your motivation for pursuing a PhD trajectory is essential, as this path involves unique challenges and uncertainties inherent to scientific exploration. Success requires dedication, adaptability, the ability to analyze complex problems, manage your time effectively, innovate and stay resilient under pressure.\nCombined with the ability and willingness to work independently and collaborate well, these qualities are indispensable for a fulfilling PhD journey.\nThese experiences will build you as an independent researcher, expand your professional network, and pave the way for diverse career\npave the way for diverse career paths, inside or outside academia.\nTU Delft (Delft University of Technology)\nDelft University of Technology is built on strong foundations. As creators of the world-famous Dutch waterworks and pioneers in biotech, TU Delft is a top international university combining science, engineering and design. It delivers world class results in education, research and innovation to address challenges in the areas of energy, climate, mobility, health and digital society. For generations, our engineers have proven to be entrepreneurial problem-solvers, both in business and in a social context.\nAt TU Delft we embrace diversity as one of our core\nvalues\nand we actively\nengage\nto be a university where you feel at home and can flourish. We value different perspectives and qualities. We believe this makes our work more innovative, the TU Delft community more vibrant and the world more just. Together, we imagine, invent and create solutions using technology to have a positive impact on a global scale. That is why we invite you to apply. Your application will receive fair consideration.\nChallenge. Change. Impact!\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Andy Zaidman, via\nA.E.Zaidman@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n1 December 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter. In your motivation letter, please include your preference for one of the two research directions you are most interested in.\nIf you have previously written academic works (theses, papers, …), please include them or link to them in your application package.\nYou can address your application to Andy Zaidman. The PhD position will be fully at TU Delft, with strong collaboration with ING.\nPlease include a brief statement in your application indicating whether and, if so, how you used AI tools to prepare your application documents.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Doctoral position at TU Delft (EEMCS Faculty) investigating AI agents' use of software ecosystems and reliable agentic software development. Research spans software reuse in enterprise environments, repository mining, program analysis, and empirical software engineering. Collaboration with ING on real-world engineering challenges.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "No thematic alignment. The position is rooted in software engineering, AI system reliability, and enterprise software architecture. The researcher's identity is human-centred immersive systems, spatial learning, and collaboration in XR—not AI agent design, software architecture, or program analysis. The mention of 'AI' in both contexts is superficial; the research questions and outcomes are fundamentally different."
+    },
+    "methodological_fit": {
+      "score": 12,
+      "rationale": "Minimal methodological fit. The position emphasizes repository mining, program/architecture analysis, software engineering empirics, and (implicitly) machine learning for code generation. The researcher brings user-studies, experimental design, and quantitative research methods applicable to human-centred evaluation, not software analysis or ML model development. The implicit technical depth in AI/ML for code systems is outside the researcher's demonstrated expertise and excluded directions."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Minimal growth toward target identity. Doctoral training in AI-assisted software engineering and enterprise reuse patterns moves away from human-centred XR, spatial cognition, and immersive learning. The researcher would develop software engineering and AI systems thinking rather than deeper capabilities in collaborative immersive design, spatial understanding, or HCI methodology. This is a detour, not a development pathway."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "TU Delft is a top-tier institution in the researcher's target region (Netherlands, Priority 1). Full doctoral funding, 4-year contract, and strong publication/network infrastructure are strategically valuable. However, domain misalignment severely undermines strategic value: a PhD in software engineering + AI agents does not establish credibility or networks in immersive HCI. The researcher would exit with credentials poorly aligned to target identity and employer expectations."
+    },
+    "required_skills": [
+      "python",
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "experimental-design",
+      "python"
+    ],
+    "missing_skills": [
+      "machine-learning",
+      "repository-mining",
+      "program-analysis",
+      "software-architecture"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position specifies 'Master's degree in Computer Science, Software Engineering, Artificial Intelligence, or a related field.' Researcher holds MSc by Research in Creative Multimedia (non-CS background). Eligibility unclear; may be rejected or subject to additional scrutiny during risk assessment."
+    ],
+    "risks": [
+      "Domain and degree mismatch may trigger rejection during knowledge security assessment or skills evaluation.",
+      "PhD trajectory in software engineering diverges from target identity (human-centred XR/HCI); credential becomes a liability for future immersive HCI positions.",
+      "Research culture in software engineering (AI agents, code reuse, enterprise systems) differs markedly from human-centred design and empirical XR research.",
+      "Supervisor (Andy Zaidman) and lab (TU Delft EEMCS) specialise in software engineering; limited HCI or immersive systems mentorship.",
+      "Opportunity cost: 4 years of doctoral training in non-target domain delays establishment of target-aligned expertise and networks."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-30T12:38:35.624890Z",
+    "analysis_input_hash": "816a7e6b56aa40a8559669543c6bb48d68539931ed13d7f6c3f1b844bc2aa792"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 13,
+    "urgency": "medium",
+    "days_to_deadline": 32,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

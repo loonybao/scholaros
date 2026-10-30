@@ -1,0 +1,171 @@
+{
+  "id": "opp_aalto-research-assistant",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-10-30T12:22:15.969267Z",
+  "updated_at": "2026-10-30T12:43:55.160255Z",
+  "change_history": [
+    {
+      "ts": "2026-10-30T12:22:15.969456Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-10-30T12:38:35.623975Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-10-30T12:43:55.160255Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Research Assistant",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-business",
+    "source": "aalto",
+    "source_native_id": "research-assistant-5",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/research-assistant-5",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Research-Assistant_R48479/apply",
+    "evidence_ids": [
+      "aalto/research-assistant-5"
+    ],
+    "retrieved_at": "2026-10-30T12:22:15.969102Z",
+    "raw_snapshot_hash": "d5dc76773b0d087e86f9c008dd2a1aa324897a4762db9dbb940ece3947105f09",
+    "extracted_content_hash": "4f9739bdfc29c193fa077f7491f1d8d6d6e2a9c3a6563a63904f4b54c7add90c",
+    "deadline": "2026-11-22",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-10-30",
+    "position_type": "research_assistant",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nWe are now looking for a\nResearch Assistant\nat Aalto University School of Business for a project examining how joint versus sole custody affects children’s and parents’ long-term outcomes, including education, health and employment. The applicant must be enrolled in a bachelor’s or master’s degree programme. We hope the selected candidate can start as soon as possible, or by 11.1.2027 the latest.\nYour role\nThe main role is to help build a unique research dataset by collecting information on custody decisions from Finnish district courts. This will involve, for example:\ncontacting courts\ncoordinating access and data collection arrangements\nsystematically extracting and recording information from court documents.\nTo succeed in this role, you will need\nA proactive, independent approach, with the confidence to take ownership of communication with courts and follow requests through to completion.\nStrong organisational skills, attention to detail and sound judgment when handling confidential information.\nAn interest in empirical research in economics or a related social science.\nStrong capability and positive attitude toward data processing and analysis.\nExcellent Finnish and English language skills, both written and spoken, is required.\nBachelor’s or Master’s level studies in a relevant field.\nWhat we offer\nOpportunity to participate in research\nas part of a vibrant international community: You will work within a community of students, researchers, and other professionals advancing societally significant goals in science and education.\nSupport, coaching and sparring\nwhen you feel you need it.\nGreat possibilities for\ncompetence development and learning\n. This is an excellent opportunity for a student considering a PhD to gain hands-on experience in an ambitious research project and work closely with the research team. Depending on your interests and the project’s progress, the work could also provide a foundation for a master’s thesis or your own future research.\nMeaningful and inspiring environment\n. We are proud of our purpose to shape a sustainable future. We renew society with research-based knowledge, creativity and an entrepreneurial mindset.\nA culture where everyone is valued.\nOur work is guided by the values of Aalto University: responsibility, courage, and collaboration. We want to be an open community where equality and inclusion enable curiosity, innovation, collaboration and wellbeing.\nWe aim to combine the best of remote and on-site work and offer flexible working hours. Your on-site workplace is located on the Otaniemi campus, with diverse services and excellent transport connections. The position is part-time with 20-40 % working time percentage and fixed term for approximately 3-6 months. The salary is determined according to the university salary system used at Aalto University. The salary level is approximately 2 377,68 €/month - 2 488,27 €/month (100 % working time, the salary is determined by the part-time percentage).\nJoin us!\nTo apply, please share your CV, motivation letter and transcript of records with us through our recruitment site (\"Apply now!”) latest at 23.59pm (EET) 22nd of November 2026.\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\nDocuments to include with the application (as a single PDF file)\nMotivation letter\nCV\nTranscript of records\nFor more information about the role, please contact Kristiina Huttunen (kristiina.huttunen(at)aalto.fi. For questions related to the application process, please contact HR Advisor Saskia Raatikainen, hr-biz(at)aalto.fi.\nWe will go through applications, and we may invite suitable candidates to interview already during the application period. We aim to have a transparent and equal recruitment process, so feel free to ask us for feedback.\nWant to know more about us and your future colleagues? You can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nand check out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Research assistant role at Aalto University School of Business collecting court data on custody decisions for a longitudinal outcomes study. Position requires systematic data extraction, court coordination, and strong Finnish/English language skills. Work is administrative and social-science focused, not technical or XR-related.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic alignment. The position concerns family economics, custody law, and social outcomes—entirely outside the researcher's domain of human-centred XR, immersive learning, spatial cognition, and wayfinding. The mention of 'research' is generic administrative support in a different discipline."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Minimal methodological overlap. The role involves data collection logistics (court contact, document extraction, confidentiality handling) and quantitative social science. While the researcher has user-study and quantitative-research experience, the operational context (legal document processing, Finnish court systems) shares no methods with immersive systems design, user evaluation in VR, or spatial cognition research."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Negligible growth for the target identity. The researcher would not develop capabilities in human-centred XR, immersive systems, spatial learning, or collaborative design. Administrative data collection provides no pathway to doctoral research in HCI or immersive systems. The researcher's timeline (MSc thesis stage) suggests a doctoral track, not a detour into social science administration."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "Aalto is a respected institution and European location meets geography constraints. However, this specific role (School of Business, custody research) offers no supervision, mentorship, or network value for an HCI/XR researcher. Part-time (20–40%), fixed-term (3–6 months) contract does not build towards a doctoral position or research independence in the target domain."
+    },
+    "required_skills": [
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "finnish-language-fluency"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires fluent Finnish (written and spoken); researcher profile does not list Finnish language proficiency.",
+      "Position requires bachelor's or master's student enrolment; researcher is enrolled MSc but in a different institution and discipline.",
+      "Fixed-term 3–6 month role ends ~May 2027; researcher's thesis timeline unclear—potential conflict if MSc completion is imminent."
+    ],
+    "risks": [
+      "Complete domain mismatch (family economics ≠ immersive HCI) delays or derails doctoral preparation.",
+      "Part-time administrative role offers no research mentorship, publication opportunities, or professional network in HCI/XR.",
+      "No pathway to doctoral candidacy; role is terminal administrative contract.",
+      "Opportunity cost: 3–6 months could be spent finalizing MSc thesis, publishing, or pursuing aligned postgraduate positions."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-10-30T12:38:35.623404Z",
+    "analysis_input_hash": "bd7b6ae0d8ff07cd86cfd291f8025fca4712347bd6b3a1305b79bfeeee330fe4"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 12,
+    "urgency": "medium",
+    "days_to_deadline": 23,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
