@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-11-29
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 7
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 30)
+Gate: **uncertain** (days to deadline: 29)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -120,7 +120,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+
+Postdoctoral position at KTH/SciLifeLab developing autonomous AI agent systems for analyzing single-cell and spatial transcriptomics data to model tissue architecture in gastrointestinal diseases. The role combines machine learning, bioinformatics, and scientific discovery with mentorship and group leadership development.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 3 |
+| Strategic value | 15 |
+| **Overall** | **7** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Fundamental mismatch between researcher's human-centred HCI expertise and position's pure computational biology focus.
+- Researcher lacks machine learning, deep learning, and autonomous AI agent development experience — core technical requirements.
+- Position is explicitly designed to build computational leadership in bioinformatics, not immersive systems or HCI. Taking this role could diffuse focus from target identity development.
+- Beginner-level Python is substantially below the working fluency expected for a computational biology postdoc.
+- No mentors or group leadership models in this domain transfer to the researcher's target career path (human-centred XR research group leadership).
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-agentic-ai-for-spatial-biology-of-the-human.md` and link [[opp_varbi-postdoc-in-agentic-ai-for-spatial-biology-of-the-human]]._

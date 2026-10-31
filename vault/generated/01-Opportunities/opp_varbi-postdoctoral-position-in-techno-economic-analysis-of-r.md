@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-11-27
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 7
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 28)
+Gate: **uncertain** (days to deadline: 27)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -135,7 +135,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+Postdoctoral position at KTH developing techno-economic models and analysis of integrated energy systems (heating and electricity) for a real urban development project in Uppsala. The role combines systems modelling, optimization, energy economics, and stakeholder communication with direct municipal decision support.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 2 |
+| Methodological fit | 10 |
+| Growth value | 5 |
+| Strategic value | 12 |
+| **Overall** | **7** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Complete thematic misalignment. Energy infrastructure is not part of the researcher's target research identity.
+- Researcher lacks documented experience in energy systems, optimization methods, district heating, thermal storage, energy markets, and infrastructure planning — all core requirements.
+- Taking a postdoc in energy systems would further distance the researcher from developing expertise and networks in human-centred XR/HCI research.
+- Beginner Python is below the competency level needed for developing computational energy models. Steep learning curve would delay project contribution.
+- Position's mentorship and group leadership development pathways would build expertise in energy engineering, not HCI or immersive systems research leadership.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoctoral-position-in-techno-economic-analysis-of-r.md` and link [[opp_varbi-postdoctoral-position-in-techno-economic-analysis-of-r]]._

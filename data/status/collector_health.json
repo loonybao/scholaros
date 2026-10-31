@@ -1,47 +1,47 @@
 {
   "tampere": {
-    "last_run": "2026-10-30T12:23:09.556090+00:00",
-    "last_success": "2026-10-30T12:23:09.556090+00:00",
+    "last_run": "2026-10-31T11:53:15.676913+00:00",
+    "last_success": "2026-10-31T11:53:15.676913+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 6,
-      "relevant": 2,
+      "fetched": 5,
+      "relevant": 1,
       "created": 0,
       "updated": 0,
-      "unchanged": 2,
+      "unchanged": 1,
       "candidates": 0,
       "skipped_irrelevant": 4
     }
   },
   "aalto": {
-    "last_run": "2026-10-30T12:22:56.142625+00:00",
-    "last_success": "2026-10-30T12:22:56.142625+00:00",
+    "last_run": "2026-10-31T11:53:08.182159+00:00",
+    "last_success": "2026-10-31T11:53:08.182159+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 27,
-      "relevant": 18,
-      "created": 1,
+      "fetched": 24,
+      "relevant": 16,
+      "created": 0,
       "updated": 0,
-      "unchanged": 17,
+      "unchanged": 16,
       "candidates": 0,
-      "skipped_irrelevant": 9
+      "skipped_irrelevant": 8
     }
   },
   "tudelft": {
-    "last_run": "2026-10-30T12:35:05.797394+00:00",
-    "last_success": "2026-10-30T12:35:05.797394+00:00",
+    "last_run": "2026-10-31T12:04:17.141899+00:00",
+    "last_success": "2026-10-31T12:04:17.141899+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 96,
-      "relevant": 62,
-      "created": 3,
+      "fetched": 90,
+      "relevant": 57,
+      "created": 0,
       "updated": 0,
-      "unchanged": 59,
+      "unchanged": 57,
       "candidates": 0,
-      "skipped_irrelevant": 34
+      "skipped_irrelevant": 33
     }
   },
   "euraxess": {
@@ -60,18 +60,18 @@
     }
   },
   "varbi": {
-    "last_run": "2026-10-30T12:37:47.316678+00:00",
-    "last_success": "2026-10-30T12:37:47.316678+00:00",
+    "last_run": "2026-10-31T12:06:50.642424+00:00",
+    "last_success": "2026-10-31T12:06:50.642424+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 35,
-      "relevant": 17,
-      "created": 3,
+      "fetched": 32,
+      "relevant": 16,
+      "created": 0,
       "updated": 0,
-      "unchanged": 14,
-      "candidates": 3,
-      "skipped_irrelevant": 15
+      "unchanged": 16,
+      "candidates": 2,
+      "skipped_irrelevant": 14
     }
   }
 }
