@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-12-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 13
+fit_overall: 19
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 29)
+Gate: **uncertain** (days to deadline: 28)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -78,9 +78,7 @@ Coming to Delft Service
 Dual Career Programme
 is available, to support your accompanying partner with their job search in the Netherlands.
 Additional information
-If you would like more information about this vacancy or the selection procedure, please contact Andy Zaidman, via
-A.E.Zaidman@tudelft.nl
-.
+If you would like more information about this vacancy or the selection procedure, please contact dr.ir. Mitchell Olsthoorn, via M.J.G.Olsthoorn@tudelft.nl.
 Application procedure
 Are you interested in this vacancy? Please apply no later than
 1 December 2026
@@ -88,8 +86,7 @@ via the application button and upload the following documents:
 CV
 Motivational letter. In your motivation letter, please include your preference for one of the two research directions you are most interested in.
 If you have previously written academic works (theses, papers, …), please include them or link to them in your application package.
-You can address your application to Andy Zaidman. The PhD position will be fully at TU Delft, with strong collaboration with ING.
-Please include a brief statement in your application indicating whether and, if so, how you used AI tools to prepare your application documents.
+You can address your application to Andy Zaidman. The PhD position will be fully at TU Delft, with strong collaboration with ING. Please include a brief statement in your application indicating whether and, if so, how you used AI tools to prepare your application documents.
 Doing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the
 Graduate Schools Admission Requirements
 .
@@ -103,26 +100,25 @@ Please do not contact us for unsolicited services.
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-Doctoral position at TU Delft (EEMCS Faculty) investigating AI agents' use of software ecosystems and reliable agentic software development. Research spans software reuse in enterprise environments, repository mining, program analysis, and empirical software engineering. Collaboration with ING on real-world engineering challenges.
+PhD position at TU Delft investigating how AI agents can better leverage existing software assets and developer knowledge in enterprise environments. Research combines software repository mining, program analysis, empirical software engineering, and practitioner studies with industry partner ING. Two directions: software reuse in enterprise ecosystems and engineering foundations for reliable agentic software development.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 8 |
-| Methodological fit | 12 |
-| Growth value | 5 |
-| Strategic value | 35 |
-| **Overall** | **13** |
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 70 |
+| **Overall** | **19** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** machine-learning, repository-mining, program-analysis, software-architecture
+**Missing skills:** python, cpp, statistics
 
 **Risks:**
-- Domain and degree mismatch may trigger rejection during knowledge security assessment or skills evaluation.
-- PhD trajectory in software engineering diverges from target identity (human-centred XR/HCI); credential becomes a liability for future immersive HCI positions.
-- Research culture in software engineering (AI agents, code reuse, enterprise systems) differs markedly from human-centred design and empirical XR research.
-- Supervisor (Andy Zaidman) and lab (TU Delft EEMCS) specialise in software engineering; limited HCI or immersive systems mentorship.
-- Opportunity cost: 4 years of doctoral training in non-target domain delays establishment of target-aligned expertise and networks.
+- Severe thematic mismatch: position core is pure software engineering and AI agents, not human-centred XR or learning
+- Disciplinary mismatch: posting targets Computer Science, Software Engineering, or AI backgrounds; Creative Multimedia may not satisfy stated requirement despite MSc qualification
+- Technical skill gap: Python and C++ proficiency needed but researcher is beginner in Python with no C++ background
+- Opportunity cost: accepting this position would redirect researcher away from target identity trajectory into software engineering research
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-ai-for-software-reuse-and-agentic-de.md` and link [[opp_tudelft-phd-position-in-ai-for-software-reuse-and-agentic-de]]._

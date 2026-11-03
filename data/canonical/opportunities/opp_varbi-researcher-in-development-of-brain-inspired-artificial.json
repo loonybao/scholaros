@@ -1,0 +1,176 @@
+{
+  "id": "opp_varbi-researcher-in-development-of-brain-inspired-artificial",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-03T13:58:46.362984Z",
+  "updated_at": "2026-11-03T14:01:27.718947Z",
+  "change_history": [
+    {
+      "ts": "2026-11-03T13:58:46.363148Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-03T14:01:26.556812Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-03T14:01:27.718947Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Researcher in development of brain-inspired artificial intelligence",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-983207",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:983207/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-983207"
+    ],
+    "retrieved_at": "2026-11-03T13:58:46.362788Z",
+    "raw_snapshot_hash": "551d88bb3c1eb1df6107ac128378623383bd9775ed5f9cc7b8cf19fefbe333e0",
+    "extracted_content_hash": "b7c1c98990c7e509c3fd1ef26b92882c11179fa3a9884d41749a6b6fcca5bf67",
+    "deadline": "2026-11-12",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "other",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Researcher in development of brain-inspired artificial intelligence\nApply for position\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nAs an applicant, you are expected to build cortex-inspired neural networks for problems in semi-supervised and unsupervised learning. Your primary responsibilities will involve implementation and optimization on various hardware platforms, including neuromorphic hardware.\nThe goal of this work is to develop brain-like network architectures and carry out high-performance, large-scale implementations.\nYour responsibilities will include studying relevant literature, designing and simulating large-scale neural network models on various hardware platforms, including neuromorphic hardware. You will also be expected to actively participate in academic discussions with advisors at KTH and to write scientific articles.\nQualifications\nRequirements\nA doctoral degree at advanced level (higher education) in Computer Science or a related field. This eligibility requirement must be met no later than the time the employment decision is made.\nAs an applicant, you should have strong programming skills and the ability to develop scalable code for running on supercomputers. You should also have a deep understanding of artificial intelligence and machine learning, particularly regarding neural networks.\nIt is essential that you are knowledgeable and well-informed about issues related to diversity and equal opportunity, with a particular focus on gender equality.\nApplicants must have a good command of English and strong verbal and written communication skills, since this is required in the daily work.\nPreferred qualifications\nWe would prefer that you have prior experience developing and simulating large-scale brain-like neural networks with local learning rules.\nIt is advantageous if you have strong collaborative skills and can also demonstrate independence in research and development.\nKnowledge of and proficiency in GPU programming, as well as experience running large-scale computational simulations, are desirable qualifications.\nFurthermore, we would prefer that you have teaching ability and prior experience of developing and leading activities and staff.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Max two pages long.\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid for a limited time according to the agreement - for up to 6 months, with access according to agreement.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nSpecial fixed-term employment\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3663\nContact\nPawel Herman, paherman@kth.se\nPublished\n03.Nov.2026\nLast application date\n12.Nov.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "Researcher position at KTH Stockholm focused on developing brain-inspired neural network architectures for semi-supervised and unsupervised learning, with implementation and optimization on neuromorphic and supercomputing hardware. Role emphasizes large-scale simulation, GPU programming, and scientific publication.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "Position is pure machine learning algorithm development (cortex-inspired neural networks, semi-supervised/unsupervised learning, neuromorphic hardware). This falls explicitly into the researcher's excluded direction: 'pure-machine-learning-algorithms'. No immersive systems, user interaction, spatial cognition, learning, collaboration, or HCI component exists."
+    },
+    "methodological_fit": {
+      "score": 5,
+      "rationale": "Position requires GPU programming, supercomputing-scale implementation, and deep neural network design. Researcher has no background in machine learning, GPU optimization, or large-scale computational modeling. The only tangential connection is that both involve 'research' and 'simulation,' but the methods are entirely distinct."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "This position directly contradicts the researcher's target identity. It would build expertise in pure ML algorithm development and neuromorphic computing — precisely the technical specializations the researcher has explicitly excluded from their career trajectory. No value for the goal of becoming a human-centred immersive systems researcher."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "KTH is located in Sweden, a preferred country. KTH is a strong institution internationally. However, this specific group works on pure ML and neuromorphic hardware, not human-centred research. Funding appears stable. Geographic and institutional prestige are offset entirely by research direction misalignment."
+    },
+    "required_skills": [
+      "python",
+      "cpp",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "python",
+      "cpp",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD ('doctoral degree at advanced level') — researcher holds MSc by Research in progress, not a completed doctorate",
+      "Strong emphasis on 'strong programming skills' and GPU programming for supercomputers — researcher has no GPU or supercomputing experience",
+      "Preferred qualifications emphasize prior experience with large-scale neural networks and local learning rules — researcher has no machine learning background"
+    ],
+    "risks": [
+      "Degree mismatch: posting requires PhD or equivalent 'doctoral degree at advanced level'; researcher has MSc by Research (in progress) and does not hold a doctoral qualification",
+      "Explicit category mismatch: position is pure machine learning algorithm development, which researcher has identified as an excluded direction",
+      "No skill overlap: researcher lacks Python, C++, GPU programming, machine learning, and computational neuroscience knowledge",
+      "Fundamental career misalignment: accepting would require abandoning stated target identity and moving into technical specialization researcher explicitly does not want",
+      "Contract uncertainty: position is 'special fixed-term employment' for 'up to 6 months' — very short duration, unclear if renewable"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-03T14:01:26.556388Z",
+    "analysis_input_hash": "a7756b591a7cecd50e66cb975f74bbc91a05baf32af90a1f203829ad6cce1a59"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 9,
+    "urgency": "high",
+    "days_to_deadline": 9,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
