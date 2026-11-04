@@ -1,0 +1,172 @@
+{
+  "id": "opp_tudelft-phd-position-participatory-data-governance-for-a-jus",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-04T13:59:16.384156Z",
+  "updated_at": "2026-11-04T14:08:33.016722Z",
+  "change_history": [
+    {
+      "ts": "2026-11-04T13:59:16.384322Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-04T14:08:32.395244Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-04T14:08:33.016722Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD position Participatory Data Governance for a Just Energy Transition",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-industrial-design-engineering",
+    "source": "tudelft",
+    "source_native_id": "1376634957",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-position-Participatory-Data-Governance-for-a-Just-Energy-Transition-2628-CD/1376634957/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-position-Participatory-Data-Governance-for-a-Just-Energy-Transition-2628-CD/1376634957/",
+    "evidence_ids": [
+      "tudelft/1376634957"
+    ],
+    "retrieved_at": "2026-11-04T13:59:16.383883Z",
+    "raw_snapshot_hash": "a38aa800c8274167163f13483968e9da820c4b31827391b10cfbb80e26b2c43d",
+    "extracted_content_hash": "baaa389ea6e839836be945862712f0ef952447b653610bee1aeaa8066c8b3980",
+    "deadline": "2026-12-01",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "We seek a participatory design researcher who can make questions of justice, data rights and shared stewardship concrete in the design and operation of energy data infrastructures.\nJob Description\nThe Delft University of Technology is hiring a doctoral candidate on the subject of \"Energy data sharing for city-level policy making using digital twins\". The PhD position is a part of the FEDERATE NWO project.\nEnergy data can help communities, municipalities and grid operators make better decisions about the energy transition. Yet people and organisations who contribute data may have little insight into how it is used, limited influence over the terms of sharing, or no clear way to benefit from the resulting decisions. FEDERATE, aims developing ways to share data across energy systems and digital twins while addressing these questions of trust, power and justice.\nWe are looking for a PhD candidate to lead the research in Work Package 2: Participatory Data Governance for Equitable and Transparent Data-Sharing Processes of the FEDERATE project. You will work with residents, local organisations, municipalities, grid operators and technology partners to design and test governance arrangements that make data sharing understandable, negotiable and accountable. Your research will connect social and organisational design with the technical work on data-sharing interfaces, privacy, forgetting mechanisms and interoperable digital twins.\nWhat you will do\nYou will investigate how energy data is currently collected, shared and used, and whose needs, efforts, risks and knowledge are recognised in those processes. Through interviews, data ethnography, stakeholder and power mapping, and participatory workshops, you will build an understanding of both personal energy data and wider energy system data.\nWorking with project partners and communities in Heiloo and Alkmaar, you will:\nDevelop a participatory data governance framework informed by Human-Data Interaction principles of legibility, agency and negotiability, and by Energy Data Justice.\nFacilitate inclusive workshops with residents, businesses, public authorities and technical partners. You will use methods such as role play, serious games and scenario-based co-design to make competing interests and power differences discussable.\nCo-design governance roles, decision processes, data access and control arrangements, and ways for people to question, contest or revise data-sharing terms.\nDesign and prototype social and digital interactions that help people understand data practices, join governance processes and exercise meaningful influence. This includes approaches for people who are digitally excluded or less often represented.\nExplore fair incentives and ways for the value created through data sharing to flow back to those who contribute data, effort or local knowledge.\nDevelop an onboarding playbook and a practical governance and stewardship toolkit, then help test these arrangements in the project’s joint case study.\nTranslate findings into actionable governance requirements and data rights constraints for the project’s technical researchers, while learning from what their prototypes make possible in practice.\nPublish your research in academic venues and share usable findings with project partners and participating communities.\nJob Requirements\nYou have a master’s degree in design, human-computer interaction, social sciences, science and technology studies, public policy, information studies, or a closely related field. We welcome candidates whose work crosses these fields.\nYou can demonstrate:\nExperience with qualitative or participatory research, such as interviews, ethnography, co-design or workshop facilitation.\nThe ability to work respectfully with people who have different forms of expertise and different degrees of power, including communities affected by exclusion or vulnerability.\nA strong interest in data justice, energy justice, data rights, participatory governance or related approaches to equity and accountability.\nDesign skills to turn research insights into concepts, prototypes, interactions or tools that people can examine and test together.\nThe ability to analyse complex social and organisational settings, communicate findings clearly, and work independently as part of a multidisciplinary team.\nAn interest in learning how data infrastructures and digital twins work, so that you can collaborate closely with technical researchers. You do not need to be a specialist in knowledge graphs, privacy engineering or software development.\nSpoken Dutch skills, sufficient to independently conduct interviews and facilitate inclusive, participatory workshops with local stakeholders in Heiloo and Alkmaar, including residents, neighbourhood organisations local business and policymakers.\nExperience in the energy transition, community engagement, data stewardship, service design or interaction design would be valuable. What matters most is your ability to connect careful justice-oriented research with practical design and collaboration across disciplines.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Industrial Design Engineering\nMatching the evolution of people with the speed of the revolution of technology. This is the focus of the Faculty of Industrial Design Engineering (IDE). Delft designers act as a bridge between advances in technology and the needs of people, organisations and society to create products, services and systems with purpose.\nIDE is a leader in design research across the application areas of mobility, sustainability and health, as well as its development of design tools and methods. A 350-strong research team and over 2,000 students work together in our inspiring hall, labs and studios.\nIn close cooperation with industry, the public sector and NGOs we rehearse possible futures in research and education to design for a complex future.\nClick here to go to the website of the Faculty of Industrial Design Engineering.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Natalia Romero Herrera via\nn.a.romero@tudelft.nl\nApplication procedure\nApply via the application button and upload your CV, cover letter that details the motivation and fit to the job requirements, a list of grades of your qualify degrees (BSc, MSc). Incomplete applications will not be considered. The closing date for the vacancy is\n1 December 2026.\nYou can address your application to Dr. Natalia Romero Herrera.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in participatory data governance for energy transition, requiring qualitative and participatory design research to develop governance frameworks, co-design with communities, and prototype social-digital interactions for equitable energy data sharing. Housed in TU Delft's Faculty of Industrial Design Engineering (IDE).",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 45,
+      "rationale": "Partial thematic alignment exists in design-centric, human-centred approaches and participatory methods. The researcher's work emphasizes human-centred design, user studies, and collaborative multiplayer systems. However, the thematic domains are distinct: energy data governance, justice, and policy versus spatial learning and immersive collaboration. Energy infrastructure and data rights are outside the researcher's research summary and target identity. The human-centred philosophy provides a bridge, but the substantive research questions and application domain differ significantly."
+    },
+    "methodological_fit": {
+      "score": 60,
+      "rationale": "Strong methodological alignment in qualitative and participatory design research. The researcher has demonstrated intermediate-level user studies and experimental design skills. The position emphasizes interviews, ethnography, co-design, workshop facilitation, and participatory prototyping—methods the researcher has applied in the Master's work. Both involve iterative design, stakeholder engagement, and translating research into interactive prototypes. However, the researcher's experience is rooted in XR/immersive contexts and gameplay mechanics; energy data governance requires different domain literacy (energy systems, policy, data infrastructure) and deeper qualitative social science methods (ethnography, power mapping). The methodological toolkit overlaps substantially but requires significant domain reorientation."
+    },
+    "growth_value": {
+      "score": 50,
+      "rationale": "Moderate growth value. The position would deepen qualitative research and participatory co-design skills, which are methodologically adjacent to the researcher's target trajectory. However, it would shift focus away from immersive systems and spatial cognition toward data governance and energy policy. The researcher would not develop VR/XR technical or design expertise further. Skills in justice-oriented participatory research and social-digital interaction design are valuable but represent a methodological detour from the stated target identity of human-centred immersive systems research."
+    },
+    "strategic_value": {
+      "score": 55,
+      "rationale": "TU Delft is a prestigious institution and IDE is a world-leading design faculty—strong strategic positioning. The location (Netherlands) aligns with geographic preferences. Natalia Romero Herrera is an established design researcher, though not a key figure in immersive systems research. The FEDERATE project offers international collaboration and impact in sustainability. However, the position does not advance the researcher's stated target identity of human-centred XR/immersive systems research. It would be a lateral move into justice-oriented participatory design, not a progression toward doctoral expertise in spatial learning or collaborative immersive systems."
+    },
+    "required_skills": [
+      "qualitative-research",
+      "user-studies",
+      "experimental-design",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "user-studies",
+      "experimental-design",
+      "academic-writing",
+      "qualitative-research"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires Dutch language skills 'sufficient to independently conduct interviews and facilitate inclusive, participatory workshops'; researcher's language proficiency not stated",
+      "Calls for MSc in design, HCI, social sciences, STS, or related fields; researcher holds MSc by Research in Creative Multimedia, which may satisfy 'closely related field' but not explicitly listed"
+    ],
+    "risks": [
+      "Language barrier: Dutch proficiency requirement not met (stated requirement for independent workshop facilitation with local stakeholders)",
+      "Thematic drift: Accepts a PhD position in energy governance rather than immersive systems, potentially constraining future postdoctoral opportunities in human-centred XR research",
+      "No existing network or prior work in energy transition, data justice, or governance research; domain onboarding required",
+      "Limited direct connection to spatial cognition, immersive learning, or collaborative XR—the researcher's core expertise areas"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.7,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-04T14:08:32.394914Z",
+    "analysis_input_hash": "c16065f5dd33ba067008be53b746326265085d6a84945855fb0f158e4473bdc3"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 52,
+    "urgency": "medium",
+    "days_to_deadline": 27,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
