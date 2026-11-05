@@ -1,0 +1,177 @@
+{
+  "id": "opp_varbi-phd-student-in-agentic-embodied-ai-for-adaptive-manufa",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-05T14:24:46.920600Z",
+  "updated_at": "2026-11-05T14:30:08.121846Z",
+  "change_history": [
+    {
+      "ts": "2026-11-05T14:24:46.920693Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-05T14:30:07.475285Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-05T14:30:08.121846Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD student in Agentic & Embodied AI for Adaptive Manufacturing Systems",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-978857",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:978857/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-978857"
+    ],
+    "retrieved_at": "2026-11-05T14:24:46.920456Z",
+    "raw_snapshot_hash": "92e6ffa21f553b86426db0dabfb2bec30ed8633d90d295d0968d10c3b06bf52c",
+    "extracted_content_hash": "c0e334ec1ff48c8efa2b21bdca3e39110f2d4a012fd1d196c13f582242e54ad2",
+    "deadline": "2026-12-03",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "PhD student in Agentic & Embodied AI for Adaptive Manufacturing Systems\nApply for position\nKTH, School of Industrial Engineering and Management\nProject description\nThird-cycle subject:\nProduction engineering\nWe are seeking a motivated PhD student to develop AI and robotic methods for adaptive manufacturing systems, with a particular focus on agentic and embodied AI. The research addresses how robots and intelligent production systems can perceive changing conditions, reason about process requirements and constraints, and adapt their actions in real time. The project brings together task level decision intelligence, multimodal perception, digital twin based learning and robot control to enable more flexible and intelligent manufacturing.\nThe research will use battery assembly and disassembly as application scenarios.\nThe PhD student will develop and experimentally validate AI enabled robotic methods in these scenarios, while addressing research questions that are relevant to a broader range of adaptive manufacturing systems.\nThe position is part of a joint PhD program between KTH and Shanghai Jiao Tong University (SJTU). The PhD student will be full time employed at KTH and spend at least 12 months at SJTU, distributed across several research stays. Upon successful completion of the joint PhD programme, KTH and SJTU will jointly issue the PhD degree, with reference to the national accreditation authorized for each university.\nSupervision:\nXi Vincent Wang, Magnus Wiktorsson are proposed to supervise the doctoral student. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach and\nanalyze and work with complex issues.\nWe welcome applicants with backgrounds in robotics, artificial intelligence, computer science, control engineering, automation, production engineering or related fields.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages. Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3497\nContact\nXi Wang, wangxi@kth.se\nMagnus Wiktorsson, magwik@kth.se\nPublished\n05.Nov.2026\nLast application date\n03.Dec.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "Joint PhD position (KTH–SJTU) in agentic and embodied AI for adaptive manufacturing systems, focusing on multimodal perception, AI reasoning, digital twin learning, and robot control with application to battery assembly/disassembly; includes ≥12 months at Shanghai Jiao Tong University.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 18,
+      "rationale": "Thematic misalignment despite superficial AI/embodiment terminology. Position core is manufacturing automation, robot control, and agentic decision-making at the task level. Researcher's core is human-centred immersive systems, collaborative spatial learning, and human experience design. While 'embodied AI' and 'agentic' appear modern, the position is fundamentally about robotic agency and adaptive control systems, not about designing immersive experiences that enhance human understanding or collaboration. No human factors, HCI, or learning outcome focus."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Adjacent-to-weak methodological fit. Position requires AI system design, multimodal perception integration, digital twin development, and robot control—technical competencies not in researcher's profile. However, the joint program structure and emphasis on experimental validation of embodied systems shares an implementation mindset with researcher's XR development work. Researcher's intermediate multiplayer-networking and advanced Unity/C# skills suggest technical systems thinking. Gap is large: position expects AI/ML depth (task reasoning, perception fusion), whereas researcher's depth is in user experience design and collaborative interaction design. Not methodological alignment but adjacent problem-solving orientation."
+    },
+    "growth_value": {
+      "score": 35,
+      "rationale": "Moderate-to-low growth value with caveats. Position would develop AI/multimodal perception and digital twin competencies, which could eventually inform embodied immersive system design (e.g., adaptive environments that respond to user state). However, this is an indirect pathway. Core capability gaps for target identity (spatial learning design, collaborative interaction evaluation, human-centred evaluation) are not directly addressed. Researcher would gain manufacturing domain depth irrelevant to target institutions' research profiles. Joint PhD structure (12+ months at SJTU) adds international network value but commits time away from human-centred XR focus."
+    },
+    "strategic_value": {
+      "score": 40,
+      "rationale": "Mixed strategic value. KTH is a target-region institution (Sweden) with strong technical reputation; joint SJTU program adds emerging-market research infrastructure and network. However, production engineering (School of Industrial Engineering and Management) is not the natural fit for human-centred XR research. Target institutions (Aalto, TU Delft) have strong HCI/immersive systems groups; this position does not build reputation in those communities. Manufacturing focus and AI-for-automation framing would require significant repositioning to align with target identity. Funding likely stable (joint program structure), but strategic pathway is unclear."
+    },
+    "required_skills": [
+      "python",
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position welcomes backgrounds in 'robotics, artificial intelligence, computer science, control engineering, automation'—researcher's background (XR, HCI, immersive systems design) is mentioned last and appears secondary to these technical fields.",
+      "Joint program requires ≥12 months at SJTU (Shanghai); researcher constraints list Europe as allowed region and lists preferred Nordic/Netherlands countries—geographic commitment to China/Asia may conflict with stated career preferences.",
+      "Posting emphasizes 'agentic' and 'embodied AI'—terms focused on robot/system agency, not human-centred design. Researcher's target identity emphasizes human-centred systems.",
+      "Manufacturing/battery assembly application domain is orthogonal to researcher's spatial learning, wayfinding, and immersive orientation focus."
+    ],
+    "risks": [
+      "Mission creep: Position framed as 'agentic embodied AI' focuses on machine agency and control, not human experience or learning outcomes. Researcher's strength is in human-centred evaluation.",
+      "AI/ML depth gap: Position expects advanced proficiency in AI system design, perception fusion, and reinforcement learning or planning algorithms. Researcher shows Python (beginner), not ML engineering experience.",
+      "Manufacturing domain: Battery assembly/disassembly is a specific manufacturing use case with industrial/safety constraints unrelated to educational or spatial learning contexts.",
+      "Geographic commitment: Joint program requires significant time in Shanghai, potentially conflicting with researcher's stated European preference and target institutions.",
+      "Career narrative: Pivoting to agentic AI for manufacturing would require repositioning narrative away from human-centred XR and immersive learning—possible but not natural.",
+      "Supervisor expertise: Wang and Wiktorsson are production/manufacturing researchers; no evident HCI or human-centred technology background.",
+      "Publication culture: Manufacturing/robotics/AI venues (IEEE RA-L, Automatica, etc.) differ from HCI publishing norms (CHI, TOCHI, IVR)."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-05T14:30:07.475022Z",
+    "analysis_input_hash": "d549da44c68a4af7a3b0bcf5707bd05d6de7ebb7281529d324e77a17a72d1dd2"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 26,
+    "urgency": "medium",
+    "days_to_deadline": 28,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

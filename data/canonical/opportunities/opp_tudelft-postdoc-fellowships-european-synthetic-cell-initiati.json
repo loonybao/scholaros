@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-10-30T12:24:35.522741Z",
-  "updated_at": "2026-11-04T14:08:33.078323Z",
+  "updated_at": "2026-11-05T14:30:08.009991Z",
   "change_history": [
     {
       "ts": "2026-10-30T12:24:35.522965Z",
@@ -94,6 +94,46 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-05T14:18:45.169774Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-05T14:29:23.969883Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-05T14:30:08.009991Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -107,9 +147,9 @@
     "evidence_ids": [
       "tudelft/1376285757"
     ],
-    "retrieved_at": "2026-10-30T12:24:35.522533Z",
-    "raw_snapshot_hash": "45795fdae302d03dc8653705aa3ea58c4cd2e7a2bfeb96353775caecd8f87fe9",
-    "extracted_content_hash": "2d9de4f2953660a6a06f6a68f8815dc300eb3776d6fae4165a364e4789f80a30",
+    "retrieved_at": "2026-11-05T14:18:45.169398Z",
+    "raw_snapshot_hash": "edc756797db2eef167fce86b6896839752f511172878886dfbdffa867f288bed",
+    "extracted_content_hash": "e88e80bf96be7fe17d6a2c5767348b8925d8359049ce8a39a77dae4f2b03eab2",
     "deadline": "2026-12-31",
     "deadline_note": null,
     "start_date": null,
@@ -128,56 +168,41 @@
     "mobility_requirement_status": "ambiguous",
     "mobility_requirement_text": "Posting mentions: …Package for further details and templates. Further, candidates must comply with the COFUND-specific eligibility rules: Mobility rule: applicants must not have resided or carried out their main activity (work, studies, etc.) in the country of the recruiting organisation or implementing partner for more than 12 months in the 36 mont…",
     "status": "open",
-    "description_text": "Join SynCell-nExUs and collaborate with leading researchers across Europe to tackle the big challenges in Synthetic Cells research.\nJob description\nSynCell-nExUs, (“SynCellEU programme for recruiting next generation European leaders in Synthetic Cell research”) is a new pan-European postdoctoral excellence programme led by the Max Planck Society for the Advancement of Science e.V. and managed in collaboration with the European Synthetic Cell Initiative (SynCellEU). The programme will run for five years, during which a total of 40 postdoctoral fellowships will be offered. The appointed fellows will join an interdisciplinary community of researchers dedicated to building synthetic cells from the bottom up. By recreating essential cellular functions, this community aims to better understand how living cells work and to translate this knowledge into cutting-edge, nature-inspired technologies.\nIn this 1st call, SynCell-nExUs offers 20 fully funded, 3-year postdoctoral fellowships.\nApplicants are invited to develop their own research project in one of the following SynCell-nExUs research lines on synthetic cells:\nMetabolism and energy;\nDivision and replication;\nInformation processing and evolution;\nEnabling technologies.\nSelected fellows will be appointed at one of the proposed hosting labs, where they will work at the own research project, while being embedded in the lab and receiving supervision by the hosting PI. At the same time, they will participate in the activities of the network. They also will have the opportunity for exchange through a personalized programme of visits and secondments. Detailed information can be found in the Application Package that can be downloaded on the SynCell-nExUs website (see link under \"Application Procedure\").\nJob requirements\nA PhD degree, in a field relevant to the SynCell-nExUs programme, at the time of the call deadline. Researchers who have successfully defended their doctoral thesis, but who have not yet formally been awarded the doctoral degree will also be considered as postdoctoral researchers and will be considered eligible to apply.\nStrong analytical, problem-solving, and communication skills.\nAbility to work independently as well as in multidisciplinary research teams.\nExcellent knowledge of the English language.\nGood organisational and time-management skills.\nPlease consult the\nApplication Package\nfor further details and templates. Further, candidates must comply with the COFUND-specific eligibility rules:\nMobility rule: applicants must not have resided or carried out their main activity (work, studies, etc.) in the country of the recruiting organisation or implementing partner for more than 12 months in the 36 months immediately before the deadline of the co-funded programme's call.\nApplicants must not already be permanently employed by the organisation hosting them.\nAbout the Programme\nThis five-year programme offers\n40 fully funded three-year postdoctoral positions\nacross a network of\n50+ labs in 22 leading research institutions across Europe\n. Co-funded by the European Union through\nHorizon Europe\nand\nMSCA COFUND\n, it is designed to develop the next generation of leaders in bottom-up synthetic biology and related fields.\nFellows benefit from an outstanding training programme that combines cutting-edge research with professional development, including scientific communication, research diversity, transferable skills, and a dedicated personal development retreat. International and intersectoral collaboration is a core feature of the programme, supported by associated partners from the\nSynBioEU network\nand industry.\nLearn more:\nhttps://www.syntheticcell.eu/syncellnexus\n.\nThe SynCell-nExUs programme is coordinated by the Max Planck Society and brings together a network of participating institutions across Europe. Postdoctoral researchers recruited through the programme will be hosted by one of the participating institutions, where they will carry out their research under the supervision of researchers and group leaders at the respective host institution. TU Delft is one of the participating institutions in the SynCell-nExUs programme and co-coordinates the recruitment process. Depending on the selected research project and supervisor, successful candidates may therefore be appointed at TU Delft or at another participating institution elsewhere in Europe. Candidates apply to the SynCell-nExUs programme and its research opportunities rather than exclusively to a specific host institution. The final host institution and supervisor will be determined based on the selected research project and the outcome of the recruitment process.\nConditions of employment (depending on national regulations of host country)\nDuration of contract is 3 years. Temporary.\nA job of 32-40 hours per week.\nAppointment is at one of the participating hosting labs, with full social security coverage in the hosting country.\nA competitive salary in line with MSCA COFUND requirements. The remuneration will include the applicable social security contributions, taxes, and other mandatory deductions in accordance with the national legislation of the host institution. Where applicable, additional allowances may be provided, including a long-term leave allowance and a special needs allowance. For further details on the employment conditions and remuneration, please consult the SynCell-nExUS programme webpage:\nhttps://syntheticcell.eu/syncellnexus/\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Finn Mccartney, via\nsyncellnexus@tudelft.nl\n.\nThis is an EU co-funded project, named\nSynCell-nExUs\n, with project number 101261790, within program HORIZON EUROPE/ Marie Sklodowska Curie Actions COFUND.\nApplication procedure\nApplicants should consult the applicants guide and downloadable forms on the SynCell-nExUs website here:\nHow to apply\n. For this call (call one of two) 20 36-months postdoc positions are available. Applications must be submitted by\n31 December 2026\nthrough the application portals that are linked on the\nSynCell-nExUs webpage\n. Applications sent by email or post will not be processed. Applications should comply with the instructions set out in the ‘guide for applicants’ document. Each applicant can submit only one application, in one of the four available research areas.  In the application form, you will indicate your chosen area and sub-field and indicate up to three potential supervisors (hosting labs listed on the website).\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel who will be appointed at TU Delft and employed under a TU Delft contract. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about TU Delft’s assessment on our webpage on\nknowledge security\n. Candidates who are appointed at another participating institution within the SynCell-nExUs programme will be subject to the applicable procedures of that institution.\nPlease do not contact us for unsolicited services."
+    "description_text": "Join SynCell-nExUs and collaborate with leading researchers across Europe to tackle the big challenges in Synthetic Cells research.\nJob description\nSynCell-nExUs, (“SynCellEU programme for recruiting next generation European leaders in Synthetic Cell research”) is a new pan-European postdoctoral excellence programme led by the Max Planck Society for the Advancement of Science e.V. and managed in collaboration with the European Synthetic Cell Initiative (SynCellEU). The programme will run for five years, during which a total of 40 postdoctoral fellowships will be offered. The appointed fellows will join an interdisciplinary community of researchers dedicated to building synthetic cells from the bottom up. By recreating essential cellular functions, this community aims to better understand how living cells work and to translate this knowledge into cutting-edge, nature-inspired technologies.\nIn this 1st call, SynCell-nExUs offers 20 fully funded, 3-year postdoctoral fellowships.\nApplicants are invited to develop their own research project in one of the following SynCell-nExUs research lines on synthetic cells:\nMetabolism and energy;\nDivision and replication;\nInformation processing and evolution;\nEnabling technologies.\nSelected fellows will be appointed at one of the proposed hosting labs, where they will work at the own research project, while being embedded in the lab and receiving supervision by the hosting PI. At the same time, they will participate in the activities of the network. They also will have the opportunity for exchange through a personalized programme of visits and secondments. Detailed information can be found in the Application Package that can be downloaded on the SynCell-nExUs website (see link under \"Application Procedure\").\nJob requirements\nA PhD degree, in a field relevant to the SynCell-nExUs programme, at the time of the call deadline. Researchers who have successfully defended their doctoral thesis, but who have not yet formally been awarded the doctoral degree will also be considered as postdoctoral researchers and will be considered eligible to apply.\nStrong analytical, problem-solving, and communication skills.\nAbility to work independently as well as in multidisciplinary research teams.\nExcellent knowledge of the English language.\nGood organisational and time-management skills.\nPlease consult the\nApplication Package\nfor further details and templates. Further, candidates must comply with the COFUND-specific eligibility rules:\nMobility rule: applicants must not have resided or carried out their main activity (work, studies, etc.) in the country of the recruiting organisation or implementing partner for more than 12 months in the 36 months immediately before the deadline of the co-funded programme's call.\nApplicants must not already be permanently employed by the organisation hosting them.\nAbout the Programme\nThis five-year programme offers\n40 fully funded three-year postdoctoral positions\nacross a network of\n50+ labs in 22 leading research institutions across Europe\n. Co-funded by the European Union through\nHorizon Europe\nand\nMSCA COFUND\n, it is designed to develop the next generation of leaders in bottom-up synthetic biology and related fields.\nFellows benefit from an outstanding training programme that combines cutting-edge research with professional development, including scientific communication, research diversity, transferable skills, and a dedicated personal development retreat. International and intersectoral collaboration is a core feature of the programme, supported by associated partners from the\nSynBioEU network\nand industry.\nLearn more:\nhttps://www.syntheticcell.eu/syncellnexus\n.\nThe SynCell-nExUs programme is coordinated by the Max Planck Society and brings together a network of participating institutions across Europe. Postdoctoral researchers recruited through the programme will be hosted by one of the participating institutions, where they will carry out their research under the supervision of researchers and group leaders at the respective host institution. TU Delft is one of the participating institutions in the SynCell-nExUs programme and co-coordinates the recruitment process. Depending on the selected research project and supervisor, successful candidates may therefore be appointed at TU Delft or at another participating institution elsewhere in Europe. Candidates apply to the SynCell-nExUs programme and its research opportunities rather than exclusively to a specific host institution. The final host institution and supervisor will be determined based on the selected research project and the outcome of the recruitment process.\nConditions of employment (depending on national regulations of host country)\nDuration of contract is 3 years. Temporary.\nA job of 32-40 hours per week.\nAppointment is at one of the participating hosting labs, with full social security coverage in the hosting country.\nA competitive salary in line with MSCA COFUND requirements. The remuneration will include the applicable social security contributions, taxes, and other mandatory deductions in accordance with the national legislation of the host institution. Where applicable, additional allowances may be provided, including a long-term leave allowance and a special needs allowance. For further details on the employment conditions and remuneration, please consult the SynCell-nExUS programme webpage:\nhttps://syntheticcell.eu/syncellnexus/\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Finn Mccartney, via\nsyncellnexus@tudelft.nl\n.\nThis is an EU co-funded project, named SynCell-nExUs. You can find out more about the project\nhere\nApplication procedure\nApplicants should consult the applicants guide and downloadable forms on the SynCell-nExUs website here:\nHow to apply\n. For this call (call one of two) 20 36-months postdoc positions are available. Applications must be submitted by\n31 December 2026\nthrough the application portals that are linked on the\nSynCell-nExUs webpage\n. Applications sent by email or post will not be processed. Applications should comply with the instructions set out in the ‘guide for applicants’ document. Each applicant can submit only one application, in one of the four available research areas.  In the application form, you will indicate your chosen area and sub-field and indicate up to three potential supervisors (hosting labs listed on the website).\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel who will be appointed at TU Delft and employed under a TU Delft contract. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about TU Delft’s assessment on our webpage on\nknowledge security\n. Candidates who are appointed at another participating institution within the SynCell-nExUs programme will be subject to the applicable procedures of that institution.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "3-year pan-European postdoctoral fellowship programme (SynCell-nExUs) recruiting synthetic biology researchers to build cells bottom-up, with host labs across 22 European institutions. Four research lines: metabolism/energy, division/replication, information processing/evolution, and enabling technologies. Fully funded, includes mobility and professional development.",
+    "summary": "A pan-European 3-year postdoctoral fellowship programme in synthetic cell research across four research lines (metabolism/energy, division/replication, information processing/evolution, enabling technologies). Fellows design independent projects and are hosted at one of 50+ labs across 22 European institutions, with embedded network participation and professional development.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 2,
-      "rationale": "No thematic alignment. Synthetic cell biology (bottom-up cell construction, exciton dynamics, metabolic pathways, biological replication) is a distinct experimental biology discipline. The researcher's domain is human-centred immersive systems, spatial learning, and collaborative interaction design. There is no substantive connection between synthetic cell research and XR/immersive learning."
+      "score": 5,
+      "rationale": "The posting is rooted in bottom-up synthetic biology, molecular systems engineering, and cellular engineering. The researcher's expertise is in human-centred XR, collaborative immersive systems, and spatial learning for educational contexts. There is no thematic overlap in either direction."
     },
     "methodological_fit": {
-      "score": 3,
-      "rationale": "Negligible methodological fit. Synthetic cell research involves molecular biology, materials science, biophysics, and systems modelling of cellular processes. The researcher's methods (user-studies, experimental design for spatial cognition, immersive system prototyping, quantitative outcome measurement) are orthogonal. No transferable experimental or analytical methods overlap."
+      "score": 8,
+      "rationale": "Both contexts involve experimental design and validation, but the core methodologies diverge sharply. Synthetic cell research requires wet-lab biology, molecular characterization, and biophysical measurement. The researcher's methods (user studies, immersive system design, spatial cognition assessment) are not transferable to this domain."
     },
     "growth_value": {
-      "score": 1,
-      "rationale": "Zero growth toward target identity. A synthetic cell biology postdoc would establish expertise in molecular and cellular systems far removed from human-centred design, immersive HCI, and spatial learning. This represents a career discontinuity, not professional development."
+      "score": 2,
+      "rationale": "This position would require the researcher to abandon HCI and immersive systems research entirely and retrain in synthetic biology—a fundamental career pivot that contradicts the stated target identity. No capability gaps in human-centred XR would be closed."
     },
     "strategic_value": {
-      "score": 5,
-      "rationale": "The fellowship offers excellent funding, mobility, and network infrastructure across 50+ labs in 22 institutions—strategically strong in isolation. However, it is strategically damaging for this researcher: 3 years in synthetic biology would exhaust the critical window for establishing PhD-level credentials in the target domain (immersive HCI). Postdoc placement in the wrong domain often forecloses future academic positions in the preferred field."
+      "score": 15,
+      "rationale": "While TU Delft is a strong institution and European location aligns with geographic preference, the research group quality is irrelevant to fit. The position offers no pathway toward the researcher's target identity (human-centred immersive systems researcher) and would actually distance them from it."
     },
-    "required_skills": [
-      "quantitative-research",
-      "experimental-design"
-    ],
+    "required_skills": [],
     "preferred_skills": [],
     "skill_evidence": {},
-    "matched_skills": [
-      "quantitative-research",
-      "experimental-design"
-    ],
-    "missing_skills": [
-      "molecular-biology",
-      "cell-biology",
-      "biophysics",
-      "systems-modelling",
-      "materials-science"
-    ],
+    "matched_skills": [],
+    "missing_skills": [],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires PhD in 'a field relevant to the SynCell-nExUs programme' by deadline. Researcher holds MSc by Research in progress; eligibility contingent on MSc completion. Not yet postdoctoral.",
-      "Mobility rule: applicants must not have resided/worked in the host country for >12 months in preceding 36 months. Researcher location (Malaysia) does not immediately conflict, but geographic history must be verified.",
-      "Research lines (metabolism, division, information processing, enabling technologies) are all synthetic biology. No HCI or immersive systems sub-track exists."
+      "Requires PhD degree at deadline; researcher has MSc by Research in progress (not yet conferred). Only 'successfully defended' PhDs are mentioned as eligible, not MSc-level candidates.",
+      "COFUND mobility rule requires applicant not to have resided/worked in host country >12 months in prior 36 months; geographic constraints should be verified."
     ],
     "risks": [
-      "Researcher is not yet postdoctoral (MSc thesis in progress); ineligible until PhD is awarded.",
-      "Discipline mismatch is absolute. Synthetic cell biology and immersive HCI have no overlapping literature, conferences, funding agencies, or career pathways.",
-      "3-year commitment in wrong domain forecloses entry to HCI/XR doctoral or postdoctoral positions during critical career window.",
-      "Fellow emerges from programme with credentials, networks, and expertise in synthetic biology; employers in immersive HCI will view fit as poor.",
-      "Programme culture and training (synthetic biology, biophysics lab work) incompatible with researcher's core methodological identity (human-centred design, user studies)."
+      "Fundamental domain mismatch: synthetic biology is pure life sciences; XR/HCI expertise is not valued or applicable.",
+      "Career derailment risk: accepting would signal departure from human-centred XR and require multi-year retraining in molecular/cellular engineering.",
+      "PhD eligibility unclear: posting text emphasizes 'PhD degree' and 'defended doctoral thesis' as baseline; MSc by Research status ambiguous under formal COFUND rules."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -185,14 +210,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.99,
+    "confidence": 0.95,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-10-30T12:38:35.626057Z",
-    "analysis_input_hash": "37a9b7e6e3506e211c7eaa6a85a784c138e4c0b25486144098338c4791c2a0c1"
+    "analyzed_at": "2026-11-05T14:29:23.969401Z",
+    "analysis_input_hash": "b5ef4b6c73d8a069c686260eb40ae571b05f6b01cc5d90f607ba47f207b44bd8"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -201,9 +226,9 @@
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source",
       "posting hints at a mobility/residence-history rule — verify the exact condition"
     ],
-    "fit_overall": 3,
+    "fit_overall": 7,
     "urgency": "low",
-    "days_to_deadline": 57,
+    "days_to_deadline": 56,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

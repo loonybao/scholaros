@@ -1,0 +1,170 @@
+{
+  "id": "opp_tudelft-postdoc-on-decision-trees-for-control-and-monitoring",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-05T14:16:13.682106Z",
+  "updated_at": "2026-11-05T14:30:08.051454Z",
+  "change_history": [
+    {
+      "ts": "2026-11-05T14:16:13.682203Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-05T14:28:47.556362Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-05T14:30:08.051454Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc on Decision Trees for Control and Monitoring of Stochastic Systems",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1376753657",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-on-Decision-Trees-for-Control-and-Monitoring-of-Stochastic-Systems-2628-CD/1376753657/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-on-Decision-Trees-for-Control-and-Monitoring-of-Stochastic-Systems-2628-CD/1376753657/",
+    "evidence_ids": [
+      "tudelft/1376753657"
+    ],
+    "retrieved_at": "2026-11-05T14:16:13.681937Z",
+    "raw_snapshot_hash": "cc7447c6a2a0ec2f6419dffd3e9f869c39587276f6bc7c86529285c92bdec98a",
+    "extracted_content_hash": "3e4c257b3a0d46329916f0c34d350c53e4737f12c6ea7f5b51cacda5b2aeaabb",
+    "deadline": "2026-11-23",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Our recent algorithms synthesize optimal tree policies orders of magnitude faster than earlier approaches. Now we want to take them into uncertain, real-world settings.\nJob description\nLearned controllers are increasingly deployed in safety-critical settings, yet they offer few guarantees once reality deviates from the model they were trained on. Decision trees offer a promising alternative: they are compact, human-readable, and amenable to formal analysis.\nThis position builds on the recent results from our group. Possible directions include:\nExplainable monitoring: designing interpretable runtime monitors that identify which environment the system is operating in, so the right policy can be selected, or so that to detect when the deployed policy’s guarantees no longer hold.\nScalability and stochasticity: extending search-based synthesis of decision-tree policies to stochastic and black-box systems and to larger state spaces, so that optimal tree policies remain within reach for realistic problems.\nYou will have the freedom to shape the direction within this scope. The aim is to publish in leading venues in formal methods and AI, along with open-source tools.\nYou will join the Algorithmics Group in the Department of Software Technology, Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS). You will collaborate with PhD students and postdocs working on intelligent decision-making and will have opportunities to co-supervise students. You will be supervised by Prof. Anna Lukina.\nJob requirements\nYou should have:\na PhD in computer science or a related field (or be close to completing one), with a background in formal methods, planning under uncertainty, or machine learning for sequential decision making;\nsolid foundations in mathematics and logic, plus experience with algorithm design, combinatorial optimization, and implementation;\na strong publication record relative to career stage, for example, at venues such as CAV, TACAS, RV, AAAI, IJCAI, or NeurIPS;\nexcellent written and spoken English.\nThe following are a plus:\nexperience with (uncertain or robust) Markov decision processes, probabilistic model checking, or reinforcement learning;\nexperience with decision trees, branch-and-bound search, mixed-integer programming, or runtime verification;\nstrong programming skills (e.g., Rust, Python, C++).\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDuration of contract is 1 year. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Prof. Anna Lukina, via\na.lukina@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n23 November 2026\nvia the application button and upload the following documents:\nyour academic CV,\na motivation letter (max. [1–2] pages) explaining your interest in the project, which of the three research directions appeals to you most, and how your background fits it;\nyour PhD thesis (or, if not yet completed, a recent draft or two representative publications).\nYou can address your application to Prof. Anna Lukina.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "One-year postdoctoral position in formal methods and AI, focused on synthesis of explainable decision-tree policies for control and monitoring of stochastic systems. The work sits at the intersection of symbolic AI, formal verification, and learning-based control, with emphasis on scalability and interpretability.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 4,
+      "rationale": "The position is rooted in formal methods, automated synthesis, Markov decision processes, and machine learning for sequential decision-making—all pure computer science / AI theory domains. The researcher's expertise is human-centred XR, collaborative immersive systems, and spatial learning. No thematic connection exists; this is symbolic AI and formal verification, not human-centred systems."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Researcher has user-studies and experimental-design skills applicable to HCI, but the core required methodologies are formal methods (CAV, TACAS, RV venues), logic, algorithm design, combinatorial optimization, and potentially reinforcement learning—none of which appear in the researcher's profile. User-facing evaluation does not translate to formal verification."
+    },
+    "growth_value": {
+      "score": 1,
+      "rationale": "This position would develop advanced formal methods and AI theory capabilities. None of these areas are on the pathway toward the target identity of human-centred XR researcher. Learning decision-tree synthesis and formal verification would move away from, not toward, intended career direction."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "TU Delft is a priority institution. Prof. Anna Lukina supervises algorithmics and formal methods research, which is well-regarded. One-year position offers flexibility and potential extension. Location and institution alignment are strong. However, research-domain mismatch significantly reduces strategic value for the researcher's stated career goals."
+    },
+    "required_skills": [
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD in computer science or related field with background in formal methods, planning under uncertainty, or machine learning for sequential decision-making. Researcher holds MSc in Creative Multimedia focused on XR application design; no evidence of formal CS training, logic, or AI theory.",
+      "Requires solid foundations in mathematics and logic plus experience with algorithm design, combinatorial optimization, and implementation. Researcher's mathematical background is not stated; intermediate quantitative-research suggests applied statistical literacy, not theoretical CS/logic.",
+      "Requires strong publication record relative to career stage at formal methods venues (CAV, TACAS, RV, AAAI, IJCAI, NeurIPS). Researcher's publication record: 1 first-author journal article (HCI-domain) and 1 systematic mapping review in progress (HCI domain)—no formal methods publications.",
+      "Strong programming skills in Rust, Python, C++ are listed as a plus. Researcher lists beginner Python with no substantial project experience; no mention of Rust or C++."
+    ],
+    "risks": [
+      "Fundamental disciplinary mismatch: researcher is an applied HCI/XR practitioner; position requires formal CS theory expertise.",
+      "No demonstrable background in formal methods, logic, or algorithmic verification.",
+      "Publication record is entirely in HCI domain; no evidence of engagement with AAAI, CAV, TACAS, or NeurIPS-style research.",
+      "Python skill is beginner with no advanced programming project experience. Position likely requires proficient implementation in Python (or Rust/C++).",
+      "One-year contract length provides minimal buffer for onboarding into a highly specialized theory-focused role.",
+      "Very high likelihood of poor supervision fit and unrealistic performance expectations."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.9,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-05T14:28:47.556115Z",
+    "analysis_input_hash": "c5a183671f549e4e83300354dd808d715f93cc94fd88f1b79bf7334f9eed8f34"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 13,
+    "urgency": "high",
+    "days_to_deadline": 18,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

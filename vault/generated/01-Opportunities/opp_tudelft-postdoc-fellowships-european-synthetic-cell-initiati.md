@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-12-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 3
+fit_overall: 7
 urgency: low
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 57)
+Gate: **uncertain** (days to deadline: 56)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -80,9 +80,8 @@ Additional information
 If you would like more information about this vacancy or the selection procedure, please contact Finn Mccartney, via
 syncellnexus@tudelft.nl
 .
-This is an EU co-funded project, named
-SynCell-nExUs
-, with project number 101261790, within program HORIZON EUROPE/ Marie Sklodowska Curie Actions COFUND.
+This is an EU co-funded project, named SynCell-nExUs. You can find out more about the project
+here
 Application procedure
 Applicants should consult the applicants guide and downloadable forms on the SynCell-nExUs website here:
 How to apply
@@ -100,28 +99,26 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-3-year pan-European postdoctoral fellowship programme (SynCell-nExUs) recruiting synthetic biology researchers to build cells bottom-up, with host labs across 22 European institutions. Four research lines: metabolism/energy, division/replication, information processing/evolution, and enabling technologies. Fully funded, includes mobility and professional development.
+A pan-European 3-year postdoctoral fellowship programme in synthetic cell research across four research lines (metabolism/energy, division/replication, information processing/evolution, enabling technologies). Fellows design independent projects and are hosted at one of 50+ labs across 22 European institutions, with embedded network participation and professional development.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 2 |
-| Methodological fit | 3 |
-| Growth value | 1 |
-| Strategic value | 5 |
-| **Overall** | **3** |
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 15 |
+| **Overall** | **7** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** molecular-biology, cell-biology, biophysics, systems-modelling, materials-science
+**Missing skills:** none noted
 
 **Risks:**
-- Researcher is not yet postdoctoral (MSc thesis in progress); ineligible until PhD is awarded.
-- Discipline mismatch is absolute. Synthetic cell biology and immersive HCI have no overlapping literature, conferences, funding agencies, or career pathways.
-- 3-year commitment in wrong domain forecloses entry to HCI/XR doctoral or postdoctoral positions during critical career window.
-- Fellow emerges from programme with credentials, networks, and expertise in synthetic biology; employers in immersive HCI will view fit as poor.
-- Programme culture and training (synthetic biology, biophysics lab work) incompatible with researcher's core methodological identity (human-centred design, user studies).
+- Fundamental domain mismatch: synthetic biology is pure life sciences; XR/HCI expertise is not valued or applicable.
+- Career derailment risk: accepting would signal departure from human-centred XR and require multi-year retraining in molecular/cellular engineering.
+- PhD eligibility unclear: posting text emphasizes 'PhD degree' and 'defended doctoral thesis' as baseline; MSc by Research status ambiguous under formal COFUND rules.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-fellowships-european-synthetic-cell-initiati.md` and link [[opp_tudelft-postdoc-fellowships-european-synthetic-cell-initiati]]._

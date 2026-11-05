@@ -1,0 +1,174 @@
+{
+  "id": "opp_tudelft-phd-position-in-physical-modelling-of-backward-erosi",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-05T14:16:24.463714Z",
+  "updated_at": "2026-11-05T14:30:07.934127Z",
+  "change_history": [
+    {
+      "ts": "2026-11-05T14:16:24.463803Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-05T14:28:47.554690Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-05T14:30:07.934127Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position in Physical Modelling of Backward Erosion Piping",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1376793557",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Physical-Modelling-of-Backward-Erosion-Piping-2628-CD/1376793557/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Physical-Modelling-of-Backward-Erosion-Piping-2628-CD/1376793557/",
+    "evidence_ids": [
+      "tudelft/1376793557"
+    ],
+    "retrieved_at": "2026-11-05T14:16:24.463574Z",
+    "raw_snapshot_hash": "64f7db9f72d22f49013901046f7865611aac66ae923c52b0a4686e49a4a8d27f",
+    "extracted_content_hash": "b36e2eb00dfce55f7fc000d77eed096ca57e7d02f84802e3053edce521bce45c",
+    "deadline": "2026-11-29",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3059 - €3881 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Challenge:\nPredicting how backward erosion piping develops beneath dikes.\nChange:\nUsing physical models to reveal pipe progression and meandering.\nImpact:\nImproving dike safety and enabling more reliable flood protection.\nJob description\nThe Netherlands relies heavily on its dikes for flood protection. However, current models cannot fully predict how dikes may fail when seepage flows erode the sand beneath them. This process is known as backward erosion piping (BEP). The NWO-funded Digital Dikes project aims to improve these predictions by developing advanced digital models that combine monitoring data with probabilistic assessments of pipe progression and its severity. The resulting open-source platform will support more accurate risk assessments and targeted dike reinforcement. Its capabilities will be tested through real-world case studies, co-designed with industry, government and international partners.\nIn this PhD position you will push the boundaries of experimental BEP modelling by developing new experimental setups, incorporating novel measurement techniques, and exploring mechanisms that remain only marginally understood, such as the 3D meandering behaviour of pipe networks. You will study the driving interactions at the grain-scale and investigate the influence of a non-uniform blanket layer in the propagation stage of BEP. You will also analyse 3D patterns of BEP in a small setup using image analysis and spatial statistics. Your findings will contribute to a better understanding of pipe progression and provide insights that can support the development of improved predictive models.\nYour home base will be the Geoscience and Engineering (GSE) department at TU Delft's Faculty of Civil Engineering and Geosciences. The project will be carried out jointly between TU Delft and Deltares and is part of the NWO-funded Digital Dikes consortium. Led by the University of Twente, the consortium brings together Utrecht University, Eindhoven University of Technology, the University of Bologna, Deltares and TU Delft. It is supported by water authorities, Rijkswaterstaat, STOWA, the Dutch Flood Protection Programme and international organisations.\nWorking in a rich multi-institutional research environment, you will also benefit from opportunities for secondments and short visits to partners in the Digital Dikes network, e.g., Waterschap Drents Overijsselse Delta, Waterschap Hollandse Delta, Fugro, University of Sheffield, and a close collaboration with the PhD project on a fully-resolved simulation of BEP (supervised by University of Twente and University of Lyon). Moreover, the project involves a wide range of training activities, workshops, dedicated sessions at international meetings, to foster scientific and transferable skills for the Jobs of Tomorrow.\nJob requirements\nYou are a motivated graduate looking to apply your skills and curiosity to improve the reliability and resilience of flood protection structures. With your pioneering mindset and communicative nature, you thrive in complex multidisciplinary teams and have an interest in connecting field data and observations with the lab.\nWe are looking for a highly motivated candidate with:\nA Master’s degree in Civil Engineering, Hydraulic Engineering, Geotechnical Engineering, Soil Mechanics or a closely related field.\nStrong interest in experimental research and physical modelling.\nProgramming skills (such as Python and MATLAB) and keen interest in using them in image analysis and data processing.\nAffinity with granular materials, fluid–soil interaction, or soil erosion processes.\nExperience with laboratory work, imaging techniques, or particle-scale measurements (preferred, not required).\nStrong scientific writing skills, with the ability to document experimental work clearly and translate findings into high-quality scientific publications.\nGood communication skills and the ability to work in a multidisciplinary environment, learning and communicating with the project stakeholders.\nProficiency in English (spoken and written).\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3059 - €3881 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact\nDr. M. Cabrera,\nTU Delf,\nM.A.Cabrera@tudelft.nl\nor\nDr. V. van Beek,\nDeltares,\nvera.vanbeek@deltares.nl\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n29 November 2026\nvia the application button and upload the following documents:\nA motivation letter (max 2 pages).\nYour CV.\nAcademic transcripts (BSc and MSc).\nYou can address your application to\nDr. M. Cabrera\n.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in experimental physical modelling of backward erosion piping (BEP), a soil erosion process affecting dike safety. The role combines laboratory-based experimental work with image analysis, spatial statistics, and field integration across a multidisciplinary consortium.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 3,
+      "rationale": "The position is about soil mechanics, geotechnical engineering, and physical erosion processes. No connection to human-centred XR, immersive systems, spatial learning, or collaborative design. The mention of 'spatial statistics' for 3D pattern analysis is unrelated to the researcher's work in spatial cognition and wayfinding."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Researcher has intermediate experimental design and quantitative research skills, which are relevant. However, the core methodologies required—granular materials physics, fluid–soil interaction, image analysis of soil mechanics, laboratory instrumentation—are domain-specific and not present in the researcher's profile. Python is listed as a skill gap here as well."
+    },
+    "growth_value": {
+      "score": 1,
+      "rationale": "Pursuing an experimental geotechnical PhD would move away from, not toward, the target identity of human-centred XR/HCI researcher. No capability development path exists toward the researcher's stated goals."
+    },
+    "strategic_value": {
+      "score": 55,
+      "rationale": "TU Delft is a priority institution. The multidisciplinary consortium (University of Twente, Utrecht, Eindhoven, Deltares, water authorities) offers strong research visibility and network building. Funding is stable (NWO). However, strategic value is substantially diminished by the fundamental research-domain mismatch."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires Master's degree in Civil Engineering, Hydraulic Engineering, Geotechnical Engineering, Soil Mechanics or closely related field (essential). Researcher's MSc is in Creative Multimedia with a focus on XR application design—unclear whether coursework includes any soil mechanics, fluid dynamics, or engineering sciences.",
+      "Requires strong interest in experimental research and physical modelling (understood as laboratory soil/sediment work, not system prototyping).",
+      "Requires affinity with granular materials, fluid–soil interaction, or soil erosion processes. No evidence in researcher's profile.",
+      "Preferred: experience with laboratory work, imaging techniques, or particle-scale measurements. Researcher's laboratory experience is limited to user studies and XR system testing, not soil physics."
+    ],
+    "risks": [
+      "Severe disciplinary mismatch: civil/geotechnical engineering vs. multimedia/HCI. Would require foundational retraining.",
+      "Researcher lacks background in soil mechanics, hydrology, or geotechnical engineering sciences.",
+      "Laboratory work context is entirely different (user studies in XR vs. instrumented field measurement of sediment transport). Transferability is minimal.",
+      "High risk of misalignment with supervisor expectations and research group culture.",
+      "Python skill gap adds a barrier; while beginner-level Python exists, the required data processing and image analysis applications are likely advanced and specialized to soil mechanics."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-05T14:28:47.554405Z",
+    "analysis_input_hash": "8ec1fa8dbdf0a56f5d05626c000a9c33130b0e0e29add76239657cb5e35a36a3"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 18,
+    "urgency": "medium",
+    "days_to_deadline": 24,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

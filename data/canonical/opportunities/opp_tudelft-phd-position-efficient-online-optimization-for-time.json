@@ -1,0 +1,172 @@
+{
+  "id": "opp_tudelft-phd-position-efficient-online-optimization-for-time",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-05T14:16:46.145480Z",
+  "updated_at": "2026-11-05T14:30:07.903149Z",
+  "change_history": [
+    {
+      "ts": "2026-11-05T14:16:46.145571Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-05T14:28:47.553804Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-05T14:30:07.903149Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Efficient Online Optimization for Time-Varying Systems",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-mechanical-engineering",
+    "source": "tudelft",
+    "source_native_id": "1376805657",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Efficient-Online-Optimization-for-Time-Varying-Systems-2628-CD/1376805657/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Efficient-Online-Optimization-for-Time-Varying-Systems-2628-CD/1376805657/",
+    "evidence_ids": [
+      "tudelft/1376805657"
+    ],
+    "retrieved_at": "2026-11-05T14:16:46.145337Z",
+    "raw_snapshot_hash": "552d01733816dec1da6f108b0cae58eca707ee534d5c9907a2b0b0999a2b4abb",
+    "extracted_content_hash": "ac55376741635d3661ba9529e4a65e8497de78475fa057a58a3fce4bddaaa303",
+    "deadline": "2026-11-23",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "How to avoid learning too much - safe and efficient learning for control\nJob description\nInefficient operation of industrial systems, electricity production, and heating systems in buildings is currently responsible for over 50% of overall greenhouse gases emissions. Improving energy efficiency of energy-intensive sectors by implementing advanced control systems has the potential to both improve efficiency and reduce the costs, all while continuing to meet safety requirements. The flexibility of safe and adaptive learning control methods makes them crucial for safety-critical applications. A key difficulty in these learning-based approaches lies in the fact that the algorithm must simultaneously learn the model and guarantee safety. This dual requirement significantly impacts the computational cost of the learning algorithm, particularly in situations where the optimal decision evolves over time. We now aim to develop computationally efficient safe learning methods for time-varying optimal control problems.\nExisting safe learning algorithms usually assume that they have unlimited access to the experiments and thus unlimited new data. Approaches using limited data sets have been restricted to Bayesian optimization without safety constraints. Moreover, the algorithms typically rely on the repetitive nature of the experiments, for instance in robotics or precision manufacturing. The unlimited data combined with repetitiveness limit the applicability of safe learning algorithms in problems evolving over time, such as residential buildings. This PhD project will explore the connection between the dynamics of the optimized system with numerical properties of optimization algorithms to provide a framework for safe learning with minimal interactions over time. Sitting at the intersection of theory and applications, the project includes experimental validation of the developed algorithms in collaboration with Dr Giulia de Pasquale from TU Eindhoven (laboratory tests) and partners in Switzerland (Next Evolution in Sustainable Building Technologies (NEST) residential building).\nThe PhD would join the group of Dr Marta Zagorowska at Delft Center for Systems and Control (DCSC).\nThe starting date is no later than the 30th of March 2027\nJob requirements\nThe ideal candidate will be an ambitious, proactive, reflective, and results-driven researcher. We are looking for the following:\nMSc degree in Systems and Control, Mathematics, Computer Science or similar field (essential)\nPrior experience with optimization algorithms (essential)\nPrior experience with Bayesian optimization (desirable)\nPrior experience with numerical methods (desirable)\nStrong collaboration, communication and writing skills\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr Marta Zagorowska:\nm.a.zagorowska@tudelft.nl\n.\nWe do not provide pre-screening for the candidates. Please note that only applications submitted through the website will be considered.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n23 November 2026\nvia the application button and upload the following documents:\nCV\nCover letter\nCopies of your university degrees, and transcripts for your BSc and MSc programmes\nYou can address your application to Dr. Marta Zagorowska.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in safe and efficient learning control for time-varying optimal control problems in energy systems. The role sits at the intersection of control theory, optimization algorithms, and computational methods, with applications to industrial efficiency and building energy management.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The position is fundamentally about control theory, optimization algorithms, and safe learning in industrial/energy systems. The researcher's expertise is in human-centred XR, collaborative immersive systems, and spatial learning. There is no thematic overlap; this is pure control and optimization."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "While the researcher has experimental design and quantitative research skills, these are generic research competencies, not the specific mathematical and algorithmic methodologies required here (Bayesian optimization, safe learning algorithms, numerical methods for control). The posting explicitly requires optimization algorithm expertise as essential."
+    },
+    "growth_value": {
+      "score": 2,
+      "rationale": "This position would not close any gaps aligned with the researcher's target identity of human-centred XR/HCI. Learning advanced control theory and optimization would move away from, not toward, their intended career direction."
+    },
+    "strategic_value": {
+      "score": 60,
+      "rationale": "TU Delft is a priority institution (researcher targets Delft explicitly). The supervisor (Dr. Marta Zagorowska) leads work in systems and control at a well-regarded centre. The multidisciplinary collaboration structure and funding stability are strong. However, the misalignment with research identity significantly reduces strategic value."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc degree in Systems and Control, Mathematics, Computer Science or similar (essential). Researcher holds MSc by Research in Creative Multimedia—disciplinary fit is unclear without confirmation of coursework breadth.",
+      "Requires prior experience with optimization algorithms (essential) and Bayesian optimization (desirable). No evidence in researcher's profile.",
+      "No indication the researcher has coursework or project experience in control theory, numerical methods, or optimization."
+    ],
+    "risks": [
+      "Disciplinary mismatch: this is a pure mathematical/control systems PhD, not human-centred research. Would require significant reorientation.",
+      "No demonstrated background in the core mathematical tools (Bayesian optimization, safe learning algorithms, numerical optimization).",
+      "Researcher's MSc thesis is domain-specific (XR orientation, gamification, spatial learning)—unclear whether prior coursework includes systems theory or advanced mathematics.",
+      "High risk of poor fit becoming apparent after start date, leading to project friction and potential supervision conflict."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.85,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-05T14:28:47.553367Z",
+    "analysis_input_hash": "494dbc8bcb459728bbd008775bef19d58094b917cfa8425e93199b3e459d8440"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 14,
+    "urgency": "high",
+    "days_to_deadline": 18,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
