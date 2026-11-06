@@ -1,0 +1,175 @@
+{
+  "id": "opp_tampere-phd-positions-available-under-the-msca-insight-docto",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-06T13:55:18.776307Z",
+  "updated_at": "2026-11-06T14:10:34.684688Z",
+  "change_history": [
+    {
+      "ts": "2026-11-06T13:55:18.776467Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-06T14:09:33.956266Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-06T14:10:34.684688Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Positions Available under the MSCA INSIGHT Doctoral Network | EURAXESS",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3220",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3220",
+    "apply_url": null,
+    "evidence_ids": [
+      "tampere/3220"
+    ],
+    "retrieved_at": "2026-11-06T13:55:18.776118Z",
+    "raw_snapshot_hash": "7e76395437e56e548c6270b9bb092d7ebf63545a09390c012acea0aa24439d1b",
+    "extracted_content_hash": "8c4c40760de432554259b5736f26637e9fcc31b2acbfb15f29efc589e151cc4e",
+    "deadline": "2027-02-15",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "ambiguous",
+    "mobility_requirement_text": "Posting mentions: …mathematics and related fields. Doctoral status: Applicants must not hold a doctoral degree at the date of recruitment. MSCA mobility rule: Candidates must not have resided or carried out their main activity (work or studies) in the country of the recruiting organisation for more than 12 months during the 36 months immediately befo…",
+    "status": "open",
+    "description_text": "Are you interested in pursuing a fully funded PhD in Europe and contributing to research in optical communications, photonics, artificial intelligence and advanced sensing technologies?\nApplications are now open for 15 fully funded Doctoral Candidate positions under INSIGHT, a Marie Skłodowska-Curie Actions (MSCA) Doctoral Network funded by the European Union's Horizon Europe programme.\nThe INSIGHT network brings together academic institutions and industry partners across Europe to train researchers in Optical Integrated Sensing and Communication (O-ISAC). The programme aims to develop technologies that allow optical fibre networks to support high-speed data transmission and environmental sensing simultaneously.\nResearchers from around the world, including India, are welcome to apply, provided they meet the eligibility requirements.\nAbout the INSIGHT Doctoral Network\nINSIGHT is a 36-month international and intersectoral doctoral training programme that combines research in optical communications, distributed fibre sensing, photonic integration, digital signal processing, machine learning and network optimisation.\nEach selected doctoral candidate will work on an individual research project while participating in a coordinated European training network.\nThe programme offers opportunities to collaborate with academic and industrial researchers, undertake international secondments, attend scientific conferences and develop skills in research communication, innovation, entrepreneurship and intellectual property.\nAvailable PhD Positions\nThe 15 doctoral positions are distributed across nine recruiting organisations in seven European countries.\nCountry\nRecruiting Organisation\nPositions\nSpain\nConsejo Superior de Investigaciones Científicas (CSIC)\nDC1–DC3\nSpain\nUptech Sensing\nDC12\nItaly\nPolitecnico di Torino\nDC4–DC5\nIreland\nDublin City University\nDC6–DC7\nIreland\nPilot Photonics\nDC14\nFinland\nTampere University\nDC8–DC9\nDenmark\nTechnical University of Denmark\nDC10–DC11\nNetherlands\nSomni Solutions\nDC13\nGermany\nNokia\nDC15\nResearch Areas\nThe available projects cover several research topics, including:\nOptical communications and fibre sensing: Developing systems that combine high-capacity data transmission with distributed sensing.\nPhotonic integration and frequency combs: Investigating advanced optical technologies for communication and sensing networks.\nArtificial intelligence and machine learning: Applying computational methods to optical signal reconstruction, anomaly detection and network optimisation.\nEnvironmental and infrastructure monitoring: Developing sensing technologies for structural health, temperature changes and environmental conditions.\nAdvanced signal processing: Improving sensing sensitivity, noise tolerance and communication performance.\nApplicants can explore the individual project descriptions, research objectives and host-specific requirements through the official recruitment portal.\nFunding and Benefits\nSuccessful candidates will receive a full-time employment contract for 36 months, subject to the applicable national laws and institutional regulations.\nThe programme provides:\nA gross salary determined according to MSCA funding rules, with amounts varying by recruiting country and institution.\nPotential family allowance for eligible researchers.\nSocial-security coverage and paid leave in accordance with local regulations.\nAccess to research facilities, specialised doctoral training and international research networks.\nOpportunities for secondments with academic and industrial partners.\nRelocation and immigration support where available.\nSpecific salary information is provided for each position on the recruitment portal. Published gross amounts are subject to applicable taxes and social-security deductions.\nEligibility Criteria\nThe INSIGHT Doctoral Network welcomes applicants of all nationalities, including researchers from India.\nTo be eligible, candidates must meet the following requirements.\nAcademic qualifications: Applicants must hold a master's degree or equivalent qualification that provides access to doctoral education before employment and enrolment. Relevant disciplines include physics, photonics, optics, electrical and communication engineering, computer science, data science, applied mathematics and related fields.\nDoctoral status: Applicants must not hold a doctoral degree at the date of recruitment.\nMSCA mobility rule: Candidates must not have resided or carried out their main activity (work or studies) in the country of the recruiting organisation for more than 12 months during the 36 months immediately before recruitment, subject to the applicable MSCA rules and exceptions.\nLanguage requirements: Applicants must demonstrate sufficient spoken and written English to undertake doctoral research and scientific communication. Language certification is required only where specified by the degree-awarding institution.\nCandidates must also be willing to relocate to the recruiting institution and participate in international secondments and network training activities.\nApplication Process\nInterested candidates may apply for up to three doctoral positions, ranked in order of preference.\nApplications must be submitted in English through the official INSIGHT recruitment portal.\nRequired Documents\nCompleted online application form.\nCurriculum vitae detailing academic qualifications and relevant research or technical experience.\nMotivation statement addressing the selected research project or projects.\nBachelor's and master's degree certificates and academic transcripts.\nCompleted MSCA mobility chronology and doctoral-status declaration.\nSelection Procedure\nThe selection process consists of two stages.\nStage 1 – Written Assessment\nApplications will be evaluated according to:\nEvaluation Criteria\nWeight\nAcademic preparation and relevant knowledge\n60%\nResearch and technical experience\n30%\nMotivation and other merits\n10%\nStage 2 – Interview\nShortlisted candidates will be invited to a structured online interview and may be required to complete a short practical assessment.\nPrevious scientific publications are not mandatory. Career breaks and non-linear career paths will be considered during evaluation.\nImportant Dates\nApplications Open\n1 November 2026\nApplication Deadline\n15 February 2027\nExpected Start\nApril 2027\nProgramme Duration\n36 months\nDeadline: 23:59 CET (Madrid time). The vacancy also lists 2 November 2026 as an offer starting date, while the recruitment information specifies April 2027 as the expected start date.\nHow to Apply\nResearchers interested in the INSIGHT Doctoral Network are encouraged to review the available projects, confirm their eligibility and submit their applications before the deadline.\nOfficial Application Portal:\nINSIGHT Doctoral Network Recruitment\nFor researchers in India and worldwide, the INSIGHT programme offers an opportunity to pursue doctoral research in Europe while gaining international academic and industrial experience."
+  },
+  "ai": {
+    "summary": "INSIGHT is a 36-month MSCA Doctoral Network offering 15 fully funded PhD positions across Europe focused on Optical Integrated Sensing and Communication (O-ISAC), combining optical communications, distributed fibre sensing, photonic integration, digital signal processing, machine learning and network optimisation.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic overlap with the researcher's target identity. The position is centred on optical communications, photonics, fibre sensing and advanced signal processing for infrastructure monitoring—domains with no connection to human-centred immersive systems, spatial learning, collaboration, or wayfinding."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "The position may involve machine learning and experimental validation (methodological touchpoints), but the application domain and core research questions are entirely orthogonal. The researcher has no prior work in photonics, signal processing, optical systems or infrastructure monitoring."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Participation would not close capability gaps relevant to the researcher's target identity. While ML experience could be tangentially useful, the researcher would need to acquire entirely new technical foundations in photonics and signal processing, representing a pivot rather than growth in the target direction."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "Tampere University is a priority-2 target institution for the researcher. The MSCA INSIGHT network offers strong funding stability, international secondments, and robust industrial partnerships. However, the research direction is misaligned with the researcher's core trajectory, which significantly undermines strategic value for PhD pathway development."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc by Research (in progress, thesis stage) may satisfy the 'master's degree or equivalent before employment' requirement, pending thesis completion confirmation.",
+      "MSCA mobility rule: 36-month residency restriction must be verified against researcher's location history.",
+      "Posting specifies multiple disciplines as relevant (physics, photonics, optics, electrical engineering, CS, data science, applied math) but does not list HCI, XR, or immersive systems as qualifying backgrounds."
+    ],
+    "risks": [
+      "Domain mismatch is fundamental: photonics and O-ISAC are not adjacent to immersive systems or spatial cognition research.",
+      "PhD trajectory would diverge significantly from target identity (human-centred XR/HCI researcher), making this a 3-year opportunity cost.",
+      "Supervisor expertise and group focus (optical communications and sensing) provide minimal mentorship value for HCI/XR goals.",
+      "Upon completion, researcher would hold a PhD in a field orthogonal to target positions at Aalto, TU Delft, and similar HCI-focused European groups."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-06T14:09:33.955714Z",
+    "analysis_input_hash": "53653a46a6ac810a84f509b59a35ff5213a006ffdc2283fa2a601d0e7f2668e8"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source",
+      "posting hints at a mobility/residence-history rule — verify the exact condition"
+    ],
+    "fit_overall": 14,
+    "urgency": "low",
+    "days_to_deadline": 101,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

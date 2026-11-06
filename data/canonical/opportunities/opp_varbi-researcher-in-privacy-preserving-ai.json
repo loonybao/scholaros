@@ -1,0 +1,180 @@
+{
+  "id": "opp_varbi-researcher-in-privacy-preserving-ai",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-06T14:04:52.019889Z",
+  "updated_at": "2026-11-06T14:10:35.218595Z",
+  "change_history": [
+    {
+      "ts": "2026-11-06T14:04:52.020074Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-06T14:09:33.958848Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-06T14:10:35.218595Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Researcher in Privacy-Preserving AI",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-985107",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:985107/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-985107"
+    ],
+    "retrieved_at": "2026-11-06T14:04:52.019585Z",
+    "raw_snapshot_hash": "2afc33f1826c19b7ff3ef7d7041dc9307a29d8301077a47190bd5b4f4722280d",
+    "extracted_content_hash": "5d1d4f89c87839fb5f1cad0739191d7b8b12c7381ed968f5a44fd44946d1c12a",
+    "deadline": "2026-11-26",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "other",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Researcher in Privacy-Preserving AI\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences\nJob description\nThe AICell Lab (\nhttps://aicell.io\n) in the department of Applied Physics at KTH and Science for Life Laboratory is a new research group funded by the Data-driven Life Science Fellows program. The group, led by Wei Ouyang, focuses on building AI systems for data-driven cell and molecular biology. To expand the team, we are now opening a position for a researcher in privacy-preserving AI for sensitive biomedical data.\nThe researcher will play a key role in developing our platform where AI agents analyse data where it is, so that sensitive data never has to leave the data owner’s environment. This is a unique opportunity to help shape how sensitive data can be shared and used safely in research and healthcare across Europe, and to be part of an enthusiastic and dynamic team.\nThe responsibilities are:\nLead research and development of the group’s platform for AI agents and privacy-preserving analysis of sensitive data\nRepresent KTH in EU projects and identify opportunities to use the platform in them\nInitiate applications for external funding and build collaborations with healthcare, industry and data owners\nSupervise students and contribute to the supervision of doctoral students in the group\nPublish research findings in high-quality scientific journals and conferences\nQualifications\nRequirements\nA doctoral degree in a relevant field such as Physics, Computer Science, Bioinformatics, or other life sciences or an equivalent foreign degree.\nExtensive experience in artificial intelligence, machine learning, and computational biology\nCollaborative abilities\nIndependence\nWe are looking for someone who is reliable, collaborative, and communicative. You need to be able to work independently, actively contribute to problem solving, and to help move projects forward. It is commendable if you are well organized and thorough. As an employee at KTH, awareness of diversity and equal opportunity issues, with specific focus on gender equality, is required.\nPreferred qualifications\nInternational postdoctoral experience\nTraining in machine learning, information security or data protection\nExperience of advanced use of AI agents and workflows built on large language models, e.g. multi-agent systems\nExperience of EU-funded projects and of working with European research infrastructures\nExperience in a management or leadership role, e.g. head of a unit or platform in academia, a research infrastructure or other R&D work, with responsibility for operations, budget and external collaborations\nA record of winning external research or innovation funding in open competition, e.g. a personal research grant or fellowship from a national or international funder\nKnowledge of regulations for sensitive data, e.g. GDPR and the European Health Data Space (EHDS)\nScientific publications in the field\nGood knowledge of Swedish as is required for the day-to day work.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience, knowledge and representative publications. Please also provide your Github/Gitlab/Bitbucket etc. handle if possible.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nPersonal letter about your previous experience, personal competencies, career goals, why you want to conduct research, your interests and how they relate to your previous studies and future goals. Max two pages long.\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid for a limited time according to the agreement - for up to 12 months (or years), with access according to agreement.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nSpecial fixed-term employment\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3753\nContact\nWei Ouyang, weio@kth.se\nPublished\n06.Nov.2026\nLast application date\n26.Nov.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "A research position at KTH's AICell Lab focused on developing a platform for privacy-preserving AI analysis of sensitive biomedical data using AI agents that analyse data in situ. Responsibilities include leading R&D, representing KTH in EU projects, securing external funding, and supervising students.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 20,
+      "rationale": "Limited thematic overlap. The position targets sensitive biomedical data and privacy-preserving AI infrastructure for healthcare and research sharing—not immersive systems, spatial cognition, or learning. However, the emphasis on collaborative data sharing across European institutions and the role in enabling interdisciplinary research introduce a tangential connection to collaborative systems thinking. The mismatch with spatial understanding and immersive interaction is fundamental."
+    },
+    "methodological_fit": {
+      "score": 45,
+      "rationale": "Moderate methodological fit. The position requires supervising students, building European collaborations, securing external funding, and translating technical work into multi-stakeholder contexts—activities aligned with the researcher's experience in experimental design, user studies, and project execution. The emphasis on 'intuitive UI/UX for scientific users' and collaboration across healthcare and data-ownership boundaries aligns with the researcher's human-centred methodology. However, the core technical deliverables (privacy-preserving AI agents, LLMs, advanced ML, data-protection regulations) sit far outside the researcher's current competence in immersive systems and spatial interaction."
+    },
+    "growth_value": {
+      "score": 40,
+      "rationale": "The role would develop significant leadership, project-management, and funding-acquisition capabilities—valuable for any research career. The researcher would gain exposure to EU-funded projects, research infrastructure partnerships, and machine-learning applications in regulated domains. However, these capabilities do not close gaps in the target identity domains (spatial cognition, wayfinding, immersive learning, collaborative immersion). The experience would be broadly useful but not specifically targeted at the researcher's research goals."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "KTH is a leading European research institution, and Stockholm is in preferred geography. The position offers stable, long-term employment (up to 12 months, potentially renewable), external funding leadership, and EU-project coordination—all valuable for a senior research trajectory. However, it is not a PhD position (stated target), and the research direction diverges significantly from immersive systems and HCI. The position could serve as a transitional or parallel career track, but does not advance progress toward target institutions (Aalto, TU Delft) or target identity (human-centred XR researcher)."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires a doctoral degree; researcher holds MSc by Research in progress (not yet completed).",
+      "Posting does not specify a recency preference for PhD, but implies established research leadership (winning external funding, international postdoctoral experience, prior management roles)—researcher lacks these markers.",
+      "Posting prefers 'knowledge of Swedish' for day-to-day work; researcher profile lists English as language capability but does not mention Swedish proficiency.",
+      "Posting is ambiguous on security clearance classification—may or may not apply to this specific position."
+    ],
+    "risks": [
+      "Critical eligibility barrier: researcher does not hold a doctorate and must complete MSc before application.",
+      "Role emphasises advanced AI/ML expertise, international postdoctoral experience, and prior leadership (management, funding acquisition)—researcher has limited evidence of these at the scale the posting suggests.",
+      "Position requires independence and initiative in a highly technical domain (privacy-preserving AI, LLMs, multi-agent systems); researcher's background is in immersive systems and HCI, representing a significant technical pivot.",
+      "Swedish-language requirement may exclude researcher unless proficiency is demonstrated.",
+      "While the position offers research leadership, it does not advance the target identity of 'human-centred XR/HCI researcher' and may position the researcher outside that ecosystem.",
+      "Temporary contract duration (up to 12 months, with unclear renewal terms) provides limited job security compared to a PhD pathway."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.7,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-06T14:09:33.958437Z",
+    "analysis_input_hash": "856efb7885c60a5da561086f67b86edfa8bc2ffa4364e2f569dcec98fa2bc910"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 36,
+    "urgency": "high",
+    "days_to_deadline": 20,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

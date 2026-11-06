@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-05T14:25:40.563109Z",
-  "updated_at": "2026-11-05T14:30:08.105468Z",
+  "updated_at": "2026-11-06T14:10:35.079177Z",
   "change_history": [
     {
       "ts": "2026-11-05T14:25:40.563207Z",
@@ -54,6 +54,47 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-06T14:06:13.713510Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-06T14:09:03.267559Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-06T14:10:35.079177Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -67,9 +108,9 @@
     "evidence_ids": [
       "varbi/kth-982854"
     ],
-    "retrieved_at": "2026-11-05T14:25:40.562926Z",
-    "raw_snapshot_hash": "93125e1ec31e0714d7e7615d818fc1badb007238318b37cc51e2461ab0ac2e72",
-    "extracted_content_hash": "7c7ccb10ed080fc46890fe24e9905076b20bd7dfe637044d89cfeb18079433ea",
+    "retrieved_at": "2026-11-06T14:06:13.712719Z",
+    "raw_snapshot_hash": "a7a6dee21453d188c42fc59750139399e8d1ee4eee64cbc258de45689744d6ae",
+    "extracted_content_hash": "784e975a44c7f0264887b7dc10d1a49ad372fb327e2aef2c2544b8615a029291",
     "deadline": "2027-01-04",
     "deadline_note": null,
     "start_date": null,
@@ -88,53 +129,54 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Doctoral student in Organizational Implications of Artificial Intelligence\nApply for position\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nProject description\nThird-cycle subject: Industrial Economics and Management\nThe deployment of Artificial Intelligence (AI) has expanded rapidly across public and private sectors. AI-driven technologies—particularly machine learning algorithms and large language models —are becoming integral to knowledge creation, task augmentation, and business analytics. This shift has catalyzed a rise of AI ecosystems, which brings together AI startups, intermediaries, and established enterprises, fundamentally reshaping how employees, businesses, and entire industries function. However, while certain use cases offer efficiency gains, organizations frequently grapple with critical challenges, such as low returns on investment, output unreliability, and pressing ethical dilemmas.\nThis PhD project aims to critically analyze the organizational implications of AI. The PhD student may explore questions such as, but not limited to: How do organizations mitigate the managerial challenges stemming from the probabilistic nature of AI technologies? How will AI transform the modern industry; and what are the opportunities and risks associated with such transformation? Along with the Big Tech companies and AI giants, what role do startups and intermediaries play in a more responsible transformation towards AI-based economy?\nThe PhD position is a part of the Wallenberg AI, Autonomous Systems and Software Program - Humanity and Society (WASP-HS) is a national research program in Sweden. WASP-HS fosters novel interdisciplinary knowledge about AI and autonomous systems and their impact on humanity and society. WASP-HS enables cutting-edge research, expertise, and capacity building in the social sciences and humanities. For more information,\nsee here\n.\nSupervision:\nEmrah Karakaya will be the main supervisor and Mats Engwall will be the co-supervisor. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nThe applicants must hold, or be in the process of obtaining, a Master's degree in Industrial Engineering and Management, or equivalent.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work,\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues,\nconduct qualitative research methods such as interviews and case-study approach,\nanalyze academic literatures of innovation management, organization studies or/and information systems,\nunderstand how AI technologies function, and\ncommunicate in Swedish or willingness to learn Swedish for case study interviews.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies, work experience and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nApril 1st, 2027, or according to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3645\nContact\nEmrah Karakaya, emrahka@kth.se\nMats Engwall, matseng@kth.se\nPublished\n05.Nov.2026\nLast application date\n04.Jan.2027\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Doctoral student in Organizational Implications of Artificial Intelligence\nApply for position\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nProject description\nThird-cycle subject: Industrial Economics and Management\nThe deployment of Artificial Intelligence (AI) has expanded rapidly across public and private sectors. AI-driven technologies—particularly machine learning algorithms and large language models —are becoming integral to knowledge creation, task augmentation, and business analytics. This shift has catalyzed a rise of AI ecosystems, which brings together AI startups, intermediaries, and established enterprises, fundamentally reshaping how employees, businesses, and entire industries function. However, while certain use cases offer efficiency gains, organizations frequently grapple with critical challenges, such as low returns on investment, output unreliability, and pressing ethical dilemmas.\nThis PhD project aims to critically analyze the organizational implications of AI. The PhD student may explore questions such as, but not limited to: How do organizations mitigate the managerial challenges stemming from the probabilistic nature of AI technologies? How will AI transform the modern industry; and what are the opportunities and risks associated with such transformation? Along with the Big Tech companies and AI giants, what role do startups and intermediaries play in a more responsible transformation towards AI-based economy?\nThe PhD position is a part of the Wallenberg AI, Autonomous Systems and Software Program - Humanity and Society (WASP-HS), a national research program in Sweden. WASP-HS fosters novel interdisciplinary knowledge about AI and autonomous systems and their impact on humanity and society. WASP-HS enables cutting-edge research, expertise, and capacity building in the social sciences and humanities. For more information,\nsee here\n.\nSupervision:\nEmrah Karakaya will be the main supervisor and Mats Engwall will be the co-supervisor. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nThe applicants must hold, or be in the process of obtaining, a Master's degree in Industrial Engineering and Management, or equivalent.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work,\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues,\nconduct qualitative research methods such as interviews and case-study approach,\nanalyze academic literatures of innovation management, organization studies or/and information systems,\nunderstand how AI technologies function, and\ncommunicate in Swedish or willingness to learn Swedish for case study interviews.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages.Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies, work experience and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nApril 1st, 2027, or according to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3645\nContact\nEmrah Karakaya, emrahka@kth.se\nMats Engwall, matseng@kth.se\nPublished\n05.Nov.2026\nLast application date\n04.Jan.2027\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "A 4-year PhD position at KTH (Stockholm) in organizational implications of AI, part of the WASP-HS programme. The student will analyse how organizations deploy and manage AI systems, including challenges around ROI, reliability, and ethics. Research may explore organizational challenges, industry transformation, and the role of startups/intermediaries in AI adoption.",
-    "fit_type": "adjacent-methodological-fit",
+    "summary": "KTH doctoral position in organizational implications of AI, part of the WASP-HS national research program. Focus is critical analysis of how organizations deploy and manage AI technologies, including challenges (ROI, reliability, ethics), role of AI ecosystems, startups, and intermediaries in responsible AI transformation.",
+    "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 35,
-      "rationale": "The posting focuses on organizational behaviour, technology adoption, and systemic implications of AI—not XR or immersive systems specifically. However, if the project pivoted to study immersive/XR technologies in organizational contexts (e.g., adoption of XR for training, spatial collaboration in metaverse-based work), there could be thematic overlap. As written, the connection is indirect. The researcher's target is human-centred XR evaluation and design, not organizational technology studies."
+      "score": 18,
+      "rationale": "Position is in organizational management and organizational implications of AI—fundamentally different from the researcher's focus on spatial cognition, wayfinding, immersive learning, and collaborative human-centered systems. While both involve 'AI,' the position targets business/organizational challenges (ROI, managerial challenges, industry transformation), not human behavior, learning outcomes, or spatial understanding. No immersive systems or XR component."
     },
     "methodological_fit": {
-      "score": 58,
-      "rationale": "The posting emphasizes qualitative research (interviews, case studies), organizational/innovation management literature, and understanding how technologies function in practice. The researcher has demonstrated intermediate user-studies and experimental-design capability, and the position explicitly values 'conduct qualitative research methods such as interviews and case-study approach.' This is a real methodological bridge. However, the researcher's expertise is in immersive system *design and evaluation*, not organizational technology adoption. The methodologies overlap but the application domain differs significantly."
+      "score": 48,
+      "rationale": "Moderate overlap in qualitative research methodology: the position explicitly values 'qualitative research methods such as interviews and case-study approach.' The researcher has intermediate experimental design and user studies skills. However, the position emphasizes organizational analysis, innovation management, and information systems literature—domains the researcher has not engaged with. The researcher would need to develop new methodological expertise in organizational case studies and management research, beyond current user-centered evaluation methods."
     },
     "growth_value": {
-      "score": 42,
-      "rationale": "Completing this PhD would develop qualitative research depth, organizational theory, innovation management, and case-study methodology—all potentially useful for future human-centred XR research (e.g., studying adoption barriers, organizational deployment of immersive systems). However, it does not close core capability gaps: spatial cognition, advanced statistics for XR evaluation, eye-tracking, physiological sensing, or advanced HCI methods. The growth is tangential."
+      "score": 32,
+      "rationale": "Limited growth value for target identity. The researcher would develop qualitative research skills (interviewing, case analysis), which could be generally useful. However, the focus on organizational management, innovation, and business implications of AI does not build capabilities in spatial cognition, immersive system design, or collaborative interaction—core to the target identity. This PhD would not strengthen the researcher's trajectory toward human-centered XR/HCI research."
     },
     "strategic_value": {
-      "score": 48,
-      "rationale": "KTH is a strong institution in a target geography (Sweden). WASP-HS is a prestigious national research programme with solid funding stability. However, the research group's expertise is in industrial economics and management, not HCI or XR. Supervisors (Karakaya, Engwall) are organizational/management scholars, not immersive systems or human-computer interaction experts. The network and institution quality are high, but misaligned with the researcher's career trajectory."
+      "score": 45,
+      "rationale": "KTH is a respected institution and WASP-HS is a national research program with credibility. However, this position is in Industrial Economics and Management at KTH School of Industrial Engineering, not in a human-centered computing or HCI group. The supervisors (Emrah Karakaya, Mats Engwall) focus on organizational implications and innovation management—not human-centered systems research. Funding is stable (national program), but career outcomes would direct toward organizational/management research, not human-centered XR."
     },
     "required_skills": [
       "qualitative-research",
-      "academic-writing"
+      "academic-writing",
+      "mixed-methods"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "qualitative-research",
-      "user-studies",
-      "experimental-design",
       "academic-writing"
     ],
     "missing_skills": [
+      "qualitative-research",
       "mixed-methods"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires Master's degree in Industrial Engineering and Management, or equivalent. Researcher holds MSc by Research in multimedia/XR; eligibility hinges on KTH's acceptance of this as 'equivalent'—unclear.",
-      "Posting requires 'conduct qualitative research methods such as interviews and case-study approach'—researcher has user-study experience but no documented case-study or interview methodology.",
-      "Position 'strongly' values Swedish language ability for case-study interviews; researcher's language profile not stated."
+      "Posting requires Master's degree in Industrial Engineering and Management or equivalent; researcher's MSc is in creative multimedia—discipline match is weak; would require argument that multimedia/HCI is 'substantially equivalent'",
+      "Posting emphasizes 'willingness to learn Swedish for case study interviews'—researcher's profile does not indicate Swedish proficiency; this is a significant practical barrier",
+      "Selection criteria include 'conduct qualitative research methods such as interviews and case-study approach' and 'analyze academic literatures of innovation management, organization studies or/and information systems'—researcher has no stated background in these literature domains",
+      "MSc completion required by employment start (April 2027); researcher is in thesis stage"
     ],
     "risks": [
-      "Domain drift: 4 years in organizational AI studies would create a secondary research identity that may complicate future positioning as a human-centred XR researcher.",
-      "Academic credential risk: Master's in multimedia/creative multimedia may not satisfy 'equivalent to Industrial Engineering and Management' requirement.",
-      "Supervisor expertise mismatch: Karakaya and Engwall are organizational scholars; they are unlikely to champion or understand XR, spatial cognition, or immersive learning as research directions.",
-      "Limited network value: WASP-HS is strong but networks researchers toward organizational/management research communities, not HCI or XR groups."
+      "Discipline mismatch: Industrial Engineering and Management focus on organizations and business; researcher's background is creative multimedia and HCI",
+      "Language barrier: willingness to learn Swedish is listed as a criterion; researcher has no stated Swedish skills, and acquiring interview-level proficiency by April 2027 is tight",
+      "Thematic drift: this position targets organizational change, not human behavior or spatial cognition; does not align with target identity",
+      "Literature gap: position requires familiarity with innovation management and organizational studies literature; researcher would start as novice in these domains",
+      "Career trajectory risk: PhD in organizational implications of AI would not prepare the researcher for target roles in human-centred immersive systems research"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -142,14 +184,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.76,
+    "confidence": 0.71,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-05T14:29:23.971179Z",
-    "analysis_input_hash": "71d3d7b67ef99f9de64a87e5e8d93a116a0fc1358abe6f513f1283416e56d24b"
+    "analyzed_at": "2026-11-06T14:09:03.267106Z",
+    "analysis_input_hash": "1fe768db272457f14ac5648c4d281847fbb950835f046e0370b587ee54da6cb0"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -158,9 +200,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 46,
+    "fit_overall": 35,
     "urgency": "low",
-    "days_to_deadline": 60,
+    "days_to_deadline": 59,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2027-01-04
 status: open
 eligibility_gate: uncertain
-fit_overall: 46
+fit_overall: 35
 urgency: low
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 60)
+Gate: **uncertain** (days to deadline: 59)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -39,7 +39,7 @@ Project description
 Third-cycle subject: Industrial Economics and Management
 The deployment of Artificial Intelligence (AI) has expanded rapidly across public and private sectors. AI-driven technologies—particularly machine learning algorithms and large language models —are becoming integral to knowledge creation, task augmentation, and business analytics. This shift has catalyzed a rise of AI ecosystems, which brings together AI startups, intermediaries, and established enterprises, fundamentally reshaping how employees, businesses, and entire industries function. However, while certain use cases offer efficiency gains, organizations frequently grapple with critical challenges, such as low returns on investment, output unreliability, and pressing ethical dilemmas.
 This PhD project aims to critically analyze the organizational implications of AI. The PhD student may explore questions such as, but not limited to: How do organizations mitigate the managerial challenges stemming from the probabilistic nature of AI technologies? How will AI transform the modern industry; and what are the opportunities and risks associated with such transformation? Along with the Big Tech companies and AI giants, what role do startups and intermediaries play in a more responsible transformation towards AI-based economy?
-The PhD position is a part of the Wallenberg AI, Autonomous Systems and Software Program - Humanity and Society (WASP-HS) is a national research program in Sweden. WASP-HS fosters novel interdisciplinary knowledge about AI and autonomous systems and their impact on humanity and society. WASP-HS enables cutting-edge research, expertise, and capacity building in the social sciences and humanities. For more information,
+The PhD position is a part of the Wallenberg AI, Autonomous Systems and Software Program - Humanity and Society (WASP-HS), a national research program in Sweden. WASP-HS fosters novel interdisciplinary knowledge about AI and autonomous systems and their impact on humanity and society. WASP-HS enables cutting-edge research, expertise, and capacity building in the social sciences and humanities. For more information,
 see here
 .
 Supervision:
@@ -136,27 +136,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.76_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.71_
 
-A 4-year PhD position at KTH (Stockholm) in organizational implications of AI, part of the WASP-HS programme. The student will analyse how organizations deploy and manage AI systems, including challenges around ROI, reliability, and ethics. Research may explore organizational challenges, industry transformation, and the role of startups/intermediaries in AI adoption.
+KTH doctoral position in organizational implications of AI, part of the WASP-HS national research program. Focus is critical analysis of how organizations deploy and manage AI technologies, including challenges (ROI, reliability, ethics), role of AI ecosystems, startups, and intermediaries in responsible AI transformation.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 35 |
-| Methodological fit | 58 |
-| Growth value | 42 |
-| Strategic value | 48 |
-| **Overall** | **46** |
+| Thematic fit | 18 |
+| Methodological fit | 48 |
+| Growth value | 32 |
+| Strategic value | 45 |
+| **Overall** | **35** |
 
-**Fit type:** adjacent-methodological-fit
+**Fit type:** poor-fit
 
-**Missing skills:** mixed-methods
+**Missing skills:** qualitative-research, mixed-methods
 
 **Risks:**
-- Domain drift: 4 years in organizational AI studies would create a secondary research identity that may complicate future positioning as a human-centred XR researcher.
-- Academic credential risk: Master's in multimedia/creative multimedia may not satisfy 'equivalent to Industrial Engineering and Management' requirement.
-- Supervisor expertise mismatch: Karakaya and Engwall are organizational scholars; they are unlikely to champion or understand XR, spatial cognition, or immersive learning as research directions.
-- Limited network value: WASP-HS is strong but networks researchers toward organizational/management research communities, not HCI or XR groups.
+- Discipline mismatch: Industrial Engineering and Management focus on organizations and business; researcher's background is creative multimedia and HCI
+- Language barrier: willingness to learn Swedish is listed as a criterion; researcher has no stated Swedish skills, and acquiring interview-level proficiency by April 2027 is tight
+- Thematic drift: this position targets organizational change, not human behavior or spatial cognition; does not align with target identity
+- Literature gap: position requires familiarity with innovation management and organizational studies literature; researcher would start as novice in these domains
+- Career trajectory risk: PhD in organizational implications of AI would not prepare the researcher for target roles in human-centred immersive systems research
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-organizational-implications-of-art.md` and link [[opp_varbi-doctoral-student-in-organizational-implications-of-art]]._
