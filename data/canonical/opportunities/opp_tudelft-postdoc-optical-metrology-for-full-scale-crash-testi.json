@@ -1,0 +1,174 @@
+{
+  "id": "opp_tudelft-postdoc-optical-metrology-for-full-scale-crash-testi",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-07T12:42:13.583608Z",
+  "updated_at": "2026-11-07T12:56:50.137405Z",
+  "change_history": [
+    {
+      "ts": "2026-11-07T12:42:13.583793Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-07T12:56:49.223063Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-07T12:56:50.137405Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Optical Metrology for Full-Scale Crash Testing of Hydrogen Aircraft Tanks",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-aerospace-engineering",
+    "source": "tudelft",
+    "source_native_id": "1376933957",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Optical-Metrology-for-Full-Scale-Crash-Testing-of-Hydrogen-Aircraft-Tanks-2628-CD/1376933957/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Optical-Metrology-for-Full-Scale-Crash-Testing-of-Hydrogen-Aircraft-Tanks-2628-CD/1376933957/",
+    "evidence_ids": [
+      "tudelft/1376933957"
+    ],
+    "retrieved_at": "2026-11-07T12:42:13.583400Z",
+    "raw_snapshot_hash": "9668f04d7a8819c8c6396cb96b3620efcdb24e5b4b483e678032f3e287868ad5",
+    "extracted_content_hash": "7052a5ea80b527ba99f3d89747c38096f495e3b14aa9829bc163a1c2e7dce1de",
+    "deadline": "2026-12-02",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Challenge: Full-field optical measurements of a hydrogen tank crash test\nChange: High-speed stereo DIC linked directly to crash simulations\nImpact: Safe and certifiable hydrogen-powered aircraft\nJob description\nLiquid hydrogen is a key option for climate-neutral aviation, but it must be stored at cryogenic temperatures in tanks integrated in the fuselage. These tanks have to stay intact and safe in a crash. This position is part of the European Clean Aviation project CRYOSTAR, where, together with our partners, we work to ensure the crashworthiness of hydrogen-powered aircraft. The project combines numerical modelling, material characterisation and full-scale testing. Its highlight is a unique full-scale drop test of a cryogenic liquid hydrogen tank installed in an aircraft fuselage section, performed on site at the test facility of our industrial partner in Italy in 2027. You will be part of this test campaign: you will be responsible for the full-field optical measurements with digital image correlation (DIC) and support the other dynamic measurements.\nIn this 12-month position, you will plan and perform the stereo DIC measurements with high-speed cameras, and link the DIC results to the numerical crash models for their validation. Your tasks include:\ndesigning the high-speed stereo imaging setup for DIC and marker (fiducial) tracking;\ntest measurements in the TU Delft laboratory and the measurements during the final drop test on site;\nprocessing the image data into displacements, strains and motions of the test article;\nlinking the DIC results to the finite element models.\nThe full-scale drop test will be done only once, your task is to make the measurements robust. You will work closely with the partners who perform the test, acquire the sensor data and develop the crash simulations, and you will contribute to the definition of the test instrumentation. Your results will also feed the digital thread that TU Delft develops in the project, linking the design and certification of hydrogen tanks.\nIn addition to the main project, you may contribute to ongoing research and educational projects with your expertise in optical metrology. You can also develop and test your own initiative ideas and directions of research.\nYou will be required to communicate your results both in academic settings (journal papers and conferences) and towards an industrial audience. In this position, you will be supervised by Dr. Andrei Anisimov. You will work in the TU Delft project team with Dr. Francesco Orefice and Dr. Saullo Castro.\nThis position is at the Optical Metrology for Aerospace (OMA) research group within the Faculty of Aerospace Engineering of Delft University of Technology. OMA is a young, interdisciplinary and international research group with a focus on optical instrumentation for metrology applications, efficient non-destructive inspection and material characterisation.\nJob requirements\nYou are a motivated researcher looking to apply your experimental and analysis skills in a unique full-scale test, and to connect measurements with models. You can work independently in an EU project and be responsible for the deliverables.\nYou also have:\nA PhD in optics, computer vision, experimental mechanics, aerospace engineering or a related field.\nHands-on experience with digital image correlation (DIC), ideally high-speed stereo.\nExperience in correlating DIC data with finite element models for model validation.\nExperience with image processing and data analysis.\nBroader experience in optical metrology or computer vision is a plus.\nWillingness to travel to the test facility in Italy for the test campaign (short period).\nYou will work with many partners from industry and research, both on site and online. Therefore, English proficiency and the ability to communicate your work to academic and industrial audiences are required.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDuration of contract is 1 year. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Andrei Anisimov, via\na.g.anisimov@tudelft.nl\n. For information about the selection procedure, please contact the ASM secretary team, email:\nsecr-ASM-LR@tudelft.nl\n.\n#EUfunded This is an EU funded project, named CRYOSTAR, with project number 101251003, within program HE. The project is supported by the Clean Aviation Joint Undertaking and its members.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n2 December 2026\nvia the application button and upload the following documents:\nDetailed CV\nMotivational letter\nCopies of your PhD and MSc degrees and transcripts\nYou can address your application to Andrei Anisimov. In the motivation letter, please describe the main challenges you expect in measuring the deformation of a full-scale test article during a crash test with high-speed stereo DIC, and in linking these measurements to finite element models.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "A 12-month postdoctoral position in optical metrology at TU Delft's Aerospace Engineering faculty, focused on designing and executing high-speed stereo digital image correlation (DIC) measurements for a full-scale hydrogen aircraft tank crash test, with responsibilities including measurement setup, data processing, and validation against finite element models.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The position is fundamentally about aerospace experimental mechanics and optical instrumentation for crashworthiness certification. While it mentions 'optical measurements' and 'image processing', these are pure computer vision / photogrammetry / experimental mechanics domains with no connection to human-centred systems, immersive learning, spatial cognition, collaboration, or XR. The target researcher's identity centres on human-centred XR and learning—this position has no HCI or user-facing research component."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "The position requires experimental design and data analysis (both of which the researcher has at intermediate level), but the core technical requirements—DIC, high-speed stereo imaging, finite element model validation, image processing pipelines—are pure computer vision and experimental mechanics. No user studies, HCI evaluation, or multiplayer/collaborative system design. The researcher's strengths in Unity, C#, and multiplayer networking are entirely irrelevant."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "This role would develop expertise in optical measurement systems and aerospace testing, which closes no gaps aligned with the researcher's target identity. It would not advance capability in human-centred XR, immersive learning evaluation, spatial cognition research, or collaborative system design. It represents a departure from the researcher's core trajectory."
+    },
+    "strategic_value": {
+      "score": 60,
+      "rationale": "TU Delft is a top-tier institution and a Priority 1 target for the researcher. The Faculty of Aerospace Engineering is well-resourced, the CRYOSTAR project is EU-funded and international, and Dr. Andrei Anisimov's group appears well-established. However, strategic value is severely diminished by the fundamental mismatch in research direction—being at a target institution does not compensate for working outside the researcher's chosen domain."
+    },
+    "required_skills": [
+      "experimental-design",
+      "image-processing",
+      "quantitative-research",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "statistics"
+    ],
+    "missing_skills": [
+      "image-processing"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD or equivalent; researcher currently holds MSc by Research (in progress). Eligibility contingent on completion and conferral before employment start.",
+      "Position requires hands-on DIC expertise and high-speed stereo imaging experience; researcher has no stated background in these areas.",
+      "Aerospace engineering or related field preferred; researcher's background is multimedia and HCI."
+    ],
+    "risks": [
+      "Fundamental mismatch in research domain and target identity. Position is pure experimental mechanics / aerospace, not human-centred XR or immersive systems.",
+      "No pathway back to target research direction. Time spent in optical metrology for crash testing would delay doctoral work in HCI/XR.",
+      "Researcher would be at significant disadvantage competing against candidates with DIC, high-speed imaging, or aerospace experimental mechanics backgrounds.",
+      "Role does not develop methodological or technical skills aligned with target doctoral research areas."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-07T12:56:49.222477Z",
+    "analysis_input_hash": "f3b4bbfada002ddb977e38fe1b4a6e7e81a85c76f864e5958b1153c56b081901"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 18,
+    "urgency": "medium",
+    "days_to_deadline": 25,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

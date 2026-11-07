@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-06T14:06:58.880583Z",
-  "updated_at": "2026-11-06T14:10:35.139633Z",
+  "updated_at": "2026-11-07T12:56:50.278273Z",
   "change_history": [
     {
       "ts": "2026-11-06T14:06:58.880770Z",
@@ -21,6 +21,45 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-07T12:56:49.224328Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-07T12:56:50.278273Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,7 +98,68 @@
     "status": "open",
     "description_text": "Postdoc in cyber-physical security for smart grids\nLogin and apply\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nAs power systems become more digitalised and rely increasingly on synchronised measurements, protecting monitoring data and communications is essential for reliable grid operation. The research will focus on threats such as time-synchronisation attacks and manipulation of monitoring data in wide-area monitoring systems, characterization of their impact on system operation, and their timely detection using machine learning algorithms. The postdoc will develop methods for detection and resilience, and collaborate with an international team to validate them in cyber-physical power-system scenarios.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made\nStrong publication track record in leading conferences and/or journals in a relevant research field\nAs the work involves international cooperation, excellent skills in English are required, both oral and in writing\nPreferred qualifications\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience with simulation-based on experimental validation\nThe ability to work in a team as well as independently\nAwareness of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nName and email address of two references.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3828\nContact\nGyörgy Dan, gyuri@kth.se\nPublished\n05.Nov.2026\nLast application date\n30.Nov.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
-  "ai": null,
+  "ai": {
+    "summary": "A postdoctoral position at KTH's School of Electrical Engineering and Computer Science focused on cyber-physical security for smart grids, involving detection and resilience methods for time-synchronisation attacks and monitoring data manipulation in wide-area systems, validated through simulation and machine learning.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 8,
+      "rationale": "The position is fundamentally about cyber-physical security, power systems, and attack detection via machine learning. While 'machine learning' may appear tangentially relevant, the core research direction (critical infrastructure security, grid resilience, adversarial system dynamics) has no thematic overlap with human-centred XR, immersive learning, spatial cognition, collaboration, wayfinding, or any of the researcher's stated domains. No HCI, user evaluation, or immersive systems component."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "The posting emphasizes 'simulation-based and experimental validation' and 'machine learning algorithms', both of which the researcher has encountered but not in substantial depth. The researcher has beginner-level Python and no stated background in cybersecurity, power systems, or machine learning development. The methodological core (security analysis, adversarial testing, control-system dynamics) is orthogonal to the researcher's experimental and HCI evaluation expertise."
+    },
+    "growth_value": {
+      "score": 12,
+      "rationale": "This role would develop skills in cyber-physical security, machine learning, and power-systems simulation—none of which align with the researcher's stated capability gaps or target identity. The excluded_directions in the profile do not explicitly rule out ML, but the researcher's trajectory is human-centred systems research, not algorithmic development. This represents a significant pivot away from core research interests."
+    },
+    "strategic_value": {
+      "score": 65,
+      "rationale": "KTH is a leading technical university in Sweden (a preferred country in the profile). It is not listed as Priority 1 (Aalto, TU Delft) or Priority 2 (Tampere, other ≥70% fit groups), but Sweden is geographically and linguistically aligned. The SEOCS (School of Electrical Engineering and Computer Science) is internationally recognized. However, strategic value is substantially diminished by the research direction mismatch—proximity to target geography does not offset absence of methodological and thematic alignment."
+    },
+    "required_skills": [
+      "statistics",
+      "quantitative-research",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "statistics",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD or equivalent; researcher currently holds MSc by Research (in progress). Eligibility contingent on completion and conferral before employment start.",
+      "Position calls for 'strong publication track record in leading conferences/journals in a relevant research field.' Researcher has 1 first-author journal article and 1 systematic mapping review (in progress)—possibly below the bar for 'strong' record at postdoc level.",
+      "Preferred qualification: PhD obtained within last 3 years. Researcher must complete MSc first; timeline unclear.",
+      "No stated background in cybersecurity, power systems, control systems, or applied machine learning; significant onboarding risk."
+    ],
+    "risks": [
+      "Fundamental mismatch in research domain. Position is cyber-physical security for critical infrastructure; researcher's expertise and identity are human-centred immersive systems.",
+      "Skill gap in Python and machine learning at the depth required for the role; researcher is beginner in Python and has no stated ML algorithm development experience.",
+      "Not a methodological fit despite mentioning simulation and machine learning. The underlying research culture (security, control systems, adversarial testing) differs substantially from HCI and immersive systems evaluation.",
+      "Taking this role would sideline the researcher's doctoral pathway in human-centred XR for 2 years, delaying re-entry to the target domain.",
+      "Publication track record may be assessed as junior relative to typical postdoc candidates in cybersecurity."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-07T12:56:49.223920Z",
+    "analysis_input_hash": "e603c04c36c62298b74faa3ddfda6315f3f370ffa1033ceda4713a2a94e0cdfa"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
@@ -67,9 +167,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 21,
     "urgency": "medium",
-    "days_to_deadline": 24,
+    "days_to_deadline": 23,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

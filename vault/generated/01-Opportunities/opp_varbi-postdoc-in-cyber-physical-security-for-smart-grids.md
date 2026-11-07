@@ -6,7 +6,7 @@ organisation: "KTH Royal Institute of Technology"
 deadline: 2026-11-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 21
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 24)
+Gate: **uncertain** (days to deadline: 23)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -106,7 +106,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+
+A postdoctoral position at KTH's School of Electrical Engineering and Computer Science focused on cyber-physical security for smart grids, involving detection and resilience methods for time-synchronisation attacks and monitoring data manipulation in wide-area systems, validated through simulation and machine learning.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 8 |
+| Methodological fit | 20 |
+| Growth value | 12 |
+| Strategic value | 65 |
+| **Overall** | **21** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** python
+
+**Risks:**
+- Fundamental mismatch in research domain. Position is cyber-physical security for critical infrastructure; researcher's expertise and identity are human-centred immersive systems.
+- Skill gap in Python and machine learning at the depth required for the role; researcher is beginner in Python and has no stated ML algorithm development experience.
+- Not a methodological fit despite mentioning simulation and machine learning. The underlying research culture (security, control systems, adversarial testing) differs substantially from HCI and immersive systems evaluation.
+- Taking this role would sideline the researcher's doctoral pathway in human-centred XR for 2 years, delaying re-entry to the target domain.
+- Publication track record may be assessed as junior relative to typical postdoc candidates in cybersecurity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-cyber-physical-security-for-smart-grids.md` and link [[opp_varbi-postdoc-in-cyber-physical-security-for-smart-grids]]._
