@@ -1,0 +1,181 @@
+{
+  "id": "opp_varbi-researcher-in-environmentally-extended-multi-regional",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-09T15:41:47.707596Z",
+  "updated_at": "2026-11-09T15:48:22.721510Z",
+  "change_history": [
+    {
+      "ts": "2026-11-09T15:41:47.707781Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-09T15:47:47.192671Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-09T15:48:22.721510Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Researcher in Environmentally Extended Multi-Regional Input-Output Analysis",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-987947",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:987947/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-987947"
+    ],
+    "retrieved_at": "2026-11-09T15:41:47.707294Z",
+    "raw_snapshot_hash": "d84f103157061c7e474b3483fada0f45cd4fa9d3c4ce543df25c5920b30f02b2",
+    "extracted_content_hash": "d715141ad0755507d2da2cca8e6a2be8fb4e49c9f609ec3be905180c48a1c33e",
+    "deadline": "2026-12-07",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "other",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Researcher in Environmentally Extended Multi-Regional Input-Output Analysis\nApply for position\nKTH Royal Institute of Technology, School of Architecture and Built Environment\nJob description\nThe researcher will work with Environmentally Extended Multi-Regional Input-Output Analysis (MRIO) especially focusing on developing and applying methods for prospective studies. The overall aim of the projects is to describe how environmental impacts from consumption can be reduced to sustainable levels. The successful applicant will work in several projects together with researchers and PhD students from KTH, Luxembourg Institute of Science and Technology (LIST) and Statistics Sweden (SCB). The work may include writing applications for further work, presentations at international conferences, interaction with stakeholders, visit to LIST, teaching and supervision of students. The work will be performed at the Division of Sustainability Assessment and Management at the Department of Sustainable Development, Environmental Science and Engineering at KTH, a multidisciplinary department where engineers, and natural and social scientist are working together to understand and develop solutions for a more sustainable society.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree\nDeveloped, used and published research on MRIO\nPreferred qualifications\nExperience with prospective MRIO\nExperience with Life Cycle Assessment (LCA), and especially prospective LCA, and other environmental systems analysis tools\nA background in Industrial Ecology, Economics or Sustainability science\nProgramming skills\nExperience in teaching\nThe ability to work towards research results being utilized in practice\nThe ability to inform about research and development work\nCollaborative abilities\nIndependence\nExperience from writing applications\nKnowledge in Swedish and Swedish society is useful, since the work will include Swedish case studies and interaction with Swedish stakeholders, but not required\nExperience of developing and leading activities and staff\nKnowledge of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Max two pages long.\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid for a limited time according to the agreement - for up to 12 months, with access according to agreement.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nSpecial fixed-term employment\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3841\nContact\nGöran Finnveden, goran.finnveden@abe.kth.se\nPublished\n09.Nov.2026\nLast application date\n07.Dec.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "Fixed-term researcher position in Environmentally Extended Multi-Regional Input-Output Analysis (MRIO) focused on prospective sustainability studies. Work involves developing and applying MRIO methods, life cycle assessment, stakeholder engagement, and teaching within KTH's Division of Sustainability Assessment.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "Position is in environmental systems analysis and sustainability science, not human-centred systems or immersive technologies. No connection to spatial cognition, collaborative learning, or XR research themes."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Some weak connection through empirical research methodology and stakeholder engagement. However, core methods are input-output modelling, life cycle assessment, and environmental accounting—quantitative systems analysis rather than user-centred design or HCI evaluation."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Would develop systems thinking and environmental science knowledge, but does not advance human-centred XR, spatial cognition, or collaborative immersive systems capabilities. Does not close any identified skill gaps in the researcher's profile."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "KTH is in target geography (Sweden, Tier 2 institution). However, position is in sustainability and environmental engineering, not HCI or XR. Multidisciplinary environment at KTH could offer networking value, but limited direct strategic alignment with human-centred immersive systems research pathway."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "academic-writing",
+      "python"
+    ],
+    "missing_skills": [
+      "mrio-methodology",
+      "life-cycle-assessment",
+      "industrial-ecology",
+      "environmental-systems-analysis"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires doctoral degree; researcher has MSc by Research (not yet doctoral degree), though thesis is in progress",
+      "Essential: developed, used, and published research on MRIO; researcher has no publications or experience in this methodology",
+      "Preferred: background in Industrial Ecology, Economics, or Sustainability Science; researcher's background is in multimedia and HCI",
+      "Swedish language mentioned as useful; researcher profile does not indicate Swedish proficiency"
+    ],
+    "risks": [
+      "Fundamental domain mismatch: environmental systems analysis vs. human-centred immersive systems",
+      "Researcher lacks required expertise in MRIO, LCA, and environmental systems analysis",
+      "No publication record or demonstrated research in sustainability science",
+      "Position would not advance researcher's stated target identity or core research capabilities",
+      "Career trajectory diverges from human-centred XR and immersive learning research"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-09T15:47:47.192309Z",
+    "analysis_input_hash": "8cfa3613bd1feba0fb07cd3c33f9aff12d6a16a46d6dc4fde4af14dfc8630505"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 14,
+    "urgency": "medium",
+    "days_to_deadline": 28,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

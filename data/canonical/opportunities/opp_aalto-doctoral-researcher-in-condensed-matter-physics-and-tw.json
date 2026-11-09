@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-10-28T12:21:21.339432Z",
-  "updated_at": "2026-11-08T13:10:21.630413Z",
+  "updated_at": "2026-11-09T15:48:21.958283Z",
   "change_history": [
     {
       "ts": "2026-10-28T12:21:21.339591Z",
@@ -142,6 +142,46 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-09T15:31:57.711688Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-09T15:47:47.188917Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-09T15:48:21.958283Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -155,9 +195,9 @@
     "evidence_ids": [
       "aalto/doctoral-researcher-in-condensed-matter-physics-and-two-dimensional-2d-quantum-devices"
     ],
-    "retrieved_at": "2026-10-28T12:21:21.339230Z",
-    "raw_snapshot_hash": "9bc16227366dac672cfd785bfb9d8fe16d61971aab43ce5432bc3eb2eafbe053",
-    "extracted_content_hash": "18452fd6ac9f665ee4a933f0caac44633336f96b34437351d244141aaeebcb94",
+    "retrieved_at": "2026-11-09T15:31:57.710996Z",
+    "raw_snapshot_hash": "c7ce4098f417b8d4c6318c59d1965ac915a65d60623aef33d5604cc6cb051f17",
+    "extracted_content_hash": "a53744119e6e3e3ea981e4df9d7f2c4b3de0f01493a2982745ee440b1c1efc24",
     "deadline": "2026-11-30",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -176,45 +216,54 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 120 nationalities, 16 000 students, 446 professors and close to 5000 other faculty and staff working on our dynamic campus in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nAt the Department of Applied Physics, our pioneering research in physical sciences creates important industrial applications that hold great technological potential. Our research focuses on Materials physics; Quantum technology; Soft & living matter; and Advanced energy solutions. Topics extend from fundamental research to important applications. We educate future generations of research and development professionals; data specialists; technology experts; inventors; and scientists for industry and society.\nThe Atomic Scale Physics\ngroup at the\nDepartment of Applied Physics\nis looking for a\nDoctoral Researcher\n(PhD student) in 2D quantum devices and condensed matter physics. The research focuses on\ncorrelated electron systems, topological systems and superconductivity\n.\nGate-tunable 2D devices are at the cutting edge of condensed matter physics today. This is where many of the most exciting discoveries are being made, and the field is moving fast. You will work at the frontier of this research, combining nanofabricated devices made from 2D layered materials with low-temperature scanning tunneling microscopy (STM). Our group has long experience with both the techniques and the materials.\nYour role and goals\nYour goal is to study emergent electronic phenomena in gate-tunable van der Waals materials using STM. A gate voltage lets you add or remove electrons in a device, so you can tune one sample through many different quantum phases, including exotic ones that are hard to reach in any other way. With STM, you can see these phases at the atomic scale and learn how they form and behave.\nYour tasks will include:\nFabrication of quantum devices in cleanroom facilities, including lithography, deposition, exfoliation and transfer of 2D materials\nRunning low-temperature STM experiments on these devices\nCollaboration with leading theoretical physicists\nAnalysis of measured data and writing scientific articles\nYour experience and ambitions\nRequired:\nA Master's degree in condensed matter physics or a closely related field\nA genuine interest in experimental condensed matter physics\nGood command of English (Finnish is not required)\nA plus:\nExperience with nanofabrication and cleanroom processing of 2D materials\nHands-on experience with low-temperature and ultra-high vacuum systems\nExperience with scanning tunneling microscopy\nKnowledge of 2D quantum materials and related physics\nThe selected candidate needs to apply for the study right in doctoral studies at Aalto University School of Science. Please check the student information and admission criteria at\nAalto Doctoral Programme in Science | Aalto University\n.\nWhat we offer\nWe offer a fully funded PhD project for one talented Doctoral Researcher under the guidance of Dr. Viliam Vaňo in the Atomic Scale Physics group led by Prof. Peter Liljeroth. The group consists currently of 3 Academy Research Fellows, 1 Postdoctoral Researcher and 6 Doctoral Researchers. The group focuses studying physical phenomena in atomically precise materials characterized using scanning tunneling microscopy in a wide array of systems such as heterostructures of two-dimensional van der Waals materials, atomically well-defined graphene nanoribbons, and artificial lattices on surfaces.\nThe position of the Doctoral Researcher is initially filled for 2 years. The contract is continued for another 2 years after a successful midterm review. The annual workload of research and teaching staff at Aalto University is 1612 hours. Aalto University follows the salary system of Finnish universities. The starting salary is approximately 3142 €/month (gross), and it increases as the Doctoral Researcher progresses in the research and studies. The contract includes Aalto University occupational healthcare.\nOur vast array of professional development opportunities means you will grow and learn, having the chance to participate actively in staff trainings and development projects based on your interests and needs. There is great freedom in your role, and we have a flexible modern working culture. We value work-life balance and well-being in all aspects of life.\nWe work in a hybrid way, and the primary workplace is Otaniemi, Espoo. Life at the transformed Otaniemi campus is vibrant and filled with amazing architecture, calming nature, and a variety of cafes, restaurants, services and good connections along the recently opened metro line.\nJoin us!\nTo apply, please share the following application materials with us through our recruitment site (click \"Apply now!” button on Aalto University’s webpage). Include the following documents:\nBrief cover letter explaining your motivation and suitability for this position\nCV including education background, skills and a list of publications\nDegree certificates and academic transcripts\nPDF copy of your Master’s thesis or a link (URL) to a repository where it can be found\nRecommendation letter(s) and/or contact details of those who can give a recommendation\nThe deadline for applications is\n30th of\nNovember 2026\n. We will go through applications, and we may invite suitable candidates to interview already during the application period. We aim to have a transparent and equal recruitment process, so feel free to ask us for feedback. Aalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.\nSee the group webpage and contact Dr. Viliam Vaňo (\nviliam.vano@aalto.fi\n) for more details of this position.\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions).\nAalto University’s students and visitors should apply as external candidates with personal (not aalto) email.\nWant to know more about us and your future colleagues?You can watch these videos:\nAalto University – Towards a better world\n,\nAalto People\n,\nand\nShaping a Sustainable Future\n.Read more about working at Aalto:\nCareers at Aalto | Aalto University\nCheck out our new virtual campus experience:\nAalto University – virtual campus tour\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was just listed again as the happiest country in the world:\nWHR Dashboard\n. For more information about living in Finland:\nFor international staff | Aalto University\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 120 nationalities, 16 000 students, 446 professors and close to 5000 other faculty and staff working on our dynamic campus in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nAt the Department of Applied Physics, our pioneering research in physical sciences creates important industrial applications that hold great technological potential. Our research focuses on Materials physics; Quantum technology; Soft & living matter; and Advanced energy solutions. Topics extend from fundamental research to important applications. We educate future generations of research and development professionals; data specialists; technology experts; inventors; and scientists for industry and society.\nThe Atomic Scale Physics\ngroup at the\nDepartment of Applied Physics\nis looking for a\nDoctoral Researcher\n(PhD student) in 2D quantum devices and condensed matter physics. The research focuses on\ncorrelated electron systems, topological systems and superconductivity\n.\nGate-tunable 2D devices are at the cutting edge of condensed matter physics today. This is where many of the most exciting discoveries are being made, and the field is moving fast. You will work at the frontier of this research, combining nanofabricated devices made from 2D layered materials with low-temperature scanning tunneling microscopy (STM). Our group has long experience with both the techniques and the materials.\nYour role and goals\nYour goal is to study emergent electronic phenomena in gate-tunable van der Waals materials using STM. A gate voltage lets you add or remove electrons in a device, so you can tune one sample through many different quantum phases, including exotic ones that are hard to reach in any other way. With STM, you can see these phases at the atomic scale and learn how they form and behave.\nYour tasks will include:\nFabrication of quantum devices in cleanroom facilities, including lithography, deposition, exfoliation and transfer of 2D materials\nRunning low-temperature STM experiments on these devices\nCollaboration with leading theoretical physicists\nAnalysis of measured data and writing scientific articles\nYour experience and ambitions\nRequired:\nA Master's degree in condensed matter physics or a closely related field (completion latest end of 2027)\nA genuine interest in experimental condensed matter physics\nGood command of English (Finnish is not required)\nA plus:\nExperience with nanofabrication and cleanroom processing of 2D materials\nHands-on experience with low-temperature and ultra-high vacuum systems\nExperience with scanning tunneling microscopy\nKnowledge of 2D quantum materials and related physics\nThe selected candidate needs to apply for the study right in doctoral studies at Aalto University School of Science. Please check the student information and admission criteria at\nAalto Doctoral Programme in Science | Aalto University\n.\nWhat we offer\nWe offer a fully funded PhD project for one talented Doctoral Researcher under the guidance of Dr. Viliam Vaňo in the Atomic Scale Physics group led by Prof. Peter Liljeroth. The group consists currently of 3 Academy Research Fellows, 1 Postdoctoral Researcher and 6 Doctoral Researchers. The group focuses studying physical phenomena in atomically precise materials characterized using scanning tunneling microscopy in a wide array of systems such as heterostructures of two-dimensional van der Waals materials, atomically well-defined graphene nanoribbons, and artificial lattices on surfaces.\nThe position of the Doctoral Researcher is initially filled for 2 years. The contract is continued for another 2 years after a successful midterm review. The annual workload of research and teaching staff at Aalto University is 1612 hours. Aalto University follows the salary system of Finnish universities. The starting salary is approximately 3142 €/month (gross), and it increases as the Doctoral Researcher progresses in the research and studies. The contract includes Aalto University occupational healthcare.\nOur vast array of professional development opportunities means you will grow and learn, having the chance to participate actively in staff trainings and development projects based on your interests and needs. There is great freedom in your role, and we have a flexible modern working culture. We value work-life balance and well-being in all aspects of life.\nWe work in a hybrid way, and the primary workplace is Otaniemi, Espoo. Life at the transformed Otaniemi campus is vibrant and filled with amazing architecture, calming nature, and a variety of cafes, restaurants, services and good connections along the recently opened metro line.\nJoin us!\nTo apply, please share the following application materials with us through our recruitment site (click \"Apply now!” button on Aalto University’s webpage). Include the following documents:\nBrief cover letter explaining your motivation and suitability for this position\nCV including education background, skills and a list of publications\nDegree certificates and academic transcripts\nPDF copy of your Master’s thesis or a link (URL) to a repository where it can be found\nRecommendation letter(s) and/or contact details of those who can give a recommendation\nThe deadline for applications is\n30th of\nNovember 2026\n. We will go through applications, and we may invite suitable candidates to interview already during the application period. We aim to have a transparent and equal recruitment process, so feel free to ask us for feedback. Aalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.\nSee the group webpage and contact Dr. Viliam Vaňo (\nviliam.vano@aalto.fi\n) for more details of this position.\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions).\nAalto University’s students and visitors should apply as external candidates with personal (not aalto) email.\nWant to know more about us and your future colleagues?You can watch these videos:\nAalto University – Towards a better world\n,\nAalto People\n,\nand\nShaping a Sustainable Future\n.Read more about working at Aalto:\nCareers at Aalto | Aalto University\nCheck out our new virtual campus experience:\nAalto University – virtual campus tour\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was just listed again as the happiest country in the world:\nWHR Dashboard\n. For more information about living in Finland:\nFor international staff | Aalto University\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
   "ai": {
-    "summary": "Doctoral position in experimental condensed matter physics, specifically studying emergent electronic phenomena in gate-tunable 2D quantum devices using scanning tunneling microscopy. Core work involves nanofabrication, low-temperature experiments, and theoretical collaboration.",
+    "summary": "Doctoral position in experimental condensed matter physics focused on 2D quantum devices, gate-tunable materials, and scanning tunneling microscopy at the atomic scale. Research combines nanofabrication, low-temperature STM, and collaboration with theoretical physicists.",
     "fit_type": "poor-fit",
     "thematic_fit": {
       "score": 5,
-      "rationale": "No thematic overlap. Researcher's domain is human-centred XR, immersive learning, and spatial cognition. Position is pure physics with no connection to HCI, immersive systems, or human-centred design."
+      "rationale": "No thematic overlap with human-centred XR, spatial cognition, collaborative systems, or immersive learning. This is pure experimental physics research in an entirely different scientific domain."
     },
     "methodological_fit": {
       "score": 0,
-      "rationale": "Methodologically incompatible. Position requires cleanroom nanofabrication, ultra-high vacuum systems, scanning tunneling microscopy, and condensed matter physics knowledge. Researcher has no experimental physics background; their methods are user-centred (user studies, experimental design for human factors, questionnaires)."
+      "rationale": "The position requires experimental condensed matter physics methods (cleanroom fabrication, STM, cryogenic systems, quantum measurement). The researcher's expertise is in XR application development, user studies, and collaborative system design. No methodological bridge exists."
     },
     "growth_value": {
       "score": 0,
-      "rationale": "Zero growth value. Would require complete retraining in experimental physics and materials science. Does not close any of the researcher's identified capability gaps (statistics, eye-tracking, physiological sensing, mixed-effects modelling in HCI context)."
+      "rationale": "This position would not develop any of the researcher's core capabilities in human-centred XR, spatial learning, multiplayer interaction design, or HCI evaluation. It would require rebuilding expertise in an unrelated domain."
     },
     "strategic_value": {
-      "score": 10,
-      "rationale": "Only positive: Aalto is a priority-1 institution in target geography. However, this is negated by the complete mismatch. Supervisor (Prof. Peter Liljeroth) and group have no HCI or immersive systems expertise. No path toward target identity in human-centred XR research."
+      "score": 15,
+      "rationale": "Aalto is a strong institution in researcher's target geography (Finland), but this position is in Applied Physics, not HCI/XR. The supervisor (Peter Liljeroth) and group focus on materials physics, not human-computer interaction. No strategic alignment with target identity."
     },
     "required_skills": [
-      "experimental-design"
+      "experimental-design",
+      "quantitative-research",
+      "python"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "experimental-design"
+      "experimental-design",
+      "quantitative-research"
     ],
-    "missing_skills": [],
+    "missing_skills": [
+      "condensed-matter-physics",
+      "nanofabrication",
+      "scanning-tunneling-microscopy",
+      "cryogenic-systems"
+    ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Master's degree requirement stated; researcher has MSc by Research in progress (thesis stage—qualification may be contingent on degree conferral by start date)"
+      "Requires MSc in condensed matter physics or closely related field; researcher has MSc in multimedia/HCI",
+      "Posting requires demonstrated interest in experimental condensed matter physics; researcher's background is in XR and HCI"
     ],
     "risks": [
-      "Fundamental disciplinary mismatch. This is physics research, not HCI.",
-      "No transferable research methods between condensed matter physics experiments and human-centred immersive systems research.",
-      "Would require 2–3 years of foundational physics coursework before meaningful contribution.",
-      "Supervisor and group have no expertise in researcher's target domain."
+      "Fundamental domain mismatch—this is physics, not HCI/XR",
+      "Researcher lacks the required condensed matter physics background and would be underqualified",
+      "Career trajectory would deviate sharply from human-centred XR target identity",
+      "No existing relationships or publication record in quantum materials or experimental physics"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -228,8 +277,8 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-10-28T12:36:36.670771Z",
-    "analysis_input_hash": "1defd4384ef718d5168f17fc8266acfa1977a3a959b2c77542be483d630f2341"
+    "analyzed_at": "2026-11-09T15:47:47.188226Z",
+    "analysis_input_hash": "26b7f862aae17b4899c8a0e75294e6dcd6479a492b248f9f37b8345c9aefd3ea"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -237,9 +286,9 @@
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 3,
-    "urgency": "medium",
-    "days_to_deadline": 22,
+    "fit_overall": 4,
+    "urgency": "high",
+    "days_to_deadline": 21,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

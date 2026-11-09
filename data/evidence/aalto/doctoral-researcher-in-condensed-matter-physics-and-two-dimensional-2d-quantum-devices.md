@@ -2,7 +2,7 @@
 source: aalto
 native_id: doctoral-researcher-in-condensed-matter-physics-and-two-dimensional-2d-quantum-devices
 url: https://www.aalto.fi/en/open-positions/doctoral-researcher-in-condensed-matter-physics-and-two-dimensional-2d-quantum-devices
-retrieved_at: 2026-10-28T12:21:21.191904+00:00
+retrieved_at: 2026-11-09T15:31:57.497140+00:00
 ---
 
 Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 120 nationalities, 16 000 students, 446 professors and close to 5000 other faculty and staff working on our dynamic campus in Espoo, Greater Helsinki, Finland. Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.
@@ -25,7 +25,7 @@ Collaboration with leading theoretical physicists
 Analysis of measured data and writing scientific articles
 Your experience and ambitions
 Required:
-A Master's degree in condensed matter physics or a closely related field
+A Master's degree in condensed matter physics or a closely related field (completion latest end of 2027)
 A genuine interest in experimental condensed matter physics
 Good command of English (Finnish is not required)
 A plus:

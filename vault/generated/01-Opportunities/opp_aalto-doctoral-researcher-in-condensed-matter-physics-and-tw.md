@@ -6,8 +6,8 @@ organisation: "Aalto University"
 deadline: 2026-11-30
 status: open
 eligibility_gate: uncertain
-fit_overall: 3
-urgency: medium
+fit_overall: 4
+urgency: high
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 22)
+Gate: **uncertain** (days to deadline: 21)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -51,7 +51,7 @@ Collaboration with leading theoretical physicists
 Analysis of measured data and writing scientific articles
 Your experience and ambitions
 Required:
-A Master's degree in condensed matter physics or a closely related field
+A Master's degree in condensed matter physics or a closely related field (completion latest end of 2027)
 A genuine interest in experimental condensed matter physics
 Good command of English (Finnish is not required)
 A plus:
@@ -116,25 +116,25 @@ here.
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Doctoral position in experimental condensed matter physics, specifically studying emergent electronic phenomena in gate-tunable 2D quantum devices using scanning tunneling microscopy. Core work involves nanofabrication, low-temperature experiments, and theoretical collaboration.
+Doctoral position in experimental condensed matter physics focused on 2D quantum devices, gate-tunable materials, and scanning tunneling microscopy at the atomic scale. Research combines nanofabrication, low-temperature STM, and collaboration with theoretical physicists.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
 | Methodological fit | 0 |
 | Growth value | 0 |
-| Strategic value | 10 |
-| **Overall** | **3** |
+| Strategic value | 15 |
+| **Overall** | **4** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** condensed-matter-physics, nanofabrication, scanning-tunneling-microscopy, cryogenic-systems
 
 **Risks:**
-- Fundamental disciplinary mismatch. This is physics research, not HCI.
-- No transferable research methods between condensed matter physics experiments and human-centred immersive systems research.
-- Would require 2–3 years of foundational physics coursework before meaningful contribution.
-- Supervisor and group have no expertise in researcher's target domain.
+- Fundamental domain mismatch—this is physics, not HCI/XR
+- Researcher lacks the required condensed matter physics background and would be underqualified
+- Career trajectory would deviate sharply from human-centred XR target identity
+- No existing relationships or publication record in quantum materials or experimental physics
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-in-condensed-matter-physics-and-tw.md` and link [[opp_aalto-doctoral-researcher-in-condensed-matter-physics-and-tw]]._

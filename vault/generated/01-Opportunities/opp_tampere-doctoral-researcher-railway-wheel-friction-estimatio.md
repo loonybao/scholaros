@@ -6,8 +6,8 @@ organisation: "Tampere University"
 deadline: 2026-11-30
 status: open
 eligibility_gate: uncertain
-fit_overall: 12
-urgency: medium
+fit_overall: 10
+urgency: high
 needs_review: true
 ---
 
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 22)
+Gate: **uncertain** (days to deadline: 21)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -43,7 +43,7 @@ Machine Dynamics Group (Machine Design) | Tampere University
 Our group integrates machine dynamics, AI, computer vision, structural mechanics, and control for condition monitoring and asset management of railway rolling stock and infrastructure.
 Job description
 We are looking for one (1) Doctoral Researcher in the areas of vehicle dynamics, automatic control and mechatronics. Successful candidates will pursue a doctoral degree at Tampere University. Full-time doctoral studies are expected to be completed in three years.
-You will focus on the research of experimental methods on onboard railway wheel friction estimate and control. You will collaborate closely with one doctoral researcher at Machine Dynamic Group who develops computational methods for model-based rail friction estimation. During your PhD you will have opportunity to test your technology on full-scale wheel-rail lab (
+You will focus on the research of experimental methods on onboard railway wheel friction estimate and control. During your PhD you will have opportunity to test your technology on full-scale wheel-rail lab (
 Full-Scale Wheel-Rail Lab | Tampere University
 ) at Tampere University and real train operated in Finland. You will have the opportunity for the research exchange in other EU countries. You will work for the project funded by Research Council of Finland (
 RAILCLIMA | Tampere Universities
@@ -119,28 +119,27 @@ Assistant Professor, Xinxin Yu, Xinxin.yu (at) tuni.fi
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
 
-Tampere doctoral position in vehicle dynamics and automatic control, focusing on experimental methods for onboard railway wheel-rail friction estimation and control. Work includes sensor instrumentation, friction estimation algorithms, wheel slip detection, and hardware-in-the-loop simulation validation.
+Doctoral position in vehicle dynamics, automatic control, and mechatronics focused on experimental methods for onboard railway wheel friction estimation and control. Work includes sensor instrumentation, wheel slip detection, and hardware-in-the-loop simulation for train applications.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 8 |
-| Methodological fit | 12 |
+| Methodological fit | 10 |
 | Growth value | 5 |
-| Strategic value | 25 |
-| **Overall** | **12** |
+| Strategic value | 20 |
+| **Overall** | **10** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics, mixed-effects-modelling
+**Missing skills:** vehicle-dynamics, automatic-control, signal-processing, matlab-simulink, sensor-fusion
 
 **Risks:**
-- Core discipline mismatch: vehicle dynamics, control systems, and rail infrastructure monitoring are excluded from the researcher's target identity
-- Severe background gap: researcher lacks foundational knowledge in control theory, system identification, and vehicle dynamics required for this role
-- Skills mismatch: MATLAB/Simulink expertise required; researcher's programming is in Unity/C# and beginner Python
-- Career trajectory risk: this PhD would not prepare the researcher for target positions in human-centred immersive systems research
-- Research culture gap: this is an engineering/control systems group; the researcher's background is creative multimedia and HCI
+- Core domain is mechanical/control engineering, not HCI or human-centred systems
+- Researcher lacks required background in vehicle dynamics and control theory
+- Would require major reorientation away from human-centred research
+- No existing publication or project record in control systems or vehicle dynamics
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tampere-doctoral-researcher-railway-wheel-friction-estimatio.md` and link [[opp_tampere-doctoral-researcher-railway-wheel-friction-estimatio]]._
