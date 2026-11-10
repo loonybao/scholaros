@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-15
 status: open
 eligibility_gate: uncertain
-fit_overall: 8
+fit_overall: 14
 urgency: urgent
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 6)
+Gate: **uncertain** (days to deadline: 5)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -63,7 +63,6 @@ You don’t just join our faculty — you join a community where you can thrive,
 Click
 here
 to go to the website of the Faculty of Aerospace Engineering.
-.
 Conditions of employment
 Duration of contract is 30 months. Temporary.
 A job of 36-40 hours per week.
@@ -103,28 +102,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoc position in orbital dynamics and radio science for planetary missions, combining C++ and Python development of the Tudat astrodynamics toolkit with spacecraft state estimation, tracking data analysis, and mission simulation. Role emphasises software engineering, numerical methods and open-science infrastructure.
+Postdoctoral position in astrodynamics software development, focused on orbital dynamics simulation, radio-science estimation pipelines, and open-source toolchain maintenance for planetary missions. Core work combines C++/Python software engineering with numerical methods, orbital mechanics, and space mission data analysis.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 2 |
-| Methodological fit | 10 |
-| Growth value | 5 |
-| Strategic value | 20 |
-| **Overall** | **8** |
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 40 |
+| **Overall** | **14** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cpp
+**Missing skills:** cpp, mixed-effects-modelling, statistics
 
 **Risks:**
-- Candidate does not hold a PhD; position is postdoc-level and requires completed doctorate.
-- Complete absence of required technical background (astrodynamics, C++, orbit determination).
-- Zero thematic alignment with research culture and community.
-- If a PhD were somehow waived (highly unlikely), the role would consume 30 months in a domain explicitly excluded by target_identity (embedded-systems adjacent, pure technical engineering).
-- No pathway to HCI or immersive systems research. Postdoc would move further from target identity.
+- Fundamental domain mismatch: position is pure aerospace engineering, not HCI or XR.
+- No human-centred research component; role is infrastructure/tooling development.
+- Supervisor and group (Aerospace Engineering) operate in different research culture than target HCI/design communities.
+- Would likely narrow technical focus away from human-centred systems and immersive design.
+- MSc completion timeline uncertainty could affect eligibility.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-radio-science-orbit-determination-researcher.md` and link [[opp_tudelft-postdoc-radio-science-orbit-determination-researcher]]._

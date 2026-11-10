@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-10-26T12:30:34.711210Z",
-  "updated_at": "2026-11-09T15:48:22.521455Z",
+  "updated_at": "2026-11-10T14:48:19.076810Z",
   "change_history": [
     {
       "ts": "2026-10-26T12:30:34.711405Z",
@@ -167,6 +167,45 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-10T14:38:29.940976Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-10T14:47:32.862956Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-10T14:48:19.076810Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -180,9 +219,9 @@
     "evidence_ids": [
       "tudelft/1375784757"
     ],
-    "retrieved_at": "2026-10-26T12:30:34.710962Z",
-    "raw_snapshot_hash": "70c0f7a5804bcf354c1909e64e9578b9358a2d02a738c1acea61460806d3780c",
-    "extracted_content_hash": "028bf653d74ba528730fafbcc048681b67cbdcd4dfef1fadc0419e9750855a7b",
+    "retrieved_at": "2026-11-10T14:38:29.940278Z",
+    "raw_snapshot_hash": "8caf16cf552d92aa20f8199c7bef7ac68c9eab0469a76f0226df4214e102c271",
+    "extracted_content_hash": "cdd61908ba31cb292ca3ebefda57822e0f7c30399a92bc3c4acb3dbf0eb18179",
     "deadline": "2026-11-15",
     "deadline_note": null,
     "start_date": null,
@@ -201,26 +240,26 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Contribute to developing an open science orbital dynamics platform based on the TU Delft Astrodynamics Toolbox (Tudat), focussing on applications to radio science for planetary missions.\nJob description\nWe are seeking a researcher/developer to combine core development of the TU Delft Astrodynamics Toolbox (Tudat) with radio-science application development for the development of an open science spaceflight dynamics infrastructure. The goal is to enable high-fidelity orbit propagation and estimation from real tracking data (Doppler, range, VLBI, etc.) for planetary missions. Additional work packages in the same project will focus on space situational awareness and solar system dynamics.\nResponsibilities\nDevelop and maintain Tudat’s C++ core and Python interfaces, ensuring performance, robustness, and long-term maintainability.\nImplement and validate extensions and improvements to radio-science estimation pipelines, including observation models, dynamical models, and mission-specific configuration.\nExtend relevant background models in Tudat (gravity variations, radiation pressure, atmosphere, spacecraft dynamics) and interfaces for mission data ingestion.\nLead the application of the framework to selected missions and representative datasets, including defining validation cases, producing reference results, and coordinating scientific priorities with project partners.\nContribute to scientific publications describing the platform and demonstrating scientific results enabled by the radio-science workflows and open-source toolchain.\nBuild end-to-end workflows supporting FAIR and open science, including version-controlled analysis setups and consistent outputs.\nWrite documentation, tutorials, and developer guides; support users via issue tracking and community channels.\nCollaborate closely with platform developers and scientists across TU Delft and partner institutes.\nJob requirements\nA Ph.D. in Aerospace Engineering, Mechanical Engineering, Physics, Astronomy or similar\nStrong software engineering skills in C++ and Python, as well as git, CI, testing, code review, etc.\nStrong background and research experience in astrodynamics/orbit determination and numerical methods.\nExperience in the usage and development of Tudat is a strong plus. Experience in usage and development of Tudat or a similar tool is required.\nExperience with radio tracking data analysis or planetary mission spacecraft dynamics is a strong plus.\nAbility to work in a multidisciplinary, open-source environment.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\n.\nConditions of employment\nDuration of contract is 30 months. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dominic Dirkx, via\nd.dirkx@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n15 November 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Dominic Dirkx.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nApplying for an exemption for specific research and educational areas is an obligatory part of the selection procedure for this vacancy. This exemption must be obtained from the Ministry of Education, Culture and Science (OCW) before an employment contract is agreed upon. Click\nhere\nfor more information.\nPlease do not contact us for unsolicited services."
+    "description_text": "Contribute to developing an open science orbital dynamics platform based on the TU Delft Astrodynamics Toolbox (Tudat), focussing on applications to radio science for planetary missions.\nJob description\nWe are seeking a researcher/developer to combine core development of the TU Delft Astrodynamics Toolbox (Tudat) with radio-science application development for the development of an open science spaceflight dynamics infrastructure. The goal is to enable high-fidelity orbit propagation and estimation from real tracking data (Doppler, range, VLBI, etc.) for planetary missions. Additional work packages in the same project will focus on space situational awareness and solar system dynamics.\nResponsibilities\nDevelop and maintain Tudat’s C++ core and Python interfaces, ensuring performance, robustness, and long-term maintainability.\nImplement and validate extensions and improvements to radio-science estimation pipelines, including observation models, dynamical models, and mission-specific configuration.\nExtend relevant background models in Tudat (gravity variations, radiation pressure, atmosphere, spacecraft dynamics) and interfaces for mission data ingestion.\nLead the application of the framework to selected missions and representative datasets, including defining validation cases, producing reference results, and coordinating scientific priorities with project partners.\nContribute to scientific publications describing the platform and demonstrating scientific results enabled by the radio-science workflows and open-source toolchain.\nBuild end-to-end workflows supporting FAIR and open science, including version-controlled analysis setups and consistent outputs.\nWrite documentation, tutorials, and developer guides; support users via issue tracking and community channels.\nCollaborate closely with platform developers and scientists across TU Delft and partner institutes.\nJob requirements\nA Ph.D. in Aerospace Engineering, Mechanical Engineering, Physics, Astronomy or similar\nStrong software engineering skills in C++ and Python, as well as git, CI, testing, code review, etc.\nStrong background and research experience in astrodynamics/orbit determination and numerical methods.\nExperience in the usage and development of Tudat is a strong plus. Experience in usage and development of Tudat or a similar tool is required.\nExperience with radio tracking data analysis or planetary mission spacecraft dynamics is a strong plus.\nAbility to work in a multidisciplinary, open-source environment.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDuration of contract is 30 months. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dominic Dirkx, via\nd.dirkx@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n15 November 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Dominic Dirkx.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nApplying for an exemption for specific research and educational areas is an obligatory part of the selection procedure for this vacancy. This exemption must be obtained from the Ministry of Education, Culture and Science (OCW) before an employment contract is agreed upon. Click\nhere\nfor more information.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "Postdoc position in orbital dynamics and radio science for planetary missions, combining C++ and Python development of the Tudat astrodynamics toolkit with spacecraft state estimation, tracking data analysis, and mission simulation. Role emphasises software engineering, numerical methods and open-science infrastructure.",
+    "summary": "Postdoctoral position in astrodynamics software development, focused on orbital dynamics simulation, radio-science estimation pipelines, and open-source toolchain maintenance for planetary missions. Core work combines C++/Python software engineering with numerical methods, orbital mechanics, and space mission data analysis.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 2,
-      "rationale": "Research domain is spacecraft orbital mechanics, astrodynamics, and planetary mission engineering. No connection to immersive systems, human-centred XR, learning, collaboration, spatial cognition for human understanding, or any HCI dimension. Thematic distance is absolute."
+      "score": 5,
+      "rationale": "No thematic alignment with human-centred XR, immersive learning, spatial cognition, or collaborative systems. Position is pure astrodynamics engineering with no user-facing, human-factors, or interaction design component."
     },
     "methodological_fit": {
-      "score": 10,
-      "rationale": "Position demands strong C++ and Python software engineering, numerical methods, orbit determination algorithms, and spacecraft dynamics—none of which appear in the candidate's profile. Candidate has advanced C# (Unity-specific) and intermediate Python (beginner level, no project evidence). The core methodological toolkit (astrodynamics, numerical propagation, state estimation) is entirely absent. No user studies, experimental design for human outcomes, or immersive system evaluation methods are relevant."
+      "score": 15,
+      "rationale": "Some methodological overlap in software engineering (C++, Python, testing, documentation) but position demands deep numerical methods, orbital mechanics, and systems-level infrastructure expertise. User studies, HCI evaluation, and experimental design for human outcomes are absent. The technical stack and problem domain are orthogonal to the researcher's profile."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "Advanced C++ and general scientific software engineering skills could theoretically transfer to any computational domain. However, the candidate explicitly excludes pure technical domains (graphics rendering, embedded systems). Orbital mechanics is a specialised mathematical/engineering discipline with no forward path to human-centred immersive systems research."
+      "score": 10,
+      "rationale": "Would develop low-level systems programming and numerical simulation skills, but these are not aligned with stated target identity. No pathway to building human-centred immersive systems or spatial-learning research capabilities."
     },
     "strategic_value": {
-      "score": 20,
-      "rationale": "TU Delft is a priority institution. However, the Aerospace Engineering faculty and Tudat project community (spacecraft dynamics, mission analysis) are disconnected from HCI and immersive systems research at the institution. Postdoc completion would not build relationships in the target research community or advance standing in human-centred XR circles."
+      "score": 40,
+      "rationale": "TU Delft is a priority-1 institution in target geography (Netherlands). However, this position is in Faculty of Aerospace Engineering, not Industrial Design Engineering or human-centred research units. No supervisor or group alignment with human-centred XR communities. Funding is Horizon Europe (stable), but mission focus (planetary astrodynamics) diverges from research identity."
     },
     "required_skills": [
       "cpp",
@@ -230,25 +269,26 @@
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "python"
+      "python",
+      "csharp"
     ],
     "missing_skills": [
-      "cpp"
+      "cpp",
+      "mixed-effects-modelling",
+      "statistics"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires PhD in Aerospace Engineering, Mechanical Engineering, Physics, Astronomy or similar. Candidate holds MSc in Creative Multimedia—does not meet formal PhD-field requirement.",
-      "Requires strong C++ software engineering. Candidate has only advanced C# (Unity-focused); no evidence of C++ experience.",
-      "Requires strong background and research experience in astrodynamics/orbit determination and numerical methods. Candidate has no research or project experience in these domains.",
-      "Requires experience with Tudat or similar tool. No evidence.",
-      "Requires experience with radio tracking data analysis or planetary mission spacecraft dynamics. No evidence."
+      "Requires PhD; researcher has MSc by Research (in progress). Position states 'must be met no later than the time the employment decision is made' — timeline for thesis completion must align with application/hiring.",
+      "Strong background in astrodynamics and orbit determination required; researcher has no documented experience in this domain.",
+      "Experience with Tudat or similar orbital dynamics tool is required; no evidence of this."
     ],
     "risks": [
-      "Candidate does not hold a PhD; position is postdoc-level and requires completed doctorate.",
-      "Complete absence of required technical background (astrodynamics, C++, orbit determination).",
-      "Zero thematic alignment with research culture and community.",
-      "If a PhD were somehow waived (highly unlikely), the role would consume 30 months in a domain explicitly excluded by target_identity (embedded-systems adjacent, pure technical engineering).",
-      "No pathway to HCI or immersive systems research. Postdoc would move further from target identity."
+      "Fundamental domain mismatch: position is pure aerospace engineering, not HCI or XR.",
+      "No human-centred research component; role is infrastructure/tooling development.",
+      "Supervisor and group (Aerospace Engineering) operate in different research culture than target HCI/design communities.",
+      "Would likely narrow technical focus away from human-centred systems and immersive design.",
+      "MSc completion timeline uncertainty could affect eligibility."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -256,23 +296,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.98,
+    "confidence": 0.95,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-10-26T12:43:51.244637Z",
-    "analysis_input_hash": "58002d3c08600797c86a75eb8ee92cad0a5fe83a5394d422deb122a8d9028230"
+    "analyzed_at": "2026-11-10T14:47:32.862299Z",
+    "analysis_input_hash": "7ead3a561d4483aa62a136f572436e77feafea7ba664b74bc9df8c1e49b4df19"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 8,
+    "fit_overall": 14,
     "urgency": "urgent",
-    "days_to_deadline": 6,
+    "days_to_deadline": 5,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

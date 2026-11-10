@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-09T15:33:47.417484Z",
-  "updated_at": "2026-11-09T15:48:22.487227Z",
+  "updated_at": "2026-11-10T14:48:19.039570Z",
   "change_history": [
     {
       "ts": "2026-11-09T15:33:47.417660Z",
@@ -21,6 +21,45 @@
         "derived.eligibility_reasons",
         "derived.needs_review",
         "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-10T14:46:12.297599Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-10T14:48:19.039570Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
       ],
       "note": "derived layer recomputed"
     }
@@ -59,15 +98,75 @@
     "status": "open",
     "description_text": "Study how passengers experience automated buses and help evaluate a new service connecting Delft Campus station and the TU Delft campus.\nJob description\nThis postdoc position is part of an international project aimed at automated bus transport. Automated buses have proven they can drive safely, but most still require onboard staff because supervision, safety assurance, and regulatory requirements must be met before driverless operation is possible. The project aims to remove this barrier by combining remote supervision, passenger safety monitoring, and fleet management into a single operational framework. With demonstrations in Switzerland, the Netherlands, and the United Kingdom, the project aims to create deployment-ready solutions that can be scaled after 2030. Automated bus transport is essential to maintain and expand public transport services, enabling operators to deliver more public transport while supporting accessible and zero-emission mobility. For the demonstration in the Netherlands, the project plans to study an automated bus service connecting the train station Delft Campus to the TU Delft premises.\nAs postdoctoral researcher you will focus on the acceptance of automated buses. To apply vehicle automation in public transport at a larger scale, it is essential to carefully assess the acceptance by end users, understand the contribution of vehicle automation to the overall public transport system (for instance as first/last kilometer) and evaluate the lessons learned on the demonstration sites. Specific tasks are: (1) definition of the impact assessment and evaluation plan, (2) conducting research into user acceptance and positioning in the public transport system, (3) consolidate lessons learned from the demonstration sites and (4) produce a final dissemination report. Specific emphasis will be on the demonstration site in the Netherlands, working with DAM Shuttles and supported by the concession provider MRDH, the city of Delft and public transport operators RET and HTM. As postdoctoral researcher you will also write scientific papers and present results at conferences.\nAt TU Delft you will be part of the Sustainable Urban Multimodal mobility (SUM) Lab in the Department of Transport & Planning.\nJob requirements\nYou have obtained your PhD degree in transport or a related field.\nYou have experience with user acceptance of automated transport and public transport systems.\nYou have the capability and experience to work independently as well as with public and private parties.\nYou have excellent English language and communication skills.\nPreferably you possess Dutch language skills and familiarity with the Dutch transport system and context.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDuration of contract is 2 years, expected starting date 1st January 2027. Temporary external finance.\nA job of 21-24 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Prof Dr Bart van Arem, via\nb.vanarem@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 November 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Prof Dr Bart van Arem.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website.\nApplications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to.\nThis also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
-  "ai": null,
+  "ai": {
+    "summary": "Post-doctoral researcher position focused on user acceptance and passenger experience of automated buses. Work includes impact assessment design, user research, public transport system positioning, and lessons-learned consolidation across demonstration sites in Netherlands, Switzerland, and UK.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 35,
+      "rationale": "Position centers on user acceptance, public transport systems, and automated technology adoption—different domain from researcher's XR and spatial cognition focus. However, both share human-centered evaluation and end-user perspective. Position does not involve spatial learning, immersive systems, or collaborative design. Thematic overlap is limited to 'human-centered evaluation' methodology, not the research question or application domain."
+    },
+    "methodological_fit": {
+      "score": 55,
+      "rationale": "Researcher has strong user studies, experimental design, and quantitative research skills—all directly applicable to automated bus user acceptance research. Both involve defining evaluation plans, running user research, and measuring behavioral/attitudinal outcomes. However, position lacks multiplayer collaborative design and spatial learning components that are core to researcher's expertise. Researcher would be applying established HCI methodologies to a new domain (transport/automation) rather than advancing spatial cognition or immersive design."
+    },
+    "growth_value": {
+      "score": 40,
+      "rationale": "Position would develop researcher's capabilities in transport HCI, automated systems user acceptance, and multi-stakeholder evaluation—methodologically adjacent to current expertise. However, growth is lateral rather than advancing target identity. Researcher would gain experience in public transport and automation domains but would not strengthen capabilities in immersive systems, spatial learning, or collaborative XR design. Would likely delay PhD pursuit in core domain."
+    },
+    "strategic_value": {
+      "score": 70,
+      "rationale": "TU Delft is priority-1 institution with strong HCI credentials in transport context. 2-year funded position with international demonstration sites (Netherlands, Switzerland, UK) provides networking and European exposure. However, position does not advance target identity of human-centered XR researcher—credentials would be in transport HCI, not immersive systems."
+    },
+    "required_skills": [
+      "user-studies",
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "user-studies",
+      "quantitative-research",
+      "experimental-design",
+      "academic-writing"
+    ],
+    "missing_skills": [],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position is for 'post-doctoral researcher' (PhD required); researcher holds MSc by Research in progress—ineligible as currently described",
+      "Position prefers Dutch language skills and familiarity with Dutch transport context; researcher profile does not indicate either",
+      "Position emphasizes 'experience with user acceptance of automated transport and public transport systems'—researcher has no transport domain background, only general HCI methodology"
+    ],
+    "risks": [
+      "Researcher is ineligible: position explicitly requires PhD degree; researcher is MSc-stage",
+      "Transport domain is outside researcher's core expertise (spatial cognition, immersive learning, collaborative XR); significant context-building required",
+      "2-year post-doc position would delay PhD by 2 years, pushing doctoral entry to 2028+ and extending total doctorate timeline",
+      "User acceptance research for automated buses, while methodologically adjacent, does not build researcher's capability in immersive systems design or spatial learning—core to target identity",
+      "If completed MSc triggers PhD eligibility pathway, researcher would likely be more valuable pursuing PhD in immersive/spatial learning than post-doc in transport HCI"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.85,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-10T14:46:12.297192Z",
+    "analysis_input_hash": "8c0fb73b34d07a5fd4a07ade02fcb8709b8aa497c2e85a17ffc408ddf4ecf7f3"
+  },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": null,
+    "fit_overall": 48,
     "urgency": "high",
-    "days_to_deadline": 21,
+    "days_to_deadline": 20,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

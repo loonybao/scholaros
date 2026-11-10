@@ -1,0 +1,173 @@
+{
+  "id": "opp_tudelft-phd-position-in-planning-climate-resilient-mobility",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-10T14:33:56.531292Z",
+  "updated_at": "2026-11-10T14:48:18.865446Z",
+  "change_history": [
+    {
+      "ts": "2026-11-10T14:33:56.531467Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-10T14:46:12.294194Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-10T14:48:18.865446Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position in Planning Climate Resilient Mobility Networks",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-civil-engineering-and-geosciences",
+    "source": "tudelft",
+    "source_native_id": "1377064357",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Planning-Climate-Resilient-Mobility-Networks-2628-CD/1377064357/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Planning-Climate-Resilient-Mobility-Networks-2628-CD/1377064357/",
+    "evidence_ids": [
+      "tudelft/1377064357"
+    ],
+    "retrieved_at": "2026-11-10T14:33:56.531089Z",
+    "raw_snapshot_hash": "383a492e1568d473d9f17a3c9ad2f0b72a9204713e375610146dd7a59017e437",
+    "extracted_content_hash": "de3ccf21d3efa4605f2610fa4cf6de71a2457bc297a9263570d97306d561b762",
+    "deadline": "2026-12-08",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Planning climate resilient mobility networks.\nJob description\nWhat is CLIMACT?\nCLIMACT (Climate Adaptation through Collaborative Transferability) is a four-year Horizon Europe project coordinated by Dr. Shadi Sharif Azadeh, involving 17 partners across eight European countries. The project develops a transferable framework to assess the effectiveness, limitations, and long-term resilience of climate adaptation strategies across mobility, water-health systems, and agriculture. In the mobility domain, case studies in Lisbon and Greater Manchester examine how flooding and heatwaves affect public transport networks, and how infrastructure, operational decisions, and governance can strengthen resilience. CLIMACT aims to identify adaptation pathways that remain effective under future climate conditions and can be transferred across regions and sectors.\nPhD Position\nThe aim is to develop advanced modelling and optimization methods to improve the resilience of public transport and urban mobility networks under increasing climate risks, particularly flooding and extreme heat. The research will integrate climate projections, transport network simulation, and behavioral modelling to assess how infrastructure vulnerabilities, operational disruptions, and travelers’ responses affect mobility system performance. A central objective is to develop optimization-based decision support methods that identify when existing adaptation measures reach their limits and determine robust adaptation strategies under evolving climate conditions.\nThe PhD researcher will develop and test these methods through case studies, examining the effectiveness and transferability of adaptation strategies across different infrastructure, operational, and governance contexts. The ideal candidate has a strong background in operations research, mathematical optimization, and stochastic modelling. Experience with simulation, machine learning, or transport demand modelling is a plus.\nThe Department of Transport & Planning (T&P) of Delft University of Technology is coordinating this project. T&P is composed of 12 research labs addressing various transport challenges. The researcher will be associated with the SUM Lab at CEG and ORBIT Lab at TPM (SUM Lab (tudelft.nl)).\nJob requirements\nA Master's degree in a relevant field, i.e., Applied Mathematics, Operations Research, Computer Science and related topics.\nFamiliarities with climate adaptation, transport networks, and behavioral science are highly valued.\nStrong programming skills.\nAbility to work both in a project team, but also independently and take leadership and responsibility for research tasks.\nWillingness and ability to communicate with other scientific partners, companies, and cities.\nWillingness to contribute to a stimulating research environment and interactions with project partners and stakeholders.\nPassionate about scientific excellence and impactful research.\nExcellent communication skills in English, both written and oral.\nIf your native language is not English and you do not hold a degree from an institution in which English is the language of instruction, you must submit proof of English proficiency from either TOEFL (minimum total score of 100) or IELTS (minimum total score of 7.0). Proof of English language proficiency certificates older than two years are not accepted.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Civil Engineering and Geosciences\nThe Faculty of Civil Engineering & Geosciences (CEG) is committed to outstanding international research and education in the field of civil engineering, applied earth sciences, traffic and transport, water technology, and delta technology. Our research feeds into our educational programmes and covers societal challenges such as climate change, energy transition, resource availability, urbanisation and clean water. Our research projects are conducted in close cooperation with a wide range of research institutions. CEG is convinced of the importance of open science and supports its scientists in integrating open science in their research practice. The Faculty of CEG comprises 28 research groups in the following seven departments: Materials Mechanics Management & Design, Engineering Structures, Geoscience and Engineering, Geoscience and Remote Sensing, Transport & Planning, Hydraulic Engineering and Water Management.\nClick\nhere\nto go to the website of the Faculty of Civil Engineering & Geosciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Shadi Sharif Azadeh, email:\ns.sharifazadeh@tudelft.nl\n, stating the vacancy title and code in the email title.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n8 December 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Shadi Sharif Azadeh.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website.\nApplications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to.\nThis also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Doctoral researcher position in operations research and mathematical optimization for climate-resilient public transport networks. Focus is on modeling infrastructure vulnerability, operational disruption, and traveler behavior under flooding and extreme heat; developing optimization-based decision support for adaptation strategies.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Position is centered on transport systems, climate adaptation, infrastructure resilience, and behavioral modeling at network scale. Researcher's domain is human-centered immersive systems for spatial learning and collaborative interaction. No thematic alignment. Position makes no mention of XR, learning, spatial cognition, or immersive design."
+    },
+    "methodological_fit": {
+      "score": 20,
+      "rationale": "Position requires operations research, mathematical optimization, stochastic modeling, and strong programming. Researcher has intermediate user studies and quantitative research skills, but lacks optimization background, OR fundamentals, or simulation expertise. Both involve data-driven methods, but applied to entirely different problems. Researcher's strength in multiplayer collaboration and gamification design is irrelevant."
+    },
+    "growth_value": {
+      "score": 15,
+      "rationale": "Could develop programming and quantitative analysis skills, but starting point is low. Position assumes strong mathematical foundations (optimization, stochastic modeling) researcher does not demonstrate. Growth would not advance target identity of human-centered XR researcher; would instead build capabilities in transport planning and climate adaptation."
+    },
+    "strategic_value": {
+      "score": 70,
+      "rationale": "TU Delft is a priority-1 target institution with strong research reputation and international standing. CLIMACT is a funded Horizon Europe project with 17 partners and well-defined timeline, suggesting stable funding and strong support structure. However, this strategic value is heavily discounted by poor fit—credential in wrong field."
+    },
+    "required_skills": [
+      "python",
+      "quantitative-research",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "python",
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position explicitly requires 'Master's degree in relevant field: Applied Mathematics, Operations Research, Computer Science'—researcher's MSc is in Creative Multimedia, not in required domains",
+      "Posting states 'familiarity with climate adaptation, transport networks, and behavioral science are highly valued' but does not require them; researcher has none",
+      "English proficiency requirements (TOEFL 100+ or IELTS 7.0+) must be demonstrated if not from English-speaking institution; profile does not specify"
+    ],
+    "risks": [
+      "Researcher's academic background (Creative Multimedia) does not align with position's mathematical/OR/CS expectations; admissions committee may screen out early",
+      "Position core (transport optimization, climate adaptation, infrastructure resilience) has no overlap with researcher's expertise in immersive design and spatial cognition",
+      "Researcher would be expected to move quickly from beginner Python to implementing optimization models for transport networks; steep and risky learning curve",
+      "Collaborating with transport planners, climate scientists, and OR specialists would require significant domain context acquisition; likely to slow research progress"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-10T14:46:12.293804Z",
+    "analysis_input_hash": "2c12dafdb9e9d6847d85250c32e2fe81746ffdd8a2ccecc0e566a3b604098ca0"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 22,
+    "urgency": "medium",
+    "days_to_deadline": 28,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

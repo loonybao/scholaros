@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-30
 status: open
 eligibility_gate: uncertain
-fit_overall: not-analyzed
+fit_overall: 48
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 21)
+Gate: **uncertain** (days to deadline: 20)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -88,7 +88,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_Not analyzed yet._
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.85_
+
+Post-doctoral researcher position focused on user acceptance and passenger experience of automated buses. Work includes impact assessment design, user research, public transport system positioning, and lessons-learned consolidation across demonstration sites in Netherlands, Switzerland, and UK.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 35 |
+| Methodological fit | 55 |
+| Growth value | 40 |
+| Strategic value | 70 |
+| **Overall** | **48** |
+
+**Fit type:** adjacent-methodological-fit
+
+**Missing skills:** none noted
+
+**Risks:**
+- Researcher is ineligible: position explicitly requires PhD degree; researcher is MSc-stage
+- Transport domain is outside researcher's core expertise (spatial cognition, immersive learning, collaborative XR); significant context-building required
+- 2-year post-doc position would delay PhD by 2 years, pushing doctoral entry to 2028+ and extending total doctorate timeline
+- User acceptance research for automated buses, while methodologically adjacent, does not build researcher's capability in immersive systems design or spatial learning—core to target identity
+- If completed MSc triggers PhD eligibility pathway, researcher would likely be more valuable pursuing PhD in immersive/spatial learning than post-doc in transport HCI
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-user-acceptance-of-automated-buses.md` and link [[opp_tudelft-postdoc-in-user-acceptance-of-automated-buses]]._

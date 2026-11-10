@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-12-28
 status: open
 eligibility_gate: uncertain
-fit_overall: 11
+fit_overall: 21
 urgency: low
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 49)
+Gate: **uncertain** (days to deadline: 48)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -82,8 +82,10 @@ If you are selected for this position, you will apply for the right to pursue do
 The expected starting salary for a Doctoral Researcher is approximately EUR 3,000 per month (gross), and it increases as the Doctoral Researcher progresses in research and studies. Work-life balance and well-being in all aspects of life are important to us at Aalto.
 Curious to make a difference?
 Please submit your application through our recruitment system
-by 28 December 2026.
+by 28 December 2026 at
+23:59 Finnish time (UTC +2).
 If you are already working at Aalto University, please apply through our internal Workday system. If you are a student or visitor at Aalto University, please apply using your personal email address.
+We reserve the right to fill the position before the application period closes should a suitable candidate be found, to appoint a candidate outside of this recruitment process, or to leave the position unfilled.
 All applications must include the following materials:
 Cover letter / motivation letter with your contact information and preferred starting date (maximum 1 page).
 CV including details of all academic outputs.
@@ -100,9 +102,8 @@ what could cause the approach to fail.
 We do not expect a complete solution; we want to see how you think. You are welcome to draw on any relevant background, including hydrodynamics, structural dynamics, signal processing or machine learning.
 All materials should be submitted in English as a single PDF file, compiled in the order specified above. Applications submitted by email will not be accepted. Shortlisted candidates will be invited to interviews and may be asked to complete a short technical task. Aalto University reserves the right to leave the position open, extend the application period, and consider candidates who have not applied during the application period.
 For more information about the role, please contact:
-Associate Professor Arttu Polojärvi, arttu.polojarvi(at)aalto.fi
 Dr. Mohammad Mahdi Abaei, Academy Research Fellow, mohammad.abaei(at)aalto.fi
-For questions related to the application process, please contact HR Advisor Anna-Maija Harju anna-maija.harju(at)Aalto.fi or hr-eng(at)aalto.fi
+For questions related to the application process, please contact HR Advisor Anna-Maija Harju, anna-maija.harju(at)Aalto.fi or hr-eng(at)aalto.fi.
 About Aalto University
 Aalto University builds on the legacy of three leading Finnish universities: Helsinki University of Technology, Helsinki School of Economics and the University of Art and Design Helsinki. Since 2010, we have brought science, art, technology and business together in new ways.
 Today, the Aalto community consists of more than 16,000 students and 5,200 employees, including 446 professors. Half of our teaching and research staff have an international background. Our campus in Espoo is a vibrant cluster of research and innovation with striking architecture, peaceful nature, open spaces for collaboration and a wide range of services, all with excellent public transport connections.
@@ -123,25 +124,25 @@ here.
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Aalto doctoral position developing physics-enhanced machine-learning models for floating offshore wind digital twins. Focus is on embedding hydrodynamic knowledge into models to estimate wave-induced motions, detect structural degradation, and quantify uncertainty using Bayesian methods and signal processing.
+Doctoral researcher position in physics-informed machine learning for floating offshore wind digital twins, combining hydrodynamic knowledge with data-driven methods to predict turbine behavior and detect mooring degradation. Core focus is ML algorithm development, system identification, and uncertainty quantification applied to offshore engineering.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
 | Methodological fit | 15 |
-| Growth value | 8 |
-| Strategic value | 20 |
-| **Overall** | **11** |
+| Growth value | 20 |
+| Strategic value | 75 |
+| **Overall** | **21** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** statistics, mixed-effects-modelling
+**Missing skills:** python, statistics, mixed-effects-modelling
 
 **Risks:**
-- Core discipline mismatch: this is pure ML/physics engineering, explicitly listed as excluded direction ('pure ML algorithm development')
-- Severe background gap: researcher lacks the mathematical and domain foundations (hydrodynamics, structural dynamics, signal processing) required for success
-- Career trajectory risk: completing this PhD would not support the researcher's target identity or position them for doctoral/postdoc roles in human-centred XR/HCI
-- Completion risk: skill gap is substantial and would likely require foundational retraining
+- Core position requirements (hydrodynamics, signal processing, physics-informed ML) are absent from researcher's profile
+- Researcher's MSc thesis focuses on spatial cognition and collaborative multiplayer interaction—orthogonal to offshore wind and digital twin modeling
+- Steep learning curve would delay research productivity and likely result in mismatch between supervisor expectations and researcher capability
+- Taking this position would be a significant detour from target identity (human-centered XR researcher), delaying progress toward goal
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-in-physics-enhanced-machine-learni.md` and link [[opp_aalto-doctoral-researcher-in-physics-enhanced-machine-learni]]._

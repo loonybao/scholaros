@@ -2,7 +2,7 @@
 source: aalto
 native_id: doctoral-researcher-in-physics-enhanced-machine-learning-for-floating-offshore-wind-digital-twins
 url: https://www.aalto.fi/en/open-positions/doctoral-researcher-in-physics-enhanced-machine-learning-for-floating-offshore-wind-digital-twins
-retrieved_at: 2026-11-06T13:54:55.100833+00:00
+retrieved_at: 2026-11-10T14:31:18.995860+00:00
 ---
 
 At Aalto University, curiosity moves across disciplines, roles and communities. We bring people together to ask new questions, challenge familiar thinking and turn ideas into impact.
@@ -56,8 +56,10 @@ If you are selected for this position, you will apply for the right to pursue do
 The expected starting salary for a Doctoral Researcher is approximately EUR 3,000 per month (gross), and it increases as the Doctoral Researcher progresses in research and studies. Work-life balance and well-being in all aspects of life are important to us at Aalto.
 Curious to make a difference?
 Please submit your application through our recruitment system
-by 28 December 2026.
+by 28 December 2026 at
+23:59 Finnish time (UTC +2).
 If you are already working at Aalto University, please apply through our internal Workday system. If you are a student or visitor at Aalto University, please apply using your personal email address.
+We reserve the right to fill the position before the application period closes should a suitable candidate be found, to appoint a candidate outside of this recruitment process, or to leave the position unfilled.
 All applications must include the following materials:
 Cover letter / motivation letter with your contact information and preferred starting date (maximum 1 page).
 CV including details of all academic outputs.
@@ -74,9 +76,8 @@ what could cause the approach to fail.
 We do not expect a complete solution; we want to see how you think. You are welcome to draw on any relevant background, including hydrodynamics, structural dynamics, signal processing or machine learning.
 All materials should be submitted in English as a single PDF file, compiled in the order specified above. Applications submitted by email will not be accepted. Shortlisted candidates will be invited to interviews and may be asked to complete a short technical task. Aalto University reserves the right to leave the position open, extend the application period, and consider candidates who have not applied during the application period.
 For more information about the role, please contact:
-Associate Professor Arttu Polojärvi, arttu.polojarvi(at)aalto.fi
 Dr. Mohammad Mahdi Abaei, Academy Research Fellow, mohammad.abaei(at)aalto.fi
-For questions related to the application process, please contact HR Advisor Anna-Maija Harju anna-maija.harju(at)Aalto.fi or hr-eng(at)aalto.fi
+For questions related to the application process, please contact HR Advisor Anna-Maija Harju, anna-maija.harju(at)Aalto.fi or hr-eng(at)aalto.fi.
 About Aalto University
 Aalto University builds on the legacy of three leading Finnish universities: Helsinki University of Technology, Helsinki School of Economics and the University of Art and Design Helsinki. Since 2010, we have brought science, art, technology and business together in new ways.
 Today, the Aalto community consists of more than 16,000 students and 5,200 employees, including 446 professors. Half of our teaching and research staff have an international background. Our campus in Espoo is a vibrant cluster of research and innovation with striking architecture, peaceful nature, open spaces for collaboration and a wide range of services, all with excellent public transport connections.

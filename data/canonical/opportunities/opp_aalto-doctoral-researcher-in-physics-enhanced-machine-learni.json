@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-06T13:54:55.316869Z",
-  "updated_at": "2026-11-09T15:48:21.967777Z",
+  "updated_at": "2026-11-10T14:48:18.508339Z",
   "change_history": [
     {
       "ts": "2026-11-06T13:54:55.317046Z",
@@ -78,6 +78,45 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-10T14:31:19.191954Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-10T14:46:12.292912Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-10T14:48:18.508339Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -91,9 +130,9 @@
     "evidence_ids": [
       "aalto/doctoral-researcher-in-physics-enhanced-machine-learning-for-floating-offshore-wind-digital-twins"
     ],
-    "retrieved_at": "2026-11-06T13:54:55.316620Z",
-    "raw_snapshot_hash": "f285ebff67760a27fa2293b5268bb9ff51be7a7129763936b412016dde270204",
-    "extracted_content_hash": "e41b919ef684829f3ef6057ed3caf7527f70d2f6008703f6211e70ea21aa5238",
+    "retrieved_at": "2026-11-10T14:31:19.191338Z",
+    "raw_snapshot_hash": "41fdf37f000f38a4fca06f9c24fa8b3d421a0bb8bfae90078348fcd6ea41dcac",
+    "extracted_content_hash": "caa07047cc046fbd34cb58082062537c270afeb24a8c3a4e1e72253cf6b54a90",
     "deadline": "2026-12-28",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -112,52 +151,55 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "At Aalto University, curiosity moves across disciplines, roles and communities. We bring people together to ask new questions, challenge familiar thinking and turn ideas into impact.\nOur work is rooted in responsibility, courage and collaboration, and in a shared commitment to shaping a more sustainable future.\nThe School of Engineering is inviting applications for a Doctoral Researcher in Physics-Enhanced Machine Learning for Floating Offshore Wind Digital Twins\nFloating offshore wind turbines will be central to the clean-energy transition, but their behaviour at sea is difficult to predict and monitor. They move in six degrees of freedom under irregular waves and turbulent wind. The mooring lines that keep them in position are located deep underwater, where permanent sensing is costly and difficult to maintain. Operators therefore need digital twins that combine hydrodynamic knowledge with sensor data to estimate quantities that cannot be measured directly.\nIn this full-time, salaried Doctoral Researcher position, you will help develop the next generation of these digital twins: models that capture the wave-driven dynamics of floating turbines, update as new data arrive, detect early signs of degradation, and quantify the uncertainty of their estimates.\nThe position is funded by the Research Council of Finland. It is based at Aalto University's Otaniemi campus in Espoo, Finland, and starts on 28 January 2027or as agreed.\nResearch environment and duties\nAt the\nDepartment of Energy and Mechanical Engineering,\nour Marine and Arctic Technology research group studies how ships and offshore structures move and are loaded in waves, wind and ice. We combine machine learning and data-driven methods with hydrodynamic theory, numerical simulation and model-scale experiments. In this role, you will help us build digital twins that track the wave-induced motions, mooring loads and structural condition of floating offshore wind turbines in real time using only a small number of sensors.\nYour work will contribute to safer and more cost-effective floating wind farms, where wave loads and mooring tensions can be monitored continuously, degradation can be detected early, and maintenance can be planned before failures occur.\nYour work will include:\nDeveloping physics-enhanced machine-learning models that learn the coupled hydrodynamic and structural dynamics of floating wind turbines from measured data and update in real time. These methods will build on, among other approaches, Koopman operator theory and dynamic mode decomposition (DMD).\nEmbedding hydrodynamic knowledge into these models so that they remain physically consistent across sea states, including wave excitation, radiation-memory effects, slow-drift motions and mooring-line dynamics.\nEstimating wave-induced motions and mooring loads that cannot be measured directly.\nDetecting early mooring-system or structural degradation and distinguishing it from normal changes in waves, wind and turbine operating conditions.\nQuantifying the uncertainty of these estimates using Bayesian filtering and probabilistic machine learning.\nGenerating and analysing data from: hydrodynamic simulations, including potential-flow methods and, where needed, computational fluid dynamics (CFD) and coupled simulation tools such as OpenFAST\nPublishing results in leading international journals and presenting them at conferences.\nYou will work closely with researchers in the Marine and Arctic Technology group and with our international academic collaborators.\nThis is an exciting time to join us. Floating offshore wind is scaling up rapidly, and industry guidance increasingly favours indirect monitoring of hard-to-access components, such as mooring lines, using sensors located elsewhere on the structure.\nOur group has recently shown that digital twins learned directly from measurements can estimate unmeasured responses and loads from only a few sensors, including verification using wave-basin test data. In this role, you will take these methods a step further by embedding hydrodynamics into the learning process and moving from accurate estimation toward reliable, self-updating condition monitoring.\nWhat you bring\nTo thrive in this role, you will need:\nA Master's degree completed by the start of the position. Suitable backgrounds include naval architecture, marine or ocean engineering, offshore engineering, mechanical, civil or aerospace engineering, applied mathematics, physics, computer science, or a related field.\nA strong foundation in linear algebra and in at least one of the following areas: hydrodynamics or fluid mechanics, structural dynamics, dynamical systems, or signal processing.\nGood programming skills in Python or a similar language, together with a genuine interest in machine learning.\nCuriosity, independence, and the ability to communicate clearly and work well in a team.\nWe also value:\nKnowledge of marine or offshore hydrodynamics, such as wave-structure interaction, potential-flow or boundary-element methods, or computational fluid dynamics (e.g. OpenFOAM or REEF3D).\nExperience with OpenFAST, MoorDyn or WAMIT, or similar software.\nExperience with dynamic mode decomposition, Koopman operator methods, system identification or operational modal analysis.\nExperience with Kalman filtering, Bayesian inference, Gaussian processes or uncertainty quantification.\nExperience with deep learning for time series, such as Transformers or graph neural networks, using PyTorch or JAX.\nScientific publications or a strong Master's thesis in a related area.\nLanguage requirements:\nEnglish: Excellent English-language skills are required.\nFinnish: Finnish-language skills are not required.\nWe know that meaningful work is built by people with different backgrounds, experiences and perspectives. If you recognise yourself in the purpose of this role, we encourage you to apply and tell us what you would bring to our community.\nWhat we offer\nAt Aalto, you can expect:\nThe opportunity to work in a growing research team at the intersection of marine hydrodynamics, machine learning and offshore structural dynamics.\nWork with purpose in a community where research, education, creativity and services support meaningful change.\nA multidisciplinary environment where collaboration, curiosity and new thinking are part of everyday work.\nExtensive occupational health-care services.\nStaff-priced sports-centre services on campus and at other UniSport locations.\nA workplace at Aalto University's Otaniemi campus, with excellent public transport connections and a wide range of services.\nIf you are selected for this position, you will apply for the right to pursue doctoral studies at Aalto University School of Engineering. Doctoral studies at Aalto University typically take approximately four years. The position will initially be filled with a two-year fixed-term contract, with the possibility of extension based on progress in research and studies and on performance. We support your professional growth with varied training and development opportunities shaped around your interests and aspirations.\nThe expected starting salary for a Doctoral Researcher is approximately EUR 3,000 per month (gross), and it increases as the Doctoral Researcher progresses in research and studies. Work-life balance and well-being in all aspects of life are important to us at Aalto.\nCurious to make a difference?\nPlease submit your application through our recruitment system\nby 28 December 2026.\nIf you are already working at Aalto University, please apply through our internal Workday system. If you are a student or visitor at Aalto University, please apply using your personal email address.\nAll applications must include the following materials:\nCover letter / motivation letter with your contact information and preferred starting date (maximum 1 page).\nCV including details of all academic outputs.\nContact details of two referees.\nDescription of your Master's thesis project (maximum 1 page).\nCourse transcripts for your Bachelor's and Master's degrees, including grades and a clear explanation of the grading scale.\nResearch statement (maximum 2 pages) answering the question below.\nResearch statement question: How could early degradation of a mooring line, such as a gradual loss of stiffness, be detected in a floating offshore wind turbine using only a few sensors on the tower and platform while wind and wave conditions keep changing?\nIn your statement, outline:\nthe methods you would use\nthe data you would need\nhow you would validate your approach\nwhat could cause the approach to fail.\nWe do not expect a complete solution; we want to see how you think. You are welcome to draw on any relevant background, including hydrodynamics, structural dynamics, signal processing or machine learning.\nAll materials should be submitted in English as a single PDF file, compiled in the order specified above. Applications submitted by email will not be accepted. Shortlisted candidates will be invited to interviews and may be asked to complete a short technical task. Aalto University reserves the right to leave the position open, extend the application period, and consider candidates who have not applied during the application period.\nFor more information about the role, please contact:\nAssociate Professor Arttu Polojärvi, arttu.polojarvi(at)aalto.fi\nDr. Mohammad Mahdi Abaei, Academy Research Fellow, mohammad.abaei(at)aalto.fi\nFor questions related to the application process, please contact HR Advisor Anna-Maija Harju anna-maija.harju(at)Aalto.fi or hr-eng(at)aalto.fi\nAbout Aalto University\nAalto University builds on the legacy of three leading Finnish universities: Helsinki University of Technology, Helsinki School of Economics and the University of Art and Design Helsinki. Since 2010, we have brought science, art, technology and business together in new ways.\nToday, the Aalto community consists of more than 16,000 students and 5,200 employees, including 446 professors. Half of our teaching and research staff have an international background. Our campus in Espoo is a vibrant cluster of research and innovation with striking architecture, peaceful nature, open spaces for collaboration and a wide range of services, all with excellent public transport connections.\nDiversity is part of who we are. We work actively to build a community where people can belong, contribute and grow.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+    "description_text": "At Aalto University, curiosity moves across disciplines, roles and communities. We bring people together to ask new questions, challenge familiar thinking and turn ideas into impact.\nOur work is rooted in responsibility, courage and collaboration, and in a shared commitment to shaping a more sustainable future.\nThe School of Engineering is inviting applications for a Doctoral Researcher in Physics-Enhanced Machine Learning for Floating Offshore Wind Digital Twins\nFloating offshore wind turbines will be central to the clean-energy transition, but their behaviour at sea is difficult to predict and monitor. They move in six degrees of freedom under irregular waves and turbulent wind. The mooring lines that keep them in position are located deep underwater, where permanent sensing is costly and difficult to maintain. Operators therefore need digital twins that combine hydrodynamic knowledge with sensor data to estimate quantities that cannot be measured directly.\nIn this full-time, salaried Doctoral Researcher position, you will help develop the next generation of these digital twins: models that capture the wave-driven dynamics of floating turbines, update as new data arrive, detect early signs of degradation, and quantify the uncertainty of their estimates.\nThe position is funded by the Research Council of Finland. It is based at Aalto University's Otaniemi campus in Espoo, Finland, and starts on 28 January 2027or as agreed.\nResearch environment and duties\nAt the\nDepartment of Energy and Mechanical Engineering,\nour Marine and Arctic Technology research group studies how ships and offshore structures move and are loaded in waves, wind and ice. We combine machine learning and data-driven methods with hydrodynamic theory, numerical simulation and model-scale experiments. In this role, you will help us build digital twins that track the wave-induced motions, mooring loads and structural condition of floating offshore wind turbines in real time using only a small number of sensors.\nYour work will contribute to safer and more cost-effective floating wind farms, where wave loads and mooring tensions can be monitored continuously, degradation can be detected early, and maintenance can be planned before failures occur.\nYour work will include:\nDeveloping physics-enhanced machine-learning models that learn the coupled hydrodynamic and structural dynamics of floating wind turbines from measured data and update in real time. These methods will build on, among other approaches, Koopman operator theory and dynamic mode decomposition (DMD).\nEmbedding hydrodynamic knowledge into these models so that they remain physically consistent across sea states, including wave excitation, radiation-memory effects, slow-drift motions and mooring-line dynamics.\nEstimating wave-induced motions and mooring loads that cannot be measured directly.\nDetecting early mooring-system or structural degradation and distinguishing it from normal changes in waves, wind and turbine operating conditions.\nQuantifying the uncertainty of these estimates using Bayesian filtering and probabilistic machine learning.\nGenerating and analysing data from: hydrodynamic simulations, including potential-flow methods and, where needed, computational fluid dynamics (CFD) and coupled simulation tools such as OpenFAST\nPublishing results in leading international journals and presenting them at conferences.\nYou will work closely with researchers in the Marine and Arctic Technology group and with our international academic collaborators.\nThis is an exciting time to join us. Floating offshore wind is scaling up rapidly, and industry guidance increasingly favours indirect monitoring of hard-to-access components, such as mooring lines, using sensors located elsewhere on the structure.\nOur group has recently shown that digital twins learned directly from measurements can estimate unmeasured responses and loads from only a few sensors, including verification using wave-basin test data. In this role, you will take these methods a step further by embedding hydrodynamics into the learning process and moving from accurate estimation toward reliable, self-updating condition monitoring.\nWhat you bring\nTo thrive in this role, you will need:\nA Master's degree completed by the start of the position. Suitable backgrounds include naval architecture, marine or ocean engineering, offshore engineering, mechanical, civil or aerospace engineering, applied mathematics, physics, computer science, or a related field.\nA strong foundation in linear algebra and in at least one of the following areas: hydrodynamics or fluid mechanics, structural dynamics, dynamical systems, or signal processing.\nGood programming skills in Python or a similar language, together with a genuine interest in machine learning.\nCuriosity, independence, and the ability to communicate clearly and work well in a team.\nWe also value:\nKnowledge of marine or offshore hydrodynamics, such as wave-structure interaction, potential-flow or boundary-element methods, or computational fluid dynamics (e.g. OpenFOAM or REEF3D).\nExperience with OpenFAST, MoorDyn or WAMIT, or similar software.\nExperience with dynamic mode decomposition, Koopman operator methods, system identification or operational modal analysis.\nExperience with Kalman filtering, Bayesian inference, Gaussian processes or uncertainty quantification.\nExperience with deep learning for time series, such as Transformers or graph neural networks, using PyTorch or JAX.\nScientific publications or a strong Master's thesis in a related area.\nLanguage requirements:\nEnglish: Excellent English-language skills are required.\nFinnish: Finnish-language skills are not required.\nWe know that meaningful work is built by people with different backgrounds, experiences and perspectives. If you recognise yourself in the purpose of this role, we encourage you to apply and tell us what you would bring to our community.\nWhat we offer\nAt Aalto, you can expect:\nThe opportunity to work in a growing research team at the intersection of marine hydrodynamics, machine learning and offshore structural dynamics.\nWork with purpose in a community where research, education, creativity and services support meaningful change.\nA multidisciplinary environment where collaboration, curiosity and new thinking are part of everyday work.\nExtensive occupational health-care services.\nStaff-priced sports-centre services on campus and at other UniSport locations.\nA workplace at Aalto University's Otaniemi campus, with excellent public transport connections and a wide range of services.\nIf you are selected for this position, you will apply for the right to pursue doctoral studies at Aalto University School of Engineering. Doctoral studies at Aalto University typically take approximately four years. The position will initially be filled with a two-year fixed-term contract, with the possibility of extension based on progress in research and studies and on performance. We support your professional growth with varied training and development opportunities shaped around your interests and aspirations.\nThe expected starting salary for a Doctoral Researcher is approximately EUR 3,000 per month (gross), and it increases as the Doctoral Researcher progresses in research and studies. Work-life balance and well-being in all aspects of life are important to us at Aalto.\nCurious to make a difference?\nPlease submit your application through our recruitment system\nby 28 December 2026 at\n23:59 Finnish time (UTC +2).\nIf you are already working at Aalto University, please apply through our internal Workday system. If you are a student or visitor at Aalto University, please apply using your personal email address.\nWe reserve the right to fill the position before the application period closes should a suitable candidate be found, to appoint a candidate outside of this recruitment process, or to leave the position unfilled.\nAll applications must include the following materials:\nCover letter / motivation letter with your contact information and preferred starting date (maximum 1 page).\nCV including details of all academic outputs.\nContact details of two referees.\nDescription of your Master's thesis project (maximum 1 page).\nCourse transcripts for your Bachelor's and Master's degrees, including grades and a clear explanation of the grading scale.\nResearch statement (maximum 2 pages) answering the question below.\nResearch statement question: How could early degradation of a mooring line, such as a gradual loss of stiffness, be detected in a floating offshore wind turbine using only a few sensors on the tower and platform while wind and wave conditions keep changing?\nIn your statement, outline:\nthe methods you would use\nthe data you would need\nhow you would validate your approach\nwhat could cause the approach to fail.\nWe do not expect a complete solution; we want to see how you think. You are welcome to draw on any relevant background, including hydrodynamics, structural dynamics, signal processing or machine learning.\nAll materials should be submitted in English as a single PDF file, compiled in the order specified above. Applications submitted by email will not be accepted. Shortlisted candidates will be invited to interviews and may be asked to complete a short technical task. Aalto University reserves the right to leave the position open, extend the application period, and consider candidates who have not applied during the application period.\nFor more information about the role, please contact:\nDr. Mohammad Mahdi Abaei, Academy Research Fellow, mohammad.abaei(at)aalto.fi\nFor questions related to the application process, please contact HR Advisor Anna-Maija Harju, anna-maija.harju(at)Aalto.fi or hr-eng(at)aalto.fi.\nAbout Aalto University\nAalto University builds on the legacy of three leading Finnish universities: Helsinki University of Technology, Helsinki School of Economics and the University of Art and Design Helsinki. Since 2010, we have brought science, art, technology and business together in new ways.\nToday, the Aalto community consists of more than 16,000 students and 5,200 employees, including 446 professors. Half of our teaching and research staff have an international background. Our campus in Espoo is a vibrant cluster of research and innovation with striking architecture, peaceful nature, open spaces for collaboration and a wide range of services, all with excellent public transport connections.\nDiversity is part of who we are. We work actively to build a community where people can belong, contribute and grow.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
   "ai": {
-    "summary": "Aalto doctoral position developing physics-enhanced machine-learning models for floating offshore wind digital twins. Focus is on embedding hydrodynamic knowledge into models to estimate wave-induced motions, detect structural degradation, and quantify uncertainty using Bayesian methods and signal processing.",
+    "summary": "Doctoral researcher position in physics-informed machine learning for floating offshore wind digital twins, combining hydrodynamic knowledge with data-driven methods to predict turbine behavior and detect mooring degradation. Core focus is ML algorithm development, system identification, and uncertainty quantification applied to offshore engineering.",
     "fit_type": "poor-fit",
     "thematic_fit": {
       "score": 5,
-      "rationale": "Position is fundamentally a physics and machine-learning research role. No connection to human-centered systems, immersive technologies, spatial cognition, learning, collaboration, or wayfinding. The posting mentions digital twins but in a purely computational/engineering context (hydrodynamics, structural dynamics, signal processing), not in the researcher's human-centred XR domain."
+      "rationale": "Position is centered on offshore wind engineering, hydrodynamics, and physics-informed ML. Researcher's expertise is human-centered XR, spatial cognition, and collaborative learning systems. No thematic overlap in domain, application, or research questions."
     },
     "methodological_fit": {
       "score": 15,
-      "rationale": "Minimal overlap. Position requires advanced knowledge in linear algebra, hydrodynamics/fluid mechanics, structural dynamics, or signal processing—none of which are in the researcher's profile. While the researcher has beginner Python skills, the role demands expert-level proficiency for machine learning, physics simulation, and data analysis. Experimental design and user studies are not part of this role."
+      "rationale": "Researcher has intermediate quantitative research and experimental design skills. Position requires strong linear algebra, signal processing, dynamical systems, and advanced ML (Koopman theory, DMD, deep learning for time series). While both involve data-driven methods, the methodological stack is entirely different. Researcher's strength in user studies and collaborative system design has no relevance to physics-informed ML or mooring load estimation."
     },
     "growth_value": {
-      "score": 8,
-      "rationale": "Development of Python skills could be a minor growth area, but the researcher would be expected to develop expertise in hydrodynamics, Koopman operators, dynamic mode decomposition, Kalman filtering, and deep learning for time series—none of which align with the researcher's target capabilities in human-centred research, spatial cognition, or immersive systems design."
+      "score": 20,
+      "rationale": "Could develop Python skills and exposure to advanced statistics/ML, but this requires starting from near-zero on domain knowledge (hydrodynamics, offshore engineering, CFD, Bayesian inference). Growth would be slow and sideways from target identity. No pathway to human-centered XR or spatial cognition research."
     },
     "strategic_value": {
-      "score": 20,
-      "rationale": "Aalto University is prestigious and well-funded, but this position is in the School of Engineering, Marine and Arctic Technology group—a different department and research culture from human-centered XR/HCI. Supervisor expertise (physics-enhanced ML) is not aligned with the researcher's career path. Completing this PhD would not position the researcher for target roles in human-centred immersive systems research."
+      "score": 75,
+      "rationale": "Aalto University is a priority-1 target institution with strong research reputation and stable funding via Research Council of Finland. Working at Aalto in a funded doctoral position would provide legitimate credential and European network. However, this benefit is completely undermined by the poor thematic and methodological fit—the credential would be in the wrong field."
     },
     "required_skills": [
       "python",
       "statistics",
-      "mixed-effects-modelling"
+      "mixed-effects-modelling",
+      "quantitative-research"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "python"
+      "quantitative-research",
+      "experimental-design"
     ],
     "missing_skills": [
+      "python",
       "statistics",
       "mixed-effects-modelling"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Posting explicitly requires 'strong foundation in linear algebra and at least one of: hydrodynamics/fluid mechanics, structural dynamics, dynamical systems, or signal processing'—researcher has none of these",
-      "MSc must be completed by start date; researcher is in thesis stage",
-      "Posting values 'knowledge of marine/offshore hydrodynamics,' 'OpenFAST/MoorDyn/WAMIT experience,' 'DMD/Koopman methods,' 'Kalman filtering,' 'deep learning for time series'—researcher has zero evidence of these"
+      "MSc by Research thesis must be completed by 28 January 2027 start date; profile indicates thesis stage in progress, unclear if defence scheduled before deadline",
+      "Position requires 'strong foundation in linear algebra and at least one of: hydrodynamics, fluid mechanics, structural dynamics, dynamical systems, signal processing'—researcher has none of these",
+      "Research statement question requires applicant to propose mooring degradation detection methods; researcher has no offshore engineering or structural health monitoring background"
     ],
     "risks": [
-      "Core discipline mismatch: this is pure ML/physics engineering, explicitly listed as excluded direction ('pure ML algorithm development')",
-      "Severe background gap: researcher lacks the mathematical and domain foundations (hydrodynamics, structural dynamics, signal processing) required for success",
-      "Career trajectory risk: completing this PhD would not support the researcher's target identity or position them for doctoral/postdoc roles in human-centred XR/HCI",
-      "Completion risk: skill gap is substantial and would likely require foundational retraining"
+      "Core position requirements (hydrodynamics, signal processing, physics-informed ML) are absent from researcher's profile",
+      "Researcher's MSc thesis focuses on spatial cognition and collaborative multiplayer interaction—orthogonal to offshore wind and digital twin modeling",
+      "Steep learning curve would delay research productivity and likely result in mismatch between supervisor expectations and researcher capability",
+      "Taking this position would be a significant detour from target identity (human-centered XR researcher), delaying progress toward goal"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -171,8 +213,8 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-06T14:09:03.264465Z",
-    "analysis_input_hash": "bccebebd4900a7c78115b40304772bc622f258e78e687d1a6e57809a521eebee"
+    "analyzed_at": "2026-11-10T14:46:12.292270Z",
+    "analysis_input_hash": "7243535bb7a1bd3156d13c3c8c27ab18c3c07378872992c2016051c8c30438df"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -180,9 +222,9 @@
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 11,
+    "fit_overall": 21,
     "urgency": "low",
-    "days_to_deadline": 49,
+    "days_to_deadline": 48,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
