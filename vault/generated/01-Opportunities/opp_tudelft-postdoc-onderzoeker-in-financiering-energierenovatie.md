@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-29
 status: open
 eligibility_gate: uncertain
-fit_overall: 14
+fit_overall: 41
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 19)
+Gate: **uncertain** (days to deadline: 18)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -63,10 +63,13 @@ Werken bij TU Delft betekent bijdragen aan oplossingen die er echt toe doen.
 Al meer dan 180 jaar leiden we ingenieurs op die wereldwijd impact maken bij bedrijven, overheden of als ondernemer. Onze alumni zetten kennis om in concrete oplossingen voor de uitdagingen van vandaag en morgen. Die uitdagingen veranderen snel. Daarom werken we elke dag aan thema’s zoals energie, klimaat, digitalisering, AI en slimme mobiliteit. Ons onderwijs en onderzoek sluiten direct aan op wat de samenleving nodig heeft, nu en straks.
 Bij TU Delft maken mensen het verschil. Met hun kennis en nieuwsgierigheid zorgen zij voor sterk onderwijs, vernieuwend onderzoek en innovaties die verder komen dan de campus. Je krijgt de ruimte om initiatief te nemen, samen te werken en jezelf te ontwikkelen. Wie bij TU Delft werkt, sluit zich aan bij een internationale community van professionals en studenten. Samen bouwen we aan kennis, innovatie en oplossingen die de wereld vooruithelpen.
 Faculteit Bouwkunde
-De faculteit Bouwkunde heeft wereldwijd een leidende rol in onderwijs en onderzoek. De drijvende kracht achter het succes van de faculteit is het robuuste onderzoeksprofiel in combinatie met de energie en creativiteit van de studenten en de academische gemeenschap. Het is een bruisende plek waar ruim vierduizend mensen vol passie en energie studeren, werken, ontwerpen, onderzoek doen en kennis vergaren en verspreiden. Onze faculteit heeft een sterke focus op ‘ontwerpgericht onderzoek' dat al enkele jaren wordt erkend en bekroond, met als resultaat een toppositie op de wereldranglijsten. Medewerkers en studenten werken aan de verbetering van de gebouwde omgeving met behulp van een breed scala aan disciplines, waaronder architectonisch ontwerp, stedenbouw, bouwtechnologie, sociale wetenschappen, procesmanagement en geo-informatiewetenschappen. De faculteit werkt nauw samen met andere faculteiten, universiteiten, private partijen en de publieke sector en heeft een uitgebreid netwerk, zowel in Nederland als internationaal.
-Klik
-hier
-om naar de website van faculteit Bouwkunde te gaan.
+Bouwen aan onze toekomst
+Wie onze faculteit binnenstapt, belandt in het bruisende hart van Bouwkunde: een tweede thuis voor zo'n 3.500 studenten en 1.000 medewerkers uit meer dan veertig landen. Samen werken we aan oplossingen die onze leefomgeving voor huidige én toekomstige generaties leefbaar, duurzaam en betekenisvol maken.
+Als faculteit Bouwkunde van de TU Delft behoren we wereldwijd tot de top op het gebied van architectuur, stedenbouw, landschapsontwerp, bouwtechniek en management van de gebouwde omgeving. Onze kracht ligt in de unieke combinatie van ontwerp, technologische innovatie, wetenschappelijk onderzoek en maatschappelijke relevantie. Met onderwijs en onderzoek dragen we bij aan het oplossen van vraagstukken rond wonen, klimaat, gezondheid, erfgoed, energie en circulariteit.
+Binnen onze internationale community werken we nauw samen met andere universiteiten, alumni, private partijen en de publieke sector in Nederland en ver daarbuiten. Op deze wijze verbinden we kennis, onderzoek en praktijk om impact te maken.
+Ga voor meer informatie en inspiratie naar de
+website
+.
 Arbeidsvoorwaarden
 Het dienstverband is 16-24 maanden. Tijdelijk.
 Een functieomvang van 16-32 uur per week.
@@ -109,27 +112,27 @@ Acquisitie naar aanleiding van deze vacature wordt niet op prijs gesteld.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
 
-Part-time postdoctoral position (16–32 hours/week, 16–24 months) developing financial models and strategies for district-level residential energy renovation in the Netherlands. Work integrates stakeholder engagement, financial risk analysis, and applied policy translation within an interdisciplinary consortium.
+Postdoctoral position in research on financing strategies for neighbourhood-level residential energy renovation. Role involves financial risk analysis, evaluation of public/private financing instruments, development of financing models, and stakeholder engagement (interviews, workshops, co-design). Position emphasises applied research, participatory methods, and translation to policy and practice.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 25 |
-| Growth value | 10 |
-| Strategic value | 15 |
-| **Overall** | **14** |
+| Thematic fit | 20 |
+| Methodological fit | 60 |
+| Growth value | 40 |
+| Strategic value | 45 |
+| **Overall** | **41** |
 
-**Fit type:** poor-fit
+**Fit type:** adjacent-methodological-fit
 
-**Missing skills:** none noted
+**Missing skills:** financial-modelling, policy-analysis, energy-and-renovation-policy-knowledge
 
 **Risks:**
-- Eligibility blocker: Language requirement (Dutch) and PhD completion before start may disqualify candidate
-- Domain irrelevance: Financial models for housing renovation and energy policy have no direct application to human-centred immersive research
-- Part-time, fixed-term commitment: 16–24 months at 16–32 hours/week is insufficient to establish researcher identity in a new domain; would delay PhD pathway entry
-- Skill gap: Financial analysis, policy instruments, and economic modelling are not candidate's expertise; would require substantial domain onboarding with limited strategic payoff for target identity
+- Language barrier: position requires proficient Dutch (not mentioned in researcher profile); could affect communication and publication
+- Thematic drift: energy finance and renovation policy is orthogonal to human-centred immersive systems research
+- Doctoral pathway disconnect: difficult to justify energy financing postdoc when applying to HCI or immersive systems PhD programmes
+- Stakeholder network development is in energy/policy domain, not HCI/XR communities
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-onderzoeker-in-financiering-energierenovatie.md` and link [[opp_tudelft-postdoc-onderzoeker-in-financiering-energierenovatie]]._

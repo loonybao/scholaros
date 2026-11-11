@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-02T15:03:42.651831Z",
-  "updated_at": "2026-11-10T14:48:19.038668Z",
+  "updated_at": "2026-11-11T14:03:50.208264Z",
   "change_history": [
     {
       "ts": "2026-11-02T15:03:42.652025Z",
@@ -119,6 +119,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-11T13:51:33.438033Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-11T14:01:57.037079Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-11T14:03:50.208264Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,9 +173,9 @@
     "evidence_ids": [
       "tudelft/1376409057"
     ],
-    "retrieved_at": "2026-11-02T15:03:42.651563Z",
-    "raw_snapshot_hash": "18c8e2917d1ca9995eed7f1ef2a262b7e252626721464092336e0dd89e39e3e3",
-    "extracted_content_hash": "56c3b3054f26ce4bac496a6ba6f362e495dbe57e68b18632dec8ec91301ef725",
+    "retrieved_at": "2026-11-11T13:51:33.437325Z",
+    "raw_snapshot_hash": "50bd3fc4336321ef472a9b5549848685bba8f45534f5fd6047924ce4b36832ca",
+    "extracted_content_hash": "476e0651f030073eab9378931077f2a5c56accb2cc7e7e1bd50b6c081399e2cb",
     "deadline": "2026-11-30",
     "deadline_note": null,
     "start_date": null,
@@ -153,55 +194,64 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Join the CROSS-PED team to develop innovative, data-driven methods for identifying cross-scale urban archetypes and advancing scalable passive cooling strategies for climate-resilient cities.\nJob description\nHow can we design cooler, more climate-resilient cities by understanding the relationship between urban form, microclimate and energy performance?\nIf you are interested in advancing quantitative methods in urban morphology to address emerging challenges in urban climate and energy research, this is the right position for you!\nAs a postdoctoral researcher at TU Delft, your primary focus will be on developing and applying a data-driven methodological framework to identify cross-scale urban archetypes, from building façades and individual buildings to neighbourhood configurations. You will carry out quantitative morphological analyses and employ clustering techniques to identify representative urban types and their potential for integrating passive cooling strategies. Your research will contribute to scalable passive cooling strategies that help cities adapt to rising temperatures while reducing energy demand.\nYou will join CROSS-PED (Cross-scale Passive Cooling Strategies for Positive Energy Districts), an international research project exploring how passive cooling solutions can be adapted and replicated across different urban, climatic and socio-economic contexts. Your main challenge is to develop and test transferable unsupervised classification methods for identifying urban archetypes across multiple urban scales and assess their thermal performance.\nUsing GIS, you will collect and harmonise spatial datasets from three European case-study cities: The Hague, Bari and Bucharest. Focusing on building stock from 1980 to 2000, you will develop a database that supports comparative analysis and the development of context-sensitive cooling strategies.\nYour research will also connect urban morphology with practical climate adaptation. You will contribute to microclimatic modelling, exploring solar radiation, wind flows and urban heat island effects, and support the integration of these findings into building and district-scale energy assessments. Through Urban Living Labs, you will collaborate with municipalities, professionals and citizens to co-create and evaluate cooling solutions.\nBased at the Faculty of Architecture and the Built Environment in Delft, you will work with an interdisciplinary consortium of European universities and municipalities. You will take a leading role in methodological development while collaborating with experts in urban climate, energy modelling and participatory planning.\nThis position offers opportunities to advance your independent research, publish scientific findings, develop transferable datasets and design guidelines, and build an international academic network. You will also participate in international project meetings, workshops and Urban Living Lab activities.\nThe anticipated starting date is March 2027, with some flexibility. Please indicate your earliest possible starting date in your application letter.\nJob requirements\nYou hold a PhD in Urbanism, Urban Geography, Geoinformatics, Environmental Engineering, Urban Climate or a related field before starting employment.\nYou have advanced skills in GIS, spatial data processing and quantitative urban morphological analysis.\nYou have experience with statistical analysis, unsupervised classification techniques and programming in Python and/or R.\nYou have practical experience in urban microclimatic modelling and understand relationships between urban form, climate and energy performance.\nYou communicate effectively in written and spoken English, including scientific writing, and enjoy collaborating in international, interdisciplinary research teams.\nYou can independently develop research methods, manage complex datasets and contribute to scientific publications and collaborative research projects.\nIdeally, you have experience with passive cooling, building energy assessment, participatory research or Urban Living Labs.\nYou are open to international travel for project activities; working knowledge of Dutch is an advantage, but not required.\nWe recognise that researchers bring different combinations of skills and experience. You do not need to meet every requirement to apply. We encourage you to demonstrate your relevant expertise through publications, research projects or other professional achievements.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Architecture & the Built Environment\nThe Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.\nStaff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.\nClick\nhere\nto go to the website of the Faculty of Architecture and the Built Environment.\nConditions of employment\nDuration of contract is 32 Months. Temporary.\nA job of 36-40 hours per week.\nA salary based on Scale 10 of the CAO for Dutch Universities with a salary between €3706 - €5760 gross per month based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy or the selection procedure, please contact: Dr. Daniela Maiullari. email:\nd.maiullari@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 November 2026\nvia the application button and upload the following documents:\nA detailed CV including any relevant publications or projects.\nA 1-page motivation letter describing how your background fits this position.\nA digital copy of your PhD thesis.\nApplicants selected for an interview will be asked to provide contact information of at least 2 references.\nInterviews will be conducted on December 14 and 16, 2026. Shortlisted candidates may be invited for a follow-up technical interview or assignment.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "Join the CROSS-PED team to develop innovative, data-driven methods for identifying cross-scale urban archetypes and advancing scalable passive cooling strategies for climate-resilient cities.\nJob description\nHow can we design cooler, more climate-resilient cities by understanding the relationship between urban form, microclimate and energy performance?\nIf you are interested in advancing quantitative methods in urban morphology to address emerging challenges in urban climate and energy research, this is the right position for you!\nAs a postdoctoral researcher at TU Delft, your primary focus will be on developing and applying a data-driven methodological framework to identify cross-scale urban archetypes, from building façades and individual buildings to neighbourhood configurations. You will carry out quantitative morphological analyses and employ clustering techniques to identify representative urban types and their potential for integrating passive cooling strategies. Your research will contribute to scalable passive cooling strategies that help cities adapt to rising temperatures while reducing energy demand.\nYou will join CROSS-PED (Cross-scale Passive Cooling Strategies for Positive Energy Districts), an international research project exploring how passive cooling solutions can be adapted and replicated across different urban, climatic and socio-economic contexts. Your main challenge is to develop and test transferable unsupervised classification methods for identifying urban archetypes across multiple urban scales and assess their thermal performance.\nUsing GIS, you will collect and harmonise spatial datasets from three European case-study cities: The Hague, Bari and Bucharest. Focusing on building stock from 1980 to 2000, you will develop a database that supports comparative analysis and the development of context-sensitive cooling strategies.\nYour research will also connect urban morphology with practical climate adaptation. You will contribute to microclimatic modelling, exploring solar radiation, wind flows and urban heat island effects, and support the integration of these findings into building and district-scale energy assessments. Through Urban Living Labs, you will collaborate with municipalities, professionals and citizens to co-create and evaluate cooling solutions.\nBased at the Faculty of Architecture and the Built Environment in Delft, you will work with an interdisciplinary consortium of European universities and municipalities. You will take a leading role in methodological development while collaborating with experts in urban climate, energy modelling and participatory planning.\nThis position offers opportunities to advance your independent research, publish scientific findings, develop transferable datasets and design guidelines, and build an international academic network. You will also participate in international project meetings, workshops and Urban Living Lab activities.\nThe anticipated starting date is March 2027, with some flexibility. Please indicate your earliest possible starting date in your application letter.\nJob requirements\nYou hold a PhD in Urbanism, Urban Geography, Geoinformatics, Environmental Engineering, Urban Climate or a related field before starting employment.\nYou have advanced skills in GIS, spatial data processing and quantitative urban morphological analysis.\nYou have experience with statistical analysis, unsupervised classification techniques and programming in Python and/or R.\nYou have practical experience in urban microclimatic modelling and understand relationships between urban form, climate and energy performance.\nYou communicate effectively in written and spoken English, including scientific writing, and enjoy collaborating in international, interdisciplinary research teams.\nYou can independently develop research methods, manage complex datasets and contribute to scientific publications and collaborative research projects.\nIdeally, you have experience with passive cooling, building energy assessment, participatory research or Urban Living Labs.\nYou are open to international travel for project activities; working knowledge of Dutch is an advantage, but not required.\nWe recognise that researchers bring different combinations of skills and experience. You do not need to meet every requirement to apply. We encourage you to demonstrate your relevant expertise through publications, research projects or other professional achievements.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Architecture & the Built Environment\nBuilding Our Future\nAnyone who enters our faculty steps into the vibrant heart of Bouwkunde: a second home for around 3,500 students and 1,000 staff from more than forty countries. Together, we work on solutions that make our living environment liveable, sustainable and meaningful for current and future generations.\nAs faculty of Architecture and the Built Environment of the TU Delft, we have a globally recognised leading position in architecture, urbanism, landscape architecture, building technology and the management of the built environment. Our strength lies in the unique blend of design, technological innovation, scientific research and societal impact. Through our education and research, we contribute to solving challenges related to housing, climate, health, heritage, energy and circularity.\nWithin our international community, we work closely with other universities, alumni, the professional field and the public sector in the Netherlands and far beyond. In this way we bring together knowledge, research and practice to create impact.\nFor more information and inspiration, visit the\nwebsite.\nConditions of employment\nDuration of contract is 32 Months. Temporary.\nA job of 36-40 hours per week.\nA salary based on Scale 10 of the CAO for Dutch Universities with a salary between €3706 - €5760 gross per month based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy or the selection procedure, please contact: Dr. Daniela Maiullari. email:\nd.maiullari@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 November 2026\nvia the application button and upload the following documents:\nA detailed CV including any relevant publications or projects.\nA 1-page motivation letter describing how your background fits this position.\nA digital copy of your PhD thesis.\nApplicants selected for an interview will be asked to provide contact information of at least 2 references.\nInterviews will be conducted on December 14 and 16, 2026. Shortlisted candidates may be invited for a follow-up technical interview or assignment.\nPlease note:\nYou can apply online.\nWe will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "Postdoctoral position developing data-driven methods to identify urban archetypes and assess passive cooling strategies across European cities. Work combines GIS/spatial analysis, unsupervised clustering, urban morphology and microclimatic modelling with stakeholder collaboration through Urban Living Labs.",
-    "fit_type": "poor-fit",
+    "summary": "Postdoctoral position in urban morphology, GIS analysis, and climate-adaptive urban design. Role involves developing data-driven methods to identify urban archetypes, quantitative morphological analysis, clustering techniques, and participatory design (Urban Living Labs). Methodological fit in mixed-methods research and stakeholder engagement, but no immersive systems or HCI component.",
+    "fit_type": "adjacent-methodological-fit",
     "thematic_fit": {
-      "score": 8,
-      "rationale": "No thematic overlap with human-centred XR, immersive systems, spatial cognition, learning, wayfinding, or collaboration in virtual environments. Position is urban climate/energy/morphology research. While both involve spatial data, the research questions, outcomes and methodologies are entirely distinct from candidate's human-centred immersive research."
+      "score": 25,
+      "rationale": "Position addresses urban design, participatory research, and spatial analysis, but does not directly engage with immersive systems, learning outcomes, or spatial cognition in the context of XR. Urban morphology is adjacent to spatial understanding but domain-specific to urban planning, not human-centred immersive research."
     },
     "methodological_fit": {
-      "score": 30,
-      "rationale": "Shared quantitative methods (statistical analysis, data processing, supervised stakeholder engagement). Candidate has intermediate quantitative research and experimental design skills. However, position requires advanced GIS, spatial data harmonisation, unsupervised classification (clustering), and Python/R programming at applied level. Candidate has only beginner Python and no GIS or clustering experience. Urban Living Lab participation is participatory, not user-centred design research."
+      "score": 55,
+      "rationale": "Strong methodological overlap: position values mixed-methods research, participatory design (Urban Living Labs), quantitative analysis, and stakeholder engagement. Researcher has user-studies and experimental-design expertise. Python/R programming skills valued. However, position emphasises GIS, spatial clustering, and urban archetypes rather than human behaviour, learning, or immersive interaction design."
     },
     "growth_value": {
-      "score": 35,
-      "rationale": "Would develop Python/R programming, GIS, statistical analysis and stakeholder engagement skills. Python/R advancement is valuable for future HCI work (data analysis for user studies). However, GIS and urban morphology expertise would not transfer to human-centred XR research. Does not address eye-tracking, physiological sensing, or advanced qualitative HCI methods needed for spatial cognition research."
+      "score": 45,
+      "rationale": "Researcher would develop GIS expertise, advanced statistics (clustering, classification), and Python/R programming—all valuable long-term. Experience with participatory research and Urban Living Labs would strengthen methodological portfolio. However, growth is in urban/environmental domain, not human-centred immersive systems."
     },
     "strategic_value": {
-      "score": 20,
-      "rationale": "TU Delft is a priority institution; Faculty of Architecture and Built Environment is strong. However, position is in urban climate/energy, not HCI or immersive systems. Interdisciplinary collaboration is noted but directed toward climate adaptation, not human experience. Completion would position candidate as an urban climate researcher, not a human-centred XR researcher. Does not build toward target doctoral identity."
+      "score": 50,
+      "rationale": "TU Delft Tier 1 institution, strong funding (32-month contract), interdisciplinary consortium including municipalities and European partners. Good visibility and network-building potential. However, primarily in urban design/sustainability networks, not HCI/XR research communities. Architecture and Built Environment faculty is strong but thematically distant from target identity."
     },
     "required_skills": [
-      "quantitative-research",
-      "statistics",
+      "gis",
+      "spatial-data-processing",
+      "quantitative-analysis",
       "python",
-      "r"
+      "r",
+      "statistics",
+      "academic-writing",
+      "qualitative-research"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
+      "python",
       "quantitative-research",
-      "academic-writing"
+      "academic-writing",
+      "experimental-design",
+      "user-studies"
     ],
     "missing_skills": [
-      "statistics",
-      "python",
-      "r"
+      "gis",
+      "spatial-data-processing",
+      "r",
+      "statistics-advanced",
+      "clustering-classification"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "PhD required before employment start (March 2027); candidate holds MSc by Research in progress and will not have PhD by that date",
-      "Advanced skills in GIS and spatial data processing required; candidate has no demonstrated GIS experience",
-      "Practical experience in urban microclimatic modelling required; candidate has no background in climate, energy or microclimatic systems"
+      "Requires PhD completed before start date; researcher holds MSc by Research in progress",
+      "PhD must be in Urbanism, Geography, Geoinformatics, Environmental Engineering, Urban Climate, or related field—researcher's background is multimedia/HCI",
+      "Position encourages candidates who do not meet every requirement; posting explicitly welcomes unconventional expertise"
     ],
     "risks": [
-      "Eligibility blocker: Candidate does not hold a completed PhD; position explicitly requires PhD before employment",
-      "Significant skill gap: Advanced GIS, spatial data harmonisation, and unsupervised clustering are core deliverables. Candidate's beginner Python proficiency is insufficient without substantial ramp-up time.",
-      "Thematic drift: 32-month postdoc in urban climate/energy would establish candidate's identity in that domain, making future transition to human-centred XR research more difficult",
-      "Research question misalignment: Position optimises for thermal performance and scalable cooling; candidate's expertise is in learning outcomes and user experience in immersive environments"
+      "Thematic drift: urban climate and morphology is adjacent to, but not core to, human-centred immersive systems research",
+      "Skill ramp-up: GIS, spatial clustering, and urban data analysis would require 2–3 months focused learning",
+      "Network effect: 32 months in urban sustainability would build reputation in planning/urban design, not HCI/XR",
+      "Doctoral pathway unclear: difficult to justify urban morphology postdoc when targeting PhD in collaborative immersive learning systems"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -209,23 +259,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.92,
+    "confidence": 0.78,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-02T15:14:50.272824Z",
-    "analysis_input_hash": "6c8a39898b2e1988bfa2b928dd04f8b835f715147d03b35e5e6aeed98575e2d2"
+    "analyzed_at": "2026-11-11T14:01:57.036584Z",
+    "analysis_input_hash": "a56eba1ecbdcb74ea2e499d9b95d3c7d8b72c6e31e43986b589e48150646bae4"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 22,
+    "fit_overall": 42,
     "urgency": "high",
-    "days_to_deadline": 20,
+    "days_to_deadline": 19,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

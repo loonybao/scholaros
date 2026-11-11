@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-30
 status: open
 eligibility_gate: uncertain
-fit_overall: 22
+fit_overall: 42
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 20)
+Gate: **uncertain** (days to deadline: 19)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -56,11 +56,12 @@ Working at TU Delft means contributing to solutions that really make a differenc
 For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
 At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
 Faculty Architecture & the Built Environment
-The Faculty of Architecture and the Built Environment has a leading role in education and research worldwide. The driving force behind the faculty’s success is its robust research profile combined with the energy and creativity of its student body and academic community. It is buzzing with energy, with four thousand people enthusiastically studying, working, designing, conducting research and acquiring and disseminating knowledge. Our faculty has a strong focus on 'design-oriented research’, which has given it a top position in world rankings.
-Staff and students are working to improve the built environment with the help of a broad set of disciplines, including architectural design, urban planning, building technology, social sciences, process management, and geo-information science. The faculty works closely with other faculties, universities, private parties, and the public sector, and has an extensive network in the Netherlands as well as internationally.
-Click
-here
-to go to the website of the Faculty of Architecture and the Built Environment.
+Building Our Future
+Anyone who enters our faculty steps into the vibrant heart of Bouwkunde: a second home for around 3,500 students and 1,000 staff from more than forty countries. Together, we work on solutions that make our living environment liveable, sustainable and meaningful for current and future generations.
+As faculty of Architecture and the Built Environment of the TU Delft, we have a globally recognised leading position in architecture, urbanism, landscape architecture, building technology and the management of the built environment. Our strength lies in the unique blend of design, technological innovation, scientific research and societal impact. Through our education and research, we contribute to solving challenges related to housing, climate, health, heritage, energy and circularity.
+Within our international community, we work closely with other universities, alumni, the professional field and the public sector in the Netherlands and far beyond. In this way we bring together knowledge, research and practice to create impact.
+For more information and inspiration, visit the
+website.
 Conditions of employment
 Duration of contract is 32 Months. Temporary.
 A job of 36-40 hours per week.
@@ -100,27 +101,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.78_
 
-Postdoctoral position developing data-driven methods to identify urban archetypes and assess passive cooling strategies across European cities. Work combines GIS/spatial analysis, unsupervised clustering, urban morphology and microclimatic modelling with stakeholder collaboration through Urban Living Labs.
+Postdoctoral position in urban morphology, GIS analysis, and climate-adaptive urban design. Role involves developing data-driven methods to identify urban archetypes, quantitative morphological analysis, clustering techniques, and participatory design (Urban Living Labs). Methodological fit in mixed-methods research and stakeholder engagement, but no immersive systems or HCI component.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 8 |
-| Methodological fit | 30 |
-| Growth value | 35 |
-| Strategic value | 20 |
-| **Overall** | **22** |
+| Thematic fit | 25 |
+| Methodological fit | 55 |
+| Growth value | 45 |
+| Strategic value | 50 |
+| **Overall** | **42** |
 
-**Fit type:** poor-fit
+**Fit type:** adjacent-methodological-fit
 
-**Missing skills:** statistics, python, r
+**Missing skills:** gis, spatial-data-processing, r, statistics-advanced, clustering-classification
 
 **Risks:**
-- Eligibility blocker: Candidate does not hold a completed PhD; position explicitly requires PhD before employment
-- Significant skill gap: Advanced GIS, spatial data harmonisation, and unsupervised clustering are core deliverables. Candidate's beginner Python proficiency is insufficient without substantial ramp-up time.
-- Thematic drift: 32-month postdoc in urban climate/energy would establish candidate's identity in that domain, making future transition to human-centred XR research more difficult
-- Research question misalignment: Position optimises for thermal performance and scalable cooling; candidate's expertise is in learning outcomes and user experience in immersive environments
+- Thematic drift: urban climate and morphology is adjacent to, but not core to, human-centred immersive systems research
+- Skill ramp-up: GIS, spatial clustering, and urban data analysis would require 2–3 months focused learning
+- Network effect: 32 months in urban sustainability would build reputation in planning/urban design, not HCI/XR
+- Doctoral pathway unclear: difficult to justify urban morphology postdoc when targeting PhD in collaborative immersive learning systems
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-urban-climate-morphology.md` and link [[opp_tudelft-postdoc-in-urban-climate-morphology]]._

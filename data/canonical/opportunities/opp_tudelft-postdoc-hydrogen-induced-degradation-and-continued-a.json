@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-10T14:33:12.553999Z",
-  "updated_at": "2026-11-10T14:48:18.999658Z",
+  "updated_at": "2026-11-11T14:03:50.167581Z",
   "change_history": [
     {
       "ts": "2026-11-10T14:33:12.554174Z",
@@ -54,6 +54,46 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-11T13:48:38.716852Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-11T14:03:49.306828Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-11T14:03:50.167581Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -67,9 +107,9 @@
     "evidence_ids": [
       "tudelft/1377139857"
     ],
-    "retrieved_at": "2026-11-10T14:33:12.553750Z",
-    "raw_snapshot_hash": "91048d6504dd5882cf9ab5e2cb295300363f9d87cbe149fcb15975c0bcc35052",
-    "extracted_content_hash": "8be8695e065167cad7f1e1e251901c6206ff82a3d91510398c5a0951762e0b86",
+    "retrieved_at": "2026-11-11T13:48:38.716219Z",
+    "raw_snapshot_hash": "9d0b7b67e25be69e31ee1d29681bb54d47985259126395d4cc8902472755bef9",
+    "extracted_content_hash": "5dba4db8cf12f8b3627064f2ff92c8bea4e0c2687b2582d8f0e826057360657b",
     "deadline": "2026-12-10",
     "deadline_note": null,
     "start_date": null,
@@ -88,42 +128,63 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "How can the hydrogen induced degradation in a hydrogen fuel storage system be managed to achieve continued airworthiness?\nJob description\nThe drive towards climate neutrality in the aviation sector calls for impactful innovations without comprising aviation safety. Within the scope of the Dutch-funded HAPSS project led by Concious Aerospace, we are developing a hydrogen-electric propulsion system to be integrated into an existing Dash 8-300 aircraft, aiming for certification by EASA in 2028.\nAs a postdoc at TU Delft, you will work closely with Concious Aerospace and researchers at TU Delft, to develop novel and certificaton ready development approaches for a reliable and airworthy hydrogen fuel storage system.\nYour research will be a part of a dedicated workpage within HAPSS project on hydrogen induced degradation and continued airworthiness. You will build on the current project progress on hydrogen induced degradation mechanisms, and:\nExpand damage tolerance analysis metholodogies to account for hydrogen induced degradation.\nEstablish inspection intervals and maintenance strategies for hydrogen induced degradation.\nAssess the effectiveness of non-destructive inspection techniques for detecting hydrogen-induced damage in representative metallic structures, and develop approaches to integrate inspection into damage-tolerant design strategies and maintenance programs.\nDevelop comprehensive design guidelines that incorporate hydrogen-induced effects into the aircraft design philosophy for ensuring continued airworthiness.\nDisseminate the results via journal articles and scientific conferences.\nYou will be based in the Aerospace Structures and Materials department of Aerospace Engineering faculty, working closely with Dr Nan Yue and Dr John-Alan Pasce.\nYou will have opportunities to contribute to university education activities, including teaching and student supervision.\nJob requirements\nA PhD in Aerospace Engineering, Mechanical Engineering, Material Science, Applied Physics or other relevant subject.\nStrong scientific background and research experience in facture mechanics and fatigue.\nFamiliar with risk analysis and risk management.\nAbility and curiosity to engage with multi-disciplinary stakeholders.\nGood collaboration and communication skills with both academic colleagues and industrial project partners.\nAbility to conduct independent research and publish scientific results.\nExperience with cryogenic systems or non-destructive testing is a plus.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDuration of contract is 18 months. Temporary.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. Nan Yue,\nN.Yue@tudelft.nl.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n10 December 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Nan Yue and John-Alan Pascoe. The application will be reviewed on a rolling basis.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "How can the hydrogen induced degradation in a hydrogen fuel storage system be managed to achieve continued airworthiness?\nJob description\nThe drive towards climate neutrality in the aviation sector calls for impactful innovations without comprising aviation safety. Within the scope of the Dutch-funded HAPSS project led by Concious Aerospace, we are developing a hydrogen-electric propulsion system to be integrated into an existing Dash 8-300 aircraft, aiming for certification by EASA in 2028.\nAs a postdoc at TU Delft, you will work closely with Concious Aerospace and researchers at TU Delft, to develop novel and certificaton ready development approaches for a reliable and airworthy hydrogen fuel storage system.\nYour research will be a part of a dedicated workpage within HAPSS project on hydrogen induced degradation and continued airworthiness. You will build on the current project progress on hydrogen induced degradation mechanisms, and:\nExpand damage tolerance analysis metholodogies to account for hydrogen induced degradation.\nEstablish inspection intervals and maintenance strategies for hydrogen induced degradation.\nAssess the effectiveness of non-destructive inspection techniques for detecting hydrogen-induced damage in representative metallic structures, and develop approaches to integrate inspection into damage-tolerant design strategies and maintenance programs.\nDevelop comprehensive design guidelines that incorporate hydrogen-induced effects into the aircraft design philosophy for ensuring continued airworthiness.\nDisseminate the results via journal articles and scientific conferences.\nYou will be based in the Aerospace Structures and Materials department of Aerospace Engineering faculty, working closely with Dr Nan Yue and Dr John-Alan Pasce.\nYou will have opportunities to contribute to university education activities, including teaching and student supervision.\nJob requirements\nA PhD in Aerospace Engineering, Mechanical Engineering, Material Science, Applied Physics or other relevant subject.\nStrong scientific background and research experience in fracture mechanics and fatigue.\nFamiliar with risk analysis and risk management.\nAbility and curiosity to engage with multi-disciplinary stakeholders.\nGood collaboration and communication skills with both academic colleagues and industrial project partners.\nAbility to conduct independent research and publish scientific results.\nExperience with cryogenic systems or non-destructive testing is a plus.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDuration of contract is 18 months. Temporary.\nA job of 38-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Dr. Nan Yue,\nN.Yue@tudelft.nl.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n10 December 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Nan Yue and John-Alan Pascoe. The application will be reviewed on a rolling basis.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "Post-doctoral researcher position focused on hydrogen-induced degradation in aircraft fuel storage systems, damage tolerance analysis, inspection strategies, and airworthiness certification. Part of HAPSS project for hydrogen-electric propulsion system integration into Dash 8-300 aircraft.",
+    "summary": "Postdoctoral position at TU Delft focused on hydrogen-induced degradation mechanisms in aircraft fuel storage systems, damage tolerance analysis, inspection strategies, and design guidelines for airworthiness certification. Core work spans fracture mechanics, fatigue analysis, non-destructive testing, and risk management in aerospace materials.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 0,
-      "rationale": "Position is pure aerospace materials and structural engineering (hydrogen degradation, damage tolerance, airworthiness certification). Researcher's domain is human-centered XR, spatial cognition, collaborative learning. No thematic overlap. Position contains no HCI, user experience, learning design, or immersive systems elements."
+      "score": 5,
+      "rationale": "No thematic overlap with human-centred immersive systems, spatial cognition, collaborative learning, or XR. Position is entirely within aerospace materials science and structural engineering. The profile's domains (HCI, XR, spatial learning, wayfinding, multiplayer interaction) have no connection to hydrogen degradation, fracture mechanics, or aircraft certification."
     },
     "methodological_fit": {
-      "score": 0,
-      "rationale": "Position core is fracture mechanics, risk analysis, non-destructive inspection, and materials degradation modeling. Researcher's methodologies are user studies, spatial learning evaluation, and multiplayer interaction design. No methodological connection. Researcher has no materials engineering, NDT, or risk management background."
+      "score": 8,
+      "rationale": "Limited methodological overlap. Profile has intermediate experimental design and quantitative research skills, which are relevant to any engineering research. However, the position requires fracture mechanics and fatigue analysis expertise; the researcher has no materials science, mechanics, or structural analysis background. User studies methodology does not transfer to hydrogen degradation inspection or damage tolerance analysis."
     },
     "growth_value": {
-      "score": 0,
-      "rationale": "Position offers no growth toward target identity. Would require complete retraining in aerospace materials and structural engineering. No pathway from hydrogen degradation research to human-centered XR or spatial cognition—fundamentally different discipline."
+      "score": 3,
+      "rationale": "This position would not advance the researcher toward their target identity of human-centred XR researcher. Capabilities developed (damage tolerance analysis, NDT techniques, risk assessment in materials) are orthogonal to spatial cognition, collaborative immersive systems, or learning technology research. Would represent a fundamental career redirect away from stated goals."
     },
     "strategic_value": {
-      "score": 40,
-      "rationale": "TU Delft is priority-1 institution; HAPSS is funded EU aviation project with clear industry pathway (EASA certification). Strong institutional and funding credentials. However, completely negated by total disciplinary misalignment."
+      "score": 45,
+      "rationale": "TU Delft is a priority-2 institution and meets geographic criteria (Netherlands). Faculty of Aerospace Engineering is well-established with strong international reputation and industry partnerships (Concious Aerospace, EASA certification pathway). 18-month postdoc with clear research outcomes and publication expectations is structurally sound. However, the research direction contradicts target identity entirely, and supervisor expertise (fracture mechanics, fatigue) does not align with HCI/immersive systems mentorship needs."
     },
-    "required_skills": [],
+    "required_skills": [
+      "fracture-mechanics",
+      "fatigue-analysis",
+      "risk-management",
+      "non-destructive-testing",
+      "materials-science",
+      "aerospace-engineering",
+      "damage-tolerance-analysis"
+    ],
     "preferred_skills": [],
     "skill_evidence": {},
-    "matched_skills": [],
-    "missing_skills": [],
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "fracture-mechanics",
+      "fatigue-analysis",
+      "non-destructive-testing",
+      "materials-science",
+      "cryogenic-systems",
+      "aerospace-structures"
+    ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position is explicitly for 'post-doctoral researcher' (PhD required); researcher holds MSc by Research in progress and is not PhD-qualified—ineligible",
-      "Requirements state 'PhD in Aerospace Engineering, Mechanical Engineering, Material Science, Applied Physics'—researcher's MSc is Creative Multimedia"
+      "Position requires PhD in Aerospace Engineering, Mechanical Engineering, Material Science, Applied Physics, or closely related field. Candidate holds MSc by Research (in progress) in Multimedia/HCI with no aerospace or materials background. MSc thesis is not yet complete; posting does not state whether in-progress degree is acceptable.",
+      "Candidate's research is entirely in XR/HCI; no background in structural mechanics, fracture analysis, or materials science.",
+      "Strong scientific background in fracture mechanics and fatigue is a core requirement; candidate has neither."
     ],
     "risks": [
-      "Researcher is ineligible: position requires completed PhD; researcher is MSc-stage researcher",
-      "Extreme disciplinary mismatch (aerospace materials vs. HCI/immersive systems); no transferable expertise",
-      "Position emphasizes fracture mechanics, risk analysis, and industrial certification—researcher's strengths are in design science and user evaluation",
-      "Accepting would represent major career detour from target identity with no recovery path; 18-month contract would significantly delay PhD and human-centered XR research trajectory"
+      "Fundamental domain mismatch: position is core aerospace materials engineering, not HCI-adjacent or XR-related. Despite TU Delft location, this is not a methodological fit that could bridge toward HCI research.",
+      "Candidate lacks required PhD qualification; MSc in-progress status may not meet eligibility threshold.",
+      "Supervisor expertise (fracture mechanics, fatigue, NDT) provides no mentorship overlap with target HCI/XR research identity.",
+      "18-month contract in materials science would delay and potentially derail progress toward PhD in human-centred immersive systems research.",
+      "No publications, coursework, or project experience in mechanics, materials, or aerospace—steep learning curve for a postdoc-level role."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -131,23 +192,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.99,
+    "confidence": 0.95,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-10T14:46:12.296083Z",
-    "analysis_input_hash": "b989e96f96fce95c9251c95c74619bbb58d5d793407e3bc2ca25a6c506a61d59"
+    "analyzed_at": "2026-11-11T14:03:49.306282Z",
+    "analysis_input_hash": "e1512b79133d50beed7483e3fcc224cb7577c7c965a9a99ac4647cbcab59ba59"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 6,
+    "fit_overall": 12,
     "urgency": "medium",
-    "days_to_deadline": 30,
+    "days_to_deadline": 29,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

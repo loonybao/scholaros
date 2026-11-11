@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-02T15:04:04.148805Z",
-  "updated_at": "2026-11-10T14:48:19.060577Z",
+  "updated_at": "2026-11-11T14:03:50.230941Z",
   "change_history": [
     {
       "ts": "2026-11-02T15:04:04.148990Z",
@@ -119,6 +119,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-11T13:51:55.310303Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-11T14:01:57.039566Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-11T14:03:50.230941Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -132,9 +173,9 @@
     "evidence_ids": [
       "tudelft/1376433257"
     ],
-    "retrieved_at": "2026-11-02T15:04:04.148557Z",
-    "raw_snapshot_hash": "231253c797a2f32fc217d72de747db998460675351d250931c2be79fd7d3a2f0",
-    "extracted_content_hash": "b45592142694d1d0175c2408fb8949d20e5a5fc947b2fcd363d57b77bb843cdb",
+    "retrieved_at": "2026-11-11T13:51:55.309514Z",
+    "raw_snapshot_hash": "85b07b5f3f6ad8889ba57500e186ee2405fcab74a33984e2b11dae3c9b7051c5",
+    "extracted_content_hash": "beb9f1511103069d4a25ff2a5935a65827f3b5de83aa20b526564701c22d47d1",
     "deadline": "2026-11-29",
     "deadline_note": null,
     "start_date": null,
@@ -153,29 +194,33 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Werk mee aan de toekomst van duurzame wijkrenovaties!\nFunctieomschrijving\nJe levert een belangrijke bijdrage aan een door RVO ondersteund missiegedreven onderzoeksproject, genaamd ‘TRIK’ - Toekomstbestendige Renovatie met Integrale Kwaliteitsborging -, met een bijzondere focus op de ontwikkeling van financiële modellen en strategieën die de energierenovatie van particuliere woningen op buurtniveau kunnen versnellen.\nOver het project\nTRIK ontwikkelt een geïntegreerde, buurtgerichte renovatieaanpak. Een consortium van partners onderzoekt technische oplossingen, bewonersondersteuning, kwaliteitsborging, de rol van marktactoren en financiering. Het project werkt nauw samen met gemeenten, marktpartijen, kennisinstellingen en andere belanghebbenden om benaderingen te ontwikkelen en te testen die grootschalige renovaties van particuliere woningen kunnen ondersteunen.\nIn dit project richt de TU Delft het onderzoek op de financiële dimensie van deze transitie: hoe financiële risico's kunnen worden geïdentificeerd en beheerd, en hoe publieke en private financiële middelen kunnen worden gecombineerd tot levensvatbare financieringsmodellen voor huiseigenaren en andere betrokken belanghebbenden bij het renovatieproces.\nWat ga je doen?\nJe draagt bij aan de lopende onderzoeksactiviteiten binnen het project en werkt nauw samen met het TRIK-consortium. Je staat onder meer garant voor:\nHet analyseren van financiële risico's van verschillende actoren en in fasen van het renovatieproces;\nOnderzoek naar bestaande en nieuwe publieke en private financieringsinstrumenten voor het versnellen van energierenovaties van woningen;\nHet ontwikkelen en evalueren van financieringsmodellen die publieke en private middelen combineren als antwoord op betaalbaarheid en gedragen financieel risico;\nHet verkennen van innovatieve financiële oplossingen samen met gemeenten, financiële instellingen, marktspelers en andere belanghebbenden;\nBijdragen aan stakeholderinterviews, workshops en validatiesessies;\nHet vertalen van onderzoeksresultaten naar praktische aanbevelingen en instrumenten voor gemeenten en andere actoren die betrokken zijn bij buurtrenovatie;\nBijdragen aan projectresultaten, rapporten en wetenschappelijke publicaties.\nHet werk bouwt voort op onderzoek en belanghebbendenactiviteiten die al binnen TRIK zijn uitgevoerd, en biedt een sterke basis voor verdere ontwikkeling en validatie van de financiële modellen.\nWat bieden we?\nJe komt te werken bij de afdeling Management in the Built Environment van de faculteit Bouwkunde van de TU Delft. Je werkt direct samen met hogescholen, universiteiten, gemeenten, marktspelers en kennispartners die samen werken aan het inrichten van renovatietrajecten. De functie biedt de mogelijkheid om bij te dragen aan de ontwikkeling van innovatieve financieringsmethoden met zowel wetenschappelijke relevantie als directe praktische toepassing binnen de Nederlandse energietransitie.\nWe bieden je graag de ruimte om aan te geven hoeveel uren per week (minimaal 16, maximaal 32) je zou willen werken. Het fte, gecombineerd met de hoeveelheid beschikbare financiële middelen, bepaalt vervolgens de contractduur. We zullen hier uiteraard voor aanvang van het dienstverband afspraken met je over maken.\nFunctie-eisen\nWe zoeken een Nederlandstalige Postdoc onderzoeker met interesse en ervaring in integrale woningrenovatie, financiële innovatie, en/of de energietransitie op wijkniveau. Je hebt bij voorkeur:\nEen doctoraatsgraad in de gebouwde omgeving, vastgoed, economie, financiën, duurzaamheid, energietransitie of een gerelateerd vakgebied.\nErvaring of sterke interesse in financiële en bedrijfsmodellen voor duurzame gebouwen of energierenovatie.\nAffiniteit met stakeholdergericht en toegepast onderzoek.\nErvaring met kwalitatieve en/of kwantitatieve onderzoeksmethoden en wetenschappelijke publicaties.\nHet vermogen om zelfstandig te werken terwijl we samenwerken met een interdisciplinair projectconsortium.\nSterke communicatievaardigheden in wetenschappelijk Nederlands.\nKennis over financiële innovaties, het Nederlandse energie- en renovatiebeleid, gemeentelijke stimuleringsprogramma's, financieringsinstrumenten, participatiemethoden en buurtgerichte communicatie worden als een voordeel beschouwd.\nTU Delft\nWerken bij TU Delft betekent bijdragen aan oplossingen die er echt toe doen.\nAl meer dan 180 jaar leiden we ingenieurs op die wereldwijd impact maken bij bedrijven, overheden of als ondernemer. Onze alumni zetten kennis om in concrete oplossingen voor de uitdagingen van vandaag en morgen. Die uitdagingen veranderen snel. Daarom werken we elke dag aan thema’s zoals energie, klimaat, digitalisering, AI en slimme mobiliteit. Ons onderwijs en onderzoek sluiten direct aan op wat de samenleving nodig heeft, nu en straks.\nBij TU Delft maken mensen het verschil. Met hun kennis en nieuwsgierigheid zorgen zij voor sterk onderwijs, vernieuwend onderzoek en innovaties die verder komen dan de campus. Je krijgt de ruimte om initiatief te nemen, samen te werken en jezelf te ontwikkelen. Wie bij TU Delft werkt, sluit zich aan bij een internationale community van professionals en studenten. Samen bouwen we aan kennis, innovatie en oplossingen die de wereld vooruithelpen.\nFaculteit Bouwkunde\nDe faculteit Bouwkunde heeft wereldwijd een leidende rol in onderwijs en onderzoek. De drijvende kracht achter het succes van de faculteit is het robuuste onderzoeksprofiel in combinatie met de energie en creativiteit van de studenten en de academische gemeenschap. Het is een bruisende plek waar ruim vierduizend mensen vol passie en energie studeren, werken, ontwerpen, onderzoek doen en kennis vergaren en verspreiden. Onze faculteit heeft een sterke focus op ‘ontwerpgericht onderzoek' dat al enkele jaren wordt erkend en bekroond, met als resultaat een toppositie op de wereldranglijsten. Medewerkers en studenten werken aan de verbetering van de gebouwde omgeving met behulp van een breed scala aan disciplines, waaronder architectonisch ontwerp, stedenbouw, bouwtechnologie, sociale wetenschappen, procesmanagement en geo-informatiewetenschappen. De faculteit werkt nauw samen met andere faculteiten, universiteiten, private partijen en de publieke sector en heeft een uitgebreid netwerk, zowel in Nederland als internationaal.\nKlik\nhier\nom naar de website van faculteit Bouwkunde te gaan.\nArbeidsvoorwaarden\nHet dienstverband is 16-24 maanden. Tijdelijk.\nEen functieomvang van 16-32 uur per week.\nHet salaris en de secundaire arbeidsvoorwaarden zijn in overeenstemming met de CAO Nederlandse Universiteiten en lopen op van Schaal 10 bruto per maand, vanaf het eerste tot en met het vierde jaar op basis van een fulltime contract (38 uur), plus 8% vakantietoeslag en een eindejaarsuitkering van 8,3%.\nEen uitstekende pensioenregeling via het ABP.\nDe mogelijkheid om jaarlijks een individueel arbeidsvoorwaardenpakket samen te stellen.\nKorting bij zorgverzekeraars op aanvullende pakketten.\nFlexibele werkweek.\nJaarlijks 232 verlofuren (bij 38 uur). Via het individueel keuzebudget kun je bovendien verlofuren verkopen of bijkopen.\nVolop mogelijkheden om opleidingen, trainingen en cursussen te volgen.\nGedeeltelijk doorbetaald ouderschapsverlof.\nAandacht voor gezond en energiek werken met het vitaliteitsprogramma.\nDuur van het contract is 16-24 maanden.\nEen functie van 16-32 uur per week.\nVerhuis je naar Nederland voor deze baan? De TU Delft probeert er alles aan te doen om je verhuizing zo soepel mogelijk te laten verlopen! Coming to Delft Service, onderdeel van HR, biedt informatie via hun website om je te helpen bij het voorbereiden van de verhuizing. Daarnaast organiseert\nComing to Delft Service\nevenementen om je (sociale) netwerk uit te breiden in Delft. Verder wordt er een\nDual Career Programma\naangeboden, om je meereizende partner te ondersteunen bij het zoeken naar een baan in Nederland.\nAdditionele informatie\nVoor meer informatie over deze vacature, neem contact op met Erwin Mlecnik,\ne.mlecnik@tudelft.nl\n.\nSelectiegesprekken worden georganiseerd op 11 en 15 december.\nSollicitatieprocedure\nHeb je interesse in deze vacature? Solliciteer dan uiterlijk\n29 november 2026\nvia de sollicitatiebutton en upload de volgende documenten:\nCV\nMotivatiebrief\nJe kunt je sollicitatie richten aan Erwin Mlecnik.\nLet op:\nOm je persoonsgegevens te beschermen, nemen we alleen sollicitaties in behandeling die via de ‘solliciteer-knop’ bij ons binnenkomen. Deze kan je vinden onder de gepubliceerde vacatures op onze website.\nSollicitaties en aanvullende informatie die per e-mail of op een andere manier worden verstuurd, kunnen we helaas niet in behandeling nemen of beantwoorden.\nDit geldt ook voor open sollicitaties.\nTU Delft voert in het kader van kennisveiligheid een risicobeoordeling uit bij het werven van personeel. Dit doen wij onder meer om ongewenste overdracht van gevoelige kennis en technologie te voorkomen. De beoordeling gebeurt op basis van informatie die door kandidaat zelf is aangeleverd, zoals de motivatiebrief en het cv. De beoordeling vindt plaats bij de laatst overgebleven kandidaten in het selectieproces. Wanneer de uitkomst van de risicobeoordeling negatief is, dan wordt de kandidaat daarover geïnformeerd. De verwerking van persoonsgegevens in het kader van deze risicobeoordeling vindt plaats op basis van de wettelijke grondslag van de AVG ‘uitvoering van de publieke taak van algemeen belang’. Meer informatie over deze beoordeling vind je op onze website over\nkennisveiligheid\n.\nAcquisitie naar aanleiding van deze vacature wordt niet op prijs gesteld."
+    "description_text": "Werk mee aan de toekomst van duurzame wijkrenovaties!\nFunctieomschrijving\nJe levert een belangrijke bijdrage aan een door RVO ondersteund missiegedreven onderzoeksproject, genaamd ‘TRIK’ - Toekomstbestendige Renovatie met Integrale Kwaliteitsborging -, met een bijzondere focus op de ontwikkeling van financiële modellen en strategieën die de energierenovatie van particuliere woningen op buurtniveau kunnen versnellen.\nOver het project\nTRIK ontwikkelt een geïntegreerde, buurtgerichte renovatieaanpak. Een consortium van partners onderzoekt technische oplossingen, bewonersondersteuning, kwaliteitsborging, de rol van marktactoren en financiering. Het project werkt nauw samen met gemeenten, marktpartijen, kennisinstellingen en andere belanghebbenden om benaderingen te ontwikkelen en te testen die grootschalige renovaties van particuliere woningen kunnen ondersteunen.\nIn dit project richt de TU Delft het onderzoek op de financiële dimensie van deze transitie: hoe financiële risico's kunnen worden geïdentificeerd en beheerd, en hoe publieke en private financiële middelen kunnen worden gecombineerd tot levensvatbare financieringsmodellen voor huiseigenaren en andere betrokken belanghebbenden bij het renovatieproces.\nWat ga je doen?\nJe draagt bij aan de lopende onderzoeksactiviteiten binnen het project en werkt nauw samen met het TRIK-consortium. Je staat onder meer garant voor:\nHet analyseren van financiële risico's van verschillende actoren en in fasen van het renovatieproces;\nOnderzoek naar bestaande en nieuwe publieke en private financieringsinstrumenten voor het versnellen van energierenovaties van woningen;\nHet ontwikkelen en evalueren van financieringsmodellen die publieke en private middelen combineren als antwoord op betaalbaarheid en gedragen financieel risico;\nHet verkennen van innovatieve financiële oplossingen samen met gemeenten, financiële instellingen, marktspelers en andere belanghebbenden;\nBijdragen aan stakeholderinterviews, workshops en validatiesessies;\nHet vertalen van onderzoeksresultaten naar praktische aanbevelingen en instrumenten voor gemeenten en andere actoren die betrokken zijn bij buurtrenovatie;\nBijdragen aan projectresultaten, rapporten en wetenschappelijke publicaties.\nHet werk bouwt voort op onderzoek en belanghebbendenactiviteiten die al binnen TRIK zijn uitgevoerd, en biedt een sterke basis voor verdere ontwikkeling en validatie van de financiële modellen.\nWat bieden we?\nJe komt te werken bij de afdeling Management in the Built Environment van de faculteit Bouwkunde van de TU Delft. Je werkt direct samen met hogescholen, universiteiten, gemeenten, marktspelers en kennispartners die samen werken aan het inrichten van renovatietrajecten. De functie biedt de mogelijkheid om bij te dragen aan de ontwikkeling van innovatieve financieringsmethoden met zowel wetenschappelijke relevantie als directe praktische toepassing binnen de Nederlandse energietransitie.\nWe bieden je graag de ruimte om aan te geven hoeveel uren per week (minimaal 16, maximaal 32) je zou willen werken. Het fte, gecombineerd met de hoeveelheid beschikbare financiële middelen, bepaalt vervolgens de contractduur. We zullen hier uiteraard voor aanvang van het dienstverband afspraken met je over maken.\nFunctie-eisen\nWe zoeken een Nederlandstalige Postdoc onderzoeker met interesse en ervaring in integrale woningrenovatie, financiële innovatie, en/of de energietransitie op wijkniveau. Je hebt bij voorkeur:\nEen doctoraatsgraad in de gebouwde omgeving, vastgoed, economie, financiën, duurzaamheid, energietransitie of een gerelateerd vakgebied.\nErvaring of sterke interesse in financiële en bedrijfsmodellen voor duurzame gebouwen of energierenovatie.\nAffiniteit met stakeholdergericht en toegepast onderzoek.\nErvaring met kwalitatieve en/of kwantitatieve onderzoeksmethoden en wetenschappelijke publicaties.\nHet vermogen om zelfstandig te werken terwijl we samenwerken met een interdisciplinair projectconsortium.\nSterke communicatievaardigheden in wetenschappelijk Nederlands.\nKennis over financiële innovaties, het Nederlandse energie- en renovatiebeleid, gemeentelijke stimuleringsprogramma's, financieringsinstrumenten, participatiemethoden en buurtgerichte communicatie worden als een voordeel beschouwd.\nTU Delft\nWerken bij TU Delft betekent bijdragen aan oplossingen die er echt toe doen.\nAl meer dan 180 jaar leiden we ingenieurs op die wereldwijd impact maken bij bedrijven, overheden of als ondernemer. Onze alumni zetten kennis om in concrete oplossingen voor de uitdagingen van vandaag en morgen. Die uitdagingen veranderen snel. Daarom werken we elke dag aan thema’s zoals energie, klimaat, digitalisering, AI en slimme mobiliteit. Ons onderwijs en onderzoek sluiten direct aan op wat de samenleving nodig heeft, nu en straks.\nBij TU Delft maken mensen het verschil. Met hun kennis en nieuwsgierigheid zorgen zij voor sterk onderwijs, vernieuwend onderzoek en innovaties die verder komen dan de campus. Je krijgt de ruimte om initiatief te nemen, samen te werken en jezelf te ontwikkelen. Wie bij TU Delft werkt, sluit zich aan bij een internationale community van professionals en studenten. Samen bouwen we aan kennis, innovatie en oplossingen die de wereld vooruithelpen.\nFaculteit Bouwkunde\nBouwen aan onze toekomst\nWie onze faculteit binnenstapt, belandt in het bruisende hart van Bouwkunde: een tweede thuis voor zo'n 3.500 studenten en 1.000 medewerkers uit meer dan veertig landen. Samen werken we aan oplossingen die onze leefomgeving voor huidige én toekomstige generaties leefbaar, duurzaam en betekenisvol maken.\nAls faculteit Bouwkunde van de TU Delft behoren we wereldwijd tot de top op het gebied van architectuur, stedenbouw, landschapsontwerp, bouwtechniek en management van de gebouwde omgeving. Onze kracht ligt in de unieke combinatie van ontwerp, technologische innovatie, wetenschappelijk onderzoek en maatschappelijke relevantie. Met onderwijs en onderzoek dragen we bij aan het oplossen van vraagstukken rond wonen, klimaat, gezondheid, erfgoed, energie en circulariteit.\nBinnen onze internationale community werken we nauw samen met andere universiteiten, alumni, private partijen en de publieke sector in Nederland en ver daarbuiten. Op deze wijze verbinden we kennis, onderzoek en praktijk om impact te maken.\nGa voor meer informatie en inspiratie naar de\nwebsite\n.\nArbeidsvoorwaarden\nHet dienstverband is 16-24 maanden. Tijdelijk.\nEen functieomvang van 16-32 uur per week.\nHet salaris en de secundaire arbeidsvoorwaarden zijn in overeenstemming met de CAO Nederlandse Universiteiten en lopen op van Schaal 10 bruto per maand, vanaf het eerste tot en met het vierde jaar op basis van een fulltime contract (38 uur), plus 8% vakantietoeslag en een eindejaarsuitkering van 8,3%.\nEen uitstekende pensioenregeling via het ABP.\nDe mogelijkheid om jaarlijks een individueel arbeidsvoorwaardenpakket samen te stellen.\nKorting bij zorgverzekeraars op aanvullende pakketten.\nFlexibele werkweek.\nJaarlijks 232 verlofuren (bij 38 uur). Via het individueel keuzebudget kun je bovendien verlofuren verkopen of bijkopen.\nVolop mogelijkheden om opleidingen, trainingen en cursussen te volgen.\nGedeeltelijk doorbetaald ouderschapsverlof.\nAandacht voor gezond en energiek werken met het vitaliteitsprogramma.\nDuur van het contract is 16-24 maanden.\nEen functie van 16-32 uur per week.\nVerhuis je naar Nederland voor deze baan? De TU Delft probeert er alles aan te doen om je verhuizing zo soepel mogelijk te laten verlopen! Coming to Delft Service, onderdeel van HR, biedt informatie via hun website om je te helpen bij het voorbereiden van de verhuizing. Daarnaast organiseert\nComing to Delft Service\nevenementen om je (sociale) netwerk uit te breiden in Delft. Verder wordt er een\nDual Career Programma\naangeboden, om je meereizende partner te ondersteunen bij het zoeken naar een baan in Nederland.\nAdditionele informatie\nVoor meer informatie over deze vacature, neem contact op met Erwin Mlecnik,\ne.mlecnik@tudelft.nl\n.\nSelectiegesprekken worden georganiseerd op 11 en 15 december.\nSollicitatieprocedure\nHeb je interesse in deze vacature? Solliciteer dan uiterlijk\n29 november 2026\nvia de sollicitatiebutton en upload de volgende documenten:\nCV\nMotivatiebrief\nJe kunt je sollicitatie richten aan Erwin Mlecnik.\nLet op:\nOm je persoonsgegevens te beschermen, nemen we alleen sollicitaties in behandeling die via de ‘solliciteer-knop’ bij ons binnenkomen. Deze kan je vinden onder de gepubliceerde vacatures op onze website.\nSollicitaties en aanvullende informatie die per e-mail of op een andere manier worden verstuurd, kunnen we helaas niet in behandeling nemen of beantwoorden.\nDit geldt ook voor open sollicitaties.\nTU Delft voert in het kader van kennisveiligheid een risicobeoordeling uit bij het werven van personeel. Dit doen wij onder meer om ongewenste overdracht van gevoelige kennis en technologie te voorkomen. De beoordeling gebeurt op basis van informatie die door kandidaat zelf is aangeleverd, zoals de motivatiebrief en het cv. De beoordeling vindt plaats bij de laatst overgebleven kandidaten in het selectieproces. Wanneer de uitkomst van de risicobeoordeling negatief is, dan wordt de kandidaat daarover geïnformeerd. De verwerking van persoonsgegevens in het kader van deze risicobeoordeling vindt plaats op basis van de wettelijke grondslag van de AVG ‘uitvoering van de publieke taak van algemeen belang’. Meer informatie over deze beoordeling vind je op onze website over\nkennisveiligheid\n.\nAcquisitie naar aanleiding van deze vacature wordt niet op prijs gesteld."
   },
   "ai": {
-    "summary": "Part-time postdoctoral position (16–32 hours/week, 16–24 months) developing financial models and strategies for district-level residential energy renovation in the Netherlands. Work integrates stakeholder engagement, financial risk analysis, and applied policy translation within an interdisciplinary consortium.",
-    "fit_type": "poor-fit",
+    "summary": "Postdoctoral position in research on financing strategies for neighbourhood-level residential energy renovation. Role involves financial risk analysis, evaluation of public/private financing instruments, development of financing models, and stakeholder engagement (interviews, workshops, co-design). Position emphasises applied research, participatory methods, and translation to policy and practice.",
+    "fit_type": "adjacent-methodological-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "No alignment with human-centred XR, immersive systems, spatial learning, wayfinding, collaboration in virtual environments, or user experience research. Position is financial policy/innovation for energy transition. While stakeholder engagement exists in both profiles, the research domain (housing finance, energy renovation, policy implementation) is entirely distinct from candidate's immersive systems and spatial cognition focus."
+      "score": 20,
+      "rationale": "Position addresses spatial/territorial scale (neighbourhood renovation), stakeholder engagement, and participatory research—methodologically resonant with human-centred research. However, thematic focus is financing and energy policy, not human-centred immersive systems, spatial cognition, or learning. No XR or HCI component."
     },
     "methodological_fit": {
-      "score": 25,
-      "rationale": "Shared qualitative and mixed-methods approaches (stakeholder interviews, workshops, validation sessions). Candidate has intermediate user-studies and qualitative capability. However, position requires financial modelling, economic analysis, policy instrument evaluation, and risk assessment expertise. Candidate has no demonstrated financial analysis, economic modelling, or policy research background. Methodological overlap is superficial (both involve stakeholder engagement)."
+      "score": 60,
+      "rationale": "Strong methodological overlap: position explicitly values stakeholder engagement, co-design workshops, qualitative interviews, and applied research translation. Researcher has user-studies, experimental-design, and academic-writing skills. Position welcomes mixed-methods approaches and emphasises bridging research to practice. Qualitative-research skill set directly applicable."
     },
     "growth_value": {
-      "score": 10,
-      "rationale": "Would develop stakeholder engagement and policy translation skills applicable to broader HCI contexts. However, financial modelling and energy policy expertise do not transfer to human-centred XR research. Does not address statistical depth, eye-tracking, physiological sensing, qualitative HCI methods, or spatial cognition research needed for target trajectory. Mixed-methods practice is marginal gain."
+      "score": 40,
+      "rationale": "Researcher would develop expertise in financial modelling, policy analysis, stakeholder engagement strategies, and translating research into practice recommendations—valuable for future applied HCI work. Mixed-methods and co-design experience would strengthen methodological toolkit. However, growth is domain-specific (energy finance) rather than advancing immersive systems research."
     },
     "strategic_value": {
-      "score": 15,
-      "rationale": "TU Delft is a priority institution; strong applied research focus and industry/municipal partnerships. However, part-time contract (16–32 hours) over 16–24 months is short-term and stipulates Dutch language proficiency ('Nederlandstalige') which may present a barrier for an international candidate. Position is in built environment finance/energy, not HCI. Does not advance target doctoral identity or build toward human-centred XR research community."
+      "score": 45,
+      "rationale": "TU Delft Tier 1 institution, flexible contract (16–24 months, researcher-negotiated hours), embedded in Dutch energy transition context, strong stakeholder network (municipalities, market actors). Good funding stability and practical impact visibility. However, primarily builds reputation in sustainability/energy policy, not HCI/XR networks. Relevance to stated PhD pathway unclear."
     },
     "required_skills": [
+      "financial-modelling",
+      "policy-analysis",
+      "stakeholder-engagement",
       "qualitative-research",
+      "mixed-methods",
       "academic-writing"
     ],
     "preferred_skills": [],
@@ -183,20 +228,25 @@
     "matched_skills": [
       "qualitative-research",
       "academic-writing",
-      "user-studies"
+      "user-studies",
+      "experimental-design"
     ],
-    "missing_skills": [],
+    "missing_skills": [
+      "financial-modelling",
+      "policy-analysis",
+      "energy-and-renovation-policy-knowledge"
+    ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Language requirement: Position explicitly requires 'strong communication skills in scientific Dutch' (sterke communicatievaardigheden in wetenschappelijk Nederlands). Candidate's profile indicates English proficiency; Dutch language level not stated.",
-      "PhD required before employment; candidate holds MSc by Research in progress",
-      "Background in housing renovation, energy transition, financial innovation, or policy analysis preferred; candidate has no stated experience in any of these domains"
+      "Requires PhD completed before start date; researcher holds MSc by Research in progress",
+      "Position requires doctoral degree in built environment, real estate, economics, finance, sustainability, energy transition, or related field—researcher's background is multimedia/HCI",
+      "Position explicitly requires Dutch language proficiency; researcher's profile does not specify Dutch fluency"
     ],
     "risks": [
-      "Eligibility blocker: Language requirement (Dutch) and PhD completion before start may disqualify candidate",
-      "Domain irrelevance: Financial models for housing renovation and energy policy have no direct application to human-centred immersive research",
-      "Part-time, fixed-term commitment: 16–24 months at 16–32 hours/week is insufficient to establish researcher identity in a new domain; would delay PhD pathway entry",
-      "Skill gap: Financial analysis, policy instruments, and economic modelling are not candidate's expertise; would require substantial domain onboarding with limited strategic payoff for target identity"
+      "Language barrier: position requires proficient Dutch (not mentioned in researcher profile); could affect communication and publication",
+      "Thematic drift: energy finance and renovation policy is orthogonal to human-centred immersive systems research",
+      "Doctoral pathway disconnect: difficult to justify energy financing postdoc when applying to HCI or immersive systems PhD programmes",
+      "Stakeholder network development is in energy/policy domain, not HCI/XR communities"
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -204,23 +254,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.88,
+    "confidence": 0.75,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-02T15:14:50.274006Z",
-    "analysis_input_hash": "35009a4059defebcb7512ad9d7125545a1298e67f8772c211de9853eb1595de4"
+    "analyzed_at": "2026-11-11T14:01:57.039101Z",
+    "analysis_input_hash": "401484c1212bdc63826ee5ccd1f071b9ac53d7f192e635cbe8a80b94c6753997"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 14,
+    "fit_overall": 41,
     "urgency": "high",
-    "days_to_deadline": 19,
+    "days_to_deadline": 18,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

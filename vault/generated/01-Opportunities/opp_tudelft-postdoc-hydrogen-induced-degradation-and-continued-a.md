@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-12-10
 status: open
 eligibility_gate: uncertain
-fit_overall: 6
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 30)
+Gate: **uncertain** (days to deadline: 29)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -44,7 +44,7 @@ You will be based in the Aerospace Structures and Materials department of Aerosp
 You will have opportunities to contribute to university education activities, including teaching and student supervision.
 Job requirements
 A PhD in Aerospace Engineering, Mechanical Engineering, Material Science, Applied Physics or other relevant subject.
-Strong scientific background and research experience in facture mechanics and fatigue.
+Strong scientific background and research experience in fracture mechanics and fatigue.
 Familiar with risk analysis and risk management.
 Ability and curiosity to engage with multi-disciplinary stakeholders.
 Good collaboration and communication skills with both academic colleagues and industrial project partners.
@@ -99,27 +99,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.99_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Post-doctoral researcher position focused on hydrogen-induced degradation in aircraft fuel storage systems, damage tolerance analysis, inspection strategies, and airworthiness certification. Part of HAPSS project for hydrogen-electric propulsion system integration into Dash 8-300 aircraft.
+Postdoctoral position at TU Delft focused on hydrogen-induced degradation mechanisms in aircraft fuel storage systems, damage tolerance analysis, inspection strategies, and design guidelines for airworthiness certification. Core work spans fracture mechanics, fatigue analysis, non-destructive testing, and risk management in aerospace materials.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 0 |
-| Methodological fit | 0 |
-| Growth value | 0 |
-| Strategic value | 40 |
-| **Overall** | **6** |
+| Thematic fit | 5 |
+| Methodological fit | 8 |
+| Growth value | 3 |
+| Strategic value | 45 |
+| **Overall** | **12** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** fracture-mechanics, fatigue-analysis, non-destructive-testing, materials-science, cryogenic-systems, aerospace-structures
 
 **Risks:**
-- Researcher is ineligible: position requires completed PhD; researcher is MSc-stage researcher
-- Extreme disciplinary mismatch (aerospace materials vs. HCI/immersive systems); no transferable expertise
-- Position emphasizes fracture mechanics, risk analysis, and industrial certification—researcher's strengths are in design science and user evaluation
-- Accepting would represent major career detour from target identity with no recovery path; 18-month contract would significantly delay PhD and human-centered XR research trajectory
+- Fundamental domain mismatch: position is core aerospace materials engineering, not HCI-adjacent or XR-related. Despite TU Delft location, this is not a methodological fit that could bridge toward HCI research.
+- Candidate lacks required PhD qualification; MSc in-progress status may not meet eligibility threshold.
+- Supervisor expertise (fracture mechanics, fatigue, NDT) provides no mentorship overlap with target HCI/XR research identity.
+- 18-month contract in materials science would delay and potentially derail progress toward PhD in human-centred immersive systems research.
+- No publications, coursework, or project experience in mechanics, materials, or aerospace—steep learning curve for a postdoc-level role.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-hydrogen-induced-degradation-and-continued-a.md` and link [[opp_tudelft-postdoc-hydrogen-induced-degradation-and-continued-a]]._

@@ -1,17 +1,17 @@
 ---
 id: opp_varbi-postdoc-in-amnesomrade
 type: opportunity
-title: "Postdoc in ÄMNESOMRÅDE"
+title: "Postdoc in Generative AI for humanoid assistive robots"
 organisation: "KTH Royal Institute of Technology"
 deadline: 2026-12-09
 status: open
 eligibility_gate: uncertain
-fit_overall: 55
+fit_overall: 57
 urgency: medium
 needs_review: true
 ---
 
-# Postdoc in ÄMNESOMRÅDE
+# Postdoc in Generative AI for humanoid assistive robots
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
 **Deadline:** 2026-12-09
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 29)
+Gate: **uncertain** (days to deadline: 28)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -32,7 +32,7 @@ Gate: **uncertain** (days to deadline: 29)
 
 ## Description
 
-Postdoc in ÄMNESOMRÅDE
+Postdoc in Generative AI for humanoid assistive robots
 Login and apply
 KTH Royal Institute of Technology, School of Electrical Engineering and Computer Science
 Job description
@@ -111,30 +111,29 @@ Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.68_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.87_
 
-Postdoctoral position in developing and evaluating dialogue architecture for humanoid assistive robots. Role focuses on natural language processing, generative AI, and multimodal interaction to enable context-aware, proactive robot assistance for older adults and people with special needs. Embedded in a 5-year agentic interaction project (SAInt) at KTH's Department of Speech, Music and Hearing.
+Postdoctoral position at KTH Department of Speech, Music and Hearing developing dialogue architectures and multimodal interaction systems for humanoid assistive robots. Focus is on generative AI, natural language processing, context understanding, and speech-based human–robot interaction for older adults and people with special needs.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 52 |
-| Methodological fit | 59 |
-| Growth value | 48 |
-| Strategic value | 60 |
-| **Overall** | **55** |
+| Thematic fit | 48 |
+| Methodological fit | 62 |
+| Growth value | 58 |
+| Strategic value | 68 |
+| **Overall** | **57** |
 
 **Fit type:** adjacent-methodological-fit
 
-**Missing skills:** statistics, mixed-effects-modelling
+**Missing skills:** python, pytorch, natural-language-processing, machine-learning, generative-ai, speech-signal-processing
 
 **Risks:**
-- Domain pivot: assistive robotics with dialogue focus diverges from immersive collaborative learning systems.
-- Technology gap: generative AI and NLP are orthogonal to multiplayer game engines, networking, and spatial interaction.
-- Weak Python/PyTorch skills relative to position demands; would require rapid ramp-up.
-- No prior robotics or speech-interaction evaluation experience.
-- Postdoc is 3-year fixed-term; career progression pathway unclear.
-- MSc completion timeline must align with employment start.
-- Potential security clearance delays or complications.
+- Significant competency gap in core deliverables: developing dialogue architecture requires NLP/generative AI expertise candidate does not have. Learning curve during postdoc is steep.
+- Python/PyTorch skill gap is non-trivial. Candidate is advanced in C#/Unity, but postdoc positions typically assume language fluency at start.
+- Thematic mismatch: position targets assistive robotics with dialogue; candidate's identity is immersive learning and spatial cognition. Completing this postdoc would signal a career pivot toward HRI and away from XR.
+- Supervisory expertise (speech technology, robotics) does not overlap with target HCI/XR mentorship needs.
+- Candidate likely ineligible at time of application (MSc incomplete); would need to defer or reapply post-graduation.
+- Department of Speech, Music and Hearing is not known for immersive systems or VR research; limited institutional resources for candidate's target research direction post-postdoc.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-amnesomrade.md` and link [[opp_varbi-postdoc-in-amnesomrade]]._
