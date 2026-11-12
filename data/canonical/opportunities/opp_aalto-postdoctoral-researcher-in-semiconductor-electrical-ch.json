@@ -1,0 +1,178 @@
+{
+  "id": "opp_aalto-postdoctoral-researcher-in-semiconductor-electrical-ch",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-12T14:49:04.899107Z",
+  "updated_at": "2026-11-12T15:03:23.842019Z",
+  "change_history": [
+    {
+      "ts": "2026-11-12T14:49:04.899263Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-12T15:03:23.378301Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-12T15:03:23.842019Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Researcher in Semiconductor Electrical Characterization and Thin-Film Metrology",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-science",
+    "source": "aalto",
+    "source_native_id": "postdoctoral-researcher-in-semiconductor-electrical-characterization-and-thin-film-metrology",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-semiconductor-electrical-characterization-and-thin-film-metrology",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Postdoctoral-Researcher-in-Semiconductor-Electrical-Characterization-and-Thin-Film-Metrology_R48575/apply",
+    "evidence_ids": [
+      "aalto/postdoctoral-researcher-in-semiconductor-electrical-characterization-and-thin-film-metrology"
+    ],
+    "retrieved_at": "2026-11-12T14:49:04.898930Z",
+    "raw_snapshot_hash": "ea89edee09004ddbb88cbb0754909abe57e79ce034e2714655fb30652ba0a2b6",
+    "extracted_content_hash": "3642128637f367d7f7d594f40ab93eadf743fa85fab9208d3dd8b36a5a2d12ca",
+    "deadline": "2026-12-15",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-11-12",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including 446 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nAt the Department of Applied Physics, our pioneering research in physical sciences creates important industrial applications that hold great technological potential. Our research focuses on Materials physics, Quantum technology, Soft & living matter, and Advanced energy solutions. Topics extend from fundamental research to important applications. We educate future generations of research and development professionals, data specialists, technology experts, inventors, and scientists for industry and society.\nThe ATOMEL project, led by Dr. Ali Afzalifar and hosted within\nthe Soft Matter and Wetting Group\nheaded by Prof. Robin Ras, invites applications for a Postdoctoral Researcher position in semiconductor electrical characterization and thin-film metrology. The project is funded through a Business Finland Research-to-Business (R2B) commercialization grant.\nABOUT THE JOB\nAre you an experimental semiconductor physicist, materials scientist or experienced R&D engineer/researcher in a closely related field excited about developing next-generation metrology instrumentation and building an international deep-tech startup from research?\nATOMEL\nis a Business Finland Research-to-Business (R2B) project aimed at translating an academic innovation in scanning-probe-based thin-film characterization and electrical metrology into a new deep-tech venture serving the semiconductor industry. As modern microelectronics and advanced device architectures scale to increasingly complex ultrathin film structures, conventional metrology methods face growing limitations in resolving localized electrical and material properties.\nWith our mechanical and instrumentation development already underway, we are seeking an experienced Postdoctoral Researcher to take full scientific and experimental ownership of our semiconductor electrical characterization strategy, physical modeling, and benchmark validation\nYOUR ROLE AND GOALS\nYou will join a focused, full-time R2B core team working in tandem: you (leading Semiconductor Physics & Electrical Metrology), the other postdoctoral researcher/engineer (leading high-precision instrumentation, automation and control systems), our Business Developer (commercial lead), and Dr. Ali Afzalifar (project leader). After a brief onboarding phase, you are expected to operate with a high degree of scientific autonomy, guiding the team on experimental design and measurement physics.\nKey responsibilities include:\nElectrical Characterization & Protocol Design:\nLead the material characterization strategy by independently designing and executing high-precision electrical measurements (such as low-current I–V, C–V, and frequency-dependent impedance/dielectric characterization) on ultrathin films and semiconductor structures.\nPhysical & Electrostatic Modeling:\nDevelop analytical physical models and numerical simulations (e.g., finite-element electrostatic and transport modeling) to predict electrical responses, evaluate substrate and interface effects, and guide experimental parameter selection.\nSolid-State & Dielectric Data Interpretation:\nTranslate raw electrical datasets into reliable physical metrics—such as conduction and leakage mechanisms, dielectric breakdown, charge trapping, and interfacial defect states—while rigorously distinguishing true material behavior from measurement noise, parasitics, and artefacts.\nTest Structure Preparation & Benchmarking:\nSelect, design, and prepare representative semiconductor test vehicles and reference thin films (utilizing OtaNano/Micronova cleanroom and thin-film facilities where needed) to validate and benchmark system performance against established metrology standards.\nHardware-Physics Integration & Industrial Validation:\nWork closely with the instrumentation engineer to optimize electrical measurement workflows on the prototype platform, and contribute to application validation and technical discussions with industrial semiconductor partners.\nYOUR EXPERIENCE AND QUALIFICATIONS\nWe are looking for a hands-on experimentalist who does not merely run standard commercial recipes, but understands the underlying measurement physics deeply enough to design and troubleshoot new characterization experiments from first principles.\nDoctoral Degree (PhD)\n: A PhD in semiconductor physics, Materials Science, Solid-State/Applied Physics, Micro-/Nanoelectronics, Electrical Engineering, or a closely related experimental field.\nAdvanced Electrical Characterization Expertise:\nProven track record in designing and executing high-precision electrical measurements on thin films or solid-state devices, including low-current I–V, C–V, and frequency-dependent impedance or dielectric spectroscopy.\nSemiconductor & Dielectric Physics:\nStrong understanding of MOS/MIS/MIM device physics, high-k dielectrics, electrical transport, dielectric breakdown, charge trapping, interface states, and low-noise/parasitic mitigation in sensitive electrical measurements.\nModeling & Quantitative Analysis:\nAbility to build analytical physical models and numerical simulations (e.g., COMSOL Multiphysics, Python, or MATLAB) to interpret experimental data and guide measurement design.\nCleanroom & Thin-Film Familiarity:\nPractical experience with semiconductor test structures and thin-film deposition/characterization workflows (e.g., ALD, ellipsometry, electrical SPM, or cleanroom wafer testing) is an advantage.\nEntrepreneurial Drive & Communication:\nFluency in English (Finnish is not required), independent problem-solving mindset, and strong motivation to transition into the upcoming deep-tech spin-out company as a key technical leader or potential co-founder after the R2B phase.\nWHAT WE OFFER\nWe offer a high-impact position at the intersection of frontier nanoscale science and commercial semiconductor hardware. You will be based in the Department of Applied Physics at Aalto University with direct access to world-class cleanroom and characterization infrastructure at OtaNano and Micronova (including ALD, electron microscopy, ellipsometry, and advanced electrical/SPM laboratories), alongside mentoring from Aalto Innovation Services and Aalto Startup Center.\nAfter the project, there is an opportunity to become part of the new deep-tech startup as a co-founder.\nThe position is full-time and initially funded for 18 months, with the possibility of extension. The salary depends on experience, with a starting salary of 4229,48–4649,25 € per month (gross). The position includes occupational healthcare.\nWe value a healthy work–life balance and actively support personal and professional development. You will have opportunities to collaborate with leading academic and industry partners and contribute to the development of cutting-edge thin-film metrology instrumentation for the semiconductor industry.\nJoin us!\nPlease submit your application including the attachments mentioned below as one single PDF document in English through our online recruitment system by using the link on Aalto University’s web page (click the “Apply Now” button).\nA letter of motivation (\nmax. 1 page\n): Describe your background, why you are the right person for this role, your interest in research commercialization, and\nyour earliest possible starting date\n.\nCurriculum vitae:\nIncluding a list of publications and contact details for at least two academic or industrial references\nPDF copy of your original doctoral certificate:\nIncluding English translation (Finnish and Swedish certificates are also accepted).\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions). If you are a student or visitor at Aalto University, please apply with your personal email address (not aalto.fi) via\nAalto University open positions\nThe deadline for applications is\n15 December 2026, but candidates are strongly encouraged to apply as soon as possible.\nApplications will be reviewed on a rolling basis, and we will invite suitable candidates to interview already during the application period. The position will be filled as soon as a suitable candidate is identified.\nThe position is available immediately, and the starting date can be agreed upon with the selected candidate.\nFor further information, contact Dr. Ali Afzalifar,\nali.afzalifar@aalto.fi\n, or via phone +358 (0)503515837.\nAalto University reserves the right for justified reasons to leave the position open, to extend the application period, reopen the application process, and to consider candidates who have not submitted applications during the application period.\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\n.\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nCheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report 2025\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in semiconductor electrical characterization and thin-film metrology within Aalto's Department of Applied Physics. The role focuses on designing high-precision electrical measurements (I–V, C–V, impedance spectroscopy), developing physical models via simulation, and validating characterization protocols for ultrathin film structures—with a pathway to co-founding a deep-tech spin-out.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic alignment. The posting is pure experimental semiconductor physics and materials characterization. The researcher's domains (human-centred XR, collaborative immersive systems, spatial learning, wayfinding) are orthogonal. The posting does not mention XR, immersive systems, HCI, user studies, or learning outcomes."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Limited methodological overlap. The researcher has intermediate experimental design and quantitative research skills, but the position requires advanced expertise in electrical measurement design, device physics modeling, and instrumentation integration—none of which are present in the profile. The researcher's experimental work is behavioural/cognitive; this role is materials physics."
+    },
+    "growth_value": {
+      "score": 3,
+      "rationale": "Minimal growth value for the stated target identity. This position would require a complete pivot away from human-centred XR toward condensed matter physics and hardware instrumentation. It does not close capability gaps relevant to immersive systems, spatial cognition research, or HCI methodology."
+    },
+    "strategic_value": {
+      "score": 15,
+      "rationale": "Aalto is a tier-1 institution and fits the target geography (Finland, priority 1). Funding is secured (18 months initial, potential extension). However, the research direction is fundamentally misaligned with the target identity and would not strengthen the pathway toward human-centred immersive systems research. The entrepreneurship angle (spin-out) is a minor positive but does not offset domain misalignment."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "statistics"
+    ],
+    "missing_skills": [
+      "physics domain knowledge (semiconductor/materials physics not in taxonomy)",
+      "electrical measurement instrumentation",
+      "finite-element simulation (COMSOL, MATLAB not mapped to taxonomy)",
+      "cleanroom and thin-film processing workflows",
+      "low-noise measurement and parasitic analysis"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires PhD; researcher holds MSc by Research (in progress). Eligibility hinges on thesis completion and conferral before start date.",
+      "Position explicitly seeks 'hands-on experimentalist' with 'proven track record in high-precision electrical measurements on thin films or solid-state devices'—researcher has no evidence of this.",
+      "Deep-tech spin-out transition assumes commitment to semiconductor hardware commercialization, not HCI research."
+    ],
+    "risks": [
+      "Complete domain mismatch: semiconductor physics vs. human-centred XR. Taking this role would delay or derail PhD trajectory in target research direction.",
+      "Skill gap is large. Researcher would need to develop mastery in solid-state device physics, electrical characterization protocols, and physical modeling—a multi-year learning curve.",
+      "Spin-out pathway is entrepreneurial but tied to a technical domain (metrology hardware) that does not align with target identity (human-centred immersive systems research).",
+      "Aalto Department of Applied Physics has no apparent HCI, XR, or immersive systems research groups. Limited opportunity for future collaboration or community fit."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-12T15:03:23.377787Z",
+    "analysis_input_hash": "98ffeb173f2b8fb174afede984438997fe241a3d04e4cb5318295babbc7afac8"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 7,
+    "urgency": "medium",
+    "days_to_deadline": 33,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
