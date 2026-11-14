@@ -1,0 +1,173 @@
+{
+  "id": "opp_tudelft-phd-position-improving-symbolic-ai-through-learning",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-14T13:12:42.747261Z",
+  "updated_at": "2026-11-14T13:25:58.131591Z",
+  "change_history": [
+    {
+      "ts": "2026-11-14T13:12:42.747393Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-14T13:25:57.561135Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-14T13:25:58.131591Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Improving Symbolic AI through Learning and Reasoning",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1377485557",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Improving-Symbolic-AI-through-Learning-and-Reasoning-2628-CD/1377485557/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Improving-Symbolic-AI-through-Learning-and-Reasoning-2628-CD/1377485557/",
+    "evidence_ids": [
+      "tudelft/1377485557"
+    ],
+    "retrieved_at": "2026-11-14T13:12:42.747064Z",
+    "raw_snapshot_hash": "e07c88014bcd22b8b60c89abb9c5dc579e33979b0549b2d494f6cbfb8cd4a4cd",
+    "extracted_content_hash": "ddd027b2a21f0a28d74a79adb0623bf6e1e9b3df600dedc3e3de4ea22b08e23c",
+    "deadline": "2026-11-27",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Join TU Delft in developing AI that thinks like a scientist\nJob description\nWhile all the headlines are full of AI learning from massivve datasets, in this position you will investigate how can we teach machines to learn from tiny amounts of data. You will investigate how how can we achieve this goal by making AI think like a scientist -- reason about which models and plausible and should be explored. We will build this new approach upon the combination of program synthesis and automated reasoning, and apply it to actual problems from scientific discovery and robotics.\nYou will join the Algorithmics Group in the Department of Software Technology, Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS). You will collaborate with PhD students and postdocs working on program synthesis and automated reasoning, and will have opportunities to co-supervise students. You will be supervised by Prof. Sebastijan Dumancic.\nJob requirements\nThe ideal candidate will be an ambitious, proactive, reflective, and results-driven researcher. We are looking for the following:\nMSc degree in Computer Science and/or Artificial Intelligence (essential)\nprior experience in automated reasoning (essential)\nprior experinece with symbolic machine learning approaches (essential)\nprior experience in applying automated reasoning or machine learning in biology, chemistry, or other naturla sciences (desirable)\ngood communication, organisation, and writing skills\ngood programming skills and desire to produce usable open-source software\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Sebastijan Dumancic, via\ns.dumancic@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n27 November 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter (max. 1-2 pages) explaining your interest in this project, why you want to do a PhD, and how your background fits the project\nTranscripts\nMSc thesis (if not yet written, then a draft)\nYou can address your application to Sebastijan Dumancic.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in symbolic AI, program synthesis, and automated reasoning applied to scientific discovery and robotics. Focus on learning from small datasets by combining symbolic machine learning, automated reasoning, and scientific discovery workflows.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 15,
+      "rationale": "Position is rooted in symbolic AI, automated reasoning, and machine learning algorithm development. While the posting mentions robotics, the core is pure ML/symbolic AI methodology—not human factors, user studies, or human-centred design. The researcher's domains (spatial cognition, collaborative systems, learning through immersive experience) are orthogonal to symbolic reasoning and program synthesis."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Requires expertise in automated reasoning, symbolic machine learning, and program synthesis—specialized algorithmic work. The researcher's methods are user studies, experimental design, and human-centred evaluation. No evidence of work in symbolic AI, formal reasoning, or algorithmic ML development. Per the rules, pure ML algorithm development is an excluded poor-fit category."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Would develop expertise in symbolic AI and automated reasoning. However, these capabilities do not advance the researcher's target identity (human-centred XR, spatial learning, collaborative immersive systems). This represents a fundamental pivot toward pure algorithmic ML, contradicting the researcher's stated exclusion of 'pure-machine-learning-algorithms'."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "TU Delft is a priority-1 institution in the Netherlands (preferred country). Prof. Sebastijan Dumancic is an established researcher in symbolic AI. However, the Algorithmics group operates in formal CS/AI theory, not human-centred or immersive systems research. Limited exposure to the researcher's target community and supervisor expertise does not bridge HCI and symbolic AI research."
+    },
+    "required_skills": [
+      "automated-reasoning",
+      "symbolic-machine-learning",
+      "program-synthesis",
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "automated-reasoning",
+      "symbolic-machine-learning",
+      "program-synthesis"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position explicitly requires 'prior experience in automated reasoning' and 'prior experience with symbolic machine learning approaches'—researcher has neither",
+      "Researcher's MSc is in progress; must complete before doctoral enrolment"
+    ],
+    "risks": [
+      "Pure ML algorithm development is in researcher's excluded directions",
+      "No supervisor expertise in human-centred design, XR, or human factors",
+      "Mismatch between target identity (human-centred XR researcher) and position focus (symbolic AI algorithms)",
+      "Would struggle in a symbolic AI group without foundational background; limited mentorship for HCI/user-centred work"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-14T13:25:57.560846Z",
+    "analysis_input_hash": "48254fe01ae52cf26a4855786712ed0103b345a86ad8991e31538db141e32c11"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 15,
+    "urgency": "high",
+    "days_to_deadline": 13,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

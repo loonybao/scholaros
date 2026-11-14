@@ -1,0 +1,178 @@
+{
+  "id": "opp_tudelft-phd-position-in-computational-design-and-fabrication",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-14T13:12:31.779479Z",
+  "updated_at": "2026-11-14T13:25:58.133114Z",
+  "change_history": [
+    {
+      "ts": "2026-11-14T13:12:31.779619Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-14T13:25:57.562050Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-14T13:25:58.133114Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position in Computational Design and Fabrication of Adaptive 3D-Printed Structures",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-industrial-design-engineering",
+    "source": "tudelft",
+    "source_native_id": "1377456457",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Computational-Design-and-Fabrication-of-Adaptive-3D-Printed-Structures-2628-CD/1377456457/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-in-Computational-Design-and-Fabrication-of-Adaptive-3D-Printed-Structures-2628-CD/1377456457/",
+    "evidence_ids": [
+      "tudelft/1377456457"
+    ],
+    "retrieved_at": "2026-11-14T13:12:31.779292Z",
+    "raw_snapshot_hash": "2931eb4f348d64fadc73367cef9cfe1652db11ebae2fa4b50bec298033d6a2c7",
+    "extracted_content_hash": "c152dc4c8e366ae5c96ba96c04e2ea8a4c08b9f8259c304ba49605bd7bec0ed6",
+    "deadline": "2026-11-27",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Help shape the future of products that sense and adapt to the human body, using multi-material 3D printing and computational design.\nJob description\nMany products that support or interact with people need structures that do more than carry loads: they must respond reliably to changing forces and patterns of use. Multi-material additive manufacturing makes it possible to integrate different mechanical and functional behaviours within a single structure. Yet designing structures that combine load-bearing performance with embedded sensing and controlled adaptation remains a major challenge. Addressing it calls for new ways to connect geometry, material behaviour and manufacturing with the needs of people who use the resulting products.\nIn this PhD, you will develop and investigate computational design approaches for multi-material 3D-printed structures. You will explore how geometry, material distribution, electronics functions and manufacturing parameters can be designed together to achieve desired structural and functional behaviour. You will also design and fabricate prototypes that incorporate sensing and geometry-driven mechanisms for adaptation. Combining computational modelling with hands-on experiments, you will evaluate structural behaviour, sensing performance and durability under static and cyclic loading. You will interpret the results, refine design methods, integrate promising concepts into demonstrators, and communicate your findings through scientific publications and presentations.\nYour research will include:\nDeveloping fabrication-aware computational workflows for lattice geometries and multi-material layouts.\nDesigning and making 3D-printed prototypes to investigate load-bearing, sensing and adaptive behaviour.\nUsing computational modelling and experiments to evaluate stiffness, deformation, sensing and actuation performance, and durability.\nIntegrating and validating concepts in demonstrators, including a wheelchair cushion to evaluate sitting pressure redistribution and user comfort.\nYou will be part of the Materializing Futures group in the Department of Sustainable Design Engineering, Faculty of Industrial Design Engineering, supervised by Dr. Mehmet Özdemir and Dr. Wolf Song. You will have access to the faculty’s digital fabrication facilities and the Comfort Lab, and collaborate with experts in ergonomics, and smart materials, as well as industry partners.\nJob requirements\nWe look for candidates who have:\nA Master’s degree (or equivalent) in Industrial Design Engineering, Mechanical Engineering, Materials Science, or a related field\nHands-on experience with 3D printing and with building and testing physical prototypes\nExperience with computational or parametric design (e.g. Rhino/Grasshopper, Python)\nStrong interest in combining mechanics, materials, electronics, and human factors, and in research with sound experimental design\nAbility to work in a multidisciplinary team, communicate effectively and take initiative\nProficiency in written and spoken English\nDesirable experience:\nExperience with sensors and basic electronics for sensor readout and control (e.g. Arduino), finite element analysis, soft robotics or user studies, and prior publications are assets but not requirements.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Industrial Design Engineering\nMatching the evolution of people with the speed of the revolution of technology. This is the focus of the Faculty of Industrial Design Engineering (IDE). Delft designers act as a bridge between advances in technology and the needs of people, organisations and society to create products, services and systems with purpose.\nIDE is a leader in design research across the application areas of mobility, sustainability and health, as well as its development of design tools and methods. A 350-strong research team and over 2,000 students work together in our inspiring hall, labs and studios.\nIn close cooperation with industry, the public sector and NGOs we rehearse possible futures in research and education to design for a complex future.\nClick\nhere\nto go to the website of the Faculty of Industrial Design Engineering.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities , increasing from Promovendus gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Mehmet Özdemir, e-mail:\nmehmet.ozdemir@tudelft.nl\nApplication procedure\nApply via the application button before\n27 November 2026\nand upload your CV and cover letter.\nOptional:\nYou may include a portfolio of relevant work, or include links to relevant projects, code samples or publications in your CV.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in computational design and multi-material 3D printing for adaptive structures. Research combines parametric design workflows, fabrication-aware computation, and experimental validation of load-bearing, sensing, and adaptive behaviour. Application domain includes assistive devices (wheelchair cushion). Multidisciplinary work across design, mechanics, materials, electronics, ergonomics.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 45,
+      "rationale": "Position bridges design engineering, human factors (ergonomics, comfort, user studies), and technology. The wheelchair cushion demonstrator involves human-centred evaluation and user comfort, which aligns with the researcher's interest in human factors and learning outcomes. However, the core research is computational design and fabrication—not spatial cognition, wayfinding, collaborative systems, or immersive learning. The human element is secondary (ergonomics/usability) rather than central to the research design."
+    },
+    "methodological_fit": {
+      "score": 50,
+      "rationale": "Requires parametric design (Rhino/Grasshopper, Python), FEA, experimental validation, and user studies. The researcher has intermediate user-studies and experimental-design skills, and beginner Python. The position values 'hands-on prototyping and testing'—the researcher has strong XR prototyping experience (Unity/C#). However, the core methods (CAD, FEA, CFD, mechanical testing) differ from the researcher's XR/HCI toolkit. User studies are a methodological bridge, but the design research paradigm (computational fabrication) is distinct from immersive learning evaluation."
+    },
+    "growth_value": {
+      "score": 55,
+      "rationale": "Would develop skills in parametric design, FEA, and human-factors evaluation in assistive technology—adjacent to human-centred research but not directly advancing spatial cognition or immersive learning. Could strengthen experimental design and user-study rigor. Limited growth value for target identity unless the researcher reframes toward assistive/adaptive tech design rather than immersive learning."
+    },
+    "strategic_value": {
+      "score": 60,
+      "rationale": "TU Delft (priority-1, Netherlands, preferred country) is strong. The Faculty of Industrial Design Engineering bridges design and engineering, with emphasis on human needs and multidisciplinary collaboration. Dr. Mehmet Özdemir and Dr. Wolf Song supervise user-centred design research. This is strategically aligned with human-centred values, though not with immersive XR or spatial cognition specifically. Good foundation for design-research career; less direct path to the researcher's XR target."
+    },
+    "required_skills": [
+      "computational-design",
+      "3d-printing",
+      "prototyping-and-testing",
+      "python",
+      "experimental-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "python",
+      "user-studies"
+    ],
+    "missing_skills": [
+      "computational-design",
+      "cad-parametric-design",
+      "finite-element-analysis",
+      "3d-printing-fabrication"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher has beginner Python; position 'desirable' FEA experience but not mandatory",
+      "MSc by Research (in progress) must be completed; no timeline certainty",
+      "Researcher's XR background is not mentioned in position description; reframing needed to demonstrate transfer of experimental/prototyping methods"
+    ],
+    "risks": [
+      "Methodological shift: from immersive XR development to computational design and fabrication; supervisor expertise is in design engineering, not HCI or immersive systems",
+      "Research domain (adaptive structures, assistive tech) is adjacent but distinct from spatial learning and wayfinding",
+      "Risk of sidelining immersive learning expertise unless user-study and human-factors components are central",
+      "Limited connection to immersive-systems research community; may reduce networking value for target identity"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.75,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-14T13:25:57.561770Z",
+    "analysis_input_hash": "54ad977d75889ca46d6bc5b68ed69b8c43c6c312340905b7b64626f224ac2fae"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 50,
+    "urgency": "high",
+    "days_to_deadline": 13,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

@@ -1,0 +1,135 @@
+---
+id: opp_varbi-postdoc-in-advanced-solar-pvt-systems-and-experimental
+type: opportunity
+title: "Postdoc in Advanced Solar PVT Systems and Experimental Modelling"
+organisation: "KTH Royal Institute of Technology"
+deadline: 2026-12-31
+status: open
+eligibility_gate: uncertain
+fit_overall: 11
+urgency: low
+needs_review: true
+---
+
+# Postdoc in Advanced Solar PVT Systems and Experimental Modelling
+
+**Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
+**Deadline:** 2026-12-31
+**Location:** Stockholm, Sweden
+**Position type:** postdoc
+**Salary:** not stated
+**Duration:** not stated
+**Status:** open
+**Official source:** https://kth.varbi.com/en/what:job/jobID:990126/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 47)
+
+- funding/salary not confirmed on the posting
+- posting mentions possible nationality/export-control restrictions — verify which roles are affected
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Postdoc in Advanced Solar PVT Systems and Experimental Modelling
+Login and apply
+KTH Royal Institute of Technology, School of Architecture and Built Environment
+Job description
+The project advances solar energy solutions for Scandinavian climates, with particular emphasis on photovoltaic-thermal (PVT) systems and air-based heat recovery. The postdoctoral researcher will combine high-performance computing (HPC), computational fluid dynamics (CFD) and system-level energy simulations with carefully designed experiments. Tasks include designing and conducting measurement campaigns, applying thermal imaging to assess heat transfer and solar performance, validating numerical models against monitored data, and optimising system configurations and operation under Nordic conditions. The researcher will publish scientific results and collaborate with academic and industrial partners. The postdoc reasearcher will perform 20% teaching and department duties.
+Qualifications
+Requirements
+A doctoral degree or an equivalent foreign degree. This eligibility requirement must be met no later than the time the employment decision is made.
+PhD in solar energy, thermal engineering, building energy systems or a closely related field.
+Documented research experience in PVT or closely related solar-thermal technologies, experimental design and measurement methods.
+Experience with CFD, numerical energy system modelling and HPC workflows.
+Practical knowledge of thermal imaging and quantitative analysis of experimental data.
+Ability to communicate research results effectively in English, as this will be required in day-to-day work.
+Preferred qualifications
+A doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline
+Research on air-based PVT systems and operation in cold or Nordic climates.
+Experience with instrument installation, uncertainty analysis and model calibration.
+Swedish-language skills facilitating fieldwork and collaboration with Swedish partners.
+Awareness of diversity and equal opportunity issues, with specific focus on gender equality
+Great emphasis will be placed on personal skills.
+Join us at KTH
+KTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.
+Learn more about our benefits and what it's like to work and grow at KTH.
+Trade union representatives
+Contact information to
+trade union representatives.
+To apply for the position
+Log into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.
+The application must include:
+CV including relevant professional experience and knowledge.
+Copy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.
+Brief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.
+Your complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).
+About the employment
+The position offered is for, at the most, two years.
+A
+position as a postdoctoral fellow
+is a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.
+Other information
+For
+information about processing of personal data
+in the recruitment process.
+It may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.
+We firmly decline all contact with staffing and recruitment agencies and job ad salespersons.
+Disclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.
+Type of employment
+Temporary position
+Contract type
+Full time
+First day of employment
+According to agreement
+Salary
+Monthly salary
+Number of positions
+1
+Full-time equivalent
+100 %
+City
+Stockholm
+County
+Stockholms län
+Country
+Sweden
+Reference number
+PA-2026-3903
+Contact
+Qian Wang, qianwang@kth.se
+Published
+13.Nov.2026
+Last application date
+31.Dec.2026
+Login and apply
+Share links
+Return to job vacancies
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+
+Postdoctoral researcher position in solar photovoltaic-thermal (PVT) systems for Scandinavian climates. Research combines high-performance computing (HPC), computational fluid dynamics (CFD), energy system simulations, experimental validation via thermal imaging, and field measurement campaigns. Includes 20% teaching.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 5 |
+| Strategic value | 20 |
+| **Overall** | **11** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** cfd, hpc-workflows, thermal-imaging, numerical-energy-modelling
+
+**Risks:**
+- Fundamental domain mismatch: thermal engineering vs. HCI/immersive learning
+- No supervisor expertise in human-centred design or XR
+- Lack of foundational knowledge in CFD and thermal physics; steep learning curve with limited mentorship
+- Postdoctoral position intended as consolidation step; poor fit would hinder transition to independent research in target domain
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoc-in-advanced-solar-pvt-systems-and-experimental.md` and link [[opp_varbi-postdoc-in-advanced-solar-pvt-systems-and-experimental]]._

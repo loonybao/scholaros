@@ -1,0 +1,175 @@
+{
+  "id": "opp_aalto-doctoral-researcher-heterogeneous-integration-for-powe",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-14T13:10:05.224643Z",
+  "updated_at": "2026-11-14T13:25:57.928981Z",
+  "change_history": [
+    {
+      "ts": "2026-11-14T13:10:05.224787Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-14T13:25:57.560067Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-14T13:25:57.928981Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher – Heterogeneous Integration for Power Electronics",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-electrical-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-heterogeneous-integration-for-power-electronics",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-heterogeneous-integration-for-power-electronics",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-Researcher---Heterogeneous-Integration-for-Power-Electronics_R48584-3/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-heterogeneous-integration-for-power-electronics"
+    ],
+    "retrieved_at": "2026-11-14T13:10:05.224449Z",
+    "raw_snapshot_hash": "f721af6e3392236c2aea3d608fd43282e38504b4655319727c96fb442ec3e7a3",
+    "extracted_content_hash": "0f39490969a55391e01f2e0ae972545312afcb1e13adbd3bfd07347bfdf00370",
+    "deadline": "2026-12-14",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-11-12",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Electronics Integration and Reliability (EILB) (\nElectronics Integration and Reliability | Aalto University\n) is a research group at Aalto University School of Electrical Engineering. We advance next‑generation electronics through innovative materials, device design, and bonding technologies. By leveraging high‑quality AlN and high‑Al‑content AlGaN, distributed polarization doping, and advanced packaging and interconnection concepts, we develop solutions for cutting‑edge power electronics based on wide‑bandgap (WBG) and ultra‑wide‑bandgap (UWBG) semiconductors, as well as for RF applications and smart sensors. Our mission is to enable miniaturized, sustainable, and energy-efficient systems with superior power handling, higher breakdown voltages, and enhanced high temperature performance.\nWe are looking for a\ndoctoral researcher\nto advance miniaturised, high‑density heterogeneous integration of WBG and UWBG power electronics through novel high‑temperature interconnects—including solid–liquid interdiffusion (SLID), hybrid and diffusion bonding, and sintering technologies—in collaboration with our international research partners. The research will investigate how interconnect interfacial compatibility, metallurgy and microstructures, and local interface states and defects influence electrical and thermal performance, and long‑term reliability of power electronic modules. These innovative solutions necessitate profound requirement specifications and co-design of thermal, thermomechanical, and microstructural aspects, based on a deep understanding of the electrical requirements of WBG/UWBG semiconductors. The goal is to design, manufacture, and characterise reliable, highly integrated, ultra‑high‑power‑density power modules [~50 kW/L (or kg)] or “power chiplets”. These power modules incorporate innovative control and sensing functions by utilising novel interconnection technologies, which are developed by utilizing advanced materials characterisation methods, electrical and thermal measurements, and multiphysics modelling.\nRequirements\nM.Sc. or equivalent degree in a suitable area (e.g. electrical engineering, physics or materials science)\ngood knowledge and understanding of WBG and UWBG power semiconductor technologies\nexperience in multiphysics simulation tools such as COMSOL, ANSYS and circuit design tools like SPICE or PLEX\nexperience of working in a cleanroom\nexperience or genuine interest in advanced microfabrication, novel interconnection and material characterization methods\nexperience or genuine interest in electronics reliability assessment and failure analysis tools\nstrong analytical and writing skills\nIf you are chosen for this position, you will then apply for the study right in doctoral studies at Aalto University School of Electrical Engineering. Thus, please see the student information and admission criteria at\nhttps://www.aalto.fi/en/study-options/aalto-doctoral-programme-in-electrical-engineering\n.\nWe offer\nThe position is fixed term and follows the school’s standard 2+2 model for doctoral researchers. It will be made initially for two years, with a six-month probationary period, and extended by two further years after a successful mid-term review, giving a total duration of four years\nopportunity to conduct independent research in a cutting-edge OtaNano infrastructure of Micronova (\nhttps://www.aalto.fi/en/otanano/micronova\n) and Nanomicroscopy Center (\nhttps://www.aalto.fi/en/otanano/nanomicroscopy-center\n)\npossibility of building international industrial and academic networks within large national and pan-European public-private-partnership projects, in which the EILB team is participating\nmultidisciplinary course curriculum of Aalto University\nstarting salary of 3143 €/month\noccupational health and social security benefits\nThe position is available immediately\nCurious to make a difference?\nPlease submit your application through our recruitment system by\n14\nDecember 2026\n. If you are already working at Aalto, please apply via our internal system Workday. If you are a student or visitor at Aalto University, please apply with your personal email address.\nAll applications must include the following materials:\nMotivation letter\nwith the applicant’s contact information and an indication of the preferred starting date (max 1 page)\nCV\nincluding details of all academic outputs\nReferences\nDescription of Master’s thesis project\n(max 1 page)\nCourse transcripts of Bachelor’s and Master’s degrees with grades\n(with a clear explanation of the grading scale).\nAll materials should be submitted in English in a single PDF file (compiled in the order specified above). Applications submitted by email will not be accepted. We will go through applications, and we may invite suitable candidates to interview already during the application period. Aalto University reserves the right to leave the position open, extend the application period, and consider candidates who have not applied during the application period.\nFor more information about the role, please contact Principal University Lecturer Vesa Vuorinen (vesa.vuorinen(at)aalto.fi).  For questions related to the application process, please contact HR Advisor Johanna Haapalainen (hr-elec(at)aalto.fi).\nAbout Aalto University\nAalto University builds on the legacy of three leading Finnish universities: Helsinki University of Technology, Helsinki School of Economics and the University of Art and Design Helsinki. Since 2010, we have brought science, art, technology and business together in new ways.\nToday, the Aalto community consists of 16,000 students and 5,200 employees, including 446 professors. Half of our faculty members have an international background. Our campus in Espoo is a vibrant cluster of research and innovation with striking architecture, peaceful nature, open spaces for collaboration, and a wide range of services, all with excellent public transport connections.\nDiversity is part of who we are. We work actively to build a community where people can belong, contribute and grow.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Doctoral researcher position in power electronics, specifically heterogeneous integration of wide-bandgap semiconductors through advanced interconnect technologies (SLID, hybrid bonding, sintering). Research combines materials characterization, electrical/thermal measurement, multiphysics modelling, and reliability assessment.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Position is rooted in materials science, semiconductor physics, and power electronics engineering. No mention of human factors, user studies, spatial cognition, learning outcomes, or immersive systems. The researcher's expertise is in human-centred XR and collaborative spatial learning—fundamentally different research paradigms."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Requires multiphysics simulation (COMSOL, ANSYS), cleanroom microfabrication, materials characterization, and electronics reliability—none of which align with the researcher's methods (user studies, experimental design for learning transfer, XR prototyping). The researcher has no evidence of physics-level modelling, materials science training, or hardware characterization experience."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Position would require retraining in semiconductor physics and materials science—a complete pivot away from the researcher's target identity and excluded directions. No pathway to strengthen spatial cognition, HCI, or collaborative immersive systems research."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "Aalto is a priority-1 institution and located in a preferred country (Finland), which is positive. However, the Electronics Integration and Reliability group operates in a technical domain unrelated to the researcher's trajectory. The researcher's goal is human-centred XR research; this position offers neither methodological adjacent fit nor supervisor expertise in that space."
+    },
+    "required_skills": [
+      "multiphysics-simulation",
+      "cleanroom-fabrication",
+      "materials-characterization",
+      "electronics-reliability",
+      "circuit-design"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "multiphysics-simulation",
+      "cleanroom-fabrication",
+      "materials-characterization",
+      "electronics-reliability",
+      "circuit-design"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSc by Research (in progress, thesis stage) must be completed before doctoral enrolment; timeline unclear",
+      "Researcher has no background in materials science, physics, or semiconductor engineering"
+    ],
+    "risks": [
+      "Complete domain mismatch: materials science/power electronics vs. HCI/immersive learning",
+      "No supervisor expertise in human-centred design, XR, or learning science",
+      "Would require fundamental retraining; risk of poor research fit and limited publication potential in target identity",
+      "Unlikely to build capabilities relevant to human-centred XR research community"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-14T13:25:57.559607Z",
+    "analysis_input_hash": "ce473654bdfe207d2df28d07d94004ee1a8966b3f309e92421e66b4437e3bd71"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 10,
+    "urgency": "medium",
+    "days_to_deadline": 30,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
