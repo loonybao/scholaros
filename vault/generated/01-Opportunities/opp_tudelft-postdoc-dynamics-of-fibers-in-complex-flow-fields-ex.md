@@ -1,0 +1,111 @@
+---
+id: opp_tudelft-postdoc-dynamics-of-fibers-in-complex-flow-fields-ex
+type: opportunity
+title: "Postdoc Dynamics of Fibers in Complex Flow fields (experimental)"
+organisation: "TU Delft"
+deadline: 2026-12-07
+status: open
+eligibility_gate: uncertain
+fit_overall: 8
+urgency: high
+needs_review: true
+---
+
+# Postdoc Dynamics of Fibers in Complex Flow fields (experimental)
+
+**Organisation:** [[org_tu_delft]] (TU Delft)
+**Deadline:** 2026-12-07
+**Location:** Delft, Netherlands
+**Position type:** postdoc
+**Salary:** €3706 - €5760 per month (stated range)
+**Duration:** not stated
+**Status:** open
+**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-Dynamics-of-Fibers-in-Complex-Flow-fields-%28experimental%29-2628-CD/1377574957/
+
+## Eligibility
+
+Gate: **uncertain** (days to deadline: 21)
+
+- whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
+
+## Description
+
+Put your fundamental expertise in fluid mechanics to work for reducing plastic microfiber pollutant release
+Job description
+A postdoc position is available in the
+Garbin lab
+on the NWO-funded project "MicroWash: Reducing plastic microfiber pollutant release at the source by rational flow design". As part of an interdisciplinary team, you will explore the fluid mechanics of microfibers in complex flow fields. The project team also comprises 2 PhD candidates with complementary expertise and working in close collaboration. In this experimental project, you will explore the use of microfluidics and acoustofluidics to tailor flow fields to manipulate microfibers. The Garbin lab is embedded in the Transport Phenomena & Reaction Engineering section of the Department of Chemical Engineering. You will also have the opportunity to contribute to education in the BSc and MSc programs. The project offers exciting synergies with the industrial partner and non-governmental organizations involved in the MicroWash project, and with our international network of collaborators.
+Job requirements
+We are looking for a postdoc interested in fundamental research and with a passion for innovation. You must have a PhD in Mechanical Engineering, Chemical Engineering, Applied Physics (or equivalent) by the start of the project. A strong track record in fluid mechanics is essential for this project, as demonstrated by publications in leading disciplinary journals in fluid mechanics. Extensive experience with experimental methods in microscopy and image analysis is required, as the project includes a major component of experimental work with advanced and custom setups. It is important that you possess good written and verbal communication skills and are open to collaboration, as the project requires coordination and synergy with other team members and external partners.
+Lastly, an ambition to bridge fundamental research with impact on society will be highly valued.
+TU Delft (Delft University of Technology)
+Working at TU Delft means contributing to solutions that really make a difference.
+For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
+At TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.
+Faculty Applied Sciences
+With more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.
+Click
+here
+to go to the website of the Faculty of Applied Sciences.
+Conditions of employment
+Duration of contract is 2 years. Temporary.
+A job of 36-40 hours per week.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+An excellent pension scheme via the ABP.
+The possibility to compile an individual employment package every year.
+Discount with health insurers on supplemental packages.
+Flexible working week.
+Every year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.
+Plenty of opportunities for education, training and courses.
+Partially paid parental leave
+Attention for working healthy and energetically with the vitality program.
+Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
+Coming to Delft Service
+, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
+Dual Career Programme
+is available, to support your accompanying partner with their job search in the Netherlands.  .
+Additional information
+If you would like more information about this vacancy or the selection procedure, please contact  Prof. Valeria Garbin (
+v.garbin@tudelft.nl
+). Please do not send your application via email.
+Application procedure
+Are you interested in this vacancy? Please apply no later than
+7
+December 2026
+via the application button and upload the following documents:
+Cover letter describing your motivation for joining our group and working on this project
+Curriculum Vitae
+If the applicants are selected for an interview, they will be asked to provide contact details of three referees with their consent.
+You can address your application to Prof. Valeria Garbin.
+Please note:
+To protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.
+As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
+knowledge security.
+Please do not contact us for unsolicited services.
+
+## AI analysis
+
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+
+Postdoctoral position in experimental fluid mechanics, part of an NWO-funded project on microfiber pollution reduction through flow field design. The role involves microfluidics, acoustofluidics, microscopy, and image analysis to explore fiber dynamics in complex flows, with collaboration across an interdisciplinary team and potential teaching contribution.
+
+| Dimension | Score |
+|---|---|
+| Thematic fit | 3 |
+| Methodological fit | 8 |
+| Growth value | 5 |
+| Strategic value | 20 |
+| **Overall** | **8** |
+
+**Fit type:** poor-fit
+
+**Missing skills:** fluid-mechanics, microscopy, image-analysis
+
+**Risks:**
+- Disciplinary credential risk: the researcher's PhD (if completed in HCI/XR) would not establish credibility in fluid mechanics or materials science. Reviewers may question whether this candidate can conduct independent research in a domain with no background.
+- Skill and knowledge gap risk: the researcher would require substantial foundational training in fluid dynamics, thermodynamics, and advanced microscopy. Productivity in a 2-year postdoc would be severely impaired during ramp-up.
+- Career coherence risk: a postdoctoral publication record in environmental physics would not support future positions in HCI or XR research. This creates a permanent disjoint in the researcher's CV.
+- Research culture mismatch: fluid mechanics and materials science emphasize quantitative prediction and physical modeling. HCI research emphasizes human experience, qualitative insight, and design iteration. These cultures would likely create discomfort or misalignment with the supervisor and group.
+
+---
+_Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-dynamics-of-fibers-in-complex-flow-fields-ex.md` and link [[opp_tudelft-postdoc-dynamics-of-fibers-in-complex-flow-fields-ex]]._
