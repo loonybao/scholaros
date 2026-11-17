@@ -1,0 +1,175 @@
+{
+  "id": "opp_tampere-postdoctoral-research-fellow-4",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-17T15:41:01.768476Z",
+  "updated_at": "2026-11-17T15:56:26.191513Z",
+  "change_history": [
+    {
+      "ts": "2026-11-17T15:41:01.768605Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-17T15:55:32.275343Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-17T15:56:26.191513Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Research Fellow",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3232",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3232",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3232#login_form",
+    "evidence_ids": [
+      "tampere/3232"
+    ],
+    "retrieved_at": "2026-11-17T15:41:01.768192Z",
+    "raw_snapshot_hash": "0b05c9c19ccbb6471351b0d84ae68cfc86af98dae7b255bd4987de269b152448",
+    "extracted_content_hash": "79e6c6ab7e7a4caef436063d89f49fd291a337f52b52d9865eeea043690f050c",
+    "deadline": "2026-12-15",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-11-17",
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "T\nampere University is a unique, boldly future‑oriented and evolving community, and one of Finland’s most multidisciplinary universities. At Tampere University, technology, health and society come together in a distinctive way. Our research groups and projects carry out interdisciplinary and cross-sectoral research that transcends organisational boundaries. Our community is international, with members from more than 80 countries. Read more at\nTampere University (TAU) | Tampere University\n.\nWe are looking for a\nPostdoctoral Research Fellow\nto develop new theories and methodologies for Deep Learning.\nThe research scope is intentionally open. The specific research topic will be selected jointly with each successful applicant based on:\nthe scientific importance and potential impact of the topic,\nits relevance to emerging directions in Machine Learning and related domains (including Computer Vision, Robot Perception, AIoT, Neuromorphic Computing, etc.)\nthe applicant’s background, strengths, and research interests, and\nits fit with the research activities of the Computational Intelligence group and the broader ELLIS research community.\nThe positions are funded by\nELLIS Institute Finland\n, which places Fundamental Machine Learning research at the core of its activities and connects this research with applications and societal impact. The successful applicants will join the Computational Intelligence group led by Professor Alexandros Iosifidis at Tampere University.\nThe position is full-time and will be filled for a fixed term of three years, starting on 1 February 2027, or as soon as possible thereafter by mutual agreement. The workplace is located at the Hervanta Campus of Tampere University, Finland.\nThe Postdoctoral Research Fellow will interact closely with ELLIS Institute Finland and the wider ELLIS community. ELLIS is a pan-European network of excellence in machine learning and AI that supports international collaboration and the development of researchers across Europe.\nJOB DESCRIPTION\nThe Postdoctoral Research Fellow will conduct ambitious research on the\ntheoretical foundations and methodological development of deep learning models\n.\nThe research may address, but is not limited to:\nlearning principles and theoretical foundations of deep models,\nrepresentation learning and self-supervised learning,\noptimization and training dynamics of deep neural networks,\ngeneralization, robustness, adaptation, and uncertainty,\nefficient, structured, modular, or interpretable deep learning,\nmultimodal, generative, or foundation models,\ncontinual, collaborative, or distributed learning,\ndeep learning for scientific, physical, or embodied systems, and\nother high-impact or emerging topics in machine learning.\nThese areas are indicative rather than prescriptive. Applicants are encouraged to propose original research questions that they consider important, timely, and scientifically ambitious.\nThe successful applicant will be expected to pursue substantial methodological or theoretical contributions rather than only apply established models to new datasets or application domains. Application-driven research is welcome when it motivates or requires new machine learning methods, theories, or learning principles.\nThe Postdoctoral Research Fellow will:\ndefine and lead an original research agenda,\nformulate important research questions in deep learning,\ndevelop and analyze new learning methods and models,\nconduct theoretically or empirically rigorous research,\npublish results in leading international conferences and journals,\npresent research at major international scientific events,\ncollaborate with researchers at the Computational Intelligence group, its collaborators, and ELLIS Institute Finland,\ncontribute to research proposals and the development of new collaborative projects,\ncontribute to the supervision and mentoring of doctoral and master’s students, and\ntake an active role in the scientific activities of the Computational Intelligence group and the ELLIS Institute Finland.\nThe research is expected to target internationally leading venues relevant to the selected topic. These may include NeurIPS, ICML, ICLR, AISTATS, COLT, JMLR, AAAI, IJCAI, CVPR, ICCV, ECCV, CoRL, IEEE Transactions on Pattern Analysis and Machine Intelligence, and other venues included in the\nELLIS list of approved publication venues\n.\nIn addition, the duties of the Postdoctoral Research Fellow may include some teaching tasks (5-10%) in topics connected to their expertise.\nREQUIREMENTS\nApplicants must have:\nA doctoral degree in Computer Science, Machine Learning, Artificial Intelligence, Computer Engineering, Applied Mathematics, Statistics, Signal Processing, Robotics, or another relevant field.\nA strong publication record in leading peer-reviewed conferences or journals in machine learning, artificial intelligence, or a closely related field.\nAt least one publication in an\nELLIS-approved publication venue\n, or a publication of comparable scientific quality and selectivity in a directly relevant field.\nEvidence of a substantial personal contribution to the publications included in the application.\nStrong programming skills and experience with at least one major deep learning framework, such as PyTorch, JAX, or TensorFlow.\nThe ability to lead research independently while collaborating effectively in an international research environment, and\nThe ability to communicate research clearly through scientific publications, presentations, and discussions.\nThe doctoral degree must have been completed before the position begins. Applicants who have submitted their doctoral dissertation but have not yet formally received the degree may apply, provided that they can complete all degree requirements before the agreed starting date.\nWE OFFER\nThe full-time position will be filled for a fixed-term period for three years,\nstarting from February 1\nst\n, 2027\n, or as soon as possible thereafter. The exact employment period will be agreed with the selected applicants and is subject to Tampere University’s employment conditions.\nThe salary will be based on both the job requirements and the employee’s personal performance in accordance\nwith the Finnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of a Postdoctoral Research Fellow is placed on level 5 of the job requirements scale. A typical starting salary for a postdoctoral researcher fellow is 4000-4200 EUR/month. The salary increases based on performance.\nAs a member of staff at Tampere University, you will enjoy a range of competitive benefits, such as occupational health care services, flexible work schedule, versatile research infrastructure, modern teaching facilities and a safe and inviting campus area as well as a personal fund to spend on sports and cultural activities in your free time. Please read more about\nworking at Tampere University\n. You can also find more information about us and working and living Tampere by watching our video:\nTampere Higher Education Community - our academic playground\n.\nTampere is one of the major academic hubs in the Nordic countries and offers a dynamic living environment. Tampere region is one of Finland´s three most rapidly growing urban areas and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society.\nRead more about Finland and Tampere:\nVisit Finland\nThis is Finland\nMinistry of Economic Affairs and Employment: Welcome to Finland\nVisit Tampere\nHOW TO APPLY\nPlease submit your application through our online recruitment system.\nThe closing date for applications is Tuesday, December 15\nth\n, 2026 (23:59:00 EET / UTC +2).\nPlease write your application and all the accompanying documentation in English and attach them in PDF format.\nPlease attach only the following documents to your application:\nCurriculum vitae.\nComplete list of publications.\nResearch statement outlining your proposed research (max. 3 pages).\nPDF copies of your Doctorate, Master’s and Bachelor’s degree certificates, including transcripts of all university records (in Finnish or English).\nUp to three selected research outputs.\nNames and contact details of two referees who may be contacted during the selection process. Reference letters should not be submitted unless requested separately.\nFor more information, please contact:\nProfessor Alexandros Iosifidis,\nalexandros.iosifidis@tuni.fi\n****\nTampereen yliopisto on ainutlaatuinen, rohkeasti tulevaisuuteen katsova, kehittyvä yhteisö ja yksi Suomen monialaisimmista yliopistoista. Meillä tekniikka, terveys ja yhteiskunta kohtaavat toisensa ainutlaatuisella tavalla. Tutkimusryhmissämme ja -hankkeissamme tehdään monitieteistä ja -alaista tutkimusta yli organisaatiorajojen. Yhteisömme on kansainvälinen, meitä on jo yli 80 maasta. Lue lisää\nTampereen yliopisto (TAU) | Tampereen yliopisto\n.\nTampereen yliopistossa on haettavana Tutkijatohtorin (\nDeep Learning Theory and Methodology\n) tehtävä.\nHAKUOHJEET\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta).\nHakuaika tehtävään päättyy 15.12.2026, klo 23:59."
+  },
+  "ai": {
+    "summary": "Postdoctoral researcher position in deep learning theory and methodologies at Tampere University under ELLIS funding. Requires doctoral degree, strong publication record in leading ML/AI venues, and ability to lead independent research. Research scope intentionally open but focused on theoretical foundations and methodological innovation in deep learning.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "Identical thematic mismatch to the doctoral position. Research is explicitly centered on deep learning theory, representation learning, optimization, and generalization—pure ML algorithm development. Candidate's research domain is human-centred immersive systems, spatial cognition, and collaborative interaction. No conceptual overlap."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Position requires doctoral degree and strong publication record in ELLIS-approved venues (NeurIPS, ICML, ICLR, CVPR, etc.). Candidate has one first-author journal article and a systematic mapping review in progress—solid output for MSc stage but does not meet postdoc expectations. No publications in ML/AI venues. The theoretical and mathematical rigor required far exceeds candidate's current capabilities and training."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "Candidate does not hold a doctoral degree, making them ineligible. Even if degree requirements were waived, this position represents the exact direction the candidate's target identity excludes. A postdoc in pure ML theory would cement specialization away from human-centred XR."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "Tampere University is in priority_2 and Finland is preferred. ELLIS provides excellent funding and international network. However, candidate lacks the doctoral degree and publication profile required. Supervisor group offers no strategic value for human-centred XR career trajectory."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "python",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "CRITICAL: Candidate does not hold a doctoral degree. Position explicitly requires 'doctoral degree in Computer Science, Machine Learning, Artificial Intelligence, Computer Engineering, Applied Mathematics, Statistics, Signal Processing, Robotics, or another relevant field.' Candidate holds MSc by Research (in progress). Ineligible.",
+      "Candidate must have completed doctoral degree before position start (1 Feb 2027). Timeline is not feasible.",
+      "Candidate lacks publication record in ELLIS-approved venues or comparable ML/AI outlets. Position requires 'strong publication record in leading peer-reviewed conferences or journals' and 'at least one publication in an ELLIS-approved publication venue.'"
+    ],
+    "risks": [
+      "Candidate is ineligible: lacks PhD and does not meet the publication threshold for postdoc level.",
+      "Career trajectory risk: if candidate were to pivot toward pure ML to become eligible, this represents fundamental departure from stated target identity.",
+      "Opportunity mismatch: this is a postdoc role for researchers who have already committed to ML theory; it is not a stepping stone for someone in HCI."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-17T15:55:32.275120Z",
+    "analysis_input_hash": "61e5eeaa244c327432a98c196c29269d35d476ce6d2d5406a02c1db674865419"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 10,
+    "urgency": "medium",
+    "days_to_deadline": 28,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

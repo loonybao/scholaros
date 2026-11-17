@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 38)
+Gate: **uncertain** (days to deadline: 37)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -63,7 +63,7 @@ independently pursue his or her work,
 collaborate with others,
 have a professional approach,
 analyze and work with complex issues,
-demonstrate familiarity with the modelling of electron transport into matter with Monte Carlo techniques (i.e. GEANT4, PENELOPE, FLUKA etc).
+demonstrate familiarity with the modelling of electron transport into matter with Monte Carlo techniques (i.e. GEANT4, PENELOPE, FLUKA etc.
 demonstrate familiarity with basic computational fluid dynamics techniques and
 demonstrate familiarity with basic computational solid mechanics techniques.
 After the qualification requirements, great emphasis will be placed on personal skills.
@@ -128,7 +128,7 @@ Sweden
 Reference number
 PA-2026-3761
 Contact
-Svetlana Ratynskaia, svetlana.ratynskaia@ee.kth.se
+Svetlana Ratynskaia, srat@kth.se
 Published
 05.Nov.2026
 Last application date
@@ -139,31 +139,28 @@ Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-PhD position in fusion plasma physics and nuclear engineering focused on modelling runaway-electron-induced damage to plasma-facing components (PFCs) in tokamaks like ITER. The work involves Monte Carlo simulations of energy deposition, thermomechanical modelling (FEM/CFD), and collaboration with ITER and EUROfusion.
+PhD position in fusion plasma physics and nuclear engineering at KTH focused on modelling runaway-electron-induced damage to plasma-facing components in fusion reactors using Monte Carlo simulations, thermomechanical FEM/CFD, and validation against ITER and tokamak experimental data.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 2 |
-| Methodological fit | 5 |
-| Growth value | 0 |
-| Strategic value | 45 |
+| Thematic fit | 3 |
+| Methodological fit | 12 |
+| Growth value | 5 |
+| Strategic value | 20 |
 | **Overall** | **9** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** cpp, statistics, mixed-effects-modelling
 
 **Risks:**
-- Severe disciplinary mismatch: researcher is an HCI/XR specialist; position requires fusion physics expertise. Educational background (Creative Multimedia) has no overlap with plasma physics, nuclear engineering, or advanced computational physics.
-- No background in Monte Carlo simulations, Monte Carlo software (GEANT4, PENELOPE, FLUKA), computational fluid dynamics, or finite-element analysis.
-- Python skill is listed as beginner with no substantial project experience. Position requires proficiency in advanced numerical simulation, likely well beyond beginner level.
-- Absence of physics coursework or research experience in plasma, nuclear, or materials domains.
-- Publication record is in HCI; no evidence of computational physics or engineering publications.
-- Geographic preference (Sweden, preferred) and institution (KTH) are weaker alignment than researcher's priority institutions (Aalto, Delft).
-- Very high likelihood of significant onboarding struggle and misalignment with supervisor (Prof. S. Ratynskaia) expectations.
-- Four-year commitment to a discipline outside target career path would be professionally counterproductive.
+- Disciplinary drift: PhD in fusion physics moves researcher away from, not toward, human-centred XR identity
+- Significant technical skill gaps (Monte Carlo, CFD, FEM) would require substantial retraining; C++ proficiency needed but only Python beginner level evidenced
+- PhD completion (4 years) followed by postdoc in same field would consume 6–8 years before repositioning to HCI — substantial career-path cost
+- No natural supervision or research-group culture alignment with design science or human-centred methods
+- Security clearance requirement (Protective Security Act) may apply; unclear impact on non-EU candidates or those with prior international collaboration
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-fusion-plasma-physics-and-nuclear.md` and link [[opp_varbi-doctoral-student-in-fusion-plasma-physics-and-nuclear]]._

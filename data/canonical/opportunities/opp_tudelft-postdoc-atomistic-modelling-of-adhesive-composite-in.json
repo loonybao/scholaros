@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-11T13:48:16.714272Z",
-  "updated_at": "2026-11-16T15:24:19.735858Z",
+  "updated_at": "2026-11-17T15:56:26.490643Z",
   "change_history": [
     {
       "ts": "2026-11-11T13:48:16.714442Z",
@@ -86,6 +86,46 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-17T15:44:02.664209Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-17T15:55:32.278489Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-17T15:56:26.490643Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -99,9 +139,9 @@
     "evidence_ids": [
       "tudelft/1377262157"
     ],
-    "retrieved_at": "2026-11-11T13:48:16.714022Z",
-    "raw_snapshot_hash": "558547081e2fbad935365033c7a1737050af3e181ff31eb269c1417967f06980",
-    "extracted_content_hash": "7de1f6596bbc1ab48f31038c6160931d02266ccc90dee254644c18cc942e4576",
+    "retrieved_at": "2026-11-17T15:44:02.663617Z",
+    "raw_snapshot_hash": "45ded60a1e5e7d296a5e8bc50b1b7dd5459c50b2165d869b870e82adc070951a",
+    "extracted_content_hash": "c5a741315f372a3666e08c5354553d507c0add1167abce3b313ca64f9bce6b94",
     "deadline": "2026-11-30",
     "deadline_note": null,
     "start_date": null,
@@ -120,55 +160,49 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Join TU Delft to unlock the potential of biobased adhesives for a circular composites economy!\nJob description\nAt TU Delft, you will contribute to a transformative research initiative focused on the sustainable and circular use of fibre-reinforced polymer composites. This project addresses a critical challenge in composite repair and joining i.e. the development of adhesives that provide reliable bonding during service while enabling debonding when needed. Conventional synthetic adhesives can make repair, disassembly and recycling difficult thereby contributing to material waste. By developing renewable, biobased thermoplastic adhesives that can be thermally debonded on demand, the project aims to enable more sustainable joining and repair strategies.\nThrough an integrated computational approach combining density functional theory (DFT) and molecular dynamics (MD) simulations, you will investigate adhesive–composite interfacial interactions and mechanical stability, uncovering how molecular structure governs adhesion and thermally triggered debonding.\nIn this project, you will use atomistic simulations to investigate the molecular-level mechanisms underlying the performance of thermally debondable adhesives for fibre-reinforced polymer composites. While the experimental work focuses on adhesive development and performance validation, your research will provide complementary molecular-level insights. Depending on the system under investigation and the limitations of existing interatomic potentials, you may also develop and validate machine-learning interatomic potentials (MLIPs) to enable accurate and efficient simulations.\nAs a postdoctoral researcher, you will:\nPerform Density Functional Theory (DFT) and Molecular Dynamics (MD) simulations to investigate adhesive–composite interfacial interactions, calculate adhesion energies, and characterise interfacial structure and wetting behaviour for different adhesive molecules.\nInvestigate the molecular mechanisms governing adhesion and interfacial stability, examining how adhesive chemistry and molecular structure influence binding strength and the thermodynamic stability of the adhesive–composite interface.\nPerform tensile and shear deformation simulations to evaluate the mechanical performance of adhesive–composite interfaces, identify failure mechanisms and investigate how molecular interactions influence resistance to interfacial separation.\nAssess the suitability of existing interatomic potentials for modelling adhesive–composite interfaces by benchmarking their predictions against DFT calculations and, where necessary, develop machine-learning interatomic potentials (MLIPs) to enable accurate and efficient atomistic simulations.\nCollaborate closely with experimental researchers and project partners to connect atomistic insights with experimental observations and support the development of durable and thermally debondable adhesives.\nContribute to scientific publications, conference presentations and future research proposals in sustainable composite joining, repair and recycling.\nYou will be part of Team Dey within the Computational Materials Science section at TU Delft. The team uses advanced atomistic simulations to investigate materials for sustainable energy and circular materials technologies, with expertise in density functional theory (DFT), molecular dynamics (MD) and machine-learning interatomic potentials (MLIPs).You will collaborate closely with Team Amarante Böttger at TU Delft, whose research includes the experimental characterisation of materials, interfaces and their properties and with the other project partners in the consortium.\nThe Computational Materials Science section offers a collaborative and intellectually stimulating environment with ample opportunities for scientific development and impact.\nJob requirements\nWe are looking for a selfmotivated researcher to uncover the molecular mechanisms governing adhesive composite interfaces and advance atomistic simulation approaches for the development of sustainable, thermally debondable adhesives. You are independent but also a good team player and are willing to cooperate closely with other researchers and our industry partners.\nFurthermore, you meet the following requirements:\nYou hold a PhD degree in Materials Science and Engineering, Physics, Chemistry, or a closely related discipline.\nYou have strong expertise in atomistic simulation techniques, particularly density functional theory (DFT) and molecular dynamics (MD). Experience in developing machine-learning interatomic potentials (MLIPs) is an advantage. You are motivated to apply these methods to understand the molecular mechanisms governing adhesion, interfacial stability and mechanical performance in biobased adhesive–composite systems.\nYou have a strong track record in scientific research, as evident from publications in peer-reviewed international journals and conference participation.\nYou have excellent written and verbal communication skills in English.\nJoin this exciting research programme and apply your expertise in atomistic simulations to advance sustainable and circular composite technologies. Working closely with experimental researchers, you will uncover the molecular mechanisms governing adhesion and thermally triggered debonding in adhesive–composite systems. Your research will contribute to the development of more repairable and recyclable composite structures, helping reduce material waste and enable a more sustainable future.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 2,5 years. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact recruitment-ME@tudelft.nl.\nThe expected start date is February 2027 but no later than May 15th 2027; contract duration is 2.5 years. You will receive an update on the outcome of your application in the week of 14th December 2026. The first interviews are scheduled for the week of 14th December, followed by a second interview round in the second week of January 2027.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 November 2026\nvia the application button and upload the following documents:\nA cover letter in which you describe your motivation and specific qualifications for this position (max 1 page).\nYour CV\nAbstract of your PhD thesis\nCopies of two journal/conference publications (if applicable)\nYou can address your application to Dr. Poulumi Dey and Dr. Amarante Böttger.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "Join TU Delft to unlock the potential of biobased adhesives for a circular\ncomposites\neconomy! As a postdoctoral researcher, you will unravel how molecular structure and interfacial interactions govern the adhesion and mechanical stability of thermally\ndebondable\nadhesives on\nfibre\n-reinforced polymer composites.\nJob description\nAt TU Delft, you will contribute to a transformative research initiative focused on the sustainable and circular use of fibre-reinforced polymer composites. This project addresses a critical challenge in composite repair and joining i.e. the development of adhesives that provide reliable bonding during service while enabling debonding when needed. Conventional synthetic adhesives can make repair, disassembly and recycling difficult thereby contributing to material waste. By developing renewable, biobased thermoplastic adhesives that can be thermally debonded on demand, the project aims to enable more sustainable joining and repair strategies.\nThrough an integrated computational approach combining density functional theory (DFT) and molecular dynamics (MD) simulations, you will investigate adhesive–composite interfacial interactions and mechanical stability, uncovering how molecular structure governs adhesion and thermally triggered debonding.\nIn this project, you will use atomistic simulations to investigate the molecular-level mechanisms underlying the performance of thermally debondable adhesives for fibre-reinforced polymer composites. While the experimental work focuses on adhesive development and performance validation, your research will provide complementary molecular-level insights. Depending on the system under investigation and the limitations of existing interatomic potentials, you may also develop and validate machine-learning interatomic potentials (MLIPs) to enable accurate and efficient simulations.\nYour responsibilities\nAs a postdoctoral researcher, you will:\nPerform Density Functional Theory (DFT) and Molecular Dynamics (MD) simulations to investigate adhesive–composite interfacial interactions, calculate adhesion energies, and characterise interfacial structure and wetting behaviour for different adhesive molecules.\nInvestigate the molecular mechanisms governing adhesion and interfacial stability, examining how adhesive chemistry and molecular structure influence binding strength and the thermodynamic stability of the adhesive–composite interface.\nPerform tensile and shear deformation simulations to evaluate the mechanical performance of adhesive–composite interfaces, identify failure mechanisms and investigate how molecular interactions influence resistance to interfacial separation.\nAssess the suitability of existing interatomic potentials for modelling adhesive–composite interfaces by benchmarking their predictions against DFT calculations and, where necessary, develop machine-learning interatomic potentials (MLIPs) to enable accurate and efficient atomistic simulations.\nCollaborate closely with experimental researchers and project partners to connect atomistic insights with experimental observations and support the development of durable and thermally debondable adhesives.\nContribute to scientific publications, conference presentations and future research proposals in sustainable composite joining, repair and recycling.\nYour work environment\nYou will be part of\nTeam Dey\nwithin the\nComputational Materials Science\nsection at TU Delft. The team uses advanced atomistic simulations to investigate materials for sustainable energy and circular materials technologies, with expertise in density functional theory (DFT), molecular dynamics (MD) and machine-learning interatomic potentials (MLIPs). Your project on thermally debondable adhesives for fibre-reinforced polymer composites will build on this computational expertise to uncover the molecular mechanisms governing adhesion, interfacial stability and mechanical performance. By combining atomistic simulations with experimental research, you will contribute to the rational design of sustainable adhesive systems that enable easier repair, joining and recycling of composite materials.\nYou will collaborate closely with\nTeam Amarante Böttger\nat TU Delft, whose research includes the experimental characterisation of materials, interfaces and their properties and with the other project partners in the consortium. The\nComputational Materials Science\nsection offers a collaborative and intellectually stimulating environment, where researchers work across disciplines and scales, with ample opportunities for scientific development and impact.\nJob requirements\nWe are looking for a selfmotivated researcher to uncover the molecular mechanisms governing adhesive composite interfaces and advance atomistic simulation approaches for the development of sustainable, thermally debondable adhesives. You are independent but also a good team player and are willing to cooperate closely with other researchers and our industry partners.\nFurthermore, you meet the following requirements:\nYou hold a PhD degree in Materials Science and Engineering, Physics, Chemistry, or a closely related discipline.\nYou have strong expertise in atomistic simulation techniques, particularly density functional theory (DFT) and molecular dynamics (MD). Experience in developing machine-learning interatomic potentials (MLIPs) is an advantage.\nYou are motivated to apply  methods to understand the molecular mechanisms governing adhesion, interfacial stability and mechanical performance in biobased adhesive–composite systems.\nYou have a strong track record in scientific research, as evident from publications in peer-reviewed international journals and conference participation.\nYou have excellent written and verbal communication skills in English.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Mechanical Engineering\nFrom chip to ship. From machine to human being. From idea to solution. Driven by a deep-rooted desire to understand our environment and discover its underlying mechanisms, research and education at the ME faculty focusses on fundamental understanding, design, production including application and product improvement, materials, processes and (mechanical) systems.\nME is a dynamic and innovative faculty with high-tech lab facilities and international reach. It’s a large faculty but also versatile, so we can often make unique connections by combining different disciplines. This is reflected in ME’s outstanding, state-of-the-art education, which trains students to become responsible and socially engaged engineers and scientists. We translate our knowledge and insights into solutions to societal issues, contributing to a sustainable society and to the development of prosperity and well-being. That is what unites us in pioneering research, inspiring education and (inter)national cooperation.\nClick\nhere\nto go to the website of the Faculty of Mechanical Engineering. Do you want to experience working at our faculty? These\nvideos\nwill introduce you to some of our researchers and their work.\nConditions of employment\nDuration of contract is 2,5 years. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nFor more information about this vacancy, please contact\nrecruitment-ME@tudelft.nl\n.\nThe expected start date is February 2027 but no later than May 15th  2027; contract duration is 2.5 years. You will receive an update on the outcome of your application in the week of 14th December 2026. The first interviews are scheduled for the week of 14th December, followed by a second interview round in the second week of January 2027.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n30 November 2026\nvia the application button and upload the following documents:\nA cover letter in which you describe your motivation and specific qualifications for this position (max 1 page).\nA cover letter in which you describe your motivation and specific qualifications for this position (max 1 page).\nYour CV\nAbstract of your PhD thesis.\nCopies of two journal/conference publications (if applicable)\nYou can address your application to Dr. Poulumi Dey and Dr. Amarante Böttger.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "Postdoctoral position in computational materials science focused on density functional theory and molecular dynamics simulations of adhesive–composite interfaces for sustainable, thermally debondable adhesives. Pure computational materials modelling with no XR, HCI, or learning/collaboration components.",
+    "summary": "Postdoctoral researcher position in computational materials science at TU Delft, investigating adhesive–composite interfaces using density functional theory (DFT), molecular dynamics (MD), and machine-learning interatomic potentials. Research aims to support development of thermally debondable biobased adhesives for circular composite economy. Requires strong expertise in atomistic simulations.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "No thematic overlap with human-centred XR, collaborative immersive systems, or spatial learning. Position is domain-specific computational chemistry/materials science."
+      "score": 2,
+      "rationale": "Position is in computational materials science, focused on molecular-level mechanisms of adhesion, interfacial stability, and thermally triggered debonding. Research domain is fundamental physics and materials engineering. Candidate's research is human-centred immersive systems, spatial cognition, and collaborative learning. No conceptual overlap. This is materials physics; candidate is HCI researcher."
     },
     "methodological_fit": {
-      "score": 10,
-      "rationale": "Researcher has user-studies and experimental-design skills, but position requires DFT, MD simulations, and machine-learning interatomic potentials—methodologies entirely outside the profile. No transferable methodological bridge."
+      "score": 5,
+      "rationale": "Position requires PhD in Materials Science, Physics, Chemistry or related field, with 'strong expertise in atomistic simulation techniques, particularly DFT and MD.' Candidate holds MSc in multimedia/XR with no physics, chemistry, materials science, or computational simulation background. Thematic and methodological mismatch is complete."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "Would develop computational modelling and Python/statistics skills (beginner level for researcher), but at the cost of moving away from target identity (human-centred research) and core strengths (XR, collaborative systems, spatial cognition)."
+      "score": 0,
+      "rationale": "This position is not relevant to candidate's growth trajectory. No capabilities developed here—DFT, MD, MLIPs—align with target identity in human-centred XR research."
     },
     "strategic_value": {
-      "score": 30,
-      "rationale": "TU Delft is a priority institution (Tier 1), and funding is stable. However, this postdoc is in a fundamentally different research direction—materials science rather than HCI. Does not advance the researcher's stated PhD trajectory in human-centred immersive systems."
+      "score": 15,
+      "rationale": "TU Delft is in priority_1 (Netherlands, preferred). However, candidate lacks the doctoral degree and disciplinary background required. Position is in Mechanical Engineering, Computational Materials Science group—entirely removed from HCI, immersive systems, or any relevant research environment."
     },
     "required_skills": [
-      "density-functional-theory",
-      "molecular-dynamics",
-      "machine-learning-interatomic-potentials",
-      "python",
-      "academic-writing"
+      "python"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
-    "matched_skills": [
-      "python",
-      "academic-writing"
-    ],
+    "matched_skills": [],
     "missing_skills": [
-      "density-functional-theory",
-      "molecular-dynamics",
-      "machine-learning-interatomic-potentials"
+      "python"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires PhD completed before start date; researcher holds MSc by Research in progress",
-      "Position explicitly requires PhD in Materials Science, Physics, Chemistry, or closely related discipline; researcher's background is multimedia and HCI"
+      "CRITICAL: Candidate does not hold a doctoral degree. Position explicitly requires 'PhD degree in Materials Science and Engineering, Physics, Chemistry, or a closely related discipline.' Candidate holds MSc by Research in multimedia/XR. Ineligible.",
+      "CRITICAL: Candidate's academic background is in creative multimedia and HCI, not physics, chemistry, or materials science. Disciplinary credentials do not match.",
+      "Position requires 'strong expertise in atomistic simulation techniques, particularly DFT and MD.' Candidate has no background in computational physics, quantum chemistry, or molecular simulation. Disqualifying gap.",
+      "Position values MLIP development; candidate has no machine learning specialization or expertise.",
+      "Candidate must hold PhD before position start (expected February 2027); current status is MSc by Research in progress."
     ],
     "risks": [
-      "Career trajectory risk: acceptance would shift researcher toward computational materials science, contradicting stated target identity and long-term HCI goals",
-      "Steep learning curve: would require mastery of DFT/MD frameworks with minimal prior exposure; likely 6–12 month ramp-up",
-      "Limited publication velocity given skill gap and domain shift",
-      "Unclear how this would strengthen a future PhD application in human-centred XR or collaborative immersive systems"
+      "Candidate is ineligible: lacks PhD and lacks disciplinary background (physics/chemistry/materials science).",
+      "Fundamental expertise gap: DFT, MD, and MLIP development require doctoral-level training in computational physics/chemistry. Candidate has none.",
+      "Career misalignment: this position represents pure technical research in materials physics—orthogonal to human-centred HCI or immersive systems design.",
+      "No pathway: even with a PhD, candidate would need to pivot substantially toward computational physics to be qualified for this role."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -176,23 +210,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.95,
+    "confidence": 0.97,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-11T14:01:57.033763Z",
-    "analysis_input_hash": "e6decc782d5eedb930cf19c40b3fa151aa8726621b5aaa51aa2525c6cad252af"
+    "analyzed_at": "2026-11-17T15:55:32.278217Z",
+    "analysis_input_hash": "bea142888f9fc76d08dcfa46292b279e2b7e730f61f8b573286f575bd10516ea"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 10,
+    "fit_overall": 5,
     "urgency": "high",
-    "days_to_deadline": 14,
+    "days_to_deadline": 13,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

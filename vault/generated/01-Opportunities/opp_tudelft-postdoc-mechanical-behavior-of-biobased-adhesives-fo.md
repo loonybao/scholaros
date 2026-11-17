@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-30
 status: open
 eligibility_gate: uncertain
-fit_overall: 10
+fit_overall: 7
 urgency: high
 needs_review: true
 ---
@@ -24,32 +24,42 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 14)
+Gate: **uncertain** (days to deadline: 13)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 
-Join TU Delft to unlock the potential of biobased adhesives for a circular composites economy!
-Job description
 Develop biobased adhesives that combine reliable bonding with on-demand debonding. As a postdoctoral researcher at TU Delft, you will investigate the interfacial behaviour, mechanical performance and durability of composite joints to advance sustainable repair and recycling strategies.
+Job description
 Carbon fibre-reinforced polymer (CRFP) composites are essential in many high-performance applications, but repairing, disassembling and recycling these materials remains challenging. Conventional epoxy-based adhesives can make these processes difficult, contributing to material waste and limiting circularity. At TU Delft, you will contribute to a research project developing renewable, biobased thermoplastic adhesives that can be debonded on demand using heat. The goal is to enable more sustainable joining and repair strategies while maintaining the mechanical performance and durability required during service.
 Your research will focus on understanding how the adhesive–composite interface influences adhesion, joint strength and long-term performance. Through advanced experimental investigations, you will study how interfacial structure and bonding behaviour respond to thermal and mechanical loading. You will also investigate the durability of composite joints under weathering and creep conditions, estimate their service lifetime and identify the mechanisms responsible for degradation.
 Your experimental findings will contribute to the development and optimisation of durable, thermally debondable adhesives. You will work closely with another researcher in the project who uses computational methods to investigate the underlying molecular-level mechanisms. By connecting experimental observations with computational insights, you will help establish the scientific understanding needed to design adhesives that combine reliable performance with controlled debonding.
+Your responsibilities
 As a postdoctoral researcher, you will:
-Perform experiments to investigate adhesive–composite interfacial interactions, calculate adhesion energies, and characterise interfacial structure and wetting behaviour for different biobased adhesives.
+Perform experiments to investigate adhesive–composite interfacial interactions, calculate adhesion energies, and characterise interfacial structure and wetting behaviour for different biobased adhesives.
 Investigate the mechanical performance to evaluate the bond strength and identify failure modes of the adhesive–CFRP composite interface.
 Assess the joints behavior and strength under thermal and mechanical loads to establish and guiding the optimization of the adhesive formulations.
 Establish the degradation mechanisms caused by the combined influence of temperature, moisture and UV-radiation.
-Collaborate closely with computational researchers and project partners to connect experimental observations with atomistic insights and support the development of durable and thermally debondable adhesives.
+Collaborate closely with computational researchers and project partners to connect experimental observations with atomistic insights and support the development of durable and thermally debondable adhesives.
 Contribute to scientific publications, conference presentations and future research proposals in sustainable composite joining, repair and recycling.
-You will be part of Team Amarante Böttger at TU Delft, whose research includes the experimental characterisation of materials, interfaces and their properties. Strong collaboration with her team at Avans University of Applied Science is envisioned. Your project on biobased, thermally debondable adhesives for carbon fibre-reinforced polymer composites will build on the expertise in thermoplastics and interfaces to uncover the mechanisms governing adhesion, interfacial stability and mechanical performance. By combining experimental research with atomistic simulations, you will contribute to the rational design of sustainable adhesive systems that enable easier repair, joining and recycling of composite materials.
-You will collaborate closely with Team Dey within the Computational Materials Science section at TU Delft providing advanced atomistic simulations with expertise in density functional theory molecular dynamics and machine-learning interatomic potentials.
+Your work environment
+You will be part of
+Team Amarante Böttger
+at TU Delft, whose research includes the experimental characterisation of materials, interfaces and their properties. Strong collaboration with her
+team at Avans University of Applied Science
+is envisioned. Your project on biobased, thermally debondable adhesives for carbon fibre-reinforced polymer composites will build on the expertise in thermoplastics and interfaces to uncover the mechanisms governing adhesion, interfacial stability and mechanical performance. By combining experimental research with atomistic simulations, you will contribute to the rational design of sustainable adhesive systems that enable easier repair, joining and recycling of composite materials.
+You will collaborate closely with
+Team Dey
+within the
+Computational Materials Science
+section at TU Delft providing advanced atomistic simulations with expertise in density functional theory molecular dynamics and machine-learning interatomic potentials.
 Job requirements
-We are looking for a selfmotivated researcher to uncover the mechanisms governing adhesive composite interfaces and advance characterisation approaches for the development of sustainable, thermally debondable adhesives. You are independent but also a good team player and are willing to cooperate closely with other researchers and our industry partners.
+We are looking for a selfmotivated researcher to uncover the mechanisms governing adhesive composite interfaces and advance characterisation approaches for the development of sustainable, thermally debondable adhesives. You are independent but also a good team player and are willing to cooperate closely with other researchers and our industry partners.
 Furthermore, you meet the following requirements:
 You hold a PhD degree in Materials Science and Engineering, Physics, Chemistry, or a closely related discipline.
-You have strong expertise in experimental materials characterisation techniques, particularly joint strength testing and chemical surface analysis. Experience in composite manufacturing and knowledge on thermoplastics and degradation mechanisms is an advantage. You are eager to apply this knowledge to understand the adhesion mechanism, and behavior of biobased adhesive–composite systems.
+You have strong expertise in experimental materials characterisation techniques, particularly joint strength testing and chemical surface analysis. Experience in composite manufacturing and knowledge of thermoplastics and degradation mechanisms is an advantage.
+You are eager to apply this knowledge to understand the adhesion mechanism, and behavior of biobased adhesive–composite systems.
 You have a strong track record in scientific research, as evident from publications in peer-reviewed international journals and conference participation.
 You have excellent written and verbal communication skills in English.
 TU Delft (Delft University of Technology)
@@ -91,6 +101,7 @@ Are you interested in this vacancy? Please apply no later than
 30 November 2026
 via the application button and upload the following documents:
 A cover letter in which you describe your motivation and specific qualifications for this position (max 1 page).
+A cover letter in which you describe your motivation and specific qualifications for this position (max 1 page)
 Your CV
 Abstract of your PhD thesis
 Copies of two journal/conference publications (if applicable)
@@ -103,27 +114,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoctoral position in experimental materials characterisation focused on interfacial behaviour, mechanical performance, and durability of composite joints using biobased adhesives. Position emphasises joint strength testing, surface analysis, thermal/mechanical loading, and degradation mechanisms—pure materials engineering with no HCI or immersive systems content.
+Postdoctoral position in materials science focused on experimental characterisation of biobased thermoplastic adhesives for carbon-fibre-reinforced polymer composites, with emphasis on interfacial behaviour, mechanical performance, durability and degradation mechanisms under thermal and environmental loading.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 10 |
-| Growth value | 5 |
-| Strategic value | 30 |
-| **Overall** | **10** |
+| Methodological fit | 8 |
+| Growth value | 2 |
+| Strategic value | 15 |
+| **Overall** | **7** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** experimental-materials-characterisation, joint-strength-testing, surface-analysis, composite-manufacturing, thermoplastics-knowledge
+**Missing skills:** statistics, mixed-effects-modelling
 
 **Risks:**
-- Career trajectory risk: acceptance would move researcher toward materials science, contradicting stated target identity (human-centred XR researcher)
-- Steep learning curve: would require mastery of composite testing, chemical surface analysis, and thermal degradation—unrelated to prior experience
-- Poor fit for PhD pathway: 2.5-year postdoc in materials engineering would be difficult to justify when applying to HCI/XR-focused doctoral programmes
-- Limited skill transfer: materials testing expertise does not strengthen HCI research capabilities
+- Fundamental disciplinary mismatch: materials science ≠ human-centred computing
+- No evidence of materials characterisation, composite manufacturing, thermoplastics, or degradation mechanisms knowledge
+- Postdoc timing may be premature; researcher is mid-MSc and would benefit from PhD in core domain first
+- Accepts postdoc now would delay entry into human-centred XR research trajectory by 2.5 years with no methodological advancement toward target identity
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-mechanical-behavior-of-biobased-adhesives-fo.md` and link [[opp_tudelft-postdoc-mechanical-behavior-of-biobased-adhesives-fo]]._

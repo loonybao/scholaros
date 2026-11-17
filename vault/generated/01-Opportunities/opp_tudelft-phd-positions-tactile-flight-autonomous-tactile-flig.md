@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-phd-positions-tactile-flight-autonomous-tactile-flig
 type: opportunity
-title: "PhD Positions Tactile Flight - Autonomous Tactile Flight via Cutaneous Touch and Kinesthesia"
+title: "PhD Positions in Tactile Flight - Autonomous Drone Navigation Through Touch"
 organisation: "TU Delft"
 deadline: 2026-12-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 18
+fit_overall: 38
 urgency: medium
 needs_review: true
 ---
 
-# PhD Positions Tactile Flight - Autonomous Tactile Flight via Cutaneous Touch and Kinesthesia
+# PhD Positions in Tactile Flight - Autonomous Drone Navigation Through Touch
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-12-31
@@ -20,39 +20,49 @@ needs_review: true
 **Salary:** €3204 - €4051 per month (stated range)
 **Duration:** not stated
 **Status:** open
-**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Positions-Tactile-Flight-Autonomous-Tactile-Flight-via-Cutaneous-Touch-and-Kinesthesia-2628-CD/1377568457/
+**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Positions-in-Tactile-Flight-Autonomous-Drone-Navigation-Through-Touch-2628-CD/1377568457/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 45)
+Gate: **uncertain** (days to deadline: 44)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 
-Tactile Flight - Autonomous Tactile Flight via Cutaneous Touch and Kinesthesia
+What if drones could navigate by touch when vision fails? Pioneer a new approach to autonomous flight, using tactile sensing and embodied intelligence to navigate challenging environments.
 Job description
-We are looking for 3 highly motivated PhD candidates to join the ERC Starting Grant project Tactile Flight, which explores a fundamentally new approach to autonomous drone navigation: flying through the sense of touch.
-Today, autonomous drones rely heavily on vision. However, vision-based navigation can become unreliable or fail entirely in darkness, dust, smoke, and other visually degraded environments. Tactile Flight aims to address this challenge by establishing touch as a core sensing modality for aerial robots. We will employ novel lightweight, low-latency tactile sensing technologies and use them to create new forms of cognition and control. The goal is to enable computationally constrained drones to understand and navigate their surroundings through physical interaction with the environment.
-The 3 PhD candidates will contribute to this interdisciplinary research at the intersection of aerial robotics, tactile sensing, embodied intelligence, perception, and autonomous navigation. Together, we aim to rethink how drones perceive and interact with the physical world, opening new possibilities for autonomous flight in hazardous, confined, and inaccessible environments.
+How can a drone navigate when it cannot see? In darkness, dust, smoke or other visually degraded environments, conventional vision-based navigation can become unreliable or fail entirely. But what if drones could use touch to understand and navigate their surroundings?
+For the department of Control & Operations, we are looking for
+three PhD candidates
+to join
+Tactile Flight – Autonomous Tactile Flight via Cutaneous Touch and Kinesthesia
+, an ERC Starting Grant project exploring a fundamentally new approach to autonomous drone navigation: flying through the sense of touch.
+Your challenge is to help establish touch as a core sensing modality for aerial robots. By combining novel lightweight, low-latency tactile sensing technologies with new approaches to cognition and control, you will investigate how computationally constrained drones can understand and navigate their surroundings through physical interaction with the environment.
+You will contribute to interdisciplinary research at the intersection of aerial robotics, tactile sensing, embodied intelligence
+and autonomous navigation. Together with researchers from different disciplines, you will explore new ways for drones to perceive and interact with the physical world.
+The project combines technological innovation with hands-on robotic research. You will contribute to experimental research and field campaigns, applying your knowledge and creativity to explore new approaches to autonomous flight. You will also
+contribute to teaching, particularly our MSc course on Aerial Physical Interaction.
+As one of the three PhD candidates, you will help shape an emerging research direction in aerial robotics. Together, we aim to open new possibilities for autonomous drone navigation in hazardous, confined and inaccessible environments.
 Learn
-more
-about the ERC Tactile Flight project at TU Delft.
+more about the ERC Tactile Flight project at TU Delft
+.
 Job requirements
-What we are looking for:
-MSc degree in Aerial Robotics, Robotics, or Neuroscience
-Experience in sensor fusion, multimodal perception, autonomous navigation, or bio-inspired cognition
-Strong programming and experimental skills, with enthusiasm for hands-on robotic research
-Excellent written and spoken English
-Ability to work independently in an interdisciplinary team
-Willingness to conduct field campaigns
-Willingness to contribute to teaching, in particular our MSc course on Aerial Physical Interaction
-Commitment to a diverse, inclusive, and respectful research environment
-Considered "a plus"
-A track record of scientific publications in topics relevant to the project
-Drone piloting experience and hands-on experience with drones and autopilots
-Experience conducting robotic experiments in unstructured or field environments
-We do not expect candidates to meet every criterion. We particularly value curiosity, creativity, hands-on skills, and enthusiasm for pioneering new approaches to autonomous flight.
+You hold an MSc degree in aerial robotics, robotics or neuroscience
+.
+You have experience in sensor fusion, multimodal perception, autonomous navigation or bio-inspired cognition.
+You have strong programming and experimental skills and enjoy hands-on robotic research.
+You communicate effectively in English, both verbally and in writing.
+You can work independently
+in an interdisciplinary team.
+You are willing to participate in field campaigns and contribute to teaching, particularly our MSc course on Aerial Physical Interaction.
+You are committed to contributing to a diverse, inclusive and respectful research environment.
+Nice to have: Experience in one or more of the following areas would be an advantage:
+Scientific publications on topics
+relevant
+to the project.
+Drone piloting and hands-on experience with drones and autopilots.
+Experience conducting robotic experiments in unstructured or field environments.
 TU Delft (Delft University of Technology)
 Working at TU Delft means contributing to solutions that really make a difference.
 For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
@@ -85,10 +95,11 @@ Application procedure
 Are you interested in this vacancy? Please apply no later than
 31 December 2026
 via the application button and upload the following documents:
-Your CV
-A one-page Motivation letter explaining your motivation, how your background matches the research, which aspects of the project particularly interest you, and your earliest availability to start
-Your MSc thesis (a draft is accepted if your thesis is still ongoing)
-Any scientific publications relevant to the project
+Your CV.
+A one-page Motivation letter explaining your motivation, how your background matches the research, which aspects of the project particularly interest you, and your earliest availability to start.
+Your MSc thesis (a draft is accepted if your thesis is still ongoing).
+Any scientific publications relevant to the project.
+Your relevant publications or drafts, collated together in a single file.
 You can address your application to Salua Hamaza. The candidates will be evaluated on a rolling basis and contacted for an interview before the end of the recruitment phase if a good fit is found.
 Doing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the
 Graduate Schools Admission Requirements.
@@ -103,27 +114,28 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
 
-Three PhD positions in an ERC Starting Grant project exploring touch-based autonomous drone navigation using novel tactile sensing technologies. The research sits at the intersection of aerial robotics, tactile sensing, embodied intelligence, perception, and autonomous navigation, with emphasis on hands-on robotic experimentation in hazardous and confined environments.
+Three PhD positions in tactile flight—an ERC Starting Grant project exploring autonomous drone navigation using tactile sensing and embodied intelligence. Combines aerial robotics, tactile sensing, sensor fusion, and autonomous navigation. Research bridges robotics, perception, and embodied cognition to enable drones to navigate by touch in visually degraded environments.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 12 |
-| Methodological fit | 20 |
-| Growth value | 8 |
-| Strategic value | 35 |
-| **Overall** | **18** |
+| Thematic fit | 25 |
+| Methodological fit | 45 |
+| Growth value | 40 |
+| Strategic value | 50 |
+| **Overall** | **38** |
 
-**Fit type:** poor-fit
+**Fit type:** adjacent-methodological-fit
 
-**Missing skills:** robotics-control, autonomous-navigation, sensor-fusion, cpp
+**Missing skills:** motion-capture, physiological-sensing
 
 **Risks:**
-- Core domain risk: this position is explicitly robotics and control, which are in the researcher's excluded directions. Accepting would contradict stated career strategy.
-- Skill gap risk: the researcher has no background in autonomous flight systems, sensor fusion, or embedded robotics. Significant ramp-up required; productivity in early years may be low.
-- Career divergence risk: completing a PhD in autonomous aerial robots would create a strong disciplinary credential in robotics, making it difficult to later pivot back to human-centred XR research. Supervisory networks and publication history would be in the wrong community.
-- Mismatch in research culture: robotics groups are often driven by technical performance metrics (flight stability, sensor accuracy). Human-centred research prioritizes user experience and learning outcomes. This cultural difference could cause friction or misalignment with advisors.
+- Primary expertise mismatch: candidate is HCI/immersive systems researcher; position seeks roboticists or neuroscientists with autonomous systems or embodied AI background.
+- Supervisor mismatch: Control & Operations group is pure robotics; no HCI or human factors expertise. Mentorship would not serve human-centred research goals.
+- Technical gap: candidate lacks robotics, control theory, sensor integration, and autonomous systems knowledge. Steep learning curve would consume early PhD years.
+- Career trajectory concern: four years in autonomous drone research would pivot candidate significantly from human-centred XR. Return to XR afterwards would require re-specialization.
+- Stated eligibility criterion not met: position requests 'MSc in aerial robotics, robotics or neuroscience.' Candidate's MMU degree does not fit.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-positions-tactile-flight-autonomous-tactile-flig.md` and link [[opp_tudelft-phd-positions-tactile-flight-autonomous-tactile-flig]]._

@@ -1,0 +1,174 @@
+{
+  "id": "opp_tudelft-phd-position-data-driven-distribution-systems-planni",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-17T15:42:25.129130Z",
+  "updated_at": "2026-11-17T15:56:26.365468Z",
+  "change_history": [
+    {
+      "ts": "2026-11-17T15:42:25.129275Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-17T15:55:32.276104Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-17T15:56:26.365468Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD position Data-Driven Distribution Systems Planning with District Heating",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1377696157",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-position-Data-Driven-Distribution-Systems-Planning-with-District-Heating-2628-CD/1377696157/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-position-Data-Driven-Distribution-Systems-Planning-with-District-Heating-2628-CD/1377696157/",
+    "evidence_ids": [
+      "tudelft/1377696157"
+    ],
+    "retrieved_at": "2026-11-17T15:42:25.128873Z",
+    "raw_snapshot_hash": "3170b162f7794265544029c4b50a6823130bd484927d25a6991d8b09b2ce9948",
+    "extracted_content_hash": "64ce49410e1f041ec8e058a849ac0f2ad4773968620956f84159b970a6f5c5f9",
+    "deadline": "2026-12-13",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Job Description\nThe Delft University of Technology is hiring a doctoral candidate on the subject  \"Data-Driven Distribution Systems Planning with District Heating\".\nThe decarbonization of the heating sector in the Netherlands is resulting in an increased adoption of district heating at the city scale. Depending on the type of district heating system and its interface with the electricity infrastructure, uncoordinated operation and poor planning may increase congestion at the medium-voltage level. In this PhD project, we will investigate how the electricity infrastructure can accommodate district heating networks by properly coordinating their future operation. To do this, we first investigate which data are needed (from distribution system operators, municipalities, users, etc.) to properly model future district heating demand and operations. We will also aim to understand what the barriers are to obtaining and using such data. As more data becomes available, we will investigate the role of artificial intelligence and machine learning models in facilitating coordinated planning, as well as how to incorporate risk and uncertainty. This PhD Position is part of the NWO Share the “Warmth Project: Data Sharing for Urban Heat Transition Planning”. The Sharing the Warmth Project aims to help Dutch cities move toward affordable, sustainable, and gas-free heating. The project brings citizens, municipalities, and grid operators together to share data in a safe and trustworthy way. By developing privacy-preserving tools and fair data-sharing arrangements, this project strengthens cooperation and informed decision-making. This enables municipalities to plan heating upgrades more efficiently and creates a fairer, more future-proof energy system for everyone.\nThis is a four-year doctoral appointment. You will be jointly supervised by Dr. Pedro P. Vergara (Associate Professor), Prof. Peter Palensky (Chair IEPG) and Dr. Ivo Potof (CEG Faculty). You will be a member of the section Intelligent Electrical Power Grids in the Faculty of Electrical Engineering, Mathematics, and Computer Science. The project will offer opportunities to collaborate with industrial partners but also with academics from other disciplines, as required (mathematics, operations research). Within the team, we strive to develop methods that are mathematically rigorous and have near-term application potential. We are strong supporters of open science (publishing, source code, data). You will also be expected to assist in teaching activities (student supervision, labs) related to your subject area.\nAbout the ESE Department\nThe research in the Department of Electrical Sustainable Energy is inspired by the technical, scientific, and societal challenges originating from the transition towards a more sustainable society and focuses on four areas:\nDC Systems, Energy Conversion and Storage (DCE&S).\nPhotovoltaic Materials and Devices (PVMD).\nHigh Voltage Technologies (HVT).\nIntelligent Electrical Power Grids (IEPG).\nThe Electrical Sustainable Energy Department provides expertise in each of these areas throughout the entire energy system chain. The department owns a large ESP laboratory assembling High Voltage testing, DC Grids testing environment, and large RTDS that is actively used for real-time simulation of future electrical power systems, AC and DC protection and wide-area monitoring and protection.\nThe Intelligent Electrical Power Grid (IEPG) group, headed by Professor Peter Palensky, works on the future of our power system. The goal is to generate, transmit and use electrical energy in a highly reliable, efficient, stable, clean, affordable, and safe way. IEPG integrates new power technologies and smart controls, which interact with other systems and allow for more distributed and variable generation.\nJob requirements\nEssentials:\nBasic knowledge of power systems and/or district heatings.\nBasic knowledge of machine learning/AI is a plus.\nCompleted an MSc degree in a highly technical related discipline (computer science, electrical engineering, etc.) and ou were at the top of your class.\nExcellent analytical skills and a solid basis in operational research (optimization).\nExcellent oral and written communication skills in English proven by a minimum score of 100 in TOEFL or IELTS of 7.0 per sub-skill (writing, reading, listening, speaking). Candidates do not need to present the test results as part of their application. These results will be requested at a later stage during the selection procedure. For more information see https://www.tudelft.nl/onderwijs/opleidingen/phd/admission\nYou enjoy performing research. You are independent, self-motivated and eager to learn.\nYou are keen to work with partners to link real-world challenges to fundamental research questions.\nDesirables:\nExperience with optimization methods and scheduling problems as well as optimization packages such as Pyomo.\nYou enjoy programming and have experience with Python, machine learning, command-line tools, version control.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact\nP. Vergara\n, Associate Professor.\nFor information about the selection procedure, please contact\nCarla Jager\n, Secretary, IEPG group.\nApplication procedure\nApplications will be assessed on a rolling basis and suitable candidates will be invited for interview, so it is recommended not to wait until the deadline with your application.\nApplications can be addressed to Dr. Pedro P. Vergara, before December 13, 2026. Please submit (1) your CV, (2) a list of grades of your qualifying degrees (BSc, MSc), and (3) a cover letter that details your motivation and fit to the job requirements. Incomplete applications will not be considered.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in data-driven district heating planning with electricity distribution systems at TU Delft. Research combines machine learning, optimization, and data analysis to model district heating demand and coordinate planning between heating and power grids. Part of NWO-funded 'Sharing the Warmth' project focusing on urban heat transition and data governance.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "Position is centered on energy systems, district heating, power grids, optimization, and data-driven planning. Candidate's research domain is human-centred immersive systems, spatial cognition, and collaborative learning. No meaningful thematic overlap. The application domain (energy systems) and core problem (infrastructure planning) are entirely removed from human-computer interaction or immersive environments."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Position requires machine learning and optimization methods; candidate has beginner Python and no optimization background. Position values 'operational research, optimization packages like Pyomo' and 'machine learning.' Candidate's strength is in user studies, experimental design, and game engine development—not ML or optimization. Some overlap in quantitative research and statistical analysis, but the mathematical rigor needed (operational research, optimization) is not evident in candidate's profile."
+    },
+    "growth_value": {
+      "score": 20,
+      "rationale": "Could develop Python and basic ML skills, which are broadly useful. However, candidate's target identity is rooted in human-centred research and spatial understanding—not energy systems or infrastructure optimization. Closing gaps in optimization and ML would not advance toward the stated target identity."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "TU Delft is in priority_1 institutions (Netherlands is preferred country). Strong funding via NWO 'Sharing the Warmth' project. Supervisor team (Vergara, Palensky, Potof) has solid reputation in power systems and optimization. However, research environment is far removed from HCI, XR, or human-computer interaction. Career mentorship would not build candidate's human-centred expertise."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "experimental-design"
+    ],
+    "missing_skills": [
+      "python",
+      "statistics"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Candidate has MSc by Research in progress; position requires 'completed MSc degree in highly technical related discipline (computer science, electrical engineering, etc.) and were at the top of your class.' Formal degree conferral needed.",
+      "Position strongly prefers 'top of class' performance; candidate's profile does not explicitly state class ranking or GPA (MMU does not use conventional CGPA). Competitive disadvantage.",
+      "English language proficiency: minimum TOEFL 100 or IELTS 7.0 per sub-skill required. Candidate must provide evidence.",
+      "Experience with optimization and operational research not evident in candidate profile; position lists these as desirable but not essential."
+    ],
+    "risks": [
+      "Thematic mismatch: energy systems and infrastructure planning are unrelated to candidate's core research direction.",
+      "Supervisor mismatch: power systems and optimization research environment offers no mentorship in human-centred design or HCI.",
+      "Career trajectory risk: this position would build expertise in energy optimization, pulling candidate further from human-centred XR specialization.",
+      "Mathematical gap: candidate's quantitative skills are beginner-to-intermediate in statistics and experimental design; optimization and operational research require stronger mathematical foundations."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.88,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-17T15:55:32.275892Z",
+    "analysis_input_hash": "5bf14f4fa64193b27177fa0830ada46fe864ad1e3d00900746d6efaaaecc7d12"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 20,
+    "urgency": "medium",
+    "days_to_deadline": 26,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

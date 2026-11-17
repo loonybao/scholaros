@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-11-30
 status: open
 eligibility_gate: uncertain
-fit_overall: 10
+fit_overall: 5
 urgency: high
 needs_review: true
 ---
@@ -24,34 +24,50 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 14)
+Gate: **uncertain** (days to deadline: 13)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 
-Join TU Delft to unlock the potential of biobased adhesives for a circular composites economy!
+Join TU Delft to unlock the potential of biobased adhesives for a circular
+composites
+economy! As a postdoctoral researcher, you will unravel how molecular structure and interfacial interactions govern the adhesion and mechanical stability of thermally
+debondable
+adhesives on
+fibre
+-reinforced polymer composites.
 Job description
 At TU Delft, you will contribute to a transformative research initiative focused on the sustainable and circular use of fibre-reinforced polymer composites. This project addresses a critical challenge in composite repair and joining i.e. the development of adhesives that provide reliable bonding during service while enabling debonding when needed. Conventional synthetic adhesives can make repair, disassembly and recycling difficult thereby contributing to material waste. By developing renewable, biobased thermoplastic adhesives that can be thermally debonded on demand, the project aims to enable more sustainable joining and repair strategies.
 Through an integrated computational approach combining density functional theory (DFT) and molecular dynamics (MD) simulations, you will investigate adhesive–composite interfacial interactions and mechanical stability, uncovering how molecular structure governs adhesion and thermally triggered debonding.
 In this project, you will use atomistic simulations to investigate the molecular-level mechanisms underlying the performance of thermally debondable adhesives for fibre-reinforced polymer composites. While the experimental work focuses on adhesive development and performance validation, your research will provide complementary molecular-level insights. Depending on the system under investigation and the limitations of existing interatomic potentials, you may also develop and validate machine-learning interatomic potentials (MLIPs) to enable accurate and efficient simulations.
+Your responsibilities
 As a postdoctoral researcher, you will:
-Perform Density Functional Theory (DFT) and Molecular Dynamics (MD) simulations to investigate adhesive–composite interfacial interactions, calculate adhesion energies, and characterise interfacial structure and wetting behaviour for different adhesive molecules.
+Perform Density Functional Theory (DFT) and Molecular Dynamics (MD) simulations to investigate adhesive–composite interfacial interactions, calculate adhesion energies, and characterise interfacial structure and wetting behaviour for different adhesive molecules.
 Investigate the molecular mechanisms governing adhesion and interfacial stability, examining how adhesive chemistry and molecular structure influence binding strength and the thermodynamic stability of the adhesive–composite interface.
-Perform tensile and shear deformation simulations to evaluate the mechanical performance of adhesive–composite interfaces, identify failure mechanisms and investigate how molecular interactions influence resistance to interfacial separation.
+Perform tensile and shear deformation simulations to evaluate the mechanical performance of adhesive–composite interfaces, identify failure mechanisms and investigate how molecular interactions influence resistance to interfacial separation.
 Assess the suitability of existing interatomic potentials for modelling adhesive–composite interfaces by benchmarking their predictions against DFT calculations and, where necessary, develop machine-learning interatomic potentials (MLIPs) to enable accurate and efficient atomistic simulations.
-Collaborate closely with experimental researchers and project partners to connect atomistic insights with experimental observations and support the development of durable and thermally debondable adhesives.
+Collaborate closely with experimental researchers and project partners to connect atomistic insights with experimental observations and support the development of durable and thermally debondable adhesives.
 Contribute to scientific publications, conference presentations and future research proposals in sustainable composite joining, repair and recycling.
-You will be part of Team Dey within the Computational Materials Science section at TU Delft. The team uses advanced atomistic simulations to investigate materials for sustainable energy and circular materials technologies, with expertise in density functional theory (DFT), molecular dynamics (MD) and machine-learning interatomic potentials (MLIPs).You will collaborate closely with Team Amarante Böttger at TU Delft, whose research includes the experimental characterisation of materials, interfaces and their properties and with the other project partners in the consortium.
-The Computational Materials Science section offers a collaborative and intellectually stimulating environment with ample opportunities for scientific development and impact.
+Your work environment
+You will be part of
+Team Dey
+within the
+Computational Materials Science
+section at TU Delft. The team uses advanced atomistic simulations to investigate materials for sustainable energy and circular materials technologies, with expertise in density functional theory (DFT), molecular dynamics (MD) and machine-learning interatomic potentials (MLIPs). Your project on thermally debondable adhesives for fibre-reinforced polymer composites will build on this computational expertise to uncover the molecular mechanisms governing adhesion, interfacial stability and mechanical performance. By combining atomistic simulations with experimental research, you will contribute to the rational design of sustainable adhesive systems that enable easier repair, joining and recycling of composite materials.
+You will collaborate closely with
+Team Amarante Böttger
+at TU Delft, whose research includes the experimental characterisation of materials, interfaces and their properties and with the other project partners in the consortium. The
+Computational Materials Science
+section offers a collaborative and intellectually stimulating environment, where researchers work across disciplines and scales, with ample opportunities for scientific development and impact.
 Job requirements
-We are looking for a selfmotivated researcher to uncover the molecular mechanisms governing adhesive composite interfaces and advance atomistic simulation approaches for the development of sustainable, thermally debondable adhesives. You are independent but also a good team player and are willing to cooperate closely with other researchers and our industry partners.
+We are looking for a selfmotivated researcher to uncover the molecular mechanisms governing adhesive composite interfaces and advance atomistic simulation approaches for the development of sustainable, thermally debondable adhesives. You are independent but also a good team player and are willing to cooperate closely with other researchers and our industry partners.
 Furthermore, you meet the following requirements:
 You hold a PhD degree in Materials Science and Engineering, Physics, Chemistry, or a closely related discipline.
-You have strong expertise in atomistic simulation techniques, particularly density functional theory (DFT) and molecular dynamics (MD). Experience in developing machine-learning interatomic potentials (MLIPs) is an advantage. You are motivated to apply these methods to understand the molecular mechanisms governing adhesion, interfacial stability and mechanical performance in biobased adhesive–composite systems.
+You have strong expertise in atomistic simulation techniques, particularly density functional theory (DFT) and molecular dynamics (MD). Experience in developing machine-learning interatomic potentials (MLIPs) is an advantage.
+You are motivated to apply  methods to understand the molecular mechanisms governing adhesion, interfacial stability and mechanical performance in biobased adhesive–composite systems.
 You have a strong track record in scientific research, as evident from publications in peer-reviewed international journals and conference participation.
 You have excellent written and verbal communication skills in English.
-Join this exciting research programme and apply your expertise in atomistic simulations to advance sustainable and circular composite technologies. Working closely with experimental researchers, you will uncover the molecular mechanisms governing adhesion and thermally triggered debonding in adhesive–composite systems. Your research will contribute to the development of more repairable and recyclable composite structures, helping reduce material waste and enable a more sustainable future.
 TU Delft (Delft University of Technology)
 Working at TU Delft means contributing to solutions that really make a difference.
 For over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.
@@ -82,15 +98,18 @@ Coming to Delft Service
 Dual Career Programme
 is available, to support your accompanying partner with their job search in the Netherlands.  .
 Additional information
-For more information about this vacancy, please contact recruitment-ME@tudelft.nl.
-The expected start date is February 2027 but no later than May 15th 2027; contract duration is 2.5 years. You will receive an update on the outcome of your application in the week of 14th December 2026. The first interviews are scheduled for the week of 14th December, followed by a second interview round in the second week of January 2027.
+For more information about this vacancy, please contact
+recruitment-ME@tudelft.nl
+.
+The expected start date is February 2027 but no later than May 15th  2027; contract duration is 2.5 years. You will receive an update on the outcome of your application in the week of 14th December 2026. The first interviews are scheduled for the week of 14th December, followed by a second interview round in the second week of January 2027.
 Application procedure
 Are you interested in this vacancy? Please apply no later than
 30 November 2026
 via the application button and upload the following documents:
 A cover letter in which you describe your motivation and specific qualifications for this position (max 1 page).
+A cover letter in which you describe your motivation and specific qualifications for this position (max 1 page).
 Your CV
-Abstract of your PhD thesis
+Abstract of your PhD thesis.
 Copies of two journal/conference publications (if applicable)
 You can address your application to Dr. Poulumi Dey and Dr. Amarante Böttger.
 Please note:
@@ -101,27 +120,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
 
-Postdoctoral position in computational materials science focused on density functional theory and molecular dynamics simulations of adhesive–composite interfaces for sustainable, thermally debondable adhesives. Pure computational materials modelling with no XR, HCI, or learning/collaboration components.
+Postdoctoral researcher position in computational materials science at TU Delft, investigating adhesive–composite interfaces using density functional theory (DFT), molecular dynamics (MD), and machine-learning interatomic potentials. Research aims to support development of thermally debondable biobased adhesives for circular composite economy. Requires strong expertise in atomistic simulations.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 10 |
-| Growth value | 5 |
-| Strategic value | 30 |
-| **Overall** | **10** |
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **5** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** density-functional-theory, molecular-dynamics, machine-learning-interatomic-potentials
+**Missing skills:** python
 
 **Risks:**
-- Career trajectory risk: acceptance would shift researcher toward computational materials science, contradicting stated target identity and long-term HCI goals
-- Steep learning curve: would require mastery of DFT/MD frameworks with minimal prior exposure; likely 6–12 month ramp-up
-- Limited publication velocity given skill gap and domain shift
-- Unclear how this would strengthen a future PhD application in human-centred XR or collaborative immersive systems
+- Candidate is ineligible: lacks PhD and lacks disciplinary background (physics/chemistry/materials science).
+- Fundamental expertise gap: DFT, MD, and MLIP development require doctoral-level training in computational physics/chemistry. Candidate has none.
+- Career misalignment: this position represents pure technical research in materials physics—orthogonal to human-centred HCI or immersive systems design.
+- No pathway: even with a PhD, candidate would need to pivot substantially toward computational physics to be qualified for this role.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-atomistic-modelling-of-adhesive-composite-in.md` and link [[opp_tudelft-postdoc-atomistic-modelling-of-adhesive-composite-in]]._
