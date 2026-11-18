@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 408)
+Gate: **uncertain** (days to deadline: 407)
 
 - position country unknown
 - funding/salary not confirmed on the posting

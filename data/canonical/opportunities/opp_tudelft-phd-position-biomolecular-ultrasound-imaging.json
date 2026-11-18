@@ -1,0 +1,177 @@
+{
+  "id": "opp_tudelft-phd-position-biomolecular-ultrasound-imaging",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-18T15:20:41.409689Z",
+  "updated_at": "2026-11-18T15:35:24.592975Z",
+  "change_history": [
+    {
+      "ts": "2026-11-18T15:20:41.409845Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-18T15:34:08.009472Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-18T15:35:24.592975Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Biomolecular Ultrasound Imaging",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-applied-sciences",
+    "source": "tudelft",
+    "source_native_id": "1377819157",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Biomolecular-Ultrasound-Imaging-2628-CD/1377819157/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Biomolecular-Ultrasound-Imaging-2628-CD/1377819157/",
+    "evidence_ids": [
+      "tudelft/1377819157"
+    ],
+    "retrieved_at": "2026-11-18T15:20:41.409492Z",
+    "raw_snapshot_hash": "4c0d3c257016a7effec8be36f38e53c98b1d111f08dba233865b575f5238f406",
+    "extracted_content_hash": "76401197e17a090fdfbb69fedd8a29dce25c9e1d6b856b7f30059d85b6ce8ce2",
+    "deadline": "2026-12-02",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Advance biomolecular ultrasound imaging and enable new non-invasive ways to observe and understand the cellular activity in living biological tissues. In this interdisciplinary Vici-funded project, you will develop cutting-edge, fully noninvasive imaging methods with real scientific and societal impact. This new investigative tool will be used to discover how organ function emerges from cellular activity. You will work at the frontier of ultrasound technology, molecular engineering and neuroscience, in an international research team.\nJob description\nAs a PhD candidate, you develop and validate fully noninvasive volumetric ultrasound imaging of cells expressing sound-scattering proteins, with a focus on improving image resolution. You design and implement ultrasound sequences, build experimental setups, and develop advanced reconstruction and signal processing pipelines and use 3D cell culture models. Your work contributes directly to enabling new ways to study brain function in health and disease.\nYou are part of the\nMaresca Lab\nwithin the Imaging Physics department at TU Delft, an ambitious and rapidly growing research group at the forefront of ultrasound imaging. The team currently consists of researchers with interdisciplinary expertise spanning physics, engineering, and bioengineering of proteins and cells. With the recent acquisition of major research grants, the lab is expanding significantly, including new postdocs, PhD candidates, and engineering support, offering a dynamic environment with opportunities to shape its future direction.\nYou work closely with colleagues in Delft and become part of a collaboration research effort with partners at UMC Utrecht and in the USA. This international network gives you direct access to complementary expertise, unique research perspectives, and high-impact collaborations at the forefront of ultrasound neuroimaging.\nAt TU Delft, you have access to state-of-the-art imaging facilities and technical support. You will publish in leading journals, present at international conferences, and contribute to grant activities. The role offers opportunities to further develop your scientific profile, supervision skills, and independence as a researcher.\nJob requirements\nYou hold a MSc degree in nanobiology, or a closely related field.\nYou have solid hands-on experience in experimental ultrasound imaging via your Master’s internship or previous work-experience. This is a must-have.\nYou have at least 6 months experience with nonlinear ultrasound sequence programming, ultrasound image reconstruction and signal processing.\nYou have strong bioengineering skills – including protein and cellular engineering.\nYou communicate clearly in English, both orally and in writing, in scientific contexts.\nYou work effectively in interdisciplinary and international teams, and manage your own research progress independently.\nExperience with genetically encoded gas vesicles is a must have.\nExperience with optical microscopy theory is a must have.\nYou show motivation to contribute to collaborative research on brain imaging and neuroscience applications.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow.\nThese challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional.\nWorking at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nAre you excited about advancing cellular ultrasound imaging and contributing to understanding the human brain? We warmly encourage you to apply. Diverse perspectives strengthen our research, and we are committed to fostering an inclusive and supportive academic environment.\nFor questions please email\nrecruitment-tnw@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n2 December 2026\nvia the application button and upload the following documents:\nMotivation letter (max. one page). We value authentic, personally written letters. Please explain what attracts you to this specific project, how your background connects to the requirements, how you see yourself contributing to the team, and what motivates you to pursue a postdoc within our mission and research context.\nDetailed CV, clearly highlighting your relevant skills and experience in experimental ultrasound imaging, sequence programming and image reconstruction and signal processing.\nA detailed list of your bachelor and master reports as well as key initiatives and contributions in other areas such as communication, personal leadership, teaching, entrepreneurship, and societal impact.\nWe highly value thoughtful motivation letters that demonstrate genuine interest in this specific position. Reference checks are part of the selection procedure; we will request contact details at the interview stage and handle this transparently and with care.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in biomedical ultrasound imaging at TU Delft, developing non-invasive volumetric ultrasound methods to image cellular activity using sound-scattering proteins. Focus is on ultrasound sequences, signal processing, image reconstruction, and applications in brain imaging.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic connection to human-centred XR, collaborative immersive systems, or spatial learning. This is a pure biomedical imaging position focused on ultrasound physics, cellular engineering, and neuroscience imaging. While it touches neuroscience, there is no HCI, immersive interaction, wayfinding, or human-centred design component. The mention of 'brain function' is about imaging cellular activity, not human cognition or learning."
+    },
+    "methodological_fit": {
+      "score": 8,
+      "rationale": "Very limited overlap. Position core requires signal processing, image reconstruction, nonlinear ultrasound sequence programming, optical microscopy theory, and protein/cellular bioengineering—none of which align with the researcher's skillset. Researcher has no background in physics-based imaging, signal processing, or bioengineering. The experimental-design skill is superficially relevant but researcher's experiments are human user studies, not laboratory physics experiments or imaging validation."
+    },
+    "growth_value": {
+      "score": 3,
+      "rationale": "No value for researcher's stated growth trajectory. Position develops expertise in biomedical signal processing, cellular engineering, and ultrasound physics—entirely outside the researcher's target identity. Would not close any gaps relevant to human-centred immersive systems research (eye-tracking, physiological sensing, mixed-effects modelling, qualitative-research are only tangentially related, and ultrasound imaging expertise is not transferable to immersive systems)."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "TU Delft is a Priority 1 institution (Netherlands) and the Maresca Lab is research-active with international collaborations. However, the position is in biomedical imaging (Faculty of Applied Sciences, Imaging Physics), not HCI or immersive systems. No connection to researcher's doctoral pathway or target research groups at TU Delft (e.g., no XR/HCI lab affiliation evident from posting)."
+    },
+    "required_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "statistics"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "statistics",
+      "motion-capture",
+      "physiological-sensing"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires MSc in nanobiology or closely related field; researcher's MSc is in multimedia/creative multimedia (Faculty of Creative Multimedia). Significant disciplinary mismatch.",
+      "Mandatory requirement: solid hands-on experience in experimental ultrasound imaging via Master's internship or work-experience; researcher has no ultrasound or biomedical imaging background.",
+      "Mandatory requirement: at least 6 months experience with nonlinear ultrasound sequence programming, ultrasound image reconstruction and signal processing; researcher has no such experience.",
+      "Mandatory requirement: genetically encoded gas vesicles expertise; researcher has no bioengineering or molecular biology background.",
+      "Mandatory requirement: optical microscopy theory; researcher has not demonstrated this knowledge."
+    ],
+    "risks": [
+      "Fundamental discipline mismatch: biomedical imaging vs. human-computer interaction. Application would likely be rejected at screening stage.",
+      "Required mandatory skills (ultrasound imaging, signal processing, protein engineering, optical microscopy) are absent from researcher profile.",
+      "Even if somehow admitted, would require complete retraining in biomedical physics and signal processing—high risk of failure during the first go/no-go assessment at 15 months.",
+      "Supervisor expertise (biomedical imaging, ultrasound physics) is orthogonal to researcher's needs and interests.",
+      "Position explicitly focuses on brain imaging neuroimaging applications, not human-centred design or human factors—misleading framing if researcher were tempted by 'brain' terminology."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.98,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-18T15:34:08.009056Z",
+    "analysis_input_hash": "839d9fc6f3f89ebaca3473647d1fbfbdd339282fbd82b3e4d29889eef44ad96e"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 12,
+    "urgency": "high",
+    "days_to_deadline": 14,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

@@ -3,18 +3,18 @@ id: opp_varbi-doctoral-student-in-hormone-sensing-between-biophysics
 type: opportunity
 title: "Doctoral student in hormone sensing between biophysics and biotechnology"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-11-19
+deadline: 2026-11-26
 status: open
 eligibility_gate: uncertain
-fit_overall: 9
-urgency: urgent
+fit_overall: 6
+urgency: high
 needs_review: true
 ---
 
 # Doctoral student in hormone sensing between biophysics and biotechnology
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-11-19
+**Deadline:** 2026-11-26
 **Location:** Stockholm, Sweden
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 8)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -132,33 +132,34 @@ Cecilia Williams, cwil@kth.se
 Published
 05.Nov.2026
 Last application date
-19.Nov.2026
+26.Nov.2026
 Apply for position
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-A 3–4 year PhD position at KTH (Stockholm) in optical hormone sensing, bridging biophysics and biotechnology. The student will prepare and characterize urine samples, validate against laboratory standards, and design/test an optical detection system. Supervision is shared across KTH, AlbaNova, and SciLifeLab.
+Doctoral position (3–4 years) in biophysics/biotechnology developing an optical system for at-home hormone sensing using urine samples. Jointly supervised by researchers at KTH AlbaNova and SciLifeLab. Work spans sample preparation, validation, and optical detection system design.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 3 |
-| Methodological fit | 10 |
-| Growth value | 5 |
-| Strategic value | 25 |
-| **Overall** | **9** |
+| Thematic fit | 2 |
+| Methodological fit | 5 |
+| Growth value | 3 |
+| Strategic value | 20 |
+| **Overall** | **6** |
 
 **Fit type:** poor-fit
 
 **Missing skills:** none noted
 
 **Risks:**
-- Fundamental domain mismatch: bioanalytical sensing is a specialized STEM field; XR and HCI skills are not valued.
-- Academic credential risk: MSc by Research in multimedia/creative multimedia may not meet 'closely related field' requirement under strict interpretation.
-- Career trajectory misalignment: 3–4 years in bioanalytical chemistry would deepen distance from human-centred XR research and make future transition more difficult.
+- Disciplinary barrier: multimedia/XR is not an accepted pathway to biophysics/biotechnology doctoral studies. Strong likelihood of desk-reject or admission refusal based on educational background.
+- No domain expertise: researcher has no coursework, publications, or experience in biophysics, biotechnology, or biomedical sensing. Starting from scratch in a 3–4 year programme is high-risk.
+- Complete direction divergence: doctoral work would move researcher into biomedical instrumentation, away from human-centred systems research. Three-year investment yields no advancement toward target identity (human-centred immersive systems, spatial learning, collaboration).
+- Career continuity risk: post-doctoral positioning would be confusing to HCI/XR research communities. Unlikely to be competitive for postdoctoral or research roles in target field after biomedical sensing doctorate.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-hormone-sensing-between-biophysics.md` and link [[opp_varbi-doctoral-student-in-hormone-sensing-between-biophysics]]._

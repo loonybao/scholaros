@@ -1,0 +1,177 @@
+{
+  "id": "opp_tudelft-phd-position-on-safe-experience-based-learning-for-a",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-18T15:21:02.880531Z",
+  "updated_at": "2026-11-18T15:35:24.795809Z",
+  "change_history": [
+    {
+      "ts": "2026-11-18T15:21:02.880693Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-18T15:34:08.011780Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-18T15:35:24.795809Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position on Safe Experience-Based Learning for Autonomous Drone Flight Control",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-aerospace-engineering",
+    "source": "tudelft",
+    "source_native_id": "1377838557",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-on-Safe-Experience-Based-Learning-for-Autonomous-Drone-Flight-Control-2628-CD/1377838557/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-on-Safe-Experience-Based-Learning-for-Autonomous-Drone-Flight-Control-2628-CD/1377838557/",
+    "evidence_ids": [
+      "tudelft/1377838557"
+    ],
+    "retrieved_at": "2026-11-18T15:21:02.880327Z",
+    "raw_snapshot_hash": "f4bc4c5bc943927daa6c9beda1c3f49e6c6243297c9674fb7f14298bc8e1520b",
+    "extracted_content_hash": "c3fa1575203ebf0329601acb24ca2d8f34e4e03324f8c1dc12cd11d5debf9a78",
+    "deadline": "2026-12-17",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Join TU Delft's MAVLab as a PhD candidate and develop safe learning methods that allow autonomous drones to improve their flight control through their own flight experience.\nJob description\nPhD on Safe Experience-Based Learning for Autonomous Drone Flight Control – TU Delft MAVLab\nConventional autopilots rely on fixed control laws and do not improve through accumulated flight experience. Human pilots, in contrast, become more capable as they gain experience. This project investigates how autonomous drones can similarly improve their flight control over time, based on their own flight experience, while remaining safe and reliable from day one.\nThe central research challenge is to learn and adapt flight-control laws without allowing the learning process to compromise the safety or performance of the drone. You will investigate approaches to safe learning and adaptation, including whether updates should take place during flight or between flights, and how the system can detect and handle potentially unsafe changes. The specific methods and safeguards remain open to research.\nThe research will be developed and evaluated on real flying drones (quad copters and VTOL winged drone, like the Rotating Wing Drone). The drone must be capable of autonomous flight from the outset, with its performance and learning progress assessed through real flight experiments. The project may also explore how experience-based learning can be extended to recognising and responding to dangerous situations.\nYou will join the Micro Air Vehicle Lab (MAVLab) in the Control and Simulation group of the Department of Control and Operations at TU Delft's Faculty of Aerospace Engineering. MAVLab has extensive experience in developing, building and testing autonomous aerial vehicles, including rotating-wing drones and projects such as NederDrone, which focuses on drone operations from ships. The lab combines fundamental research with a hands-on experimental approach, where new ideas are implemented and validated through real-world flight tests. You will work alongside researchers with complementary expertise in autonomous flight, vehicle design and control.\nJob requirements\nWe are looking for a candidate with a strong scientific background and an interest in autonomous flight and learning-based control:\nThe following qualifications are required:\nA master's degree in aerospace engineering, robotics, control engineering, or another relevant discipline.\nA strong scientific background relevant to the project.\nStrong programming skills, including proficiency in Python.\nThe ability and motivation to conduct independent scientific research, develop novel methods and publish scientific results.\nAn interest in autonomous systems and in improving their performance through learning and adaptation.\nA willingness to implement and test your research on real flying drones and to learn how to organise and conduct experimental flight tests.\nGood communication skills and the ability to collaborate effectively in an international, multidisciplinary research team.\nExcellent written and spoken English.\nThe following are beneficial but not required:\nExperience in control theory, control systems, or artificial intelligence (AI).\nExperience in machine learning or reinforcement learning.\nKnowledge of C or C++, or a willingness to learn these languages for embedded software development.\nPractical technical skills, such as building, programming or integrating drones and onboard systems.\nExperience with experimental flight testing or autonomous drone projects.\nFamiliarity with FPV drone flying.\nThe position is primarily focused on scientific research. Practical engineering and flying experience can help you organise flight tests and iterate more quickly, but prior drone-building or flying experience is not required. You should, however, be willing to learn the practical skills needed to demonstrate your research on real flying platforms.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Bart Remes and Christophe de Wagter, via\nB.D.W.Remes@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n17 December 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nAcademic transcripts (BSc and MSc).\nYou can address your application to Bart Remes and Christophe de Wagter.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements.\nPlease note:\nYou can apply online. We will not process applications sent by email and/or post.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nApplying for an exemption for specific research and educational areas is an obligatory part of the selection procedure for this vacancy. This exemption must be obtained from the Ministry of Education, Culture and Science (OCW) before an employment contract is agreed upon. Click\nhere\nfor more information.\nPlease do not contact us for unsolicited services"
+  },
+  "ai": {
+    "summary": "PhD position at TU Delft MAVLab investigating how autonomous drones can improve flight control through their own flight experience while maintaining safety and reliability. Research spans learning-based control adaptation, safe learning methods, and real-world flight validation on quadcopters and VTOL drones.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "No thematic alignment to human-centred XR, immersive systems, spatial cognition, wayfinding, collaborative learning, or human-centred design. While the title mentions 'learning,' this refers to machine learning and adaptive control algorithms, not human learning outcomes or spatial understanding. Position is pure robotics autonomy with a focus on safe learning in autonomous systems. No human factors, user evaluation, or HCI component."
+    },
+    "methodological_fit": {
+      "score": 12,
+      "rationale": "Poor methodological fit. Position requires expertise in control theory, reinforcement learning or machine learning, real-time flight control, and experimental validation on physical platforms. Researcher has intermediate quantitative-research and experimental-design experience, but these derive from human-centred user studies with questionnaires and task performance measurement. This position's experimentation is on drone flight dynamics and learning algorithm performance, not human participants. Advanced Python is relevant but insufficient; C/C++ expertise is preferred and not held. No user-studies methodology applies."
+    },
+    "growth_value": {
+      "score": 7,
+      "rationale": "Minimal growth for stated trajectory. Would develop expertise in reinforcement learning, safe learning methods, and autonomous flight control—none of which align with researcher's growth priorities (eye-tracking, physiological sensing, mixed-effects modelling, qualitative-research). Machine learning expertise could tangentially support later work in immersive systems, but position does not target human-centred applications. Does not close relevant capability gaps for doctoral work in spatial cognition or collaborative learning."
+    },
+    "strategic_value": {
+      "score": 55,
+      "rationale": "TU Delft is Priority 1 institution and MAVLab is well-established with strong funding and experimental infrastructure. However, position is in Faculty of Aerospace Engineering (autonomous flight focus), not HCI or design-science. Supervisors (Remes, de Wagter) are autonomous systems experts without HCI background. Placement would not strengthen doctoral candidacy in immersive systems or human-centred research communities."
+    },
+    "required_skills": [
+      "python",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "missing_skills": [
+      "cpp",
+      "statistics",
+      "mixed-effects-modelling"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires MSc in aerospace engineering, robotics, control engineering, or 'another relevant discipline.' Researcher's multimedia/creative multimedia background is not standard fit; acceptance would hinge on broad interpretation of 'relevant.'",
+      "Requires strong scientific background in control theory, control systems, or AI; researcher has no formal training in control theory or traditional AI.",
+      "Beneficial but not required: ML/RL experience, C/C++ knowledge, drone-building or FPV flying experience—researcher has none of these."
+    ],
+    "risks": [
+      "Position is pure autonomous systems and robotics control—in researcher's excluded_directions list.",
+      "3-year PhD would deepen expertise in drone flight control and machine learning for autonomy, moving away from human-centred research identity.",
+      "Mismatch in research culture: MAVLab emphasizes real-time embedded systems, flight testing iteration, and control algorithms; researcher's background is game engine development and user-centred design.",
+      "Supervisors lack HCI expertise; limited mentorship for human-centred perspective or doctoral pathway alignment.",
+      "Machine learning expertise developed here (safe learning, reinforcement learning) is domain-specific to autonomous systems and not directly transferable to immersive systems research.",
+      "High risk of struggling with foundational control theory coursework and advanced reinforcement learning material."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.89,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-18T15:34:08.011386Z",
+    "analysis_input_hash": "bf0df8cc2e3f2c38f058962b4a43fff82f9ae528a62106ee99ab0f6554c361db"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 17,
+    "urgency": "medium",
+    "days_to_deadline": 29,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

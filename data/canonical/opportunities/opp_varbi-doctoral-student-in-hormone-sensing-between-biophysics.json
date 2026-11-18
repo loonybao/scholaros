@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-05T14:25:31.620877Z",
-  "updated_at": "2026-11-17T15:56:26.604169Z",
+  "updated_at": "2026-11-18T15:35:25.051258Z",
   "change_history": [
     {
       "ts": "2026-11-05T14:25:31.621012Z",
@@ -143,6 +143,46 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-18T15:31:50.166901Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-18T15:35:23.927263Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-18T15:35:25.051258Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -156,10 +196,10 @@
     "evidence_ids": [
       "varbi/kth-981104"
     ],
-    "retrieved_at": "2026-11-05T14:25:31.620713Z",
-    "raw_snapshot_hash": "5cd4df07823ec7bbb15fbb80459eda45c7a18da3d9a04f02877522769fa5587f",
-    "extracted_content_hash": "1870b657000b6308edc59c3637b0f2071846ded9aacfe9265fa98d4ff7de5441",
-    "deadline": "2026-11-19",
+    "retrieved_at": "2026-11-18T15:31:50.166230Z",
+    "raw_snapshot_hash": "981ccf916fce31126309829bac0c0d1c580deb70aef41de05a93665fc6eec781",
+    "extracted_content_hash": "a5415f4e9bc1deae8cee3f33d934b7073670037fc5bf5d9eb7a62c929b184dfe",
+    "deadline": "2026-11-26",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -177,41 +217,46 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Doctoral student in hormone sensing between biophysics and biotechnology\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences\nProject description\nThird-cycle subject:\nApplied Physics or Biotechnology\nHormones shape metabolism, fertility, mood and sleep, yet they are rarely measured, and then mostly by blood tests in a clinic. In the Hormones Project, funded by KTH InspireLab, we are developing an affordable optical system that measures six hormones in urine, at home, every day. As a doctoral student you will work at the border between biophysics and biotechnology: you will prepare and characterise urine samples, validate against established laboratory methods, and design and test the detection system.\nThe project is jointly led by three research leaders at AlbaNova and SciLifeLab. Read more about the project\nhere\nSupervision:\nCarlota Canalias, Michael Fokine and Cecilia Williams are proposed to supervise the doctoral student. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nThe candidate must have a master's degree in biophysics, biotechnology, biomedicine, physics or a closely related field.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues,\ndemonstrate knowledge of gender equality from an intersectional perspective and an understanding of why gender aspects are important when conducting research and developing technology,\ndemonstrate good written and spoken English, as it is required in day to day work.\nexperience of laboratory work with optical, spectroscopic, biophysical or bioanalytical methods is considered a merit.\nExperience of working in multidisciplinary teams is also a merit.\nFurthermore, the candidate should have a genuine interest in learning new disciplines.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages. Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nA statement (maximum 1 page) on your view of and vision for gender equality and technology.\nA copy of your master's thesis or similar.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3677\nContact\nCarlota Canalias Gomez, ccg@kth.se\nMichael Fokine, fokine@kth.se\nCecilia Williams, cwil@kth.se\nPublished\n05.Nov.2026\nLast application date\n19.Nov.2026\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Doctoral student in hormone sensing between biophysics and biotechnology\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences\nProject description\nThird-cycle subject:\nApplied Physics or Biotechnology\nHormones shape metabolism, fertility, mood and sleep, yet they are rarely measured, and then mostly by blood tests in a clinic. In the Hormones Project, funded by KTH InspireLab, we are developing an affordable optical system that measures six hormones in urine, at home, every day. As a doctoral student you will work at the border between biophysics and biotechnology: you will prepare and characterise urine samples, validate against established laboratory methods, and design and test the detection system.\nThe project is jointly led by three research leaders at AlbaNova and SciLifeLab. Read more about the project\nhere\nSupervision:\nCarlota Canalias, Michael Fokine and Cecilia Williams are proposed to supervise the doctoral student. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nThe candidate must have a master's degree in biophysics, biotechnology, biomedicine, physics or a closely related field.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues,\ndemonstrate knowledge of gender equality from an intersectional perspective and an understanding of why gender aspects are important when conducting research and developing technology,\ndemonstrate good written and spoken English, as it is required in day to day work.\nexperience of laboratory work with optical, spectroscopic, biophysical or bioanalytical methods is considered a merit.\nExperience of working in multidisciplinary teams is also a merit.\nFurthermore, the candidate should have a genuine interest in learning new disciplines.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages. Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nA statement (maximum 1 page) on your view of and vision for gender equality and technology.\nA copy of your master's thesis or similar.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3677\nContact\nCarlota Canalias Gomez, ccg@kth.se\nMichael Fokine, fokine@kth.se\nCecilia Williams, cwil@kth.se\nPublished\n05.Nov.2026\nLast application date\n26.Nov.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "A 3–4 year PhD position at KTH (Stockholm) in optical hormone sensing, bridging biophysics and biotechnology. The student will prepare and characterize urine samples, validate against laboratory standards, and design/test an optical detection system. Supervision is shared across KTH, AlbaNova, and SciLifeLab.",
+    "summary": "Doctoral position (3–4 years) in biophysics/biotechnology developing an optical system for at-home hormone sensing using urine samples. Jointly supervised by researchers at KTH AlbaNova and SciLifeLab. Work spans sample preparation, validation, and optical detection system design.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 3,
-      "rationale": "The core research is bioanalytical chemistry and optical sensing—measurement science for biomarkers. The researcher's domains (human-centred XR, spatial cognition, collaborative immersive learning, social interaction) have no thematic intersection with hormone sensing, even adjacently."
+      "score": 2,
+      "rationale": "No thematic overlap. Position is rooted in optical biophysics, hormone biomarkers, and bioanalytical sensing. Researcher's expertise is human-centred immersive systems, spatial cognition, and collaborative learning. Neither biomedical sensing, optical physics, nor hormone analysis relate to immersive systems, wayfinding, or spatial learning research."
     },
     "methodological_fit": {
-      "score": 10,
-      "rationale": "The position requires wet-lab experimental design, chemical/biophysical characterization, and validation against gold-standard laboratory methods. The researcher's methods (user studies, immersive system evaluation, spatial performance measurement, multiplayer interaction analysis) do not transfer. However, both contexts involve hypothesis testing and iterative system validation, a very weak methodological bridge."
+      "score": 5,
+      "rationale": "Negligible methodological bridge. Position emphasises laboratory work (optical/spectroscopic/biophysical methods), sample characterisation, and instrumentation validation. Researcher's methodological strengths are user studies, experimental design (in learning/spatial contexts), and immersive system evaluation. Experimental design concept is shared, but application context (bioanalytical lab work vs. user evaluation in spatial/immersive settings) is entirely distinct. No transferable methodological value."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "This position would develop capabilities in biophysical sensing, optical systems, and bioanalytical chemistry—none of which advance the researcher's stated goal of becoming a human-centred immersive systems researcher. It would consume 3–4 years without building HCI, XR, or spatial cognition expertise."
+      "score": 3,
+      "rationale": "Essentially zero growth value for stated target identity. Doctoral work in optical biophysics and hormone sensing closes no gaps relevant to human-centred immersive systems, spatial learning, or collaborative interaction research. Would require complete disciplinary reorientation and offer no pathway back to target identity."
     },
     "strategic_value": {
-      "score": 25,
-      "rationale": "KTH Stockholm is a reputable institution in a preferred geography (Sweden). However, the group expertise (biophysics, sensing, chemistry) is orthogonal to the researcher's target identity. Supervisors (Canalias, Fokine, Williams) are domain experts in bioanalytical science, not HCI or immersive systems."
+      "score": 20,
+      "rationale": "Limited strategic value. KTH is a strong technical university in Sweden (preferred country per constraints), which is positive for geographic fit. However, doctoral studies in biomedical sensing do not advance researcher's target trajectory. Supervisors are biophysicists/biotechnologists with no evident HCI or immersive systems background. PhD completion would confer advanced research credentials, but in a domain entirely orthogonal to human-centred XR/HCI. Unlikely to strengthen candidacy for postdoctoral or research roles in target field."
     },
     "required_skills": [],
     "preferred_skills": [],
     "skill_evidence": {},
-    "matched_skills": [],
+    "matched_skills": [
+      "experimental-design"
+    ],
     "missing_skills": [],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires Master's degree in biophysics, biotechnology, biomedicine, physics, or closely related field. Researcher holds MSc by Research in multimedia/XR (not congruent with listed fields); eligibility depends on KTH's interpretation of 'substantially equivalent knowledge'.",
-      "Posting emphasizes 'experience of laboratory work with optical, spectroscopic, biophysical or bioanalytical methods' as a merit—researcher has none of these."
+      "Position requires master's degree in biophysics, biotechnology, biomedicine, physics, or closely related field. Researcher holds MSc by Research in multimedia/creative multimedia (in progress). Multimedia is not listed as closely related. Institutional eligibility unclear without explicit exemption or reinterpretation of 'closely related'.",
+      "Mandatory English requirement (B/6 level or higher); researcher meets this (fluent English demonstrated).",
+      "Security clearance mentioned as possible requirement (Protective Security Act). Researcher's profile does not indicate security-sensitive background; risk/barrier level unclear.",
+      "Emphasis on laboratory work with optical, spectroscopic, biophysical, or bioanalytical methods as merit. Researcher has no documented experience in these areas."
     ],
     "risks": [
-      "Fundamental domain mismatch: bioanalytical sensing is a specialized STEM field; XR and HCI skills are not valued.",
-      "Academic credential risk: MSc by Research in multimedia/creative multimedia may not meet 'closely related field' requirement under strict interpretation.",
-      "Career trajectory misalignment: 3–4 years in bioanalytical chemistry would deepen distance from human-centred XR research and make future transition more difficult."
+      "Disciplinary barrier: multimedia/XR is not an accepted pathway to biophysics/biotechnology doctoral studies. Strong likelihood of desk-reject or admission refusal based on educational background.",
+      "No domain expertise: researcher has no coursework, publications, or experience in biophysics, biotechnology, or biomedical sensing. Starting from scratch in a 3–4 year programme is high-risk.",
+      "Complete direction divergence: doctoral work would move researcher into biomedical instrumentation, away from human-centred systems research. Three-year investment yields no advancement toward target identity (human-centred immersive systems, spatial learning, collaboration).",
+      "Career continuity risk: post-doctoral positioning would be confusing to HCI/XR research communities. Unlikely to be competitive for postdoctoral or research roles in target field after biomedical sensing doctorate."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -219,14 +264,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.92,
+    "confidence": 0.95,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-05T14:29:23.970477Z",
-    "analysis_input_hash": "32070c16674cac3490089b07c9d9b555fdee028123715c019578326ed0b85592"
+    "analyzed_at": "2026-11-18T15:35:23.926727Z",
+    "analysis_input_hash": "fd0b9594a34ebe4943b8082dc4bba9f8dbf6ec5e1fac77ff3eb808c4cacba854"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -235,9 +280,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 9,
-    "urgency": "urgent",
-    "days_to_deadline": 2,
+    "fit_overall": 6,
+    "urgency": "high",
+    "days_to_deadline": 8,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

@@ -1,0 +1,167 @@
+{
+  "id": "opp_tudelft-postdoc-reinforcement-learning-from-human-feedback-a",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-18T15:20:52.094238Z",
+  "updated_at": "2026-11-18T15:35:24.989390Z",
+  "change_history": [
+    {
+      "ts": "2026-11-18T15:20:52.094394Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-18T15:35:23.924822Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-18T15:35:24.989390Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Reinforcement Learning from Human Feedback Applied to Mobility System Design",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1377828057",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Reinforcement-Learning-from-Human-Feedback-Applied-to-Mobility-System-Design-2628-CD/1377828057/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Reinforcement-Learning-from-Human-Feedback-Applied-to-Mobility-System-Design-2628-CD/1377828057/",
+    "evidence_ids": [
+      "tudelft/1377828057"
+    ],
+    "retrieved_at": "2026-11-18T15:20:52.094030Z",
+    "raw_snapshot_hash": "ab2dc95c5a0ac50098740d9518b44dc7568b86ada520677cf4878232f910435f",
+    "extracted_content_hash": "eb9cf6c6620b7b84eda827f4de2fd417df66a5553bf73a2bde906cf2eaa32147",
+    "deadline": "2026-12-11",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Do you want to develop human-centred RL algorithms to shape the liveable cities of tomorrow?\nJob description\nHuman-centred AI techniques, such as Reinforcement Learning from Human Feedback (RLHF), hold great potential for supporting design methodologies in urban planning. This PostDoc position focuses on AI-based recommender systems to guide stakeholders in choosing a mobility system design. Specifically, the research builds on RLHF techniques, considering algorithmic challenges such as multiple objectives, the robustness of designs and the transparency of the design recommendation process.\nThe position is offered in the context of the Mobility DesAIgn Lab, a project that investigates how digital twins can be used responsibly for design issues in the field of mobility, transport and logistics in cities. The PostDoc will be embedded in the Sequential Decision Making group within TU Delft’s Intelligent Systems department, with close collaborations with project partners TNO and TU Delft’s Transport & Planning department.\nMore information on the project (and a 2nd PostDoc vacancy within the project) can be found at its\nwebsite\n.\nJob requirements\nThe candidate should have:\na PhD degree in Artificial Intelligence (AI) or closely related topics in computer science, mathematics, or physics,\na thorough understanding of reinforcement learning,\nfluency in English.\nThe ideal candidate:\nis interested in working in a multi-disciplinary project also involving transport engineering and societal partners,\nis a strong communicator and can work well in a team,\nis self-motivated to do cutting-edge research.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDuration of contract is 2 years. Temporary. 12 months is also a possibility.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Prof. dr. M.T.J. Spaan, via\nM.T.J.Spaan@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n11 December 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Prof. dr. M.T.J. Spaan.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoc position developing human-centred reinforcement learning (RLHF) algorithms for AI-based recommender systems in urban mobility design. Embeds researcher in Sequential Decision Making group within Intelligent Systems department, with cross-institutional collaboration on design and digital twins.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 20,
+      "rationale": "Weak thematic overlap. Position emphasises RLHF algorithms, multiple objectives, algorithmic robustness, and transparency in recommender systems for mobility/urban planning. Researcher's themes are human-centred immersive systems, spatial learning, collaboration, and real-world transfer. 'Human-centred' framing in position is algorithmic (reflecting human feedback into RL training), not design research or evaluation focused. Digital twins mentioned but in urban/mobility context, not spatial learning or wayfinding."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Limited methodological bridge. Position requires deep expertise in reinforcement learning, algorithmic design, and multi-objective optimisation—core ML algorithm development, which is explicitly excluded by researcher's constraints ('pure-machine-learning-algorithms'). Researcher has no documented RL, ML, or algorithmic experience. User studies methodology (researcher's strength) is orthogonal to core RLHF research. Collaboration with 'societal partners' suggests potential for design research methods, but primary deliverable is algorithmic."
+    },
+    "growth_value": {
+      "score": 15,
+      "rationale": "Would require foundational reskilling in reinforcement learning and algorithmic AI—a direction researcher explicitly excludes. Does not close gaps in spatial cognition, immersive systems evaluation, or collaborative design. Only modest value: multidisciplinary teamwork and design-adjacent thinking in RLHF context, but at high opportunity cost of pivoting away from target identity."
+    },
+    "strategic_value": {
+      "score": 40,
+      "rationale": "TU Delft is Priority 1 institution and location (Netherlands, European preferred region). Funding stability (2 years, large EU project) is a plus. However, Intelligent Systems/AI department is not a recognised HCI/XR research community. Supervisor expertise (reinforcement learning, sequential decision-making) is misaligned; no indication of HCI background or interest. Postdoc outcome unlikely to strengthen candidacy for next doctoral or research role in human-centred immersive systems."
+    },
+    "required_skills": [
+      "python"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [],
+    "missing_skills": [
+      "python"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires PhD in AI or closely related topics (CS, math, physics); researcher holds MSc in multimedia/XR. Eligibility unclear without explicit institutional acceptance of multimedia as 'closely related'.",
+      "Core requirement: 'thorough understanding of reinforcement learning'; researcher has no documented RL experience or publications in ML.",
+      "Ideal candidate is 'interested in working in multi-disciplinary project involving transport engineering'—domain is urban mobility, not immersive systems or spatial learning."
+    ],
+    "risks": [
+      "Domain shift: research would pivot to algorithmic AI and urban/mobility systems, away from human-centred immersive systems.",
+      "Excluded direction: 'pure-machine-learning-algorithms' is in researcher's stated excluded directions. Core deliverable is RLHF algorithm development.",
+      "Steep learning curve: RL is not a beginner skill; postdoc assumes expertise. High risk of underperformance.",
+      "Exit positioning: post-postdoc candidacy for HCI/XR doctoral positions could be weakened by 2-year absence from target research community."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.89,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-18T15:35:23.924431Z",
+    "analysis_input_hash": "d8e09e998948856391f80844c5f589f73be3c7b34b8a574608423ebf9f91238f"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 24,
+    "urgency": "medium",
+    "days_to_deadline": 23,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
