@@ -3,18 +3,18 @@ id: opp_varbi-doctoral-students-in-networked-systems-security
 type: opportunity
 title: "Doctoral students in Networked Systems Security"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-11-23
+deadline: 2026-12-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 2
-urgency: urgent
+fit_overall: 14
+urgency: high
 needs_review: true
 ---
 
 # Doctoral students in Networked Systems Security
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-11-23
+**Deadline:** 2026-12-01
 **Location:** Stockholm, Sweden
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 5)
+Gate: **uncertain** (days to deadline: 12)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -128,36 +128,34 @@ Panagiotis Papadimitratos, papadim@kth.se
 Published
 09.Jun.2026
 Last application date
-23.Nov.2026
+01.Dec.2026
 Apply for position
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.93_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Doctoral positions in networked systems security and privacy at KTH, covering design, analysis, verification, and implementation of secure systems. Research interests span computer security, cryptography, distributed systems, mobile computing, and security of positioning/localization systems.
+PhD position in networked systems security at KTH, covering security and privacy across distributed systems, with particular emphasis on positioning/localization and GNSS resilience. The role focuses on design, analysis, verification, implementation, and empirical evaluation of secure networked systems.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 0 |
-| Methodological fit | 0 |
-| Growth value | 0 |
-| Strategic value | 15 |
-| **Overall** | **2** |
+| Thematic fit | 5 |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 35 |
+| **Overall** | **14** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** python, cpp
 
 **Risks:**
-- Complete disciplinary mismatch. Cybersecurity is incompatible with human-centred immersive systems research.
-- Researcher has no background in computer security, cryptography, distributed systems, or systems-level programming.
-- No methodological bridge between user-centred research and systems security empirical evaluation.
-- Supervisor and group have no expertise in HCI, immersive systems, spatial cognition, or human factors.
-- Security clearance requirement may create barriers for international candidates; posting text ambiguous on this.
-- KTH not in researcher's priority institution list; Stockholm not among preferred locations.
+- Complete thematic mismatch with stated target identity and research agenda.
+- Security clearance requirement creates uncertainty for non-EU applicants.
+- PhD in security would narrow future HCI/XR opportunities rather than broaden them.
+- Group culture and publication venues (security conferences) diverge substantially from HCI/immersive systems community.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-students-in-networked-systems-security.md` and link [[opp_varbi-doctoral-students-in-networked-systems-security]]._

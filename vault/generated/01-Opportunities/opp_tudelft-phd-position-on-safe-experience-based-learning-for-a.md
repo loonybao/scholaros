@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-12-17
 status: open
 eligibility_gate: uncertain
-fit_overall: 17
+fit_overall: 18
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 29)
+Gate: **uncertain** (days to deadline: 28)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -38,7 +38,7 @@ The central research challenge is to learn and adapt flight-control laws without
 The research will be developed and evaluated on real flying drones (quad copters and VTOL winged drone, like the Rotating Wing Drone). The drone must be capable of autonomous flight from the outset, with its performance and learning progress assessed through real flight experiments. The project may also explore how experience-based learning can be extended to recognising and responding to dangerous situations.
 You will join the Micro Air Vehicle Lab (MAVLab) in the Control and Simulation group of the Department of Control and Operations at TU Delft's Faculty of Aerospace Engineering. MAVLab has extensive experience in developing, building and testing autonomous aerial vehicles, including rotating-wing drones and projects such as NederDrone, which focuses on drone operations from ships. The lab combines fundamental research with a hands-on experimental approach, where new ideas are implemented and validated through real-world flight tests. You will work alongside researchers with complementary expertise in autonomous flight, vehicle design and control.
 Job requirements
-We are looking for a candidate with a strong scientific background and an interest in autonomous flight and learning-based control:
+We are looking for a candidate with a strong scientific background and an interest in autonomous flight and learning-based control.
 The following qualifications are required:
 A master's degree in aerospace engineering, robotics, control engineering, or another relevant discipline.
 A strong scientific background relevant to the project.
@@ -105,29 +105,29 @@ Please do not contact us for unsolicited services
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.89_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-PhD position at TU Delft MAVLab investigating how autonomous drones can improve flight control through their own flight experience while maintaining safety and reliability. Research spans learning-based control adaptation, safe learning methods, and real-world flight validation on quadcopters and VTOL drones.
+PhD position in autonomous drone flight control at TU Delft MAVLab, focusing on safe learning methods that allow drones to improve flight control through accumulated flight experience. Research involves implementing and testing control algorithms on real quadcopters and VTOL vehicles.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 10 |
-| Methodological fit | 12 |
-| Growth value | 7 |
-| Strategic value | 55 |
-| **Overall** | **17** |
+| Methodological fit | 20 |
+| Growth value | 10 |
+| Strategic value | 40 |
+| **Overall** | **18** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cpp, statistics, mixed-effects-modelling
+**Missing skills:** control-theory, reinforcement-learning, embedded-systems-programming, cpp, real-time-systems, flight-dynamics, aircraft-autopilots
 
 **Risks:**
-- Position is pure autonomous systems and robotics control—in researcher's excluded_directions list.
-- 3-year PhD would deepen expertise in drone flight control and machine learning for autonomy, moving away from human-centred research identity.
-- Mismatch in research culture: MAVLab emphasizes real-time embedded systems, flight testing iteration, and control algorithms; researcher's background is game engine development and user-centred design.
-- Supervisors lack HCI expertise; limited mentorship for human-centred perspective or doctoral pathway alignment.
-- Machine learning expertise developed here (safe learning, reinforcement learning) is domain-specific to autonomous systems and not directly transferable to immersive systems research.
-- High risk of struggling with foundational control theory coursework and advanced reinforcement learning material.
+- Robotics control is an explicitly excluded direction per researcher's target identity ('robotics-control' in excluded_directions).
+- Disciplinary mismatch: Aerospace Engineering vs. Multimedia/HCI.
+- Significant skill gap in control theory, reinforcement learning, and embedded systems.
+- Python proficiency at beginner level; position requires strong skills.
+- High risk of rejection at screening due to non-standard degree and insufficient technical background in required areas.
+- Pursuing this role would invest 4 years in a domain explicitly identified as outside researcher's target direction.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-on-safe-experience-based-learning-for-a.md` and link [[opp_tudelft-phd-position-on-safe-experience-based-learning-for-a]]._
