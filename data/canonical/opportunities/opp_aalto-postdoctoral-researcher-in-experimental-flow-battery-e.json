@@ -1,0 +1,177 @@
+{
+  "id": "opp_aalto-postdoctoral-researcher-in-experimental-flow-battery-e",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-23T17:38:13.199157Z",
+  "updated_at": "2026-11-23T17:57:18.391001Z",
+  "change_history": [
+    {
+      "ts": "2026-11-23T17:38:13.199361Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-23T17:56:33.927457Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-23T17:57:18.391001Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoctoral Researcher in experimental flow battery electrolyte optimization",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-chemical-engineering",
+    "source": "aalto",
+    "source_native_id": "postdoctoral-researcher-in-experimental-flow-battery-electrolyte-optimization",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-experimental-flow-battery-electrolyte-optimization",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Postdoctoral-Researcher-in-experimental-flow-battery-electrolyte-optimization_R48675-2/apply",
+    "evidence_ids": [
+      "aalto/postdoctoral-researcher-in-experimental-flow-battery-electrolyte-optimization"
+    ],
+    "retrieved_at": "2026-11-23T17:38:13.198905Z",
+    "raw_snapshot_hash": "47f995ab02baf06a2e1870ab301b5377b6391409813b61991895478691b7f294",
+    "extracted_content_hash": "dbb61e6c38730d3ecac648490a8381de865d58ac77c7df219a51a493243aaeab",
+    "deadline": "2026-12-06",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-11-23",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "At Aalto University, curiosity moves across disciplines, roles and communities. We bring people together to ask new questions, challenge familiar thinking and turn ideas into impact.\nOur work is rooted in responsibility, courage and collaboration, and in a shared commitment to shaping a more sustainable future.\nThe School of Chemical Engineering is inviting applications for a\nPostdoctoral Researcher in experimental flow battery electrolyte optimization\nfor a two-year fixed-term position for the research group of\nElectrolytic Processes\nheaded by Prof. Pekka Peljo. The position is funded by EU Horizon Europe project FLOWBOOST, where our part focuses on developing high-throughput experimental tools for optimization and characterization of flow battery electrolytes, as well as some synthesis of metal complexes. The project includes 14 partners, and the work requires close collaboration with some of them. You have the ability and willingness to drive high-profile, interdisciplinary research in a joint effort between experimental and computational / theory research. This project requires development of software and hardware for realizing high throughput measurements as well as Byesian optimization as the function of electrolyte composition etc.\nYou will join the exceptional scientific environment of\nDepartment of Chemistry and Materials Science\nhosting two other electrochemistry groups (Prof. Kallio and Yerga) and computational chemistry group specializing in modelling of electrochemical systems (Prof. Laasonen). We also have a wide international collaboration network.\nYou will conduct experimental scientific research aiming at high impact scientific publications in the fields of electro-chemical automatization and flow battery research. The group’s research focuses on the development of energy storage technologies, experimental electrochemistry, flow batteries, and the modeling of electrochemical processes, for example using the finite element method. Research methodology is experimental electro-chemistry, realized via robotic platform. Additionally, synthesis of some metal complexes as flow battery electrolyte candidates will be required.\nWhat you bring\nTo thrive in this role, you will need:\nan excellent, recently obtained (max 5 years), PhD degree in, for example, Chemistry or related field (Material Science or Physics)\nactive approach, diligence and cooperation skills\nexperience in laboratory work\nexperience in programming (basics is sufficient as AI tools allow advanced programming at a low threshold)\nexpertise or interest in hardware and electronics (Arduino platforms etc.)\nstrong aptitude for research of automated electrochemistry\nWe also value:\nexpertise in electrochemistry\nexpertise in organic and inorganic synthesis\nLanguage requirements:\nEnglish: Excellent skills in English\nFinnish: Finnish language skills are not required\nWe know that meaningful work is built by people with different backgrounds, experiences and perspectives. If you recognize yourself in the purpose of this role, we encourage you to apply and tell us what you would bring to our community.\nWhat we offer\nAt Aalto, you can expect:\nWork with purpose in a community where research, education, creativity and services support meaningful change.\nA multidisciplinary environment where collaboration, curiosity and new thinking are part of everyday work.\nExtensive occupational health care services.\nStaff-priced sport centre services on campus and at other UniSport locations.\nA workplace on Aalto University’s Otaniemi campus, with excellent public transport connections and a wide range of services.\nThe expected starting salary for a postdoctoral researcher is approximately 4 100 €/month, and the salary will increase with responsibilities and performance over time. The fixed term contract is for two years. Further continuation depends on the situation with the project funding. The tentative starting date would be 1.1.2027 but can be negotiated.\nWe support your professional growth with varied training and development opportunities shaped around your interests and aspirations. Work-life balance and well-being in all aspects of life are essential for us at Aalto.\nCurious to make a difference?\nTo apply, please submit your application through our recruitment system by 6th of December, 2026 (23:59 EET [UTC+2]). If you are already working at Aalto, please apply via our internal system Workday. If you are a student or visitor at Aalto University, please apply with your personal email address.\nPlease include the following documents in English, preferably as a single pdf-file:\nLetter of Motivation\n(1 page), where you introduce yourself and describe your research interests and motivation for the position.\nA Curriculum Vitae with\nList of Publications\n(please see CV example:\nTemplate for researcher's curriculum vitae | Finnish National Board on Research Integrity TENK\n).\nContact details of two referees\n(and letters of recommendation, if already available).\nAbstract of the Doctoral Thesis and link to the actual Thesis.\nFor more information about the role, please contact Prof. Pekka Peljo at pekka.peljo(a)aalto.fi.  For questions related to the application process, please contact HR Partner Tiina Aumari at tiima.aumari(a)aalto.fi. Kindly note that we will start to go through the applications and may invite suitable candidates to interview during the application period. The position will be filled as soon as a suitable candidate is identified: you are thus encouraged to submit your application as soon as possible.\nAbout Aalto University\nAalto University builds on the legacy of three leading Finnish universities: Helsinki University of Technology, Helsinki School of Economics and the University of Art and Design Helsinki. Since 2010, we have brought science, art, technology and business together in new ways.\nToday, the Aalto community consists of 16,000 students and 5,200 employees, including 446 professors. Half of our faculty members have an international background. Our campus in Espoo is a vibrant cluster of research and innovation with striking architecture, peaceful nature, open spaces for collaboration, and a wide range of services, all with excellent public transport connections.\nDiversity is part of who we are. We work actively to build a community where people can belong, contribute and grow.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Postdoctoral position in experimental electrochemistry and flow battery electrolyte optimization, with emphasis on automated high-throughput testing, synthesis, and Bayesian optimization. Work spans electrochemistry, robotics platform control, hardware/electronics integration, and programming.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic connection. The position is a pure materials/energy-storage research role in electrochemistry. The researcher's domains are human-centred XR, collaborative immersive systems, spatial learning, and wayfinding. There is no overlap in research questions, outcomes, or scientific communities."
+    },
+    "methodological_fit": {
+      "score": 25,
+      "rationale": "Modest methodological overlap in areas like experimental design, programming (Python mentioned as a plus), and hardware integration. However, the core work is electrochemistry experimentation and chemical synthesis — fields requiring deep domain expertise the researcher does not possess. Programming skills are general; electrochemistry requires domain-specific knowledge of electrolyte behavior, measurement protocols, and reaction mechanisms."
+    },
+    "growth_value": {
+      "score": 15,
+      "rationale": "Limited growth toward target identity. While hardware/electronics integration and automated systems might seem adjacent, the research context is energy storage, not human-computer interaction or immersive systems. Learning electrochemistry would not develop human-centred research capabilities or contribute to spatial-learning or collaborative-system expertise."
+    },
+    "strategic_value": {
+      "score": 65,
+      "rationale": "Aalto University is in target geography (Finland), excellent institution, and EU Horizon Europe funding (FLOWBOOST) demonstrates strong funding stability. Postdoc position offers career progression. However, departmental fit and research direction alignment are poor, limiting long-term strategic value for the researcher's target identity."
+    },
+    "required_skills": [
+      "chemistry",
+      "experimental-design",
+      "quantitative-research",
+      "programming",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "python",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "chemistry",
+      "electrochemistry"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires 'recently obtained (max 5 years) PhD degree in Chemistry or related field.' Researcher will hold MSc by Research only at application time — not a PhD. Does not meet eligibility.",
+      "Posting emphasizes electrochemistry expertise or interest; researcher has no documented electrochemistry background."
+    ],
+    "risks": [
+      "Fundamental eligibility issue: position requires PhD; researcher will have MSc. Likely disqualified at screening.",
+      "No chemistry or electrochemistry background; learning curve would be steep and may not be competitive against chemistry PhD applicants.",
+      "Mismatch with target identity — moving into pure materials science/energy storage moves away from human-centred research.",
+      "Networking and publication community in electrochemistry does not align with XR/HCI researcher communities."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-23T17:56:33.927045Z",
+    "analysis_input_hash": "8db00ae48ab0c92b810165c4dfd2342577bc014beeae048d2266c37a7d6c074c"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 22,
+    "urgency": "high",
+    "days_to_deadline": 13,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

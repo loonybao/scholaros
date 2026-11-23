@@ -6,7 +6,7 @@ organisation: "Aalto University"
 deadline: 2026-12-15
 status: open
 eligibility_gate: uncertain
-fit_overall: 11
+fit_overall: 18
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 23)
+Gate: **uncertain** (days to deadline: 22)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -38,7 +38,7 @@ Doctoral Researcher in Textile Chemistry
 The Textile Chemistry group (
 https://www.aalto.fi/en/department-of-bioproducts-and-biosystems/textile-chemistry
 ) focuses on environmentally friendly textile coloration and post-treatment, textile recycling, and eTextiles.
-We are now looking for a Doctoral Researcher to develop functional and adaptive textiles with tailored infrared (IR), thermal, optical, and electrical properties.
+We are now looking for a Doctoral Researcher to develop bio-based colorants from forest industry residues for textile dyeing and printing.
 The research will be carried out in the
 Department of Bioproducts and Biosystems
 in the School of Chemical Engineering at Aalto University, in close collaboration with national and international research partners.
@@ -120,25 +120,25 @@ here.
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Doctoral researcher position in textile chemistry focused on developing functional textiles through bio-based colorant extraction, dyeing experiments, and fastness testing. The role is embedded in Aalto's Department of Bioproducts and Biosystems within the School of Chemical Engineering.
+Doctoral position in textile chemistry focused on bio-based colorant extraction from forest residues, dyeing experiments, and durability testing. Research is laboratory-intensive with emphasis on chemical characterization, experimental design, and synthesis.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
 | Methodological fit | 15 |
-| Growth value | 5 |
-| Strategic value | 20 |
-| **Overall** | **11** |
+| Growth value | 10 |
+| Strategic value | 60 |
+| **Overall** | **18** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** chemistry-laboratory-techniques, chromatography, spectroscopy, mass-spectrometry, enzyme-assays, textile-testing-protocols
+**Missing skills:** biochemistry, chemistry
 
 **Risks:**
-- Complete disciplinary mismatch: chemistry ↔ HCI/XR. Supervisor expertise is in plant-derived colorants and textile chemistry, not immersive systems or human-computer interaction.
-- Laboratory skill gap: no hands-on chemistry, chromatography, or textile testing experience demonstrated.
-- Risk of rejection at screening stage due to non-standard degree background and unclear GPA comparability.
-- Pursuing this position would delay progression toward target identity (human-centred XR researcher) by 3–4 years in a peripheral discipline.
+- Complete domain mismatch: moving from software/XR into chemistry would represent a career pivot, not a natural progression.
+- No transferable technical expertise in laboratory protocols, chemical synthesis, spectroscopy, or colorimetry.
+- Research community and publication venues entirely different; network effects diminished.
+- May not meet selection criteria given chemistry background requirement and lack of textile/chemical laboratory evidence.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-textile-chemistry.md` and link [[opp_aalto-doctoral-researcher-textile-chemistry]]._

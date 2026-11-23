@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-19T15:25:43.392777Z",
-  "updated_at": "2026-11-22T14:32:47.605351Z",
+  "updated_at": "2026-11-23T17:57:18.371689Z",
   "change_history": [
     {
       "ts": "2026-11-19T15:25:43.392985Z",
@@ -78,6 +78,44 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-23T17:38:29.662493Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-23T17:56:33.926245Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-23T17:57:18.371689Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -91,9 +129,9 @@
     "evidence_ids": [
       "aalto/doctoral-researcher-textile-chemistry-0"
     ],
-    "retrieved_at": "2026-11-19T15:25:43.392481Z",
-    "raw_snapshot_hash": "7f777726c244ca9179b837d35713522b314efc3d461d43ded635ef9c01c5dbf9",
-    "extracted_content_hash": "12863e63b3f6600036555c3feedbeee8be532a82e7b9e4915e5e4ebe3b95e237",
+    "retrieved_at": "2026-11-23T17:38:29.661780Z",
+    "raw_snapshot_hash": "b63dc547e64bffba6cabe105936050a70542baa022f4f70355f6fb4f1368ede8",
+    "extracted_content_hash": "2fa15d7d0099db4dee2bbd551edf81fb5b511369185c0cd0ba12e6cc6c8b2b7c",
     "deadline": "2026-12-15",
     "deadline_note": "12:00 UTC",
     "start_date": null,
@@ -112,28 +150,30 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including nearly 450 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe School of Chemical Engineering is one of the six schools of Aalto University. It combines natural sciences and engineering in a unique way.\nThe Textile Chemistry group is now looking for a\nDoctoral Researcher in Textile Chemistry\nThe Textile Chemistry group (\nhttps://www.aalto.fi/en/department-of-bioproducts-and-biosystems/textile-chemistry\n) focuses on environmentally friendly textile coloration and post-treatment, textile recycling, and eTextiles.\nWe are now looking for a Doctoral Researcher to develop functional and adaptive textiles with tailored infrared (IR), thermal, optical, and electrical properties.\nThe research will be carried out in the\nDepartment of Bioproducts and Biosystems\nin the School of Chemical Engineering at Aalto University, in close collaboration with national and international research partners.\nAbout the research\nIn this project, colorants will be extracted from materials such as bark and needles and evaluated in cotton dyeing and screen printing. Tannin-rich fractions will be tested as bio-based aids for color fixation. Laccase treatment will be tested as a way to improve color formation or retention. Washing, light exposure, and rubbing tests will show which approaches produce durable color. The research is planned in collaboration with the Natural Resources Institute Finland (Luke). The doctoral research will be done as a part of Aalto University Bioinnovation Center’s Doctoral School.\nThe research work includes\nExtract, characterize, and standardize colorants from selected forest industry residues, accounting for variation between batches.\nDesign cotton dyeing experiments to assess how extract composition and fixation treatments affect color strength, shade consistency, and retention.\nDevelop cotton screen-printing pastes and evaluate color yield, print definition, and fixation.\nCompare selected laccase treatments with appropriate controls and use chemical analyses to distinguish polymerization from aggregation.\nMeasure washing, light, and rubbing fastness of dyed and printed cotton and investigate colorant release and degradation.\nPublish research findings, present results, and complete doctoral studies and a thesis.\nRequirements\nA relevant master’s degree, preferably in\nbiochemistry\nor\ntextile chemistry\n. Applicants with degrees in applied chemistry, chemical engineering, biotechnology, or related fields are also welcome.\nA strong academic record and an interest in plant-derived colorants and textile coloration.\nHands-on laboratory experience, demonstrated through a master’s thesis or equivalent research, and the ability to design controlled experiments and interpret quantitative data.\nThe ability to work independently, collaborate across disciplines, and communicate research clearly in English.\nExcellent verbal and written English communication skills\nExperience with textile dyeing, printing, or colorfastness testing is particularly relevant for candidates with a textile chemistry background. For candidates with a biochemistry background, experience with enzyme assays, enzyme-catalyzed reactions, or phenolic compounds is especially valuable. Plant extraction, chromatography, spectroscopy, and mass spectrometry are also relevant.\nWhat we offer\nWe offer a fixed-term contract initially for two years. During the first 6 months, you must apply for and receive the right to study in the doctoral programme in Chemical Engineering. After a successful evaluation by the end of the first 2-year contract, the contract can be extended. Extension of the contract is typically based on the progress evaluation, revised project plan and available funding. Funding for the position is secured from\nBioInnovation center\n.\nThe starting salary for a Doctoral Researcher is about 3140 €/month (gross).\nWe work at the Otaniemi campus in Espoo, a vibrant and international research environment with excellent public transport connections, modern laboratory facilities, and a strong interdisciplinary academic community.\nThe preferred starting date is as soon as possible.\nAs a Doctoral Researcher, you will participate in doctoral courses, conduct high-quality scientific research under supervision, and may take part in teaching activities. You will be responsible for communicating your research results in meetings, project reports, and scientific conferences.\nFor more information\nFor additional information about the position, please contact Prof. Ali Tehrani, or in questions related to applying for the position, please contact HR Partner Noora Katisko (\nfirstname.lastname@aalto.fi\n).\nReady to apply?\nFollow the instructions carefully and submit a single pdf document (max. 10 pages in English) through the “Apply” link (not by email)\nno later than December 15, 2026.\nIf you are an Aalto employee, you should apply for the position via our internal HR system Workday (Internal Jobs) by using your existing Workday user account (not via the external webpage for open positions).\nTo apply, please include the following documents in English and as a single pdf document:\nMotivation letter specific to this project and description of previous relevant research experience (1 page)\nCV with a possible list of publications and the title of your MSc thesis\nMaster’s degree certificate and overall GPA\nEnglish proficiency proof (Not needed for Aalto graduates)\nList of 2-3 potential references with their emails\nImportant Note\n:  Only candidates with a very good MSc GPA and documented proof of English proficiency will be considered for interview.\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nandcheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nAalto University reserves the right for justified reasons to leave the position open, to extend the application period, and to consider candidates who have not submitted applications during the application period.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+    "description_text": "Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including nearly 450 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.\nThe School of Chemical Engineering is one of the six schools of Aalto University. It combines natural sciences and engineering in a unique way.\nThe Textile Chemistry group is now looking for a\nDoctoral Researcher in Textile Chemistry\nThe Textile Chemistry group (\nhttps://www.aalto.fi/en/department-of-bioproducts-and-biosystems/textile-chemistry\n) focuses on environmentally friendly textile coloration and post-treatment, textile recycling, and eTextiles.\nWe are now looking for a Doctoral Researcher to develop bio-based colorants from forest industry residues for textile dyeing and printing.\nThe research will be carried out in the\nDepartment of Bioproducts and Biosystems\nin the School of Chemical Engineering at Aalto University, in close collaboration with national and international research partners.\nAbout the research\nIn this project, colorants will be extracted from materials such as bark and needles and evaluated in cotton dyeing and screen printing. Tannin-rich fractions will be tested as bio-based aids for color fixation. Laccase treatment will be tested as a way to improve color formation or retention. Washing, light exposure, and rubbing tests will show which approaches produce durable color. The research is planned in collaboration with the Natural Resources Institute Finland (Luke). The doctoral research will be done as a part of Aalto University Bioinnovation Center’s Doctoral School.\nThe research work includes\nExtract, characterize, and standardize colorants from selected forest industry residues, accounting for variation between batches.\nDesign cotton dyeing experiments to assess how extract composition and fixation treatments affect color strength, shade consistency, and retention.\nDevelop cotton screen-printing pastes and evaluate color yield, print definition, and fixation.\nCompare selected laccase treatments with appropriate controls and use chemical analyses to distinguish polymerization from aggregation.\nMeasure washing, light, and rubbing fastness of dyed and printed cotton and investigate colorant release and degradation.\nPublish research findings, present results, and complete doctoral studies and a thesis.\nRequirements\nA relevant master’s degree, preferably in\nbiochemistry\nor\ntextile chemistry\n. Applicants with degrees in applied chemistry, chemical engineering, biotechnology, or related fields are also welcome.\nA strong academic record and an interest in plant-derived colorants and textile coloration.\nHands-on laboratory experience, demonstrated through a master’s thesis or equivalent research, and the ability to design controlled experiments and interpret quantitative data.\nThe ability to work independently, collaborate across disciplines, and communicate research clearly in English.\nExcellent verbal and written English communication skills\nExperience with textile dyeing, printing, or colorfastness testing is particularly relevant for candidates with a textile chemistry background. For candidates with a biochemistry background, experience with enzyme assays, enzyme-catalyzed reactions, or phenolic compounds is especially valuable. Plant extraction, chromatography, spectroscopy, and mass spectrometry are also relevant.\nWhat we offer\nWe offer a fixed-term contract initially for two years. During the first 6 months, you must apply for and receive the right to study in the doctoral programme in Chemical Engineering. After a successful evaluation by the end of the first 2-year contract, the contract can be extended. Extension of the contract is typically based on the progress evaluation, revised project plan and available funding. Funding for the position is secured from\nBioInnovation center\n.\nThe starting salary for a Doctoral Researcher is about 3140 €/month (gross).\nWe work at the Otaniemi campus in Espoo, a vibrant and international research environment with excellent public transport connections, modern laboratory facilities, and a strong interdisciplinary academic community.\nThe preferred starting date is as soon as possible.\nAs a Doctoral Researcher, you will participate in doctoral courses, conduct high-quality scientific research under supervision, and may take part in teaching activities. You will be responsible for communicating your research results in meetings, project reports, and scientific conferences.\nFor more information\nFor additional information about the position, please contact Prof. Ali Tehrani, or in questions related to applying for the position, please contact HR Partner Noora Katisko (\nfirstname.lastname@aalto.fi\n).\nReady to apply?\nFollow the instructions carefully and submit a single pdf document (max. 10 pages in English) through the “Apply” link (not by email)\nno later than December 15, 2026.\nIf you are an Aalto employee, you should apply for the position via our internal HR system Workday (Internal Jobs) by using your existing Workday user account (not via the external webpage for open positions).\nTo apply, please include the following documents in English and as a single pdf document:\nMotivation letter specific to this project and description of previous relevant research experience (1 page)\nCV with a possible list of publications and the title of your MSc thesis\nMaster’s degree certificate and overall GPA\nEnglish proficiency proof (Not needed for Aalto graduates)\nList of 2-3 potential references with their emails\nImportant Note\n:  Only candidates with a very good MSc GPA and documented proof of English proficiency will be considered for interview.\nWant to know more about us and your future colleagues\n?\nYou can watch these videos:\nThis is Aalto University!\nAalto University – Towards a better world\nand\nShaping a Sustainable Future\nRead more about working at Aalto:\nhttps://www.aalto.fi/en/careers-at-aalto\nandcheck out our new virtual campus experience:\nhttps://virtualtour.aalto.fi\nAbout Finland\nFinland is a great place for living with or without family – it is a safe, politically stable and well-organized Nordic society. Finland is consistently ranked high in quality of life and was listed again as the happiest country in the world:\nWorld Happiness Report\nFor more information about living in Finland:\nAalto Careers for International Staff\n.\nAalto University reserves the right for justified reasons to leave the position open, to extend the application period, and to consider candidates who have not submitted applications during the application period.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
   },
   "ai": {
-    "summary": "Doctoral researcher position in textile chemistry focused on developing functional textiles through bio-based colorant extraction, dyeing experiments, and fastness testing. The role is embedded in Aalto's Department of Bioproducts and Biosystems within the School of Chemical Engineering.",
+    "summary": "Doctoral position in textile chemistry focused on bio-based colorant extraction from forest residues, dyeing experiments, and durability testing. Research is laboratory-intensive with emphasis on chemical characterization, experimental design, and synthesis.",
     "fit_type": "poor-fit",
     "thematic_fit": {
       "score": 5,
-      "rationale": "No thematic overlap. The position is pure materials chemistry and textile science. The researcher's domain is human-centred XR, collaborative immersive systems, and spatial learning—entirely unrelated to bio-based colorants, dyeing chemistry, or textile processing."
+      "rationale": "No thematic overlap. The position is rooted in chemistry, materials science, and textile engineering. The researcher's identity is human-centred XR, immersive learning, and spatial cognition. No connection exists between forest-derived colorants and immersive systems or human factors research."
     },
     "methodological_fit": {
       "score": 15,
-      "rationale": "Minimal methodological overlap. Both involve experimental design and quantitative analysis, but the textile chemistry position requires bench laboratory skills (chromatography, spectroscopy, mass spectrometry, enzyme assays, textile testing) that the researcher has not demonstrated. The researcher's methodology is centred on user studies, XR systems development, and spatial cognition evaluation—fundamentally different experimental paradigms."
+      "rationale": "Limited methodological alignment. The researcher has experimental-design and quantitative-research skills applicable to any empirical work. However, textile chemistry requires domain-specific laboratory protocols, chemical analysis, and synthesis techniques entirely outside the researcher's demonstrated expertise (which is software development, XR design, and user studies). The experimental contexts are fundamentally different."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "This position would not close capability gaps aligned with the researcher's target identity. It would require pivoting away from human-centred immersive systems research into organic chemistry and materials science, representing a strategic departure rather than professional growth within HCI/XR."
+      "score": 10,
+      "rationale": "Minimal growth value toward the target identity. This position would require learning chemistry and materials science from scratch, moving the researcher away from human-centred research, collaborative systems, and immersive design. It does not close any gaps relevant to XR/HCI or spatial-learning research."
     },
     "strategic_value": {
-      "score": 20,
-      "rationale": "Aalto is a tier-1 institution in the researcher's priority region (Finland), which is valuable. However, embedding in the Chemical Engineering school rather than media/HCI disciplines, and pursuing textile chemistry rather than immersive systems, misaligns with the researcher's stated target identity and core research themes. The group quality is high but strategically irrelevant."
+      "score": 60,
+      "rationale": "Aalto University is a strong institution in target geography (Finland) with excellent funding stability and research environment. However, textile chemistry is an isolated domain within chemical engineering. Supervisory quality and institutional prestige cannot offset the fundamental mismatch in research direction."
     },
     "required_skills": [
+      "biochemistry",
+      "chemistry",
       "experimental-design",
       "quantitative-research",
       "academic-writing"
@@ -146,24 +186,19 @@
       "academic-writing"
     ],
     "missing_skills": [
-      "chemistry-laboratory-techniques",
-      "chromatography",
-      "spectroscopy",
-      "mass-spectrometry",
-      "enzyme-assays",
-      "textile-testing-protocols"
+      "biochemistry",
+      "chemistry"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position explicitly requires 'relevant master's degree, preferably in biochemistry or textile chemistry.' Researcher holds MSc by Research in Multimedia/XR—significant mismatch in disciplinary prerequisites.",
-      "Posting specifies 'applicants with degrees in applied chemistry, chemical engineering, biotechnology, or related fields are also welcome.' MMU Faculty of Creative Multimedia does not clearly fit these criteria.",
-      "Posting notes 'only candidates with a very good MSc GPA and documented proof of English proficiency will be considered for interview.' Researcher's GPA system (conventional_cgpa: false) is non-standard; may require additional documentation."
+      "Posting requires 'relevant master's degree, preferably in biochemistry or textile chemistry.' Researcher holds MSc by Research in multimedia/HCI — domain is not chemistry. Eligibility uncertain.",
+      "Posting states 'hands-on laboratory experience, demonstrated through a master's thesis' — researcher's thesis is in XR application design, not chemistry."
     ],
     "risks": [
-      "Complete disciplinary mismatch: chemistry ↔ HCI/XR. Supervisor expertise is in plant-derived colorants and textile chemistry, not immersive systems or human-computer interaction.",
-      "Laboratory skill gap: no hands-on chemistry, chromatography, or textile testing experience demonstrated.",
-      "Risk of rejection at screening stage due to non-standard degree background and unclear GPA comparability.",
-      "Pursuing this position would delay progression toward target identity (human-centred XR researcher) by 3–4 years in a peripheral discipline."
+      "Complete domain mismatch: moving from software/XR into chemistry would represent a career pivot, not a natural progression.",
+      "No transferable technical expertise in laboratory protocols, chemical synthesis, spectroscopy, or colorimetry.",
+      "Research community and publication venues entirely different; network effects diminished.",
+      "May not meet selection criteria given chemistry background requirement and lack of textile/chemical laboratory evidence."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -177,8 +212,8 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-19T15:42:31.133454Z",
-    "analysis_input_hash": "c744c4ca7455697bb4580fce12af7d2c95a07a57ab5e2a1a3f869eca2dc20ced"
+    "analyzed_at": "2026-11-23T17:56:33.925557Z",
+    "analysis_input_hash": "d322332f5cfa211001ef7cf7d05558780302cf0315189256f25e017f2b363a80"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -186,9 +221,9 @@
       "funding/salary not confirmed on the posting",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 11,
+    "fit_overall": 18,
     "urgency": "medium",
-    "days_to_deadline": 23,
+    "days_to_deadline": 22,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

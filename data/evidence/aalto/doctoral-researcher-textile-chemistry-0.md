@@ -2,7 +2,7 @@
 source: aalto
 native_id: doctoral-researcher-textile-chemistry-0
 url: https://www.aalto.fi/en/open-positions/doctoral-researcher-textile-chemistry-0
-retrieved_at: 2026-11-19T15:25:43.095510+00:00
+retrieved_at: 2026-11-23T17:38:29.432459+00:00
 ---
 
 Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including nearly 450 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.
@@ -12,7 +12,7 @@ Doctoral Researcher in Textile Chemistry
 The Textile Chemistry group (
 https://www.aalto.fi/en/department-of-bioproducts-and-biosystems/textile-chemistry
 ) focuses on environmentally friendly textile coloration and post-treatment, textile recycling, and eTextiles.
-We are now looking for a Doctoral Researcher to develop functional and adaptive textiles with tailored infrared (IR), thermal, optical, and electrical properties.
+We are now looking for a Doctoral Researcher to develop bio-based colorants from forest industry residues for textile dyeing and printing.
 The research will be carried out in the
 Department of Bioproducts and Biosystems
 in the School of Chemical Engineering at Aalto University, in close collaboration with national and international research partners.

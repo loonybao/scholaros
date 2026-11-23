@@ -1,0 +1,181 @@
+{
+  "id": "opp_tudelft-phd-positions-wireless-comms-computer-networks-satel",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-23T17:41:10.740158Z",
+  "updated_at": "2026-11-23T17:57:18.837151Z",
+  "change_history": [
+    {
+      "ts": "2026-11-23T17:41:10.740348Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-23T17:56:33.933602Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-23T17:57:18.837151Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Positions Wireless Comms, Computer Networks, Satellite Systems and Cybersecurity",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1378213757",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Positions-Wireless-Comms%2C-Computer-Networks%2C-Satellite-Systems-and-Cybersecurity-2628-CD/1378213757/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Positions-Wireless-Comms%2C-Computer-Networks%2C-Satellite-Systems-and-Cybersecurity-2628-CD/1378213757/",
+    "evidence_ids": [
+      "tudelft/1378213757"
+    ],
+    "retrieved_at": "2026-11-23T17:41:10.739926Z",
+    "raw_snapshot_hash": "3a5e948bb1cb985bce552cf7cacc3e8941ce089b9ea8d8be1875e4b682b698a0",
+    "extracted_content_hash": "12c56f1f9995cb45dc7e3412b5e329df540bfb4309bfd2252dcfa1f8960376b4",
+    "deadline": "2026-12-31",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "ambiguous",
+    "mobility_requirement_text": "Posting mentions: …ska-Curie Actions (MSCA) programme: No PhD yet: You must not already hold a doctoral degree at the time of recruitment. Mobility rule: You must not have lived or carried out your main activity (work or studies) in the country where you will be recruited for more than 12 months during the 36 months before recruitment. MSCA exception…",
+    "status": "open",
+    "description_text": "What happens when the Internet fails?\nJob description\nWhat happens when the Internet fails?\nWhat happens when a submarine cable is cut? When satellites lose contact with one another? Or when a cyberattack disrupts the networks we depend on every day? The Internet is remarkably resilient, but it is far from invulnerable. As our dependence on digital infrastructure grows, so does the need to understand where it is vulnerable, how failures spread, and what we can do about them.\nThese are some of the questions we want to explore in RESILIOUS.\nWe are bringing together 15 PhD researchers and a network of universities, research centres, and industry partners across Europe to investigate how we can make the Internet more resilient. The research spans satellite communications, underwater robotics, network security, autonomous systems, and Internet governance. As part of RESILIOUS, you'll have the opportunity to explore challenging research questions, experiment with new ideas, and work alongside researchers and industry experts from different disciplines and countries. We are recruiting 15 PhD students. If you are curious about how the Internet works, why it sometimes fails, and what we could do differently, have a look at our open positions. One of these questions might be yours to explore.\nThe 15 PhD Positions offered are as follows:\nDC1 — Can satellite networks stay connected when things go wrong?\nDC2 — What if satellites from different operators could talk to each other?\nDC3 — Can we make the Internet more resilient by rethinking how networks connect?\nDC4 — Doctoral candidate in predictive robotic inspection for resilient undersea cable infrastructure\nDC5 — How can we detect cyber anomalies in space systems?\nDC6 — How close is too close when satellites meet in orbit?\nDC7 — What are our options when satellite navigation stops working?\nDC8 — Could mobile networks help us detect drones in the sky?\nDC9 — Can we hear a maritime threat before we can see it?\nDC10 — Can satellite networks autonomously adapt their routes when conditions change?\nDC11 — Can we predict when a communication link is about to degrade and proactively mitigate its impact on connectivity?\nDC12 — How can context-aware knowledge enable autonomous network self-healing?\nDC13 — How do underwater networks stay connected when links disappear?\nDC14 — Who decides how the Internet should work?\nDC15 — Can the Internet become fragile because of how it is governed?\nJob requirements\nWe welcome applications from curious and motivated people from around the world. You don't need to know everything about your chosen research topic before starting your PhD. We're looking for people who enjoy tackling difficult problems, asking questions, learning new things, and working with others. Different positions call for different skills and backgrounds, so have a look at the individual vacancies to see which ones interest you.\nEligibility requirements\nThere are a few formal requirements under the Marie Skłodowska-Curie Actions (MSCA) programme:\nNo PhD yet:\nYou must not already hold a doctoral degree at the time of recruitment.\nMobility rule:\nYou must not have lived or carried out your main activity (work or studies) in the country where you will be recruited for more than 12 months during the 36 months before recruitment.\nMSCA exceptions\nmay apply.\nOpen to all nationalities:\nYou can apply regardless of your nationality.\nUniversity admission:\nYou must meet the PhD admission requirements of the university associated with your position.\nAbout the programme\nThe 15 PhD positions are offered within RESILIOUS (Building Europe’s Internet Resilience for a Connected Future), a European Doctoral Network funded by the European Union under the Horizon Europe Marie Skłodowska-Curie Actions (MSCA). TU Delft is one of the participating institutions in the RESILIOUS project and co-coordinates the recruitment process. Two of the available PhD positions will take place at TU Delft.\nConditions of employment\nThe MSCA allowances follow the EU contribution for MSCA Doctoral Networks [\nlink\n] coefficient applied per country [\nlink\n]. Please note that the net salary will be calculated by deducting these contributions and any other applicable national taxes (e.g., income tax) from the gross amount. For an accurate expectation ensure you check your estimation during the selection process.\nA total of 15 PhD researchers will be recruited within this project and appointed at participating universities, research centres, and industry partners across Europe. Employment conditions, including net salary, benefits, duration, and other contractual arrangements, will depend on the host institution or employer. The employment conditions of the respective university, research centre, or industry partner will therefore apply.\nConditions of employment TU Delft\nIf you will be appointed at TU Delft you will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met. Hence the duration of the PhD project will be 4 years in stead of the standard 3 years funded by the MSCA project.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from 3.204 to 4.051 euro gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Anna Gralka, via\na.j.gralka@tudelft.nl\n.\n#EUfunded This is an EU funded project, named RESILIOUS, with project number 101311731, within program Marie Skłodowska-Curie Actions (MSCA) Doctoral Networks under Horizon Europe\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n31 December 2026\nvia this\nlink\nand upload the following documents:\nCV\nCopies of your Bachelor's and Master's degrees and academic transcripts\nA research statement of no more than 800 words\nAbout your research statement\nWe are not looking for a polished research proposal or a summary of everything you know about the topic. We'd like to understand how you approach an unfamiliar research problem. Choose one specific question related to the position and explain why you find it interesting, what makes it challenging, and how you might begin investigating it. We would also like you to describe one assumption you would question or one experiment that might prove your initial idea wrong. There is no single correct answer. You are welcome to use AI tools to help with writing and language, but the research choices and reasoning should be your own. We may discuss your ideas during the interview. You can address your application to Anna Gralka.\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "15 PhD positions within RESILIOUS European Doctoral Network investigating Internet resilience across satellite communications, underwater robotics, network security, autonomous systems, and governance. Research spans multiple specializations; two positions at TU Delft. MSCA funding; 4-year employment.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 10,
+      "rationale": "No thematic fit to target identity. The 15 positions span telecommunications infrastructure, satellite systems, network resilience, cybersecurity, and Internet governance — all systems-level and infrastructure-focused. Researcher's themes are human-centred XR, immersive learning, spatial cognition, and collaborative interaction. Even 'autonomous systems' mentioned (DC10) refers to network routing, not embodied/spatial systems. No overlap."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Weak methodological fit. Position descriptions are vague ('Can satellite networks stay connected when things go wrong?') and do not clearly specify required backgrounds. Researcher has user-studies and experimental-design skills, which could apply to systems research. However, most positions appear infrastructure-focused (network simulation, protocol design, cybersecurity detection), requiring networking/systems expertise researcher does not have. Vagueness lowers confidence."
+    },
+    "growth_value": {
+      "score": 20,
+      "rationale": "Limited growth value. If a position involved human factors in network resilience or social dimensions of Internet governance (DC14, DC15 touch governance), there might be tangential fit. However, positions DC1–DC13 are technical infrastructure work. Even governance positions (DC14, DC15) appear policy/political-science focused, not human-centred design or learning research."
+    },
+    "strategic_value": {
+      "score": 55,
+      "rationale": "TU Delft is in target geography (Netherlands). MSCA funding is prestigious and stable. However, the RESILIOUS network spans satellite/underwater/network communities, not XR/HCI/learning communities. PhD in this network would not build researcher's target-identity network or position for future HCI-focused roles."
+    },
+    "required_skills": [
+      "networking",
+      "cybersecurity",
+      "autonomous-systems",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "networking",
+      "cybersecurity",
+      "autonomous-systems",
+      "satellite-systems",
+      "rf-engineering"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "MSCA mobility rule: researcher must not have lived/worked in Netherlands for >12 months in prior 36 months. Eligibility depends on current/recent location; not stated in profile.",
+      "Position descriptions are intentionally vague ('research statement' format). Cannot determine specific skill requirements for most positions (DC1–DC13) from posting alone.",
+      "Posting states 'You don't need to know everything about your chosen research topic before starting' — suggests openness to non-specialists. However, infrastructure resilience assumes strong networking/systems foundation."
+    ],
+    "risks": [
+      "Vague position descriptions make assessment uncertain; could be systems work, could be humanities-focused (governance positions DC14/DC15 unclear).",
+      "Network is infrastructure-resilience focused; researcher's XR/HCI background unlikely to be valued or developed in this context.",
+      "MSCA positions emphasize mobility and European integration; researcher's target geography (Finland/Sweden/Netherlands) is met, but research community mismatch remains.",
+      "Potential eligibility risk if researcher has worked in Netherlands recently (MSCA mobility rule).",
+      "Even if 'autonomous systems' (DC10) mentions autonomous network adaptation, it refers to network routing, not human-robot or human-spatial interaction."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.75,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-23T17:56:33.933166Z",
+    "analysis_input_hash": "363bf33fa394e3f1714506789159c59821ae4d6eb9f7032b78bb06e3394ff8d4"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source",
+      "posting hints at a mobility/residence-history rule — verify the exact condition"
+    ],
+    "fit_overall": 20,
+    "urgency": "medium",
+    "days_to_deadline": 38,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

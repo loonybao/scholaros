@@ -1,0 +1,176 @@
+{
+  "id": "opp_tudelft-phd-position-efficient-transmitter-pa-s-fns",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-23T17:40:38.532723Z",
+  "updated_at": "2026-11-23T17:57:18.668073Z",
+  "change_history": [
+    {
+      "ts": "2026-11-23T17:40:38.532915Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-23T17:56:33.928623Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-23T17:57:18.668073Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "PhD Position Efficient Transmitter PA's (FNS)",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1378244757",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Efficient-Transmitter-PA&apos;s-%28FNS%29-2628-CD/1378244757/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-PhD-Position-Efficient-Transmitter-PA&apos;s-%28FNS%29-2628-CD/1378244757/",
+    "evidence_ids": [
+      "tudelft/1378244757"
+    ],
+    "retrieved_at": "2026-11-23T17:40:38.532471Z",
+    "raw_snapshot_hash": "ef1df9af3a2ac9bdf96962a705dd8356860a6266e8ef3a2d3a4e56fe3c0a2fa1",
+    "extracted_content_hash": "889e14018cc7396f1916eeee22a122eb43baa0dca6adfb8f5448608f2c30a50c",
+    "deadline": "2026-12-04",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": "€3204 - €4051 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "PhD position Enabling highly efficient and scalable transmitter arrays through built-in self-test (BIST), self-calibration, intelligent linearization techniques.\nJob description\nThe Ph.D. project will focus on the development of novel IC architectures and algorithms enabling integrated self-test and self-calibration techniques for mm-wave and sub-mm-wave transmitters. The research will investigate sensing, monitoring, and calibration concepts that can be embedded within the stringent area and power constraints of advanced CMOS technology nodes.\nIn addition, the research will address the calibration and linearization challenges associated with future 6G transmitters, including spectral purity, output power, and modulation linearity requirements. Novel adaptive compensation and embedded digital predistortion techniques will be investigated to mitigate process-induced variability and dynamic load modulation effects arising in densely integrated antenna array architectures.\nThe work combines RF, analog, mixed-signal, and digital IC design, contributing to the realization of intelligent and energy-efficient transmitter solutions for next-generation wireless communication systems.\nYou will work in the ELCA research group of the TU Delft and will be guided by Dr.Marco Spirito and Dr. Morteza Alavi.\nFor your design, you will make use of state-of-the-art semiconductor technologies. The student must have:\nalready received his/her master of science.\nknowledge of RF, mixed-signal, digital design,\nexperience with ADS and Cadence,\ninterested in this position\nPlacement: Under ELCA group staff members,\nDepartment of Microelectronics, Faculty of EEMCS, TU Delft.\nQualifications: Master’s degree in Electrical Engineering, Computer Science, or related field. Experience in telecommunications and signal processing is beneficial. Strong circuit and system design skills and fluency in English are required.\nJob requirements\nYou should have:\nA master’s degree in electrical engineering, computer science or related fields.\nBackground in RF design, mixed-mode signal design, digital design\nExperience in radio frequency/wireless communications.\nExperience in programming languages including C/C++, Python, MATLAB, Cadense, ADS.\nA good command of English (verbal and written).\nGood communication and interpersonal skills.\nAbility to work in a collaborative environment.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDoctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.\nAs a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.\nThe TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.\nAdditional information\nFor more information about this vacancy, please contact Dr. Marco Spirito and Dr. Morteza Alavi at m.spirito@tudelft.nl and s.m.alavi@tudelft.nl.\nApplication procedure\nAre you interested in this vacancy? Please apply via the application button, and upload:\nA 1-page cover letter stating your motivation.\nA detailed curriculum vitae with a publication list (If any).\nCopies of your BSc and MSc degrees and transcripts.\nAbstract of your master’s thesis (max. 400 words).\nDoing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the\nGraduate Schools Admission Requirements\n.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "PhD position in RF/mixed-signal IC design for mm-wave and sub-mm-wave transmitters, focusing on self-test, self-calibration, linearization, and predistortion techniques for 6G communications. Research combines circuit design, embedded algorithms, and optimization.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "No thematic fit. Position is pure electrical engineering focused on RF circuit design, signal processing, and 6G communications infrastructure. Researcher's domains are human-centred XR, immersive learning, spatial cognition, and collaborative systems. No shared research questions, outcomes, or application areas."
+    },
+    "methodological_fit": {
+      "score": 10,
+      "rationale": "Minimal methodological overlap. Position requires RF/analog/mixed-signal/digital IC design expertise, ADS and Cadence tools, and circuit simulation — specialized hardware design skills. Researcher's technical foundation is software (Unity, C#, networking), not circuit design. While both involve programming, the domains are entirely distinct."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "No growth value toward target identity. This is pure telecommunications hardware engineering. Learning 6G transmitter design would not develop human-centred research capabilities, immersive-system expertise, or spatial-cognition understanding. Direction is orthogonal to target goals."
+    },
+    "strategic_value": {
+      "score": 50,
+      "rationale": "TU Delft is in target geography (Netherlands) and is a strong institution. However, the Microelectronics department and RF design research community are not aligned with the researcher's target communities (HCI, XR, learning sciences). Institutional prestige does not overcome poor fit."
+    },
+    "required_skills": [
+      "cpp",
+      "python",
+      "matlab",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "cpp",
+      "matlab",
+      "rf-design",
+      "mixed-signal-design",
+      "circuit-simulation"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Posting requires 'Master's degree in Electrical Engineering, Computer Science, or related fields.' Researcher holds MSc in Creative Multimedia/HCI — not an engineering degree. May not meet formal admission requirements.",
+      "Posting emphasizes 'Background in RF design, mixed-mode signal design, digital design' and experience with 'ADS and Cadence' — researcher has no documented experience in these specialized tools or domains."
+    ],
+    "risks": [
+      "Hard exclusion on eligibility: degree background is multimedia/HCI, not electrical engineering. University admission requirements likely not met.",
+      "No RF or circuit design experience; this is a specialized hardware domain requiring years of focused study.",
+      "Researcher's software/XR skills are not transferable to IC design and would not give competitive advantage.",
+      "Career direction mismatch — 6G communications infrastructure is incompatible with stated target identity and excluded research directions do not list this explicitly, but it represents pure technical engineering with no human-centered component."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-23T17:56:33.928184Z",
+    "analysis_input_hash": "58e742149a6de43be77e88f9fab85b0ebb2090d44fc99bd7a05d7889ec48367e"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 12,
+    "urgency": "high",
+    "days_to_deadline": 11,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
