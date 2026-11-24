@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-12-02
 status: open
 eligibility_gate: uncertain
-fit_overall: 11
+fit_overall: 4
 urgency: high
 needs_review: true
 ---
@@ -24,13 +24,12 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 9)
+Gate: **uncertain** (days to deadline: 8)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
 ## Description
 
-Develop next-generation CMOS magnetic sensors at TU Delft. Combine sensor physics and analog circuit design to advance wideband magnetic sensing technology.
 Job description
 At TU Delft, we conduct pioneering research into sensor technology and integrated circuit design. As a PhD researcher in wideband magnetic field sensors in CMOS, you will contribute to the development of next-generation magnetic sensors, with a particular focus on the Hall effect in silicon.
 You will combine your knowledge of sensor physics and analog circuit design to investigate, design and evaluate innovative sensor solutions. Through experimental work and simulations, you will explore new approaches to improving sensor performance and bandwidth. Your work will contribute to advancing CMOS-based magnetic sensing technology and its applications.
@@ -53,33 +52,25 @@ Click
 here
 to go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.
 Conditions of employment
-Duration of contract is 4 years. Temporary. You will start with a contract for one year.
-A job of 38-40 hours per week.
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
-An excellent pension scheme via the ABP.
-The possibility to compile an individual employment package every year.
-Discount with health insurers on supplemental packages.
-Flexible working week.
-Every year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.
-Plenty of opportunities for education, training and courses.
-Partially paid parental leave
-Attention for working healthy and energetically with the vitality program.
+Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from €3204 - €4051 gross per month, from the first year to the fourth year based on a fulltime contract (38 hours), plus 8% holiday allowance and an end-of-year bonus of 8.3%.
+As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
+The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
 Will you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,
 Coming to Delft Service
 , offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A
 Dual Career Programme
-is available, to support your accompanying partner with their job search in the Netherlands.  .
+is available, to support your accompanying partner with their job search in the Netherlands.
 Additional information
-If you would like more information about this vacancy or the selection procedure, please contact Kofi Makinwa, via
-K.A.A.Makinwa@tudelft.nl
-.
+If you would like more information about this vacancy or the selection procedure, please contact Kofi Makinwa, via K.A.A.Makinwa@tudelft.nl or .
 Application procedure
-Are you interested in this vacancy? Please apply no later than
-2 December 2026
-via the application button and upload the following documents:
+Are you interested in this vacancy? Please apply no later than 2 Dec 2026 via the application button and upload the following documents:
 CV
 Motivational letter
-You can address your application to Kofi Makinwa.
+You can address your application to Kofi Makinwa.
+Doing a PhD at TU Delft requires English proficiency at a certain level to ensure that the candidate is able to communicate and interact well, participate in English-taught Doctoral Education courses, and write scientific articles and a final thesis. For more details please check the
+Graduate Schools Admission Requirements
+.
 Please note:
 To protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.
 As part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about
@@ -88,28 +79,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-PhD position in analog circuit design and sensor physics at TU Delft, focusing on CMOS-based wideband magnetic field sensors with emphasis on Hall effect in silicon, sensor characterization, and IC design validation.
+PhD position in analog circuit design and CMOS-based magnetic sensor technology, focusing on Hall effect sensors and wideband performance. Core work is sensor physics, circuit design, and IC fabrication—pure hardware engineering with no HCI or immersive systems component.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 3 |
+| Thematic fit | 0 |
 | Methodological fit | 5 |
-| Growth value | 2 |
-| Strategic value | 50 |
-| **Overall** | **11** |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **4** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cpp, statistics, mixed-effects-modelling
+**Missing skills:** sensor-physics, analog-circuit-design, ic-design
 
 **Risks:**
-- Fundamental disciplinary mismatch: electronics/IC design vs. multimedia/HCI. Application would almost certainly be rejected at screening.
-- Requires multiple mandatory qualifications (circuit design expertise, published IC design work, Hall sensor knowledge) completely absent from researcher's profile.
-- Even if somehow admitted, would require retraining in analog circuit theory, semiconductor physics, and IC design tools—extremely high risk of failure.
-- Supervisor (Makinwa) is an IC design expert; no bridge to human-centred systems research or mentorship in HCI.
-- Position does not develop any capabilities relevant to doctoral work in immersive systems, spatial cognition, or collaborative learning.
+- Complete domain shift away from target identity; retraining would be substantial and would delay PhD path in human-centred XR.
+- No existing publication record in required domain (IC design/sensor physics).
+- Supervisor group (Makinwa) works in analog/mixed-signal circuits; no documented XR or HCI research. PhD would not build toward target institutional fit or collaborator network.
+- Risk of misalignment becoming apparent only after joining; this is a poor strategic move for a researcher committed to human-centred immersive systems.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-wideband-magnetic-field-sensors-in-cmos.md` and link [[opp_tudelft-phd-position-wideband-magnetic-field-sensors-in-cmos]]._

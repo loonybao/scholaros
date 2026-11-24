@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-12-10
 status: open
 eligibility_gate: uncertain
-fit_overall: 8
+fit_overall: 6
 urgency: high
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 17)
+Gate: **uncertain** (days to deadline: 16)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -85,7 +85,7 @@ Coming to Delft Service
 Dual Career Programme
 is available, to support your accompanying partner with their job search in the Netherlands.  .
 Additional information
-If you would like more information about this vacancy or the selection procedure, please contact Wei Yu, via
+If you would like more information about this vacancy or the selection procedure, please contact Wei Yu, via
 w.yu@tudelft.nl
 or Federico Taruffi via
 F.Taruffi@tudelft.nl
@@ -105,27 +105,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoc position focused on experimental validation and computational modelling of aerodynamic and aeroelastic effects in segmented rotor blades for mobile wind energy systems. Role emphasises wind tunnel testing, measurement techniques, and collaboration with industrial partners in a mechanical/aerospace engineering context.
+Postdoc position in experimental validation and modelling of aerodynamic and aeroelastic effects of segmented rotor blades for mobile wind energy systems. Core work is wind tunnel experiments, aerodynamic measurement, and engineering modelling—pure aerospace engineering with no HCI or immersive systems component.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 8 |
-| Growth value | 5 |
-| Strategic value | 15 |
-| **Overall** | **8** |
+| Thematic fit | 0 |
+| Methodological fit | 10 |
+| Growth value | 0 |
+| Strategic value | 20 |
+| **Overall** | **6** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python
+**Missing skills:** rotor-aerodynamics, aeroelasticity, wind-tunnel-testing, aerodynamic-modelling, python, matlab
 
 **Risks:**
-- Disciplinary mismatch: position sits in mechanical/aerospace engineering; researcher is HCI/XR focused. Limited visibility or mentorship for return to target identity post-postdoc.
-- Skill gap: Python is beginner-level; position assumes fluency. Ramp-up cost would be high.
-- Research direction misalignment: postdoc outcome (aerodynamic models, wind energy systems) does not reinforce researcher's long-term goal (human-centred immersive systems for spatial learning).
-- Funding stability noted but positioning for next role (PhD or research position in HCI/XR) would require re-establishing credibility in target domain.
+- Researcher is not eligible until after PhD completion; applying now would be premature.
+- Complete domain shift away from target identity. Aerospace engineering is not a stepping stone to human-centred XR; it would consume 2 years postdoc time without building toward doctoral researcher identity in HCI.
+- Supervisor group (aerospace, rotor aerodynamics) has no documented connection to XR, HCI, or immersive systems research.
+- High opportunity cost: 2 years postdoc in wrong domain delays entry into human-centred XR research ecosystem and PhD supervision landscape in priority institutions (Aalto, TU Delft HCI groups, etc.).
+- Upon completion, researcher would have postdoc in aerospace, not HCI, making subsequent PhD applications to XR groups less coherent in narrative.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-aerodynamics-and-aeroelasticity-of-modular-r.md` and link [[opp_tudelft-postdoc-aerodynamics-and-aeroelasticity-of-modular-r]]._

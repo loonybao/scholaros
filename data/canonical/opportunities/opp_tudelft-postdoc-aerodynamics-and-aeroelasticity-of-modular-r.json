@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-18T15:21:34.999396Z",
-  "updated_at": "2026-11-23T17:57:18.843035Z",
+  "updated_at": "2026-11-24T17:27:43.258767Z",
   "change_history": [
     {
       "ts": "2026-11-18T15:21:34.999564Z",
@@ -95,6 +95,45 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-24T17:13:47.070754Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-24T17:27:42.319609Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-24T17:27:43.258767Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -108,9 +147,9 @@
     "evidence_ids": [
       "tudelft/1377871257"
     ],
-    "retrieved_at": "2026-11-18T15:21:34.999178Z",
-    "raw_snapshot_hash": "d32730f5d99e5ca07db9dcf75551d3e0fca3e7cb20d42dcd69e840a807f0f556",
-    "extracted_content_hash": "d27acb54848f4ba2411e6226361bd3649d77ee219b96a932aa642db89b519c33",
+    "retrieved_at": "2026-11-24T17:13:47.069949Z",
+    "raw_snapshot_hash": "e64c3db7d851979359e738b32e60dcc22028bad5f530fafc0d48e52fbb4d8590",
+    "extracted_content_hash": "cf829b589b2572cd7ec67600795db661343b0ca34e21c9f4425b1c892bae9743",
     "deadline": "2026-12-10",
     "deadline_note": null,
     "start_date": null,
@@ -129,30 +168,35 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Job description\nThe Netherlands has a growing need for temporary sustainable electricity, driven by grid congestion, emission-free construction, and energy independence, including in defence. Today, diesel generators mostly fill this role, with the associated CO₂, NOx, and particulate emissions, fuel logistics, and licensing hurdles. Mobile wind energy, combined with PV, batteries, and backup, can offer a sustainable alternative.\nFor mobile systems in the 50–200 kW class, transportability is a key barrier: rotors of approximately 20–35 m diameter do not fit in standard 20 ft containers. Modular segmented blades could solve this, but they introduce uncertainties in aerodynamics, aeroelastic behaviour, structural integrity, fatigue, acoustics, and safety.\nIn this industry-academia project, TU Delft works with TouchWind (system integrator and project coordinator) and eProWind (module interfaces, composite structures, and fatigue) to develop and validate a modular rotor concept. The project provides the R&D basis for a first mobile 50 kW application.\nYour role\nYou will lead TU Delft’s contribution to the experimental validation and modelling of aerodynamic and aeroelastic effects of segmented rotor blades. You will work closely with industrial partners.\nResponsibilities\nDesign, perform, and analyse wind tunnel experiments on segmented rotor blades and rotor models, including the effects of segment joints and interfaces on flow behaviour and performance.\nQuantify the impact of blade segmentation on aerodynamic efficiency, energy yield, loads, and acoustics.\nInterpret aerodynamic and aeroelastic effects, combining measurements with engineering models and, where useful, higher-fidelity simulations.\nSupport the validation of aeroelastic models developed by TouchWind, including load cases and load transfer through the modular connections.\nContribute to the assessment of structural integrity and fatigue aspects together with the project partners.\nCoordinate experimental campaigns, data management, communication, and reporting with industrial partners.\nPublish results in peer-reviewed journals and conferences, and contribute to knowledge transfer towards industry.\nCo-supervise MSc and support PhD students working on related topics.\nJob requirements\nPhD in aerospace, mechanical, or wind energy engineering, or a closely related field.\nStrong background in rotor aerodynamics and/or aeroelasticity.\nHands-on experience with experimental work, preferably wind tunnel testing, including measurement techniques such as load, pressure, PIV, or strain measurements.\nExperience with aeroelastic or aerodynamic modelling (e.g. BEM, lifting-line, or CFD) and with scientific programming (Python or MATLAB).\nA track record of scientific publications.\nAbility to work independently and in a multidisciplinary team, and comfortable collaborating with industry partners.\nExcellent communication skills in English.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDuration of contract is 2 years. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Wei Yu, via\nw.yu@tudelft.nl\nor Federico Taruffi via\nF.Taruffi@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n10 December 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Wei Yu.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "Job description\nThe Netherlands has a growing need for temporary sustainable electricity, driven by grid congestion, emission-free construction, and energy independence, including in defence. Today, diesel generators mostly fill this role, with the associated CO₂, NOx, and particulate emissions, fuel logistics, and licensing hurdles. Mobile wind energy, combined with PV, batteries, and backup, can offer a sustainable alternative.\nFor mobile systems in the 50–200 kW class, transportability is a key barrier: rotors of approximately 20–35 m diameter do not fit in standard 20 ft containers. Modular segmented blades could solve this, but they introduce uncertainties in aerodynamics, aeroelastic behaviour, structural integrity, fatigue, acoustics, and safety.\nIn this industry-academia project, TU Delft works with TouchWind (system integrator and project coordinator) and eProWind (module interfaces, composite structures, and fatigue) to develop and validate a modular rotor concept. The project provides the R&D basis for a first mobile 50 kW application.\nYour role\nYou will lead TU Delft’s contribution to the experimental validation and modelling of aerodynamic and aeroelastic effects of segmented rotor blades. You will work closely with industrial partners.\nResponsibilities\nDesign, perform, and analyse wind tunnel experiments on segmented rotor blades and rotor models, including the effects of segment joints and interfaces on flow behaviour and performance.\nQuantify the impact of blade segmentation on aerodynamic efficiency, energy yield, loads, and acoustics.\nInterpret aerodynamic and aeroelastic effects, combining measurements with engineering models and, where useful, higher-fidelity simulations.\nSupport the validation of aeroelastic models developed by TouchWind, including load cases and load transfer through the modular connections.\nContribute to the assessment of structural integrity and fatigue aspects together with the project partners.\nCoordinate experimental campaigns, data management, communication, and reporting with industrial partners.\nPublish results in peer-reviewed journals and conferences, and contribute to knowledge transfer towards industry.\nCo-supervise MSc and support PhD students working on related topics.\nJob requirements\nPhD in aerospace, mechanical, or wind energy engineering, or a closely related field.\nStrong background in rotor aerodynamics and/or aeroelasticity.\nHands-on experience with experimental work, preferably wind tunnel testing, including measurement techniques such as load, pressure, PIV, or strain measurements.\nExperience with aeroelastic or aerodynamic modelling (e.g. BEM, lifting-line, or CFD) and with scientific programming (Python or MATLAB).\nA track record of scientific publications.\nAbility to work independently and in a multidisciplinary team, and comfortable collaborating with industry partners.\nExcellent communication skills in English.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Aerospace Engineering\nThe Faculty of Aerospace Engineering at Delft University of Technology is a leading international community where innovation in aerospace meets global challenges. Our support and scientific staff, including PhD candidates, postdocs, and students, largely work together on three main themes: the energy transition, sustainable aerospace, and safety and security, with the aim of tackling climate change and contributing to the independence and security of Europe.\nWhen you join us, you become part of a diverse, collaborative, and forward-thinking environment where your ideas and perspectives are valued. Our work extends beyond the lab—into field labs, innovation hubs, and partnerships with other faculties, research institutes, governments, and industry, both locally and globally.\nWe are committed to fostering an inclusive and welcoming workplace, assisted by an\nactive Diversity & Inclusion team\n. This includes tangible support such as funding for extra personnel for family and caregiving responsibilities, mentoring programmes, and initiatives that promote cultural exchange and integration.\nYou don’t just join our faculty — you join a community where you can thrive, grow, and help shape the future of aerospace.\nClick\nhere\nto go to the website of the Faculty of Aerospace Engineering.\nConditions of employment\nDuration of contract is 2 years. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Wei Yu, via\nw.yu@tudelft.nl\nor Federico Taruffi via\nF.Taruffi@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n10 December 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Wei Yu.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "Postdoc position focused on experimental validation and computational modelling of aerodynamic and aeroelastic effects in segmented rotor blades for mobile wind energy systems. Role emphasises wind tunnel testing, measurement techniques, and collaboration with industrial partners in a mechanical/aerospace engineering context.",
+    "summary": "Postdoc position in experimental validation and modelling of aerodynamic and aeroelastic effects of segmented rotor blades for mobile wind energy systems. Core work is wind tunnel experiments, aerodynamic measurement, and engineering modelling—pure aerospace engineering with no HCI or immersive systems component.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "No thematic overlap. Position is rooted in aerodynamics, aeroelasticity, and wind energy engineering. Researcher's expertise is human-centred immersive systems, spatial learning, and collaborative XR. Neither domain, methodology, nor application area intersect."
+      "score": 0,
+      "rationale": "No thematic overlap. Position is aerospace physics and mechanical engineering; researcher's identity is human-centred XR and collaborative immersive systems. No mention of users, interaction, learning, spatial cognition, or any HCI methodology in the posting."
     },
     "methodological_fit": {
-      "score": 8,
-      "rationale": "Minimal methodological bridge. Position requires experimental design (which researcher has at intermediate level) and scientific programming (Python/MATLAB), but researcher's Python is beginner-level. The experimental context (wind tunnel, load/pressure/PIV measurements) is entirely distinct from user studies and immersive systems evaluation. No transferable methodological advantage."
+      "score": 10,
+      "rationale": "Limited methodological fit. Researcher has experimental design and data analysis skills applicable to wind tunnel measurements and load analysis. However, the postdoc requires aerodynamic/aeroelastic modelling (BEM, lifting-line, CFD) and scientific programming (Python, MATLAB) at an advanced level. Researcher has only beginner Python and no aerodynamic/aeroelastic background. The measurement methodology overlaps slightly, but core research methods are fundamentally different."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "Position would require deep reskilling in aerodynamics, mechanical modelling, and instrumentation. Does not close capability gaps relevant to researcher's stated target identity (human-centred XR, spatial learning, collaborative systems). Python exposure might have peripheral value, but at significant opportunity cost."
+      "score": 0,
+      "rationale": "This position would not close capability gaps toward target identity. Researcher would gain experimental rigour and wind tunnel methodology, but zero capability development in spatial cognition, collaborative systems, immersive learning, or XR/VR design. This is a postdoc, not a PhD; it would delay, not accelerate, pathway to doctoral researcher identity in HCI."
     },
     "strategic_value": {
-      "score": 15,
-      "rationale": "TU Delft is a tier-1 institution and researcher's target institution (Priority 1). However, Faculty of Aerospace Engineering is unrelated to HCI/XR research communities. Postdoc context (2 years, industry collaboration) could provide funding stability, but supervisor expertise and research group culture are misaligned with target identity trajectory toward human-centred immersive systems research."
+      "score": 20,
+      "rationale": "TU Delft is priority-1; Faculty of Aerospace Engineering is well-regarded and externally funded (industry partners TouchWind, eProWind). However, this is a postdoc—a lateral or sideways move for a researcher still completing their MSc and planning doctoral work. The postdoc is not a pathway to the researcher's target PhD identity. The supervisor group (rotor aerodynamics) is not relevant to HCI or XR."
     },
     "required_skills": [
-      "experimental-design",
-      "python"
+      "rotor-aerodynamics",
+      "aeroelasticity",
+      "wind-tunnel-testing",
+      "aerodynamic-modelling",
+      "python",
+      "matlab",
+      "scientific-programming"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
@@ -160,18 +204,25 @@
       "experimental-design"
     ],
     "missing_skills": [
-      "python"
+      "rotor-aerodynamics",
+      "aeroelasticity",
+      "wind-tunnel-testing",
+      "aerodynamic-modelling",
+      "python",
+      "matlab"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position requires PhD in aerospace, mechanical, or wind energy engineering; researcher holds MSc by Research in multimedia/XR (in progress). Eligibility unclear unless degree completion is imminent and institution accepts adjacent qualifications.",
-      "Requires hands-on wind tunnel experience and measurement techniques (load, pressure, PIV, strain); researcher has no documented experience in these domains."
+      "Position requires completed PhD; researcher currently in MSc (thesis stage). Not eligible unless PhD is completed before application deadline.",
+      "Researcher has 'beginner' Python proficiency with no substantial project experience; position requires advanced Python/MATLAB scientific programming.",
+      "No publications or background in aerodynamics or aeroelasticity; position expects 'track record of scientific publications' in aerospace domain."
     ],
     "risks": [
-      "Disciplinary mismatch: position sits in mechanical/aerospace engineering; researcher is HCI/XR focused. Limited visibility or mentorship for return to target identity post-postdoc.",
-      "Skill gap: Python is beginner-level; position assumes fluency. Ramp-up cost would be high.",
-      "Research direction misalignment: postdoc outcome (aerodynamic models, wind energy systems) does not reinforce researcher's long-term goal (human-centred immersive systems for spatial learning).",
-      "Funding stability noted but positioning for next role (PhD or research position in HCI/XR) would require re-establishing credibility in target domain."
+      "Researcher is not eligible until after PhD completion; applying now would be premature.",
+      "Complete domain shift away from target identity. Aerospace engineering is not a stepping stone to human-centred XR; it would consume 2 years postdoc time without building toward doctoral researcher identity in HCI.",
+      "Supervisor group (aerospace, rotor aerodynamics) has no documented connection to XR, HCI, or immersive systems research.",
+      "High opportunity cost: 2 years postdoc in wrong domain delays entry into human-centred XR research ecosystem and PhD supervision landscape in priority institutions (Aalto, TU Delft HCI groups, etc.).",
+      "Upon completion, researcher would have postdoc in aerospace, not HCI, making subsequent PhD applications to XR groups less coherent in narrative."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -179,23 +230,23 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.92,
+    "confidence": 0.95,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-18T15:35:23.923170Z",
-    "analysis_input_hash": "7e2285cbcb9d47e5d052e55e5ddda0e9fcbfc7d4d028bc678da50865d3a14f88"
+    "analyzed_at": "2026-11-24T17:27:42.319098Z",
+    "analysis_input_hash": "d6c9880fe3b3207fc277245d81092c4f4b15b22d3e4294c202389f32b05d8d4a"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 8,
+    "fit_overall": 6,
     "urgency": "high",
-    "days_to_deadline": 17,
+    "days_to_deadline": 16,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

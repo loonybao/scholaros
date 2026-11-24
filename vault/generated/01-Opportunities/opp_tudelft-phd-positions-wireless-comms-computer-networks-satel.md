@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-12-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 20
+fit_overall: 7
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 38)
+Gate: **uncertain** (days to deadline: 37)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -32,7 +32,6 @@ Gate: **uncertain** (days to deadline: 38)
 
 ## Description
 
-What happens when the Internet fails?
 Job description
 What happens when the Internet fails?
 What happens when a submarine cable is cut? When satellites lose contact with one another? Or when a cyberattack disrupts the networks we depend on every day? The Internet is remarkably resilient, but it is far from invulnerable. As our dependence on digital infrastructure grows, so does the need to understand where it is vulnerable, how failures spread, and what we can do about them.
@@ -114,28 +113,27 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.75_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-15 PhD positions within RESILIOUS European Doctoral Network investigating Internet resilience across satellite communications, underwater robotics, network security, autonomous systems, and governance. Research spans multiple specializations; two positions at TU Delft. MSCA funding; 4-year employment.
+15 doctoral positions across a European network (RESILIOUS, Horizon Europe MSCA) spanning satellite communications, underwater robotics, network resilience, cybersecurity, and Internet governance. Positions are in physics, engineering, and systems; none explicitly address human-computer interaction, immersive systems, or learning.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 10 |
-| Methodological fit | 15 |
-| Growth value | 20 |
-| Strategic value | 55 |
-| **Overall** | **20** |
+| Thematic fit | 2 |
+| Methodological fit | 8 |
+| Growth value | 0 |
+| Strategic value | 25 |
+| **Overall** | **7** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** networking, cybersecurity, autonomous-systems, satellite-systems, rf-engineering
+**Missing skills:** systems-engineering, network-modelling, satellite-communications, cybersecurity-threat-analysis
 
 **Risks:**
-- Vague position descriptions make assessment uncertain; could be systems work, could be humanities-focused (governance positions DC14/DC15 unclear).
-- Network is infrastructure-resilience focused; researcher's XR/HCI background unlikely to be valued or developed in this context.
-- MSCA positions emphasize mobility and European integration; researcher's target geography (Finland/Sweden/Netherlands) is met, but research community mismatch remains.
-- Potential eligibility risk if researcher has worked in Netherlands recently (MSCA mobility rule).
-- Even if 'autonomous systems' (DC10) mentions autonomous network adaptation, it refers to network routing, not human-robot or human-spatial interaction.
+- Complete departure from target research identity and excluded directions. While not explicitly on excluded list (pure-cv, slam, robotics-control, graphics, gpu-opt, embedded, pure-ml), the RESILIOUS positions are orthogonal to human-centred immersive systems.
+- 15 positions across different topics and institutions; fit varies by specific position. Researcher would need to identify and apply to only those with minimal overlap (DC12 context-aware self-healing comes closest), but even then, methodology is systems-level, not human-centred.
+- Supervisor/group quality would depend on specific position assignment; most are in computer networks or aerospace, not HCI.
+- High risk of PhD being completed in wrong direction, delaying trajectory toward doctoral researcher identity in XR/HCI.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-positions-wireless-comms-computer-networks-satel.md` and link [[opp_tudelft-phd-positions-wireless-comms-computer-networks-satel]]._

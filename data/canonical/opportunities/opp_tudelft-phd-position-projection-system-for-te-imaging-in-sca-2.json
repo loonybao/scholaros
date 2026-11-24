@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-04T13:59:05.525437Z",
-  "updated_at": "2026-11-23T17:57:18.786802Z",
+  "updated_at": "2026-11-24T17:27:43.201534Z",
   "change_history": [
     {
       "ts": "2026-11-04T13:59:05.525598Z",
@@ -199,6 +199,15 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-24T17:27:43.201534Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -300,8 +309,8 @@
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
     "fit_overall": 8,
-    "urgency": "high",
-    "days_to_deadline": 8,
+    "urgency": "urgent",
+    "days_to_deadline": 7,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },
