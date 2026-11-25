@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-phd-position-in-planning-climate-resilient-mobility
 type: opportunity
-title: "PhD Position in Planning Climate Resilient Mobility Networks"
+title: "PhD Position Planning Climate Resilient Mobility Networks"
 organisation: "TU Delft"
 deadline: 2026-12-08
 status: open
 eligibility_gate: uncertain
-fit_overall: 22
+fit_overall: 19
 urgency: high
 needs_review: true
 ---
 
-# PhD Position in Planning Climate Resilient Mobility Networks
+# PhD Position Planning Climate Resilient Mobility Networks
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-12-08
@@ -20,11 +20,11 @@ needs_review: true
 **Salary:** €3204 - €4051 per month (stated range)
 **Duration:** not stated
 **Status:** open
-**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-in-Planning-Climate-Resilient-Mobility-Networks-2628-CD/1377064357/
+**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-Planning-Climate-Resilient-Mobility-Networks-2628-CD/1377064357/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 14)
+Gate: **uncertain** (days to deadline: 13)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -91,27 +91,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
 
-Doctoral researcher position in operations research and mathematical optimization for climate-resilient public transport networks. Focus is on modeling infrastructure vulnerability, operational disruption, and traveler behavior under flooding and extreme heat; developing optimization-based decision support for adaptation strategies.
+Doctoral position developing advanced modelling and optimization methods for resilient public transport and urban mobility networks under climate risks (flooding, heat). Work integrates climate projections, transport simulation, behavioural modelling, and optimization-based decision support; case studies in Lisbon and Greater Manchester.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
+| Thematic fit | 12 |
 | Methodological fit | 20 |
-| Growth value | 15 |
-| Strategic value | 70 |
-| **Overall** | **22** |
+| Growth value | 20 |
+| Strategic value | 35 |
+| **Overall** | **19** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python, statistics
+**Missing skills:** operations-research, mathematical-optimization, stochastic-modelling, transport-modelling, machine-learning-algorithms
 
 **Risks:**
-- Researcher's academic background (Creative Multimedia) does not align with position's mathematical/OR/CS expectations; admissions committee may screen out early
-- Position core (transport optimization, climate adaptation, infrastructure resilience) has no overlap with researcher's expertise in immersive design and spatial cognition
-- Researcher would be expected to move quickly from beginner Python to implementing optimization models for transport networks; steep and risky learning curve
-- Collaborating with transport planners, climate scientists, and OR specialists would require significant domain context acquisition; likely to slow research progress
+- Degree eligibility uncertain: multimedia/creative computing MSc may not meet 'Applied Mathematics, OR, CS' expectation
+- Core competency gap: researcher lacks operations research, optimization, and stochastic modelling background
+- No supervisor group overlap with HCI or immersive systems research
+- Four-year commitment in transport optimization shifts trajectory away from human-centred XR research
+- Behavioural science component requires transport/urban planning perspective, not human-computer interaction
+- CLIMACT consortium is strong but entirely outside researcher's target domain and expertise
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-planning-climate-resilient-mobility.md` and link [[opp_tudelft-phd-position-in-planning-climate-resilient-mobility]]._

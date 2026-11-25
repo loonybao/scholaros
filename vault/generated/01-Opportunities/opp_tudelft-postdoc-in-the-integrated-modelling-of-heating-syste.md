@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-postdoc-in-the-integrated-modelling-of-heating-syste
 type: opportunity
-title: "Postdoc in the Integrated Modelling of Heating Systems using Subsurface Storage"
+title: "Postdoc Integrated Modelling of Heating Systems using Subsurface Storage"
 organisation: "TU Delft"
 deadline: 2026-11-25
 status: open
 eligibility_gate: uncertain
-fit_overall: 14
+fit_overall: 16
 urgency: urgent
 needs_review: true
 ---
 
-# Postdoc in the Integrated Modelling of Heating Systems using Subsurface Storage
+# Postdoc Integrated Modelling of Heating Systems using Subsurface Storage
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-11-25
@@ -20,11 +20,11 @@ needs_review: true
 **Salary:** €3706 - €5760 per month (stated range)
 **Duration:** not stated
 **Status:** open
-**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-in-the-Integrated-Modelling-of-Heating-Systems-using-Subsurface-Storage-2628-CD/1377243857/
+**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-Integrated-Modelling-of-Heating-Systems-using-Subsurface-Storage-2628-CD/1377243857/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 1)
+Gate: **uncertain** (days to deadline: 0)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -96,27 +96,29 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.97_
 
-Postdoctoral position in energy systems modelling focused on integrating heating/cooling systems with building performance, subsurface thermal storage, and energy flexibility optimisation. Position requires systems modelling, field data validation, and building energy simulation—engineering-focused with no HCI or immersive systems component.
+Postdoctoral position (11 months) on integrated modelling of building heating and cooling systems coupled with subsurface energy extraction/storage (ATES). Work involves monitoring system performance, model validation, component integration, and control optimization; includes teaching in Sustainable Energy Technology programme.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 15 |
-| Growth value | 10 |
-| Strategic value | 35 |
-| **Overall** | **14** |
+| Thematic fit | 8 |
+| Methodological fit | 18 |
+| Growth value | 15 |
+| Strategic value | 28 |
+| **Overall** | **16** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** systems-modelling, building-energy-simulation, r
+**Missing skills:** building-climate-systems, HVAC-modelling, subsurface-thermal-dynamics, control-systems, model-integration-frameworks
 
 **Risks:**
-- Domain shift: energy systems engineering is orthogonal to human-centred immersive systems research
-- Short contract (11 months) with limited publication runway
-- Steep learning curve in thermal dynamics, building simulation software, and control strategies
-- Career continuity risk: difficult to position as stepping stone toward PhD in HCI or collaborative immersive learning
+- Career-stage and degree eligibility mismatch: position is postdoctoral; researcher is MSc by Research candidate without PhD
+- Degree does not qualify under 'mechanical engineering, civil engineering, applied earth science, or related field' criteria
+- No domain expertise in building systems, energy, or subsurface processes
+- No supervisor group overlap with HCI or immersive systems research
+- 11-month contract is short but would still misdirect focus; teaching commitment adds institutional lock-in
+- Energy systems modelling experience does not transfer to human-centred XR research
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-the-integrated-modelling-of-heating-syste.md` and link [[opp_tudelft-postdoc-in-the-integrated-modelling-of-heating-syste]]._

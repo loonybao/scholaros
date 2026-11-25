@@ -1,7 +1,7 @@
 ---
 id: opp_tudelft-phd-position-in-physical-modelling-of-backward-erosi
 type: opportunity
-title: "PhD Position in Physical Modelling of Backward Erosion Piping"
+title: "PhD Position Physical Modelling of Backward Erosion Piping"
 organisation: "TU Delft"
 deadline: 2026-11-29
 status: open
@@ -11,7 +11,7 @@ urgency: urgent
 needs_review: true
 ---
 
-# PhD Position in Physical Modelling of Backward Erosion Piping
+# PhD Position Physical Modelling of Backward Erosion Piping
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-11-29
@@ -20,11 +20,11 @@ needs_review: true
 **Salary:** €3059 - €3881 per month (stated range)
 **Duration:** not stated
 **Status:** open
-**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-in-Physical-Modelling-of-Backward-Erosion-Piping-2628-CD/1376793557/
+**Official source:** https://careers.tudelft.nl/job/Delft-PhD-Position-Physical-Modelling-of-Backward-Erosion-Piping-2628-CD/1376793557/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 5)
+Gate: **uncertain** (days to deadline: 4)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -104,26 +104,26 @@ Please do not contact us for unsolicited services.
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-PhD position in experimental physical modelling of backward erosion piping (BEP), a soil erosion process affecting dike safety. The role combines laboratory-based experimental work with image analysis, spatial statistics, and field integration across a multidisciplinary consortium.
+Doctoral position in experimental physical modelling of backward erosion piping (BEP) in dikes. Work involves designing experimental setups, novel measurement techniques, 3D image analysis, and spatial statistics to understand pipe network progression and inform predictive models for flood protection.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 3 |
+| Thematic fit | 8 |
 | Methodological fit | 25 |
-| Growth value | 1 |
-| Strategic value | 55 |
+| Growth value | 15 |
+| Strategic value | 30 |
 | **Overall** | **18** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** python
+**Missing skills:** soil-mechanics, fluid-dynamics, image-analysis, granular-physics, MATLAB
 
 **Risks:**
-- Severe disciplinary mismatch: civil/geotechnical engineering vs. multimedia/HCI. Would require foundational retraining.
-- Researcher lacks background in soil mechanics, hydrology, or geotechnical engineering sciences.
-- Laboratory work context is entirely different (user studies in XR vs. instrumented field measurement of sediment transport). Transferability is minimal.
-- High risk of misalignment with supervisor expectations and research group culture.
-- Python skill gap adds a barrier; while beginner-level Python exists, the required data processing and image analysis applications are likely advanced and specialized to soil mechanics.
+- Degree eligibility uncertain: multimedia/creative computing MSc may not meet 'closely related field' criterion
+- Domain is fundamentally different from target identity; would require retraining in geotechnical engineering
+- No supervisor group culture overlap with HCI
+- Spatial analysis required is grain-scale physics, not spatial cognition or learning
+- Four-year commitment in geotechnical engineering delays human-centred XR doctoral trajectory
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-position-in-physical-modelling-of-backward-erosi.md` and link [[opp_tudelft-phd-position-in-physical-modelling-of-backward-erosi]]._

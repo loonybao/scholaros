@@ -1,17 +1,17 @@
 ---
 id: opp_tudelft-postdoc-in-hydrodynamics-sediment-transport-and-morp
 type: opportunity
-title: "Postdoc in Hydrodynamics, Sediment Transport and Morphological Recovery of Sand Extraction Pits"
+title: "Postdoc Hydrodynamics, Sediment Transport and Morphological Recovery of Sand Extraction Pits"
 organisation: "TU Delft"
 deadline: 2026-12-06
 status: open
 eligibility_gate: uncertain
-fit_overall: 19
+fit_overall: 12
 urgency: high
 needs_review: true
 ---
 
-# Postdoc in Hydrodynamics, Sediment Transport and Morphological Recovery of Sand Extraction Pits
+# Postdoc Hydrodynamics, Sediment Transport and Morphological Recovery of Sand Extraction Pits
 
 **Organisation:** [[org_tu_delft]] (TU Delft)
 **Deadline:** 2026-12-06
@@ -20,11 +20,11 @@ needs_review: true
 **Salary:** €3706 - €5760 per month (stated range)
 **Duration:** not stated
 **Status:** open
-**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-in-Hydrodynamics%2C-Sediment-Transport-and-Morphological-Recovery-of-Sand-Extraction-Pits-2628-CD/1376805157/
+**Official source:** https://careers.tudelft.nl/job/Delft-Postdoc-Hydrodynamics%2C-Sediment-Transport-and-Morphological-Recovery-of-Sand-Extraction-Pits-2628-CD/1376805157/
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 12)
+Gate: **uncertain** (days to deadline: 11)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -88,28 +88,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.88_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
 
-Three-year postdoctoral position in coastal hydrodynamics and morphodynamics, focused on analysing field measurements from a sand extraction pit in the Dutch North Sea. The role combines data analysis of waves, currents, and sediment transport with potential numerical modelling and integration of physical-ecological findings.
+Postdoctoral position (3 years) analyzing hydrodynamic and morphodynamic field measurements from an instrumented sand extraction pit in the Dutch North Sea. Work involves quantifying wave-current-sediment interactions, morphological recovery timescales, and potentially numerical modelling or data-driven approaches; embedded in multidisciplinary coastal research consortium.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 20 |
-| Growth value | 2 |
-| Strategic value | 65 |
-| **Overall** | **19** |
+| Methodological fit | 15 |
+| Growth value | 10 |
+| Strategic value | 25 |
+| **Overall** | **12** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** fluid-dynamics, coastal-oceanography, geomorphology, sediment-transport-physics, field-measurement-analysis
 
 **Risks:**
-- Disciplinary barrier: researcher is an HCI/design specialist; position requires marine physics expertise. No educational bridge visible.
-- Field measurement experience gap: researcher's lab work is user-focused; this position requires analysis of oceanographic instrumentation data (ADCPs, pressure sensors, sediment traps, etc.).
-- Quantitative/modelling gap: position expects proficiency in numerical modelling (CFD, advanced data-driven approaches). Researcher's quantitative toolkit is social-science oriented.
-- Python skill is listed as beginner with no substantial project experience. Expected to apply advanced scientific Python for hydrodynamic data processing.
-- High risk of mismatch during onboarding; supervisors would likely expect marine science background.
+- Career-stage mismatch: position is postdoctoral (requires PhD); researcher is MSc by Research candidate
+- Domain eligibility barrier: researcher's MSc in multimedia/creative computing does not qualify as 'Hydraulic Engineering, Physical Oceanography, Physical Geography, or closely related'
+- Zero supervisor group culture overlap; coastal geomorphology is distinct from HCI
+- Three-year commitment in coastal morphodynamics is incompatible with goal of doctoral research in human-centred XR
+- Field-measurement expertise gained would not transfer to immersive systems research
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-in-hydrodynamics-sediment-transport-and-morp.md` and link [[opp_tudelft-postdoc-in-hydrodynamics-sediment-transport-and-morp]]._
