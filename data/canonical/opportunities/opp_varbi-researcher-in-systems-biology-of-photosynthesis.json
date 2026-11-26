@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-10T14:41:52.333517Z",
-  "updated_at": "2026-11-25T17:15:22.531545Z",
+  "updated_at": "2026-11-26T16:52:59.464328Z",
   "change_history": [
     {
       "ts": "2026-11-10T14:41:52.333687Z",
@@ -167,6 +167,45 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-26T16:48:22.538071Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-26T16:52:58.140042Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-26T16:52:59.464328Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -180,10 +219,10 @@
     "evidence_ids": [
       "varbi/kth-988809"
     ],
-    "retrieved_at": "2026-11-10T14:41:52.333274Z",
-    "raw_snapshot_hash": "ae6ff3e6307c81d5678f308b4603cd2548c57146e8ae8a1ca3ad28a8bb4e9f51",
-    "extracted_content_hash": "21bcdeb7d8248fa927c651cd9ceeb332c8746b76ada6a328ed3a444a4871b1ad",
-    "deadline": "2026-11-30",
+    "retrieved_at": "2026-11-26T16:48:22.537491Z",
+    "raw_snapshot_hash": "6e20705f771d903be979983f2a95c735886ff8b23d3851979d1894618fc595b6",
+    "extracted_content_hash": "373d3ac489217107ed612abe3c9ed761ecf53f892a5da17fb711366842978f39",
+    "deadline": "2026-12-01",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -201,49 +240,57 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Researcher in systems biology of photosynthesis\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nThe researcher will also be responsible for design and execution of systems biology experiments involving cyanobacteria and plant systems. This entails development and application of interaction proteomics methods, maintenance and optimization of mass-spectrometry equipment, analysis of proteomics data. The researcher will also be responsible for training other lab members in liquid chromatography-mass spectrometry\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree\nPrevious experience designing and executing mass-spectrometry based proteomics experiments\nPreferred qualifications\nPrevious experience in cultivation of cyanobacteria\nDemonstrated independence in design and execution of experiments·\nDemonstrated ability for collaboration\nKnowledge of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Max one page long.\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid for a limited time according to the agreement - for up to 2 months, with access according to agreement.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nSpecial fixed-term employment\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3872\nContact\nElton Paul Hudson, huds@kth.se\nPublished\n10.Nov.2026\nLast application date\n30.Nov.2026\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Researcher in systems biology of photosynthesis\nApply for position\nKTH Royal Institute of Technology, School of Engineering Sciences in Chemistry, Biotechnology and Health\nJob description\nThe researcher will also be responsible for design and execution of systems biology experiments involving cyanobacteria and plant systems. This entails development and application of interaction proteomics methods, maintenance and optimization of mass-spectrometry equipment, analysis of proteomics data. The researcher will also be responsible for training other lab members in liquid chromatography-mass spectrometry\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree\nPrevious experience designing and executing mass-spectrometry based proteomics experiments\nPreferred qualifications\nPrevious experience in cultivation of cyanobacteria\nDemonstrated independence in design and execution of experiments·\nDemonstrated ability for collaboration\nKnowledge of diversity and equal opportunity issues, with specific focus on gender equality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Max one page long.\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid for a limited time according to the agreement - for up to 2 months, with access according to agreement.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nSpecial fixed-term employment\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3872\nContact\nElton Paul Hudson, huds@kth.se\nPublished\n10.Nov.2026\nLast application date\n01.Dec.2026\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "A fixed-term researcher position at KTH focusing on systems biology of photosynthesis, involving design and execution of mass-spectrometry-based proteomics experiments with cyanobacteria and plant systems, including equipment maintenance and lab training responsibilities.",
+    "summary": "Research position at KTH focused on systems biology of photosynthesis, with primary responsibilities in mass-spectrometry-based proteomics experimental design and execution, involving cyanobacteria and plant systems. Work includes equipment maintenance, data analysis, and training lab members.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 5,
-      "rationale": "No overlap between immersive systems, spatial cognition, collaborative learning, and HCI on one hand, and systems biology, photosynthesis, proteomics, and mass spectrometry on the other. The domains are entirely orthogonal."
+      "score": 2,
+      "rationale": "Position is in molecular biology and proteomics research. Zero thematic connection to human-computer interaction, immersive systems, spatial cognition, learning, wayfinding, collaboration, or any area of the researcher's core identity. The 'systems biology' terminology is biological systems, not socio-technical systems—fundamentally distinct research domains."
     },
     "methodological_fit": {
-      "score": 8,
-      "rationale": "Both involve experimental design and lab-based work, but the researcher's methodological expertise is in HCI user studies, immersive systems evaluation, and spatial cognition measurement. This position requires wet-lab proteomics methods, mass-spectrometry operation, and biochemistry knowledge—fundamentally different experimental contexts. The shared methodological language (experimental design) does not transfer to the specific technical execution required."
+      "score": 5,
+      "rationale": "Limited to no methodological overlap. The position requires mass-spectrometry expertise, proteomics experimental protocols, and biological cultivation techniques. The researcher's methodologies centre on user-centred design, immersive interaction prototyping, empirical user studies, and human-centred evaluation. No transferable methodological foundation exists."
     },
     "growth_value": {
       "score": 2,
-      "rationale": "This position closes no capability gaps relevant to the researcher's target identity. It would require building entirely new technical expertise in biochemistry, analytical chemistry, and proteomics, while diverting from the human-centred immersive systems research trajectory they are pursuing."
+      "rationale": "This position would not advance any capability gap relevant to the target identity. It would develop specialized biochemical and analytical techniques entirely orthogonal to human-centred XR, immersive systems, spatial cognition, or collaborative interaction research. No growth value toward doctorate or future career in human-centred HCI/XR."
     },
     "strategic_value": {
       "score": 15,
-      "rationale": "KTH is a strong institution and Stockholm is in Europe (preferred geography), which adds minor positive signals. However, the research group is systems biology, not HCI or immersive systems. This position does not advance the researcher toward doctoral positions in human-centred XR, nor does it build a coherent research narrative for PhD applications to target institutions like Aalto or TU Delft."
+      "rationale": "KTH is a strong institution in Sweden (researcher's preferred geography). However, strategic value is negligible: the position is in plant systems biology within Engineering Sciences in Chemistry, Biotechnology and Health—no connection to human-centred research, HCI groups, or immersive systems communities. Time and credentials spent here do not advance position within target research ecosystem."
     },
     "required_skills": [
-      "experimental-design",
-      "quantitative-research"
+      "mass-spectrometry-not-in-taxonomy",
+      "proteomics-not-in-taxonomy",
+      "cyanobacteria-cultivation-not-in-taxonomy",
+      "experimental-design"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "experimental-design",
-      "quantitative-research"
+      "experimental-design"
     ],
-    "missing_skills": [],
+    "missing_skills": [
+      "mass-spectrometry-not-in-taxonomy",
+      "proteomics-data-analysis-not-in-taxonomy",
+      "cyanobacteria-biology-not-in-taxonomy",
+      "liquid-chromatography-not-in-taxonomy",
+      "biochemical-techniques-not-in-taxonomy"
+    ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position requires a completed doctoral degree; researcher holds MSc by Research (in progress). Eligibility depends on thesis completion timeline and position start date.",
-      "Position is fixed-term (up to 2 months) with limited full-time capacity—insufficient duration for meaningful research contribution or career development."
+      "Position title 'Researcher' (not postdoc or PhD candidate) but requires doctoral degree—eligibility contingent on completion of MSc by Research thesis and progression to PhD.",
+      "Very short contract (up to 2 months)—unclear if this is a trial/visiting position or administrative notation; clarify actual duration and renewal potential.",
+      "Contact person listed: Elton Paul Hudson; verify current group composition and whether this is an active lab accepting new researchers."
     ],
     "risks": [
-      "Fundamental domain mismatch (biology/proteomics vs. HCI/immersive systems) makes this a career detour rather than progression.",
-      "Two-month contract is too short for onboarding in a wet-lab environment or contributing publishable research.",
-      "No publications or research output would be credible to target PhD programs (Aalto, TU Delft) if the researcher diverges into systems biology.",
-      "Takes researcher away from consolidating their XR research portfolio during a critical thesis-completion period.",
-      "Requires completion of doctoral degree before eligible; no pathway to PhD candidacy in the researcher's target field."
+      "Fundamental domain mismatch: molecular biology and proteomics are unrelated to human-centred XR research.",
+      "Severely truncated contract (≤2 months) insufficient for meaningful research output or skill development.",
+      "Career trajectory risk: extremely high opportunity cost relative to building human-centred XR credentials.",
+      "No publication or research visibility gain within human-centred HCI/immersive systems communities.",
+      "Credential dilution: a molecular biology research position on CV does not strengthen candidacy for human-centred XR doctoral programs or groups."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -257,8 +304,8 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-10T14:48:18.071228Z",
-    "analysis_input_hash": "c8f7d681cd3eed82d009847c51e8adc57c1cfc5479f89bf97d33eb50d1f8acbb"
+    "analyzed_at": "2026-11-26T16:52:58.139515Z",
+    "analysis_input_hash": "147f258987320a8cddcf2c3acd200170f2db094aa04f75dc22c4544111fd09d9"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -267,7 +314,7 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 7,
+    "fit_overall": 5,
     "urgency": "urgent",
     "days_to_deadline": 5,
     "needs_review": true,

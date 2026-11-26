@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-12-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 7
+fit_overall: 11
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 36)
+Gate: **uncertain** (days to deadline: 35)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -92,10 +92,11 @@ a.j.gralka@tudelft.nl
 .
 #EUfunded This is an EU funded project, named RESILIOUS, with project number 101311731, within program Marie Skłodowska-Curie Actions (MSCA) Doctoral Networks under Horizon Europe
 Application procedure
-Are you interested in this vacancy? Please apply no later than
+Are you interested in this vacancy?
+You can apply for the position
+here
+. Please apply no later than
 31 December 2026
-via this
-link
 and upload the following documents:
 CV
 Copies of your Bachelor's and Master's degrees and academic transcripts
@@ -113,27 +114,28 @@ Please do not contact us for unsolicited services.
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.90_
 
-15 doctoral positions across a European network (RESILIOUS, Horizon Europe MSCA) spanning satellite communications, underwater robotics, network resilience, cybersecurity, and Internet governance. Positions are in physics, engineering, and systems; none explicitly address human-computer interaction, immersive systems, or learning.
+RESILIOUS European Doctoral Network offering 15 PhD positions across satellite communications, underwater robotics, network resilience, cybersecurity, and Internet governance. Two positions available at TU Delft; focus is on critical infrastructure resilience and distributed systems.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 2 |
-| Methodological fit | 8 |
-| Growth value | 0 |
-| Strategic value | 25 |
-| **Overall** | **7** |
+| Thematic fit | 5 |
+| Methodological fit | 10 |
+| Growth value | 8 |
+| Strategic value | 30 |
+| **Overall** | **11** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** systems-engineering, network-modelling, satellite-communications, cybersecurity-threat-analysis
+**Missing skills:** network-architecture-and-design, satellite-systems-knowledge, cybersecurity-and-cryptography, signal-processing, autonomous-systems-control, domain-specific-simulation-tools, c-or-cpp-for-performance-critical-systems
 
 **Risks:**
-- Complete departure from target research identity and excluded directions. While not explicitly on excluded list (pure-cv, slam, robotics-control, graphics, gpu-opt, embedded, pure-ml), the RESILIOUS positions are orthogonal to human-centred immersive systems.
-- 15 positions across different topics and institutions; fit varies by specific position. Researcher would need to identify and apply to only those with minimal overlap (DC12 context-aware self-healing comes closest), but even then, methodology is systems-level, not human-centred.
-- Supervisor/group quality would depend on specific position assignment; most are in computer networks or aerospace, not HCI.
-- High risk of PhD being completed in wrong direction, delaying trajectory toward doctoral researcher identity in XR/HCI.
+- The 15 positions span vastly different technical domains (satellite communications, underwater robotics, network security, infrastructure governance). Researcher must identify specific DC position (DC1–DC15) with greatest fit; most are pure infrastructure/systems engineering with no HCI component.
+- Major disciplinary pivot from HCI-XR to network resilience/cybersecurity would signal departure from core target identity.
+- Requires deep technical background in network architecture, signal processing, or cybersecurity—domains with no prior evidence in profile.
+- 4-year PhD in infrastructure resilience delays entry to HCI-XR doctoral networks and community building in target area.
+- MSCA mobility restrictions may limit future postdoc placement in target domains if fellowship conditions restrict host-country employment.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-phd-positions-wireless-comms-computer-networks-satel.md` and link [[opp_tudelft-phd-positions-wireless-comms-computer-networks-satel]]._

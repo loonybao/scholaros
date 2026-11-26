@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-25T16:59:03.213553Z",
-  "updated_at": "2026-11-25T17:15:22.326944Z",
+  "updated_at": "2026-11-26T16:52:59.211585Z",
   "change_history": [
     {
       "ts": "2026-11-25T16:59:03.213732Z",
@@ -54,6 +54,45 @@
         "derived.urgency"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-26T16:37:03.142404Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-26T16:52:58.137264Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-26T16:52:59.211585Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -67,9 +106,9 @@
     "evidence_ids": [
       "tudelft/1378464357"
     ],
-    "retrieved_at": "2026-11-25T16:59:03.213299Z",
-    "raw_snapshot_hash": "02bd381bbafb2224a7a0db77b57939d30b6eacf9a4c2a6bd390d3b8627a51082",
-    "extracted_content_hash": "410c28376d9512142095123fc288e0fe457588757ee6d68d9a96a1cd4a6752c6",
+    "retrieved_at": "2026-11-26T16:37:03.141807Z",
+    "raw_snapshot_hash": "a52902f777f3d4b31850afbe276bca7ff86799a0d0bb51cf9095f5a20fc24db2",
+    "extracted_content_hash": "7f3a3e7709e353e1dbec20a6d4b9b06e8591f832981400ca41df2ad61da7dc8e",
     "deadline": "2026-12-31",
     "deadline_note": null,
     "start_date": null,
@@ -88,54 +127,55 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Explore how electron signals can reveal hidden structures in next-generation semiconductor devices. Join TU Delft and ASML to advance scanning electron microscopy and develop innovative detection concepts that improve the imaging of structures below the surface.\nJob description\nSemiconductor devices are becoming increasingly small and complex. As a result, critical structures and defects are more difficult to detect using conventional inspection methods. Improving subsurface imaging is essential to advancing semiconductor technology and enabling the next generation of electronic devices.\nAt TU Delft, in collaboration with ASML, you will investigate how backscattered electrons (BSE) can reveal information about buried structures in semiconductor devices. Your research will focus on understanding which components of the electron signal contain the most useful information and how these can be detected more effectively.\nYou will explore four interconnected research themes: the physics and information content of backscattered electron signals, the influence of electron beam and sample parameters, the fundamental limits of resolution and detectability, and the development of detector concepts that capture more relevant information.\nCombining theoretical modelling, scanning electron microscopy experiments and detector-concept development, you will translate fundamental insights into practical improvements in subsurface imaging. Your work will contribute to better resolution, improved signal-to-noise ratios and faster image acquisition.\nYou will work in an interdisciplinary research environment, collaborating with experts from TU Delft and ASML. You will also have opportunities to co-supervise PhD and MSc students, contribute to scientific discussions and strengthen your research leadership skills.\nThis postdoctoral position offers the opportunity to connect fundamental electron microscopy research with industrial challenges and contribute to innovations in semiconductor inspection. You will have room to develop your expertise, take ownership of research activities and build collaborations across academia and industry.\nJob requirements\nYou get a kick out of using applied science to solve complex problems. With your pioneering mindset, you can handle the uncertainties of the unknown.\nYou also have:\nA PhD in Engineering, Science, (Applied) Physics, (Applied) Chemistry or a closely related discipline.\nDemonstrable research experience in scanning electron microscopy (SEM), preferably involving nanoscale imaging.\nA solid understanding of electron microscopy principles and an interest in the physics of backscattered electron signals.\nExperience with experimental research, modelling or developing and improving technical measurement systems.\nEnjoyment in tinkering with machines and enthusiasm for testing equipment, troubleshooting and implementing technical improvements.\nStrong organisational skills and the ability to plan and drive research activities independently.\nAn interest in developing leadership skills and co-supervising PhD and MSc students.\nExcellent English communication skills and the ability to collaborate effectively in an international, interdisciplinary environment.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDuration of contract is 1 year. Temporary.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact\nrecruitment-tnw@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n31 December 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Timon Fliervoet.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+    "description_text": "Explore how electron signals can reveal hidden structures in next-generation semiconductor devices. Join TU Delft and ASML to advance scanning electron microscopy and develop innovative detection concepts that improve the imaging of structures below the surface.\nJob description\nSemiconductor devices are becoming increasingly small and complex. As a result, critical structures and defects are more difficult to detect using conventional inspection methods. Improving subsurface imaging is essential to advancing semiconductor technology and enabling the next generation of electronic devices.\nAt TU Delft, in collaboration with ASML, you will investigate how backscattered electrons (BSE) can reveal information about buried structures in semiconductor devices. Your research will focus on understanding which components of the electron signal contain the most useful information and how these can be detected more effectively.\nYou will explore four interconnected research themes: the physics and information content of backscattered electron signals, the influence of electron beam and sample parameters, the fundamental limits of resolution and detectability, and the development of detector concepts that capture more relevant information.\nCombining theoretical modelling, scanning electron microscopy experiments and detector-concept development, you will translate fundamental insights into practical improvements in subsurface imaging. Your work will contribute to better resolution, improved signal-to-noise ratios and faster image acquisition.\nYou will work in an interdisciplinary research environment, collaborating with experts from TU Delft and ASML. You will also have opportunities to co-supervise PhD and MSc students, contribute to scientific discussions and strengthen your research leadership skills.\nThis postdoctoral position offers the opportunity to connect fundamental electron microscopy research with industrial challenges and contribute to innovations in semiconductor inspection. You will have room to develop your expertise, take ownership of research activities and build collaborations across academia and industry.\nJob requirements\nYou get a kick out of using applied science to solve complex problems. With your pioneering mindset, you can handle the uncertainties of the unknown.\nYou also have:\nA PhD in Engineering, Science, (Applied) Physics, (Applied) Chemistry or a closely related discipline.\nDemonstrable research experience in scanning electron microscopy (SEM), preferably involving nanoscale imaging.\nA solid understanding of electron microscopy principles and an interest in the physics of backscattered electron signals.\nExperience with experimental research, modelling or developing and improving technical measurement systems.\nEnjoyment in tinkering with machines and enthusiasm for testing equipment, troubleshooting and implementing technical improvements.\nStrong organisational skills and the ability to plan and drive research activities independently.\nAn interest in developing leadership skills and co-supervising PhD and MSc students.\nExcellent English communication skills and the ability to collaborate effectively in an international, interdisciplinary environment.\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty Applied Sciences\nWith more than 1,100 employees, including 150 pioneering principal investigators, as well as a population of about 3,600 passionate students, the Faculty of Applied Sciences is an inspiring scientific ecosystem. Focusing on key enabling technologies, such as quantum- and nanotechnology, photonics, biotechnology, synthetic biology and materials for energy storage and conversion, our faculty aims to provide solutions to important problems of the 21st century. To that end, we educate innovative students in broad Bachelor's and specialist Master's programmes with a strong research component. Our scientists conduct ground-breaking fundamental and applied research in the fields of Life and Health Science & Technology, Nanoscience, Chemical Engineering, Radiation Science & Technology, and Engineering Physics. We are also training the next generation of high school teachers.\nClick\nhere\nto go to the website of the Faculty of Applied Sciences.\nConditions of employment\nDuration of contract is 1 year, with possible extension.\nA job of 36-40 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact\nrecruitment-tnw@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n31 December 2026\nvia the application button and upload the following documents:\nCV\nMotivational letter\nYou can address your application to Timon Fliervoet.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
   },
   "ai": {
-    "summary": "Postdoctoral position in scanning electron microscopy and subsurface imaging for semiconductor inspection at TU Delft in collaboration with ASML. Focus is on physics of backscattered electron signals, detector development, and experimental characterization of nanoscale structures.",
+    "summary": "Postdoctoral position at TU Delft focused on scanning electron microscopy (SEM), backscattered electron signal physics, and detector development for subsurface imaging in semiconductor devices. Work involves theoretical modelling, experimental research, and detector-concept development in collaboration with ASML.",
     "fit_type": "poor-fit",
     "thematic_fit": {
       "score": 5,
-      "rationale": "Position is fundamentally rooted in electron microscopy physics, materials characterization, and semiconductor instrumentation. The researcher's domain is human-centred immersive systems, spatial cognition, and collaborative learning. No thematic overlap in content, methodology, or research questions."
+      "rationale": "Position is narrowly specialized in fundamental electron microscopy physics and semiconductor imaging. No connection to human-computer interaction, immersive systems, spatial cognition, learning, wayfinding, or collaboration—the researcher's core research identity. The mention of 'co-supervising students' does not constitute thematic alignment."
     },
     "methodological_fit": {
-      "score": 8,
-      "rationale": "Weak methodological connection: position requires experimental design and technical troubleshooting, which the researcher has experience with. However, the researcher's experimental work focuses on user studies and cognitive outcomes, not instrumentation physics or signal detection. Supervision of students is mentioned but represents only a minor component of this role."
+      "score": 15,
+      "rationale": "While both involve experimental research and measurement systems, the methodologies are fundamentally different. The researcher's strength is in human-centred study design, user evaluation, and technology acceptance testing. This position requires physics-based modelling, microscopy technique expertise, and detector engineering—domains where the researcher has no demonstrated experience or background."
     },
     "growth_value": {
-      "score": 2,
-      "rationale": "Minimal relevance to target identity or long-term capability development. The researcher would gain expertise in electron microscopy, detector physics, and semiconductor imaging—none of which align with human-centred XR, spatial learning, or collaborative systems research."
+      "score": 10,
+      "rationale": "This position would not advance capabilities toward the target identity. It offers no pathway to deepening immersive systems knowledge, human-centred research methods, spatial cognition understanding, or collaborative interaction design. The skills required (SEM operation, electron physics, detector development) are orthogonal to the researcher's strategic development."
     },
     "strategic_value": {
       "score": 25,
-      "rationale": "TU Delft is a strong institution in the researcher's priority-2 list (European fit), which provides some institutional credibility. ASML collaboration offers industry exposure. However, the research direction is orthogonal to stated goals and does not advance the researcher toward a human-centred immersive systems trajectory. The postdoc timeframe (1 year) is short and would not establish a research foothold in target domains."
+      "rationale": "TU Delft is a strong institution and in the researcher's preferred geography (Netherlands, Europe). However, strategic value is severely limited: the position is at Faculty of Applied Sciences with no connection to HCI, immersive systems, or human-centred research groups. The collaboration with ASML is industry-relevant but does not support the target identity of human-centred XR/HCI researcher."
     },
     "required_skills": [
+      "scanning-electron-microscopy-not-in-taxonomy",
+      "electron-physics-not-in-taxonomy",
+      "detector-development-not-in-taxonomy",
       "experimental-design",
-      "statistics",
-      "academic-writing"
+      "statistics"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "experimental-design",
-      "academic-writing"
+      "experimental-design"
     ],
     "missing_skills": [
-      "scanning-electron-microscopy",
-      "detector-physics",
-      "signal-processing",
-      "materials-characterization",
-      "nanoscale-imaging"
+      "scanning-electron-microscopy-not-in-taxonomy",
+      "electron-physics-not-in-taxonomy",
+      "detector-engineering-not-in-taxonomy",
+      "nanoscale-imaging-expertise-not-in-taxonomy",
+      "physics-modelling-not-in-taxonomy"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Researcher holds MSc by Research (in progress, thesis stage); position requires completed PhD. Not currently eligible unless thesis is completed and degree conferred before employment start."
+      "Researcher holds MSc by Research (in progress, thesis stage); position requires completed PhD by employment decision date—eligibility depends on thesis completion timeline."
     ],
     "risks": [
-      "PhD eligibility gap: researcher is at thesis stage and would need to complete degree before or by employment decision date.",
-      "Complete domain mismatch: accepting this role would signal a pivot away from human-centred XR research and delay progress toward stated target identity.",
-      "Short contract (1 year) leaves minimal time to build expertise in unfamiliar instrumentation domain.",
-      "Limited collaborative value: research group has no overlap with priority institutions (Aalto, TU Delft focused HCI groups) or human-centred immersive systems communities."
+      "Fundamental domain mismatch: electron microscopy is not part of the researcher's training or research portfolio.",
+      "No human-centred research component; purely technical/physics-focused.",
+      "Career trajectory risk: accepting this role would delay or redirect movement toward human-centred XR/HCI research leadership.",
+      "Limited transferability: expertise gained would not support future positions in the target domain."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -149,17 +189,17 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-25T17:15:21.410896Z",
-    "analysis_input_hash": "e2e87c0805968d0466dea5f3d43d6357dbc5759f89b99468392e27bef18f7dd3"
+    "analyzed_at": "2026-11-26T16:52:58.136627Z",
+    "analysis_input_hash": "08eada2e7f490a1ca014b423a0313fe50ce4494699869739afc7355e510afbd7"
   },
   "derived": {
     "eligibility_gate": "uncertain",
     "eligibility_reasons": [
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 9,
+    "fit_overall": 12,
     "urgency": "medium",
-    "days_to_deadline": 36,
+    "days_to_deadline": 35,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

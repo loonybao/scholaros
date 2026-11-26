@@ -1,0 +1,180 @@
+{
+  "id": "opp_aalto-doctoral-researcher-in-cascading-energy-system-risk-pa",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-26T16:34:30.964008Z",
+  "updated_at": "2026-11-26T16:52:58.651650Z",
+  "change_history": [
+    {
+      "ts": "2026-11-26T16:34:30.964202Z",
+      "actor": "collector:aalto",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-26T16:52:17.516639Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-26T16:52:58.651650Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral researcher in cascading energy system risk pathways related to climate change impacts on offshore wind energy",
+    "org_id": "org_aalto_university",
+    "lab_org_id": "org_aalto_school-of-engineering",
+    "source": "aalto",
+    "source_native_id": "doctoral-researcher-in-cascading-energy-system-risk-pathways-related-to-climate-change-impacts-on",
+    "canonical_url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-cascading-energy-system-risk-pathways-related-to-climate-change-impacts-on",
+    "apply_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Doctoral-researcher-in-cascading-energy-system-risk-pathways-related-to-climate-change-impacts-on-offshore-wind-energy_R48716-3/apply",
+    "evidence_ids": [
+      "aalto/doctoral-researcher-in-cascading-energy-system-risk-pathways-related-to-climate-change-impacts-on"
+    ],
+    "retrieved_at": "2026-11-26T16:34:30.963786Z",
+    "raw_snapshot_hash": "e7ec99ffa57de35d7c1a4337eeaad88a49061476be47cae7ac74005de8d98a87",
+    "extracted_content_hash": "5423225a3713f65a93ee4ca4c5c182ca464076ccb29892410cfd1038df1798a6",
+    "deadline": "2026-12-15",
+    "deadline_note": "12:00 UTC",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-11-26",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Espoo, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "At Aalto University, curiosity moves across disciplines, roles and communities. We bring people together to ask new questions, challenge familiar thinking and turn ideas into impact. Our work is rooted in responsibility, courage and collaboration, and in a shared commitment to shaping a more sustainable future.\nThe School of Engineering is inviting applications for\nDoctoral researcher in cascading energy system risk pathways related to climate change impacts on offshore wind energy\nAalto University\nDepartment of Energy and Mechanical Engineering\nis a community of around 300 staff members assembled to research, teach, create, and develop solutions for society’s needs. Key research areas include marine and arctic technology; energy technologies and systems; mechanical systems and mechatronics; and materials, manufacturing, and product development. We have strong links to industry, creating lasting impacts in both business and society. The\nEnergy Conversion and Systems (ECS) Research group\nhas very strong competences in energy system modelling, optimization, and technologies. ECS research covers various aspects of the energy value chain, from production by sustainable energy sources, to energy conversion, storage and end use, and the group annually produces around 130-150 scientific highly ranked journal articles, 5-10 doctoral theses, and contributes to many national and international research projects.\nWe are now looking for a doctoral researcher to develop dynamic models for assessing the energy system and societal risks due to climate change impacts on offshore wind energy infrastructure in Arctic and sub-Arctic conditions. In this role, you will contribute to the ICROSS project, funded by the Det Norske Veritas Foundation, by studying climate change-induced hazards to offshore wind power and their impacts on future power system resilience. You will assess how these hazard levels can change with evolving conditions. Your work will contribute to the development of an integrated model for cascading societal risk pathways arising from climate hazards to offshore wind energy and maritime operations.\nYour role and goals\nThe work will include the following.\nStudying climate-induced hazards to offshore wind energy, using the outputs of ice condition assessments and projections related to climate change induced variations in environmental conditions in Arctic and sub-Arctic areas\nAnalysing how the above hazards translate to offshore wind energy infrastructure failures and sub-optimal performance and therefore lead to broader power system risks\nDeveloping a system dynamics model to depict the consequential power system risks under varying scenarios\nConducting conditional probability assessments for failure events and carrying out risk prioritization\nDeveloping cascading societal risk pathways and expanding the system dynamic model for multi-dimensional economic impact assessment\nThe research will heavily involve mathematical model development and may also involve the use of specialised software for system dynamics, risk assessments, simulations etc. The researcher is also expected to carry out collaborative work with external stakeholders such as industry partners, depending on the project needs. Therefore, the work will also require ongoing stakeholder engagement and communication. The primary workplace is Aalto University’s Otaniemi Campus. The work requires in-person presence on the campus.\nThe doctoral degree is granted after successfully completing a set of advanced taught courses (30 ECTS), writing a doctoral thesis (usually based on publications), and defending the thesis in a public examination. During the duration of the doctoral studies, the researcher will be expected to present publish in leading academic journals and high-level scientific conferences, actively participate in the research group activities, assist in the preparation of new research proposals, engage in teaching-related duties, and help to advise master’s students during the preparation of their final project.\nYour network and team\nThe doctoral researcher will be a part of the Energy Conversion and Systems research group in the Department of Energy and Mechanical Engineering. The supervisor will be Prof. Hirushie Karunathilake. The selected candidate will work closely with the ICROSS project team and with collaborators at CSC – IT Center for Science and the Finnish Meteorological Institute. This is an exciting time to join us: offshore wind is expanding rapidly into ice-covered Nordic seas. You will work with state-of-the-art risk assessment and dynamic modelling tools on critical issues that are highly relevant to authorities and other key partners, in collaboration with other researchers working on sea ice formation, winter navigation, and maritime safety.\nYour experience and ambitions\nWe are looking for a highly motivated candidate with strong analytical skills and a clear interest in energy systems, mathematical modelling, risk assessments, and energy economics.\nApplicants should hold a master’s degree with very good grades in mechanical engineering, energy engineering, or a closely related field.\nFluent written and verbal communication skills in English are essential, and strong mathematical skills are expected. Finnish knowledge is an added advantage.\nThe successful applicant should enjoy working in an international and interdisciplinary research environment and be willing to engage with both methodological and applied research questions. Strong interpersonal skills are also essential.\nThe ability to work both independently and collaboratively as part of a research team is necessary.\nPrevious knowledge and experience in the following will be considered when evaluating applicants.\nMathematical model development\nProgramming skills and experience with tools such as MATLAB or Python\nRisk assessment methods such as FMEA, HAZOP, STPA, Bayesian networks, event-tree analysis, or scenario-based risk modelling.\nSoftware related experience on system dynamics modelling, GIS, and energy simulations\nResearch writing and publications\nApplicants must fulfill the eligibility and admission criteria for Aalto’s Doctoral Programme in Engineering as specified at\nAalto Doctoral Programme in Engineering | Aalto University\n.\nStudents in the final year of their master's programme are also welcome to apply, provided the degree is completed before the doctoral contract begins. Aalto University master's students may start working in the project by writing their master's thesis.\nWhat we offer\nThe preferred staring date for this position is in the Spring of 2027. The initial contract period is 2 years, evaluated by a compulsory midterm review during the second year, with the possibility of extension for the remaining period (a further 1-2 years) if satisfactory progress has been made.\nThe salary range, terms, and conditions are based on a collective bargaining agreement among Finnish universities. The starting salary is approximately 3100 €/month (gross), and it increases as the Doctoral Researcher progresses in their research and studies.\nYou will work in a community of students, researchers and other professionals, and will receive support in building a thriving academic career and to reach your professional goals. The Otaniemi campus is a thriving and connected community of 100 nationalities, 13,000 students and 4,500 employees. Life at the transformed campus is vibrant and filled with amazing architecture, calming nature, and a variety of cafes, restaurants, services and good connections along the metro line.\nJoin us!\nTo apply, please share your application with us through our recruitment site (\"Apply now!”) at the latest by 15 December 2026. Applications submitted by email will not be evaluated or accepted. We encourage you to apply early, as we will start reviewing candidates immediately. Applications will be considered until the position is filled.\nPlease include the following attachments:\nMotivation letter\nwith the applicant’s contact information and an indication of the preferred starting date (max 1 page)\nCV\nincluding details of all academic outputs and publications (if available)\nContact information for two referees\n(with email addresses) who may be contacted to obtain a recommendation (max 2 pages)\nSummary of the applicant’s master’s dissertation\n(max 1 page)\nCopy of the applicant’s master’s degree certificate and transcript of studies\n(with a clear explanation of the grading scale).\nStudents in the final year of their master's programme are also welcome to apply, provided the degree is completed before the doctoral contract begins. Aalto University master's students may start working in the project by writing their master's thesis.\nContent-related questions about the vacancy may be directed via email to Hirushie Karunathilake (PhD supervisor) using the email format\nfirstname.lastname@aalto.fi\n. For questions related to the application process, please contact hr-eng(at)aalto.fi.\nUniversity reserves the right to leave the position open, extend the application period, and consider candidates who have not applied during the application period.\nPlease note: Aalto University’s employees should apply for the position via our internal HR system Workday (Internal Jobs) by using their existing Workday user account (not via the external webpage for open positions).\nAbout Aalto University\nAalto University builds on the legacy of three leading Finnish universities: Helsinki University of Technology, Helsinki School of Economics and the University of Art and Design Helsinki. Since 2010, we have brought science, art, technology and business together in new ways.\nToday, the Aalto community consists of 16,000 students and 5,200 employees, including 446 professors. Half of our faculty members have an international background. Our campus in Espoo is a vibrant cluster of research and innovation with striking architecture, peaceful nature, open spaces for collaboration, and a wide range of services, all with excellent public transport connections. Diversity is part of who we are. We work actively to build a community where people can belong, contribute and grow.\nMore about Aalto University:\nAalto.fi\nyoutube.com/user/aaltouniversity\nlinkedin.com/school/aalto-university/\nwww.facebook.com/aaltouniversity\ninstagram.com/aaltouniversity\nTo view information about Workday Accessibility, please click\nhere\n.\nPlease see more of our Open Positions\nhere."
+  },
+  "ai": {
+    "summary": "Doctoral position in mathematical modelling and risk assessment for offshore wind energy systems under climate change impacts, focusing on dynamic systems modelling, probabilistic risk analysis, and stakeholder engagement in an energy systems context.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "The position is entirely within energy systems engineering, risk assessment, and climate modelling—domains with no thematic overlap to human-centred XR, immersive learning, spatial cognition, or collaborative systems design. The researcher's core identity is HCI-XR, not energy systems or climate risk."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "While both domains involve modelling and stakeholder engagement, the methodologies diverge fundamentally. The position requires dynamic systems modelling, climate hazard assessment, probabilistic risk analysis, and energy economics—none of which align with the researcher's experimental design, user studies, and immersive application development methods. The researcher has no background in MATLAB, system dynamics software, GIS, or risk formalisms (FMEA, HAZOP, Bayesian networks)."
+    },
+    "growth_value": {
+      "score": 10,
+      "rationale": "This position would not close capability gaps relevant to the researcher's target identity. It introduces entirely new domains (energy, climate modelling, risk formalism) rather than deepening expertise in human-centred immersive systems, spatial cognition research, or collaborative design evaluation."
+    },
+    "strategic_value": {
+      "score": 25,
+      "rationale": "Aalto is a priority-1 institution and Finland is a preferred country, which supports geographic and institutional strategy. However, this particular group (Energy Conversion and Systems) has no methodological or thematic alignment with the researcher's target trajectory. The supervisor (Hirushie Karunathilake) and group reputation in energy systems do not translate to HCI-XR research quality or pathway."
+    },
+    "required_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "quantitative-research"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "python",
+      "statistics",
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "matlab-or-equivalent",
+      "system-dynamics-modelling",
+      "risk-assessment-formalisms",
+      "energy-systems-knowledge",
+      "gis-or-geospatial-analysis"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Researcher is MSc by Research (thesis stage); position accepts final-year candidates if degree completed before contract start (Spring 2027). Likely eligible but timing depends on thesis submission date.",
+      "Position requires 'very good grades in mechanical engineering, energy engineering, or closely related field.' Researcher's background is multimedia/HCI—disciplinary mismatch may weigh against eligibility."
+    ],
+    "risks": [
+      "Disciplinary pivot away from core HCI-XR identity would delay PhD candidacy in target domain by 4 years.",
+      "No existing network in energy systems, climate modelling, or maritime infrastructure; supervisor specialisation is orthogonal to researcher's expertise.",
+      "Energy systems risk modelling requires mathematical fluency (differential equations, probabilistic methods) not evidenced in profile.",
+      "Position duration (2 years initial + 1–2 year extension) commits researcher to energy domain during critical early-career identity formation phase."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.95,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-26T16:52:17.516026Z",
+    "analysis_input_hash": "f5d0d5eae4b3c0f3be1d7c298b78b7ac0332cc7360ed340a03c41680d71ded4c"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 12,
+    "urgency": "high",
+    "days_to_deadline": 19,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

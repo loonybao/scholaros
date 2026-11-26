@@ -6,7 +6,7 @@ organisation: "TU Delft"
 deadline: 2026-12-31
 status: open
 eligibility_gate: uncertain
-fit_overall: 9
+fit_overall: 12
 urgency: medium
 needs_review: true
 ---
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 36)
+Gate: **uncertain** (days to deadline: 35)
 
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
 
@@ -59,7 +59,7 @@ Click
 here
 to go to the website of the Faculty of Applied Sciences.
 Conditions of employment
-Duration of contract is 1 year. Temporary.
+Duration of contract is 1 year, with possible extension.
 A job of 36-40 hours per week.
 Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
 An excellent pension scheme via the ABP.
@@ -96,25 +96,25 @@ Please do not contact us for unsolicited services.
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Postdoctoral position in scanning electron microscopy and subsurface imaging for semiconductor inspection at TU Delft in collaboration with ASML. Focus is on physics of backscattered electron signals, detector development, and experimental characterization of nanoscale structures.
+Postdoctoral position at TU Delft focused on scanning electron microscopy (SEM), backscattered electron signal physics, and detector development for subsurface imaging in semiconductor devices. Work involves theoretical modelling, experimental research, and detector-concept development in collaboration with ASML.
 
 | Dimension | Score |
 |---|---|
 | Thematic fit | 5 |
-| Methodological fit | 8 |
-| Growth value | 2 |
+| Methodological fit | 15 |
+| Growth value | 10 |
 | Strategic value | 25 |
-| **Overall** | **9** |
+| **Overall** | **12** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** scanning-electron-microscopy, detector-physics, signal-processing, materials-characterization, nanoscale-imaging
+**Missing skills:** scanning-electron-microscopy-not-in-taxonomy, electron-physics-not-in-taxonomy, detector-engineering-not-in-taxonomy, nanoscale-imaging-expertise-not-in-taxonomy, physics-modelling-not-in-taxonomy
 
 **Risks:**
-- PhD eligibility gap: researcher is at thesis stage and would need to complete degree before or by employment decision date.
-- Complete domain mismatch: accepting this role would signal a pivot away from human-centred XR research and delay progress toward stated target identity.
-- Short contract (1 year) leaves minimal time to build expertise in unfamiliar instrumentation domain.
-- Limited collaborative value: research group has no overlap with priority institutions (Aalto, TU Delft focused HCI groups) or human-centred immersive systems communities.
+- Fundamental domain mismatch: electron microscopy is not part of the researcher's training or research portfolio.
+- No human-centred research component; purely technical/physics-focused.
+- Career trajectory risk: accepting this role would delay or redirect movement toward human-centred XR/HCI research leadership.
+- Limited transferability: expertise gained would not support future positions in the target domain.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_tudelft-postdoc-researcher-in-subsurface-imaging-and-scannin.md` and link [[opp_tudelft-postdoc-researcher-in-subsurface-imaging-and-scannin]]._

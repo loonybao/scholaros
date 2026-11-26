@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-10-30T12:35:32.806820Z",
-  "updated_at": "2026-11-25T17:15:22.509396Z",
+  "updated_at": "2026-11-26T16:52:59.437320Z",
   "change_history": [
     {
       "ts": "2026-10-30T12:35:32.807012Z",
@@ -256,6 +256,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-26T16:51:15.591016Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-26T16:52:58.138706Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-26T16:52:59.437320Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -269,10 +310,10 @@
     "evidence_ids": [
       "varbi/kth-984656"
     ],
-    "retrieved_at": "2026-10-30T12:35:32.806619Z",
-    "raw_snapshot_hash": "4a3bca44d291c7631a93412fa1a0673102ad0a8181acc997074c8b57868608ca",
-    "extracted_content_hash": "61d496f7419587e912f58391e04c8d1d9bb745142eff0db4afb51ebc107b507f",
-    "deadline": "2026-11-27",
+    "retrieved_at": "2026-11-26T16:51:15.590370Z",
+    "raw_snapshot_hash": "39b8a5dd2005df4fdae794e6ca77e612dc0ae6ded52be051fdefe8f4e1f0b4da",
+    "extracted_content_hash": "19fd40f828881cf15879b547ee41e1e751a3a347f5ec8c8a8e947da26ab2bf84",
+    "deadline": "2026-12-04",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -290,51 +331,59 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Postdoctoral position in techno-economic analysis of resilient urban energy systems\nLogin and apply\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nDo you want to develop and evaluate concepts for how a brand-new urban district can be supplied with both heat and electricity robustly, even when something unexpected happens, and see your analyses used as decision support by the municipality that will build it? Welcome with your application.\nThe position is part of a collaboration between KTH, Uppsala University and Uppsala Municipality on the energy system in Uppsala’s south-eastern districts. This is one of Sweden’s largest urban development projects, with 21,500 homes planned by 2050. You will work on a real question in a live setting, where your results directly affect how a district is built.\nTwo postdocs\nare being recruited in parallel to work closely together:\none at KTH\n(this position) and\none at Uppsala University. Part of the working time is spent at Uppsala Municipality\n, which gives direct access to planning documentation, stakeholders and the questions that are current during implementation. The project is part of the research area STandUP for Energy.\nJob description\nThe position aims to generate and evaluate concepts for the energy supply of Uppsala’s south-eastern districts, and to analyse them techno-economically as decision support for the municipality.\nDuties include:\ndeveloping, modelling and comparing concepts for a flexible low-temperature heating system\ntechno-economically evaluating a flexible electricity microgrid\nanalysing the heating system and the electricity microgrid as an integrated multi-energy system\nquantifying the socio-economic value of the energy system’s resilience\nanalysing the security of supply of the heat and electricity systems during disruptions, and how concept and sizing choices affect recovery time and outage costs\ndeveloping scenarios for the district’s build-out, connection rates, energy demand, technology rollout and system configuration\ncarrying out techno-economic analyses of the integrated system\nanalysing business models and implementation models for both systems\ntranslating the results into decision support\npublishing results in scientific journals and presenting them at conferences\ntaking part in applications for external research funding, nationally and within the EU\nQualifications\nRequirements\nA PhD in energy technology, energy systems, mechanical engineering or equivalent, or a foreign degree deemed equivalent. The degree must be completed no later than when the employment decision is made.\nDocumented experience of modelling, optimization and analysis of energy systems, preferably integrated or multi-energy systems\nExperience of techno-economic analysis, investment planning, infrastructure sizing or operational optimization\nKnowledge of thermal energy systems, for example district heating, heat pumps or thermal storage\nUnderstanding of energy markets and policy instruments, for both heat and electricity\nProgramming skills and experience developing or applying computational models for energy system analysis\nThe ability to express yourself in English, orally and in writing, as English is used daily in the project\nPersonal skills\nGood collaboration skills and the ability to communicate research results to stakeholders outside academia\nGoal-oriented and self-driven approach to work\nPreferred qualification\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience in low-temperature heating systems, waste heat recovery, thermal storage or other distributed energy resources\nExperience in modelling, optimization or sector coupling of integrated energy systems\nExperience in resilience or reliability analysis of energy systems, security of supply, or valuation of outage costs\nExperience in energy economics/business models, or collaboration with municipalities, authorities or industry\nCommitment to and awareness of gender equality, diversity, and equal opportunities.\nknowledge of Swedish, or willingness to learn it, for the work with the municipality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3737\nContact\nBjörn Laumert, laumert@kth.se\nPublished\n30.Oct.2026\nLast application date\n27.Nov.2026\nLogin and apply\nShare links\nReturn to job vacancies"
+    "description_text": "Postdoctoral position in techno-economic analysis of resilient urban energy systems\nLogin and apply\nKTH Royal Institute of Technology, School of Industrial Engineering and Management\nDo you want to develop and evaluate concepts for how a brand-new urban district can be supplied with both heat and electricity robustly, even when something unexpected happens, and see your analyses used as decision support by the municipality that will build it? Welcome with your application.\nThe position is part of a collaboration between KTH, Uppsala University and Uppsala Municipality on the energy system in Uppsala’s south-eastern districts. This is one of Sweden’s largest urban development projects, with 21,500 homes planned by 2050. You will work on a real question in a live setting, where your results directly affect how a district is built.\nTwo postdocs\nare being recruited in parallel to work closely together:\none at KTH\n(this position) and\none at Uppsala University. Part of the working time is spent at Uppsala Municipality\n, which gives direct access to planning documentation, stakeholders and the questions that are current during implementation. The project is part of the research area STandUP for Energy.\nJob description\nThe position aims to generate and evaluate concepts for the energy supply of Uppsala’s south-eastern districts, and to analyse them techno-economically as decision support for the municipality.\nDuties include:\ndeveloping, modelling and comparing concepts for a flexible low-temperature heating system\ntechno-economically evaluating a flexible electricity microgrid\nanalysing the heating system and the electricity microgrid as an integrated multi-energy system\nquantifying the socio-economic value of the energy system’s resilience\nanalysing the security of supply of the heat and electricity systems during disruptions, and how concept and sizing choices affect recovery time and outage costs\ndeveloping scenarios for the district’s build-out, connection rates, energy demand, technology rollout and system configuration\ncarrying out techno-economic analyses of the integrated system\nanalysing business models and implementation models for both systems\ntranslating the results into decision support\npublishing results in scientific journals and presenting them at conferences\ntaking part in applications for external research funding, nationally and within the EU\nQualifications\nRequirements\nA PhD in energy technology, energy systems, mechanical engineering or equivalent, or a foreign degree deemed equivalent. The degree must be completed no later than when the employment decision is made.\nDocumented experience of modelling, optimization and analysis of energy systems, preferably integrated or multi-energy systems\nExperience of techno-economic analysis, investment planning, infrastructure sizing or operational optimization\nKnowledge of thermal energy systems, for example district heating, heat pumps or thermal storage\nUnderstanding of energy markets and policy instruments, for both heat and electricity\nProgramming skills and experience developing or applying computational models for energy system analysis\nThe ability to express yourself in English, orally and in writing, as English is used daily in the project\nPersonal skills\nGood collaboration skills and the ability to communicate research results to stakeholders outside academia\nGoal-oriented and self-driven approach to work\nPreferred qualification\nA doctoral degree or an equivalent foreign degree, obtained within the last three years prior to the application deadline\nExperience in low-temperature heating systems, waste heat recovery, thermal storage or other distributed energy resources\nExperience in modelling, optimization or sector coupling of integrated energy systems\nExperience in resilience or reliability analysis of energy systems, security of supply, or valuation of outage costs\nExperience in energy economics/business models, or collaboration with municipalities, authorities or industry\nCommitment to and awareness of gender equality, diversity, and equal opportunities.\nknowledge of Swedish, or willingness to learn it, for the work with the municipality\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH.\nTrade union representatives\nContact information to\ntrade union representatives.\nTo apply for the position\nLog into KTH's recruitment system to apply for this position. You are responsible for ensuring that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Maximally two pages long.\nYour complete application must be received at KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe position offered is for, at the most, two years.\nA\nposition as a postdoctoral fellow\nis a time-limited qualified appointment focusing mainly on research, intended as a first career step after a dissertation.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer: In case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100 %\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3737\nContact\nBjörn Laumert, laumert@kth.se\nPublished\n30.Oct.2026\nLast application date\n04.Dec.2026\nLogin and apply\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "Postdoctoral position at KTH developing techno-economic models and analysis of integrated energy systems (heating and electricity) for a real urban development project in Uppsala. The role combines systems modelling, optimization, energy economics, and stakeholder communication with direct municipal decision support.",
+    "summary": "Postdoctoral position at KTH in collaboration with Uppsala University and Uppsala Municipality, focused on techno-economic modelling and analysis of resilient urban energy systems (heating and electricity) for a large-scale urban development project. Involves scenario development, optimization analysis, stakeholder engagement, and decision-support translation.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 2,
-      "rationale": "The researcher's thematic focus is human-centred immersive systems, collaborative learning, spatial cognition, and wayfinding — none present in this energy systems engineering role. Urban energy infrastructure planning and resilience analysis are entirely outside the researcher's domain. The position is grounded in mechanical engineering, energy technology, and infrastructure economics, not HCI or immersive design."
+      "score": 8,
+      "rationale": "Position is in energy systems engineering and urban infrastructure planning. No thematic alignment with human-computer interaction, immersive systems, spatial cognition, learning, wayfinding, collaborative interaction, or any aspect of the researcher's core identity. The 'systems' terminology is methodological, not thematic—systems biology and energy systems are distinct research areas."
     },
     "methodological_fit": {
-      "score": 10,
-      "rationale": "The position emphasizes systems modelling, optimization, techno-economic analysis, and computational energy system models. The researcher has beginner Python and intermediate quantitative research experience, but no demonstrated experience with energy system optimization, modelling infrastructure, investment planning, or multi-energy systems. The required programming depth (developing/applying computational models for energy analysis) substantially exceeds the researcher's current Python competency. The methodological approach (engineering optimization) differs from the researcher's empirical human-centred evaluation methods."
+      "score": 20,
+      "rationale": "Slight methodological resonance exists in systems thinking and stakeholder engagement, but the core methodologies diverge sharply. The position emphasizes techno-economic modelling, optimization algorithms, and infrastructure design—computational and engineering-focused. The researcher's methodological strengths are in human-centred design, user studies, experimental evaluation, and qualitative/quantitative assessment of human outcomes. No overlap in technical toolkit or research methods."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "This position would develop systems-level thinking and advanced Python/modelling skills, but neither advances toward the target identity. Energy systems expertise does not close gaps in spatial cognition research, immersive system design, or human-centred evaluation methodologies. The role offers no pathway to developing human-centred XR research leadership."
+      "score": 12,
+      "rationale": "This position would not close capability gaps relevant to the target identity. It would develop energy systems expertise and infrastructure planning skills orthogonal to human-centred XR/HCI research. While stakeholder communication is transferable, it does not advance spatial cognition, immersive systems knowledge, collaborative interaction design, or human-centred evaluation methodologies."
     },
     "strategic_value": {
-      "score": 12,
-      "rationale": "KTH is well-regarded and located in a preferred country (Sweden). The position involves real-world impact and stakeholder engagement, which could strengthen communication skills. However, the research direction (energy infrastructure) is orthogonal to the target identity. The collaboration with Uppsala Municipality and direct policy impact, while valuable, does not support building a trajectory toward human-centred immersive systems research or preparing for group leadership in HCI/XR."
+      "score": 30,
+      "rationale": "KTH is a reputable institution in Sweden (researcher's preferred geography). The position offers real-world impact, municipal partnership, and potential for publication and funding engagement—all valuable for research career development. However, strategic value toward the target identity is low: the group is in energy systems/engineering, not HCI or immersive systems. The collaboration structure (KTH, Uppsala University, municipality) is not aligned with human-centred XR research ecosystems."
     },
     "required_skills": [
+      "energy-systems-modelling-not-in-taxonomy",
+      "techno-economic-analysis-not-in-taxonomy",
+      "optimization-not-in-taxonomy",
       "python",
-      "statistics",
-      "quantitative-research"
+      "statistics"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
       "python",
-      "quantitative-research"
+      "statistics"
     ],
-    "missing_skills": [],
+    "missing_skills": [
+      "energy-systems-modelling-not-in-taxonomy",
+      "techno-economic-analysis-not-in-taxonomy",
+      "district-heating-knowledge-not-in-taxonomy",
+      "optimization-algorithms-not-in-taxonomy",
+      "energy-markets-policy-not-in-taxonomy",
+      "infrastructure-planning-not-in-taxonomy"
+    ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Position requires a completed PhD in energy technology, energy systems, mechanical engineering, or equivalent; researcher currently holds MSc by Research in progress. Eligibility depends on PhD completion by employment decision date.",
-      "Posting mentions security clearance requirement under Swedish Protective Security Act (2018:585) for unspecified positions; ambiguous whether this specific role is classified as security-sensitive.",
-      "Documented experience in energy system modelling, optimization, and techno-economic analysis is required. Researcher has no demonstrated background in energy systems or infrastructure modelling."
+      "Researcher holds MSc by Research (in progress); position requires completed PhD by application or employment decision—timeline unclear in posting, verify completion requirement.",
+      "Preferred qualification specifies PhD obtained within last three years; researcher's future PhD timing unknown."
     ],
     "risks": [
-      "Complete thematic misalignment. Energy infrastructure is not part of the researcher's target research identity.",
-      "Researcher lacks documented experience in energy systems, optimization methods, district heating, thermal storage, energy markets, and infrastructure planning — all core requirements.",
-      "Taking a postdoc in energy systems would further distance the researcher from developing expertise and networks in human-centred XR/HCI research.",
-      "Beginner Python is below the competency level needed for developing computational energy models. Steep learning curve would delay project contribution.",
-      "Position's mentorship and group leadership development pathways would build expertise in energy engineering, not HCI or immersive systems research leadership."
+      "Severe domain mismatch: energy systems engineering is unrelated to human-centred XR and immersive learning research.",
+      "Skill gap in core technical requirements (techno-economic modelling, optimization, thermal systems) with only beginner Python and intermediate statistics.",
+      "Career trajectory risk: postdoctoral time spent on energy infrastructure diverts from building human-centred XR research expertise and visibility.",
+      "Limited network transfer: connections made in energy systems community do not support future transitions to human-centred XR groups.",
+      "Knowledge integration: even with successful performance, outcomes would not consolidate toward target identity."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -348,8 +397,8 @@
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-10-31T12:08:25.831323Z",
-    "analysis_input_hash": "14def03f07d80521133b86ee99d1d1df5d3b6d60c07675c654d4f7a4edb3d565"
+    "analyzed_at": "2026-11-26T16:52:58.138133Z",
+    "analysis_input_hash": "6e9a971ef2c953745a7d91bbc3ccf4671a91359a85e2af9c75bd487f9aaa97c8"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -358,9 +407,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 7,
-    "urgency": "urgent",
-    "days_to_deadline": 2,
+    "fit_overall": 16,
+    "urgency": "high",
+    "days_to_deadline": 8,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

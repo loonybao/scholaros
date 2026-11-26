@@ -3,18 +3,18 @@ id: opp_varbi-postdoctoral-position-in-techno-economic-analysis-of-r
 type: opportunity
 title: "Postdoctoral position in techno-economic analysis of resilient urban energy systems"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-11-27
+deadline: 2026-12-04
 status: open
 eligibility_gate: uncertain
-fit_overall: 7
-urgency: urgent
+fit_overall: 16
+urgency: high
 needs_review: true
 ---
 
 # Postdoctoral position in techno-economic analysis of resilient urban energy systems
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-11-27
+**Deadline:** 2026-12-04
 **Location:** Stockholm, Sweden
 **Position type:** postdoc
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 2)
+Gate: **uncertain** (days to deadline: 8)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -128,7 +128,7 @@ Björn Laumert, laumert@kth.se
 Published
 30.Oct.2026
 Last application date
-27.Nov.2026
+04.Dec.2026
 Login and apply
 Share links
 Return to job vacancies
@@ -137,26 +137,26 @@ Return to job vacancies
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
 
-Postdoctoral position at KTH developing techno-economic models and analysis of integrated energy systems (heating and electricity) for a real urban development project in Uppsala. The role combines systems modelling, optimization, energy economics, and stakeholder communication with direct municipal decision support.
+Postdoctoral position at KTH in collaboration with Uppsala University and Uppsala Municipality, focused on techno-economic modelling and analysis of resilient urban energy systems (heating and electricity) for a large-scale urban development project. Involves scenario development, optimization analysis, stakeholder engagement, and decision-support translation.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 2 |
-| Methodological fit | 10 |
-| Growth value | 5 |
-| Strategic value | 12 |
-| **Overall** | **7** |
+| Thematic fit | 8 |
+| Methodological fit | 20 |
+| Growth value | 12 |
+| Strategic value | 30 |
+| **Overall** | **16** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** energy-systems-modelling-not-in-taxonomy, techno-economic-analysis-not-in-taxonomy, district-heating-knowledge-not-in-taxonomy, optimization-algorithms-not-in-taxonomy, energy-markets-policy-not-in-taxonomy, infrastructure-planning-not-in-taxonomy
 
 **Risks:**
-- Complete thematic misalignment. Energy infrastructure is not part of the researcher's target research identity.
-- Researcher lacks documented experience in energy systems, optimization methods, district heating, thermal storage, energy markets, and infrastructure planning — all core requirements.
-- Taking a postdoc in energy systems would further distance the researcher from developing expertise and networks in human-centred XR/HCI research.
-- Beginner Python is below the competency level needed for developing computational energy models. Steep learning curve would delay project contribution.
-- Position's mentorship and group leadership development pathways would build expertise in energy engineering, not HCI or immersive systems research leadership.
+- Severe domain mismatch: energy systems engineering is unrelated to human-centred XR and immersive learning research.
+- Skill gap in core technical requirements (techno-economic modelling, optimization, thermal systems) with only beginner Python and intermediate statistics.
+- Career trajectory risk: postdoctoral time spent on energy infrastructure diverts from building human-centred XR research expertise and visibility.
+- Limited network transfer: connections made in energy systems community do not support future transitions to human-centred XR groups.
+- Knowledge integration: even with successful performance, outcomes would not consolidate toward target identity.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-postdoctoral-position-in-techno-economic-analysis-of-r.md` and link [[opp_varbi-postdoctoral-position-in-techno-economic-analysis-of-r]]._

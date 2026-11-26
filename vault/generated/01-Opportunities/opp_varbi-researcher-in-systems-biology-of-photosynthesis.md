@@ -3,10 +3,10 @@ id: opp_varbi-researcher-in-systems-biology-of-photosynthesis
 type: opportunity
 title: "Researcher in systems biology of photosynthesis"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-11-30
+deadline: 2026-12-01
 status: open
 eligibility_gate: uncertain
-fit_overall: 7
+fit_overall: 5
 urgency: urgent
 needs_review: true
 ---
@@ -14,7 +14,7 @@ needs_review: true
 # Researcher in systems biology of photosynthesis
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-11-30
+**Deadline:** 2026-12-01
 **Location:** Stockholm, Sweden
 **Position type:** other
 **Salary:** not stated
@@ -97,7 +97,7 @@ Elton Paul Hudson, huds@kth.se
 Published
 10.Nov.2026
 Last application date
-30.Nov.2026
+01.Dec.2026
 Apply for position
 Share links
 Return to job vacancies
@@ -106,26 +106,26 @@ Return to job vacancies
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.98_
 
-A fixed-term researcher position at KTH focusing on systems biology of photosynthesis, involving design and execution of mass-spectrometry-based proteomics experiments with cyanobacteria and plant systems, including equipment maintenance and lab training responsibilities.
+Research position at KTH focused on systems biology of photosynthesis, with primary responsibilities in mass-spectrometry-based proteomics experimental design and execution, involving cyanobacteria and plant systems. Work includes equipment maintenance, data analysis, and training lab members.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 8 |
+| Thematic fit | 2 |
+| Methodological fit | 5 |
 | Growth value | 2 |
 | Strategic value | 15 |
-| **Overall** | **7** |
+| **Overall** | **5** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** none noted
+**Missing skills:** mass-spectrometry-not-in-taxonomy, proteomics-data-analysis-not-in-taxonomy, cyanobacteria-biology-not-in-taxonomy, liquid-chromatography-not-in-taxonomy, biochemical-techniques-not-in-taxonomy
 
 **Risks:**
-- Fundamental domain mismatch (biology/proteomics vs. HCI/immersive systems) makes this a career detour rather than progression.
-- Two-month contract is too short for onboarding in a wet-lab environment or contributing publishable research.
-- No publications or research output would be credible to target PhD programs (Aalto, TU Delft) if the researcher diverges into systems biology.
-- Takes researcher away from consolidating their XR research portfolio during a critical thesis-completion period.
-- Requires completion of doctoral degree before eligible; no pathway to PhD candidacy in the researcher's target field.
+- Fundamental domain mismatch: molecular biology and proteomics are unrelated to human-centred XR research.
+- Severely truncated contract (≤2 months) insufficient for meaningful research output or skill development.
+- Career trajectory risk: extremely high opportunity cost relative to building human-centred XR credentials.
+- No publication or research visibility gain within human-centred HCI/immersive systems communities.
+- Credential dilution: a molecular biology research position on CV does not strengthen candidacy for human-centred XR doctoral programs or groups.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-researcher-in-systems-biology-of-photosynthesis.md` and link [[opp_varbi-researcher-in-systems-biology-of-photosynthesis]]._
