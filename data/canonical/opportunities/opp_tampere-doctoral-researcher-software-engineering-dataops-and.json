@@ -1,0 +1,183 @@
+{
+  "id": "opp_tampere-doctoral-researcher-software-engineering-dataops-and",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-27T16:21:43.048589Z",
+  "updated_at": "2026-11-27T16:38:31.087752Z",
+  "change_history": [
+    {
+      "ts": "2026-11-27T16:21:43.048805Z",
+      "actor": "collector:tampere",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-27T16:38:09.673366Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-27T16:38:31.087752Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Doctoral Researcher (Software Engineering, DataOps and MLOps)",
+    "org_id": "org_tampere_university",
+    "lab_org_id": null,
+    "source": "tampere",
+    "source_native_id": "3239",
+    "canonical_url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3239",
+    "apply_url": "https://tuni.rekrytointi.com/paikat/?o=A_A&jid=3239#login_form",
+    "evidence_ids": [
+      "tampere/3239"
+    ],
+    "retrieved_at": "2026-11-27T16:21:43.048305Z",
+    "raw_snapshot_hash": "fcc1bc41baca9271febffe608246bf4956fb8e5448d1103f7fad4ebe15c60eae",
+    "extracted_content_hash": "669368583854828d2a52b4704238b9cb472c5d877e62d92864d53f941bb6201e",
+    "deadline": "2027-01-18",
+    "deadline_note": "23:59 local time",
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": "2026-11-27",
+    "position_type": "phd",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Tampere, Finland",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Tampere University\nis a unique, boldly future‑oriented and evolving community, and one of Finland’s most multidisciplinary universities. At Tampere University, technology, health and society come together in a distinctive way. Our research groups and projects carry out interdisciplinary and cross-sectoral research that transcends organisational boundaries. Our community is international, with members from more than 80 countries. Read more at\nTampere University (TAU) | Tampere University\n.\nWe are inviting applications for a Doctoral Researcher (PhD student) position in the areas of software engineering, DataOps and MLOps. The successful candidate will pursue a doctoral degree at Tampere University.\nJob description\nThe position will be placed within the unit of Computing Sciences in Tampere University's Faculty of Information Technology and Communication Sciences. Software engineering is one of the core areas of education and research of the faculty. Read more about the research group from here:\nthe TASE - Software Engineering Research Center\n.\nOur research center develops efficient ways to produce better quality software in a predictable and economically sustainable way. The position belongs to the xOps research group, which studies the operations of AI-driven systems, from the data pipelines of AI systems to the deployment of language models.\nYou will focus on the research of DataOps practices and maturity levels for AI-intensive systems, as the data foundation for the operations of AI-based models such as Machine Learning and Language based Models.\nYour work will include:\nInvestigating the state of practice of DataOps in AI-intensive systems and identifying which practices are missing.\nDefining and validating maturity levels for DataOps practices that ensure data quality, governance, and transferability.\nDesigning guidelines and a framework that record the quality, provenance, license, and sensitivity of data along the lifecycle of AI-based models.\nEvaluating how systematic data management affects the quality of AI-based models, including language models.\nAs a Doctoral Researcher you are expected to perform overviews of state of the art, to study the principles of DataOps, MLOps, data quality and governance, and empirical software engineering methods. You are also expected to develop pipelines and frameworks, to generate empirical results, to analyze and validate them on use case(s) through comparison with the state of the art.\nThe results of your research will be disseminated in scientific peer-reviewed journals, international conferences, doctoral network events and events with industry. The tasks of doctoral researchers also include teaching duties that amount to approximately 5 % of their annual working hours, unless there are justified reasons to the contrary.\nRequirements\nYou need to have a master’s degree in:\nSoftware engineering or Data science (preferred)\nComputer science or Machine learning\nYou also need:\nProficiency in Python or a related programming language.\nExperience in creating xOps pipelines (e.g., DevOps, MLOps, DataOps).\nStrong spoken and written communication skills in English, including satisfaction of the language skill requirements of the doctoral programme of the discipline.\nBeneficial skills (not mandatory):\nExperience with data engineering, data versioning, and CI/CD tools (e.g., DVC, MLflow, Delta Lake, GitHub Actions, or equivalent).\nKnowledge of data quality, data governance, and related standards, with the ability to apply them to real-world AI-based systems.\nFamiliarity with empirical software engineering methods (surveys, case studies, design science research) or with language models and their training data.\nThe successful candidate needs to apply for and be granted a study right for a doctoral degree in the doctoral programme of the discipline at Tampere University. Please visit the admissions webpage\nhttps://www.tuni.fi/en/study-with-us/programmes/doctoral-programmes\nfor more information on eligibility requirements.\nCandidates are selected based on the level of promise that they show, and this will be evaluated on the basis of their study and research plans, their previous success in studies, and merits in writing the doctoral thesis and / or scientific publishing.\nTampere University is a unique, multidisciplinary and boldly forward-looking, evolving community. Our values are openness, diversity, responsibility, courage, critical thinking, erudition bildung, and learner-centredness. We hope that you can embrace these values and promote them in your work.\nWe offer\nThe full-time position will be filled for a fixed-term period of four (4) years. The expected starting date is March 1st, 2027, or as mutually agreed. A trial period of six (6) months applies to all our new employees.\nThe salary will be based on both the job requirements and the employee’s personal performance in accordance with\nthe Finnish University Salary System\n. According to the criteria applied to teaching and research staff, the position of Doctoral Researcher is placed on level 2–4 of the job requirements scale. The starting salary for a Doctoral Researcher is approximately 2,800 € / month, and it will increase during the studies based on the progress towards a completed doctoral degree. In addition, the position comes with extensive benefits such as occupational healthcare, excellent sports facilities, flexible working hours, and several restaurants and cafés on the campus with staff discounts.\nWe are inviting you to be a part of a vibrant, active and truly international research community. We value interdisciplinarity, as it allows you to expand your research network and exposes you to new perspectives and ideas to solve complex research problems and pursue novel research findings. We are strongly committed to the highest level of scientific research and the provision of high-quality doctoral education.\nFinland is among the most stable, free and safe countries in the world, based on prominent ratings by various agencies. Tampere is the largest inland city of Finland, and the city is counted among the major academic hubs in the Nordic countries. Tampere region is the most rapidly growing urban area in Finland and home to a vibrant knowledge-intensive entrepreneurial community. The city is an industrial powerhouse that enjoys a rich cultural scene and a reputation as a centre of Finland’s information society. Tampere is also surrounded by vivid nature with forests and lakes, providing countless opportunities for easy-to-access outdoor adventures and refreshment throughout the year.\nRead more about Finland and Tampere:\nhttps://finland.fi/\nhttps://visittampere.fi/en/\nHow to apply\nPlease, submit your application through our online recruitment system. The closing date for applications is January 18th, 2027 (23:59 EET / UTC +2). Please write your application and all the accompanying documentation in English and attach them in PDF format.\nPlease attach only the following documents to your application:\nCurriculum Vitae, e.g., according to TENK guidelines\nList of publications\nA letter of motivation, highlighting your achievements and ambition. Please indicate your most important work/publications and/or other achievements. If you have a paper under submission, please include it as a preprint or as a link.\nShort listed applicants will be asked to submit a short research plan.\nPdf copy of your MSc and BSc degree certificates, including transcripts of all university records and their English translations (Finnish and Swedish certificates are also accepted).\nCertificate of language proficiency (if available).\nFor further information, please contact:\nAssistant Professor, Sergio Moreschini, Sergio.Moreschini (at) tuni.fi\n------------------------------\nTampereen yliopisto on ainutlaatuinen, rohkeasti tulevaisuuteen katsova, kehittyvä yhteisö ja yksi Suomen monialaisimmista yliopistoista. Meillä tekniikka, terveys ja yhteiskunta kohtaavat toisensa ainutlaatuisella tavalla. Tutkimusryhmissämme ja -hankkeissamme tehdään monitieteistä ja -alaista tutkimusta yli organisaatiorajojen. Yhteisömme on kansainvälinen, meitä on jo yli 80 maasta. Lue lisää\nTampereen yliopisto (TAU) | Tampereen yliopisto\n.\nTampereen yliopistossa on haettavana väitöskirjatutkijan tehtävä (ohjelmistotuotanto, DataOps ja MLOps).\nLue tarkemmat tiedot tehtävästä ja hakuohjeet yllä olevasta englanninkielisestä ilmoituksesta.\nJätäthän hakemuksesi yliopiston sähköisellä hakulomakkeella (linkki löytyy tämän ilmoituksen alta). Hakuaika tehtävään päättyy\n18.1.2027 klo 23:59\n."
+  },
+  "ai": {
+    "summary": "Doctoral position in software engineering focusing on DataOps maturity, data quality governance, and ML/AI pipeline management. Emphasizes empirical methods, framework development, and industry collaboration. Pure software engineering/ML ops.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 5,
+      "rationale": "No thematic fit. Position is software engineering/data science focused on AI/ML systems operations (data governance, pipeline maturity, MLOps). Researcher's themes are human-centred immersive systems, spatial cognition, collaborative interaction, and wayfinding. The only tangential connection is 'systems' but the systems are entirely different (AI infrastructure vs. immersive social HCI)."
+    },
+    "methodological_fit": {
+      "score": 15,
+      "rationale": "Position lists 'empirical software engineering methods (surveys, case studies, design science research)' as beneficial. Researcher has intermediate user-studies and experimental-design skills. However, researcher's methods are HCI-focused (task performance, questionnaires, wayfinding evaluation). Position requires data engineering, CI/CD, and AI system validation — different empirical targets. Limited methodological transfer."
+    },
+    "growth_value": {
+      "score": 5,
+      "rationale": "Would introduce Python and ML systems knowledge, but neither aligns with researcher's target identity. Position would not close gaps in eye-tracking, physiological sensing, mixed-effects modelling, advanced HCI evaluation, or collaborative XR design. Tangential coding-skills development (Python at intermediate), but not strategic for XR/HCI trajectory."
+    },
+    "strategic_value": {
+      "score": 35,
+      "rationale": "Tampere is priority-tier institution in Finland. Stable 4-year funding (Research Council of Finland), active xOps research center, strong international collaboration and industry engagement. However, software engineering / ML ops culture is distinct from human-centred XR research. Supervisor (Moreschini) specializes in DataOps/MLOps — no connection to immersive systems or HCI. Prestige and stability present but misaligned with researcher's strategic direction."
+    },
+    "required_skills": [
+      "python",
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "experimental-design",
+      "quantitative-research",
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "python-proficiency",
+      "data-engineering",
+      "ci-cd-tools",
+      "data-versioning",
+      "mlflow-or-dvc",
+      "data-governance",
+      "data-quality-frameworks"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires 'proficiency in Python or related programming language.' Researcher lists Python as beginner with 'no substantial project experience' — does not meet requirement.",
+      "Position requires Master's in Software Engineering, Data Science, Computer Science, or Machine Learning. Researcher's MSc is Creative Multimedia — disciplinary mismatch; eligibility unclear.",
+      "Admission requires acceptance into Tampere's doctoral programme in Engineering Sciences or equivalent; Creative Multimedia MSc may not qualify.",
+      "Position strongly values 'experience with CI/CD tools (GitHub Actions), data versioning (DVC), and empirical software engineering methods' — researcher lacks documented experience in all three."
+    ],
+    "risks": [
+      "Core skill gap: position requires Python proficiency; researcher is beginner without substantial project experience. Ramp-up would slow doctoral research progress.",
+      "Domain mismatch: software engineering / ML ops has no connection to spatial cognition, immersive learning, or human-centred XR design.",
+      "Research culture orthogonal: position is data infrastructure and ML systems quality; researcher's expertise is HCI user studies and immersive interaction design.",
+      "Supervisory mismatch: Moreschini's expertise (DataOps maturity, data governance) does not intersect with researcher's interests in XR, spatial learning, or collaborative systems.",
+      "Four-year commitment in a research area orthogonal to target identity (human-centred XR) represents strategic opportunity cost."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.92,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-27T16:38:09.672918Z",
+    "analysis_input_hash": "6e51dd426945f9f904ef95e692d6d845d244f31b54f4fc9ecc9919891d0f659d"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 13,
+    "urgency": "low",
+    "days_to_deadline": 52,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

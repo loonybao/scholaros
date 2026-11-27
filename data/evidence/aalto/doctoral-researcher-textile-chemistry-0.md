@@ -2,7 +2,7 @@
 source: aalto
 native_id: doctoral-researcher-textile-chemistry-0
 url: https://www.aalto.fi/en/open-positions/doctoral-researcher-textile-chemistry-0
-retrieved_at: 2026-11-23T17:38:29.432459+00:00
+retrieved_at: 2026-11-27T16:20:09.458853+00:00
 ---
 
 Aalto University is where science and art meet technology and business. We shape a sustainable future by making research breakthroughs in and across our disciplines, sparking the game changers of tomorrow and creating novel solutions to major global challenges. Our community is made up of 16 000 students and 5 200 employees, including nearly 450 professors. Our campus is in Espoo, Greater Helsinki, Finland.  Diversity is part of who we are, and we actively work to ensure our community’s diversity and inclusiveness. This is why we warmly encourage qualified candidates from all backgrounds to join our community.
@@ -50,7 +50,7 @@ firstname.lastname@aalto.fi
 ).
 Ready to apply?
 Follow the instructions carefully and submit a single pdf document (max. 10 pages in English) through the “Apply” link (not by email)
-no later than December 15, 2026.
+no later than December 7, 2026.
 If you are an Aalto employee, you should apply for the position via our internal HR system Workday (Internal Jobs) by using your existing Workday user account (not via the external webpage for open positions).
 To apply, please include the following documents in English and as a single pdf document:
 Motivation letter specific to this project and description of previous relevant research experience (1 page)

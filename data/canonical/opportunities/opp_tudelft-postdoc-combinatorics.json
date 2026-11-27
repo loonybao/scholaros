@@ -1,0 +1,175 @@
+{
+  "id": "opp_tudelft-postdoc-combinatorics",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-27T16:23:52.260308Z",
+  "updated_at": "2026-11-27T16:38:31.387497Z",
+  "change_history": [
+    {
+      "ts": "2026-11-27T16:23:52.260515Z",
+      "actor": "collector:tudelft",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-27T16:38:09.674830Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-27T16:38:31.387497Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Postdoc Combinatorics",
+    "org_id": "org_tu_delft",
+    "lab_org_id": "org_tudelft_faculty-of-electrical-engineering-mathematics-comp",
+    "source": "tudelft",
+    "source_native_id": "1378706057",
+    "canonical_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Combinatorics-2628-CD/1378706057/",
+    "apply_url": "https://careers.tudelft.nl/job/Delft-Postdoc-Combinatorics-2628-CD/1378706057/",
+    "evidence_ids": [
+      "tudelft/1378706057"
+    ],
+    "retrieved_at": "2026-11-27T16:23:52.260071Z",
+    "raw_snapshot_hash": "20d78a0e08a5b2aaa449c92b2606ef86339b80c6652784254c8da9e26cba1de2",
+    "extracted_content_hash": "da59a99b261c3da4c2cea66acf59dba0b6a7bc015f7b1fed8e8947731bd2b6eb",
+    "deadline": "2027-01-05",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "postdoc",
+    "funding": null,
+    "salary_text": "€3706 - €5760 per month (stated range)",
+    "duration_text": null,
+    "location": "Delft, Netherlands",
+    "language_requirements": [],
+    "nationality_restrictions_status": "none_stated",
+    "nationality_restrictions_text": null,
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Job description\nThe Discrete Mathematics and Optimization group within TU Delft is offering a full-time postdoc position in the area of combinatorics, co-supervised by Carla Groenland and Ross Kang (University of Amsterdam). You will have the opportunity to collaborate with postdocs, PhD candidates, and other faculty members of the research groups of Amsterdam and Delft.\nDuring the postdoc, you will work on topics at the intersection of probabilistic and extremal combinatorics, structural graph theory and algorithms. We study problems on discrete structures such as graphs, permutations, posets or set systems using probabilistic, structural and sometimes algebraic techniques.\nThis postdoc is funded by the M2 project of Condensation in Combinatorics (CoCo) of Ross Kang and Carla Groenland. A typical objective in combinatorics is to optimise a parameter (such as graph density or maximum degree) to guarantee some desired structure (such as a triangle subgraph or a large independent set). With inspiration from physical phenomena, this M2 project systematically studies such objectives as phase transitions. The project includes also a PhD student at the University of Amsterdam and generous travel budget for both local and international travel.\nBesides carrying out mathematical research and preparing scientific publications, you will be expected to actively participate in seminars and discussions within the department, and to present your work at both national and international conferences and workshops. There are no formal requirements on teaching associated with the position.\nJob requirements\nStrong communication and collaboration skills.\nPhD in mathematics or (theoretical) computer science (or close to defending a PhD).\nResearch experience related to probabilistic and extremal combinatorics or structural graph theory.\nFluent in English (no knowledge of Dutch required).\nTU Delft (Delft University of Technology)\nWorking at TU Delft means contributing to solutions that really make a difference.\nFor over 180 years, we have been training engineers who make an impact worldwide in companies, government bodies, or as entrepreneurs. Our alumni turn knowledge into concrete solutions for the challenges of today and tomorrow. These challenges are changing rapidly. That is why we focus on themes such as energy, climate, digitalisation, artificial intelligence (AI), and smart mobility every day. Our education and research are directly aligned with what society needs now and in the future.\nAt TU Delft, our people make the difference. With their knowledge and curiosity, our staff provide a high-quality education and conduct pioneering research that extends beyond the campus. You will have the opportunity to take the initiative, work with others, and grow as a professional. Working at TU Delft means join an international community of professionals and students. Together, we create knowledge, innovations, and solutions that help move the world forward.\nFaculty of Electrical Engineering, Mathematics and Computer Science\nThe Faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) brings together three scientific disciplines. Combined, they reinforce each other and are the driving force behind the technology we all use in our daily lives. Technology such as the electricity grid, which our faculty is helping to make completely sustainable and future-proof. At the same time, we are developing the chips and sensors of the future, whilst also setting the foundations for the software technologies to run on this new generation of equipment – which of course includes AI. Meanwhile we are pushing the limits of applied mathematics, for example mapping out disease processes using single cell data, and using mathematics to simulate gigantic ash plumes after a volcanic eruption. In other words: there is plenty of room at the faculty for ground-breaking research. We educate innovative engineers and have excellent labs and facilities that underline our strong international position. In total, more than 1000 employees and 4,000 students work and study in this innovative environment.\nClick\nhere\nto go to the website of the Faculty of Electrical Engineering, Mathematics and Computer Science.\nConditions of employment\nDuration of contract is 1 year with prospect of another 2 years. Temporary.\nA job of 38 hours per week.\nSalary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.\nAn excellent pension scheme via the ABP.\nThe possibility to compile an individual employment package every year.\nDiscount with health insurers on supplemental packages.\nFlexible working week.\nEvery year, 232 leave hours (at 38 hours). You can also sell or buy additional leave hours via the individual choice budget.\nPlenty of opportunities for education, training and courses.\nPartially paid parental leave\nAttention for working healthy and energetically with the vitality program.\nWill you need to relocate to the Netherlands for this job? TU Delft is committed to make your move as smooth as possible! The HR unit,\nComing to Delft Service\n, offers information on their website to help you prepare your relocation. In addition, Coming to Delft Service organises events to help you settle in the Netherlands, and expand your (social) network in Delft. A\nDual Career Programme\nis available, to support your accompanying partner with their job search in the Netherlands.  .\nAdditional information\nIf you would like more information about this vacancy or the selection procedure, please contact Carla Groenland, via\nC.E.Groenland@tudelft.nl\n.\nApplication procedure\nAre you interested in this vacancy? Please apply no later than\n5 January 2027\nvia the application button and upload the following documents:\nCV\nMotivational letter\nResearch statement\nYou can address your application to Carla Groenland.\nPlease note:\nTo protect your personal data, we only accept applications submitted via the ‘Apply’ button advertised under the vacancies on our website. Applications and additional information sent by email or through other channels, including unsolicited applications, will not be considered or responded to. This also applies to open applications.\nAs part of knowledge security, TU Delft conducts a risk assessment during the recruitment of personnel. We do this, among other things, to prevent the unwanted transfer of sensitive knowledge and technology. The assessment is based on information provided by the candidates themselves, such as their motivation letter and CV, and takes place at the final stages of the selection process. When the outcome of the assessment is negative, the candidate will be informed. The processing of personal data in the context of the risk assessment is carried out on the legal basis of the GDPR: performing a public task in the public interest. You can find more information about this assessment on our website about\nknowledge security.\nPlease do not contact us for unsolicited services."
+  },
+  "ai": {
+    "summary": "Postdoc position in combinatorics at the intersection of probabilistic and extremal combinatorics, structural graph theory, and algorithms. Funded by M2 project on phase transitions in combinatorial structures. Pure mathematics.",
+    "fit_type": "poor-fit",
+    "thematic_fit": {
+      "score": 0,
+      "rationale": "No thematic connection. Position is pure discrete mathematics (combinatorics, graph theory, probabilistic methods). Researcher's themes are human-centred immersive systems, spatial cognition, collaborative interaction, and wayfinding. Zero intersection."
+    },
+    "methodological_fit": {
+      "score": 0,
+      "rationale": "Incompatible methodologies. Position requires mathematical proof, probabilistic analysis, structural graph theory techniques. Researcher's methods are HCI user studies, experimental design, and immersive system evaluation. No shared approaches."
+    },
+    "growth_value": {
+      "score": 0,
+      "rationale": "Would not close any capability gap relevant to target identity. Researcher's gaps are in HCI evaluation (eye-tracking, physiological sensing, mixed-effects modelling), collaborative XR design depth, and spatial cognition theory. Pure mathematics offers no value."
+    },
+    "strategic_value": {
+      "score": 20,
+      "rationale": "TU Delft is priority-tier in target geography (Netherlands). Position is funded, international (co-supervision with UvA), and embedded in active research community. However, Discrete Mathematics & Optimization group and combinatorics research culture are orthogonal to researcher's strategic trajectory. Institutional prestige does not offset domain misalignment. Additionally, postdoc position is later-stage than researcher's target (doctoral or early research role)."
+    },
+    "required_skills": [
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing"
+    ],
+    "missing_skills": [
+      "combinatorics",
+      "probabilistic-combinatorics",
+      "graph-theory",
+      "extremal-combinatorics",
+      "mathematical-proof",
+      "structural-graph-theory"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Position requires 'PhD in mathematics or (theoretical) computer science (or close to defending a PhD).' Researcher has MSc (not PhD) in Creative Multimedia — does not meet eligibility.",
+      "Position requires 'research experience related to probabilistic and extremal combinatorics or structural graph theory.' Researcher has zero documented mathematics background — does not qualify.",
+      "Position is postdoc, not doctoral or early researcher role. Researcher's target positions are 'doctoral-researcher, phd-candidate, project-researcher, research-assistant-with-phd-pathway' — this is outside target tier."
+    ],
+    "risks": [
+      "Career-stage mismatch: postdoc requires PhD; researcher is MSc-stage and seeking doctoral position.",
+      "Domain entirely orthogonal: pure mathematics (combinatorics) has no connection to XR, HCI, spatial cognition, or immersive systems.",
+      "Research culture and supervision (Groenland, Kang) specialized in discrete mathematics, unrelated to researcher's strategic domain.",
+      "If researcher were somehow eligible, postdoc in pure math would delay PhD pathway and further defer immersive systems expertise development.",
+      "Geographic fit (Netherlands) does not overcome fundamental disciplinary misalignment."
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.99,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-27T16:38:09.674415Z",
+    "analysis_input_hash": "ba508a5363c9f0f411fe115ee5a9843ffbc66b8f5859210f30a72ecc43946ca5"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 3,
+    "urgency": "medium",
+    "days_to_deadline": 39,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}

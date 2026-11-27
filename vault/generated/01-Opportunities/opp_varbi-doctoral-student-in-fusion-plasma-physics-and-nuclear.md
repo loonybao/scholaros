@@ -3,10 +3,10 @@ id: opp_varbi-doctoral-student-in-fusion-plasma-physics-and-nuclear
 type: opportunity
 title: "Doctoral student in fusion plasma physics and nuclear engineering"
 organisation: "KTH Royal Institute of Technology"
-deadline: 2026-12-24
+deadline: 2027-01-07
 status: open
 eligibility_gate: uncertain
-fit_overall: 9
+fit_overall: 4
 urgency: medium
 needs_review: true
 ---
@@ -14,7 +14,7 @@ needs_review: true
 # Doctoral student in fusion plasma physics and nuclear engineering
 
 **Organisation:** [[org_kth]] (KTH Royal Institute of Technology)
-**Deadline:** 2026-12-24
+**Deadline:** 2027-01-07
 **Location:** Stockholm, Sweden
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 28)
+Gate: **uncertain** (days to deadline: 41)
 
 - funding/salary not confirmed on the posting
 - posting mentions possible nationality/export-control restrictions — verify which roles are affected
@@ -132,35 +132,36 @@ Svetlana Ratynskaia, srat@kth.se
 Published
 05.Nov.2026
 Last application date
-24.Dec.2026
+07.Jan.2027
 Apply for position
 Share links
 Return to job vacancies
 
 ## AI analysis
 
-_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.92_
+_claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.96_
 
-PhD position in fusion plasma physics and nuclear engineering at KTH focused on modelling runaway-electron-induced damage to plasma-facing components in fusion reactors using Monte Carlo simulations, thermomechanical FEM/CFD, and validation against ITER and tokamak experimental data.
+Doctoral position in fusion plasma physics focusing on runaway-electron-induced damage to plasma-facing components in ITER tokamaks. Work involves Monte Carlo simulations (electron transport), thermomechanical FEM/CFD modelling, and validation against experimental data from large fusion facilities.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 3 |
-| Methodological fit | 12 |
-| Growth value | 5 |
-| Strategic value | 20 |
-| **Overall** | **9** |
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 15 |
+| **Overall** | **4** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** cpp, statistics, mixed-effects-modelling
+**Missing skills:** monte-carlo-simulation, geant4-or-penelope-or-fluka, fortran-or-cpp, computational-fluid-dynamics, finite-element-analysis, plasma-physics, electron-transport-theory
 
 **Risks:**
-- Disciplinary drift: PhD in fusion physics moves researcher away from, not toward, human-centred XR identity
-- Significant technical skill gaps (Monte Carlo, CFD, FEM) would require substantial retraining; C++ proficiency needed but only Python beginner level evidenced
-- PhD completion (4 years) followed by postdoc in same field would consume 6–8 years before repositioning to HCI — substantial career-path cost
-- No natural supervision or research-group culture alignment with design science or human-centred methods
-- Security clearance requirement (Protective Security Act) may apply; unclear impact on non-EU candidates or those with prior international collaboration
+- Fundamental domain barrier: fusion plasma physics requires deep prior coursework in physics, plasma theory, and computational methods. Researcher's background is design/multimedia.
+- Research domain orthogonal to target identity: runaway electron damage in tokamaks has no connection to XR, HCI, spatial cognition, or immersive learning.
+- Severe skill gaps: Monte Carlo simulations (GEANT4/PENELOPE), CFD, FEM, and plasma physics theory. Ramp-up would be substantial and delay doctoral research progress.
+- Supervision orthogonal: Prof. Ratynskaia's expertise (plasma-surface interactions, electron transport) is in physics; no overlap with immersive systems or HCI.
+- Possible security clearance requirement (Swedish Protective Security Act) may introduce bureaucratic delays or barriers for non-EU applicant.
+- Four-year commitment in fusion physics would significantly delay PhD pathway in target domain.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_varbi-doctoral-student-in-fusion-plasma-physics-and-nuclear.md` and link [[opp_varbi-doctoral-student-in-fusion-plasma-physics-and-nuclear]]._

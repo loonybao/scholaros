@@ -3,10 +3,10 @@ id: opp_aalto-doctoral-researcher-textile-chemistry
 type: opportunity
 title: "Doctoral Researcher, Textile Chemistry"
 organisation: "Aalto University"
-deadline: 2026-12-15
+deadline: 2026-12-07
 status: open
 eligibility_gate: uncertain
-fit_overall: 18
+fit_overall: 6
 urgency: high
 needs_review: true
 ---
@@ -14,7 +14,7 @@ needs_review: true
 # Doctoral Researcher, Textile Chemistry
 
 **Organisation:** [[org_aalto_university]] (Aalto University)
-**Deadline:** 2026-12-15 (12:00 UTC)
+**Deadline:** 2026-12-07 (12:00 UTC)
 **Location:** Espoo, Finland
 **Position type:** phd
 **Salary:** not stated
@@ -24,7 +24,7 @@ needs_review: true
 
 ## Eligibility
 
-Gate: **uncertain** (days to deadline: 19)
+Gate: **uncertain** (days to deadline: 10)
 
 - funding/salary not confirmed on the posting
 - whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source
@@ -76,7 +76,7 @@ firstname.lastname@aalto.fi
 ).
 Ready to apply?
 Follow the instructions carefully and submit a single pdf document (max. 10 pages in English) through the “Apply” link (not by email)
-no later than December 15, 2026.
+no later than December 7, 2026.
 If you are an Aalto employee, you should apply for the position via our internal HR system Workday (Internal Jobs) by using your existing Workday user account (not via the external webpage for open positions).
 To apply, please include the following documents in English and as a single pdf document:
 Motivation letter specific to this project and description of previous relevant research experience (1 page)
@@ -120,25 +120,26 @@ here.
 
 _claude-haiku-4-5-20251001 · fit_analysis_v1 · confidence 0.95_
 
-Doctoral position in textile chemistry focused on bio-based colorant extraction from forest residues, dyeing experiments, and durability testing. Research is laboratory-intensive with emphasis on chemical characterization, experimental design, and synthesis.
+Doctoral position in bio-based colorant extraction and textile dyeing, focusing on forest industry residues, experimental characterization, and color fastness testing. Core work is chemistry/materials science with no XR, HCI, or immersive systems component.
 
 | Dimension | Score |
 |---|---|
-| Thematic fit | 5 |
-| Methodological fit | 15 |
-| Growth value | 10 |
-| Strategic value | 60 |
-| **Overall** | **18** |
+| Thematic fit | 0 |
+| Methodological fit | 5 |
+| Growth value | 0 |
+| Strategic value | 25 |
+| **Overall** | **6** |
 
 **Fit type:** poor-fit
 
-**Missing skills:** biochemistry, chemistry
+**Missing skills:** chemistry domain knowledge, spectroscopy, chromatography, textile science, enzyme assays
 
 **Risks:**
-- Complete domain mismatch: moving from software/XR into chemistry would represent a career pivot, not a natural progression.
-- No transferable technical expertise in laboratory protocols, chemical synthesis, spectroscopy, or colorimetry.
-- Research community and publication venues entirely different; network effects diminished.
-- May not meet selection criteria given chemistry background requirement and lack of textile/chemical laboratory evidence.
+- Fundamental domain mismatch: position is chemistry, researcher profile is HCI/XR design. No reasonable interpretation bridges this.
+- Researcher would need to acquire chemistry lab skills (spectroscopy, chromatography, fastness testing) with no prior lab chemistry experience.
+- Supervisor expertise (plant colorants, textile chemistry) is orthogonal to researcher's HCI and immersive systems knowledge.
+- Two-year initial contract with extension contingent on progress evaluation — high risk of misalignment surfacing within first 6 months.
+- Degree requirement ambiguity: position strongly prefers chemistry degrees; Creative Multimedia MSc may be screened out early.
 
 ---
 _Generated file — do not edit. Personal notes: create `vault/notes/opp_aalto-doctoral-researcher-textile-chemistry.md` and link [[opp_aalto-doctoral-researcher-textile-chemistry]]._

@@ -3,7 +3,7 @@
   "entity_type": "opportunity",
   "schema_version": 10,
   "created_at": "2026-11-05T14:26:07.488455Z",
-  "updated_at": "2026-11-26T16:52:59.267501Z",
+  "updated_at": "2026-11-27T16:38:31.563997Z",
   "change_history": [
     {
       "ts": "2026-11-05T14:26:07.488563Z",
@@ -245,6 +245,47 @@
         "derived.days_to_deadline"
       ],
       "note": "derived layer recomputed"
+    },
+    {
+      "ts": "2026-11-27T16:36:44.697018Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "official.deadline",
+        "official.description_text",
+        "official.extracted_content_hash",
+        "official.raw_snapshot_hash",
+        "official.retrieved_at"
+      ],
+      "note": "official facts refreshed"
+    },
+    {
+      "ts": "2026-11-27T16:38:09.676185Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-27T16:38:31.563997Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.fit_overall"
+      ],
+      "note": "derived layer recomputed"
     }
   ],
   "official": {
@@ -258,10 +299,10 @@
     "evidence_ids": [
       "varbi/kth-985374"
     ],
-    "retrieved_at": "2026-11-17T15:53:03.349118Z",
-    "raw_snapshot_hash": "886156fa98b88b79d917e4c0c3b5f5a4e58e0a6f8a509f70cc045ec67ff32b75",
-    "extracted_content_hash": "035f6d199205cabf80ab821541cf81005236ee33a6c1ff24d5a2e1f99dac08d8",
-    "deadline": "2026-12-24",
+    "retrieved_at": "2026-11-27T16:36:44.696129Z",
+    "raw_snapshot_hash": "5cbea7d198867a20c131928f66ee52f81e36505effe302ce7caae6b783ff4578",
+    "extracted_content_hash": "7a67c0fc0ef651a0559c6c63fb5938a1600f9ca806ebc9cfb00b04b6dcea8414",
+    "deadline": "2027-01-07",
     "deadline_note": null,
     "start_date": null,
     "start_date_value": null,
@@ -279,54 +320,59 @@
     "mobility_requirement_status": "none_stated",
     "mobility_requirement_text": null,
     "status": "open",
-    "description_text": "Doctoral student in fusion plasma physics and nuclear engineering\nApply for position\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nProject description\nThird-cycle subject:\nElectrical Engineering\nThe provision of plasma-facing components (PFCs) with sufficient lifetime is one of the major technological obstacles to be overcome in developing fusion reactors. Recently, the damage of PFCs due to interaction with runaway electrons (RE) has become a highly critical issue in evaluations of disruption consequences.\nITER\n, currently seeks for the validation of relevant numerical models and tools against existing experimental evidence in order to gain confidence in their applications to predictive reactor modelling.\nPhD project will focus on the development of modelling tools for simulations of RE-induced PFC damage and their validation against data from\nEUROfusion Consortium\n, and\nDIII-D (USA)\n. The validated models will be employed for predictive modelling of specific ITER scenarios following input from the ITER Organization. The modelling of MeV RE energy deposition in PFCs will be performed with Monte Carlo simulations. These results will serve as input for the thermomechanical models to be developed in FEM and CFD software to address severe deformation and potential explosion of the material.\nWe offer expertise in the theory and modelling of plasma-surface interactions and electron transport into matter, access to state-of-the-art experimental data from the largest tokamaks worldwide and close collaboration with the Experiments & Plasma Operation Section of the ITER Organization.\nSupervision:\nProf. S. Ratynskaia. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nProgramming skills in languages such as Fortran, Python, or C/C++,  is required for this position.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work,\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues,\ndemonstrate familiarity with the modelling of electron transport into matter with Monte Carlo techniques (i.e. GEANT4, PENELOPE, FLUKA etc.\ndemonstrate familiarity with basic computational fluid dynamics techniques and\ndemonstrate familiarity with basic computational solid mechanics techniques.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages. Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3761\nContact\nSvetlana Ratynskaia, srat@kth.se\nPublished\n05.Nov.2026\nLast application date\n24.Dec.2026\nApply for position\nShare links\nReturn to job vacancies"
+    "description_text": "Doctoral student in fusion plasma physics and nuclear engineering\nApply for position\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nProject description\nThird-cycle subject:\nElectrical Engineering\nThe provision of plasma-facing components (PFCs) with sufficient lifetime is one of the major technological obstacles to be overcome in developing fusion reactors. Recently, the damage of PFCs due to interaction with runaway electrons (RE) has become a highly critical issue in evaluations of disruption consequences.\nITER\n, currently seeks for the validation of relevant numerical models and tools against existing experimental evidence in order to gain confidence in their applications to predictive reactor modelling.\nPhD project will focus on the development of modelling tools for simulations of RE-induced PFC damage and their validation against data from\nEUROfusion Consortium\n, and\nDIII-D (USA)\n. The validated models will be employed for predictive modelling of specific ITER scenarios following input from the ITER Organization. The modelling of MeV RE energy deposition in PFCs will be performed with Monte Carlo simulations. These results will serve as input for the thermomechanical models to be developed in FEM and CFD software to address severe deformation and potential explosion of the material.\nWe offer expertise in the theory and modelling of plasma-surface interactions and electron transport into matter, access to state-of-the-art experimental data from the largest tokamaks worldwide and close collaboration with the Experiments & Plasma Operation Section of the ITER Organization.\nSupervision:\nProf. S. Ratynskaia. Decisions are made on admission.\nAdmission requirements\nTo be admitted to postgraduate education (Chapter 7, 39 § Swedish Higher Education Ordinance), the applicant must have basic eligibility in accordance with either of the following:\npassed a second cycle degree (for example a master's degree), or\ncompleted course requirements of at least 240 higher education credits, of which at least 60 second-cycle higher education credits, or\nacquired, in some other way within or outside the country, substantially equivalent knowledge\nProgramming skills in languages such as Fortran, Python, or C/C++,  is required for this position.\nIn addition to the above, there is also a\nmandatory requirement for English equivalent to English B/6.\nSelection\nIn order to succeed as a doctoral student at KTH you need to be goal oriented and persevering in your work. During the selection process, candidates will be assessed upon their ability to:\nindependently pursue his or her work,\ncollaborate with others,\nhave a professional approach,\nanalyze and work with complex issues,\ndemonstrate familiarity with the modelling of electron transport into matter with Monte Carlo techniques (i.e. GEANT4, PENELOPE, FLUKA etc.\ndemonstrate familiarity with basic computational fluid dynamics techniques and\ndemonstrate familiarity with basic computational solid mechanics techniques.\nAfter the qualification requirements, great emphasis will be placed on personal skills.\nTarget degree: Doctoral degree\nInformation regarding admission and employment\nOnly those admitted to postgraduate education may be employed as a doctoral student. The total length of employment may not be longer than what corresponds to full-time doctoral education in four years' time. An employed doctoral student can, to a limited extent (maximum 20%), perform certain tasks within their role, e.g. training and administration. A new position as a doctoral student is for a maximum of one year, and then the employment may be renewed for a maximum of two years at a time. In the case of studies that are to be completed with a licentiate degree, the total period of employment may not be longer than what corresponds to full-time doctoral education for two years.\nAs a doctoral student, you are entitled to a workplace with\nmany employee benefits\nand monthly salary according to\nKTH’s Doctoral student salary agreement\n. Read more about\nDoctoral studies (PhD) | KTH | Sweden\n.\nUnion representatives\nContact information for\nunion representatives.\nDoctoral Student’s network (Students’ union on KTH Royal Institute of Technology)\nContact information for\nPhD chapter\n.\nTo apply for the position\nApply for the position and admission through KTH's recruitment system. It is the applicant’s responsibility to ensure that the application is complete in accordance with the instructions in the advertisement.\nApplications must include the following elements:\nCopies of diplomas and grades from previous university studies and certificates of fulfilled\nlanguage requirements (see above)\n. Translations into English or Swedish if the original document is not issued in one of these languages. Copies of originals must be\ncertified\n.\nCV including your relevant professional experience and knowledge.\nApplication letter with a brief description of why you want to pursue research studies, about what your academic interests are and how they relate to your previous studies and future goals. (Maximum 2 pages long)\nRepresentative publications or technical reports. For longer documents, please provide a summary (abstract) and a web link to the full text.\nApplications must be received at the last closing date at midnight, CET/CEST (Central European Time/Central European Summer Time).\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\nType of employment\nTemporary position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary according to KTH's doctoral student salary agreement\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-3761\nContact\nSvetlana Ratynskaia, srat@kth.se\nPublished\n05.Nov.2026\nLast application date\n07.Jan.2027\nApply for position\nShare links\nReturn to job vacancies"
   },
   "ai": {
-    "summary": "PhD position in fusion plasma physics and nuclear engineering at KTH focused on modelling runaway-electron-induced damage to plasma-facing components in fusion reactors using Monte Carlo simulations, thermomechanical FEM/CFD, and validation against ITER and tokamak experimental data.",
+    "summary": "Doctoral position in fusion plasma physics focusing on runaway-electron-induced damage to plasma-facing components in ITER tokamaks. Work involves Monte Carlo simulations (electron transport), thermomechanical FEM/CFD modelling, and validation against experimental data from large fusion facilities.",
     "fit_type": "poor-fit",
     "thematic_fit": {
-      "score": 3,
-      "rationale": "No thematic connection to human-centred XR, immersive learning, spatial cognition, or collaborative systems. Position is in physics and nuclear engineering; researcher's domain is HCI and human-centred technology design. The mention of 'simulations' does not bridge disciplinary intent."
+      "score": 0,
+      "rationale": "No thematic overlap. Position is physics/nuclear engineering (fusion plasma, runaway electrons, PFC damage, reactor modelling). Researcher's themes are human-centred immersive systems, spatial cognition, collaborative interaction, and wayfinding. Zero connection."
     },
     "methodological_fit": {
-      "score": 12,
-      "rationale": "Position requires Python/Fortran/C++ programming (researcher has intermediate Python, advanced C#); Monte Carlo modelling, CFD and FEM (no evidence); computational solid mechanics (no evidence). Researcher has intermediate experimental design and quantitative research. Methodological foundation exists in coding and simulation mindset, but all specific technical methods (Monte Carlo transport, FEM thermomechanics, CFD) are absent from profile."
+      "score": 5,
+      "rationale": "Both involve computational modelling and experimental validation, but contexts and techniques are entirely different. Position requires Monte Carlo simulations (GEANT4, PENELOPE, FLUKA), FEM/CFD thermomechanical modelling, and fusion physics expertise. Researcher's methods are HCI user studies and immersive system evaluation. No meaningful methodological transfer."
     },
     "growth_value": {
-      "score": 5,
-      "rationale": "PhD would develop advanced computational modelling and physics simulation skills, but does not address researcher's stated growth needs: deeper immersive systems design, spatial cognition measurement techniques, collaborative interaction design, or advanced HCI research methods. Physics simulation expertise has no direct path to human-centred XR research."
+      "score": 0,
+      "rationale": "Would not advance target identity or close capability gaps. Researcher's gaps are in HCI evaluation depth (eye-tracking, physiological sensing, mixed-effects modelling), collaborative XR design, and spatial cognition theory. Fusion physics and Monte Carlo simulations offer no leverage toward those goals."
     },
     "strategic_value": {
-      "score": 20,
-      "rationale": "KTH is in target geography (Sweden, priority country). Doctoral pathway aligns with target position types (phd-candidate). However, supervisor (Prof. S. Ratynskaia) expertise is fusion plasma physics; no indication of human-centred or design-science research culture. Funding via ITER/EUROfusion is stable but thematically unrelated. PhD completion in this area would create friction with human-centred XR target identity at subsequent postdoc/faculty level."
+      "score": 15,
+      "rationale": "KTH is well-regarded technical university in Sweden (target geography, priority country). Access to ITER collaboration and EUROfusion Consortium represents high-level research infrastructure. However, fusion plasma physics is orthogonal to researcher's strategic domain. Supervision (Prof. Ratynskaia, plasma-surface interactions) is unrelated to XR/HCI. Prestige and infrastructure do not offset fundamental domain misalignment. Additionally, posting hints at possible security clearance requirements, which may introduce complexity."
     },
     "required_skills": [
-      "python",
-      "cpp"
+      "academic-writing"
     ],
     "preferred_skills": [],
     "skill_evidence": {},
     "matched_skills": [
-      "python"
+      "academic-writing"
     ],
     "missing_skills": [
-      "cpp",
-      "statistics",
-      "mixed-effects-modelling"
+      "monte-carlo-simulation",
+      "geant4-or-penelope-or-fluka",
+      "fortran-or-cpp",
+      "computational-fluid-dynamics",
+      "finite-element-analysis",
+      "plasma-physics",
+      "electron-transport-theory"
     ],
     "transferable_strengths": [],
     "eligibility_flags": [
-      "Requires MSc degree or equivalent 240 credits with 60 second-cycle credits. Researcher holds MSc by Research in progress; completion by application deadline (24 Dec 2026) for start 'according to agreement' is timeline-dependent.",
-      "Mandatory English B/6 equivalent required; no language barrier evident in profile.",
-      "Selection criteria explicitly emphasise Monte Carlo electron-transport familiarity (GEANT4, PENELOPE, FLUKA), CFD and computational solid mechanics — none documented in researcher's evidence.",
-      "Position emphasises independent pursuit, collaboration, professional approach; personal skills will be weighted but technical familiarity gaps are explicit requirements."
+      "Position requires 'programming skills in languages such as Fortran, Python, or C/C++.' Researcher has advanced C# (Unity), intermediate Python (beginner, no substantial project experience), but no documented Fortran or C++ experience. Partial eligibility on Python but weak.",
+      "Position requires 'familiarity with modelling of electron transport into matter with Monte Carlo techniques (GEANT4, PENELOPE, FLUKA).' Researcher has zero documented Monte Carlo or particle-transport simulation experience.",
+      "Position requires 'familiarity with basic computational fluid dynamics techniques and computational solid mechanics techniques.' Researcher has no documented CFD or FEM background.",
+      "Position may be classified as security-sensitive under Swedish Protective Security Act (2018:585), triggering security clearance requirement. Researcher's non-EU background (Malaysia) may introduce delays or complications.",
+      "Admission requires Master's (or equivalent 240+ credits with 60+ second-cycle). Researcher has MSc by Research in-progress, still in thesis stage — may not yet hold completed degree at application/admission time."
     ],
     "risks": [
-      "Disciplinary drift: PhD in fusion physics moves researcher away from, not toward, human-centred XR identity",
-      "Significant technical skill gaps (Monte Carlo, CFD, FEM) would require substantial retraining; C++ proficiency needed but only Python beginner level evidenced",
-      "PhD completion (4 years) followed by postdoc in same field would consume 6–8 years before repositioning to HCI — substantial career-path cost",
-      "No natural supervision or research-group culture alignment with design science or human-centred methods",
-      "Security clearance requirement (Protective Security Act) may apply; unclear impact on non-EU candidates or those with prior international collaboration"
+      "Fundamental domain barrier: fusion plasma physics requires deep prior coursework in physics, plasma theory, and computational methods. Researcher's background is design/multimedia.",
+      "Research domain orthogonal to target identity: runaway electron damage in tokamaks has no connection to XR, HCI, spatial cognition, or immersive learning.",
+      "Severe skill gaps: Monte Carlo simulations (GEANT4/PENELOPE), CFD, FEM, and plasma physics theory. Ramp-up would be substantial and delay doctoral research progress.",
+      "Supervision orthogonal: Prof. Ratynskaia's expertise (plasma-surface interactions, electron transport) is in physics; no overlap with immersive systems or HCI.",
+      "Possible security clearance requirement (Swedish Protective Security Act) may introduce bureaucratic delays or barriers for non-EU applicant.",
+      "Four-year commitment in fusion physics would significantly delay PhD pathway in target domain."
     ],
     "rejection_reasons": [],
     "future_group_value": null,
@@ -334,14 +380,14 @@
     "funding_assessment": null,
     "recommendation": null,
     "next_action": null,
-    "confidence": 0.92,
+    "confidence": 0.96,
     "model": "claude-haiku-4-5-20251001",
     "prompt_version": "fit_analysis_v1",
     "analysis_provider": "claude-haiku-4-5-20251001",
     "analysis_mode": "automated",
     "analysis_status": "provisional",
-    "analyzed_at": "2026-11-17T15:55:54.822299Z",
-    "analysis_input_hash": "cad14dcbada48dbeb876ae4c72cff7b87132005a85efcf45dad55c49ff232433"
+    "analyzed_at": "2026-11-27T16:38:09.675630Z",
+    "analysis_input_hash": "e355370fba99416a688198d57611760e9e87f5c6b7029e2d899408e5e9546cc8"
   },
   "derived": {
     "eligibility_gate": "uncertain",
@@ -350,9 +396,9 @@
       "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
       "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
     ],
-    "fit_overall": 9,
+    "fit_overall": 4,
     "urgency": "medium",
-    "days_to_deadline": 28,
+    "days_to_deadline": 41,
     "needs_review": true,
     "timing_assessment": "timing_unknown"
   },

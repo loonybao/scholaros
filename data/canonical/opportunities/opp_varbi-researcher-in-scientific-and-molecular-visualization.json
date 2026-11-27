@@ -1,0 +1,176 @@
+{
+  "id": "opp_varbi-researcher-in-scientific-and-molecular-visualization",
+  "entity_type": "opportunity",
+  "schema_version": 10,
+  "created_at": "2026-11-27T16:32:07.524370Z",
+  "updated_at": "2026-11-27T16:38:31.762988Z",
+  "change_history": [
+    {
+      "ts": "2026-11-27T16:32:07.524563Z",
+      "actor": "collector:varbi",
+      "fields_changed": [
+        "*created*"
+      ],
+      "note": "discovered by collector"
+    },
+    {
+      "ts": "2026-11-27T16:38:30.318629Z",
+      "actor": "ai",
+      "fields_changed": [
+        "ai.analysis_input_hash",
+        "ai.analysis_mode",
+        "ai.analysis_provider",
+        "ai.analysis_status",
+        "ai.analyzed_at",
+        "ai.confidence",
+        "ai.eligibility_flags",
+        "ai.fit_type",
+        "ai.growth_value",
+        "ai.matched_skills",
+        "ai.methodological_fit",
+        "ai.missing_skills",
+        "ai.model",
+        "ai.preferred_skills",
+        "ai.prompt_version",
+        "ai.rejection_reasons",
+        "ai.required_skills",
+        "ai.risks",
+        "ai.skill_evidence",
+        "ai.strategic_value",
+        "ai.summary",
+        "ai.thematic_fit",
+        "ai.transferable_strengths"
+      ],
+      "note": "interactive analysis (claude-haiku-4-5-20251001)"
+    },
+    {
+      "ts": "2026-11-27T16:38:31.762988Z",
+      "actor": "rules",
+      "fields_changed": [
+        "derived.days_to_deadline",
+        "derived.eligibility_reasons",
+        "derived.fit_overall",
+        "derived.needs_review",
+        "derived.urgency"
+      ],
+      "note": "derived layer recomputed"
+    }
+  ],
+  "official": {
+    "title": "Researcher in scientific and molecular visualization",
+    "org_id": "org_kth",
+    "lab_org_id": null,
+    "source": "varbi",
+    "source_native_id": "kth-994829",
+    "canonical_url": "https://kth.varbi.com/en/what:job/jobID:994829/",
+    "apply_url": null,
+    "evidence_ids": [
+      "varbi/kth-994829"
+    ],
+    "retrieved_at": "2026-11-27T16:32:07.524118Z",
+    "raw_snapshot_hash": "40daf19d164424362d169ffae9b6da05a1692c103c56016cd2192f653091b3f0",
+    "extracted_content_hash": "c48e739335304830c78f87e2e3860f3d2a58da03eb0a95d3e9e02cec6d5dfefa",
+    "deadline": "2026-12-18",
+    "deadline_note": null,
+    "start_date": null,
+    "start_date_value": null,
+    "start_date_negotiable": null,
+    "completed_degree_required_before_start": null,
+    "posted_date": null,
+    "position_type": "other",
+    "funding": null,
+    "salary_text": null,
+    "duration_text": null,
+    "location": "Stockholm, Sweden",
+    "language_requirements": [],
+    "nationality_restrictions_status": "ambiguous",
+    "nationality_restrictions_text": "Posting mentions: …y-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security…",
+    "mobility_requirement_status": "none_stated",
+    "mobility_requirement_text": null,
+    "status": "open",
+    "description_text": "Researcher in scientific and molecular visualization\nApply for position\nKTH Royal Institute of Technology, School of Electrical Engineering and Computer Science\nJob description\nPDC is seeking a new member to join its team of research software engineers. The successful candidate will become part of the Scientific Services Group, which is tasked to develop software, and services, enabling research which can streamline data analysis and workflows for scientists at KTH and across Sweden.\nIn this role, the applicant will be responsible for the development and maintenance of\nVIAMD\n, a tool for visualizing and interactively analyzing chemistry simulations. Additionally, they will lead collaboration efforts with researchers at the\nWallenberg Wood Science Center (WWSC)\nand support molecular dynamics simulations of materials studied at WWSC.\nQualifications\nRequirements\nA doctoral degree or an equivalent foreign degree in scientific molecular visualization.\nAdvanced experience in software programming languages like C/C++\nLong experience in developing 3D graphic applications with tools like OpenGL, OpenCL, CUDA.\nGood communication skills with users to inform them of our services.\nGood knowledge of the English language, as it is required in day to day work.\nKnowledge of diversity and equal treatment issues with a particular focus on gender equality.\nPreferred qualifications\nThe applicant should have good connections with swedish network of users that today make use of swedish supercomputer resources, and within networks focusing on molecular visualization.\nWe consider it favorable if the applicant has a broad knowledge of programming languages commonly used in this particular area today.\nExperience of developing and leading visualization project will be viewed as favorable.\nGreat emphasis will be placed on personal skills.\nJoin us at KTH\nKTH shapes the future through education, research and innovation. As a leading international technical university, we play an active role in advancing the transition towards a sustainable society. At KTH, you have the opportunity to grow and develop in a creative and dynamic environment, with good working conditions and attractive benefits. Equality, diversity and equal opportunities are essential to quality and form an integral part of KTH’s core values as a university and public authority.\nLearn more about our benefits and what it's like to work and grow at KTH\n.\nTrade union representatives\nContact information to\ntrade union representatives\n.\nTo apply for the position\nLog into KTH's recruitment system in order to apply for this position. You are responsible to ensure that your application is complete according to the instructions in the ad.\nThe application must include:\nCV including relevant professional experience and knowledge.\nCopy of diplomas and grades from your previous university studies. Translations into English or Swedish if the original documents have not been issued in any of these languages.\nBrief account of why you want to conduct research, your academic interests and how they relate to your previous studies and future goals. Max two pages long.\nYour complete application must be received by KTH no later than the last day of application, midnight CET/CEST (Central European Time/Central European Summer Time).\nAbout the employment\nThe employment is valid until further notice (permanent post) according to agreement.\nThe employment begins with a six-month probationary period.\nOther information\nFor\ninformation about processing of personal data\nin the recruitment process.\nIt may be the case that a position at KTH is classified as a security-sensitive role in accordance with the Protective Security Act (2018:585). If this applies to the specific position, a security clearance will be conducted for the applicant in accordance with the same law with the applicant's consent. In such cases, a prerequisite for employment is that the applicant is approved following the security clearance.\nWe firmly decline all contact with staffing and recruitment agencies and job ad salespersons.\nDisclaimer:\nIn case of discrepancy between the Swedish original and the English translation of the job announcement, the Swedish version takes precedence\nType of employment\nPermanent position\nContract type\nFull time\nFirst day of employment\nAccording to agreement\nSalary\nMonthly salary\nNumber of positions\n1\nFull-time equivalent\n100%\nCity\nStockholm\nCounty\nStockholms län\nCountry\nSweden\nReference number\nPA-2026-4085\nContact\nHenric Zazzi, hzazzi@kth.se\nPublished\n27.Nov.2026\nLast application date\n18.Dec.2026\nApply for position\nShare links\nReturn to job vacancies"
+  },
+  "ai": {
+    "summary": "Research software engineer position (permanent) in the Scientific Services Group at KTH's PDC centre, focused on developing and maintaining VIAMD visualization software for chemistry simulations and molecular dynamics, plus collaboration with the Wallenberg Wood Science Center.",
+    "fit_type": "adjacent-methodological-fit",
+    "thematic_fit": {
+      "score": 35,
+      "rationale": "Moderate surface thematic overlap in visualization and 3D interactive systems, but the connection is technical, not human-centred. The core mission is visualization tool development for scientific workflows, not evaluation of human understanding, learning outcomes, or collaborative interaction design. While VIAMD involves interactive visualization, the position is fundamentally a software engineering role for domain scientists, not human-centred HCI research."
+    },
+    "methodological_fit": {
+      "score": 48,
+      "rationale": "Partial methodological fit exists in interactive 3D system design and software development (researcher has advanced Unity and C# skills). However, the posting emphasizes graphics rendering (OpenGL, OpenCL, CUDA), which the researcher has not demonstrated proficiency in and which is explicitly listed as an excluded direction (graphics-rendering). The role requires deep systems-level graphics optimization and 3D rendering expertise, not user-centred evaluation or immersive experience design. No user studies, human evaluation, or learning assessment component is mentioned."
+    },
+    "growth_value": {
+      "score": 32,
+      "rationale": "Limited growth value. The role would develop graphics programming and 3D visualization skills, which are tangential to—but distinct from—human-centred XR research. The researcher would gain experience maintaining and extending 3D software systems, but would not develop capabilities in experimental design, user research methods, collaborative systems evaluation, or spatial cognition research that align with their target identity. The focus is technical delivery for domain scientists, not research into human interaction or learning."
+    },
+    "strategic_value": {
+      "score": 44,
+      "rationale": "Moderate strategic value. KTH is in Sweden (a preferred country), and the position is permanent with stability and international exposure. However, this is a research software engineering role within a computational center, not a doctoral research position within an HCI/XR research group. The supervisor context (Henri Zazzi, PDC Scientific Services) is not documented in relation to human-centred research. While the role offers professional growth and Swedish placement, it does not align with the researcher's target trajectory toward human-centred immersive systems research or doctoral positions in HCI-focused groups."
+    },
+    "required_skills": [
+      "cpp",
+      "academic-writing"
+    ],
+    "preferred_skills": [],
+    "skill_evidence": {},
+    "matched_skills": [
+      "academic-writing",
+      "three-dimensional-interaction"
+    ],
+    "missing_skills": [
+      "cpp",
+      "csharp",
+      "unreal-engine"
+    ],
+    "transferable_strengths": [],
+    "eligibility_flags": [
+      "Requires doctoral degree in scientific/molecular visualization or equivalent; researcher's MSc is in Multimedia/HCI with XR focus, not in visualization per se. Equivalence would need to be argued.",
+      "Posting demands 'long experience in developing 3D graphic applications with tools like OpenGL, OpenCL, CUDA'—researcher has no documented experience with these graphics APIs. Advanced Unity/C# does not automatically transfer to lower-level graphics work.",
+      "Role is permanent and permanent position suggests long-term commitment; alignment with researcher's target identity is weak, raising questions about career sustainability in this track."
+    ],
+    "risks": [
+      "Graphics-rendering emphasis (OpenGL, OpenCL, CUDA) aligns with an excluded direction in the researcher's target profile",
+      "Role is software engineering focused, not research focused; unlikely to lead naturally toward doctoral research positions in human-centred HCI",
+      "Limited user research or human evaluation component; researcher would spend career improving visualization tools for scientists, not researching human interaction or learning in immersive systems",
+      "May be perceived as a technical/engineering track rather than a research track, potentially limiting future applications to pure research positions",
+      "Researcher's documented graphics skills are not at the level required (would need to self-study OpenGL/CUDA architecture)"
+    ],
+    "rejection_reasons": [],
+    "future_group_value": null,
+    "future_group_rationale": null,
+    "funding_assessment": null,
+    "recommendation": null,
+    "next_action": null,
+    "confidence": 0.75,
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "fit_analysis_v1",
+    "analysis_provider": "claude-haiku-4-5-20251001",
+    "analysis_mode": "automated",
+    "analysis_status": "provisional",
+    "analyzed_at": "2026-11-27T16:38:30.318188Z",
+    "analysis_input_hash": "96ad634e60960b9ff783c4feed90c0c33d43cb054f92683519fbf700a26d3cf6"
+  },
+  "derived": {
+    "eligibility_gate": "uncertain",
+    "eligibility_reasons": [
+      "funding/salary not confirmed on the posting",
+      "posting mentions possible nationality/export-control restrictions — verify which roles are affected",
+      "whether a completed degree is required before employment is not stated; your MSc is still in progress — verify with the source"
+    ],
+    "fit_overall": 40,
+    "urgency": "high",
+    "days_to_deadline": 21,
+    "needs_review": true,
+    "timing_assessment": "timing_unknown"
+  },
+  "manual": {
+    "notes": "",
+    "tags": [],
+    "eligibility_override": null,
+    "priority_override": null,
+    "user_status": null,
+    "hidden": false
+  }
+}
