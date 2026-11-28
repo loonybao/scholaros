@@ -1,43 +1,43 @@
 {
   "tampere": {
-    "last_run": "2026-11-27T16:22:14.650268+00:00",
-    "last_success": "2026-11-27T16:22:14.650268+00:00",
+    "last_run": "2026-11-28T15:15:32.530803+00:00",
+    "last_success": "2026-11-28T15:15:32.530803+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 11,
+      "fetched": 10,
       "relevant": 7,
-      "created": 2,
+      "created": 0,
       "updated": 0,
-      "unchanged": 5,
+      "unchanged": 7,
       "candidates": 0,
-      "skipped_irrelevant": 4
+      "skipped_irrelevant": 3
     }
   },
   "aalto": {
-    "last_run": "2026-11-27T16:21:28.542599+00:00",
-    "last_success": "2026-11-27T16:21:28.542599+00:00",
+    "last_run": "2026-11-28T15:14:48.272008+00:00",
+    "last_success": "2026-11-28T15:14:48.272008+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
       "fetched": 31,
       "relevant": 18,
       "created": 0,
-      "updated": 1,
-      "unchanged": 17,
+      "updated": 0,
+      "unchanged": 18,
       "candidates": 0,
       "skipped_irrelevant": 13
     }
   },
   "tudelft": {
-    "last_run": "2026-11-27T16:31:48.737711+00:00",
-    "last_success": "2026-11-27T16:31:48.737711+00:00",
+    "last_run": "2026-11-28T15:24:41.859274+00:00",
+    "last_success": "2026-11-28T15:24:41.859274+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 73,
-      "relevant": 49,
-      "created": 2,
+      "fetched": 71,
+      "relevant": 47,
+      "created": 0,
       "updated": 0,
       "unchanged": 47,
       "candidates": 4,
@@ -60,18 +60,18 @@
     }
   },
   "varbi": {
-    "last_run": "2026-11-27T16:37:31.216582+00:00",
-    "last_success": "2026-11-27T16:37:31.216582+00:00",
+    "last_run": "2026-11-28T15:30:00.286037+00:00",
+    "last_success": "2026-11-28T15:30:00.286037+00:00",
     "consecutive_errors": 0,
     "last_error": null,
     "last_stats": {
-      "fetched": 63,
-      "relevant": 36,
-      "created": 2,
-      "updated": 1,
-      "unchanged": 33,
+      "fetched": 60,
+      "relevant": 34,
+      "created": 0,
+      "updated": 0,
+      "unchanged": 34,
       "candidates": 5,
-      "skipped_irrelevant": 22
+      "skipped_irrelevant": 21
     }
   }
 }
